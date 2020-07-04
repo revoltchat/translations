@@ -20,7 +20,7 @@ By running `process.js` all language files will be compared to `en.json` and a c
 
  File | Coverage | Missing keys | Extraneous keys
 ------|-----|--------------|-----------------
-cz.json | `92.31%` | `general.image_by` | 
+cz.json | `100.00%` |  | 
 en.json | `100.00%` |  | 
 fr.json | `100.00%` |  | 
 hu.json | `0.00%` | `general.about`<br>`general.tos`<br>`general.privacy`<br>`general.image_by`<br>`login.title`<br>`login.email`<br>`login.password`<br>`login.enter.email`<br>`login.enter.password`<br>`login.forgot`<br>`login.new`<br>`login.create`<br>`app.main.channel.message` | 
