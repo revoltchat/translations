@@ -14,6 +14,7 @@ Russian | Up-to-date | Wait What
 Hungarian | Pending. | Organic Coke
 French | Up-to-date | JetBoxOne
 Swedish | Up-to-date | Yann Seeker
+Macedonian | Up-to-date | Bloectasy
 
 ## Coverage
 
@@ -26,6 +27,7 @@ en.json | `100.00%` |  |
 fr.json | `100.00%` |  | 
 hu.json | `0.00%` | `general.about`<br>`general.tos`<br>`general.privacy`<br>`general.image_by`<br>`login.title`<br>`login.email`<br>`login.password`<br>`login.enter.email`<br>`login.enter.password`<br>`login.forgot`<br>`login.new`<br>`login.create`<br>`app.main.channel.message` | 
 lt.json | `100.00%` |  | 
+mk.json | `100.00%` |  | 
 pl.json | `100.00%` |  | 
 ru.json | `100.00%` |  | 
 se.json | `100.00%` |  | 
