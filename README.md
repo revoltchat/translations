@@ -13,6 +13,7 @@ Czech | Up-to-date | Fatalerrorcoded
 Russian | Up-to-date | Wait What
 Hungarian | Pending. | Organic Coke
 French | Up-to-date | JetBoxOne
+Swedish | Up-to-date | Yann Seeker
 
 ## Coverage
 
@@ -27,3 +28,4 @@ hu.json | `0.00%` | `general.about`<br>`general.tos`<br>`general.privacy`<br>`ge
 lt.json | `100.00%` |  | 
 pl.json | `100.00%` |  | 
 ru.json | `100.00%` |  | 
+se.json | `100.00%` |  | 
