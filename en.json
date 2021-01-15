@@ -49,6 +49,16 @@
             "channel": {
                 "message": "Message {{name}}"
             }
+        },
+        "special": {
+            "friends": {
+                "pending": "Pending",
+                "blocked": "Blocked"
+            }
+        },
+        "context_menu": {
+            "copy_id": "Copy ID",
+            "block_user": "Block User"
         }
     },
     "dayjs": {
@@ -58,5 +68,30 @@
         "lastWeek": "[Last] dddd [at] LT",
         "nextWeek": "dddd [at] LT",
         "sameElse": "L"
+    },
+    "error": {
+        "unlabelled": "Something happened.",
+        "failed_validation": "Failed to validate fields.",
+        "database_error": "Database error.",
+        "internal_error": "Internal error.",
+        "unknown_error": "See console.",
+        "operation_failed": "Operation failed.",
+        "missing_headers": "Missing headers.",
+        "invalid_session": "Invalid session.",
+        "unverified_account": "Unverified account.",
+        "unknown_user": "Unknown user.",
+        "email_in_use": "Email in use.",
+        "wrong_password": "Wrong password.",
+        "already_onboarded": "Already finished onboarding.",
+        "username_taken": "Username is taken.",
+        "already_friends": "Already friends with this user.",
+        "already_sent_request": "Already sent a request to this user.",
+        "blocked": "You have blocked this user.",
+        "blocked_other": "This user has blocked you.",
+        "no_effect": "This request had no effect.",
+        "required_field": "Required",
+        "too_short": "Too short",
+        "too_long": "Too long",
+        "invalid_email": "Invalid email address"
     }
 }
