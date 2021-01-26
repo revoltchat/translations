@@ -15,7 +15,11 @@
         },
         "forgot": "Zapomenuté heslo?",
         "new": "Nově u REVOLT?",
-        "create": "Vytvořte nový účet."
+        "create": "Vytvořte nový účet.",
+        "reset": "Resetovat heslo",
+        "remembered": "Vrátit se k přihlášení.",
+        "cancel": "Zrušit žádost.",
+        "register": "Registrovat"
     },
     "app": {
         "main": {
@@ -32,7 +36,9 @@
             "tabs": {
                 "home": "Domů",
                 "unreads": "Nepřečteno",
-                "friends": "Přátelé"
+                "friends": "Přátelé",
+                "dev": "Vývojář",
+                "saved": "Uložené Zprávy"
             }
         },
         "status": {
@@ -41,6 +47,41 @@
             "busy": "Zaneprázdněn",
             "idle": "Neaktivní",
             "online": "Online"
+        },
+        "special": {
+            "friends": {
+                "blocked": "Zablokovaní",
+                "incoming": "Příchozí žádost o přátelství.",
+                "outgoing": "Odchozí žádost o přátelství."
+            },
+            "modals": {
+                "clipboard": {
+                    "https": "Nejste zrovna v kontextu HTTPS."
+                },
+                "signed_out": "Byli jste odhlášeni!",
+                "actions": {
+                    "ok": "Ok",
+                    "close": "Zavřít",
+                    "reload": "Přenačíst aplikaci",
+                    "continue": "Pokračovat",
+                    "cancel": "Zrušit"
+                },
+                "onboarding": {
+                    "welcome": "Vítejte v REVOLT!",
+                    "pick": "Vyberte si uživatelské jméno."
+                },
+                "error": "Vyskytla se chyba!"
+            },
+            "status": {
+                "offline": "Offline.",
+                "disconnected": "Odpojen.",
+                "connecting": "Připojování…"
+            },
+            "requires_online": "Musíte být online aby jste toto zobrazili."
+        },
+        "context_menu": {
+            "copy_id": "Zkopírovat ID",
+            "block_user": "Zablokovat Uživatele"
         }
     },
     "dayjs": {
@@ -48,6 +89,17 @@
         "at": "v",
         "nextDay": "Zítra v",
         "sameDay": "Dnes v",
-        "lastDay": "Včera v"
+        "lastDay": "Včera v",
+        "sameElse": "L"
+    },
+    "error": {
+        "unlabelled": "Něco se stalo.",
+        "internal_error": "Vnitřní chyba.",
+        "username_taken": "Jméno je zabrané.",
+        "operation_failed": "Operace selhala.",
+        "unverified_account": "Neověřený účet.",
+        "unknown_user": "Neznámý uživatel.",
+        "wrong_password": "Špatné heslo.",
+        "database_error": "Chyba databáze."
     }
 }
