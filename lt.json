@@ -11,12 +11,18 @@
         "password": "Slaptažodis",
         "enter": {
             "email": "Įveskite savo el. paštą.",
-            "password": "Įveskite savo slaptažodį."
+            "password": "Įveskite savo slaptažodį.",
+            "username": "Įveskite slapyvardį."
         },
         "forgot": "Pamiršote slaptažodį?",
         "new": "Neturi REVOLT paskyros?",
         "create": "Sukurti paskyrą.",
-        "register": "Sukurti paskyrą"
+        "register": "Sukurti paskyrą",
+        "remembered": "Grįžti prie prisijungimo.",
+        "existing": "Jau turite paskyrą?",
+        "cancel": "Atšaukti užklausą.",
+        "username": "Slapyvardis",
+        "reset": "Pamiršau slaptažodį"
     },
     "app": {
         "main": {
@@ -33,7 +39,9 @@
             "tabs": {
                 "unreads": "Neskaitytos žinutės",
                 "friends": "Draugai",
-                "home": "Pagrindinis"
+                "home": "Pagrindinis",
+                "dev": "Kūrėjas",
+                "saved": "Išsaugoti pranešimai"
             }
         },
         "status": {
@@ -42,13 +50,81 @@
             "busy": "Netrukdyti",
             "idle": "Pasitraukęs",
             "online": "Prisijungęs"
+        },
+        "special": {
+            "friends": {
+                "pending": "Laukiama",
+                "blocked": "Užbluokuoti",
+                "incoming": "Prašymas priimti į draugus.",
+                "outgoing": "Prašymas priimti į draugus."
+            },
+            "status": {
+                "reconnecting": "Prisijungiama...",
+                "offline": "Nepasiekiama.",
+                "disconnected": "Neprijungta.",
+                "connecting": "Prisijungiama..."
+            },
+            "modals": {
+                "error": "Įvyko klaida!",
+                "clipboard": {
+                    "unavailable": "Iškarpinė nepasiekiama!",
+                    "https": "Šiuo metu nesate HTTPS kontekste.",
+                    "copy": "Rankinis kopijavimas:"
+                },
+                "signed_out": "Jus būvote atjungti!",
+                "actions": {
+                    "ok": "Ok",
+                    "close": "Uždaryti",
+                    "reload": "Perkrauti aplikaciją",
+                    "continue": "Tęsti",
+                    "cancel": "Atšaukti"
+                },
+                "onboarding": {
+                    "welcome": "Sveiki atvykę į REVOLT!",
+                    "pick": "Pasirinkite slapyvardį."
+                }
+            },
+            "requires_online": "Jūs turite būti prisijungę, kad tai matytumėte."
+        },
+        "context_menu": {
+            "copy_id": "Kopijuoti ID",
+            "message_user": "Pranešimas",
+            "block_user": "Blokuoti vartotoją"
         }
     },
     "dayjs": {
         "at": " ",
         "last": "Praeitą",
-        "nextDay": "Rytoj",
-        "sameDay": "Šiandien",
-        "lastDay": "Vakar"
+        "nextDay": "[Rytoj] LT",
+        "sameDay": "[Šiandien] LT",
+        "lastDay": "[Vakar] LT",
+        "nextWeek": "dddd LT",
+        "sameElse": "L",
+        "lastWeek": "[Praeitą] dddd LT"
+    },
+    "error": {
+        "unlabelled": "Kažkas atsitiko.",
+        "failed_validation": "Nepavyko patvirtinti laukų.",
+        "database_error": "Duomenų bazės klaida.",
+        "internal_error": "Vidinė klaida.",
+        "unknown_error": "Žiūrekite į konsolę.",
+        "operation_failed": "Operacija nepavyko.",
+        "missing_headers": "Trūksta noro gyventi.",
+        "already_onboarded": "Sąranka jau baigta.",
+        "username_taken": "Slapyvardis jau užimtas.",
+        "already_friends": "Tu jau turi šį draugą.",
+        "already_sent_request": "Tu ir taip nori su jais draugauti.",
+        "blocked": "Jūs jau užblokavote šį vartotoją.",
+        "blocked_other": "Šis vartotojas jūs užblokavo.",
+        "no_effect": "Ši užklausa nieko tau nepadarė.",
+        "required_field": "Privaloma",
+        "too_short": "Trumpokas",
+        "too_long": "Ilgokas",
+        "invalid_email": "Netinkamas elektrinio pašto adresas",
+        "invalid_session": "Netinkama sesija.",
+        "unverified_account": "Nepatvirtinta paskyra.",
+        "unknown_user": "Nežinomas serveris.",
+        "email_in_use": "Vartojamas el. pašto adresas.",
+        "wrong_password": "Netinkamas slaptažodis."
     }
 }
