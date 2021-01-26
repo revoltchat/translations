@@ -11,11 +11,18 @@
         "password": "Hasło",
         "enter": {
             "email": "Wpisz twoj e-mail.",
-            "password": "Wpisz twoje hasło."
+            "password": "Wpisz twoje hasło.",
+            "username": "Wpisz nazwę użytkownika."
         },
         "forgot": "Zapomniałeś hasło?",
         "new": "Nowy w REVOLT?",
-        "create": "Stwórz nowe konto."
+        "create": "Stwórz nowe konto.",
+        "cancel": "Anulować żądanie.",
+        "existing": "Posiadasz już konto?",
+        "remembered": "Wróć do logowania.",
+        "reset": "Zresetuj hasło",
+        "username": "Nazwa Użytkownika",
+        "register": "Załóż konto"
     },
     "app": {
         "status": {
@@ -29,7 +36,9 @@
             "tabs": {
                 "home": "Głowna strona",
                 "friends": "Przyjaciele",
-                "unreads": "Nieprzeczytane"
+                "unreads": "Nieprzeczytane",
+                "dev": "Deweloper",
+                "saved": "Zapisane Wiadomości"
             }
         },
         "main": {
@@ -41,13 +50,81 @@
             "channel": {
                 "message": "Wyslij do {{name}}"
             }
+        },
+        "special": {
+            "friends": {
+                "pending": "W oczekiwaniu",
+                "outgoing": "Wysłano zaproszenie.",
+                "incoming": "Dodał(a) cię jako przyjaciela.",
+                "blocked": "Zablokowany"
+            },
+            "requires_online": "Aby to wyświetlić, musisz być online.",
+            "modals": {
+                "actions": {
+                    "cancel": "Anuluj",
+                    "continue": "Kontyntynuj",
+                    "reload": "Załaduj ponownie aplikację",
+                    "close": "Zamknij",
+                    "ok": "Ok"
+                },
+                "onboarding": {
+                    "pick": "Wybierz nazwę użytkownika.",
+                    "welcome": "Witamy w REVOLT!"
+                },
+                "signed_out": "Zostałeś wylogowany!",
+                "clipboard": {
+                    "copy": "Kopiowanie ręczne:",
+                    "https": "Nie jesteś obecnie w kontekście HTTPS.",
+                    "unavailable": "Schowek jest niedostępny!"
+                },
+                "error": "Wystąpił błąd!"
+            },
+            "status": {
+                "reconnecting": "Ponowne łączenie...",
+                "connecting": "Łączenie...",
+                "disconnected": "Odłączony.",
+                "offline": "Offline."
+            }
+        },
+        "context_menu": {
+            "block_user": "Zablokować użytkownika",
+            "copy_id": "Skopiuj ID",
+            "message_user": "Wyślij wiadomość"
         }
     },
     "dayjs": {
-        "lastDay": "Wczoraj o",
-        "sameDay": "Dzisiaj o",
-        "nextDay": "Jutro o",
+        "lastDay": "[Wczoraj o] LT",
+        "sameDay": "[Dzisiaj o] LT",
+        "nextDay": "[Jutro o] LT",
         "last": "Ostatnia",
-        "at": "o"
+        "at": "o",
+        "nextWeek": "dddd [o] LT",
+        "lastWeek": "[Ostatni] dddd [o] LT",
+        "sameElse": "L"
+    },
+    "error": {
+        "invalid_email": "Niepoprawny adres email",
+        "too_long": "Za długie",
+        "too_short": "Zbyt krótki",
+        "required_field": "Wymagane",
+        "no_effect": "Ta prośba nie przyniosła skutku.",
+        "blocked_other": "Ten użytkownik Cię zablokował.",
+        "blocked": "Zablokowałeś tego użytkownika.",
+        "already_sent_request": "Wysłano już zaproszenie.",
+        "already_friends": "Jestes już znajomym z użytkownikiem.",
+        "username_taken": "Nazwa użytkownika jest zajęta.",
+        "already_onboarded": "Konfiguracja już zakończona.",
+        "wrong_password": "Złe hasło.",
+        "email_in_use": "Adres e-mail w użyciu.",
+        "unknown_user": "Nieznany użytkownik.",
+        "unverified_account": "Niezweryfikowane konto.",
+        "invalid_session": "Nieprawidłowa sesja.",
+        "missing_headers": "Brak nagłówków HTTP.",
+        "operation_failed": "Operacja nie powiodła się.",
+        "unknown_error": "Zobacz konsolę.",
+        "internal_error": "Błąd wewnętrzny.",
+        "database_error": "Błąd bazy danych.",
+        "failed_validation": "Nie udało się zweryfikować pól.",
+        "unlabelled": "Coś się stało."
     }
 }
