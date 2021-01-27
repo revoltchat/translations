@@ -22,7 +22,10 @@
         "new": "New to REVOLT?",
         "existing": "Already have an account?",
         "create": "Create a new account.",
-        "cancel": "Cancel request."
+        "cancel": "Cancel request.",
+        "check_mail": "Check your mail.",
+        "open_mail_provider": "Open {{provider}}.",
+        "successful_registration": "Successfully registered!",
     },
     "app": {
         "status": {
@@ -48,7 +51,8 @@
                 "members": "Members"
             },
             "channel": {
-                "message": "Message {{name}}"
+                "message_where": "Message {{channel_name}}",
+                "message_who": "Message {{person}}"
             }
         },
         "special": {
@@ -87,9 +91,19 @@
             "requires_online": "You need to be online to view this."
         },
         "context_menu": {
-            "message_user": "Message",
             "copy_id": "Copy ID",
-            "block_user": "Block User"
+            "copy_uid": "Copy User ID",
+            "copy_cid": "Copy Channel ID",
+            "copy_mid": "Copy Message ID",
+
+            "message_user": "Message",
+            "mark_as_read": "Mark As Read",
+            
+            "block_user": "Block User",
+            "unblock_user": "Unblock User",
+            "add_friend": "Add Friend",
+            "remove_friend": "Remove Friend",
+            "cancel_friend": "Cancel Request"
         }
     },
     "dayjs": {
@@ -123,6 +137,7 @@
         "required_field": "Required",
         "too_short": "Too short",
         "too_long": "Too long",
-        "invalid_email": "Invalid email address"
+        "invalid_email": "Invalid email address",
+        "unavailable": "Unavailable."
     }
 }
