@@ -22,12 +22,17 @@
         "remembered": "Tillbaka till inloggningssidan.",
         "reset": "Återställ lösenord",
         "username": "Användarnamn",
-        "register": "Registrera"
+        "register": "Registrera",
+        "successful_registration": "Du har registrerat dig!",
+        "open_mail_provider": "Öppna {{provider}}.",
+        "check_mail": "Kolla din e-post."
     },
     "app": {
         "main": {
             "channel": {
-                "message": "Meddela {{name}}"
+                "message": "Meddela {{name}}",
+                "message_who": "Meddela {{person}}",
+                "message_where": "Meddela {{channel_name}}"
             },
             "categories": {
                 "members": "Medlemmar",
@@ -77,11 +82,15 @@
                 "onboarding": {
                     "pick": "Var god och välj ett användarnamn.",
                     "welcome": "Välkommen till REVOLT!"
+                },
+                "prompt": {
+                    "confirm_leave_long": "Du kommer inte kunna gå med igen om inte du blir inbjuden.",
+                    "confirm_leave": "Lämna {{group_name}}?"
                 }
             },
             "status": {
-                "reconnecting": "Återansluter...",
-                "connecting": "Ansluter...",
+                "reconnecting": "Återansluter…",
+                "connecting": "Ansluter…",
                 "disconnected": "Frånkopplad.",
                 "offline": "Offline."
             }
@@ -89,7 +98,17 @@
         "context_menu": {
             "block_user": "Blockera Användare",
             "copy_id": "Kopiera ID",
-            "message_user": "Meddela"
+            "message_user": "Meddela",
+            "cancel_friend": "Avbryt Förfrågan",
+            "remove_friend": "Ta Bort Vän",
+            "add_friend": "Lägg Till Vän",
+            "unblock_user": "Avblockera Användare",
+            "delete_message": "Radera Meddelande",
+            "edit_message": "Redigera Meddelande",
+            "mark_as_read": "Markera Som Läst",
+            "copy_mid": "Kopiera Meddelande-ID",
+            "copy_cid": "Kopiera Kanal-ID",
+            "copy_uid": "Kopiera Användar-ID"
         }
     },
     "dayjs": {
@@ -125,6 +144,13 @@
         "internal_error": "Internt fel.",
         "database_error": "Databasfel.",
         "failed_validation": "Kunde inte validera fält.",
-        "unlabelled": "Något hände."
+        "unlabelled": "Något hände.",
+        "unavailable": "Otillgänglig."
+    },
+    "quantities": {
+        "members": {
+            "many": "{{count}} Medlemmar",
+            "one": "1 Medlem"
+        }
     }
 }
