@@ -22,7 +22,10 @@
         "new": "Neu zu REVOLT?",
         "existing": "Du hast bereits einen Account?",
         "create": "Einen neuen Account erstellen.",
-        "cancel": "Anfrage abbrechen."
+        "cancel": "Anfrage abbrechen.",
+        "successful_registration": "Erfolgreich registriert!",
+        "open_mail_provider": "{{provider}} öffnen.",
+        "check_mail": "Schaue in deiner Mail nach."
     },
     "app": {
         "status": {
@@ -48,13 +51,25 @@
                 "members": "Mitglieder"
             },
             "channel": {
-                "message": "Nachricht an {{name}}"
+                "message": "Nachricht an {{name}}",
+                "message_who": "Nachricht an {{person}}",
+                "message_where": "Nachricht an {{channel_name}}"
             }
         },
         "context_menu": {
             "block_user": "Nutzer blockieren",
             "copy_id": "ID kopieren",
-            "message_user": "Nachricht"
+            "message_user": "Nachricht",
+            "cancel_friend": "Anfrage abbrechen",
+            "remove_friend": "Freund entfernen",
+            "add_friend": "Freund hinzufügen",
+            "unblock_user": "Blockierung des Nutzers aufheben",
+            "delete_message": "Nachricht löschen",
+            "edit_message": "Nachricht bearbeiten",
+            "mark_as_read": "Als gelesen markieren",
+            "copy_mid": "Nachrichten-ID kopieren",
+            "copy_cid": "Kanal-ID kopieren",
+            "copy_uid": "Nutzer-ID kopieren"
         },
         "special": {
             "friends": {
@@ -80,16 +95,46 @@
                 },
                 "error": "Ein Fehler ist aufgetreten!",
                 "onboarding": {
-                    "pick": "Wähle bitte einen Nutzernamen.",
-                    "welcome": "Willkommen zu REVOLT!"
+                    "pick": "Wähle einen Nutzernamen, mit dem dich Leute finden können, er kann später in den Einstellungen geändert werden.",
+                    "welcome": "Willkommen zu"
+                },
+                "prompt": {
+                    "confirm_leave_long": "Du wirst nicht erneut beitreten können, es sei denn, du wirst erneut eingeladen.",
+                    "confirm_leave": "{{group_name}} verlassen?"
                 }
             },
             "status": {
-                "reconnecting": "Erneut verbinden...",
-                "connecting": "Verbinden...",
+                "reconnecting": "Erneut verbinden…",
+                "connecting": "Verbinden…",
                 "disconnected": "Verbindung getrennt.",
                 "offline": "Offline."
             }
+        },
+        "settings": {
+            "pages": {
+                "logOut": "Abmelden",
+                "appearance": {
+                    "import_manual": "Manuell importieren.",
+                    "import_clipboard": "Aus der Zwischenablage importieren.",
+                    "export_clipboard": "In die Zwischenablage exportieren.",
+                    "reset_overrides": "Überschreibungen zurücksetzen.",
+                    "overrides": "Überschreibungen des Themas",
+                    "title": "Aussehen"
+                },
+                "sessions": {
+                    "created": "{{time_ago}} erstellt",
+                    "this_device": "Dieses Gerät",
+                    "title": "Sitzungen"
+                },
+                "account": {
+                    "title": "Mein Account"
+                }
+            },
+            "categories": {
+                "client_settings": "Clienteinstellungen",
+                "user_settings": "Nutzereinstellungen"
+            },
+            "title": "Einstellungen"
         }
     },
     "dayjs": {
@@ -123,6 +168,13 @@
         "internal_error": "Interner Fehler.",
         "database_error": "Datenbankfehler.",
         "failed_validation": "Konnte Felder nicht überprüfen.",
-        "unlabelled": "Etwas ist schiefgelaufen."
+        "unlabelled": "Etwas ist schiefgelaufen.",
+        "unavailable": "Nicht erreichbar."
+    },
+    "quantities": {
+        "members": {
+            "many": "{{count}} Mitglieder",
+            "one": "1 Mitglied"
+        }
     }
 }
