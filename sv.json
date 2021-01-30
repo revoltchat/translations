@@ -38,6 +38,10 @@
                 "members": "Medlemmar",
                 "channels": "Kanaler",
                 "conversations": "Konversationer"
+            },
+            "groups": {
+                "name": "Grupp Namn",
+                "create": "Skapa en grupp."
             }
         },
         "navigation": {
@@ -108,16 +112,26 @@
             "mark_as_read": "Markera Som Läst",
             "copy_mid": "Kopiera Meddelande-ID",
             "copy_cid": "Kopiera Kanal-ID",
-            "copy_uid": "Kopiera Användar-ID"
+            "copy_uid": "Kopiera Användar-ID",
+            "remove_member": "Ta Bort Från Grupp"
         },
         "settings": {
             "pages": {
                 "logOut": "Logga Ut",
                 "appearance": {
-                    "title": "Utseende"
+                    "title": "Utseende",
+                    "theme_data": "Tema-Data",
+                    "import_theme": "Importera tema från sträng.",
+                    "import_manual": "Importera manuellt.",
+                    "import_clipboard": "Importera från urklipp.",
+                    "export_clipboard": "Exportera till urklipp.",
+                    "reset_overrides": "Nollställ överskridningar.",
+                    "overrides": "Överskridande Teman"
                 },
                 "sessions": {
-                    "title": "Sessioner"
+                    "title": "Sessioner",
+                    "created": "Skapat {{time_ago}}",
+                    "this_device": "Den Här Enheten"
                 },
                 "account": {
                     "title": "Mitt Konto"
@@ -126,7 +140,8 @@
             "categories": {
                 "client_settings": "Klient Inställningar",
                 "user_settings": "Användar Inställningar"
-            }
+            },
+            "title": "Inställningar"
         }
     },
     "dayjs": {
