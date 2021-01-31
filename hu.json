@@ -10,18 +10,178 @@
         "password": "Jelszó",
         "enter": {
             "email": "Írd be az email címed.",
-            "password": "Írd be a jelszavad."
+            "password": "Írd be a jelszavad.",
+            "username": "Írd be a felhasználóneved."
         },
         "forgot": "Elfelejtetted a jelszavad?",
         "new": "Új a REVOLT-ban?",
         "title": "Bejelentkezés",
-        "create": "Új felhasználó létrehozása."
+        "create": "Új felhasználó létrehozása.",
+        "check_mail": "Ellenőrizd beérkező leveleidet.",
+        "reset": "Jelszó visszaállítása",
+        "successful_registration": "Sikeresen regisztálva!",
+        "open_mail_provider": "{{provider}} megnyitása.",
+        "cancel": "Kérelem visszavonása.",
+        "existing": "Már van fiókod?",
+        "remembered": "Visszalépés a bejelentkezéshez.",
+        "username": "Felhasználónév",
+        "register": "Regisztrálás"
     },
     "app": {
         "main": {
             "channel": {
-                "message": "Üzenet: {{name}}"
+                "message": "Üzenet: {{name}}",
+                "message_who": "Üzenet: {{person}}",
+                "message_where": "Üzenet: {{channel_name}}"
+            },
+            "groups": {
+                "name": "Csoportnév",
+                "create": "Csoport létrehozása."
+            },
+            "categories": {
+                "members": "Tagok",
+                "channels": "Beszélgetések",
+                "conversations": "Beszélgetések"
             }
+        },
+        "settings": {
+            "pages": {
+                "sessions": {
+                    "created": "{{time_ago}}-val ezelőtt létrehozva",
+                    "title": "Eszközök",
+                    "this_device": "Jelenlegi eszköz"
+                },
+                "appearance": {
+                    "import_theme": "Téma importálása stringből.",
+                    "import_manual": "Kézi importálás.",
+                    "theme_data": "Téma adatok",
+                    "overrides": "Téma felülírások",
+                    "import_clipboard": "Másolás vágólapról.",
+                    "export_clipboard": "Másolás vágólapra.",
+                    "reset_overrides": "Témák visszaállítása.",
+                    "title": "Megjelenés"
+                },
+                "logOut": "Kijelentkezés",
+                "account": {
+                    "title": "Fiókom"
+                }
+            },
+            "categories": {
+                "user_settings": "Felhasználói beállítások",
+                "client_settings": "Alkalmazás beállítások"
+            },
+            "title": "Beállítások"
+        },
+        "special": {
+            "requires_online": "Ennek megtekintéséhez online kell lenned.",
+            "modals": {
+                "actions": {
+                    "reload": "Alkalmazás újratöltése",
+                    "cancel": "Mégse",
+                    "continue": "Folytatás",
+                    "close": "Bezárás",
+                    "ok": "Rendben"
+                },
+                "prompt": {
+                    "confirm_leave": "{{group_name}} csoportból kilépsz?",
+                    "confirm_leave_long": "Meghívás nélkül nem fogsz tudni visszacsatlakozni."
+                },
+                "clipboard": {
+                    "https": "Ön jelenleg nem HTTPS kontextusban van.",
+                    "copy": "Kézi másolás:",
+                    "unavailable": "Vágólap nem elérhető!"
+                },
+                "error": "Felmerült egy hiba!",
+                "onboarding": {
+                    "pick": "Válassz egy olyan felhasználónevet ami alapján mások meg tudnak találni, ezt később a beállításokban tudod megváltozatni.",
+                    "welcome": "Üdvözlünk"
+                },
+                "signed_out": "Kijelentkeztél!"
+            },
+            "status": {
+                "disconnected": "Szétkapcsolva.",
+                "reconnecting": "Újracsatlakozás…",
+                "connecting": "Csatlakozás…",
+                "offline": "Offline."
+            },
+            "friends": {
+                "outgoing": "Kimenő barátkérelem.",
+                "incoming": "Bejövó barátkérelem.",
+                "blocked": "Blokkolva",
+                "pending": "Függőben lévó"
+            }
+        },
+        "navigation": {
+            "tabs": {
+                "unreads": "Olvasatlan üzenetek",
+                "saved": "Mentett üzenetek",
+                "friends": "Ismerősök",
+                "dev": "Fejlesztő",
+                "home": "Otthon"
+            }
+        },
+        "context_menu": {
+            "cancel_friend": "Kérelem visszavonása",
+            "remove_friend": "Ismerős törlése",
+            "add_friend": "Ismerős hozzáadása",
+            "unblock_user": "Felhasználó feloldása",
+            "block_user": "Felhasználó blokkolása",
+            "remove_member": "Eltávolítás a csoportból",
+            "delete_message": "Üzenet törlése",
+            "edit_message": "Üzenet szerkesztése",
+            "mark_as_read": "Megjelölés olvasottként",
+            "message_user": "Üzenet",
+            "copy_mid": "Üzenet azonosító másolása",
+            "copy_cid": "Csatorna azonosító másolása",
+            "copy_uid": "Felhasználói azonosító másolása",
+            "copy_id": "Azonosító másolása"
+        },
+        "status": {
+            "offline": "Offline",
+            "invisible": "Láthatatlan",
+            "busy": "Elfoglalt",
+            "idle": "Tétlen",
+            "online": "Online"
+        }
+    },
+    "dayjs": {
+        "nextWeek": "dddd LT-kor",
+        "lastWeek": "[Előző] dddd LT-kor",
+        "nextDay": "[Holnap] LT-kor",
+        "sameDay": "[Ma] LT-kor",
+        "lastDay": "[Tegnap] LT-kor",
+        "sameElse": "L"
+    },
+    "error": {
+        "already_onboarded": "Beállítások már elvégezve.",
+        "invalid_session": "Érvénytelen eszköz.",
+        "failed_validation": "Mezők érvényesítése nem sikerült.",
+        "unavailable": "Nem érhető el.",
+        "invalid_email": "Érvénytelen e-mail cím",
+        "too_long": "Túl hosszú",
+        "too_short": "Túl rövid",
+        "required_field": "Szükséges",
+        "no_effect": "Ennek a kérelemnek nem volt hatása.",
+        "blocked_other": "Ez a felhasználó blokkolt.",
+        "blocked": "Blokkoltad ezt a felhasználót.",
+        "already_sent_request": "Már küldtél kérelmet ennek a felhasználónak.",
+        "already_friends": "Már ismerős ezzel a felhasználóval.",
+        "username_taken": "Felhasználónév foglalt.",
+        "wrong_password": "Helytelen jelszó.",
+        "email_in_use": "E-mail már használatban.",
+        "unknown_user": "Ismeretlen felhasználó.",
+        "unverified_account": "Igazolatlan fiók.",
+        "missing_headers": "Fejléc hiányzik.",
+        "operation_failed": "Művelet nem sikerült.",
+        "unknown_error": "Konzol megtekintése.",
+        "internal_error": "Belső hiba.",
+        "database_error": "Adatbázis hiba.",
+        "unlabelled": "Valami történt."
+    },
+    "quantities": {
+        "members": {
+            "many": "{{count}} tag",
+            "one": "1 tag"
         }
     }
 }
