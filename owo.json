@@ -28,8 +28,8 @@
                 },
                 "signed_out": "Youw wewe signed ouwt! OwO",
                 "onboarding": {
-                    "welcome": "Wewcome Mwaster! OwO",
-                    "pick": "How do u want me to caww u, mastew? UwU"
+                    "welcome": "Wewcome Mastew! OwO",
+                    "pick": "What do u want me to caww u, mastew? UwU"
                 },
                 "actions": {
                     "ok": "Ok",
@@ -37,6 +37,10 @@
                     "reload": "Rewoad app",
                     "continue": "Continuwe",
                     "cancel": "Cancew"
+                },
+                "prompt": {
+                    "confirm_leave": "Go away fwom {{group_name}} (They'll pwobabwy miss u OmO)?",
+                    "confirm_leave_long": "U can't come bacc unless ur invited in again."
                 }
             },
             "requires_online": "Youw need to be onwine to view this."
@@ -64,13 +68,66 @@
                 "members": "Membews"
             },
             "channel": {
-                "message": "Messawge {{name}}"
+                "message": "Messawge {{name}}",
+                "message_where": "Speek in {{channel_name}}",
+                "message_who": "Talk to {{person}}"
+            },
+            "groups": {
+                "name": "Gwoup Name",
+                "create": "Cweate a gwoup."
             }
         },
         "context_menu": {
             "message_user": "Mwessage",
             "copy_id": "Cwopy ID",
-            "block_user": "Bwock usew"
+            "block_user": "Bwock usew",
+            "edit_message": "Edit Messag",
+            "cancel_friend": "Cancew Weqwest",
+            "remove_friend": "Unfwend ÒmÓ",
+            "add_friend": "Add Fwen OwO",
+            "unblock_user": "Unbwock Usew",
+            "remove_member": "Wemove Fwom Dis Gang",
+            "delete_message": "Delet Dis",
+            "mark_as_read": "Mawk As Wead",
+            "copy_mid": "Steal Message ID",
+            "copy_cid": "Steal Channew ID",
+            "copy_uid": "Steal Usew ID"
+        },
+        "settings": {
+            "pages": {
+                "sessions": {
+                    "title": "Seshions",
+                    "this_device": "Dis Device",
+                    "created": "Cweated {{time_ago}}"
+                },
+                "logOut": "Log Out. See u latew uwu",
+                "language": {
+                    "title": "Wangwuage"
+                },
+                "notifications": {
+                    "enable_sound": "Pway Sound on Message.",
+                    "enable_desktop": "Enabwe Desktop Nowotifications.",
+                    "title": "Nowotifcations"
+                },
+                "appearance": {
+                    "theme_data": "Theem Data",
+                    "import_theme": "Impowt theem fwom stwing.",
+                    "import_clipboard": "Impowt fwom cwipboawd.",
+                    "export_clipboard": "Expowt to cwipboawd.",
+                    "reset_overrides": "Weset theem ovewwides.",
+                    "overrides": "Theem Ovewwides",
+                    "title": "Appeawance",
+                    "import_manual": "Impowt manuwally."
+                },
+                "account": {
+                    "title": "Mah Account"
+                }
+            },
+            "categories": {
+                "user_settings": "Usew Settings",
+                "client_settings": "User Configuwations"
+            },
+            "title": "Configuwation"
         }
     },
     "login": {
@@ -92,7 +149,7 @@
         "remembered": "Go bwack to wogin.",
         "existing": "Awweady have an accouwnt? UwU",
         "successful_registration": "You hawwe wegistewd!",
-        "open_mail_provider": "Notices youw {{provider}}.",
+        "open_mail_provider": "Notices youw {{provider}}",
         "check_mail": "Peek youw maiwl owo rawr"
     },
     "dayjs": {
@@ -126,6 +183,13 @@
         "too_long": "Dong too long",
         "invalid_email": "Invawid emaiw addwess",
         "internal_error": "Intewnaw ewwow.",
-        "wrong_password": "Wwong passwowd."
+        "wrong_password": "Wwong passwowd.",
+        "unavailable": "Not Awaiwabwe."
+    },
+    "quantities": {
+        "members": {
+            "many": "{{count}} Membews",
+            "one": "1 Membew"
+        }
     }
 }
