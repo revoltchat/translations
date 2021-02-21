@@ -14,10 +14,12 @@
         "enter": {
             "username": "Gebe einen Nutzernamen an.",
             "email": "Gebe eine E-Mail an.",
-            "password": "Gebe ein Passwort an."
+            "password": "Gebe ein Passwort an.",
+            "current_password": "Gebe dein aktuelles Passwort ein.",
+            "invite": "Gebe deinen Einladungscode ein."
         },
         "forgot": "Passwort vergessen?",
-        "reset": "Passwort zurücksetzen",
+        "reset": "Passwort zurücksetzen.",
         "remembered": "Zum Login zurückgehen.",
         "new": "Neu zu REVOLT?",
         "existing": "Du hast bereits einen Account?",
@@ -25,7 +27,19 @@
         "cancel": "Anfrage abbrechen.",
         "successful_registration": "Erfolgreich registriert!",
         "open_mail_provider": "{{provider}} öffnen",
-        "check_mail": "Schaue in deiner Mail nach."
+        "check_mail": "Schaue in deiner Mail nach.",
+        "error": {
+            "resend": "Konnte nicht erneut senden!",
+            "reset": "Konnte nicht zurücksetzen!",
+            "login": "Konnte nicht anmelden!",
+            "create": "Konnte Account nicht erstellen!"
+        },
+        "check_spam": "Gucke im Spamordner nach, wenn du sie nicht finden kannst.",
+        "resend": "Bestätigung erneut senden.",
+        "missing_verification": "Keine E-Mail?",
+        "set_password": "Neues Passwort setzen.",
+        "current_password": "Aktuelles Passwort",
+        "invite": "Einladungscode"
     },
     "app": {
         "status": {
@@ -53,7 +67,22 @@
             "channel": {
                 "message": "Nachricht an {{name}}",
                 "message_who": "Nachricht an {{person}}",
-                "message_where": "Nachricht an {{channel_name}}"
+                "message_where": "Nachricht an {{channel_name}}",
+                "system": {
+                    "removed_by": "entfernt von",
+                    "added_by": "hinzugefügt von",
+                    "user_left": "hat verlassen.",
+                    "user_joined": "ist beigetreten."
+                },
+                "typing": {
+                    "several": "Mehrere Personen schreiben…",
+                    "multiple": "{{userlist}} und {{user}} schreiben…",
+                    "single": "{{user}} schreibt…"
+                },
+                "attached_file": "{{filename}} angefügt",
+                "failed_upload": "Konnte nicht hochladen!",
+                "uploading_file": "Datei wird hochgeladen...",
+                "message_saved": "In deine Nachrichten speichern"
             },
             "groups": {
                 "name": "Gruppenname",
@@ -74,7 +103,18 @@
             "copy_mid": "Nachrichten-ID kopieren",
             "copy_cid": "Kanal-ID kopieren",
             "copy_uid": "Nutzer-ID kopieren",
-            "remove_member": "Aus Gruppe entfernen"
+            "remove_member": "Aus Gruppe entfernen",
+            "save_video": "Video speichern",
+            "open_video": "Video öffnen",
+            "save_image": "Bild speichern",
+            "open_image": "Bild öffnen",
+            "save_file": "Datei speichern",
+            "open_file": "Datei öffnen",
+            "quote_message": "Nachricht zitieren",
+            "cancel_message": "Abbrechen",
+            "retry_message": "Erneut senden",
+            "mention": "Erwähnen",
+            "copy_text": "Text kopieren"
         },
         "special": {
             "friends": {
@@ -90,7 +130,9 @@
                     "close": "Schließen",
                     "ok": "OK",
                     "cancel": "Abbrechen",
-                    "continue": "Weiter"
+                    "continue": "Weiter",
+                    "send_email": "E-Mail senden",
+                    "update": "Aktualisieren"
                 },
                 "signed_out": "Du wurdest ausgeloggt!",
                 "clipboard": {
@@ -106,6 +148,14 @@
                 "prompt": {
                     "confirm_leave_long": "Du wirst nicht erneut beitreten können, es sei denn, du wirst erneut eingeladen.",
                     "confirm_leave": "{{group_name}} verlassen?"
+                },
+                "account": {
+                    "failed": "Konnte nicht ändern!",
+                    "change": {
+                        "password": "Ändere dein Passwort",
+                        "email": "Ändere deine E-Mail",
+                        "username": "Ändere deinen Nutzernamen"
+                    }
                 }
             },
             "status": {
@@ -113,6 +163,15 @@
                 "connecting": "Verbinden…",
                 "disconnected": "Verbindung getrennt.",
                 "offline": "Offline."
+            },
+            "popovers": {
+                "user_profile": {
+                    "no_groups": "Keine gemeinsamen Gruppen!",
+                    "no_users": "Keine gemeinsamen Freunde!",
+                    "mutual_groups": "Gemeinsame Gruppen",
+                    "mutual_friends": "Gemeinsame Freunde",
+                    "profile": "Profil"
+                }
             }
         },
         "settings": {
@@ -134,7 +193,8 @@
                     "title": "Sitzungen"
                 },
                 "account": {
-                    "title": "Mein Account"
+                    "title": "Mein Account",
+                    "change_field": "Ändern"
                 },
                 "language": {
                     "title": "Sprache"
@@ -142,7 +202,8 @@
                 "notifications": {
                     "enable_sound": "Bei einer Nachricht einen Ton abspielen.",
                     "enable_desktop": "Desktopbenachrichtigungen aktivieren.",
-                    "title": "Benachrichtigungen"
+                    "title": "Benachrichtigungen",
+                    "enable_push": "Push-Benachrichtigungen aktivieren."
                 }
             },
             "categories": {
@@ -184,12 +245,28 @@
         "database_error": "Datenbankfehler.",
         "failed_validation": "Konnte Felder nicht überprüfen.",
         "unlabelled": "Etwas ist schiefgelaufen.",
-        "unavailable": "Nicht erreichbar."
+        "unavailable": "Nicht erreichbar.",
+        "io_error": "Der Server hat einen Eingabe-/Ausgabefehler.",
+        "probe_error": "Konnte Dateimetadaten nicht bekommen.",
+        "missing_data": "In der Anfrage fehlen Daten.",
+        "failed_to_receive": "Der Server konnte deine Datei nicht bekommen.",
+        "file_too_large": "Zu große Datei.",
+        "invalid_invite": "Ungültiger Code",
+        "missing_invite": "Fehlender Einladungscode in der Anfrage.",
+        "invalid_token": "Ungültiger Token",
+        "invalid_credentials": "Inkorrekte Anmeldedaten.",
+        "email_failed": "Konnte E-Mail nicht senden.",
+        "render_fail": "Rendern des Templates fehlgeschlagen.",
+        "missing_permission": "Keine Berechtigung."
     },
     "quantities": {
         "members": {
             "many": "{{count}} Mitglieder",
             "one": "1 Mitglied"
         }
+    },
+    "notifications": {
+        "now_friends": "Du bist nun Freunde mit {{person}}!",
+        "sent_request": "@{{person}} hat dir eine Freundschaftsanfrage gesendet."
     }
 }
