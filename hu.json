@@ -11,28 +11,55 @@
         "enter": {
             "email": "Írd be az email címed.",
             "password": "Írd be a jelszavad.",
-            "username": "Írd be a felhasználóneved."
+            "username": "Írd be a felhasználóneved.",
+            "current_password": "Írd be jelenlegi jelszavadat.",
+            "invite": "Írd be a meghívó kódod."
         },
         "forgot": "Elfelejtetted a jelszavad?",
         "new": "Új a REVOLT-ban?",
         "title": "Bejelentkezés",
         "create": "Új felhasználó létrehozása.",
         "check_mail": "Ellenőrizd beérkező leveleidet.",
-        "reset": "Jelszó visszaállítása",
+        "reset": "Jelszó visszaállítása.",
         "successful_registration": "Sikeresen regisztálva!",
         "open_mail_provider": "{{provider}} megnyitása",
         "cancel": "Kérelem visszavonása.",
         "existing": "Már van fiókod?",
         "remembered": "Visszalépés a bejelentkezéshez.",
         "username": "Felhasználónév",
-        "register": "Regisztrálás"
+        "register": "Regisztrálás",
+        "error": {
+            "resend": "Újraküldés sikertelen!",
+            "reset": "Visszaállítás sikertelen!",
+            "login": "Bejelentkezés sikertelen!",
+            "create": "Regisztrálás sikertelen!"
+        },
+        "check_spam": "Ha nem találod akkor nézd meg spam mappádat.",
+        "resend": "Igazolás újraküldése.",
+        "missing_verification": "Nincs email-ed?",
+        "set_password": "Új jelszó beállítása.",
+        "current_password": "Jelenlegi jelszó",
+        "invite": "Meghívó kód"
     },
     "app": {
         "main": {
             "channel": {
                 "message": "Üzenet: {{name}}",
                 "message_who": "Üzenet: {{person}}",
-                "message_where": "Üzenet: {{channel_name}}"
+                "message_where": "Üzenet: {{channel_name}}",
+                "system": {
+                    "user_left": "távozott.",
+                    "user_joined": "csatlakozott."
+                },
+                "typing": {
+                    "several": "Több ember is ír…",
+                    "multiple": "{{userlist}} és {{user}} jelenleg írnak…",
+                    "single": "{{user}} éppen ír…"
+                },
+                "attached_file": "{{filename}} hozzácsatolva",
+                "failed_upload": "Feltöltés sikertelen!",
+                "uploading_file": "Fájl feltöltése...",
+                "message_saved": "Mentés üzenetekhez"
             },
             "groups": {
                 "name": "Csoportnév",
@@ -63,7 +90,15 @@
                 },
                 "logOut": "Kijelentkezés",
                 "account": {
-                    "title": "Fiókom"
+                    "title": "Fiókom",
+                    "change_field": "Megváltoztás"
+                },
+                "language": {
+                    "title": "Nyelv"
+                },
+                "notifications": {
+                    "enable_desktop": "Asztali értesítések bekapcsolása.",
+                    "title": "Értesítések"
                 }
             },
             "categories": {
@@ -80,7 +115,9 @@
                     "cancel": "Mégse",
                     "continue": "Folytatás",
                     "close": "Bezárás",
-                    "ok": "Rendben"
+                    "ok": "Rendben",
+                    "send_email": "Email küldése",
+                    "update": "Frissítés"
                 },
                 "prompt": {
                     "confirm_leave": "{{group_name}} csoportból kilépsz?",
@@ -96,7 +133,15 @@
                     "pick": "Válassz egy olyan felhasználónevet ami alapján mások meg tudnak találni, ezt később a beállításokban tudod megváltozatni.",
                     "welcome": "Üdvözlünk"
                 },
-                "signed_out": "Kijelentkeztél!"
+                "signed_out": "Kijelentkeztél!",
+                "account": {
+                    "failed": "Megváltoztatás sikertelen!",
+                    "change": {
+                        "password": "Jelszó megváltoztatása",
+                        "email": "Email megváltoztatása",
+                        "username": "Felhasználónév megváltoztatása"
+                    }
+                }
             },
             "status": {
                 "disconnected": "Szétkapcsolva.",
@@ -109,6 +154,15 @@
                 "incoming": "Bejövó barátkérelem.",
                 "blocked": "Blokkolva",
                 "pending": "Függőben lévó"
+            },
+            "popovers": {
+                "user_profile": {
+                    "no_groups": "Nincsenek közös csoportok!",
+                    "no_users": "Nincsenek közös ismerősök!",
+                    "mutual_groups": "Közös csoportok",
+                    "mutual_friends": "Közös ismerősök",
+                    "profile": "Profil"
+                }
             }
         },
         "navigation": {
@@ -134,7 +188,18 @@
             "copy_mid": "Üzenet azonosító másolása",
             "copy_cid": "Csatorna azonosító másolása",
             "copy_uid": "Felhasználói azonosító másolása",
-            "copy_id": "Azonosító másolása"
+            "copy_id": "Azonosító másolása",
+            "save_video": "Videó mentése",
+            "open_video": "Videó megnyitása",
+            "save_image": "Kép mentése",
+            "open_image": "Kép megnyitása",
+            "save_file": "Fájl mentése",
+            "open_file": "Fájl megnyitása",
+            "quote_message": "Szöveg idézése",
+            "cancel_message": "Küldés visszavonása",
+            "retry_message": "Újraküldés",
+            "mention": "Említés",
+            "copy_text": "Szöveg másolása"
         },
         "status": {
             "offline": "Offline",
@@ -176,12 +241,17 @@
         "unknown_error": "Konzol megtekintése.",
         "internal_error": "Belső hiba.",
         "database_error": "Adatbázis hiba.",
-        "unlabelled": "Valami történt."
+        "unlabelled": "Valami történt.",
+        "missing_permission": "Hianyzó engedély."
     },
     "quantities": {
         "members": {
             "many": "{{count}} tag",
             "one": "1 tag"
         }
+    },
+    "notifications": {
+        "now_friends": "@{{person}} mostantól az ismerősöd!",
+        "sent_request": "@{{person}} küldött egy baráti felkérést."
     }
 }
