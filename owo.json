@@ -36,14 +36,33 @@
                     "close": "Cwose",
                     "reload": "Rewoad app",
                     "continue": "Continuwe",
-                    "cancel": "Cancew"
+                    "cancel": "Cancew",
+                    "send_email": "Swend Email",
+                    "update": "Uwupdate"
                 },
                 "prompt": {
                     "confirm_leave": "Go away fwom {{group_name}} (They'll pwobabwy miss u OmO)?",
                     "confirm_leave_long": "U can't come bacc unless ur invited in again."
+                },
+                "account": {
+                    "change": {
+                        "username": "Chyange uw usewname",
+                        "password": "Chyance uw passwowd",
+                        "email": "Chyange uw email"
+                    },
+                    "failed": "Fwailed to chyange!"
                 }
             },
-            "requires_online": "Youw need to be onwine to view this."
+            "requires_online": "Youw need to be onwine to view this.",
+            "popovers": {
+                "user_profile": {
+                    "profile": "Pyofiwe",
+                    "no_groups": "No mutual gwoups!",
+                    "no_users": "No mutual fwiends!",
+                    "mutual_groups": "Mutual Gwoups",
+                    "mutual_friends": "Mutual Fwiends"
+                }
+            }
         },
         "status": {
             "online": "Onwine",
@@ -70,7 +89,22 @@
             "channel": {
                 "message": "Messawge {{name}}",
                 "message_where": "Speek in {{channel_name}}",
-                "message_who": "Talk to {{person}}"
+                "message_who": "Talk to {{person}}",
+                "system": {
+                    "removed_by": "ryemoved bwy",
+                    "added_by": "addyed bwy",
+                    "user_left": "lyeft.",
+                    "user_joined": "jyoined."
+                },
+                "typing": {
+                    "several": "PANIC PANIC PANIC!!!",
+                    "multiple": "{{userlist}} and {{user}} awe mashing their kewwboard…",
+                    "single": "{{user}} is mashing their kewwboard…"
+                },
+                "attached_file": "Attyached {{filename}}",
+                "failed_upload": "Fwailed to upwoad!",
+                "uploading_file": "Upwoading fwile...",
+                "message_saved": "Syawe to uw mwessages"
             },
             "groups": {
                 "name": "Gwoup Name",
@@ -80,18 +114,29 @@
         "context_menu": {
             "message_user": "Mwessage",
             "copy_id": "Cwopy ID",
-            "block_user": "Bwock usew",
-            "edit_message": "Edit Messag",
+            "block_user": "Bwock Usew",
+            "edit_message": "Edit Mwessage",
             "cancel_friend": "Cancew Weqwest",
             "remove_friend": "Unfwend ÒmÓ",
-            "add_friend": "Add Fwen OwO",
+            "add_friend": "Add Fwend OwO",
             "unblock_user": "Unbwock Usew",
             "remove_member": "Wemove Fwom Dis Gang",
             "delete_message": "Delet Dis",
             "mark_as_read": "Mawk As Wead",
             "copy_mid": "Steal Message ID",
             "copy_cid": "Steal Channew ID",
-            "copy_uid": "Steal Usew ID"
+            "copy_uid": "Steal Usew ID",
+            "mention": "Annoy",
+            "save_video": "Swave Video",
+            "open_video": "Owopen Video",
+            "save_image": "Swave Image",
+            "open_image": "Owopen Image",
+            "save_file": "Swave Fwile",
+            "open_file": "Open Fwile",
+            "quote_message": "Qwuote Mwessage",
+            "cancel_message": "Cyancel Swend",
+            "retry_message": "Rwetry Swend",
+            "copy_text": "Steal Text"
         },
         "settings": {
             "pages": {
@@ -105,9 +150,10 @@
                     "title": "Wangwuage"
                 },
                 "notifications": {
-                    "enable_sound": "Pway Sound on Message.",
+                    "enable_sound": "Pway Syound on Mwessage.",
                     "enable_desktop": "Enabwe Desktop Nowotifications.",
-                    "title": "Nowotifcations"
+                    "title": "Nowotifcations",
+                    "enable_push": "Enabwe Push Nowotifications."
                 },
                 "appearance": {
                     "theme_data": "Theem Data",
@@ -120,7 +166,8 @@
                     "import_manual": "Impowt manuwally."
                 },
                 "account": {
-                    "title": "Mah Account"
+                    "title": "Mah Account",
+                    "change_field": "Chyange"
                 }
             },
             "categories": {
@@ -139,10 +186,12 @@
         "enter": {
             "email": "Entew uw emaiw.",
             "password": "Entew uw passwowd.",
-            "username": "Entew a uwsewname."
+            "username": "Entew a uwsewname.",
+            "current_password": "Ewnter uw cuwwent passwowd.",
+            "invite": "Ewnter uw inwite cwode."
         },
         "forgot": "Fowgot uw passwowd UwU?",
-        "reset": "Reset passwowd",
+        "reset": "Ryeset passwowd.",
         "new": "New to REWOLT?",
         "create": "Cweate a new accouwnt.",
         "cancel": "Cancew wequwest.",
@@ -150,7 +199,19 @@
         "existing": "Awweady have an accouwnt? UwU",
         "successful_registration": "You hawwe wegistewd!",
         "open_mail_provider": "Notices youw {{provider}}",
-        "check_mail": "Peek youw maiwl owo rawr"
+        "check_mail": "Peek youw maiwl owo rawr",
+        "error": {
+            "create": "Fwailed to ryegister!",
+            "resend": "Fwailed to rwesend!",
+            "reset": "Fwailed to rweset!",
+            "login": "Fwailed to login!"
+        },
+        "check_spam": "Bye sure to chyeck spwam if you cyan't fwind it.",
+        "resend": "Rwesend werification.",
+        "missing_verification": "Nyo email?",
+        "set_password": "Set nyeww passwowd.",
+        "current_password": "Cwurrent Passwowd",
+        "invite": "Inwite Cwode"
     },
     "dayjs": {
         "lastDay": "[Yestewday at] LT",
@@ -166,7 +227,7 @@
         "database_error": "Database ewwow.",
         "unknown_error": "See consowe.",
         "operation_failed": "Opewation faiwed.",
-        "missing_headers": "your browser is stupid",
+        "missing_headers": "Your browser is stupid.",
         "invalid_session": "Invawid session.",
         "unverified_account": "Unvewified accouwnt.",
         "unknown_user": "Unknown uwsew.",
@@ -184,12 +245,28 @@
         "invalid_email": "Invawid emaiw addwess",
         "internal_error": "Intewnaw ewwow.",
         "wrong_password": "Wwong passwowd.",
-        "unavailable": "Not Awaiwabwe."
+        "unavailable": "Not Awaiwabwe.",
+        "io_error": "Swerver encyountered an I/O ewwow.",
+        "probe_error": "Fwailed to gyet fwile myetadata.",
+        "missing_data": "Rwequest is myissing dyata.",
+        "failed_to_receive": "Swerver fwailed to rweveceiv uw fwile.",
+        "file_too_large": "Dong too big.",
+        "invalid_invite": "wInwawid cwode",
+        "missing_invite": "Mwissing inwite cwode in wequest.",
+        "invalid_token": "Inwavid twoken",
+        "invalid_credentials": "Email or passwowd is wong.",
+        "email_failed": "Email fwailed to syend.",
+        "render_fail": "Tyemplate rwendering fwailed.",
+        "missing_permission": "Myissing pwermission."
     },
     "quantities": {
         "members": {
             "many": "{{count}} Membews",
             "one": "1 Membew"
         }
+    },
+    "notifications": {
+        "now_friends": "Uwe awnd @{{person}} awe now mwarried!",
+        "sent_request": "@{{person}} wants to be yuww fwiend."
     }
 }
