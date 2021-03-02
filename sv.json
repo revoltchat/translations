@@ -12,7 +12,9 @@
         "enter": {
             "email": "Ange E-postadress.",
             "password": "Ange ditt lösenord.",
-            "username": "Ange ett användarnamn."
+            "username": "Ange ett användarnamn.",
+            "current_password": "Ange ditt nuvarande lösenord.",
+            "invite": "Ange din inbjudningskod."
         },
         "forgot": "Glömt ditt lösenord?",
         "new": "Ny till REVOLT?",
@@ -20,19 +22,46 @@
         "cancel": "Avbryt.",
         "existing": "Har du redan ett konto?",
         "remembered": "Tillbaka till inloggningssidan.",
-        "reset": "Återställ lösenord",
+        "reset": "Återställ lösenord.",
         "username": "Användarnamn",
         "register": "Registrera",
         "successful_registration": "Du har registrerat dig!",
         "open_mail_provider": "Öppna {{provider}}",
-        "check_mail": "Kolla din e-post."
+        "check_mail": "Kolla din e-post.",
+        "missing_verification": "Inget e-postmeddelande?",
+        "error": {
+            "resend": "Kunde inte återsända!",
+            "reset": "Kunde inte återställa!",
+            "login": "Kunde inte logga in!",
+            "create": "Misslyckades att registrera!"
+        },
+        "check_spam": "Kontrollera din skräppost om du inte hittar det.",
+        "resend": "Skicka verifikation igen.",
+        "set_password": "Ange nytt lösenord.",
+        "current_password": "Nuvarande Lösenord",
+        "invite": "Inbjudningskod"
     },
     "app": {
         "main": {
             "channel": {
                 "message": "Meddela {{name}}",
                 "message_who": "Meddela {{person}}",
-                "message_where": "Meddela {{channel_name}}"
+                "message_where": "Meddela {{channel_name}}",
+                "system": {
+                    "removed_by": "borttaget av",
+                    "added_by": "tillagt av",
+                    "user_left": "lämnade.",
+                    "user_joined": "gick med."
+                },
+                "typing": {
+                    "several": "Flera personer skriver…",
+                    "multiple": "{{userlist}} och {{user}} skriver…",
+                    "single": "{{user}} skriver…"
+                },
+                "attached_file": "Bifogade {{filename}}",
+                "failed_upload": "Kunde inte ladda upp!",
+                "uploading_file": "Laddar upp fil...",
+                "message_saved": "Spara till dina meddelanden"
             },
             "categories": {
                 "members": "Medlemmar",
@@ -74,7 +103,9 @@
                     "close": "Stäng",
                     "ok": "Okej",
                     "cancel": "Avbryt",
-                    "continue": "Fortsätt"
+                    "continue": "Fortsätt",
+                    "send_email": "Skicka e-post",
+                    "update": "Uppdatera"
                 },
                 "signed_out": "Du blev utloggad!",
                 "clipboard": {
@@ -90,6 +121,14 @@
                 "prompt": {
                     "confirm_leave_long": "Du kommer inte kunna gå med igen om inte du blir inbjuden.",
                     "confirm_leave": "Lämna {{group_name}}?"
+                },
+                "account": {
+                    "failed": "Kunde inte ändra!",
+                    "change": {
+                        "password": "Ändra ditt lösenord",
+                        "email": "Ändra din e-postadress",
+                        "username": "Byt ditt användarnamn"
+                    }
                 }
             },
             "status": {
@@ -97,6 +136,15 @@
                 "connecting": "Ansluter…",
                 "disconnected": "Frånkopplad.",
                 "offline": "Offline."
+            },
+            "popovers": {
+                "user_profile": {
+                    "no_groups": "Inga gemensamma grupper!",
+                    "no_users": "Inga gemensamma vänner!",
+                    "mutual_groups": "Gemensamma Grupper",
+                    "mutual_friends": "Gemensamma Vänner",
+                    "profile": "Profil"
+                }
             }
         },
         "context_menu": {
@@ -115,7 +163,16 @@
             "copy_uid": "Kopiera Användar-ID",
             "remove_member": "Ta Bort Från Grupp",
             "quote_message": "Citera Meddelande",
-            "copy_text": "Kopiera Text"
+            "copy_text": "Kopiera Text",
+            "save_video": "Spara Video",
+            "open_video": "Öppna Video",
+            "save_image": "Spara Bild",
+            "open_image": "Öppna Bild",
+            "save_file": "Spara Fil",
+            "open_file": "Öppna Fil",
+            "cancel_message": "Avbryt Sändning",
+            "retry_message": "Försök att skicka igen",
+            "mention": "Nämn"
         },
         "settings": {
             "pages": {
@@ -136,7 +193,8 @@
                     "this_device": "Den Här Enheten"
                 },
                 "account": {
-                    "title": "Mitt Konto"
+                    "title": "Mitt Konto",
+                    "change_field": "Ändra"
                 },
                 "language": {
                     "title": "Språk"
@@ -144,7 +202,15 @@
                 "notifications": {
                     "enable_sound": "Spela Ljud vid Meddelande.",
                     "enable_desktop": "Notifikationer på Skrivbordet.",
-                    "title": "Notifikationer"
+                    "title": "Notifikationer",
+                    "descriptions": {
+                        "enable_outgoing_sound": "Tillåt att ljud spelas när du skickar ett meddelande.",
+                        "enable_sound": "Aktivera Ljud för Inkommande Meddelanden.",
+                        "enable_push": "Få notifikationer medans du är offline.",
+                        "enable_desktop": "Det här kommer ge dig notifikationer medans appen är öppen."
+                    },
+                    "enable_outgoing_sound": "Aktivera Ljud för Skickade Meddelanden.",
+                    "enable_push": "Sätt på Push-meddelanden."
                 }
             },
             "categories": {
@@ -188,12 +254,28 @@
         "database_error": "Databasfel.",
         "failed_validation": "Kunde inte validera fält.",
         "unlabelled": "Något hände.",
-        "unavailable": "Otillgänglig."
+        "unavailable": "Otillgänglig.",
+        "io_error": "Servern påträffade ett I/O fel.",
+        "probe_error": "Kunde inte få filens metadata.",
+        "missing_data": "Förfrågan saknar data.",
+        "failed_to_receive": "Servern kunde inte ta emot din fil.",
+        "file_too_large": "Filen är för stor.",
+        "invalid_invite": "Ogiltig kod",
+        "missing_invite": "Saknar inbjudningskod i förfrågan.",
+        "invalid_token": "Ogiltig token",
+        "invalid_credentials": "E-postadress eller lösenord är fel.",
+        "email_failed": "E-post kunde inte skickas.",
+        "render_fail": "Mallrendering misslyckades.",
+        "missing_permission": "Saknar behörigheter."
     },
     "quantities": {
         "members": {
             "many": "{{count}} Medlemmar",
             "one": "1 Medlem"
         }
+    },
+    "notifications": {
+        "now_friends": "Du är nu vän med @{{person}}!",
+        "sent_request": "@{{person}} skickade dig en vänförfrågan."
     }
 }
