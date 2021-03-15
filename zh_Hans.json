@@ -5,7 +5,21 @@
                 "client_settings": "客户端设置",
                 "user_settings": "用户设置"
             },
-            "title": "设置"
+            "title": "设置",
+            "pages": {
+                "appearance": {
+                    "title": "外观"
+                },
+                "sessions": {
+                    "title": "登录的设备",
+                    "created": "创建于 {{time_ago}}",
+                    "this_device": "此设备"
+                },
+                "account": {
+                    "change_field": "更改",
+                    "title": "我的账号"
+                }
+            }
         },
         "main": {
             "groups": {
@@ -17,7 +31,9 @@
                 "unknown_user": "未知用户",
                 "system": {
                     "user_left": "离开了。",
-                    "user_joined": "加入了。"
+                    "user_joined": "加入了。",
+                    "added_by": "邀请者为",
+                    "removed_by": "移除者为"
                 },
                 "typing": {
                     "several": "多人正在输入…",
@@ -66,7 +82,7 @@
         "check_spam": "如果找不到邮件，请查看您的垃圾邮件箱。",
         "check_mail": "请检查您的邮箱。",
         "cancel": "取消请求。",
-        "resend": "重新发送验证。",
+        "resend": "重新发送验证码。",
         "missing_verification": "没有邮箱吗？",
         "create": "新建账号。",
         "existing": "已经有一个账号吗？",
