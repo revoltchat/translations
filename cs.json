@@ -89,10 +89,11 @@
     "dayjs": {
         "last": "Poslední",
         "at": "v",
-        "nextDay": "Zítra v",
-        "sameDay": "Dnes v",
-        "lastDay": "Včera v",
-        "sameElse": "L"
+        "nextDay": "[Zítra v] LT",
+        "sameDay": "[Dnes v] LT",
+        "lastDay": "[Včera v] LT",
+        "sameElse": "L",
+        "nextWeek": "dddd [v] LT"
     },
     "error": {
         "unlabelled": "Něco se stalo.",
@@ -102,6 +103,17 @@
         "unverified_account": "Neověřený účet.",
         "unknown_user": "Neznámý uživatel.",
         "wrong_password": "Špatné heslo.",
-        "database_error": "Chyba databáze."
+        "database_error": "Chyba databáze.",
+        "file_too_large": "Soubor je moc velký.",
+        "too_long": "Moc dlouhé",
+        "too_short": "Moc krátké",
+        "required_field": "Požadované",
+        "unknown_error": "Otevřít konzoli."
+    },
+    "quantities": {
+        "members": {
+            "many": "{{count}} Členů",
+            "one": "1 Člen"
+        }
     }
 }
