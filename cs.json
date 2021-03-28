@@ -29,12 +29,25 @@
         "main": {
             "channel": {
                 "message": "Odešli zprávu {{name}}",
-                "uploading_file": "Uploaduji soubor..."
+                "uploading_file": "Uploaduji soubor...",
+                "bot": "bot",
+                "unknown_user": "<Neznámý Uživatel>",
+                "failed_upload": "Upload selhal!",
+                "attached_file": "Připojený {{filename}}",
+                "typing": {
+                    "single": "{{user}} píše…",
+                    "multiple": "{{userlist}} a {{user}} píšou…",
+                    "several": "Několik lidí píše…"
+                }
             },
             "categories": {
                 "members": "Členové",
                 "channels": "Kanály",
                 "conversations": "Konverzace"
+            },
+            "groups": {
+                "create": "Vytvořte skupinu.",
+                "name": "Název Skupiny"
             }
         },
         "navigation": {
@@ -69,24 +82,83 @@
                     "close": "Zavřít",
                     "reload": "Přenačíst aplikaci",
                     "continue": "Pokračovat",
-                    "cancel": "Zrušit"
+                    "cancel": "Zrušit",
+                    "update": "Aktualizovat",
+                    "send_email": "Poslat E-mail"
                 },
                 "onboarding": {
                     "welcome": "Vítejte v",
                     "pick": "Vyberte si uživatelské jméno."
                 },
-                "error": "Vyskytla se chyba!"
+                "error": "Vyskytla se chyba!",
+                "account": {
+                    "failed": "Změna selhala!",
+                    "change": {
+                        "username": "Změňte svoje uživatelské jméno",
+                        "email": "Změňte svůj E-mail",
+                        "password": "Změňte svoje heslo"
+                    }
+                },
+                "prompt": {
+                    "confirm_leave": "Odejít z {{group_name}}?"
+                }
             },
             "status": {
                 "offline": "Offline.",
                 "disconnected": "Odpojen.",
                 "connecting": "Připojování…"
             },
-            "requires_online": "Musíte být online aby jste toto zobrazili."
+            "requires_online": "Musíte být online aby jste toto zobrazili.",
+            "popovers": {
+                "user_profile": {
+                    "profile": "Profil",
+                    "no_users": "Žádní vzájemní přátelé!",
+                    "mutual_friends": "Vzájemní Přátelé",
+                    "mutual_groups": "Vzájemné Skupiny",
+                    "no_groups": "Žádné vzájemné skupiny!"
+                }
+            }
         },
         "context_menu": {
             "copy_id": "Zkopírovat ID",
-            "block_user": "Zablokovat Uživatele"
+            "block_user": "Zablokovat Uživatele",
+            "copy_text": "Kopírovat Text",
+            "delete_message": "Smazat Správu",
+            "edit_message": "Upravit Zprávu"
+        },
+        "settings": {
+            "pages": {
+                "account": {
+                    "change_field": "Změnit",
+                    "title": "Můj Účet"
+                },
+                "sessions": {
+                    "this_device": "Tohle Zařízení",
+                    "created": "Vytvořeno {{time_ago}}"
+                },
+                "appearance": {
+                    "import_clipboard": "Importovat ze schránky.",
+                    "export_clipboard": "Exportovat do schránky.",
+                    "import_manual": "Importovat ručně.",
+                    "title": "Vzhled"
+                },
+                "source_code": "Zdrojový Kód",
+                "feedback": "Odezva",
+                "notifications": {
+                    "title": "Oznámení"
+                },
+                "language": {
+                    "title": "Jazyk"
+                },
+                "logOut": "Odhlásit Se",
+                "donate": {
+                    "title": "Dejte nám vaše prachy"
+                }
+            },
+            "categories": {
+                "user_settings": "Uživatelské Nastavení"
+            },
+            "title": "Nastavení"
         }
     },
     "dayjs": {
@@ -118,5 +190,8 @@
             "many": "{{count}} Členů",
             "one": "1 Člen"
         }
+    },
+    "notifications": {
+        "sent_request": "@{{person}} ti poslal(a) žádost o přátelství."
     }
 }
