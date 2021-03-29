@@ -1,1 +1,290 @@
-{}
+{
+    "app": {
+        "context_menu": {
+            "save_file": "Dosyayı Kaydet",
+            "copy_link": "Bağlantıyı Kopyala",
+            "open_link": "Bağlantıyı Aç",
+            "add_friend": "Arkadaş Olarak Ekle",
+            "copy_text": "Metni Kopyala",
+            "copy_uid": "Kullanıcı ID'sini Kopyala",
+            "copy_cid": "Kanal ID'sini Kopyala",
+            "copy_mid": "Mesaj ID'sini Kopyala",
+            "mention": "Bahset",
+            "message_user": "Mesaj",
+            "retry_message": "Göndermeyi Tekrar Dene",
+            "cancel_message": "Göndermeyi İptal Et",
+            "quote_message": "Mesajı Alıntıla",
+            "delete_message": "Mesajı Sil",
+            "remove_member": "Gruptan Kaldır/At",
+            "open_file": "Dosyayı Aç",
+            "open_image": "Fotoğrafı Aç",
+            "save_image": "Fotoğrafı/Resmi Kaydet",
+            "open_video": "Video'yu Aç",
+            "save_video": "Video'yu kaydet",
+            "block_user": "Kullanıcıyı Engelle",
+            "unblock_user": "Kullanıcının Engelini Kaldır",
+            "remove_friend": "Arkadaşı Çıkar",
+            "cancel_friend": "İsteği İptal Et",
+            "copy_id": "ID'yi Kopyala",
+            "mark_as_read": "Okundu Olarak İşaretle",
+            "edit_message": "Mesajı Düzenle"
+        },
+        "status": {
+            "online": "Çevrimiçi",
+            "idle": "Boşta",
+            "offline": "Çevrimdışı",
+            "busy": "Meşgul/Rahatsız Etmeyin",
+            "invisible": "Görünmez"
+        },
+        "navigation": {
+            "tabs": {
+                "home": "Ana Sayfa",
+                "friends": "Arkadaşlar",
+                "unreads": "Okunmamışlar/Okunmayanlar",
+                "saved": "Kaydedilmiş Mesajlar",
+                "dev": "Geliştirici"
+            }
+        },
+        "main": {
+            "categories": {
+                "channels": "Kanallar",
+                "members": "Üyeler",
+                "conversations": "Mesajlar"
+            },
+            "channel": {
+                "message_where": "{{channel_name}} Kanalına mesaj gönder",
+                "message_who": "{{person}} Adlı kişiye mesaj gönder",
+                "uploading_file": "Dosya yükleniyor...",
+                "failed_upload": "Dosya Yüklenemedi!",
+                "attached_file": "{{filename}} eklendi",
+                "typing": {
+                    "single": "{{user}} yazıyor…",
+                    "multiple": "{{userlist}} ve {{user}} yazıyor…",
+                    "several": "Birkaç kişi yazıyor…"
+                },
+                "system": {
+                    "user_joined": "katıldı.",
+                    "user_left": "ayrıldı.",
+                    "added_by": "ekleyen",
+                    "removed_by": "kaldıran"
+                },
+                "unknown_user": "<Bilinmeyen Kullanıcı>",
+                "bot": "bot",
+                "message_saved": "Mesajlarınıza kaydedin"
+            },
+            "groups": {
+                "name": "Grup İsmi",
+                "create": "Bir grup oluştur."
+            }
+        },
+        "settings": {
+            "title": "Ayarlar",
+            "categories": {
+                "user_settings": "Kullanıcı Ayarları",
+                "client_settings": "İstemci Ayarları"
+            },
+            "pages": {
+                "account": {
+                    "title": "Hesabım",
+                    "change_field": "Değiştir"
+                },
+                "sessions": {
+                    "title": "Oturumlar",
+                    "this_device": "Bu cihaz",
+                    "created": "Oluşturuldu {{time_ago}}"
+                },
+                "appearance": {
+                    "title": "Görünüm",
+                    "export_clipboard": "Panoya aktar.",
+                    "import_clipboard": "Panodan içeri aktar.",
+                    "import_manual": "El ile içe aktarın.",
+                    "theme_data": "Tema Verileri",
+                    "overrides": "Tema Geçersiz Kılmaları",
+                    "reset_overrides": "Geçersiz kılmaları sıfırlayın.",
+                    "import_theme": "Temayı dizeden içe aktarın."
+                },
+                "notifications": {
+                    "title": "Bildirimler",
+                    "enable_sound": "İletide Ses Çıkart.",
+                    "enable_outgoing_sound": "Mesaj gönderirken ses çıkart",
+                    "descriptions": {
+                        "enable_desktop": "Bu, uygulamanız açıkken size bildirimleri gösterecektir.",
+                        "enable_sound": "Gelen ileti sesleri için etkinleştirin.",
+                        "enable_outgoing_sound": "İleti gönderdiğinizde ses çalmasını etkinleştir.",
+                        "enable_push": "Çevrimdışı olduğunuzda bildirim almayı etkinleştirin."
+                    },
+                    "enable_desktop": "Masaüstü bildirimlerini etkinleştirin.",
+                    "enable_push": "Anında İleti Bildirimlerini etkinleştirin."
+                },
+                "language": {
+                    "title": "Dil"
+                },
+                "donate": {
+                    "title": "Bağış"
+                },
+                "source_code": "Kaynak",
+                "feedback": "Geri Bildirim",
+                "logOut": "Çıkış Yap"
+            }
+        },
+        "special": {
+            "friends": {
+                "blocked": "Engellendi",
+                "incoming": "Gelen arkadaşlık isteği.",
+                "outgoing": "Giden arkadaşlık isteği.",
+                "pending": "Bekleyen"
+            },
+            "status": {
+                "offline": "Çevrimdışı.",
+                "disconnected": "Bağlantı kesildi.",
+                "connecting": "Bağlanıyor…",
+                "reconnecting": "Tekrar bağlanıyor…"
+            },
+            "modals": {
+                "error": "Bir Hata Oluştu!",
+                "clipboard": {
+                    "unavailable": "Pano kullanılamıyor!",
+                    "copy": "El ile Kopyalama:",
+                    "https": "Şu anda bir HTTPS bağlamında değilsiniz."
+                },
+                "signed_out": "Oturumunuz kapatıldı!",
+                "onboarding": {
+                    "welcome": "Hoş Geldiniz",
+                    "pick": "İnsanların sizi bulmasını istediğiniz bir kullanıcı adı seçin, bu daha sonra ayarlardan değiştirilebilir."
+                },
+                "prompt": {
+                    "confirm_leave": "{{group_name}} Adlı gruptan ayrılmak istiyor musun?",
+                    "confirm_leave_long": "Yeniden davet edilmediğin sürece tekrar katılamazsın."
+                },
+                "account": {
+                    "change": {
+                        "username": "Kullanıcı adını değiştir",
+                        "email": "Epostanı değiştir",
+                        "password": "Şifreni değiştir"
+                    },
+                    "failed": "Değiştirmede bir hata oluştu!"
+                },
+                "actions": {
+                    "ok": "Tamam",
+                    "update": "Güncelle",
+                    "send_email": "Eposta gönder",
+                    "reload": "Uygulamayı yeniden başlat",
+                    "continue": "Devam et",
+                    "cancel": "İptal et",
+                    "close": "Kapat"
+                }
+            },
+            "popovers": {
+                "user_profile": {
+                    "profile": "Profil",
+                    "no_users": "Ortak Arkadaşlarınız Bulunmuyor!",
+                    "no_groups": "Ortak Gruplarınız Bulunmuyor!",
+                    "mutual_friends": "Ortak Arkadaşlar",
+                    "mutual_groups": "Ortak Gruplar"
+                }
+            },
+            "requires_online": "Bunu görüntülemek için çevrimiçi olmanız gerekir."
+        }
+    },
+    "general": {
+        "tos": "Kullanım Şartları/Koşulları",
+        "image_by": "Fotoğrafın Çeken",
+        "about": "Hakkında",
+        "privacy": "Gizlilik Politikası"
+    },
+    "login": {
+        "title": "Oturum Aç",
+        "register": "Kayıt Ol",
+        "username": "Kullanıcı Adı",
+        "email": "Eposta",
+        "password": "Şifre",
+        "invite": "Davet Kodu",
+        "current_password": "Şimdiki/Mevcut Şifre",
+        "enter": {
+            "username": "Bir kullanıcı adı gir.",
+            "password": "Şifrenizi girin.",
+            "invite": "Davet kodunuzu giriniz.",
+            "current_password": "Mevcut şifrenizi girin.",
+            "email": "Epostanızı girin."
+        },
+        "reset": "Şifreyi Sıfırla",
+        "set_password": "Yeni şifrenizi giriniz",
+        "remembered": "Girişe geri dönün.",
+        "new": "REVOLT'ta yeni misiniz?",
+        "create": "Yeni bir hesap oluştur.",
+        "resend": "Onaylamayı tekrar gönder.",
+        "cancel": "İsteği iptal et.",
+        "check_mail": "Epostanı kontrol et.",
+        "successful_registration": "Başarıyla kaydoldun!",
+        "error": {
+            "create": "Kayıt başarısız!",
+            "login": "Giriş yapılamadı!",
+            "reset": "Sıfırlanamadı!",
+            "resend": "Yeniden gönderilemedi!"
+        },
+        "forgot": "Şifreni mi unuttun?",
+        "existing": "Zaten hesabınız var mı?",
+        "missing_verification": "Epostan yok mu?",
+        "check_spam": "Bulamıyorsanız, spam'ı kontrol ettiğinizden emin olun.",
+        "open_mail_provider": "{{provider}}'i açın"
+    },
+    "quantities": {
+        "members": {
+            "one": "1 Üye",
+            "many": "{{count}}  Üye"
+        }
+    },
+    "dayjs": {
+        "lastDay": "[Dün saat] LT",
+        "nextDay": "[Yarın saat] LT",
+        "lastWeek": "[Son] dddd [saat] LT",
+        "nextWeek": "dddd [saat] LT",
+        "sameElse": "L",
+        "sameDay": "[Bugün saat] LT"
+    },
+    "error": {
+        "network_error": "Ağ hatası.",
+        "unauthorized": "Yetkisiz.",
+        "unlabelled": "Bir şey oldu.",
+        "failed_validation": "Alanlar doğrulanamadı.",
+        "database_error": "Veritabanı hatası.",
+        "unknown_error": "Konsolu görüntüle.",
+        "render_fail": "Şablon oluşturma başarısız oldu.",
+        "missing_headers": "Eksik başlıklar.",
+        "unverified_account": "Doğrulanmamış hesap.",
+        "unknown_user": "Bilinmeyen kullanıcı.",
+        "email_in_use": "Eposta kullanılmaktadır.",
+        "invalid_credentials": "E-posta veya şifre yanlış.",
+        "invalid_token": "Geçersiz token",
+        "invalid_invite": "Geçersiz kod",
+        "already_onboarded": "Katılım zaten tamamlandı.",
+        "already_friends": "Bu kullanıcı ile zaten arkadaşsınız.",
+        "blocked_other": "Bu kullanıcı sizi engelledi.",
+        "required_field": "Gerekli",
+        "too_short": "Çok kısa",
+        "too_long": "Çok uzun",
+        "invalid_email": "Geçersiz e-posta adresi",
+        "file_too_large": "Dosya çok büyük.",
+        "failed_to_receive": "Sunucu dosyanızı alamadı.",
+        "probe_error": "Dosya meta verileri alınamadı.",
+        "denied_notification": "Bildirim erişimini reddettiniz, sayfa ayarlarını kontrol edin.",
+        "internal_error": "İç hata.",
+        "missing_permission": "Eksik izin.",
+        "operation_failed": "Operasyon başarısız.",
+        "invalid_session": "Geçersiz oturum.",
+        "email_failed": "E-posta gönderilemedi.",
+        "missing_invite": "İstekte eksik davet kodu.",
+        "username_taken": "Kullanıcı adı kullanılmaktadır.",
+        "already_sent_request": "Bu kullanıcıya zaten bir istek göndermiş.",
+        "blocked": "Bu kullanıcıyı engellediniz.",
+        "no_effect": "Bu talebin hiçbir etkisi olmadı.",
+        "unavailable": "Kullanım dışı.",
+        "missing_data": "İstekte veri eksik.",
+        "io_error": "Sunucu bir G/Ç hatasıyla karşılaştı.",
+        "unsupported_browser": "Tarayıcıda bu özellik için destek yok."
+    },
+    "notifications": {
+        "sent_request": "@{{person}} arkadaşlık isteği gönderdi.",
+        "now_friends": "Artık @{{person}} ile arkadaşsınız!"
+    }
+}
