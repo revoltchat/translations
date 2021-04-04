@@ -107,10 +107,12 @@
                     "continue": "Kontyntynuj",
                     "reload": "Załaduj ponownie aplikację",
                     "close": "Zamknij",
-                    "ok": "Ok"
+                    "ok": "Ok",
+                    "send_email": "Wyślij e-mail",
+                    "update": "Zmien"
                 },
                 "onboarding": {
-                    "pick": "Wybierz nazwę użytkownika.",
+                    "pick": "Wybierz nazwę użytkownika, według której inni będą mogli Cię znaleźć, możesz to później zmienić w ustawieniach.",
                     "welcome": "Witamy w"
                 },
                 "signed_out": "Zostałeś wylogowany!",
@@ -119,26 +121,79 @@
                     "https": "Nie jesteś obecnie w kontekście HTTPS.",
                     "unavailable": "Schowek jest niedostępny!"
                 },
-                "error": "Wystąpił błąd!"
+                "error": "Wystąpił błąd!",
+                "account": {
+                    "failed": "Nie udało się zmienić!",
+                    "change": {
+                        "password": "Zmień swoje hasło",
+                        "email": "Zmień swój adres e-mail",
+                        "username": "Zmień swoją nazwę użytkownika"
+                    }
+                },
+                "prompt": {
+                    "confirm_leave_long": "Nie będziesz mógł ponownie dołączyć, chyba że zostaniesz ponownie zaproszony.",
+                    "confirm_leave": "Opuścić grupę {{group_name}}?"
+                }
             },
             "status": {
                 "reconnecting": "Ponowne łączenie…",
                 "connecting": "Łączenie…",
                 "disconnected": "Odłączony.",
                 "offline": "Offline."
+            },
+            "popovers": {
+                "user_profile": {
+                    "badges": {
+                        "translator": "Tłumacz"
+                    },
+                    "no_groups": "Brak wspólnych grup!",
+                    "no_users": "Żadnych wspólnych znajomych!",
+                    "mutual_groups": "Grupy wzajemne",
+                    "mutual_friends": "Wspólni przyjaciele",
+                    "profile": "Profil"
+                }
             }
         },
         "context_menu": {
             "block_user": "Zablokować użytkownika",
             "copy_id": "Skopiuj ID",
-            "message_user": "Wyślij wiadomość"
+            "message_user": "Wyślij wiadomość",
+            "cancel_friend": "Anuluj żąproszenie",
+            "remove_friend": "Usunąć znajomego",
+            "add_friend": "Dodaj znajomego",
+            "unblock_user": "Odblokuj użytkownika",
+            "open_link": "Otwórz link",
+            "copy_link": "Skopiuj link",
+            "save_video": "Zapisz wideo",
+            "open_video": "Otwórz wideo",
+            "save_image": "Zapisać obraz",
+            "open_image": "Otwórz obraz",
+            "save_file": "Zapisz plik",
+            "open_file": "Otwórz plik",
+            "remove_member": "Usuń z grupy",
+            "delete_message": "Usuń wiadomość",
+            "edit_message": "Edytuj wiadomość",
+            "quote_message": "Cytuj wiadomość",
+            "cancel_message": "Anuluj wysyłanie",
+            "retry_message": "Spróbuj ponownie wysłać",
+            "mark_as_read": "Oznacz jako przeczytane",
+            "mention": "Wspomnij",
+            "copy_mid": "Skopiuj ID wiadomości",
+            "copy_cid": "Skopiuj ID kanału",
+            "copy_uid": "Skopiuj ID użytkownika",
+            "copy_text": "Skopiuj tekst"
         },
         "settings": {
             "pages": {
                 "appearance": {
                     "overrides": "Nadpisania motywu",
                     "reset_overrides": "Zresetuj zastąpienia",
-                    "title": "Wygląd"
+                    "title": "Wygląd",
+                    "theme_data": "Dane tematyczne",
+                    "import_theme": "Importuj motyw z ciągu",
+                    "import_manual": "Importuj ręcznie",
+                    "import_clipboard": "Importuj ze schowka",
+                    "export_clipboard": "Eksportuj do schowka"
                 },
                 "sessions": {
                     "created": "Utworzono {{time_ago}}",
@@ -148,6 +203,28 @@
                 "account": {
                     "change_field": "Zmien",
                     "title": "Moje Konto"
+                },
+                "logOut": "Wyloguj",
+                "feedback": "Informacje zwrotne",
+                "source_code": "Kod źródłowy",
+                "donate": {
+                    "title": "Podarować"
+                },
+                "language": {
+                    "title": "Język"
+                },
+                "notifications": {
+                    "descriptions": {
+                        "enable_outgoing_sound": "Włącz odtwarzanie dźwięku podczas wysyłania wiadomości.",
+                        "enable_sound": "Włącz dla dźwięków wiadomości przychodzących.",
+                        "enable_push": "Dzięki temu otrzymasz powiadomienia, gdy Twoja aplikacja jest otwarta.",
+                        "enable_desktop": "Dzięki temu otrzymasz powiadomienia, gdy Twoja aplikacja jest otwarta."
+                    },
+                    "enable_outgoing_sound": "Odtwórz dźwięk wysyłania.",
+                    "enable_sound": "Odtwórz dźwięk w wiadomości.",
+                    "enable_push": "Włącz powiadomienia push.",
+                    "enable_desktop": "Włącz powiadomienia na pulpicie.",
+                    "title": "Notyfikacje"
                 }
             },
             "categories": {
@@ -190,6 +267,33 @@
         "internal_error": "Błąd wewnętrzny.",
         "database_error": "Błąd bazy danych.",
         "failed_validation": "Nie udało się zweryfikować pól.",
-        "unlabelled": "Coś się stało."
+        "unlabelled": "Coś się stało.",
+        "denied_notification": "Odmówiłeś dostępu do powiadomień, sprawdź ustawienia strony.",
+        "unsupported_browser": "Przeglądarka nie obsługuje tej funkcji.",
+        "io_error": "Serwer napotkał błąd I/O.",
+        "probe_error": "Nie udało się pobrać metadanych pliku.",
+        "missing_data": "W żądaniu brakuje danych.",
+        "failed_to_receive": "Serwer nie mógł odebrać pliku.",
+        "file_too_large": "Plik jest za duży.",
+        "unavailable": "Niedostępne.",
+        "invalid_invite": "Nieprawidłowy kod zaproszenia",
+        "missing_invite": "Brak kodu zaproszenia.",
+        "invalid_token": "Nieprawidłowy Token",
+        "invalid_credentials": "E-mail lub hasło jest nieprawidłowe.",
+        "email_failed": "Nie udało się wysłać e-maila.",
+        "render_fail": "Renderowanie szablonu nie powiodło się.",
+        "missing_permission": "Brak pozwolenia.",
+        "unauthorized": "Nieautoryzowany.",
+        "network_error": "Błąd sieci."
+    },
+    "notifications": {
+        "now_friends": "Jesteście teraz znajomymi z @{{person}}!",
+        "sent_request": "@{{person}} wysłał Ci zaproszenie do znajomych."
+    },
+    "quantities": {
+        "members": {
+            "many": "{{count}} członków",
+            "one": "1 członek"
+        }
     }
 }
