@@ -12,7 +12,9 @@
         "enter": {
             "email": "Wpisz twoj e-mail.",
             "password": "Wpisz twoje hasło.",
-            "username": "Wpisz nazwę użytkownika."
+            "username": "Wpisz nazwę użytkownika.",
+            "current_password": "Wprowadź swoje aktualne hasło.",
+            "invite": "Wpisz swój kod zaproszenia."
         },
         "forgot": "Zapomniałeś hasło?",
         "new": "Nowy w REVOLT?",
@@ -20,9 +22,24 @@
         "cancel": "Anulować żądanie.",
         "existing": "Posiadasz już konto?",
         "remembered": "Wróć do logowania.",
-        "reset": "Zresetuj hasło",
+        "reset": "Zresetuj hasło.",
         "username": "Nazwa Użytkownika",
-        "register": "Załóż konto"
+        "register": "Załóż konto",
+        "error": {
+            "resend": "Nie udało się wysłać ponownie!",
+            "reset": "Nie udało się zresetować!",
+            "login": "Nie udało się zalogować!",
+            "create": "Nie udało się zarejestrować!"
+        },
+        "successful_registration": "Zarejestrowano cie!",
+        "open_mail_provider": "Otworz {{provider}}",
+        "check_spam": "Pamiętaj, aby sprawdzić spam, jeśli nie możesz go znaleźć.",
+        "check_mail": "Sprawdź swój email.",
+        "resend": "Wyślij ponownie weryfikację.",
+        "missing_verification": "Nie dostałeś e-maila?",
+        "set_password": "Ustaw nowe hasło.",
+        "current_password": "Aktualne hasło",
+        "invite": "Kod zaproszenia"
     },
     "app": {
         "status": {
@@ -48,7 +65,32 @@
                 "members": "Członkowie"
             },
             "channel": {
-                "message": "Wyslij do {{name}}"
+                "message": "Wyslij do {{name}}",
+                "bot": "bot",
+                "unknown_user": "<Nieznany Użytkownik>",
+                "system": {
+                    "channel_renamed": "zmienił nazwę kanału na",
+                    "removed_by": "usunięte przez",
+                    "added_by": "dodane przez",
+                    "user_left": "opuścił grupę.",
+                    "user_joined": "dołączył do grupy."
+                },
+                "typing": {
+                    "several": "Kilka osób pisze…",
+                    "multiple": "{{userlist}} i {{user}} pisze…",
+                    "single": "{{user}} pisze…"
+                },
+                "attached_file": "Załączony plik {{filename}}",
+                "failed_upload": "Nie udało się przesłać!",
+                "uploading_file": "Przesyłanie pliku...",
+                "message_saved": "Zapisz w zapisanych wiadomościach",
+                "message_who": "Wyślij do {{person}}",
+                "message_where": "Wyślij do {{channel_name}}"
+            },
+            "groups": {
+                "owner": "Właściciel grupy",
+                "name": "Nazwa grupy",
+                "create": "Utwórz nową grupę."
             }
         },
         "special": {
@@ -90,6 +132,29 @@
             "block_user": "Zablokować użytkownika",
             "copy_id": "Skopiuj ID",
             "message_user": "Wyślij wiadomość"
+        },
+        "settings": {
+            "pages": {
+                "appearance": {
+                    "overrides": "Nadpisania motywu",
+                    "reset_overrides": "Zresetuj zastąpienia",
+                    "title": "Wygląd"
+                },
+                "sessions": {
+                    "created": "Utworzono {{time_ago}}",
+                    "this_device": "To urządzenie",
+                    "title": "Sesje"
+                },
+                "account": {
+                    "change_field": "Zmien",
+                    "title": "Moje Konto"
+                }
+            },
+            "categories": {
+                "client_settings": "Ustawienia Klienta",
+                "user_settings": "Ustawienia Użytkownika"
+            },
+            "title": "Ustawienia"
         }
     },
     "dayjs": {
