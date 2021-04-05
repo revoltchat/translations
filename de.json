@@ -3,7 +3,8 @@
         "about": "Über",
         "tos": "Geschäftsbedingungen",
         "privacy": "Datenschutzerklärung",
-        "image_by": "Bild von"
+        "image_by": "Bild von",
+        "loading": "Ladevorgang..."
     },
     "login": {
         "title": "Login",
@@ -62,7 +63,8 @@
             "categories": {
                 "conversations": "Besprechungen",
                 "channels": "Kanäle",
-                "members": "Mitglieder"
+                "members": "Mitglieder",
+                "participants": "Teilnehmer"
             },
             "channel": {
                 "message": "Nachricht an {{name}}",
@@ -85,7 +87,11 @@
                 "uploading_file": "Datei wird hochgeladen...",
                 "message_saved": "In deinen Nachrichten speichern",
                 "bot": "Bot",
-                "unknown_user": "<Unbekannter Nutzer>"
+                "unknown_user": "<Unbekannter Nutzer>",
+                "edited": "(bearbeitet)",
+                "start": {
+                    "group": "Das ist der Anfang deiner Besprechung."
+                }
             },
             "groups": {
                 "name": "Gruppenname",
@@ -120,14 +126,18 @@
             "mention": "Erwähnen",
             "copy_text": "Text kopieren",
             "open_link": "Link öffnen",
-            "copy_link": "Link kopieren"
+            "copy_link": "Link kopieren",
+            "set_custom_status": "Einen benutzerdefinierten Status setzen",
+            "clear_status": "Status entfernen",
+            "custom_status": "Benutzerdefinierter Status"
         },
         "special": {
             "friends": {
                 "outgoing": "Ausgehende Freundschaftsanfrage.",
                 "incoming": "Eingehende Freundschaftsanfrage.",
                 "blocked": "Blockiert",
-                "pending": "Ausstehend"
+                "pending": "Ausstehend",
+                "nobody": "Noch ist niemand hier!"
             },
             "requires_online": "Du musst online sein, um dies anzuschauen.",
             "modals": {
@@ -138,7 +148,9 @@
                     "cancel": "Abbrechen",
                     "continue": "Weiter",
                     "send_email": "E-Mail senden",
-                    "update": "Aktualisieren"
+                    "update": "Aktualisieren",
+                    "preview": "Vorschau",
+                    "save": "Speichern"
                 },
                 "signed_out": "Du wurdest ausgeloggt!",
                 "clipboard": {
@@ -194,19 +206,29 @@
                     "overrides": "Überschreibungen des Themas",
                     "title": "Aussehen",
                     "theme_data": "Themadaten",
-                    "import_theme": "Thema aus Zeichenkette importieren"
+                    "import_theme": "Thema aus Zeichenkette importieren",
+                    "sync": "Synchronisierungseinstellungen",
+                    "custom_css": "Erweitert — Benutzerdefiniertes CSS",
+                    "message_display": "Nachrichtenanzeige",
+                    "color": {
+                        "dark": "dunkel",
+                        "light": "hell"
+                    },
+                    "theme": "Thema"
                 },
                 "sessions": {
                     "created": "{{time_ago}} erstellt",
                     "this_device": "Dieses Gerät",
-                    "title": "Sitzungen"
+                    "title": "Sitzungen",
+                    "active_sessions": "Aktive Sitzungen"
                 },
                 "account": {
                     "title": "Mein Account",
                     "change_field": "Ändern"
                 },
                 "language": {
-                    "title": "Sprache"
+                    "title": "Sprache",
+                    "select": "Sprache auswählen"
                 },
                 "notifications": {
                     "enable_sound": "Bei einer Nachricht einen Ton abspielen.",
@@ -225,13 +247,33 @@
                 "source_code": "Quellcode",
                 "donate": {
                     "title": "Spenden"
+                },
+                "profile": {
+                    "placeholder": "Erzähle etwas über dich selbst...",
+                    "fetching": "Dein Profil wird geladen...",
+                    "info": "Information",
+                    "title": "Profil"
                 }
             },
             "categories": {
                 "client_settings": "Clienteinstellungen",
                 "user_settings": "Nutzereinstellungen"
             },
-            "title": "Einstellungen"
+            "title": "Einstellungen",
+            "tips": {
+                "sessions": {
+                    "b": "sichere deinen Account, indem du dein Passwort änderst und Zwei-Faktor-Authentifizierung nutzt.",
+                    "a": "Falls du auf dieser Liste eine unbekannte Sitzung findest,"
+                },
+                "languages": {
+                    "b": "Hilf dabei, neue Übersetzungen beizutragen.",
+                    "a": "Es fehlt eine Sprache?"
+                },
+                "account": {
+                    "b": "Gehe zu deinen Profileinstellungen.",
+                    "a": "Du suchst nach einem Weg, dein öffentliches Profil anzupassen?"
+                }
+            }
         }
     },
     "dayjs": {
