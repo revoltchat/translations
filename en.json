@@ -3,7 +3,8 @@
         "about": "About",
         "tos": "Terms of Service",
         "privacy": "Privacy Policy",
-        "image_by": "Image by"
+        "image_by": "Image by",
+        "loading": "Loading..."
     },
     "login": {
         "title": "Login",
@@ -61,6 +62,7 @@
         "main": {
             "categories": {
                 "conversations": "Conversations",
+                "participants": "Participants",
                 "channels": "Channels",
                 "members": "Members"
             },
@@ -83,7 +85,11 @@
                     "removed_by": "removed by",
                     "channel_renamed": "renamed the channel to"
                 },
+                "start": {
+                    "group": "This is the start of your conversation."
+                },
                 "unknown_user": "<Unknown User>",
+                "edited": "(edited)",
                 "bot": "bot"
             },
             "groups": {
@@ -105,7 +111,9 @@
                 },
                 "profile": {
                     "title": "Profile",
-                    "info": "Information"
+                    "info": "Information",
+                    "fetching": "Fetching your profile...",
+                    "placeholder": "Write something about yourself..."
                 },
                 "sessions": {
                     "title": "Sessions",
@@ -154,6 +162,20 @@
                 "source_code": "Source",
                 "feedback": "Feedback",
                 "logOut": "Log Out"
+            },
+            "tips": {
+                "account": {
+                    "a": "Looking to customise your public profile?",
+                    "b": "Head over to your profile settings."
+                },
+                "languages": {
+                    "a": "Missing a language you want?",
+                    "b": "Help contribute more translations."
+                },
+                "sessions": {
+                    "a": "If you see an unknown session on the list,",
+                    "b": "secure your account by changing your password and using 2FA."
+                }
             }
         },
         "special": {
@@ -161,7 +183,8 @@
                 "pending": "Pending",
                 "blocked": "Blocked",
                 "incoming": "Incoming friend request.",
-                "outgoing": "Outgoing friend request."
+                "outgoing": "Outgoing friend request.",
+                "nobody": "Nobody here yet!"
             },
             "status": {
                 "offline": "Offline.",
