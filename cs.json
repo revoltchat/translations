@@ -111,7 +111,7 @@
                 "disconnected": "Odpojen.",
                 "connecting": "Připojování…"
             },
-            "requires_online": "Musíte být online aby jste toto zobrazili.",
+            "requires_online": "Pro zobrazení obsahu musíte být online",
             "popovers": {
                 "user_profile": {
                     "profile": "Profil",
@@ -123,43 +123,57 @@
             }
         },
         "context_menu": {
-            "copy_id": "Zkopírovat ID",
-            "block_user": "Zablokovat Uživatele",
-            "copy_text": "Kopírovat Text",
-            "delete_message": "Smazat Správu",
-            "edit_message": "Upravit Zprávu"
+            "copy_id": "Kopírovat ID",
+            "block_user": "Zablokovat uživatele",
+            "copy_text": "Kopírovat text",
+            "delete_message": "Smazat zprávu",
+            "edit_message": "Upravit zprávu"
         },
         "settings": {
             "pages": {
                 "account": {
                     "change_field": "Změnit",
-                    "title": "Můj Účet"
+                    "title": "Můj účet"
                 },
                 "sessions": {
+                    "title": "Relace",
+                    "active_sessions": "Aktivní relace",
                     "this_device": "Tohle Zařízení",
                     "created": "Vytvořeno {{time_ago}}"
                 },
                 "appearance": {
+                    "title": "Vzhled",
+                    "theme": "Téma",
+                    "color": {
+                        "light": "Světlé",
+                        "dark": "Tmavé"
+                    },
+                    "message_display": "Zobrazení zpráv",
+                    "overrides": "Přepsání motivu",
                     "import_clipboard": "Importovat ze schránky",
                     "export_clipboard": "Exportovat do schránky",
                     "import_manual": "Importovat ručně",
-                    "title": "Vzhled"
+                    "custom_css": "Pokročilé — Vlastní CSS",
+                    "sync": "Synchronizovat"
+                    
                 },
-                "source_code": "Zdrojový Kód",
+                "source_code": "Zdrojový kód",
                 "feedback": "Odezva",
                 "notifications": {
                     "title": "Oznámení"
                 },
                 "language": {
-                    "title": "Jazyk"
+                    "title": "Jazyk",
+                    "select": "Vybrat jazyk"
                 },
-                "logOut": "Odhlásit Se",
+                "logOut": "Odhlásit se",
                 "donate": {
-                    "title": "Dejte nám vaše prachy"
+                    "title": "Podpořte nás"
                 }
             },
             "categories": {
-                "user_settings": "Uživatelské Nastavení"
+                "user_settings": "Uživatelská Nastavení",
+                "client_settings": "Nastavení Aplikace"
             },
             "title": "Nastavení"
         }
