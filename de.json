@@ -31,7 +31,7 @@
         "check_mail": "Schaue in deiner Mail nach.",
         "error": {
             "resend": "Erneut senden fehlgeschlagen!",
-            "reset": "Konnte nicht zurücksetzen!",
+            "reset": "Zurücksetzung fehlgeschlagen!",
             "login": "Anmeldung fehlgeschlagen!",
             "create": "Account konnte nicht erstellt werden!"
         },
@@ -208,13 +208,21 @@
                     "theme_data": "Themadaten",
                     "import_theme": "Thema aus Zeichenkette importieren",
                     "sync": "Synchronisierungseinstellungen",
-                    "custom_css": "Erweitert — Benutzerdefiniertes CSS",
+                    "custom_css": "Benutzerdefiniertes CSS",
                     "message_display": "Nachrichtenanzeige",
                     "color": {
                         "dark": "dunkel",
                         "light": "hell"
                     },
-                    "theme": "Thema"
+                    "theme": "Thema",
+                    "advanced": "Erweiterte Optionen",
+                    "accent_selector": "Akzentfarbe",
+                    "display": {
+                        "compact_description": "Gutes altes IRC.",
+                        "default_description": "Schön, elegant und modern.",
+                        "compact": "Kompakt",
+                        "default": "Standard"
+                    }
                 },
                 "sessions": {
                     "created": "{{time_ago}} erstellt",
@@ -244,7 +252,13 @@
                     "enable_outgoing_sound": "Sendegeräusch abspielen."
                 },
                 "feedback": {
-                    "title": "Rückmeldung"
+                    "title": "Rückmeldung",
+                    "bug": "Einen Bug",
+                    "send": "Rückmeldung senden",
+                    "describe": "Beschreibe das Problem.",
+                    "other": "Etwas anderes",
+                    "feature": "Vorschlag für ein fehlendes Feature",
+                    "report": "Über was willst du berichten?"
                 },
                 "source_code": "Quellcode",
                 "donate": {
@@ -274,6 +288,13 @@
                 "account": {
                     "b": "Gehe zu deinen Profileinstellungen.",
                     "a": "Du suchst nach einem Weg, dein öffentliches Profil anzupassen?"
+                }
+            },
+            "channel_pages": {
+                "overview": {
+                    "description": "Kanalbeschreibung",
+                    "name": "Kanalname",
+                    "title": "Überblick"
                 }
             }
         }
