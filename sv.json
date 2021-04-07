@@ -4,14 +4,14 @@
         "tos": "Användarvillkor",
         "privacy": "Integritetspolicy",
         "image_by": "Bild av",
-        "loading": "Laddar..."
+        "loading": "Laddar…"
     },
     "login": {
         "title": "Logga in",
         "email": "E-post",
         "password": "Lösenord",
         "enter": {
-            "email": "Ange E-postadress.",
+            "email": "Ange din e-postadress.",
             "password": "Ange ditt lösenord.",
             "username": "Ange ett användarnamn.",
             "current_password": "Ange ditt nuvarande lösenord.",
@@ -104,7 +104,8 @@
                 "outgoing": "Utgående vänförfrågning.",
                 "incoming": "Inkommande vänförfrågning.",
                 "blocked": "Blockerade",
-                "pending": "Väntande"
+                "pending": "Väntande",
+                "nobody": "Ingen här än!"
             },
             "requires_online": "Du behöver vara online för att visa detta.",
             "modals": {
@@ -115,7 +116,9 @@
                     "cancel": "Avbryt",
                     "continue": "Fortsätt",
                     "send_email": "Skicka e-post",
-                    "update": "Uppdatera"
+                    "update": "Uppdatera",
+                    "preview": "Förhandsvisa",
+                    "save": "Spara"
                 },
                 "signed_out": "Du blev utloggad!",
                 "clipboard": {
@@ -153,7 +156,10 @@
                     "no_users": "Inga gemensamma vänner!",
                     "mutual_groups": "Gemensamma Grupper",
                     "mutual_friends": "Gemensamma Vänner",
-                    "profile": "Profil"
+                    "profile": "Profil",
+                    "badges": {
+                        "translator": "Översättare"
+                    }
                 }
             }
         },
@@ -184,7 +190,10 @@
             "retry_message": "Försök att skicka igen",
             "mention": "Nämn",
             "open_link": "Öppna Länk",
-            "copy_link": "Kopiera Länk"
+            "copy_link": "Kopiera Länk",
+            "set_custom_status": "Sätt en anpassad status",
+            "clear_status": "Rensa Status",
+            "custom_status": "Anpassad Status"
         },
         "settings": {
             "pages": {
@@ -197,19 +206,37 @@
                     "import_clipboard": "Importera från urklipp",
                     "export_clipboard": "Exportera till urklipp",
                     "reset_overrides": "Nollställ ändringar",
-                    "overrides": "Överskridande Teman"
+                    "overrides": "Överskridande Teman",
+                    "sync": "Synkroniseringsalternativ",
+                    "custom_css": "Anpassad CSS",
+                    "advanced": "Avancerade Inställningar",
+                    "message_display": "Meddelandets Format",
+                    "accent_selector": "Accentfärg",
+                    "color": {
+                        "dark": "mörkt",
+                        "light": "ljust"
+                    },
+                    "display": {
+                        "compact_description": "Gamla goda LYS-16.",
+                        "default_description": "Förträffligt elegant och modernt.",
+                        "compact": "Kompakt",
+                        "default": "Standard"
+                    },
+                    "theme": "Tema"
                 },
                 "sessions": {
                     "title": "Sessioner",
                     "created": "Skapat {{time_ago}}",
-                    "this_device": "Den Här Enheten"
+                    "this_device": "Den Här Enheten",
+                    "active_sessions": "Aktiva Sessioner"
                 },
                 "account": {
                     "title": "Mitt Konto",
                     "change_field": "Ändra"
                 },
                 "language": {
-                    "title": "Språk"
+                    "title": "Språk",
+                    "select": "Välj språk"
                 },
                 "notifications": {
                     "enable_sound": "Spela Ljud vid Meddelande.",
@@ -229,18 +256,47 @@
                 },
                 "source_code": "Källkod",
                 "feedback": {
-                    "title": "Feedback"
+                    "title": "Feedback",
+                    "send": "Skicka Respons",
+                    "describe": "Beskriv problemet.",
+                    "other": "Annat",
+                    "feature": "Funktionsförfrågan",
+                    "bug": "Bugg",
+                    "report": "Vad vill du rapportera?"
                 },
                 "profile": {
                     "info": "Information",
-                    "title": "Profil"
+                    "title": "Profil",
+                    "placeholder": "Skriv något om dig själv…",
+                    "fetching": "Hämtar din profil…"
                 }
             },
             "categories": {
                 "client_settings": "Klient Inställningar",
                 "user_settings": "Användar Inställningar"
             },
-            "title": "Inställningar"
+            "title": "Inställningar",
+            "tips": {
+                "sessions": {
+                    "b": "säkra ditt konto genom att ändra ditt lösenord och att använda 2FA.",
+                    "a": "Om du ser en okänd session på listan,"
+                },
+                "languages": {
+                    "b": "Hjälp oss bidra med fler översättningar.",
+                    "a": "Saknar du ett språk som du vill ha?"
+                },
+                "account": {
+                    "b": "Gå till profilinställningarna.",
+                    "a": "Vill du anpassa din publika profil?"
+                }
+            },
+            "channel_pages": {
+                "overview": {
+                    "description": "Kanalbeskrivning",
+                    "name": "Kanalnamn",
+                    "title": "Översikt"
+                }
+            }
         }
     },
     "dayjs": {
@@ -265,7 +321,7 @@
         "too_short": "För kort",
         "required_field": "Nödvändigt",
         "no_effect": "Denna förfrågning hade ingen effekt.",
-        "already_onboarded": "Avklarade redan ombordningen.",
+        "already_onboarded": "Avklarade redan uppstarten.",
         "wrong_password": "Fel lösenord.",
         "unknown_user": "Okänd användare.",
         "unverified_account": "Overifierat konto.",
