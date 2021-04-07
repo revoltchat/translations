@@ -3,7 +3,8 @@
         "about": "Abouwt",
         "tos": "Tewms of sewvice",
         "privacy": "Pwivacy powicy",
-        "image_by": "Image bwy"
+        "image_by": "Image bwy",
+        "loading": "Lyoading…"
     },
     "app": {
         "special": {
@@ -17,7 +18,8 @@
                 "pending": "Pwending",
                 "blocked": "Bwocked",
                 "incoming": "Incoming fwiend wequwest.",
-                "outgoing": "Ouwtgoing fwiend wequwest."
+                "outgoing": "Ouwtgoing fwiend wequwest.",
+                "nobody": "Nyobody here yet!"
             },
             "modals": {
                 "error": "We did a fwucky wucky owo",
@@ -38,7 +40,9 @@
                     "continue": "Continuwe",
                     "cancel": "Cancew",
                     "send_email": "Swend Email",
-                    "update": "Uwupdate"
+                    "update": "Uwupdate",
+                    "preview": "Pweview",
+                    "save": "Syave"
                 },
                 "prompt": {
                     "confirm_leave": "Go away fwom {{group_name}} (They'll pwobabwy miss u OmO)?",
@@ -60,7 +64,10 @@
                     "no_groups": "No mutual gwoups!",
                     "no_users": "No mutual fwiends!",
                     "mutual_groups": "Mutual Gwoups",
-                    "mutual_friends": "Mutual Fwiends"
+                    "mutual_friends": "Mutual Fwiends",
+                    "badges": {
+                        "translator": "Twanslatyor"
+                    }
                 }
             }
         },
@@ -84,7 +91,8 @@
             "categories": {
                 "conversations": "Convewsations",
                 "channels": "Channews",
-                "members": "Membews"
+                "members": "Membews",
+                "participants": "Pyarticipwants"
             },
             "channel": {
                 "message": "Messawge {{name}}",
@@ -94,7 +102,8 @@
                     "removed_by": "ryemoved bwy",
                     "added_by": "addyed bwy",
                     "user_left": "lyeft.",
-                    "user_joined": "jyoined."
+                    "user_joined": "jyoined.",
+                    "channel_renamed": "ryenamwed the channyel two"
                 },
                 "typing": {
                     "several": "PANIC PANIC PANIC!!!",
@@ -106,11 +115,16 @@
                 "uploading_file": "Upwoading fwile…",
                 "message_saved": "Syawe to uw mwessages",
                 "bot": "Senpai",
-                "unknown_user": "<Unknywown Cunt>"
+                "unknown_user": "<Unknywown Cunt>",
+                "edited": "(edyited)",
+                "start": {
+                    "group": "Twis is thye styart of ye conversyation."
+                }
             },
             "groups": {
                 "name": "Gwoup Name",
-                "create": "Cweate a gwoup."
+                "create": "Cweate a gwoup.",
+                "owner": "Gwoup Ownyer"
             }
         },
         "context_menu": {
@@ -140,18 +154,23 @@
             "retry_message": "Rwetry Swend",
             "copy_text": "Steal Text",
             "open_link": "Opwen Lyink",
-            "copy_link": "Cwopy Lyink"
+            "copy_link": "Cwopy Lyink",
+            "set_custom_status": "Syet a cyustom styatus",
+            "clear_status": "Clear Styatus",
+            "custom_status": "Cyustom Styatus"
         },
         "settings": {
             "pages": {
                 "sessions": {
                     "title": "Seshions",
                     "this_device": "Dis Device",
-                    "created": "Cweated {{time_ago}}"
+                    "created": "Cweated {{time_ago}}",
+                    "active_sessions": "Actyive Syessions"
                 },
                 "logOut": "Log Out. See u latew uwu",
                 "language": {
-                    "title": "Wangwuage"
+                    "title": "Wangwuage",
+                    "select": "Syelect langwuage"
                 },
                 "notifications": {
                     "enable_sound": "Pway Syound on Mwessage.",
@@ -174,25 +193,60 @@
                     "reset_overrides": "Weset theem ovewwides",
                     "overrides": "Theem Ovewwides",
                     "title": "Appeawance",
-                    "import_manual": "Impowt manuwally"
+                    "import_manual": "Impowt manuwally",
+                    "sync": "Syinc Optyions",
+                    "custom_css": "H#cker CSS",
+                    "advanced": "Profesional H#cker Options",
+                    "message_display": "Myessage Dyisplay",
+                    "accent_selector": "Accyent Colouw",
+                    "color": {
+                        "dark": "dyark",
+                        "light": "lyight"
+                    },
+                    "display": {
+                        "compact_description": "Ye good ol' IRC.",
+                        "default_description": "Byeautiful, sleek and modewn.",
+                        "compact": "Cwompact",
+                        "default": "Dyefault"
+                    },
+                    "theme": "Thyeme"
                 },
                 "account": {
                     "title": "Mah Account",
                     "change_field": "Chyange"
                 },
                 "feedback": {
-                    "title": "Fyeedbwack"
+                    "title": "Fyeedbwack",
+                    "send": "Syend Fweedback",
+                    "describe": "Dyeswibe teh issyue.",
+                    "other": "Othew",
+                    "feature": "Fyeature Wequest",
+                    "bug": "Bug",
+                    "report": "Wyat do u wyant to wepowt?"
                 },
                 "source_code": "Sauce",
                 "donate": {
                     "title": "Giiw Monye"
+                },
+                "profile": {
+                    "placeholder": "Wyite syomething abwout uwself…",
+                    "fetching": "Stealing uw pyowife…",
+                    "info": "Informyation",
+                    "title": "Pyofiwe"
                 }
             },
             "categories": {
                 "user_settings": "Usew Settings",
                 "client_settings": "User Configuwations"
             },
-            "title": "Configuwation"
+            "title": "Configuwation",
+            "channel_pages": {
+                "overview": {
+                    "description": "Chyannel Dyescwiption",
+                    "name": "Channyel Nwame",
+                    "title": "Owervyuw"
+                }
+            }
         }
     },
     "login": {
