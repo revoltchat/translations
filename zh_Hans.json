@@ -9,18 +9,34 @@
             "pages": {
                 "appearance": {
                     "title": "外观",
-                    "export_clipboard": "复制到粘贴板。",
-                    "import_clipboard": "从剪贴板导入。",
-                    "import_manual": "手动导入。",
-                    "import_theme": "从文本导入主题。",
+                    "export_clipboard": "复制到粘贴板",
+                    "import_clipboard": "从剪贴板导入",
+                    "import_manual": "手动导入",
+                    "import_theme": "从文本导入主题",
                     "theme_data": "主题数据",
                     "overrides": "主题设置",
-                    "reset_overrides": "重置设定。"
+                    "reset_overrides": "重置设定",
+                    "sync": "同步选项",
+                    "custom_css": "自定义CSS",
+                    "advanced": "高级设定",
+                    "message_display": "信息显示",
+                    "accent_selector": "主题颜色",
+                    "color": {
+                        "dark": "深色",
+                        "light": "浅色"
+                    },
+                    "display": {
+                        "default_description": "漂亮，简约且时尚。",
+                        "compact": "简约",
+                        "default": "默认"
+                    },
+                    "theme": "主题"
                 },
                 "sessions": {
                     "title": "登录的设备",
                     "created": "创建于 {{time_ago}}",
-                    "this_device": "此设备"
+                    "this_device": "此设备",
+                    "active_sessions": "已登陆的设备"
                 },
                 "account": {
                     "change_field": "更改",
@@ -41,21 +57,35 @@
                 },
                 "logOut": "登出",
                 "feedback": {
-                    "title": "反馈"
+                    "title": "反馈",
+                    "send": "发送反馈",
+                    "describe": "在这里描述您的问题。",
+                    "other": "其他",
+                    "feature": "新功能",
+                    "bug": "错误/漏洞",
+                    "report": "想要反馈什么呢？"
                 },
                 "source_code": "开源",
                 "donate": {
                     "title": "捐献"
                 },
                 "language": {
-                    "title": "语言"
+                    "title": "语言",
+                    "select": "选择语言"
+                },
+                "profile": {
+                    "placeholder": "介绍一下你自己…",
+                    "fetching": "正在获取您的档案…",
+                    "info": "信息",
+                    "title": "档案"
                 }
             }
         },
         "main": {
             "groups": {
                 "name": "群组名",
-                "create": "创建一个群。"
+                "create": "创建一个群。",
+                "owner": "群主"
             },
             "channel": {
                 "bot": "机器人",
@@ -64,7 +94,8 @@
                     "user_left": "离开了。",
                     "user_joined": "加入了。",
                     "added_by": "邀请者为",
-                    "removed_by": "移除者为"
+                    "removed_by": "移除者为",
+                    "channel_renamed": "将频道更名为"
                 },
                 "typing": {
                     "several": "多人正在输入…",
@@ -76,12 +107,17 @@
                 "uploading_file": "正在上传文件…",
                 "message_saved": "保存信息",
                 "message_who": "发送至 {{person}}",
-                "message_where": "发送至 {{channel_name}}"
+                "message_where": "发送至 {{channel_name}}",
+                "edited": "（已编辑）",
+                "start": {
+                    "group": "这里是你们对话的开头。"
+                }
             },
             "categories": {
                 "members": "成员",
                 "channels": "频道",
-                "conversations": "对话"
+                "conversations": "对话",
+                "participants": "参与者"
             }
         },
         "navigation": {
@@ -147,6 +183,7 @@
         "image_by": "图片来自",
         "privacy": "隐私政策",
         "tos": "服务条款",
-        "about": "关于"
+        "about": "关于",
+        "loading": "加载中…"
     }
 }
