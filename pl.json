@@ -3,7 +3,8 @@
         "about": "O nas",
         "tos": "Warunki usługi",
         "privacy": "Polityka prywatności",
-        "image_by": "Zdjęcie przez"
+        "image_by": "Zdjęcie przez",
+        "loading": "Ładowanie…"
     },
     "login": {
         "title": "Zaloguj sie",
@@ -62,7 +63,8 @@
             "categories": {
                 "conversations": "Konwersacje",
                 "channels": "Kanały",
-                "members": "Członkowie"
+                "members": "Członkowie",
+                "participants": "Uczestnicy"
             },
             "channel": {
                 "message": "Wyslij do {{name}}",
@@ -85,7 +87,11 @@
                 "uploading_file": "Przesyłanie pliku…",
                 "message_saved": "Zapisz w zapisanych wiadomościach",
                 "message_who": "Wyślij do {{person}}",
-                "message_where": "Wyślij do {{channel_name}}"
+                "message_where": "Wyślij do {{channel_name}}",
+                "edited": "(edytowane)",
+                "start": {
+                    "group": "To jest początek twojej rozmowy."
+                }
             },
             "groups": {
                 "owner": "Właściciel grupy",
@@ -98,7 +104,8 @@
                 "pending": "W oczekiwaniu",
                 "outgoing": "Wysłano zaproszenie.",
                 "incoming": "Dodał(a) cię jako przyjaciela.",
-                "blocked": "Zablokowany"
+                "blocked": "Zablokowany",
+                "nobody": "Nikogo tu jeszcze nie ma!"
             },
             "requires_online": "Aby to wyświetlić, musisz być online.",
             "modals": {
@@ -109,7 +116,9 @@
                     "close": "Zamknij",
                     "ok": "Ok",
                     "send_email": "Wyślij e-mail",
-                    "update": "Zmien"
+                    "update": "Zmien",
+                    "preview": "Podgląd",
+                    "save": "Zapisz"
                 },
                 "onboarding": {
                     "pick": "Wybierz nazwę użytkownika, według której inni będą mogli Cię znaleźć, możesz to później zmienić w ustawieniach.",
@@ -181,7 +190,10 @@
             "copy_mid": "Skopiuj ID wiadomości",
             "copy_cid": "Skopiuj ID kanału",
             "copy_uid": "Skopiuj ID użytkownika",
-            "copy_text": "Skopiuj tekst"
+            "copy_text": "Skopiuj tekst",
+            "set_custom_status": "Ustaw status niestandardowy",
+            "clear_status": "Wyczyść status",
+            "custom_status": "Stan niestandardowy"
         },
         "settings": {
             "pages": {
@@ -193,12 +205,29 @@
                     "import_theme": "Importuj motyw z ciągu",
                     "import_manual": "Importuj ręcznie",
                     "import_clipboard": "Importuj ze schowka",
-                    "export_clipboard": "Eksportuj do schowka"
+                    "export_clipboard": "Eksportuj do schowka",
+                    "sync": "Opcje synchronizacji",
+                    "custom_css": "Własny CSS",
+                    "advanced": "Zaawansowane opcje",
+                    "message_display": "Wyświetlanie wiadomości",
+                    "accent_selector": "Kolor akcentu",
+                    "color": {
+                        "dark": "ciemny",
+                        "light": "jasność"
+                    },
+                    "display": {
+                        "compact_description": "Dobry stary IRC.",
+                        "default_description": "Piękny, elegancki i nowoczesny.",
+                        "compact": "Kompaktowy",
+                        "default": "Domyślna"
+                    },
+                    "theme": "Motyw"
                 },
                 "sessions": {
                     "created": "Utworzono {{time_ago}}",
                     "this_device": "To urządzenie",
-                    "title": "Sesje"
+                    "title": "Sesje",
+                    "active_sessions": "Aktywne Sesje"
                 },
                 "account": {
                     "change_field": "Zmien",
@@ -206,14 +235,21 @@
                 },
                 "logOut": "Wyloguj",
                 "feedback": {
-                    "title": "Informacje zwrotne"
+                    "title": "Informacje zwrotne",
+                    "describe": "Opisz problem.",
+                    "send": "Prześlij opinię",
+                    "other": "Inne",
+                    "feature": "Prośba o funkcję",
+                    "bug": "Problem",
+                    "report": "Co chcesz zgłosić?"
                 },
                 "source_code": "Kod źródłowy",
                 "donate": {
                     "title": "Podarować"
                 },
                 "language": {
-                    "title": "Język"
+                    "title": "Język",
+                    "select": "Wybierz język"
                 },
                 "notifications": {
                     "descriptions": {
@@ -227,13 +263,40 @@
                     "enable_push": "Włącz powiadomienia push.",
                     "enable_desktop": "Włącz powiadomienia na pulpicie.",
                     "title": "Notyfikacje"
+                },
+                "profile": {
+                    "placeholder": "Napisz coś o sobie…",
+                    "fetching": "Pobieranie Twojego profilu…",
+                    "info": "Informacje",
+                    "title": "Profil"
                 }
             },
             "categories": {
                 "client_settings": "Ustawienia Klienta",
                 "user_settings": "Ustawienia Użytkownika"
             },
-            "title": "Ustawienia"
+            "title": "Ustawienia",
+            "tips": {
+                "sessions": {
+                    "b": "zabezpiecz swoje konto, zmieniając hasło i korzystając z 2FA.",
+                    "a": "Jeśli widzisz na liście nieznaną sesję,"
+                },
+                "languages": {
+                    "b": "Pomóż w dodawaniu większej liczby tłumaczeń.",
+                    "a": "Brakuje Ci języka, którego szukasz?"
+                },
+                "account": {
+                    "b": "Przejdź do ustawień swojego profilu.",
+                    "a": "Chcesz dostosować swój profil publiczny?"
+                }
+            },
+            "channel_pages": {
+                "overview": {
+                    "description": "Opis kanału",
+                    "name": "Nazwa kanału",
+                    "title": "Przegląd"
+                }
+            }
         }
     },
     "dayjs": {
