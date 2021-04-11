@@ -3,7 +3,8 @@
         "about": "Apie mus",
         "tos": "Naudojimo sąlygos",
         "privacy": "Privatumo Politika",
-        "image_by": "Paveikslėlio autorius"
+        "image_by": "Paveikslėlio autorius",
+        "loading": "Kraunama…"
     },
     "login": {
         "title": "Prisijungti",
@@ -12,7 +13,9 @@
         "enter": {
             "email": "Įveskite savo el. paštą.",
             "password": "Įveskite savo slaptažodį.",
-            "username": "Įveskite slapyvardį."
+            "username": "Įveskite slapyvardį.",
+            "current_password": "Įveskite savo dabartinį slaptažodį.",
+            "invite": "Įveskite kvietimo slaptažodį."
         },
         "forgot": "Pamiršote slaptažodį?",
         "new": "Neturi REVOLT paskyros?",
@@ -22,17 +25,60 @@
         "existing": "Jau turite paskyrą?",
         "cancel": "Atšaukti užklausą.",
         "username": "Slapyvardis",
-        "reset": "Pamiršau slaptažodį"
+        "reset": "Pamiršau slaptažodį.",
+        "error": {
+            "resend": "Nepavyko išsiųsti iš naujo!",
+            "login": "Nepavyko prisijungti!",
+            "create": "Nepavyko sukurti paskyros!"
+        },
+        "successful_registration": "Paskyra sėkmingai sukūrta!",
+        "check_spam": "Patikrinkite \"Spam\" aplanką.",
+        "check_mail": "Patikrinkite savo el. paštą.",
+        "resend": "Persiųsti laišką.",
+        "missing_verification": "Negavote laiško?",
+        "set_password": "Nustatyti naują slaptažodį.",
+        "current_password": "Dabartinis slaptažodis",
+        "invite": "Kvietimo slaptažodis"
     },
     "app": {
         "main": {
             "channel": {
-                "message": "Siųsti žinutę {{name}}"
+                "message": "Siųsti žinutę {{name}}",
+                "bot": "botas",
+                "edited": "(redaguota)",
+                "unknown_user": "<Nežinomas naudotojas>",
+                "start": {
+                    "group": "Čia yra jūsų pokalbio pradžia."
+                },
+                "system": {
+                    "channel_renamed": "pervadino kanalą į",
+                    "removed_by": "pašalintas (-a)",
+                    "added_by": "pridėtas (-a)",
+                    "user_left": "išėjo.",
+                    "user_joined": "atėjo."
+                },
+                "typing": {
+                    "several": "Keli žmonės rašo…",
+                    "multiple": "{{userlist}} ir {{user}} rašo…",
+                    "single": "{{user}} rašo…"
+                },
+                "attached_file": "Prisegta {{filename}}",
+                "failed_upload": "Nepavyko įkelti!",
+                "uploading_file": "Įkeliama…",
+                "message_saved": "Išsaugoti į savo žinutes",
+                "message_who": "Rašyti {{person}}",
+                "message_where": "Rašyti į {{channel_name}}"
             },
             "categories": {
                 "members": "Nariai",
                 "channels": "Kanalai",
-                "conversations": "Pokalbiai"
+                "conversations": "Pokalbiai",
+                "participants": "Dalyviai"
+            },
+            "groups": {
+                "owner": "Grupės Savininkas",
+                "name": "Grupės Pavadinimas",
+                "create": "Sukūrti grupę."
             }
         },
         "navigation": {
@@ -90,6 +136,45 @@
             "copy_id": "Kopijuoti ID",
             "message_user": "Pranešimas",
             "block_user": "Blokuoti vartotoją"
+        },
+        "settings": {
+            "pages": {
+                "appearance": {
+                    "color": {
+                        "dark": "tamsi",
+                        "light": "šviesi"
+                    },
+                    "display": {
+                        "compact_description": "Kaip kažkoks būmeriškas IRC.",
+                        "default_description": "Gražu ir modernu.",
+                        "compact": "Kompaktiška",
+                        "default": "Numatyta"
+                    },
+                    "theme": "Tema",
+                    "title": "Išvaizda"
+                },
+                "sessions": {
+                    "created": "Sukūrta prieš {{time_ago}}",
+                    "this_device": "Šis Įrenginys",
+                    "active_sessions": "Aktyvios Sesijos",
+                    "title": "Sesijos"
+                },
+                "profile": {
+                    "placeholder": "Parašykite kažką apie savę…",
+                    "fetching": "Paskyra kraunama…",
+                    "info": "Informacija",
+                    "title": "Paskyra"
+                },
+                "account": {
+                    "change_field": "Keisti",
+                    "title": "Mano Paskyra"
+                }
+            },
+            "categories": {
+                "client_settings": "Aplikacijos Nustatymai",
+                "user_settings": "Naudotojo Nustatymai"
+            },
+            "title": "Nustatymai"
         }
     },
     "dayjs": {
