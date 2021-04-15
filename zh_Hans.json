@@ -28,7 +28,8 @@
                     "display": {
                         "default_description": "漂亮，简约且时尚。",
                         "compact": "简约",
-                        "default": "默认"
+                        "default": "默认",
+                        "compact_description": "一个怀旧的主题。"
                     },
                     "theme": "主题"
                 },
@@ -78,6 +79,27 @@
                     "fetching": "正在获取您的档案…",
                     "info": "信息",
                     "title": "档案"
+                }
+            },
+            "tips": {
+                "sessions": {
+                    "b": "通过更改密码和使用双重认证保护您的帐户。",
+                    "a": "如果您在列表中看到未知的会话,"
+                },
+                "languages": {
+                    "b": "帮助提供更多翻译。",
+                    "a": "缺少您想要的语言吗？"
+                },
+                "account": {
+                    "b": "转到您的个人资料设置。",
+                    "a": "要自定义您的公开个人资料吗？"
+                }
+            },
+            "channel_pages": {
+                "overview": {
+                    "description": "频道说明",
+                    "name": "频道名称",
+                    "title": "概述"
                 }
             }
         },
@@ -139,8 +161,98 @@
         "special": {
             "friends": {
                 "blocked": "黑名单",
-                "pending": "等待回应"
-            }
+                "pending": "等待回应",
+                "outgoing": "发出的好友请求。",
+                "incoming": "收到的好友请求。",
+                "nobody": "这里目前还没有人！"
+            },
+            "popovers": {
+                "user_profile": {
+                    "no_groups": "你和TA没有共同群组！",
+                    "no_users": "你和TA没有共同朋友！",
+                    "badges": {
+                        "translator": "翻译者"
+                    },
+                    "mutual_groups": "互助组",
+                    "mutual_friends": "互助朋友",
+                    "profile": "个人资料"
+                }
+            },
+            "modals": {
+                "clipboard": {
+                    "https": "您当前没有使用HTTPS连接。",
+                    "copy": "手册副本:",
+                    "unavailable": "剪贴板不可用！"
+                },
+                "signed_out": "您已登出！",
+                "actions": {
+                    "cancel": "取消",
+                    "continue": "继续",
+                    "reload": "重新加载应用程序",
+                    "send_email": "发送电子邮件",
+                    "preview": "预览",
+                    "update": "更新",
+                    "close": "关闭",
+                    "save": "保存",
+                    "ok": "确定"
+                },
+                "account": {
+                    "failed": "更改失败！",
+                    "change": {
+                        "password": "更改密码",
+                        "email": "更改您的电子邮件",
+                        "username": "更改您的用户名"
+                    }
+                },
+                "prompt": {
+                    "confirm_leave_long": "除非重新邀请,否则您将无法重新加入。",
+                    "confirm_leave": "是否离开{{group_name}}？"
+                },
+                "onboarding": {
+                    "pick": "选择您希望人们能够找到您的用户名,以后可以在设置中进行更改。",
+                    "welcome": "欢迎使用"
+                },
+                "error": "发生错误！"
+            },
+            "status": {
+                "disconnected": "已断开连接。",
+                "reconnecting": "正在重新连接…",
+                "connecting": "正在连接…",
+                "offline": "离线。"
+            },
+            "requires_online": "您需要在线才能查看。"
+        },
+        "context_menu": {
+            "unblock_user": "取消屏蔽用户",
+            "block_user": "屏蔽用户",
+            "quote_message": "引用消息",
+            "set_custom_status": "设置自定义状态",
+            "clear_status": "清除状态",
+            "custom_status": "自定义状态",
+            "cancel_friend": "取消请求",
+            "remove_friend": "删除朋友",
+            "add_friend": "添加朋友",
+            "open_link": "打开链接",
+            "copy_link": "复制链接",
+            "save_video": "保存视频",
+            "open_video": "打开视频",
+            "save_image": "保存图像",
+            "open_image": "打开图像",
+            "save_file": "保存文件",
+            "open_file": "打开文件",
+            "remove_member": "从组中删除",
+            "delete_message": "删除消息",
+            "edit_message": "编辑消息",
+            "cancel_message": "取消发送",
+            "retry_message": "重试发送",
+            "mark_as_read": "标记为已读",
+            "message_user": "消息",
+            "mention": "提及",
+            "copy_mid": "复制消息ID",
+            "copy_cid": "复制频道ID",
+            "copy_uid": "复制用户ID",
+            "copy_text": "复制文本",
+            "copy_id": "副本ID"
         }
     },
     "login": {
@@ -185,5 +297,64 @@
         "tos": "服务条款",
         "about": "关于",
         "loading": "加载中…"
+    },
+    "error": {
+        "blocked_other": "此用户已屏蔽您。",
+        "blocked": "您已屏蔽此用户。",
+        "already_onboarded": "已经完成了初始化。",
+        "email_in_use": "邮件已经被使用。",
+        "unlabelled": "有些神秘的事情发生了。",
+        "unauthorized": "未经授权。",
+        "denied_notification": "您拒绝了通知访问,请检查页面设置。",
+        "unsupported_browser": "浏览器缺少对此功能的支持。",
+        "io_error": "服务器遇到I / O错误。",
+        "probe_error": "无法获取文件元数据。",
+        "missing_data": "请求缺少数据。",
+        "failed_to_receive": "服务器无法接收您的文件。",
+        "file_too_large": "文件太大。",
+        "unavailable": "不可用。",
+        "invalid_email": "无效的电子邮件地址",
+        "too_long": "太长",
+        "too_short": "太短",
+        "required_field": "必填",
+        "no_effect": "此请求无效。",
+        "already_sent_request": "已经向该用户发送了请求。",
+        "already_friends": "已与此用户成为朋友。",
+        "username_taken": "已使用用户名。",
+        "invalid_invite": "无效的代码",
+        "missing_invite": "请求中缺少邀请代码。",
+        "invalid_token": "无效的令牌",
+        "invalid_credentials": "电子邮件或密码错误。",
+        "email_failed": "电子邮件发送失败。",
+        "unknown_user": "未知的用户。",
+        "unverified_account": "未验证的帐户。",
+        "invalid_session": "无效的会话。",
+        "missing_headers": "缺少标题。",
+        "render_fail": "模板渲染失败。",
+        "operation_failed": "操作失败。",
+        "unknown_error": "查看控制台。",
+        "missing_permission": "缺少权限。",
+        "internal_error": "内部错误。",
+        "database_error": "数据库错误。",
+        "failed_validation": "无法验证字段。",
+        "network_error": "网络错误。"
+    },
+    "notifications": {
+        "now_friends": "您与@ {{person}}成为了好友！",
+        "sent_request": "@ {{person}}向您发送了一个好友请求。"
+    },
+    "dayjs": {
+        "lastWeek": "[上] dddd LT",
+        "nextDay": "[明天] LT",
+        "sameDay": "[今天] LT",
+        "lastDay": "[昨天] LT",
+        "nextWeek": "dddd LT",
+        "sameElse": "L"
+    },
+    "quantities": {
+        "members": {
+            "one": "1位成员",
+            "many": "{{count}}位成员"
+        }
     }
 }
