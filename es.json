@@ -2,8 +2,89 @@
     "app": {
         "main": {
             "channel": {
-                "message": "Message {{name}}"
+                "message": "Message {{name}}",
+                "system": {
+                    "user_joined": "unido.",
+                    "user_left": "salió.",
+                    "added_by": "añadido por",
+                    "removed_by": "eliminado por",
+                    "channel_renamed": "renombrado el canal a"
+                },
+                "message_where": "Mensaje {{channel_name}}",
+                "bot": "bot",
+                "unknown_user": "<Usuario desconocido>",
+                "message_saved": "Guardar en sus mensajes",
+                "uploading_file": "Subiendo archivo…",
+                "failed_upload": "¡Error al cargar!",
+                "attached_file": "Adjunto {{filename}}",
+                "typing": {
+                    "single": "{{user}} Esta escribiendo…",
+                    "multiple": "{{userlist}} y {{user}} están escribiendo…",
+                    "several": "Varios personas están escribiendo…"
+                },
+                "message_who": "Mensaje {{person}}",
+                "start": {
+                    "group": "Este es el comienzo de tu conversación."
+                },
+                "edited": "(editado)"
+            },
+            "categories": {
+                "members": "Miembros",
+                "conversations": "Conversaciones",
+                "channels": "Canales",
+                "participants": "Participantes"
+            },
+            "groups": {
+                "create": "Crear un grupo.",
+                "name": "Nombre del grupo",
+                "owner": "Propietario del grupo"
             }
+        },
+        "navigation": {
+            "tabs": {
+                "dev": "Desarrollador",
+                "saved": "Mensajes guardados",
+                "unreads": "No leídos",
+                "home": "Inicio",
+                "friends": "Amigos"
+            }
+        },
+        "settings": {
+            "title": "Ajustes",
+            "pages": {
+                "profile": {
+                    "title": "Perfil",
+                    "info": "Información",
+                    "fetching": "Obteniendo tu perfil…",
+                    "placeholder": "Escribe algo sobre ti…"
+                },
+                "sessions": {
+                    "this_device": "Este dispositivo",
+                    "title": "Sesiones",
+                    "active_sessions": "Sesiones activas"
+                },
+                "account": {
+                    "title": "Mi cuenta",
+                    "change_field": "Cambio"
+                },
+                "donate": {
+                    "title": "Donar"
+                },
+                "language": {
+                    "select": "Seleccione el idioma"
+                }
+            },
+            "categories": {
+                "user_settings": "Ajustes de usuario",
+                "client_settings": "Configuración del cliente"
+            }
+        },
+        "status": {
+            "offline": "Desconectado",
+            "idle": "Inactivo",
+            "busy": "Ocupado",
+            "invisible": "Invisible",
+            "online": "Activo"
         }
     },
     "login": {
@@ -22,7 +103,9 @@
         "title": "Login",
         "error": {
             "login": "¡Error al iniciar sesión!",
-            "create": "¡Fallo el registro!"
+            "create": "¡Fallo el registro!",
+            "reset": "¡No se pudo restablecer!",
+            "resend": "¡No se pudo reenviar!"
         },
         "successful_registration": "¡Registrado exitosamente!",
         "open_mail_provider": "Abierto {{provider}}",
