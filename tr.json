@@ -15,10 +15,10 @@
             "cancel_message": "Göndermeyi İptal Et",
             "quote_message": "Mesajı Alıntıla",
             "delete_message": "Mesajı Sil",
-            "remove_member": "Gruptan Kaldır/At",
+            "remove_member": "Gruptan Kaldır",
             "open_file": "Dosyayı Aç",
             "open_image": "Resmi Aç",
-            "save_image": "Fotoğrafı/Resmi Kaydet",
+            "save_image": "Fotoğrafı Kaydet",
             "open_video": "Video'yu Aç",
             "save_video": "Video'yu kaydet",
             "block_user": "Kullanıcıyı Engelle",
@@ -33,14 +33,14 @@
             "online": "Çevrimiçi",
             "idle": "Boşta",
             "offline": "Çevrimdışı",
-            "busy": "Meşgul/Rahatsız Etmeyin",
+            "busy": "Rahatsız Etmeyin",
             "invisible": "Görünmez/Çevrimdışı"
         },
         "navigation": {
             "tabs": {
                 "home": "Ana Sayfa",
                 "friends": "Arkadaşlar",
-                "unreads": "Okunmamışlar/Okunmayanlar",
+                "unreads": "Okunmayanlar",
                 "saved": "Kaydedilmiş Mesajlar",
                 "dev": "Geliştirici"
             }
@@ -54,9 +54,9 @@
             "channel": {
                 "message_where": "{{channel_name}} Kanalına mesaj gönder",
                 "message_who": "{{person}} Adlı kişiye mesaj gönder",
-                "uploading_file": "Dosya yükleniyor…",
-                "failed_upload": "Dosya Yüklenemedi!",
-                "attached_file": "{{filename}} eklendi",
+                "uploading_file": "Dosya yükleniyor... Bekle Lütfen.",
+                "failed_upload": "Dosya Yüklenemedi! Tekrar Deneyelim mi?",
+                "attached_file": "{{filename}} Eklendi",
                 "typing": {
                     "single": "{{user}} yazıyor…",
                     "multiple": "{{userlist}} ve {{user}} yazıyor…",
@@ -109,8 +109,8 @@
                     "enable_outgoing_sound": "Mesaj gönderirken ses çıkart",
                     "descriptions": {
                         "enable_desktop": "Bu, uygulamanız açıkken size bildirimleri gösterecektir.",
-                        "enable_sound": "Gelen ileti sesleri için etkinleştirin.",
-                        "enable_outgoing_sound": "İleti gönderdiğinizde ses çalmasını etkinleştir.",
+                        "enable_sound": "Gelen iletiler için sesi etkinleştirin. Birden fazla ses.. Kafanı şişirebilir!",
+                        "enable_outgoing_sound": "İleti gönderdiğinizde ses çıkmasını etkinleştir.",
                         "enable_push": "Çevrimdışı olduğunuzda bildirim almayı etkinleştirin."
                     },
                     "enable_desktop": "Masaüstü bildirimlerini etkinleştirin.",
@@ -120,7 +120,7 @@
                     "title": "Dil"
                 },
                 "donate": {
-                    "title": "Bağış"
+                    "title": "Bağış Yap"
                 },
                 "source_code": "Kaynak",
                 "feedback": {
@@ -143,7 +143,7 @@
                 "reconnecting": "Tekrar bağlanıyor…"
             },
             "modals": {
-                "error": "Bir Hata Oluştu!",
+                "error": "Aman! Bir hata oluştu!",
                 "clipboard": {
                     "unavailable": "Pano kullanılamıyor!",
                     "copy": "El ile Kopyalama:",
@@ -151,8 +151,8 @@
                 },
                 "signed_out": "Oturumunuz kapatıldı!",
                 "onboarding": {
-                    "welcome": "Hoş Geldiniz",
-                    "pick": "İnsanların sizi bulmasını istediğiniz bir kullanıcı adı seçin, bu daha sonra ayarlardan değiştirilebilir."
+                    "welcome": "Hoş Geldin",
+                    "pick": "İnsanların seni rahatlıkla bulması için istediğiniz bir kullanıcı adı seç, daha sonra ayarlardan değiştirilebilirsin."
                 },
                 "prompt": {
                     "confirm_leave": "{{group_name}} Adlı gruptan ayrılmak istiyor musun?",
@@ -179,8 +179,8 @@
             "popovers": {
                 "user_profile": {
                     "profile": "Profil",
-                    "no_users": "Ortak Arkadaşlarınız Bulunmuyor!",
-                    "no_groups": "Ortak Gruplarınız Bulunmuyor!",
+                    "no_users": "Ortak Arkadaşlarınız Bulunmuyor! Yeni arkadaşlar edinebilirsin!",
+                    "no_groups": "Ortak Gruplarınız Bulunmuyor! Yeni bir grup bulmaya ne dersin?",
                     "mutual_friends": "Ortak Arkadaşlar",
                     "mutual_groups": "Ortak Gruplar"
                 }
@@ -189,8 +189,8 @@
         }
     },
     "general": {
-        "tos": "Kullanım Şartları/Koşulları",
-        "image_by": "Fotoğrafın Çeken",
+        "tos": "Kullanım Koşulları",
+        "image_by": "Fotoğrafı Çeken",
         "about": "Hakkında",
         "privacy": "Gizlilik Politikası"
     },
@@ -201,33 +201,33 @@
         "email": "Eposta",
         "password": "Şifre",
         "invite": "Davet Kodu",
-        "current_password": "Şimdiki/Mevcut Şifre",
+        "current_password": "Mevcut Şifre",
         "enter": {
-            "username": "Bir kullanıcı adı gir.",
+            "username": "Bir kullanıcı adı girin.",
             "password": "Şifrenizi girin.",
             "invite": "Davet kodunuzu giriniz.",
             "current_password": "Mevcut şifrenizi girin.",
-            "email": "Epostanızı girin."
+            "email": "E-postanızı girin."
         },
-        "reset": "Şifreyi Sıfırla",
+        "reset": "Şifreni Sıfırla",
         "set_password": "Yeni şifrenizi giriniz",
         "remembered": "Girişe geri dönün.",
-        "new": "REVOLT'ta yeni misiniz?",
+        "new": "Revolt'ta yeni misin?",
         "create": "Yeni bir hesap oluştur.",
         "resend": "Onaylamayı tekrar gönder.",
         "cancel": "İsteği iptal et.",
-        "check_mail": "Epostanı kontrol et.",
+        "check_mail": "E-postanı kontrol et.",
         "successful_registration": "Başarıyla kaydoldun!",
         "error": {
-            "create": "Kayıt başarısız!",
+            "create": "Kayıt başarısız! Tekrar mı denesen?",
             "login": "Giriş yapılamadı!",
-            "reset": "Sıfırlanamadı!",
+            "reset": "Sıfırlanamadı! Tekrar dene, belki olur",
             "resend": "Yeniden gönderilemedi!"
         },
         "forgot": "Şifreni mi unuttun?",
-        "existing": "Zaten hesabınız var mı?",
-        "missing_verification": "Epostan yok mu?",
-        "check_spam": "Bulamıyorsanız, spam'ı kontrol ettiğinizden emin olun.",
+        "existing": "Zaten hesabın var mı?",
+        "missing_verification": "E-postan yok mu?",
+        "check_spam": "Bulamıyorsanız, spam'ı biraz kurcalayın. Oralarda kaybolmuş olabilir!",
         "open_mail_provider": "{{provider}}'i açın"
     },
     "quantities": {
