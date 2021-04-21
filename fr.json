@@ -3,7 +3,8 @@
         "about": "À propos",
         "tos": "Conditions d'utilisation",
         "privacy": "Politique de confidentialité",
-        "image_by": "Image par"
+        "image_by": "Image par",
+        "loading": "Chargement…"
     },
     "login": {
         "title": "Identifiant",
@@ -11,17 +12,62 @@
         "password": "Mot De Passe",
         "enter": {
             "email": "Ajoutez votre Email.",
-            "password": "Entrée vôtre Mot De Passe."
+            "password": "Entrée vôtre Mot De Passe.",
+            "invite": "Entrez votre code d'invitation.",
+            "username": "Entrez un nom d'utilisateur.",
+            "current_password": "Entrez votre mot de passe actuel."
         },
         "forgot": "Mot De Passe oublié?",
         "new": "Nouveau à REVOLT?",
-        "create": "Créer un nouveau compte."
+        "create": "Créer un nouveau compte.",
+        "open_mail_provider": "Ouvrir {{provider}}",
+        "successful_registration": "Compte créé avec succès !",
+        "set_password": "Définir un nouveau mot de passe.",
+        "missing_verification": "Pas d'email ?",
+        "cancel": "Annuler la requête.",
+        "error": {
+            "reset": "Échec de réinitialisation !",
+            "create": "Échec de création de compte !",
+            "login": "Échec de connexion !"
+        },
+        "reset": "Réinitialiser le mot de passe.",
+        "remembered": "Retourner à la page de connexion.",
+        "register": "Créer un compte",
+        "invite": "Code d'invitation",
+        "current_password": "Mot de passe actuel",
+        "resend": "Renvoyer la vérification.",
+        "existing": "Avez-vous déjà un compte ?",
+        "username": "Nom d'utilisateur",
+        "check_mail": "Vérifiez votre boite mail.",
+        "check_spam": "Veuillez vérifier dans vos spam si vous ne pouvez pas le trouver"
     },
     "app": {
         "main": {
             "channel": {
                 "message": "Message {{name}}"
+            },
+            "categories": {
+                "conversations": "Conversations",
+                "channels": "Salons",
+                "participants": "Participants",
+                "members": "Membres"
             }
+        },
+        "navigation": {
+            "tabs": {
+                "dev": "Développeur",
+                "saved": "Messages enregistrés",
+                "home": "Accueil",
+                "friends": "Amis",
+                "unreads": "Non lus"
+            }
+        },
+        "status": {
+            "offline": "Hors-ligne",
+            "idle": "Idle",
+            "busy": "Occupé",
+            "invisible": "Invisible",
+            "online": "En ligne"
         }
     }
 }
