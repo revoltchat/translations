@@ -4,84 +4,212 @@
             "modals": {
                 "account": {
                     "change": {
-                        "username": "Schimba numele de utilizator"
-                    }
+                        "username": "Schimbă numele de utilizator",
+                        "password": "Schimbă parola",
+                        "email": "Schimbă adresa de email"
+                    },
+                    "failed": "Schimbare nereușită!"
                 },
                 "prompt": {
-                    "confirm_leave": "Doriti sa iesiti din {{group_name}}?"
+                    "confirm_leave": "Părăsești {{group_name}}?",
+                    "confirm_leave_long": "Nu vei putea să reintri decât dacă ești reinvitat."
                 },
                 "onboarding": {
-                    "welcome": "Bine ai venit la"
+                    "welcome": "Bun venit la",
+                    "pick": "Alege un nume de utilizator cu care dorești ca oamenii să te poată găsi; acesta poate fi modificat ulterior în setări."
                 },
                 "signed_out": "Ai fost deconectat!",
-                "error": "A aparut o eroare!"
+                "error": "A apărut o eroare!",
+                "actions": {
+                    "cancel": "Anulare",
+                    "reload": "Reîncarcă Aplicația",
+                    "continue": "Continuare",
+                    "send_email": "Trimitere Email",
+                    "preview": "Previzualizare",
+                    "update": "Actualizare",
+                    "close": "Închidere",
+                    "save": "Salvare",
+                    "ok": "Ok"
+                },
+                "clipboard": {
+                    "copy": "Copiere Manuală:",
+                    "https": "Nu te afli în prezent într-un context HTTPS.",
+                    "unavailable": "Clipboard-ul nu este disponibil!"
+                }
             },
             "status": {
-                "reconnecting": "Se reconecteaza…",
-                "connecting": "Se conecteaza…",
+                "reconnecting": "Reconectare…",
+                "connecting": "Conectare…",
                 "disconnected": "Deconectat.",
                 "offline": "Offline."
             },
             "friends": {
-                "blocked": "Blocat"
+                "blocked": "Blocat",
+                "nobody": "Nimeni aici încă!",
+                "outgoing": "Cerere de prietenie trimisă",
+                "incoming": "Cerere de prietenie primită.",
+                "pending": "În așteptare"
+            },
+            "requires_online": "Trebuie să fi online pentru a vedea acest lucru.",
+            "popovers": {
+                "user_profile": {
+                    "badges": {
+                        "translator": "Traducător"
+                    },
+                    "sub": {
+                        "connections": "Conexiuni",
+                        "information": "Informații",
+                        "badges": "Insigne"
+                    },
+                    "no_groups": "Niciun grup în comun!",
+                    "no_users": "Niciun prieten în comun!",
+                    "empty": "E cam pustiu aici...",
+                    "mutual_groups": "Grupuri în comun",
+                    "mutual_friends": "Prieteni în comun",
+                    "profile": "Profil"
+                }
             }
         },
         "settings": {
             "pages": {
-                "logOut": "Deconecteaza-te",
-                "source_code": "Sursa",
+                "logOut": "Deconectare",
+                "source_code": "Sursă",
                 "donate": {
-                    "title": "Doneaza"
+                    "title": "Donează"
                 },
                 "language": {
-                    "title": "Limba"
+                    "title": "Limba",
+                    "select": "Selectează limba ta"
                 },
                 "notifications": {
-                    "enable_push": "Activeaza notificari push.",
-                    "title": "Notificari"
+                    "enable_push": "Activeaza notificări push.",
+                    "title": "Notificări",
+                    "descriptions": {
+                        "enable_outgoing_sound": "Activează redarea unui sunet atunci când trimiți un mesaj.",
+                        "enable_sound": "Activează pentru sunetele mesajelor primite.",
+                        "enable_push": "Activează pentru a primi notificări atunci când ești offline.",
+                        "enable_desktop": "Acest lucru îți va oferi notificări în timp ce aplicația este deschisă."
+                    },
+                    "enable_outgoing_sound": "Redă Sunetul de Trimitere.",
+                    "enable_sound": "Redare Sunet la Mesaj.",
+                    "enable_desktop": "Activează Notificările de pe Desktop."
                 },
                 "sessions": {
-                    "created": "Creat {{time_ago}}",
-                    "this_device": "Acest dispozitiv",
-                    "title": "Sesiuni"
+                    "created": "Creat acum {{time_ago}}",
+                    "this_device": "Acest Dispozitiv",
+                    "title": "Sesiuni",
+                    "active_sessions": "Sesiuni Active"
                 },
                 "account": {
-                    "change_field": "Schimba",
-                    "title": "Contul meu"
+                    "change_field": "Schimbă",
+                    "title": "Contul Meu"
+                },
+                "feedback": {
+                    "send": "Trimite Feedback",
+                    "describe": "Te rugăm să descrii problema.",
+                    "other": "Altele",
+                    "feature": "Solicitare de caracteristici",
+                    "bug": "Eroare (bug)",
+                    "report": "Ce vrei sa raportezi?",
+                    "title": "Feedback"
+                },
+                "appearance": {
+                    "sync": "Opțiuni de Sincronizare",
+                    "custom_css": "CSS Personalizat",
+                    "theme_data": "Date Tematice",
+                    "import_theme": "Importare temă din string",
+                    "import_manual": "Importare manuală",
+                    "import_clipboard": "Importare din clipboard",
+                    "export_clipboard": "Exportare în clipboard",
+                    "reset_overrides": "Resetare suprascrieri",
+                    "overrides": "Suprascriere Temă",
+                    "advanced": "Setări Avansate",
+                    "message_display": "Afișarea Mesajelor",
+                    "accent_selector": "Culoare de accent",
+                    "color": {
+                        "dark": "întunecat",
+                        "light": "luminos"
+                    },
+                    "display": {
+                        "compact_description": "Vechiul IRC.",
+                        "default_description": "Frumos, elegant și modern.",
+                        "compact": "Compact",
+                        "default": "Implicit"
+                    },
+                    "theme": "Temă",
+                    "title": "Aspect"
+                },
+                "profile": {
+                    "placeholder": "Scrie ceva despre tine…",
+                    "fetching": "Se preia profilul tău…",
+                    "info": "Informații",
+                    "title": "Profil"
                 }
             },
             "categories": {
-                "user_settings": "Setari utilizator"
+                "user_settings": "Setări utilizator",
+                "client_settings": "Setări Client"
             },
-            "title": "Setari"
+            "title": "Setări",
+            "tips": {
+                "sessions": {
+                    "b": "protejează-ți contul prin schimbarea parolei și utilizarea 2FA.",
+                    "a": "Dacă vezi o sesiune necunoscută pe listă,"
+                },
+                "languages": {
+                    "b": "Ajută la adăugarea a mai multor traduceri.",
+                    "a": "Lipsește o limbă pe care o dorești?"
+                },
+                "account": {
+                    "b": "Mergi la setările profilului tău.",
+                    "a": "Dorești să îți personalizezi profilul public?"
+                }
+            },
+            "channel_pages": {
+                "overview": {
+                    "description": "Descrierea Canalului",
+                    "name": "Numele Canalului",
+                    "title": "Prezentare de ansamblu"
+                }
+            }
         },
         "main": {
             "groups": {
                 "name": "Numele grupului",
-                "create": "Creeaza un grup."
+                "create": "Creează un grup.",
+                "owner": "Proprietarul Grupului"
             },
             "channel": {
                 "bot": "bot",
-                "unknown_user": "<Utilizator necunoscut>",
+                "unknown_user": "<Utilizator Necunoscut>",
                 "system": {
-                    "removed_by": "a fost scos de",
-                    "added_by": "adaugat de",
-                    "user_left": "a iesit.",
-                    "user_joined": "a intrat."
+                    "removed_by": "a fost eliminat de către",
+                    "added_by": "adăugat de către",
+                    "user_left": "a ieșit.",
+                    "user_joined": "s-a alăturat.",
+                    "channel_renamed": "a schimbat numele grupului în"
                 },
                 "typing": {
-                    "several": "Multi oameni scriu…",
-                    "multiple": "{{userlist}} si {{user}} scriu…",
+                    "several": "Mai multe persoane scriu…",
+                    "multiple": "{{userlist}} și {{user}} scriu…",
                     "single": "{{user}} scrie…"
                 },
-                "failed_upload": "Nu s-a putut trimite!",
-                "uploading_file": "Se incarca fisierul…",
-                "message_saved": "Salveaza in mesajele tale"
+                "failed_upload": "Încărcare eșuată!",
+                "uploading_file": "Se încarcă fișierul…",
+                "message_saved": "Salvează în mesajele tale",
+                "edited": "(editat)",
+                "start": {
+                    "group": "Acesta este începutul conversației tale."
+                },
+                "attached_file": "{{filename}} atașat",
+                "message_who": "Trimite un mesaj către {{person}}",
+                "message_where": "Trimite un mesaj pe {{channel_name}}"
             },
             "categories": {
                 "members": "Membrii",
                 "channels": "Canale",
-                "conversations": "Conversatii"
+                "conversations": "Conversații",
+                "participants": "Participanți"
             }
         },
         "navigation": {
@@ -89,58 +217,151 @@
                 "saved": "Mesaje salvate",
                 "unreads": "Necitite",
                 "friends": "Prieteni",
-                "dev": "Developer",
-                "home": "Acasa"
+                "dev": "Dezvoltator",
+                "home": "Acasă"
             }
         },
         "status": {
             "offline": "Offline",
             "invisible": "Invizibil",
             "busy": "Ocupat",
-            "idle": "AFK",
+            "idle": "Inactiv",
             "online": "Online"
+        },
+        "context_menu": {
+            "open_channel_settings": "Setările Canalului",
+            "set_custom_status": "Setează un status personalizat",
+            "clear_status": "Șterge Status",
+            "custom_status": "Status Personalizat",
+            "remove_friend": "Șterge Prieten",
+            "cancel_friend": "Anulează Cererea",
+            "add_friend": "Adaugă ca prieten",
+            "unblock_user": "Deblochează Utilizatorul",
+            "block_user": "Blochează Utilizatorul",
+            "open_link": "Deschide Linkul",
+            "copy_link": "Copiază Linkul",
+            "save_video": "Salvează Videoclipul",
+            "open_video": "Deschide Videoclipul",
+            "save_image": "Salvează Imaginea",
+            "open_image": "Deschide Imaginea",
+            "save_file": "Salvează Fișierul",
+            "open_file": "Deschide Fișierul",
+            "remove_member": "Elimină Din Grup",
+            "delete_message": "Șterge Mesajul",
+            "edit_message": "Editează Mesajul",
+            "quote_message": "Citează Mesajul",
+            "cancel_message": "Anulează Trimiterea",
+            "retry_message": "Reîncearcă Trimiterea",
+            "mark_as_read": "Marchează ca citit",
+            "message_user": "Trimite un mesaj",
+            "mention": "Menționează",
+            "copy_mid": "Copiază ID-ul mesajului",
+            "copy_cid": "Copiază ID-ul canalului",
+            "copy_uid": "Copiază ID-ul de utilizator",
+            "copy_text": "Copiază Textul",
+            "copy_id": "Copiază ID"
         }
     },
     "login": {
         "error": {
-            "resend": "Nu s-a putut retrimite!",
-            "reset": "Nu s-a putut reseta!",
-            "login": "Nu s-a putut conecta!",
-            "create": "Nu s-a putut inregistra!"
+            "resend": "Retrimitere eșuată!",
+            "reset": "Resetare eșuată!",
+            "login": "Conectare eșuată!",
+            "create": "Înregistrare eșuată!"
         },
-        "successful_registration": "Inregistrat cu succes!",
+        "successful_registration": "Înregistrat cu succes!",
         "open_mail_provider": "Deschide {{provider}}",
-        "check_spam": "Sa fii sigur sa verifici sectiunea de spam.",
-        "check_mail": "Verifica-ti emailul.",
-        "cancel": "Anuleaza cererea.",
+        "check_spam": "Te rugăm verifică folderul spam dacă nu îl poți găsi",
+        "check_mail": "Verifică-ți emailul.",
+        "cancel": "Anulează cererea.",
         "resend": "Retrimite confirmarea.",
-        "missing_verification": "Fara email?",
-        "create": "Creeaza un cont nou.",
-        "existing": "Deja ai un cont?",
+        "missing_verification": "Fară email?",
+        "create": "Creează un cont nou.",
+        "existing": "Ai deja un cont?",
         "new": "Nou la REVOLT?",
-        "remembered": "Intoarce-te la conectare",
-        "set_password": "Alege o parola noua.",
-        "reset": "Reseteaza parola.",
+        "remembered": "Intoarce-te la conectare.",
+        "set_password": "Alege o parolă noua.",
+        "reset": "Resetează parola.",
         "forgot": "Ai uitat parola?",
         "enter": {
-            "current_password": "Introduce parola actuala",
-            "invite": "Introduce codul de invitatie",
-            "password": "Introduce parola.",
-            "email": "Introduce adresa de email.",
-            "username": "Introduce un nume de utilizator."
+            "current_password": "Introdu parola actuala.",
+            "invite": "Introdu codul de invitație.",
+            "password": "Introdu parola.",
+            "email": "Introdu adresa de email.",
+            "username": "Introdu un nume de utilizator."
         },
-        "current_password": "Parola actuala",
-        "invite": "Cod de invitatie",
-        "password": "Parola",
-        "email": "Adresa de Email",
+        "current_password": "Parola actuală",
+        "invite": "Cod de invitație",
+        "password": "Parolă",
+        "email": "Adresă de Email",
         "username": "Nume de utilizator",
-        "register": "Inregistreaza-te",
-        "title": "Conecteaza-te"
+        "register": "Înregistrare",
+        "title": "Conectare"
     },
     "general": {
-        "image_by": "Imagine facuta de",
-        "privacy": "Politica de confidentialitate",
-        "tos": "Termeni si conditii",
-        "about": "Despre"
+        "image_by": "Imagine realizată de către",
+        "privacy": "Politica de confidențialitate",
+        "tos": "Termeni și condiții",
+        "about": "Despre",
+        "loading": "Încărcare…"
+    },
+    "error": {
+        "denied_notification": "Ai refuzat accesul la notificări, verifică setările paginii.",
+        "unsupported_browser": "Browserul nu oferă suport pentru această funcție.",
+        "io_error": "Serverul a întâmpinat o eroare de I/O.",
+        "probe_error": "Nu s-au putut obține metadatele fișierului.",
+        "missing_data": "Cererea nu conține date.",
+        "failed_to_receive": "Serverul nu a reușit să primească fișierul tău.",
+        "file_too_large": "Fișierul este prea mare.",
+        "unavailable": "Indisponibil.",
+        "invalid_email": "Adresa de email invalidă",
+        "too_long": "Prea lung",
+        "too_short": "Prea scurt",
+        "required_field": "Obligatoriu",
+        "no_effect": "Această cerere nu a avut niciun efect.",
+        "blocked_other": "Acest utilizator te-a blocat.",
+        "blocked": "Ai blocat acest utilizator",
+        "already_sent_request": "Ai trimis deja o cerere de prietenie către acest utilizator.",
+        "already_friends": "Ești deja prieten cu acest utilizator",
+        "username_taken": "Numele de utilizator este luat.",
+        "already_onboarded": "Ai terminat deja configurarea.",
+        "invalid_invite": "Cod Invalid",
+        "missing_invite": "Lipsește codul de invitație în cerere.",
+        "invalid_token": "Token Invalid",
+        "invalid_credentials": "Adresa de e-mail sau parola este greșită.",
+        "email_failed": "Nu s-a reușit trimiterea e-mailului.",
+        "email_in_use": "Email în uz.",
+        "unknown_user": "Utilizator Necunoscut.",
+        "unverified_account": "Cont Neverificat.",
+        "invalid_session": "Sesiune Invalidă.",
+        "missing_headers": "Antete lipsă.",
+        "render_fail": "Randarea șablonului a eșuat.",
+        "operation_failed": "Operațiunea a eșuat.",
+        "unknown_error": "Vezi consola.",
+        "missing_permission": "Lipsește permisiunea.",
+        "internal_error": "Eroare internă.",
+        "database_error": "Eroare în baza de date.",
+        "failed_validation": "Nu s-a reușit validarea câmpurilor.",
+        "unlabelled": "Ceva s-a întâmplat.",
+        "unauthorized": "Neautorizat.",
+        "network_error": "Eroare de rețea."
+    },
+    "notifications": {
+        "now_friends": "Acum ești prieten cu @{{person}}!",
+        "sent_request": "@{{person}} ți-a trimis o cerere de prietenie."
+    },
+    "dayjs": {
+        "sameElse": "L",
+        "nextWeek": "dddd la ora LT",
+        "lastWeek": "dddd trecută la ora LT",
+        "nextDay": "Mâine la ora LT",
+        "sameDay": "Azi la ora LT",
+        "lastDay": "Ieri la ora LT"
+    },
+    "quantities": {
+        "members": {
+            "many": "{{count}} (de) Membri",
+            "one": "1 Membru"
+        }
     }
 }
