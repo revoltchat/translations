@@ -3,7 +3,8 @@
         "tos": "Käyttöehdot",
         "privacy": "tietosuojakäytäntö",
         "about": "Mikä on REVOLT",
-        "image_by": "Kuvan tekijä"
+        "image_by": "Kuvan tekijä",
+        "loading": "Ladataan…"
     },
     "login": {
         "email": "Sähköpostiosoite",
@@ -11,17 +12,221 @@
         "forgot": "Unohtuiko salasana?",
         "enter": {
             "password": "Anna salasanasi.",
-            "email": "Anna sähköpostiosoitteesi."
+            "email": "Anna sähköpostiosoitteesi.",
+            "current_password": "Anna nykyinen salasanasi.",
+            "username": "Anna käyttäjätunnus.",
+            "invite": "Anna kutsukoodisi."
         },
         "new": "Uusi REVOLTin käyttäjä?",
         "create": "Rekisteröidy.",
-        "title": "Kirjaudu sisään"
+        "title": "Kirjaudu sisään",
+        "check_spam": "Tarkista roskaposti, jos et löydä sitä",
+        "reset": "Nollaa salasana.",
+        "current_password": "Nykyinen salasana",
+        "error": {
+            "login": "Kirjautuminen epäonnistui!",
+            "create": "Rekisteröinti epäonnistui!"
+        },
+        "successful_registration": "Rekisteröinti onnistui!",
+        "check_mail": "Tarkista sähköpostisi.",
+        "set_password": "Aseta uusi salasana.",
+        "invite": "Kutsukoodi",
+        "username": "Käyttäjätunnus",
+        "register": "Rekisteröidy"
     },
     "app": {
         "main": {
             "channel": {
-                "message": "Lähetä viesti {{name}}lle"
+                "message": "Lähetä viesti {{name}}lle",
+                "uploading_file": "Ladataan tiedostoa…",
+                "system": {
+                    "user_left": "poistui.",
+                    "user_joined": "liittyi."
+                },
+                "voice": {
+                    "leave": "Poistu",
+                    "connected": "Ääni yhdistetty",
+                    "unmute": "Poista mykistys",
+                    "mute": "Mykistä"
+                },
+                "misc": {
+                    "jump_present": "Siirry nykyisiin",
+                    "viewing_old": "Katselet vanhempia viestejä"
+                },
+                "edited": "(muokattu)",
+                "bot": "botti",
+                "typing": {
+                    "multiple": "{{userlist}} ja {{user}} kirjoittavat…",
+                    "single": "{{user}} kirjoittaa…"
+                },
+                "message_saved": "Tallenna viesteihisi",
+                "attached_file": "Liitetty {{filename}}"
+            },
+            "categories": {
+                "members": "Jäsenet",
+                "conversations": "Keskustelut",
+                "channels": "Kanavat"
+            },
+            "groups": {
+                "owner": "Ryhmän omistaja",
+                "create": "Luo ryhmä.",
+                "name": "Ryhmän nimi"
             }
+        },
+        "context_menu": {
+            "set_custom_status": "Aseta mukautettu tila",
+            "clear_status": "Tyhjennä tila",
+            "custom_status": "Mukautettu tila",
+            "remove_member": "Poista ryhmästä",
+            "message_user": "Viesti",
+            "open_group_settings": "Ryhmän asetukset",
+            "open_channel_settings": "Kanavan asetukset",
+            "remove_friend": "Poista kaveri",
+            "add_friend": "Lisää kaveri",
+            "unblock_user": "Poista käyttäjän esto",
+            "block_user": "Estä käyttäjä",
+            "open_link": "Avaa linkki",
+            "copy_link": "Kopioi linkki",
+            "save_video": "Tallenna video",
+            "open_video": "Avaa video",
+            "save_image": "Tallenna kuva",
+            "open_image": "Avaa kuva",
+            "save_file": "Tallenna tiedosto",
+            "open_file": "Avaa tiedosto",
+            "delete_message": "Poista viesti",
+            "edit_message": "Muokkaa viestiä",
+            "mark_as_read": "Merkitse luetuksi",
+            "mention": "Mainitse",
+            "copy_text": "Kopioi teksti",
+            "copy_id": "Kopioi tunniste"
+        },
+        "special": {
+            "popovers": {
+                "user_profile": {
+                    "sub": {
+                        "information": "Tiedot",
+                        "connections": "Yhteydet"
+                    },
+                    "badges": {
+                        "translator": "Kääntäjä"
+                    },
+                    "mutual_groups": "Yhteiset Ryhmät",
+                    "mutual_friends": "Yhteiset kaverit",
+                    "profile": "Profiili"
+                }
+            },
+            "modals": {
+                "actions": {
+                    "continue": "Jatka",
+                    "update": "Päivitä",
+                    "preview": "Esikatsele",
+                    "cancel": "Peruuta",
+                    "close": "Sulje",
+                    "save": "Tallenna"
+                }
+            },
+            "copy_username": "Paina kopioidaksesi käyttäjänimi",
+            "status": {
+                "reconnecting": "Yhdistetään uudelleen…",
+                "connecting": "Yhdistetään…"
+            },
+            "friends": {
+                "pending": "Odottaa",
+                "blocked": "Estetty"
+            }
+        },
+        "settings": {
+            "pages": {
+                "feedback": {
+                    "feature": "Ominaisuuspyyntö",
+                    "bug": "Vika",
+                    "report": "Mitä haluat ilmoittaa?",
+                    "other": "Muu",
+                    "title": "Palaute"
+                },
+                "notifications": {
+                    "sounds": "Äänet"
+                },
+                "appearance": {
+                    "sync": "Synkronointiasetukset",
+                    "title": "Ulkoasu",
+                    "import_manual": "Tuo manuaalisesti",
+                    "import_clipboard": "Tuo leikepöydältä",
+                    "export_clipboard": "Vie leikepöydälle",
+                    "color": {
+                        "dark": "tumma",
+                        "light": "vaalea"
+                    },
+                    "display": {
+                        "compact": "Kompakti",
+                        "default": "Oletus"
+                    },
+                    "theme": "Teema"
+                },
+                "donate": {
+                    "title": "Lahjoita"
+                },
+                "language": {
+                    "select": "Valitse kieli",
+                    "title": "Kieli"
+                },
+                "sessions": {
+                    "active_sessions": "Aktiiviset istunnot",
+                    "title": "Istunnot",
+                    "this_device": "Tämä laite"
+                },
+                "profile": {
+                    "placeholder": "Kirjoita jotain itsestäsi…",
+                    "profile_picture": "Profiilikuva",
+                    "title": "Profiili"
+                },
+                "account": {
+                    "title": "Minun tili"
+                }
+            },
+            "categories": {
+                "user_settings": "Käyttäjäasetukset"
+            },
+            "title": "Asetukset"
+        },
+        "navigation": {
+            "tabs": {
+                "dev": "Kehittäjä",
+                "unreads": "Lukemattomat",
+                "friends": "Kaverit",
+                "home": "Koti"
+            }
+        },
+        "status": {
+            "offline": "Ei paikalla",
+            "online": "Paikalla",
+            "idle": "Toimeton",
+            "invisible": "Näkymätön",
+            "busy": "Kiireinen"
+        }
+    },
+    "dayjs": {
+        "sameDay": "[Tänään klo] LT",
+        "lastDay": "[Eilen klo] LT"
+    },
+    "error": {
+        "too_short": "Liian lyhyt",
+        "too_long": "Liian pitkä",
+        "invalid_invite": "Virheellinen koodi",
+        "invalid_email": "Virheellinen sähköpostiosoite",
+        "file_too_large": "Tiedosto on liian suuri.",
+        "unknown_error": "Katso konsoli.",
+        "invalid_credentials": "Sähköposti tai salasana on väärä.",
+        "email_in_use": "Sähköposti käytössä.",
+        "unknown_user": "Tuntematon käyttäjä.",
+        "required_field": "Pakollinen",
+        "unlabelled": "Jotain tapahtui.",
+        "network_error": "Verkkovirhe."
+    },
+    "quantities": {
+        "members": {
+            "many": "{{count}} Jäsentä",
+            "one": "1 Jäsen"
         }
     }
 }
