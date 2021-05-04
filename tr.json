@@ -15,7 +15,7 @@
             "cancel_message": "Göndermeyi İptal Et",
             "quote_message": "Mesajı Alıntıla",
             "delete_message": "Mesajı Sil",
-            "remove_member": "Gruptan Kaldır",
+            "remove_member": "Gruptan Çıkar",
             "open_file": "Dosyayı Aç",
             "open_image": "Resmi Aç",
             "save_image": "Resmi Kaydet",
@@ -23,7 +23,7 @@
             "save_video": "Videoyu kaydet",
             "block_user": "Kullanıcıyı Engelle",
             "unblock_user": "Kullanıcının Engelini Kaldır",
-            "remove_friend": "Arkadaş Kaldır",
+            "remove_friend": "Arkadaşı Çıkar",
             "cancel_friend": "İsteği İptal Et",
             "copy_id": "ID'yi Kopyala",
             "mark_as_read": "Okundu Olarak İşaretle",
@@ -46,7 +46,7 @@
                 "home": "Ana Sayfa",
                 "friends": "Arkadaşlar",
                 "unreads": "Okunmayanlar",
-                "saved": "Kaydedilmiş Mesajlar",
+                "saved": "Kaydedilmiş Notlar",
                 "dev": "Geliştirici"
             }
         },
@@ -81,7 +81,18 @@
                 "start": {
                     "group": "Bu, konuşmanızın başlangıcıdır."
                 },
-                "edited": "(düzenlendi)"
+                "edited": "(düzenlendi)",
+                "voice": {
+                    "unmute": "Susturmayı Kaldır (Not kaldırmasına btw my keyboard problem)",
+                    "mute": "Sustur (weblate have bug.",
+                    "leave": "Ayrıl",
+                    "connected": "Ses Bağlantısı Kuruldu"
+                },
+                "misc": {
+                    "spoiler_attachment": "Spoiler",
+                    "jump_present": "Günümüze",
+                    "viewing_old": "Eski mesajları görüntülü"
+                }
             },
             "groups": {
                 "name": "Grup İsmi",
@@ -168,9 +179,12 @@
                 "logOut": "Çıkış Yap",
                 "profile": {
                     "title": "Profil",
-                    "info": "Bilgi",
+                    "info": "Hakkında",
                     "fetching": "Profiliniz getiriliyor…",
-                    "placeholder": "Kendiniz hakkında bir şeyler yazın…"
+                    "placeholder": "Kendiniz hakkında bir şeyler yazın…",
+                    "custom_background": "Özel Arka Plan (bug fix)",
+                    "edit_background": "Arka Planı Düzenle",
+                    "profile_picture": "Profil"
                 }
             },
             "channel_pages": {
@@ -194,6 +208,10 @@
                     "a": "Herkese açık profilinizi özelleştirmek mi istiyorsunuz?",
                     "b": "Profil ayarlarınıza gidin."
                 }
+            },
+            "actions": {
+                "upload": "Yükle (en fazla {{filesize}})",
+                "remove": "Kaldır"
             }
         },
         "special": {
@@ -254,17 +272,19 @@
                     "mutual_friends": "Ortak Arkadaşlar",
                     "mutual_groups": "Ortak Gruplar",
                     "badges": {
-                        "translator": "Çevirmen"
+                        "translator": "Çevirmen",
+                        "early_adopter": "Erken Benimseyen"
                     },
                     "sub": {
                         "connections": "Bağlantılar",
-                        "information": "Bilgilendirme",
+                        "information": "Hakkında",
                         "badges": "Rozetler"
                     },
                     "empty": "Burası biraz boş..."
                 }
             },
-            "requires_online": "Bunu görüntülemek için çevrimiçi olmanız gerekir."
+            "requires_online": "Bunu görüntülemek için çevrimiçi olmanız gerekir.",
+            "copy_username": "Kullanıcı adını kopyalamak için tıklayın"
         }
     },
     "general": {
@@ -296,13 +316,13 @@
         "create": "Yeni bir hesap oluştur.",
         "resend": "Doğrulamayı tekrar gönder.",
         "cancel": "İsteği iptal et.",
-        "check_mail": "Postanı kontrol et.",
+        "check_mail": "E-postanı kontrol et.",
         "successful_registration": "Başarıyla kaydoldun!",
         "error": {
             "create": "Kayıt başarısız!",
             "login": "Giriş yapılamadı!",
             "reset": "Sıfırlanamadı!",
-            "resend": "Yeniden gönderilemedi!"
+            "resend": "Yeniden göndermede hata oluştu!"
         },
         "forgot": "Şifreni mi unuttun?",
         "existing": "Zaten hesabın var mı?",
