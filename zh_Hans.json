@@ -31,7 +31,8 @@
                         "default": "默认",
                         "compact_description": "一个怀旧的主题。"
                     },
-                    "theme": "主题"
+                    "theme": "主题",
+                    "emoji_pack": "表情包"
                 },
                 "sessions": {
                     "title": "登录的设备",
@@ -54,7 +55,9 @@
                         "enable_desktop": "此项设定将会在Revolt打开时给你发送通知。"
                     },
                     "enable_outgoing_sound": "在发送时播放声音。",
-                    "enable_sound": "收到消息时播放声音。"
+                    "enable_sound": "收到消息时播放声音。",
+                    "sounds": "声音",
+                    "push_notifications": "推送消息"
                 },
                 "logOut": "登出",
                 "feedback": {
@@ -78,7 +81,10 @@
                     "placeholder": "介绍一下你自己…",
                     "fetching": "正在获取您的档案…",
                     "info": "信息",
-                    "title": "档案"
+                    "title": "档案",
+                    "edit_background": "编辑背景",
+                    "custom_background": "自定背景",
+                    "profile_picture": "头像"
                 }
             },
             "tips": {
@@ -101,6 +107,10 @@
                     "name": "频道名称",
                     "title": "概述"
                 }
+            },
+            "actions": {
+                "upload": "上传（最大{{filesize}}）",
+                "remove": "移除"
             }
         },
         "main": {
@@ -133,6 +143,17 @@
                 "edited": "（已编辑）",
                 "start": {
                     "group": "这里是你们对话的开头。"
+                },
+                "misc": {
+                    "jump_present": "跳到现在",
+                    "viewing_old": "正在查看旧消息",
+                    "spoiler_attachment": "剧透警告"
+                },
+                "voice": {
+                    "unmute": "取消静音",
+                    "mute": "静音",
+                    "leave": "离开",
+                    "connected": "连接至语音"
                 }
             },
             "categories": {
@@ -144,7 +165,7 @@
         },
         "navigation": {
             "tabs": {
-                "saved": "保存的信息",
+                "saved": "保存的笔记",
                 "unreads": "未读信息",
                 "friends": "好友",
                 "dev": "开发者",
@@ -171,7 +192,8 @@
                     "no_groups": "你和TA没有共同群组！",
                     "no_users": "你和TA没有共同朋友！",
                     "badges": {
-                        "translator": "翻译者"
+                        "translator": "翻译者",
+                        "early_adopter": "早期用户"
                     },
                     "mutual_groups": "共同群组",
                     "mutual_friends": "共同朋友",
@@ -226,7 +248,8 @@
                 "connecting": "正在连接…",
                 "offline": "离线。"
             },
-            "requires_online": "您需要在线才能查看。"
+            "requires_online": "您需要在线才能查看。",
+            "copy_username": "点击以复制名称"
         },
         "context_menu": {
             "unblock_user": "取消屏蔽用户",
@@ -259,7 +282,8 @@
             "copy_uid": "复制用户ID",
             "copy_text": "复制文本",
             "copy_id": "副本ID",
-            "open_channel_settings": "频道设置"
+            "open_channel_settings": "频道设置",
+            "open_group_settings": "群组设置"
         }
     },
     "login": {
