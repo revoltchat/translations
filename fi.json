@@ -25,14 +25,19 @@
         "current_password": "Nykyinen salasana",
         "error": {
             "login": "Kirjautuminen epäonnistui!",
-            "create": "Rekisteröinti epäonnistui!"
+            "create": "Rekisteröinti epäonnistui!",
+            "reset": "Nollaaminen epäonnistui!"
         },
         "successful_registration": "Rekisteröinti onnistui!",
         "check_mail": "Tarkista sähköpostisi.",
         "set_password": "Aseta uusi salasana.",
         "invite": "Kutsukoodi",
         "username": "Käyttäjätunnus",
-        "register": "Rekisteröidy"
+        "register": "Rekisteröidy",
+        "resend": "Lähetä vahvistus uudelleen.",
+        "missing_verification": "Etkö saanut sähköpostia?",
+        "existing": "Onko sinulla jo tili?",
+        "remembered": "Palaa kirjautumiseen."
     },
     "app": {
         "main": {
@@ -41,7 +46,9 @@
                 "uploading_file": "Ladataan tiedostoa…",
                 "system": {
                     "user_left": "poistui.",
-                    "user_joined": "liittyi."
+                    "user_joined": "liittyi.",
+                    "removed_by": "poistanut",
+                    "added_by": "lisännyt"
                 },
                 "voice": {
                     "leave": "Poistu",
@@ -51,21 +58,30 @@
                 },
                 "misc": {
                     "jump_present": "Siirry nykyisiin",
-                    "viewing_old": "Katselet vanhempia viestejä"
+                    "viewing_old": "Katselet vanhempia viestejä",
+                    "spoiler_attachment": "Spoileri"
                 },
                 "edited": "(muokattu)",
                 "bot": "botti",
                 "typing": {
                     "multiple": "{{userlist}} ja {{user}} kirjoittavat…",
-                    "single": "{{user}} kirjoittaa…"
+                    "single": "{{user}} kirjoittaa…",
+                    "several": "Useat ihmiset kirjoittavat…"
                 },
                 "message_saved": "Tallenna viesteihisi",
-                "attached_file": "Liitetty {{filename}}"
+                "attached_file": "Liitetty {{filename}}",
+                "start": {
+                    "group": "Tämä on keskustelusi alku."
+                },
+                "message_who": "Viesti henkilölle {{person}}",
+                "failed_upload": "Lataus epäonnistui!",
+                "unknown_user": "<Tuntematon käyttäjä>"
             },
             "categories": {
                 "members": "Jäsenet",
                 "conversations": "Keskustelut",
-                "channels": "Kanavat"
+                "channels": "Kanavat",
+                "participants": "Osallistujat"
             },
             "groups": {
                 "owner": "Ryhmän omistaja",
@@ -98,17 +114,21 @@
             "mark_as_read": "Merkitse luetuksi",
             "mention": "Mainitse",
             "copy_text": "Kopioi teksti",
-            "copy_id": "Kopioi tunniste"
+            "copy_id": "Kopioi tunniste",
+            "copy_mid": "Kopioi viestin tunniste",
+            "cancel_friend": "Peruuta pyyntö"
         },
         "special": {
             "popovers": {
                 "user_profile": {
                     "sub": {
                         "information": "Tiedot",
-                        "connections": "Yhteydet"
+                        "connections": "Yhteydet",
+                        "badges": "Merkit"
                     },
                     "badges": {
-                        "translator": "Kääntäjä"
+                        "translator": "Kääntäjä",
+                        "supporter": "Tukija"
                     },
                     "mutual_groups": "Yhteiset Ryhmät",
                     "mutual_friends": "Yhteiset kaverit",
@@ -122,17 +142,21 @@
                     "preview": "Esikatsele",
                     "cancel": "Peruuta",
                     "close": "Sulje",
-                    "save": "Tallenna"
+                    "save": "Tallenna",
+                    "ok": "Ok"
                 }
             },
             "copy_username": "Paina kopioidaksesi käyttäjänimi",
             "status": {
                 "reconnecting": "Yhdistetään uudelleen…",
-                "connecting": "Yhdistetään…"
+                "connecting": "Yhdistetään…",
+                "offline": "Ei paikalla.",
+                "disconnected": "Yhteys katkaistu."
             },
             "friends": {
                 "pending": "Odottaa",
-                "blocked": "Estetty"
+                "blocked": "Estetty",
+                "nobody": "Täällä ei ole viellä ketään!"
             }
         },
         "settings": {
@@ -142,10 +166,16 @@
                     "bug": "Vika",
                     "report": "Mitä haluat ilmoittaa?",
                     "other": "Muu",
-                    "title": "Palaute"
+                    "title": "Palaute",
+                    "send": "Lähetä palautetta",
+                    "describe": "Kuvaile ongelmaa."
                 },
                 "notifications": {
-                    "sounds": "Äänet"
+                    "sounds": "Äänet",
+                    "push_notifications": "Push-ilmoitukset",
+                    "enable_push": "Ota push-ilmoitukset käyttöön.",
+                    "enable_desktop": "Ota työpöytäilmoitukset käyttöön.",
+                    "title": "Ilmoitukset"
                 },
                 "appearance": {
                     "sync": "Synkronointiasetukset",
@@ -159,7 +189,8 @@
                     },
                     "display": {
                         "compact": "Kompakti",
-                        "default": "Oletus"
+                        "default": "Oletus",
+                        "compact_description": "Vanha kunnon IRC."
                     },
                     "theme": "Teema"
                 },
@@ -173,12 +204,14 @@
                 "sessions": {
                     "active_sessions": "Aktiiviset istunnot",
                     "title": "Istunnot",
-                    "this_device": "Tämä laite"
+                    "this_device": "Tämä laite",
+                    "created": "Luotu {{time_ago}}"
                 },
                 "profile": {
                     "placeholder": "Kirjoita jotain itsestäsi…",
                     "profile_picture": "Profiilikuva",
-                    "title": "Profiili"
+                    "title": "Profiili",
+                    "edit_background": "Muokkaa taustaa"
                 },
                 "account": {
                     "title": "Minun tili"
@@ -187,7 +220,17 @@
             "categories": {
                 "user_settings": "Käyttäjäasetukset"
             },
-            "title": "Asetukset"
+            "title": "Asetukset",
+            "channel_pages": {
+                "overview": {
+                    "title": "Yleiskatsaus",
+                    "description": "Kanavan kuvaus",
+                    "name": "Kanavan nimi"
+                }
+            },
+            "actions": {
+                "remove": "Poista"
+            }
         },
         "navigation": {
             "tabs": {
@@ -207,7 +250,9 @@
     },
     "dayjs": {
         "sameDay": "[Tänään klo] LT",
-        "lastDay": "[Eilen klo] LT"
+        "lastDay": "[Eilen klo] LT",
+        "sameElse": "L",
+        "nextDay": "[Huomenna klo] LT"
     },
     "error": {
         "too_short": "Liian lyhyt",
@@ -221,7 +266,13 @@
         "unknown_user": "Tuntematon käyttäjä.",
         "required_field": "Pakollinen",
         "unlabelled": "Jotain tapahtui.",
-        "network_error": "Verkkovirhe."
+        "network_error": "Verkkovirhe.",
+        "internal_error": "Sisäinen virhe.",
+        "database_error": "Tietokanta virhe.",
+        "probe_error": "Tiedoston metatietojen hakeminen epäonnistui.",
+        "unsupported_browser": "Selaimesta puuttuu tämän ominaisuuden tuki.",
+        "blocked_other": "Tämä käyttäjä on estänyt sinut.",
+        "blocked": "Olet estänyt tämän käyttäjän."
     },
     "quantities": {
         "members": {
