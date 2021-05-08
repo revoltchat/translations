@@ -14,7 +14,8 @@
             "email": "Vložte svůj e-mail.",
             "password": "Vložte svoje heslo.",
             "username": "Zadejte uživatelské jméno.",
-            "current_password": "Vložte své současné heslo."
+            "current_password": "Vložte své současné heslo.",
+            "invite": "Zadejte Váš přístupový kód."
         },
         "forgot": "Zapomenuté heslo?",
         "new": "Nově u REVOLT?",
@@ -31,7 +32,9 @@
         },
         "successful_registration": "Úspěšně zaregistrováno!",
         "current_password": "Současné Heslo",
-        "existing": "Už máte účet?"
+        "existing": "Už máte účet?",
+        "check_mail": "Zkontrolujte si Váš e-mail.",
+        "invite": "Přístupový kód"
     },
     "app": {
         "main": {
@@ -47,8 +50,8 @@
                     "multiple": "{{userlist}} a {{user}} píšou…",
                     "several": "Několik lidí píše…"
                 },
-                "message_where": "Pošli zprávu v {{channel_name}}",
-                "message_who": "Pošli zprávu {{person}}",
+                "message_where": "Zpráva v {{channel_name}}",
+                "message_who": "Zpráva {{person}}",
                 "edited": "(upraveno)",
                 "start": {
                     "group": "Toto je začátek vaše konverzace."
@@ -69,8 +72,8 @@
             },
             "groups": {
                 "create": "Vytvořte skupinu.",
-                "name": "Název Skupiny",
-                "owner": "Vlastník Skupiny"
+                "name": "Název skupiny",
+                "owner": "Vlastník skupiny"
             }
         },
         "navigation": {
@@ -108,7 +111,8 @@
                     "continue": "Pokračovat",
                     "cancel": "Zrušit",
                     "update": "Aktualizovat",
-                    "send_email": "Poslat E-mail"
+                    "send_email": "Poslat E-mail",
+                    "save": "Uložit"
                 },
                 "onboarding": {
                     "welcome": "Vítejte v",
@@ -132,23 +136,43 @@
                 "disconnected": "Odpojen.",
                 "connecting": "Připojování…"
             },
-            "requires_online": "Pro zobrazení obsahu musíte být online",
+            "requires_online": "Musíte být online pro zobrazení obsahu.",
             "popovers": {
                 "user_profile": {
                     "profile": "Profil",
                     "no_users": "Žádní vzájemní přátelé!",
                     "mutual_friends": "Vzájemní Přátelé",
                     "mutual_groups": "Vzájemné Skupiny",
-                    "no_groups": "Žádné vzájemné skupiny!"
+                    "no_groups": "Žádné vzájemné skupiny!",
+                    "empty": "Je tu trošku prázdno...",
+                    "sub": {
+                        "connections": "Propojení"
+                    }
                 }
-            }
+            },
+            "copy_username": "Kliknutím zkopírujete uživatelské jméno"
         },
         "context_menu": {
             "copy_id": "Kopírovat ID",
             "block_user": "Zablokovat uživatele",
             "copy_text": "Kopírovat text",
             "delete_message": "Smazat zprávu",
-            "edit_message": "Upravit zprávu"
+            "edit_message": "Upravit zprávu",
+            "cancel_message": "Zrušit odeslání",
+            "copy_uid": "Zkopírovat ID uživatele",
+            "copy_cid": "Zkopírovat ID kanálu",
+            "copy_mid": "Zkopírovat ID zprávy",
+            "save_image": "Uložit obrázek",
+            "open_image": "Otevřít obrázek",
+            "save_file": "Uložit soubor",
+            "open_file": "Otevřít soubor",
+            "remove_member": "Odebrat ze skupiny",
+            "quote_message": "Citovat zprávu",
+            "mark_as_read": "Označit jako přečtené",
+            "message_user": "Zpráva",
+            "mention": "Zmínka",
+            "save_video": "Uložit video",
+            "open_video": "Otevřít video"
         },
         "settings": {
             "pages": {
@@ -187,8 +211,10 @@
                     "display": {
                         "compact_description": "Staré dobré IRC.",
                         "compact": "Kompaktní",
-                        "default": "Výchozí"
-                    }
+                        "default": "Výchozí",
+                        "default_description": "Krásné, moderní a příjemné na oči."
+                    },
+                    "emoji_pack": "Sada emoji"
                 },
                 "source_code": "Zdrojový kód",
                 "feedback": {
@@ -226,7 +252,12 @@
                 "user_settings": "Uživatelská Nastavení",
                 "client_settings": "Nastavení Aplikace"
             },
-            "title": "Nastavení"
+            "title": "Nastavení",
+            "channel_pages": {
+                "overview": {
+                    "title": "Přehled"
+                }
+            }
         }
     },
     "dayjs": {
