@@ -26,7 +26,18 @@
                 "start": {
                     "group": "Este es el comienzo de tu conversación."
                 },
-                "edited": "(editado)"
+                "edited": "(editado)",
+                "voice": {
+                    "connected": "Conectado a voz",
+                    "leave": "Salir",
+                    "mute": "Silenciar",
+                    "unmute": "Desilenciar"
+                },
+                "misc": {
+                    "viewing_old": "Viendo mensajes antiguos",
+                    "jump_present": "Saltar al presente",
+                    "spoiler_attachment": "Spoiler"
+                }
             },
             "categories": {
                 "members": "Miembros",
@@ -43,7 +54,7 @@
         "navigation": {
             "tabs": {
                 "dev": "Desarrollador",
-                "saved": "Mensajes guardados",
+                "saved": "Notas guardadas",
                 "unreads": "No leídos",
                 "home": "Inicio",
                 "friends": "Amigos"
@@ -56,12 +67,16 @@
                     "title": "Perfil",
                     "info": "Información",
                     "fetching": "Obteniendo tu perfil…",
-                    "placeholder": "Escribe algo sobre ti…"
+                    "placeholder": "Escribe algo sobre ti…",
+                    "profile_picture": "Foto de perfil",
+                    "custom_background": "Fondo personalizado",
+                    "edit_background": "Editar fondo"
                 },
                 "sessions": {
                     "this_device": "Este dispositivo",
                     "title": "Sesiones",
-                    "active_sessions": "Sesiones activas"
+                    "active_sessions": "Sesiones activas",
+                    "created": "Creado hace {{time_ago}}"
                 },
                 "account": {
                     "title": "Mi cuenta",
@@ -71,12 +86,91 @@
                     "title": "Donar"
                 },
                 "language": {
-                    "select": "Seleccione el idioma"
-                }
+                    "select": "Seleccione el idioma",
+                    "title": "Idioma"
+                },
+                "notifications": {
+                    "descriptions": {
+                        "enable_sound": "Habilita esto para reproducir sonido cuando te llegue un mensaje.",
+                        "enable_push": "Habilita esto para recibir notificaciones cuando estés desconectado.",
+                        "enable_outgoing_sound": "Habilita esto para reproducir sonido cuando envíes un mensaje.",
+                        "enable_desktop": "Esto te enviará notificaciones cuando la app este abierta."
+                    },
+                    "title": "Notificaciones",
+                    "enable_push": "Habilitar notificaciones push.",
+                    "enable_desktop": "Habilitar notificaciones de escritorio.",
+                    "push_notifications": "Notificaciones push",
+                    "sounds": "Sonidos",
+                    "enable_sound": "Reproducir sonido en mensaje.",
+                    "enable_outgoing_sound": "Habilitar sonido de mensaje enviado."
+                },
+                "feedback": {
+                    "title": "Sugerencias",
+                    "report": "Qué te gustaría reportar?",
+                    "bug": "Bug",
+                    "send": "Enviar sugerencias",
+                    "feature": "Solicitar características",
+                    "other": "Otro",
+                    "describe": "Por favor describe el problema."
+                },
+                "appearance": {
+                    "theme_data": "Datos de tema",
+                    "emoji_pack": "Paquete de emoji",
+                    "overrides": "Anular tema",
+                    "reset_overrides": "Resetear anulaciones",
+                    "export_clipboard": "Exportar al portapapeles",
+                    "import_clipboard": "Importar desde portapapeles",
+                    "title": "Apariencia",
+                    "display": {
+                        "default": "Por defecto",
+                        "compact": "Compacto",
+                        "default_description": "Bonito, elegante y moderno.",
+                        "compact_description": "Buen viejo IRC."
+                    },
+                    "accent_selector": "Color de acento",
+                    "import_manual": "Importar manualmente",
+                    "theme": "Tema",
+                    "color": {
+                        "light": "claro",
+                        "dark": "oscuro"
+                    },
+                    "message_display": "Vista de mensajes",
+                    "custom_css": "CSS personalizado",
+                    "sync": "Sincronizar opciones",
+                    "advanced": "Opciones avanzadas",
+                    "import_theme": "Importar tema desde hilo"
+                },
+                "logOut": "Cerrar sesión",
+                "source_code": "Código fuente"
             },
             "categories": {
                 "user_settings": "Ajustes de usuario",
                 "client_settings": "Configuración del cliente"
+            },
+            "channel_pages": {
+                "overview": {
+                    "title": "Resumen",
+                    "name": "Nombre del canal",
+                    "description": "Descripción del canal"
+                }
+            },
+            "tips": {
+                "account": {
+                    "b": "Ir a la configuración del perfil.",
+                    "a": "Estás buscando cómo personalizar tu perfil público?"
+                },
+                "languages": {
+                    "a": "No hay un idioma que quieras?",
+                    "b": "Ayuda contribuyendo traducciones."
+                },
+                "sessions": {
+                    "a": "Si ves una sesión desconocida en la lista,",
+                    "b": "mejora tu seguridad cambiando tu contraseña y activando autenticación de dos factores."
+                }
+            },
+            "actions": {
+                "remove": "Borrar",
+                "upload": "Subir (máx. {{filesize}})"
             }
         },
         "status": {
@@ -85,6 +179,114 @@
             "busy": "Ocupado",
             "invisible": "Invisible",
             "online": "Activo"
+        },
+        "context_menu": {
+            "retry_message": "Reintentar envío",
+            "copy_link": "Copiar link",
+            "open_group_settings": "Configuración de grupo",
+            "copy_selection": "Copiar selección",
+            "copy_cid": "Copiar ID de canal",
+            "mention": "Mencionar",
+            "cancel_message": "Cancelar envío",
+            "quote_message": "Citar mensaje",
+            "open_file": "Abrir archivo",
+            "save_image": "Guardar imagen",
+            "open_link": "Abrir link",
+            "block_user": "Bloquear usuario",
+            "unblock_user": "Desbloquear usuario",
+            "custom_status": "Estado personalizado",
+            "clear_status": "Quitar estado personalizado",
+            "set_custom_status": "Establecer un estado personalizado",
+            "open_channel_settings": "Configuración de canal",
+            "open_video": "Abrir vídeo",
+            "copy_id": "Copiar ID",
+            "save_file": "Guardar archivo",
+            "open_image": "Abrir imagen",
+            "save_video": "Guardar vídeo",
+            "add_friend": "Añadir amigo",
+            "cancel_friend": "Cancelar solicitud",
+            "remove_friend": "Quitar amigo",
+            "copy_text": "Copiar texto",
+            "copy_uid": "Copiar ID de usuario",
+            "copy_mid": "Copiar ID de mensaje",
+            "message_user": "Enviar mensaje",
+            "mark_as_read": "Marcar como leído",
+            "edit_message": "Editar mensaje",
+            "delete_message": "Borrar mensaje",
+            "remove_member": "Quitar del grupo"
+        },
+        "special": {
+            "modals": {
+                "onboarding": {
+                    "welcome": "Bienvenido a",
+                    "pick": "Escoge un nombre de usuario por el cual la gente te pueda encontrar, este se puede cambiar luego en ajustes."
+                },
+                "account": {
+                    "failed": "Cambio fallido!",
+                    "change": {
+                        "email": "Cambiar tu email",
+                        "username": "Cambiar tu nombre de usuario",
+                        "password": "Cambiar tu contraseña"
+                    }
+                },
+                "prompt": {
+                    "confirm_leave_long": "No podrás volver a entrar a no ser que seas invitado de nuevo.",
+                    "confirm_leave": "Salir de {{group_name}}?"
+                },
+                "error": "Ha ocurrido un error!",
+                "actions": {
+                    "save": "Guardar",
+                    "cancel": "Cancelar",
+                    "update": "Actualizar",
+                    "ok": "Vale",
+                    "close": "Cerrar",
+                    "send_email": "Enviar correo",
+                    "reload": "Recargar aplicación",
+                    "preview": "Vista previa",
+                    "continue": "Continuar"
+                },
+                "clipboard": {
+                    "unavailable": "El portapapeles no esta disponible!",
+                    "copy": "Copia manual:",
+                    "https": "Ahora mismo no estás en un contexto HTTPS."
+                },
+                "signed_out": "Tu sesión ha sido cerrada!"
+            },
+            "friends": {
+                "pending": "Pendiente",
+                "outgoing": "Solicitud de amistad saliente.",
+                "incoming": "Solicitud de amistad entrante.",
+                "blocked": "Bloqueado",
+                "nobody": "Todavia no hay nadie!"
+            },
+            "popovers": {
+                "user_profile": {
+                    "badges": {
+                        "early_adopter": "Pionero",
+                        "supporter": "Apoyante",
+                        "translator": "Traductor"
+                    },
+                    "no_users": "Sin amigos en común!",
+                    "empty": "Esto esta un poco vacío...",
+                    "sub": {
+                        "badges": "Medallas",
+                        "information": "Información",
+                        "connections": "Conexiones"
+                    },
+                    "mutual_friends": "Amigos mutuos",
+                    "mutual_groups": "Grupos en común",
+                    "no_groups": "Sin grupos en común!",
+                    "profile": "Perfil"
+                }
+            },
+            "status": {
+                "connecting": "Conectando…",
+                "offline": "Desconectado.",
+                "disconnected": "Desconectado.",
+                "reconnecting": "Reconectando…"
+            },
+            "requires_online": "Necesitas estar conectado para ver esto.",
+            "copy_username": "Haz click para copiar nombre de usuario"
         }
     },
     "login": {
@@ -129,5 +331,64 @@
         "tos": "Términos de servicio",
         "about": "Sobre nosotros",
         "loading": "Cargando…"
+    },
+    "error": {
+        "missing_permission": "Falta permiso.",
+        "file_too_large": "Archivo demasiado grande.",
+        "missing_data": "Faltan datos en la solicitud.",
+        "too_long": "Demasiado largo",
+        "network_error": "Error de conexión.",
+        "internal_error": "Error interno.",
+        "missing_headers": "Faltan headers.",
+        "invalid_session": "Sesión invalida.",
+        "username_taken": "Este nombre de usuario ya está en uso.",
+        "invalid_email": "Correo inválido",
+        "unsupported_browser": "Tu navegador no tiene soporte para esta característica.",
+        "denied_notification": "Has denegado permisos para notificaciones, comprueba la configuración de la página.",
+        "render_fail": "Error en el dibujado de plantilla.",
+        "email_in_use": "Correo ya en uso.",
+        "email_failed": "Envío de correo fallido.",
+        "invalid_credentials": "El correo o la contraseña no son correctos.",
+        "unauthorized": "Sin permisos.",
+        "unlabelled": "Algo ha pasado.",
+        "failed_validation": "Error al validar campo.",
+        "database_error": "Error de base de datos.",
+        "already_friends": "Ya eres amigo de este usuario.",
+        "already_sent_request": "Ya has enviado una solicitud a este usuario.",
+        "blocked": "Has bloqueado a este usuario.",
+        "blocked_other": "Este usuario te ha bloqueado.",
+        "no_effect": "Esta solicitud no ha tenido resultado.",
+        "failed_to_receive": "El servidor no ha podido recibir tu archivo.",
+        "probe_error": "Error obteniendo metadatos del archivo.",
+        "io_error": "El servidor se ha encontrado con un error I/O.",
+        "unknown_error": "Ver consola.",
+        "operation_failed": "Operación fallida.",
+        "unverified_account": "Cuenta no verificada.",
+        "unknown_user": "Usuario no conocido.",
+        "invalid_token": "Identificador inválido",
+        "missing_invite": "Falta código de invitacion en la solicitud.",
+        "invalid_invite": "Código inválido",
+        "already_onboarded": "Configuración ya terminada.",
+        "required_field": "Requerido",
+        "too_short": "Demasiado corto",
+        "unavailable": "No disponible."
+    },
+    "dayjs": {
+        "nextDay": "[Mañana a las] LT",
+        "nextWeek": "dddd [a las] LT",
+        "sameElse": "L",
+        "sameDay": "[Hoy a las] LT",
+        "lastWeek": "[El último] dddd [a las] LT",
+        "lastDay": "[Ayer a las] LT"
+    },
+    "quantities": {
+        "members": {
+            "one": "1 miembro",
+            "many": "{{count}} miembros"
+        }
+    },
+    "notifications": {
+        "now_friends": "Ahora tú y @{{person}} sois amigos!",
+        "sent_request": "@{{person}} te envió una solicitud de amistad."
     }
 }
