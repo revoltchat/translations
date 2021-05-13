@@ -3,7 +3,8 @@
         "tos": "Szolgáltatás feltételei",
         "privacy": "Adatvédelmi irányelvek",
         "image_by": "Képet készítette",
-        "about": "Rólunk"
+        "about": "Rólunk",
+        "loading": "Betöltés…"
     },
     "login": {
         "email": "Email",
@@ -34,7 +35,7 @@
             "login": "Bejelentkezés sikertelen!",
             "create": "Regisztrálás sikertelen!"
         },
-        "check_spam": "Ha nem találod akkor nézd meg spam mappádat.",
+        "check_spam": "Ha nem találod akkor nézd meg spam mappádat",
         "resend": "Igazolás újraküldése.",
         "missing_verification": "Nincs email-ed?",
         "set_password": "Új jelszó beállítása.",
@@ -59,16 +60,35 @@
                 "attached_file": "{{filename}} hozzácsatolva",
                 "failed_upload": "Feltöltés sikertelen!",
                 "uploading_file": "Fájl feltöltése…",
-                "message_saved": "Mentés üzenetekhez"
+                "message_saved": "Mentés üzenetekhez",
+                "bot": "bot",
+                "unknown_user": "<Ismeretlen Felhasználó>",
+                "start": {
+                    "group": "Ez a besélgetés kezdete."
+                },
+                "edited": "(módosiítva)",
+                "voice": {
+                    "connected": "Hang kapcsolódva",
+                    "mute": "Némitás",
+                    "unmute": "Némitás ki",
+                    "leave": "Kilépés"
+                },
+                "misc": {
+                    "viewing_old": "Régebbi üzeneteket tekintesz meg",
+                    "jump_present": "Ugrás a jelenbe",
+                    "spoiler_attachment": "Spoiler"
+                }
             },
             "groups": {
                 "name": "Csoportnév",
-                "create": "Csoport létrehozása."
+                "create": "Csoport létrehozása.",
+                "owner": "Csoport Tulaj"
             },
             "categories": {
                 "members": "Tagok",
-                "channels": "Beszélgetések",
-                "conversations": "Beszélgetések"
+                "channels": "Csatornák",
+                "conversations": "Beszélgetések",
+                "participants": "Részteveők"
             }
         },
         "settings": {
@@ -86,7 +106,20 @@
                     "import_clipboard": "Másolás vágólapról.",
                     "export_clipboard": "Másolás vágólapra.",
                     "reset_overrides": "Témák visszaállítása.",
-                    "title": "Megjelenés"
+                    "title": "Megjelenés",
+                    "advanced": "Haladó Beálítások",
+                    "custom_css": "Egyedi CSS",
+                    "display": {
+                        "default": "Alap",
+                        "compact": "Tömör",
+                        "compact_description": "Jó öreg IRC."
+                    },
+                    "sync": "Sincronizátció Opciók",
+                    "color": {
+                        "light": "világos",
+                        "dark": "sötét"
+                    },
+                    "accent_selector": "Kiemelő Szín"
                 },
                 "logOut": "Kijelentkezés",
                 "account": {
@@ -94,18 +127,62 @@
                     "change_field": "Megváltoztás"
                 },
                 "language": {
-                    "title": "Nyelv"
+                    "title": "Nyelv",
+                    "select": "Válazd ki a nyelvedet"
                 },
                 "notifications": {
                     "enable_desktop": "Asztali értesítések bekapcsolása.",
-                    "title": "Értesítések"
-                }
+                    "title": "Értesítések",
+                    "enable_sound": "Hang lejátszása Üzeneten.",
+                    "enable_outgoing_sound": "Küldési Hang Lejátszása.",
+                    "sounds": "Hangok"
+                },
+                "profile": {
+                    "title": "Profil",
+                    "info": "Információ",
+                    "placeholder": "Írj valamit magadról…",
+                    "profile_picture": "Profil Kép",
+                    "custom_background": "Egyedi Háttér",
+                    "edit_background": "Háttér Szerkeztés"
+                },
+                "feedback": {
+                    "title": "Visszajelzés",
+                    "report": "Mit akarsz jelenteni?",
+                    "bug": "Bug",
+                    "feature": "Funkció Kérelem",
+                    "other": "Más",
+                    "send": "Visszajelzés Küldése"
+                },
+                "donate": {
+                    "title": "Adományoz"
+                },
+                "source_code": "Forrás"
             },
             "categories": {
                 "user_settings": "Felhasználói beállítások",
                 "client_settings": "Alkalmazás beállítások"
             },
-            "title": "Beállítások"
+            "title": "Beállítások",
+            "channel_pages": {
+                "overview": {
+                    "title": "Áttekintés",
+                    "name": "Csatorna Név",
+                    "description": "Csatorna Leírás"
+                }
+            },
+            "tips": {
+                "languages": {
+                    "b": "Segíts több fordítást készíteni."
+                },
+                "sessions": {
+                    "b": "biztosítsjd a fíokodat a jelszavad megváltoztatásával és kétfaktoros hitelesítés használatával.",
+                    "a": "Ha látsz egy ismeretlen eszközt a listán,"
+                }
+            },
+            "actions": {
+                "remove": "Eltávolít",
+                "upload": "Feltőltés (max. {{filesize}})"
+            }
         },
         "special": {
             "requires_online": "Ennek megtekintéséhez online kell lenned.",
@@ -117,7 +194,9 @@
                     "close": "Bezárás",
                     "ok": "Rendben",
                     "send_email": "Email küldése",
-                    "update": "Frissítés"
+                    "update": "Frissítés",
+                    "save": "Mentés",
+                    "preview": "Előnézet"
                 },
                 "prompt": {
                     "confirm_leave": "{{group_name}} csoportból kilépsz?",
@@ -153,7 +232,8 @@
                 "outgoing": "Kimenő barátkérelem.",
                 "incoming": "Bejövó barátkérelem.",
                 "blocked": "Blokkolva",
-                "pending": "Függőben lévó"
+                "pending": "Függőben lévó",
+                "nobody": "Még nincs it senki!"
             },
             "popovers": {
                 "user_profile": {
@@ -161,14 +241,24 @@
                     "no_users": "Nincsenek közös ismerősök!",
                     "mutual_groups": "Közös csoportok",
                     "mutual_friends": "Közös ismerősök",
-                    "profile": "Profil"
+                    "profile": "Profil",
+                    "badges": {
+                        "early_adopter": "Úttörő",
+                        "supporter": "Támogató",
+                        "translator": "Fórdító"
+                    },
+                    "sub": {
+                        "information": "Információ",
+                        "connections": "Kapcsolatok"
+                    }
                 }
-            }
+            },
+            "copy_username": "Kattints a felhasználónév másolásához"
         },
         "navigation": {
             "tabs": {
                 "unreads": "Olvasatlan üzenetek",
-                "saved": "Mentett üzenetek",
+                "saved": "Mentett Jegyzetek",
                 "friends": "Ismerősök",
                 "dev": "Fejlesztő",
                 "home": "Otthon"
@@ -199,7 +289,14 @@
             "cancel_message": "Küldés visszavonása",
             "retry_message": "Újraküldés",
             "mention": "Említés",
-            "copy_text": "Szöveg másolása"
+            "copy_text": "Szöveg másolása",
+            "set_custom_status": "Egyedi státusz beálitása",
+            "custom_status": "Egyedi Státusz",
+            "copy_selection": "Kiválasztás Másolása",
+            "open_channel_settings": "Csatorna Beállítások",
+            "open_group_settings": "Csoport Beálítások",
+            "copy_link": "Link Másolása",
+            "open_link": "Link Megnyitása"
         },
         "status": {
             "offline": "Offline",
@@ -242,7 +339,12 @@
         "internal_error": "Belső hiba.",
         "database_error": "Adatbázis hiba.",
         "unlabelled": "Valami történt.",
-        "missing_permission": "Hianyzó engedély."
+        "missing_permission": "Hianyzó engedély.",
+        "unauthorized": "Nem engedéjezett.",
+        "network_error": "Hálozati hiba.",
+        "render_fail": "Sablonmegjelenítés sikertelen.",
+        "email_failed": "Nem sikerült elküldeni az e-mailt.",
+        "invalid_credentials": "Rosz email, vagy jelszó."
     },
     "quantities": {
         "members": {
