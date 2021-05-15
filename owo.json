@@ -1,396 +1,402 @@
 {
-	"general": {
-		"about": "Abouwt",
-		"tos": "Tewms of sewvice",
-		"privacy": "Pwivacy powicy",
-		"image_by": "Image bwy",
-		"loading": "Lyoading…"
-	},
-	"app": {
-		"special": {
-			"status": {
-				"connecting": "Cwowonnyecting…",
-				"offline": "probably dead",
-				"disconnected": "Discwonnected.",
-				"reconnecting": "Wecwowonnyecting…"
-			},
-			"friends": {
-				"pending": "Pwending",
-				"blocked": "Bwocked",
-				"incoming": "Incoming fwiend wequwest.",
-				"outgoing": "Ouwtgoing fwiend wequwest.",
-				"nobody": "Nyobody here yet!"
-			},
-			"modals": {
-				"error": "We did a fwucky wucky owo",
-				"clipboard": {
-					"unavailable": "Cwipboawd is uwnavaiwabwe! OwO",
-					"https": "fix your fucking browser you moron",
-					"copy": "Manuwaw copy:"
-				},
-				"signed_out": "Youw wewe signed ouwt! OwO",
-				"onboarding": {
-					"welcome": "Wewcome Mastew! OwO",
-					"pick": "What do u want me to caww u, mastew? UwU"
-				},
-				"actions": {
-					"ok": "Ok",
-					"close": "Cwose",
-					"reload": "Rewoad app",
-					"continue": "Continuwe",
-					"cancel": "Cancew",
-					"send_email": "Swend Email",
-					"update": "Uwupdate",
-					"preview": "Pweview",
-					"save": "Syave"
-				},
-				"prompt": {
-					"confirm_leave": "Go away fwom {{group_name}} (They'll pwobabwy miss u OmO)?",
-					"confirm_leave_long": "U can't come bacc unless ur invited in again."
-				},
-				"account": {
-					"change": {
-						"username": "Chyange uw usewname",
-						"password": "Chyance uw passwowd",
-						"email": "Chyange uw email"
-					},
-					"failed": "Fwailed to chyange!"
-				}
-			},
-			"requires_online": "Youw need to be onwine to view this.",
-			"popovers": {
-				"user_profile": {
-					"profile": "Pyofiwe",
-					"no_groups": "No mutual gwoups!",
-					"no_users": "No mutual fwiends!",
-					"mutual_groups": "Mutual Gwoups",
-					"mutual_friends": "Mutual Fwiends",
-					"badges": {
-						"translator": "Twanslatyor",
-						"early_adopter": "Eawwy adoptew",
-						"supporter": "Suwppowtew"
-					},
-					"sub": {
-						"connections": "Cyonnectwions",
-						"information": "Infyormwation",
-						"badges": "Byadges"
-					},
-					"empty": "It's a byit empwty in hyere..."
-				}
-			},
-			"copy_username": "Cwick to copy uwsewname"
-		},
-		"status": {
-			"online": "Onwine",
-			"idle": "Idwe",
-			"busy": "Bwusy",
-			"invisible": "Invisibwe",
-			"offline": "Offwine"
-		},
-		"navigation": {
-			"tabs": {
-				"home": "Hwome",
-				"dev": "Master",
-				"friends": "Fwiends",
-				"unreads": "Unweads",
-				"saved": "Sawved nwotes"
-			}
-		},
-		"main": {
-			"categories": {
-				"conversations": "Convewsations",
-				"channels": "Channews",
-				"members": "Kittens",
-				"participants": "Pyarticipwants"
-			},
-			"channel": {
-				"message": "Messawge {{name}}",
-				"message_where": "Speek in {{channel_name}}",
-				"message_who": "Talk to {{person}}",
-				"system": {
-					"removed_by": "ryemoved bwy",
-					"added_by": "addyed bwy",
-					"user_left": "lyeft.",
-					"user_joined": "jyoined.",
-					"channel_renamed": "ryenamwed the channyel two"
-				},
-				"typing": {
-					"several": "Panic Panic Panic…",
-					"multiple": "{{userlist}} and {{user}} awe mashing their kewwboard…",
-					"single": "{{user}} is mashing their kewwboard…"
-				},
-				"attached_file": "Attyached {{filename}}",
-				"failed_upload": "Fwailed to upwoad!",
-				"uploading_file": "Upwoading fwile…",
-				"message_saved": "Syawe to uw mwessages",
-				"bot": "Senpai",
-				"unknown_user": "<Unknywown Cunt>",
-				"edited": "(edyited)",
-				"start": {
-					"group": "Twis is thye styart of ye conversyation."
-				},
-				"misc": {
-					"viewing_old": "Viewing owdew messages",
-					"jump_present": "Juwmp to pwesent",
-					"spoiler_attachment": "Spoiwew"
-				},
-				"voice": {
-					"unmute": "Unmuwte",
-					"mute": "Muwte",
-					"leave": "Lweavwe",
-					"connected": "Voice connyected"
-				}
-			},
-			"groups": {
-				"name": "Gwoup Name",
-				"create": "Cweate a gwoup.",
-				"owner": "Daddy"
-			}
-		},
-		"context_menu": {
-			"message_user": "Mwessage",
-			"copy_id": "Cwopy ID",
-			"block_user": "Bwock Usew",
-			"edit_message": "Edit Mwessage",
-			"cancel_friend": "Cancew Weqwest",
-			"remove_friend": "Unfwend ÒmÓ",
-			"add_friend": "Add Fwend OwO",
-			"unblock_user": "Unbwock Usew",
-			"remove_member": "Wemove Fwom Dis Gang",
-			"delete_message": "Delet Dis",
-			"mark_as_read": "Mawk As Wead",
-			"copy_mid": "Steal Message ID",
-			"copy_cid": "Steal Channew ID",
-			"copy_uid": "Steal Usew ID",
-			"mention": "Annoy",
-			"save_video": "Swave Video",
-			"open_video": "Owopen Video",
-			"save_image": "Swave Image",
-			"open_image": "Owopen Image",
-			"save_file": "Swave Fwile",
-			"open_file": "Open Fwile",
-			"quote_message": "Qwuote Mwessage",
-			"cancel_message": "Cyancel Swend",
-			"retry_message": "Rwetry Swend",
-			"copy_text": "Steal Text",
-			"open_link": "Opwen Lyink",
-			"copy_link": "Cwopy Lyink",
-			"set_custom_status": "Syet a cyustom styatus",
-			"clear_status": "Clear Styatus",
-			"custom_status": "Cyustom Styatus",
-			"open_channel_settings": "Chyannel Syettwings",
-			"open_group_settings": "Gyoup Swettings",
-			"copy_selection": "Copy sewection"
-		},
-		"settings": {
-			"pages": {
-				"sessions": {
-					"title": "Seshions",
-					"this_device": "Dis Device",
-					"created": "Cweated {{time_ago}}",
-					"active_sessions": "Actyive Syessions"
-				},
-				"logOut": "Log Out. See u latew uwu",
-				"language": {
-					"title": "Wangwuage",
-					"select": "Syelect langwuage"
-				},
-				"notifications": {
-					"enable_sound": "Pway Syound on Mwessage.",
-					"enable_desktop": "Enabwe Desktop Nowotifications.",
-					"title": "Nowotifcations",
-					"enable_push": "Enabwe Push Nowotifications.",
-					"descriptions": {
-						"enable_outgoing_sound": "Enyable to pway syound when you syend a mwessage.",
-						"enable_sound": "Enyable for incoming mwessage syounds.",
-						"enable_push": "Enyable to ryeceive nyotifications when ur'e offwine.",
-						"enable_desktop": "Tis' will gyive u nyotifications while ur app is opwen."
-					},
-					"enable_outgoing_sound": "Play Syend Swound.",
-					"sounds": "Syounds",
-					"push_notifications": "Pyush Nyotificwations"
-				},
-				"appearance": {
-					"theme_data": "Theem Data",
-					"import_theme": "Impowt theem fwom stwing",
-					"import_clipboard": "Impowt fwom cwipboawd",
-					"export_clipboard": "Expowt to cwipboawd",
-					"reset_overrides": "Weset theem ovewwides",
-					"overrides": "Theem Ovewwides",
-					"title": "Appeawance",
-					"import_manual": "Impowt manuwally",
-					"sync": "Syinc Optyions",
-					"custom_css": "H#cker CSS",
-					"advanced": "Profesional H#cker Options",
-					"message_display": "Myessage Dyisplay",
-					"accent_selector": "Accyent Colouw",
-					"color": {
-						"dark": "dyark",
-						"light": "lyight"
-					},
-					"display": {
-						"compact_description": "Ye good ol' IRC.",
-						"default_description": "Byeautiful, sleek and modewn.",
-						"compact": "Cwompact",
-						"default": "Dyefault"
-					},
-					"theme": "Thyeme",
-					"emoji_pack": "Emyoji Pwack"
-				},
-				"account": {
-					"title": "Mah Account",
-					"change_field": "Chyange"
-				},
-				"feedback": {
-					"title": "Fyeedbwack",
-					"send": "Syend Fweedback",
-					"describe": "Dyeswibe teh issyue.",
-					"other": "Othew",
-					"feature": "Fyeature Wequest",
-					"bug": "Config Issue",
-					"report": "Wyat do u wyant to wepowt?"
-				},
-				"source_code": "Sauce",
-				"donate": {
-					"title": "Giiw Monye"
-				},
-				"profile": {
-					"placeholder": "Wyite syomething abwout uwself…",
-					"fetching": "Stealing uw pyowife…",
-					"info": "Informyation",
-					"title": "Pyofiwe",
-					"profile_picture": "Pwofiwe pictuwwe",
-					"custom_background": "Cuwstom backgwouwnd",
-					"edit_background": "Edit backgwouwnd"
-				}
-			},
-			"categories": {
-				"user_settings": "Usew Settings",
-				"client_settings": "Uwuser Configuwations"
-			},
-			"title": "Configuwation",
-			"channel_pages": {
-				"overview": {
-					"description": "Chyannel Dyescwiption",
-					"name": "Channyel Nwame",
-					"title": "Owervyuw",
-					"icon": "Gwoup Icwon"
-				}
-			},
-			"tips": {
-				"sessions": {
-					"b": "syecuwe uw accwount by chyanging uw passwowd and usying 2FA.",
-					"a": "Else if you see an unkwown syession on teh lyist,"
-				},
-				"languages": {
-					"b": "Hyelp cyontribyute moar tyanslations.",
-					"a": "Myissing a lyanguage u wyant?"
-				},
-				"account": {
-					"b": "Hyead ovew to uw pwofiwe syettings.",
-					"a": "Lyooking two cyustomwise uw pwublic pwofiwe?"
-				}
-			},
-			"actions": {
-				"remove": "Remowe",
-				"upload": "Upwoad (max {{filesize}})"
-			}
-		}
-	},
-	"login": {
-		"title": "Lwogin",
-		"register": "Registew",
-		"username": "Usewname",
-		"email": "Emaiw",
-		"password": "Passwowd",
-		"enter": {
-			"email": "Entew uw emaiw.",
-			"password": "Entew uw passwowd.",
-			"username": "Entew a uwsewname.",
-			"current_password": "Ewnter uw cuwwent passwowd.",
-			"invite": "Ewnter uw inwite cwode."
-		},
-		"forgot": "Fowgot uw passwowd UwU?",
-		"reset": "Ryeset passwowd.",
-		"new": "New to REWOLT?",
-		"create": "Cweate a new accouwnt.",
-		"cancel": "Cancew wequwest.",
-		"remembered": "Go bwack to wogin.",
-		"existing": "Awweady have an accouwnt? UwU",
-		"successful_registration": "You hawwe wegistewd!",
-		"open_mail_provider": "Notices youw {{provider}}",
-		"check_mail": "Peek youw maiwl owo rawr",
-		"error": {
-			"create": "Fwailed to ryegister!",
-			"resend": "Fwailed to rwesend!",
-			"reset": "Fwailed to rweset!",
-			"login": "Fwailed to login!"
-		},
-		"check_spam": "Bye sure to chyeck spwam if you cyan't fwind it",
-		"resend": "Rwesend werification.",
-		"missing_verification": "Nyo email?",
-		"set_password": "Set nyeww passwowd.",
-		"current_password": "Cwurrent Passwowd",
-		"invite": "Inwite Cwode"
-	},
-	"dayjs": {
-		"lastDay": "[Yestewday at] LT",
-		"sameDay": "[Twoday at] LT",
-		"nextDay": "[Tomowwow at] LT",
-		"lastWeek": "[Lwast] dddd [at] LT",
-		"nextWeek": "dddd [at] LT",
-		"sameElse": "L"
-	},
-	"quantities": {
-		"members": {
-			"many": "{{count}} Kittens",
-			"one": "1 Kitten"
-		}
-	},
-	"notifications": {
-		"now_friends": "Uwe awnd @{{person}} awe now mwarried!",
-		"sent_request": "@{{person}} wants to be yuww fwiend."
-	},
-	"error": {
-		"Unlabelled": "Swomething got fwucked.",
-		"FailedValidation": "Faiwed to vawidate fiewds.",
-		"DatabaseError": "Database ewwow.",
-		"UnknownError": "See consowe.",
-		"OperationFailed": "Opewation faiwed.",
-		"MissingHeaders": "Your browser is stupid.",
-		"InvalidSession": "Invawid session.",
-		"UnverifiedAccount": "Unvewified accouwnt.",
-		"UnknownUser": "Unknown uwsew.",
-		"EmailInUse": "Emaiw in uwse.",
-		"AlreadyOnboarded": "Awweady finished onboawding.",
-		"UsernameTaken": "Usewname is tawken.",
-		"AlreadyFriends": "Awweady fwiends with this uwsew.",
-		"AlreadySentRequest": "Awweady sent a wequwest to this uwsew.",
-		"Blocked": "Youw have bwocked this uwsew.",
-		"BlockedOther": "This uwsew has bwocked u.",
-		"NoEffect": "This wequwest had no effect.",
-		"RequiredField": "Requwiwed",
-		"TooShort": "Too showt",
-		"TooLong": "Dong too long",
-		"InvalidEmail": "Invawid emaiw addwess",
-		"InternalError": "Intewnaw ewwow.",
-		"WrongPassword": "Wwong passwowd.",
-		"Unavailable": "Not Awaiwabwe.",
-		"IoError": "Swerver encyountered an I/O ewwow.",
-		"ProbeError": "Fwailed to gyet fwile myetadata.",
-		"MissingData": "Rwequest is myissing dyata.",
-		"FailedToReceive": "Swerver fwailed to rweveceiv uw fwile.",
-		"FileTooLarge": "Dong too big.",
-		"InvalidInvite": "wInwawid cwode",
-		"MissingInvite": "Mwissing inwite cwode in wequest.",
-		"InvalidToken": "Inwavid twoken",
-		"InvalidCredentials": "Email or passwowd is wong.",
-		"EmailFailed": "Email fwailed to syend.",
-		"RenderFail": "Tyemplate rwendering fwailed.",
-		"MissingPermission": "Myissing pwermission.",
-		"DeniedNotification": "Yuw denyied nyotyification access, check pwage syettings.",
-		"UnsupportedBrowser": "Byowser is myissing suppowt fow this featuwe.",
-		"Unauthorized": "Unyauthowized.",
-		"NetworkError": "Network config issue."
-	}
+    "general": {
+        "about": "Abouwt",
+        "tos": "Tewms of sewvice",
+        "privacy": "Pwivacy powicy",
+        "image_by": "Image bwy",
+        "loading": "Lyoading…"
+    },
+    "app": {
+        "special": {
+            "status": {
+                "connecting": "Cwowonnyecting…",
+                "offline": "probably dead",
+                "disconnected": "Discwonnected.",
+                "reconnecting": "Wecwowonnyecting…"
+            },
+            "friends": {
+                "pending": "Pwending",
+                "blocked": "Bwocked",
+                "incoming": "Incoming fwiend wequwest.",
+                "outgoing": "Ouwtgoing fwiend wequwest.",
+                "nobody": "Nyobody here yet!"
+            },
+            "modals": {
+                "error": "We did a fwucky wucky owo",
+                "clipboard": {
+                    "unavailable": "Cwipboawd is uwnavaiwabwe! OwO",
+                    "https": "fix your fucking browser you moron",
+                    "copy": "Manuwaw copy:"
+                },
+                "signed_out": "Youw wewe signed ouwt! OwO",
+                "onboarding": {
+                    "welcome": "Wewcome Mastew! OwO",
+                    "pick": "What do u want me to caww u, mastew? UwU"
+                },
+                "actions": {
+                    "ok": "Ok",
+                    "close": "Cwose",
+                    "reload": "Rewoad app",
+                    "continue": "Continuwe",
+                    "cancel": "Cancew",
+                    "send_email": "Swend Email",
+                    "update": "Uwupdate",
+                    "preview": "Pweview",
+                    "save": "Syave"
+                },
+                "prompt": {
+                    "confirm_leave": "Go away fwom {{group_name}} (They'll pwobabwy miss u OmO)?",
+                    "confirm_leave_long": "U can't come bacc unless ur invited in again."
+                },
+                "account": {
+                    "change": {
+                        "username": "Chyange uw usewname",
+                        "password": "Chyance uw passwowd",
+                        "email": "Chyange uw email"
+                    },
+                    "failed": "Fwailed to chyange!"
+                }
+            },
+            "requires_online": "Youw need to be onwine to view this.",
+            "popovers": {
+                "user_profile": {
+                    "profile": "Pyofiwe",
+                    "no_groups": "No mutual gwoups!",
+                    "no_users": "No mutual fwiends!",
+                    "mutual_groups": "Mutual Gwoups",
+                    "mutual_friends": "Mutual Fwiends",
+                    "badges": {
+                        "translator": "Twanslatyor",
+                        "early_adopter": "Eawwy adoptew",
+                        "supporter": "Suwppowtew"
+                    },
+                    "sub": {
+                        "connections": "Cyonnectwions",
+                        "information": "Infyormwation",
+                        "badges": "Byadges"
+                    },
+                    "empty": "It's a byit empwty in hyere..."
+                },
+                "user_picker": {
+                    "select": "Syelect fwiends tyo add."
+                }
+            },
+            "copy_username": "Cwick to copy uwsewname"
+        },
+        "status": {
+            "online": "Onwine",
+            "idle": "Idwe",
+            "busy": "Bwusy",
+            "invisible": "Invisibwe",
+            "offline": "Offwine"
+        },
+        "navigation": {
+            "tabs": {
+                "home": "Hwome",
+                "dev": "Master",
+                "friends": "Fwiends",
+                "unreads": "Unweads",
+                "saved": "Sawved nwotes"
+            }
+        },
+        "main": {
+            "categories": {
+                "conversations": "Convewsations",
+                "channels": "Channews",
+                "members": "Kittens",
+                "participants": "Pyarticipwants"
+            },
+            "channel": {
+                "message": "Messawge {{name}}",
+                "message_where": "Speek in {{channel_name}}",
+                "message_who": "Talk to {{person}}",
+                "system": {
+                    "removed_by": "ryemoved bwy",
+                    "added_by": "addyed bwy",
+                    "user_left": "lyeft.",
+                    "user_joined": "jyoined.",
+                    "channel_renamed": "ryenamwed the channyel two",
+                    "channel_icon_changed": "chyanged the channyew icyon",
+                    "channel_description_changed": "chyanged the channyew dyescrwiption"
+                },
+                "typing": {
+                    "several": "Panic Panic Panic…",
+                    "multiple": "{{userlist}} and {{user}} awe mashing their kewwboard…",
+                    "single": "{{user}} is mashing their kewwboard…"
+                },
+                "attached_file": "Attyached {{filename}}",
+                "failed_upload": "Fwailed to upwoad!",
+                "uploading_file": "Upwoading fwile…",
+                "message_saved": "Syawe to uw nyotes",
+                "bot": "Senpai",
+                "unknown_user": "<Unknywown Cunt>",
+                "edited": "(edyited)",
+                "start": {
+                    "group": "Twis is thye styart of ye conversyation."
+                },
+                "misc": {
+                    "viewing_old": "Viewing owdew messages",
+                    "jump_present": "Juwmp to pwesent",
+                    "spoiler_attachment": "Spoiwew"
+                },
+                "voice": {
+                    "unmute": "Unmuwte",
+                    "mute": "Muwte",
+                    "leave": "Lweavwe",
+                    "connected": "Voice connyected"
+                }
+            },
+            "groups": {
+                "name": "Gwoup Name",
+                "create": "Cweate a gwoup.",
+                "owner": "Daddy"
+            }
+        },
+        "context_menu": {
+            "message_user": "Mwessage",
+            "copy_id": "Cwopy ID",
+            "block_user": "Bwock Usew",
+            "edit_message": "Edit Mwessage",
+            "cancel_friend": "Cancew Weqwest",
+            "remove_friend": "Unfwend ÒmÓ",
+            "add_friend": "Add Fwend OwO",
+            "unblock_user": "Unbwock Usew",
+            "remove_member": "Wemove Fwom Dis Gang",
+            "delete_message": "Delet Dis",
+            "mark_as_read": "Mawk As Wead",
+            "copy_mid": "Steal Message ID",
+            "copy_cid": "Steal Channew ID",
+            "copy_uid": "Steal Usew ID",
+            "mention": "Annoy",
+            "save_video": "Swave Video",
+            "open_video": "Owopen Video",
+            "save_image": "Swave Image",
+            "open_image": "Owopen Image",
+            "save_file": "Swave Fwile",
+            "open_file": "Open Fwile",
+            "quote_message": "Qwuote Mwessage",
+            "cancel_message": "Cyancel Swend",
+            "retry_message": "Rwetry Swend",
+            "copy_text": "Steal Text",
+            "open_link": "Opwen Lyink",
+            "copy_link": "Cwopy Lyink",
+            "set_custom_status": "Syet a cyustom styatus",
+            "clear_status": "Clear Styatus",
+            "custom_status": "Cyustom Styatus",
+            "open_channel_settings": "Chyannel Syettwings",
+            "open_group_settings": "Gyoup Swettings",
+            "copy_selection": "Copy sewection"
+        },
+        "settings": {
+            "pages": {
+                "sessions": {
+                    "title": "Seshions",
+                    "this_device": "Dis Device",
+                    "created": "Cweated {{time_ago}}",
+                    "active_sessions": "Actyive Syessions"
+                },
+                "logOut": "Log Out. See u latew uwu",
+                "language": {
+                    "title": "Wangwuage",
+                    "select": "Syelect langwuage"
+                },
+                "notifications": {
+                    "enable_sound": "Pway Syound on Mwessage.",
+                    "enable_desktop": "Enabwe Desktop Nowotifications.",
+                    "title": "Nowotifcations",
+                    "enable_push": "Enabwe Push Nowotifications.",
+                    "descriptions": {
+                        "enable_outgoing_sound": "Enyable to pway syound when you syend a mwessage.",
+                        "enable_sound": "Enyable for incoming mwessage syounds.",
+                        "enable_push": "Enyable to ryeceive nyotifications when ur'e offwine.",
+                        "enable_desktop": "Tis' will gyive u nyotifications while ur app is opwen."
+                    },
+                    "enable_outgoing_sound": "Play Syend Swound.",
+                    "sounds": "Syounds",
+                    "push_notifications": "Pyush Nyotificwations"
+                },
+                "appearance": {
+                    "theme_data": "Theem Data",
+                    "import_theme": "Impowt theem fwom stwing",
+                    "import_clipboard": "Impowt fwom cwipboawd",
+                    "export_clipboard": "Expowt to cwipboawd",
+                    "reset_overrides": "Weset theem ovewwides",
+                    "overrides": "Theem Ovewwides",
+                    "title": "Appeawance",
+                    "import_manual": "Impowt manuwally",
+                    "sync": "Syinc Optyions",
+                    "custom_css": "H#cker CSS",
+                    "advanced": "Profesional H#cker Options",
+                    "message_display": "Myessage Dyisplay",
+                    "accent_selector": "Accyent Colouw",
+                    "color": {
+                        "dark": "dyark",
+                        "light": "lyight"
+                    },
+                    "display": {
+                        "compact_description": "Ye good ol' IRC.",
+                        "default_description": "Byeautiful, sleek and modewn.",
+                        "compact": "Cwompact",
+                        "default": "Dyefault"
+                    },
+                    "theme": "Thyeme",
+                    "emoji_pack": "Emyoji Pwack"
+                },
+                "account": {
+                    "title": "Mah Account",
+                    "change_field": "Chyange"
+                },
+                "feedback": {
+                    "title": "Fyeedbwack",
+                    "send": "Syend Fweedback",
+                    "describe": "Dyeswibe teh issyue.",
+                    "other": "Othew",
+                    "feature": "Fyeature Wequest",
+                    "bug": "Config Issue",
+                    "report": "Wyat do u wyant to wepowt?"
+                },
+                "source_code": "Sauce",
+                "donate": {
+                    "title": "Giiw Monye"
+                },
+                "profile": {
+                    "placeholder": "Wyite syomething abwout uwself…",
+                    "fetching": "Stealing uw pyowife…",
+                    "info": "Informyation",
+                    "title": "Pyofiwe",
+                    "profile_picture": "Pwofiwe pictuwwe",
+                    "custom_background": "Cuwstom backgwouwnd",
+                    "edit_background": "Edit backgwouwnd"
+                }
+            },
+            "categories": {
+                "user_settings": "Usew Settings",
+                "client_settings": "Uwuser Configuwations"
+            },
+            "title": "Configuwation",
+            "channel_pages": {
+                "overview": {
+                    "description": "Chyannel Dyescwiption",
+                    "name": "Channyel Nwame",
+                    "title": "Owervyuw",
+                    "icon": "Gwoup Icwon"
+                }
+            },
+            "tips": {
+                "sessions": {
+                    "b": "syecuwe uw accwount by chyanging uw passwowd and usying 2FA.",
+                    "a": "Else if you see an unkwown syession on teh lyist,"
+                },
+                "languages": {
+                    "b": "Hyelp cyontribyute moar tyanslations.",
+                    "a": "Myissing a lyanguage u wyant?"
+                },
+                "account": {
+                    "b": "Hyead ovew to uw pwofiwe syettings.",
+                    "a": "Lyooking two cyustomwise uw pwublic pwofiwe?"
+                }
+            },
+            "actions": {
+                "remove": "Remowe",
+                "upload": "Upwoad (max {{filesize}})"
+            }
+        }
+    },
+    "login": {
+        "title": "Lwogin",
+        "register": "Registew",
+        "username": "Usewname",
+        "email": "Emaiw",
+        "password": "Passwowd",
+        "enter": {
+            "email": "Entew uw emaiw.",
+            "password": "Entew uw passwowd.",
+            "username": "Entew a uwsewname.",
+            "current_password": "Ewnter uw cuwwent passwowd.",
+            "invite": "Ewnter uw inwite cwode."
+        },
+        "forgot": "Fowgot uw passwowd UwU?",
+        "reset": "Ryeset passwowd.",
+        "new": "New to REWOLT?",
+        "create": "Cweate a new accouwnt.",
+        "cancel": "Cancew wequwest.",
+        "remembered": "Go bwack to wogin.",
+        "existing": "Awweady have an accouwnt? UwU",
+        "successful_registration": "You hawwe wegistewd!",
+        "open_mail_provider": "Notices youw {{provider}}",
+        "check_mail": "Peek youw maiwl owo rawr",
+        "error": {
+            "create": "Fwailed to ryegister!",
+            "resend": "Fwailed to rwesend!",
+            "reset": "Fwailed to rweset!",
+            "login": "Fwailed to login!"
+        },
+        "check_spam": "Bye sure to chyeck spwam if you cyan't fwind it",
+        "resend": "Rwesend werification.",
+        "missing_verification": "Nyo email?",
+        "set_password": "Set nyeww passwowd.",
+        "current_password": "Cwurrent Passwowd",
+        "invite": "Inwite Cwode"
+    },
+    "dayjs": {
+        "lastDay": "[Yestewday at] LT",
+        "sameDay": "[Twoday at] LT",
+        "nextDay": "[Tomowwow at] LT",
+        "lastWeek": "[Lwast] dddd [at] LT",
+        "nextWeek": "dddd [at] LT",
+        "sameElse": "L"
+    },
+    "quantities": {
+        "members": {
+            "many": "{{count}} Kittens",
+            "one": "1 Kitten"
+        }
+    },
+    "notifications": {
+        "now_friends": "Uwe awnd @{{person}} awe now mwarried!",
+        "sent_request": "@{{person}} wants to be yuww fwiend."
+    },
+    "error": {
+        "Unlabelled": "Swomething got fwucked.",
+        "FailedValidation": "Faiwed to vawidate fiewds.",
+        "DatabaseError": "Database ewwow.",
+        "UnknownError": "See consowe.",
+        "OperationFailed": "Opewation faiwed.",
+        "MissingHeaders": "Your browser is stupid.",
+        "InvalidSession": "Invawid session.",
+        "UnverifiedAccount": "Unvewified accouwnt.",
+        "UnknownUser": "Unknown uwsew.",
+        "EmailInUse": "Emaiw in uwse.",
+        "AlreadyOnboarded": "Awweady finished onboawding.",
+        "UsernameTaken": "Usewname is tawken.",
+        "AlreadyFriends": "Awweady fwiends with this uwsew.",
+        "AlreadySentRequest": "Awweady sent a wequwest to this uwsew.",
+        "Blocked": "Youw have bwocked this uwsew.",
+        "BlockedOther": "This uwsew has bwocked u.",
+        "NoEffect": "This wequwest had no effect.",
+        "RequiredField": "Requwiwed",
+        "TooShort": "Too showt",
+        "TooLong": "Dong too long",
+        "InvalidEmail": "Invawid emaiw addwess",
+        "InternalError": "Intewnaw ewwow.",
+        "WrongPassword": "Wwong passwowd.",
+        "Unavailable": "Not Awaiwabwe.",
+        "IoError": "Swerver encyountered an I/O ewwow.",
+        "ProbeError": "Fwailed to gyet fwile myetadata.",
+        "MissingData": "Rwequest is myissing dyata.",
+        "FailedToReceive": "Swerver fwailed to rweveceiv uw fwile.",
+        "FileTooLarge": "Dong too big.",
+        "InvalidInvite": "wInwawid cwode",
+        "MissingInvite": "Mwissing inwite cwode in wequest.",
+        "InvalidToken": "Inwavid twoken",
+        "InvalidCredentials": "Email or passwowd is wong.",
+        "EmailFailed": "Email fwailed to syend.",
+        "RenderFail": "Tyemplate rwendering fwailed.",
+        "MissingPermission": "Myissing pwermission.",
+        "DeniedNotification": "Yuw denyied nyotyification access, check pwage syettings.",
+        "UnsupportedBrowser": "Byowser is myissing suppowt fow this featuwe.",
+        "Unauthorized": "Unyauthowized.",
+        "NetworkError": "Network config issue.",
+        "CompromisedPassword": "Tyis passwowowd is cyompwomised."
+    }
 }
