@@ -1,394 +1,394 @@
 {
-    "app": {
-        "context_menu": {
-            "copy_id": "Скопіювати ID",
-            "message_user": "Повідомлення",
-            "retry_message": "Повторити відправлення",
-            "cancel_message": "Відминити відправлення",
-            "quote_message": "Відповісти на повідомлення",
-            "delete_message": "Видалити повідомлення",
-            "save_file": "Зберегти файл",
-            "open_image": "Відкрити зображення",
-            "open_video": "Відкрити відео",
-            "block_user": "Заблокувати користувача",
-            "add_friend": "Додати до друзів",
-            "remove_friend": "Видалити з друзів",
-            "cancel_friend": "Відмінити запит",
-            "custom_status": "Користувацький статус",
-            "copy_text": "Скопіювати текст",
-            "copy_uid": "Скопіювати ID користувача",
-            "copy_cid": "Скопіювати ID каналу",
-            "copy_mid": "Скопіювати ID повідомлення",
-            "mention": "Згадати",
-            "mark_as_read": "Відзначити як прочитане",
-            "edit_message": "Змінити повідомлення",
-            "remove_member": "Видалити з групи",
-            "open_file": "Відкрити файл",
-            "save_image": "Зберегти зображення",
-            "save_video": "Зберегти відео",
-            "copy_link": "Скопіювати посилання",
-            "open_link": "Перейти по посиланню",
-            "unblock_user": "Розблокувати користувача",
-            "clear_status": "Очистити статус",
-            "set_custom_status": "Встановити свій статус",
-            "open_channel_settings": "Налаштування калану",
-            "open_group_settings": "Налаштування групи",
-            "copy_selection": "Скопіювати виділене"
-        },
-        "settings": {
-            "tips": {
-                "account": {
-                    "a": "Бажаєте прикрасити свій профіль?",
-                    "b": "Перейдіть до налаштувань свого профілю."
-                },
-                "sessions": {
-                    "a": "Якщо ви бачите в списку невідому сесію,",
-                    "b": "захистіть ваш аккаунт змінивши пароль та ввімкнувши 2FA."
-                },
-                "languages": {
-                    "a": "Відсутня потрібна вам мова?",
-                    "b": "Допоможіть нам з перекладом."
-                }
-            },
-            "categories": {
-                "user_settings": "Налаштування користувача",
-                "client_settings": "Налаштування клієнта"
-            },
-            "pages": {
-                "profile": {
-                    "fetching": "Отримання вашого профілю…",
-                    "title": "Профіль",
-                    "info": "Інформація",
-                    "placeholder": "Напишіть що-небудь про себе…",
-                    "custom_background": "Власний фон",
-                    "edit_background": "Редагувати фон",
-                    "profile_picture": "Зображеня профілю"
-                },
-                "appearance": {
-                    "title": "Зовнішній вигляд",
-                    "display": {
-                        "default": "За замовчуванням",
-                        "compact": "Компактний",
-                        "default_description": "Гарний, гладкий і сучасний.",
-                        "compact_description": "Старий добрий IRC."
-                    },
-                    "color": {
-                        "dark": "темна",
-                        "light": "світла"
-                    },
-                    "accent_selector": "Колір акценту",
-                    "export_clipboard": "Експорт до буферу обміну",
-                    "sync": "Синхронізувати налаштування",
-                    "theme": "Тема",
-                    "message_display": "Відображення повідомлень",
-                    "advanced": "Розширені налаштування",
-                    "overrides": "Перерозподіл тем",
-                    "reset_overrides": "Скинути перерозподіл",
-                    "import_manual": "Імпортувати власноруч",
-                    "import_theme": "Імпортувати тему зі строки",
-                    "theme_data": "Данні теми",
-                    "custom_css": "Свій CSS",
-                    "import_clipboard": "Імпорт з буферу обміну",
-                    "emoji_pack": "Набір емоцій"
-                },
-                "notifications": {
-                    "enable_push": "Ввімкнути push-сповіщення.",
-                    "enable_outgoing_sound": "Звук відправки повідомлення.",
-                    "descriptions": {
-                        "enable_push": "Ввімкнути отримання сповіщень, поки ви не в мережі.",
-                        "enable_desktop": "Це буде відсилати вам сповіщення, поки ваш додаток відкритий.",
-                        "enable_sound": "Ввімкнути звук вхідного повідомлення.",
-                        "enable_outgoing_sound": "Ввімкнути звук коли ви відправляєте повідомлення."
-                    },
-                    "title": "Сповіщення",
-                    "enable_desktop": "Ввімкнути сповіщення на робочому столі.",
-                    "enable_sound": "Звук при сповіщенні.",
-                    "sounds": "Звуки",
-                    "push_notifications": "Push-сповіщення"
-                },
-                "feedback": {
-                    "report": "Про що ви хочете повідомити?",
-                    "title": "Зворотній зв'язок",
-                    "bug": "Баг",
-                    "feature": "Пропозиція",
-                    "other": "Інше",
-                    "describe": "Будь ласка, опишіть проблему.",
-                    "send": "Відправити відгук"
-                },
-                "account": {
-                    "title": "Мій аккаунт",
-                    "change_field": "Змінити"
-                },
-                "sessions": {
-                    "title": "Сесії",
-                    "active_sessions": "Активна сесія",
-                    "this_device": "Цей пристрій",
-                    "created": "Створено {{time_ago}}"
-                },
-                "language": {
-                    "title": "Мова",
-                    "select": "Оберіть вашу мову"
-                },
-                "donate": {
-                    "title": "Пожертвувати"
-                },
-                "source_code": "Вихідний код",
-                "logOut": "Вийти"
-            },
-            "channel_pages": {
-                "overview": {
-                    "description": "Опис каналу",
-                    "title": "Перегляд",
-                    "name": "Назва каналу",
-                    "icon": "Значок групи"
-                }
-            },
-            "title": "Налаштування",
-            "actions": {
-                "upload": "Завантажити (макс. {{filesize}})",
-                "remove": "Видалити"
-            }
-        },
-        "special": {
-            "friends": {
-                "nobody": "Тут нікого!",
-                "pending": "Очікує",
-                "blocked": "Заблокований",
-                "incoming": "Вхідний запит дружби.",
-                "outgoing": "Вихідний запит дружби."
-            },
-            "modals": {
-                "clipboard": {
-                    "unavailable": "Буфер обміну недоступний!",
-                    "https": "Наразі ви не перебуваєте в контексті HTTPS.",
-                    "copy": "Ручне копіювання:"
-                },
-                "onboarding": {
-                    "welcome": "Ласкаво просимо до",
-                    "pick": "Оберіть ім'я користувача, по якому вас зможуть знаходити інші. Пізніше ви зможете змінити його в налаштуваннях."
-                },
-                "actions": {
-                    "preview": "Попередній перегляд",
-                    "ok": "Ок",
-                    "save": "Зберегти",
-                    "close": "Закрити",
-                    "update": "Оновити",
-                    "send_email": "Відправити лист",
-                    "reload": "Перезавантажте додаток",
-                    "continue": "Продовжити",
-                    "cancel": "Відмінити"
-                },
-                "error": "Виникла помилка!",
-                "signed_out": "Ви вийшли з акканту!",
-                "prompt": {
-                    "confirm_leave": "Покинути {{group_name}}?",
-                    "confirm_leave_long": "Ви не зможете під'єднатись ще раз, поки не отримаєте нове запрошення."
-                },
-                "account": {
-                    "change": {
-                        "username": "Змінити ім'я користувача",
-                        "email": "Змінити ел. пошту",
-                        "password": "Змінити пароль"
-                    },
-                    "failed": "Помилка зміни!"
-                }
-            },
-            "popovers": {
-                "user_profile": {
-                    "mutual_friends": "Спільні друзі",
-                    "profile": "Профіль",
-                    "mutual_groups": "Спільні групи",
-                    "no_users": "Жодного спільного друга!",
-                    "no_groups": "Немає спільних груп!",
-                    "badges": {
-                        "translator": "Перекладач",
-                        "early_adopter": "Першопроходець",
-                        "supporter": "Донатер"
-                    },
-                    "sub": {
-                        "connections": "Зв'язки",
-                        "information": "Інформація",
-                        "badges": "Значки"
-                    },
-                    "empty": "Тут трохи порожньо..."
-                }
-            },
-            "requires_online": "Ви повинні бути в мережі, щоб переглянути це.",
-            "status": {
-                "offline": "Не в мережі.",
-                "disconnected": "Від'єднаний.",
-                "connecting": "З'єднання…",
-                "reconnecting": "Перепід'єднання…"
-            },
-            "copy_username": "Натисніть, щоб скопіювати ім'я користувача"
-        },
-        "status": {
-            "offline": "Не в мережі",
-            "online": "В мережі",
-            "idle": "Відійшов",
-            "busy": "Зайнятий",
-            "invisible": "Невидимий"
-        },
-        "main": {
-            "categories": {
-                "conversations": "Бесіди",
-                "channels": "Канали",
-                "members": "Учасники",
-                "participants": "Співрозмовники"
-            },
-            "channel": {
-                "message_who": "Повідомлення {{person}}",
-                "uploading_file": "Завантаження файлу…",
-                "typing": {
-                    "multiple": "{{userlist}} та {{user}} друкують…",
-                    "single": "{{user}} друкує…",
-                    "several": "Декілька людей друкують…"
-                },
-                "system": {
-                    "removed_by": "видалений",
-                    "channel_renamed": "канал перейменовано на",
-                    "user_joined": "ввійшов.",
-                    "user_left": "вийшов.",
-                    "added_by": "добавлений"
-                },
-                "message_where": "Повідомлення {{channel_name}}",
-                "message_saved": "Зберегти до своїх повідомлень",
-                "failed_upload": "Помилка завантаження!",
-                "attached_file": "Прикріплено {{filename}}",
-                "start": {
-                    "group": "Це початок вашої бесіди."
-                },
-                "unknown_user": "<Невідомий користувач>",
-                "edited": "(змінено)",
-                "bot": "робот",
-                "misc": {
-                    "spoiler_attachment": "Спойлер",
-                    "jump_present": "Перейти в кінець",
-                    "viewing_old": "Перегляд давніх повідомлень"
-                },
-                "voice": {
-                    "unmute": "Ввімкнути звук",
-                    "mute": "Вимкнути звук",
-                    "leave": "Покинути",
-                    "connected": "Голосовий зв'язок під'єднано"
-                }
-            },
-            "groups": {
-                "create": "Створити групу.",
-                "name": "Назва групи",
-                "owner": "Володар групи"
-            }
-        },
-        "navigation": {
-            "tabs": {
-                "home": "Дім",
-                "dev": "Розробник",
-                "friends": "Друзі",
-                "unreads": "Не прочитано",
-                "saved": "Збережені нотатки"
-            }
-        }
-    },
-    "quantities": {
-        "members": {
-            "one": "1 Учасник",
-            "many": "{{count}} Учасників"
-        }
-    },
-    "dayjs": {
-        "lastDay": "[Вчора о] LT",
-        "nextDay": "[Завтра о] LT",
-        "lastWeek": "[Ост.] dddd [о] LT",
-        "nextWeek": "dddd [о] LT",
-        "sameElse": "L",
-        "sameDay": "[Сьогодні о] LT"
-    },
-    "notifications": {
-        "now_friends": "Тепер ви дружите з @{{person}}!",
-        "sent_request": "@{{person}} надіслав запит на дружбу."
-    },
-    "error": {
-        "network_error": "Помилка мережі.",
-        "unauthorized": "Неавторизований.",
-        "database_error": "Помилка бази данних.",
-        "unlabelled": "Щось трапилось.",
-        "unverified_account": "Непідтверджений аккаунт.",
-        "missing_headers": "Відсутні заголівки.",
-        "render_fail": "Помилка обробки шаблона.",
-        "operation_failed": "Операція не вдалась.",
-        "invalid_credentials": "Невірна пошта або пароль.",
-        "invalid_token": "Недійсний токен",
-        "missing_invite": "Відсутній код запрошення.",
-        "invalid_invite": "Невірний код",
-        "already_friends": "Ви вже дружите з цим користувачем.",
-        "already_sent_request": "Ви вже відправили запит цьому користувачу.",
-        "blocked": "Ви заблокували цього користувача.",
-        "no_effect": "Нічого не змінилось.",
-        "required_field": "Обов'язково",
-        "too_short": "Занадто коротий",
-        "too_long": "Занадто довгий",
-        "unavailable": "Недоступно.",
-        "failed_to_receive": "Серверу не вдалося отримати ваш файл.",
-        "unknown_error": "Дивіться консоль.",
-        "io_error": "Сервер виявив помилку вводу-виводу.",
-        "missing_permission": "Відсутні повноваження.",
-        "unsupported_browser": "Браузер не підтримує цю функцію.",
-        "denied_notification": "Ви заборонили доступ до сповіщень, перевірте налаштування сторінки.",
-        "internal_error": "Внутрішня помилка.",
-        "failed_validation": "Не вдалось перевірити поле.",
-        "email_in_use": "Електонна пошта вже використовується.",
-        "email_failed": "Не вдалось відправити лист.",
-        "already_onboarded": "Реєстрація вже завершена.",
-        "username_taken": "Ім'я вже використовується.",
-        "blocked_other": "Цей користувач заблокував вас.",
-        "invalid_email": "Недійсна ел. пошта",
-        "file_too_large": "Файл занадто великий.",
-        "missing_data": "В запросі відсутні дані.",
-        "probe_error": "Не вдалося отримати метадані файла.",
-        "unknown_user": "Невідомий користувач.",
-        "invalid_session": "Недійсна сесія."
-    },
-    "general": {
-        "about": "Про нас",
-        "tos": "Умови використання",
-        "privacy": "Конфіденційність",
-        "image_by": "Автор зображення",
-        "loading": "Завантаження…"
-    },
-    "login": {
-        "email": "Ел. пошта",
-        "current_password": "Наявний пароль",
-        "enter": {
-            "email": "Введіть ел. пошту.",
-            "current_password": "Введіть наявний пароль.",
-            "username": "Введіть ім'я користувача.",
-            "password": "Введіть пароль.",
-            "invite": "Введіть код запрошення."
-        },
-        "create": "Створіть новий аккаунт.",
-        "check_mail": "Перевірте свою ел. пошту.",
-        "check_spam": "Перевірте спам, якщо не можете знайти листа",
-        "error": {
-            "reset": "Помилка відновлення!",
-            "create": "Помилка реєстрації!",
-            "login": "Помилка входу!",
-            "resend": "Помилка перевідправлення!"
-        },
-        "title": "Вхід",
-        "register": "Реєстрація",
-        "username": "Ім'я користувача",
-        "password": "Пароль",
-        "invite": "Код запрошення",
-        "forgot": "Забули пароль?",
-        "reset": "Відновити пароль.",
-        "set_password": "Встановіть новий пароль.",
-        "remembered": "Повернутись до входу.",
-        "new": "Вперше на REVOLT?",
-        "existing": "Вже маєте аккаунт?",
-        "missing_verification": "Немає листа?",
-        "resend": "Відправити підтвердження знову.",
-        "cancel": "Відмінити запрос.",
-        "open_mail_provider": "Відкрити {{provider}}",
-        "successful_registration": "Успішна реєстрація!"
-    }
+	"app": {
+		"context_menu": {
+			"copy_id": "Скопіювати ID",
+			"message_user": "Повідомлення",
+			"retry_message": "Повторити відправлення",
+			"cancel_message": "Відминити відправлення",
+			"quote_message": "Відповісти на повідомлення",
+			"delete_message": "Видалити повідомлення",
+			"save_file": "Зберегти файл",
+			"open_image": "Відкрити зображення",
+			"open_video": "Відкрити відео",
+			"block_user": "Заблокувати користувача",
+			"add_friend": "Додати до друзів",
+			"remove_friend": "Видалити з друзів",
+			"cancel_friend": "Відмінити запит",
+			"custom_status": "Користувацький статус",
+			"copy_text": "Скопіювати текст",
+			"copy_uid": "Скопіювати ID користувача",
+			"copy_cid": "Скопіювати ID каналу",
+			"copy_mid": "Скопіювати ID повідомлення",
+			"mention": "Згадати",
+			"mark_as_read": "Відзначити як прочитане",
+			"edit_message": "Змінити повідомлення",
+			"remove_member": "Видалити з групи",
+			"open_file": "Відкрити файл",
+			"save_image": "Зберегти зображення",
+			"save_video": "Зберегти відео",
+			"copy_link": "Скопіювати посилання",
+			"open_link": "Перейти по посиланню",
+			"unblock_user": "Розблокувати користувача",
+			"clear_status": "Очистити статус",
+			"set_custom_status": "Встановити свій статус",
+			"open_channel_settings": "Налаштування калану",
+			"open_group_settings": "Налаштування групи",
+			"copy_selection": "Скопіювати виділене"
+		},
+		"settings": {
+			"tips": {
+				"account": {
+					"a": "Бажаєте прикрасити свій профіль?",
+					"b": "Перейдіть до налаштувань свого профілю."
+				},
+				"sessions": {
+					"a": "Якщо ви бачите в списку невідому сесію,",
+					"b": "захистіть ваш аккаунт змінивши пароль та ввімкнувши 2FA."
+				},
+				"languages": {
+					"a": "Відсутня потрібна вам мова?",
+					"b": "Допоможіть нам з перекладом."
+				}
+			},
+			"categories": {
+				"user_settings": "Налаштування користувача",
+				"client_settings": "Налаштування клієнта"
+			},
+			"pages": {
+				"profile": {
+					"fetching": "Отримання вашого профілю…",
+					"title": "Профіль",
+					"info": "Інформація",
+					"placeholder": "Напишіть що-небудь про себе…",
+					"custom_background": "Власний фон",
+					"edit_background": "Редагувати фон",
+					"profile_picture": "Зображеня профілю"
+				},
+				"appearance": {
+					"title": "Зовнішній вигляд",
+					"display": {
+						"default": "За замовчуванням",
+						"compact": "Компактний",
+						"default_description": "Гарний, гладкий і сучасний.",
+						"compact_description": "Старий добрий IRC."
+					},
+					"color": {
+						"dark": "темна",
+						"light": "світла"
+					},
+					"accent_selector": "Колір акценту",
+					"export_clipboard": "Експорт до буферу обміну",
+					"sync": "Синхронізувати налаштування",
+					"theme": "Тема",
+					"message_display": "Відображення повідомлень",
+					"advanced": "Розширені налаштування",
+					"overrides": "Перерозподіл тем",
+					"reset_overrides": "Скинути перерозподіл",
+					"import_manual": "Імпортувати власноруч",
+					"import_theme": "Імпортувати тему зі строки",
+					"theme_data": "Данні теми",
+					"custom_css": "Свій CSS",
+					"import_clipboard": "Імпорт з буферу обміну",
+					"emoji_pack": "Набір емоцій"
+				},
+				"notifications": {
+					"enable_push": "Ввімкнути push-сповіщення.",
+					"enable_outgoing_sound": "Звук відправки повідомлення.",
+					"descriptions": {
+						"enable_push": "Ввімкнути отримання сповіщень, поки ви не в мережі.",
+						"enable_desktop": "Це буде відсилати вам сповіщення, поки ваш додаток відкритий.",
+						"enable_sound": "Ввімкнути звук вхідного повідомлення.",
+						"enable_outgoing_sound": "Ввімкнути звук коли ви відправляєте повідомлення."
+					},
+					"title": "Сповіщення",
+					"enable_desktop": "Ввімкнути сповіщення на робочому столі.",
+					"enable_sound": "Звук при сповіщенні.",
+					"sounds": "Звуки",
+					"push_notifications": "Push-сповіщення"
+				},
+				"feedback": {
+					"report": "Про що ви хочете повідомити?",
+					"title": "Зворотній зв'язок",
+					"bug": "Баг",
+					"feature": "Пропозиція",
+					"other": "Інше",
+					"describe": "Будь ласка, опишіть проблему.",
+					"send": "Відправити відгук"
+				},
+				"account": {
+					"title": "Мій аккаунт",
+					"change_field": "Змінити"
+				},
+				"sessions": {
+					"title": "Сесії",
+					"active_sessions": "Активна сесія",
+					"this_device": "Цей пристрій",
+					"created": "Створено {{time_ago}}"
+				},
+				"language": {
+					"title": "Мова",
+					"select": "Оберіть вашу мову"
+				},
+				"donate": {
+					"title": "Пожертвувати"
+				},
+				"source_code": "Вихідний код",
+				"logOut": "Вийти"
+			},
+			"channel_pages": {
+				"overview": {
+					"description": "Опис каналу",
+					"title": "Перегляд",
+					"name": "Назва каналу",
+					"icon": "Значок групи"
+				}
+			},
+			"title": "Налаштування",
+			"actions": {
+				"upload": "Завантажити (макс. {{filesize}})",
+				"remove": "Видалити"
+			}
+		},
+		"special": {
+			"friends": {
+				"nobody": "Тут нікого!",
+				"pending": "Очікує",
+				"blocked": "Заблокований",
+				"incoming": "Вхідний запит дружби.",
+				"outgoing": "Вихідний запит дружби."
+			},
+			"modals": {
+				"clipboard": {
+					"unavailable": "Буфер обміну недоступний!",
+					"https": "Наразі ви не перебуваєте в контексті HTTPS.",
+					"copy": "Ручне копіювання:"
+				},
+				"onboarding": {
+					"welcome": "Ласкаво просимо до",
+					"pick": "Оберіть ім'я користувача, по якому вас зможуть знаходити інші. Пізніше ви зможете змінити його в налаштуваннях."
+				},
+				"actions": {
+					"preview": "Попередній перегляд",
+					"ok": "Ок",
+					"save": "Зберегти",
+					"close": "Закрити",
+					"update": "Оновити",
+					"send_email": "Відправити лист",
+					"reload": "Перезавантажте додаток",
+					"continue": "Продовжити",
+					"cancel": "Відмінити"
+				},
+				"error": "Виникла помилка!",
+				"signed_out": "Ви вийшли з акканту!",
+				"prompt": {
+					"confirm_leave": "Покинути {{group_name}}?",
+					"confirm_leave_long": "Ви не зможете під'єднатись ще раз, поки не отримаєте нове запрошення."
+				},
+				"account": {
+					"change": {
+						"username": "Змінити ім'я користувача",
+						"email": "Змінити ел. пошту",
+						"password": "Змінити пароль"
+					},
+					"failed": "Помилка зміни!"
+				}
+			},
+			"popovers": {
+				"user_profile": {
+					"mutual_friends": "Спільні друзі",
+					"profile": "Профіль",
+					"mutual_groups": "Спільні групи",
+					"no_users": "Жодного спільного друга!",
+					"no_groups": "Немає спільних груп!",
+					"badges": {
+						"translator": "Перекладач",
+						"early_adopter": "Першопроходець",
+						"supporter": "Донатер"
+					},
+					"sub": {
+						"connections": "Зв'язки",
+						"information": "Інформація",
+						"badges": "Значки"
+					},
+					"empty": "Тут трохи порожньо..."
+				}
+			},
+			"requires_online": "Ви повинні бути в мережі, щоб переглянути це.",
+			"status": {
+				"offline": "Не в мережі.",
+				"disconnected": "Від'єднаний.",
+				"connecting": "З'єднання…",
+				"reconnecting": "Перепід'єднання…"
+			},
+			"copy_username": "Натисніть, щоб скопіювати ім'я користувача"
+		},
+		"status": {
+			"offline": "Не в мережі",
+			"online": "В мережі",
+			"idle": "Відійшов",
+			"busy": "Зайнятий",
+			"invisible": "Невидимий"
+		},
+		"main": {
+			"categories": {
+				"conversations": "Бесіди",
+				"channels": "Канали",
+				"members": "Учасники",
+				"participants": "Співрозмовники"
+			},
+			"channel": {
+				"message_who": "Повідомлення {{person}}",
+				"uploading_file": "Завантаження файлу…",
+				"typing": {
+					"multiple": "{{userlist}} та {{user}} друкують…",
+					"single": "{{user}} друкує…",
+					"several": "Декілька людей друкують…"
+				},
+				"system": {
+					"removed_by": "видалений",
+					"channel_renamed": "канал перейменовано на",
+					"user_joined": "ввійшов.",
+					"user_left": "вийшов.",
+					"added_by": "добавлений"
+				},
+				"message_where": "Повідомлення {{channel_name}}",
+				"message_saved": "Зберегти до своїх повідомлень",
+				"failed_upload": "Помилка завантаження!",
+				"attached_file": "Прикріплено {{filename}}",
+				"start": {
+					"group": "Це початок вашої бесіди."
+				},
+				"unknown_user": "<Невідомий користувач>",
+				"edited": "(змінено)",
+				"bot": "робот",
+				"misc": {
+					"spoiler_attachment": "Спойлер",
+					"jump_present": "Перейти в кінець",
+					"viewing_old": "Перегляд давніх повідомлень"
+				},
+				"voice": {
+					"unmute": "Ввімкнути звук",
+					"mute": "Вимкнути звук",
+					"leave": "Покинути",
+					"connected": "Голосовий зв'язок під'єднано"
+				}
+			},
+			"groups": {
+				"create": "Створити групу.",
+				"name": "Назва групи",
+				"owner": "Володар групи"
+			}
+		},
+		"navigation": {
+			"tabs": {
+				"home": "Дім",
+				"dev": "Розробник",
+				"friends": "Друзі",
+				"unreads": "Не прочитано",
+				"saved": "Збережені нотатки"
+			}
+		}
+	},
+	"quantities": {
+		"members": {
+			"one": "1 Учасник",
+			"many": "{{count}} Учасників"
+		}
+	},
+	"dayjs": {
+		"lastDay": "[Вчора о] LT",
+		"nextDay": "[Завтра о] LT",
+		"lastWeek": "[Ост.] dddd [о] LT",
+		"nextWeek": "dddd [о] LT",
+		"sameElse": "L",
+		"sameDay": "[Сьогодні о] LT"
+	},
+	"notifications": {
+		"now_friends": "Тепер ви дружите з @{{person}}!",
+		"sent_request": "@{{person}} надіслав запит на дружбу."
+	},
+	"general": {
+		"about": "Про нас",
+		"tos": "Умови використання",
+		"privacy": "Конфіденційність",
+		"image_by": "Автор зображення",
+		"loading": "Завантаження…"
+	},
+	"login": {
+		"email": "Ел. пошта",
+		"current_password": "Наявний пароль",
+		"enter": {
+			"email": "Введіть ел. пошту.",
+			"current_password": "Введіть наявний пароль.",
+			"username": "Введіть ім'я користувача.",
+			"password": "Введіть пароль.",
+			"invite": "Введіть код запрошення."
+		},
+		"create": "Створіть новий аккаунт.",
+		"check_mail": "Перевірте свою ел. пошту.",
+		"check_spam": "Перевірте спам, якщо не можете знайти листа",
+		"error": {
+			"reset": "Помилка відновлення!",
+			"create": "Помилка реєстрації!",
+			"login": "Помилка входу!",
+			"resend": "Помилка перевідправлення!"
+		},
+		"title": "Вхід",
+		"register": "Реєстрація",
+		"username": "Ім'я користувача",
+		"password": "Пароль",
+		"invite": "Код запрошення",
+		"forgot": "Забули пароль?",
+		"reset": "Відновити пароль.",
+		"set_password": "Встановіть новий пароль.",
+		"remembered": "Повернутись до входу.",
+		"new": "Вперше на REVOLT?",
+		"existing": "Вже маєте аккаунт?",
+		"missing_verification": "Немає листа?",
+		"resend": "Відправити підтвердження знову.",
+		"cancel": "Відмінити запрос.",
+		"open_mail_provider": "Відкрити {{provider}}",
+		"successful_registration": "Успішна реєстрація!"
+	},
+	"error": {
+		"NetworkError": "Помилка мережі.",
+		"Unauthorized": "Неавторизований.",
+		"DatabaseError": "Помилка бази данних.",
+		"Unlabelled": "Щось трапилось.",
+		"UnverifiedAccount": "Непідтверджений аккаунт.",
+		"MissingHeaders": "Відсутні заголівки.",
+		"RenderFail": "Помилка обробки шаблона.",
+		"OperationFailed": "Операція не вдалась.",
+		"InvalidCredentials": "Невірна пошта або пароль.",
+		"InvalidToken": "Недійсний токен",
+		"MissingInvite": "Відсутній код запрошення.",
+		"InvalidInvite": "Невірний код",
+		"AlreadyFriends": "Ви вже дружите з цим користувачем.",
+		"AlreadySentRequest": "Ви вже відправили запит цьому користувачу.",
+		"Blocked": "Ви заблокували цього користувача.",
+		"NoEffect": "Нічого не змінилось.",
+		"RequiredField": "Обов'язково",
+		"TooShort": "Занадто коротий",
+		"TooLong": "Занадто довгий",
+		"Unavailable": "Недоступно.",
+		"FailedToReceive": "Серверу не вдалося отримати ваш файл.",
+		"UnknownError": "Дивіться консоль.",
+		"IoError": "Сервер виявив помилку вводу-виводу.",
+		"MissingPermission": "Відсутні повноваження.",
+		"UnsupportedBrowser": "Браузер не підтримує цю функцію.",
+		"DeniedNotification": "Ви заборонили доступ до сповіщень, перевірте налаштування сторінки.",
+		"InternalError": "Внутрішня помилка.",
+		"FailedValidation": "Не вдалось перевірити поле.",
+		"EmailInUse": "Електонна пошта вже використовується.",
+		"EmailFailed": "Не вдалось відправити лист.",
+		"AlreadyOnboarded": "Реєстрація вже завершена.",
+		"UsernameTaken": "Ім'я вже використовується.",
+		"BlockedOther": "Цей користувач заблокував вас.",
+		"InvalidEmail": "Недійсна ел. пошта",
+		"FileTooLarge": "Файл занадто великий.",
+		"MissingData": "В запросі відсутні дані.",
+		"ProbeError": "Не вдалося отримати метадані файла.",
+		"UnknownUser": "Невідомий користувач.",
+		"InvalidSession": "Недійсна сесія."
+	}
 }

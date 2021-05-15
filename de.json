@@ -1,396 +1,396 @@
 {
-    "general": {
-        "about": "Über",
-        "tos": "Geschäftsbedingungen",
-        "privacy": "Datenschutzerklärung",
-        "image_by": "Bild von",
-        "loading": "Ladevorgang…"
-    },
-    "login": {
-        "title": "Login",
-        "register": "Registrieren",
-        "username": "Nutzername",
-        "email": "E-Mail",
-        "password": "Passwort",
-        "enter": {
-            "username": "Gib einen Nutzernamen an.",
-            "email": "Gib eine E-Mail-Adresse an.",
-            "password": "Gib ein Passwort an.",
-            "current_password": "Gib dein aktuelles Passwort ein.",
-            "invite": "Gib deinen Einladungscode ein."
-        },
-        "forgot": "Passwort vergessen?",
-        "reset": "Passwort zurücksetzen.",
-        "remembered": "Zum Login zurückkehren.",
-        "new": "Neu bei REVOLT?",
-        "existing": "Hast du bereits einen Account?",
-        "create": "Neuen Account erstellen.",
-        "cancel": "Anfrage abbrechen.",
-        "successful_registration": "Erfolgreich registriert!",
-        "open_mail_provider": "{{provider}} öffnen",
-        "check_mail": "Schaue in deinem E-Mail Postfach nach.",
-        "error": {
-            "resend": "Erneutes senden fehlgeschlagen!",
-            "reset": "Zurücksetzen fehlgeschlagen!",
-            "login": "Anmeldung fehlgeschlagen!",
-            "create": "Account konnte nicht erstellt werden!"
-        },
-        "check_spam": "Schaue bitte in deinem Spamordner nach, wenn du sie nicht finden kannst",
-        "resend": "Bestätigung erneut senden.",
-        "missing_verification": "Keine E-Mail?",
-        "set_password": "Neues Passwort festlegen.",
-        "current_password": "Aktuelles Passwort",
-        "invite": "Einladungscode"
-    },
-    "app": {
-        "status": {
-            "online": "Online",
-            "idle": "Abwesend",
-            "busy": "Beschäftigt",
-            "invisible": "Unsichtbar",
-            "offline": "Offline"
-        },
-        "navigation": {
-            "tabs": {
-                "home": "Startseite",
-                "friends": "Freunde",
-                "unreads": "Ungelesen",
-                "dev": "Entwickler",
-                "saved": "Notizen"
-            }
-        },
-        "main": {
-            "categories": {
-                "conversations": "Besprechungen",
-                "channels": "Kanäle",
-                "members": "Mitglieder",
-                "participants": "Teilnehmer"
-            },
-            "channel": {
-                "message": "Nachricht an {{name}}",
-                "message_who": "Nachricht an {{person}}",
-                "message_where": "Nachricht an {{channel_name}}",
-                "system": {
-                    "removed_by": "entfernt von",
-                    "added_by": "hinzugefügt von",
-                    "user_left": "hat verlassen.",
-                    "user_joined": "ist beigetreten.",
-                    "channel_renamed": "hat den Channel umbenannt zu"
-                },
-                "typing": {
-                    "several": "Mehrere Personen schreiben…",
-                    "multiple": "{{userlist}} und {{user}} schreiben…",
-                    "single": "{{user}} schreibt…"
-                },
-                "attached_file": "{{filename}} angehängt",
-                "failed_upload": "Hochladen fehlgeschlagen!",
-                "uploading_file": "Datei wird hochgeladen…",
-                "message_saved": "In deinen Nachrichten speichern",
-                "bot": "Bot",
-                "unknown_user": "<Unbekannter Nutzer>",
-                "edited": "(bearbeitet)",
-                "start": {
-                    "group": "Das ist der Anfang deiner Besprechung."
-                },
-                "misc": {
-                    "spoiler_attachment": "Spoiler",
-                    "jump_present": "Zu den neuen Nachrichten springen",
-                    "viewing_old": "Du schaust dir ältere Nachrichten an"
-                },
-                "voice": {
-                    "unmute": "Stummschaltung aufheben",
-                    "mute": "Stummschalten",
-                    "leave": "Trennen",
-                    "connected": "Sprachchat verbunden"
-                }
-            },
-            "groups": {
-                "name": "Gruppenname",
-                "create": "Gruppe erstellen.",
-                "owner": "Gruppenbesitzer"
-            }
-        },
-        "context_menu": {
-            "block_user": "Nutzer blockieren",
-            "copy_id": "ID kopieren",
-            "message_user": "Nachricht",
-            "cancel_friend": "Anfrage abbrechen",
-            "remove_friend": "Freund entfernen",
-            "add_friend": "Freund hinzufügen",
-            "unblock_user": "Blockierung aufheben",
-            "delete_message": "Nachricht löschen",
-            "edit_message": "Nachricht bearbeiten",
-            "mark_as_read": "Als gelesen markieren",
-            "copy_mid": "Nachrichten-ID kopieren",
-            "copy_cid": "Kanal-ID kopieren",
-            "copy_uid": "Nutzer-ID kopieren",
-            "remove_member": "Aus Gruppe entfernen",
-            "save_video": "Video speichern",
-            "open_video": "Video öffnen",
-            "save_image": "Bild speichern",
-            "open_image": "Bild öffnen",
-            "save_file": "Datei speichern",
-            "open_file": "Datei öffnen",
-            "quote_message": "Nachricht zitieren",
-            "cancel_message": "Abbrechen",
-            "retry_message": "Erneut senden",
-            "mention": "Erwähnen",
-            "copy_text": "Text kopieren",
-            "open_link": "Link öffnen",
-            "copy_link": "Link kopieren",
-            "set_custom_status": "Einen benutzerdefinierten Status setzen",
-            "clear_status": "Status entfernen",
-            "custom_status": "Benutzerdefinierter Status",
-            "open_group_settings": "Gruppeneinstellungen",
-            "open_channel_settings": "Kanaleinstellungen",
-            "copy_selection": "Auswahl kopieren"
-        },
-        "special": {
-            "friends": {
-                "outgoing": "Ausgehende Freundschaftsanfrage.",
-                "incoming": "Eingehende Freundschaftsanfrage.",
-                "blocked": "Blockiert",
-                "pending": "Ausstehend",
-                "nobody": "Noch ist niemand hier!"
-            },
-            "requires_online": "Du musst online sein, um dies anzuschauen.",
-            "modals": {
-                "actions": {
-                    "reload": "Anwendung neu laden",
-                    "close": "Schließen",
-                    "ok": "OK",
-                    "cancel": "Abbrechen",
-                    "continue": "Weiter",
-                    "send_email": "E-Mail senden",
-                    "update": "Aktualisieren",
-                    "preview": "Vorschau",
-                    "save": "Speichern"
-                },
-                "signed_out": "Du wurdest ausgeloggt!",
-                "clipboard": {
-                    "copy": "Manuell Kopieren:",
-                    "https": "Du bist im Moment nicht in einem HTTPS-Kontext.",
-                    "unavailable": "Die Zwischenablage ist nicht verfügbar!"
-                },
-                "error": "Ein Fehler ist aufgetreten!",
-                "onboarding": {
-                    "pick": "Wähle einen Nutzernamen, mit dem dich Leute finden können, er kann später in den Einstellungen geändert werden.",
-                    "welcome": "Willkommen bei"
-                },
-                "prompt": {
-                    "confirm_leave_long": "Du wirst nicht erneut beitreten können, außer du wirst erneut eingeladen.",
-                    "confirm_leave": "{{group_name}} verlassen?"
-                },
-                "account": {
-                    "failed": "Konnte nicht geändert werden!",
-                    "change": {
-                        "password": "Passwort ändern",
-                        "email": "E-Mail-Adresse ändern",
-                        "username": "Nutzername ändern"
-                    }
-                }
-            },
-            "status": {
-                "reconnecting": "Erneut verbinden…",
-                "connecting": "Verbinden…",
-                "disconnected": "Verbindung getrennt.",
-                "offline": "Offline."
-            },
-            "popovers": {
-                "user_profile": {
-                    "no_groups": "Keine gemeinsamen Gruppen!",
-                    "no_users": "Keine gemeinsamen Freunde!",
-                    "mutual_groups": "Gemeinsame Gruppen",
-                    "mutual_friends": "Gemeinsame Freunde",
-                    "profile": "Profil",
-                    "badges": {
-                        "translator": "Übersetzer",
-                        "early_adopter": "Frühzeitiger Tester",
-                        "supporter": "Unterstützer"
-                    },
-                    "empty": "Es ist etwas leer hier...",
-                    "sub": {
-                        "connections": "Verbindungen",
-                        "information": "Information",
-                        "badges": "Abzeichen"
-                    }
-                }
-            },
-            "copy_username": "Klicken, um den Nutzernamen zu kopieren"
-        },
-        "settings": {
-            "pages": {
-                "logOut": "Abmelden",
-                "appearance": {
-                    "import_manual": "Manuell importieren",
-                    "import_clipboard": "Aus der Zwischenablage importieren",
-                    "export_clipboard": "In Zwischenablage speichern",
-                    "reset_overrides": "Überschreibungen zurücksetzen",
-                    "overrides": "Überschreibungen des Themas",
-                    "title": "Aussehen",
-                    "theme_data": "Themadaten",
-                    "import_theme": "Thema aus Zeichenkette importieren",
-                    "sync": "Synchronisierungseinstellungen",
-                    "custom_css": "Benutzerdefiniertes CSS",
-                    "message_display": "Nachrichtenanzeige",
-                    "color": {
-                        "dark": "dunkel",
-                        "light": "hell"
-                    },
-                    "theme": "Thema",
-                    "advanced": "Erweiterte Optionen",
-                    "accent_selector": "Akzentfarbe",
-                    "display": {
-                        "compact_description": "Gutes altes IRC.",
-                        "default_description": "Schön, elegant und modern.",
-                        "compact": "Kompakt",
-                        "default": "Standard"
-                    },
-                    "emoji_pack": "Emoji-Paket"
-                },
-                "sessions": {
-                    "created": "{{time_ago}} erstellt",
-                    "this_device": "Dieses Gerät",
-                    "title": "Sitzungen",
-                    "active_sessions": "Aktive Sitzungen"
-                },
-                "account": {
-                    "title": "Mein Account",
-                    "change_field": "Ändern"
-                },
-                "language": {
-                    "title": "Sprache",
-                    "select": "Sprache auswählen"
-                },
-                "notifications": {
-                    "enable_sound": "Bei einer Nachricht einen Ton abspielen.",
-                    "enable_desktop": "Desktopbenachrichtigungen aktivieren.",
-                    "title": "Benachrichtigungen",
-                    "enable_push": "Push-Benachrichtigungen aktivieren.",
-                    "descriptions": {
-                        "enable_outgoing_sound": "Aktivieren, um ein Geräusch abzuspielen, wenn du eine Nachricht sendest.",
-                        "enable_sound": "Für Geräusche von eingehenden Nachrichten aktivieren.",
-                        "enable_push": "Aktivieren, um Benachrichtigungen zu erhalten, während du offline bist.",
-                        "enable_desktop": "Erhalte Benachrichtigungen, solange die App geöffnet ist."
-                    },
-                    "enable_outgoing_sound": "Sendegeräusch abspielen.",
-                    "sounds": "Töne",
-                    "push_notifications": "Push-Benachrichtigungen"
-                },
-                "feedback": {
-                    "title": "Rückmeldung",
-                    "bug": "Einen Bug",
-                    "send": "Rückmeldung senden",
-                    "describe": "Bitte beschreibe das Problem.",
-                    "other": "Etwas anderes",
-                    "feature": "Vorschlag für ein fehlendes Feature",
-                    "report": "Über was willst du berichten?"
-                },
-                "source_code": "Quellcode",
-                "donate": {
-                    "title": "Spenden"
-                },
-                "profile": {
-                    "placeholder": "Erzähle etwas über dich selbst…",
-                    "fetching": "Dein Profil wird geladen…",
-                    "info": "Information",
-                    "title": "Profil",
-                    "edit_background": "Hintergrund ändern",
-                    "custom_background": "Profilhintergrund",
-                    "profile_picture": "Profilbild"
-                }
-            },
-            "categories": {
-                "client_settings": "Clienteinstellungen",
-                "user_settings": "Nutzereinstellungen"
-            },
-            "title": "Einstellungen",
-            "tips": {
-                "sessions": {
-                    "b": "Sichere deinen Account, indem du dein Passwort änderst und Zwei-Faktor-Authentifizierung nutzt.",
-                    "a": "Falls du auf dieser Liste eine unbekannte Sitzung findest,"
-                },
-                "languages": {
-                    "b": "Hilf dabei, neue Übersetzungen zu erstellen.",
-                    "a": "Es fehlt eine Sprache?"
-                },
-                "account": {
-                    "b": "Gehe zu deinen Profileinstellungen.",
-                    "a": "Du suchst nach einem Weg, dein öffentliches Profil anzupassen?"
-                }
-            },
-            "channel_pages": {
-                "overview": {
-                    "description": "Kanalbeschreibung",
-                    "name": "Kanalname",
-                    "title": "Überblick",
-                    "icon": "Gruppenbild"
-                }
-            },
-            "actions": {
-                "upload": "Hochladen (bis zu {{filesize}})",
-                "remove": "Entfernen"
-            }
-        }
-    },
-    "dayjs": {
-        "lastDay": "[Gestern um] LT",
-        "sameDay": "[Heute um] LT",
-        "nextDay": "[Morgen um] LT",
-        "lastWeek": "[Letzten] dddd [um] LT",
-        "nextWeek": "dddd [um] LT",
-        "sameElse": "L"
-    },
-    "error": {
-        "invalid_email": "Ungültige E-Mail-Adresse",
-        "too_long": "Zu lang",
-        "too_short": "Zu kurz",
-        "required_field": "Erforderlich",
-        "no_effect": "Diese Anfrage hat nichts bewirkt.",
-        "blocked_other": "Dieser Nutzer hat dich blockiert.",
-        "blocked": "Du hast diesen Nutzer blockiert.",
-        "already_sent_request": "Du hast bereits eine Anfrage an diesen Nutzer gesendet.",
-        "already_friends": "Du bist bereits mit diesem Nutzer befreundet.",
-        "username_taken": "Nutzername breits in Verwendung.",
-        "already_onboarded": "Einrichtung bereits beendet.",
-        "wrong_password": "Falsches Passwort.",
-        "email_in_use": "E-Mail-Adresse bereits in Verwendung.",
-        "unknown_user": "Unbekannter Nutzer.",
-        "unverified_account": "Unverifizierter Account.",
-        "invalid_session": "Ungültige Sitzung.",
-        "missing_headers": "Fehlende Header.",
-        "operation_failed": "Operation fehlgeschlagen.",
-        "unknown_error": "Siehe Konsole.",
-        "internal_error": "Interner Fehler.",
-        "database_error": "Datenbankfehler.",
-        "failed_validation": "Konnte Felder nicht überprüfen.",
-        "unlabelled": "Etwas ist schiefgelaufen.",
-        "unavailable": "Nicht erreichbar.",
-        "io_error": "Der Server hat einen Eingabe-/Ausgabefehler.",
-        "probe_error": "Dateimetadaten konnten nicht geladen werden.",
-        "missing_data": "In der Anfrage fehlen Daten.",
-        "failed_to_receive": "Der Server konnte deine Datei nicht laden.",
-        "file_too_large": "Die Datei ist zu groß.",
-        "invalid_invite": "Ungültiger Code",
-        "missing_invite": "Fehlender Einladungscode in der Anfrage.",
-        "invalid_token": "Ungültiger Token",
-        "invalid_credentials": "Inkorrekte Anmeldedaten.",
-        "email_failed": "Konnte E-Mail nicht senden.",
-        "render_fail": "Rendern des Templates fehlgeschlagen.",
-        "missing_permission": "Keine Berechtigung.",
-        "denied_notification": "Du hast die Benachrichtigungsberechtigung verweigert, überprüfe die Seiteneinstellungen.",
-        "unsupported_browser": "Die Browserversion unterstützt dieses Feature nicht.",
-        "unauthorized": "Unautorisiert.",
-        "network_error": "Netzwerkfehler."
-    },
-    "quantities": {
-        "members": {
-            "many": "{{count}} Mitglieder",
-            "one": "1 Mitglied"
-        }
-    },
-    "notifications": {
-        "now_friends": "Du bist nun mit @{{person}} befreundet!",
-        "sent_request": "@{{person}} hat dir eine Freundschaftsanfrage gesendet."
-    }
+	"general": {
+		"about": "Über",
+		"tos": "Geschäftsbedingungen",
+		"privacy": "Datenschutzerklärung",
+		"image_by": "Bild von",
+		"loading": "Ladevorgang…"
+	},
+	"login": {
+		"title": "Login",
+		"register": "Registrieren",
+		"username": "Nutzername",
+		"email": "E-Mail",
+		"password": "Passwort",
+		"enter": {
+			"username": "Gib einen Nutzernamen an.",
+			"email": "Gib eine E-Mail-Adresse an.",
+			"password": "Gib ein Passwort an.",
+			"current_password": "Gib dein aktuelles Passwort ein.",
+			"invite": "Gib deinen Einladungscode ein."
+		},
+		"forgot": "Passwort vergessen?",
+		"reset": "Passwort zurücksetzen.",
+		"remembered": "Zum Login zurückkehren.",
+		"new": "Neu bei REVOLT?",
+		"existing": "Hast du bereits einen Account?",
+		"create": "Neuen Account erstellen.",
+		"cancel": "Anfrage abbrechen.",
+		"successful_registration": "Erfolgreich registriert!",
+		"open_mail_provider": "{{provider}} öffnen",
+		"check_mail": "Schaue in deinem E-Mail Postfach nach.",
+		"error": {
+			"resend": "Erneutes senden fehlgeschlagen!",
+			"reset": "Zurücksetzen fehlgeschlagen!",
+			"login": "Anmeldung fehlgeschlagen!",
+			"create": "Account konnte nicht erstellt werden!"
+		},
+		"check_spam": "Schaue bitte in deinem Spamordner nach, wenn du sie nicht finden kannst",
+		"resend": "Bestätigung erneut senden.",
+		"missing_verification": "Keine E-Mail?",
+		"set_password": "Neues Passwort festlegen.",
+		"current_password": "Aktuelles Passwort",
+		"invite": "Einladungscode"
+	},
+	"app": {
+		"status": {
+			"online": "Online",
+			"idle": "Abwesend",
+			"busy": "Beschäftigt",
+			"invisible": "Unsichtbar",
+			"offline": "Offline"
+		},
+		"navigation": {
+			"tabs": {
+				"home": "Startseite",
+				"friends": "Freunde",
+				"unreads": "Ungelesen",
+				"dev": "Entwickler",
+				"saved": "Notizen"
+			}
+		},
+		"main": {
+			"categories": {
+				"conversations": "Besprechungen",
+				"channels": "Kanäle",
+				"members": "Mitglieder",
+				"participants": "Teilnehmer"
+			},
+			"channel": {
+				"message": "Nachricht an {{name}}",
+				"message_who": "Nachricht an {{person}}",
+				"message_where": "Nachricht an {{channel_name}}",
+				"system": {
+					"removed_by": "entfernt von",
+					"added_by": "hinzugefügt von",
+					"user_left": "hat verlassen.",
+					"user_joined": "ist beigetreten.",
+					"channel_renamed": "hat den Channel umbenannt zu"
+				},
+				"typing": {
+					"several": "Mehrere Personen schreiben…",
+					"multiple": "{{userlist}} und {{user}} schreiben…",
+					"single": "{{user}} schreibt…"
+				},
+				"attached_file": "{{filename}} angehängt",
+				"failed_upload": "Hochladen fehlgeschlagen!",
+				"uploading_file": "Datei wird hochgeladen…",
+				"message_saved": "In deinen Nachrichten speichern",
+				"bot": "Bot",
+				"unknown_user": "<Unbekannter Nutzer>",
+				"edited": "(bearbeitet)",
+				"start": {
+					"group": "Das ist der Anfang deiner Besprechung."
+				},
+				"misc": {
+					"spoiler_attachment": "Spoiler",
+					"jump_present": "Zu den neuen Nachrichten springen",
+					"viewing_old": "Du schaust dir ältere Nachrichten an"
+				},
+				"voice": {
+					"unmute": "Stummschaltung aufheben",
+					"mute": "Stummschalten",
+					"leave": "Trennen",
+					"connected": "Sprachchat verbunden"
+				}
+			},
+			"groups": {
+				"name": "Gruppenname",
+				"create": "Gruppe erstellen.",
+				"owner": "Gruppenbesitzer"
+			}
+		},
+		"context_menu": {
+			"block_user": "Nutzer blockieren",
+			"copy_id": "ID kopieren",
+			"message_user": "Nachricht",
+			"cancel_friend": "Anfrage abbrechen",
+			"remove_friend": "Freund entfernen",
+			"add_friend": "Freund hinzufügen",
+			"unblock_user": "Blockierung aufheben",
+			"delete_message": "Nachricht löschen",
+			"edit_message": "Nachricht bearbeiten",
+			"mark_as_read": "Als gelesen markieren",
+			"copy_mid": "Nachrichten-ID kopieren",
+			"copy_cid": "Kanal-ID kopieren",
+			"copy_uid": "Nutzer-ID kopieren",
+			"remove_member": "Aus Gruppe entfernen",
+			"save_video": "Video speichern",
+			"open_video": "Video öffnen",
+			"save_image": "Bild speichern",
+			"open_image": "Bild öffnen",
+			"save_file": "Datei speichern",
+			"open_file": "Datei öffnen",
+			"quote_message": "Nachricht zitieren",
+			"cancel_message": "Abbrechen",
+			"retry_message": "Erneut senden",
+			"mention": "Erwähnen",
+			"copy_text": "Text kopieren",
+			"open_link": "Link öffnen",
+			"copy_link": "Link kopieren",
+			"set_custom_status": "Einen benutzerdefinierten Status setzen",
+			"clear_status": "Status entfernen",
+			"custom_status": "Benutzerdefinierter Status",
+			"open_group_settings": "Gruppeneinstellungen",
+			"open_channel_settings": "Kanaleinstellungen",
+			"copy_selection": "Auswahl kopieren"
+		},
+		"special": {
+			"friends": {
+				"outgoing": "Ausgehende Freundschaftsanfrage.",
+				"incoming": "Eingehende Freundschaftsanfrage.",
+				"blocked": "Blockiert",
+				"pending": "Ausstehend",
+				"nobody": "Noch ist niemand hier!"
+			},
+			"requires_online": "Du musst online sein, um dies anzuschauen.",
+			"modals": {
+				"actions": {
+					"reload": "Anwendung neu laden",
+					"close": "Schließen",
+					"ok": "OK",
+					"cancel": "Abbrechen",
+					"continue": "Weiter",
+					"send_email": "E-Mail senden",
+					"update": "Aktualisieren",
+					"preview": "Vorschau",
+					"save": "Speichern"
+				},
+				"signed_out": "Du wurdest ausgeloggt!",
+				"clipboard": {
+					"copy": "Manuell Kopieren:",
+					"https": "Du bist im Moment nicht in einem HTTPS-Kontext.",
+					"unavailable": "Die Zwischenablage ist nicht verfügbar!"
+				},
+				"error": "Ein Fehler ist aufgetreten!",
+				"onboarding": {
+					"pick": "Wähle einen Nutzernamen, mit dem dich Leute finden können, er kann später in den Einstellungen geändert werden.",
+					"welcome": "Willkommen bei"
+				},
+				"prompt": {
+					"confirm_leave_long": "Du wirst nicht erneut beitreten können, außer du wirst erneut eingeladen.",
+					"confirm_leave": "{{group_name}} verlassen?"
+				},
+				"account": {
+					"failed": "Konnte nicht geändert werden!",
+					"change": {
+						"password": "Passwort ändern",
+						"email": "E-Mail-Adresse ändern",
+						"username": "Nutzername ändern"
+					}
+				}
+			},
+			"status": {
+				"reconnecting": "Erneut verbinden…",
+				"connecting": "Verbinden…",
+				"disconnected": "Verbindung getrennt.",
+				"offline": "Offline."
+			},
+			"popovers": {
+				"user_profile": {
+					"no_groups": "Keine gemeinsamen Gruppen!",
+					"no_users": "Keine gemeinsamen Freunde!",
+					"mutual_groups": "Gemeinsame Gruppen",
+					"mutual_friends": "Gemeinsame Freunde",
+					"profile": "Profil",
+					"badges": {
+						"translator": "Übersetzer",
+						"early_adopter": "Frühzeitiger Tester",
+						"supporter": "Unterstützer"
+					},
+					"empty": "Es ist etwas leer hier...",
+					"sub": {
+						"connections": "Verbindungen",
+						"information": "Information",
+						"badges": "Abzeichen"
+					}
+				}
+			},
+			"copy_username": "Klicken, um den Nutzernamen zu kopieren"
+		},
+		"settings": {
+			"pages": {
+				"logOut": "Abmelden",
+				"appearance": {
+					"import_manual": "Manuell importieren",
+					"import_clipboard": "Aus der Zwischenablage importieren",
+					"export_clipboard": "In Zwischenablage speichern",
+					"reset_overrides": "Überschreibungen zurücksetzen",
+					"overrides": "Überschreibungen des Themas",
+					"title": "Aussehen",
+					"theme_data": "Themadaten",
+					"import_theme": "Thema aus Zeichenkette importieren",
+					"sync": "Synchronisierungseinstellungen",
+					"custom_css": "Benutzerdefiniertes CSS",
+					"message_display": "Nachrichtenanzeige",
+					"color": {
+						"dark": "dunkel",
+						"light": "hell"
+					},
+					"theme": "Thema",
+					"advanced": "Erweiterte Optionen",
+					"accent_selector": "Akzentfarbe",
+					"display": {
+						"compact_description": "Gutes altes IRC.",
+						"default_description": "Schön, elegant und modern.",
+						"compact": "Kompakt",
+						"default": "Standard"
+					},
+					"emoji_pack": "Emoji-Paket"
+				},
+				"sessions": {
+					"created": "{{time_ago}} erstellt",
+					"this_device": "Dieses Gerät",
+					"title": "Sitzungen",
+					"active_sessions": "Aktive Sitzungen"
+				},
+				"account": {
+					"title": "Mein Account",
+					"change_field": "Ändern"
+				},
+				"language": {
+					"title": "Sprache",
+					"select": "Sprache auswählen"
+				},
+				"notifications": {
+					"enable_sound": "Bei einer Nachricht einen Ton abspielen.",
+					"enable_desktop": "Desktopbenachrichtigungen aktivieren.",
+					"title": "Benachrichtigungen",
+					"enable_push": "Push-Benachrichtigungen aktivieren.",
+					"descriptions": {
+						"enable_outgoing_sound": "Aktivieren, um ein Geräusch abzuspielen, wenn du eine Nachricht sendest.",
+						"enable_sound": "Für Geräusche von eingehenden Nachrichten aktivieren.",
+						"enable_push": "Aktivieren, um Benachrichtigungen zu erhalten, während du offline bist.",
+						"enable_desktop": "Erhalte Benachrichtigungen, solange die App geöffnet ist."
+					},
+					"enable_outgoing_sound": "Sendegeräusch abspielen.",
+					"sounds": "Töne",
+					"push_notifications": "Push-Benachrichtigungen"
+				},
+				"feedback": {
+					"title": "Rückmeldung",
+					"bug": "Einen Bug",
+					"send": "Rückmeldung senden",
+					"describe": "Bitte beschreibe das Problem.",
+					"other": "Etwas anderes",
+					"feature": "Vorschlag für ein fehlendes Feature",
+					"report": "Über was willst du berichten?"
+				},
+				"source_code": "Quellcode",
+				"donate": {
+					"title": "Spenden"
+				},
+				"profile": {
+					"placeholder": "Erzähle etwas über dich selbst…",
+					"fetching": "Dein Profil wird geladen…",
+					"info": "Information",
+					"title": "Profil",
+					"edit_background": "Hintergrund ändern",
+					"custom_background": "Profilhintergrund",
+					"profile_picture": "Profilbild"
+				}
+			},
+			"categories": {
+				"client_settings": "Clienteinstellungen",
+				"user_settings": "Nutzereinstellungen"
+			},
+			"title": "Einstellungen",
+			"tips": {
+				"sessions": {
+					"b": "Sichere deinen Account, indem du dein Passwort änderst und Zwei-Faktor-Authentifizierung nutzt.",
+					"a": "Falls du auf dieser Liste eine unbekannte Sitzung findest,"
+				},
+				"languages": {
+					"b": "Hilf dabei, neue Übersetzungen zu erstellen.",
+					"a": "Es fehlt eine Sprache?"
+				},
+				"account": {
+					"b": "Gehe zu deinen Profileinstellungen.",
+					"a": "Du suchst nach einem Weg, dein öffentliches Profil anzupassen?"
+				}
+			},
+			"channel_pages": {
+				"overview": {
+					"description": "Kanalbeschreibung",
+					"name": "Kanalname",
+					"title": "Überblick",
+					"icon": "Gruppenbild"
+				}
+			},
+			"actions": {
+				"upload": "Hochladen (bis zu {{filesize}})",
+				"remove": "Entfernen"
+			}
+		}
+	},
+	"dayjs": {
+		"lastDay": "[Gestern um] LT",
+		"sameDay": "[Heute um] LT",
+		"nextDay": "[Morgen um] LT",
+		"lastWeek": "[Letzten] dddd [um] LT",
+		"nextWeek": "dddd [um] LT",
+		"sameElse": "L"
+	},
+	"quantities": {
+		"members": {
+			"many": "{{count}} Mitglieder",
+			"one": "1 Mitglied"
+		}
+	},
+	"notifications": {
+		"now_friends": "Du bist nun mit @{{person}} befreundet!",
+		"sent_request": "@{{person}} hat dir eine Freundschaftsanfrage gesendet."
+	},
+	"error": {
+		"InvalidEmail": "Ungültige E-Mail-Adresse",
+		"TooLong": "Zu lang",
+		"TooShort": "Zu kurz",
+		"RequiredField": "Erforderlich",
+		"NoEffect": "Diese Anfrage hat nichts bewirkt.",
+		"BlockedOther": "Dieser Nutzer hat dich blockiert.",
+		"Blocked": "Du hast diesen Nutzer blockiert.",
+		"AlreadySentRequest": "Du hast bereits eine Anfrage an diesen Nutzer gesendet.",
+		"AlreadyFriends": "Du bist bereits mit diesem Nutzer befreundet.",
+		"UsernameTaken": "Nutzername breits in Verwendung.",
+		"AlreadyOnboarded": "Einrichtung bereits beendet.",
+		"WrongPassword": "Falsches Passwort.",
+		"EmailInUse": "E-Mail-Adresse bereits in Verwendung.",
+		"UnknownUser": "Unbekannter Nutzer.",
+		"UnverifiedAccount": "Unverifizierter Account.",
+		"InvalidSession": "Ungültige Sitzung.",
+		"MissingHeaders": "Fehlende Header.",
+		"OperationFailed": "Operation fehlgeschlagen.",
+		"UnknownError": "Siehe Konsole.",
+		"InternalError": "Interner Fehler.",
+		"DatabaseError": "Datenbankfehler.",
+		"FailedValidation": "Konnte Felder nicht überprüfen.",
+		"Unlabelled": "Etwas ist schiefgelaufen.",
+		"Unavailable": "Nicht erreichbar.",
+		"IoError": "Der Server hat einen Eingabe-/Ausgabefehler.",
+		"ProbeError": "Dateimetadaten konnten nicht geladen werden.",
+		"MissingData": "In der Anfrage fehlen Daten.",
+		"FailedToReceive": "Der Server konnte deine Datei nicht laden.",
+		"FileTooLarge": "Die Datei ist zu groß.",
+		"InvalidInvite": "Ungültiger Code",
+		"MissingInvite": "Fehlender Einladungscode in der Anfrage.",
+		"InvalidToken": "Ungültiger Token",
+		"InvalidCredentials": "Inkorrekte Anmeldedaten.",
+		"EmailFailed": "Konnte E-Mail nicht senden.",
+		"RenderFail": "Rendern des Templates fehlgeschlagen.",
+		"MissingPermission": "Keine Berechtigung.",
+		"DeniedNotification": "Du hast die Benachrichtigungsberechtigung verweigert, überprüfe die Seiteneinstellungen.",
+		"UnsupportedBrowser": "Die Browserversion unterstützt dieses Feature nicht.",
+		"Unauthorized": "Unautorisiert.",
+		"NetworkError": "Netzwerkfehler."
+	}
 }

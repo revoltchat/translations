@@ -1,393 +1,393 @@
 {
-    "app": {
-        "settings": {
-            "categories": {
-                "client_settings": "客户端设置",
-                "user_settings": "用户设置"
-            },
-            "title": "设置",
-            "pages": {
-                "appearance": {
-                    "title": "外观",
-                    "export_clipboard": "复制到粘贴板",
-                    "import_clipboard": "从剪贴板导入",
-                    "import_manual": "手动导入",
-                    "import_theme": "从文本导入主题",
-                    "theme_data": "主题数据",
-                    "overrides": "主题设置",
-                    "reset_overrides": "重置设定",
-                    "sync": "同步选项",
-                    "custom_css": "自定义CSS",
-                    "advanced": "高级设定",
-                    "message_display": "信息显示",
-                    "accent_selector": "主题颜色",
-                    "color": {
-                        "dark": "深色",
-                        "light": "浅色"
-                    },
-                    "display": {
-                        "default_description": "漂亮，简约且时尚。",
-                        "compact": "简约",
-                        "default": "默认",
-                        "compact_description": "一个怀旧的主题。"
-                    },
-                    "theme": "主题",
-                    "emoji_pack": "表情包"
-                },
-                "sessions": {
-                    "title": "登录的设备",
-                    "created": "创建于 {{time_ago}}",
-                    "this_device": "此设备",
-                    "active_sessions": "已登陆的设备"
-                },
-                "account": {
-                    "change_field": "更改",
-                    "title": "我的账号"
-                },
-                "notifications": {
-                    "title": "通知",
-                    "enable_push": "启用推送通知。",
-                    "enable_desktop": "启用桌面通知。",
-                    "descriptions": {
-                        "enable_outgoing_sound": "此项设定将会在你收到信息是播放提示。",
-                        "enable_sound": "此项设定将会在你收到信息是播放提示音。",
-                        "enable_push": "此项设定将会在你不在线时给你发送通知。",
-                        "enable_desktop": "此项设定将会在Revolt打开时给你发送通知。"
-                    },
-                    "enable_outgoing_sound": "在发送时播放声音。",
-                    "enable_sound": "收到消息时播放声音。",
-                    "sounds": "声音",
-                    "push_notifications": "推送消息"
-                },
-                "logOut": "登出",
-                "feedback": {
-                    "title": "反馈",
-                    "send": "发送反馈",
-                    "describe": "在这里描述您的问题.",
-                    "other": "其他",
-                    "feature": "新功能",
-                    "bug": "错误/漏洞",
-                    "report": "想要反馈什么呢？"
-                },
-                "source_code": "开源",
-                "donate": {
-                    "title": "捐献"
-                },
-                "language": {
-                    "title": "语言",
-                    "select": "选择语言"
-                },
-                "profile": {
-                    "placeholder": "介绍一下你自己…",
-                    "fetching": "正在获取您的档案…",
-                    "info": "信息",
-                    "title": "档案",
-                    "edit_background": "编辑背景",
-                    "custom_background": "自定背景",
-                    "profile_picture": "头像"
-                }
-            },
-            "tips": {
-                "sessions": {
-                    "b": "通过更改密码和使用双重认证保护您的帐户。",
-                    "a": "如果您在列表中看到未知的会话,"
-                },
-                "languages": {
-                    "b": "帮助提供更多翻译。",
-                    "a": "缺少您想要的语言吗？"
-                },
-                "account": {
-                    "b": "转到您的个人资料设置。",
-                    "a": "要自定义您的公开个人资料吗？"
-                }
-            },
-            "channel_pages": {
-                "overview": {
-                    "description": "频道说明",
-                    "name": "频道名称",
-                    "title": "概述"
-                }
-            },
-            "actions": {
-                "upload": "上传（最大{{filesize}}）",
-                "remove": "移除"
-            }
-        },
-        "main": {
-            "groups": {
-                "name": "群组名",
-                "create": "创建一个群。",
-                "owner": "群主"
-            },
-            "channel": {
-                "bot": "机器人",
-                "unknown_user": "未知用户",
-                "system": {
-                    "user_left": "离开了。",
-                    "user_joined": "加入了。",
-                    "added_by": "邀请者为",
-                    "removed_by": "移除者为",
-                    "channel_renamed": "将频道更名为"
-                },
-                "typing": {
-                    "several": "多人正在输入…",
-                    "multiple": "{{userlist}} 和 {{user}} 正在输入…",
-                    "single": "{{user}} 正在输入…"
-                },
-                "attached_file": "上传了 {{filename}}",
-                "failed_upload": "上传失败！",
-                "uploading_file": "正在上传文件…",
-                "message_saved": "保存信息",
-                "message_who": "发送至 {{person}}",
-                "message_where": "发送至 {{channel_name}}",
-                "edited": "（已编辑）",
-                "start": {
-                    "group": "这里是你们对话的开头。"
-                },
-                "misc": {
-                    "jump_present": "跳到现在",
-                    "viewing_old": "正在查看旧消息",
-                    "spoiler_attachment": "剧透警告"
-                },
-                "voice": {
-                    "unmute": "取消静音",
-                    "mute": "静音",
-                    "leave": "离开",
-                    "connected": "连接至语音"
-                }
-            },
-            "categories": {
-                "members": "成员",
-                "channels": "频道",
-                "conversations": "对话",
-                "participants": "参与者"
-            }
-        },
-        "navigation": {
-            "tabs": {
-                "saved": "保存的笔记",
-                "unreads": "未读信息",
-                "friends": "好友",
-                "dev": "开发者",
-                "home": "主页"
-            }
-        },
-        "status": {
-            "offline": "离线",
-            "invisible": "隐身",
-            "busy": "正忙",
-            "idle": "闲置",
-            "online": "在线"
-        },
-        "special": {
-            "friends": {
-                "blocked": "黑名单",
-                "pending": "等待回应",
-                "outgoing": "发出的好友请求。",
-                "incoming": "收到的好友请求。",
-                "nobody": "这里目前还没有人！"
-            },
-            "popovers": {
-                "user_profile": {
-                    "no_groups": "你和TA没有共同群组！",
-                    "no_users": "你和TA没有共同朋友！",
-                    "badges": {
-                        "translator": "翻译者",
-                        "early_adopter": "早期用户",
-                        "supporter": "支持者"
-                    },
-                    "mutual_groups": "共同群组",
-                    "mutual_friends": "共同朋友",
-                    "profile": "个人资料",
-                    "sub": {
-                        "connections": "连接",
-                        "information": "信息",
-                        "badges": "徽章"
-                    },
-                    "empty": "这里有点空空的。。。"
-                }
-            },
-            "modals": {
-                "clipboard": {
-                    "https": "您当前没有使用HTTPS连接。",
-                    "copy": "手册副本:",
-                    "unavailable": "剪贴板不可用！"
-                },
-                "signed_out": "您已登出！",
-                "actions": {
-                    "cancel": "取消",
-                    "continue": "继续",
-                    "reload": "重新加载应用程序",
-                    "send_email": "发送电子邮件",
-                    "preview": "预览",
-                    "update": "更新",
-                    "close": "关闭",
-                    "save": "保存",
-                    "ok": "确定"
-                },
-                "account": {
-                    "failed": "更改失败！",
-                    "change": {
-                        "password": "更改密码",
-                        "email": "更改您的电子邮件",
-                        "username": "更改您的用户名"
-                    }
-                },
-                "prompt": {
-                    "confirm_leave_long": "除非重新邀请,否则您将无法重新加入。",
-                    "confirm_leave": "是否离开{{group_name}}？"
-                },
-                "onboarding": {
-                    "pick": "选择您希望人们能够找到您的用户名,以后可以在设置中进行更改。",
-                    "welcome": "欢迎使用"
-                },
-                "error": "发生错误！"
-            },
-            "status": {
-                "disconnected": "已断开连接。",
-                "reconnecting": "正在重新连接…",
-                "connecting": "正在连接…",
-                "offline": "离线。"
-            },
-            "requires_online": "您需要在线才能查看。",
-            "copy_username": "点击以复制名称"
-        },
-        "context_menu": {
-            "unblock_user": "取消屏蔽用户",
-            "block_user": "屏蔽用户",
-            "quote_message": "引用消息",
-            "set_custom_status": "设置自定义状态",
-            "clear_status": "清除状态",
-            "custom_status": "自定义状态",
-            "cancel_friend": "取消请求",
-            "remove_friend": "删除朋友",
-            "add_friend": "添加朋友",
-            "open_link": "打开链接",
-            "copy_link": "复制链接",
-            "save_video": "保存视频",
-            "open_video": "打开视频",
-            "save_image": "保存图像",
-            "open_image": "打开图像",
-            "save_file": "保存文件",
-            "open_file": "打开文件",
-            "remove_member": "从组中删除",
-            "delete_message": "删除消息",
-            "edit_message": "编辑消息",
-            "cancel_message": "取消发送",
-            "retry_message": "重试发送",
-            "mark_as_read": "标记为已读",
-            "message_user": "消息",
-            "mention": "提及",
-            "copy_mid": "复制消息ID",
-            "copy_cid": "复制频道ID",
-            "copy_uid": "复制用户ID",
-            "copy_text": "复制文本",
-            "copy_id": "副本ID",
-            "open_channel_settings": "频道设置",
-            "open_group_settings": "群组设置",
-            "copy_selection": "复制选择区域"
-        }
-    },
-    "login": {
-        "error": {
-            "resend": "重新发送失败！",
-            "reset": "重置失败！",
-            "login": "登陆失败！",
-            "create": "注册失败！"
-        },
-        "successful_registration": "成功注册！",
-        "open_mail_provider": "打开 {{provider}}",
-        "check_spam": "如果找不到, 请检查垃圾邮件",
-        "check_mail": "请检查您的邮箱。",
-        "cancel": "取消请求。",
-        "resend": "重新发送验证码。",
-        "missing_verification": "没有邮箱吗？",
-        "create": "新建账号。",
-        "existing": "已经有一个账号吗？",
-        "new": "新用户吗？",
-        "remembered": "回到登录界面。",
-        "set_password": "设置新密码。",
-        "reset": "重置密码。",
-        "forgot": "忘记密码了吗？",
-        "enter": {
-            "current_password": "输入你目前的密码。",
-            "invite": "输入你的邀请码。",
-            "password": "输入你的密码。",
-            "email": "输入你的邮箱。",
-            "username": "输入一个用户名。"
-        },
-        "current_password": "当前密码",
-        "invite": "邀请码",
-        "password": "密码",
-        "email": "邮箱",
-        "username": "用户名",
-        "register": "注册",
-        "title": "登录"
-    },
-    "general": {
-        "image_by": "图片来自",
-        "privacy": "隐私政策",
-        "tos": "服务条款",
-        "about": "关于",
-        "loading": "加载中…"
-    },
-    "error": {
-        "blocked_other": "此用户已屏蔽您。",
-        "blocked": "您已屏蔽此用户。",
-        "already_onboarded": "已经完成了初始化。",
-        "email_in_use": "邮件已经被使用。",
-        "unlabelled": "有些神秘的事情发生了。",
-        "unauthorized": "未经授权。",
-        "denied_notification": "您拒绝了通知访问,请检查页面设置。",
-        "unsupported_browser": "浏览器缺少对此功能的支持。",
-        "io_error": "服务器遇到I / O错误。",
-        "probe_error": "无法获取文件元数据。",
-        "missing_data": "请求缺少数据。",
-        "failed_to_receive": "服务器无法接收您的文件。",
-        "file_too_large": "文件太大。",
-        "unavailable": "不可用。",
-        "invalid_email": "无效的电子邮件地址",
-        "too_long": "太长",
-        "too_short": "太短",
-        "required_field": "必填",
-        "no_effect": "此请求无效。",
-        "already_sent_request": "已经向该用户发送了请求。",
-        "already_friends": "已与此用户成为朋友。",
-        "username_taken": "已使用用户名。",
-        "invalid_invite": "无效的代码",
-        "missing_invite": "请求中缺少邀请代码。",
-        "invalid_token": "无效的令牌",
-        "invalid_credentials": "电子邮件或密码错误。",
-        "email_failed": "电子邮件发送失败。",
-        "unknown_user": "未知的用户。",
-        "unverified_account": "未验证的帐户。",
-        "invalid_session": "无效的会话。",
-        "missing_headers": "缺少标题。",
-        "render_fail": "模板渲染失败。",
-        "operation_failed": "操作失败。",
-        "unknown_error": "查看控制台。",
-        "missing_permission": "缺少权限。",
-        "internal_error": "内部错误。",
-        "database_error": "数据库错误。",
-        "failed_validation": "无法验证字段。",
-        "network_error": "网络错误。"
-    },
-    "notifications": {
-        "now_friends": "您与@ {{person}}成为了好友！",
-        "sent_request": "@ {{person}}向您发送了一个好友请求。"
-    },
-    "dayjs": {
-        "lastWeek": "[上] dddd LT",
-        "nextDay": "[明天] LT",
-        "sameDay": "[今天] LT",
-        "lastDay": "[昨天] LT",
-        "nextWeek": "dddd LT",
-        "sameElse": "L"
-    },
-    "quantities": {
-        "members": {
-            "one": "1位成员",
-            "many": "{{count}}位成员"
-        }
-    }
+	"app": {
+		"settings": {
+			"categories": {
+				"client_settings": "客户端设置",
+				"user_settings": "用户设置"
+			},
+			"title": "设置",
+			"pages": {
+				"appearance": {
+					"title": "外观",
+					"export_clipboard": "复制到粘贴板",
+					"import_clipboard": "从剪贴板导入",
+					"import_manual": "手动导入",
+					"import_theme": "从文本导入主题",
+					"theme_data": "主题数据",
+					"overrides": "主题设置",
+					"reset_overrides": "重置设定",
+					"sync": "同步选项",
+					"custom_css": "自定义CSS",
+					"advanced": "高级设定",
+					"message_display": "信息显示",
+					"accent_selector": "主题颜色",
+					"color": {
+						"dark": "深色",
+						"light": "浅色"
+					},
+					"display": {
+						"default_description": "漂亮，简约且时尚。",
+						"compact": "简约",
+						"default": "默认",
+						"compact_description": "一个怀旧的主题。"
+					},
+					"theme": "主题",
+					"emoji_pack": "表情包"
+				},
+				"sessions": {
+					"title": "登录的设备",
+					"created": "创建于 {{time_ago}}",
+					"this_device": "此设备",
+					"active_sessions": "已登陆的设备"
+				},
+				"account": {
+					"change_field": "更改",
+					"title": "我的账号"
+				},
+				"notifications": {
+					"title": "通知",
+					"enable_push": "启用推送通知。",
+					"enable_desktop": "启用桌面通知。",
+					"descriptions": {
+						"enable_outgoing_sound": "此项设定将会在你收到信息是播放提示。",
+						"enable_sound": "此项设定将会在你收到信息是播放提示音。",
+						"enable_push": "此项设定将会在你不在线时给你发送通知。",
+						"enable_desktop": "此项设定将会在Revolt打开时给你发送通知。"
+					},
+					"enable_outgoing_sound": "在发送时播放声音。",
+					"enable_sound": "收到消息时播放声音。",
+					"sounds": "声音",
+					"push_notifications": "推送消息"
+				},
+				"logOut": "登出",
+				"feedback": {
+					"title": "反馈",
+					"send": "发送反馈",
+					"describe": "在这里描述您的问题.",
+					"other": "其他",
+					"feature": "新功能",
+					"bug": "错误/漏洞",
+					"report": "想要反馈什么呢？"
+				},
+				"source_code": "开源",
+				"donate": {
+					"title": "捐献"
+				},
+				"language": {
+					"title": "语言",
+					"select": "选择语言"
+				},
+				"profile": {
+					"placeholder": "介绍一下你自己…",
+					"fetching": "正在获取您的档案…",
+					"info": "信息",
+					"title": "档案",
+					"edit_background": "编辑背景",
+					"custom_background": "自定背景",
+					"profile_picture": "头像"
+				}
+			},
+			"tips": {
+				"sessions": {
+					"b": "通过更改密码和使用双重认证保护您的帐户。",
+					"a": "如果您在列表中看到未知的会话,"
+				},
+				"languages": {
+					"b": "帮助提供更多翻译。",
+					"a": "缺少您想要的语言吗？"
+				},
+				"account": {
+					"b": "转到您的个人资料设置。",
+					"a": "要自定义您的公开个人资料吗？"
+				}
+			},
+			"channel_pages": {
+				"overview": {
+					"description": "频道说明",
+					"name": "频道名称",
+					"title": "概述"
+				}
+			},
+			"actions": {
+				"upload": "上传（最大{{filesize}}）",
+				"remove": "移除"
+			}
+		},
+		"main": {
+			"groups": {
+				"name": "群组名",
+				"create": "创建一个群。",
+				"owner": "群主"
+			},
+			"channel": {
+				"bot": "机器人",
+				"unknown_user": "未知用户",
+				"system": {
+					"user_left": "离开了。",
+					"user_joined": "加入了。",
+					"added_by": "邀请者为",
+					"removed_by": "移除者为",
+					"channel_renamed": "将频道更名为"
+				},
+				"typing": {
+					"several": "多人正在输入…",
+					"multiple": "{{userlist}} 和 {{user}} 正在输入…",
+					"single": "{{user}} 正在输入…"
+				},
+				"attached_file": "上传了 {{filename}}",
+				"failed_upload": "上传失败！",
+				"uploading_file": "正在上传文件…",
+				"message_saved": "保存信息",
+				"message_who": "发送至 {{person}}",
+				"message_where": "发送至 {{channel_name}}",
+				"edited": "（已编辑）",
+				"start": {
+					"group": "这里是你们对话的开头。"
+				},
+				"misc": {
+					"jump_present": "跳到现在",
+					"viewing_old": "正在查看旧消息",
+					"spoiler_attachment": "剧透警告"
+				},
+				"voice": {
+					"unmute": "取消静音",
+					"mute": "静音",
+					"leave": "离开",
+					"connected": "连接至语音"
+				}
+			},
+			"categories": {
+				"members": "成员",
+				"channels": "频道",
+				"conversations": "对话",
+				"participants": "参与者"
+			}
+		},
+		"navigation": {
+			"tabs": {
+				"saved": "保存的笔记",
+				"unreads": "未读信息",
+				"friends": "好友",
+				"dev": "开发者",
+				"home": "主页"
+			}
+		},
+		"status": {
+			"offline": "离线",
+			"invisible": "隐身",
+			"busy": "正忙",
+			"idle": "闲置",
+			"online": "在线"
+		},
+		"special": {
+			"friends": {
+				"blocked": "黑名单",
+				"pending": "等待回应",
+				"outgoing": "发出的好友请求。",
+				"incoming": "收到的好友请求。",
+				"nobody": "这里目前还没有人！"
+			},
+			"popovers": {
+				"user_profile": {
+					"no_groups": "你和TA没有共同群组！",
+					"no_users": "你和TA没有共同朋友！",
+					"badges": {
+						"translator": "翻译者",
+						"early_adopter": "早期用户",
+						"supporter": "支持者"
+					},
+					"mutual_groups": "共同群组",
+					"mutual_friends": "共同朋友",
+					"profile": "个人资料",
+					"sub": {
+						"connections": "连接",
+						"information": "信息",
+						"badges": "徽章"
+					},
+					"empty": "这里有点空空的。。。"
+				}
+			},
+			"modals": {
+				"clipboard": {
+					"https": "您当前没有使用HTTPS连接。",
+					"copy": "手册副本:",
+					"unavailable": "剪贴板不可用！"
+				},
+				"signed_out": "您已登出！",
+				"actions": {
+					"cancel": "取消",
+					"continue": "继续",
+					"reload": "重新加载应用程序",
+					"send_email": "发送电子邮件",
+					"preview": "预览",
+					"update": "更新",
+					"close": "关闭",
+					"save": "保存",
+					"ok": "确定"
+				},
+				"account": {
+					"failed": "更改失败！",
+					"change": {
+						"password": "更改密码",
+						"email": "更改您的电子邮件",
+						"username": "更改您的用户名"
+					}
+				},
+				"prompt": {
+					"confirm_leave_long": "除非重新邀请,否则您将无法重新加入。",
+					"confirm_leave": "是否离开{{group_name}}？"
+				},
+				"onboarding": {
+					"pick": "选择您希望人们能够找到您的用户名,以后可以在设置中进行更改。",
+					"welcome": "欢迎使用"
+				},
+				"error": "发生错误！"
+			},
+			"status": {
+				"disconnected": "已断开连接。",
+				"reconnecting": "正在重新连接…",
+				"connecting": "正在连接…",
+				"offline": "离线。"
+			},
+			"requires_online": "您需要在线才能查看。",
+			"copy_username": "点击以复制名称"
+		},
+		"context_menu": {
+			"unblock_user": "取消屏蔽用户",
+			"block_user": "屏蔽用户",
+			"quote_message": "引用消息",
+			"set_custom_status": "设置自定义状态",
+			"clear_status": "清除状态",
+			"custom_status": "自定义状态",
+			"cancel_friend": "取消请求",
+			"remove_friend": "删除朋友",
+			"add_friend": "添加朋友",
+			"open_link": "打开链接",
+			"copy_link": "复制链接",
+			"save_video": "保存视频",
+			"open_video": "打开视频",
+			"save_image": "保存图像",
+			"open_image": "打开图像",
+			"save_file": "保存文件",
+			"open_file": "打开文件",
+			"remove_member": "从组中删除",
+			"delete_message": "删除消息",
+			"edit_message": "编辑消息",
+			"cancel_message": "取消发送",
+			"retry_message": "重试发送",
+			"mark_as_read": "标记为已读",
+			"message_user": "消息",
+			"mention": "提及",
+			"copy_mid": "复制消息ID",
+			"copy_cid": "复制频道ID",
+			"copy_uid": "复制用户ID",
+			"copy_text": "复制文本",
+			"copy_id": "副本ID",
+			"open_channel_settings": "频道设置",
+			"open_group_settings": "群组设置",
+			"copy_selection": "复制选择区域"
+		}
+	},
+	"login": {
+		"error": {
+			"resend": "重新发送失败！",
+			"reset": "重置失败！",
+			"login": "登陆失败！",
+			"create": "注册失败！"
+		},
+		"successful_registration": "成功注册！",
+		"open_mail_provider": "打开 {{provider}}",
+		"check_spam": "如果找不到, 请检查垃圾邮件",
+		"check_mail": "请检查您的邮箱。",
+		"cancel": "取消请求。",
+		"resend": "重新发送验证码。",
+		"missing_verification": "没有邮箱吗？",
+		"create": "新建账号。",
+		"existing": "已经有一个账号吗？",
+		"new": "新用户吗？",
+		"remembered": "回到登录界面。",
+		"set_password": "设置新密码。",
+		"reset": "重置密码。",
+		"forgot": "忘记密码了吗？",
+		"enter": {
+			"current_password": "输入你目前的密码。",
+			"invite": "输入你的邀请码。",
+			"password": "输入你的密码。",
+			"email": "输入你的邮箱。",
+			"username": "输入一个用户名。"
+		},
+		"current_password": "当前密码",
+		"invite": "邀请码",
+		"password": "密码",
+		"email": "邮箱",
+		"username": "用户名",
+		"register": "注册",
+		"title": "登录"
+	},
+	"general": {
+		"image_by": "图片来自",
+		"privacy": "隐私政策",
+		"tos": "服务条款",
+		"about": "关于",
+		"loading": "加载中…"
+	},
+	"notifications": {
+		"now_friends": "您与@ {{person}}成为了好友！",
+		"sent_request": "@ {{person}}向您发送了一个好友请求。"
+	},
+	"dayjs": {
+		"lastWeek": "[上] dddd LT",
+		"nextDay": "[明天] LT",
+		"sameDay": "[今天] LT",
+		"lastDay": "[昨天] LT",
+		"nextWeek": "dddd LT",
+		"sameElse": "L"
+	},
+	"quantities": {
+		"members": {
+			"one": "1位成员",
+			"many": "{{count}}位成员"
+		}
+	},
+	"error": {
+		"BlockedOther": "此用户已屏蔽您。",
+		"Blocked": "您已屏蔽此用户。",
+		"AlreadyOnboarded": "已经完成了初始化。",
+		"EmailInUse": "邮件已经被使用。",
+		"Unlabelled": "有些神秘的事情发生了。",
+		"Unauthorized": "未经授权。",
+		"DeniedNotification": "您拒绝了通知访问,请检查页面设置。",
+		"UnsupportedBrowser": "浏览器缺少对此功能的支持。",
+		"IoError": "服务器遇到I / O错误。",
+		"ProbeError": "无法获取文件元数据。",
+		"MissingData": "请求缺少数据。",
+		"FailedToReceive": "服务器无法接收您的文件。",
+		"FileTooLarge": "文件太大。",
+		"Unavailable": "不可用。",
+		"InvalidEmail": "无效的电子邮件地址",
+		"TooLong": "太长",
+		"TooShort": "太短",
+		"RequiredField": "必填",
+		"NoEffect": "此请求无效。",
+		"AlreadySentRequest": "已经向该用户发送了请求。",
+		"AlreadyFriends": "已与此用户成为朋友。",
+		"UsernameTaken": "已使用用户名。",
+		"InvalidInvite": "无效的代码",
+		"MissingInvite": "请求中缺少邀请代码。",
+		"InvalidToken": "无效的令牌",
+		"InvalidCredentials": "电子邮件或密码错误。",
+		"EmailFailed": "电子邮件发送失败。",
+		"UnknownUser": "未知的用户。",
+		"UnverifiedAccount": "未验证的帐户。",
+		"InvalidSession": "无效的会话。",
+		"MissingHeaders": "缺少标题。",
+		"RenderFail": "模板渲染失败。",
+		"OperationFailed": "操作失败。",
+		"UnknownError": "查看控制台。",
+		"MissingPermission": "缺少权限。",
+		"InternalError": "内部错误。",
+		"DatabaseError": "数据库错误。",
+		"FailedValidation": "无法验证字段。",
+		"NetworkError": "网络错误。"
+	}
 }
