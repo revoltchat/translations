@@ -2,7 +2,9 @@
     "general": {
         "image_by": "Afbeelding",
         "tos": "Gebruikersovereenkomst",
-        "loading": "Laden…"
+        "loading": "Laden…",
+        "privacy": "Privacy",
+        "about": "Over"
     },
     "login": {
         "current_password": "Huidig wachtwoord",
@@ -34,7 +36,11 @@
         },
         "successful_registration": "Registreren succesvol!",
         "open_mail_provider": "Open {{provider}}",
-        "check_spam": "Check uw spam als u het niet kunt vinden."
+        "check_spam": "Check uw spam als u het niet kunt vinden.",
+        "password": "Wachtwoord",
+        "username": "Gebruikersnaam",
+        "email": "Email",
+        "title": "Inloggen"
     },
     "app": {
         "main": {
@@ -49,24 +55,93 @@
                 "uploading_file": "Bestand uploaden…",
                 "message_saved": "Opslaan in uw berichten",
                 "message_who": "Verstuur bericht naar {{person}}",
-                "message_where": "Verstuur in {{channel_name}}"
+                "message_where": "Verstuur in {{channel_name}}",
+                "bot": "bot",
+                "edited": "(bewerkt)",
+                "unknown_user": "<Onbekende Gebruiker>",
+                "misc": {
+                    "viewing_old": "Je bekijkt oudere berichten",
+                    "jump_present": "Naar nu springen"
+                },
+                "voice": {
+                    "unmute": "Dempen opheffen",
+                    "mute": "Dempen",
+                    "leave": "Verlaten",
+                    "connected": "Spraak verbonden"
+                },
+                "start": {
+                    "group": "Dit is het begin van jouw gesprek."
+                },
+                "system": {
+                    "channel_icon_changed": "veranderde het kanaalpictogram",
+                    "channel_description_changed": "veranderde de kanaalbeschrijving",
+                    "channel_renamed": "heeft het kanaal hernoemd naar",
+                    "removed_by": "verwijderd door",
+                    "added_by": "toegevoegd door"
+                }
             },
             "categories": {
-                "participants": "Deelnemen"
+                "participants": "Deelnemen",
+                "members": "Leden",
+                "channels": "Kanalen",
+                "conversations": "Gesprekken"
+            },
+            "groups": {
+                "owner": "Groep Eigenaar",
+                "name": "Groep Naam",
+                "create": "Maak een groep."
             }
         },
         "navigation": {
             "tabs": {
                 "saved": "Opgeslagen notitir",
                 "dev": "Ontwikkelaar",
-                "home": "Thuis"
+                "home": "Thuis",
+                "unreads": "Ongelezen",
+                "friends": "Vrienden"
             }
         },
         "status": {
             "invisible": "Onzichtbaar",
             "busy": "Druk",
             "idle": "Afwezig",
-            "online": "Online"
+            "online": "Online",
+            "offline": "Offline"
+        },
+        "settings": {
+            "pages": {
+                "appearance": {
+                    "title": "Uiterlijk"
+                },
+                "sessions": {
+                    "created": "Gemaakt {{time_ago}}",
+                    "this_device": "Dit Apparaat",
+                    "active_sessions": "Actieve Sessies",
+                    "title": "Sessies"
+                },
+                "profile": {
+                    "edit_background": "Verander Achtergrond",
+                    "custom_background": "Eigen Achtergrond",
+                    "profile_picture": "Profielfoto",
+                    "placeholder": "Schrijf iets over jezelf…",
+                    "fetching": "Je profiel ophalen …",
+                    "info": "Informatie",
+                    "title": "Profiel"
+                },
+                "account": {
+                    "change_field": "Veranderen",
+                    "title": "Mijn Account"
+                }
+            },
+            "actions": {
+                "upload": "Upload (max {{filesize}})",
+                "remove": "Verwijderen"
+            },
+            "categories": {
+                "client_settings": "Client instellingen",
+                "user_settings": "Gebruikersinstellingen"
+            },
+            "title": "Instellingen"
         }
     }
 }
