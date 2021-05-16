@@ -9,25 +9,25 @@
     "login": {
         "current_password": "Huidig wachtwoord",
         "enter": {
-            "invite": "Voer hier uw uitnodiginscode in.",
-            "username": "Voer hier uw gebruikersnaam in.",
-            "email": "Voer hier uw email in.",
-            "password": "Voer hier uw wachtwoord in.",
-            "current_password": "Voer hier uw huidige wachtwoord in."
+            "invite": "Voer hier je uitnodiginscode in.",
+            "username": "Voer hier je gebruikersnaam in.",
+            "email": "Voer hier je email in.",
+            "password": "Voer hier je wachtwoord in.",
+            "current_password": "Voer hier je huidige wachtwoord in."
         },
         "forgot": "Wachtwoord vergeten?",
         "reset": "Wachtwoord resetten.",
-        "remembered": "Ga terug naar inlog scherm.",
+        "remembered": "Ga terug naar het inlog scherm.",
         "new": "Nieuw bij REVOLT?",
         "create": "Maak een nieuw account aan.",
         "resend": "Verzend verificatie opnieuw.",
         "cancel": "Verzoek annuleren.",
-        "register": "Registre",
+        "register": "Registreer",
         "invite": "Uitnodigings",
         "set_password": "Nieuw wachtwoord.",
         "existing": "Heeft u al een account?",
         "missing_verification": "Geen email?",
-        "check_mail": "Check uw email.",
+        "check_mail": "Check je email.",
         "error": {
             "resend": "Opnieuw verzenden mislukt!",
             "reset": "Resetten mislukt!",
@@ -36,7 +36,7 @@
         },
         "successful_registration": "Registreren succesvol!",
         "open_mail_provider": "Open {{provider}}",
-        "check_spam": "Check uw spam als u het niet kunt vinden.",
+        "check_spam": "Check je spam als je het niet kunt vinden",
         "password": "Wachtwoord",
         "username": "Gebruikersnaam",
         "email": "Email",
@@ -53,7 +53,7 @@
                 "attached_file": "Bijgevoegd {{filename}}",
                 "failed_upload": "Uploaden mislukt!",
                 "uploading_file": "Bestand uploaden…",
-                "message_saved": "Opslaan in uw berichten",
+                "message_saved": "Opslaan in je notities",
                 "message_who": "Verstuur bericht naar {{person}}",
                 "message_where": "Verstuur in {{channel_name}}",
                 "bot": "bot",
@@ -61,7 +61,8 @@
                 "unknown_user": "<Onbekende Gebruiker>",
                 "misc": {
                     "viewing_old": "Je bekijkt oudere berichten",
-                    "jump_present": "Naar nu springen"
+                    "jump_present": "Naar nu springen",
+                    "spoiler_attachment": "Spoiler"
                 },
                 "voice": {
                     "unmute": "Dempen opheffen",
@@ -70,14 +71,16 @@
                     "connected": "Spraak verbonden"
                 },
                 "start": {
-                    "group": "Dit is het begin van jouw gesprek."
+                    "group": "Dit is het begin van je gesprek."
                 },
                 "system": {
                     "channel_icon_changed": "veranderde het kanaalpictogram",
                     "channel_description_changed": "veranderde de kanaalbeschrijving",
                     "channel_renamed": "heeft het kanaal hernoemd naar",
                     "removed_by": "verwijderd door",
-                    "added_by": "toegevoegd door"
+                    "added_by": "toegevoegd door",
+                    "user_joined": "toegetreden.",
+                    "user_left": "verliet."
                 }
             },
             "categories": {
@@ -94,9 +97,9 @@
         },
         "navigation": {
             "tabs": {
-                "saved": "Opgeslagen notitir",
+                "saved": "Opgeslagen notitie",
                 "dev": "Ontwikkelaar",
-                "home": "Thuis",
+                "home": "Home",
                 "unreads": "Ongelezen",
                 "friends": "Vrienden"
             }
@@ -111,7 +114,31 @@
         "settings": {
             "pages": {
                 "appearance": {
-                    "title": "Uiterlijk"
+                    "title": "Uiterlijk",
+                    "theme": "Thema",
+                    "display": {
+                        "default": "Standaard",
+                        "default_description": "Mooi, strak en modern.",
+                        "compact_description": "Goede oude IRC.",
+                        "compact": "Compact"
+                    },
+                    "color": {
+                        "light": "licht",
+                        "dark": "donker"
+                    },
+                    "accent_selector": "Accent Kleur",
+                    "emoji_pack": "Emoji-pakket",
+                    "advanced": "Geavanceerde Opties",
+                    "import_clipboard": "Importeren van klembord",
+                    "import_manual": "Handmatig importeren",
+                    "import_theme": "Thema importeren uit string",
+                    "sync": "Synchronisatie-opties",
+                    "message_display": "Berichtweergave",
+                    "overrides": "Thema-overschrijvingen",
+                    "reset_overrides": "Herstel Overschrijvingen",
+                    "export_clipboard": "Exporteren naar klembord",
+                    "theme_data": "Themagegevens",
+                    "custom_css": "Aangepaste CSS"
                 },
                 "sessions": {
                     "created": "Gemaakt {{time_ago}}",
@@ -131,7 +158,40 @@
                 "account": {
                     "change_field": "Veranderen",
                     "title": "Mijn Account"
-                }
+                },
+                "notifications": {
+                    "push_notifications": "Pushmeldingen",
+                    "title": "Meldingen",
+                    "enable_desktop": "Schakel Bureaubladmeldingen in.",
+                    "enable_push": "Schakel Pushmeldingen in.",
+                    "enable_sound": "Speel Geluid Bij Een Bericht.",
+                    "descriptions": {
+                        "enable_desktop": "Dit geeft je meldingen terwijl de app open is.",
+                        "enable_sound": "Schakel geluiden in voor inkomende berichten.",
+                        "enable_outgoing_sound": "Schakel in om een geluid af te spelen wanneer u een bericht verzendt.",
+                        "enable_push": "Schakel in om meldingen te ontvangen wanneer u offline bent."
+                    },
+                    "sounds": "Geluiden",
+                    "enable_outgoing_sound": "Speel Verzonden geluid af."
+                },
+                "language": {
+                    "title": "Taal",
+                    "select": "Selecteer je taal"
+                },
+                "donate": {
+                    "title": "Doneer"
+                },
+                "source_code": "Bron",
+                "feedback": {
+                    "title": "Feedback",
+                    "feature": "Functieverzoek",
+                    "other": "Andere",
+                    "describe": "Beschrijf het probleem.",
+                    "send": "Verzend Feedback",
+                    "bug": "Bug",
+                    "report": "Wat wil je rapporteren?"
+                },
+                "logOut": "Uitloggen"
             },
             "actions": {
                 "upload": "Upload (max {{filesize}})",
@@ -141,7 +201,199 @@
                 "client_settings": "Client instellingen",
                 "user_settings": "Gebruikersinstellingen"
             },
-            "title": "Instellingen"
+            "title": "Instellingen",
+            "channel_pages": {
+                "overview": {
+                    "title": "Overzicht",
+                    "name": "Kanaal naam",
+                    "description": "Kanaal beschrijving"
+                }
+            },
+            "tips": {
+                "account": {
+                    "b": "Ga naar je profielinstellingen.",
+                    "a": "Wil je je openbare profiel aanpassen?"
+                },
+                "languages": {
+                    "a": "Mist u een gewenste taal?",
+                    "b": "Help mee aan meer vertalingen."
+                },
+                "sessions": {
+                    "a": "Als u een onbekende sessie in de lijst ziet,",
+                    "b": "beveilig je account door je wachtwoord te wijzigen en 2FA te gebruiken."
+                }
+            }
+        },
+        "special": {
+            "copy_username": "Klik om de gebruikersnaam te kopiëren",
+            "friends": {
+                "pending": "In afwachting",
+                "blocked": "Geblokkeerd",
+                "incoming": "Inkomend vriendschapsverzoek.",
+                "outgoing": "Uitgaand vriendschapsverzoek.",
+                "nobody": "Nog niemand hier!"
+            },
+            "status": {
+                "offline": "Offline.",
+                "disconnected": "Verbinding verbroken.",
+                "connecting": "Verbinden…",
+                "reconnecting": "Opnieuw verbinding maken…"
+            },
+            "modals": {
+                "error": "Er is een fout opgetreden!",
+                "clipboard": {
+                    "unavailable": "Klembord is niet beschikbaar!",
+                    "https": "Je bevindt momenteel niet in een HTTPS-context.",
+                    "copy": "Handmatig kopiëren:"
+                },
+                "signed_out": "Je bent uitgelogd!",
+                "prompt": {
+                    "confirm_leave": "Verlaat {{group_name}}?",
+                    "confirm_leave_long": "Je kunt pas weer deelnemen als je opnieuw wordt uitgenodigd."
+                },
+                "account": {
+                    "change": {
+                        "username": "Verander je gebruikersnaam",
+                        "password": "Verander je wachtwoord",
+                        "email": "Wijzig je e-mailadres"
+                    },
+                    "failed": "Veranderen is mislukt!"
+                },
+                "actions": {
+                    "ok": "Ok",
+                    "save": "Opslaan",
+                    "preview": "Voorbeeld",
+                    "send_email": "E-mail verzenden",
+                    "reload": "Herlaad de app",
+                    "continue": "Doorgaan",
+                    "cancel": "Annuleren",
+                    "close": "Sluiten",
+                    "update": "Bijwerken"
+                },
+                "onboarding": {
+                    "pick": "Kies een gebruikersnaam waarmee je wil dat mensen je kunnen vinden, dit kan later in de instellingen worden gewijzigd.",
+                    "welcome": "Welkom bij"
+                }
+            },
+            "popovers": {
+                "user_profile": {
+                    "profile": "Profiel",
+                    "mutual_friends": "Gemeenschappelijke vrienden",
+                    "mutual_groups": "Gemeenschappelijke groepen",
+                    "empty": "Het is hier een beetje leeg ...",
+                    "no_users": "Geen gemeenschappelijke vrienden!",
+                    "no_groups": "Geen gemeenschappelijke groepen!",
+                    "sub": {
+                        "badges": "Badges",
+                        "information": "Informatie",
+                        "connections": "Verbindingen"
+                    },
+                    "badges": {
+                        "early_adopter": "Vroege adoptie",
+                        "translator": "Vertaler",
+                        "supporter": "Supporter"
+                    }
+                },
+                "user_picker": {
+                    "select": "Selecteer vrienden om toe te voegen."
+                }
+            },
+            "requires_online": "Je moet online zijn om dit te bekijken."
+        },
+        "context_menu": {
+            "copy_cid": "Kopieer kanaal-ID",
+            "copy_mid": "Kopieer bericht-ID",
+            "retry_message": "Probeer opnieuw te verzenden",
+            "cancel_message": "Annuleer verzenden",
+            "delete_message": "Verwijder bericht",
+            "remove_member": "Verwijderen uit de groep",
+            "open_file": "Open bestand",
+            "unblock_user": "Deblokkeer gebruiker",
+            "quote_message": "Citeer bericht",
+            "edit_message": "Bewerkt bericht",
+            "block_user": "Blokkeer gebruiker",
+            "remove_friend": "Vriend verwijderen",
+            "open_group_settings": "Groepsinstellingen",
+            "copy_id": "Kopieer ID",
+            "copy_selection": "Selectie kopiëren",
+            "copy_text": "Kopieer tekst",
+            "copy_uid": "Kopieer gebruikers-ID",
+            "mention": "Vermelding",
+            "message_user": "Bericht",
+            "mark_as_read": "Markeren als gelezen",
+            "save_file": "Bestand opslaan",
+            "open_image": "Open afbeelding",
+            "save_image": "Afbeelding opslaan",
+            "open_video": "Open video",
+            "save_video": "Video opslaan",
+            "copy_link": "Kopieer link",
+            "open_link": "Open link",
+            "add_friend": "Vriend toevoegen",
+            "cancel_friend": "Annuleer verzoek",
+            "custom_status": "Aangepaste status",
+            "clear_status": "Status wissen",
+            "set_custom_status": "Stel een aangepaste status in",
+            "open_channel_settings": "Kanaalinstellingen"
         }
+    },
+    "quantities": {
+        "members": {
+            "one": "1 Lid",
+            "many": "{{count}} Leden"
+        }
+    },
+    "dayjs": {
+        "lastDay": "[Gisteren om] LT",
+        "sameDay": "[Vandaag om] LT",
+        "nextDay": "[Morgen om] LT",
+        "sameElse": "L",
+        "nextWeek": "dddd [om] LT",
+        "lastWeek": "[Afgelopen] dddd [om] LT"
+    },
+    "notifications": {
+        "now_friends": "Je bent nu vrienden met @{{person}}!",
+        "sent_request": "@{{person}} heeft je een vriendschapsverzoek gestuurd."
+    },
+    "error": {
+        "NetworkError": "Netwerkfout.",
+        "Unauthorized": "Ongeautoriseerd.",
+        "Unlabelled": "Er is iets gebeurd.",
+        "FailedValidation": "Kan velden niet valideren.",
+        "DatabaseError": "Databank fout.",
+        "InternalError": "Interne fout.",
+        "UnknownError": "Zie console.",
+        "OperationFailed": "Operatie mislukt.",
+        "RenderFail": "Sjabloonweergave is mislukt.",
+        "MissingHeaders": "Ontbrekende headers.",
+        "MissingPermission": "Ontbrekende permissie.",
+        "InvalidSession": "Ongeldige sessie.",
+        "UnverifiedAccount": "Niet-geverifieerd account.",
+        "EmailInUse": "Email in gebruik.",
+        "MissingInvite": "Ontbrekende uitnodigingscode in verzoek.",
+        "Blocked": "Je hebt deze gebruiker geblokkeerd.",
+        "TooShort": "Te kort",
+        "TooLong": "Te lang",
+        "InvalidEmail": "Ongeldig emailadres",
+        "Unavailable": "Niet beschikbaar.",
+        "FileTooLarge": "Bestand is te groot.",
+        "FailedToReceive": "De server heeft je bestand niet ontvangen.",
+        "MissingData": "Er ontbreken gegevens in het verzoek.",
+        "ProbeError": "Ophalen van metagegevens van bestand is mislukt.",
+        "IoError": "De server heeft een I/O-fout aangetroffen.",
+        "UnsupportedBrowser": "Browser mist ondersteuning voor deze functie.",
+        "DeniedNotification": "Je hebt toegang tot meldingen geweigerd, controleer de pagina-instellingen.",
+        "CompromisedPassword": "Dit wachtwoord is gecompromitteerd.",
+        "UnknownUser": "Onbekende gebruiker.",
+        "EmailFailed": "Email kan niet worden verzonden.",
+        "InvalidCredentials": "Email of wachtwoord is onjuist.",
+        "InvalidToken": "Ongeldige token",
+        "InvalidInvite": "Ongeldige code",
+        "AlreadyOnboarded": "Reeds klaar met onboarding.",
+        "UsernameTaken": "Gebruikersnaam is in gebruik.",
+        "AlreadyFriends": "Reeds bevriend met deze gebruiker.",
+        "AlreadySentRequest": "Je hebt al een verzoek naar deze gebruiker gestuurd.",
+        "BlockedOther": "Deze gebruiker heeft je geblokkeerd.",
+        "NoEffect": "Dit verzoek had geen effect.",
+        "RequiredField": "Verplicht"
     }
 }
