@@ -42,8 +42,8 @@
         "NetworkError": "Etworknay errorway."
     },
     "notifications": {
-        "now_friends": "Youway areway ownay iendsfray ithway person}}@{{ay!",
-        "sent_request": "person}}@{{ay entsay youway away iendfray equestray."
+        "now_friends": "@{{person}}!",
+        "sent_request": "@{{person}}"
     },
     "dayjs": {
         "sameElse": "Lay",
@@ -55,7 +55,7 @@
     },
     "quantities": {
         "members": {
-            "many": "ount}}{{cay Embersmay",
+            "many": "{{count}}",
             "one": "1 Embermay"
         }
     },
@@ -142,7 +142,7 @@
                 },
                 "prompt": {
                     "confirm_leave_long": "Youway on'tway ebay ableway otay ejoinray unlessway youway areway e-invitedray.",
-                    "confirm_leave": "Eavelay roup_name}}{{gay?"
+                    "confirm_leave": "{{group_name}}?"
                 },
                 "onboarding": {
                     "pick": "Ickpay away usernameway atthay youway antway eoplepay otay ebay ableway otay indfay youway byay, isthay ancay ebay angedchay aterlay inway ettingssay.",
@@ -255,7 +255,7 @@
                     "title": "Appearanceway"
                 },
                 "sessions": {
-                    "created": "Eatedcray ime_ago}}{{tay",
+                    "created": "{{time_ago}}",
                     "this_device": "Isthay Eviceday",
                     "active_sessions": "Activeway Essionssay",
                     "title": "Essionssay"
@@ -275,7 +275,7 @@
                 }
             },
             "actions": {
-                "upload": "Uploadway ax(may ilesize}}){{fay",
+                "upload": "{{filesize}})",
                 "remove": "Emoveray"
             },
             "categories": {
@@ -313,19 +313,21 @@
                     "removed_by": "emovedray byay",
                     "added_by": "addedway byay",
                     "user_left": "eftlay.",
-                    "user_joined": "oinedjay."
+                    "user_joined": "oinedjay.",
+                    "channel_description_changed": "angedchay ethay annelchay escriptionday",
+                    "channel_icon_changed": "angedchay ethay annelchay iconway"
                 },
                 "typing": {
                     "several": "Everalsay eoplepay areway ing…typay",
-                    "multiple": "userlist}}{{ay andway user}}{{ay areway ing…typay",
-                    "single": "user}}{{ay isway ing…typay"
+                    "multiple": "{{userlist}}",
+                    "single": "{{user}}"
                 },
-                "attached_file": "Attachedway ilename}}{{fay",
+                "attached_file": "{{filename}}",
                 "failed_upload": "Ailedfay otay uploadway!",
                 "uploading_file": "Uploadingway ile…fay",
                 "message_saved": "Avesay otay yourway otesnay",
-                "message_who": "Essagemay erson}}{{pay",
-                "message_where": "Essagemay hannel_name}}{{cay"
+                "message_who": "{{person}}",
+                "message_where": "{{channel_name}}"
             },
             "categories": {
                 "members": "Embersmay",
@@ -359,7 +361,7 @@
             "create": "Ailedfay otay egisterray!"
         },
         "successful_registration": "Uccessfullysay egisteredray!",
-        "open_mail_provider": "Openway rovider}}{{pay",
+        "open_mail_provider": "{{provider}}",
         "check_spam": "Easeplay eckchay amspay ifway youway an'tcay indfay itway",
         "check_mail": "Eckchay yourway ailmay.",
         "cancel": "Ancelcay equestray.",
