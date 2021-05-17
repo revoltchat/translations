@@ -23,7 +23,17 @@
         "email": "Elektron poçt",
         "username": "İstifadəçi adı",
         "register": "Qeydiyyatdan keçin",
-        "title": "Daxil ol"
+        "title": "Daxil ol",
+        "check_mail": "Elektron poçtunuzu yoxlayın.",
+        "check_spam": "Xahiş edirəm tapa bilmirsinizsə spamı yoxlayın.",
+        "open_mail_provider": "{{provider}} açıq",
+        "successful_registration": "Uğurla qeydiyyatdan keçdi!",
+        "error": {
+            "create": "Qeydiyyatdan keçmədi!",
+            "reset": "Sıfırlamaq alınmadı!",
+            "resend": "Yenidən göndərmək alınmadı!",
+            "login": "Giriş alınmadı!"
+        }
     },
     "general": {
         "loading": "Yüklənir…",
@@ -31,5 +41,130 @@
         "privacy": "Gizlilik Siyasəti",
         "tos": "Xidmət Şərtləri",
         "about": "Haqqında"
+    },
+    "app": {
+        "status": {
+            "online": "Onlayn",
+            "idle": "Boş",
+            "busy": "Məşğul",
+            "invisible": "Görünməz",
+            "offline": "Oflayn"
+        },
+        "navigation": {
+            "tabs": {
+                "home": "Ana səhifə",
+                "dev": "İnkişaf etdirici",
+                "friends": "Dostlar",
+                "unreads": "Oxunmamış",
+                "saved": "Saxlanılan qeydlər"
+            }
+        },
+        "main": {
+            "categories": {
+                "participants": "İştirakçılar",
+                "channels": "Kanallar",
+                "members": "Üzvlər",
+                "conversations": "Söhbətlər"
+            },
+            "channel": {
+                "message_where": "{{channel_name}} kanala mesaj göndərin",
+                "message_who": "{{person}}  kanala mesaj göndərin",
+                "message_saved": "Qeydlərinizə yazın",
+                "failed_upload": "Yükləmək alınmadı!",
+                "attached_file": "Əlavə edildi {{filename}}",
+                "typing": {
+                    "single": "{{user}} yazır…",
+                    "several": "Bir neçə nəfər yazır…",
+                    "multiple": "{{userlist}} və {{user}} yazırlar…"
+                },
+                "system": {
+                    "user_joined": "qatıldı.",
+                    "user_left": "sol.",
+                    "added_by": "tərəfindən əlavə edilmişdir.",
+                    "removed_by": "tərəfindən qaldırıldı.",
+                    "channel_renamed": "kanalın adını dəyişdirdi",
+                    "channel_icon_changed": "kanal şəklini dəyişdirdi.",
+                    "channel_description_changed": "kanal təsvirini dəyişdirdi"
+                },
+                "start": {
+                    "group": "Bu söhbətinizin başlanğıcıdır."
+                },
+                "voice": {
+                    "connected": "Səs bağlantısı quruldu",
+                    "leave": "Buraxın",
+                    "mute": "Səssiz",
+                    "unmute": "Səssizliyi çıxarın"
+                },
+                "misc": {
+                    "viewing_old": "Köhnə mesajlar göstərilir",
+                    "jump_present": "Bu günə qayıdın",
+                    "spoiler_attachment": "Spoyler"
+                },
+                "unknown_user": "<Naməlum istifadəçi>",
+                "bot": "bot",
+                "uploading_file": "Fayl yüklənir …",
+                "edited": "(düzəltdi)"
+            },
+            "groups": {
+                "create": "Qrup yaradın.",
+                "name": "Qrup adı",
+                "owner": "Qrup sahibi"
+            }
+        },
+        "settings": {
+            "title": "Parametrlər",
+            "categories": {
+                "user_settings": "İstifadəçi parametrləri",
+                "client_settings": "Müştəri parametrləri"
+            },
+            "actions": {
+                "remove": "Sil",
+                "upload": "Yüklə (maksimum {{filesize}})"
+            },
+            "pages": {
+                "account": {
+                    "title": "Mənim Hesabım",
+                    "change_field": "Dəyişdirin"
+                },
+                "profile": {
+                    "title": "Profil",
+                    "info": "Haqqında",
+                    "fetching": "Profiliniz alınır…",
+                    "placeholder": "Özünüz haqqında bir şey yazın…",
+                    "profile_picture": "Profil şəkili",
+                    "custom_background": "Xüsusi arxa plan",
+                    "edit_background": "Arxa planı redaktə edin"
+                },
+                "sessions": {
+                    "title": "İclaslar",
+                    "active_sessions": "Aktiv iclaslar",
+                    "created": "{{time_ago}}",
+                    "this_device": "Bu cihaz"
+                },
+                "appearance": {
+                    "title": "Görünüş",
+                    "theme": "Mövzu",
+                    "display": {
+                        "default": "Defolt",
+                        "compact": "Yığcam",
+                        "compact_description": "Yaxşı köhnə IRC.",
+                        "default_description": "Gözəl, zərif və müasirdir."
+                    },
+                    "color": {
+                        "light": "açıq",
+                        "dark": "qaranlıq"
+                    },
+                    "accent_selector": "Vurğu rəngi",
+                    "emoji_pack": "Emoji paketi",
+                    "advanced": "Təkmilləşmiş Seçimlər",
+                    "reset_overrides": "Mövzunu sıfırlayın",
+                    "export_clipboard": "Panoya ixrac et",
+                    "import_clipboard": "Panodan idxal edin",
+                    "import_manual": "Əl ilə idxal edin",
+                    "message_display": "Mesaj ekranı",
+                    "overrides": "Tema parametrləri"
+                }
+            }
+        }
     }
 }
