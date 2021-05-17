@@ -65,7 +65,7 @@
                 "attached_file": "{{filename}} hozzácsatolva",
                 "failed_upload": "Feltöltés sikertelen!",
                 "uploading_file": "Fájl feltöltése…",
-                "message_saved": "Mentés üzenetekhez",
+                "message_saved": "Mentés a jegyzetekhez",
                 "bot": "bot",
                 "unknown_user": "<Ismeretlen Felhasználó>",
                 "start": {
@@ -102,7 +102,7 @@
                     "created": "{{time_ago}}-val ezelőtt létrehozva",
                     "title": "Eszközök",
                     "this_device": "Jelenlegi eszköz",
-                    "active_sessions": "Jelenlegi belépések"
+                    "active_sessions": "Jelenlegi Belépések"
                 },
                 "appearance": {
                     "import_theme": "Téma importálása stringből",
@@ -265,6 +265,9 @@
                         "information": "Információ",
                         "connections": "Kapcsolatok"
                     }
+                },
+                "user_picker": {
+                    "select": "Válassz  barátokat a hozzáadáshoz."
                 }
             },
             "copy_username": "Kattints a felhasználónév másolásához"
@@ -310,7 +313,8 @@
             "open_channel_settings": "Csatorna Beállítások",
             "open_group_settings": "Csoport Beálítások",
             "copy_link": "Link Másolása",
-            "open_link": "Link Megnyitása"
+            "open_link": "Link Megnyitása",
+            "clear_status": "Státusz Törlése"
         },
         "status": {
             "offline": "Offline",
@@ -368,6 +372,13 @@
         "NetworkError": "Hálozati hiba.",
         "RenderFail": "Sablonmegjelenítés sikertelen.",
         "EmailFailed": "Nem sikerült elküldeni az e-mailt.",
-        "InvalidCredentials": "Rosz email, vagy jelszó."
+        "InvalidCredentials": "Rosz email, vagy jelszó.",
+        "FileTooLarge": "A Fájl túl nagy.",
+        "FailedToReceive": "A server nem kapta meg a fájlodat.",
+        "DeniedNotification": "Megtagadtad az értesítésekhez a hozzáférést, ellenőrizd az oldal beállításait.",
+        "MissingInvite": "Hiányzik a meghívó kód.",
+        "ProbeError": "Nem sikerült megszerezni a fájl metaadatait.",
+        "IoError": "A szerver I/O hibát észlelt.",
+        "UnsupportedBrowser": "A böngészőből hiányzik a ennek a funkciónak a támogatása."
     }
 }
