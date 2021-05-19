@@ -227,7 +227,7 @@
         },
         "status": {
             "offline": "Не в мережі",
-            "online": "В мережі",
+            "online": "У мережі",
             "idle": "Відійшов",
             "busy": "Зайнятий",
             "invisible": "Невидимий"
@@ -243,9 +243,9 @@
                 "message_who": "Повідомлення {{person}}",
                 "uploading_file": "Завантаження файлу…",
                 "typing": {
-                    "multiple": "{{userlist}} та {{user}} друкують…",
-                    "single": "{{user}} друкує…",
-                    "several": "Декілька людей друкують…"
+                    "multiple": "{{userlist}} та {{user}} пишуть…",
+                    "single": "{{user}} пише…",
+                    "several": "Декілька людей пишуть…"
                 },
                 "system": {
                     "removed_by": "видалений",
@@ -253,27 +253,27 @@
                     "user_joined": "ввійшов.",
                     "user_left": "вийшов.",
                     "added_by": "добавлений",
-                    "channel_icon_changed": "змінив зображення каналу",
+                    "channel_icon_changed": "змінив аватарку каналу",
                     "channel_description_changed": "змінив опис каналу"
                 },
                 "message_where": "Повідомлення {{channel_name}}",
-                "message_saved": "Зберегти до своїх нотаток",
-                "failed_upload": "Помилка завантаження!",
+                "message_saved": "Зберегти до нотаток",
+                "failed_upload": "Не вдалось завантажити.",
                 "attached_file": "Прикріплено {{filename}}",
                 "start": {
                     "group": "Це початок вашої бесіди."
                 },
                 "unknown_user": "<Невідомий користувач>",
                 "edited": "(змінено)",
-                "bot": "робот",
+                "bot": "бот",
                 "misc": {
                     "spoiler_attachment": "Спойлер",
                     "jump_present": "Перейти в кінець",
                     "viewing_old": "Перегляд давніх повідомлень"
                 },
                 "voice": {
-                    "unmute": "Ввімкнути звук",
-                    "mute": "Вимкнути звук",
+                    "unmute": "Заговорити",
+                    "mute": "Замовчати",
                     "leave": "Покинути",
                     "connected": "Голосовий зв'язок під'єднано"
                 }
@@ -286,11 +286,11 @@
         },
         "navigation": {
             "tabs": {
-                "home": "Дім",
+                "home": "Домашня сторінка",
                 "dev": "Розробник",
                 "friends": "Друзі",
-                "unreads": "Не прочитано",
-                "saved": "Збережені нотатки"
+                "unreads": "Не прочитане",
+                "saved": "Нотатки"
             }
         }
     },
@@ -331,10 +331,10 @@
         },
         "create": "Створіть новий аккаунт.",
         "check_mail": "Перевірте свою ел. пошту.",
-        "check_spam": "Перевірте спам, якщо не можете знайти листа",
+        "check_spam": "Перевірте папку \"спам\", якщо не можете знайти листа",
         "error": {
             "reset": "Помилка відновлення!",
-            "create": "Помилка реєстрації!",
+            "create": "Зареєстуватись не вдалось.",
             "login": "Помилка входу!",
             "resend": "Помилка перевідправлення!"
         },
@@ -349,11 +349,11 @@
         "remembered": "Повернутись до входу.",
         "new": "Вперше на REVOLT?",
         "existing": "Вже маєте аккаунт?",
-        "missing_verification": "Немає листа?",
+        "missing_verification": "Лист відсутній?",
         "resend": "Відправити підтвердження знову.",
-        "cancel": "Відмінити запрос.",
+        "cancel": "Відмінити запит.",
         "open_mail_provider": "Відкрити {{provider}}",
-        "successful_registration": "Успішна реєстрація!"
+        "successful_registration": "Ви успішно зареєструвались!"
     },
     "error": {
         "NetworkError": "Помилка мережі.",
