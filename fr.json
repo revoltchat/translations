@@ -1,362 +1,409 @@
 {
-	"general": {
-		"about": "À propos",
-		"tos": "Conditions d'utilisation",
-		"privacy": "Politique de confidentialité",
-		"image_by": "Image par",
-		"loading": "Chargement…"
-	},
-	"login": {
-		"title": "Connexion",
-		"email": "Email",
-		"password": "Mot De Passe",
-		"enter": {
-			"email": "Entrez votre Email.",
-			"password": "Entrez votre mot de passe.",
-			"invite": "Entrez votre code d'invitation.",
-			"username": "Entrez un nom d'utilisateur.",
-			"current_password": "Entrez votre mot de passe actuel."
-		},
-		"forgot": "Mot De Passe oublié ?",
-		"new": "Nouveau sur REVOLT ?",
-		"create": "Créer un nouveau compte.",
-		"open_mail_provider": "Ouvrir {{provider}}",
-		"successful_registration": "Compte créé avec succès !",
-		"set_password": "Définir un nouveau mot de passe.",
-		"missing_verification": "Pas d'email ?",
-		"cancel": "Annuler la requête.",
-		"error": {
-			"reset": "Échec de réinitialisation !",
-			"create": "Échec de création de compte !",
-			"login": "Échec de connexion !",
-			"resend": "Échec du renvoi !"
-		},
-		"reset": "Réinitialiser le mot de passe.",
-		"remembered": "Retour à la page de connexion.",
-		"register": "Inscription",
-		"invite": "Code d'invitation",
-		"current_password": "Mot de passe actuel",
-		"resend": "Renvoyer la vérification.",
-		"existing": "Avez-vous déjà un compte ?",
-		"username": "Nom d'utilisateur",
-		"check_mail": "Vérifiez votre boite mail.",
-		"check_spam": "Veuillez vérifier dans vos spam si vous ne pouvez pas le trouver"
-	},
-	"app": {
-		"main": {
-			"channel": {
-				"message": "Message {{name}}",
-				"system": {
-					"user_left": "est parti.",
-					"added_by": "ajouté par",
-					"user_joined": "a rejoint.",
-					"removed_by": "enlevé par",
-					"channel_renamed": "nom du salon changé pour"
-				},
-				"bot": "bot",
-				"message_where": "Envoyer un message dans {{channel_name}}",
-				"unknown_user": "<Utilisateur Inconnu>",
-				"uploading_file": "Fichier en cours de téléversement…",
-				"failed_upload": "Échec du téléversement !",
-				"typing": {
-					"single": "{{user}} est en train d'écrire…",
-					"multiple": "{{userlist}} et {{user}} sont entrain d'écrire…",
-					"several": "Plusieurs utilisateurs sont entrain d'écrire…"
-				},
-				"message_who": "Envoyer un message à {{person}}",
-				"message_saved": "Enregistrer dans vos messages",
-				"start": {
-					"group": "Voici le début de votre conversation."
-				},
-				"edited": "(modifié)",
-				"attached_file": "Pièce jointe {{filename}}"
-			},
-			"categories": {
-				"conversations": "Conversations",
-				"channels": "Salons",
-				"participants": "Participants",
-				"members": "Membres"
-			},
-			"groups": {
-				"create": "Créer un groupe.",
-				"name": "Nom du groupe",
-				"owner": "Propriétaire du groupe"
-			}
-		},
-		"navigation": {
-			"tabs": {
-				"dev": "Développeur",
-				"saved": "Messages enregistrés",
-				"home": "Accueil",
-				"friends": "Amis",
-				"unreads": "Non lus"
-			}
-		},
-		"status": {
-			"offline": "Hors-ligne",
-			"idle": "Absent",
-			"busy": "Occupé",
-			"invisible": "Invisible",
-			"online": "En ligne"
-		},
-		"context_menu": {
-			"retry_message": "Réessayer d'envoyer",
-			"edit_message": "Modifier le message",
-			"copy_text": "Copier le texte",
-			"copy_uid": "Copier l'identifiant utilisateur",
-			"quote_message": "Citer le message",
-			"save_video": "Sauvegarder la vidéo",
-			"clear_status": "Supprimer le status",
-			"message_user": "Message",
-			"mark_as_read": "Marquer comme lu",
-			"delete_message": "Supprimer le message",
-			"remove_member": "Enlever du groupe",
-			"open_file": "Ouvrir le fichier",
-			"save_file": "Sauvegarder le fichier",
-			"open_image": "Ouvrir l'image",
-			"save_image": "Sauvegarder l'image",
-			"copy_link": "Copier le lien",
-			"open_link": "Ouvrir le lien",
-			"block_user": "Bloquer l'utilisateur",
-			"unblock_user": "Débloquer l'utilisateur",
-			"add_friend": "Ajouter en Ami",
-			"remove_friend": "Enlever l'Ami",
-			"set_custom_status": "Définir un status personalisé",
-			"cancel_message": "Annuler l'envoi",
-			"open_video": "Ouvrir la vidéo",
-			"copy_id": "Copier l'identifiant",
-			"copy_cid": "Copier l'identifiant du salon",
-			"copy_mid": "Copier l'identifiant du message",
-			"mention": "Mentionner",
-			"cancel_friend": "Annuler la demande",
-			"custom_status": "Status personalisé",
-			"open_channel_settings": "Paramètres du salon"
-		},
-		"settings": {
-			"pages": {
-				"appearance": {
-					"import_manual": "Importer manuellement",
-					"overrides": "Priorité des thèmes",
-					"theme_data": "Données du thème",
-					"title": "Apparence",
-					"display": {
-						"default": "Défaut",
-						"compact": "Compacte",
-						"default_description": "Beau, élégant et moderne.",
-						"compact_description": "Le bon vieil IRC."
-					},
-					"accent_selector": "Couleur accentuée",
-					"reset_overrides": "Réinitialiser les priorités",
-					"theme": "Thème",
-					"color": {
-						"light": "clair",
-						"dark": "sombre"
-					},
-					"message_display": "Affichage des messages",
-					"custom_css": "CSS personalisé",
-					"sync": "Options de syncronisation",
-					"advanced": "Paramètres avancés",
-					"export_clipboard": "Copier dans le presse-papier",
-					"import_clipboard": "Importer depuis le presse-papier",
-					"import_theme": "Importer le thème depuis une chaine de caractères"
-				},
-				"notifications": {
-					"descriptions": {
-						"enable_desktop": "Cela vous enverra des notifications tant que l'application est ouverte.",
-						"enable_sound": "Jouera un son a la réception d'un message.",
-						"enable_push": "Possibilité de recevoir des notifications hors-ligne.",
-						"enable_outgoing_sound": "Jouera un son lors de l'envoi de messages."
-					},
-					"title": "Notifications",
-					"enable_push": "Activer les notifications Push.",
-					"enable_sound": "Jouer un son lors de la réception.",
-					"enable_desktop": "Activer les notifications de bureau.",
-					"enable_outgoing_sound": "Jouer un sond a l'envoi."
-				},
-				"profile": {
-					"title": "Profil",
-					"info": "Information",
-					"fetching": "Récupération de votre profil…",
-					"placeholder": "Écrivez quelque chose a votre propos…"
-				},
-				"feedback": {
-					"title": "Suggestions",
-					"report": "Que souhaitez vous signaler ?",
-					"bug": "Dysfonctionnement",
-					"feature": "Ajout de fonctionalité",
-					"other": "Autre",
-					"describe": "Veuillez décrire le problème.",
-					"send": "Envoyer un retour"
-				},
-				"account": {
-					"title": "Mon Compte",
-					"change_field": "Modifier"
-				},
-				"sessions": {
-					"this_device": "Cet appareil",
-					"created": "Créé il y a {{time_ago}}",
-					"title": "Sessions",
-					"active_sessions": "Sessions actives"
-				},
-				"language": {
-					"title": "Langue",
-					"select": "Séléctionner votre langue"
-				},
-				"source_code": "Source",
-				"logOut": "Déconnexion",
-				"donate": {
-					"title": "Faire un don"
-				}
-			},
-			"channel_pages": {
-				"overview": {
-					"title": "Aperçu",
-					"name": "Nom du Salon",
-					"description": "Description du Salon"
-				}
-			},
-			"title": "Paramètres",
-			"categories": {
-				"user_settings": "Paramètres utilisateur",
-				"client_settings": "Paramètres de l'Application"
-			},
-			"tips": {
-				"account": {
-					"a": "Customiser votre profil public ?",
-					"b": "Rendez vous dans vos paramètres utilisateurs."
-				},
-				"languages": {
-					"a": "La langue souhaitée n'est pas disponible ?",
-					"b": "Contribuez a la traduction."
-				},
-				"sessions": {
-					"a": "Si une session inconnue est présente dans la liste,",
-					"b": "sécurisez votre compte en changeant votre mot de passe et en utilisant l'A2F."
-				}
-			}
-		},
-		"special": {
-			"friends": {
-				"pending": "En attente",
-				"blocked": "Bloqué",
-				"incoming": "Demande d'ami reçue.",
-				"nobody": "Il n'y a personne ici encore !",
-				"outgoing": "Demande d'ami envoyée."
-			},
-			"modals": {
-				"error": "Une erreur est survenue !",
-				"actions": {
-					"update": "Mettre à jour",
-					"preview": "Prévisualiser",
-					"reload": "Rechargement de l'application",
-					"ok": "Ok",
-					"close": "Fermer",
-					"send_email": "Envoyer un email",
-					"continue": "Continuer",
-					"save": "Sauvegarder",
-					"cancel": "Annuler"
-				},
-				"signed_out": "Vous avez été déconnecté !",
-				"account": {
-					"change": {
-						"email": "Changer votre addresse email",
-						"username": "Changer votre nom d'utilisateur",
-						"password": "Changer votre mot de passe"
-					},
-					"failed": "La modification a échoué !"
-				},
-				"clipboard": {
-					"copy": "Copie manuelle :",
-					"https": "Vous n'êtes actuellement pas en connexion HTTPS.",
-					"unavailable": "Le presse-papier n'est pas disponible !"
-				},
-				"prompt": {
-					"confirm_leave": "Quitter {{group_name}} ?",
-					"confirm_leave_long": "Vous ne pourrez pas revenir a moins d'y être ré-invité."
-				},
-				"onboarding": {
-					"welcome": "Bienvenue sur",
-					"pick": "Séléctionnez un nom d'utilisateur avec le quel vous souhaitez être trouvable, il peut être changé plus tard."
-				}
-			},
-			"status": {
-				"offline": "Hors-ligne.",
-				"reconnecting": "Reconnexion en cours…",
-				"disconnected": "Déconnecté.",
-				"connecting": "Connexion en cours…"
-			},
-			"popovers": {
-				"user_profile": {
-					"profile": "Profil",
-					"mutual_groups": "Groupes en commun",
-					"mutual_friends": "Amis en commun",
-					"no_users": "Aucun amis en commun !",
-					"no_groups": "Aucun groupes en commun !",
-					"badges": {
-						"translator": "Traducteur"
-					}
-				}
-			},
-			"requires_online": "Vous devez être en ligne pour voir cela."
-		}
-	},
-	"quantities": {
-		"members": {
-			"one": "1 Membre",
-			"many": "{{count}} Membres"
-		}
-	},
-	"dayjs": {
-		"lastWeek": "dddd [dernier, à] LT",
-		"lastDay": "[Hier à] LT",
-		"sameDay": "[Aujourd'hui à] LT",
-		"nextDay": "[Demain à] LT",
-		"nextWeek": "dddd [à] LT",
-		"sameElse": "L"
-	},
-	"notifications": {
-		"now_friends": "Vous êtes maintenant ami avec @{{person}} !",
-		"sent_request": "@{{person}} vous a envoyé une demande d'ami."
-	},
-	"error": {
-		"Unlabelled": "Une erreur est survenue.",
-		"RenderFail": "Échec du rendu du modèle.",
-		"InvalidToken": "Token invalide",
-		"MissingInvite": "Code d'invitation manquant dans la requête.",
-		"AlreadyFriends": "Déja ami avec cet utilisateur.",
-		"Blocked": "Vous avez bloqué cet utilisateur.",
-		"FailedToReceive": "La réception de votre fichier par le serveur a échoué.",
-		"MissingData": "Données de la requête manquantes.",
-		"IoError": "Le serveur a rencontré une erreur I/O.",
-		"UnsupportedBrowser": "Votre naviguateur ne supporte pas cette fonctionalité.",
-		"DeniedNotification": "Vous avez refusé l'accès aux notification, vérifiez les paramètres.",
-		"FailedValidation": "Échec de la validation des champs.",
-		"DatabaseError": "Erreur de la base de données.",
-		"InternalError": "Erreur interne.",
-		"MissingPermission": "Permissions manquantes.",
-		"InvalidSession": "Session invalide.",
-		"UnverifiedAccount": "Compte non vérifié.",
-		"UnknownUser": "Utilisateur inconnu.",
-		"InvalidCredentials": "Email ou mot de passe invalide.",
-		"InvalidInvite": "Invitation invalide",
-		"AlreadyOnboarded": "Configuration déja terminée.",
-		"UsernameTaken": "Nom d'utilisateur déja pris.",
-		"AlreadySentRequest": "Demande déja envoyée a cet utilisateur.",
-		"TooShort": "Trop court",
-		"FileTooLarge": "Fichier trop volumineux.",
-		"NetworkError": "Erreur réseau.",
-		"Unauthorized": "Non autorisé.",
-		"UnknownError": "Voir la console.",
-		"OperationFailed": "Échec de l'opération.",
-		"EmailFailed": "Échec de l'envoi de l'email.",
-		"BlockedOther": "Cet utilisateur vous a bloqué.",
-		"NoEffect": "Cette requête n'a pas pris effet.",
-		"RequiredField": "Requis",
-		"TooLong": "Trop long",
-		"InvalidEmail": "Addresse email invalide",
-		"Unavailable": "Indisponible.",
-		"ProbeError": "Échec du chargement des métadonnées.",
-		"MissingHeaders": "En-têtes manquants.",
-		"EmailInUse": "Email déja utilisé."
-	}
+    "general": {
+        "about": "À propos",
+        "tos": "Conditions d'utilisation",
+        "privacy": "Politique de confidentialité",
+        "image_by": "Image par",
+        "loading": "Chargement…"
+    },
+    "login": {
+        "title": "Connexion",
+        "email": "Email",
+        "password": "Mot De Passe",
+        "enter": {
+            "email": "Entrez votre Email.",
+            "password": "Entrez votre mot de passe.",
+            "invite": "Entrez votre code d'invitation.",
+            "username": "Entrez un nom d'utilisateur.",
+            "current_password": "Entrez votre mot de passe actuel."
+        },
+        "forgot": "Mot De Passe oublié ?",
+        "new": "Nouveau sur REVOLT ?",
+        "create": "Créer un nouveau compte.",
+        "open_mail_provider": "Ouvrir {{provider}}",
+        "successful_registration": "Compte créé avec succès !",
+        "set_password": "Définir un nouveau mot de passe.",
+        "missing_verification": "Pas d'email ?",
+        "cancel": "Annuler la requête.",
+        "error": {
+            "reset": "Échec de réinitialisation !",
+            "create": "Échec de création de compte !",
+            "login": "Échec de connexion !",
+            "resend": "Échec du renvoi !"
+        },
+        "reset": "Réinitialiser le mot de passe.",
+        "remembered": "Retour à la page de connexion.",
+        "register": "Inscription",
+        "invite": "Code d'invitation",
+        "current_password": "Mot de passe actuel",
+        "resend": "Renvoyer la vérification.",
+        "existing": "Avez-vous déjà un compte ?",
+        "username": "Nom d'utilisateur",
+        "check_mail": "Vérifiez votre boite mail.",
+        "check_spam": "Veuillez vérifier dans vos spam si vous ne pouvez pas le trouver"
+    },
+    "app": {
+        "main": {
+            "channel": {
+                "message": "Message {{name}}",
+                "system": {
+                    "user_left": "est parti.",
+                    "added_by": "ajouté par",
+                    "user_joined": "a rejoint.",
+                    "removed_by": "enlevé par",
+                    "channel_renamed": "nom du salon changé pour",
+                    "channel_description_changed": "a modifié la description du salon",
+                    "channel_icon_changed": "a modifié l'icône du salon"
+                },
+                "bot": "bot",
+                "message_where": "Envoyer un message dans {{channel_name}}",
+                "unknown_user": "<Utilisateur Inconnu>",
+                "uploading_file": "Fichier en cours de téléversement…",
+                "failed_upload": "Échec du téléversement !",
+                "typing": {
+                    "single": "{{user}} est en train d'écrire…",
+                    "multiple": "{{userlist}} et {{user}} sont entrain d'écrire…",
+                    "several": "Plusieurs utilisateurs sont entrain d'écrire…"
+                },
+                "message_who": "Envoyer un message à {{person}}",
+                "message_saved": "Enregistrer dans vos notes",
+                "start": {
+                    "group": "Voici le début de votre conversation."
+                },
+                "edited": "(modifié)",
+                "attached_file": "Pièce jointe {{filename}}",
+                "voice": {
+                    "connected": "Connecté en vocal",
+                    "leave": "Quitter",
+                    "mute": "Rendre muet",
+                    "unmute": "Rétablir la voix"
+                },
+                "misc": {
+                    "viewing_old": "Vous regardez d'anciens messages",
+                    "jump_present": "Revenir aux messages récents",
+                    "spoiler_attachment": "Spoiler"
+                }
+            },
+            "categories": {
+                "conversations": "Conversations",
+                "channels": "Salons",
+                "participants": "Participants",
+                "members": "Membres"
+            },
+            "groups": {
+                "create": "Créer un groupe.",
+                "name": "Nom du groupe",
+                "owner": "Propriétaire du groupe"
+            }
+        },
+        "navigation": {
+            "tabs": {
+                "dev": "Développeur",
+                "saved": "Notes enregistrées",
+                "home": "Accueil",
+                "friends": "Amis",
+                "unreads": "Non lus"
+            }
+        },
+        "status": {
+            "offline": "Hors-ligne",
+            "idle": "Absent",
+            "busy": "Occupé",
+            "invisible": "Invisible",
+            "online": "En ligne"
+        },
+        "context_menu": {
+            "retry_message": "Réessayer d'envoyer",
+            "edit_message": "Modifier le message",
+            "copy_text": "Copier le texte",
+            "copy_uid": "Copier l'identifiant utilisateur",
+            "quote_message": "Citer le message",
+            "save_video": "Sauvegarder la vidéo",
+            "clear_status": "Supprimer le status",
+            "message_user": "Message",
+            "mark_as_read": "Marquer comme lu",
+            "delete_message": "Supprimer le message",
+            "remove_member": "Enlever du groupe",
+            "open_file": "Ouvrir le fichier",
+            "save_file": "Sauvegarder le fichier",
+            "open_image": "Ouvrir l'image",
+            "save_image": "Sauvegarder l'image",
+            "copy_link": "Copier le lien",
+            "open_link": "Ouvrir le lien",
+            "block_user": "Bloquer l'utilisateur",
+            "unblock_user": "Débloquer l'utilisateur",
+            "add_friend": "Ajouter en Ami",
+            "remove_friend": "Enlever l'Ami",
+            "set_custom_status": "Définir un status personalisé",
+            "cancel_message": "Annuler l'envoi",
+            "open_video": "Ouvrir la vidéo",
+            "copy_id": "Copier l'identifiant",
+            "copy_cid": "Copier l'identifiant du salon",
+            "copy_mid": "Copier l'identifiant du message",
+            "mention": "Mentionner",
+            "cancel_friend": "Annuler la demande",
+            "custom_status": "Status personalisé",
+            "open_channel_settings": "Paramètres du salon",
+            "open_group_settings": "Paramètres du groupe",
+            "copy_selection": "Copier la sélection"
+        },
+        "settings": {
+            "pages": {
+                "appearance": {
+                    "import_manual": "Importer manuellement",
+                    "overrides": "Priorité des thèmes",
+                    "theme_data": "Données du thème",
+                    "title": "Apparence",
+                    "display": {
+                        "default": "Défaut",
+                        "compact": "Compacte",
+                        "default_description": "Beau, élégant et moderne.",
+                        "compact_description": "Le bon vieil IRC."
+                    },
+                    "accent_selector": "Couleur accentuée",
+                    "reset_overrides": "Réinitialiser les priorités",
+                    "theme": "Thème",
+                    "color": {
+                        "light": "clair",
+                        "dark": "sombre"
+                    },
+                    "message_display": "Affichage des messages",
+                    "custom_css": "CSS personalisé",
+                    "sync": "Options de syncronisation",
+                    "advanced": "Paramètres avancés",
+                    "export_clipboard": "Copier dans le presse-papier",
+                    "import_clipboard": "Importer depuis le presse-papier",
+                    "import_theme": "Importer le thème depuis une chaine de caractères",
+                    "emoji_pack": "Collection d'émoji"
+                },
+                "notifications": {
+                    "descriptions": {
+                        "enable_desktop": "Cela vous enverra des notifications tant que l'application est ouverte.",
+                        "enable_sound": "Jouera un son a la réception d'un message.",
+                        "enable_push": "Possibilité de recevoir des notifications hors-ligne.",
+                        "enable_outgoing_sound": "Jouera un son lors de l'envoi de messages."
+                    },
+                    "title": "Notifications",
+                    "enable_push": "Activer les notifications Push.",
+                    "enable_sound": "Jouer un son lors de la réception.",
+                    "enable_desktop": "Activer les notifications de bureau.",
+                    "enable_outgoing_sound": "Jouer un sond a l'envoi.",
+                    "push_notifications": "Notifications push",
+                    "sounds": "Sons"
+                },
+                "profile": {
+                    "title": "Profil",
+                    "info": "Information",
+                    "fetching": "Récupération de votre profil…",
+                    "placeholder": "Écrivez quelque chose a votre propos…",
+                    "profile_picture": "Image de profil",
+                    "edit_background": "Éditer l'arrière-plan",
+                    "custom_background": "Arrière-plan personnalisé"
+                },
+                "feedback": {
+                    "title": "Suggestions",
+                    "report": "Que souhaitez vous signaler ?",
+                    "bug": "Dysfonctionnement",
+                    "feature": "Ajout de fonctionalité",
+                    "other": "Autre",
+                    "describe": "Veuillez décrire le problème.",
+                    "send": "Envoyer un retour"
+                },
+                "account": {
+                    "title": "Mon Compte",
+                    "change_field": "Modifier"
+                },
+                "sessions": {
+                    "this_device": "Cet appareil",
+                    "created": "Créé il y a {{time_ago}}",
+                    "title": "Sessions",
+                    "active_sessions": "Sessions actives"
+                },
+                "language": {
+                    "title": "Langue",
+                    "select": "Séléctionner votre langue"
+                },
+                "source_code": "Source",
+                "logOut": "Déconnexion",
+                "donate": {
+                    "title": "Faire un don"
+                },
+                "sync": {
+                    "title": "Synchronisation",
+                    "categories": "Synchronisation des catégories",
+                    "descriptions": {
+                        "appearance": "Ceci va synchroniser vos options tels que les collections d'émoji et la densité des messages.",
+                        "theme": "Ceci va synchroniser les thèmes et couleurs choisies, ainsi que tout code CSS ajouté.",
+                        "locale": "Ceci va synchroniser votre langue actuellement sélectionnée."
+                    }
+                }
+            },
+            "channel_pages": {
+                "overview": {
+                    "title": "Aperçu",
+                    "name": "Nom du Salon",
+                    "description": "Description du Salon"
+                }
+            },
+            "title": "Paramètres",
+            "categories": {
+                "user_settings": "Paramètres utilisateur",
+                "client_settings": "Paramètres de l'Application"
+            },
+            "tips": {
+                "account": {
+                    "a": "Customiser votre profil public ?",
+                    "b": "Rendez vous dans vos paramètres utilisateurs."
+                },
+                "languages": {
+                    "a": "La langue souhaitée n'est pas disponible ?",
+                    "b": "Contribuez a la traduction."
+                },
+                "sessions": {
+                    "a": "Si une session inconnue est présente dans la liste,",
+                    "b": "sécurisez votre compte en changeant votre mot de passe et en utilisant l'A2F."
+                }
+            },
+            "actions": {
+                "remove": "Retirer",
+                "upload": "Téléverser (max {{filesize}})"
+            }
+        },
+        "special": {
+            "friends": {
+                "pending": "En attente",
+                "blocked": "Bloqué",
+                "incoming": "Demande d'ami reçue.",
+                "nobody": "Il n'y a personne ici encore !",
+                "outgoing": "Demande d'ami envoyée."
+            },
+            "modals": {
+                "error": "Une erreur est survenue !",
+                "actions": {
+                    "update": "Mettre à jour",
+                    "preview": "Prévisualiser",
+                    "reload": "Rechargement de l'application",
+                    "ok": "Ok",
+                    "close": "Fermer",
+                    "send_email": "Envoyer un email",
+                    "continue": "Continuer",
+                    "save": "Sauvegarder",
+                    "cancel": "Annuler"
+                },
+                "signed_out": "Vous avez été déconnecté !",
+                "account": {
+                    "change": {
+                        "email": "Changer votre addresse email",
+                        "username": "Changer votre nom d'utilisateur",
+                        "password": "Changer votre mot de passe"
+                    },
+                    "failed": "La modification a échoué !"
+                },
+                "clipboard": {
+                    "copy": "Copie manuelle :",
+                    "https": "Vous n'êtes actuellement pas en connexion HTTPS.",
+                    "unavailable": "Le presse-papier n'est pas disponible !"
+                },
+                "prompt": {
+                    "confirm_leave": "Quitter {{group_name}} ?",
+                    "confirm_leave_long": "Vous ne pourrez pas revenir a moins d'y être ré-invité."
+                },
+                "onboarding": {
+                    "welcome": "Bienvenue sur",
+                    "pick": "Séléctionnez un nom d'utilisateur avec le quel vous souhaitez être trouvable, il peut être changé plus tard."
+                }
+            },
+            "status": {
+                "offline": "Hors-ligne.",
+                "reconnecting": "Reconnexion en cours…",
+                "disconnected": "Déconnecté.",
+                "connecting": "Connexion en cours…"
+            },
+            "popovers": {
+                "user_profile": {
+                    "profile": "Profil",
+                    "mutual_groups": "Groupes en commun",
+                    "mutual_friends": "Amis en commun",
+                    "no_users": "Aucun amis en commun !",
+                    "no_groups": "Aucun groupes en commun !",
+                    "badges": {
+                        "translator": "Traducteur",
+                        "early_adopter": "Adopteur de longue date",
+                        "supporter": "Supporter"
+                    },
+                    "sub": {
+                        "connections": "Connexions",
+                        "badges": "Badges",
+                        "information": "Information"
+                    },
+                    "empty": "C'est un peu vide ici…"
+                },
+                "user_picker": {
+                    "select": "Sélectionner des amis à ajouter."
+                }
+            },
+            "requires_online": "Vous devez être en ligne pour voir cela.",
+            "copy_username": "Cliquez pour copier le nom d'utilisateur"
+        }
+    },
+    "quantities": {
+        "members": {
+            "one": "1 Membre",
+            "many": "{{count}} Membres"
+        }
+    },
+    "dayjs": {
+        "lastWeek": "dddd [dernier, à] LT",
+        "lastDay": "[Hier à] LT",
+        "sameDay": "[Aujourd'hui à] LT",
+        "nextDay": "[Demain à] LT",
+        "nextWeek": "dddd [à] LT",
+        "sameElse": "L"
+    },
+    "notifications": {
+        "now_friends": "Vous êtes maintenant ami avec @{{person}} !",
+        "sent_request": "@{{person}} vous a envoyé une demande d'ami."
+    },
+    "error": {
+        "Unlabelled": "Une erreur est survenue.",
+        "RenderFail": "Échec du rendu du modèle.",
+        "InvalidToken": "Token invalide",
+        "MissingInvite": "Code d'invitation manquant dans la requête.",
+        "AlreadyFriends": "Déja ami avec cet utilisateur.",
+        "Blocked": "Vous avez bloqué cet utilisateur.",
+        "FailedToReceive": "La réception de votre fichier par le serveur a échoué.",
+        "MissingData": "Données de la requête manquantes.",
+        "IoError": "Le serveur a rencontré une erreur I/O.",
+        "UnsupportedBrowser": "Votre naviguateur ne supporte pas cette fonctionalité.",
+        "DeniedNotification": "Vous avez refusé l'accès aux notification, vérifiez les paramètres.",
+        "FailedValidation": "Échec de la validation des champs.",
+        "DatabaseError": "Erreur de la base de données.",
+        "InternalError": "Erreur interne.",
+        "MissingPermission": "Permissions manquantes.",
+        "InvalidSession": "Session invalide.",
+        "UnverifiedAccount": "Compte non vérifié.",
+        "UnknownUser": "Utilisateur inconnu.",
+        "InvalidCredentials": "Email ou mot de passe invalide.",
+        "InvalidInvite": "Invitation invalide",
+        "AlreadyOnboarded": "Configuration déja terminée.",
+        "UsernameTaken": "Nom d'utilisateur déja pris.",
+        "AlreadySentRequest": "Demande déja envoyée a cet utilisateur.",
+        "TooShort": "Trop court",
+        "FileTooLarge": "Fichier trop volumineux.",
+        "NetworkError": "Erreur réseau.",
+        "Unauthorized": "Non autorisé.",
+        "UnknownError": "Voir la console.",
+        "OperationFailed": "Échec de l'opération.",
+        "EmailFailed": "Échec de l'envoi de l'email.",
+        "BlockedOther": "Cet utilisateur vous a bloqué.",
+        "NoEffect": "Cette requête n'a pas pris effet.",
+        "RequiredField": "Requis",
+        "TooLong": "Trop long",
+        "InvalidEmail": "Addresse email invalide",
+        "Unavailable": "Indisponible.",
+        "ProbeError": "Échec du chargement des métadonnées.",
+        "MissingHeaders": "En-têtes manquants.",
+        "EmailInUse": "Email déja utilisé.",
+        "CompromisedPassword": "Ce mot de passe est compromis."
+    }
 }
