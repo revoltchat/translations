@@ -109,6 +109,11 @@
                 "create": "Create a group.",
                 "name": "Group Name",
                 "owner": "Group Owner"
+            },
+            "servers": {
+                "create": "Create a server.",
+                "name": "Server Name",
+                "owner": "Server Owner"
             }
         },
         "settings": {
@@ -261,8 +266,12 @@
                     "pick": "Pick a username that you want people to be able to find you by, this can be changed later in settings."
                 },
                 "prompt": {
-                    "confirm_leave": "Leave {{group_name}}?",
-                    "confirm_leave_long": "You won't be able to rejoin unless you are re-invited."
+                    "confirm_leave": "Leave {{name}}?",
+                    "confirm_leave_long": "You won't be able to rejoin unless you are re-invited.",
+                    "confirm_close_dm": "Close conversation with {{name}}?",
+                    "confirm_close_dm_long": "You can re-open it later but it will disappear on both sides.",
+                    "confirm_delete_server": "Delete {{name}}?",
+                    "confirm_delete_server_long": "Once a server is deleted, there's no going back."
                 },
                 "account": {
                     "change": {
@@ -314,6 +323,7 @@
             "copy_selection": "Copy Selection",
             "copy_text": "Copy Text",
             "copy_uid": "Copy User ID",
+            "copy_sid": "Copy Server ID",
             "copy_cid": "Copy Channel ID",
             "copy_mid": "Copy Message ID",
             "mention": "Mention",
@@ -342,6 +352,7 @@
             "clear_status": "Clear Status",
             "set_custom_status": "Set a custom status",
             "open_channel_settings": "Channel Settings",
+            "open_server_settings": "Server Settings",
             "open_group_settings": "Group Settings"
         }
     },
