@@ -110,6 +110,12 @@
                 "name": "Gruppenname",
                 "create": "Gruppe erstellen.",
                 "owner": "Gruppenbesitzer"
+            },
+            "servers": {
+                "create": "Erstelle einen Server.",
+                "name": "Servername",
+                "owner": "Besitzer",
+                "channel_name": "Kanalname"
             }
         },
         "context_menu": {
@@ -145,7 +151,15 @@
             "custom_status": "Benutzerdefinierter Status",
             "open_group_settings": "Gruppeneinstellungen",
             "open_channel_settings": "Kanaleinstellungen",
-            "copy_selection": "Auswahl kopieren"
+            "copy_selection": "Auswahl kopieren",
+            "leave_group": "Gruppe verlassen",
+            "leave_server": "Server verlassen",
+            "close_dm": "Direktnachricht schließen",
+            "delete_server": "Server löschen",
+            "create_channel": "Kanal erstellen",
+            "open_server_settings": "Servereinstellungen",
+            "copy_sid": "Server-ID kopieren",
+            "delete_channel": "Kanal löschen"
         },
         "special": {
             "friends": {
@@ -181,7 +195,11 @@
                 },
                 "prompt": {
                     "confirm_leave_long": "Du wirst nicht erneut beitreten können, außer du wirst erneut eingeladen.",
-                    "confirm_leave": "{{group_name}} verlassen?"
+                    "confirm_leave": "{{name}} verlassen?",
+                    "confirm_close_dm": "Besprechung mit {{name}} schließen?",
+                    "confirm_close_dm_long": "Du kannst sie später wieder öffnen, aber sie wird auf beiden Seiten verschwinden.",
+                    "confirm_delete": "{{name}} löschen?",
+                    "confirm_delete_long": "Wenn es gelöscht wird, kann der Löschprozess nicht rückgängig gemacht werden."
                 },
                 "account": {
                     "failed": "Konnte nicht geändert werden!",
@@ -407,5 +425,8 @@
         "Unauthorized": "Nicht angemeldet.",
         "NetworkError": "Netzwerkfehler.",
         "CompromisedPassword": "Dieses Passwort ist nicht vertrauenswürdig."
+    },
+    "shortcuts": {
+        "ctrlc": "Strg + C"
     }
 }
