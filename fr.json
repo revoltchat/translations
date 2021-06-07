@@ -94,6 +94,12 @@
                 "create": "Créer un groupe.",
                 "name": "Nom du groupe",
                 "owner": "Propriétaire du groupe"
+            },
+            "servers": {
+                "create": "Créer un serveur.",
+                "name": "Nom du serveur",
+                "channel_name": "Nom du salon",
+                "owner": "Propriétaire du serveur"
             }
         },
         "navigation": {
@@ -145,7 +151,15 @@
             "custom_status": "Status personalisé",
             "open_channel_settings": "Paramètres du salon",
             "open_group_settings": "Paramètres du groupe",
-            "copy_selection": "Copier la sélection"
+            "copy_selection": "Copier la sélection",
+            "copy_sid": "Copier l'identifiant du serveur",
+            "leave_server": "Quitter le serveur",
+            "close_dm": "Fermer le MP",
+            "delete_server": "Supprimer le serveur",
+            "delete_channel": "Supprimer le salon",
+            "create_channel": "Créer un salon",
+            "open_server_settings": "Paramètres du serveur",
+            "leave_group": "Quitter le groupe"
         },
         "settings": {
             "pages": {
@@ -305,8 +319,12 @@
                     "unavailable": "Le presse-papier n'est pas disponible !"
                 },
                 "prompt": {
-                    "confirm_leave": "Quitter {{group_name}} ?",
-                    "confirm_leave_long": "Vous ne pourrez pas revenir a moins d'y être ré-invité."
+                    "confirm_leave": "Quitter {{name}} ?",
+                    "confirm_leave_long": "Vous ne pourrez pas revenir a moins d'y être ré-invité.",
+                    "confirm_close_dm": "Fermer la conversation avec {{name}} ?",
+                    "confirm_close_dm_long": "Vous pouvez la fermer plus tard mais elle disparaîtra des deux côtés.",
+                    "confirm_delete": "Supprimer {{name}} ?",
+                    "confirm_delete_long": "Une fois que c'est supprimé, il n'y a pas de retour en arrière."
                 },
                 "onboarding": {
                     "welcome": "Bienvenue sur",
@@ -405,5 +423,8 @@
         "MissingHeaders": "En-têtes manquants.",
         "EmailInUse": "Email déja utilisé.",
         "CompromisedPassword": "Ce mot de passe est compromis."
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
     }
 }
