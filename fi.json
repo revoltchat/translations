@@ -51,7 +51,8 @@
                     "user_left": "poistui.",
                     "user_joined": "liittyi.",
                     "removed_by": "poistanut",
-                    "added_by": "lisännyt"
+                    "added_by": "lisännyt",
+                    "channel_description_changed": "muutti kanavan kuvausta"
                 },
                 "voice": {
                     "leave": "Poistu",
@@ -91,6 +92,12 @@
                 "owner": "Ryhmän omistaja",
                 "create": "Luo ryhmä.",
                 "name": "Ryhmän nimi"
+            },
+            "servers": {
+                "channel_name": "Kanavan nimi",
+                "name": "Palvelimen nimi",
+                "create": "Luo palvelin.",
+                "owner": "Palvelimen omistaja"
             }
         },
         "context_menu": {
@@ -122,9 +129,18 @@
             "copy_mid": "Kopioi viestin tunniste",
             "cancel_friend": "Peruuta pyyntö",
             "copy_selection": "Kopioi valinta",
-            "copy_cid": "Kopioi kanavan tunnus",
+            "copy_cid": "Kopioi kanavan tunniste",
             "cancel_message": "Peruuta lähetys",
-            "retry_message": "Yritä lähettää uudelleen"
+            "retry_message": "Yritä lähettää uudelleen",
+            "delete_channel": "Poista kanava",
+            "delete_server": "Poista palvelin",
+            "leave_server": "Poistu palvelimelta",
+            "leave_group": "Poistu ryhmästä",
+            "close_dm": "Sulje yksityisviesti",
+            "open_server_settings": "Palvelinasetukset",
+            "copy_sid": "Kopioi palvelimen tunniste",
+            "copy_uid": "Kopioi käyttäjän tunniste",
+            "create_channel": "Luo kanava"
         },
         "special": {
             "popovers": {
@@ -176,13 +192,17 @@
                 },
                 "prompt": {
                     "confirm_leave_long": "Et voi liittyä uudelleen, ellet ole kutsuttu uudelleen.",
-                    "confirm_leave": "Poistutaanko ryhmästä {{group_name}}?"
+                    "confirm_leave": "Poistutaanko ryhmästä {{group_name}}?",
+                    "confirm_delete": "Poista {{name}}?",
+                    "confirm_delete_long": "Kun se on poistettu, ei ole paluuta.",
+                    "confirm_close_dm": "Suljetaanko keskustelu käyttäjän {{name}} kanssa?"
                 },
                 "error": "Tapahtui virhe!",
                 "onboarding": {
                     "pick": "Valitse käyttäjätunnus, jolla haluat ihmisten löytävän sinut. Tätä voi muuttaa myöhemmin asetuksissa.",
                     "welcome": "Tervetuloa"
-                }
+                },
+                "signed_out": "Sinut on kirjauduttu ulos!"
             },
             "copy_username": "Paina kopioidaksesi käyttäjätunnus",
             "status": {
@@ -262,7 +282,14 @@
                     "change_field": "Muuta"
                 },
                 "logOut": "Kirjaudu ulos",
-                "source_code": "Lähdekoodi"
+                "source_code": "Lähdekoodi",
+                "sync": {
+                    "categories": "Synkronoi luokat",
+                    "title": "Synkronoi",
+                    "descriptions": {
+                        "locale": "Tämä synkronoi valitsemasi kielen."
+                    }
+                }
             },
             "categories": {
                 "user_settings": "Käyttäjäasetukset"
@@ -352,9 +379,15 @@
         "FailedValidation": "Kenttien vahvistus epäonnistui.",
         "AlreadyFriends": "Olet jo ystäviä tämän käyttäjän kanssa.",
         "Unavailable": "Ei saatavilla.",
-        "DeniedNotification": "Estit ilmoitusten käytön, tarkista sivun asetukset."
+        "DeniedNotification": "Estit ilmoitusten käytön, tarkista sivun asetukset.",
+        "CompromisedPassword": "Tämä salasana on vaarantunut.",
+        "MissingData": "Pyynnöstä puuttuu tietoja.",
+        "MissingInvite": "Kutsukoodi puuttuu pyynnöstä."
     },
     "notifications": {
         "sent_request": "@{{person}} lähetti sinulle kaveripyynnön."
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
     }
 }
