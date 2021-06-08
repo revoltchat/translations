@@ -94,6 +94,12 @@
                 "create": "Создать группу.",
                 "name": "Название группы",
                 "owner": "Владелец группы"
+            },
+            "servers": {
+                "create": "Создать сервер.",
+                "name": "Название сервера",
+                "channel_name": "Название канала",
+                "owner": "Владелец сервера"
             }
         },
         "navigation": {
@@ -261,7 +267,16 @@
             "open_video": "Открыть видео",
             "open_channel_settings": "Настройки канала",
             "open_group_settings": "Настройки группы",
-            "copy_selection": "Скопировать выделенное"
+            "copy_selection": "Скопировать выделенное",
+            "copy_sid": "Скопировать ID сервера",
+            "leave_server": "Покинуть сервер",
+            "create_invite": "Создать приглашение",
+            "leave_group": "Покинуть группу",
+            "close_dm": "Закрыть ЛС",
+            "delete_server": "Удалить сервер",
+            "delete_channel": "Удалить канал",
+            "create_channel": "Создать канал",
+            "open_server_settings": "Настройки сервера"
         },
         "special": {
             "friends": {
@@ -273,8 +288,14 @@
             },
             "modals": {
                 "prompt": {
-                    "confirm_leave": "Покинуть {{group_name}}?",
-                    "confirm_leave_long": "Вы не сможете повторно присоединиться, пока не получите повторного приглашения."
+                    "confirm_leave": "Покинуть {{name}}?",
+                    "confirm_leave_long": "Вы не сможете повторно присоединиться, пока не получите повторного приглашения.",
+                    "create_invite_generate": "Создание приглашения…",
+                    "confirm_close_dm": "Закрыть переписку с {{name}}?",
+                    "confirm_delete": "Удалить {{name}}?",
+                    "confirm_delete_long": "После того, как он удален, пути назад нет.",
+                    "confirm_close_dm_long": "Вы можете снова открыть его позже, но он исчезнет с обеих сторон.",
+                    "create_invite_created": "Ваш код приглашения:"
                 },
                 "account": {
                     "change": {
@@ -406,5 +427,8 @@
         "UnknownError": "Смотрите консоль.",
         "InvalidEmail": "Недействительный адрес эл. почты",
         "CompromisedPassword": "Ненадежный пароль."
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
     }
 }
