@@ -53,7 +53,9 @@
                     "added_by": "tillagt av",
                     "user_left": "lämnade.",
                     "user_joined": "gick med.",
-                    "channel_renamed": "döpte om kanalen till"
+                    "channel_renamed": "döpte om kanalen till",
+                    "channel_description_changed": "ändrade kanalens beskrivning",
+                    "channel_icon_changed": "ändrade kanalens ikon"
                 },
                 "typing": {
                     "several": "Flera personer skriver…",
@@ -63,7 +65,7 @@
                 "attached_file": "Bifogade {{filename}}",
                 "failed_upload": "Kunde inte ladda upp!",
                 "uploading_file": "Laddar upp fil…",
-                "message_saved": "Spara till dina meddelanden",
+                "message_saved": "Spara till dina anteckningar",
                 "bot": "robot",
                 "unknown_user": "<Okänd Användare>",
                 "edited": "(redigerat)",
@@ -92,6 +94,12 @@
                 "name": "Grupp Namn",
                 "create": "Skapa en grupp.",
                 "owner": "Grupp Ägare"
+            },
+            "servers": {
+                "create": "Skapa en server.",
+                "name": "Server Namn",
+                "channel_name": "Kanal Namn",
+                "owner": "Server Ägare"
             }
         },
         "navigation": {
@@ -144,7 +152,13 @@
                 },
                 "prompt": {
                     "confirm_leave_long": "Du kommer inte kunna gå med igen om inte du blir inbjuden.",
-                    "confirm_leave": "Lämna {{group_name}}?"
+                    "confirm_leave": "Lämna {{name}}?",
+                    "create_invite_generate": "Genererar inbjudan…",
+                    "confirm_close_dm": "Stäng konversationen med {{name}}?",
+                    "confirm_close_dm_long": "Du kan öppna den senare igen men den kommer att försvinna på båda sidorna.",
+                    "confirm_delete": "Ta bort {{name}}?",
+                    "confirm_delete_long": "När det är borttaget så kommer det inte tillbaka.",
+                    "create_invite_created": "Här är din nya inbjudnings-kod:"
                 },
                 "account": {
                     "failed": "Kunde inte ändra!",
@@ -170,7 +184,8 @@
                     "profile": "Profil",
                     "badges": {
                         "translator": "Översättare",
-                        "early_adopter": "Tidig Adopterare"
+                        "early_adopter": "Tidig Adopterare",
+                        "supporter": "Supporter"
                     },
                     "sub": {
                         "connections": "Anslutningar",
@@ -178,6 +193,9 @@
                         "badges": "Märken"
                     },
                     "empty": "Det är lite tomt här…"
+                },
+                "user_picker": {
+                    "select": "Välj vänner att lägga till."
                 }
             },
             "copy_username": "Klicka för att kopiera användarnamn"
@@ -214,7 +232,17 @@
             "clear_status": "Rensa Status",
             "custom_status": "Anpassad Status",
             "open_channel_settings": "Kanal Inställningar",
-            "open_group_settings": "Gruppinställningar"
+            "open_group_settings": "Gruppinställningar",
+            "leave_group": "Lämna Grupp",
+            "copy_selection": "Kopiera Urval",
+            "copy_sid": "Kopiera Server ID",
+            "leave_server": "Lämna Server",
+            "close_dm": "Stäng DM",
+            "delete_server": "Radera Server",
+            "delete_channel": "Radera Kanal",
+            "create_channel": "Skapa Kanal",
+            "create_invite": "Skapa Inbjudan",
+            "open_server_settings": "Server Inställningar"
         },
         "settings": {
             "pages": {
@@ -296,6 +324,15 @@
                     "edit_background": "Redigera Bakgrund",
                     "custom_background": "Anpassad Bakgrund",
                     "profile_picture": "Profilbild"
+                },
+                "sync": {
+                    "title": "Synkronisera",
+                    "categories": "Synkronisera Kategorier",
+                    "descriptions": {
+                        "appearance": "Det här kommer synkronisera inställningar såsom emoji paket och meddelandens utseenden.",
+                        "theme": "Det här kommer synkronisera ditt tema, färger och anpassad CSS.",
+                        "locale": "Det här kommer synkronisera ditt valda språk."
+                    }
                 }
             },
             "categories": {
@@ -390,6 +427,10 @@
         "DeniedNotification": "Du förnekade notifikations-åtkomst, kolla inställningarna för sidan.",
         "UnsupportedBrowser": "Webbläsaren saknar support för den här funktionen.",
         "Unauthorized": "Obehörig.",
-        "NetworkError": "Nätverksfel."
+        "NetworkError": "Nätverksfel.",
+        "CompromisedPassword": "Det här lösenordet har äventyrats."
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
     }
 }
