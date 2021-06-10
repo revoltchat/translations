@@ -58,7 +58,7 @@
                 "bot": "bot",
                 "message_where": "Envoyer un message dans {{channel_name}}",
                 "unknown_user": "<Utilisateur Inconnu>",
-                "uploading_file": "Fichier en cours de téléversement…",
+                "uploading_file": "En cours de téléversement…",
                 "failed_upload": "Échec du téléversement !",
                 "typing": {
                     "single": "{{user}} est en train d'écrire…",
@@ -93,13 +93,17 @@
             "groups": {
                 "create": "Créer un groupe.",
                 "name": "Nom du groupe",
-                "owner": "Propriétaire du groupe"
+                "owner": "Propriétaire du groupe",
+                "description": "Description du groupe"
             },
             "servers": {
                 "create": "Créer un serveur.",
                 "name": "Nom du serveur",
                 "channel_name": "Nom du salon",
-                "owner": "Propriétaire du serveur"
+                "owner": "Propriétaire du serveur",
+                "description": "Description du serveur",
+                "channel_description": "Description du salon",
+                "custom_banner": "Bannière personnalisée"
             }
         },
         "navigation": {
@@ -160,7 +164,10 @@
             "create_channel": "Créer un salon",
             "open_server_settings": "Paramètres du serveur",
             "leave_group": "Quitter le groupe",
-            "create_invite": "Créer une invitation"
+            "create_invite": "Créer une invitation",
+            "view_profile": "Voir le profile",
+            "kick_member": "Expulser le membre",
+            "ban_member": "Expulser le membre"
         },
         "settings": {
             "pages": {
@@ -281,7 +288,24 @@
             },
             "actions": {
                 "remove": "Retirer",
-                "upload": "Téléverser (max {{filesize}})"
+                "upload": "Téléverser",
+                "max_filesize": "(max. {{filesize}})"
+            },
+            "server_pages": {
+                "overview": {
+                    "title": "Vue d'ensemble",
+                    "name": "Nom du serveur",
+                    "description": "Description du salon"
+                },
+                "members": {
+                    "title": "Membres"
+                },
+                "invites": {
+                    "title": "Invitations"
+                },
+                "bans": {
+                    "title": "Bannissement"
+                }
             }
         },
         "special": {
@@ -303,7 +327,10 @@
                     "send_email": "Envoyer un email",
                     "continue": "Continuer",
                     "save": "Sauvegarder",
-                    "cancel": "Annuler"
+                    "cancel": "Annuler",
+                    "ban": "Bannir",
+                    "kick": "Expulser",
+                    "delete": "Supprimer"
                 },
                 "signed_out": "Vous avez été déconnecté !",
                 "account": {
@@ -327,7 +354,11 @@
                     "confirm_delete": "Supprimer {{name}} ?",
                     "confirm_delete_long": "Une fois que c'est supprimé, il n'y a pas de retour en arrière.",
                     "create_invite_generate": "Génération d'invitation en cours…",
-                    "create_invite_created": "Voici votre nouveau code d'invitation :"
+                    "create_invite_created": "Voici votre nouveau code d'invitation :",
+                    "confirm_delete_message_long": "Êtes-vous certain de vouloir supprimer ceci ?",
+                    "confirm_kick": "Êtes vous certain de vouloir expulser {{name}} ?",
+                    "confirm_ban": "Vous êtes sur le point de bannir {{name}}",
+                    "confirm_ban_reason": "Raison du bannissement"
                 },
                 "onboarding": {
                     "welcome": "Bienvenue sur",
