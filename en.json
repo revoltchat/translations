@@ -231,8 +231,18 @@
             },
             "server_pages": {
                 "overview": {
+                    "title": "Overview",
                     "name": "Server Name",
                     "description": "Channel Description"
+                },
+                "members": {
+                    "title": "Members"
+                },
+                "invites": {
+                    "title": "Invites"
+                },
+                "bans": {
+                    "title": "Bans"
                 }
             },
             "tips": {
@@ -286,7 +296,10 @@
                     "confirm_delete_long": "Once it's deleted, there's no going back.",
                     "confirm_delete_message_long": "Are you sure you want to delete this?",
                     "create_invite_generate": "Generating invite…",
-                    "create_invite_created": "Here is your new invite code:"
+                    "create_invite_created": "Here is your new invite code:",
+                    "confirm_kick": "Are you sure you want to kick {{name}}?",
+                    "confirm_ban": "You are about to ban {{name}}",
+                    "confirm_ban_reason": "Ban Reason"
                 },
                 "account": {
                     "change": {
@@ -298,6 +311,8 @@
                 },
                 "actions": {
                     "ok": "Ok",
+                    "ban": "Ban",
+                    "kick": "Kick",
                     "save": "Save",
                     "close": "Close",
                     "delete": "Delete",
@@ -352,6 +367,8 @@
             "edit_message": "Edit Message",
             "delete_message": "Delete Message",
             "remove_member": "Remove From Group",
+            "kick_member": "Kick Member",
+            "ban_member": "Ban Member",
             "open_file": "Open File",
             "save_file": "Save File",
             "open_image": "Open Image",
