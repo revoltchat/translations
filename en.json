@@ -70,7 +70,7 @@
                 "message_where": "Message {{channel_name}}",
                 "message_who": "Message {{person}}",
                 "message_saved": "Save to your notes",
-                "uploading_file": "Uploading file…",
+                "uploading_file": "Uploading…",
                 "failed_upload": "Failed to upload!",
                 "attached_file": "Attached {{filename}}",
                 "typing": {
@@ -108,12 +108,16 @@
             "groups": {
                 "create": "Create a group.",
                 "name": "Group Name",
+                "description": "Group Description",
                 "owner": "Group Owner"
             },
             "servers": {
                 "create": "Create a server.",
                 "name": "Server Name",
+                "description": "Server Description",
                 "channel_name": "Channel Name",
+                "channel_description": "Channel Description",
+                "custom_banner": "Custom Banner",
                 "owner": "Server Owner"
             }
         },
@@ -125,7 +129,8 @@
             },
             "actions": {
                 "remove": "Remove",
-                "upload": "Upload (max {{filesize}})"
+                "upload": "Upload",
+                "max_filesize": "(max {{filesize}})"
             },
             "pages": {
                 "account": {
@@ -221,6 +226,12 @@
                 "overview": {
                     "title": "Overview",
                     "name": "Channel Name",
+                    "description": "Channel Description"
+                }
+            },
+            "server_pages": {
+                "overview": {
+                    "name": "Server Name",
                     "description": "Channel Description"
                 }
             },
