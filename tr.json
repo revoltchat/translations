@@ -33,7 +33,16 @@
             "set_custom_status": "Özel bir durum ayarla",
             "open_group_settings": "Grup Ayarları",
             "open_channel_settings": "Kanal Ayarları",
-            "copy_selection": "Seçimi Kopyala"
+            "copy_selection": "Seçimi Kopyala",
+            "copy_sid": "Sunucu ID'sini Kopyala",
+            "leave_group": "Gruptan ayrıl",
+            "leave_server": "Sunucudan Ayrıl",
+            "close_dm": "DM'yi kapat",
+            "delete_server": "Sunucuyu Sil",
+            "delete_channel": "Kanalı Sil",
+            "create_channel": "Kanal Oluştur",
+            "open_server_settings": "Sunucu Ayarları",
+            "create_invite": "Davet Oluştur"
         },
         "status": {
             "online": "Çevrimiçi",
@@ -101,6 +110,12 @@
                 "name": "Grup İsmi",
                 "create": "Bir grup oluştur.",
                 "owner": "Grup Sahibi"
+            },
+            "servers": {
+                "create": "Bir sunucu oluştur.",
+                "name": "Sunucu Adı",
+                "channel_name": "Kanal İsmi",
+                "owner": "Sunucu Sahibi"
             }
         },
         "settings": {
@@ -253,8 +268,14 @@
                     "pick": "İnsanların seni rahatlıkla bulmasını istediğin bir kullanıcı adı seç, bu daha sonra ayarlarda değiştirilebilir."
                 },
                 "prompt": {
-                    "confirm_leave": "{{group_name}} adlı gruptan ayrılmak istiyor musun?",
-                    "confirm_leave_long": "Yeniden davet edilmediğin sürece tekrar katılamazsın."
+                    "confirm_leave": "{{name}} Adlı sunucudan ayrılacak mısın?",
+                    "confirm_leave_long": "Yeniden davet edilmediğin sürece tekrar katılamazsın.",
+                    "confirm_close_dm": "{{name}} ile görüşme kapatılsın mı?",
+                    "confirm_close_dm_long": "Daha sonra tekrar açabilirsiniz ancak her iki tarafta da kaybolacaktır.",
+                    "confirm_delete": "{{name}} Adlı sunucuyu silecek misin?",
+                    "confirm_delete_long": "Bir kez silindikten sonra geri dönüşü olmayacaktır.",
+                    "create_invite_generate": "Davet oluşturuluyor…",
+                    "create_invite_created": "İşte yeni davet kodunuz:"
                 },
                 "account": {
                     "change": {
@@ -405,5 +426,8 @@
         "IoError": "Sunucu bir G/Ç hatasıyla karşılaştı.",
         "UnsupportedBrowser": "Tarayıcıda bu özellik için destek yok.",
         "CompromisedPassword": "Bu şifrelerin güvenliği ihlal edildi."
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
     }
 }

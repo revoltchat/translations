@@ -33,7 +33,16 @@
             "set_custom_status": "Встановити свій статус",
             "open_channel_settings": "Налаштування калану",
             "open_group_settings": "Налаштування групи",
-            "copy_selection": "Скопіювати виділене"
+            "copy_selection": "Скопіювати виділене",
+            "delete_server": "Видалити сервер",
+            "create_invite": "Створити запрошення",
+            "copy_sid": "Скопіювати ID сервера",
+            "leave_group": "Покинути групу",
+            "leave_server": "Покинути сервер",
+            "close_dm": "Закрити ЛС",
+            "delete_channel": "Видалити канал",
+            "create_channel": "Створити канал",
+            "open_server_settings": "Налаштування сервера"
         },
         "settings": {
             "tips": {
@@ -190,8 +199,14 @@
                 "error": "Виникла помилка!",
                 "signed_out": "Ви вийшли з акканту!",
                 "prompt": {
-                    "confirm_leave": "Покинути {{group_name}}?",
-                    "confirm_leave_long": "Ви не зможете під'єднатись ще раз, поки не отримаєте нове запрошення."
+                    "confirm_leave": "Покинути {{name}}?",
+                    "confirm_leave_long": "Ви не зможете під'єднатись ще раз, поки не отримаєте нове запрошення.",
+                    "create_invite_generate": "Створення запрошення…",
+                    "confirm_close_dm": "Закрити переписку з {{name}}?",
+                    "confirm_delete": "Видалити {{name}}?",
+                    "confirm_delete_long": "Після видалення, назад шляху нема.",
+                    "confirm_close_dm_long": "Ви можете знову відкрити його пізніше, але він зникне з обох сторін.",
+                    "create_invite_created": "Ваш код запрошення:"
                 },
                 "account": {
                     "change": {
@@ -291,6 +306,12 @@
                 "create": "Створити групу.",
                 "name": "Назва групи",
                 "owner": "Володар групи"
+            },
+            "servers": {
+                "create": "Створити сервер.",
+                "name": "Назва сервера",
+                "channel_name": "Назва канала",
+                "owner": "Володар серверу"
             }
         },
         "navigation": {
@@ -405,5 +426,8 @@
         "UnknownUser": "Невідомий користувач.",
         "InvalidSession": "Недійсна сесія.",
         "CompromisedPassword": "Ненадійний пароль."
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
     }
 }
