@@ -55,7 +55,7 @@
                 "home": "Startseite",
                 "friends": "Freunde",
                 "unreads": "Ungelesen",
-                "dev": "Entwickler",
+                "dev": "Entwicklung",
                 "saved": "Notizen"
             }
         },
@@ -63,8 +63,8 @@
             "categories": {
                 "conversations": "Besprechungen",
                 "channels": "Kanäle",
-                "members": "Mitglieder",
-                "participants": "Teilnehmer"
+                "members": "Mitglieder:innen",
+                "participants": "Teilnehmer:innen"
             },
             "channel": {
                 "message": "Nachricht an {{name}}",
@@ -86,10 +86,10 @@
                 },
                 "attached_file": "{{filename}} angehängt",
                 "failed_upload": "Hochladen fehlgeschlagen!",
-                "uploading_file": "Datei wird hochgeladen…",
+                "uploading_file": "Wird hochgeladen…",
                 "message_saved": "In Notizen speichern",
                 "bot": "Bot",
-                "unknown_user": "<Unbekannter Nutzer>",
+                "unknown_user": "<Unbekannt>",
                 "edited": "(bearbeitet)",
                 "start": {
                     "group": "Das ist der Anfang deiner Besprechung."
@@ -109,13 +109,17 @@
             "groups": {
                 "name": "Gruppenname",
                 "create": "Gruppe erstellen.",
-                "owner": "Gruppenbesitzer"
+                "owner": "Gruppenbesitzer:in",
+                "description": "Gruppenbeschreibung"
             },
             "servers": {
                 "create": "Erstelle einen Server.",
                 "name": "Servername",
-                "owner": "Besitzer",
-                "channel_name": "Kanalname"
+                "owner": "Besitzer:in",
+                "channel_name": "Kanalname",
+                "description": "Serverbeschreibung",
+                "channel_description": "Kanalbeschreibung",
+                "custom_banner": "Benutzerdefinierter Banner"
             }
         },
         "context_menu": {
@@ -160,7 +164,10 @@
             "open_server_settings": "Servereinstellungen",
             "copy_sid": "Server-ID kopieren",
             "delete_channel": "Kanal löschen",
-            "create_invite": "Einladung erstellen"
+            "create_invite": "Einladung erstellen",
+            "view_profile": "Profil anschauen",
+            "kick_member": "Nutzer:in kicken",
+            "ban_member": "Nutzer:in bannen"
         },
         "special": {
             "friends": {
@@ -181,7 +188,10 @@
                     "send_email": "E-Mail senden",
                     "update": "Aktualisieren",
                     "preview": "Vorschau",
-                    "save": "Speichern"
+                    "save": "Speichern",
+                    "ban": "Ban",
+                    "kick": "Kick",
+                    "delete": "Löschen"
                 },
                 "signed_out": "Du wurdest ausgeloggt!",
                 "clipboard": {
@@ -202,7 +212,11 @@
                     "confirm_delete": "{{name}} löschen?",
                     "confirm_delete_long": "Wenn es gelöscht wird, kann der Löschprozess nicht rückgängig gemacht werden.",
                     "create_invite_generate": "Einladung wird generiert…",
-                    "create_invite_created": "Hier ist dein Einladungslink:"
+                    "create_invite_created": "Hier ist dein Einladungslink:",
+                    "confirm_delete_message_long": "Bist du dir sicher, dass du das löschen willst?",
+                    "confirm_kick": "Bist du dir sicher, dass du {{name}} kicken willst?",
+                    "confirm_ban": "Du bist kurz davor, {{name}} zu bannen",
+                    "confirm_ban_reason": "Bangrund"
                 },
                 "account": {
                     "failed": "Konnte nicht geändert werden!",
@@ -227,9 +241,9 @@
                     "mutual_friends": "Gemeinsame Freunde",
                     "profile": "Profil",
                     "badges": {
-                        "translator": "Übersetzer",
+                        "translator": "Übersetzer:in",
                         "early_adopter": "Frühzeitiger Tester",
-                        "supporter": "Unterstützer"
+                        "supporter": "Unterstützer:in"
                     },
                     "empty": "Es ist etwas leer hier…",
                     "sub": {
@@ -363,8 +377,25 @@
                 }
             },
             "actions": {
-                "upload": "Hochladen (bis zu {{filesize}})",
-                "remove": "Entfernen"
+                "upload": "Hochladen",
+                "remove": "Entfernen",
+                "max_filesize": "(bis zu {{filesize}})"
+            },
+            "server_pages": {
+                "overview": {
+                    "title": "Übersicht",
+                    "name": "Servername",
+                    "description": "Kanalbeschreibung"
+                },
+                "members": {
+                    "title": "Mitglieder:innen"
+                },
+                "invites": {
+                    "title": "Einladungen"
+                },
+                "bans": {
+                    "title": "Bans"
+                }
             }
         }
     },
