@@ -91,13 +91,16 @@
             "groups": {
                 "owner": "Ryhmän omistaja",
                 "create": "Luo ryhmä.",
-                "name": "Ryhmän nimi"
+                "name": "Ryhmän nimi",
+                "description": "Ryhmän kuvaus"
             },
             "servers": {
                 "channel_name": "Kanavan nimi",
                 "name": "Palvelimen nimi",
                 "create": "Luo palvelin.",
-                "owner": "Palvelimen omistaja"
+                "owner": "Palvelimen omistaja",
+                "channel_description": "Kanavan kuvaus",
+                "description": "Palvelimen kuvaus"
             }
         },
         "context_menu": {
@@ -140,7 +143,10 @@
             "open_server_settings": "Palvelinasetukset",
             "copy_sid": "Kopioi palvelimen tunniste",
             "copy_uid": "Kopioi käyttäjän tunniste",
-            "create_channel": "Luo kanava"
+            "create_channel": "Luo kanava",
+            "view_profile": "Näytä profiili",
+            "kick_member": "Erota jäsen",
+            "create_invite": "Luo kutsu"
         },
         "special": {
             "popovers": {
@@ -175,7 +181,9 @@
                     "save": "Tallenna",
                     "ok": "Ok",
                     "send_email": "Lähetä sähköposti",
-                    "reload": "Lataa sovellus uudelleen"
+                    "reload": "Lataa sovellus uudelleen",
+                    "delete": "Poista",
+                    "kick": "Erota"
                 },
                 "clipboard": {
                     "copy": "Manuaalinen kopiointi:",
@@ -195,7 +203,10 @@
                     "confirm_leave": "Poistutaanko ryhmästä {{group_name}}?",
                     "confirm_delete": "Poista {{name}}?",
                     "confirm_delete_long": "Kun se on poistettu, ei ole paluuta.",
-                    "confirm_close_dm": "Suljetaanko keskustelu käyttäjän {{name}} kanssa?"
+                    "confirm_close_dm": "Suljetaanko keskustelu käyttäjän {{name}} kanssa?",
+                    "confirm_kick": "Haluatko varmasti erottaa {{name}}?",
+                    "confirm_delete_message_long": "Haluatko varmasti poistaa tämän?",
+                    "create_invite_generate": "Luodaan kutsua…"
                 },
                 "error": "Tapahtui virhe!",
                 "onboarding": {
@@ -217,7 +228,8 @@
                 "nobody": "Täällä ei ole viellä ketään!",
                 "outgoing": "Lähtevä kaveripyyntö.",
                 "incoming": "Saapuva kaveripyyntö."
-            }
+            },
+            "requires_online": "Sinun on oltava verkossa nähdäksesi tämä."
         },
         "settings": {
             "pages": {
@@ -250,7 +262,8 @@
                     "display": {
                         "compact": "Kompakti",
                         "default": "Oletus",
-                        "compact_description": "Vanha kunnon IRC."
+                        "compact_description": "Vanha kunnon IRC.",
+                        "default_description": "Kaunis, tyylikäs ja moderni."
                     },
                     "theme": "Teema",
                     "reset_overrides": "Nollaa ohitukset",
@@ -312,7 +325,21 @@
                     "b": "Auta lisäämään käännöksiä."
                 },
                 "sessions": {
-                    "b": "suojaa tilisi vaihtamalla salasanasi ja käyttämällä kaksivaiheista tunnistautumista."
+                    "b": "suojaa tilisi vaihtamalla salasanasi ja käyttämällä kaksivaiheista tunnistautumista.",
+                    "a": "Jos näet tuntemattoman istunnon luettelossa,"
+                }
+            },
+            "server_pages": {
+                "invites": {
+                    "title": "Kutsut"
+                },
+                "members": {
+                    "title": "Jäsenet"
+                },
+                "overview": {
+                    "description": "Kanavan kuvaus",
+                    "name": "Palvelimen nimi",
+                    "title": "Yleiskatsaus"
                 }
             }
         },
@@ -382,10 +409,12 @@
         "DeniedNotification": "Estit ilmoitusten käytön, tarkista sivun asetukset.",
         "CompromisedPassword": "Tämä salasana on vaarantunut.",
         "MissingData": "Pyynnöstä puuttuu tietoja.",
-        "MissingInvite": "Kutsukoodi puuttuu pyynnöstä."
+        "MissingInvite": "Kutsukoodi puuttuu pyynnöstä.",
+        "EmailFailed": "Sähköpostin lähettäminen epäonnistui."
     },
     "notifications": {
-        "sent_request": "@{{person}} lähetti sinulle kaveripyynnön."
+        "sent_request": "@{{person}} lähetti sinulle kaveripyynnön.",
+        "now_friends": "Olet nyt ystävä käyttäjän @{{person}} kanssa!"
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
