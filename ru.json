@@ -56,7 +56,7 @@
                     "channel_description_changed": "изменил описание канала"
                 },
                 "message_who": "Сообщение {{person}}",
-                "uploading_file": "Загрузка файла…",
+                "uploading_file": "Загрузка…",
                 "failed_upload": "Не удалось загрузить!",
                 "attached_file": "Прикреплено {{filename}}",
                 "typing": {
@@ -93,13 +93,17 @@
             "groups": {
                 "create": "Создать группу.",
                 "name": "Название группы",
-                "owner": "Владелец группы"
+                "owner": "Владелец группы",
+                "description": "Описание группы"
             },
             "servers": {
                 "create": "Создать сервер.",
                 "name": "Название сервера",
                 "channel_name": "Название канала",
-                "owner": "Владелец сервера"
+                "owner": "Владелец сервера",
+                "description": "Описание сервера",
+                "channel_description": "Описание канала",
+                "custom_banner": "Свой баннер"
             }
         },
         "navigation": {
@@ -230,8 +234,25 @@
                 }
             },
             "actions": {
-                "upload": "Загрузить (макс. {{filesize}})",
-                "remove": "Удалить"
+                "upload": "Загрузить",
+                "remove": "Удалить",
+                "max_filesize": "(макс. {{filesize}})"
+            },
+            "server_pages": {
+                "overview": {
+                    "name": "Название сервера",
+                    "title": "Обзор",
+                    "description": "Описание канала"
+                },
+                "members": {
+                    "title": "Участники"
+                },
+                "invites": {
+                    "title": "Приглашения"
+                },
+                "bans": {
+                    "title": "Блокировки"
+                }
             }
         },
         "context_menu": {
@@ -276,7 +297,10 @@
             "delete_server": "Удалить сервер",
             "delete_channel": "Удалить канал",
             "create_channel": "Создать канал",
-            "open_server_settings": "Настройки сервера"
+            "open_server_settings": "Настройки сервера",
+            "view_profile": "Просмотреть профиль",
+            "kick_member": "Выгнать участника",
+            "ban_member": "Заблокировать участника"
         },
         "special": {
             "friends": {
@@ -295,7 +319,11 @@
                     "confirm_delete": "Удалить {{name}}?",
                     "confirm_delete_long": "После того, как он удален, пути назад нет.",
                     "confirm_close_dm_long": "Вы можете снова открыть его позже, но он исчезнет с обеих сторон.",
-                    "create_invite_created": "Ваш код приглашения:"
+                    "create_invite_created": "Ваш код приглашения:",
+                    "confirm_delete_message_long": "Вы уверены, что хотите удалить это?",
+                    "confirm_kick": "Вы уверены, что хотите выгнать {{name}}?",
+                    "confirm_ban_reason": "Причина блокировки",
+                    "confirm_ban": "Вы собираетесь заблокировать {{name}}"
                 },
                 "account": {
                     "change": {
@@ -319,7 +347,10 @@
                     "ok": "Ок",
                     "close": "Закрыть",
                     "update": "Обновить",
-                    "preview": "Предварительный просмотр"
+                    "preview": "Предварительный просмотр",
+                    "kick": "Выгнать",
+                    "ban": "Блокировка",
+                    "delete": "Удалить"
                 },
                 "error": "Возникла ошибка!",
                 "signed_out": "Вы вышли из аккаунта!",
