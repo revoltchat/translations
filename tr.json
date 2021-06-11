@@ -70,7 +70,7 @@
             "channel": {
                 "message_where": "{{channel_name}} kanalına mesaj gönder",
                 "message_who": "{{person}} kanalına mesaj gönder",
-                "uploading_file": "Dosya yükleniyor…",
+                "uploading_file": "Yükleniyor…",
                 "failed_upload": "Dosya yüklenemedi!",
                 "attached_file": "{{filename}} eklendi",
                 "typing": {
@@ -85,11 +85,13 @@
                     "removed_by": "kaldıran",
                     "channel_renamed": "kanal şu şekilde yeniden adlandırıldı",
                     "channel_icon_changed": "kanal simgesini değiştirdi",
-                    "channel_description_changed": "kanal açıklamasını değiştirildi"
+                    "channel_description_changed": "kanal açıklamasını değiştirdi",
+                    "user_kicked": "atıldı.",
+                    "user_banned": "yasaklandı."
                 },
                 "unknown_user": "<Bilinmeyen Kullanıcı>",
                 "bot": "bot",
-                "message_saved": "Notlarınızaaydedin",
+                "message_saved": "Notlarınıza Kaydedin",
                 "start": {
                     "group": "Bu, konuşmanızın başlangıcıdır."
                 },
@@ -109,13 +111,17 @@
             "groups": {
                 "name": "Grup İsmi",
                 "create": "Bir grup oluştur.",
-                "owner": "Grup Sahibi"
+                "owner": "Grup Sahibi",
+                "description": "Grup Açıklaması"
             },
             "servers": {
                 "create": "Bir sunucu oluştur.",
                 "name": "Sunucu Adı",
                 "channel_name": "Kanal İsmi",
-                "owner": "Sunucu Sahibi"
+                "owner": "Sunucu Sahibi",
+                "description": "Sunucu Açıklaması",
+                "custom_banner": "Özel Afiş",
+                "channel_description": "Kanal Açıklaması"
             }
         },
         "settings": {
@@ -237,8 +243,25 @@
                 }
             },
             "actions": {
-                "upload": "Dosya Yükle (en fazla {{filesize}})",
-                "remove": "Kaldır"
+                "upload": "Yükle (en fazla {{filesize}})",
+                "remove": "Kaldır",
+                "max_filesize": "(en fazla {{filesize}})"
+            },
+            "server_pages": {
+                "overview": {
+                    "title": "Genel Bakış",
+                    "name": "Sunucu Adı",
+                    "description": "Kanal Açıklaması"
+                },
+                "members": {
+                    "title": "Üyeler"
+                },
+                "invites": {
+                    "title": "Davetler"
+                },
+                "bans": {
+                    "title": "Yasaklar"
+                }
             }
         },
         "special": {
@@ -275,7 +298,8 @@
                     "confirm_delete": "{{name}} Adlı sunucuyu silecek misin?",
                     "confirm_delete_long": "Bir kez silindikten sonra geri dönüşü olmayacaktır.",
                     "create_invite_generate": "Davet oluşturuluyor…",
-                    "create_invite_created": "İşte yeni davet kodunuz:"
+                    "create_invite_created": "İşte yeni davet kodunuz:",
+                    "confirm_delete_message_long": "Bunu silmek istediğinizden emin misiniz?"
                 },
                 "account": {
                     "change": {
