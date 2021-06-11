@@ -42,7 +42,10 @@
             "close_dm": "Закрити ЛС",
             "delete_channel": "Видалити канал",
             "create_channel": "Створити канал",
-            "open_server_settings": "Налаштування сервера"
+            "open_server_settings": "Налаштування сервера",
+            "view_profile": "Переглянути профіль",
+            "kick_member": "Вигнати учасника",
+            "ban_member": "Заблокувати учасника"
         },
         "settings": {
             "tips": {
@@ -163,8 +166,25 @@
             },
             "title": "Налаштування",
             "actions": {
-                "upload": "Завантажити (макс. {{filesize}})",
-                "remove": "Видалити"
+                "upload": "Завантажити",
+                "remove": "Видалити",
+                "max_filesize": "(макс. {{filesize}})"
+            },
+            "server_pages": {
+                "overview": {
+                    "title": "Огляд",
+                    "name": "Назва сервера",
+                    "description": "Опис каналу"
+                },
+                "invites": {
+                    "title": "Запрошення"
+                },
+                "bans": {
+                    "title": "Блокування"
+                },
+                "members": {
+                    "title": "Учасники"
+                }
             }
         },
         "special": {
@@ -194,7 +214,10 @@
                     "send_email": "Відправити лист",
                     "reload": "Перезавантажте додаток",
                     "continue": "Продовжити",
-                    "cancel": "Відмінити"
+                    "cancel": "Відмінити",
+                    "ban": "Блокування",
+                    "kick": "Вигнати",
+                    "delete": "Видалити"
                 },
                 "error": "Виникла помилка!",
                 "signed_out": "Ви вийшли з акканту!",
@@ -206,7 +229,11 @@
                     "confirm_delete": "Видалити {{name}}?",
                     "confirm_delete_long": "Після видалення, назад шляху нема.",
                     "confirm_close_dm_long": "Ви можете знову відкрити його пізніше, але він зникне з обох сторін.",
-                    "create_invite_created": "Ваш код запрошення:"
+                    "create_invite_created": "Ваш код запрошення:",
+                    "confirm_delete_message_long": "Ви впевнені, що хочите видалити це?",
+                    "confirm_ban": "Ви збираєтеся заблокувати {{name}}",
+                    "confirm_ban_reason": "Причина блокування",
+                    "confirm_kick": "Ви впевнені, що хочите вигнати {{name}}?"
                 },
                 "account": {
                     "change": {
@@ -265,7 +292,7 @@
             },
             "channel": {
                 "message_who": "Повідомлення {{person}}",
-                "uploading_file": "Завантаження файлу…",
+                "uploading_file": "Завантаження…",
                 "typing": {
                     "multiple": "{{userlist}} та {{user}} пишуть…",
                     "single": "{{user}} пише…",
@@ -305,13 +332,17 @@
             "groups": {
                 "create": "Створити групу.",
                 "name": "Назва групи",
-                "owner": "Володар групи"
+                "owner": "Володар групи",
+                "description": "Опис групи"
             },
             "servers": {
                 "create": "Створити сервер.",
                 "name": "Назва сервера",
                 "channel_name": "Назва канала",
-                "owner": "Володар серверу"
+                "owner": "Володар серверу",
+                "description": "Опис сервера",
+                "channel_description": "Опис каналу",
+                "custom_banner": "Власний банер"
             }
         },
         "navigation": {
