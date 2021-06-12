@@ -1,296 +1,305 @@
 {
-	"general": {
-		"about": "O nás",
-		"tos": "Podmínky",
-		"privacy": "Zásady ochrany osobních údajů",
-		"image_by": "Fotografie od",
-		"loading": "Načítání…"
-	},
-	"login": {
-		"title": "Přihlášení",
-		"email": "E-mail",
-		"password": "Heslo",
-		"enter": {
-			"email": "Vložte svůj e-mail.",
-			"password": "Vložte svoje heslo.",
-			"username": "Zadejte uživatelské jméno.",
-			"current_password": "Vložte své současné heslo.",
-			"invite": "Zadejte Váš přístupový kód."
-		},
-		"forgot": "Zapomenuté heslo?",
-		"new": "Nově u REVOLT?",
-		"create": "Vytvořte nový účet.",
-		"reset": "Resetovat heslo.",
-		"remembered": "Vrátit se k přihlášení.",
-		"cancel": "Zrušit žádost.",
-		"register": "Registrovat",
-		"username": "Uživatelské jméno",
-		"open_mail_provider": "Otevřít {{provider}}",
-		"set_password": "Nastavit nové heslo.",
-		"error": {
-			"create": "Registrace selhala!"
-		},
-		"successful_registration": "Úspěšně zaregistrováno!",
-		"current_password": "Současné Heslo",
-		"existing": "Už máte účet?",
-		"check_mail": "Zkontrolujte si Váš e-mail.",
-		"invite": "Přístupový kód"
-	},
-	"app": {
-		"main": {
-			"channel": {
-				"message": "Odešli zprávu {{name}}",
-				"uploading_file": "Nahrávám soubor…",
-				"bot": "bot",
-				"unknown_user": "<Neznámý Uživatel>",
-				"failed_upload": "Nahrávání selhalo!",
-				"attached_file": "Příloha {{filename}}",
-				"typing": {
-					"single": "{{user}} píše…",
-					"multiple": "{{userlist}} a {{user}} píšou…",
-					"several": "Několik lidí píše…"
-				},
-				"message_where": "Zpráva v {{channel_name}}",
-				"message_who": "Zpráva {{person}}",
-				"edited": "(upraveno)",
-				"start": {
-					"group": "Toto je začátek vaše konverzace."
-				},
-				"system": {
-					"channel_renamed": "přejmenovali kanál na",
-					"removed_by": "byli odebráni",
-					"added_by": "byly přidáni",
-					"user_joined": "se připojili.",
-					"user_left": "odešli."
-				}
-			},
-			"categories": {
-				"members": "Členové",
-				"channels": "Kanály",
-				"conversations": "Konverzace",
-				"participants": "Účastníci"
-			},
-			"groups": {
-				"create": "Vytvořte skupinu.",
-				"name": "Název skupiny",
-				"owner": "Vlastník skupiny"
-			}
-		},
-		"navigation": {
-			"tabs": {
-				"home": "Domů",
-				"unreads": "Nepřečtené",
-				"friends": "Přátelé",
-				"dev": "Vývojář",
-				"saved": "Uložené Zprávy"
-			}
-		},
-		"status": {
-			"offline": "Offline",
-			"invisible": "Neviditelný",
-			"busy": "Zaneprázdněný",
-			"idle": "Neaktivní",
-			"online": "Online"
-		},
-		"special": {
-			"friends": {
-				"blocked": "Zablokovaní",
-				"incoming": "Příchozí žádost o přátelství.",
-				"outgoing": "Odchozí žádost o přátelství."
-			},
-			"modals": {
-				"clipboard": {
-					"https": "Nejste zrovna v kontextu HTTPS."
-				},
-				"signed_out": "Byli jste odhlášeni!",
-				"actions": {
-					"ok": "Ok",
-					"close": "Zavřít",
-					"reload": "Přenačíst aplikaci",
-					"preview": "Náhled",
-					"continue": "Pokračovat",
-					"cancel": "Zrušit",
-					"update": "Aktualizovat",
-					"send_email": "Poslat E-mail",
-					"save": "Uložit"
-				},
-				"onboarding": {
-					"welcome": "Vítejte v",
-					"pick": "Vyberte si uživatelské jméno."
-				},
-				"error": "Vyskytla se chyba!",
-				"account": {
-					"failed": "Změna selhala!",
-					"change": {
-						"username": "Změňte svoje uživatelské jméno",
-						"email": "Změňte svůj E-mail",
-						"password": "Změňte svoje heslo"
-					}
-				},
-				"prompt": {
-					"confirm_leave": "Odejít z {{group_name}}?"
-				}
-			},
-			"status": {
-				"offline": "Offline.",
-				"disconnected": "Odpojen.",
-				"connecting": "Připojování…"
-			},
-			"requires_online": "Musíte být online pro zobrazení obsahu.",
-			"popovers": {
-				"user_profile": {
-					"profile": "Profil",
-					"no_users": "Žádní vzájemní přátelé!",
-					"mutual_friends": "Vzájemní Přátelé",
-					"mutual_groups": "Vzájemné Skupiny",
-					"no_groups": "Žádné vzájemné skupiny!",
-					"empty": "Je tu trošku prázdno...",
-					"sub": {
-						"connections": "Propojení"
-					}
-				}
-			},
-			"copy_username": "Kliknutím zkopírujete uživatelské jméno"
-		},
-		"context_menu": {
-			"copy_id": "Kopírovat ID",
-			"block_user": "Zablokovat uživatele",
-			"copy_text": "Kopírovat text",
-			"delete_message": "Smazat zprávu",
-			"edit_message": "Upravit zprávu",
-			"cancel_message": "Zrušit odeslání",
-			"copy_uid": "Zkopírovat ID uživatele",
-			"copy_cid": "Zkopírovat ID kanálu",
-			"copy_mid": "Zkopírovat ID zprávy",
-			"save_image": "Uložit obrázek",
-			"open_image": "Otevřít obrázek",
-			"save_file": "Uložit soubor",
-			"open_file": "Otevřít soubor",
-			"remove_member": "Odebrat ze skupiny",
-			"quote_message": "Citovat zprávu",
-			"mark_as_read": "Označit jako přečtené",
-			"message_user": "Zpráva",
-			"mention": "Zmínka",
-			"save_video": "Uložit video",
-			"open_video": "Otevřít video"
-		},
-		"settings": {
-			"pages": {
-				"account": {
-					"change_field": "Změnit",
-					"title": "Můj účet"
-				},
-				"profile": {
-					"title": "Profil",
-					"info": "Informace",
-					"fetching": "Načítání profilu…",
-					"placeholder": "Napiš něco o sobě…"
-				},
-				"sessions": {
-					"title": "Relace",
-					"active_sessions": "Aktivní relace",
-					"this_device": "Tohle zařízení",
-					"created": "Vytvořeno {{time_ago}}"
-				},
-				"appearance": {
-					"title": "Vzhled",
-					"theme": "Téma",
-					"color": {
-						"light": "Světlé",
-						"dark": "Tmavé"
-					},
-					"advanced": "Pokročilá nastavení",
-					"message_display": "Zobrazení zpráv",
-					"overrides": "Přepsání motivu",
-					"import_clipboard": "Importovat ze schránky",
-					"export_clipboard": "Exportovat do schránky",
-					"import_manual": "Importovat ručně",
-					"custom_css": "Vlastní CSS",
-					"sync": "Synchronizovat",
-					"import_theme": "Importovat styl z textu",
-					"display": {
-						"compact_description": "Staré dobré IRC.",
-						"compact": "Kompaktní",
-						"default": "Výchozí",
-						"default_description": "Krásné, moderní a příjemné na oči."
-					},
-					"emoji_pack": "Sada emoji"
-				},
-				"source_code": "Zdrojový kód",
-				"feedback": {
-					"title": "Zpětná vazba"
-				},
-				"notifications": {
-					"title": "Oznámení",
-					"enable_desktop": "Povolit oznámení na ploše.",
-					"enable_sound": "Přehrát zvuk při příchozí zprávě."
-				},
-				"language": {
-					"title": "Jazyk",
-					"select": "Vybrat jazyk"
-				},
-				"logOut": "Odhlásit se",
-				"donate": {
-					"title": "Podpořte nás"
-				}
-			},
-			"tips": {
-				"account": {
-					"a": "Hledáte možnost si upravit váš veřejný profil?",
-					"b": "Přejděte do nastavení vašeho profilu."
-				},
-				"languages": {
-					"a": "Chybí nám v seznamu nějaký jazyk?",
-					"b": "Pomožte nám překládat."
-				},
-				"sessions": {
-					"a": "Jestli uvidíte neznámé připojení na seznamu aktivních relací,",
-					"b": "zabezpečte si účet změnou hesla a zapnutím dvoufázového ověřování."
-				}
-			},
-			"categories": {
-				"user_settings": "Uživatelská Nastavení",
-				"client_settings": "Nastavení Aplikace"
-			},
-			"title": "Nastavení",
-			"channel_pages": {
-				"overview": {
-					"title": "Přehled"
-				}
-			}
-		}
-	},
-	"dayjs": {
-		"last": "Poslední",
-		"at": "v",
-		"nextDay": "[Zítra v] LT",
-		"sameDay": "[Dnes v] LT",
-		"lastDay": "[Včera v] LT",
-		"sameElse": "L",
-		"nextWeek": "dddd [v] LT"
-	},
-	"quantities": {
-		"members": {
-			"many": "{{count}} Členů",
-			"one": "1 Člen"
-		}
-	},
-	"notifications": {
-		"sent_request": "@{{person}} ti poslal(a) žádost o přátelství."
-	},
-	"error": {
-		"Unlabelled": "Něco se stalo.",
-		"InternalError": "Vnitřní chyba.",
-		"UsernameTaken": "Jméno je zabrané.",
-		"OperationFailed": "Operace selhala.",
-		"UnverifiedAccount": "Neověřený účet.",
-		"UnknownUser": "Neznámý uživatel.",
-		"WrongPassword": "Špatné heslo.",
-		"DatabaseError": "Chyba databáze.",
-		"FileTooLarge": "Soubor je moc velký.",
-		"TooLong": "Moc dlouhé",
-		"TooShort": "Moc krátké",
-		"RequiredField": "Požadované",
-		"UnknownError": "Otevřít konzoli."
-	}
+    "general": {
+        "about": "O nás",
+        "tos": "Podmínky",
+        "privacy": "Zásady ochrany osobních údajů",
+        "image_by": "Fotografie od",
+        "loading": "Načítání…"
+    },
+    "login": {
+        "title": "Přihlášení",
+        "email": "E-mail",
+        "password": "Heslo",
+        "enter": {
+            "email": "Vložte svůj e-mail.",
+            "password": "Vložte svoje heslo.",
+            "username": "Zadejte uživatelské jméno.",
+            "current_password": "Vložte své současné heslo.",
+            "invite": "Zadejte Váš přístupový kód."
+        },
+        "forgot": "Zapomenuté heslo?",
+        "new": "Nově u REVOLT?",
+        "create": "Vytvořte nový účet.",
+        "reset": "Resetovat heslo.",
+        "remembered": "Vrátit se k přihlášení.",
+        "cancel": "Zrušit žádost.",
+        "register": "Registrovat",
+        "username": "Uživatelské jméno",
+        "open_mail_provider": "Otevřít {{provider}}",
+        "set_password": "Nastavit nové heslo.",
+        "error": {
+            "create": "Registrace selhala!"
+        },
+        "successful_registration": "Úspěšně zaregistrováno!",
+        "current_password": "Současné Heslo",
+        "existing": "Už máte účet?",
+        "check_mail": "Zkontrolujte si Váš e-mail.",
+        "invite": "Přístupový kód"
+    },
+    "app": {
+        "main": {
+            "channel": {
+                "message": "Odešli zprávu {{name}}",
+                "uploading_file": "Nahrávám soubor…",
+                "bot": "bot",
+                "unknown_user": "<Neznámý Uživatel>",
+                "failed_upload": "Nahrávání selhalo!",
+                "attached_file": "Příloha {{filename}}",
+                "typing": {
+                    "single": "{{user}} píše…",
+                    "multiple": "{{userlist}} a {{user}} píšou…",
+                    "several": "Několik lidí píše…"
+                },
+                "message_where": "Zpráva v {{channel_name}}",
+                "message_who": "Zpráva {{person}}",
+                "edited": "(upraveno)",
+                "start": {
+                    "group": "Toto je začátek vaše konverzace."
+                },
+                "system": {
+                    "channel_renamed": "přejmenovali kanál na",
+                    "removed_by": "byli odebráni",
+                    "added_by": "byly přidáni",
+                    "user_joined": "se připojili.",
+                    "user_left": "odešli.",
+                    "user_kicked": "byli vyhozeni."
+                }
+            },
+            "categories": {
+                "members": "Členové",
+                "channels": "Kanály",
+                "conversations": "Konverzace",
+                "participants": "Účastníci"
+            },
+            "groups": {
+                "create": "Vytvořte skupinu.",
+                "name": "Název skupiny",
+                "owner": "Vlastník skupiny"
+            },
+            "servers": {
+                "description": "Popis serveru",
+                "channel_description": "Popis kanálu",
+                "name": "Název serveru",
+                "create": "Vytvořit server.",
+                "channel_name": "Název kanálu"
+            }
+        },
+        "navigation": {
+            "tabs": {
+                "home": "Domů",
+                "unreads": "Nepřečtené",
+                "friends": "Přátelé",
+                "dev": "Vývojář",
+                "saved": "Uložené Zprávy"
+            }
+        },
+        "status": {
+            "offline": "Offline",
+            "invisible": "Neviditelný",
+            "busy": "Zaneprázdněný",
+            "idle": "Neaktivní",
+            "online": "Online"
+        },
+        "special": {
+            "friends": {
+                "blocked": "Zablokovaní",
+                "incoming": "Příchozí žádost o přátelství.",
+                "outgoing": "Odchozí žádost o přátelství."
+            },
+            "modals": {
+                "clipboard": {
+                    "https": "Nejste zrovna v kontextu HTTPS."
+                },
+                "signed_out": "Byli jste odhlášeni!",
+                "actions": {
+                    "ok": "Ok",
+                    "close": "Zavřít",
+                    "reload": "Přenačíst aplikaci",
+                    "preview": "Náhled",
+                    "continue": "Pokračovat",
+                    "cancel": "Zrušit",
+                    "update": "Aktualizovat",
+                    "send_email": "Poslat E-mail",
+                    "save": "Uložit"
+                },
+                "onboarding": {
+                    "welcome": "Vítejte v",
+                    "pick": "Vyberte si uživatelské jméno."
+                },
+                "error": "Vyskytla se chyba!",
+                "account": {
+                    "failed": "Změna selhala!",
+                    "change": {
+                        "username": "Změňte svoje uživatelské jméno",
+                        "email": "Změňte svůj E-mail",
+                        "password": "Změňte svoje heslo"
+                    }
+                },
+                "prompt": {
+                    "confirm_leave": "Odejít z {{name}}?",
+                    "confirm_delete": "Smazat {{name}}?"
+                }
+            },
+            "status": {
+                "offline": "Offline.",
+                "disconnected": "Odpojen.",
+                "connecting": "Připojování…"
+            },
+            "requires_online": "Musíte být online pro zobrazení obsahu.",
+            "popovers": {
+                "user_profile": {
+                    "profile": "Profil",
+                    "no_users": "Žádní vzájemní přátelé!",
+                    "mutual_friends": "Vzájemní Přátelé",
+                    "mutual_groups": "Vzájemné Skupiny",
+                    "no_groups": "Žádné vzájemné skupiny!",
+                    "empty": "Je tu trošku prázdno...",
+                    "sub": {
+                        "connections": "Propojení"
+                    }
+                }
+            },
+            "copy_username": "Kliknutím zkopírujete uživatelské jméno"
+        },
+        "context_menu": {
+            "copy_id": "Kopírovat ID",
+            "block_user": "Zablokovat uživatele",
+            "copy_text": "Kopírovat text",
+            "delete_message": "Smazat zprávu",
+            "edit_message": "Upravit zprávu",
+            "cancel_message": "Zrušit odeslání",
+            "copy_uid": "Zkopírovat ID uživatele",
+            "copy_cid": "Zkopírovat ID kanálu",
+            "copy_mid": "Zkopírovat ID zprávy",
+            "save_image": "Uložit obrázek",
+            "open_image": "Otevřít obrázek",
+            "save_file": "Uložit soubor",
+            "open_file": "Otevřít soubor",
+            "remove_member": "Odebrat ze skupiny",
+            "quote_message": "Citovat zprávu",
+            "mark_as_read": "Označit jako přečtené",
+            "message_user": "Zpráva",
+            "mention": "Zmínka",
+            "save_video": "Uložit video",
+            "open_video": "Otevřít video"
+        },
+        "settings": {
+            "pages": {
+                "account": {
+                    "change_field": "Změnit",
+                    "title": "Můj účet"
+                },
+                "profile": {
+                    "title": "Profil",
+                    "info": "Informace",
+                    "fetching": "Načítání profilu…",
+                    "placeholder": "Napiš něco o sobě…"
+                },
+                "sessions": {
+                    "title": "Relace",
+                    "active_sessions": "Aktivní relace",
+                    "this_device": "Tohle zařízení",
+                    "created": "Vytvořeno {{time_ago}}"
+                },
+                "appearance": {
+                    "title": "Vzhled",
+                    "theme": "Téma",
+                    "color": {
+                        "light": "Světlé",
+                        "dark": "Tmavé"
+                    },
+                    "advanced": "Pokročilá nastavení",
+                    "message_display": "Zobrazení zpráv",
+                    "overrides": "Přepsání motivu",
+                    "import_clipboard": "Importovat ze schránky",
+                    "export_clipboard": "Exportovat do schránky",
+                    "import_manual": "Importovat ručně",
+                    "custom_css": "Vlastní CSS",
+                    "sync": "Synchronizovat",
+                    "import_theme": "Importovat styl z textu",
+                    "display": {
+                        "compact_description": "Staré dobré IRC.",
+                        "compact": "Kompaktní",
+                        "default": "Výchozí",
+                        "default_description": "Krásné, moderní a příjemné na oči."
+                    },
+                    "emoji_pack": "Sada emoji"
+                },
+                "source_code": "Zdrojový kód",
+                "feedback": {
+                    "title": "Zpětná vazba"
+                },
+                "notifications": {
+                    "title": "Oznámení",
+                    "enable_desktop": "Povolit oznámení na ploše.",
+                    "enable_sound": "Přehrát zvuk při příchozí zprávě."
+                },
+                "language": {
+                    "title": "Jazyk",
+                    "select": "Vybrat jazyk"
+                },
+                "logOut": "Odhlásit se",
+                "donate": {
+                    "title": "Podpořte nás"
+                }
+            },
+            "tips": {
+                "account": {
+                    "a": "Hledáte možnost si upravit váš veřejný profil?",
+                    "b": "Přejděte do nastavení vašeho profilu."
+                },
+                "languages": {
+                    "a": "Chybí nám v seznamu nějaký jazyk?",
+                    "b": "Pomožte nám překládat."
+                },
+                "sessions": {
+                    "a": "Jestli uvidíte neznámé připojení na seznamu aktivních relací,",
+                    "b": "zabezpečte si účet změnou hesla a zapnutím dvoufázového ověřování."
+                }
+            },
+            "categories": {
+                "user_settings": "Uživatelská Nastavení",
+                "client_settings": "Nastavení Aplikace"
+            },
+            "title": "Nastavení",
+            "channel_pages": {
+                "overview": {
+                    "title": "Přehled"
+                }
+            }
+        }
+    },
+    "dayjs": {
+        "last": "Poslední",
+        "at": "v",
+        "nextDay": "[Zítra v] LT",
+        "sameDay": "[Dnes v] LT",
+        "lastDay": "[Včera v] LT",
+        "sameElse": "L",
+        "nextWeek": "dddd [v] LT"
+    },
+    "quantities": {
+        "members": {
+            "many": "{{count}} Členů",
+            "one": "1 Člen"
+        }
+    },
+    "notifications": {
+        "sent_request": "@{{person}} ti poslal(a) žádost o přátelství."
+    },
+    "error": {
+        "Unlabelled": "Něco se stalo.",
+        "InternalError": "Vnitřní chyba.",
+        "UsernameTaken": "Jméno je zabrané.",
+        "OperationFailed": "Operace selhala.",
+        "UnverifiedAccount": "Neověřený účet.",
+        "UnknownUser": "Neznámý uživatel.",
+        "WrongPassword": "Špatné heslo.",
+        "DatabaseError": "Chyba databáze.",
+        "FileTooLarge": "Soubor je moc velký.",
+        "TooLong": "Moc dlouhé",
+        "TooShort": "Moc krátké",
+        "RequiredField": "Požadované",
+        "UnknownError": "Otevřít konzoli."
+    }
 }
