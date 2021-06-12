@@ -94,6 +94,9 @@
                         "locale": "此项将会同步你选择的语言。"
                     },
                     "categories": "同步选项"
+                },
+                "experiments": {
+                    "title": "实验"
                 }
             },
             "tips": {
@@ -118,15 +121,17 @@
                 }
             },
             "actions": {
-                "upload": "上传（最大{{filesize}}）",
-                "remove": "移除"
+                "upload": "上传",
+                "remove": "移除",
+                "max_filesize": "(最大 {{filesize}})"
             }
         },
         "main": {
             "groups": {
                 "name": "群组名",
                 "create": "创建一个群。",
-                "owner": "群主"
+                "owner": "群主",
+                "description": "群组简介"
             },
             "channel": {
                 "bot": "机器人",
@@ -138,7 +143,9 @@
                     "removed_by": "移除者为",
                     "channel_renamed": "将频道更名为",
                     "channel_icon_changed": "更改了频道图标",
-                    "channel_description_changed": "更改了频道说明"
+                    "channel_description_changed": "更改了频道说明",
+                    "user_kicked": "被踢出。",
+                    "user_banned": "被封禁。"
                 },
                 "typing": {
                     "several": "多人正在输入…",
@@ -172,6 +179,15 @@
                 "channels": "频道",
                 "conversations": "对话",
                 "participants": "参与者"
+            },
+            "servers": {
+                "description": "服务器简介",
+                "channel_description": "频道简介",
+                "custom_banner": "自定横幅",
+                "create": "创建服务器。",
+                "name": "服务器名称",
+                "channel_name": "频道名称",
+                "owner": "服务器所有者"
             }
         },
         "navigation": {
