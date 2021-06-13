@@ -26,17 +26,41 @@
                 "voice": {
                     "mute": "Utišaj",
                     "leave": "Napusti",
-                    "connected": "Glas povezan"
+                    "connected": "Glas povezan",
+                    "unmute": "Uključi zvuk"
                 },
                 "start": {
                     "group": "Ovo je početak vašeg razgovora."
-                }
+                },
+                "misc": {
+                    "viewing_old": "Pregledavate stare poruke",
+                    "spoiler_attachment": "Spojler",
+                    "jump_present": "Idi na sadašnjost"
+                },
+                "unknown_user": "<Nepoznati korisnik>",
+                "edited": "(uređeno)",
+                "bot": "robot"
             },
             "categories": {
                 "members": "Članovi",
                 "channels": "Kanali",
                 "participants": "Sudionici",
                 "conversations": "Razgovori"
+            },
+            "groups": {
+                "name": "Ime grupe",
+                "description": "Opis grupe",
+                "owner": "Vlasnik grupe",
+                "create": "Napravi grupu."
+            },
+            "servers": {
+                "create": "Napravi server.",
+                "name": "Ime servera",
+                "description": "Opis servera",
+                "channel_name": "Ime kanala",
+                "channel_description": "Opis kanala",
+                "custom_banner": "Vlastiti banner",
+                "owner": "Vlasnik servera"
             }
         },
         "navigation": {
@@ -54,6 +78,284 @@
             "busy": "Zauzet",
             "idle": "U mirovanju",
             "online": "Na vezi"
+        },
+        "settings": {
+            "title": "Postavke",
+            "categories": {
+                "client_settings": "Postavke aplikacije",
+                "user_settings": "Postavke korisnika"
+            },
+            "actions": {
+                "remove": "Ukloni",
+                "upload": "Prenesi",
+                "max_filesize": "(maksimalno {{filesize}})"
+            },
+            "pages": {
+                "account": {
+                    "title": "Moj račun",
+                    "change_field": "Promjeni"
+                },
+                "profile": {
+                    "title": "Profil",
+                    "info": "Informacije",
+                    "placeholder": "Predstavi se…",
+                    "custom_background": "Vlastita pozadina",
+                    "edit_background": "Promjeni pozadinu",
+                    "profile_picture": "Profilna slika"
+                },
+                "sessions": {
+                    "title": "Sesije",
+                    "active_sessions": "Aktivne sesije",
+                    "this_device": "Ovaj uređaj",
+                    "created": "Napravljen {{time_ago}}"
+                },
+                "appearance": {
+                    "title": "Izgled",
+                    "theme": "Tema",
+                    "display": {
+                        "default": "Zadano",
+                        "compact": "Kompaktno",
+                        "compact_description": "Dobar stari IRC.",
+                        "default_description": "Ljepo, glatko i moderno."
+                    },
+                    "color": {
+                        "light": "svijetlo",
+                        "dark": "tamno"
+                    },
+                    "message_display": "Prikaz poruka",
+                    "overrides": "Zamjena teme",
+                    "reset_overrides": "Resetiraj zamjene",
+                    "export_clipboard": "Izvoz u međuspremnik",
+                    "import_clipboard": "Uvoz iz međuspremnika",
+                    "import_manual": "Uvezi ručno",
+                    "import_theme": "Uvezi temu iz niza",
+                    "theme_data": "Podaci o temi",
+                    "custom_css": "Vlastiti CSS",
+                    "sync": "Sinkronizacija",
+                    "emoji_pack": "Emoji paket",
+                    "advanced": "Napredne postavke"
+                },
+                "notifications": {
+                    "title": "Obavjesti",
+                    "enable_sound": "Reproduciraj zvuk kada dobiješ poruku.",
+                    "enable_outgoing_sound": "Reproduciraj zvuk kada pošalješ poruku.",
+                    "descriptions": {
+                        "enable_desktop": "Primit ćeš obavjesti dok je aplikacija otvorena.",
+                        "enable_push": "Uključi ovo ako želiš primati obavjesti dok je aplikacija zatvorena.",
+                        "enable_sound": "Uključi za zvuk obavjesti."
+                    },
+                    "sounds": "Zvukovi"
+                },
+                "language": {
+                    "title": "Jezik",
+                    "select": "Odaberi jezik"
+                },
+                "sync": {
+                    "categories": "Kategorije sinkronizacije",
+                    "descriptions": {
+                        "locale": "Ovo će sinkronizirati trenutačni jezik.",
+                        "appearance": "Ovo će sinkronizirati opcije kao emoji paket i densitet poruka.",
+                        "theme": "Ovo će sinkronizirati teme,  boje i vlastiti CSS."
+                    },
+                    "title": "Sinkronizacija"
+                },
+                "experiments": {
+                    "features": "Dostupne opcije",
+                    "titles": {
+                        "servers": "Serveri"
+                    },
+                    "title": "Eksperimentalno",
+                    "descriptions": {
+                        "servers": "Ovo će ti dopustiti da praviš servere sa kanalima, pozivnicama, zabranama, moderacijom i još puno toga."
+                    }
+                },
+                "donate": {
+                    "title": "Doniraj"
+                },
+                "source_code": "Izvorni kod",
+                "feedback": {
+                    "title": "Povratne informacije",
+                    "report": "Što želiš prijaviti?",
+                    "bug": "Greška",
+                    "feature": "Zahtjev za značajku",
+                    "other": "Ostalo",
+                    "send": "Pošalji feedback",
+                    "describe": "Opišite problem."
+                },
+                "logOut": "Odjavi se"
+            },
+            "channel_pages": {
+                "overview": {
+                    "title": "Pregled",
+                    "name": "Ime kanala",
+                    "description": "Opis kanala"
+                }
+            },
+            "server_pages": {
+                "overview": {
+                    "title": "Pregled",
+                    "name": "Ime servera",
+                    "description": "Opis kanala"
+                },
+                "members": {
+                    "title": "Članovi"
+                },
+                "invites": {
+                    "title": "Pozivnice"
+                },
+                "bans": {
+                    "title": "Zabrane"
+                }
+            },
+            "tips": {
+                "account": {
+                    "b": "Odi u postavke profila.",
+                    "a": "Želiš li urediti svoj javni profil?"
+                },
+                "languages": {
+                    "a": "Nedostaje jezik koji želite?",
+                    "b": "Pomozite sa prijevodom."
+                },
+                "sessions": {
+                    "a": "Ako vidite nepoznatu sesiju,",
+                    "b": "promjenite svoju lozinku i uključite 2FA."
+                }
+            }
+        },
+        "special": {
+            "copy_username": "Klikni da kopiraš ime",
+            "friends": {
+                "pending": "U tijeku",
+                "incoming": "Ulazni zahtjev za prijateljstvo.",
+                "outgoing": "Odlazni zahtjev za prijateljstvo.",
+                "nobody": "Nema još ničega ovdje!",
+                "blocked": "Blokiran"
+            },
+            "status": {
+                "offline": "Izvan mreže.",
+                "disconnected": "Odspojen.",
+                "connecting": "Spajam…",
+                "reconnecting": "Ponovno spajam…"
+            },
+            "modals": {
+                "error": "Došlo je do pogreške!",
+                "clipboard": {
+                    "copy": "Ručno kopiranje:",
+                    "unavailable": "Međuspremnik je nedostupan!"
+                },
+                "signed_out": "Vi ste odjavljeni!",
+                "onboarding": {
+                    "welcome": "Dobrodošli u",
+                    "pick": "Odaberi korisničko ime sa kojim će te ostali ljudi prepoznati, ovo možete promjeniti u postavkama."
+                },
+                "prompt": {
+                    "confirm_leave": "Napusti {{name}}?",
+                    "confirm_leave_long": "Nećeš se moći ponovno pridružiti serveru osim ako te netko pozove.",
+                    "confirm_close_dm_long": "Možeš ju ponovno otvoriti poslije ali će nestati sa obje strane.",
+                    "confirm_delete": "Izbriši {{name}}?",
+                    "confirm_delete_long": "Nakon što ga izbrišeš, nema povratka.",
+                    "create_invite_generate": "Pravim invitaciju…",
+                    "confirm_kick": "Jeste li sigurni da želite izbrisati {{name}}?",
+                    "confirm_ban_reason": "Razlog zabrane",
+                    "confirm_close_dm": "Zatvori razgovor sa {{name}}?",
+                    "confirm_delete_message_long": "Jeste li sigurni da želite izbrisati ovo?",
+                    "create_invite_created": "Evo vaše invitacije:",
+                    "confirm_ban": "Vi ćete zabraniti {{name}}"
+                },
+                "account": {
+                    "change": {
+                        "email": "Promjenite e-poštu",
+                        "password": "Promjenite lozinku",
+                        "username": "Promjenite korisničko ime"
+                    },
+                    "failed": "Promjena neuspješna!"
+                },
+                "actions": {
+                    "ok": "U redu",
+                    "ban": "Zabrani",
+                    "kick": "Izbaci",
+                    "save": "Spremi",
+                    "close": "Zatvori",
+                    "update": "Promjeni",
+                    "cancel": "Odustani",
+                    "preview": "Pregled",
+                    "continue": "Nastavi",
+                    "send_email": "Pošalji e-poštu",
+                    "delete": "Izbriši",
+                    "reload": "Ponovno pokrenite aplikaciju"
+                }
+            },
+            "popovers": {
+                "user_profile": {
+                    "profile": "Profil",
+                    "mutual_friends": "Zajednički prijatelji",
+                    "empty": "Ovdje je prazno…",
+                    "no_groups": "Nema zajedničkih grupa!",
+                    "sub": {
+                        "badges": "Značke",
+                        "connections": "Konekcije",
+                        "information": "Informacije"
+                    },
+                    "badges": {
+                        "translator": "Prevoditelj",
+                        "early_adopter": "Rani korisnik",
+                        "supporter": "Podržavatelj"
+                    },
+                    "mutual_groups": "Zajedničke grupe",
+                    "no_users": "Nema zajedničkih prijatelja!"
+                },
+                "user_picker": {
+                    "select": "Odaberi prijatelje koje želiš dodati."
+                }
+            },
+            "requires_online": "Trebaš biti na vezi da vidiš ovo."
+        },
+        "context_menu": {
+            "copy_id": "Kopiraj ID",
+            "copy_selection": "Kopiraj odabrano",
+            "copy_mid": "Kopiraj ID poruke",
+            "copy_cid": "Kopiraj ID kanala",
+            "mention": "Spomen",
+            "mark_as_read": "Označi kao pročitano",
+            "retry_message": "Pokušaj poslati ponovno",
+            "cancel_message": "Odustani",
+            "edit_message": "Uredi poruku",
+            "remove_member": "Izbaci iz grupe",
+            "kick_member": "Izbaci člana",
+            "ban_member": "Zabrani člana",
+            "open_file": "Otvori datoteku",
+            "save_file": "Spremi datoteku",
+            "save_image": "Spremi sliku",
+            "open_video": "Otvori video",
+            "save_video": "Spremi video",
+            "copy_link": "Kopiraj link",
+            "open_link": "Otvori link",
+            "unblock_user": "Odblokiraj korisnika",
+            "add_friend": "Dodaj prijatelja",
+            "remove_friend": "Ukloni prijatelja",
+            "cancel_friend": "Odkaži zahtjev",
+            "custom_status": "Prilagođeni status",
+            "clear_status": "Ukloni status",
+            "set_custom_status": "Postavi prilagođeni status",
+            "leave_group": "Napusti grupu",
+            "leave_server": "Napusti server",
+            "close_dm": "Zatvori DM",
+            "delete_server": "Izbriši server",
+            "create_channel": "Napravi kanal",
+            "create_invite": "Napravi pozivnicu",
+            "open_channel_settings": "Postavke kanala",
+            "open_server_settings": "Postavke servera",
+            "copy_text": "Kopiraj tekst",
+            "copy_uid": "Kopiraj korisnički ID",
+            "copy_sid": "Kopiraj ID servera",
+            "message_user": "Poruka",
+            "view_profile": "Pregledaj profil",
+            "quote_message": "Citiraj poruku",
+            "delete_message": "Obriši poruku",
+            "open_image": "Otvori sliku",
+            "block_user": "Blokiraj korisnika",
+            "delete_channel": "Izbriši kanal",
+            "open_group_settings": "Postavke grupe"
         }
     },
     "login": {
@@ -98,5 +400,32 @@
         "privacy": "Pravila o privatnosti",
         "tos": "Uvjeti o korištenju",
         "about": "O nama"
+    },
+    "quantities": {
+        "members": {
+            "one": "1 član",
+            "many": "{{count}} članova"
+        }
+    },
+    "dayjs": {
+        "lastDay": "[Jučer u] LT",
+        "sameDay": "[Danas u] LT",
+        "nextDay": "[Sutra u] LT",
+        "lastWeek": "[Prošli] dddd [u] LT",
+        "nextWeek": "dddd [u] LT",
+        "sameElse": "L"
+    },
+    "notifications": {
+        "now_friends": "Sada the prijatelji sa @{{person}}!",
+        "sent_request": "@{{person}} je poslao zahtjev za prijateljstvo."
+    },
+    "error": {
+        "NetworkError": "Greška mreže.",
+        "Unauthorized": "Bez pristupa.",
+        "FailedValidation": "Provjera valjanosti nije uspjela.",
+        "DatabaseError": "Greška baze podataka.",
+        "InternalError": "Unutarnja greška.",
+        "Unlabelled": "Nešto se dogodilo.",
+        "MissingPermission": "Bez dozvole."
     }
 }
