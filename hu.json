@@ -19,7 +19,7 @@
         "forgot": "Elfelejtetted a jelszavad?",
         "new": "Új a REVOLT-on?",
         "title": "Bejelentkezés",
-        "create": "Új felhasználó létrehozása.",
+        "create": "Új fiók létrehozása.",
         "check_mail": "Ellenőrizd beérkező leveleidet.",
         "reset": "Jelszó visszaállítása.",
         "successful_registration": "Sikeresen regisztálva!",
@@ -32,8 +32,8 @@
         "error": {
             "resend": "Újraküldés sikertelen!",
             "reset": "Visszaállítás sikertelen!",
-            "login": "A bejelentkezés sikertelen!",
-            "create": "A regisztrálás sikertelen!"
+            "login": "Bejelentkezés sikertelen!",
+            "create": "Regisztrálás sikertelen!"
         },
         "check_spam": "Ha nem találod akkor nézd meg spam mappádat",
         "resend": "Fiókhitelesítés újraküldése.",
@@ -64,7 +64,7 @@
                     "multiple": "{{userlist}} és {{user}} jelenleg írnak…",
                     "single": "{{user}} éppen ír…"
                 },
-                "attached_file": "{{filename}} hozzácsatolva",
+                "attached_file": "{{filename}} csatolva",
                 "failed_upload": "Feltöltés sikertelen!",
                 "uploading_file": "Feltöltés…",
                 "message_saved": "Mentés a jegyzeteid közé",
@@ -75,28 +75,28 @@
                 },
                 "edited": "(módosítva)",
                 "voice": {
-                    "connected": "Hang kapcsolódva",
-                    "mute": "Némitás",
-                    "unmute": "Némitás ki",
+                    "connected": "Hang csatlakoztatva",
+                    "mute": "Némítás",
+                    "unmute": "Némítás ki",
                     "leave": "Kilépés"
                 },
                 "misc": {
                     "viewing_old": "Régebbi üzeneteket tekintesz meg",
-                    "jump_present": "Ugrás a jelenbe",
+                    "jump_present": "Ugrás az új üzenetekhez",
                     "spoiler_attachment": "Spoiler"
                 }
             },
             "groups": {
                 "name": "Csoportnév",
                 "create": "Csoport létrehozása.",
-                "owner": "Csoport Tulaj",
+                "owner": "Csoport tulaj",
                 "description": "A csoport leírása"
             },
             "categories": {
                 "members": "Tagok",
                 "channels": "Csatornák",
                 "conversations": "Beszélgetések",
-                "participants": "Részteveők"
+                "participants": "Résztvevők"
             },
             "servers": {
                 "create": "Szerver készítése.",
@@ -112,34 +112,34 @@
             "pages": {
                 "sessions": {
                     "created": "{{time_ago}} létrehozva",
-                    "title": "Eszközök",
+                    "title": "Munkamenetek",
                     "this_device": "Jelenlegi eszköz",
-                    "active_sessions": "Jelenlegi Belépések"
+                    "active_sessions": "Aktív munkamenetek"
                 },
                 "appearance": {
                     "import_theme": "Téma importálása stringből",
                     "import_manual": "Kézi importálás",
                     "theme_data": "Téma adatok",
-                    "overrides": "Téma felülírások",
-                    "import_clipboard": "Másolás vágólapról",
+                    "overrides": "Téma felülírása",
+                    "import_clipboard": "Beillesztés vágólapról",
                     "export_clipboard": "Másolás vágólapra",
-                    "reset_overrides": "Témák visszaállítása",
+                    "reset_overrides": "Színek visszaállítása",
                     "title": "Megjelenés",
-                    "advanced": "Haladó Beálítások",
+                    "advanced": "Speciális beállítások",
                     "custom_css": "Egyéni CSS",
                     "display": {
                         "default": "Alapértelmezett",
-                        "compact": "Tömörített",
+                        "compact": "Sűrített",
                         "compact_description": "Jó öreg IRC.",
                         "default_description": "Gyönyörű, elegáns és modern."
                     },
-                    "sync": "Szinkronizáció Beállítások",
+                    "sync": "Szinkronizálási beállítások",
                     "color": {
                         "light": "világos",
                         "dark": "sötét"
                     },
                     "accent_selector": "Kiemelő Szín",
-                    "emoji_pack": "Emoji Csomag",
+                    "emoji_pack": "Emoji készletek",
                     "theme": "Téma",
                     "message_display": "Üzenet Kinézete"
                 },
@@ -155,16 +155,16 @@
                 "notifications": {
                     "enable_desktop": "Asztali értesítések bekapcsolása.",
                     "title": "Értesítések",
-                    "enable_sound": "Hang lejátszása üzenet érkezésekor.",
+                    "enable_sound": "Hang lejátszása üzenetek érkezésekor.",
                     "enable_outgoing_sound": "Hang lejátszása üzenetek küldésekor.",
-                    "sounds": "Hangok",
+                    "sounds": "Hangeffektek",
                     "descriptions": {
-                        "enable_desktop": "Ezzel értesítést kapsz ha az app meg van nyitva.",
-                        "enable_push": "Kapcsold be ahhoz, hogy értesítéseket kapj az üzenetekről, amikről lemaradtál.",
+                        "enable_desktop": "Ezzel értesülsz az üzenetekről ha az app meg van nyitva.",
+                        "enable_push": "Kapcsold be ahhoz, hogy értesítéseket kapj az üzenetekről amikről lemaradtál.",
                         "enable_sound": "Kapcsold be ahhoz, hogy hangot játsszunk le amikor megérkezik egy üzenet.",
-                        "enable_outgoing_sound": "Kapcsold be ahhoz, hogy egy hangot játsszunk le, amikor elküldesz egy üzenetet."
+                        "enable_outgoing_sound": "Kapcsold be ahhoz, hogy egy hangot játsszunk le amikor elküldesz egy üzenetet."
                     },
-                    "enable_push": "Push-értesítések engedélyezése.",
+                    "enable_push": "Push-értesítések bekapcsolása.",
                     "push_notifications": "Push-értesítések"
                 },
                 "profile": {
@@ -172,27 +172,27 @@
                     "info": "Információ",
                     "placeholder": "Írj valamit magadról…",
                     "profile_picture": "Profilkép",
-                    "custom_background": "Egyéni Háttér",
-                    "edit_background": "Háttér Szerkesztése",
-                    "fetching": "Profilod előkeresése…"
+                    "custom_background": "Egyedi háttérkép",
+                    "edit_background": "Háttérkép szerkesztése",
+                    "fetching": "Profilod betöltése…"
                 },
                 "feedback": {
                     "title": "Visszajelzés",
                     "report": "Mit szeretnél bejelenteni?",
-                    "bug": "Bug",
-                    "feature": "Egy funkció kérése",
-                    "other": "Más",
-                    "send": "Visszajelzés Küldése",
-                    "describe": "Kérlek, írd körül a problémát."
+                    "bug": "Hiba",
+                    "feature": "Funkció kérelmezése",
+                    "other": "Más (Írd ide)",
+                    "send": "Visszajelzés beküldése",
+                    "describe": "Kérjük, írd ismertesd a problémát."
                 },
                 "donate": {
-                    "title": "Adományoz"
+                    "title": "Adományozz"
                 },
-                "source_code": "Forrás",
+                "source_code": "Forráskód",
                 "sync": {
                     "descriptions": {
-                        "theme": "Ez szinkronizálja a kiválasztott témát, színeket és minden egyéni CSS beállítást.",
-                        "appearance": "Ez olyan beállításokat szinkronizál, mint az emoji csomagok és az üzenetek sűrűsége.",
+                        "theme": "Ez olyan beállításokat szinkronizál, mint a kiválasztott téma, színek és minden egyéni CSS beállítás.",
+                        "appearance": "Ez olyan beállításokat szinkronizál, mint a kiválasztott emoji készlet és az üzenetek sűrűsége.",
                         "locale": "Ez szinkronizálja az aktuálisan kiválasztott nyelvet."
                     },
                     "title": "Szinkronizálás",
@@ -211,14 +211,14 @@
             },
             "categories": {
                 "user_settings": "Felhasználói beállítások",
-                "client_settings": "Alkalmazás beállítások"
+                "client_settings": "Alkalmazás beállításai"
             },
             "title": "Beállítások",
             "channel_pages": {
                 "overview": {
                     "title": "Áttekintés",
-                    "name": "Csatorna Név",
-                    "description": "Csatorna Leírás"
+                    "name": "Csatorna neve",
+                    "description": "Csatorna leírása"
                 }
             },
             "tips": {
@@ -227,7 +227,7 @@
                     "a": "Hiányolsz egy általad kívánt nyelvet?"
                 },
                 "sessions": {
-                    "b": "biztosítsd a fiókodat a jelszavad megváltoztatásával és kétlépcsős hitelesítés használatával.",
+                    "b": "biztosítsd a fiókodat a jelszavad megváltoztatásával és kétfaktoros hitelesítés használatával.",
                     "a": "Ha látsz egy ismeretlen eszközt a listán,"
                 },
                 "account": {
@@ -238,7 +238,7 @@
             "actions": {
                 "remove": "Eltávolít",
                 "upload": "Feltöltés",
-                "max_filesize": "(maximum {{filesize}})"
+                "max_filesize": "(max. {{filesize}})"
             },
             "server_pages": {
                 "invites": {
@@ -344,15 +344,15 @@
                     "select": "Válassz barátokat a hozzáadáshoz."
                 }
             },
-            "copy_username": "Kattints a felhasználónév másolásához"
+            "copy_username": "Kattints a felhasználóneved másolásához"
         },
         "navigation": {
             "tabs": {
                 "unreads": "Olvasatlan üzenetek",
-                "saved": "Mentett Jegyzetek",
-                "friends": "Ismerősök",
+                "saved": "Mentett jegyzetek",
+                "friends": "Barátok",
                 "dev": "Fejlesztő",
-                "home": "Otthon"
+                "home": "Kezdőlap"
             }
         },
         "context_menu": {
@@ -425,7 +425,7 @@
         }
     },
     "notifications": {
-        "now_friends": "@{{person}} mostantól az barátod!",
+        "now_friends": "@{{person}} mostantól a barátod!",
         "sent_request": "@{{person}} küldött egy baráti felkérést."
     },
     "error": {
