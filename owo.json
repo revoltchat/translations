@@ -45,7 +45,7 @@
                     "save": "Syave"
                 },
                 "prompt": {
-                    "confirm_leave": "Go away fwom {{group_name}} (They'll pwobabwy miss u OmO)?",
+                    "confirm_leave": "Go away fwom {{name}} (They'll pwobabwy miss u OmO)?",
                     "confirm_leave_long": "U can't come bacc unless ur invited in again."
                 },
                 "account": {
@@ -68,7 +68,8 @@
                     "badges": {
                         "translator": "Twanslatyor",
                         "early_adopter": "Eawwy adoptew",
-                        "supporter": "Simp"
+                        "supporter": "Simp",
+                        "responsible_disclosure": "Chad"
                     },
                     "sub": {
                         "connections": "Cyonnectwions",
@@ -86,7 +87,7 @@
         "status": {
             "online": "Onwine",
             "idle": "Idwe",
-            "busy": "Bwusy",
+            "busy": "Dyo Not Distuwb",
             "invisible": "Invisibwe",
             "offline": "Offwine"
         },
@@ -117,7 +118,9 @@
                     "user_joined": "jyoined.",
                     "channel_renamed": "ryenamwed the channyel two",
                     "channel_icon_changed": "chyanged the channyew icyon",
-                    "channel_description_changed": "chyanged the channyew dyescrwiption"
+                    "channel_description_changed": "chyanged the channyew dyescrwiption",
+                    "user_kicked": "wuss kyicked.",
+                    "user_banned": "wyas ejected."
                 },
                 "typing": {
                     "several": "Panic Panic Panic…",
@@ -126,7 +129,7 @@
                 },
                 "attached_file": "Attyached {{filename}}",
                 "failed_upload": "Fwailed to upwoad!",
-                "uploading_file": "Upwoading fwile…",
+                "uploading_file": "Upwoading…",
                 "message_saved": "Syawe to uw nyotes",
                 "bot": "Senpai",
                 "unknown_user": "<Unknywown Cunt>",
@@ -149,13 +152,17 @@
             "groups": {
                 "name": "Gwoup Name",
                 "create": "Cweate a gwoup.",
-                "owner": "Daddy"
+                "owner": "Daddy",
+                "description": "Gwoup Desqwiption"
             },
             "servers": {
                 "create": "Crewate a serwer.",
                 "name": "Serwer Name",
                 "owner": "Serwer Owner",
-                "channel_name": "Channel Namew"
+                "channel_name": "Channel Namew",
+                "description": "Syerver Dyescwiption",
+                "channel_description": "Chyannel Dyescwiption",
+                "custom_banner": "Cyustom Bannew"
             }
         },
         "context_menu": {
@@ -273,6 +280,16 @@
                     "profile_picture": "Pwofiwe pictuwwe",
                     "custom_background": "Cuwstom backgwouwnd",
                     "edit_background": "Edit backgwouwnd"
+                },
+                "experiments": {
+                    "title": "Human Experiments",
+                    "features": "Avyailable Fweatuwes",
+                    "titles": {
+                        "servers": "Syerves"
+                    }
+                },
+                "sync": {
+                    "title": "Syinc"
                 }
             },
             "categories": {
@@ -304,7 +321,8 @@
             },
             "actions": {
                 "remove": "Remowe",
-                "upload": "Upwoad (max {{filesize}})"
+                "upload": "Upwoad",
+                "max_filesize": "(myax {{filesize}})"
             }
         }
     },
