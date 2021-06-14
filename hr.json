@@ -10,7 +10,8 @@
                     "channel_icon_changed": "je promjenio ikonu kanala",
                     "channel_description_changed": "je promjenio opis kanala",
                     "channel_renamed": "je promjenio ime kanala u",
-                    "removed_by": "izbačen od"
+                    "removed_by": "izbačen od",
+                    "user_banned": "je zabranjen."
                 },
                 "typing": {
                     "several": "Nekoliko ljudi tipka…",
@@ -101,7 +102,8 @@
                     "placeholder": "Predstavi se…",
                     "custom_background": "Vlastita pozadina",
                     "edit_background": "Promjeni pozadinu",
-                    "profile_picture": "Profilna slika"
+                    "profile_picture": "Profilna slika",
+                    "fetching": "Dohvaćujem profil…"
                 },
                 "sessions": {
                     "title": "Sesije",
@@ -133,7 +135,8 @@
                     "custom_css": "Vlastiti CSS",
                     "sync": "Sinkronizacija",
                     "emoji_pack": "Emoji paket",
-                    "advanced": "Napredne postavke"
+                    "advanced": "Napredne postavke",
+                    "accent_selector": "Glavna boja"
                 },
                 "notifications": {
                     "title": "Obavjesti",
@@ -142,9 +145,13 @@
                     "descriptions": {
                         "enable_desktop": "Primit ćeš obavjesti dok je aplikacija otvorena.",
                         "enable_push": "Uključi ovo ako želiš primati obavjesti dok je aplikacija zatvorena.",
-                        "enable_sound": "Uključi za zvuk obavjesti."
+                        "enable_sound": "Uključi za zvuk obavjesti.",
+                        "enable_outgoing_sound": "Uključi ovo ako želiš čuti zvuk svaki put kada dobiješ obavjest."
                     },
-                    "sounds": "Zvukovi"
+                    "sounds": "Zvukovi",
+                    "push_notifications": "Push obavjesti",
+                    "enable_desktop": "Uključi obavjesti.",
+                    "enable_push": "Uključi push obavjesti."
                 },
                 "language": {
                     "title": "Jezik",
@@ -241,7 +248,8 @@
                 "error": "Došlo je do pogreške!",
                 "clipboard": {
                     "copy": "Ručno kopiranje:",
-                    "unavailable": "Međuspremnik je nedostupan!"
+                    "unavailable": "Međuspremnik je nedostupan!",
+                    "https": "Trenutno niste u HTTPS kontekstu."
                 },
                 "signed_out": "Vi ste odjavljeni!",
                 "onboarding": {
@@ -299,7 +307,8 @@
                     "badges": {
                         "translator": "Prevoditelj",
                         "early_adopter": "Rani korisnik",
-                        "supporter": "Podržavatelj"
+                        "supporter": "Podržavatelj",
+                        "responsible_disclosure": "Odgovorno otkrivene greške"
                     },
                     "mutual_groups": "Zajedničke grupe",
                     "no_users": "Nema zajedničkih prijatelja!"
@@ -426,6 +435,42 @@
         "DatabaseError": "Greška baze podataka.",
         "InternalError": "Unutarnja greška.",
         "Unlabelled": "Nešto se dogodilo.",
-        "MissingPermission": "Bez dozvole."
+        "MissingPermission": "Bez dozvole.",
+        "MissingInvite": "U zahtjevu nedostaje pozivni kôd.",
+        "UnknownError": "Pogledaj konzolu (Ctrl+Shift+J).",
+        "EmailInUse": "Ova e-pošta je već u upotrijebi.",
+        "UsernameTaken": "Ovo korisničko ime je zauzeto.",
+        "TooLong": "Predugo",
+        "FileTooLarge": "Datoteka je prevelika.",
+        "FailedToReceive": "Poslužitelj nije uspio primiti vašu datoteku.",
+        "MissingData": "Zahtjevu nedostaju podaci.",
+        "CompromisedPassword": "Ova lozinka je kompromizirana.",
+        "OperationFailed": "Operacija neuspješna.",
+        "RenderFail": "Renderiranje predloška neuspješno.",
+        "MissingHeaders": "Nedostaje header.",
+        "InvalidSession": "Nevaljana sesija.",
+        "UnverifiedAccount": "Nepotvrđeni račun.",
+        "UnknownUser": "Nepoznati korisnik.",
+        "EmailFailed": "Neuspjelo slanje e-pošte.",
+        "InvalidCredentials": "E-pošta ili lozinka koju ste unijeli je neispravna.",
+        "InvalidToken": "Nevaljani token",
+        "InvalidInvite": "Neispravan kod",
+        "AlreadyFriends": "Već ste prijatelji sa ovim korisnikom.",
+        "AlreadySentRequest": "Već ste poslali zahtjev za prijateljstvo ovom korisniku.",
+        "AlreadyOnboarded": "Konfiguracija je već dovršena.",
+        "Blocked": "Blokirali ste ovog korisnika.",
+        "BlockedOther": "Ovaj korisnik vas je blokirao (too bad lol).",
+        "NoEffect": "Ovaj zahtjev nije imao učinka.",
+        "RequiredField": "Potrebno",
+        "TooShort": "Prekratko",
+        "InvalidEmail": "Neispravna e-pošta",
+        "Unavailable": "Nedostupno.",
+        "ProbeError": "Dohvaćanje metapodataka datoteke nije uspjelo.",
+        "IoError": "Poslužitelj je naišao na I/O pogrešku.",
+        "UnsupportedBrowser": "Vašem web pregledniku nedostaje podrška za ovu značajku.",
+        "DeniedNotification": "Odbili ste pristup obavijesti, provjerite postavke stranice."
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
     }
 }
