@@ -40,22 +40,23 @@
         "username": "Имя пользователя",
         "existing": "Уже имеете аккаунт?",
         "check_mail": "Проверьте свою эл. почту.",
-        "check_spam": "Проверьте спам, если не можете найти письмо"
+        "check_spam": "Проверьте спам, если не можете найти письмо",
+        "email_delay": "Пожалуйста, дайте ему до 10 минут."
     },
     "app": {
         "main": {
             "channel": {
                 "message": "Писать {{name}}",
                 "system": {
-                    "user_left": "вышел.",
-                    "removed_by": "удален",
-                    "user_joined": "присоединился.",
-                    "added_by": "добавлен",
-                    "channel_renamed": "канал переименован на",
-                    "channel_icon_changed": "изменил изображение канала",
-                    "channel_description_changed": "изменил описание канала",
-                    "user_banned": "заблокирован.",
-                    "user_kicked": "изгнан."
+                    "user_left": "{{user}} вышел",
+                    "removed_by": "{{other_user}} удалил {{user}}",
+                    "user_joined": "{{user}} присоединился",
+                    "added_by": "{{other_user}} добавил {{user}}",
+                    "channel_renamed": "{{user}} переименовал на канал {{name}}",
+                    "channel_icon_changed": "{{user}} изменил изображение канала",
+                    "channel_description_changed": "{{user}} изменил описание канала",
+                    "user_banned": "{{user}} заблокирован",
+                    "user_kicked": "{{user}} изгнан"
                 },
                 "message_who": "Сообщение {{person}}",
                 "uploading_file": "Загрузка…",
