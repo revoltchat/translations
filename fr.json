@@ -40,22 +40,23 @@
         "existing": "Avez-vous déjà un compte ?",
         "username": "Nom d'utilisateur",
         "check_mail": "Vérifiez votre boite mail.",
-        "check_spam": "Veuillez vérifier dans vos spam si vous ne pouvez pas le trouver"
+        "check_spam": "Veuillez vérifier dans vos spam si vous ne pouvez pas le trouver",
+        "email_delay": "Merci d'attendre jusqu'à 10 minutes pour qu'il arrive."
     },
     "app": {
         "main": {
             "channel": {
                 "message": "Message {{name}}",
                 "system": {
-                    "user_left": "est parti.",
-                    "added_by": "ajouté par",
-                    "user_joined": "a rejoint.",
-                    "removed_by": "enlevé par",
-                    "channel_renamed": "nom du salon changé pour",
-                    "channel_description_changed": "a modifié la description du salon",
-                    "channel_icon_changed": "a modifié l'icône du salon",
-                    "user_kicked": "a été éjecté.",
-                    "user_banned": "a été banni."
+                    "user_left": "{{user}} est parti",
+                    "added_by": "{{other_user}} a ajouté {{user}}",
+                    "user_joined": "{{user}} a rejoint",
+                    "removed_by": "{{other_user}} a enlevé {{user}}",
+                    "channel_renamed": "{{user}} a modifié le nom du salon en {{name}}",
+                    "channel_description_changed": "{{user}} a modifié la description du salon",
+                    "channel_icon_changed": "{{user}} a modifié l'icône du salon",
+                    "user_kicked": "{{user}} a été éjecté",
+                    "user_banned": "{{user}} a été banni"
                 },
                 "bot": "bot",
                 "message_where": "Envoyer un message dans {{channel_name}}",
@@ -120,7 +121,7 @@
         "status": {
             "offline": "Hors-ligne",
             "idle": "Absent",
-            "busy": "Occupé",
+            "busy": "Ne pas déranger",
             "invisible": "Invisible",
             "online": "En ligne"
         },
@@ -269,7 +270,8 @@
                     },
                     "descriptions": {
                         "servers": "Ceci vous permet de créer des serveurs avec des salon, invitations, modération et plus."
-                    }
+                    },
+                    "not_available": "Aucune expérimentation n'est disponible actuellement."
                 }
             },
             "channel_pages": {
@@ -393,7 +395,8 @@
                     "badges": {
                         "translator": "Traducteur",
                         "early_adopter": "Adopteur de longue date",
-                        "supporter": "Supporter"
+                        "supporter": "Supporter",
+                        "responsible_disclosure": "Bug(s) divulgué(s) de manière responsable"
                     },
                     "sub": {
                         "connections": "Connexions",
