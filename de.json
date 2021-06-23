@@ -4,7 +4,9 @@
         "tos": "Geschäftsbedingungen",
         "privacy": "Datenschutzerklärung",
         "image_by": "Bild von",
-        "loading": "Ladevorgang…"
+        "loading": "Ladevorgang…",
+        "on": "An",
+        "off": "Aus"
     },
     "login": {
         "title": "Login",
@@ -72,13 +74,13 @@
                 "message_who": "Nachricht an {{person}}",
                 "message_where": "Nachricht an {{channel_name}}",
                 "system": {
-                    "removed_by": "entfernt von",
+                    "removed_by": "{{user}} wurde entfernt von {{other_user}}",
                     "added_by": "{{user}} wurde hinzugefügt von {{other_user}}",
                     "user_left": "{{user}} hat verlassen",
                     "user_joined": "{{user}} ist beigetreten",
-                    "channel_renamed": "hat den Channel umbenannt zu",
-                    "channel_icon_changed": "has das Kanalsymbol geändert",
-                    "channel_description_changed": "hat die Kanalbeschreibung geändert",
+                    "channel_renamed": "{{user}} hat den Channel umbenannt zu {{name}}",
+                    "channel_icon_changed": "{{user}} has das Channelsymbol geändert",
+                    "channel_description_changed": "{{user}} hat die Channelbeschreibung geändert",
                     "user_kicked": "{{user}} wurde gekickt",
                     "user_banned": "{{user}} wurde gebannt"
                 },
@@ -100,7 +102,8 @@
                 "misc": {
                     "spoiler_attachment": "Spoiler",
                     "jump_present": "Zu den neuen Nachrichten springen",
-                    "viewing_old": "Du schaust dir ältere Nachrichten an"
+                    "viewing_old": "Du schaust dir ältere Nachrichten an",
+                    "failed_load": "Konnte Nachricht nicht laden."
                 },
                 "voice": {
                     "unmute": "Stummschaltung aufheben",
@@ -122,7 +125,10 @@
                 "channel_name": "Kanalname",
                 "description": "Serverbeschreibung",
                 "channel_description": "Kanalbeschreibung",
-                "custom_banner": "Benutzerdefinierter Banner"
+                "custom_banner": "Benutzerdefinierter Banner",
+                "channel_type": "Kanaltyp",
+                "text_channel": "Textkanal",
+                "voice_channel": "Sprachkanal"
             }
         },
         "context_menu": {
@@ -170,7 +176,8 @@
             "create_invite": "Einladung erstellen",
             "view_profile": "Profil anschauen",
             "kick_member": "Nutzer:in kicken",
-            "ban_member": "Nutzer:in bannen"
+            "ban_member": "Nutzer:in bannen",
+            "reply_message": "Antworten"
         },
         "special": {
             "friends": {
@@ -193,8 +200,9 @@
                     "preview": "Vorschau",
                     "save": "Speichern",
                     "ban": "Ban",
-                    "kick": "Kick",
-                    "delete": "Löschen"
+                    "kick": "Kicken",
+                    "delete": "Löschen",
+                    "create": "Erstellen"
                 },
                 "signed_out": "Du wurdest ausgeloggt!",
                 "clipboard": {
@@ -304,7 +312,8 @@
                 },
                 "language": {
                     "title": "Sprache",
-                    "select": "Sprache auswählen"
+                    "select": "Sprache auswählen",
+                    "other": "Alternative Sprachen"
                 },
                 "notifications": {
                     "enable_sound": "Bei einer Nachricht einen Ton abspielen.",
@@ -409,7 +418,7 @@
                     "title": "Einladungen"
                 },
                 "bans": {
-                    "title": "Bans"
+                    "title": "Banliste"
                 }
             }
         }
