@@ -139,7 +139,8 @@
                 },
                 "language": {
                     "title": "Мова",
-                    "select": "Оберіть вашу мову"
+                    "select": "Оберіть вашу мову",
+                    "other": "Альтернативні мови"
                 },
                 "donate": {
                     "title": "Пожертвувати"
@@ -163,7 +164,8 @@
                     "title": "Експерименти",
                     "titles": {
                         "servers": "Сервери"
-                    }
+                    },
+                    "not_available": "В даний час ніяких експериментів не проводиться."
                 }
             },
             "channel_pages": {
@@ -227,7 +229,8 @@
                     "cancel": "Відмінити",
                     "ban": "Блокування",
                     "kick": "Вигнати",
-                    "delete": "Видалити"
+                    "delete": "Видалити",
+                    "create": "Створити"
                 },
                 "error": "Виникла помилка!",
                 "signed_out": "Ви вийшли з акканту!",
@@ -310,15 +313,15 @@
                     "several": "Декілька людей пишуть…"
                 },
                 "system": {
-                    "removed_by": "видалений",
-                    "channel_renamed": "канал перейменовано на",
-                    "user_joined": "ввійшов.",
-                    "user_left": "вийшов.",
-                    "added_by": "добавлений",
-                    "channel_icon_changed": "змінив аватарку каналу",
-                    "channel_description_changed": "змінив опис каналу",
-                    "user_banned": "заблокований.",
-                    "user_kicked": "вигнаний."
+                    "removed_by": "{{other_user}} видалив {{user}}",
+                    "channel_renamed": "{{user}} перейменував канал на {{name}}",
+                    "user_joined": "{{user}} ввійшов.",
+                    "user_left": "{{user}} вийшов.",
+                    "added_by": "{{other_user}} приєднав {{user}}",
+                    "channel_icon_changed": "{{user}} змінив аватарку каналу",
+                    "channel_description_changed": "{{user}} змінив опис каналу",
+                    "user_banned": "{{user}} заблокований.",
+                    "user_kicked": "{{user}} вигнаний."
                 },
                 "message_where": "Повідомлення {{channel_name}}",
                 "message_saved": "Зберегти до нотаток",
@@ -355,7 +358,10 @@
                 "owner": "Володар серверу",
                 "description": "Опис сервера",
                 "channel_description": "Опис каналу",
-                "custom_banner": "Власний банер"
+                "custom_banner": "Власний банер",
+                "channel_type": "Тип каналу",
+                "text_channel": "Текстовий канал",
+                "voice_channel": "Голосовий канал"
             }
         },
         "navigation": {
@@ -427,7 +433,8 @@
         "resend": "Відправити підтвердження знову.",
         "cancel": "Відмінити запит.",
         "open_mail_provider": "Відкрити {{provider}}",
-        "successful_registration": "Ви успішно зареєструвались!"
+        "successful_registration": "Ви успішно зареєструвались!",
+        "email_delay": "Будь ласка, зачекайте до 10 хвилин, поки він прибуде."
     },
     "error": {
         "NetworkError": "Помилка мережі.",
