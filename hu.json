@@ -4,7 +4,9 @@
         "privacy": "Adatvédelmi irányelvek",
         "image_by": "A képet készítette",
         "about": "Rólunk",
-        "loading": "Betöltés…"
+        "loading": "Betöltés…",
+        "on": "Be",
+        "off": "Ki"
     },
     "login": {
         "email": "Email",
@@ -40,7 +42,8 @@
         "missing_verification": "Nincs email-ed?",
         "set_password": "Új jelszó beállítása.",
         "current_password": "Jelenlegi jelszó",
-        "invite": "Meghívó kódja"
+        "invite": "Meghívó kódja",
+        "email_delay": "Kérlek, várj legfeljebb 10 percet, amíg az E-Mail megérkezik."
     },
     "app": {
         "main": {
@@ -49,15 +52,15 @@
                 "message_who": "Üzenet: {{person}}",
                 "message_where": "Üzenet: {{channel_name}}",
                 "system": {
-                    "user_left": "távozott.",
-                    "user_joined": "csatlakozott.",
-                    "added_by": "közzétette",
-                    "removed_by": "eltávolította",
-                    "channel_renamed": "átnevezte a csatornát erre",
-                    "channel_description_changed": "megváltoztatta a csatorna leírását",
-                    "channel_icon_changed": "megváltoztatta a csatorna ikonját",
-                    "user_banned": "ki lett tiltva.",
-                    "user_kicked": "ki lett dobva."
+                    "user_left": "{{user}} távozott",
+                    "user_joined": "{{user}} csatlakozott",
+                    "added_by": "{{other_user}} hozzáadta a beszélgetéshez {{user}} felhasználót",
+                    "removed_by": "{{other_user}} eltávolította {{user}} felhasználót",
+                    "channel_renamed": "{{user}} átnevezte a csatornát erre: {{name}}",
+                    "channel_description_changed": "{{user}} megváltoztatta a csatorna leírását",
+                    "channel_icon_changed": "{{user}} megváltoztatta a csatorna ikonját",
+                    "user_banned": "{{user}} ki lett tiltva.",
+                    "user_kicked": "{{user}} ki lett dobva."
                 },
                 "typing": {
                     "several": "Több ember is ír…",
@@ -83,7 +86,8 @@
                 "misc": {
                     "viewing_old": "Régebbi üzeneteket tekintesz meg",
                     "jump_present": "Ugrás az új üzenetekhez",
-                    "spoiler_attachment": "Spoiler"
+                    "spoiler_attachment": "Spoiler",
+                    "failed_load": "Hiba történt az üzenet betöltésekor."
                 }
             },
             "groups": {
@@ -105,7 +109,10 @@
                 "owner": "Szervertulajdonos",
                 "description": "A szerver leírása",
                 "channel_description": "A csatorna leírása",
-                "custom_banner": "Egyedi banner"
+                "custom_banner": "Egyedi banner",
+                "channel_type": "Csatorna típusa",
+                "text_channel": "Szöveges csatorna",
+                "voice_channel": "Hangcsatorna"
             }
         },
         "settings": {
@@ -150,7 +157,8 @@
                 },
                 "language": {
                     "title": "Nyelv",
-                    "select": "Válaszd ki a megjeleníteni kívánt nyelvet"
+                    "select": "Válaszd ki a megjeleníteni kívánt nyelvet",
+                    "other": "Egyéb nyelvek"
                 },
                 "notifications": {
                     "enable_desktop": "Asztali értesítések bekapcsolása.",
@@ -206,7 +214,8 @@
                     },
                     "descriptions": {
                         "servers": "Ez teszi lehetővé a szerverek létrehozását csatornákkal, meghívókkal, tiltásokkal, moderálással és egyebekkel."
-                    }
+                    },
+                    "not_available": "Jelenleg nem állnak rendelkezésre kísérleti funkciók."
                 }
             },
             "categories": {
@@ -272,7 +281,8 @@
                     "preview": "Előnézet",
                     "ban": "Kitiltás",
                     "kick": "Kidobás",
-                    "delete": "Törlés"
+                    "delete": "Törlés",
+                    "create": "Létrehozás"
                 },
                 "prompt": {
                     "confirm_leave": "Kilépsz a(z) {{name}} csoportból?",
@@ -285,7 +295,7 @@
                     "confirm_close_dm_long": "Később újra megnyithatod, de mindkét oldalon el fog tűnni.",
                     "confirm_delete": "Törlöd ezt: {{name}}?",
                     "confirm_delete_long": "Ha már egyszer törölted, nincs visszaút.",
-                    "confirm_ban": "Ki akarod tiltani {{name}}",
+                    "confirm_ban": "Ki fogod tiltani {{name}}-t",
                     "create_invite_generate": "Meghívó generálása…"
                 },
                 "clipboard": {
@@ -401,7 +411,8 @@
             "view_profile": "Profil megjelenítése",
             "delete_channel": "Csatorna törlése",
             "create_channel": "Csatorna létrehozása",
-            "open_server_settings": "Szerver beállításai"
+            "open_server_settings": "Szerver beállításai",
+            "reply_message": "Válasz"
         },
         "status": {
             "offline": "Offline",
@@ -463,7 +474,7 @@
         "FileTooLarge": "A Fájl túl nagy.",
         "FailedToReceive": "A szerver nem kapta meg a fájlodat.",
         "DeniedNotification": "Megtagadtad az értesítésekhez a hozzáférést, ellenőrizd az oldal beállításait.",
-        "MissingInvite": "Hiányzik a meghívó kód a kérésben.",
+        "MissingInvite": "Hiányzó meghívó kód a kérésben.",
         "ProbeError": "Nem sikerült megszerezni a fájl metaadatait.",
         "IoError": "A szerver I/O hibát észlelt.",
         "UnsupportedBrowser": "A böngésződ nem támogatja ezt a funkciót.",
