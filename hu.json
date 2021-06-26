@@ -9,17 +9,17 @@
         "off": "Ki"
     },
     "login": {
-        "email": "Email",
+        "email": "E-Mail",
         "password": "Jelszó",
         "enter": {
-            "email": "Írd be az email címed.",
+            "email": "Írd ide az e-mail címedet.",
             "password": "Írd be a jelszavad.",
-            "username": "Írd be a felhasználóneved.",
+            "username": "Írd ide a felhasználónevedet.",
             "current_password": "Írd be jelenlegi jelszavadat.",
             "invite": "Írd be a meghívó kódod."
         },
         "forgot": "Elfelejtetted a jelszavad?",
-        "new": "Új a REVOLT-on?",
+        "new": "Új vagy a REVOLT-nál?",
         "title": "Bejelentkezés",
         "create": "Új fiók létrehozása.",
         "check_mail": "Ellenőrizd beérkező leveleidet.",
@@ -37,13 +37,13 @@
             "login": "Bejelentkezés sikertelen!",
             "create": "Regisztrálás sikertelen!"
         },
-        "check_spam": "Ha nem találod akkor nézd meg spam mappádat",
-        "resend": "Fiókhitelesítés újraküldése.",
+        "check_spam": "Ha nem találod, akkor nézd meg spam mappádat is",
+        "resend": "Fiókhitelesítő e-mail újraküldése.",
         "missing_verification": "Nincs email-ed?",
         "set_password": "Új jelszó beállítása.",
         "current_password": "Jelenlegi jelszó",
         "invite": "Meghívó kódja",
-        "email_delay": "Kérlek, várj legfeljebb 10 percet, amíg az E-Mail megérkezik."
+        "email_delay": "Kérlek, várj amíg az e-mail megérkezik. (Legfeljebb 10 perc)"
     },
     "app": {
         "main": {
@@ -64,7 +64,7 @@
                 },
                 "typing": {
                     "several": "Több ember is ír…",
-                    "multiple": "{{userlist}} és {{user}} jelenleg írnak…",
+                    "multiple": "{{userlist}} és {{user}} éppen írnak…",
                     "single": "{{user}} éppen ír…"
                 },
                 "attached_file": "{{filename}} csatolva",
@@ -72,15 +72,15 @@
                 "uploading_file": "Feltöltés…",
                 "message_saved": "Mentés a jegyzeteid közé",
                 "bot": "bot",
-                "unknown_user": "<Ismeretlen Felhasználó>",
+                "unknown_user": "<Ismeretlen felhasználó>",
                 "start": {
                     "group": "Ez a beszélgetés kezdete."
                 },
                 "edited": "(módosítva)",
                 "voice": {
-                    "connected": "Hang csatlakoztatva",
+                    "connected": "Csatlakoztatva hanghoz",
                     "mute": "Némítás",
-                    "unmute": "Némítás ki",
+                    "unmute": "Némítás feloldása",
                     "leave": "Kilépés"
                 },
                 "misc": {
@@ -88,6 +88,13 @@
                     "jump_present": "Ugrás az új üzenetekhez",
                     "spoiler_attachment": "Spoiler",
                     "failed_load": "Hiba történt az üzenet betöltésekor."
+                },
+                "notifications": {
+                    "default": "Alapértelmezés használata",
+                    "all": "Minden üzenet",
+                    "mention": "Csak említések",
+                    "none": "Semelyik",
+                    "muted": "Némított"
                 }
             },
             "groups": {
@@ -99,7 +106,7 @@
             "categories": {
                 "members": "Tagok",
                 "channels": "Csatornák",
-                "conversations": "Beszélgetések",
+                "conversations": "Közvetlen üzenetek",
                 "participants": "Résztvevők"
             },
             "servers": {
@@ -111,7 +118,7 @@
                 "channel_description": "A csatorna leírása",
                 "custom_banner": "Egyedi banner",
                 "channel_type": "Csatorna típusa",
-                "text_channel": "Szöveges csatorna",
+                "text_channel": "Szövegcsatorna",
                 "voice_channel": "Hangcsatorna"
             }
         },
@@ -121,7 +128,7 @@
                     "created": "{{time_ago}} létrehozva",
                     "title": "Munkamenetek",
                     "this_device": "Jelenlegi eszköz",
-                    "active_sessions": "Aktív Munkamenetek"
+                    "active_sessions": "Aktív munkamenetek"
                 },
                 "appearance": {
                     "import_theme": "Téma importálása stringből",
@@ -146,7 +153,7 @@
                         "dark": "sötét"
                     },
                     "accent_selector": "Kiemelő Szín",
-                    "emoji_pack": "Emoji Készletek",
+                    "emoji_pack": "Emotikon csomagok",
                     "theme": "Téma",
                     "message_display": "Üzenet Kinézete"
                 },
@@ -172,22 +179,22 @@
                         "enable_sound": "Kapcsold be ahhoz, hogy hangot játsszunk le amikor megérkezik egy üzenet.",
                         "enable_outgoing_sound": "Kapcsold be ahhoz, hogy egy hangot játsszunk le amikor elküldesz egy üzenetet."
                     },
-                    "enable_push": "Push-értesítések bekapcsolása.",
-                    "push_notifications": "Push-értesítések",
+                    "enable_push": "Leküldéses értesítések bekapcsolása.",
+                    "push_notifications": "Leküldéses értesítések",
                     "sound": {
-                        "message": "Üzenet Megkapva",
-                        "outbound": "Üzenet Elküldve",
-                        "call_join": "Felhasználó Belépett a Hívásba",
-                        "call_leave": "Felhasználó Kilépett a Hívásból"
+                        "message": "Üzenetek érkezésekor",
+                        "outbound": "Üzenetek küldésekor",
+                        "call_join": "Felhasználó csatlakozik a híváshoz",
+                        "call_leave": "Felhasználó kilép a hívásból"
                     }
                 },
                 "profile": {
-                    "title": "Profil",
+                    "title": "Profilom",
                     "info": "Információ",
                     "placeholder": "Írj valamit magadról…",
                     "profile_picture": "Profilkép",
-                    "custom_background": "Egyedi háttérkép",
-                    "edit_background": "Háttérkép szerkesztése",
+                    "custom_background": "Egyedi háttér",
+                    "edit_background": "Háttér szerkesztése",
                     "fetching": "Profilod betöltése…"
                 },
                 "feedback": {
@@ -200,13 +207,13 @@
                     "describe": "Kérjük, írd ismertesd a problémát."
                 },
                 "donate": {
-                    "title": "Adományozz"
+                    "title": "Adományozás"
                 },
                 "source_code": "Forráskód",
                 "sync": {
                     "descriptions": {
                         "theme": "Ez olyan beállításokat szinkronizál, mint a kiválasztott téma, színek és minden egyéni CSS beállítás.",
-                        "appearance": "Ez olyan beállításokat szinkronizál, mint a kiválasztott emoji készlet és az üzenetek sűrűsége.",
+                        "appearance": "Ez olyan beállításokat szinkronizál, mint a kiválasztott emotikon csomag és az üzenetek sűrűsége.",
                         "locale": "Ez szinkronizálja az aktuálisan kiválasztott nyelvet."
                     },
                     "title": "Szinkronizálás",
@@ -214,7 +221,7 @@
                 },
                 "experiments": {
                     "title": "Kísérleti funkciók",
-                    "features": "Elérhető funkciók",
+                    "features": "Elérhető kísérleti funkciók",
                     "titles": {
                         "servers": "Szerverek"
                     },
@@ -226,7 +233,7 @@
             },
             "categories": {
                 "user_settings": "Felhasználói beállítások",
-                "client_settings": "Alkalmazás beállításai"
+                "client_settings": "Kliens beállításai"
             },
             "title": "Beállítások",
             "channel_pages": {
@@ -355,7 +362,7 @@
                         "connections": "Kapcsolatok",
                         "badges": "Jelvények"
                     },
-                    "empty": "Nincs it még semmi…"
+                    "empty": "Nincs itt még semmi…"
                 },
                 "user_picker": {
                     "select": "Válaszd ki barátaidat a hozzáadáshoz."
@@ -418,14 +425,15 @@
             "delete_channel": "Csatorna törlése",
             "create_channel": "Csatorna létrehozása",
             "open_server_settings": "Szerver beállításai",
-            "reply_message": "Válasz"
+            "reply_message": "Válasz",
+            "open_notification_options": "Értesítési beállítások"
         },
         "status": {
             "offline": "Offline",
             "invisible": "Láthatatlan",
             "busy": "Elfoglalt",
             "idle": "Tétlen",
-            "online": "Online"
+            "online": "Elérhető"
         }
     },
     "dayjs": {
@@ -477,9 +485,9 @@
         "RenderFail": "Sablonmegjelenítés sikertelen.",
         "EmailFailed": "Nem sikerült elküldeni az e-mailt.",
         "InvalidCredentials": "Rosz email, vagy jelszó.",
-        "FileTooLarge": "A Fájl túl nagy.",
+        "FileTooLarge": "A fájl túl nagy.",
         "FailedToReceive": "A szerver nem kapta meg a fájlodat.",
-        "DeniedNotification": "Megtagadtad az értesítésekhez a hozzáférést, ellenőrizd az oldal beállításait.",
+        "DeniedNotification": "Megtagadtad az értesítésekhez való hozzáférést, ellenőrizd az oldal beállításait.",
         "MissingInvite": "Hiányzó meghívó kód a kérésben.",
         "ProbeError": "Nem sikerült megszerezni a fájl metaadatait.",
         "IoError": "A szerver I/O hibát észlelt.",
