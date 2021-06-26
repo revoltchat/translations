@@ -19,7 +19,7 @@
                     "confirm_delete_long": "Odată ce a fost șters, nu mai există cale de întoarcere.",
                     "confirm_delete_message_long": "Ești sigur că vrei să ștergi asta?",
                     "confirm_kick": "Ești sigur că vrei să dai afară pe {{name}}?",
-                    "confirm_ban": "Ești pe cale să banezi pe {{name}}",
+                    "confirm_ban": "Ești pe cale să-i interzici accesul lui {{name}}",
                     "confirm_ban_reason": "Motivul Interdicției",
                     "create_invite_generate": "Se generează invitația…",
                     "create_invite_created": "Iată noul tău cod de invitație:"
@@ -195,7 +195,7 @@
                     },
                     "features": "Caracteristici Disponibile",
                     "descriptions": {
-                        "servers": "Aceasta îți va permite să creezi servere cu canale, invitații, banuri, moderare și mai multe."
+                        "servers": "Aceasta îți va permite să creezi servere cu canale, invitații, interdicții, moderare și mai multe."
                     },
                     "not_available": "În acest moment nu este disponibil niciun experiment."
                 }
@@ -244,7 +244,7 @@
                     "title": "Membri"
                 },
                 "bans": {
-                    "title": "Banuri"
+                    "title": "Interdicții"
                 }
             }
         },
@@ -266,8 +266,8 @@
                     "channel_renamed": "{{user}} a schimbat numele grupului în {{name}}",
                     "channel_description_changed": "{{user}} a schimbat descrierea canalului",
                     "channel_icon_changed": "{{user}} a schimbat pictograma grupului",
-                    "user_kicked": "{{user}} a fost exclus",
-                    "user_banned": "{{user}} a fost banat"
+                    "user_kicked": "{{user}} a fost dat afară",
+                    "user_banned": "I-a fost interzis accesul lui {{user}}"
                 },
                 "typing": {
                     "several": "Mai multe persoane scriu…",
@@ -294,7 +294,8 @@
                     "viewing_old": "Acum vezi mesaje vechi",
                     "jump_present": "Sari la prezent",
                     "spoiler_attachment": "Spoiler",
-                    "failed_load": "Nu s-a putut încărca mesajul."
+                    "failed_load": "Nu s-a putut încărca mesajul.",
+                    "no_sending": "Nu ai permisiunea de a trimite mesaje pe acest canal."
                 },
                 "notifications": {
                     "default": "Folosește Implicit",
@@ -378,7 +379,7 @@
             "open_group_settings": "Setările Grupului",
             "copy_sid": "Copiază ID-ul Serverului",
             "view_profile": "Vezi Profilul",
-            "ban_member": "Banează Membrul",
+            "ban_member": "Interzice accesul membrul",
             "kick_member": "Dă afară Membrul",
             "close_dm": "Închide DM",
             "delete_server": "Șterge Serverul",
