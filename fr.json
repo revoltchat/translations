@@ -4,7 +4,9 @@
         "tos": "Conditions d'utilisation",
         "privacy": "Politique de confidentialité",
         "image_by": "Image par",
-        "loading": "Chargement…"
+        "loading": "Chargement…",
+        "on": "Activé",
+        "off": "Désactivé"
     },
     "login": {
         "title": "Connexion",
@@ -84,7 +86,16 @@
                 "misc": {
                     "viewing_old": "Vous regardez d'anciens messages",
                     "jump_present": "Revenir aux messages récents",
-                    "spoiler_attachment": "Spoiler"
+                    "spoiler_attachment": "Spoiler",
+                    "no_sending": "Vous n'avez pas la permission d'envoyer des messages dans ce salon.",
+                    "failed_load": "Les messages n'ont pas pu être chargés."
+                },
+                "notifications": {
+                    "all": "Tous les messages",
+                    "default": "Utiliser les options par défaut",
+                    "mention": "Mentions uniquement",
+                    "none": "Aucun",
+                    "muted": "Muet"
                 }
             },
             "categories": {
@@ -106,7 +117,10 @@
                 "owner": "Propriétaire du serveur",
                 "description": "Description du serveur",
                 "channel_description": "Description du salon",
-                "custom_banner": "Bannière personnalisée"
+                "custom_banner": "Bannière personnalisée",
+                "channel_type": "Type de salon",
+                "text_channel": "Salon textuel",
+                "voice_channel": "Salon vocal"
             }
         },
         "navigation": {
@@ -214,7 +228,11 @@
                     "enable_desktop": "Activer les notifications de bureau.",
                     "enable_outgoing_sound": "Jouer un sond a l'envoi.",
                     "push_notifications": "Notifications push",
-                    "sounds": "Sons"
+                    "sounds": "Sons",
+                    "sound": {
+                        "message": "Message reçu",
+                        "outbound": "Message envoyé"
+                    }
                 },
                 "profile": {
                     "title": "Profil",
