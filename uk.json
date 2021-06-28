@@ -323,13 +323,13 @@
                 "system": {
                     "removed_by": "{{other_user}} видалив {{user}}",
                     "channel_renamed": "{{user}} перейменував канал на {{name}}",
-                    "user_joined": "{{user}} ввійшов.",
-                    "user_left": "{{user}} вийшов.",
+                    "user_joined": "{{user}} ввійшов",
+                    "user_left": "{{user}} вийшов",
                     "added_by": "{{other_user}} приєднав {{user}}",
                     "channel_icon_changed": "{{user}} змінив аватарку каналу",
                     "channel_description_changed": "{{user}} змінив опис каналу",
-                    "user_banned": "{{user}} заблокований.",
-                    "user_kicked": "{{user}} вигнаний."
+                    "user_banned": "{{user}} заблокований",
+                    "user_kicked": "{{user}} вигнаний"
                 },
                 "message_where": "Повідомлення {{channel_name}}",
                 "message_saved": "Зберегти до нотаток",
@@ -345,7 +345,8 @@
                     "spoiler_attachment": "Спойлер",
                     "jump_present": "Перейти в кінець",
                     "viewing_old": "Перегляд давніх повідомлень",
-                    "failed_load": "Неможливо завантажити повідомлення."
+                    "failed_load": "Неможливо завантажити повідомлення.",
+                    "no_sending": "У вас відсутній дозвіл на відправлення повідомлень у цьому каналі."
                 },
                 "voice": {
                     "unmute": "Заговорити",
@@ -388,6 +389,9 @@
                 "unreads": "Не прочитане",
                 "saved": "Нотатки"
             }
+        },
+        "permissions": {
+            "required": "Потрібні дозволи"
         }
     },
     "quantities": {
