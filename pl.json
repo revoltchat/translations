@@ -4,7 +4,9 @@
         "tos": "Warunki usługi",
         "privacy": "Polityka prywatności",
         "image_by": "Zdjęcie przez",
-        "loading": "Ładowanie…"
+        "loading": "Ładowanie…",
+        "on": "Włączone",
+        "off": "Wyłączone"
     },
     "login": {
         "title": "Zaloguj się",
@@ -40,13 +42,14 @@
         "missing_verification": "Nie dostałeś e-maila?",
         "set_password": "Ustaw nowe hasło.",
         "current_password": "Aktualne hasło",
-        "invite": "Kod zaproszenia"
+        "invite": "Kod zaproszenia",
+        "email_delay": "Daj 10 minut, na dostarczenie ci maila."
     },
     "app": {
         "status": {
             "online": "Dostępny",
             "idle": "Bezczynny",
-            "busy": "Zajęty",
+            "busy": "Nie przeszkadzać",
             "invisible": "Niewidoczny",
             "offline": "Niedostępny"
         },
@@ -71,13 +74,15 @@
                 "bot": "bot",
                 "unknown_user": "<Nieznany Użytkownik>",
                 "system": {
-                    "channel_renamed": "zmienił nazwę kanału na",
-                    "removed_by": "usunięte przez",
-                    "added_by": "dodane przez",
-                    "user_left": "opuścił grupę.",
-                    "user_joined": "dołączył do grupy.",
-                    "channel_description_changed": "Zmieniono opis kanału",
-                    "channel_icon_changed": "Zmieniono ikonę kanału"
+                    "channel_renamed": "{{user}} zmienił nazwe kanału na {{name}}",
+                    "removed_by": "{{user}} został usunięty przez {{other_user}}",
+                    "added_by": "{{user}} został dodany przez {{other_user}}",
+                    "user_left": "{{user}} opuszcza",
+                    "user_joined": "{{user}} dołączył",
+                    "channel_description_changed": "{{user}} zmienił opis kanału.",
+                    "channel_icon_changed": "{{user}} zaktualizował ikone kanału",
+                    "user_kicked": "{{user}} został wyrzucony",
+                    "user_banned": "{{user}} został zbanowany"
                 },
                 "typing": {
                     "several": "Kilka osób pisze…",
@@ -86,7 +91,7 @@
                 },
                 "attached_file": "Załączony plik {{filename}}",
                 "failed_upload": "Nie udało się przesłać!",
-                "uploading_file": "Przesyłanie pliku…",
+                "uploading_file": "Przesyłanie…",
                 "message_saved": "Zapisz w swoich notatkach",
                 "message_who": "Wyślij do {{person}}",
                 "message_where": "Wyślij do {{channel_name}}",
@@ -103,13 +108,30 @@
                 "misc": {
                     "viewing_old": "Przeglądasz stare wiadomości",
                     "jump_present": "Wróć do obecnych wiadomości",
-                    "spoiler_attachment": "Spoiler"
+                    "spoiler_attachment": "Spoiler",
+                    "failed_load": "Nie można załadować wiadomości.",
+                    "no_sending": "Nie masz uprawnień do wysyłania wiadomości na tym kanale."
+                },
+                "notifications": {
+                    "none": "Brak",
+                    "muted": "Wyciszone",
+                    "default": "Użyj domyślnych",
+                    "all": "Wszystkie wiadomości",
+                    "mention": "Tylko wzmianki"
                 }
             },
             "groups": {
                 "owner": "Właściciel grupy",
                 "name": "Nazwa grupy",
-                "create": "Utwórz nową grupę."
+                "create": "Utwórz nową grupę.",
+                "description": "Opis grupy"
+            },
+            "servers": {
+                "description": "Opis serwera",
+                "create": "Stwórz serwer.",
+                "name": "Nazwa Serwera",
+                "channel_name": "Nazwa kanału",
+                "channel_type": "Typ kanału"
             }
         },
         "special": {
@@ -154,7 +176,7 @@
                 },
                 "prompt": {
                     "confirm_leave_long": "Nie będziesz mógł ponownie dołączyć, chyba że zostaniesz ponownie zaproszony.",
-                    "confirm_leave": "Opuścić grupę {{group_name}}?"
+                    "confirm_leave": "Opuścić grupę {{name}}?"
                 }
             },
             "status": {
@@ -333,7 +355,7 @@
             },
             "actions": {
                 "remove": "Usuń",
-                "upload": "Wyślij (maksymalny rozmiar to {{filesize}})"
+                "upload": "Prześlij"
             }
         }
     },
