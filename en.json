@@ -300,11 +300,17 @@
         "special": {
             "copy_username": "Click to copy username",
             "friends": {
-                "pending": "Pending",
+                "pending": "Pending requests",
+                "sent": "Outgoing",
                 "blocked": "Blocked",
                 "incoming": "Incoming friend request.",
                 "outgoing": "Outgoing friend request.",
-                "nobody": "Nobody here yet!"
+                "nobody": "Nobody here yet!",
+                "from": {
+                    "single": "From {{user}}",
+                    "multiple": "From {{userlist}} and {{user}}",
+                    "several": "From {{userlist}} and {{count}} more…"
+                }
             },
             "status": {
                 "offline": "Offline.",
