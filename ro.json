@@ -22,7 +22,11 @@
                     "confirm_ban": "Ești pe cale să-i interzici accesul lui {{name}}",
                     "confirm_ban_reason": "Motivul Interdicției",
                     "create_invite_generate": "Se generează invitația…",
-                    "create_invite_created": "Iată noul tău cod de invitație:"
+                    "create_invite_created": "Iată noul tău cod de invitație:",
+                    "unfriend_user": "Elimini pe {{name}}?",
+                    "block_user": "Blochezi pe {{name}}?",
+                    "block_user_long": "Ești sigur(ă) că vrei să blochezi {{name}}? Acesta (Aceasta) va fi eliminat(ă) și din lista ta de prieteni.",
+                    "unfriend_user_long": "Este posibil să nu mai poți vorbi cu el (ea) până când nu îl (o) adaugi din nou."
                 },
                 "onboarding": {
                     "welcome": "Bun venit la",
@@ -43,7 +47,10 @@
                     "kick": "Dă afară",
                     "ban": "Interzice accesul",
                     "delete": "Șterge",
-                    "create": "Creează"
+                    "create": "Creează",
+                    "block": "Blochează",
+                    "leave": "Părăsește",
+                    "remove": "Elimină"
                 },
                 "clipboard": {
                     "copy": "Copiere Manuală:",
@@ -62,7 +69,13 @@
                 "nobody": "Nimeni aici încă!",
                 "outgoing": "Cerere de prietenie trimisă.",
                 "incoming": "Cerere de prietenie primită.",
-                "pending": "În așteptare"
+                "pending": "Cereri în așteptare",
+                "sent": "De ieșire",
+                "from": {
+                    "single": "De la {{user}}",
+                    "several": "De la {{userlist}} și {{count}} mai multe…",
+                    "multiple": "De la {{userlist}} și {{user}}"
+                }
             },
             "requires_online": "Trebuie să fi online pentru a vedea acest lucru.",
             "popovers": {
@@ -224,6 +237,9 @@
                     "description": "Descrierea Canalului",
                     "name": "Numele Canalului",
                     "title": "Prezentare generală"
+                },
+                "permissions": {
+                    "title": "Permisiuni"
                 }
             },
             "actions": {
@@ -245,6 +261,9 @@
                 },
                 "bans": {
                     "title": "Interdicții"
+                },
+                "roles": {
+                    "title": "Roluri"
                 }
             }
         },
@@ -445,11 +464,16 @@
     },
     "dayjs": {
         "sameElse": "L",
-        "nextWeek": "dddd la ora LT",
-        "lastWeek": "dddd [trecută] [la ora] LT",
-        "nextDay": "[Mâine la ora] LT",
-        "sameDay": "[Azi la ora] LT",
-        "lastDay": "[Ieri la ora] LT"
+        "nextWeek": "dddd [la ora] {{time}}",
+        "lastWeek": "dddd [trecută] [la ora] {{time}}",
+        "nextDay": "[Mâine la ora] {{time}}",
+        "sameDay": "[Azi la ora] {{time}}",
+        "lastDay": "[Ieri la ora] {{time}}",
+        "defaults": {
+            "date_separator": "/",
+            "date_format": "tradițional",
+            "twelvehour": "da"
+        }
     },
     "quantities": {
         "members": {
