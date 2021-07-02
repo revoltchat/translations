@@ -193,8 +193,14 @@
                 "outgoing": "Ausgehende Freundschaftsanfrage.",
                 "incoming": "Eingehende Freundschaftsanfrage.",
                 "blocked": "Blockiert",
-                "pending": "Ausstehend",
-                "nobody": "Noch ist niemand hier!"
+                "pending": "Ausstehende Anfragen",
+                "nobody": "Noch ist niemand hier!",
+                "sent": "Ausgehend",
+                "from": {
+                    "single": "Von {{user}}",
+                    "multiple": "Von {{userlist}} und {{user}}",
+                    "several": "Von {{userlist}} und {{count}} mehr…"
+                }
             },
             "requires_online": "Du musst online sein, um dies anzuschauen.",
             "modals": {
@@ -455,12 +461,17 @@
         }
     },
     "dayjs": {
-        "lastDay": "[Gestern um] LT",
-        "sameDay": "[Heute um] LT",
-        "nextDay": "[Morgen um] LT",
-        "lastWeek": "[Letzten] dddd [um] LT",
-        "nextWeek": "dddd [um] LT",
-        "sameElse": "L"
+        "lastDay": "[Gestern um] {{time}}",
+        "sameDay": "[Heute um] {{time}}",
+        "nextDay": "[Morgen um] {{time}}",
+        "lastWeek": "[Letzten] dddd [um] {{time}}",
+        "nextWeek": "dddd [um] {{time}}",
+        "sameElse": "L",
+        "defaults": {
+            "date_separator": ".",
+            "date_format": "traditionell",
+            "twelvehour": "ja"
+        }
     },
     "quantities": {
         "members": {
