@@ -455,12 +455,16 @@
         }
     },
     "dayjs": {
-        "lastDay": "[Yesterday at] LT",
-        "sameDay": "[Today at] LT",
-        "nextDay": "[Tomorrow at] LT",
-        "lastWeek": "[Last] dddd [at] LT",
-        "nextWeek": "dddd [at] LT",
-        "sameElse": "L"
+        "lastDay": "[Yesterday at] {{time}}",
+        "sameDay": "[Today at] {{time}}",
+        "nextDay": "[Tomorrow at] {{time}}",
+        "lastWeek": "[Last] dddd [at] {{time}}",
+        "nextWeek": "dddd [at] {{time}}",
+        "defaults": {
+            "date_separator": "/",
+            "date_format": "traditional",
+            "twelvehour": "yes"
+        }
     },
     "notifications": {
         "sent_request": "@{{person}} sent you a friend request.",
