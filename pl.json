@@ -131,7 +131,12 @@
                 "create": "Stwórz serwer.",
                 "name": "Nazwa Serwera",
                 "channel_name": "Nazwa kanału",
-                "channel_type": "Typ kanału"
+                "channel_type": "Typ kanału",
+                "owner": "Właściciel serwera",
+                "text_channel": "Kanał tekstowy",
+                "channel_description": "Opis kanału",
+                "custom_banner": "Własny baner",
+                "voice_channel": "Kanał głosowy"
             }
         },
         "special": {
@@ -290,8 +295,8 @@
                     "describe": "Opisz problem.",
                     "send": "Prześlij opinię",
                     "other": "Inne",
-                    "feature": "Prośba o funkcję",
-                    "bug": "Problem",
+                    "feature": "Propozycje funkcji",
+                    "bug": "Błąd",
                     "report": "Co chcesz zgłosić?"
                 },
                 "source_code": "Kod źródłowy",
@@ -300,7 +305,8 @@
                 },
                 "language": {
                     "title": "Język",
-                    "select": "Wybierz swój język"
+                    "select": "Wybierz swój język",
+                    "other": "Języki alternatywne"
                 },
                 "notifications": {
                     "descriptions": {
@@ -315,7 +321,13 @@
                     "enable_desktop": "Włącz powiadomienia na pulpicie.",
                     "title": "Powiadomienia",
                     "push_notifications": "Powiadomienia Push",
-                    "sounds": "Dźwięki"
+                    "sounds": "Dźwięki",
+                    "sound": {
+                        "message": "Wiadomość otrzymana",
+                        "outbound": "Wiadomość wysłana",
+                        "call_join": "Użytkownik dołączył do rozmowy",
+                        "call_leave": "Użytkownik opuścił rozmowe"
+                    }
                 },
                 "profile": {
                     "placeholder": "Napisz coś o sobie…",
@@ -325,6 +337,25 @@
                     "profile_picture": "Obrazek Profilowy",
                     "custom_background": "Niestandardowe Tło",
                     "edit_background": "Edytuj Tło"
+                },
+                "sync": {
+                    "descriptions": {
+                        "theme": "Spowoduje to synchronizacje wybranego motywu, kolorów i własnego kodu CSS.",
+                        "locale": "Wybrany język zostanie zsynchronizowany."
+                    },
+                    "title": "Synchronizuj",
+                    "categories": "Synchronizuj kategorie"
+                },
+                "experiments": {
+                    "not_available": "Żadna z funkcji beta nie jest aktualnie dostępna.",
+                    "titles": {
+                        "servers": "Serwery"
+                    },
+                    "descriptions": {
+                        "servers": "Pozwoli ci to na tworzenie serwerów z kanałami, zaproszeniami, banami, moderacją i wiele więcej."
+                    },
+                    "title": "Funkcje BETA",
+                    "features": "Dostępne funkcje"
                 }
             },
             "categories": {
@@ -342,8 +373,8 @@
                     "a": "Brakuje Ci języka, którego szukasz?"
                 },
                 "account": {
-                    "b": "Przejdź do ustawień swojego profilu.",
-                    "a": "Chcesz dostosować swój profil publiczny?"
+                    "b": "Przejdź do ustawień profilu.",
+                    "a": "Chcesz dostować swój publiczny profil?"
                 }
             },
             "channel_pages": {
@@ -351,11 +382,33 @@
                     "description": "Opis kanału",
                     "name": "Nazwa kanału",
                     "title": "Przegląd"
+                },
+                "permissions": {
+                    "title": "Uprawnienia"
                 }
             },
             "actions": {
                 "remove": "Usuń",
-                "upload": "Prześlij"
+                "upload": "Prześlij",
+                "max_filesize": "(maksymalnie {{filesize}})"
+            },
+            "server_pages": {
+                "bans": {
+                    "title": "Bany"
+                },
+                "invites": {
+                    "title": "Zaproszenia"
+                },
+                "roles": {
+                    "title": "Role"
+                },
+                "overview": {
+                    "name": "Nazwa serwera",
+                    "description": "Opis kanału"
+                },
+                "members": {
+                    "title": "Członkowie"
+                }
             }
         }
     },
