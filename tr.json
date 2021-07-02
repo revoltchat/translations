@@ -310,8 +310,14 @@
                 "blocked": "Engellendi",
                 "incoming": "Gelen arkadaşlık isteği.",
                 "outgoing": "Giden arkadaşlık isteği.",
-                "pending": "Bekliyor",
-                "nobody": "Henüz burada kimse yok!"
+                "pending": "Bekleyen istekler",
+                "nobody": "Henüz burada kimse yok!",
+                "sent": "Giden",
+                "from": {
+                    "single": "{{user}} tarafından",
+                    "several": "{{userlist}} ve {{count}} daha fazlasından…",
+                    "multiple": "{{userlist}} ve {{user}} tarafından"
+                }
             },
             "status": {
                 "offline": "Çevrimdışı.",
@@ -343,7 +349,11 @@
                     "confirm_delete_message_long": "Bunu silmek istediğinizden emin misiniz?",
                     "confirm_ban_reason": "Yasaklama Nedeni",
                     "confirm_kick": "{{name}} kullanıcısını atmak istediğinizden emin misiniz?",
-                    "confirm_ban": "{{name}} kullanıcısını yasaklamak üzeresiniz"
+                    "confirm_ban": "{{name}} kullanıcısını yasaklamak üzeresiniz",
+                    "unfriend_user": "{{name}} kaldırılsın mı?",
+                    "unfriend_user_long": "Onları tekrar ekleyene kadar onlarla tekrar konuşamayabilirsiniz.",
+                    "block_user": "{{name}} engellensin mi?",
+                    "block_user_long": "{{name}} adlı kullanıcıyı engellemek istediğinizden emin misiniz? Ayrıca arkadaş listenizden de kaldırılacaktır."
                 },
                 "account": {
                     "change": {
@@ -366,7 +376,10 @@
                     "ban": "Yasakla",
                     "kick": "At",
                     "delete": "Sil",
-                    "create": "Oluştur"
+                    "create": "Oluştur",
+                    "leave": "Ayrıl",
+                    "remove": "Kaldır",
+                    "block": "Engelle"
                 }
             },
             "popovers": {
@@ -453,12 +466,17 @@
         }
     },
     "dayjs": {
-        "lastDay": "[Dün] LT",
-        "nextDay": "[Yarın] LT",
-        "lastWeek": "[Geçen] dddd [saat] LT",
-        "nextWeek": "dddd [saat] LT",
+        "lastDay": "[Dün saat] {{time}}",
+        "nextDay": "[Yarın saat] {{time}}",
+        "lastWeek": "[Geçen] dddd [saat] {{time}}",
+        "nextWeek": "dddd [saat] {{time}}",
         "sameElse": "L",
-        "sameDay": "[Bugün] LT"
+        "sameDay": "[Bugün saat] {{time}}",
+        "defaults": {
+            "date_separator": "/",
+            "date_format": "geleneksel",
+            "twelvehour": "evet"
+        }
     },
     "notifications": {
         "sent_request": "@{{person}} arkadaşlık isteği gönderdi.",
