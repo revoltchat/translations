@@ -313,7 +313,9 @@
                     "confirm_delete": "Törlöd ezt: {{name}}?",
                     "confirm_delete_long": "Ha már egyszer törölted, nincs visszaút.",
                     "confirm_ban": "Ki fogod tiltani {{name}}-t",
-                    "create_invite_generate": "Meghívó generálása…"
+                    "create_invite_generate": "Meghívó generálása…",
+                    "block_user": "{{name}} blokkolása?",
+                    "unfriend_user": "{{name}} eltávolítása?"
                 },
                 "clipboard": {
                     "https": "Ön jelenleg nem HTTPS-környezetben van.",
@@ -441,11 +443,11 @@
         }
     },
     "dayjs": {
-        "nextWeek": "dddd LT-kor",
-        "lastWeek": "[Előző] dddd LT-kor",
-        "nextDay": "[Holnap] LT-kor",
-        "sameDay": "[Ma] LT-kor",
-        "lastDay": "[Tegnap] LT-kor",
+        "nextWeek": "dddd {{time}}-kor",
+        "lastWeek": "[Előző] dddd {{time}}-kor",
+        "nextDay": "[Holnap] {{time}}-kor",
+        "sameDay": "[Ma] {{time}}-kor",
+        "lastDay": "[Tegnap] {{time}}-kor",
         "sameElse": "L"
     },
     "quantities": {
