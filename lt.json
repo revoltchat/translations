@@ -94,7 +94,8 @@
                     "all": "Visos žinutės",
                     "default": "Naudoti numatytuosius",
                     "mention": "Tik paminėjimai",
-                    "none": "Jokių"
+                    "none": "Jokių",
+                    "muted": "Nutildyti"
                 }
             },
             "categories": {
@@ -106,7 +107,7 @@
             "groups": {
                 "owner": "Grupės Savininkas",
                 "name": "Grupės Pavadinimas",
-                "create": "Sukūrti grupę.",
+                "create": "Sukurti grupę.",
                 "description": "Grupės aprašymas"
             },
             "servers": {
@@ -140,11 +141,17 @@
         },
         "special": {
             "friends": {
-                "pending": "Laukiama",
+                "pending": "Laukiamos užklausos",
                 "blocked": "Užbluokuoti",
                 "incoming": "Prašymas priimti į draugus.",
                 "outgoing": "Prašymas priimti į draugus.",
-                "nobody": "Kol kas nieko nėra!"
+                "nobody": "Kol kas nieko nėra!",
+                "sent": "Siunčiama",
+                "from": {
+                    "single": "Nuo {{user}}",
+                    "multiple": "Nuo {{userlist}} bei {{user}}",
+                    "several": "Nuo {{userlist}} bei dar {{count}}…"
+                }
             },
             "status": {
                 "reconnecting": "Prisijungiama…",
@@ -228,7 +235,7 @@
                     "empty": "Kažkaip čia tuštoka…",
                     "mutual_groups": "Bendros grupės",
                     "mutual_friends": "Bendri draugai",
-                    "profile": "Paskyra"
+                    "profile": "Profilis"
                 },
                 "user_picker": {
                     "select": "Pasirinkite draugus, kuriuos norite pridėti."
@@ -241,7 +248,7 @@
             "message_user": "Pranešimas",
             "block_user": "Blokuoti vartotoją",
             "open_group_settings": "Grupės nustatymai",
-            "open_channel_settings": "Kanalo parametrai",
+            "open_channel_settings": "Kanalo nustatymai",
             "set_custom_status": "Nustatyti pritaikytą būseną",
             "clear_status": "Pašalinti pritaikytą būseną",
             "custom_status": "Pritaikyta būsena",
@@ -272,7 +279,18 @@
             "copy_sid": "Kopijuoti serverio ID",
             "copy_selection": "Kopijuoti pasirinktą",
             "view_profile": "Peržiūrėti profilį",
-            "reply_message": "Atsakyti"
+            "reply_message": "Atsakyti",
+            "kick_member": "Išmesti narį",
+            "ban_member": "Uždrausti narį",
+            "leave_server": "Išeiti iš serverio",
+            "leave_group": "Išeiti iš grupės",
+            "close_dm": "Uždaryti AŽ",
+            "open_server_settings": "Serverio nustatymai",
+            "delete_server": "Ištrinti serverį",
+            "delete_channel": "Ištrinti kanalą",
+            "create_channel": "Sukurti kanalą",
+            "create_invite": "Sukurti kvietimą",
+            "open_notification_options": "Pranešimų nustatymai"
         },
         "settings": {
             "pages": {
@@ -311,9 +329,9 @@
                 },
                 "profile": {
                     "placeholder": "Parašykite kažką apie savę…",
-                    "fetching": "Paskyra kraunama…",
+                    "fetching": "Kraunamas jūsų profilis…",
                     "info": "Informacija",
-                    "title": "Paskyra",
+                    "title": "Profilis",
                     "edit_background": "Redaguoti foną",
                     "custom_background": "Pasirinktinis fonas",
                     "profile_picture": "Profilio nuotrauka"
@@ -329,7 +347,7 @@
                     "other": "Kita",
                     "feature": "Pasiūlymas",
                     "bug": "Nesklandumas",
-                    "report": "Ką jus norite pranešti?",
+                    "report": "Ką jūs norite pranešti?",
                     "title": "Atsiliepimai"
                 },
                 "source_code": "Šaltinis",
@@ -384,8 +402,8 @@
                 }
             },
             "categories": {
-                "client_settings": "Aplikacijos Nustatymai",
-                "user_settings": "Naudotojo Nustatymai"
+                "client_settings": "Aplikacijos nustatymai",
+                "user_settings": "Naudotojo nustatymai"
             },
             "title": "Nustatymai",
             "tips": {
@@ -427,7 +445,7 @@
                     "title": "Apžvalga"
                 },
                 "invites": {
-                    "title": "Pakvietimai"
+                    "title": "Kvietimai"
                 },
                 "bans": {
                     "title": "Draudimai"
@@ -436,17 +454,25 @@
                     "title": "Nariai"
                 }
             }
+        },
+        "permissions": {
+            "required": "Reikalingi leidimai"
         }
     },
     "dayjs": {
         "at": " ",
         "last": "Praeitą",
-        "nextDay": "[Rytoj] LT",
-        "sameDay": "[Šiandien] LT",
-        "lastDay": "[Vakar] LT",
-        "nextWeek": "dddd LT",
+        "nextDay": "[Rytoj] {{time}}",
+        "sameDay": "[Šiandien] {{time}}",
+        "lastDay": "[Vakar] {{time}}",
+        "nextWeek": "dddd {{time}}",
         "sameElse": "L",
-        "lastWeek": "[Praeitą] dddd LT"
+        "lastWeek": "[Praeitą] dddd {{time}}",
+        "defaults": {
+            "date_separator": "-",
+            "date_format": "ISO8601",
+            "twelvehour": "no"
+        }
     },
     "notifications": {
         "now_friends": "Dabar jūs draugaujate su @{{person}}!",
@@ -500,5 +526,8 @@
         "MissingPermission": "Nėra leidimo.",
         "Unauthorized": "Neleistina.",
         "CompromisedPassword": "Slaptažodis nepatikimas."
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
     }
 }
