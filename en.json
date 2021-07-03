@@ -120,13 +120,13 @@
                 }
             },
             "groups": {
-                "create": "Create a group.",
+                "create": "Create a group",
                 "name": "Group Name",
                 "description": "Group Description",
                 "owner": "Group Owner"
             },
             "servers": {
-                "create": "Create a server.",
+                "create": "Create a server",
                 "name": "Server Name",
                 "description": "Server Description",
                 "channel_name": "Channel Name",
@@ -295,6 +295,13 @@
                     "a": "If you see an unknown session on the list,",
                     "b": "secure your account by changing your password and using 2FA."
                 }
+            },
+            "permissions": {
+                "default_role": "Default",
+                "server": "Server Permissions",
+                "channel": "Channel Permissions",
+                "create_role": "Create a new role",
+                "role_name": "Role Name"
             }
         },
         "special": {
@@ -520,5 +527,79 @@
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
+    },
+    "permissions": {
+        "server": {
+            "ManageRoles": {
+                "t": "Manage Roles",
+                "d": "Allows members to create, edit and delete roles with a lower rank than theirs. Also allows them to modify role permissions on channels."
+            },
+            "ManageChannels": {
+                "t": "Manage Channels",
+                "d": "Allows members to create, edit and delete channels."
+            },
+            "ManageServer": {
+                "t": "Manage Server",
+                "d": "Allows members to change this server's name, description, icon and other related information."
+            },
+            "KickMembers": {
+                "t": "Kick Members",
+                "d": "Allows members to remove members from this server. Kicked members may rejoin with an invite."
+            },
+            "BanMembers": {
+                "t": "Ban Members",
+                "d": "Allows members to permanently remove members from this server."
+            },
+            "ChangeNickname": {
+                "t": "Change Nickname",
+                "d": "Allows members to change their nickname on this server."
+            },
+            "ManageNicknames": {
+                "t": "Manage Nicknames",
+                "d": "Allows members to change the nicknames of other members."
+            },
+            "ChangeAvatar": {
+                "t": "Change Avatar",
+                "d": "Allows members to change their server avatar on this server."
+            },
+            "RemoveAvatars": {
+                "t": "Remove Avatars",
+                "d": "Allows members to remove the server avatars of other members on this server."
+            }
+        },
+        "channel": {
+            "View": {
+                "t": "View Channel",
+                "d": "Allows members to view any channels they have this permission on."
+            },
+            "SendMessage": {
+                "t": "Send Messages",
+                "d": "Allows members to send messages in text channels."
+            },
+            "ManageMessages": {
+                "t": "Manage Messages",
+                "d": "Allows members to delete messages sent by other members."
+            },
+            "ManageChannel": {
+                "t": "Kick Members",
+                "d": "Allows members to edit or delete a channel."
+            },
+            "VoiceCall": {
+                "t": "Voice Call",
+                "d": "Allows members to join voice channels."
+            },
+            "InviteOthers": {
+                "t": "Change Nickname",
+                "d": "Allows members to invite other users to a channel."
+            },
+            "EmbedLinks": {
+                "t": "Embed Links",
+                "d": "Allows members to show embedded content on links they post in text channels."
+            },
+            "UploadFiles": {
+                "t": "Upload Files",
+                "d": "Allows members to upload files in text channels."
+            }
+        }
     }
 }
