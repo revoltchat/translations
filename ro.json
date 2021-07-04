@@ -265,12 +265,19 @@
                 "roles": {
                     "title": "Roluri"
                 }
+            },
+            "permissions": {
+                "create_role": "Creează un rol nou",
+                "channel": "Permisiuni de canal",
+                "server": "Permisiuni ale serverului",
+                "default_role": "Implicit",
+                "role_name": "Nume Rol"
             }
         },
         "main": {
             "groups": {
                 "name": "Numele grupului",
-                "create": "Creează un grup.",
+                "create": "Creează un grup",
                 "owner": "Proprietarul Grupului",
                 "description": "Descrierea Grupului"
             },
@@ -314,7 +321,8 @@
                     "jump_present": "Sari la prezent",
                     "spoiler_attachment": "Spoiler",
                     "failed_load": "Nu s-a putut încărca mesajul.",
-                    "no_sending": "Nu ai permisiunea de a trimite mesaje pe acest canal."
+                    "no_sending": "Nu ai permisiunea de a trimite mesaje pe acest canal.",
+                    "blocked_messages": "{{count}} mesaje blocate"
                 },
                 "notifications": {
                     "default": "Folosește Implicit",
@@ -332,7 +340,7 @@
             },
             "servers": {
                 "name": "Numele Serverului",
-                "create": "Creează un server.",
+                "create": "Creează un server",
                 "channel_name": "Numele Canalului",
                 "owner": "Proprietarul Serverului",
                 "description": "Descrierea Serverului",
@@ -471,7 +479,7 @@
         "lastDay": "[Ieri la ora] {{time}}",
         "defaults": {
             "date_separator": "/",
-            "date_format": "tradițional",
+            "date_format": "traditional",
             "twelvehour": "da"
         }
     },
@@ -525,5 +533,79 @@
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
+    },
+    "permissions": {
+        "channel": {
+            "ManageMessages": {
+                "d": "Permite membrilor să șteargă mesajele trimise de alți membri.",
+                "t": "Gestionează Mesaje"
+            },
+            "UploadFiles": {
+                "d": "Permite membrilor să încarce fișiere în canale de text.",
+                "t": "Încarcă Fișiere"
+            },
+            "EmbedLinks": {
+                "d": "Permite membrilor să afișeze conținut încorporat pe linkurile pe care le postează în canalele de text.",
+                "t": "Încorporează Linkuri"
+            },
+            "InviteOthers": {
+                "d": "Permite membrilor să invite alți utilizatori pe un canal.",
+                "t": "Schimbă Porecla"
+            },
+            "VoiceCall": {
+                "d": "Permite membrilor să se alăture canalelor de voce.",
+                "t": "Apel Vocal"
+            },
+            "ManageChannel": {
+                "d": "Permite membrilor să editeze sau să șteargă un canal.",
+                "t": "Dă afară membri"
+            },
+            "SendMessage": {
+                "d": "Permite membrilor să trimită mesaje în canale de text.",
+                "t": "Trimite Mesaje"
+            },
+            "View": {
+                "d": "Permite membrilor să vizualizeze toate canalele pentru care au această permisiune.",
+                "t": "Vezi Canalul"
+            }
+        },
+        "server": {
+            "RemoveAvatars": {
+                "d": "Permite membrilor să elimine avatarele de server ale altor membri de pe acest server.",
+                "t": "Îndepărtează Avatare"
+            },
+            "BanMembers": {
+                "d": "Permite membrilor să elimine permanent membri de pe acest server.",
+                "t": "Interzice Membri"
+            },
+            "ManageServer": {
+                "d": "Permite membrilor să modifice numele, descrierea, pictograma și alte informații legate de acest server.",
+                "t": "Gestionează Serverul"
+            },
+            "ManageChannels": {
+                "t": "Gestionează Canalele",
+                "d": "Permite membrilor să creeze, să editeze și să șteargă canale."
+            },
+            "ManageRoles": {
+                "d": "Permite membrilor să creeze, să editeze și să șteargă roluri cu un rang mai mic decât al lor. De asemenea, le permite să modifice permisiunile rolurilor pe canale.",
+                "t": "Gestionează Roluri"
+            },
+            "ChangeAvatar": {
+                "d": "Permite membrilor să își schimbe avatarul serverului pe acest server.",
+                "t": "Schimbă Avatar"
+            },
+            "ManageNicknames": {
+                "d": "Permite membrilor să schimbe poreclele altor membri.",
+                "t": "Gestionează Porecle"
+            },
+            "ChangeNickname": {
+                "d": "Permite membrilor să își schimbe porecla pe acest server.",
+                "t": "Schimbă Porecla"
+            },
+            "KickMembers": {
+                "d": "Permite membrilor să elimine membri de pe acest server. Membrii dați afară se pot reîntoarce cu o invitație.",
+                "t": "Exclude Membrii"
+            }
+        }
     }
 }
