@@ -104,7 +104,8 @@
                     "jump_present": "Zu den neuen Nachrichten springen",
                     "viewing_old": "Du schaust dir ältere Nachrichten an",
                     "failed_load": "Konnte Nachricht nicht laden.",
-                    "no_sending": "Du hast nicht die nötige Berechtigung dazu, Nachrichten in diesem Kanal zu senden."
+                    "no_sending": "Du hast nicht die nötige Berechtigung dazu, Nachrichten in diesem Kanal zu senden.",
+                    "blocked_messages": "{{count}} blockierte Nachrichten"
                 },
                 "voice": {
                     "unmute": "Stummschaltung aufheben",
@@ -122,12 +123,12 @@
             },
             "groups": {
                 "name": "Gruppenname",
-                "create": "Gruppe erstellen.",
+                "create": "Gruppe erstellen",
                 "owner": "Gruppenbesitzer:in",
                 "description": "Gruppenbeschreibung"
             },
             "servers": {
-                "create": "Erstelle einen Server.",
+                "create": "Erstelle einen Server",
                 "name": "Servername",
                 "owner": "Besitzer:in",
                 "channel_name": "Kanalname",
@@ -454,6 +455,13 @@
                 "roles": {
                     "title": "Rollen"
                 }
+            },
+            "permissions": {
+                "channel": "Kanalberechtigungen",
+                "default_role": "Jeder",
+                "server": "Serverberechtigungen",
+                "create_role": "Neue Rolle erstellen",
+                "role_name": "Rollenname"
             }
         },
         "permissions": {
@@ -528,5 +536,79 @@
     },
     "shortcuts": {
         "ctrlc": "Strg + C"
+    },
+    "permissions": {
+        "server": {
+            "ManageRoles": {
+                "t": "Rollen verwalten",
+                "d": "Erlaube Nutzern, Rollen mit einer niedrigeren Position zu erstellen, bearbeiten, und löschen. Erlaubt es ihnen außerdem, die Berechtigungen für einen Kanal zu verwalten."
+            },
+            "ManageChannels": {
+                "t": "Kanäle verwalten",
+                "d": "Erlaubt Nutzern, Kanäle zu erstellen, bearbeiten und löschen."
+            },
+            "ManageServer": {
+                "t": "Server verwalten",
+                "d": "Erlaubt Nutzern, die Beschreibung, den Namen, das Icon und weitere zusammenhängende Informationen zu ändern."
+            },
+            "KickMembers": {
+                "t": "Nutzer Kicken",
+                "d": "Erlaubt Nutzern, Nutzer aus dem Server zu entfernen. Gekickte Nutzer können mit einer Einladung erneut beitreten."
+            },
+            "BanMembers": {
+                "t": "Nutzer bannen",
+                "d": "Erlaubt Nutzern, Nutzer permanent aus dem Server zu entfernen."
+            },
+            "ChangeNickname": {
+                "t": "Nickname ändern",
+                "d": "Erlaubt Nutzern, ihren eigenen Nicknamen auf dem Server zu ändern."
+            },
+            "ManageNicknames": {
+                "t": "Nicknames verwalten",
+                "d": "Erlaubt Nutzern, die Nicknames anderer Nutzer zu ändern, zu entfernen, oder hinzuzufügen."
+            },
+            "ChangeAvatar": {
+                "t": "Avatar ändern",
+                "d": "Erlaubt Nutzern, ihren serverspezifischen Avatar zu ändern."
+            },
+            "RemoveAvatars": {
+                "t": "Avatar entfernen",
+                "d": "Erlaubt Nutzern, den serverspezifischen Avatar anderer Nutzer zu entfernen."
+            }
+        },
+        "channel": {
+            "View": {
+                "t": "Kanal ansehen",
+                "d": "Erlaubt Nutzern, jeden Kanal anzusehen, auf dem sie diese Berechtigung haben."
+            },
+            "SendMessage": {
+                "t": "Nachrichten senden",
+                "d": "Erlaubt Nutzern, Nachrichten in Textkanälen zu senden."
+            },
+            "ManageMessages": {
+                "t": "Nachrichten verwalten",
+                "d": "Erlaubt Nutzern, die Nachrichten anderer zu löschen."
+            },
+            "ManageChannel": {
+                "t": "Kanal verwalten",
+                "d": "Erlaubt Nutzern, einen Kanal zu ändern oder zu löschen."
+            },
+            "VoiceCall": {
+                "t": "Sprachanruf",
+                "d": "Erlaubt Nutzern, Sprachkanälen beizutreten."
+            },
+            "InviteOthers": {
+                "t": "Einladungen erstellen",
+                "d": "Erlaubt Nutzern, Einladungen zu einem Kanal zu erstellen."
+            },
+            "EmbedLinks": {
+                "t": "Links einbetten",
+                "d": "Erlaubt Nutzern, die Links die sie Posten einbetten zu lassen."
+            },
+            "UploadFiles": {
+                "t": "Dateien hochladen",
+                "d": "Erlaubt Nutzern, Dateien in Textkanälen hochzuladen."
+            }
+        }
     }
 }
