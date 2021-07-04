@@ -3,15 +3,15 @@
         "main": {
             "channel": {
                 "system": {
-                    "added_by": "dodan od",
-                    "user_kicked": "je izbačen.",
-                    "user_left": "je otišao.",
-                    "user_joined": "se pridružio.",
-                    "channel_icon_changed": "je promjenio ikonu kanala",
-                    "channel_description_changed": "je promjenio opis kanala",
-                    "channel_renamed": "je promjenio ime kanala u",
-                    "removed_by": "izbačen od",
-                    "user_banned": "je zabranjen."
+                    "added_by": "{{user}} je dodan od {{other_user}}",
+                    "user_kicked": "{{user}} je izbačen.",
+                    "user_left": "{{user}} je otišao.",
+                    "user_joined": "{{user}} se pridružio",
+                    "channel_icon_changed": "{{user}} je promjenio ikonu kanala",
+                    "channel_description_changed": "{{user}} je promjenio opis kanala",
+                    "channel_renamed": "{{user}} je promjenio ime kanala u {{name}}",
+                    "removed_by": "{{user}} je izbačen od {{other_user}}",
+                    "user_banned": "{{user}} je zabranjen."
                 },
                 "typing": {
                     "several": "Nekoliko ljudi tipka…",
@@ -36,7 +36,8 @@
                 "misc": {
                     "viewing_old": "Pregledavate stare poruke",
                     "spoiler_attachment": "Spojler",
-                    "jump_present": "Idi na sadašnjost"
+                    "jump_present": "Idi na sadašnjost",
+                    "failed_load": "Nemogu učitati poruku."
                 },
                 "unknown_user": "<Nepoznati korisnik>",
                 "edited": "(uređeno)",
@@ -401,14 +402,17 @@
         "email": "E-pošta",
         "username": "Korisničko ime",
         "register": "Registrirajte se",
-        "title": "Prijavi se"
+        "title": "Prijavi se",
+        "email_delay": "Pričekajte do 10 minuta da se pojavi."
     },
     "general": {
         "loading": "Učitavam…",
         "image_by": "Fotografija od",
         "privacy": "Pravila o privatnosti",
         "tos": "Uvjeti o korištenju",
-        "about": "O nama"
+        "about": "O nama",
+        "on": "Uključeno",
+        "off": "Isključeno"
     },
     "quantities": {
         "members": {
