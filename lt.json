@@ -82,7 +82,8 @@
                     "jump_present": "Peršokti į dabartį",
                     "viewing_old": "Rodomi seni pranešimai",
                     "no_sending": "Neturi leidimo siųsti žinučių šiame kanale.",
-                    "failed_load": "Nepavyko įkelti žinutės."
+                    "failed_load": "Nepavyko įkelti žinutės.",
+                    "blocked_messages": "{{count}} užblokuotos (-ų) žinutės (-čių)"
                 },
                 "voice": {
                     "unmute": "Atsitildyti",
@@ -107,11 +108,11 @@
             "groups": {
                 "owner": "Grupės Savininkas",
                 "name": "Grupės Pavadinimas",
-                "create": "Sukurti grupę.",
+                "create": "Sukurti grupę",
                 "description": "Grupės aprašymas"
             },
             "servers": {
-                "create": "Sukurti serverį.",
+                "create": "Sukurti serverį",
                 "channel_name": "Kanalo pavadinimas",
                 "name": "Serverio pavadinimas",
                 "owner": "Serverio savininkas",
@@ -453,6 +454,13 @@
                 "members": {
                     "title": "Nariai"
                 }
+            },
+            "permissions": {
+                "server": "Serverio leidimai",
+                "channel": "Kanalo leidimai",
+                "create_role": "Sukurti naują vaidmenį",
+                "role_name": "Vaidmens pavadinimas",
+                "default_role": "Numatytasis"
             }
         },
         "permissions": {
@@ -529,5 +537,79 @@
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
+    },
+    "permissions": {
+        "server": {
+            "ManageChannels": {
+                "t": "Tvarkyti kanalus",
+                "d": "Leidžia nariams kurti, redaguoti bei šalinti kanalus."
+            },
+            "ManageServer": {
+                "t": "Tvarkyti serverį",
+                "d": "Leidžia nariams keisti šio serverio pavadinimą, aprašymą, piktogramą bei kitą susijusią informaciją."
+            },
+            "KickMembers": {
+                "t": "Išmesti narius",
+                "d": "Leidžia nariams šalinti narius iš šio serverio. Išmesti nariai gali prisijungti iš naujo su pakvietimu."
+            },
+            "BanMembers": {
+                "t": "Uždrausti narius",
+                "d": "Leidžia nariams visam laikui pašalinti narius iš šio serverio."
+            },
+            "ChangeNickname": {
+                "t": "Pasikeisti slapyvardį",
+                "d": "Leidžia nariams keisti savo slapyvardį šiame serveryje."
+            },
+            "ManageNicknames": {
+                "t": "Tvarkyti slapyvardžius",
+                "d": "Leidžia nariams keisti kitų narių slapyvardžius."
+            },
+            "ChangeAvatar": {
+                "t": "Keisti profilio nuotrauką",
+                "d": "Leidžia nariams keisti savo serverio profilio nuotrauką šiame serveryje."
+            },
+            "RemoveAvatars": {
+                "t": "Šalinti profilio nuotraukas",
+                "d": "Leidžia nariams šalinti kitų narių serverio profilio nuotraukas šiame serveryje."
+            },
+            "ManageRoles": {
+                "t": "Tvarkyti vaidmenis",
+                "d": "Leidžia nariams kurti, redaguoti bei šalinti vaidmenis, kurių pozicija yra žemesnė nei narių. Taip pat leidžia jiems redaguoti vaidmenų leidimus kanaluose."
+            }
+        },
+        "channel": {
+            "View": {
+                "d": "Leidžia nariams peržiūrėti bet kuriuos kanalus, kuriuose jie turi šį leidimą.",
+                "t": "Peržiūrėti kanalą"
+            },
+            "SendMessage": {
+                "t": "Siųsti žinutes",
+                "d": "Leidžia nariams siųsti žinutes teksto kanaluose."
+            },
+            "ManageMessages": {
+                "t": "Tvarkyti žinutes",
+                "d": "Leidžia nariams trinti kitų narių siųstas žinutes."
+            },
+            "ManageChannel": {
+                "t": "Išmesti narius",
+                "d": "Leidžia nariams redaguoti arba trinti kanalą."
+            },
+            "VoiceCall": {
+                "t": "Skambinti balsu",
+                "d": "Leidžia nariams prisijungti prie balso kanalų."
+            },
+            "InviteOthers": {
+                "t": "Pakviesti kitus",
+                "d": "Leidžia nariams kviesti kitus narius į kanalą."
+            },
+            "EmbedLinks": {
+                "t": "Prisegti nuorodas",
+                "d": "Leidžia nariams rodyti prisegtą turinį nuorodose, kurias jie kelia teksto kanaluose."
+            },
+            "UploadFiles": {
+                "t": "Kelti failus",
+                "d": "Leidžia nariams kelti failus teksto kanaluose."
+            }
+        }
     }
 }
