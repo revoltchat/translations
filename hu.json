@@ -88,7 +88,8 @@
                     "jump_present": "Ugrás az új üzenetekhez",
                     "spoiler_attachment": "Spoiler",
                     "failed_load": "Hiba történt az üzenet betöltésekor.",
-                    "no_sending": "Nincs jogosultságod üzeneteket küldeni ebben a csatornában."
+                    "no_sending": "Nincs jogosultságod üzeneteket küldeni ebben a csatornában.",
+                    "blocked_messages": "{{count}} blokkolt üzenet"
                 },
                 "notifications": {
                     "default": "Alapértelmezés használata",
@@ -100,7 +101,7 @@
             },
             "groups": {
                 "name": "Csoportnév",
-                "create": "Csoport létrehozása.",
+                "create": "Csoport létrehozása",
                 "owner": "Csoport tulaj",
                 "description": "A csoport leírása"
             },
@@ -111,7 +112,7 @@
                 "participants": "Résztvevők"
             },
             "servers": {
-                "create": "Szerver készítése.",
+                "create": "Szerver készítése",
                 "name": "A szerver neve",
                 "channel_name": "A csatorna neve",
                 "owner": "Szervertulajdonos",
@@ -455,7 +456,11 @@
         "nextDay": "[Holnap] {{time}}-kor",
         "sameDay": "[Ma] {{time}}-kor",
         "lastDay": "[Tegnap] {{time}}-kor",
-        "sameElse": "L"
+        "sameElse": "L",
+        "defaults": {
+            "date_format": "ISO8601",
+            "twelvehour": "no"
+        }
     },
     "quantities": {
         "members": {
@@ -512,5 +517,12 @@
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
+    },
+    "permissions": {
+        "channel": {
+            "UploadFiles": {
+                "t": "Fájlok Feltöltése"
+            }
+        }
     }
 }
