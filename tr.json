@@ -112,7 +112,8 @@
                     "jump_present": "Günümüze dön",
                     "viewing_old": "Eski mesajları görüntülüyorsun",
                     "failed_load": "Mesaj yüklenemedi.",
-                    "no_sending": "Bu kanalda mesaj gönderme izniniz yok."
+                    "no_sending": "Bu kanalda mesaj gönderme izniniz yok.",
+                    "blocked_messages": "{{count}} engellenen mesaj"
                 },
                 "notifications": {
                     "default": "Varsayılanı Kullan",
@@ -124,12 +125,12 @@
             },
             "groups": {
                 "name": "Grup İsmi",
-                "create": "Bir grup oluştur.",
+                "create": "Bir grup oluştur",
                 "owner": "Grup Sahibi",
                 "description": "Grup Açıklaması"
             },
             "servers": {
-                "create": "Bir sunucu oluştur.",
+                "create": "Bir sunucu oluştur",
                 "name": "Sunucu Adı",
                 "channel_name": "Kanal İsmi",
                 "owner": "Sunucu Sahibi",
@@ -183,7 +184,11 @@
                     "sync": "Senkronizasyon Ayarları",
                     "advanced": "Gelişmiş Ayarlar",
                     "accent_selector": "Vurgu Rengi",
-                    "emoji_pack": "Emoji Paketi"
+                    "emoji_pack": "Emoji Paketi",
+                    "font": "Yazı tipi",
+                    "ligatures_desc": "Desteklenen yazı tipleri için bitişik harfler karakterleri birleştirir, örneğin -> oka dönüştürerek. Inter'e geçin ve bu seçeneği değiştirmeyi deneyin.",
+                    "mono_font": "Monoscape Yazı Tipi Seçici",
+                    "ligatures": "Yazı Tipi Bitişik Harfler"
                 },
                 "notifications": {
                     "title": "Bildirimler",
@@ -289,7 +294,8 @@
                 "overview": {
                     "title": "Genel Bakış",
                     "name": "Sunucu Adı",
-                    "description": "Kanal Açıklaması"
+                    "description": "Kanal Açıklaması",
+                    "system_messages": "Sistem Mesaj Kanalları"
                 },
                 "members": {
                     "title": "Üyeler"
@@ -303,6 +309,13 @@
                 "roles": {
                     "title": "Roller"
                 }
+            },
+            "permissions": {
+                "default_role": "Varsayılan",
+                "server": "Sunucu İzinleri",
+                "channel": "Kanal İzinleri",
+                "create_role": "Yeni bir rol oluştur",
+                "role_name": "Rol İsmi"
             }
         },
         "special": {
@@ -420,7 +433,8 @@
         "privacy": "Gizlilik Politikası",
         "loading": "Yükleniyor…",
         "on": "Açık",
-        "off": "Kapalı"
+        "off": "Kapalı",
+        "disabled": "Devre dışı"
     },
     "login": {
         "title": "Giriş Yap",
@@ -526,5 +540,79 @@
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
+    },
+    "permissions": {
+        "channel": {
+            "VoiceCall": {
+                "d": "Üyelerin ses kanallarına katılmasına izin verir.",
+                "t": "Sesli Arama"
+            },
+            "EmbedLinks": {
+                "d": "Üyelerin metin kanallarında yayınladıkları bağlantılarda gömülü içeriği göstermelerine olanak tanır.",
+                "t": "Gömme Bağlantıları"
+            },
+            "SendMessage": {
+                "t": "Mesaj Gönder",
+                "d": "Üyelerin metin kanallarında mesaj göndermesine izin verir."
+            },
+            "ManageMessages": {
+                "t": "Mesajları Yönet",
+                "d": "Üyelerin diğer üyeler tarafından gönderilen mesajları silmesine izin verir."
+            },
+            "View": {
+                "t": "Kanalı Görüntüle",
+                "d": "Üyelerin bu izne sahip oldukları kanalları görüntülemelerine izin verir."
+            },
+            "ManageChannel": {
+                "t": "Üyeleri At",
+                "d": "Üyelerin bir kanalı düzenlemesine veya silmesine izin verir."
+            },
+            "InviteOthers": {
+                "t": "Kullanıcı adını değiştir",
+                "d": "Üyelerin diğer kullanıcıları bir kanala davet etmesine izin verir."
+            },
+            "UploadFiles": {
+                "t": "Dosyaları yükle",
+                "d": "Üyelerin metin kanallarında dosya yüklemesine izin verir."
+            }
+        },
+        "server": {
+            "ManageRoles": {
+                "t": "Rolleri Yönet",
+                "d": "Üyelerin kendilerinden daha düşük bir rütbeye sahip roller oluşturmasına ve düzenlemesine ve silmesine izin verir. Ayrıca kanallardaki rol izinlerini değiştirmelerine de izin verir."
+            },
+            "ManageChannels": {
+                "t": "Kanalları Yönet",
+                "d": "Üyelerin kanal oluşturmasına, düzenlemesine ve silmesine izin verir."
+            },
+            "ManageServer": {
+                "t": "Sunucuyu Yönet",
+                "d": "Üyelerin bu sunucunun adını, açıklamasını, simgesini ve diğer ilgili bilgileri değiştirmesine izin verir."
+            },
+            "KickMembers": {
+                "t": "Üyeleri At",
+                "d": "Üyelerin bu sunucudan üyeleri kaldırmasına izin verir. Atılan üyeler bir davetle yeniden katılabilir."
+            },
+            "ChangeNickname": {
+                "t": "Kullanıcı adını değiştir",
+                "d": "Üyelerin bu sunucuda takma adlarını değiştirmelerine izin verir."
+            },
+            "BanMembers": {
+                "t": "Üyeleri Yasakla",
+                "d": "Üyelerin, üyeleri bu sunucudan kalıcı olarak kaldırmasına izin verir."
+            },
+            "ManageNicknames": {
+                "t": "Kullanıcı Adlarını Yönet",
+                "d": "Üyelerin diğer üyelerin kullanıcı adlarını değiştirmesine izin verir."
+            },
+            "ChangeAvatar": {
+                "t": "Avatarı değiştir",
+                "d": "Üyelerin bu sunucudaki sunucu avatarlarını değiştirmelerine izin verir."
+            },
+            "RemoveAvatars": {
+                "t": "Avatarları Kaldır",
+                "d": "Üyelerin bu sunucudaki diğer üyelerin sunucu avatarlarını kaldırmasına izin verir."
+            }
+        }
     }
 }
