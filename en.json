@@ -155,16 +155,16 @@
                 "account": {
                     "title": "My Account",
                     "change_field": "Change",
-                    "tooltip_ulid": "This is your unique user identificator for your account.",
-                    "two_factor_auth": {
+                    "unique_id": "This is your unique user identificator",
+                    "2fa": {
                         "title": "Two-factor Authentication",
                         "description": "Add an extra layer of security by enabling 2FA on your account.",
                         "add_auth": "Add Authentificator",
                         "remove_auth": "Remove Authentificator"
                     },
-                    "account_management": {
+                    "manage": {
                         "title": "Account Management",
-                        "description": "Disable, schedule your deletion or outright delete your account at any time. This action will log you out and fully delete your account, including your chat history and friends.",
+                        "description": "Disable or delete your account at any time. This action will log you out and fully delete your account, including your chat history and friends.",
                         "disable_account": "Disable Account",
                         "delete_account": "Delete Account"
                     }
@@ -326,6 +326,7 @@
         },
         "special": {
             "copy_username": "Click to copy username",
+            "copy": "Click to copy",
             "friends": {
                 "pending": "Pending requests",
                 "sent": "Outgoing",
@@ -394,6 +395,7 @@
                     "remove": "Remove",
                     "delete": "Delete",
                     "create": "Create",
+                    "reveal": "Reveal",
                     "update": "Update",
                     "cancel": "Cancel",
                     "preview": "Preview",
