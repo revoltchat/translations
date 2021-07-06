@@ -46,7 +46,10 @@
                 },
                 "prompt": {
                     "confirm_leave": "Go away fwom {{name}} (They'll pwobabwy miss u OmO)?",
-                    "confirm_leave_long": "U can't come bacc unless ur invited in again."
+                    "confirm_leave_long": "U can't come bacc unless ur invited in again.",
+                    "confirm_delete": "Dyelete {{name}}?",
+                    "confirm_close_dm": "Cwose cwonwersation with {{name}}?",
+                    "create_invite_generate": "Gyenewating Invyite…"
                 },
                 "account": {
                     "change": {
@@ -114,13 +117,13 @@
                 "system": {
                     "removed_by": "ryemoved bwy",
                     "added_by": "addyed bwy",
-                    "user_left": "lyeft.",
-                    "user_joined": "jyoined.",
+                    "user_left": "{{user}} lyeft",
+                    "user_joined": "{{user}} jyoined.",
                     "channel_renamed": "ryenamwed the channyel two",
                     "channel_icon_changed": "chyanged the channyew icyon",
                     "channel_description_changed": "chyanged the channyew dyescrwiption",
-                    "user_kicked": "wuss kyicked.",
-                    "user_banned": "wyas ejected."
+                    "user_kicked": "{{user}} wuss kyicked",
+                    "user_banned": "{{user}} wyas ejected"
                 },
                 "typing": {
                     "several": "Panic Panic Panic…",
@@ -139,7 +142,7 @@
                 },
                 "misc": {
                     "viewing_old": "Viewing owdew messages",
-                    "jump_present": "Juwmp to pwesent",
+                    "jump_present": "Juwp to pwesent",
                     "spoiler_attachment": "Spoiwew"
                 },
                 "voice": {
@@ -287,6 +290,10 @@
                     "features": "Avyailable Fweatuwes",
                     "titles": {
                         "servers": "Syerves"
+                    },
+                    "not_available": "Nywo experimwents are available at this timwe.",
+                    "descriptions": {
+                        "servers": "This wiww awwow ywou two create serwers with channyels, invites, bans, mwoderation and mwore."
                     }
                 },
                 "sync": {
@@ -384,7 +391,7 @@
         "set_password": "Set nyeww passwowd.",
         "current_password": "Cwurrent Passwowd",
         "invite": "Inwite Cwode",
-        "email_delay": "Pwease awow up two 10 minutes fow it to awive."
+        "email_delay": "Pwease awwow up twowo 10 minyutes fwowow it two awwiwe"
     },
     "dayjs": {
         "lastDay": "[Yestewday at] LT",
