@@ -108,7 +108,7 @@
                     "title": "Aparência",
                     "mono_font": "Seletor de fonte Monoscape",
                     "ligatures": "Ligaduras da fonte",
-                    "ligatures_desc": "Para fontes suportadas, ligaduras combinam caracteres juntos, por exemplo, transformando -> em uma seta. Altere para Inter e tente ativar essa opção.",
+                    "ligatures_desc": "Para fontes suportadas, ligaduras combinam caracteres juntos, por exemplo, transformando -> em uma seta. Altere para Inter e tente alternar essa opção.",
                     "export_clipboard": "Exportar para a área de transferência"
                 },
                 "notifications": {
@@ -144,7 +144,20 @@
                 },
                 "account": {
                     "change_field": "Alterar",
-                    "title": "Minha conta"
+                    "title": "Minha conta",
+                    "2fa": {
+                        "title": "Autenticação de dois fatores",
+                        "description": "Adiciona uma camada extra de segurança ao ativar 2FA na sua conta.",
+                        "add_auth": "Adicionar autenticador",
+                        "remove_auth": "Remover autenticador"
+                    },
+                    "manage": {
+                        "title": "Gerenciamento da conta",
+                        "disable": "Desativar conta",
+                        "delete": "Deletar conta",
+                        "description": "Desative ou delete sua conta a qualquer momento. Essa ação vai te deslogar e deletar completamente a sua conta, incluindo seu histórico de conversas e amigos."
+                    },
+                    "unique_id": "Este é seu identificador único de usuário"
                 },
                 "profile": {
                     "placeholder": "Digite algo sobre você…",
@@ -290,7 +303,8 @@
                     "delete": "Deletar",
                     "create": "Criar",
                     "remove": "Remover",
-                    "send_email": "Enviar e-mail"
+                    "send_email": "Enviar e-mail",
+                    "reveal": "Revelar"
                 },
                 "prompt": {
                     "confirm_ban_reason": "Motivo do banimento",
@@ -360,7 +374,8 @@
                 "connecting": "Conectando…",
                 "offline": "Offline."
             },
-            "requires_online": "Você precisa estar online para visualizar isso."
+            "requires_online": "Você precisa estar online para visualizar isso.",
+            "copy": "Clique para copiar"
         },
         "context_menu": {
             "copy_text": "Copiar texto",
