@@ -115,7 +115,12 @@
             },
             "servers": {
                 "create": "Bir server yaradın.",
-                "name": "Server Adı"
+                "name": "Server Adı",
+                "custom_banner": "Xüsusi Banner",
+                "description": "Server Təsviri",
+                "channel_name": "Kanal Adı",
+                "owner": "Server Sahibi",
+                "channel_description": "Kanal Təsviri"
             }
         },
         "settings": {
@@ -126,7 +131,8 @@
             },
             "actions": {
                 "remove": "Sil",
-                "upload": "Yüklə (maksimum {{filesize}})"
+                "upload": "Yüklə",
+                "max_filesize": "(maksimum {{filesize}})"
             },
             "pages": {
                 "account": {
@@ -207,7 +213,26 @@
                     "title": "Bağış edin"
                 },
                 "source_code": "Mənbə",
-                "logOut": "Çıxış"
+                "logOut": "Çıxış",
+                "experiments": {
+                    "title": "Təcrübələr",
+                    "features": "Mövcud xüsusiyyətlər",
+                    "titles": {
+                        "servers": "Serverlər"
+                    },
+                    "descriptions": {
+                        "servers": "Bu, kanallar, dəvətnamələr, qadağalar, moderasiya və daha çoxu olan serverlər yaratmağa imkan verəcəkdir."
+                    }
+                },
+                "sync": {
+                    "descriptions": {
+                        "locale": "Bu, hazırda seçdiyiniz dili sinxronlaşdıracaq.",
+                        "appearance": "Bu, emoji paketləri və mesaj sıxlığı kimi seçimləri sinxronlaşdıracaq.",
+                        "theme": "Bu seçdiyiniz mövzunu, rəngləri və istənilən xüsusi CSS sinxronlaşdıracaq."
+                    },
+                    "categories": "Kateqoriyalarları sinxronlaşdırın",
+                    "title": "Sinxronizasiya"
+                }
             },
             "tips": {
                 "account": {
@@ -228,6 +253,22 @@
                     "title": "Baxış",
                     "name": "Kanal adı",
                     "description": "Kanal təsviri"
+                }
+            },
+            "server_pages": {
+                "bans": {
+                    "title": "Qadağalar"
+                },
+                "members": {
+                    "title": "Üzvlər"
+                },
+                "invites": {
+                    "title": "Dəvətlər"
+                },
+                "overview": {
+                    "title": "Baxış",
+                    "name": "Server Adı",
+                    "description": "Kanal Təsviri"
                 }
             }
         },
@@ -266,13 +307,26 @@
                     "preview": "Önizləmə",
                     "reload": "Tətbiqi yenidən yükləyin",
                     "continue": "Davam edin",
-                    "cancel": "Ləğv et"
+                    "cancel": "Ləğv et",
+                    "ban": "qadağa",
+                    "kick": "At",
+                    "delete": "Sil"
                 },
                 "error": "Xəta baş verdi!",
                 "signed_out": "Hesabdan çıxdınız!",
                 "prompt": {
-                    "confirm_leave": "Tərk et {{group_name}}?",
-                    "confirm_leave_long": "Yenidən dəvət edilmədikdə yenidən qoşula bilməyəcəksiniz."
+                    "confirm_leave": "Tərk et {{name}}?",
+                    "confirm_leave_long": "Yenidən dəvət edilmədikdə yenidən qoşula bilməyəcəksiniz.",
+                    "confirm_close_dm_long": "Daha sonra yenidən aça bilərsiniz, lakin hər iki tərəfdə yox olacaq.",
+                    "confirm_kick": "{{name}} Atmaq istədiyinizə əminsiniz?",
+                    "confirm_close_dm": "{{name}} ilə söhbət yaxın?",
+                    "confirm_delete": "{{name}} silinsin?",
+                    "confirm_ban": "{{name}} qadağan etmək üzrəsiniz",
+                    "confirm_ban_reason": "Səbəb qadağandır",
+                    "confirm_delete_long": "Silinəndən sonra geri qayıtmaq olmaz.",
+                    "confirm_delete_message_long": "Bunu silmək istədiyinizə əminsiniz?",
+                    "create_invite_generate": "Dəvət hazırlanır…",
+                    "create_invite_created": "Budur yeni dəvət kodunuz:"
                 }
             },
             "popovers": {
@@ -290,7 +344,8 @@
                     },
                     "badges": {
                         "translator": "Tərcüməçi",
-                        "early_adopter": "Erkən Adopter"
+                        "early_adopter": "Erkən Adopter",
+                        "supporter": "Dəstəkçi"
                     }
                 },
                 "user_picker": {
@@ -339,7 +394,19 @@
             "save_file": "Fayl saxlamaq",
             "retry_message": "Yenidən göndərin",
             "remove_member": "Qrupdan çıxarın",
-            "open_image": "Şəkli açın"
+            "open_image": "Şəkli açın",
+            "ban_member": "Üzv qadağandır",
+            "delete_channel": "Kanalı silin",
+            "leave_server": "Serverdən ayrılın",
+            "kick_member": "Üzvü vurun",
+            "delete_server": "Serveri silin",
+            "view_profile": "Profilə bax",
+            "create_invite": "Kanal yaradın",
+            "open_server_settings": "Server parametrləri",
+            "create_channel": "Kanal yaradın",
+            "copy_sid": "Server kimliyini kopyalayın",
+            "leave_group": "qrupu tərk etmək",
+            "close_dm": "Dm'yi yaxın et"
         }
     },
     "quantities": {
@@ -351,6 +418,60 @@
     "dayjs": {
         "sameDay": "[Bu gün saat] LT",
         "nextDay": "[Sabah saat] LT",
-        "lastWeek": "[Son] dddd [saat] LT"
+        "lastWeek": "[Son] dddd [saat] LT",
+        "lastDay": "[dünən vaxt] {{time}}",
+        "nextWeek": "dddd [saat] {{time}}",
+        "defaults": {
+            "date_separator": "/"
+        }
+    },
+    "error": {
+        "FailedToReceive": "Server sənədinizi ala bilmədi.",
+        "InvalidInvite": "Yararsız Şifrə",
+        "InvalidEmail": "Yalnış email ünvanı",
+        "TooLong": "Çox uzun",
+        "NetworkError": "Şəbəkə xətası.",
+        "UnknownError": "Konsola baxın.",
+        "OperationFailed": "Əməliyyat alınmadı.",
+        "RenderFail": "Şablon göstərmə uğursuz oldu.",
+        "EmailInUse": "E-poçt istifadə olunur.",
+        "EmailFailed": "E-poçt göndərilmədi.",
+        "UnknownUser": "Naməlum istifadəçi.",
+        "InvalidCredentials": "E-poçt və ya parol səhvdir.",
+        "InvalidToken": "Yanlış Token",
+        "InvalidSession": "Yanlış seans.",
+        "UnverifiedAccount": "Yoxlanılmamış hesab.",
+        "MissingInvite": "İstədiyiniz dəvət kodu yoxdur.",
+        "AlreadyOnboarded": "Artıq təyyarəyə minməyi başa vurduq.",
+        "UsernameTaken": "İstifadəçi adı götürülür.",
+        "AlreadyFriends": "Bu istifadəçi ilə artıq dostlar.",
+        "AlreadySentRequest": "Artıq bu istifadəçiyə sorğu göndərdi.",
+        "Blocked": "Bu istifadəçini bloklamısınız.",
+        "NoEffect": "Bu istəyin heç bir təsiri olmadı.",
+        "BlockedOther": "Bu istifadəçi sizi blok edib.",
+        "RequiredField": "Tələb olunur",
+        "Unavailable": "Əlçatan deyil",
+        "FileTooLarge": "Fayl çox böyükdür.",
+        "DatabaseError": "Verilənlər bazası xətası.",
+        "MissingData": "İstəkdə məlumat yoxdur.",
+        "Unlabelled": "Nə isə baş verdi.",
+        "ProbeError": "Fayl metadatası alınmadı.",
+        "FailedValidation": "Sahələri təsdiqləmək alınmadı.",
+        "UnsupportedBrowser": "Brauzerdə bu xüsusiyyət üçün dəstək yoxdur.",
+        "DeniedNotification": "Bildiriş girişini rədd etdiniz, səhifə parametrlərini yoxlayın.",
+        "CompromisedPassword": "Bu parol pozulub.",
+        "MissingPermission": "İcazə yoxdur.",
+        "Unauthorized": "İcazəsiz.",
+        "InternalError": "Daxili səhv.",
+        "TooShort": "Çox qısa",
+        "IoError": "Server giriş/çıxma xətası ilə qarşılaşdı.",
+        "MissingHeaders": "Yarımçıq başlıqlar."
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
+    },
+    "notifications": {
+        "sent_request": "@{{person}} sizə bir dost sorğusu göndərdi.",
+        "now_friends": "İndi @{{person}} ilə dost oldunuz!"
     }
 }
