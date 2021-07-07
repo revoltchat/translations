@@ -6,7 +6,8 @@
         "image_by": "Bild von",
         "loading": "Ladevorgang…",
         "on": "An",
-        "off": "Aus"
+        "off": "Aus",
+        "disabled": "Deaktiviert"
     },
     "login": {
         "title": "Login",
@@ -221,7 +222,8 @@
                     "create": "Erstellen",
                     "block": "Blockieren",
                     "leave": "Verlassen",
-                    "remove": "Entfernen"
+                    "remove": "Entfernen",
+                    "reveal": "Anzeigen"
                 },
                 "signed_out": "Du wurdest ausgeloggt!",
                 "clipboard": {
@@ -291,7 +293,8 @@
                     "select": "Zu hinzufügende Freunde auswählen."
                 }
             },
-            "copy_username": "Klicken, um den Nutzernamen zu kopieren"
+            "copy_username": "Klicken, um den Nutzernamen zu kopieren",
+            "copy": "Klick hier zum kopieren"
         },
         "settings": {
             "pages": {
@@ -321,7 +324,11 @@
                         "compact": "Kompakt",
                         "default": "Standard"
                     },
-                    "emoji_pack": "Emoji-Paket"
+                    "emoji_pack": "Emoji-Paket",
+                    "mono_font": "Nicht proportionale Schrift",
+                    "ligatures": "Ligaturen",
+                    "font": "Schrift",
+                    "ligatures_desc": "Für unterstützte Schriften werden Ligaturen bewirken, dass einige Zeichen kombiniert werden. So wird -> beispielweise zu einem Pfeil. Wechsle die Schrift zu Inter und probiere aus, diese Einstellung umzuschalten."
                 },
                 "sessions": {
                     "created": "{{time_ago}} erstellt",
@@ -331,7 +338,20 @@
                 },
                 "account": {
                     "title": "Mein Account",
-                    "change_field": "Ändern"
+                    "change_field": "Ändern",
+                    "unique_id": "Das ist deine einzigartige Nutzer-ID.",
+                    "2fa": {
+                        "title": "Zweifaktorenauthentifizierung",
+                        "description": "Füge eine weitere Sicherheitsebene für deinen Account hinzu, indem du die Zweifaktorauthentifizierung nutzt.",
+                        "add_auth": "Authenticator hinzufügen",
+                        "remove_auth": "Authenticator entfernen"
+                    },
+                    "manage": {
+                        "title": "Accountverwaltung",
+                        "description": "Deaktiviere oder lösche deinen Account jederzeit. Dadurch wirst du ausgeloggt und dein Account wird vollständig gelöscht, inklusive deiner Chatlogs und Freunde.",
+                        "disable": "Account deaktivieren",
+                        "delete": "Account löschen"
+                    }
                 },
                 "language": {
                     "title": "Sprache",
@@ -441,7 +461,8 @@
                 "overview": {
                     "title": "Übersicht",
                     "name": "Servername",
-                    "description": "Kanalbeschreibung"
+                    "description": "Kanalbeschreibung",
+                    "system_messages": "Kanäle für Systemnachrichten"
                 },
                 "members": {
                     "title": "Mitglieder:innen"
