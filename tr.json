@@ -51,7 +51,7 @@
         },
         "status": {
             "online": "Çevrimiçi",
-            "idle": "Uzakta",
+            "idle": "Boşta",
             "offline": "Çevrimdışı",
             "busy": "Rahatsız Etmeyin",
             "invisible": "Görünmez"
@@ -151,7 +151,20 @@
             "pages": {
                 "account": {
                     "title": "Hesabım",
-                    "change_field": "Değiştir"
+                    "change_field": "Değiştir",
+                    "manage": {
+                        "description": "Hesabınızı istediğiniz zaman devre dışı bırakın veya silin. Bu eylem oturumunuzu kapatacak ve sohbet geçmişiniz ve arkadaşlarınız da dahil olmak üzere hesabınızı tamamen silecektir.",
+                        "title": "Hesap Yönetimi",
+                        "delete": "Hesabı sil",
+                        "disable": "Hesabı devre dışı bırak"
+                    },
+                    "unique_id": "Bu, hesabınız için benzersiz bir kullanıcı kimliğidir.",
+                    "2fa": {
+                        "title": "İki Aşamalı Doğrulama",
+                        "description": "Hesabınızda 2AD'yı etkinleştirerek ekstra bir güvenlik katmanı ekleyin.",
+                        "add_auth": "Kimlik Doğrulayıcı Ekle",
+                        "remove_auth": "Kimlik Doğrulayıcıyı Kaldır"
+                    }
                 },
                 "sessions": {
                     "title": "Oturumlar",
@@ -188,7 +201,7 @@
                     "font": "Yazı tipi",
                     "ligatures_desc": "Desteklenen yazı tipleri için bitişik harfler karakterleri birleştirir, örneğin -> oka dönüştürerek. Inter'e geçin ve bu seçeneği değiştirmeyi deneyin.",
                     "mono_font": "Monoscape Yazı Tipi Seçici",
-                    "ligatures": "Yazı Tipi Bitişik Harfler"
+                    "ligatures": "Yazı Tipi İçin Bitişik Harfler"
                 },
                 "notifications": {
                     "title": "Bildirimler",
@@ -392,7 +405,8 @@
                     "create": "Oluştur",
                     "leave": "Ayrıl",
                     "remove": "Kaldır",
-                    "block": "Engelle"
+                    "block": "Engelle",
+                    "reveal": "Göster"
                 }
             },
             "popovers": {
@@ -420,7 +434,8 @@
                 }
             },
             "requires_online": "Bunu görüntülemek için çevrimiçi olmanız gerekir.",
-            "copy_username": "Kullanıcı adını kopyalamak için tıklayın"
+            "copy_username": "Kullanıcı adını kopyalamak için tıklayın",
+            "copy": "Kopyalamak için tıklayın"
         },
         "permissions": {
             "required": "Gerekli İzinler"
