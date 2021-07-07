@@ -4,19 +4,21 @@
             "channel": {
                 "message": "Message {{name}}",
                 "system": {
-                    "user_joined": "unido.",
-                    "user_left": "salió.",
-                    "added_by": "añadido por",
-                    "removed_by": "eliminado por",
-                    "channel_renamed": "renombrado el canal a",
-                    "channel_description_changed": "cambió la descripción del canal",
-                    "channel_icon_changed": "cambió el icono de canal"
+                    "user_joined": "{{user}} unido",
+                    "user_left": "{{user}} salió",
+                    "added_by": "{{user}} añadido por {{other_user}}",
+                    "removed_by": "{{user}} eliminado por {{other_user}}",
+                    "channel_renamed": "{{user}} renombrado el canal a {{name}}",
+                    "channel_description_changed": "{{user}} cambió la descripción del canal",
+                    "channel_icon_changed": "{{user}} cambió el icono de canal",
+                    "user_kicked": "{{user}} fue pateado",
+                    "user_banned": "{{user}} fue prohibido"
                 },
                 "message_where": "Mensaje {{channel_name}}",
                 "bot": "bot",
                 "unknown_user": "<Usuario desconocido>",
                 "message_saved": "Guardar en sus notas",
-                "uploading_file": "Subiendo archivo…",
+                "uploading_file": "Subiendo…",
                 "failed_upload": "¡Error al cargar!",
                 "attached_file": "Adjunto {{filename}}",
                 "typing": {
@@ -38,7 +40,17 @@
                 "misc": {
                     "viewing_old": "Viendo mensajes antiguos",
                     "jump_present": "Saltar al presente",
-                    "spoiler_attachment": "Spoiler"
+                    "spoiler_attachment": "Spoiler",
+                    "blocked_messages": "{{count}} mensajes bloqueados",
+                    "failed_load": "No se pudo cargar el mensaje.",
+                    "no_sending": "No tienes permiso para enviar mensajes en este canal."
+                },
+                "notifications": {
+                    "default": "Uso por defecto",
+                    "all": "Todos los mensajes",
+                    "mention": "Solo menciones",
+                    "none": "Ninguno",
+                    "muted": "Apagado"
                 }
             },
             "categories": {
@@ -48,9 +60,22 @@
                 "participants": "Participantes"
             },
             "groups": {
-                "create": "Crear un grupo.",
+                "create": "Crear un grupo",
                 "name": "Nombre del grupo",
-                "owner": "Propietario del grupo"
+                "owner": "Propietario del grupo",
+                "description": "Descripción del grupo"
+            },
+            "servers": {
+                "text_channel": "Canal de texto",
+                "voice_channel": "Canal de voz",
+                "channel_type": "Tipo de canal",
+                "create": "Crea un servidor",
+                "name": "Nombre del servidor",
+                "description": "Descripción del servidor",
+                "channel_name": "Nombre del canal",
+                "channel_description": "Descripción del canal",
+                "custom_banner": "Banner personalizado",
+                "owner": "Propietario del servidor"
             }
         },
         "navigation": {
@@ -82,14 +107,28 @@
                 },
                 "account": {
                     "title": "Mi cuenta",
-                    "change_field": "Cambio"
+                    "change_field": "Cambio",
+                    "unique_id": "Este es un identificador de usuario único para su cuenta.",
+                    "2fa": {
+                        "title": "Autenticación de dos factores",
+                        "add_auth": "Agregar autenticador",
+                        "remove_auth": "Eliminar autenticador",
+                        "description": "Agregue una capa adicional de seguridad habilitar 2FA en su cuenta."
+                    },
+                    "manage": {
+                        "title": "Administración de cuentas",
+                        "description": "Deshabilite o elimine su cuenta en cualquier momento. Esta acción cerrará la sesión y eliminará por completo su cuenta, incluido su historial de chat y amigos.",
+                        "disable": "Deshabilitar cuenta",
+                        "delete": "Borrar cuenta"
+                    }
                 },
                 "donate": {
                     "title": "Donar"
                 },
                 "language": {
                     "select": "Seleccione el idioma",
-                    "title": "Idioma"
+                    "title": "Idioma",
+                    "other": "Idiomas alternativos"
                 },
                 "notifications": {
                     "descriptions": {
@@ -104,7 +143,13 @@
                     "push_notifications": "Notificaciones push",
                     "sounds": "Sonidos",
                     "enable_sound": "Reproducir sonido en mensaje.",
-                    "enable_outgoing_sound": "Habilitar sonido de mensaje enviado."
+                    "enable_outgoing_sound": "Habilitar sonido de mensaje enviado.",
+                    "sound": {
+                        "message": "Mensaje recibido",
+                        "outbound": "Mensaje enviado",
+                        "call_join": "Usuario unido la llamada",
+                        "call_leave": "Llamada izquierda del usuario"
+                    }
                 },
                 "feedback": {
                     "title": "Sugerencias",
@@ -140,10 +185,34 @@
                     "custom_css": "CSS personalizado",
                     "sync": "Sincronizar opciones",
                     "advanced": "Opciones avanzadas",
-                    "import_theme": "Importar tema desde hilo"
+                    "import_theme": "Importar tema desde hilo",
+                    "font": "Fuente",
+                    "ligatures": "Ligaduras de fuentes",
+                    "mono_font": "Selector de fuente monoespaciado",
+                    "ligatures_desc": "Para las fuentes compatibles, las ligaduras combinan caracteres, por ejemplo, convirtiendo -> en una flecha. Cambie a Inter e intente alternar esta opción."
                 },
                 "logOut": "Cerrar sesión",
-                "source_code": "Código fuente"
+                "source_code": "Código fuente",
+                "sync": {
+                    "title": "Sincronizar",
+                    "descriptions": {
+                        "theme": "Esto sincroniza el tema elegido, los colores y cualquier CSS personalizado.",
+                        "appearance": "Esto sincronizar opciones como paquetes de emoji y densidad de mensajes.",
+                        "locale": "Esto sincronizar su idioma elegido actualmente."
+                    },
+                    "categories": "Sincronización de categorías"
+                },
+                "experiments": {
+                    "not_available": "No hay experimentos disponibles en este momento.",
+                    "title": "Experimentos",
+                    "titles": {
+                        "servers": "Servidores"
+                    },
+                    "features": "Funciones disponibles",
+                    "descriptions": {
+                        "servers": "Esto te permitirá crear servidores con canales, invitaciones, bans, moderación y más."
+                    }
+                }
             },
             "categories": {
                 "user_settings": "Ajustes de usuario",
@@ -154,6 +223,9 @@
                     "title": "Resumen",
                     "name": "Nombre del canal",
                     "description": "Descripción del canal"
+                },
+                "permissions": {
+                    "title": "Permisos"
                 }
             },
             "tips": {
@@ -172,13 +244,41 @@
             },
             "actions": {
                 "remove": "Borrar",
-                "upload": "Subir (máx. {{filesize}})"
+                "upload": "Subir",
+                "max_filesize": "(max {{filesize}})"
+            },
+            "server_pages": {
+                "overview": {
+                    "name": "Nombre del servidor",
+                    "title": "Descripción general",
+                    "description": "Descripción del canal",
+                    "system_messages": "Canales de mensajes del sistema"
+                },
+                "bans": {
+                    "title": "Prohibiciones"
+                },
+                "members": {
+                    "title": "Miembros"
+                },
+                "invites": {
+                    "title": "Invita"
+                },
+                "roles": {
+                    "title": "Roles"
+                }
+            },
+            "permissions": {
+                "server": "Permisos del servidor",
+                "channel": "Permisos de canal",
+                "create_role": "Crea un nuevo rol",
+                "role_name": "Nombre de rol",
+                "default_role": "Defecto"
             }
         },
         "status": {
             "offline": "Desconectado",
             "idle": "Inactivo",
-            "busy": "Ocupado",
+            "busy": "No molestar",
             "invisible": "Invisible",
             "online": "Activo"
         },
@@ -215,7 +315,21 @@
             "mark_as_read": "Marcar como leído",
             "edit_message": "Editar mensaje",
             "delete_message": "Borrar mensaje",
-            "remove_member": "Quitar del grupo"
+            "remove_member": "Quitar del grupo",
+            "view_profile": "Ver perfil",
+            "kick_member": "Miembro de kick",
+            "ban_member": "Prohibir miembro",
+            "reply_message": "Respuesta",
+            "leave_group": "Salir del grupo",
+            "leave_server": "Salir del servidor",
+            "delete_server": "Eliminar servidor",
+            "delete_channel": "Eliminar canal",
+            "close_dm": "Cerrar DM",
+            "create_invite": "Crear invitación",
+            "create_channel": "Crear canal",
+            "open_notification_options": "Opciones de notificación",
+            "open_server_settings": "Configuración del servidor",
+            "copy_sid": "Copiar ID de servidor"
         },
         "special": {
             "modals": {
@@ -233,7 +347,21 @@
                 },
                 "prompt": {
                     "confirm_leave_long": "No podrás volver a entrar a no ser que seas invitado de nuevo.",
-                    "confirm_leave": "Salir de {{group_name}}?"
+                    "confirm_leave": "Salir de {{name}}?",
+                    "unfriend_user_long": "Es posible que no pueda volver a hablar con ellos hasta que los vuelva a agregar.",
+                    "block_user": "¿Bloquear a {{name}}?",
+                    "unfriend_user": "¿Eliminar {{name}}?",
+                    "block_user_long": "¿Estás seguro de que quieres bloquear a {{name}}? También se eliminarán de tu lista de amigos.",
+                    "confirm_close_dm": "¿Cerrar conversación con {{name}}?",
+                    "confirm_delete_message_long": "¿Estás seguro de que quieres eliminar esto?",
+                    "confirm_kick": "¿Estás seguro de que quieres patear a {{name}}?",
+                    "confirm_ban_reason": "Motivo de prohibitar",
+                    "confirm_delete_long": "Una vez que se elimina, no hay vuelta atrás.",
+                    "confirm_ban": "Estás a punto de prohibir a {{name}}",
+                    "create_invite_created": "Aquí está su nuevo código de invitación:",
+                    "confirm_delete": "¿Eliminar {{name}}?",
+                    "confirm_close_dm_long": "Puede volver a abrirlo más tarde, pero desaparece por ambos lados.",
+                    "create_invite_generate": "Generando invitación…"
                 },
                 "error": "Ha ocurrido un error!",
                 "actions": {
@@ -245,7 +373,15 @@
                     "send_email": "Enviar correo",
                     "reload": "Recargar aplicación",
                     "preview": "Vista previa",
-                    "continue": "Continuar"
+                    "continue": "Continuar",
+                    "reveal": "Revelar",
+                    "create": "Crear",
+                    "ban": "Prohibir",
+                    "kick": "Patear",
+                    "block": "Cuadra",
+                    "leave": "Salir",
+                    "remove": "Eliminar",
+                    "delete": "Borrar"
                 },
                 "clipboard": {
                     "unavailable": "El portapapeles no esta disponible!",
@@ -255,18 +391,25 @@
                 "signed_out": "Tu sesión ha sido cerrada!"
             },
             "friends": {
-                "pending": "Pendiente",
+                "pending": "Solicitudes pendiente",
                 "outgoing": "Solicitud de amistad saliente.",
                 "incoming": "Solicitud de amistad entrante.",
                 "blocked": "Bloqueado",
-                "nobody": "Todavia no hay nadie!"
+                "nobody": "Todavia no hay nadie!",
+                "from": {
+                    "single": "De {{user}}",
+                    "multiple": "De {{userlist}} y {{user}}",
+                    "several": "De {{userlist}} y {{count}} más…"
+                },
+                "sent": "Saliente"
             },
             "popovers": {
                 "user_profile": {
                     "badges": {
                         "early_adopter": "Pionero",
                         "supporter": "Apoyante",
-                        "translator": "Traductor"
+                        "translator": "Traductor",
+                        "responsible_disclosure": "Error(es) divulgado responsablemente"
                     },
                     "no_users": "Sin amigos en común!",
                     "empty": "Esto esta un poco vacío…",
@@ -291,7 +434,11 @@
                 "reconnecting": "Reconectando…"
             },
             "requires_online": "Necesitas estar conectado para ver esto.",
-            "copy_username": "Haz click para copiar nombre de usuario"
+            "copy_username": "Haz click para copiar nombre de usuario",
+            "copy": "Haga clic para copiar"
+        },
+        "permissions": {
+            "required": "Permisos requeridos"
         }
     },
     "login": {
@@ -328,22 +475,31 @@
         "current_password": "Contraseña actual",
         "invite": "Codigo de invitacion",
         "username": "Nombre de usuario",
-        "register": "Registrarse"
+        "register": "Registrarse",
+        "email_delay": "Espere hasta 10 minutos para que llegue."
     },
     "general": {
         "image_by": "Imagen de",
         "privacy": "Política de privacidad",
         "tos": "Términos de servicio",
         "about": "Sobre nosotros",
-        "loading": "Cargando…"
+        "loading": "Cargando…",
+        "on": "En",
+        "off": "Apagado",
+        "disabled": "Discapacitado"
     },
     "dayjs": {
-        "nextDay": "[Mañana a las] LT",
-        "nextWeek": "dddd [a las] LT",
+        "nextDay": "[Mañana a las] {{time}}",
+        "nextWeek": "dddd [a las] {{time}}",
         "sameElse": "L",
-        "sameDay": "[Hoy a las] LT",
-        "lastWeek": "[El último] dddd [a las] LT",
-        "lastDay": "[Ayer a las] LT"
+        "sameDay": "[Hoy a las] {{time}}",
+        "lastWeek": "[El último] dddd [a las] {{time}}",
+        "lastDay": "[Ayer a las] {{time}}",
+        "defaults": {
+            "date_separator": "/",
+            "twelvehour": "no",
+            "date_format": "traditional"
+        }
     },
     "quantities": {
         "members": {
@@ -396,5 +552,82 @@
         "TooShort": "Demasiado corto",
         "Unavailable": "No disponible.",
         "CompromisedPassword": "Esta contraseña está comprometida."
+    },
+    "permissions": {
+        "channel": {
+            "ManageMessages": {
+                "t": "Administrar mensajes",
+                "d": "Permite a los miembros eliminar los mensajes enviados por otros miembros."
+            },
+            "SendMessage": {
+                "t": "Enviar mensajes",
+                "d": "Permite a los miembros enviar mensajes en canales de texto."
+            },
+            "View": {
+                "d": "Permite a los miembros ver cualquier canal en el que tengan este permiso.",
+                "t": "Ver canal"
+            },
+            "ManageChannel": {
+                "t": "Miembros de kick",
+                "d": "Permite a los miembros editar o eliminar un canal."
+            },
+            "VoiceCall": {
+                "t": "Llamada de voz",
+                "d": "Permite a los miembros unirse a los canales de voz."
+            },
+            "InviteOthers": {
+                "t": "Cambiar apodo",
+                "d": "Permite a los miembros invitar a otros usuarios a un canal."
+            },
+            "EmbedLinks": {
+                "t": "Incrustar enlaces",
+                "d": "Permite a los miembros mostrar contenido incrustado en enlaces que publican en canales de texto."
+            },
+            "UploadFiles": {
+                "t": "Subir archivos",
+                "d": "Permite a los miembros cargar archivos en canales de texto."
+            }
+        },
+        "server": {
+            "ChangeNickname": {
+                "t": "Cambiar apodo",
+                "d": "Permite a los miembros cambiar su apodo en este servidor."
+            },
+            "ManageNicknames": {
+                "t": "Administrar apodos",
+                "d": "Permite a los miembros cambiar los apodos de otros miembros."
+            },
+            "BanMembers": {
+                "d": "Permite a los miembros eliminar miembros de forma permanente de este servidor.",
+                "t": "Prohibir miembros"
+            },
+            "RemoveAvatars": {
+                "d": "Permite a los miembros eliminar los avatares del servidor de otros miembros en este servidor.",
+                "t": "Eliminar avatares"
+            },
+            "ChangeAvatar": {
+                "d": "Permite a los miembros cambiar el avatar de su servidor en este servidor.",
+                "t": "Cambiar avatar"
+            },
+            "ManageServer": {
+                "t": "Administrar servidor",
+                "d": "Permite a los miembros cambiar el nombre, la descripción, el icono y otra información relacionada de este servidor."
+            },
+            "ManageChannels": {
+                "t": "Administrar canales",
+                "d": "Permite a los miembros crear, editar y eliminar canales."
+            },
+            "ManageRoles": {
+                "t": "Administrar roles",
+                "d": "Permite a los miembros crear, editar y eliminar roles con un rango más bajo que el de ellos. También les permite modificar los permisos de roles en los canales."
+            },
+            "KickMembers": {
+                "t": "Miembros de kick",
+                "d": "Permite a los miembros eliminar miembros de este servidor. Los miembros expulsados pueden volver a unirse con una invitación."
+            }
+        }
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
     }
 }
