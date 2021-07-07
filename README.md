@@ -1,6 +1,6 @@
 [![Translation status](https://weblate.insrt.uk/widgets/revolt/-/web-app/svg-badge.svg)](https://weblate.insrt.uk/engage/revolt/?utm_source=widget)
 
-This repository holds all the translation files for REVOLT, feel free to help translate to new languages or fix existing translations at [our Weblate instance](https://weblate.insrt.uk/projects/revolt/web-app/).
+This repository holds all the translation files for Revolt, feel free to help translate to new languages or fix existing translations at [our Weblate instance](https://weblate.insrt.uk/projects/revolt/web-app/).
 
 ### Coverage
 
