@@ -49,7 +49,44 @@
     "app": {
         "main": {
             "channel": {
-                "message": "Пиши на {{name}}"
+                "message": "Пиши на {{name}}",
+                "message_where": "Прати порака во {{channel_name}}",
+                "system": {
+                    "user_left": "{{user}} изпадна",
+                    "channel_renamed": "{{user}} го преименува каналот во {{name}}",
+                    "user_joined": "{{user}} влези",
+                    "channel_icon_changed": "{{user}} ја смени иконата за каналот",
+                    "channel_description_changed": "{{user}} го смени описот на каналот",
+                    "user_kicked": "{{user}} беше исфрлен",
+                    "user_banned": "{{user}} беше баниран",
+                    "removed_by": "{{user}} беше отстранет од {{other_user}}",
+                    "added_by": "{{user}} беше додаден од {{other_user}}"
+                },
+                "message_saved": "Зачувајте на вашите белешки",
+                "uploading_file": "Се праќа…",
+                "failed_upload": "Не успеа да се прати!",
+                "attached_file": "Прикачи {{filename}}",
+                "typing": {
+                    "several": "Неколку луѓе пишуваат…",
+                    "single": "{{user}} пишува…",
+                    "multiple": "{{userlist}} и {{user}} пишуваат…"
+                },
+                "message_who": "Прати порака на {{person}}",
+                "start": {
+                    "group": "Ова е почетокот на вашиот разговор."
+                },
+                "voice": {
+                    "leave": "Излези",
+                    "connected": "Гласот е поврзан",
+                    "unmute": "Вклучи звук",
+                    "mute": "Исклучи звук"
+                }
+            },
+            "categories": {
+                "members": "Членови",
+                "conversations": "Разговори",
+                "channels": "Канали",
+                "participants": "Учесници"
             }
         },
         "status": {
@@ -61,7 +98,11 @@
         },
         "navigation": {
             "tabs": {
-                "home": "Дома"
+                "home": "Дома",
+                "dev": "Девелопер",
+                "saved": "Зачувани белешки",
+                "unreads": "Непрочитани",
+                "friends": "Другари"
             }
         }
     }
