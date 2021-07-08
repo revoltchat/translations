@@ -170,13 +170,15 @@
                     "custom_css": "Aangepaste CSS",
                     "ligatures_desc": "Bij ondersteunde lettertypen, ligaturen combineren tekens, bijvoorbeeld -> wordt een pijl. Schakel over naar Inter en probeer deze optie aan te zetten.",
                     "font": "Lettertype",
-                    "ligatures": "Lettertype Ligaturen"
+                    "ligatures": "Lettertype Ligaturen",
+                    "mono_font": "Monospace-lettertypekiezer"
                 },
                 "sessions": {
                     "created": "Gemaakt {{time_ago}}",
                     "this_device": "Dit Apparaat",
                     "active_sessions": "Actieve Sessies",
-                    "title": "Sessies"
+                    "title": "Sessies",
+                    "logout": "Uitloggen bij alle andere sessies"
                 },
                 "profile": {
                     "edit_background": "Verander Achtergrond",
@@ -227,7 +229,8 @@
                 },
                 "language": {
                     "title": "Taal",
-                    "select": "Selecteer je taal"
+                    "select": "Selecteer je taal",
+                    "other": "Alternatieve talen"
                 },
                 "donate": {
                     "title": "Doneer"
@@ -242,7 +245,20 @@
                     "bug": "Bug",
                     "report": "Wat wil je rapporteren?"
                 },
-                "logOut": "Uitloggen"
+                "logOut": "Uitloggen",
+                "sync": {
+                    "title": "Synchroniseren",
+                    "categories": "Categorieën synchroniseren",
+                    "descriptions": {
+                        "locale": "Hiermee wordt de momenteel gekozen taal gesynchroniseerd."
+                    }
+                },
+                "experiments": {
+                    "features": "Beschikbare functies",
+                    "titles": {
+                        "servers": "Servers"
+                    }
+                }
             },
             "actions": {
                 "upload": "Uploaden",
@@ -274,6 +290,20 @@
                     "a": "Als u een onbekende sessie in de lijst ziet,",
                     "b": "beveilig je account door je wachtwoord te wijzigen en 2FA te gebruiken."
                 }
+            },
+            "server_pages": {
+                "bans": {
+                    "title": "Bans"
+                },
+                "roles": {
+                    "title": "Rollen"
+                },
+                "overview": {
+                    "system_messages": "Kanalen voor systeemberichten"
+                }
+            },
+            "permissions": {
+                "default_role": "Standaard"
             }
         },
         "special": {
@@ -283,7 +313,8 @@
                 "blocked": "Geblokkeerd",
                 "incoming": "Inkomend vriendschapsverzoek.",
                 "outgoing": "Uitgaand vriendschapsverzoek.",
-                "nobody": "Nog niemand hier!"
+                "nobody": "Nog niemand hier!",
+                "sent": "Uitgaand"
             },
             "status": {
                 "offline": "Offline.",
