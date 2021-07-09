@@ -120,6 +120,13 @@
                     "mention": "Nur Erwähnungen",
                     "none": "Keine",
                     "muted": "Stumm"
+                },
+                "nsfw": {
+                    "channel": {
+                        "marked": "Dieser Kanal ist als NSFW markiert.",
+                        "confirm": "Kanal betreten"
+                    },
+                    "confirm": "Ich bestätige, dass ich mindestens 18 Jahre alt bin."
                 }
             },
             "groups": {
@@ -223,7 +230,8 @@
                     "block": "Blockieren",
                     "leave": "Verlassen",
                     "remove": "Entfernen",
-                    "reveal": "Anzeigen"
+                    "reveal": "Anzeigen",
+                    "back": "Zurück"
                 },
                 "signed_out": "Du wurdest ausgeloggt!",
                 "clipboard": {
@@ -328,13 +336,15 @@
                     "mono_font": "Nicht proportionale Schrift",
                     "ligatures": "Ligaturen",
                     "font": "Schrift",
-                    "ligatures_desc": "Für unterstützte Schriften werden Ligaturen bewirken, dass einige Zeichen kombiniert werden. So wird -> beispielweise zu einem Pfeil. Wechsle die Schrift zu Inter und probiere aus, diese Einstellung umzuschalten."
+                    "ligatures_desc": "Für unterstützte Schriften werden Ligaturen bewirken, dass einige Zeichen kombiniert werden. So wird -> beispielweise zu einem Pfeil. Wechsle die Schrift zu Inter und probiere aus, diese Einstellung umzuschalten.",
+                    "import": "Thema importieren"
                 },
                 "sessions": {
                     "created": "{{time_ago}} erstellt",
                     "this_device": "Dieses Gerät",
                     "title": "Sitzungen",
-                    "active_sessions": "Aktive Sitzungen"
+                    "active_sessions": "Aktive Sitzungen",
+                    "logout": "Aus allen anderen Sitzungen abmelden"
                 },
                 "account": {
                     "title": "Mein Account",
@@ -499,7 +509,7 @@
         "defaults": {
             "date_separator": ".",
             "date_format": "traditionell",
-            "twelvehour": "ja"
+            "twelvehour": "no"
         }
     },
     "quantities": {
