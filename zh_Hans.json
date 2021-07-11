@@ -137,15 +137,15 @@
                 "bot": "机器人",
                 "unknown_user": "未知用户",
                 "system": {
-                    "user_left": "离开了。",
-                    "user_joined": "加入了。",
-                    "added_by": "邀请者为",
-                    "removed_by": "移除者为",
-                    "channel_renamed": "将频道更名为",
-                    "channel_icon_changed": "更改了频道图标",
-                    "channel_description_changed": "更改了频道说明",
-                    "user_kicked": "被踢出。",
-                    "user_banned": "被封禁。"
+                    "user_left": "{{user}} 离开了",
+                    "user_joined": "{{user}} 加入了",
+                    "added_by": "{{other_user}}邀请了{{user}}",
+                    "removed_by": "{{other_user}}移除了{{user}}",
+                    "channel_renamed": "{{user}}将频道更名为{{name}}",
+                    "channel_icon_changed": "{{user}} 更改了频道图标",
+                    "channel_description_changed": "{{user}}更改了频道说明",
+                    "user_kicked": "{{user}} 被踢出",
+                    "user_banned": "{{user}}被封禁了"
                 },
                 "typing": {
                     "several": "多人正在输入…",
@@ -154,7 +154,7 @@
                 },
                 "attached_file": "上传了 {{filename}}",
                 "failed_upload": "上传失败！",
-                "uploading_file": "正在上传文件…",
+                "uploading_file": "正在上传…",
                 "message_saved": "保存至备忘录",
                 "message_who": "发送至 {{person}}",
                 "message_where": "发送至 {{channel_name}}",
@@ -165,13 +165,24 @@
                 "misc": {
                     "jump_present": "跳到现在",
                     "viewing_old": "正在查看旧消息",
-                    "spoiler_attachment": "剧透警告"
+                    "spoiler_attachment": "剧透警告",
+                    "no_sending": "你没有权限在此频道发送消息。",
+                    "blocked_user": "黑名单用户",
+                    "failed_load": "无法载入信息。",
+                    "blocked_messages": "{{count}}被阻消息"
                 },
                 "voice": {
                     "unmute": "取消静音",
                     "mute": "静音",
                     "leave": "离开",
                     "connected": "连接至语音"
+                },
+                "nsfw": {
+                    "channel": {
+                        "marked": "此频道少儿不宜。",
+                        "confirm": "进入频道"
+                    },
+                    "confirm": "我确定我已成年。"
                 }
             },
             "categories": {
@@ -352,14 +363,18 @@
         "email": "邮箱",
         "username": "用户名",
         "register": "注册",
-        "title": "登录"
+        "title": "登录",
+        "email_delay": "邮件可能需要长达十分钟送达。"
     },
     "general": {
         "image_by": "图片来自",
         "privacy": "隐私政策",
         "tos": "服务条款",
         "about": "关于",
-        "loading": "加载中…"
+        "loading": "加载中…",
+        "on": "开",
+        "off": "关",
+        "disabled": "已关闭"
     },
     "notifications": {
         "now_friends": "您与@ {{person}}成为了好友！",
