@@ -90,7 +90,8 @@
                     "spoiler_attachment": "Spoiler",
                     "failed_load": "Hiba történt az üzenet betöltésekor.",
                     "no_sending": "Nincs jogosultságod üzeneteket küldeni ebben a csatornában.",
-                    "blocked_messages": "{{count}} blokkolt üzenet"
+                    "blocked_messages": "{{count}} blokkolt üzenet",
+                    "blocked_user": "Tiltott Felhasználó"
                 },
                 "notifications": {
                     "default": "Alapértelmezés használata",
@@ -98,6 +99,13 @@
                     "mention": "Csak említések",
                     "none": "Semelyik",
                     "muted": "Némított"
+                },
+                "nsfw": {
+                    "channel": {
+                        "marked": "Ez a csatorna NSFW-nek van jelölve.",
+                        "confirm": "Belépés a Csatornába"
+                    },
+                    "confirm": "Igazolom azt, hogy elmúltam legalább 18 éves."
                 }
             },
             "groups": {
@@ -131,7 +139,8 @@
                     "created": "{{time_ago}} létrehozva",
                     "title": "Munkamenetek",
                     "this_device": "Jelenlegi eszköz",
-                    "active_sessions": "Aktív munkamenetek"
+                    "active_sessions": "Aktív munkamenetek",
+                    "logout": "Kijelentkeztetés minden más munkamenetből"
                 },
                 "appearance": {
                     "import_theme": "Téma importálása stringből",
@@ -161,7 +170,8 @@
                     "message_display": "Üzenet Kinézete",
                     "ligatures": "Betűtípus Ligatúrák",
                     "mono_font": "Monoscape Betűtípus Választó",
-                    "font": "Betűtípus"
+                    "font": "Betűtípus",
+                    "import": "Téma importálása"
                 },
                 "logOut": "Kijelentkezés",
                 "account": {
@@ -296,8 +306,19 @@
                 "overview": {
                     "title": "Áttekintés",
                     "name": "Szerver neve",
-                    "description": "Csatorna leírása"
+                    "description": "Csatorna leírása",
+                    "system_messages": "Rendszer Üzenet Csatornák"
+                },
+                "roles": {
+                    "title": "Rangok"
                 }
+            },
+            "permissions": {
+                "channel": "Csatorna Jogok",
+                "default_role": "Alapértelmezett",
+                "server": "Szerver Jogok",
+                "create_role": "Új rang létrehozása",
+                "role_name": "Rang Neve"
             }
         },
         "special": {
@@ -319,7 +340,9 @@
                     "create": "Létrehozás",
                     "block": "Letiltás",
                     "leave": "Kilépés",
-                    "remove": "Eltávolít"
+                    "remove": "Eltávolít",
+                    "back": "Vissza",
+                    "reveal": "Felfed"
                 },
                 "prompt": {
                     "confirm_leave": "Kilépsz a(z) {{name}} csoportból?",
@@ -398,7 +421,8 @@
                     "select": "Válaszd ki barátaidat a hozzáadáshoz."
                 }
             },
-            "copy_username": "Kattints a felhasználóneved másolásához"
+            "copy_username": "Kattints a felhasználóneved másolásához",
+            "copy": "Kattints a másoláshoz"
         },
         "navigation": {
             "tabs": {
@@ -539,6 +563,11 @@
         "channel": {
             "UploadFiles": {
                 "t": "Fájlok Feltöltése"
+            }
+        },
+        "server": {
+            "ManageRoles": {
+                "t": "Rangok Kezelése"
             }
         }
     }
