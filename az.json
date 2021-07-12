@@ -33,14 +33,18 @@
             "reset": "Sıfırlamaq alınmadı!",
             "resend": "Yenidən göndərmək alınmadı!",
             "login": "Giriş alınmadı!"
-        }
+        },
+        "email_delay": "Xahiş edirəm çatması üçün 10 dəqiqəyə qədər vaxt verin."
     },
     "general": {
         "loading": "Yüklənir…",
         "image_by": "Fotoşəkil çəkən şəxs",
         "privacy": "Gizlilik Siyasəti",
         "tos": "Xidmət Şərtləri",
-        "about": "Haqqında"
+        "about": "Haqqında",
+        "on": "Açıq",
+        "off": "Qapalı",
+        "disabled": "Sifarişdən kənar"
     },
     "app": {
         "status": {
@@ -68,7 +72,7 @@
             },
             "channel": {
                 "message_where": "{{channel_name}} kanala mesaj göndərin",
-                "message_who": "{{person}}  kanala mesaj göndərin",
+                "message_who": "{{person}} kanala mesaj göndərin",
                 "message_saved": "Qeydlərinizə yazın",
                 "failed_upload": "Yükləmək alınmadı!",
                 "attached_file": "Əlavə edildi {{filename}}",
@@ -78,15 +82,15 @@
                     "multiple": "{{userlist}} və {{user}} yazırlar…"
                 },
                 "system": {
-                    "user_joined": "qatıldı.",
-                    "user_left": "sol.",
-                    "added_by": "tərəfindən əlavə edilmişdir.",
-                    "removed_by": "tərəfindən qaldırıldı.",
-                    "channel_renamed": "kanalın adını dəyişdirdi",
-                    "channel_icon_changed": "kanal şəklini dəyişdirdi.",
-                    "channel_description_changed": "kanal təsvirini dəyişdirdi",
-                    "user_kicked": "qovuldu.",
-                    "user_banned": "qadağandır"
+                    "user_joined": "{{user}} qatıldı",
+                    "user_left": "{{user}} sol",
+                    "added_by": "{{user}}, {{other_user}} tərəfindən əlavə edilmişdir.",
+                    "removed_by": "{{user}}, {{other_user}} tərəfindən qaldırıldı.",
+                    "channel_renamed": "{{user}}, kanalın adı {{name}} ilə dəyişdirildi",
+                    "channel_icon_changed": "{{user}} kanal şəklini dəyişdirdi",
+                    "channel_description_changed": "{{user}} kanal təsvirini dəyişdirdi",
+                    "user_kicked": "{{user}} qovuldu",
+                    "user_banned": "{{user}} qadağandır"
                 },
                 "start": {
                     "group": "Bu söhbətinizin başlanğıcıdır."
@@ -100,27 +104,48 @@
                 "misc": {
                     "viewing_old": "Köhnə mesajlar göstərilir",
                     "jump_present": "Bu günə qayıdın",
-                    "spoiler_attachment": "Spoyler"
+                    "spoiler_attachment": "Spoyler",
+                    "blocked_user": "Bloklanmış İstifadəçi",
+                    "blocked_messages": "{{count}} bloklanmış mesaj",
+                    "no_sending": "Bu kanalda mesaj göndərmək üçün icazəniz yoxdur.",
+                    "failed_load": "Mesaj yüklənə bilmədi."
                 },
                 "unknown_user": "<Naməlum istifadəçi>",
                 "bot": "bot",
                 "uploading_file": "Yüklənir…",
-                "edited": "(düzəltdi)"
+                "edited": "(düzəltdi)",
+                "notifications": {
+                    "default": "Varsayılan istifadə edin",
+                    "all": "Bütün mesajlar",
+                    "mention": "Yalnız qeydlər",
+                    "none": "Yoxdur",
+                    "muted": "Səssiz"
+                },
+                "nsfw": {
+                    "channel": {
+                        "marked": "Bu kanal NSFW olaraq qeyd edilmişdir.",
+                        "confirm": "Kanala daxil olun"
+                    },
+                    "confirm": "Ən azı 18 yaşım olduğunu təsdiqləyirəm."
+                }
             },
             "groups": {
-                "create": "Qrup yaradın.",
+                "create": "Qrup yaradın",
                 "name": "Qrup adı",
                 "owner": "Qrup sahibi",
                 "description": "Qrup Təsviri"
             },
             "servers": {
-                "create": "Bir server yaradın.",
+                "create": "Bir server yaradın",
                 "name": "Server Adı",
                 "custom_banner": "Xüsusi Banner",
                 "description": "Server Təsviri",
                 "channel_name": "Kanal Adı",
                 "owner": "Server Sahibi",
-                "channel_description": "Kanal Təsviri"
+                "channel_description": "Kanal Təsviri",
+                "channel_type": "Kanal növü",
+                "text_channel": "Mətn Kanalı",
+                "voice_channel": "Səs kanalı"
             }
         },
         "settings": {
@@ -137,7 +162,20 @@
             "pages": {
                 "account": {
                     "title": "Mənim Hesabım",
-                    "change_field": "Dəyişdirin"
+                    "change_field": "Dəyişdirin",
+                    "unique_id": "Bu hesabınız üçün unikal istifadəçi identifikatorudur.",
+                    "2fa": {
+                        "title": "İki faktorlu Doğrulama",
+                        "description": "Hesabınızda 2FD-ı aktivləşdirərək əlavə bir təhlükəsizlik qatı əlavə edin.",
+                        "remove_auth": "Doğrulayıcıyı silin",
+                        "add_auth": "Doğrulayıcı əlavə edin"
+                    },
+                    "manage": {
+                        "title": "Hesab İdarəetmə",
+                        "description": "Hesabınızı istənilən vaxt söndürün və ya silin. Bu hərəkət sizi çıxardacaq və söhbət tarixçəsi və dostlarınız daxil olmaqla hesabınızı tamamilə siləcəkdir.",
+                        "delete": "Hesabı silin",
+                        "disable": "Hesabı deaktiv edin"
+                    }
                 },
                 "profile": {
                     "title": "Profil",
@@ -152,7 +190,8 @@
                     "title": "İclaslar",
                     "active_sessions": "Aktiv iclaslar",
                     "created": "{{time_ago}}",
-                    "this_device": "Bu cihaz"
+                    "this_device": "Bu cihaz",
+                    "logout": "Bütün digər iclaslardan çıxın"
                 },
                 "appearance": {
                     "title": "Görünüş",
@@ -179,7 +218,12 @@
                     "import_theme": "Mövzunu simdən idxal edin",
                     "theme_data": "Tema məlumatları",
                     "custom_css": "Xüsusi CSS",
-                    "sync": "Sinxronizasiya seçimləri"
+                    "sync": "Sinxronizasiya seçimləri",
+                    "import": "Mövzunu idxal edin",
+                    "mono_font": "Monoscape Font Seçici",
+                    "font": "Şrift",
+                    "ligatures": "Şriftin xüsusiyyətləri",
+                    "ligatures_desc": "Dəstəklənən şriftlər üçün işarələr simvolları birləşdirir, məsələn -> oxa çevirərək. Interə keçin və bu seçimi dəyişdirməyə çalışın."
                 },
                 "notifications": {
                     "enable_push": "Push Bildirişlərini aktiv edin.",
@@ -194,7 +238,13 @@
                         "enable_push": "Oflayn olduğunuz zaman bildiriş almağa imkan verin.",
                         "enable_sound": "Gələn mesaj səsləri üçün aktivləşdirin."
                     },
-                    "enable_outgoing_sound": "Səslə göndər"
+                    "enable_outgoing_sound": "Səslə göndər",
+                    "sound": {
+                        "message": "Mesaj alındı",
+                        "call_join": "İstifadəçi Zəngə qatıldı",
+                        "call_leave": "İstifadəçi Sol Axtarış",
+                        "outbound": "Mesaj göndərildi"
+                    }
                 },
                 "feedback": {
                     "send": "Rəy göndərin",
@@ -207,12 +257,13 @@
                 },
                 "language": {
                     "title": "Dil",
-                    "select": "Dilinizi seçin"
+                    "select": "Dilinizi seçin",
+                    "other": "Alternativ dillər"
                 },
                 "donate": {
                     "title": "Bağış edin"
                 },
-                "source_code": "Mənbə",
+                "source_code": "Mənbə kodu",
                 "logOut": "Çıxış",
                 "experiments": {
                     "title": "Təcrübələr",
@@ -222,7 +273,8 @@
                     },
                     "descriptions": {
                         "servers": "Bu, kanallar, dəvətnamələr, qadağalar, moderasiya və daha çoxu olan serverlər yaratmağa imkan verəcəkdir."
-                    }
+                    },
+                    "not_available": "Hazırda heç bir təcrübə mövcud deyil."
                 },
                 "sync": {
                     "descriptions": {
@@ -253,6 +305,9 @@
                     "title": "Baxış",
                     "name": "Kanal adı",
                     "description": "Kanal təsviri"
+                },
+                "permissions": {
+                    "title": "İcazələr"
                 }
             },
             "server_pages": {
@@ -268,17 +323,34 @@
                 "overview": {
                     "title": "Baxış",
                     "name": "Server Adı",
-                    "description": "Kanal Təsviri"
+                    "description": "Kanal Təsviri",
+                    "system_messages": "Sistem Mesaj Kanalları"
+                },
+                "roles": {
+                    "title": "Rollar"
                 }
+            },
+            "permissions": {
+                "server": "Server icazələri",
+                "default_role": "Defolt",
+                "channel": "Kanal İcazələri",
+                "create_role": "Yeni bir rol yaradın",
+                "role_name": "Rol adı"
             }
         },
         "special": {
             "friends": {
                 "outgoing": "Giden dost xahişi.",
-                "pending": "özləyən",
+                "pending": "Gözlənilən sorğular",
                 "blocked": "Blok edildi",
                 "incoming": "Gələn dost xahişi.",
-                "nobody": "Hələ burada heç kim yoxdur!"
+                "nobody": "Hələ burada heç kim yoxdur!",
+                "from": {
+                    "several": "{{userlist}} və {{count}} daha çox …",
+                    "single": "müəllif: {{user}}",
+                    "multiple": "{{userlist}} və {{user}} tərəfindən"
+                },
+                "sent": "Gedən"
             },
             "modals": {
                 "clipboard": {
@@ -310,7 +382,13 @@
                     "cancel": "Ləğv et",
                     "ban": "qadağa",
                     "kick": "At",
-                    "delete": "Sil"
+                    "delete": "Sil",
+                    "create": "Yaradın",
+                    "reveal": "Göstər",
+                    "back": "Geri dönün",
+                    "block": "Blok",
+                    "remove": "Sil",
+                    "leave": "Buraxın"
                 },
                 "error": "Xəta baş verdi!",
                 "signed_out": "Hesabdan çıxdınız!",
@@ -326,7 +404,11 @@
                     "confirm_delete_long": "Silinəndən sonra geri qayıtmaq olmaz.",
                     "confirm_delete_message_long": "Bunu silmək istədiyinizə əminsiniz?",
                     "create_invite_generate": "Dəvət hazırlanır…",
-                    "create_invite_created": "Budur yeni dəvət kodunuz:"
+                    "create_invite_created": "Budur yeni dəvət kodunuz:",
+                    "block_user": "{{name}} bloklansın?",
+                    "block_user_long": "{{name}} bloklamaq istədiyinizə əminsiniz? Onlar həmçinin dostlarınız siyahısından silinəcəkdir.",
+                    "unfriend_user": "{{name}} silinsin?",
+                    "unfriend_user_long": "Yenidən əlavə etməyincə onlarla yenidən danışa bilməyəcəksiniz."
                 }
             },
             "popovers": {
@@ -345,7 +427,8 @@
                     "badges": {
                         "translator": "Tərcüməçi",
                         "early_adopter": "Erkən Adopter",
-                        "supporter": "Dəstəkçi"
+                        "supporter": "Dəstəkçi",
+                        "responsible_disclosure": "Məsuliyyətlə açıqlanan səhv(lər)"
                     }
                 },
                 "user_picker": {
@@ -359,7 +442,8 @@
                 "connecting": "Qoşulur …",
                 "reconnecting": "Yenidən qoşulur …"
             },
-            "requires_online": "Buna baxmaq üçün onlayn olmalısınız."
+            "requires_online": "Buna baxmaq üçün onlayn olmalısınız.",
+            "copy": "Kopyalamaq üçün vurun"
         },
         "context_menu": {
             "copy_id": "Şəxsiyyət sənədini kopyalayın",
@@ -406,7 +490,12 @@
             "create_channel": "Kanal yaradın",
             "copy_sid": "Server kimliyini kopyalayın",
             "leave_group": "qrupu tərk etmək",
-            "close_dm": "Dm'yi yaxın et"
+            "close_dm": "Dm'yi yaxın et",
+            "reply_message": "Cavab ver",
+            "open_notification_options": "Bildiriş parametrləri"
+        },
+        "permissions": {
+            "required": "Tələb olunan icazələr"
         }
     },
     "quantities": {
@@ -416,13 +505,15 @@
         }
     },
     "dayjs": {
-        "sameDay": "[Bu gün saat] LT",
-        "nextDay": "[Sabah saat] LT",
-        "lastWeek": "[Son] dddd [saat] LT",
+        "sameDay": "[Bu gün saat] {{time}}",
+        "nextDay": "[Sabah saat] {{time}}",
+        "lastWeek": "[Son] dddd [saat] {{time}}",
         "lastDay": "[dünən vaxt] {{time}}",
         "nextWeek": "dddd [saat] {{time}}",
         "defaults": {
-            "date_separator": "/"
+            "date_separator": "/",
+            "date_format": "ənənəvi",
+            "twelvehour": "yox"
         }
     },
     "error": {
@@ -473,5 +564,79 @@
     "notifications": {
         "sent_request": "@{{person}} sizə bir dost sorğusu göndərdi.",
         "now_friends": "İndi @{{person}} ilə dost oldunuz!"
+    },
+    "permissions": {
+        "channel": {
+            "ManageChannel": {
+                "d": "Üzvlərə bir kanalı düzəltməyə və ya silməyə imkan verir.",
+                "t": "At Üzvləri"
+            },
+            "ManageMessages": {
+                "t": "Mesajları idarə edin",
+                "d": "Üzvlərə digər üzvlər tərəfindən göndərilən mesajları silmək imkanı verir."
+            },
+            "VoiceCall": {
+                "d": "Üzvlərin səs kanallarına qoşulmasına imkan verir.",
+                "t": "Səsli zəng"
+            },
+            "InviteOthers": {
+                "t": "istifadəçi adını dəyişdirin",
+                "d": "Üzvlərə digər istifadəçiləri bir kanala dəvət etməyə imkan verir."
+            },
+            "EmbedLinks": {
+                "t": "əlaqələri yerləşdirin",
+                "d": "Üzvlərə mətn kanallarına göndərdikləri bağlantılarda yerləşmiş məzmunu göstərməyə imkan verir."
+            },
+            "UploadFiles": {
+                "d": "Üzvlərə mətn kanallarına fayl yükləməyə imkan verir.",
+                "t": "Faylları yükləyin"
+            },
+            "View": {
+                "t": "Kanala baxın",
+                "d": "Üzvlərə bu icazəsi olan kanalları izləməyə imkan verir."
+            },
+            "SendMessage": {
+                "t": "Mesaj göndər",
+                "d": "Üzvlərə mətn kanallarında mesaj göndərmək imkanı verir."
+            }
+        },
+        "server": {
+            "ChangeAvatar": {
+                "d": "Üzvlərə bu serverdəki server avatarlarını dəyişdirmək imkanı verir.",
+                "t": "Dəyişdirmək Avatar"
+            },
+            "ChangeNickname": {
+                "t": "istifadəçi adını dəyişdirin",
+                "d": "Üzvlərə bu serverdəki ləqəblərini dəyişdirməyə imkan verir."
+            },
+            "ManageRoles": {
+                "d": "Üzvlərin özlərindən daha aşağı dərəcə olan rollar yaratmasına, redaktə etməsinə və silməsinə imkan verir. Kanallardakı rol icazələrini dəyişdirmələrinə də imkan verir.",
+                "t": "Rolları idarə edin"
+            },
+            "ManageChannels": {
+                "t": "Kanalları idarə edin",
+                "d": "Üzvlərə kanallar yaratmaq, düzəliş etmək və silmək imkanı verir."
+            },
+            "BanMembers": {
+                "t": "Üzvləri qadağan edin",
+                "d": "Üzvlərə üzvləri bu serverdən həmişəlik silmək imkanı verir."
+            },
+            "ManageNicknames": {
+                "t": "İstifadəçi adlarını idarə edin",
+                "d": "Üzvlərə digər üzvlərin istifadəçi adlarını dəyişdirməyə imkan verir."
+            },
+            "RemoveAvatars": {
+                "t": "Avatarları silin",
+                "d": "Üzvlərə bu serverdəki digər üzvlərin server avatarlarını silmək imkanı verir."
+            },
+            "ManageServer": {
+                "d": "Üzvlərə bu serverin adını, təsvirini, işarəsini və digər əlaqəli məlumatları dəyişdirməyə imkan verir.",
+                "t": "Serveri idarə edin"
+            },
+            "KickMembers": {
+                "d": "Üzvlərin üzvlərini bu serverdən çıxartmasına imkan verir. Çıxarılan üzvlər dəvətnamə ilə yenidən üzv ola bilərlər.",
+                "t": "At Üzvləri"
+            }
+        }
     }
 }
