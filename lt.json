@@ -84,7 +84,8 @@
                     "viewing_old": "Rodomi seni pranešimai",
                     "no_sending": "Neturi leidimo siųsti žinučių šiame kanale.",
                     "failed_load": "Nepavyko įkelti žinutės.",
-                    "blocked_messages": "{{count}} užblokuotos (-ų) žinutės (-čių)"
+                    "blocked_messages": "{{count}} užblokuotos (-ų) žinutės (-čių)",
+                    "blocked_user": "Užblokuotas naudotojas"
                 },
                 "voice": {
                     "unmute": "Atsitildyti",
@@ -98,6 +99,13 @@
                     "mention": "Tik paminėjimai",
                     "none": "Jokių",
                     "muted": "Nutildyti"
+                },
+                "nsfw": {
+                    "channel": {
+                        "marked": "Šis kanalas pažymėtas kaip NDA.",
+                        "confirm": "Įeiti į kanalą"
+                    },
+                    "confirm": "Patvirtinu, jog man daugiau nei 18 metų."
                 }
             },
             "categories": {
@@ -185,7 +193,9 @@
                     "ban": "Uždrausti",
                     "create": "Sukurti",
                     "kick": "Išmesti",
-                    "delete": "Ištrinti"
+                    "delete": "Ištrinti",
+                    "reveal": "Atskleisti",
+                    "back": "Grįžti atgal"
                 },
                 "onboarding": {
                     "welcome": "Sveiki atvykę į",
@@ -243,7 +253,8 @@
                     "select": "Pasirinkite draugus, kuriuos norite pridėti."
                 }
             },
-            "copy_username": "Paspausti tam, kad nukopijuotumėte savo vardą"
+            "copy_username": "Paspausti tam, kad nukopijuotumėte savo vardą",
+            "copy": "Spauskite, kad nukopijuotumėte"
         },
         "context_menu": {
             "copy_id": "Kopijuoti ID",
@@ -323,15 +334,17 @@
                     "emoji_pack": "Jaustukų paketas",
                     "accent_selector": "Akcento spalva",
                     "font": "Šriftas",
-                    "mono_font": "Monoscape šriftų parinkiklis",
+                    "mono_font": "Monospace šriftų parinkiklis",
                     "ligatures": "Šriftų ligatūros",
-                    "ligatures_desc": "Palaikomuose šriftuose ligatūros sujungia kartu simbolius, pavyzdžiui, paversdamos -> į strėlytę. Persijunkite į Inter ir pabandykite perjungti šią parinktį."
+                    "ligatures_desc": "Palaikomuose šriftuose ligatūros sujungia kartu simbolius, pavyzdžiui, paversdamos -> į strėlytę. Persijunkite į Inter ir pabandykite perjungti šią parinktį.",
+                    "import": "Įkelti temą"
                 },
                 "sessions": {
                     "created": "Sukurta {{time_ago}}",
                     "this_device": "Šis Įrenginys",
                     "active_sessions": "Aktyvios Sesijos",
-                    "title": "Sesijos"
+                    "title": "Sesijos",
+                    "logout": "Atsijungti nuo visų kitų sesijų"
                 },
                 "profile": {
                     "placeholder": "Parašykite kažką apie savę…",
@@ -344,7 +357,20 @@
                 },
                 "account": {
                     "change_field": "Keisti",
-                    "title": "Mano Paskyra"
+                    "title": "Mano Paskyra",
+                    "unique_id": "Tai unikalus naudotojo identifikatorius jūsų paskyrai.",
+                    "2fa": {
+                        "add_auth": "Pridėti atpažinimo prietaisą",
+                        "remove_auth": "Pašalinti atpažinimo prietaisą",
+                        "title": "Atpažinimas pagal du faktorius",
+                        "description": "Pridėkite dar vieną apsaugos sluoksnį įjungdami atpažinimą pagal du faktorius savo paskyroje."
+                    },
+                    "manage": {
+                        "title": "Paskyros valdymas",
+                        "description": "Bet kada išjunkite arba ištrinkite savo paskyrą. Šis veiksmas atjungs jus nuo jūsų paskyros ir visiškai ištrins ją, kartu su jūsų pranešimų istorija bei draugais.",
+                        "disable": "Išjungti paskyrą",
+                        "delete": "Ištrinti paskyrą"
+                    }
                 },
                 "logOut": "Atsijungti",
                 "feedback": {
