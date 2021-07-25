@@ -40,7 +40,7 @@
             "create": "Misslyckades att registrera!"
         },
         "check_spam": "Kontrollera skräppost om du inte hittar det",
-        "resend": "Skicka verifikation igen.",
+        "resend": "Återsänd verifikationen.",
         "set_password": "Ange nytt lösenord.",
         "current_password": "Nuvarande Lösenord",
         "invite": "Inbjudningskod",
@@ -53,8 +53,8 @@
                 "message_who": "Meddela {{person}}",
                 "message_where": "Meddela {{channel_name}}",
                 "system": {
-                    "removed_by": "{{user}} blev borttagen av {{other_user}}",
-                    "added_by": "{{user}} blev tillagd av {{other_user}}",
+                    "removed_by": "{{user}} var borttagen av {{other_user}}",
+                    "added_by": "{{user}} var tillagd av {{other_user}}",
                     "user_left": "{{user}} lämnade",
                     "user_joined": "{{user}} gick med",
                     "channel_renamed": "{{user}} döpte om kanalen till {{name}}",
@@ -69,7 +69,7 @@
                     "single": "{{user}} skriver…"
                 },
                 "attached_file": "Bifogade {{filename}}",
-                "failed_upload": "Kunde inte ladda upp!",
+                "failed_upload": "Misslyckades att ladda upp!",
                 "uploading_file": "Laddar upp…",
                 "message_saved": "Spara till dina anteckningar",
                 "bot": "robot",
@@ -80,7 +80,7 @@
                 },
                 "misc": {
                     "spoiler_attachment": "Spoiler",
-                    "jump_present": "Hoppa till nuet",
+                    "jump_present": "Hoppa till senaste",
                     "viewing_old": "Visar äldre meddelanden",
                     "no_sending": "Du har inte behörighet att skicka meddelanden i denna kanal.",
                     "blocked_user": "Blockerad Användare",
@@ -88,15 +88,15 @@
                     "blocked_messages": "{{count}} blockerade meddelanden"
                 },
                 "voice": {
-                    "unmute": "Otysta",
+                    "unmute": "Sluta tysta",
                     "mute": "Tysta",
                     "leave": "Lämna",
-                    "connected": "Röst uppkopplad"
+                    "connected": "Röst ansluten"
                 },
                 "nsfw": {
                     "channel": {
-                        "marked": "Denna kanal är markerad som NSFW.",
-                        "confirm": "Gå med kanalen"
+                        "marked": "Denna kanal är markerad som olämplig på arbetsplatser (NSFW).",
+                        "confirm": "Fortsätt"
                     },
                     "confirm": "Jag bekräftar att jag är åtminstone 18 år gammal."
                 },
@@ -106,6 +106,14 @@
                     "mention": "Endast omnämnander",
                     "none": "Inga",
                     "muted": "Tystad"
+                },
+                "search": {
+                    "title": "Sök",
+                    "sort": {
+                        "relevance": "Relevans",
+                        "latest": "Senaste",
+                        "oldest": "Äldsta"
+                    }
                 }
             },
             "categories": {
@@ -115,22 +123,22 @@
                 "participants": "Deltagare"
             },
             "groups": {
-                "name": "Grupp Namn",
+                "name": "Gruppnamn",
                 "create": "Skapa en grupp",
-                "owner": "Grupp Ägare",
-                "description": "Grupp Beskrivning"
+                "owner": "Gruppägare",
+                "description": "Gruppbeskrivning"
             },
             "servers": {
                 "create": "Skapa en server",
-                "name": "Server Namn",
-                "channel_name": "Kanal Namn",
-                "owner": "Server Ägare",
-                "description": "Server Beskrivning",
+                "name": "Servernamn",
+                "channel_name": "Kanalnamn",
+                "owner": "Serverägare",
+                "description": "Serverbeskrivning",
                 "channel_type": "Kanaltyp",
-                "channel_description": "Kanal Beskrivning",
+                "channel_description": "Kanalbeskrivning",
                 "custom_banner": "Anpassad Baner",
-                "text_channel": "Text Kanal",
-                "voice_channel": "Röst Kanal"
+                "text_channel": "Textkanal",
+                "voice_channel": "Röstkanal"
             }
         },
         "navigation": {
@@ -145,7 +153,7 @@
         "status": {
             "offline": "Offline",
             "invisible": "Osynlig",
-            "busy": "Upptagen",
+            "busy": "Stör ej",
             "idle": "Inaktiv",
             "online": "Online"
         },
@@ -154,7 +162,7 @@
                 "outgoing": "Utgående vänförfrågning.",
                 "incoming": "Inkommande vänförfrågning.",
                 "blocked": "Blockerade",
-                "pending": "Väntande begäranden",
+                "pending": "Väntande förfrågningar",
                 "nobody": "Ingen här än!",
                 "from": {
                     "multiple": "Från {{userlist}} och {{user}}",
@@ -183,12 +191,12 @@
                     "ban": "Bannlys",
                     "kick": "Sparka",
                     "block": "Blockera",
-                    "back": "Gå tillbaks"
+                    "back": "Gå tillbaka"
                 },
                 "signed_out": "Du blev utloggad!",
                 "clipboard": {
                     "copy": "Kopiera Manuellt:",
-                    "https": "Du använder just nu HTTPS.",
+                    "https": "Du använder just nu inte HTTPS.",
                     "unavailable": "Urklippet är otillgängligt!"
                 },
                 "error": "Ett fel inträffades!",
@@ -201,13 +209,13 @@
                     "confirm_leave": "Lämna {{name}}?",
                     "create_invite_generate": "Genererar inbjudan…",
                     "confirm_close_dm": "Stäng konversationen med {{name}}?",
-                    "confirm_close_dm_long": "Du kan öppna den senare igen men den kommer att försvinna på båda sidorna.",
+                    "confirm_close_dm_long": "Du kan öppna den senare igen men den kommer att försvinna för er båda.",
                     "confirm_delete": "Ta bort {{name}}?",
                     "confirm_delete_long": "När det är borttaget så kommer det inte tillbaka.",
-                    "create_invite_created": "Här är din nya inbjudnings-kod:",
+                    "create_invite_created": "Här är din nya inbjudningskod:",
                     "confirm_delete_message_long": "Är du säker på att du vill ta bort detta?",
                     "unfriend_user": "Ta bort {{name}}?",
-                    "unfriend_user_long": "Du kanske inte kommer kunna prata med dem igen tills du har lagt till dem igen.",
+                    "unfriend_user_long": "Du kanske inte kommer kunna prata med dem tills du har lagt till dem igen.",
                     "confirm_ban": "Du är på väg att bannlysa {{name}}",
                     "confirm_kick": "Är du säker på att du vill sparka {{name}}?",
                     "block_user": "Blockera {{name}}?",
@@ -215,7 +223,7 @@
                     "confirm_ban_reason": "Anledning"
                 },
                 "account": {
-                    "failed": "Kunde inte ändra!",
+                    "failed": "Misslyckades att ändra!",
                     "change": {
                         "password": "Ändra ditt lösenord",
                         "email": "Ändra din e-postadress",
@@ -240,7 +248,7 @@
                         "translator": "Översättare",
                         "early_adopter": "Tidig Adopterare",
                         "supporter": "Stödjare",
-                        "responsible_disclosure": "Ansvarsligt Asvslöjade Buggar"
+                        "responsible_disclosure": "Asvslöjade Ansvarsligt Buggar"
                     },
                     "sub": {
                         "connections": "Anslutningar",
@@ -266,11 +274,11 @@
             "unblock_user": "Avblockera Användare",
             "delete_message": "Radera Meddelande",
             "edit_message": "Redigera Meddelande",
-            "mark_as_read": "Markera Som Läst",
+            "mark_as_read": "Markera som läst",
             "copy_mid": "Kopiera Meddelande-ID",
             "copy_cid": "Kopiera Kanal-ID",
             "copy_uid": "Kopiera Användar-ID",
-            "remove_member": "Ta Bort Från Grupp",
+            "remove_member": "Ta bort från grupp",
             "quote_message": "Citera Meddelande",
             "copy_text": "Kopiera Text",
             "save_video": "Spara Video",
@@ -287,27 +295,27 @@
             "set_custom_status": "Sätt en anpassad status",
             "clear_status": "Rensa Status",
             "custom_status": "Anpassad Status",
-            "open_channel_settings": "Kanal Inställningar",
+            "open_channel_settings": "Kanalinställningar",
             "open_group_settings": "Gruppinställningar",
             "leave_group": "Lämna Grupp",
             "copy_selection": "Kopiera Urval",
-            "copy_sid": "Kopiera Server ID",
+            "copy_sid": "Kopiera Server-ID",
             "leave_server": "Lämna Server",
             "close_dm": "Stäng DM",
             "delete_server": "Radera Server",
             "delete_channel": "Radera Kanal",
             "create_channel": "Skapa Kanal",
             "create_invite": "Skapa Inbjudan",
-            "open_server_settings": "Server Inställningar",
+            "open_server_settings": "Serverinställningar",
             "view_profile": "Visa Profil",
             "kick_member": "Sparka Medlem",
-            "open_notification_options": "Aviserings Inställningar",
+            "open_notification_options": "Aviseringsinställningar",
             "ban_member": "Bannlys Medlem",
             "reply_message": "Svara"
         },
         "settings": {
             "pages": {
-                "logOut": "Logga Ut",
+                "logOut": "Logga ut",
                 "appearance": {
                     "title": "Utseende",
                     "theme_data": "Tema-Data",
@@ -318,7 +326,7 @@
                     "reset_overrides": "Nollställ ändringar",
                     "overrides": "Överskridande Teman",
                     "sync": "Synkroniseringsalternativ",
-                    "custom_css": "Anpassad CSS",
+                    "custom_css": "Egen CSS",
                     "advanced": "Avancerade Inställningar",
                     "message_display": "Meddelandets Format",
                     "accent_selector": "Accentfärg",
@@ -327,23 +335,23 @@
                         "light": "ljust"
                     },
                     "display": {
-                        "compact_description": "Gamla goda LYS-16.",
-                        "default_description": "Förträffligt elegant och modernt.",
+                        "compact_description": "Gamla goda IRC.",
+                        "default_description": "Vackert, elegant och modernt.",
                         "compact": "Kompakt",
                         "default": "Standard"
                     },
                     "theme": "Tema",
                     "emoji_pack": "Emoji Paket",
-                    "font": "Font",
-                    "ligatures_desc": "För teckensnitt som stöds kombinerar ligaturer tecken tillsammans, exempelvis omvandling av -> till en pil. Byt till Inter och testa att växla detta alternativet.",
+                    "font": "Typsnitt",
+                    "ligatures_desc": "För teckensnitt som stöds kombinerar ligaturer tecken tillsammans, exempelvis omvandling av -> till en pil.",
                     "import": "Importera ett tema",
-                    "mono_font": "Monospace Font Väljare",
-                    "ligatures": "Font Ligaturer"
+                    "mono_font": "Monospace Typsnitt",
+                    "ligatures": "Ligaturer"
                 },
                 "sessions": {
                     "title": "Sessioner",
                     "created": "Skapat {{time_ago}}",
-                    "this_device": "Den Här Enheten",
+                    "this_device": "Den här enheten",
                     "active_sessions": "Aktiva Sessioner",
                     "logout": "Logga ut från alla andra sessioner"
                 },
@@ -354,13 +362,13 @@
                         "disable": "Inaktivera Konto",
                         "delete": "Radera Konto",
                         "description": "Inaktivera eller ta bort ditt konto när som helst. Det här kommer logga ut dig samt helt och hållet radera ditt konto, inkluderande din chatt historik och dina vänner.",
-                        "title": "Konto Hantering"
+                        "title": "Kontohantering"
                     },
                     "2fa": {
                         "description": "Lägg på ett extra lager säkerhet genom att aktivera 2FA på ditt konto.",
-                        "title": "Två-faktors Autentifikation",
-                        "add_auth": "Lägg till Autentifikerare",
-                        "remove_auth": "Ta bort Autentifikerare"
+                        "title": "Tvåfaktorsautentisering",
+                        "add_auth": "Lägg till Autentiserare",
+                        "remove_auth": "Ta bort Autentiserare"
                     },
                     "unique_id": "Det här är en unik identifierare för ditt konto."
                 },
@@ -376,13 +384,13 @@
                     "descriptions": {
                         "enable_outgoing_sound": "Tillåt att ljud spelas när du skickar ett meddelande.",
                         "enable_sound": "Aktivera Ljud för Inkommande Meddelanden.",
-                        "enable_push": "Få notifikationer medans du är offline.",
+                        "enable_push": "Aktivera för att få notifikationer medans du är offline.",
                         "enable_desktop": "Det här kommer ge dig notifikationer medans appen är öppen."
                     },
                     "enable_outgoing_sound": "Aktivera Ljud för Skickade Meddelanden.",
-                    "enable_push": "Sätt på Push-meddelanden.",
+                    "enable_push": "Aktivera Pushmeddelanden.",
                     "sounds": "Ljud",
-                    "push_notifications": "Push-Meddelanden",
+                    "push_notifications": "Pushmeddelanden",
                     "sound": {
                         "message": "Meddelande mottaget",
                         "outbound": "Meddelande skickat",
@@ -395,8 +403,8 @@
                 },
                 "source_code": "Källkod",
                 "feedback": {
-                    "title": "Respons",
-                    "send": "Skicka Respons",
+                    "title": "Feedback",
+                    "send": "Skicka Feedback",
                     "describe": "Beskriv problemet.",
                     "other": "Annat",
                     "feature": "Funktionsförfrågan",
@@ -409,15 +417,15 @@
                     "placeholder": "Skriv något om dig själv…",
                     "fetching": "Hämtar din profil…",
                     "edit_background": "Redigera Bakgrund",
-                    "custom_background": "Anpassad Bakgrund",
+                    "custom_background": "Profilbakgrund",
                     "profile_picture": "Profilbild"
                 },
                 "sync": {
-                    "title": "Synkronisera",
-                    "categories": "Synkronisera Kategorier",
+                    "title": "Synkronisering",
+                    "categories": "Synkroniseringsalternativ",
                     "descriptions": {
                         "appearance": "Det här kommer synkronisera inställningar såsom emoji paket och meddelandens utseenden.",
-                        "theme": "Det här kommer synkronisera ditt tema, färger och anpassad CSS.",
+                        "theme": "Det här kommer synkronisera ditt tema, färger och egen CSS.",
                         "locale": "Det här kommer synkronisera ditt valda språk."
                     }
                 },
@@ -428,8 +436,8 @@
                 }
             },
             "categories": {
-                "client_settings": "Klient Inställningar",
-                "user_settings": "Användar Inställningar"
+                "client_settings": "Klientinställningar",
+                "user_settings": "Användarinställningar"
             },
             "title": "Inställningar",
             "tips": {
@@ -443,7 +451,7 @@
                 },
                 "account": {
                     "b": "Gå till profilinställningarna.",
-                    "a": "Vill du anpassa din publika profil?"
+                    "a": "Vill du anpassa din offlentiga profil?"
                 }
             },
             "channel_pages": {
@@ -462,10 +470,10 @@
                 "max_filesize": "(max {{filesize}})"
             },
             "permissions": {
-                "server": "Server Behörigheter",
+                "server": "Serverbehörigheter",
                 "create_role": "Skapa en ny roll",
-                "role_name": "Roll Namn",
-                "channel": "Kanal Behörigheter",
+                "role_name": "Rollnamn",
+                "channel": "Kanalbehörigheter",
                 "default_role": "Standard"
             },
             "server_pages": {
@@ -474,23 +482,34 @@
                 },
                 "overview": {
                     "title": "Översikt",
-                    "name": "Server Namn",
-                    "description": "Kanal Beskrivning",
+                    "name": "Servernamn",
+                    "description": "Kanalbeskrivning",
                     "system_messages": "Systemmeddelande Kanaler"
                 },
                 "members": {
                     "title": "Medlemmar"
                 },
                 "invites": {
-                    "title": "Inbjudningar"
+                    "title": "Inbjudningar",
+                    "invitor": "Inbjudare",
+                    "channel": "Kanal",
+                    "revoke": "Upphäv",
+                    "code": "Inbjudningskod"
                 },
                 "bans": {
-                    "title": "Förbud"
+                    "title": "Förbud",
+                    "user": "Användare",
+                    "reason": "Anledning till bannlysning",
+                    "revoke": "Upphäv",
+                    "no_reason": "Ingen anledning till bannlysning."
+                },
+                "categories": {
+                    "title": "Kategorier"
                 }
             }
         },
         "permissions": {
-            "required": "Behörigheter Nödvändiga"
+            "required": "Saknar Behörigheter"
         }
     },
     "dayjs": {
@@ -525,11 +544,11 @@
         "Blocked": "Du har blockerat användaren.",
         "AlreadySentRequest": "Skickade redan en förfrågning till användaren.",
         "AlreadyFriends": "Redan vän med användaren.",
-        "InvalidEmail": "Ogiltig e-post adress",
+        "InvalidEmail": "Ogiltig e-postadress",
         "TooLong": "För långt",
         "TooShort": "För kort",
         "RequiredField": "Nödvändigt",
-        "NoEffect": "Denna förfrågning hade ingen effekt.",
+        "NoEffect": "Denna förfrågan hade ingen effekt.",
         "AlreadyOnboarded": "Avklarade redan uppstarten.",
         "WrongPassword": "Fel lösenord.",
         "UnknownUser": "Okänd användare.",
@@ -542,7 +561,7 @@
         "DatabaseError": "Databasfel.",
         "FailedValidation": "Kunde inte validera fält.",
         "Unlabelled": "Något hände.",
-        "Unavailable": "Otillgänglig.",
+        "Unavailable": "Ej tillgängligt.",
         "IoError": "Servern påträffade ett I/O fel.",
         "ProbeError": "Kunde inte få filens metadata.",
         "MissingData": "Förfrågan saknar data.",
@@ -552,12 +571,12 @@
         "MissingInvite": "Saknar inbjudningskod i förfrågan.",
         "InvalidToken": "Ogiltig token",
         "InvalidCredentials": "E-postadress eller lösenord är fel.",
-        "EmailFailed": "E-post kunde inte skickas.",
+        "EmailFailed": "E-postmeddelande kunde inte skickas.",
         "RenderFail": "Mallrendering misslyckades.",
         "MissingPermission": "Saknar behörigheter.",
         "DeniedNotification": "Du förnekade notifikations-åtkomst, kolla inställningarna för sidan.",
         "UnsupportedBrowser": "Webbläsaren saknar support för den här funktionen.",
-        "Unauthorized": "Obehörig.",
+        "Unauthorized": "Obefogad.",
         "NetworkError": "Nätverksfel.",
         "CompromisedPassword": "Det här lösenordet har äventyrats."
     },
@@ -571,8 +590,8 @@
                 "d": "Tillåter medlemmar att skicka meddelanden i textkanaler."
             },
             "View": {
-                "t": "Visa Kanal",
-                "d": "Tillåter medlemmar att se kanaler som de har behörigheter i."
+                "t": "Se Kanal",
+                "d": "Tillåter medlemmar att se kanaler som de har denna behörigheten på."
             },
             "ManageMessages": {
                 "d": "Tillåter medlemmar att radera meddelanden skickade av andra medlemmar.",
@@ -622,7 +641,7 @@
             },
             "ChangeAvatar": {
                 "t": "Ändra Avatar",
-                "d": "Tillåter medlemmar att ändra deras serveravatar på denna server."
+                "d": "Tillåter medlemmar att ändra deras serveravatar."
             },
             "KickMembers": {
                 "t": "Sparka Medlemmar",
