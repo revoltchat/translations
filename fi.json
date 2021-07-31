@@ -48,11 +48,15 @@
                 "message": "Lähetä viesti {{name}}lle",
                 "uploading_file": "Ladataan tiedostoa…",
                 "system": {
-                    "user_left": "poistui.",
-                    "user_joined": "liittyi.",
-                    "removed_by": "poistanut",
-                    "added_by": "lisännyt",
-                    "channel_description_changed": "muutti kanavan kuvausta"
+                    "user_left": "{{user}} poistui",
+                    "user_joined": "{{user}} liittyi",
+                    "removed_by": "{{other_user}} poisti {{user}}",
+                    "added_by": "{{other_user}} lisäsi {{user}}",
+                    "channel_description_changed": "{{user}} muutti kanavan kuvausta",
+                    "channel_renamed": "{{user}} antoi kanavalle uuden nimen {{name}}",
+                    "channel_icon_changed": "{{user}} muutti kanavan kuvaketta",
+                    "user_kicked": "{{user}} potkittiin",
+                    "user_banned": "{{user}} sai porttikiellon"
                 },
                 "voice": {
                     "leave": "Poistu",
@@ -274,7 +278,8 @@
                 },
                 "language": {
                     "select": "Valitse kieli",
-                    "title": "Kieli"
+                    "title": "Kieli",
+                    "other": "Vaihtoehtoiset kielet"
                 },
                 "sessions": {
                     "active_sessions": "Aktiiviset istunnot",
@@ -357,7 +362,7 @@
             "online": "Paikalla",
             "idle": "Toimeton",
             "invisible": "Näkymätön",
-            "busy": "Kiireinen"
+            "busy": "Älä häiritse"
         }
     },
     "dayjs": {
