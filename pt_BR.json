@@ -59,6 +59,14 @@
                         "confirm": "Entrar no canal"
                     },
                     "confirm": "Eu confirmo que eu tenho pelo menos 18 anos de idade."
+                },
+                "search": {
+                    "title": "Buscar",
+                    "sort": {
+                        "relevance": "Relevância",
+                        "latest": "Recente",
+                        "oldest": "Antigo"
+                    }
                 }
             },
             "categories": {
@@ -208,7 +216,10 @@
                     }
                 },
                 "source_code": "Código fonte",
-                "logOut": "Sair"
+                "logOut": "Sair",
+                "native": {
+                    "title": "Configurações de desktop"
+                }
             },
             "permissions": {
                 "create_role": "Criar um novo cargo",
@@ -253,7 +264,11 @@
                     "title": "Membros"
                 },
                 "invites": {
-                    "title": "Convites"
+                    "title": "Convites",
+                    "code": "Código de convite",
+                    "invitor": "Convidador",
+                    "channel": "Canal",
+                    "revoke": "Revogar"
                 },
                 "overview": {
                     "title": "Visão geral",
@@ -262,7 +277,14 @@
                     "system_messages": "Canais de mensagem do sistema"
                 },
                 "bans": {
-                    "title": "Banimentos"
+                    "title": "Banimentos",
+                    "reason": "Motivo do banimento",
+                    "revoke": "Revogar",
+                    "no_reason": "Sem motivo de banimento.",
+                    "user": "Usuário"
+                },
+                "categories": {
+                    "title": "Categorias"
                 }
             },
             "title": "Configurações",
@@ -386,7 +408,12 @@
                 "offline": "Offline."
             },
             "requires_online": "Você precisa estar online para visualizar isso.",
-            "copy": "Clique para copiar"
+            "copy": "Clique para copiar",
+            "invite": {
+                "invited_by": "Convidado por {{user}}",
+                "login": "Entrar no Revolt",
+                "accept": "Aceitar convite"
+            }
         },
         "context_menu": {
             "copy_text": "Copiar texto",
