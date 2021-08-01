@@ -128,6 +128,14 @@
                         "confirm": "Kanal betreten"
                     },
                     "confirm": "Ich bestätige, dass ich mindestens 18 Jahre alt bin."
+                },
+                "search": {
+                    "title": "Suche",
+                    "sort": {
+                        "relevance": "Relevanz",
+                        "latest": "Neueste",
+                        "oldest": "Älteste"
+                    }
                 }
             },
             "groups": {
@@ -303,7 +311,12 @@
                 }
             },
             "copy_username": "Klicken, um den Nutzernamen zu kopieren",
-            "copy": "Klick hier zum kopieren"
+            "copy": "Klick hier zum kopieren",
+            "invite": {
+                "invited_by": "Eingeladen von {{user}}",
+                "login": "Bei Revolt anmelden",
+                "accept": "Einladung annehmen"
+            }
         },
         "settings": {
             "pages": {
@@ -431,6 +444,9 @@
                         "servers": "Dies erlaubt dir, Server zu erstellen. Sie haben Kanäle, Einladungen, Bans, Moderation und mehr."
                     },
                     "not_available": "Aktuell sind keine Experimente verfügbar."
+                },
+                "native": {
+                    "title": "Desktop-Einstellungen"
                 }
             },
             "categories": {
@@ -479,13 +495,24 @@
                     "title": "Mitglieder:innen"
                 },
                 "invites": {
-                    "title": "Einladungen"
+                    "title": "Einladungen",
+                    "invitor": "Einladender",
+                    "channel": "Kanal",
+                    "code": "Einladungs-Code",
+                    "revoke": "Widerrufen"
                 },
                 "bans": {
-                    "title": "Banliste"
+                    "title": "Banliste",
+                    "user": "Benutzer",
+                    "reason": "Ban-Grund",
+                    "no_reason": "Kein Ban-Grund.",
+                    "revoke": "Widerrufen"
                 },
                 "roles": {
                     "title": "Rollen"
+                },
+                "categories": {
+                    "title": "Kategorien"
                 }
             },
             "permissions": {
