@@ -69,7 +69,8 @@
                     "spoiler_attachment": "Spoiler",
                     "blocked_messages": "{{count}} geblokkeerde berichten",
                     "no_sending": "Je bent niet gemachtigd om berichten te sturen in dit kanaal.",
-                    "failed_load": "Kan het bericht niet laden."
+                    "failed_load": "Kan het bericht niet laden.",
+                    "blocked_user": "Geblokkeerde gebruiker"
                 },
                 "voice": {
                     "unmute": "Dempen opheffen",
@@ -97,6 +98,21 @@
                     "default": "Gebruik de standaardinstellingen",
                     "none": "Geen",
                     "muted": "Gedempt"
+                },
+                "nsfw": {
+                    "channel": {
+                        "marked": "Dit kanaal is gelabeld als NSFW.",
+                        "confirm": "Neem deel aan kanaal"
+                    },
+                    "confirm": "Ik bevestig dat ik minstens 18 jaren oud ben."
+                },
+                "search": {
+                    "title": "Zoek",
+                    "sort": {
+                        "relevance": "Relevantie",
+                        "latest": "Laatste",
+                        "oldest": "Oudste"
+                    }
                 }
             },
             "categories": {
@@ -171,7 +187,8 @@
                     "ligatures_desc": "Bij ondersteunde lettertypen, ligaturen combineren tekens, bijvoorbeeld -> wordt een pijl. Schakel over naar Inter en probeer deze optie aan te zetten.",
                     "font": "Lettertype",
                     "ligatures": "Lettertype Ligaturen",
-                    "mono_font": "Monospace-lettertypekiezer"
+                    "mono_font": "Monospace-lettertypekiezer",
+                    "import": "Importeer een thema"
                 },
                 "sessions": {
                     "created": "Gemaakt {{time_ago}}",
@@ -250,14 +267,21 @@
                     "title": "Synchroniseren",
                     "categories": "Categorieën synchroniseren",
                     "descriptions": {
-                        "locale": "Hiermee wordt de momenteel gekozen taal gesynchroniseerd."
+                        "locale": "Hiermee wordt de momenteel gekozen taal gesynchroniseerd.",
+                        "theme": "Schakel het synchroniseren van thema's, kleuren en eigen CSS in.",
+                        "appearance": "Schakel het synchroniseren van opties, waaronder emoji paketten en berichtdichtheid, in."
                     }
                 },
                 "experiments": {
                     "features": "Beschikbare functies",
                     "titles": {
                         "servers": "Servers"
-                    }
+                    },
+                    "not_available": "Er zijn momenteel geen experimenten om aan deel te nemen.",
+                    "title": "Experimenten"
+                },
+                "native": {
+                    "title": "Bureaublad Instellingen"
                 }
             },
             "actions": {
@@ -275,12 +299,15 @@
                     "title": "Overzicht",
                     "name": "Kanaal naam",
                     "description": "Kanaal beschrijving"
+                },
+                "permissions": {
+                    "title": "Permissies"
                 }
             },
             "tips": {
                 "account": {
                     "b": "Ga naar je profielinstellingen.",
-                    "a": "Wil je je openbare profiel aanpassen?"
+                    "a": "Wil je jouw openbare profiel aanpassen?"
                 },
                 "languages": {
                     "a": "Mist u een gewenste taal?",
@@ -293,17 +320,41 @@
             },
             "server_pages": {
                 "bans": {
-                    "title": "Bans"
+                    "title": "Verbanningen",
+                    "user": "Gebruiker",
+                    "reason": "Verbanningsreden",
+                    "revoke": "Intrekken",
+                    "no_reason": "Geen verbanningsreden."
                 },
                 "roles": {
                     "title": "Rollen"
                 },
                 "overview": {
-                    "system_messages": "Kanalen voor systeemberichten"
+                    "system_messages": "Kanalen voor systeemberichten",
+                    "name": "Servernaam",
+                    "description": "Kanaalbeschrijving",
+                    "title": "Algemeen"
+                },
+                "members": {
+                    "title": "Leden"
+                },
+                "categories": {
+                    "title": "Categorieën"
+                },
+                "invites": {
+                    "title": "Uitnodigingen",
+                    "code": "Uitnodigingscode",
+                    "invitor": "Uitnodiger",
+                    "channel": "Kanaal",
+                    "revoke": "Intrekken"
                 }
             },
             "permissions": {
-                "default_role": "Standaard"
+                "default_role": "Standaard",
+                "server": "Serverpermissies",
+                "channel": "Kanaalpermissies",
+                "create_role": "Creëer een nieuwe rol",
+                "role_name": "Naam van de rol"
             }
         },
         "special": {
@@ -314,7 +365,12 @@
                 "incoming": "Inkomend vriendschapsverzoek.",
                 "outgoing": "Uitgaand vriendschapsverzoek.",
                 "nobody": "Nog niemand hier!",
-                "sent": "Uitgaand"
+                "sent": "Uitgaand",
+                "from": {
+                    "multiple": "Van {{userlist}} en {{user}}",
+                    "several": "Van {{userlist}} en {{count}} anderen…",
+                    "single": "Van {{user}}"
+                }
             },
             "status": {
                 "offline": "Offline.",
@@ -332,7 +388,21 @@
                 "signed_out": "Je bent uitgelogd!",
                 "prompt": {
                     "confirm_leave": "Verlaat {{name}}?",
-                    "confirm_leave_long": "Je kunt pas weer deelnemen als je opnieuw wordt uitgenodigd."
+                    "confirm_leave_long": "Je kunt pas weer deelnemen als je opnieuw wordt uitgenodigd.",
+                    "confirm_close_dm": "Beëindig gesprek met {{name}}?",
+                    "confirm_kick": "Weet je zeker dat je {{name}} wilt kicken?",
+                    "confirm_delete": "Verwijder {{name}}?",
+                    "unfriend_user": "Verwijder {{name}}?",
+                    "unfriend_user_long": "Je kunt mogelijk niet meer met ze praten totdat u ze weer toevoegt.",
+                    "create_invite_created": "Hier is jouw nieuwe uitnodigingscode:",
+                    "confirm_ban_reason": "Verbanningsreden",
+                    "confirm_delete_message_long": "Weet je zeker dat je dit wilt verwijderen?",
+                    "confirm_ban": "Je staat op het punt {{name}} te verbieden",
+                    "confirm_close_dm_long": "Je kunt het later opnieuw openen, maar het zal aan beide kanten verdwijnen.",
+                    "block_user": "Blokkeer {{name}}?",
+                    "block_user_long": "Weet je zeker dat je {{name}} wilt blokkeren? Ze worden dan ook uit je vriendenlijst verwijderd.",
+                    "create_invite_generate": "Uitnodiging genereren…",
+                    "confirm_delete_long": "Als het eenmaal is verwijderd, is er geen weg meer terug."
                 },
                 "account": {
                     "change": {
@@ -351,7 +421,16 @@
                     "continue": "Doorgaan",
                     "cancel": "Annuleren",
                     "close": "Sluiten",
-                    "update": "Bijwerken"
+                    "update": "Bijwerken",
+                    "kick": "Kick",
+                    "block": "Blokkeer",
+                    "ban": "Verban",
+                    "remove": "Verwijder",
+                    "leave": "Verlaat",
+                    "reveal": "Onthul",
+                    "back": "Ga terug",
+                    "delete": "Verwijder",
+                    "create": "Creëer"
                 },
                 "onboarding": {
                     "pick": "Kies een gebruikersnaam waarmee je wil dat mensen je kunnen vinden, dit kan later in de instellingen worden gewijzigd.",
@@ -367,21 +446,28 @@
                     "no_users": "Geen gemeenschappelijke vrienden!",
                     "no_groups": "Geen gemeenschappelijke groepen!",
                     "sub": {
-                        "badges": "Badges",
+                        "badges": "Insignes",
                         "information": "Informatie",
                         "connections": "Verbindingen"
                     },
                     "badges": {
                         "early_adopter": "Vroege adoptie",
                         "translator": "Vertaler",
-                        "supporter": "Supporter"
+                        "supporter": "Supporter",
+                        "responsible_disclosure": "Verantwoord Doorgegeven Bug(s)"
                     }
                 },
                 "user_picker": {
                     "select": "Selecteer vrienden om toe te voegen."
                 }
             },
-            "requires_online": "Je moet online zijn om dit te bekijken."
+            "requires_online": "Je moet online zijn om dit te bekijken.",
+            "copy": "Klik om te kopiëren",
+            "invite": {
+                "invited_by": "Uitgenodigd door {{user}}",
+                "login": "Inloggen op Revolt",
+                "accept": "Accepteer Uitnodiging"
+            }
         },
         "context_menu": {
             "copy_cid": "Kopieer kanaal-ID",
@@ -416,7 +502,24 @@
             "custom_status": "Aangepaste status",
             "clear_status": "Status wissen",
             "set_custom_status": "Stel een aangepaste status in",
-            "open_channel_settings": "Kanaalinstellingen"
+            "open_channel_settings": "Kanaalinstellingen",
+            "view_profile": "Toon Profiel",
+            "leave_server": "Verlaat Server",
+            "copy_sid": "Kopieer Server ID",
+            "leave_group": "Verlaat Groep",
+            "open_notification_options": "Notificatie-instellingen",
+            "reply_message": "Reageer",
+            "open_server_settings": "Serverinstellingen",
+            "kick_member": "Kick Lid",
+            "close_dm": "Sluit DM",
+            "delete_channel": "Verwijder Kanaal",
+            "create_channel": "Creëer Kanaal",
+            "ban_member": "Verban Lid",
+            "delete_server": "Verwijder Server",
+            "create_invite": "Creëer Uitnodiging"
+        },
+        "permissions": {
+            "required": "Permissies Vereist"
         }
     },
     "quantities": {
@@ -431,7 +534,12 @@
         "nextDay": "[Morgen om] {{time}}",
         "sameElse": "L",
         "nextWeek": "dddd [om] {{time}}",
-        "lastWeek": "[Afgelopen] dddd [om] {{time}}"
+        "lastWeek": "[Afgelopen] dddd [om] {{time}}",
+        "defaults": {
+            "date_separator": "/",
+            "date_format": "traditional",
+            "twelvehour": "no"
+        }
     },
     "notifications": {
         "now_friends": "Je bent nu vrienden met @{{person}}!",
@@ -478,5 +586,82 @@
         "BlockedOther": "Deze gebruiker heeft je geblokkeerd.",
         "NoEffect": "Dit verzoek had geen effect.",
         "RequiredField": "Verplicht"
+    },
+    "permissions": {
+        "server": {
+            "ManageChannels": {
+                "t": "Beheer Kanalen",
+                "d": "Hiermee kunnen leden kanalen maken, bewerken en verwijderen."
+            },
+            "RemoveAvatars": {
+                "d": "Hiermee kunnen leden de serverpictogrammen van andere leden op deze server verwijderen.",
+                "t": "Verwijder Pictogrammen"
+            },
+            "ManageNicknames": {
+                "d": "Laat leden de bijnamen van andere leden wijzigen.",
+                "t": "Beheer Bijnamen"
+            },
+            "ManageRoles": {
+                "d": "Hiermee kunnen leden rollen maken, bewerken en de rollen met een lagere rang verwijderen. Stelt ze ook in staat om de permissies op kanalen te wijzigen.",
+                "t": "Beheer Rollen"
+            },
+            "ChangeAvatar": {
+                "d": "Hiermee kunnen leden hun serverpictogram op deze server wijzigen.",
+                "t": "Verander Pictogram"
+            },
+            "ManageServer": {
+                "t": "Beheer Server",
+                "d": "Hiermee kunnen leden de naam, beschrijving, het pictogram en andere gerelateerde informatie van deze server wijzigen."
+            },
+            "KickMembers": {
+                "t": "Kick Leden",
+                "d": "Hiermee kunnen leden andere leden van deze server verwijderen. Gekickte leden kunnen opnieuw deelnemen met een uitnodiging."
+            },
+            "ChangeNickname": {
+                "d": "Hiermee kunnen leden hun bijnaam op deze server wijzigen.",
+                "t": "Verander Bijnaam"
+            },
+            "BanMembers": {
+                "t": "Verban Leden",
+                "d": "Staat leden toe om andere leden permanent van deze server te verwijderen."
+            }
+        },
+        "channel": {
+            "View": {
+                "t": "Bekijk Kanaal",
+                "d": "Hiermee kunnen leden alle kanalen bekijken waarvoor ze deze toestemming hebben."
+            },
+            "SendMessage": {
+                "d": "Hiermee kunnen leden berichten in tekstkanalen verzenden.",
+                "t": "Verstuur Berichten"
+            },
+            "UploadFiles": {
+                "t": "Bestanden Uploaden",
+                "d": "Hiermee kunnen leden bestanden in tekstkanalen uploaden."
+            },
+            "VoiceCall": {
+                "t": "Spraakoproep",
+                "d": "Staat leden toe om deel te nemen aan spraakkanalen."
+            },
+            "ManageChannel": {
+                "t": "Kick Leden",
+                "d": "Hiermee kunnen leden een kanaal bewerken of verwijderen."
+            },
+            "InviteOthers": {
+                "t": "Verander Bijnaam",
+                "d": "Hiermee kunnen leden andere gebruikers uitnodigen aan een kanaal."
+            },
+            "EmbedLinks": {
+                "t": "Link Insluiten",
+                "d": "Hiermee kunnen leden ingesloten inhoud tonen op links die ze in tekstkanalen plaatsen."
+            },
+            "ManageMessages": {
+                "d": "Staat leden toe om berichten te verwijderen die door andere leden worden verzonden.",
+                "t": "Beheer Berichten"
+            }
+        }
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
     }
 }
