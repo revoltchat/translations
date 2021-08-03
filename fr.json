@@ -6,7 +6,8 @@
         "image_by": "Image par",
         "loading": "Chargement…",
         "on": "Activé",
-        "off": "Désactivé"
+        "off": "Désactivé",
+        "disabled": "Désactivé"
     },
     "login": {
         "title": "Connexion",
@@ -67,7 +68,7 @@
                 "failed_upload": "Échec du téléversement !",
                 "typing": {
                     "single": "{{user}} est en train d'écrire…",
-                    "multiple": "{{userlist}} et {{user}} sont entrain d'écrire…",
+                    "multiple": "{{userlist}} et {{user}} sont en train d'écrire…",
                     "several": "Plusieurs utilisateurs sont entrain d'écrire…"
                 },
                 "message_who": "Envoyer un message à {{person}}",
@@ -88,7 +89,9 @@
                     "jump_present": "Revenir aux messages récents",
                     "spoiler_attachment": "Spoiler",
                     "no_sending": "Vous n'avez pas la permission d'envoyer des messages dans ce salon.",
-                    "failed_load": "Les messages n'ont pas pu être chargés."
+                    "failed_load": "Les messages n'ont pas pu être chargés.",
+                    "blocked_messages": "{{count}} messages bloqués",
+                    "blocked_user": "Utilisateur bloqué"
                 },
                 "notifications": {
                     "all": "Tous les messages",
@@ -96,6 +99,21 @@
                     "mention": "Mentions uniquement",
                     "none": "Aucun",
                     "muted": "Muet"
+                },
+                "nsfw": {
+                    "channel": {
+                        "marked": "Ce salon est marqué comme NSFW.",
+                        "confirm": "Entrez dans le salon"
+                    },
+                    "confirm": "Je confirme être âgé d'au moins 18 ans."
+                },
+                "search": {
+                    "title": "Rechercher",
+                    "sort": {
+                        "relevance": "Pertinence",
+                        "latest": "Nouveaux",
+                        "oldest": "Derniers"
+                    }
                 }
             },
             "categories": {
@@ -105,13 +123,13 @@
                 "members": "Membres"
             },
             "groups": {
-                "create": "Créer un groupe.",
+                "create": "Créer un groupe",
                 "name": "Nom du groupe",
                 "owner": "Propriétaire du groupe",
                 "description": "Description du groupe"
             },
             "servers": {
-                "create": "Créer un serveur.",
+                "create": "Créer un serveur",
                 "name": "Nom du serveur",
                 "channel_name": "Nom du salon",
                 "owner": "Propriétaire du serveur",
@@ -184,7 +202,9 @@
             "create_invite": "Créer une invitation",
             "view_profile": "Voir le profile",
             "kick_member": "Expulser le membre",
-            "ban_member": "Expulser le membre"
+            "ban_member": "Expulser le membre",
+            "open_notification_options": "Options de notifications",
+            "reply_message": "Répondre"
         },
         "settings": {
             "pages": {
@@ -213,7 +233,12 @@
                     "export_clipboard": "Copier dans le presse-papier",
                     "import_clipboard": "Importer depuis le presse-papier",
                     "import_theme": "Importer le thème depuis une chaine de caractères",
-                    "emoji_pack": "Collection d'émoji"
+                    "emoji_pack": "Collection d'émoji",
+                    "import": "Importer un thème",
+                    "font": "Police de caractère",
+                    "mono_font": "Sélecteur de police à taille fixe",
+                    "ligatures": "Ligature de police d'écriture",
+                    "ligatures_desc": "Pour les polices de caractères le supportant, les ligatures combinent certains caractères ensemble, par exemple en transformant -> en une flèche."
                 },
                 "notifications": {
                     "descriptions": {
@@ -231,7 +256,9 @@
                     "sounds": "Sons",
                     "sound": {
                         "message": "Message reçu",
-                        "outbound": "Message envoyé"
+                        "outbound": "Message envoyé",
+                        "call_join": "Arrivée d'un utilisateur dans l'appel",
+                        "call_leave": "Départ d'un utilisateur dans l'appel"
                     }
                 },
                 "profile": {
@@ -254,19 +281,34 @@
                 },
                 "account": {
                     "title": "Mon Compte",
-                    "change_field": "Modifier"
+                    "change_field": "Modifier",
+                    "2fa": {
+                        "title": "Authentification à deux facteurs",
+                        "description": "Ajoutez une couche de sécurité supplémentaire en activant 2FA à votre compte.",
+                        "remove_auth": "Supprimer un facteur d'authentification",
+                        "add_auth": "Ajouter un facteur d'authentification"
+                    },
+                    "unique_id": "Ceci est un identifiant utilisateur unique à votre compte.",
+                    "manage": {
+                        "title": "Gestion du compte",
+                        "description": "Désactivez ou supprimer votre compte à tout moment. Cette action va vous déconnecter et entièrement supprimer votre compte, y compris vos messages et amis.",
+                        "delete": "Supprimer le compte",
+                        "disable": "Désactiver le compte"
+                    }
                 },
                 "sessions": {
                     "this_device": "Cet appareil",
                     "created": "Créé il y a {{time_ago}}",
                     "title": "Sessions",
-                    "active_sessions": "Sessions actives"
+                    "active_sessions": "Sessions actives",
+                    "logout": "Se déconnecter de toutes les autres sessions"
                 },
                 "language": {
                     "title": "Langue",
-                    "select": "Séléctionner votre langue"
+                    "select": "Séléctionner votre langue",
+                    "other": "Langages alternatifs"
                 },
-                "source_code": "Source",
+                "source_code": "Code source",
                 "logOut": "Déconnexion",
                 "donate": {
                     "title": "Faire un don"
@@ -290,6 +332,9 @@
                         "servers": "Ceci vous permet de créer des serveurs avec des salon, invitations, modération et plus."
                     },
                     "not_available": "Aucune expérimentation n'est disponible actuellement."
+                },
+                "native": {
+                    "title": "Paramètres de bureau"
                 }
             },
             "channel_pages": {
@@ -297,6 +342,9 @@
                     "title": "Aperçu",
                     "name": "Nom du Salon",
                     "description": "Description du Salon"
+                },
+                "permissions": {
+                    "title": "Permissions"
                 }
             },
             "title": "Paramètres",
@@ -327,26 +375,54 @@
                 "overview": {
                     "title": "Vue d'ensemble",
                     "name": "Nom du serveur",
-                    "description": "Description du salon"
+                    "description": "Description du salon",
+                    "system_messages": "Salons des messages systèmes"
                 },
                 "members": {
                     "title": "Membres"
                 },
                 "invites": {
-                    "title": "Invitations"
+                    "title": "Invitations",
+                    "code": "Code d'invitation",
+                    "invitor": "Hôte",
+                    "channel": "Salon",
+                    "revoke": "Révoquer"
                 },
                 "bans": {
-                    "title": "Bannissement"
+                    "title": "Bannissement",
+                    "no_reason": "Pas de raison de ban.",
+                    "user": "Utilisateur",
+                    "reason": "Raison du bannissement",
+                    "revoke": "Révoquer"
+                },
+                "categories": {
+                    "title": "Catégories"
+                },
+                "roles": {
+                    "title": "Rôles"
                 }
+            },
+            "permissions": {
+                "create_role": "Créer un nouveau rôle",
+                "role_name": "Nom du rôle",
+                "server": "Permissions du serveur",
+                "default_role": "Défaut",
+                "channel": "Permissions du salon"
             }
         },
         "special": {
             "friends": {
-                "pending": "En attente",
+                "pending": "Demandes en attente",
                 "blocked": "Bloqué",
                 "incoming": "Demande d'ami reçue.",
                 "nobody": "Il n'y a personne ici encore !",
-                "outgoing": "Demande d'ami envoyée."
+                "outgoing": "Demande d'ami envoyée.",
+                "from": {
+                    "single": "De {{user}}",
+                    "multiple": "De {{userlist}} et {{user}}",
+                    "several": "De {{userlist}} et {{count}} autres…"
+                },
+                "sent": "Envoyées"
             },
             "modals": {
                 "error": "Une erreur est survenue !",
@@ -362,7 +438,13 @@
                     "cancel": "Annuler",
                     "ban": "Bannir",
                     "kick": "Expulser",
-                    "delete": "Supprimer"
+                    "delete": "Supprimer",
+                    "reveal": "Révéler",
+                    "create": "Créer",
+                    "remove": "Retirer",
+                    "back": "Retourner en arrière",
+                    "leave": "Quitter",
+                    "block": "Bloquer"
                 },
                 "signed_out": "Vous avez été déconnecté !",
                 "account": {
@@ -390,7 +472,11 @@
                     "confirm_delete_message_long": "Êtes-vous certain de vouloir supprimer ceci ?",
                     "confirm_kick": "Êtes vous certain de vouloir expulser {{name}} ?",
                     "confirm_ban": "Vous êtes sur le point de bannir {{name}}",
-                    "confirm_ban_reason": "Raison du bannissement"
+                    "confirm_ban_reason": "Raison du bannissement",
+                    "block_user_long": "Êtes-vous certain de vouloir bloquer {{name}} ? Il/Elle va également être retiré de votre liste d'amis.",
+                    "unfriend_user_long": "Vous pourriez ne plus être capable de lui parler tant que vous ne le rajoutiez pas dans vos amis.",
+                    "block_user": "Bloquer {{name}} ?",
+                    "unfriend_user": "Retirer {{name}} de vos amis ?"
                 },
                 "onboarding": {
                     "welcome": "Bienvenue sur",
@@ -428,7 +514,16 @@
                 }
             },
             "requires_online": "Vous devez être en ligne pour voir cela.",
-            "copy_username": "Cliquez pour copier le nom d'utilisateur"
+            "copy_username": "Cliquez pour copier le nom d'utilisateur",
+            "copy": "Cliquer pour copier",
+            "invite": {
+                "invited_by": "Invité par {{user}}",
+                "login": "Se connecter à Revolt",
+                "accept": "Accepter l'invitation"
+            }
+        },
+        "permissions": {
+            "required": "Permissions requises"
         }
     },
     "quantities": {
@@ -438,12 +533,17 @@
         }
     },
     "dayjs": {
-        "lastWeek": "dddd [dernier, à] LT",
-        "lastDay": "[Hier à] LT",
-        "sameDay": "[Aujourd'hui à] LT",
-        "nextDay": "[Demain à] LT",
-        "nextWeek": "dddd [à] LT",
-        "sameElse": "L"
+        "lastWeek": "dddd [dernier, à] {{time}}",
+        "lastDay": "[Hier à] {{time}}",
+        "sameDay": "[Aujourd'hui à] {{time}}",
+        "nextDay": "[Demain à] {{time}}",
+        "nextWeek": "dddd [à] {{time}}",
+        "sameElse": "L",
+        "defaults": {
+            "twelvehour": "no",
+            "date_separator": "/",
+            "date_format": "traditionnel"
+        }
     },
     "notifications": {
         "now_friends": "Vous êtes maintenant ami avec @{{person}} !",
@@ -493,5 +593,41 @@
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
+    },
+    "permissions": {
+        "server": {
+            "BanMembers": {
+                "t": "Bannir les membres",
+                "d": "Autorise les membres à retirer définitivement des membres de ce serveur."
+            },
+            "KickMembers": {
+                "d": "Autorise les membres à retirer des membres de ce serveur, Les membres expulser peuvent rejoindre à nouveau avec une invitation valide.",
+                "t": "Expulser les membres"
+            },
+            "ChangeNickname": {
+                "d": "Autorise les membres à modifier leur pseudo sur le serveur.",
+                "t": "Modifier le pseudo"
+            },
+            "ManageChannels": {
+                "d": "Autorise les membres à créer, éditer et supprimer les salons.",
+                "t": "Gérer les salons"
+            },
+            "ManageServer": {
+                "t": "Gérer le serveur",
+                "d": "Autorise les membres à modifier le nom, la description, l'icône et d'autres informations liées au serveur."
+            },
+            "ManageNicknames": {
+                "t": "Gérer les pseudos",
+                "d": "Autorise les membres à modifier les pseudo d'autres membres."
+            },
+            "ChangeAvatar": {
+                "t": "Modifier l'avatar",
+                "d": "Autorise les membres à changer leur avatar sur ce serveur."
+            },
+            "ManageRoles": {
+                "d": "Autorise les membres à créer, éditer et supprimer les rôles hiérarchiquement inférieurs aux leurs. Leur permet également de modifier les permissions des rôles des salons.",
+                "t": "Gérer les rôles"
+            }
+        }
     }
 }
