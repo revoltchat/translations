@@ -598,35 +598,73 @@
         "server": {
             "BanMembers": {
                 "t": "Bannir les membres",
-                "d": "Autorise les membres à retirer définitivement des membres de ce serveur."
+                "d": "Permet aux membres de retirer définitivement des membres de ce serveur."
             },
             "KickMembers": {
-                "d": "Autorise les membres à retirer des membres de ce serveur, Les membres expulser peuvent rejoindre à nouveau avec une invitation valide.",
+                "d": "Permet aux membres de retirer des membres de ce serveur. Les membres expulsés peuvent rejoindre à nouveau avec une invitation valide.",
                 "t": "Expulser les membres"
             },
             "ChangeNickname": {
-                "d": "Autorise les membres à modifier leur pseudo sur le serveur.",
-                "t": "Modifier le pseudo"
+                "d": "Permet aux membres de modifier leur surnom sur le serveur.",
+                "t": "Modifier le surnom"
             },
             "ManageChannels": {
-                "d": "Autorise les membres à créer, éditer et supprimer les salons.",
+                "d": "Permet aux membres de créer, éditer et supprimer les salons.",
                 "t": "Gérer les salons"
             },
             "ManageServer": {
                 "t": "Gérer le serveur",
-                "d": "Autorise les membres à modifier le nom, la description, l'icône et d'autres informations liées au serveur."
+                "d": "Permet aux membres de modifier le nom, la description, l'icône et d'autres informations liées au serveur."
             },
             "ManageNicknames": {
-                "t": "Gérer les pseudos",
-                "d": "Autorise les membres à modifier les pseudo d'autres membres."
+                "t": "Gérer les surnoms",
+                "d": "Permet aux membres de modifier les surnoms d'autres membres."
             },
             "ChangeAvatar": {
                 "t": "Modifier l'avatar",
-                "d": "Autorise les membres à changer leur avatar sur ce serveur."
+                "d": "Permet aux membres de changer leur avatar sur ce serveur."
             },
             "ManageRoles": {
-                "d": "Autorise les membres à créer, éditer et supprimer les rôles hiérarchiquement inférieurs aux leurs. Leur permet également de modifier les permissions des rôles des salons.",
+                "d": "Permet aux membres de créer, éditer et supprimer les rôles hiérarchiquement inférieurs aux leurs. Leur permet également de modifier les permissions des rôles des salons.",
                 "t": "Gérer les rôles"
+            },
+            "RemoveAvatars": {
+                "t": "Retirer les avatars",
+                "d": "Permet aux membres de retirer les avatars de serveur d'autres membres de ce serveur."
+            }
+        },
+        "channel": {
+            "EmbedLinks": {
+                "d": "Permet aux membres d'afficher du contenu intégré aux liens affichés dans un salon textuel.",
+                "t": "Intégration de liens"
+            },
+            "View": {
+                "t": "Voir le salon",
+                "d": "Permet aux membres de voir n'importe quel salon pour lequel l'utilisateur en a la permission."
+            },
+            "ManageMessages": {
+                "t": "Gérer les messages",
+                "d": "Permet aux membres de supprimer les messages envoyés par d'autres membres du serveur."
+            },
+            "ManageChannel": {
+                "d": "Permet aux membres d'éditer ou de supprimer les salons.",
+                "t": "Expulser des membres"
+            },
+            "SendMessage": {
+                "t": "Envoyer des messages",
+                "d": "Permet aux membres d'envoyer des messages dans des salons textuels."
+            },
+            "VoiceCall": {
+                "d": "Permet aux membres de rejoindre des salons vocaux.",
+                "t": "Appel vocal"
+            },
+            "InviteOthers": {
+                "d": "Permet aux membres d'inviter d'autres utilisateurs à un salon.",
+                "t": "Changer le surnom"
+            },
+            "UploadFiles": {
+                "t": "Téléverser des fichiers",
+                "d": "Permet aux membres d'envoyer des fichiers dans des salons textuels."
             }
         }
     }
