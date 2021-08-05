@@ -74,7 +74,7 @@
             },
             "channel": {
                 "message_where": "{{channel_name}} kanalına mesaj gönder",
-                "message_who": "{{person}} kanalına mesaj gönder",
+                "message_who": "{{person}} üyesine mesaj gönder",
                 "uploading_file": "Yükleniyor…",
                 "failed_upload": "Dosya yüklenemedi!",
                 "attached_file": "{{filename}} eklendi",
@@ -88,7 +88,7 @@
                     "user_left": "{{user}} ayrıldı",
                     "added_by": "{{other_user}}, {{user}} tarafından eklendi",
                     "removed_by": "{{other_user}}, {{user}} tarafından kaldırıldı",
-                    "channel_renamed": "{{user}} kanalı şu şekilde yeniden adlandırdı {{name}}",
+                    "channel_renamed": "{{user}} kanalı {{name}} şeklinde yeniden adlandırdı",
                     "channel_icon_changed": "{{user}} kanal simgesini değiştirdi",
                     "channel_description_changed": "{{user}} kanal açıklamasını değiştirdi",
                     "user_kicked": "{{user}} atıldı",
@@ -98,7 +98,7 @@
                 "bot": "bot‎",
                 "message_saved": "Notlarınıza Kaydedin",
                 "start": {
-                    "group": "Bu, konuşmanızın başlangıcıdır."
+                    "group": "Bu konuşmanızın başlangıcıdır."
                 },
                 "edited": "(düzenlendi)",
                 "voice": {
@@ -142,7 +142,7 @@
                 }
             },
             "groups": {
-                "name": "Grup İsmi",
+                "name": "Grup Adı",
                 "create": "Bir grup oluştur",
                 "owner": "Grup Sahibi",
                 "description": "Grup Açıklaması"
@@ -301,7 +301,7 @@
             "channel_pages": {
                 "overview": {
                     "title": "Genel Bakış",
-                    "name": "Kanal İsmi",
+                    "name": "Kanal Adı",
                     "description": "Kanal Açıklaması",
                     "icon": "Grup Simgesi"
                 },
@@ -347,10 +347,10 @@
                 },
                 "bans": {
                     "title": "Yasaklar",
-                    "reason": "Yasaklama Sebebi",
+                    "reason": "Yasaklanma Sebebi",
                     "user": "Kullanıcı",
                     "revoke": "Geri Al",
-                    "no_reason": "Yasak sebebi yok."
+                    "no_reason": "Yasaklanma sebebi verilmemiş."
                 },
                 "roles": {
                     "title": "Roller"
@@ -364,7 +364,7 @@
                 "server": "Sunucu İzinleri",
                 "channel": "Kanal İzinleri",
                 "create_role": "Yeni bir rol oluştur",
-                "role_name": "Rol İsmi"
+                "role_name": "Rol Adı"
             }
         },
         "special": {
@@ -400,7 +400,7 @@
                     "pick": "İnsanların seni rahatlıkla bulmasını istediğin bir kullanıcı adı seç, bu daha sonra ayarlarda değiştirilebilir."
                 },
                 "prompt": {
-                    "confirm_leave": "{{name}} Adlı sunucudan ayrılacak mısın?",
+                    "confirm_leave": "{{name}} adlı sunucudan ayrılacak mısın?",
                     "confirm_leave_long": "Yeniden davet edilmediğin sürece tekrar katılamazsın.",
                     "confirm_close_dm": "{{name}} ile görüşme kapatılsın mı?",
                     "confirm_close_dm_long": "Daha sonra tekrar açabilirsiniz ancak her iki tarafta da kaybolacaktır.",
@@ -523,12 +523,12 @@
             "create": "Kayıt başarısız!",
             "login": "Giriş yapılamadı!",
             "reset": "Sıfırlanamadı!",
-            "resend": "Yeniden göndermede hata oluştu!"
+            "resend": "Yeniden gönderirken hata oluştu!"
         },
         "forgot": "Şifreni mi unuttun?",
         "existing": "Zaten hesabın var mı?",
         "missing_verification": "E-posta yok mu?",
-        "check_spam": "Bulamıyorsanız lütfen spam'i kontrol edin",
+        "check_spam": "Bulamıyorsanız lütfen spam'ı kontrol edin",
         "open_mail_provider": "{{provider}}'i açın",
         "email_delay": "Lütfen gelmesi için 10 dakikaya kadar bekleyin."
     },
@@ -548,7 +548,7 @@
         "defaults": {
             "date_separator": "/",
             "date_format": "geleneksel",
-            "twelvehour": "hayır"
+            "twelvehour": "no"
         }
     },
     "notifications": {
@@ -560,7 +560,7 @@
         "Unauthorized": "Yetkisiz.",
         "Unlabelled": "Bir şey oldu.",
         "FailedValidation": "Alanlar doğrulanamadı.",
-        "DatabaseError": "Veritabanı hatası.",
+        "DatabaseError": "Veri tabanı hatası.",
         "UnknownError": "Konsolu görüntüle.",
         "RenderFail": "Şablon oluşturma başarısız oldu.",
         "MissingHeaders": "Eksik başlıklar.",
