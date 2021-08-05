@@ -8,6 +8,7 @@ const data = JSON.parse(text);
 
 function recurse(obj: { [key: string]: any }) {
     for (let key of Object.keys(obj)) {
+        if (key === 'dayjs') return;
         if (typeof obj[key] === 'object') {
             recurse(obj[key]);
         } else {
