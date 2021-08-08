@@ -10,7 +10,9 @@
                     "spoiler_attachment": "Spoiler",
                     "no_sending": "Você não tem permissão para enviar mensagens neste canal.",
                     "blocked_messages": "{{count}} mensagens bloqueadas",
-                    "blocked_user": "Usuário bloqueado"
+                    "blocked_user": "Usuário bloqueado",
+                    "sent_file": "Enviou um anexo",
+                    "sent_multiple_files": "Enviou múltiplos anexos"
                 },
                 "message_where": "Conversar em {{channel_name}}",
                 "system": {
@@ -146,18 +148,24 @@
                     "sounds": "Sons"
                 },
                 "language": {
-                    "other": "Idiomas alternativos",
+                    "other": "Outras opções de idioma",
                     "select": "Selecione seu idioma",
-                    "title": "Idioma"
+                    "title": "Idioma",
+                    "const": "Idioma artificial"
                 },
                 "feedback": {
                     "describe": "Por favor, descreva o problema.",
-                    "bug": "Falha",
+                    "bug": "Rastreador de bugs",
                     "other": "Outro",
                     "feature": "Pedido de funcionalidade",
                     "title": "Comentários",
                     "report": "O que você deseja reportar?",
-                    "send": "Enviar comentário"
+                    "send": "Enviar comentário",
+                    "suggest": "Enviar sugestão de funcionalidade",
+                    "suggest_desc": "Sugerir novas funcionalidades para o Revolt nas discussões do GitHub.",
+                    "issue_desc": "Para nos ajudar a separar os problemas com mais facilidade, você pode criar uma issue no GitHub.",
+                    "bug_desc": "Visualize as denúncias ativas de bugs aqui.",
+                    "issue": "Criar uma nova issue"
                 },
                 "account": {
                     "change_field": "Alterar",
@@ -183,7 +191,8 @@
                     "custom_background": "Imagem de fundo personalizada",
                     "edit_background": "Alterar imagem de fundo",
                     "fetching": "Carregando seu perfil…",
-                    "profile_picture": "Imagem de perfil"
+                    "profile_picture": "Imagem de perfil",
+                    "edit_profile": "Editar perfil"
                 },
                 "sessions": {
                     "title": "Sessões",
@@ -337,7 +346,8 @@
                     "remove": "Remover",
                     "send_email": "Enviar e-mail",
                     "reveal": "Revelar",
-                    "back": "Voltar"
+                    "back": "Voltar",
+                    "hide": "Ocultar"
                 },
                 "prompt": {
                     "confirm_ban_reason": "Motivo do banimento",
@@ -462,7 +472,9 @@
             "create_invite": "Criar convite",
             "open_notification_options": "Opções de notificação",
             "message_user": "Enviar mensagem",
-            "copy_selection": "Copiar seleção"
+            "copy_selection": "Copiar seleção",
+            "copy_message_link": "Copiar link da mensagem",
+            "edit_identity": "Editar identidade"
         },
         "status": {
             "online": "Disponível",
@@ -520,7 +532,8 @@
         "disabled": "Desativado",
         "loading": "Carregando…",
         "on": "Ligado",
-        "off": "Desligado"
+        "off": "Desligado",
+        "unavailable": "Indisponível"
     },
     "permissions": {
         "channel": {
