@@ -51,7 +51,7 @@
                     "block": "Blochează",
                     "leave": "Părăsește",
                     "remove": "Elimină",
-                    "reveal": "Dezvăluire",
+                    "reveal": "Afișează",
                     "back": "Înapoi",
                     "hide": "Ascunde"
                 },
@@ -116,7 +116,7 @@
         "settings": {
             "pages": {
                 "logOut": "Deconectare",
-                "source_code": "Codul Sursă",
+                "source_code": "Codul sursă",
                 "donate": {
                     "title": "Donează"
                 },
@@ -141,8 +141,8 @@
                     "push_notifications": "Notificări Push",
                     "sounds": "Sunete",
                     "sound": {
-                        "message": "Mesaj Primit",
-                        "outbound": "Mesaj Trimis",
+                        "message": "Mesaj primit",
+                        "outbound": "Mesaj trimis",
                         "call_join": "Utilizatorul a intrat în apel",
                         "call_leave": "Utilizatorul a părăsit apelul"
                     }
@@ -181,7 +181,7 @@
                     "title": "Feedback",
                     "suggest_desc": "Propune caracteristici noi pentru Revolt în discuțiile de pe GitHub.",
                     "issue": "Creează un subiect nou",
-                    "suggest": "Propune",
+                    "suggest": "Propune o nouă funcție",
                     "issue_desc": "Pentru a ne ajuta în trierea subiectelor, poți crea un subiect pe GitHub.",
                     "bug_desc": "Afișează rapoartele de erori active în prezent."
                 },
@@ -328,8 +328,8 @@
             "groups": {
                 "name": "Numele grupului",
                 "create": "Creează un grup",
-                "owner": "Proprietarul Grupului",
-                "description": "Descrierea Grupului"
+                "owner": "Deținătorul grupului",
+                "description": "Descrierea grupului"
             },
             "channel": {
                 "bot": "bot",
@@ -367,7 +367,7 @@
                     "unmute": "Activează microfonul"
                 },
                 "misc": {
-                    "viewing_old": "Acum vezi mesaje vechi",
+                    "viewing_old": "Acum vezi mesajele vechi",
                     "jump_present": "Sari la prezent",
                     "spoiler_attachment": "Spoiler",
                     "failed_load": "Nu s-a putut încărca mesajul.",
@@ -378,9 +378,9 @@
                     "sent_multiple_files": "A trimis mai multe atașamente"
                 },
                 "notifications": {
-                    "default": "Folosește Implicit",
-                    "all": "Toate Mesajele",
-                    "mention": "Numai Mențiuni",
+                    "default": "Folosește implicit",
+                    "all": "Toate mesajele",
+                    "mention": "Numai mențiuni",
                     "none": "Nici unul (una)",
                     "muted": "Amuțit"
                 },
@@ -407,16 +407,16 @@
                 "participants": "Participanți"
             },
             "servers": {
-                "name": "Numele Serverului",
+                "name": "Numele serverului",
                 "create": "Creează un server",
-                "channel_name": "Numele Canalului",
-                "owner": "Proprietarul Serverului",
-                "description": "Descrierea Serverului",
-                "channel_description": "Descrierea Canalului",
-                "custom_banner": "Banner Personalizat",
+                "channel_name": "Numele canalului",
+                "owner": "Deținătorul serverului",
+                "description": "Descrierea serverului",
+                "channel_description": "Descrierea canalului",
+                "custom_banner": "Afiș personalizat",
                 "voice_channel": "Canal de Voce",
                 "text_channel": "Canal de Text",
-                "channel_type": "Tip de Canal"
+                "channel_type": "Tipul canalului"
             }
         },
         "navigation": {
@@ -429,7 +429,7 @@
             }
         },
         "status": {
-            "offline": "Offline",
+            "offline": "Deconectat",
             "invisible": "Invizibil",
             "busy": "Nu deranja",
             "idle": "Inactiv",
@@ -484,7 +484,7 @@
             "reply_message": "Răspunde",
             "open_notification_options": "Setări de notificare",
             "copy_message_link": "Copiază link-ul mesajului",
-            "edit_identity": "Editează identitatea"
+            "edit_identity": "Editează-ți identitatea"
         },
         "permissions": {
             "required": "Sunt necesare permisiuni"
@@ -501,18 +501,18 @@
         "open_mail_provider": "Deschide {{provider}}",
         "check_spam": "Te rugăm verifică folderul spam dacă nu îl poți găsi",
         "check_mail": "Verifică-ți emailul.",
-        "cancel": "Anulează cererea.",
+        "cancel": "Anulează autentificarea.",
         "resend": "Retrimite confirmarea.",
-        "missing_verification": "Fară email?",
+        "missing_verification": "Fără email?",
         "create": "Creează un cont nou.",
         "existing": "Ai deja un cont?",
-        "new": "Nou la Revolt?",
-        "remembered": "Intoarce-te la conectare.",
-        "set_password": "Alege o parolă noua.",
+        "new": "Prima oară pe Revolt?",
+        "remembered": "Întoarce-te la conectare.",
+        "set_password": "Setează o parolă nouă.",
         "reset": "Resetează parola.",
-        "forgot": "Ai uitat parola?",
+        "forgot": "Ți-ai uitat parola?",
         "enter": {
-            "current_password": "Introdu parola actuala.",
+            "current_password": "Introdu parola actuală.",
             "invite": "Introdu codul de invitație.",
             "password": "Introdu parola.",
             "email": "Introdu adresa de email.",
@@ -521,7 +521,7 @@
         "current_password": "Parola actuală",
         "invite": "Cod de invitație",
         "password": "Parolă",
-        "email": "Adresă de Email",
+        "email": "Adresă de email",
         "username": "Nume de utilizator",
         "register": "Înregistrare",
         "title": "Conectare",
@@ -614,15 +614,15 @@
             },
             "UploadFiles": {
                 "d": "Permite membrilor să încarce fișiere în canale de text.",
-                "t": "Încarcă Fișiere"
+                "t": "Încarcă fișiere"
             },
             "EmbedLinks": {
-                "d": "Permite membrilor să afișeze conținut încorporat pe linkurile pe care le postează în canalele de text.",
-                "t": "Încorporează Linkuri"
+                "d": "Permite membrilor să afișeze conținut încorporat pe link-urile pe care le postează în canalele de text.",
+                "t": "Încorporează link-uri"
             },
             "InviteOthers": {
                 "d": "Permite membrilor să invite alți utilizatori pe un canal.",
-                "t": "Schimbă Porecla"
+                "t": "Schimbă porecla"
             },
             "VoiceCall": {
                 "d": "Permite membrilor să se alăture canalelor de voce.",
