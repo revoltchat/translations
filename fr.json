@@ -7,12 +7,13 @@
         "loading": "Chargement…",
         "on": "Activé",
         "off": "Désactivé",
-        "disabled": "Désactivé"
+        "disabled": "Désactivé",
+        "unavailable": "Indisponible"
     },
     "login": {
         "title": "Connexion",
         "email": "Email",
-        "password": "Mot De Passe",
+        "password": "Mot de passe",
         "enter": {
             "email": "Entrez votre Email.",
             "password": "Entrez votre mot de passe.",
@@ -20,7 +21,7 @@
             "username": "Entrez un nom d'utilisateur.",
             "current_password": "Entrez votre mot de passe actuel."
         },
-        "forgot": "Mot De Passe oublié ?",
+        "forgot": "Mot de passe oublié ?",
         "new": "Nouveau sur Revolt ?",
         "create": "Créer un nouveau compte.",
         "open_mail_provider": "Ouvrir {{provider}}",
@@ -91,7 +92,9 @@
                     "no_sending": "Vous n'avez pas la permission d'envoyer des messages dans ce salon.",
                     "failed_load": "Les messages n'ont pas pu être chargés.",
                     "blocked_messages": "{{count}} messages bloqués",
-                    "blocked_user": "Utilisateur bloqué"
+                    "blocked_user": "Utilisateur bloqué",
+                    "sent_file": "Envoi d'une pièce jointe",
+                    "sent_multiple_files": "Envoi de plusieurs pièces jointes"
                 },
                 "notifications": {
                     "all": "Tous les messages",
@@ -151,7 +154,7 @@
             }
         },
         "status": {
-            "offline": "Hors-ligne",
+            "offline": "Hors ligne",
             "idle": "Absent",
             "busy": "Ne pas déranger",
             "invisible": "Invisible",
@@ -177,8 +180,8 @@
             "open_link": "Ouvrir le lien",
             "block_user": "Bloquer l'utilisateur",
             "unblock_user": "Débloquer l'utilisateur",
-            "add_friend": "Ajouter en Ami",
-            "remove_friend": "Enlever l'Ami",
+            "add_friend": "Ajouter en ami",
+            "remove_friend": "Supprimer des amis",
             "set_custom_status": "Définir un status personalisé",
             "cancel_message": "Annuler l'envoi",
             "open_video": "Ouvrir la vidéo",
@@ -187,7 +190,7 @@
             "copy_mid": "Copier l'identifiant du message",
             "mention": "Mentionner",
             "cancel_friend": "Annuler la demande",
-            "custom_status": "Status personalisé",
+            "custom_status": "Statut personnalisé",
             "open_channel_settings": "Paramètres du salon",
             "open_group_settings": "Paramètres du groupe",
             "copy_selection": "Copier la sélection",
@@ -202,9 +205,11 @@
             "create_invite": "Créer une invitation",
             "view_profile": "Voir le profil",
             "kick_member": "Expulser le membre",
-            "ban_member": "Expulser le membre",
-            "open_notification_options": "Options de notifications",
-            "reply_message": "Répondre"
+            "ban_member": "Bannir le membre",
+            "open_notification_options": "Options de notification",
+            "reply_message": "Répondre",
+            "copy_message_link": "Copier le lien du message",
+            "edit_identity": "Éditer l'identité"
         },
         "settings": {
             "pages": {
@@ -244,7 +249,7 @@
                     "descriptions": {
                         "enable_desktop": "Cela vous enverra des notifications tant que l'application est ouverte.",
                         "enable_sound": "Jouera un son a la réception d'un message.",
-                        "enable_push": "Possibilité de recevoir des notifications hors-ligne.",
+                        "enable_push": "Possibilité de recevoir des notifications hors ligne.",
                         "enable_outgoing_sound": "Jouera un son lors de l'envoi de messages."
                     },
                     "title": "Notifications",
@@ -268,16 +273,22 @@
                     "placeholder": "Écrivez quelque chose a votre propos…",
                     "profile_picture": "Image de profil",
                     "edit_background": "Éditer l'arrière-plan",
-                    "custom_background": "Arrière-plan personnalisé"
+                    "custom_background": "Arrière-plan personnalisé",
+                    "edit_profile": "Éditer le profil"
                 },
                 "feedback": {
                     "title": "Suggestions",
                     "report": "Que souhaitez vous signaler ?",
-                    "bug": "Dysfonctionnement",
+                    "bug": "Traqueur de bugs",
                     "feature": "Ajout de fonctionalité",
                     "other": "Autre",
                     "describe": "Veuillez décrire le problème.",
-                    "send": "Envoyer un retour"
+                    "send": "Envoyer un retour",
+                    "suggest": "Soumettre une suggestion de fonctionnalité",
+                    "suggest_desc": "Suggérer une nouvelle fonctionnalité pour Revolt dans les discussions GitHub.",
+                    "issue": "Créer un nouveau ticket",
+                    "issue_desc": "Pour nous aider à trier plus facilement les demandes, vous pouvez créer un ticket sur GitHub.",
+                    "bug_desc": "Visionnez les rapports de bugs actifs ici."
                 },
                 "account": {
                     "title": "Mon Compte",
@@ -306,7 +317,8 @@
                 "language": {
                     "title": "Langue",
                     "select": "Séléctionner votre langue",
-                    "other": "Langages alternatifs"
+                    "other": "Autres options de langage",
+                    "const": "Langages construits"
                 },
                 "source_code": "Code source",
                 "logOut": "Déconnexion",
@@ -429,7 +441,7 @@
                 "actions": {
                     "update": "Mettre à jour",
                     "preview": "Prévisualiser",
-                    "reload": "Rechargement de l'application",
+                    "reload": "Recharger l'application",
                     "ok": "Ok",
                     "close": "Fermer",
                     "send_email": "Envoyer un email",
@@ -444,7 +456,8 @@
                     "remove": "Retirer",
                     "back": "Retourner en arrière",
                     "leave": "Quitter",
-                    "block": "Bloquer"
+                    "block": "Bloquer",
+                    "hide": "Masquer"
                 },
                 "signed_out": "Vous avez été déconnecté !",
                 "account": {
@@ -484,7 +497,7 @@
                 }
             },
             "status": {
-                "offline": "Hors-ligne.",
+                "offline": "Hors ligne.",
                 "reconnecting": "Reconnexion en cours…",
                 "disconnected": "Déconnecté.",
                 "connecting": "Connexion en cours…"
@@ -494,8 +507,8 @@
                     "profile": "Profil",
                     "mutual_groups": "Groupes en commun",
                     "mutual_friends": "Amis en commun",
-                    "no_users": "Aucun amis en commun !",
-                    "no_groups": "Aucun groupes en commun !",
+                    "no_users": "Aucun ami en commun !",
+                    "no_groups": "Aucun groupe en commun !",
                     "badges": {
                         "translator": "Traducteur",
                         "early_adopter": "Adopteur de longue date",
@@ -528,8 +541,8 @@
     },
     "quantities": {
         "members": {
-            "one": "1 Membre",
-            "many": "{{count}} Membres"
+            "one": "1 membre",
+            "many": "{{count}} membres"
         }
     },
     "dayjs": {
