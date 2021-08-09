@@ -86,7 +86,9 @@
                     "no_sending": "Neturi leidimo siųsti žinučių šiame kanale.",
                     "failed_load": "Nepavyko įkelti žinutės.",
                     "blocked_messages": "{{count}} užblokuotos (-ų) žinutės (-čių)",
-                    "blocked_user": "Užblokuotas naudotojas"
+                    "blocked_user": "Užblokuotas naudotojas",
+                    "sent_file": "Išsiųstas priedas",
+                    "sent_multiple_files": "Išsiųsti keli priedai"
                 },
                 "voice": {
                     "unmute": "Atsitildyti",
@@ -107,6 +109,14 @@
                         "confirm": "Įeiti į kanalą"
                     },
                     "confirm": "Patvirtinu, jog man daugiau nei 18 metų."
+                },
+                "search": {
+                    "title": "Paieška",
+                    "sort": {
+                        "relevance": "Svarbiausi",
+                        "latest": "Naujausi",
+                        "oldest": "Seniausi"
+                    }
                 }
             },
             "categories": {
@@ -196,7 +206,8 @@
                     "kick": "Išmesti",
                     "delete": "Ištrinti",
                     "reveal": "Atskleisti",
-                    "back": "Grįžti atgal"
+                    "back": "Grįžti atgal",
+                    "hide": "Slėpti"
                 },
                 "onboarding": {
                     "welcome": "Sveiki atvykę į",
@@ -255,7 +266,12 @@
                 }
             },
             "copy_username": "Paspausti tam, kad nukopijuotumėte savo vardą",
-            "copy": "Spauskite, kad nukopijuotumėte"
+            "copy": "Spauskite, kad nukopijuotumėte",
+            "invite": {
+                "invited_by": "Pakviesti {{user}}",
+                "login": "Prisijungti prie Revolt",
+                "accept": "Priimti pakvietimą"
+            }
         },
         "context_menu": {
             "copy_id": "Kopijuoti ID",
@@ -304,7 +320,9 @@
             "delete_channel": "Ištrinti kanalą",
             "create_channel": "Sukurti kanalą",
             "create_invite": "Sukurti kvietimą",
-            "open_notification_options": "Pranešimų nustatymai"
+            "open_notification_options": "Pranešimų nustatymai",
+            "copy_message_link": "Kopijuoti žinutės nuorodą",
+            "edit_identity": "Redaguoti tapatybę"
         },
         "settings": {
             "pages": {
@@ -354,7 +372,8 @@
                     "title": "Profilis",
                     "edit_background": "Redaguoti foną",
                     "custom_background": "Pasirinktinis fonas",
-                    "profile_picture": "Profilio nuotrauka"
+                    "profile_picture": "Profilio nuotrauka",
+                    "edit_profile": "Redaguoti profilį"
                 },
                 "account": {
                     "change_field": "Keisti",
@@ -381,7 +400,12 @@
                     "feature": "Pasiūlymas",
                     "bug": "Nesklandumas",
                     "report": "Ką jūs norite pranešti?",
-                    "title": "Atsiliepimai"
+                    "title": "Atsiliepimai",
+                    "issue_desc": "Jei norite padėti mums lengviau išspręsti problemas, galite sukurti problemą GitHub platformoje.",
+                    "suggest": "Pateikti funkcijos pasiūlymą",
+                    "suggest_desc": "Pasiūlyti naujų Revolt funkcijų GitHub diskusijose.",
+                    "issue": "Sukurti naują problemą",
+                    "bug_desc": "Peržiūrėkite šiuo metu aktyvius nesklandumų pranešimus čia."
                 },
                 "source_code": "Šaltinis",
                 "donate": {
@@ -390,7 +414,8 @@
                 "language": {
                     "select": "Pasirinkite savo kalbą",
                     "title": "Kalba",
-                    "other": "Alternatyviosios kalbos"
+                    "other": "Alternatyviosios kalbos",
+                    "const": "Dirbtinės kalbos"
                 },
                 "notifications": {
                     "descriptions": {
@@ -432,6 +457,9 @@
                     },
                     "title": "Sinchronizavimas",
                     "categories": "Sinchronizuojamos kategorijos"
+                },
+                "native": {
+                    "title": "Darbalaukio nustatymai"
                 }
             },
             "categories": {
@@ -479,13 +507,24 @@
                     "system_messages": "Sistemos pranešimų kanalai"
                 },
                 "invites": {
-                    "title": "Kvietimai"
+                    "title": "Kvietimai",
+                    "code": "Pakvietimo kodas",
+                    "invitor": "Kviečiantysis",
+                    "channel": "Kanalas",
+                    "revoke": "Atšaukti"
                 },
                 "bans": {
-                    "title": "Draudimai"
+                    "title": "Draudimai",
+                    "user": "Naudotojas",
+                    "reason": "Draudimo priežastis",
+                    "revoke": "Atšaukti",
+                    "no_reason": "Priežasties draudimui nėra."
                 },
                 "members": {
                     "title": "Nariai"
+                },
+                "categories": {
+                    "title": "Kategorijos"
                 }
             },
             "permissions": {
