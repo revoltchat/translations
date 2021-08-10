@@ -4,7 +4,10 @@
         "tos": "بنود الخدمة",
         "privacy": "سياسة الخصوصية",
         "image_by": "تم انشاء الصورة بواسطة",
-        "loading": "جار التحميل…"
+        "loading": "جار التحميل…",
+        "on": "تشغيل",
+        "off": "ايقاف",
+        "unavailable": "غير متوفر"
     },
     "login": {
         "title": "تسجيل الدخول",
@@ -14,7 +17,8 @@
             "email": "ادخل البريد الالكتروني الخاص بك.",
             "password": "ادخل كلمة المرور الخاصة بك.",
             "invite": "أدخل رمز الدعوة الخاص بك.",
-            "username": "أدخل اسم المستخدم."
+            "username": "أدخل اسم المستخدم.",
+            "current_password": "أدخل كلمة المرور الخاصة بك."
         },
         "forgot": "هل نسيت كلمة المرور الخاصة بك؟",
         "new": "هل انت جديد الى Revolt؟",
@@ -24,13 +28,50 @@
         "cancel": "إلغاء الطلب.",
         "invite": "رمز الدعوة",
         "username": "اسم المستخدم",
-        "register": "يسجل"
+        "register": "يسجل",
+        "check_mail": "راجع بريدك الالكتروني.",
+        "set_password": "تعيين كلمة مرور جديدة.",
+        "missing_verification": "لا بريد الإلكتروني؟",
+        "resend": "اعادة ارسال التحقق.",
+        "successful_registration": "تم التسجيل بنجاح!",
+        "error": {
+            "create": "فشل التسجيل!",
+            "login": "فشل تسجيل الدخول!"
+        },
+        "reset": "إعادة تعيين كلمة المرور."
     },
     "app": {
         "main": {
             "channel": {
-                "message": "ارسل رسالة الى {{name}}"
+                "message": "ارسل رسالة الى {{name}}",
+                "system": {
+                    "user_joined": "{{user}} انضم",
+                    "user_left": "{{user}} غادر",
+                    "user_kicked": "{{user}} انطرد",
+                    "user_banned": "{{user}} انحظر"
+                },
+                "typing": {
+                    "several": "العديد من الاشخاص يكتبون…",
+                    "multiple": "{{userlist}} و {{user}} يكتبون...",
+                    "single": "{{user}} يكتب.."
+                }
+            },
+            "categories": {
+                "conversations": "المحادثات",
+                "channels": "قنوات",
+                "members": "اعضاء"
+            }
+        },
+        "navigation": {
+            "tabs": {
+                "dev": "مطور",
+                "saved": "ملاحظات المحفوظة",
+                "friends": "اصدقاء"
             }
         }
+    },
+    "error": {
+        "Blocked": "لقد حظرت هذا الشخص.",
+        "BlockedOther": "لقد حظرك هذا الشخص."
     }
 }
