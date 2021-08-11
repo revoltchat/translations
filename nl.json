@@ -7,7 +7,8 @@
         "about": "Over",
         "disabled": "Uitgeschakeld",
         "on": "Aan",
-        "off": "Uit"
+        "off": "Uit",
+        "unavailable": "Niet beschikbaar"
     },
     "login": {
         "current_password": "Huidig wachtwoord",
@@ -70,7 +71,9 @@
                     "blocked_messages": "{{count}} geblokkeerde berichten",
                     "no_sending": "Je bent niet gemachtigd om berichten te sturen in dit kanaal.",
                     "failed_load": "Kan het bericht niet laden.",
-                    "blocked_user": "Geblokkeerde gebruiker"
+                    "blocked_user": "Geblokkeerde gebruiker",
+                    "sent_file": "Verstuur een bijlage",
+                    "sent_multiple_files": "Verstuur meerdere bijlagen"
                 },
                 "voice": {
                     "unmute": "Dempen opheffen",
@@ -204,7 +207,8 @@
                     "placeholder": "Schrijf iets over jezelf…",
                     "fetching": "Je profiel ophalen …",
                     "info": "Informatie",
-                    "title": "Profiel"
+                    "title": "Profiel",
+                    "edit_profile": "Bewerk Profiel"
                 },
                 "account": {
                     "change_field": "Veranderen",
@@ -247,7 +251,8 @@
                 "language": {
                     "title": "Taal",
                     "select": "Selecteer je taal",
-                    "other": "Alternatieve talen"
+                    "other": "Alternatieve talen",
+                    "const": "Geconstrueerde talen"
                 },
                 "donate": {
                     "title": "Doneer"
@@ -259,8 +264,13 @@
                     "other": "Andere",
                     "describe": "Beschrijf het probleem.",
                     "send": "Verzend Feedback",
-                    "bug": "Bug",
-                    "report": "Wat wil je rapporteren?"
+                    "bug": "Bug Tracker",
+                    "report": "Wat wil je rapporteren?",
+                    "suggest": "Dien functie suggestie in",
+                    "suggest_desc": "Stel nieuwe Revolt-functies voor op GitHub-discussions.",
+                    "issue": "Maak een nieuwe issue aan",
+                    "issue_desc": "Om ons gemakkelijker te helpen met het achterhalen van bugs, kunt je een issue op GitHub maken.",
+                    "bug_desc": "Bekijk hier de momenteel actieve bugrapporten."
                 },
                 "logOut": "Uitloggen",
                 "sync": {
@@ -430,7 +440,8 @@
                     "reveal": "Onthul",
                     "back": "Ga terug",
                     "delete": "Verwijder",
-                    "create": "Creëer"
+                    "create": "Creëer",
+                    "hide": "Verbergen"
                 },
                 "onboarding": {
                     "pick": "Kies een gebruikersnaam waarmee je wil dat mensen je kunnen vinden, dit kan later in de instellingen worden gewijzigd.",
@@ -472,8 +483,8 @@
         "context_menu": {
             "copy_cid": "Kopieer kanaal-ID",
             "copy_mid": "Kopieer bericht-ID",
-            "retry_message": "Probeer opnieuw te verzenden",
-            "cancel_message": "Annuleer verzenden",
+            "retry_message": "Opnieuw versturen",
+            "cancel_message": "Verzenden annuleren",
             "delete_message": "Verwijder bericht",
             "remove_member": "Verwijderen uit de groep",
             "open_file": "Open bestand",
@@ -503,23 +514,25 @@
             "clear_status": "Status wissen",
             "set_custom_status": "Stel een aangepaste status in",
             "open_channel_settings": "Kanaalinstellingen",
-            "view_profile": "Toon Profiel",
-            "leave_server": "Verlaat Server",
-            "copy_sid": "Kopieer Server ID",
-            "leave_group": "Verlaat Groep",
+            "view_profile": "Toon profiel",
+            "leave_server": "Verlaat server",
+            "copy_sid": "Kopieer server-ID",
+            "leave_group": "Verlaat groep",
             "open_notification_options": "Notificatie-instellingen",
             "reply_message": "Reageer",
             "open_server_settings": "Serverinstellingen",
-            "kick_member": "Kick Lid",
+            "kick_member": "Kick lid",
             "close_dm": "Sluit DM",
-            "delete_channel": "Verwijder Kanaal",
-            "create_channel": "Creëer Kanaal",
-            "ban_member": "Verban Lid",
-            "delete_server": "Verwijder Server",
-            "create_invite": "Creëer Uitnodiging"
+            "delete_channel": "Verwijder kanaal",
+            "create_channel": "Creëer canaal",
+            "ban_member": "Verban lid",
+            "delete_server": "Verwijder server",
+            "create_invite": "Creëer uitnodiging",
+            "copy_message_link": "Kopieer bericht link",
+            "edit_identity": "Bewerk identiteit"
         },
         "permissions": {
-            "required": "Permissies Vereist"
+            "required": "Permissies vereist"
         }
     },
     "quantities": {
