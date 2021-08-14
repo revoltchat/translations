@@ -68,7 +68,7 @@
                 "attached_file": "Прикреплено {{filename}}",
                 "typing": {
                     "single": "{{user}} печатает…",
-                    "multiple": "{{userlist}} и {{user}} печатают...",
+                    "multiple": "{{userlist}} и {{user}} печатают…",
                     "several": "Несколько людей печатают…"
                 },
                 "unknown_user": "<Неизвестный пользователь>",
@@ -295,6 +295,9 @@
                 },
                 "native": {
                     "title": "Настройки рабочего стола"
+                },
+                "bots": {
+                    "title": "Мои боты"
                 }
             },
             "title": "Настройки",
@@ -514,7 +517,9 @@
                         "connections": "Подключения",
                         "information": "Информация",
                         "badges": "Значки"
-                    }
+                    },
+                    "mutual_servers": "Общие сервера",
+                    "no_servers": "Нет общих серверов!"
                 },
                 "user_picker": {
                     "select": "Выберите друзей, которых хотите добавить."
@@ -532,7 +537,8 @@
             "invite": {
                 "login": "Войти в Revolt",
                 "accept": "Принять приглашение",
-                "invited_by": "Приглашение от {{user}}"
+                "invited_by": "Приглашение от {{user}}",
+                "user_count": "{{member_count}} пользователей"
             }
         },
         "status": {
