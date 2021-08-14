@@ -70,7 +70,7 @@
                 },
                 "typing": {
                     "several": "Keli žmonės rašo…",
-                    "multiple": "{{userlist}} ir {{user}} rašo...",
+                    "multiple": "{{userlist}} ir {{user}} rašo…",
                     "single": "{{user}} rašo…"
                 },
                 "attached_file": "Prisegta {{filename}}",
@@ -259,7 +259,9 @@
                     "empty": "Kažkaip čia tuštoka…",
                     "mutual_groups": "Bendros grupės",
                     "mutual_friends": "Bendri draugai",
-                    "profile": "Profilis"
+                    "profile": "Profilis",
+                    "mutual_servers": "Bendri serveriai",
+                    "no_servers": "Nėra bendrų serverių!"
                 },
                 "user_picker": {
                     "select": "Pasirinkite draugus, kuriuos norite pridėti."
@@ -270,13 +272,14 @@
             "invite": {
                 "invited_by": "Pakviesti {{user}}",
                 "login": "Prisijungti prie Revolt",
-                "accept": "Priimti pakvietimą"
+                "accept": "Priimti pakvietimą",
+                "user_count": "{{member_count}} nauddotojai (-ų)"
             }
         },
         "context_menu": {
             "copy_id": "Kopijuoti ID",
             "message_user": "Pranešimas",
-            "block_user": "Blokuoti vartotoją",
+            "block_user": "Blokuoti naudotoją",
             "open_group_settings": "Grupės nustatymai",
             "open_channel_settings": "Kanalo nustatymai",
             "set_custom_status": "Nustatyti pritaikytą būseną",
@@ -398,7 +401,7 @@
                     "describe": "Prašau aprašykite problemą.",
                     "other": "Kita",
                     "feature": "Pasiūlymas",
-                    "bug": "Nesklandumas",
+                    "bug": "Nesklandumų sekiklis",
                     "report": "Ką jūs norite pranešti?",
                     "title": "Atsiliepimai",
                     "issue_desc": "Jei norite padėti mums lengviau išspręsti problemas, galite sukurti problemą GitHub platformoje.",
@@ -414,7 +417,7 @@
                 "language": {
                     "select": "Pasirinkite savo kalbą",
                     "title": "Kalba",
-                    "other": "Alternatyviosios kalbos",
+                    "other": "Kitos kalbos",
                     "const": "Dirbtinės kalbos"
                 },
                 "notifications": {
@@ -460,6 +463,9 @@
                 },
                 "native": {
                     "title": "Darbalaukio nustatymai"
+                },
+                "bots": {
+                    "title": "Mano botai"
                 }
             },
             "categories": {
