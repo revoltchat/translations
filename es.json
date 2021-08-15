@@ -43,7 +43,8 @@
                     "spoiler_attachment": "Spoiler",
                     "blocked_messages": "{{count}} mensajes bloqueados",
                     "failed_load": "No se pudo cargar el mensaje.",
-                    "no_sending": "No tienes permiso para enviar mensajes en este canal."
+                    "no_sending": "No tienes permiso para enviar mensajes en este canal.",
+                    "blocked_user": "Usuario bloqueado"
                 },
                 "notifications": {
                     "default": "Uso por defecto",
@@ -51,6 +52,21 @@
                     "mention": "Solo menciones",
                     "none": "Ninguno",
                     "muted": "Apagado"
+                },
+                "nsfw": {
+                    "channel": {
+                        "marked": "Este canal está marcado como NSFW.",
+                        "confirm": "Entrar al canal"
+                    },
+                    "confirm": "Confirmo que tengo al menos 18 años."
+                },
+                "search": {
+                    "sort": {
+                        "relevance": "Relevancia",
+                        "latest": "Último",
+                        "oldest": "Más antiguo"
+                    },
+                    "title": "Buscar"
                 }
             },
             "categories": {
@@ -97,13 +113,15 @@
                     "placeholder": "Escribe algo sobre ti…",
                     "profile_picture": "Foto de perfil",
                     "custom_background": "Fondo personalizado",
-                    "edit_background": "Editar fondo"
+                    "edit_background": "Editar fondo",
+                    "edit_profile": "Editar perfil"
                 },
                 "sessions": {
                     "this_device": "Este dispositivo",
                     "title": "Sesiones",
                     "active_sessions": "Sesiones activas",
-                    "created": "Creado hace {{time_ago}}"
+                    "created": "Creado hace {{time_ago}}",
+                    "logout": "Cerrar sesión en todas las demás sesiones"
                 },
                 "account": {
                     "title": "Mi cuenta",
@@ -189,7 +207,8 @@
                     "font": "Fuente",
                     "ligatures": "Ligaduras de fuentes",
                     "mono_font": "Selector de fuente monoespaciado",
-                    "ligatures_desc": "Para las fuentes compatibles, las ligaduras combinan caracteres, por ejemplo, convirtiendo -> en una flecha. Cambie a Inter e intente alternar esta opción."
+                    "ligatures_desc": "Para las fuentes compatibles, las ligaduras combinan caracteres, por ejemplo, convirtiendo -> en una flecha. Cambie a Inter e intente alternar esta opción.",
+                    "import": "Importar un tema"
                 },
                 "logOut": "Cerrar sesión",
                 "source_code": "Código fuente",
@@ -212,6 +231,9 @@
                     "descriptions": {
                         "servers": "Esto te permitirá crear servidores con canales, invitaciones, bans, moderación y más."
                     }
+                },
+                "bots": {
+                    "title": "Mis bots"
                 }
             },
             "categories": {
@@ -255,16 +277,25 @@
                     "system_messages": "Canales de mensajes del sistema"
                 },
                 "bans": {
-                    "title": "Prohibiciones"
+                    "title": "Prohibiciones",
+                    "revoke": "Revocar",
+                    "no_reason": "Sin motivo de expulsión.",
+                    "user": "Usuario"
                 },
                 "members": {
                     "title": "Miembros"
                 },
                 "invites": {
-                    "title": "Invita"
+                    "title": "Invita",
+                    "code": "Código de invitación",
+                    "channel": "Canal",
+                    "revoke": "Revocar"
                 },
                 "roles": {
                     "title": "Roles"
+                },
+                "categories": {
+                    "title": "Categorías"
                 }
             },
             "permissions": {
@@ -381,7 +412,8 @@
                     "block": "Cuadra",
                     "leave": "Salir",
                     "remove": "Eliminar",
-                    "delete": "Borrar"
+                    "delete": "Borrar",
+                    "hide": "Ocultar"
                 },
                 "clipboard": {
                     "unavailable": "El portapapeles no esta disponible!",
@@ -435,7 +467,12 @@
             },
             "requires_online": "Necesitas estar conectado para ver esto.",
             "copy_username": "Haz click para copiar nombre de usuario",
-            "copy": "Haga clic para copiar"
+            "copy": "Haga clic para copiar",
+            "invite": {
+                "invited_by": "Invitado por {{user}}",
+                "accept": "Aceptar invitación",
+                "user_count": "{{member_count}} usuarios"
+            }
         },
         "permissions": {
             "required": "Permisos requeridos"
@@ -484,9 +521,10 @@
         "tos": "Términos de servicio",
         "about": "Sobre nosotros",
         "loading": "Cargando…",
-        "on": "En",
+        "on": "Encendido",
         "off": "Apagado",
-        "disabled": "Discapacitado"
+        "disabled": "Deshabilitado",
+        "unavailable": "No disponible"
     },
     "dayjs": {
         "nextDay": "[Mañana a las] {{time}}",
