@@ -125,7 +125,11 @@
                     "mention": "Tylko wzmianki"
                 },
                 "nsfw": {
-                    "confirm": "Potwierdzam że mam przynajmniej 18 lat."
+                    "confirm": "Potwierdzam że mam przynajmniej 18 lat.",
+                    "channel": {
+                        "marked": "Ten kanał jest oznaczony jako NSFW.",
+                        "confirm": "Dołącz do kanału"
+                    }
                 },
                 "search": {
                     "title": "Szukaj",
@@ -160,7 +164,12 @@
                 "outgoing": "Wysłano zaproszenie.",
                 "incoming": "Przychodzące zaproszenie do znajomych.",
                 "blocked": "Zablokowani",
-                "nobody": "Nikogo tu jeszcze nie ma!"
+                "nobody": "Nikogo tu jeszcze nie ma!",
+                "from": {
+                    "single": "Od {{user}}",
+                    "several": "Od {{userlist}} i {{count}} innych…",
+                    "multiple": "Od {{userlist}} i {{user}}"
+                }
             },
             "requires_online": "Aby to wyświetlić, musisz być online.",
             "modals": {
@@ -173,7 +182,15 @@
                     "send_email": "Wyślij e-mail",
                     "update": "Zmień",
                     "preview": "Podgląd",
-                    "save": "Zapisz"
+                    "save": "Zapisz",
+                    "ban": "Zbanuj",
+                    "kick": "Wyrzuć",
+                    "leave": "Opuść",
+                    "remove": "Usuń",
+                    "block": "Zablokuj",
+                    "hide": "Ukryj",
+                    "create": "Stwórz",
+                    "delete": "Usuń"
                 },
                 "onboarding": {
                     "pick": "Wybierz nazwę użytkownika, według której inni będą mogli Cię znaleźć, możesz to później zmienić w ustawieniach.",
@@ -196,7 +213,19 @@
                 },
                 "prompt": {
                     "confirm_leave_long": "Nie będziesz mógł ponownie dołączyć, chyba że zostaniesz ponownie zaproszony.",
-                    "confirm_leave": "Opuścić grupę {{name}}?"
+                    "confirm_leave": "Opuścić grupę {{name}}?",
+                    "create_invite_created": "To jest twój nowy kod zaproszenia:",
+                    "unfriend_user_long": "Nie będziesz mógł z nimi znowu rozmawiać, dopóki ich na nowo nie dodasz.",
+                    "block_user": "Zablokować {{name}}?",
+                    "unfriend_user": "Usunąć {{name}}?",
+                    "create_invite_generate": "Generuję zaproszenie…",
+                    "confirm_close_dm": "Zamknąć rozmowę z {{name}}?",
+                    "confirm_ban": "Masz zamiar zbanować {{name}}",
+                    "confirm_delete_message_long": "Jesteś pewny, że chcesz to usunąć?",
+                    "confirm_kick": "Jesteś pewny, że chcesz wyrzucić {{name}}?",
+                    "confirm_ban_reason": "Powód Bana",
+                    "confirm_delete": "Usunąć {{name}}?",
+                    "block_user_long": "Jesteś pewny, że chcesz zablokować {{name}}? Będą oni także usunięci z twojej listy znajomych."
                 }
             },
             "status": {
@@ -222,13 +251,22 @@
                         "badges": "Odznaki",
                         "information": "Informacje",
                         "connections": "Połączenia"
-                    }
+                    },
+                    "no_servers": "Brak wspólnych serwerów!",
+                    "mutual_servers": "Wspólne Serwery"
                 },
                 "user_picker": {
                     "select": "Wybierz znajomych do dodania."
                 }
             },
-            "copy_username": "Kliknij aby skopiować nazwę użytkownika"
+            "copy_username": "Kliknij aby skopiować nazwę użytkownika",
+            "invite": {
+                "user_count": "{{member_count}} użytkowników",
+                "login": "Zaloguj się do Revolt",
+                "invited_by": "Zaproszony przez {{user}}",
+                "accept": "Zaakceptuj zaproszenie"
+            },
+            "copy": "Kliknij aby skopiować"
         },
         "context_menu": {
             "block_user": "Zablokuj użytkownika",
@@ -263,7 +301,23 @@
             "custom_status": "Status niestandardowy",
             "open_channel_settings": "Ustawienia kanału",
             "copy_selection": "Kopiuj Zaznaczone",
-            "open_group_settings": "Ustawienia Grupy"
+            "open_group_settings": "Ustawienia Grupy",
+            "reply_message": "Odpowiedz",
+            "delete_server": "Usuń serwer",
+            "delete_channel": "Usuń kanał",
+            "create_channel": "Stwórz kanał",
+            "open_server_settings": "Ustawienia serwera",
+            "leave_group": "Opuść grupę",
+            "leave_server": "Opuść serwer",
+            "view_profile": "Pokaż profil",
+            "copy_sid": "Skopiuj ID serwera",
+            "copy_message_link": "Skopiuj link wiadomości",
+            "kick_member": "Wyrzuć członka",
+            "ban_member": "Zbanuj członka",
+            "close_dm": "Zamknij DM",
+            "open_notification_options": "Opcje powiadomień",
+            "create_invite": "Stwórz zaproszenie",
+            "create_category": "Stwórz kategorię"
         },
         "settings": {
             "pages": {
@@ -292,7 +346,8 @@
                         "default": "Domyślna"
                     },
                     "theme": "Motyw",
-                    "emoji_pack": "Zestaw Emotikonek"
+                    "emoji_pack": "Zestaw Emotikonek",
+                    "font": "Czcionka"
                 },
                 "sessions": {
                     "created": "Utworzono {{time_ago}}",
@@ -302,7 +357,13 @@
                 },
                 "account": {
                     "change_field": "Zmień",
-                    "title": "Moje Konto"
+                    "title": "Moje Konto",
+                    "manage": {
+                        "title": "Zarządzanie kontem.",
+                        "disable": "Wyłącz konto",
+                        "delete": "Usuń konto"
+                    },
+                    "unique_id": "To jest Twój unikatowy identyfikator użytkownika."
                 },
                 "logOut": "Wyloguj",
                 "feedback": {
@@ -351,7 +412,8 @@
                     "title": "Profil",
                     "profile_picture": "Obrazek Profilowy",
                     "custom_background": "Niestandardowe Tło",
-                    "edit_background": "Edytuj Tło"
+                    "edit_background": "Edytuj Tło",
+                    "edit_profile": "Edytuj profil"
                 },
                 "sync": {
                     "descriptions": {
@@ -371,6 +433,9 @@
                     },
                     "title": "Funkcje BETA",
                     "features": "Dostępne funkcje"
+                },
+                "bots": {
+                    "title": "Moje Boty"
                 }
             },
             "categories": {
@@ -409,10 +474,15 @@
             },
             "server_pages": {
                 "bans": {
-                    "title": "Bany"
+                    "title": "Bany",
+                    "reason": "Powód Bana",
+                    "user": "Użytkownik"
                 },
                 "invites": {
-                    "title": "Zaproszenia"
+                    "title": "Zaproszenia",
+                    "code": "Kod zaproszenia",
+                    "invitor": "Zapraszający",
+                    "channel": "Kanał"
                 },
                 "roles": {
                     "title": "Role"
@@ -423,8 +493,19 @@
                 },
                 "members": {
                     "title": "Członkowie"
+                },
+                "categories": {
+                    "title": "Kategorie"
                 }
+            },
+            "permissions": {
+                "default_role": "Podstawowe",
+                "create_role": "Stwórz nową rolę",
+                "role_name": "Nazwa roli"
             }
+        },
+        "permissions": {
+            "required": "Wymagane uprawnienia"
         }
     },
     "dayjs": {
@@ -435,7 +516,12 @@
         "at": "o",
         "nextWeek": "dddd [o] LT",
         "lastWeek": "[Ostatni] dddd [o] LT",
-        "sameElse": "L"
+        "sameElse": "L",
+        "defaults": {
+            "date_format": "tradycyjnie",
+            "date_separator": "/",
+            "twelvehour": "nie"
+        }
     },
     "notifications": {
         "now_friends": "Jesteście teraz znajomymi z @{{person}}!",
@@ -489,5 +575,65 @@
         "Unauthorized": "Nieautoryzowany.",
         "NetworkError": "Błąd sieci.",
         "CompromisedPassword": "To hasło zostało zdemaskowane."
+    },
+    "permissions": {
+        "server": {
+            "RemoveAvatars": {
+                "t": "Usuń Avatary",
+                "d": "Zezwól członkom na usuwanie serwerowych avatarów innych członków na tym serwerze."
+            },
+            "ManageRoles": {
+                "t": "Zarządzaj rolami"
+            },
+            "ChangeAvatar": {
+                "t": "Zmień Avatar",
+                "d": "Zezwól członkom na zmianę swojego avataru na tym serwerze."
+            },
+            "ChangeNickname": {
+                "d": "Zezwól członkom na zmianę ich pseudonimów na tym serwerze.",
+                "t": "Zmień Pseudonim"
+            },
+            "ManageNicknames": {
+                "t": "Zarządzaj Pseudonimami",
+                "d": "Zezwól członkom na zmianę pseudonimów innych użytkowników."
+            }
+        },
+        "channel": {
+            "SendMessage": {
+                "t": "Wysyłaj Wiadomości",
+                "d": "Zezwala członkom na wysyłanie wiadomości w kanałach tekstowych."
+            },
+            "View": {
+                "d": "Zezwala członkom na zobaczenie jakiegokolwiek kanału do którego mają dostęp.",
+                "t": "Zobacz Kanał"
+            },
+            "EmbedLinks": {
+                "t": "Umieszczać Linki",
+                "d": "Zezwala członkom na pokazanie dołączonej do linków treści, którą wysyłają w kanałach tekstowych."
+            },
+            "InviteOthers": {
+                "t": "Zmień Nick",
+                "d": "Zezwól członkom na zapraszanie innych użytkowników do kanału."
+            },
+            "ManageMessages": {
+                "d": "Zezwala członkom na usuwanie wiadomości wysłanych przez innych członków.",
+                "t": "Zarządzaj Wiadomościami"
+            },
+            "UploadFiles": {
+                "d": "Zezwól członkom na wrzucanie plików w kanałach tekstowych.",
+                "t": "Wrzuć Pliki"
+            },
+            "VoiceCall": {
+                "d": "Zezwala członkom na dołączanie do kanałów głosowych.",
+                "t": "Połączenie Głosowe"
+            },
+            "ManageChannel": {
+                "t": "Wyrzuć członków",
+                "d": "Zezwól członkom na edytowanie lub usunięcie kanału."
+            }
+        }
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
     }
 }
