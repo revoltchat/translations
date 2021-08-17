@@ -89,33 +89,33 @@
                 "sync": {
                     "title": "同步",
                     "descriptions": {
-                        "appearance": "此项将会同步表情包设定以及消息显示设定。",
-                        "theme": "此项将会同步你的主题，自定颜色以及CSS。",
-                        "locale": "此项将会同步你选择的语言。"
+                        "appearance": "此项将会同步表情包与消息显示选项。",
+                        "theme": "此项将会同步你的主题、颜色与自定义 CSS。",
+                        "locale": "此项将会同步你当前选择的语言。"
                     },
-                    "categories": "同步选项"
+                    "categories": "同步分类"
                 },
                 "experiments": {
-                    "title": "实验"
+                    "title": "实验室"
                 }
             },
             "tips": {
                 "sessions": {
-                    "b": "通过更改密码和使用双重认证保护您的帐户。",
-                    "a": "如果您在列表中看到未知的会话,"
+                    "b": "请更改密码并启用双重认证以保护您的帐户。",
+                    "a": "如果您在列表中看到未知的设备,"
                 },
                 "languages": {
                     "b": "帮助提供更多翻译。",
-                    "a": "缺少您想要的语言吗？"
+                    "a": "缺少您需要的语言吗？"
                 },
                 "account": {
-                    "b": "转到您的个人资料设置。",
+                    "b": "前往您的个人资料设置。",
                     "a": "要自定义您的公开个人资料吗？"
                 }
             },
             "channel_pages": {
                 "overview": {
-                    "description": "频道说明",
+                    "description": "频道简介",
                     "name": "频道名称",
                     "title": "概述"
                 }
@@ -123,7 +123,7 @@
             "actions": {
                 "upload": "上传",
                 "remove": "移除",
-                "max_filesize": "(最大 {{filesize}})"
+                "max_filesize": "（最大 {{filesize}}）"
             }
         },
         "main": {
@@ -139,13 +139,13 @@
                 "system": {
                     "user_left": "{{user}} 离开了",
                     "user_joined": "{{user}} 加入了",
-                    "added_by": "{{other_user}}邀请了{{user}}",
-                    "removed_by": "{{other_user}}移除了{{user}}",
-                    "channel_renamed": "{{user}}将频道更名为{{name}}",
+                    "added_by": "{{other_user}} 邀请了 {{user}}",
+                    "removed_by": "{{other_user}} 移除了 {{user}}",
+                    "channel_renamed": "{{user}} 将频道更名为 {{name}}",
                     "channel_icon_changed": "{{user}} 更改了频道图标",
-                    "channel_description_changed": "{{user}}更改了频道说明",
+                    "channel_description_changed": "{{user}} 更改了频道简介",
                     "user_kicked": "{{user}} 被踢出",
-                    "user_banned": "{{user}}被封禁了"
+                    "user_banned": "{{user}} 被封禁了"
                 },
                 "typing": {
                     "several": "多人正在输入…",
@@ -155,7 +155,7 @@
                 "attached_file": "上传了 {{filename}}",
                 "failed_upload": "上传失败！",
                 "uploading_file": "正在上传…",
-                "message_saved": "保存至备忘录",
+                "message_saved": "保存至笔记",
                 "message_who": "发送至 {{person}}",
                 "message_where": "发送至 {{channel_name}}",
                 "edited": "（已编辑）",
@@ -168,8 +168,8 @@
                     "spoiler_attachment": "剧透警告",
                     "no_sending": "你没有权限在此频道发送消息。",
                     "blocked_user": "黑名单用户",
-                    "failed_load": "无法载入信息。",
-                    "blocked_messages": "{{count}}被阻消息"
+                    "failed_load": "无法载入消息。",
+                    "blocked_messages": "{{count}} 条消息被阻止"
                 },
                 "voice": {
                     "unmute": "取消静音",
@@ -179,7 +179,7 @@
                 },
                 "nsfw": {
                     "channel": {
-                        "marked": "此频道少儿不宜。",
+                        "marked": "此频道被标记为少儿不宜。",
                         "confirm": "进入频道"
                     },
                     "confirm": "我确定我已成年。"
@@ -194,7 +194,7 @@
             "servers": {
                 "description": "服务器简介",
                 "channel_description": "频道简介",
-                "custom_banner": "自定横幅",
+                "custom_banner": "自定义横幅",
                 "create": "创建服务器",
                 "name": "服务器名称",
                 "channel_name": "频道名称",
@@ -251,7 +251,7 @@
             "modals": {
                 "clipboard": {
                     "https": "您当前没有使用HTTPS连接。",
-                    "copy": "手册副本:",
+                    "copy": "手动复制：",
                     "unavailable": "剪贴板不可用！"
                 },
                 "signed_out": "您已登出！",
@@ -291,7 +291,7 @@
                 "offline": "离线。"
             },
             "requires_online": "您需要在线才能查看。",
-            "copy_username": "点击以复制名称"
+            "copy_username": "点击以复制用户名"
         },
         "context_menu": {
             "unblock_user": "取消屏蔽用户",
@@ -338,12 +338,12 @@
         },
         "successful_registration": "成功注册！",
         "open_mail_provider": "打开 {{provider}}",
-        "check_spam": "如果找不到, 请检查垃圾邮件",
+        "check_spam": "如果找不到，请检查垃圾邮件",
         "check_mail": "请检查您的邮箱。",
         "cancel": "取消请求。",
         "resend": "重新发送验证码。",
         "missing_verification": "没有邮箱吗？",
-        "create": "新建账号。",
+        "create": "创建新账号。",
         "existing": "已经有一个账号吗？",
         "new": "新用户吗？",
         "remembered": "回到登录界面。",
@@ -351,7 +351,7 @@
         "reset": "重置密码。",
         "forgot": "忘记密码了吗？",
         "enter": {
-            "current_password": "输入你目前的密码。",
+            "current_password": "输入你现在的密码。",
             "invite": "输入你的邀请码。",
             "password": "输入你的密码。",
             "email": "输入你的邮箱。",
@@ -364,7 +364,7 @@
         "username": "用户名",
         "register": "注册",
         "title": "登录",
-        "email_delay": "邮件可能需要长达十分钟送达。"
+        "email_delay": "请等待邮件在 10 分钟内送达。"
     },
     "general": {
         "image_by": "图片来自",
@@ -374,8 +374,8 @@
         "loading": "加载中…",
         "on": "开",
         "off": "关",
-        "disabled": "已关闭",
-        "unavailable": "不能用"
+        "disabled": "已禁用",
+        "unavailable": "不可用"
     },
     "notifications": {
         "now_friends": "您与@ {{person}}成为了好友！",
