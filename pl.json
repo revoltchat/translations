@@ -80,7 +80,7 @@
                     "added_by": "{{user}} został dodany przez {{other_user}}",
                     "user_left": "{{user}} opuszcza",
                     "user_joined": "{{user}} dołączył",
-                    "channel_description_changed": "{{user}} zmienił opis kanału.",
+                    "channel_description_changed": "{{user}} zmienił opis kanału",
                     "channel_icon_changed": "{{user}} zaktualizował ikone kanału",
                     "user_kicked": "{{user}} został wyrzucony",
                     "user_banned": "{{user}} został zbanowany"
@@ -112,7 +112,10 @@
                     "spoiler_attachment": "Spoiler",
                     "failed_load": "Nie można załadować wiadomości.",
                     "no_sending": "Nie masz uprawnień do wysyłania wiadomości na tym kanale.",
-                    "blocked_messages": "zablokowane wiadomości"
+                    "blocked_messages": "{{count}} zablokowanych wiadomości",
+                    "blocked_user": "Zablokowany Użytkownik",
+                    "sent_file": "wysłał(a) załącznik",
+                    "sent_multiple_files": "wysłał(a) załączniki"
                 },
                 "notifications": {
                     "none": "Brak",
@@ -120,17 +123,27 @@
                     "default": "Użyj domyślnych",
                     "all": "Wszystkie wiadomości",
                     "mention": "Tylko wzmianki"
+                },
+                "nsfw": {
+                    "confirm": "Potwierdzam że mam przynajmniej 18 lat."
+                },
+                "search": {
+                    "title": "Szukaj",
+                    "sort": {
+                        "latest": "Najnowsze",
+                        "oldest": "Najstarsze"
+                    }
                 }
             },
             "groups": {
                 "owner": "Właściciel grupy",
                 "name": "Nazwa grupy",
-                "create": "Utwórz nową grupę.",
+                "create": "Utwórz grupę",
                 "description": "Opis grupy"
             },
             "servers": {
                 "description": "Opis serwera",
-                "create": "Stwórz serwer.",
+                "create": "Utwórz serwer",
                 "name": "Nazwa Serwera",
                 "channel_name": "Nazwa kanału",
                 "channel_type": "Typ kanału",
