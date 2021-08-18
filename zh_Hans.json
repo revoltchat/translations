@@ -17,19 +17,19 @@
                     "overrides": "主题设置",
                     "reset_overrides": "重置设定",
                     "sync": "同步选项",
-                    "custom_css": "自定义CSS",
-                    "advanced": "高级设定",
-                    "message_display": "信息显示",
+                    "custom_css": "自定义 CSS",
+                    "advanced": "高级选项",
+                    "message_display": "消息显示",
                     "accent_selector": "主题颜色",
                     "color": {
                         "dark": "深色",
                         "light": "浅色"
                     },
                     "display": {
-                        "default_description": "漂亮，简约且时尚。",
+                        "default_description": "美观、时尚且现代。",
                         "compact": "简约",
                         "default": "默认",
-                        "compact_description": "一个怀旧的主题。"
+                        "compact_description": "怀旧 IRC 风格。"
                     },
                     "theme": "主题",
                     "emoji_pack": "表情包",
@@ -43,12 +43,12 @@
                     "title": "登录的设备",
                     "created": "创建于 {{time_ago}}",
                     "this_device": "此设备",
-                    "active_sessions": "已登陆的设备",
+                    "active_sessions": "活跃设备",
                     "logout": "登出其他所有设备"
                 },
                 "account": {
                     "change_field": "更改",
-                    "title": "我的账号",
+                    "title": "我的账户",
                     "2fa": {
                         "add_auth": "添加认证器",
                         "remove_auth": "移除认证器",
@@ -76,12 +76,12 @@
                     "enable_outgoing_sound": "在发送时播放声音。",
                     "enable_sound": "收到消息时播放声音。",
                     "sounds": "声音",
-                    "push_notifications": "推送消息",
+                    "push_notifications": "推送通知",
                     "sound": {
-                        "outbound": "发送消息",
-                        "call_join": "用户加入对话",
-                        "message": "接收消息",
-                        "call_leave": "用户离开对话"
+                        "outbound": "发出消息",
+                        "call_join": "用户加入语音",
+                        "message": "收到消息",
+                        "call_leave": "用户离开语音"
                     }
                 },
                 "logOut": "登出",
@@ -101,7 +101,7 @@
                 },
                 "source_code": "源代码",
                 "donate": {
-                    "title": "捐献"
+                    "title": "捐赠"
                 },
                 "language": {
                     "title": "语言",
@@ -110,13 +110,13 @@
                     "other": "其他语言选项"
                 },
                 "profile": {
-                    "placeholder": "介绍一下你自己…",
-                    "fetching": "正在获取您的档案…",
+                    "placeholder": "介绍一下您自己…",
+                    "fetching": "正在获取您的个人资料…",
                     "info": "信息",
-                    "title": "档案",
+                    "title": "个人资料",
                     "edit_background": "编辑背景",
-                    "custom_background": "自定背景",
-                    "profile_picture": "头像",
+                    "custom_background": "自定义背景",
+                    "profile_picture": "个人资料头像",
                     "edit_profile": "编辑个人资料"
                 },
                 "sync": {
@@ -217,7 +217,7 @@
             },
             "channel": {
                 "bot": "机器人",
-                "unknown_user": "未知用户",
+                "unknown_user": "<未知用户>",
                 "system": {
                     "user_left": "{{user}} 离开了",
                     "user_joined": "{{user}} 加入了",
@@ -245,7 +245,7 @@
                     "group": "这里是你们对话的开头。"
                 },
                 "misc": {
-                    "jump_present": "跳到现在",
+                    "jump_present": "跳转到现在",
                     "viewing_old": "正在查看旧消息",
                     "spoiler_attachment": "剧透警告",
                     "no_sending": "您没有权限在此频道发送消息。",
@@ -259,7 +259,7 @@
                     "unmute": "取消静音",
                     "mute": "静音",
                     "leave": "离开",
-                    "connected": "连接至语音"
+                    "connected": "已连接语音"
                 },
                 "nsfw": {
                     "channel": {
@@ -306,7 +306,7 @@
         "navigation": {
             "tabs": {
                 "saved": "保存的笔记",
-                "unreads": "未读信息",
+                "unreads": "未读消息",
                 "friends": "好友",
                 "dev": "开发者",
                 "home": "主页"
@@ -316,7 +316,7 @@
             "offline": "离线",
             "invisible": "隐身",
             "busy": "勿扰",
-            "idle": "闲置",
+            "idle": "离开",
             "online": "在线"
         },
         "special": {
@@ -391,7 +391,7 @@
                     "failed": "更改失败！",
                     "change": {
                         "password": "更改您的密码",
-                        "email": "更改您的邮箱",
+                        "email": "更改您的电子邮箱",
                         "username": "更改您的用户名"
                     }
                 },
@@ -501,7 +501,7 @@
         "successful_registration": "成功注册！",
         "open_mail_provider": "打开 {{provider}}",
         "check_spam": "如果找不到，请检查垃圾邮件",
-        "check_mail": "请检查您的邮箱。",
+        "check_mail": "请检查您的邮件。",
         "cancel": "取消请求。",
         "resend": "重新发送验证码。",
         "missing_verification": "没有收到邮件吗？",
@@ -516,7 +516,7 @@
             "current_password": "输入您现在的密码。",
             "invite": "输入您的邀请码。",
             "password": "输入您的密码。",
-            "email": "输入您的邮箱。",
+            "email": "输入您的电子邮箱。",
             "username": "输入一个用户名。"
         },
         "current_password": "当前密码",
@@ -526,7 +526,7 @@
         "username": "用户名",
         "register": "注册",
         "title": "登录",
-        "email_delay": "请等待邮件在 10 分钟内送达。"
+        "email_delay": "请等待邮件送达，最长可能需要 10 分钟。"
     },
     "general": {
         "image_by": "图片来自",
@@ -566,7 +566,7 @@
         "BlockedOther": "此用户已屏蔽您。",
         "Blocked": "您已屏蔽此用户。",
         "AlreadyOnboarded": "已经完成了初始化。",
-        "EmailInUse": "邮箱已经被使用。",
+        "EmailInUse": "电子邮箱已被使用。",
         "Unlabelled": "有些神秘的事情发生了。",
         "Unauthorized": "未经授权。",
         "DeniedNotification": "您拒绝了通知权限，请检查页面设置。",
@@ -577,18 +577,18 @@
         "FailedToReceive": "服务器接收您的文件失败。",
         "FileTooLarge": "文件太大。",
         "Unavailable": "不可用。",
-        "InvalidEmail": "无效的邮箱地址",
+        "InvalidEmail": "无效的电子邮箱地址",
         "TooLong": "太长",
         "TooShort": "太短",
         "RequiredField": "必填",
         "NoEffect": "此请求无效。",
         "AlreadySentRequest": "已经向此用户发送了请求。",
         "AlreadyFriends": "已与此用户成为朋友。",
-        "UsernameTaken": "用户名已经被使用。",
+        "UsernameTaken": "用户名已被使用。",
         "InvalidInvite": "无效的代码",
         "MissingInvite": "请求中缺少邀请码。",
         "InvalidToken": "无效的令牌",
-        "InvalidCredentials": "邮箱或密码错误。",
+        "InvalidCredentials": "电子邮箱或密码错误。",
         "EmailFailed": "电子邮件发送失败。",
         "UnknownUser": "未知的用户。",
         "UnverifiedAccount": "未验证的账户。",
