@@ -1,1 +1,161 @@
-{}
+{
+    "general": {
+        "loading": "Đang tải…",
+        "disabled": "Tắt",
+        "on": "Bật",
+        "off": "Tắt",
+        "image_by": "Hình ảnh bởi",
+        "privacy": "Chính Sách Bảo Mật",
+        "about": "Về",
+        "tos": "Điều khoản dịch vụ",
+        "unavailable": "Không khả dụng"
+    },
+    "login": {
+        "title": "Đăng nhập",
+        "register": "Đăng ký",
+        "username": "Tên người dùng",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "invite": "Mã Mời",
+        "forgot": "Quên mật khẩu?",
+        "new": "Mới tới Revolt?",
+        "existing": "Đã có tài khoản rồi?",
+        "enter": {
+            "password": "Nhập mật khẩu của bạn.",
+            "current_password": "Nhập mật khẩu hiện tại của bạn.",
+            "invite": "Nhập mã mời của bạn.",
+            "username": "Nhập tên người dùng.",
+            "email": "Nhập email của bạn."
+        },
+        "set_password": "Tạo mật khẩu mới.",
+        "remembered": "Quay lại phần đăng nhập.",
+        "create": "Tạo tài khoản mới.",
+        "missing_verification": "Không có email?",
+        "cancel": "Huỷ yêu cầu.",
+        "email_delay": "Làm ơn chờ 10 phút để thư đến tay bạn.",
+        "resend": "Gửi lại yêu cầu xác nhận.",
+        "check_spam": "Hãy thử kiểm tra hòm thư rác nếu bạn vẫn không tìm thấy",
+        "open_mail_provider": "Mở {{provider}}",
+        "error": {
+            "create": "Đăng ký thất bại!",
+            "login": "Đăng nhập thất bại!",
+            "reset": "Khôi phục không thành công!",
+            "resend": "Gửi lại không thành công!"
+        },
+        "reset": "Khôi phục mật khẩu.",
+        "check_mail": "Kiểm tra hòm thư của bạn.",
+        "successful_registration": "Đăng ký hoàn tất!",
+        "current_password": "Mật Khẩu Hiện Tại"
+    },
+    "app": {
+        "status": {
+            "online": "Trực tuyến",
+            "idle": "Chờ",
+            "invisible": "Vô hình",
+            "offline": "Ngoại tuyến",
+            "busy": "Đừng Làm Phiền"
+        },
+        "navigation": {
+            "tabs": {
+                "dev": "Nhà phát triển",
+                "friends": "Bạn bè",
+                "unreads": "Chưa đọc",
+                "saved": "Ghi chú đã lưu",
+                "home": "Trang chủ"
+            }
+        },
+        "main": {
+            "categories": {
+                "conversations": "Cuộc trò chuyện",
+                "channels": "Kênh",
+                "members": "Thành viên",
+                "participants": "Thành viên tham gia"
+            },
+            "channel": {
+                "message_where": "Gửi tin nhắn đến {{channel_name}}",
+                "message_who": "Gửi tin nhắn đến {{person}}",
+                "failed_upload": "Tải lên thất bại!",
+                "attached_file": "Đã gắn {{filename}}",
+                "typing": {
+                    "several": "Vài người đang nhắn…",
+                    "single": "{{user}} đang nhắn…",
+                    "multiple": "{{userlist}} và {{user}} đang nhắn…"
+                },
+                "system": {
+                    "user_joined": "{{user}} đã gia nhập",
+                    "user_left": "{{user}} đã rời đi",
+                    "user_kicked": "{{user}} đã bị đuổi",
+                    "user_banned": "{{user}} đã bị cấm",
+                    "added_by": "{{user}} đã được thêm vào bởi {{other_user}}",
+                    "channel_renamed": "{{user}} đã đổi tên kênh thành {{name}}",
+                    "channel_description_changed": "{{user}} đã thay đổi thông tin của kênh",
+                    "channel_icon_changed": "{{user}} đã thay đổi biểu tượng của kênh",
+                    "removed_by": "{{user}} đã bị loại bỏ bởi {{other_user}}"
+                },
+                "start": {
+                    "group": "Đây là khởi đầu cuộc trò chuyện của bạn."
+                },
+                "voice": {
+                    "leave": "Ngắt kết nối",
+                    "mute": "Tắt âm",
+                    "unmute": "Bỏ tắt âm",
+                    "connected": "Đã kết nối giọng nói"
+                },
+                "misc": {
+                    "viewing_old": "Đang xem các tin nhắn cũ",
+                    "jump_present": "Nhảy đến hiện tại",
+                    "spoiler_attachment": "Nội dung ẩn",
+                    "failed_load": "Không thể tải tin nhắn.",
+                    "blocked_messages": "{{count}} tin nhắn đã chặn",
+                    "sent_file": "Đã gửi tệp đính kèm",
+                    "sent_multiple_files": "Đã gửi nhiều tệp đính kèm",
+                    "blocked_user": "Người Dùng Bị Chặn",
+                    "no_sending": "Bạn không có quyền để gửi tin nhắn trong kênh này."
+                },
+                "nsfw": {
+                    "channel": {
+                        "confirm": "Vào kênh",
+                        "marked": "Kênh này đã được đánh dấu NSFW."
+                    },
+                    "confirm": "Tôi xác nhận rằng tôi đã đủ 18 tuổi."
+                },
+                "edited": "(đã chỉnh sửa)",
+                "bot": "máy",
+                "notifications": {
+                    "all": "Tất cả tin nhắn",
+                    "mention": "Chỉ Đề Cập",
+                    "none": "Không có",
+                    "muted": "Đã bị tắt âm",
+                    "default": "Sử Dụng Mặc Định"
+                },
+                "search": {
+                    "title": "Tìm kiếm",
+                    "sort": {
+                        "latest": "Mới nhất",
+                        "oldest": "Cũ nhất",
+                        "relevance": "Liên quan"
+                    }
+                },
+                "unknown_user": "<Người Dùng Chưa Xác Định>",
+                "message_saved": "Lưu đến ghi chú của bạn",
+                "uploading_file": "Đang tải lên…"
+            },
+            "groups": {
+                "create": "Tạo nhóm",
+                "description": "Thông tin Nhóm",
+                "name": "Tên Nhóm",
+                "owner": "Chủ Sở Hữu Nhóm"
+            },
+            "servers": {
+                "channel_name": "Tên Kênh",
+                "custom_banner": "Biểu tượng Tuỳ chỉnh",
+                "text_channel": "Kênh Văn Bản",
+                "voice_channel": "Kênh Thoại",
+                "name": "Tên Máy Chủ",
+                "owner": "Chủ Sở Hữu Máy Chủ",
+                "create": "Tạo máy chủ",
+                "channel_type": "Kiểu Kênh"
+            }
+        }
+    }
+}
