@@ -154,7 +154,9 @@
                 "name": "Tên Máy Chủ",
                 "owner": "Chủ Sở Hữu Máy Chủ",
                 "create": "Tạo máy chủ",
-                "channel_type": "Kiểu Kênh"
+                "channel_type": "Kiểu Kênh",
+                "description": "Mô tả máy chủ",
+                "channel_description": "Mô tả Kênh"
             }
         },
         "settings": {
@@ -172,30 +174,39 @@
                 "account": {
                     "2fa": {
                         "title": "Bảo Mật Hai Lớp",
-                        "description": "Thêm một lớp bảo mật bằng việc bật Bảo Mật Hai Lớp trong tài khoản của bạn."
+                        "description": "Thêm một lớp bảo mật bằng việc bật Bảo Mật Hai Lớp trong tài khoản của bạn.",
+                        "add_auth": "Thêm nhân tố xác thực",
+                        "remove_auth": "Bỏ Nhân tó xác thực"
                     },
                     "title": "Tài Khoản Của Tôi",
                     "change_field": "Đổi",
                     "manage": {
                         "description": "Vô hiệu hoá hoặc xoá tài khoản của bạn bất cứ lúc nào. Hành động này sẽ đăng xuất và xoá hoàn toàn tài khoản của bạn, bao gồm lịch sử trò chuyện và bạn bè.",
                         "disable": "Vô Hiệu Hoá Tài Khoản",
-                        "delete": "Xoá Tài Khoản"
-                    }
+                        "delete": "Xoá Tài Khoản",
+                        "title": "Quản lí Tài khoản"
+                    },
+                    "unique_id": "Đây là mã định danh người dùng duy nhất cho tài khoản của bạn."
                 },
                 "profile": {
                     "info": "Thông Tin",
                     "placeholder": "Viết gì đấy về bản thân…",
                     "custom_background": "Hình Nền Tuỳ Chỉnh",
-                    "edit_background": "Chỉnh Sửa Hình Nền"
+                    "edit_background": "Chỉnh Sửa Hình Nền",
+                    "fetching": "Đang tìm hồ sơ của bạn…",
+                    "title": "Hồ sơ"
                 }
             },
             "actions": {
                 "upload": "Tải lên",
-                "max_filesize": "(tối đa {{filesize}})"
+                "max_filesize": "(tối đa {{filesize}})",
+                "remove": "Loại bỏ"
             },
             "categories": {
-                "user_settings": "Cài Đặt Người Dùng"
-            }
+                "user_settings": "Cài Đặt Người Dùng",
+                "client_settings": "Cài đặt Khách hàng"
+            },
+            "title": "Cài đặt"
         }
     }
 }
