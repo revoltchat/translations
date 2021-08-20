@@ -269,10 +269,17 @@
                 "feedback": {
                     "title": "Phản Hồi",
                     "suggest": "Góp ý tính năng",
-                    "suggest_desc": "Gợi ý tính năng mới của Revolt ở các cuộc bàn luận trong GitHub."
+                    "suggest_desc": "Gợi ý tính năng mới của Revolt ở các cuộc bàn luận trong GitHub.",
+                    "issue": "Tạo một vấn đề mới",
+                    "issue_desc": "Để giúp chúng tôi xử lý các vấn đề dễ dàng hơn, bạn có thể tạo vấn đề trên GitHub.",
+                    "bug": "Trình theo dõi lỗi",
+                    "bug_desc": "Xem các báo cáo lỗi hiện đang hoạt động tại đây."
                 },
                 "native": {
                     "title": "Cài đặt màn hình"
+                },
+                "bots": {
+                    "title": "Bot của tôi"
                 }
             },
             "actions": {
@@ -289,7 +296,8 @@
                 "overview": {
                     "system_messages": "Kênh Tin Nhắn Hệ Thống",
                     "title": "Xem Trước",
-                    "name": "Tên Máy Chủ"
+                    "name": "Tên Máy Chủ",
+                    "description": "Mô tả kênh"
                 },
                 "members": {
                     "title": "Thành Viên"
@@ -298,13 +306,15 @@
                     "title": "Lời Mời",
                     "code": "Mã Lời Mời",
                     "invitor": "Người Mời",
-                    "channel": "Kênh"
+                    "channel": "Kênh",
+                    "revoke": "Thu hồi"
                 },
                 "bans": {
                     "title": "Cấm",
                     "user": "Người Dùng",
                     "reason": "Lý Do Cấm",
-                    "no_reason": "Không có lý do cấm."
+                    "no_reason": "Không có lý do cấm.",
+                    "revoke": "Thu hồi"
                 },
                 "roles": {
                     "title": "Vai trò"
@@ -315,7 +325,8 @@
             },
             "channel_pages": {
                 "overview": {
-                    "name": "Tên Kênh"
+                    "name": "Tên Kênh",
+                    "title": "Tổng quan"
                 },
                 "permissions": {
                     "title": "Quyền"
