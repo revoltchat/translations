@@ -289,7 +289,7 @@
             },
             "categories": {
                 "user_settings": "Cài Đặt Người Dùng",
-                "client_settings": "Cài đặt Khách hàng"
+                "client_settings": "Cài Đặt Ứng Dụng"
             },
             "title": "Cài đặt",
             "server_pages": {
@@ -326,7 +326,8 @@
             "channel_pages": {
                 "overview": {
                     "name": "Tên Kênh",
-                    "title": "Tổng quan"
+                    "title": "Tổng quan",
+                    "description": "Mô Tả Kênh"
                 },
                 "permissions": {
                     "title": "Quyền"
@@ -373,35 +374,35 @@
                 "from": {
                     "single": "Từ {{user}}",
                     "multiple": "Từ {{userlist}} và {{user}}",
-                    "several": "Từ {{userlist}} và {{count}} hơn nữa…"
+                    "several": "Từ {{userlist}} và {{count}} người nữa…"
                 }
             },
             "modals": {
                 "onboarding": {
-                    "pick": "Chọn tên người dùng mà bạn muốn mọi người có thể tìm thấy bạn, điều này có thể được thay đổi sau này trong cài đặt.",
+                    "pick": "Chọn tên người dùng mà bạn muốn mọi người có thể tìm thấy bạn, cái này có thể được thay đổi sau này trong cài đặt.",
                     "welcome": "Chào mừng đến"
                 },
                 "prompt": {
                     "create_invite_created": "Đây là mã lời mời mới của bạn:",
-                    "unfriend_user_long": "Bạn có thể không nói chuyện được với họ trừ khi bạn thêm họ lại.",
+                    "unfriend_user_long": "Bạn có thể không nói chuyện được với họ trừ khi bạn kết bạn lại.",
                     "confirm_leave": "Rời khỏi {{name}}?",
                     "confirm_leave_long": "Bạn sẽ không thể tham gia trừ khi được mời lại.",
                     "confirm_close_dm": "Đóng cuộc trò chuyện với {{name}}?",
-                    "confirm_close_dm_long": "Bạn có thể mở lại sau nhưng nó sẽ biến mất ở cả hai mặt.",
+                    "confirm_close_dm_long": "Bạn có thể mở lại sau nhưng nó sẽ biến mất ở cả hai bên.",
                     "confirm_delete": "Xóa {{name}}?",
                     "confirm_delete_long": "Một khi nó đã bị xoá, không thể khôi phục lại.",
                     "confirm_delete_message_long": "Bạn có chắc chắn muốn xóa nó không?",
                     "create_invite_generate": "Tạo lời mời…",
-                    "confirm_kick": "Bạn có chắc muốn kick {{name}} không?",
+                    "confirm_kick": "Bạn có chắc muốn đuổi {{name}} không?",
                     "confirm_ban": "Bạn đang chuẩn bị cấm {{name}}",
-                    "confirm_ban_reason": "Lý do cấm",
+                    "confirm_ban_reason": "Lý Do Cấm",
                     "unfriend_user": "Xóa {{name}}?",
-                    "block_user": "Khóa {{name}}?",
-                    "block_user_long": "Bạn có chắc muốn khóa {{name}}? Họ cũng sẽ bị xóa khỏi danh sách bạn của bạn."
+                    "block_user": "Chặn {{name}}?",
+                    "block_user_long": "Bạn có chắc muốn chặn {{name}}? Họ cũng sẽ bị xóa khỏi danh sách bạn của bạn."
                 },
                 "actions": {
                     "leave": "Rời khỏi",
-                    "reload": "Đang tải lại ứng dụng",
+                    "reload": "Đang Tải Lại Ứng Dụng",
                     "ok": "Ok",
                     "ban": "Cấm",
                     "kick": "Đuổi",
@@ -410,11 +411,11 @@
                     "block": "Chặn",
                     "close": "Đóng",
                     "back": "Quay lại",
-                    "remove": "Dời khỏi",
+                    "remove": "Gỡ",
                     "delete": "Xóa",
                     "create": "Tạo",
-                    "reveal": "Lộ",
-                    "update": "Bản cập nhật",
+                    "reveal": "Mở",
+                    "update": "Cập nhật",
                     "cancel": "Hủy bỏ",
                     "preview": "Xem trước",
                     "continue": "Tiếp tục",
@@ -437,11 +438,11 @@
             },
             "popovers": {
                 "user_profile": {
-                    "mutual_groups": "Nhóm chung",
-                    "profile": "Hồ sơ",
-                    "mutual_friends": "Bạn chung",
-                    "mutual_servers": "Máy chủ chung",
-                    "empty": "Hơi trống ở đây đấy…",
+                    "mutual_groups": "Nhóm Chung",
+                    "profile": "Hồ Sơ",
+                    "mutual_friends": "Bạn Chung",
+                    "mutual_servers": "Máy Chủ Chung",
+                    "empty": "Hơi trống trải ở đây đấy…",
                     "no_users": "Không có bạn chung!",
                     "no_groups": "Không có nhóm chung!",
                     "no_servers": "Không có máy chủ chung!",
@@ -464,20 +465,20 @@
                 "d": "Cho phép thành viên gửi tin nhắn trên kênh chat."
             },
             "UploadFiles": {
-                "t": "Tải tệp lên",
+                "t": "Tải Lên Tệp",
                 "d": "Cho phép thành viên gửi tệp lên kênh chat."
             },
             "ManageMessages": {
-                "t": "Quản lý tin nhắn",
+                "t": "Quản Lý Tin Nhắn",
                 "d": "Cho phép thành viên xóa tin nhắn của các thành viên khác."
             },
             "ManageChannel": {
                 "d": "Cho phép thành viên chỉnh sửa hoặc xóa kênh.",
-                "t": "Quản lý kênh"
+                "t": "Quản Lý Kênh"
             },
             "VoiceCall": {
-                "t": "Hội thoại",
-                "d": "Cho phép thành viên vào kênh cuộc gọi."
+                "t": "Hội Thoại",
+                "d": "Cho phép thành viên vào kênh thoại."
             },
             "InviteOthers": {
                 "t": "Mời Người khác",
@@ -485,12 +486,12 @@
             },
             "EmbedLinks": {
                 "t": "Link được cài vào",
-                "d": "Cho phép thành viên đưa ra nội dung được nhúng vào qua link họ gửi trên kênh chat."
+                "d": "Cho phép thành viên đưa ra nội dung được nhúng vào qua link họ gửi trên kênh văn bản."
             }
         },
         "server": {
             "RemoveAvatars": {
-                "d": "Cho phép thành viên ảnh đại diện máy chủ của thành viên khác trong máy chủ này."
+                "d": "Cho phép thành viên gỡ ảnh đại diện máy chủ của thành viên khác trong máy chủ này."
             }
         }
     }
