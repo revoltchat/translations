@@ -162,7 +162,7 @@
         },
         "special": {
             "friends": {
-                "pending": "Oczekujące",
+                "pending": "Oczekująca prośba",
                 "outgoing": "Wysłano zaproszenie.",
                 "incoming": "Przychodzące zaproszenie do znajomych.",
                 "blocked": "Zablokowani",
@@ -171,7 +171,8 @@
                     "single": "Od {{user}}",
                     "several": "Od {{userlist}} i {{count}} innych…",
                     "multiple": "Od {{userlist}} i {{user}}"
-                }
+                },
+                "sent": "Wychodzące"
             },
             "requires_online": "Aby to wyświetlić, musisz być online.",
             "modals": {
@@ -383,8 +384,13 @@
                     "send": "Prześlij opinię",
                     "other": "Inne",
                     "feature": "Propozycje funkcji",
-                    "bug": "Błąd",
-                    "report": "Co chcesz zgłosić?"
+                    "bug": "Znane błędy",
+                    "report": "Co chcesz zgłosić?",
+                    "suggest": "Prześlij propozycję funkcji",
+                    "bug_desc": "Zobacz aktualnie aktywne raporty o błędach tutaj.",
+                    "suggest_desc": "Zaproponuj nowe funkcje Revolt na Github discussions.",
+                    "issue": "Powiadom o problemie",
+                    "issue_desc": "Aby pomóc nam segregować problemy, możesz napisać o nim na GitHubie."
                 },
                 "source_code": "Kod źródłowy",
                 "donate": {
@@ -489,20 +495,25 @@
                 "bans": {
                     "title": "Bany",
                     "reason": "Powód Bana",
-                    "user": "Użytkownik"
+                    "user": "Użytkownik",
+                    "no_reason": "Nie podano powodu.",
+                    "revoke": "Cofnij"
                 },
                 "invites": {
                     "title": "Zaproszenia",
                     "code": "Kod zaproszenia",
                     "invitor": "Zapraszający",
-                    "channel": "Kanał"
+                    "channel": "Kanał",
+                    "revoke": "Unieważnij"
                 },
                 "roles": {
                     "title": "Role"
                 },
                 "overview": {
                     "name": "Nazwa serwera",
-                    "description": "Opis kanału"
+                    "description": "Opis kanału",
+                    "title": "Przegląd",
+                    "system_messages": "Kanały Wiadomości Systemowych"
                 },
                 "members": {
                     "title": "Członkowie"
@@ -514,7 +525,9 @@
             "permissions": {
                 "default_role": "Podstawowe",
                 "create_role": "Stwórz nową rolę",
-                "role_name": "Nazwa roli"
+                "role_name": "Nazwa roli",
+                "server": "Uprawnienia serwera",
+                "channel": "Uprawnienia kanału"
             }
         },
         "permissions": {
