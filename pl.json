@@ -135,7 +135,8 @@
                     "title": "Szukaj",
                     "sort": {
                         "latest": "Najnowsze",
-                        "oldest": "Najstarsze"
+                        "oldest": "Najstarsze",
+                        "relevance": "Trafność"
                     }
                 }
             },
@@ -347,7 +348,10 @@
                     },
                     "theme": "Motyw",
                     "emoji_pack": "Zestaw Emotikonek",
-                    "font": "Czcionka"
+                    "font": "Czcionka",
+                    "mono_font": "Wybór czcionki Monospace",
+                    "ligatures": "Ligatura czcionki",
+                    "ligatures_desc": "Dla obsługiwanych czcionek ligatury łączą ze sobą znaki, przykładowo zmieniając -> w strzałkę. Zmień czcionkę na Inter i spróbuj włączyć tę opcję."
                 },
                 "sessions": {
                     "created": "Utworzono {{time_ago}}",
@@ -388,7 +392,8 @@
                 "language": {
                     "title": "Język",
                     "select": "Wybierz swój język",
-                    "other": "Języki alternatywne"
+                    "other": "Języki alternatywne",
+                    "const": "Języki sztuczne"
                 },
                 "notifications": {
                     "descriptions": {
@@ -424,7 +429,8 @@
                 "sync": {
                     "descriptions": {
                         "theme": "Spowoduje to synchronizacje wybranego motywu, kolorów i własnego kodu CSS.",
-                        "locale": "Wybrany język zostanie zsynchronizowany."
+                        "locale": "Wybrany język zostanie zsynchronizowany.",
+                        "appearance": "Spowoduje to zsynchronizowanie opcji, takich jak zestaw emoji i wygląd wiadomości."
                     },
                     "title": "Synchronizuj",
                     "categories": "Synchronizuj kategorie"
