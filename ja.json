@@ -1,1 +1,346 @@
-{}
+{
+    "app": {
+        "settings": {
+            "tips": {
+                "account": {
+                    "b": "自分のプロフィール設定に進みます。",
+                    "a": "公開されているプロフィールをカスタマイズしたい方?"
+                }
+            },
+            "server_pages": {
+                "categories": {
+                    "title": "カテゴリー"
+                },
+                "roles": {
+                    "title": "役割"
+                },
+                "bans": {
+                    "no_reason": "禁止理由はありません。",
+                    "revoke": "リボーク",
+                    "reason": "禁止理由",
+                    "user": "ユーザー",
+                    "title": "バンズ"
+                },
+                "invites": {
+                    "revoke": "リボーク",
+                    "channel": "チャンネル",
+                    "invitor": "インバイター",
+                    "code": "招待コード",
+                    "title": "招待状"
+                },
+                "members": {
+                    "title": "メンバー"
+                },
+                "overview": {
+                    "system_messages": "システムメッセージチャンネル",
+                    "description": "チャンネルの説明",
+                    "name": "サーバー名",
+                    "title": "概要"
+                }
+            },
+            "channel_pages": {
+                "permissions": {
+                    "title": "パーミッション"
+                },
+                "overview": {
+                    "description": "チャンネルの説明",
+                    "name": "チャンネル名",
+                    "title": "概要"
+                }
+            },
+            "pages": {
+                "logOut": "ログアウト",
+                "feedback": {
+                    "bug_desc": "現在進行中のバグレポートはこちら。",
+                    "bug": "バグトラッカー",
+                    "issue_desc": "問題のトリアージを容易にするために、GitHub上で課題を作成することができます。",
+                    "issue": "新規課題の作成",
+                    "suggest_desc": "Revoltの新しい機能をGitHubのディスカッションで提案してみましょう。",
+                    "suggest": "機能提案の提出",
+                    "title": "フィードバック"
+                },
+                "bots": {
+                    "title": "マイボッツ"
+                },
+                "source_code": "ソースコード",
+                "donate": {
+                    "title": "寄贈"
+                },
+                "experiments": {
+                    "not_available": "現時点では実験はできません。",
+                    "features": "利用可能な機能",
+                    "title": "実験の様子"
+                },
+                "native": {
+                    "title": "デスクトップ設定"
+                },
+                "sync": {
+                    "descriptions": {
+                        "locale": "これにより、現在選択されている言語が同期されます。",
+                        "theme": "これにより、選択したテーマ、カラー、カスタムCSSが同期されます。",
+                        "appearance": "これにより、絵文字パックやメッセージ密度などのオプションが同期されます。"
+                    },
+                    "categories": "カテゴリーの同期",
+                    "title": "シンク"
+                },
+                "language": {
+                    "other": "その他の言語オプション",
+                    "const": "構築された言語",
+                    "select": "言語の選択",
+                    "title": "言語"
+                },
+                "notifications": {
+                    "sound": {
+                        "call_leave": "ユーザーレフトコール",
+                        "call_join": "ユーザーがコールに参加",
+                        "outbound": "メッセージ送信",
+                        "message": "受信したメッセージ"
+                    },
+                    "descriptions": {
+                        "enable_push": "オフラインになったときに通知を受け取るようにする。",
+                        "enable_desktop": "これにより、アプリを開いている間、通知を受け取ることができます。"
+                    },
+                    "sounds": "サウンド",
+                    "push_notifications": "プッシュ通知",
+                    "title": "お知らせ",
+                    "enable_push": "プッシュ通知を有効にする。",
+                    "enable_desktop": "デスクトップ通知を有効にする。"
+                },
+                "appearance": {
+                    "ligatures_desc": "サポートされているフォントでは、合字は文字を組み合わせて使うもので、例えば「->」を「矢印」に変えることができます。Interに切り替えて、このオプションを切り替えてみてください。",
+                    "ligatures": "フォントリガチャー",
+                    "mono_font": "Monospaceフォントセレクター",
+                    "font": "フォント",
+                    "sync": "同期オプション",
+                    "custom_css": "カスタムCSS",
+                    "theme_data": "テーマデータ",
+                    "import_theme": "テーマを文字列から読み込む",
+                    "import": "テーマの読み込み",
+                    "reset_overrides": "リセットのオーバーライド",
+                    "overrides": "テーマのオーバーライド",
+                    "advanced": "高度なオプション",
+                    "message_display": "メッセージ表示",
+                    "emoji_pack": "絵文字パック",
+                    "accent_selector": "アクセントカラー",
+                    "color": {
+                        "dark": "ダーク",
+                        "light": "ライト"
+                    },
+                    "display": {
+                        "compact_description": "古き良き時代のIRC。",
+                        "default_description": "美しく、洗練された、モダンなデザイン。",
+                        "compact": "コンパクト",
+                        "default": "デフォルト"
+                    },
+                    "theme": "テーマ",
+                    "title": "外観"
+                },
+                "audio": {
+                    "output_device": "スピーカー/ヘッドセット",
+                    "input_device": "マイクロフォン",
+                    "title": "音声設定"
+                },
+                "sessions": {
+                    "logout": "他のすべてのセッションからのログアウト",
+                    "created": "作成された{{time_ago}}",
+                    "this_device": "このデバイス",
+                    "active_sessions": "アクティブセッション",
+                    "title": "セッション"
+                },
+                "profile": {
+                    "edit_profile": "プロフィール編集",
+                    "edit_background": "編集背景",
+                    "custom_background": "カスタムバックグラウンド",
+                    "profile_picture": "プロフィール写真",
+                    "placeholder": "自分のことを書いて…",
+                    "fetching": "あなたのプロフィールを取得しています…",
+                    "info": "インフォメーション",
+                    "title": "プロフィール"
+                },
+                "account": {
+                    "manage": {
+                        "delete": "アカウントの削除",
+                        "disable": "アカウントの無効化",
+                        "description": "いつでもアカウントを無効にしたり、削除することができます。この操作を行うと、ログアウトして、チャット履歴や友達を含むアカウントが完全に削除されます。",
+                        "title": "アカウント管理"
+                    },
+                    "2fa": {
+                        "remove_auth": "Authenticatorの削除",
+                        "add_auth": "Authenticatorの追加",
+                        "description": "お客様のアカウントで2FAを有効にすることで、さらにセキュリティを高めることができます。",
+                        "title": "2ファクタ認証"
+                    },
+                    "unique_id": "これは、お客様のアカウントに固有のユーザー識別子です。",
+                    "change_field": "変更",
+                    "title": "マイアカウント"
+                }
+            },
+            "actions": {
+                "max_filesize": "(最大{{filesize}})",
+                "upload": "アップロード",
+                "remove": "削除"
+            },
+            "categories": {
+                "client_settings": "クライアント設定",
+                "user_settings": "ユーザー設定"
+            },
+            "title": "設定"
+        },
+        "main": {
+            "servers": {
+                "voice_channel": "ボイスチャンネル",
+                "text_channel": "テキストチャンネル",
+                "owner": "サーバーオーナー",
+                "custom_banner": "カスタムバナー",
+                "channel_description": "チャンネルの説明",
+                "channel_type": "チャンネルタイプ",
+                "channel_name": "チャンネル名",
+                "description": "サーバーの説明",
+                "name": "サーバー名",
+                "create": "サーバーの作成"
+            },
+            "groups": {
+                "owner": "グループオーナー",
+                "description": "グループ概要",
+                "name": "グループ名",
+                "create": "グループの作成"
+            },
+            "channel": {
+                "search": {
+                    "sort": {
+                        "oldest": "最古",
+                        "latest": "最新",
+                        "relevance": "関連性"
+                    },
+                    "title": "検索"
+                },
+                "notifications": {
+                    "muted": "ミュート",
+                    "none": "なし",
+                    "mention": "メンションのみ",
+                    "all": "すべてのメッセージ",
+                    "default": "デフォルトの使用"
+                },
+                "bot": "ボット",
+                "edited": "(編集)",
+                "unknown_user": "未知のユーザー",
+                "nsfw": {
+                    "confirm": "私は、私が18歳以上であることを確認します。",
+                    "channel": {
+                        "confirm": "チャンネルに入る",
+                        "marked": "このチャンネルはNSFWとしてマークされています。"
+                    }
+                },
+                "misc": {
+                    "sent_multiple_files": "複数の添付ファイルを送信",
+                    "sent_file": "添付ファイルの送信",
+                    "blocked_user": "ブロックされたユーザー",
+                    "blocked_messages": "{{count}}件の着信拒否メッセージ",
+                    "no_sending": "このチャンネルでメッセージを送信する権限がありません。",
+                    "failed_load": "メッセージを読み込めませんでした。",
+                    "spoiler_attachment": "ネタバレ",
+                    "jump_present": "現在に至る",
+                    "viewing_old": "古いメッセージの表示"
+                },
+                "voice": {
+                    "unmute": "アンミュート",
+                    "mute": "ミュート",
+                    "leave": "ボイスチャットを残す",
+                    "connected": "ボイスチャンネルに接続"
+                },
+                "start": {
+                    "group": "これが会話の始まりです。"
+                },
+                "system": {
+                    "channel_icon_changed": "{{user}}はチャンネルアイコンを変更しました",
+                    "channel_description_changed": "{{user}}がチャンネルの説明を変更しました",
+                    "channel_renamed": "{{user}}はチャンネルを{{name}}にリネームしました",
+                    "removed_by": "{{user}}は{{other_user}}によって削除されました",
+                    "added_by": "{{user}}は{{other_user}}によって追加されました",
+                    "user_banned": "{{user}}がサーバーから禁止されました",
+                    "user_kicked": "{{user}}がサーバーからキックされました",
+                    "user_left": "{{user}}がサーバーから離脱",
+                    "user_joined": "{{user}}の参加"
+                },
+                "typing": {
+                    "several": "何人もの人が入力している…",
+                    "multiple": "{{userlist}}と{{user}}が入力している…",
+                    "single": "{{user}}が入力している…"
+                },
+                "attached_file": "添付された{{filename}}",
+                "failed_upload": "アップロードに失敗しました!",
+                "uploading_file": "アップロード中…",
+                "message_saved": "ノートに保存",
+                "message_who": "{{person}}にメッセージを送る",
+                "message_where": "{{channel_name}}にメッセージを送る"
+            },
+            "categories": {
+                "members": "メンバー",
+                "channels": "チャンネル",
+                "participants": "参加者",
+                "conversations": "会話"
+            }
+        },
+        "navigation": {
+            "tabs": {
+                "saved": "保存されたノート",
+                "unreads": "未読",
+                "friends": "フレンズ",
+                "dev": "開発者",
+                "home": "ホーム"
+            }
+        },
+        "status": {
+            "offline": "オフライン",
+            "invisible": "インビジブル",
+            "busy": "邪魔しないで",
+            "idle": "離席中",
+            "online": "オンライン"
+        }
+    },
+    "login": {
+        "error": {
+            "resend": "再送に失敗しました!",
+            "reset": "リセットに失敗しました!",
+            "login": "ログインに失敗しました!",
+            "create": "登録に失敗しました!"
+        },
+        "successful_registration": "登録が完了しました!",
+        "open_mail_provider": "オープン {{provider}}",
+        "check_spam": "見つからない場合は、迷惑メールをご確認ください",
+        "email_delay": "到着までに10分程度かかる場合があります。",
+        "check_mail": "メールをチェックする。",
+        "cancel": "リクエストをキャンセルします。",
+        "resend": "検証を再送する。",
+        "missing_verification": "メールがない？",
+        "create": "新しいアカウントを作成します。",
+        "existing": "既にアカウントをお持ちの方?",
+        "new": "Revoltは初めてですか？",
+        "remembered": "ログインに戻ります。",
+        "set_password": "新しいパスワードを設定する。",
+        "reset": "パスワードをリセットする。",
+        "forgot": "パスワードをお忘れですか？",
+        "enter": {
+            "current_password": "現在のパスワードを入力してください。",
+            "invite": "招待コードを入力してください。",
+            "password": "パスワードを入力してください。",
+            "email": "Eメールを入力してください。",
+            "username": "ユーザー名を入力してください。"
+        },
+        "current_password": "現在のパスワード",
+        "invite": "招待コード",
+        "password": "パスワード",
+        "email": "電子メール",
+        "username": "ユーザー名",
+        "register": "登録",
+        "title": "ログイン"
+    },
+    "general": {
+        "unavailable": "入手不可能",
+        "disabled": "無効化",
+        "loading": "ローディング…",
+        "privacy": "プライバシーポリシー",
+        "tos": "利用規約",
+        "about": "について"
+    }
+}
