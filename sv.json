@@ -7,7 +7,8 @@
         "loading": "Laddar…",
         "on": "På",
         "off": "Av",
-        "disabled": "Inaktiverad"
+        "disabled": "Inaktiverad",
+        "unavailable": "otillgänglig"
     },
     "login": {
         "title": "Logga in",
@@ -65,7 +66,7 @@
                 },
                 "typing": {
                     "several": "Flera personer skriver…",
-                    "multiple": "{{userlist}} och {{user}} skriver...",
+                    "multiple": "{{userlist}} och {{user}} skriver. . .",
                     "single": "{{user}} skriver…"
                 },
                 "attached_file": "Bifogade {{filename}}",
@@ -85,7 +86,9 @@
                     "no_sending": "Du har inte behörighet att skicka meddelanden i denna kanal.",
                     "blocked_user": "Blockerad Användare",
                     "failed_load": "Kunde inte ladda in meddelande.",
-                    "blocked_messages": "{{count}} blockerade meddelanden"
+                    "blocked_messages": "{{count}} blockerade meddelanden",
+                    "sent_file": "Laddade upp en bilagor",
+                    "sent_multiple_files": "Laddade upp bilagorna"
                 },
                 "voice": {
                     "unmute": "Sluta tysta",
@@ -267,56 +270,57 @@
             "invite": {
                 "invited_by": "Inbjuden av {{user}}",
                 "login": "Logga in till Revolt",
-                "accept": "Acceptera Inbjudan"
+                "accept": "Acceptera Inbjudan",
+                "user_count": "{{member_count}} användarna"
             }
         },
         "context_menu": {
-            "block_user": "Blockera Användare",
+            "block_user": "Blockera användare",
             "copy_id": "Kopiera ID",
             "message_user": "Meddela",
-            "cancel_friend": "Avbryt Förfrågan",
-            "remove_friend": "Ta Bort Vän",
-            "add_friend": "Lägg Till Vän",
-            "unblock_user": "Avblockera Användare",
-            "delete_message": "Radera Meddelande",
-            "edit_message": "Redigera Meddelande",
+            "cancel_friend": "Avbryt förfrågan",
+            "remove_friend": "Ta bort vän",
+            "add_friend": "Lägg till vän",
+            "unblock_user": "Avblockera användare",
+            "delete_message": "Radera meddelande",
+            "edit_message": "Redigera meddelande",
             "mark_as_read": "Markera som läst",
             "copy_mid": "Kopiera Meddelande-ID",
-            "copy_cid": "Kopiera Kanal-ID",
-            "copy_uid": "Kopiera Användar-ID",
+            "copy_cid": "Kopiera kanal-ID",
+            "copy_uid": "Kopiera användar-ID",
             "remove_member": "Ta bort från grupp",
-            "quote_message": "Citera Meddelande",
-            "copy_text": "Kopiera Text",
-            "save_video": "Spara Video",
-            "open_video": "Öppna Video",
-            "save_image": "Spara Bild",
-            "open_image": "Öppna Bild",
-            "save_file": "Spara Fil",
-            "open_file": "Öppna Fil",
-            "cancel_message": "Avbryt Sändning",
+            "quote_message": "Citera meddelande",
+            "copy_text": "Kopiera text",
+            "save_video": "Spara video",
+            "open_video": "Öppna video",
+            "save_image": "Spara bild",
+            "open_image": "Öppna bild",
+            "save_file": "Spara fil",
+            "open_file": "Öppna fil",
+            "cancel_message": "Avbryt sändning",
             "retry_message": "Försök att skicka igen",
             "mention": "Nämn",
-            "open_link": "Öppna Länk",
-            "copy_link": "Kopiera Länk",
+            "open_link": "Öppna länk",
+            "copy_link": "Kopiera länk",
             "set_custom_status": "Sätt en anpassad status",
-            "clear_status": "Rensa Status",
-            "custom_status": "Anpassad Status",
+            "clear_status": "Rensa status",
+            "custom_status": "Anpassad status",
             "open_channel_settings": "Kanalinställningar",
             "open_group_settings": "Gruppinställningar",
-            "leave_group": "Lämna Grupp",
-            "copy_selection": "Kopiera Urval",
-            "copy_sid": "Kopiera Server-ID",
-            "leave_server": "Lämna Server",
+            "leave_group": "Lämna grupp",
+            "copy_selection": "Kopiera urval",
+            "copy_sid": "Kopiera server-ID",
+            "leave_server": "Lämna server",
             "close_dm": "Stäng DM",
-            "delete_server": "Radera Server",
-            "delete_channel": "Radera Kanal",
-            "create_channel": "Skapa Kanal",
-            "create_invite": "Skapa Inbjudan",
+            "delete_server": "Radera server",
+            "delete_channel": "Radera kanal",
+            "create_channel": "Skapa kanal",
+            "create_invite": "Skapa inbjudan",
             "open_server_settings": "Serverinställningar",
-            "view_profile": "Visa Profil",
-            "kick_member": "Sparka Medlem",
+            "view_profile": "Visa profil",
+            "kick_member": "Sparka medlem",
             "open_notification_options": "Aviseringsinställningar",
-            "ban_member": "Bannlys Medlem",
+            "ban_member": "Bannlys medlem",
             "reply_message": "Svara"
         },
         "settings": {
@@ -415,7 +419,7 @@
                     "describe": "Beskriv problemet.",
                     "other": "Annat",
                     "feature": "Funktionsförfrågan",
-                    "bug": "Bugg",
+                    "bug": "Buggspårare",
                     "report": "Vad vill du rapportera?"
                 },
                 "profile": {
@@ -425,7 +429,8 @@
                     "fetching": "Hämtar din profil…",
                     "edit_background": "Redigera Bakgrund",
                     "custom_background": "Profilbakgrund",
-                    "profile_picture": "Profilbild"
+                    "profile_picture": "Profilbild",
+                    "edit_profile": "Redigera profil"
                 },
                 "sync": {
                     "title": "Synkronisering",
@@ -443,6 +448,14 @@
                 },
                 "native": {
                     "title": "Skrivbordsinställningar"
+                },
+                "audio": {
+                    "title": "Röstinställningar",
+                    "output_device": "Högtalare / Hörlurar",
+                    "input_device": "Mikrofone"
+                },
+                "bots": {
+                    "title": "Min bottar"
                 }
             },
             "categories": {
@@ -519,7 +532,7 @@
             }
         },
         "permissions": {
-            "required": "Saknar Behörigheter"
+            "required": "Saknar behörigheter"
         }
     },
     "dayjs": {
