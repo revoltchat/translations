@@ -1,1 +1,360 @@
-{}
+{
+    "app": {
+        "settings": {
+            "pages": {
+                "appearance": {
+                    "mono_font": "Monospace Font Selector",
+                    "font": "Font",
+                    "ligatures_desc": "V prípade podporovaných fontov, ligatúry kombinujú znaky dohromady, napríklad otáčaním -> do šípky. Prepnite na Inter a skúste túto možnosť prepínať.",
+                    "ligatures": "Font Ligatúry",
+                    "sync": "Možnosti Synchronizácie",
+                    "custom_css": "Vlastné CSS",
+                    "theme_data": "Údaje o Motíve",
+                    "import_theme": "Importujte Motív z textu",
+                    "theme": "Motív",
+                    "overrides": "Prepísania Motívu",
+                    "import": "Importovať Motív",
+                    "accent_selector": "Farba Zvýraznenia",
+                    "reset_overrides": "Resetovať Prepísania",
+                    "advanced": "Pokročilé Nastavenia",
+                    "message_display": "Zobrazenie Správ",
+                    "emoji_pack": "Balíček Emoji",
+                    "color": {
+                        "dark": "tmavý",
+                        "light": "svetlý"
+                    },
+                    "display": {
+                        "compact_description": "Starý dobrý IRC.",
+                        "default_description": "Krásne, elegantné a moderné.",
+                        "compact": "Kompaktný",
+                        "default": "Predvolené"
+                    },
+                    "title": "Vzhľad"
+                },
+                "account": {
+                    "manage": {
+                        "description": "Svoj účet môžete kedykoľvek deaktivovať alebo odstrániť. Táto akcia vás odhlási a úplne odstráni váš účet vrátane histórie rozhovorov a priateľov.",
+                        "delete": "Odstrániť Účet",
+                        "disable": "Deaktivovať Účet",
+                        "title": "Vedenie Účtu"
+                    },
+                    "2fa": {
+                        "remove_auth": "Odstrániť Authenticator",
+                        "add_auth": "Pridajte aplikáciu Authenticator",
+                        "title": "Dvojfaktorová Autentifikácia",
+                        "description": "Pridajte ďalšiu úroveň zabezpečenia tým, že vo svojom účte povolíte 2FA."
+                    },
+                    "unique_id": "Toto je jedinečný identifikátor používateľa pre váš účet.",
+                    "change_field": "Zmeniť",
+                    "title": "Môj Účet"
+                },
+                "logOut": "Odhlásiť sa",
+                "feedback": {
+                    "bug_desc": "Aktuálne aktívne hlásenia chýb nájdete tu.",
+                    "bug": "Sledovanie Chýb",
+                    "issue_desc": "Aby ste nám uľahčili triedenie problémov, môžete problém vytvoriť na GitHube.",
+                    "issue": "Vytvorte nový problém",
+                    "suggest_desc": "Navrhnite nové funkcie Revoltu v diskusiách na GitHube.",
+                    "suggest": "Odošlite návrh Funkcie",
+                    "title": "Spätná väzba"
+                },
+                "bots": {
+                    "title": "Moji Boti"
+                },
+                "source_code": "Zdrojový Kód",
+                "donate": {
+                    "title": "Darovať"
+                },
+                "experiments": {
+                    "not_available": "V súčasnosti nie sú k dispozícii žiadne experimenty.",
+                    "features": "Dostupné Funkcie",
+                    "title": "Experimenty"
+                },
+                "native": {
+                    "title": "Nastavenia Pracovnej Plochy"
+                },
+                "sync": {
+                    "descriptions": {
+                        "locale": "Týmto sa synchronizuje váš aktuálne zvolený jazyk.",
+                        "appearance": "Týmto sa budú synchronizovať možnosti, ako sú balíčky emodži a hustota správ.",
+                        "theme": "Týmto sa synchronizuje vami zvolený motív, farby a akékoľvek vlastné CSS."
+                    },
+                    "categories": "Synchronizovať Kategórie",
+                    "title": "Synchronizovať"
+                },
+                "language": {
+                    "other": "Ďalšie možnosti Jazyku",
+                    "const": "Konštruované jazyky",
+                    "select": "Vyberte svoj jazyk",
+                    "title": "Jazyk"
+                },
+                "notifications": {
+                    "sound": {
+                        "call_leave": "Používateľ odišiel z Hovoru",
+                        "call_join": "Používateľ sa pripojil do Hovoru",
+                        "message": "Správa Prijatá",
+                        "outbound": "Správa Odoslaná"
+                    },
+                    "descriptions": {
+                        "enable_push": "Povoliť prijímanie oznámení, keď ste offline.",
+                        "enable_desktop": "Budete takto dostávať oznámenia, pokiaľ bude vaša aplikácia otvorená."
+                    },
+                    "sounds": "Zvuky",
+                    "enable_push": "Povoliť push Oznánemia.",
+                    "enable_desktop": "Povoliť Oznámenia na Ploche.",
+                    "push_notifications": "Push Oznámenia",
+                    "title": "Oznámenia"
+                },
+                "audio": {
+                    "output_device": "Reproduktor / Headset",
+                    "input_device": "Mikrofón",
+                    "title": "Hlasové Nastavenia"
+                },
+                "sessions": {
+                    "logout": "Odhláste sa zo všetkých ostatných relácií",
+                    "created": "Vytvorené {{time_ago}}",
+                    "this_device": "Toto Zariadenie",
+                    "active_sessions": "Aktívne Relácie",
+                    "title": "Relácie"
+                },
+                "profile": {
+                    "edit_profile": "Upraviť Profil",
+                    "edit_background": "Upraviť Pozadie",
+                    "profile_picture": "Profilový Obrázok",
+                    "custom_background": "Vlastné Pozadie",
+                    "placeholder": "Napíš niečo o sebe…",
+                    "fetching": "Načítava sa váš profil…",
+                    "info": "Informácie",
+                    "title": "Profil"
+                }
+            },
+            "actions": {
+                "max_filesize": "(max {{filesize}})",
+                "upload": "Nahrať",
+                "remove": "Odstrániť"
+            },
+            "permissions": {
+                "server": "Povolenia Servera",
+                "default_role": "Predvolené"
+            },
+            "tips": {
+                "sessions": {
+                    "b": "zabezpečte si účet zmenou hesla a použitím 2FA.",
+                    "a": "Ak v zozname vidíte neznámu reláciu,"
+                },
+                "languages": {
+                    "b": "Pomôžte prispieť ďalším prekladom.",
+                    "a": "Chýba vám požadovaný jazyk?"
+                },
+                "account": {
+                    "b": "Prejdite do nastavení svojho profilu.",
+                    "a": "Chcete prispôsobiť svoj verejný profil?"
+                }
+            },
+            "server_pages": {
+                "categories": {
+                    "title": "Kategórie"
+                },
+                "roles": {
+                    "title": "Roly"
+                },
+                "bans": {
+                    "no_reason": "Ban nemá špecifikovaný dôvod.",
+                    "revoke": "Odvolať",
+                    "reason": "Ban Dôvod",
+                    "user": "Používateľ"
+                },
+                "invites": {
+                    "revoke": "Odvolať",
+                    "channel": "Kanál",
+                    "invitor": "Pozývateľ",
+                    "code": "Kód Pozvánky",
+                    "title": "Pozvánky"
+                },
+                "members": {
+                    "title": "Členovia"
+                },
+                "overview": {
+                    "system_messages": "Kanály Systémových Správ",
+                    "description": "Popis Kanála",
+                    "name": "Meno Servera",
+                    "title": "Prehľad"
+                }
+            },
+            "channel_pages": {
+                "permissions": {
+                    "title": "Povolenia"
+                },
+                "overview": {
+                    "description": "Popis Kanála",
+                    "name": "Meno Kanála",
+                    "title": "Prehľad"
+                }
+            },
+            "categories": {
+                "client_settings": "Nastavenie Klienta",
+                "user_settings": "Užívateľské nastavenia"
+            },
+            "title": "Nastavenia"
+        },
+        "main": {
+            "servers": {
+                "voice_channel": "Hlasový Kanál",
+                "text_channel": "Textový Kanál",
+                "owner": "Majiteľ Servera",
+                "custom_banner": "Vlastný Banner",
+                "channel_description": "Popis Kanála",
+                "channel_type": "Typ Kanála",
+                "channel_name": "Meno Kanála",
+                "description": "Popis Servera",
+                "name": "Meno Servera",
+                "create": "Vytvoriť Server"
+            },
+            "groups": {
+                "owner": "Majitel Skupiny",
+                "description": "Popis Skupiny",
+                "name": "Meno Skupiny",
+                "create": "Vytvoriť skupinu"
+            },
+            "channel": {
+                "search": {
+                    "sort": {
+                        "oldest": "Najstaršie",
+                        "latest": "Najnovšie",
+                        "relevance": "Relevantnosť"
+                    },
+                    "title": "Hľadať"
+                },
+                "notifications": {
+                    "muted": "Stlmený",
+                    "none": "Žiadny",
+                    "mention": "Iba Zmienky",
+                    "all": "Všetky Správy",
+                    "default": "Použiť Predvolené"
+                },
+                "bot": "bot",
+                "edited": "(upravené)",
+                "unknown_user": "<Neznámy používateľ>",
+                "nsfw": {
+                    "confirm": "Potvrdzujem, že mám najmenej 18 rokov.",
+                    "channel": {
+                        "confirm": "Zadajte kanál",
+                        "marked": "Tento kanál je označený ako NSFW."
+                    }
+                },
+                "misc": {
+                    "sent_multiple_files": "Odoslal viacero príloh",
+                    "sent_file": "Odoslal prílohu",
+                    "blocked_user": "Zablokovaný Používateľ",
+                    "blocked_messages": "{{count}} zablokovaných správ",
+                    "spoiler_attachment": "Spoiler",
+                    "no_sending": "Na odosielanie správ v tomto kanáli nemáte povolenie.",
+                    "failed_load": "Správu sa nepodarilo načítať.",
+                    "jump_present": "Skočiť do dneška",
+                    "viewing_old": "Zobrazenie starších správ"
+                },
+                "voice": {
+                    "unmute": "Zapnúť Zvuk",
+                    "mute": "Stlmiť",
+                    "leave": "Odísť",
+                    "connected": "Hlas Pripojený"
+                },
+                "start": {
+                    "group": "Toto je začiatok vašej konverzácie."
+                },
+                "system": {
+                    "channel_icon_changed": "{{user}} zmenil ikonu kanála",
+                    "channel_description_changed": "{{user}} zmenil popis kanála",
+                    "channel_renamed": "{{user}} premenoval kanál na {{name}}",
+                    "removed_by": "{{user}} odstránil {{other_user}}",
+                    "added_by": "{{user}} pridal {{other_user}}",
+                    "user_banned": "{{user}} bol zabanovaný",
+                    "user_kicked": "{{user}} bol vyhodený",
+                    "user_left": "{{user}} odišiel",
+                    "user_joined": "{{user}} sa pripojil"
+                },
+                "typing": {
+                    "several": "Viacero ľudí píše…",
+                    "multiple": "{{userlist}} a {{user}} píše…",
+                    "single": "{{user}} píše…"
+                },
+                "attached_file": "Priložené {{filename}}",
+                "failed_upload": "Nepodarilo sa nahrať!",
+                "uploading_file": "Nahráva sa …",
+                "message_saved": "Uložiť do poznámok",
+                "message_who": "Odoslať Správu {{person}}",
+                "message_where": "Sprava {{channel_name}}"
+            },
+            "categories": {
+                "members": "Členovia",
+                "channels": "Kanály",
+                "participants": "Účastníci",
+                "conversations": "Konverzácie"
+            }
+        },
+        "navigation": {
+            "tabs": {
+                "saved": "Uložené poznámky",
+                "unreads": "Neprečítané",
+                "friends": "Priatelia",
+                "dev": "Vývojár",
+                "home": "Domov"
+            }
+        },
+        "status": {
+            "offline": "Offline",
+            "invisible": "Neviditeľný",
+            "busy": "Nevyrušovať",
+            "idle": "Nečinný",
+            "online": "Online"
+        }
+    },
+    "general": {
+        "off": "Vypnuté",
+        "on": "Zapnuté",
+        "about": "O Revolte",
+        "unavailable": "Nedostupné",
+        "disabled": "Zakázané",
+        "loading": "Načítavanie…",
+        "image_by": "Obrázok od",
+        "privacy": "Ochrana Osobných Údajov",
+        "tos": "Podmienky Služby"
+    },
+    "login": {
+        "error": {
+            "resend": "Nepodarilo sa odoslať znova!",
+            "reset": "Resetovanie zlyhalo!",
+            "login": "Prihlásenie zlyhalo!",
+            "create": "Registrácia zlyhala!"
+        },
+        "successful_registration": "Úspešne zaregistrovaný!",
+        "open_mail_provider": "Otvoriť {{provider}}",
+        "check_spam": "Ak ho nemôžete nájsť, skontrolujte spam",
+        "email_delay": "Doručenie môže trvať až 10 minút.",
+        "check_mail": "Skontrolujte si email.",
+        "cancel": "Zrušiť požiadavku.",
+        "resend": "Znova odoslať overenie.",
+        "missing_verification": "Žiadny e -mail?",
+        "create": "Vytvorte si nový účet.",
+        "existing": "Máte už účet?",
+        "new": "Začínate z Revoltom?",
+        "remembered": "Vrátiť sa späť na prihlásenie.",
+        "set_password": "Nastaviť nové heslo.",
+        "forgot": "Zabudol si heslo?",
+        "enter": {
+            "current_password": "Zadajte vaše súčasné heslo.",
+            "invite": "Zadajte kód pozvánky.",
+            "email": "Zadajte svoj email.",
+            "password": "Zadajte svoje heslo.",
+            "username": "Zadaj Používateľské Meno."
+        },
+        "current_password": "Aktuálne Heslo",
+        "invite": "Pozvánka",
+        "email": "Email",
+        "username": "Používateľke Meno",
+        "register": "Zaregistrovať",
+        "title": "Prihlásiť sa",
+        "reset": "Restovať Heslo.",
+        "password": "Heslo"
+    }
+}
