@@ -32,8 +32,8 @@
         "error": {
             "reset": "Échec de réinitialisation !",
             "create": "Échec de création de compte !",
-            "login": "Échec de connexion !",
-            "resend": "Échec du renvoi !"
+            "login": "Nous n'avons pas réussi à vous connecter !",
+            "resend": "Nous n'avons pas réussi à renvoyer la requête !"
         },
         "reset": "Réinitialiser le mot de passe.",
         "remembered": "Retour à la page de connexion.",
@@ -221,12 +221,12 @@
                     "title": "Apparence",
                     "display": {
                         "default": "Défaut",
-                        "compact": "Compacte",
+                        "compact": "Compact",
                         "default_description": "Beau, élégant et moderne.",
                         "compact_description": "Le bon vieil IRC."
                     },
                     "accent_selector": "Couleur accentuée",
-                    "reset_overrides": "Réinitialiser les priorités",
+                    "reset_overrides": "Réinitialiser les dérogations (paramètres)",
                     "theme": "Thème",
                     "color": {
                         "light": "clair",
@@ -234,7 +234,7 @@
                     },
                     "message_display": "Affichage des messages",
                     "custom_css": "CSS personalisé",
-                    "sync": "Options de syncronisation",
+                    "sync": "Options de synchronisation",
                     "advanced": "Paramètres avancés",
                     "export_clipboard": "Copier dans le presse-papier",
                     "import_clipboard": "Importer depuis le presse-papier",
@@ -248,7 +248,7 @@
                 },
                 "notifications": {
                     "descriptions": {
-                        "enable_desktop": "Cela vous enverra des notifications tant que l'application est ouverte.",
+                        "enable_desktop": "Ceci vous permettra de recevoir des notifications tant que l'application est ouverte.",
                         "enable_sound": "Jouera un son a la réception d'un message.",
                         "enable_push": "Possibilité de recevoir des notifications hors ligne.",
                         "enable_outgoing_sound": "Jouera un son lors de l'envoi de messages."
@@ -256,15 +256,15 @@
                     "title": "Notifications",
                     "enable_push": "Activer les notifications Push.",
                     "enable_sound": "Jouer un son lors de la réception.",
-                    "enable_desktop": "Activer les notifications de bureau.",
+                    "enable_desktop": "Activer les notifications de Bureau.",
                     "enable_outgoing_sound": "Jouer un sond a l'envoi.",
                     "push_notifications": "Notifications push",
                     "sounds": "Sons",
                     "sound": {
                         "message": "Message reçu",
                         "outbound": "Message envoyé",
-                        "call_join": "Arrivée d'un utilisateur dans l'appel",
-                        "call_leave": "Départ d'un utilisateur dans l'appel"
+                        "call_join": "Appel rejoint par un utilisateur",
+                        "call_leave": "Appel quitté par un utilisateur"
                     }
                 },
                 "profile": {
@@ -272,7 +272,7 @@
                     "info": "Information",
                     "fetching": "Récupération de votre profil…",
                     "placeholder": "Écrivez quelque chose a votre propos…",
-                    "profile_picture": "Image de profil",
+                    "profile_picture": "Photo de profil",
                     "edit_background": "Éditer l'arrière-plan",
                     "custom_background": "Arrière-plan personnalisé",
                     "edit_profile": "Éditer le profil"
@@ -303,7 +303,7 @@
                     "unique_id": "Ceci est un identifiant utilisateur unique à votre compte.",
                     "manage": {
                         "title": "Gestion du compte",
-                        "description": "Désactivez ou supprimer votre compte à tout moment. Cette action va vous déconnecter et entièrement supprimer votre compte, y compris vos messages et amis.",
+                        "description": "Désactiver ou supprimer votre compte à tout moment. Cette action va vous déconnecter et entièrement supprimer votre compte, y compris vos messages et amis.",
                         "delete": "Supprimer le compte",
                         "disable": "Désactiver le compte"
                     }
