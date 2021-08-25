@@ -5,6 +5,14 @@
                 "account": {
                     "b": "自分のプロフィール設定に進みます。",
                     "a": "公開されているプロフィールをカスタマイズしたい方?"
+                },
+                "languages": {
+                    "b": "より多くの翻訳に貢献してください。",
+                    "a": "ご希望の言語がない場合?"
+                },
+                "sessions": {
+                    "a": "不明なセッションがリストに表示されている場合は",
+                    "b": "パスワードを変更し、2FAを使用してアカウントを保護してください。"
                 }
             },
             "server_pages": {
@@ -184,7 +192,14 @@
                 "client_settings": "クライアント設定",
                 "user_settings": "ユーザー設定"
             },
-            "title": "設定"
+            "title": "設定",
+            "permissions": {
+                "default_role": "デフォルト",
+                "server": "サーバーパーミッション",
+                "channel": "チャンネル権限",
+                "create_role": "新規ロールの作成",
+                "role_name": "役名"
+            }
         },
         "main": {
             "servers": {
@@ -296,6 +311,177 @@
             "busy": "邪魔しないで",
             "idle": "離席中",
             "online": "オンライン"
+        },
+        "special": {
+            "friends": {
+                "pending": "リクエストの保留",
+                "sent": "発信",
+                "nobody": "まだ誰もいませんよ!",
+                "blocked": "ブロック",
+                "incoming": "友達のリクエストが来ています。",
+                "outgoing": "友達リクエストの発信。",
+                "from": {
+                    "single": "{{user}}より",
+                    "multiple": "{{userlist}}と{{user}}から",
+                    "several": "{{userlist}}さんより 他{{count}}名…"
+                }
+            },
+            "modals": {
+                "error": "エラーが発生しました!",
+                "signed_out": "あなたはサインアウトされていました!",
+                "onboarding": {
+                    "welcome": "ようこそ",
+                    "pick": "このユーザー名は、後で設定で変更することができます。"
+                },
+                "prompt": {
+                    "confirm_delete_long": "一度削除してしまうと元には戻れません。",
+                    "confirm_delete_message_long": "本当にこれを削除していいのか？",
+                    "confirm_kick": "本当に{{name}}を蹴りたいのか？",
+                    "block_user_long": "本当に{{name}}をブロックしますか？また、あなたの友達リストからも削除されます。",
+                    "confirm_leave": "{{name}}を残す？",
+                    "confirm_leave_long": "再度招待されない限り、再入会はできません。",
+                    "confirm_close_dm": "{{name}}との親密な会話？",
+                    "confirm_close_dm_long": "あとで開きなおすことはできますが、双方ともに消えてしまいます。",
+                    "confirm_delete": "{{name}}の削除？",
+                    "create_invite_generate": "招待状を作成する…",
+                    "create_invite_created": "これがあなたの新しい招待コードです:",
+                    "confirm_ban": "あなたは{{name}}を禁止しようとしています",
+                    "confirm_ban_reason": "禁止理由",
+                    "unfriend_user": "{{name}}を削除しますか？",
+                    "unfriend_user_long": "再度、追加しないと会話ができなくなることもあります。",
+                    "block_user": "ブロック{{name}}?"
+                },
+                "account": {
+                    "change": {
+                        "email": "Eメールの変更",
+                        "password": "パスワードの変更",
+                        "username": "ユーザー名の変更"
+                    },
+                    "failed": "変化に失敗した!"
+                },
+                "actions": {
+                    "block": "ブロック",
+                    "reload": "リロードアプリ",
+                    "ok": "OK",
+                    "ban": "バン",
+                    "kick": "キック",
+                    "save": "保存",
+                    "hide": "隠す",
+                    "close": "閉じる",
+                    "leave": "放置",
+                    "back": "戻る",
+                    "remove": "削除",
+                    "delete": "削除",
+                    "create": "クリエイト",
+                    "reveal": "暴露",
+                    "update": "アップデート",
+                    "cancel": "キャンセル",
+                    "preview": "プレビュー",
+                    "continue": "続ける",
+                    "send_email": "メール送信"
+                },
+                "clipboard": {
+                    "unavailable": "クリップボードが使用できません!",
+                    "https": "現在、HTTPS環境ではありません。",
+                    "copy": "マニュアルコピー:"
+                }
+            },
+            "popovers": {
+                "user_profile": {
+                    "empty": "ここは少し空いていますね…",
+                    "badges": {
+                        "translator": "翻訳者",
+                        "supporter": "サポーター",
+                        "responsible_disclosure": "責任を持って開示したバグ（複数",
+                        "early_adopter": "アーリーアダプター"
+                    },
+                    "profile": "プロフィール",
+                    "mutual_friends": "共通の友人",
+                    "mutual_groups": "相互グループ",
+                    "mutual_servers": "相互のサーバー",
+                    "no_users": "共通の友人がいない！",
+                    "no_groups": "相互のグループがない！",
+                    "no_servers": "相互のサーバーはありません!",
+                    "sub": {
+                        "badges": "バッジ",
+                        "information": "インフォメーション",
+                        "connections": "コネクション"
+                    }
+                },
+                "user_picker": {
+                    "select": "追加する友人を選択します。"
+                }
+            },
+            "copy_username": "クリックしてユーザー名をコピー",
+            "copy": "クリックしてコピー",
+            "status": {
+                "offline": "オフライン。",
+                "disconnected": "切断された。",
+                "connecting": "コネクティング…",
+                "reconnecting": "リコネクティング…"
+            },
+            "invite": {
+                "invited_by": "{{user}}の招待状",
+                "login": "Revoltへのログイン",
+                "accept": "招待状を受け取る",
+                "user_count": "{{member_count}}ユーザー"
+            },
+            "requires_online": "これを見るには、オンラインである必要があります。"
+        },
+        "context_menu": {
+            "copy_id": "コピーID",
+            "copy_text": "コピーテキスト",
+            "copy_uid": "ユーザーIDのコピー",
+            "copy_cid": "チャンネルIDのコピー",
+            "copy_mid": "コピーメッセージID",
+            "copy_message_link": "メッセージリンクのコピー",
+            "mention": "言及",
+            "message_user": "メッセージ",
+            "view_profile": "プロフィールを見る",
+            "mark_as_read": "既読にする",
+            "reply_message": "返信",
+            "quote_message": "引用メッセージ",
+            "edit_message": "メッセージの編集",
+            "delete_message": "メッセージの削除",
+            "remove_member": "グループからの削除",
+            "kick_member": "キックメンバー",
+            "ban_member": "禁止事項",
+            "open_file": "ファイルを開く",
+            "open_image": "画像を開く",
+            "save_image": "画像の保存",
+            "open_video": "オープンビデオ",
+            "save_video": "ビデオの保存",
+            "copy_link": "コピーリンク",
+            "open_link": "リンクを開く",
+            "block_user": "ブロックユーザー",
+            "add_friend": "友達追加",
+            "remove_friend": "友人の削除",
+            "cancel_friend": "リクエストのキャンセル",
+            "clear_status": "ステータスのクリア",
+            "leave_group": "グループ離脱",
+            "close_dm": "閉じる DM",
+            "edit_identity": "アイデンティティの編集",
+            "create_channel": "チャンネル作成",
+            "create_category": "カテゴリーの作成",
+            "create_invite": "招待状の作成",
+            "open_notification_options": "通知オプション",
+            "open_channel_settings": "チャンネル設定",
+            "open_server_settings": "サーバー設定",
+            "open_group_settings": "グループ設定",
+            "copy_selection": "コピー選択",
+            "copy_sid": "コピーサーバID",
+            "retry_message": "リトライ送信",
+            "cancel_message": "送信キャンセル",
+            "save_file": "ファイルの保存",
+            "unblock_user": "ユーザーのブロック解除",
+            "custom_status": "カスタムステータス",
+            "set_custom_status": "カスタムステータスの設定",
+            "leave_server": "サーバーを離れる",
+            "delete_server": "サーバーの削除",
+            "delete_channel": "チャンネルの削除"
+        },
+        "permissions": {
+            "required": "必要な権限"
         }
     },
     "login": {
@@ -341,6 +527,150 @@
         "loading": "ローディング…",
         "privacy": "プライバシーポリシー",
         "tos": "利用規約",
-        "about": "について"
+        "about": "について",
+        "image_by": "イメージ",
+        "on": "活性化",
+        "off": "機能停止中"
+    },
+    "error": {
+        "FailedToReceive": "サーバーがあなたのファイルを受信できませんでした。",
+        "UnsupportedBrowser": "ブラウザにはこの機能のサポートがありません。",
+        "NetworkError": "ネットワークエラーです。",
+        "Unauthorized": "未承認です。",
+        "FailedValidation": "フィールドの検証に失敗しました。",
+        "InternalError": "内部エラーが発生しました。",
+        "UnknownError": "許可がない。",
+        "OperationFailed": "操作に失敗しました。",
+        "RenderFail": "テンプレートのレンダリングに失敗しました。",
+        "MissingHeaders": "ヘッダがない。",
+        "UnverifiedAccount": "未検証のアカウントです。",
+        "UnknownUser": "不明なユーザーです。",
+        "EmailInUse": "使用中のEメール。",
+        "EmailFailed": "メールの送信に失敗しました。",
+        "InvalidToken": "無効なトークン",
+        "MissingInvite": "リクエストに招待コードがない。",
+        "InvalidInvite": "無効なコード",
+        "AlreadyOnboarded": "すでにオンボーディングを終えています。",
+        "AlreadyFriends": "このユーザーとはすでに友達です。",
+        "AlreadySentRequest": "I'm already friends with this user.",
+        "Blocked": "このユーザーをブロックしました。",
+        "RequiredField": "必須",
+        "TooShort": "短すぎる",
+        "TooLong": "長すぎる",
+        "InvalidEmail": "無効なEメールアドレス",
+        "Unavailable": "利用できません。",
+        "FileTooLarge": "ファイルが大きすぎます。",
+        "MissingData": "リクエストにはデータがありません。",
+        "ProbeError": "ファイルのメタデータの取得に失敗しました。",
+        "IoError": "サーバーにI/Oエラーが発生しました。",
+        "DeniedNotification": "通知アクセスが拒否されたので、ページ設定を確認してください。",
+        "CompromisedPassword": "このパスワードは漏洩しています。",
+        "Unlabelled": "何かが起こった。",
+        "DatabaseError": "データベースエラーです。",
+        "MissingPermission": "許可がない。",
+        "InvalidSession": "無効なセッションです。",
+        "InvalidCredentials": "メールアドレスまたはパスワードが間違っています。",
+        "UsernameTaken": "ユーザー名が取られています。",
+        "BlockedOther": "このユーザーはあなたをブロックしました。",
+        "NoEffect": "この要求は何の効果もありませんでした。"
+    },
+    "permissions": {
+        "server": {
+            "ManageRoles": {
+                "d": "メンバーが自分より低いランクのロールを作成、編集、削除できるようにします。また、チャンネル上のロールの権限を変更することもできます。",
+                "t": "ロールの管理"
+            },
+            "ManageChannels": {
+                "d": "メンバーがチャンネルを作成、編集、削除することができます。",
+                "t": "チャンネルの管理"
+            },
+            "KickMembers": {
+                "d": "メンバーがこのサーバーからメンバーを追い出すことができます。追い出されたメンバーは、招待を受ければ再び参加することができます。",
+                "t": "キックメンバー"
+            },
+            "ManageNicknames": {
+                "d": "メンバーが他のメンバーのニックネームを変更することができます。",
+                "t": "ニックネームの管理"
+            },
+            "RemoveAvatars": {
+                "t": "アバターの削除",
+                "d": "メンバーがこのサーバー上の他のメンバーのサーバーアバターを削除することができます。"
+            },
+            "ManageServer": {
+                "d": "このサーバーの名前、説明、アイコンなどの情報を変更することができます。",
+                "t": "サーバーの管理"
+            },
+            "BanMembers": {
+                "t": "禁止事項",
+                "d": "メンバーがこのサーバーからメンバーを永久に削除できるようにします。"
+            },
+            "ChangeNickname": {
+                "t": "ニックネームの変更",
+                "d": "このサーバーでのメンバーのニックネームの変更を許可します。"
+            },
+            "ChangeAvatar": {
+                "t": "アバターの変更",
+                "d": "このサーバーでメンバーがサーバーアバターを変更できるようにします。"
+            }
+        },
+        "channel": {
+            "SendMessage": {
+                "d": "メンバーがテキストチャンネルでメッセージを送ることができます。",
+                "t": "メッセージの送信"
+            },
+            "VoiceCall": {
+                "d": "メンバーが音声チャンネルに参加できるようになります。",
+                "t": "ボイスコール"
+            },
+            "View": {
+                "t": "チャンネルを見る",
+                "d": "メンバーがこの権限を持っているチャンネルの閲覧を許可します。"
+            },
+            "ManageMessages": {
+                "t": "メッセージの管理",
+                "d": "メンバーが他のメンバーから送られてきたメッセージを削除することができます。"
+            },
+            "ManageChannel": {
+                "t": "チャンネルの管理",
+                "d": "メンバーがチャンネルの編集や削除を行うことができます。"
+            },
+            "InviteOthers": {
+                "t": "他の人を招待する",
+                "d": "メンバーが他のユーザーをチャンネルに招待することができます。"
+            },
+            "EmbedLinks": {
+                "t": "埋め込みリンク",
+                "d": "メンバーがテキストチャンネルに投稿したリンクに、埋め込みコンテンツを表示できるようになります。"
+            },
+            "UploadFiles": {
+                "t": "ファイルのアップロード",
+                "d": "メンバーがテキストチャンネルでファイルをアップロードできるようにします。"
+            }
+        }
+    },
+    "quantities": {
+        "members": {
+            "many": "{{count}}人のメンバー",
+            "one": "1人のメンバー"
+        }
+    },
+    "dayjs": {
+        "lastDay": "[昨日は] {{time}}",
+        "sameDay": "[今日のところは] {{time}}",
+        "nextDay": "[明日から] {{time}}",
+        "nextWeek": "dddd [で] {{time}}",
+        "defaults": {
+            "date_separator": "-",
+            "date_format": "traditional",
+            "twelvehour": "no"
+        },
+        "lastWeek": "[先週の] dddd [で] {{time}}"
+    },
+    "notifications": {
+        "now_friends": "あなたは@{{person}}さんと友達になりました!",
+        "sent_request": "@{{person}}さんからフレンドリクエストをいただきました。"
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
     }
 }
