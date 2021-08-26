@@ -23,7 +23,7 @@
                 "attached_file": "Adjunto {{filename}}",
                 "typing": {
                     "single": "{{user}} Esta escribiendo…",
-                    "multiple": "{{userlist}} y {{user}} están escribiendo...",
+                    "multiple": "{{userlist}} y {{user}} están escribiendo…",
                     "several": "Varios personas están escribiendo…"
                 },
                 "message_who": "Mensaje {{person}}",
@@ -44,7 +44,9 @@
                     "blocked_messages": "{{count}} mensajes bloqueados",
                     "failed_load": "No se pudo cargar el mensaje.",
                     "no_sending": "No tienes permiso para enviar mensajes en este canal.",
-                    "blocked_user": "Usuario bloqueado"
+                    "blocked_user": "Usuario bloqueado",
+                    "sent_file": "Envió un archivo",
+                    "sent_multiple_files": "Envió múltiples archivos"
                 },
                 "notifications": {
                     "default": "Uso por defecto",
@@ -146,7 +148,8 @@
                 "language": {
                     "select": "Seleccione el idioma",
                     "title": "Idioma",
-                    "other": "Idiomas alternativos"
+                    "other": "Otras opciones de idioma",
+                    "const": "Idiomas construidos"
                 },
                 "notifications": {
                     "descriptions": {
@@ -172,11 +175,16 @@
                 "feedback": {
                     "title": "Sugerencias",
                     "report": "Qué te gustaría reportar?",
-                    "bug": "Bug",
+                    "bug": "Localizador de Bugs",
                     "send": "Enviar sugerencias",
                     "feature": "Solicitar características",
                     "other": "Otro",
-                    "describe": "Por favor describe el problema."
+                    "describe": "Por favor describe el problema.",
+                    "suggest": "Enviar sugerencia de un característica",
+                    "issue": "Crear un nuevo asunto",
+                    "suggest_desc": "Sugerir nuevas características de Revolt en discusiones de GitHub.",
+                    "bug_desc": "Ver reportes de bugs activos aquí.",
+                    "issue_desc": "Para ayudarnos a intervenir en problemas fácilmente, puedes crear un asunto en GitHub."
                 },
                 "appearance": {
                     "theme_data": "Datos de tema",
@@ -234,6 +242,14 @@
                 },
                 "bots": {
                     "title": "Mis bots"
+                },
+                "native": {
+                    "title": "Opciones de escritorio"
+                },
+                "audio": {
+                    "title": "Opciones de voz",
+                    "output_device": "Altavoz / Auriculares",
+                    "input_device": "Micrófono"
                 }
             },
             "categories": {
@@ -290,7 +306,8 @@
                     "title": "Invita",
                     "code": "Código de invitación",
                     "channel": "Canal",
-                    "revoke": "Revocar"
+                    "revoke": "Revocar",
+                    "invitor": "Invitador"
                 },
                 "roles": {
                     "title": "Roles"
@@ -316,22 +333,22 @@
         },
         "context_menu": {
             "retry_message": "Reintentar envío",
-            "copy_link": "Copiar link",
-            "open_group_settings": "Configuración de grupo",
+            "copy_link": "Copiar enlace",
+            "open_group_settings": "Configuración del grupo",
             "copy_selection": "Copiar selección",
-            "copy_cid": "Copiar ID de canal",
+            "copy_cid": "Copiar ID del canal",
             "mention": "Mencionar",
             "cancel_message": "Cancelar envío",
             "quote_message": "Citar mensaje",
             "open_file": "Abrir archivo",
             "save_image": "Guardar imagen",
-            "open_link": "Abrir link",
+            "open_link": "Abrir enlace",
             "block_user": "Bloquear usuario",
             "unblock_user": "Desbloquear usuario",
             "custom_status": "Estado personalizado",
             "clear_status": "Quitar estado personalizado",
             "set_custom_status": "Establecer un estado personalizado",
-            "open_channel_settings": "Configuración de canal",
+            "open_channel_settings": "Configuración del canal",
             "open_video": "Abrir vídeo",
             "copy_id": "Copiar ID",
             "save_file": "Guardar archivo",
@@ -342,16 +359,16 @@
             "remove_friend": "Quitar amigo",
             "copy_text": "Copiar texto",
             "copy_uid": "Copiar ID de usuario",
-            "copy_mid": "Copiar ID de mensaje",
+            "copy_mid": "Copiar ID del mensaje",
             "message_user": "Enviar mensaje",
             "mark_as_read": "Marcar como leído",
             "edit_message": "Editar mensaje",
             "delete_message": "Borrar mensaje",
             "remove_member": "Quitar del grupo",
             "view_profile": "Ver perfil",
-            "kick_member": "Miembro de kick",
+            "kick_member": "Expulsar miembro",
             "ban_member": "Prohibir miembro",
-            "reply_message": "Respuesta",
+            "reply_message": "Responder",
             "leave_group": "Salir del grupo",
             "leave_server": "Salir del servidor",
             "delete_server": "Eliminar servidor",
@@ -361,9 +378,10 @@
             "create_channel": "Crear canal",
             "open_notification_options": "Opciones de notificación",
             "open_server_settings": "Configuración del servidor",
-            "copy_sid": "Copiar ID de servidor",
+            "copy_sid": "Copiar ID del servidor",
             "copy_message_link": "Copiar enlace de mensaje",
-            "edit_identity": "Editar identidad"
+            "edit_identity": "Editar identidad",
+            "create_category": "Crear categoría"
         },
         "special": {
             "modals": {
@@ -416,7 +434,8 @@
                     "leave": "Salir",
                     "remove": "Eliminar",
                     "delete": "Borrar",
-                    "hide": "Ocultar"
+                    "hide": "Ocultar",
+                    "back": "Volver"
                 },
                 "clipboard": {
                     "unavailable": "El portapapeles no esta disponible!",
@@ -446,7 +465,7 @@
                         "translator": "Traductor",
                         "responsible_disclosure": "Error(es) divulgado responsablemente"
                     },
-                    "no_users": "Sin amigos en común!",
+                    "no_users": "¡Sin amigos en común!",
                     "empty": "Esto esta un poco vacío…",
                     "sub": {
                         "badges": "Medallas",
@@ -455,8 +474,10 @@
                     },
                     "mutual_friends": "Amigos mutuos",
                     "mutual_groups": "Grupos en común",
-                    "no_groups": "Sin grupos en común!",
-                    "profile": "Perfil"
+                    "no_groups": "¡Sin grupos en común!",
+                    "profile": "Perfil",
+                    "no_servers": "¡Sin servidores en común!",
+                    "mutual_servers": "Servidores mutuos"
                 },
                 "user_picker": {
                     "select": "Seleccionar amigos para añadir."
@@ -475,7 +496,7 @@
                 "invited_by": "Invitado por {{user}}",
                 "accept": "Aceptar invitación",
                 "user_count": "{{member_count}} usuarios",
-                "login": ""
+                "login": "Iniciar sesión en Revolt"
             }
         },
         "permissions": {
