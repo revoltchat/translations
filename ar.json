@@ -37,9 +37,15 @@
         "successful_registration": "تم التسجيل بنجاح!",
         "error": {
             "create": "فشل التسجيل!",
-            "login": "فشل تسجيل الدخول!"
+            "login": "فشل تسجيل الدخول!",
+            "reset": "خطأ في إعادة التعيين!",
+            "resend": "حدث خطأ في إعادة الإرسال!"
         },
-        "reset": "إعادة تعيين كلمة المرور."
+        "reset": "إعادة تعيين كلمة المرور.",
+        "remembered": "ارجع إلى شاشة تسجيل الدخول.",
+        "email_delay": "الرجاء السماح حتى ١٠ دقائق لوصول الرسالة.",
+        "check_spam": "الرجاء الإطلاع على ملف البريد المزعج (السبام) إذا لم تجد الرسالة.",
+        "open_mail_provider": "افتح {{provider}}"
     },
     "app": {
         "main": {
@@ -49,18 +55,93 @@
                     "user_joined": "{{user}} انضم",
                     "user_left": "{{user}} غادر",
                     "user_kicked": "{{user}} انطرد",
-                    "user_banned": "{{user}} انحظر"
+                    "user_banned": "{{user}} انحظر",
+                    "removed_by": "{{user}} أُزيلَ من قِبل {{other_user}}",
+                    "added_by": "{{user}} أُضيف من قِبل {{other_user}}",
+                    "channel_renamed": "{{user}} غير اسم القناة إلى {{name}}",
+                    "channel_icon_changed": "{{user}} غير أيقونة القناة",
+                    "channel_description_changed": "{{user}} غير وصف القناة"
                 },
                 "typing": {
                     "several": "العديد من الاشخاص يكتبون…",
-                    "multiple": "{{userlist}} و {{user}} يكتبون...",
-                    "single": "{{user}} يكتب.."
-                }
+                    "multiple": "{{userlist}} و {{user}} يكتبون…",
+                    "single": "{{user}} يكتب…"
+                },
+                "notifications": {
+                    "default": "استخدم الإعداد الإفتراضي",
+                    "all": "كل الرسائل",
+                    "mention": "فقط الإشعارات",
+                    "none": "لا شيء",
+                    "muted": "مكتوم"
+                },
+                "unknown_user": "<مستخدم غير معروف>",
+                "search": {
+                    "sort": {
+                        "relevance": "الصلة بالموضوع",
+                        "latest": "أحدث",
+                        "oldest": "أقدم"
+                    },
+                    "title": "ابحث"
+                },
+                "failed_upload": "حدث خطأ في تحميل الملف!",
+                "attached_file": "تعلق {{filename}}",
+                "start": {
+                    "group": "هذه هي بداية محادثتك."
+                },
+                "voice": {
+                    "leave": "الخروج",
+                    "connected": "الصوت متصل",
+                    "mute": "كتم الصوت",
+                    "unmute": "إزالة كتم الصوت"
+                },
+                "misc": {
+                    "spoiler_attachment": "حاجب الإفساد",
+                    "jump_present": "اقفز إلى الحاضر",
+                    "viewing_old": "تقوم بتصفح رسائل قديمة",
+                    "sent_file": "أرسل معلق",
+                    "failed_load": "يتعذر تحميل الرسالة.",
+                    "no_sending": "ليس لديك القدرة على إرسال رسائل في هذه القناة.",
+                    "blocked_messages": "{{count}} رسائل محجوبة",
+                    "blocked_user": "مستخدم محجوب",
+                    "sent_multiple_files": "أرسل عدة معلقات"
+                },
+                "edited": "(مُعدل)",
+                "message_where": "رسالة من {{channel_name}}",
+                "message_who": "رسالة من {{person}}",
+                "uploading_file": "يتم رفع الملف…",
+                "nsfw": {
+                    "confirm": "أنا أﺅكد أن عمري على الأقل ١٨ سنة.",
+                    "channel": {
+                        "marked": "هذه القناة معلمه كـ\"غير آمنة لبيئة العمل\" (NSFW).",
+                        "confirm": "إدخل القناة"
+                    }
+                },
+                "message_saved": "احفظ إلى الملحوظات",
+                "bot": "آلي"
             },
             "categories": {
                 "conversations": "المحادثات",
                 "channels": "قنوات",
-                "members": "اعضاء"
+                "members": "اعضاء",
+                "participants": "المشاركين"
+            },
+            "servers": {
+                "channel_name": "اسم القناة",
+                "channel_description": "وصف القناة",
+                "description": "وصف السيرفر",
+                "create": "أنشئ سيرفر",
+                "name": "اسم السيرفر",
+                "custom_banner": "لافتة مخصصة",
+                "text_channel": "قناة نصية",
+                "voice_channel": "قناة صوتية",
+                "channel_type": "نوع القناة",
+                "owner": "مالك السيرفر"
+            },
+            "groups": {
+                "create": "كوِّن مجموعة",
+                "name": "اسم المجموعة",
+                "owner": "مالك المجموعة",
+                "description": "وصف المجموعة"
             }
         },
         "navigation": {
@@ -76,10 +157,67 @@
             "online": "متصل",
             "busy": "عدم الإزعاج",
             "invisible": "مخفي",
-            "offline": "غير متصل"
+            "offline": "غير متصل",
+            "idle": "غير متوفر"
         },
         "context_menu": {
             "open_group_settings": "إعدادات المجموعة"
+        },
+        "settings": {
+            "pages": {
+                "sessions": {
+                    "this_device": "هذا الجهاز",
+                    "created": "أُنشئَ {{time_ago}}"
+                },
+                "account": {
+                    "manage": {
+                        "title": "إدارة الحساب",
+                        "disable": "تعطيل الحساب",
+                        "delete": "مسح الحساب",
+                        "description": "يمكنك تعطيل أو مسح حسابك في أي وقت. هذا الاجراء سيقوم بتسجيل خروجك ومسح حسابك نهائياً، بما فيه من تاريخ رسائلك وأصدقائك."
+                    },
+                    "2fa": {
+                        "add_auth": "اضافة موثق",
+                        "title": "توثيق ذو عاملين (2FA)",
+                        "description": "ضع طبقة اضافية من الأمان عن طريق تفعيل خدمة التوثيق ذو عاملين.",
+                        "remove_auth": "إزالة موثق"
+                    },
+                    "title": "حسابي",
+                    "change_field": "غير",
+                    "unique_id": "هذا معرف مستخدم مخصص بحسابك."
+                },
+                "profile": {
+                    "placeholder": "اكتب شيئاً عن نفسك…",
+                    "profile_picture": "صورة الحساب",
+                    "fetching": "يتم جلب ملفك الشخصي…",
+                    "title": "الملف الشخصي",
+                    "info": "المعلومات",
+                    "custom_background": "خلفية مخصصة",
+                    "edit_background": "تعديل الخلفية",
+                    "edit_profile": "تعديل الملف الشخصي"
+                },
+                "appearance": {
+                    "display": {
+                        "default": "الإفتراضي"
+                    },
+                    "title": "المنظر"
+                },
+                "audio": {
+                    "title": "إعدادات الصوت",
+                    "input_device": "الميكروفون",
+                    "output_device": "مكبر الصوت / السماعة"
+                }
+            },
+            "actions": {
+                "remove": "إزالة",
+                "upload": "رفع",
+                "max_filesize": "(الحد {{filesize}})"
+            },
+            "title": "الإعدادات",
+            "categories": {
+                "user_settings": "إعدادات المستخدم",
+                "client_settings": "إعدادات البرنامج"
+            }
         }
     },
     "error": {
