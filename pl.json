@@ -194,8 +194,8 @@
                     "hide": "Ukryj",
                     "create": "Stwórz",
                     "delete": "Usuń",
-                    "reveal": "Odsłoń",
-                    "back": "Powróć"
+                    "reveal": "Pokaż",
+                    "back": "Powrót"
                 },
                 "onboarding": {
                     "pick": "Wybierz nazwę użytkownika, według której inni będą mogli Cię znaleźć, możesz to później zmienić w ustawieniach.",
@@ -252,7 +252,7 @@
                     "no_groups": "Brak wspólnych grup!",
                     "no_users": "Żadnych wspólnych znajomych!",
                     "mutual_groups": "Wspólne grupy",
-                    "mutual_friends": "Wspólni przyjaciele",
+                    "mutual_friends": "Wspólni znajomi",
                     "profile": "Profil",
                     "empty": "Trochę tu pusto…",
                     "sub": {
@@ -459,7 +459,7 @@
                     "descriptions": {
                         "servers": "Pozwoli ci to na tworzenie serwerów z kanałami, zaproszeniami, banami, moderacją i wiele więcej."
                     },
-                    "title": "Funkcje BETA",
+                    "title": "Funkcje eksperymentalne",
                     "features": "Dostępne funkcje"
                 },
                 "bots": {
@@ -627,7 +627,7 @@
             },
             "ManageRoles": {
                 "t": "Zarządzaj rolami",
-                "d": "Umożliwia członkom tworzenie, edytowanie i usuwanie ról o niższej randze niż ich. Pozwala im również modyfikować uprawnienia ról na kanałach."
+                "d": "Pozwala członkom na utworzenie, edycję i usunięcie ról niżej położonych w hierarchii niż rola, którą posiada użytkownik. Dodatkowo pozwala im również na edycję uprawnień na określonych kanałach."
             },
             "ChangeAvatar": {
                 "t": "Zmień Avatar",
@@ -642,7 +642,7 @@
                 "d": "Zezwól członkom na zmianę pseudonimów innych użytkowników."
             },
             "BanMembers": {
-                "d": "Zezwól członkom na pernamentne usuwanie członków z tego serwera.",
+                "d": "Pozwala członkom na wyrzucenie i zablokowanie innym dostępu do tego serwera.",
                 "t": "Zbanuj członków"
             },
             "ManageServer": {
@@ -654,7 +654,7 @@
                 "d": "Pozwól członkom na tworzenie, edytowanie i usuwanie kanałów."
             },
             "KickMembers": {
-                "d": "Umożliwia członkom usuwanie innych członków z tego serwera. Wyrzuceni członkowie mogą ponownie dołączyć używając zaproszenia.",
+                "d": "Pozwala członkom na wyrzucanie innych z serwera. Wyrzuceni mogą ponownie dołączyć za pomocą linku zaproszeniowego.",
                 "t": "Wyrzuć członków"
             }
         },
@@ -669,7 +669,7 @@
             },
             "EmbedLinks": {
                 "t": "Umieszczać Linki",
-                "d": "Zezwala członkom na pokazanie dołączonej do linków treści, którą wysyłają w kanałach tekstowych."
+                "d": "Zezwala członkom na pokazanie dołączonej do linków treści, która jest wysyłana na kanałach tekstowych."
             },
             "InviteOthers": {
                 "t": "Zmień Nick",
@@ -680,8 +680,8 @@
                 "t": "Zarządzaj Wiadomościami"
             },
             "UploadFiles": {
-                "d": "Zezwól członkom na wrzucanie plików w kanałach tekstowych.",
-                "t": "Wrzuć Pliki"
+                "d": "Zezwól członkom na udostępnianie plików w kanałach tekstowych.",
+                "t": "Prześlij pliki"
             },
             "VoiceCall": {
                 "d": "Zezwala członkom na dołączanie do kanałów głosowych.",
