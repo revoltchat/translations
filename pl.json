@@ -8,14 +8,14 @@
         "on": "Włączone",
         "off": "Wyłączone",
         "unavailable": "Niedostępne",
-        "disabled": "wyłączone"
+        "disabled": "Wyłączone"
     },
     "login": {
         "title": "Zaloguj się",
         "email": "E-mail",
         "password": "Hasło",
         "enter": {
-            "email": "Wprowadź twój e-mail.",
+            "email": "Wprowadź e-mail.",
             "password": "Wpisz twoje hasło.",
             "username": "Wprowadź nazwę użytkownika.",
             "current_password": "Wprowadź swoje aktualne hasło.",
@@ -28,7 +28,7 @@
         "existing": "Posiadasz już konto?",
         "remembered": "Wróć do logowania.",
         "reset": "Zresetuj hasło.",
-        "username": "Nazwa Użytkownika",
+        "username": "Nazwa użytkownika",
         "register": "Załóż konto",
         "error": {
             "resend": "Nie udało się wysłać ponownie!",
@@ -38,14 +38,14 @@
         },
         "successful_registration": "Pomyślnie zarejestrowano!",
         "open_mail_provider": "Otwórz {{provider}}",
-        "check_spam": "Sprawdź spam, jeśli nie możesz go znaleźć",
+        "check_spam": "Jeżeli nie możesz znaleźć wiadomości, przeszukaj folder spamu",
         "check_mail": "Sprawdź swój email.",
         "resend": "Wyślij ponownie weryfikację.",
         "missing_verification": "Nie dostałeś e-maila?",
         "set_password": "Ustaw nowe hasło.",
         "current_password": "Aktualne hasło",
         "invite": "Kod zaproszenia",
-        "email_delay": "Daj 10 minut, na dostarczenie ci maila."
+        "email_delay": "Mail dotrze do Ciebie w przeciągu najbliższych 10 minut."
     },
     "app": {
         "status": {
@@ -193,7 +193,9 @@
                     "block": "Zablokuj",
                     "hide": "Ukryj",
                     "create": "Stwórz",
-                    "delete": "Usuń"
+                    "delete": "Usuń",
+                    "reveal": "Odsłoń",
+                    "back": "Powróć"
                 },
                 "onboarding": {
                     "pick": "Wybierz nazwę użytkownika, według której inni będą mogli Cię znaleźć, możesz to później zmienić w ustawieniach.",
@@ -202,7 +204,7 @@
                 "signed_out": "Zostałeś wylogowany!",
                 "clipboard": {
                     "copy": "Kopiowanie ręczne:",
-                    "https": "Nie jesteś obecnie w kontekście HTTPS.",
+                    "https": "Obecnie nie znajdujesz się w kontekście HTTPS.",
                     "unavailable": "Schowek jest niedostępny!"
                 },
                 "error": "Wystąpił błąd!",
@@ -228,7 +230,8 @@
                     "confirm_kick": "Jesteś pewny, że chcesz wyrzucić {{name}}?",
                     "confirm_ban_reason": "Powód Bana",
                     "confirm_delete": "Usunąć {{name}}?",
-                    "block_user_long": "Jesteś pewny, że chcesz zablokować {{name}}? Będą oni także usunięci z twojej listy znajomych."
+                    "block_user_long": "Jesteś pewny, że chcesz zablokować {{name}}? Będą oni także usunięci z twojej listy znajomych.",
+                    "confirm_close_dm_long": "Możesz je później ponownie otworzyć, ale zniknie po obu stronach."
                 }
             },
             "status": {
@@ -242,7 +245,8 @@
                     "badges": {
                         "translator": "Tłumacz",
                         "early_adopter": "Wczesny Ptaszek",
-                        "supporter": "Wspieracz"
+                        "supporter": "Wspieracz",
+                        "responsible_disclosure": "Odpowiedzialnie ujawnione błędy"
                     },
                     "no_groups": "Brak wspólnych grup!",
                     "no_users": "Żadnych wspólnych znajomych!",
@@ -275,14 +279,14 @@
             "block_user": "Zablokuj użytkownika",
             "copy_id": "Skopiuj ID",
             "message_user": "Wyślij wiadomość",
-            "cancel_friend": "Anuluj zaproszenie",
+            "cancel_friend": "Anuluj zaproszenie do znajomych",
             "remove_friend": "Usuń znajomego",
             "add_friend": "Dodaj znajomego",
             "unblock_user": "Odblokuj użytkownika",
             "open_link": "Otwórz link",
             "copy_link": "Skopiuj link",
-            "save_video": "Zapisz wideo",
-            "open_video": "Otwórz wideo",
+            "save_video": "Zapisz film",
+            "open_video": "Otwórz film",
             "save_image": "Zapisz obraz",
             "open_image": "Otwórz obraz",
             "save_file": "Zapisz plik",
@@ -292,7 +296,7 @@
             "edit_message": "Edytuj wiadomość",
             "quote_message": "Cytuj wiadomość",
             "cancel_message": "Anuluj wysyłanie",
-            "retry_message": "Spróbuj ponownie wysłać",
+            "retry_message": "Spróbuj wysłać ponownie",
             "mark_as_read": "Oznacz jako przeczytane",
             "mention": "Wspomnij",
             "copy_mid": "Skopiuj ID wiadomości",
@@ -300,11 +304,11 @@
             "copy_uid": "Skopiuj ID użytkownika",
             "copy_text": "Skopiuj tekst",
             "set_custom_status": "Ustaw status niestandardowy",
-            "clear_status": "Wyczyść status",
+            "clear_status": "Usuń status",
             "custom_status": "Status niestandardowy",
             "open_channel_settings": "Ustawienia kanału",
-            "copy_selection": "Kopiuj Zaznaczone",
-            "open_group_settings": "Ustawienia Grupy",
+            "copy_selection": "Kopiuj zaznaczone",
+            "open_group_settings": "Ustawienia grupy",
             "reply_message": "Odpowiedz",
             "delete_server": "Usuń serwer",
             "delete_channel": "Usuń kanał",
@@ -320,7 +324,8 @@
             "close_dm": "Zamknij DM",
             "open_notification_options": "Opcje powiadomień",
             "create_invite": "Stwórz zaproszenie",
-            "create_category": "Stwórz kategorię"
+            "create_category": "Stwórz kategorię",
+            "edit_identity": "Edytuj tożsamość"
         },
         "settings": {
             "pages": {
@@ -367,7 +372,7 @@
                     "change_field": "Zmień",
                     "title": "Moje Konto",
                     "manage": {
-                        "title": "Zarządzanie kontem.",
+                        "title": "Zarządzaj kontem",
                         "disable": "Wyłącz konto",
                         "delete": "Usuń konto",
                         "description": "Możesz wyłączyć lub usunąć swoje konto w każdej chwili. Sprawi to, że zostaniesz wylogowany, a twoje konto zostanie w pełni usunięte, łącznie z historią czatu i listą znajomych."
@@ -402,7 +407,7 @@
                 "language": {
                     "title": "Język",
                     "select": "Wybierz swój język",
-                    "other": "Języki alternatywne",
+                    "other": "Inne opcje języków",
                     "const": "Języki sztuczne"
                 },
                 "notifications": {
@@ -620,7 +625,8 @@
                 "d": "Zezwól członkom na usuwanie serwerowych avatarów innych członków na tym serwerze."
             },
             "ManageRoles": {
-                "t": "Zarządzaj rolami"
+                "t": "Zarządzaj rolami",
+                "d": "Umożliwia członkom tworzenie, edytowanie i usuwanie ról o niższej randze niż ich. Pozwala im również modyfikować uprawnienia ról na kanałach."
             },
             "ChangeAvatar": {
                 "t": "Zmień Avatar",
@@ -633,6 +639,22 @@
             "ManageNicknames": {
                 "t": "Zarządzaj Pseudonimami",
                 "d": "Zezwól członkom na zmianę pseudonimów innych użytkowników."
+            },
+            "BanMembers": {
+                "d": "Zezwól członkom na pernamentne usuwanie członków z tego serwera.",
+                "t": "Zbanuj członków"
+            },
+            "ManageServer": {
+                "d": "Umożliwia członkom zmianę nazwy, opisu, ikony i innych powiązanych informacji tego serwera.",
+                "t": "Zarządzaj serwerem"
+            },
+            "ManageChannels": {
+                "t": "Zarządzaj kanałami",
+                "d": "Pozwól członkom na tworzenie, edytowanie i usuwanie kanałów."
+            },
+            "KickMembers": {
+                "d": "Umożliwia członkom usuwanie innych członków z tego serwera. Wyrzuceni członkowie mogą ponownie dołączyć używając zaproszenia.",
+                "t": "Wyrzuć członków"
             }
         },
         "channel": {
