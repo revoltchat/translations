@@ -7,7 +7,10 @@
                     "viewing_old": "이전 메세지 보기",
                     "no_sending": "이 채널 내에서 메세지를 보낼 권한이 없어요.",
                     "spoiler_attachment": "스포일러",
-                    "failed_load": "메세지를 불러올 수 없습니다."
+                    "failed_load": "메세지를 불러올 수 없습니다.",
+                    "blocked_user": "차단된 사용자",
+                    "sent_file": "첨부파일을 보냈습니다",
+                    "sent_multiple_files": "여러 첨부파일을 보냈습니다"
                 },
                 "search": {
                     "sort": {
@@ -50,7 +53,11 @@
                     "confirm": "본인은 18세 이상임을 확인합니다."
                 },
                 "edited": "(수정됨)",
-                "unknown_user": "<알 수 없는 사용자>"
+                "unknown_user": "<알 수 없는 사용자>",
+                "message_saved": "메모에 저장",
+                "start": {
+                    "group": "첫 대화의 시작입니다."
+                }
             },
             "groups": {
                 "create": "그룹 만들기",
@@ -80,13 +87,15 @@
                 "account": {
                     "2fa": {
                         "remove_auth": "인증 제거",
-                        "title": "2단계 인증"
+                        "title": "2단계 인증",
+                        "description": "계정에 2단계 인증을 활성화하여 보안 수준을 끌어올리세요."
                     },
                     "title": "나의 계정",
                     "manage": {
                         "disable": "계정 비활성화",
                         "delete": "계정 삭제",
-                        "description": "언제든지 계정을 비활성화하거나 삭제할 수 있습니다. 이 작업을 수행하면 계정에서 로그아웃되고 채팅 기록 및 친구 목록이 삭제됩니다."
+                        "description": "언제든지 계정을 비활성화하거나 삭제할 수 있습니다. 이 작업을 수행하면 계정에서 로그아웃되고 채팅 기록 및 친구 목록이 삭제됩니다.",
+                        "title": "계정 관리"
                     },
                     "unique_id": "이 번호는 계정의 고유한 식별 번호입니다."
                 },
@@ -96,12 +105,14 @@
                     "profile_picture": "프로필 사진",
                     "placeholder": "자신을 소개하세요…",
                     "info": "내 소개",
-                    "custom_background": "커스텀 배경"
+                    "custom_background": "커스텀 배경",
+                    "edit_background": "배경 수정"
                 },
                 "appearance": {
                     "theme": "테마",
                     "display": {
-                        "default": "기본"
+                        "default": "기본",
+                        "default_description": "아름답고 세련되고 현대적입니다."
                     },
                     "color": {
                         "dark": "다크",
@@ -109,11 +120,15 @@
                     },
                     "emoji_pack": "이모지 팩",
                     "font": "폰트",
-                    "custom_css": "커스텀 CSS"
+                    "custom_css": "커스텀 CSS",
+                    "advanced": "고급 옵션",
+                    "import": "테마 삽입"
                 },
                 "language": {
                     "title": "언어",
-                    "select": "언어 선택"
+                    "select": "언어 선택",
+                    "other": "기타 언어 옵션",
+                    "const": "구성 언어"
                 },
                 "audio": {
                     "title": "음성 설정"
@@ -129,10 +144,13 @@
                     "title": "피드백",
                     "issue": "새로운 이슈 만들기",
                     "bug": "버그 트래커",
-                    "bug_desc": "여기에서 현재 활성화된 버그 보고서를 봅니다."
+                    "bug_desc": "여기에서 현재 활성화된 버그 보고서를 봅니다.",
+                    "issue_desc": "이슈를 더 쉽게 알수있도록, GitHub에서 이슈를 만들 수 있습니다."
                 },
                 "experiments": {
-                    "title": "실험"
+                    "title": "실험",
+                    "features": "사용 가능한 기능",
+                    "not_available": "현재 사용 가능한 실험이 없습니다."
                 },
                 "logOut": "로그아웃",
                 "notifications": {
@@ -141,11 +159,26 @@
                     "enable_push": "푸시 알림 활성화.",
                     "push_notifications": "푸시 알림",
                     "descriptions": {
-                        "enable_push": "오프라인일때 알림을 받으려면 활성화하세요."
-                    }
+                        "enable_push": "오프라인일때 알림을 받으려면 활성화하세요.",
+                        "enable_desktop": "활성화하면 앱이 열려있는동안 알림이 표시됩니다."
+                    },
+                    "sound": {
+                        "outbound": "메세지 보내기",
+                        "call_join": "사용자가 통화에 들어왔습니다",
+                        "call_leave": "사용자가 통화에 나갔습니다",
+                        "message": "받은 메세지"
+                    },
+                    "sounds": "사운드"
                 },
                 "native": {
                     "title": "데스크탑 설정"
+                },
+                "sessions": {
+                    "title": "세션",
+                    "active_sessions": "활성화된 세션",
+                    "this_device": "이 디바이스",
+                    "created": "{{time_ago}}전에 만들어졌어요",
+                    "logout": "모든 세션에서 로그아웃"
                 }
             },
             "title": "설정",
@@ -168,7 +201,8 @@
             "server_pages": {
                 "overview": {
                     "description": "채널 설명",
-                    "name": "서버 이름"
+                    "name": "서버 이름",
+                    "system_messages": "시스템 메세지 채널"
                 },
                 "members": {
                     "title": "멤버"
@@ -185,7 +219,8 @@
                     "channel": "채널"
                 },
                 "bans": {
-                    "reason": "차단 사유"
+                    "reason": "차단 사유",
+                    "user": "사용자"
                 }
             },
             "permissions": {
@@ -197,13 +232,15 @@
             },
             "tips": {
                 "languages": {
-                    "a": "원하는 언어가 없으십니까?"
+                    "a": "원하는 언어가 없으십니까?",
+                    "b": "더 많은 번역에 기여해주세요."
                 },
                 "account": {
                     "b": "프로필 설정으로 이동합니다."
                 },
                 "sessions": {
-                    "b": "비밀번호를 변경하고 2단계 인증을 사용하여 계정을 보호하세요."
+                    "b": "비밀번호를 변경하고 2단계 인증을 사용하여 계정을 보호하세요.",
+                    "a": "세션 목록에 알 수 없는 세션이 표시되면,"
                 }
             }
         },
@@ -234,7 +271,7 @@
             "idle": "자리 비움",
             "busy": "다른 용무중",
             "offline": "오프라인",
-            "invisible": "안보이는"
+            "invisible": "표시되지 않음"
         },
         "special": {
             "status": {
@@ -254,6 +291,26 @@
             "invite": {
                 "login": "Revolt에 로그인",
                 "accept": "초대 수락"
+            },
+            "modals": {
+                "actions": {
+                    "preview": "미리보기",
+                    "ban": "차단",
+                    "kick": "추방",
+                    "save": "저장",
+                    "hide": "숨기기"
+                },
+                "error": "오류가 발생하였습니다!",
+                "prompt": {
+                    "create_invite_generate": "초대주소 생성중…",
+                    "create_invite_created": "새 초대코드는 다음과 같습니다:",
+                    "confirm_kick": "{{name}}님을 추방하시겠습니까?",
+                    "confirm_ban": "{{name}}님을 차단하려고합니다",
+                    "confirm_ban_reason": "차단 사유"
+                }
+            },
+            "friends": {
+                "pending": "대기중인 요청"
             }
         }
     },
