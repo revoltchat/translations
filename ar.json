@@ -167,7 +167,10 @@
             "pages": {
                 "sessions": {
                     "this_device": "هذا الجهاز",
-                    "created": "أُنشئَ {{time_ago}}"
+                    "created": "أُنشئَ {{time_ago}}",
+                    "active_sessions": "الجلسات النشطة",
+                    "logout": "الخروج من جميع الجلسات",
+                    "title": "الجلسات"
                 },
                 "account": {
                     "manage": {
@@ -198,14 +201,90 @@
                 },
                 "appearance": {
                     "display": {
-                        "default": "الإفتراضي"
+                        "default": "الإفتراضي",
+                        "compact": "مضغوط",
+                        "default_description": "جميل, أنيق وحديث.",
+                        "compact_description": "نظام بروتوكول الدردشة عبر الإنترنت القديم."
                     },
-                    "title": "المنظر"
+                    "title": "المنظر",
+                    "import": "استيراد سمة",
+                    "theme": "السمة",
+                    "emoji_pack": "حزمة الرموز التعبيرية",
+                    "reset_overrides": "إعادة التجاوزات",
+                    "mono_font": "محدد الخط الثابت",
+                    "color": {
+                        "light": "فاتح",
+                        "dark": "مظلم"
+                    },
+                    "message_display": "عرض الرسالة",
+                    "advanced": "خيارات متقدمة",
+                    "accent_selector": "درجة اللون",
+                    "overrides": "تجاوزات السمة",
+                    "sync": "خيارات المزامنة",
+                    "font": "الخط",
+                    "ligatures": "أربطة الخط"
                 },
                 "audio": {
                     "title": "إعدادات الصوت",
                     "input_device": "الميكروفون",
                     "output_device": "مكبر الصوت / السماعة"
+                },
+                "experiments": {
+                    "not_available": "لا تجارب متوفرة اللآن.",
+                    "title": "التجارب",
+                    "features": "المميزات المتاحة"
+                },
+                "source_code": "مصدر النظام",
+                "language": {
+                    "title": "اللغة",
+                    "select": "إختار اللغة",
+                    "other": "خيارات لغة مختلفة",
+                    "const": "اللغات المركبة"
+                },
+                "notifications": {
+                    "sounds": "الأصوات",
+                    "enable_desktop": "تفعيل إشعارات المكتب.",
+                    "descriptions": {
+                        "enable_desktop": "ستستلم الإشعارات بينما البرنامج مفتوح.",
+                        "enable_push": "تفعيل الإشعارات عندما تكون غير متصل."
+                    },
+                    "title": "إشعارات",
+                    "push_notifications": "الإشعارات المباشرة",
+                    "enable_push": "تفعيل الإشعارات المباشرة.",
+                    "sound": {
+                        "message": "تم إستلام الرسالة",
+                        "outbound": "تم الإرسال",
+                        "call_join": "مستخدم إنضم للإتصال",
+                        "call_leave": "مستخدم غادر الإتصال"
+                    }
+                },
+                "donate": {
+                    "title": "تبرع"
+                },
+                "feedback": {
+                    "bug": "تعقب البق",
+                    "suggest": "أعرض علينا الأفكار",
+                    "suggest_desc": "أعرض علينا أفكار جديدة على منصة GitHub للنقاشات.",
+                    "issue": "أعرض فكرة جديدة",
+                    "issue_desc": "لمساعدتنا على إستلام أفكارك بسهولة يرجى عرضها على GitHub.",
+                    "bug_desc": "عرض تقريرات للبقات النشطة.",
+                    "title": "التقييم"
+                },
+                "sync": {
+                    "categories": "مزامنة التصنيفات",
+                    "descriptions": {
+                        "theme": "قم بمزامنة السمة المختارة, الألوان وأية أوراق الأنماط المتتالية المعدلة.",
+                        "appearance": "قم بمزامنة الخيارات مثل حزمة الوجوه التعبيرية وكثافة الرسالة.",
+                        "locale": "قم بمزامنة اللغة المستخدمة."
+                    },
+                    "title": "مزامنة"
+                },
+                "logOut": "الخروج",
+                "native": {
+                    "title": "إعدادات المكتب"
+                },
+                "bots": {
+                    "title": "الروبوتات"
                 }
             },
             "actions": {
@@ -217,6 +296,57 @@
             "categories": {
                 "user_settings": "إعدادات المستخدم",
                 "client_settings": "إعدادات البرنامج"
+            },
+            "server_pages": {
+                "overview": {
+                    "name": "إسم الخادم",
+                    "description": "وصف القناة",
+                    "system_messages": "قنوات رسائل النظام",
+                    "title": "الملخص"
+                },
+                "invites": {
+                    "invitor": "الداعي",
+                    "title": "الدعوات",
+                    "channel": "القناة",
+                    "revoke": "فسخ",
+                    "code": "رمز الدعوة"
+                },
+                "members": {
+                    "title": "الأعضاء"
+                },
+                "bans": {
+                    "user": "المستخدم",
+                    "reason": "سبب الحظر",
+                    "title": "المحظورين",
+                    "revoke": "فسخ",
+                    "no_reason": "لا يوجد سبب للحظر."
+                },
+                "roles": {
+                    "title": "الأدوار"
+                },
+                "categories": {
+                    "title": "التصنيفات"
+                }
+            },
+            "channel_pages": {
+                "overview": {
+                    "name": "إسم القناة",
+                    "description": "وصف القناة",
+                    "title": "ملخص"
+                },
+                "permissions": {
+                    "title": "الصلاحيات"
+                }
+            },
+            "tips": {
+                "languages": {
+                    "a": "إضافة لغة غير متوفرة",
+                    "b": "ساهم في الترجمة."
+                },
+                "account": {
+                    "a": "عدل ملفك العام",
+                    "b": "إعدادات ملفك العام."
+                }
             }
         }
     },
