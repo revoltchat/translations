@@ -317,7 +317,34 @@
             "save_image": "이미지 저장",
             "save_video": "비디오 저장",
             "copy_link": "링크 복사",
-            "close_dm": "DM 닫기"
+            "close_dm": "DM 닫기",
+            "copy_selection": "선택 복사",
+            "retry_message": "재전송",
+            "cancel_message": "전송 취소",
+            "open_file": "파일 열기",
+            "open_image": "이미지 열기",
+            "open_video": "비디오 열기",
+            "open_link": "링크 열기",
+            "block_user": "사용자 차단",
+            "unblock_user": "사용자 차단 해제",
+            "remove_friend": "친구 삭제하기",
+            "add_friend": "친구 추가하기",
+            "cancel_friend": "요청 취소하기",
+            "clear_status": "상태 삭제하기",
+            "set_custom_status": "사용자 지정 상태 설정하기",
+            "leave_group": "그룹에서 나가기",
+            "leave_server": "서버에서 나가기",
+            "delete_server": "서버 삭제하기",
+            "delete_channel": "채널 삭제하기",
+            "create_channel": "채널 생성하기",
+            "create_category": "카테고리 만들기",
+            "create_invite": "초대주소 만들기",
+            "open_notification_options": "알림 옵션",
+            "open_channel_settings": "채널 설정",
+            "open_server_settings": "서버 설정",
+            "open_group_settings": "그룹 설정",
+            "remove_member": "그룹에서 추방",
+            "custom_status": "사용자 지정 상태"
         },
         "navigation": {
             "tabs": {
@@ -360,12 +387,18 @@
                     },
                     "profile": "프로필",
                     "no_users": "같이 아는 친구가 없어요!",
-                    "no_groups": "같이 있는 그룹이 없어요!"
+                    "no_groups": "같이 있는 그룹이 없어요!",
+                    "empty": "여기는 좀 휑하네요…"
+                },
+                "user_picker": {
+                    "select": "추가할 친구를 선택하세요."
                 }
             },
             "invite": {
                 "login": "Revolt에 로그인",
-                "accept": "초대 수락"
+                "accept": "초대 수락",
+                "invited_by": "{{user}}님이 초대",
+                "user_count": "사용자 {{member_count}}명"
             },
             "modals": {
                 "actions": {
@@ -405,7 +438,8 @@
                     "confirm_delete_long": "한번 삭제되면 되돌릴 수 없습니다.",
                     "confirm_delete_message_long": "삭제하시겠습니까?",
                     "unfriend_user": "{{name}}을(를) 삭제하시겠습니까?",
-                    "block_user": "{{name}}을(를) 차단하시겠습니까?"
+                    "block_user": "{{name}}을(를) 차단하시겠습니까?",
+                    "confirm_close_dm": "{{name}}님과의 개인 메세지를 닫으시겠습니까?"
                 },
                 "account": {
                     "change": {
@@ -417,7 +451,8 @@
                 },
                 "clipboard": {
                     "unavailable": "클립보드를 지원하지 않습니다!",
-                    "https": "현재 HTTPS 컨텍스트에 있지 않습니다."
+                    "https": "현재 HTTPS 컨텍스트에 있지 않습니다.",
+                    "copy": "수동 복사:"
                 },
                 "signed_out": "로그아웃 되었습니다!",
                 "onboarding": {
@@ -433,10 +468,15 @@
                 "blocked": "차단됨",
                 "from": {
                     "single": "{{user}}에게서"
-                }
+                },
+                "sent": "전송중"
             },
             "copy_username": "클릭하여 유저 이름 복사",
-            "copy": "클릭하여 복사"
+            "copy": "클릭하여 복사",
+            "requires_online": "이것을 보려면 온라인 상태여야합니다."
+        },
+        "permissions": {
+            "required": "권한이 필요합니다"
         }
     },
     "permissions": {
@@ -476,18 +516,20 @@
         },
         "server": {
             "BanMembers": {
-                "t": "멤버 차단하기"
+                "t": "멤버 차단하기",
+                "d": "멤버가 이 서버에서 특정 멤버를 영구적으로 제거할 수 있습니다."
             },
             "KickMembers": {
                 "t": "멤버 추방하기",
                 "d": "이 권한을 가진 멤버가 서버에서 멤버를 추방할 수 있습니다. 추방된 멤버는 초대를 받아 다시 들어올 수 있습니다."
             },
             "ChangeNickname": {
-                "t": "별명 변경하기"
+                "t": "별명 변경하기",
+                "d": "멤버가 이 서버에서 닉네임을 변경할 수 있습니다."
             },
             "ManageNicknames": {
                 "t": "별명 관리하기",
-                "d": "사용자가 타 사용자의 닉네임을 변경하는 것을 허가함"
+                "d": "사용자가 타 사용자의 닉네임을 변경하는 것을 허가합니다."
             },
             "ManageRoles": {
                 "t": "역할 관리",
@@ -502,10 +544,12 @@
                 "d": "사용자가 이 서버의 이름, 설명, 아이콘 및 기타 관련 정보를 변경할 수 있습니다."
             },
             "ChangeAvatar": {
-                "t": "아바타 변경"
+                "t": "아바타 변경",
+                "d": "멤버가 이 서버에서 자신의 서버 아바타를 변경할 수 있습니다."
             },
             "RemoveAvatars": {
-                "t": "아바타 삭제"
+                "t": "아바타 삭제",
+                "d": "멤버가 이 서버에 있는 다른 멤버의 서버 아바타를 제거할 수 있습니다."
             }
         }
     },
@@ -566,10 +610,59 @@
         "InvalidToken": "잘못된 토큰",
         "InvalidInvite": "잘못된 코드",
         "NetworkError": "네트워크 에러.",
-        "DatabaseError": "데이터베이스 에러.",
-        "Blocked": "이미 유저를 차단했어요."
+        "DatabaseError": "데이터베이스에 에러가 발생했습니다.",
+        "Blocked": "이미 유저를 차단했어요.",
+        "UnknownUser": "알 수 없는 사용자입니다.",
+        "EmailFailed": "이메일을 보내지 못했습니다.",
+        "AlreadyOnboarded": "이미 온보딩을 마쳤습니다.",
+        "AlreadyFriends": "이 사용자와 이미 친구입니다.",
+        "NoEffect": "이 요청은 효과가 없습니다.",
+        "IoError": "서버에 I/O 오류가 발생했습니다.",
+        "DeniedNotification": "알림 액세스를 거부했습니다. 페이지 설정을 확인하세요.",
+        "InternalError": "내부 오류입니다.",
+        "Unauthorized": "권한이 없습니다.",
+        "Unlabelled": "문제가 발생했습니다.",
+        "FailedValidation": "필드를 확인하지 못했습니다.",
+        "MissingPermission": "권한이 없습니다.",
+        "UnknownError": "콘솔을 참조하세요.",
+        "OperationFailed": "작업에 실패했습니다.",
+        "RenderFail": "템플릿 렌더링에 실패했습니다.",
+        "MissingHeaders": "헤더가 없습니다.",
+        "UnverifiedAccount": "확인되지 않은 계정입니다.",
+        "InvalidSession": "유효하지 않은 세션입니다.",
+        "EmailInUse": "이 이메일은 이미 사용중입니다.",
+        "InvalidCredentials": "이메일 또는 비밀번호가 잘못되었습니다.",
+        "MissingInvite": "초대코드가 만료됬거나 없습니다.",
+        "UsernameTaken": "입력한 사용자명이 이미 사용중입니다.",
+        "AlreadySentRequest": "이미 이 사용자에게 요청을 보냈습니다.",
+        "CompromisedPassword": "이 암호는 손상되었습니다.",
+        "UnsupportedBrowser": "브라우저에서 이 기능을 지원하지 않습니다.",
+        "FailedToReceive": "서버가 파일을 수신하지 못했습니다.",
+        "ProbeError": "파일 메타데이터를 가져오지 못했습니다."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
+    },
+    "quantities": {
+        "members": {
+            "one": "멤버 1명",
+            "many": "멤버 {{count}}명"
+        }
+    },
+    "dayjs": {
+        "lastDay": "[어제] {{time}}",
+        "sameDay": "[오늘] {{time}}",
+        "nextDay": "[내일] {{time}}",
+        "lastWeek": "[마지막] dddd {{time}}",
+        "nextWeek": "dddd {{time}}",
+        "defaults": {
+            "twelvehour": "yes",
+            "date_separator": ".",
+            "date_format": "IS08601"
+        }
+    },
+    "notifications": {
+        "sent_request": "@{{person}}님이 친구 요청을 보냈습니다.",
+        "now_friends": "@{{person}}님과 친구가 되었습니다!"
     }
 }
