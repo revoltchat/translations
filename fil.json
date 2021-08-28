@@ -4,7 +4,8 @@
             "invisible": "Hindi makikita",
             "busy": "Huwag istorbohin",
             "offline": "Naka-patay",
-            "online": "Online"
+            "online": "Online",
+            "idle": "Nakatigil"
         },
         "navigation": {
             "tabs": {
@@ -23,11 +24,13 @@
                     "user_joined": "Sumali si {{user}}",
                     "added_by": "Si {{user}} ay dinagdag ni {{other_user}}",
                     "removed_by": "Si {{user}} ay inalis ni {{other_user}}",
-                    "channel_description_changed": "Pinalitan ni {{user}}ang deskripsiyon ng channel"
+                    "channel_description_changed": "Pinalitan ni {{user}}ang deskripsiyon ng channel",
+                    "user_kicked": "Pinaalis si {{user}}"
                 },
                 "misc": {
                     "viewing_old": "Tinitignan ang mga lumang message",
-                    "jump_present": "Bumalik sa kasalukuyan"
+                    "jump_present": "Bumalik sa kasalukuyan",
+                    "no_sending": "Wala kang permiso na magpadala ng mga mensahe sa channel na ito."
                 },
                 "typing": {
                     "single": "Nag ta-type si {{user}}…",
@@ -43,10 +46,15 @@
                     "unmute": "Mag-unmute"
                 },
                 "nsfw": {
-                    "confirm": "Kinukumpirma ko na ako ay hindi bababa sa 18 na taong gulang."
+                    "confirm": "Kinukumpirma ko na ako ay hindi bababa sa 18 na taong gulang.",
+                    "channel": {
+                        "marked": "Ang channel na ito ay may markang NSFW."
+                    }
                 },
                 "notifications": {
-                    "muted": "Naka-mute"
+                    "muted": "Naka-mute",
+                    "all": "Lahat ng Mensahe",
+                    "none": "Wala"
                 },
                 "search": {
                     "title": "Hanapin",
@@ -54,7 +62,9 @@
                         "latest": "Pinaka-bago",
                         "oldest": "Pinakaluma"
                     }
-                }
+                },
+                "uploading_file": "Nag-a-upload…",
+                "failed_upload": "Bumagsak ang upload!"
             },
             "groups": {
                 "owner": "May-ari ng grupo",
@@ -64,10 +74,18 @@
             },
             "servers": {
                 "channel_description": "Deskripsiyon ng Channel",
-                "description": "Deskripsiyon ng Server"
+                "description": "Deskripsiyon ng Server",
+                "create": "Gumawa ng server",
+                "name": "Pangalan ng Server",
+                "channel_type": "Klase ng Channel",
+                "owner": "May-ari ng Server",
+                "channel_name": "Pangalan ng Channel"
             },
             "categories": {
-                "members": "Mga miyembro"
+                "members": "Mga miyembro",
+                "conversations": "Mga usapan",
+                "participants": "Mga kahalok",
+                "channels": "Mga channel"
             }
         },
         "context_menu": {
@@ -124,17 +142,122 @@
                 },
                 "audio": {
                     "input_device": "Mikropono"
+                },
+                "appearance": {
+                    "theme": "Tema",
+                    "color": {
+                        "light": "maliwanag",
+                        "dark": "madilim"
+                    },
+                    "reset_overrides": "I-reset and mga overrides",
+                    "display": {
+                        "default_description": "Maganda, makinis at moderno."
+                    }
+                },
+                "notifications": {
+                    "sounds": "Mga tunog",
+                    "title": "Mga Abiso",
+                    "descriptions": {
+                        "enable_push": "I-enable upang makatanggap ng mga abiso habang offline ka.",
+                        "enable_desktop": "Bibigyan ka nito ng mga abiso habang bukas ang iyong app."
+                    },
+                    "sound": {
+                        "message": "Natanggap ang Mensahe",
+                        "outbound": "Ipinadala ang Mensahe"
+                    }
+                },
+                "language": {
+                    "title": "Wika",
+                    "select": "Piliin ang iyong wika"
+                },
+                "experiments": {
+                    "title": "Mga Experimento",
+                    "not_available": "Walang mga eksperimento na magagamit ngayon."
+                },
+                "donate": {
+                    "title": "Mag-abuloy"
+                },
+                "feedback": {
+                    "issue": "Gumawa ng bagong issue",
+                    "bug_desc": "Tignan and mga aktibong bug reports dito.",
+                    "issue_desc": "Upang matulungan kaming mas madaling maayos ang mga issue, maaari kang gumawa ng issue sa GitHub."
+                },
+                "logOut": "Mag-log out",
+                "bots": {
+                    "title": "Ang aking mga Bot"
                 }
             },
             "actions": {
                 "remove": "Tanggalin",
-                "upload": "Mag-upload"
+                "upload": "Mag-upload",
+                "max_filesize": "(hanggang {{filesize}})"
+            },
+            "channel_pages": {
+                "overview": {
+                    "name": "Pangalan ng Channel",
+                    "description": "Deskripsyon ng Channel"
+                },
+                "permissions": {
+                    "title": "Mga Permiso"
+                }
+            },
+            "server_pages": {
+                "overview": {
+                    "name": "Pangalan ng Server",
+                    "description": "Deskripsyon ng Channel"
+                },
+                "members": {
+                    "title": "Mga Miyembro"
+                },
+                "invites": {
+                    "title": "Mga Imbitasyon",
+                    "invitor": "Ang nag-imbitasyon"
+                },
+                "categories": {
+                    "title": "Mga Kategorya"
+                }
+            },
+            "tips": {
+                "account": {
+                    "a": "Nais mo bang i-customise ang iyong pampublikong profile?",
+                    "b": "Tumungo sa iyong mga profile settings."
+                }
+            },
+            "permissions": {
+                "server": "Mga Permiso ng Server",
+                "channel": "Mga Permiso ng Channel",
+                "create_role": "Gumawa ng isang bagong role",
+                "role_name": "Pangalan ng Role"
             }
         },
         "special": {
             "invite": {
                 "invited_by": "Inimbita ni {{user}}",
                 "login": "Mag-login sa Revolt"
+            },
+            "copy_username": "I-click upang ikopya ang username",
+            "copy": "I-click upang ikopya",
+            "friends": {
+                "sent": "Paalis",
+                "blocked": "Pinigilan",
+                "from": {
+                    "multiple": "Galing kay {{userlist}} at {{user}}",
+                    "several": "Galing kay {{userlist}} at {{count}} pa…",
+                    "single": "Galing kay {{user}}"
+                },
+                "nobody": "Wala pang tao dito!"
+            },
+            "status": {
+                "disconnected": "Na-disconnect.",
+                "connecting": "Kumokonekta…",
+                "reconnecting": "Kumokonekta ulit…"
+            },
+            "modals": {
+                "clipboard": {
+                    "unavailable": "Hindi magagamit ang clipboard!",
+                    "copy": "Manual na pag-kopya:"
+                },
+                "error": "May pagkakamaling naganap!"
             }
         }
     },
@@ -173,7 +296,13 @@
         "missing_verification": "Walang email?",
         "check_mail": "Tignan ang iyong email.",
         "remembered": "Bumalik sa pag-login.",
-        "open_mail_provider": "Buksan ang {{provider}}"
+        "open_mail_provider": "Buksan ang {{provider}}",
+        "error": {
+            "login": "Bagsak ang pag-login!",
+            "reset": "Bagsak ang pag-reset!",
+            "create": "Bagsak ang pag-rehistro!",
+            "resend": "Bagsak ang pag-resend!"
+        }
     },
     "permissions": {
         "server": {
