@@ -322,7 +322,8 @@
             "status": {
                 "connecting": "연결중…",
                 "disconnected": "연결 끊김.",
-                "reconnecting": "연결을 기다리는 중…"
+                "reconnecting": "연결을 기다리는 중…",
+                "offline": "오프라인."
             },
             "popovers": {
                 "user_profile": {
@@ -330,7 +331,10 @@
                         "translator": "번역가",
                         "supporter": "서포터",
                         "early_adopter": "얼리어답터"
-                    }
+                    },
+                    "mutual_friends": "같이 아는 친구",
+                    "mutual_groups": "같이 있는 그룹",
+                    "mutual_servers": "같이 있는 서버"
                 }
             },
             "invite": {
@@ -343,7 +347,11 @@
                     "ban": "차단",
                     "kick": "추방",
                     "save": "저장",
-                    "hide": "숨기기"
+                    "hide": "숨기기",
+                    "close": "닫기",
+                    "back": "뒤로가기",
+                    "create": "생성하기",
+                    "leave": "떠나기"
                 },
                 "error": "오류가 발생하였습니다!",
                 "prompt": {
@@ -352,6 +360,11 @@
                     "confirm_kick": "{{name}}님을 추방하시겠습니까?",
                     "confirm_ban": "{{name}}님을 차단하려고합니다",
                     "confirm_ban_reason": "차단 사유"
+                },
+                "account": {
+                    "change": {
+                        "password": "비밀번호 변경하기"
+                    }
                 }
             },
             "friends": {
@@ -359,7 +372,9 @@
                 "incoming": "",
                 "outgoing": "친구 수락 대기중.",
                 "nobody": "아직 아무도 없어요!"
-            }
+            },
+            "copy_username": "클릭하여 유저네임 복사",
+            "copy": "클릭하여 복사"
         }
     },
     "permissions": {
