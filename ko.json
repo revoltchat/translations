@@ -143,12 +143,12 @@
                     "import": "테마 불러오기",
                     "message_display": "메세지 표시",
                     "overrides": "테마 재정의",
-                    "reset_overrides": "재정의 초기화",
+                    "reset_overrides": "재설정 취소",
                     "import_theme": "문자열로부터 테마 불러오기",
                     "theme_data": "테마 데이터",
                     "sync": "동기화",
                     "title": "형태",
-                    "accent_selector": "악센트 컬러",
+                    "accent_selector": "강조 색깔",
                     "mono_font": "고정폭 폰트 선택기",
                     "ligatures_desc": "자동으로 이모티콘을 이모지로 변환하기 (예시: ->를 화살표로 바꿀수 있어요.) 이 옵션은 키고 끌 수 있습니다.",
                     "ligatures": "추천 폰트"
@@ -209,7 +209,7 @@
                 "sessions": {
                     "title": "세션",
                     "active_sessions": "활성화된 세션",
-                    "this_device": "현재 디바이스",
+                    "this_device": "현재 기기",
                     "created": "{{time_ago}}전에 만들어졌어요",
                     "logout": "모든 세션에서 로그아웃"
                 },
@@ -345,14 +345,15 @@
             "open_group_settings": "그룹 설정",
             "remove_member": "그룹에서 추방",
             "custom_status": "사용자 지정 상태",
-            "quote_message": "강조 메세지"
+            "quote_message": "메세지 인용",
+            "edit_identity": "아이디 수정"
         },
         "navigation": {
             "tabs": {
                 "dev": "개발자",
                 "home": "홈",
                 "friends": "친구",
-                "unreads": "안읽음",
+                "unreads": "안 읽음",
                 "saved": "저장된 메모"
             }
         },
@@ -365,7 +366,7 @@
         },
         "special": {
             "status": {
-                "connecting": "연결중…",
+                "connecting": "연결 중…",
                 "disconnected": "연결 끊김.",
                 "reconnecting": "연결을 기다리는 중…",
                 "offline": "오프라인."
@@ -375,7 +376,8 @@
                     "badges": {
                         "translator": "번역가",
                         "supporter": "서포터",
-                        "early_adopter": "얼리어답터"
+                        "early_adopter": "얼리어답터",
+                        "responsible_disclosure": "공개된 버그"
                     },
                     "mutual_friends": "같이 아는 친구",
                     "mutual_groups": "같이 있는 그룹",
@@ -472,7 +474,7 @@
                     "multiple": "{{userlist}} 와 {{user}} 로 부터",
                     "several": "{{userlist}}님 외 {{count}}명에게서…"
                 },
-                "sent": "전송중"
+                "sent": "전송 중"
             },
             "copy_username": "클릭하여 유저 이름 복사",
             "copy": "클릭하여 복사",
@@ -581,7 +583,7 @@
         "password": "비밀번호",
         "invite": "초대주소",
         "current_password": "기존 비밀번호",
-        "forgot": "비밀번호를 잃었나요?",
+        "forgot": "비밀번호를 잃어버렸나요?",
         "set_password": "새로운 비밀번호를 설정하세요.",
         "new": "Revolt가 처음이신가요?",
         "existing": "이미 계정이 있으신가요?",
@@ -598,10 +600,10 @@
         "privacy": "개인정보처리방침",
         "loading": "로딩중…",
         "image_by": "이미지 제공",
-        "on": "온",
+        "on": "켬",
         "about": "소개",
         "disabled": "비활성화",
-        "off": "오프",
+        "off": "끔",
         "unavailable": "미지원"
     },
     "error": {
