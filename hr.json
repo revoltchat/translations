@@ -37,11 +37,38 @@
                     "viewing_old": "Pregledavate stare poruke",
                     "spoiler_attachment": "Spojler",
                     "jump_present": "Idi na sadašnjost",
-                    "failed_load": "Nemogu učitati poruku."
+                    "failed_load": "Nemogu učitati poruku.",
+                    "no_sending": "Nemate dopuštenje za slanje poruka na ovom kanalu.",
+                    "blocked_messages": "{{count}} blokiranih poruka",
+                    "sent_file": "Poslao prilog",
+                    "sent_multiple_files": "Poslano je više privitaka",
+                    "blocked_user": "Blokirani korisnik"
                 },
                 "unknown_user": "<Nepoznati korisnik>",
                 "edited": "(uređeno)",
-                "bot": "robot"
+                "bot": "robot",
+                "search": {
+                    "title": "Traži",
+                    "sort": {
+                        "relevance": "Relevantnost",
+                        "latest": "Najnoviji",
+                        "oldest": "Najstariji"
+                    }
+                },
+                "notifications": {
+                    "none": "Nijedan",
+                    "all": "Sve poruke",
+                    "mention": "Samo spomene",
+                    "muted": "Prigušen",
+                    "default": "Koristi zadano"
+                },
+                "nsfw": {
+                    "channel": {
+                        "confirm": "Uđite u kanal",
+                        "marked": "Ovaj kanal je označen kao NSFW."
+                    },
+                    "confirm": "Potvrđujem da imam najmanje 18 godina."
+                }
             },
             "categories": {
                 "members": "Članovi",
@@ -62,7 +89,10 @@
                 "channel_name": "Ime kanala",
                 "channel_description": "Opis kanala",
                 "custom_banner": "Vlastiti banner",
-                "owner": "Vlasnik servera"
+                "owner": "Vlasnik servera",
+                "channel_type": "Vrsta kanala",
+                "text_channel": "SMS kanal",
+                "voice_channel": "Glasovni kanal"
             }
         },
         "navigation": {
@@ -95,7 +125,20 @@
             "pages": {
                 "account": {
                     "title": "Moj račun",
-                    "change_field": "Promjeni"
+                    "change_field": "Promjeni",
+                    "unique_id": "Ovo je jedinstveni korisnički identifikator za vaš račun.",
+                    "2fa": {
+                        "title": "Autentifikacija u dva faktora",
+                        "description": "Dodajte dodatni sloj sigurnosti tako što ćete omogućiti 2FA na svom računu.",
+                        "add_auth": "Dodajte autentifikator",
+                        "remove_auth": "Uklonite Authenticator"
+                    },
+                    "manage": {
+                        "description": "Onemogućite ili izbrišite svoj račun u bilo kojem trenutku. Ova radnja će vas odjaviti i potpuno izbrisati vaš račun, uključujući povijest razgovora i prijatelje.",
+                        "title": "Upravljanje računom",
+                        "disable": "Onemogući račun",
+                        "delete": "Izbriši račun"
+                    }
                 },
                 "profile": {
                     "title": "Profil",
@@ -104,13 +147,15 @@
                     "custom_background": "Vlastita pozadina",
                     "edit_background": "Promjeni pozadinu",
                     "profile_picture": "Profilna slika",
-                    "fetching": "Dohvaćujem profil…"
+                    "fetching": "Dohvaćujem profil…",
+                    "edit_profile": "Uredi profil"
                 },
                 "sessions": {
                     "title": "Sesije",
                     "active_sessions": "Aktivne sesije",
                     "this_device": "Ovaj uređaj",
-                    "created": "Napravljen {{time_ago}}"
+                    "created": "Napravljen {{time_ago}}",
+                    "logout": "Odjavite se sa svih ostalih sesija"
                 },
                 "appearance": {
                     "title": "Izgled",
@@ -137,7 +182,9 @@
                     "sync": "Sinkronizacija",
                     "emoji_pack": "Emoji paket",
                     "advanced": "Napredne postavke",
-                    "accent_selector": "Glavna boja"
+                    "accent_selector": "Glavna boja",
+                    "font": "Font",
+                    "import": "Uvezite temu"
                 },
                 "notifications": {
                     "title": "Obavjesti",
@@ -190,7 +237,12 @@
                     "send": "Pošalji feedback",
                     "describe": "Opišite problem."
                 },
-                "logOut": "Odjavi se"
+                "logOut": "Odjavi se",
+                "audio": {
+                    "title": "Glasovne postavke",
+                    "input_device": "Mikrofon",
+                    "output_device": "Zvučnik / slušalice"
+                }
             },
             "channel_pages": {
                 "overview": {
@@ -412,7 +464,9 @@
         "tos": "Uvjeti o korištenju",
         "about": "O nama",
         "on": "Uključeno",
-        "off": "Isključeno"
+        "off": "Isključeno",
+        "disabled": "Onemogućeno",
+        "unavailable": "Nedostupno"
     },
     "quantities": {
         "members": {
