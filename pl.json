@@ -552,13 +552,13 @@
         }
     },
     "dayjs": {
-        "lastDay": "[Wczoraj o] LT",
-        "sameDay": "[Dzisiaj o] LT",
-        "nextDay": "[Jutro o] LT",
+        "lastDay": "[Wczoraj o] {{time}}",
+        "sameDay": "[Dzisiaj o] {{time}}",
+        "nextDay": "[Jutro o] {{time}}",
         "last": "Ostatnia",
         "at": "o",
-        "nextWeek": "dddd [o] LT",
-        "lastWeek": "[Ostatni] dddd [o] LT",
+        "nextWeek": "dddd [o] {{time}}",
+        "lastWeek": "[Ostatni] dddd [o] {{time}}",
         "sameElse": "L",
         "defaults": {
             "date_format": "tradycyjnie",
