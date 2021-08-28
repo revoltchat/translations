@@ -9,9 +9,9 @@
                     "spoiler_attachment": "스포일러",
                     "failed_load": "메세지를 불러올 수 없습니다.",
                     "blocked_user": "차단된 사용자",
-                    "sent_file": "첨부파일을 보냈습니다",
-                    "sent_multiple_files": "여러 첨부파일을 보냈습니다",
-                    "blocked_messages": "차단된 메시지 {{count}}개"
+                    "sent_file": "파일을 보냈습니다",
+                    "sent_multiple_files": "여러 개의 파일을 보냈습니다",
+                    "blocked_messages": "{{count}}개의 차단된 메세지"
                 },
                 "search": {
                     "sort": {
@@ -51,8 +51,8 @@
                 "bot": "봇",
                 "notifications": {
                     "all": "모든 메세지",
-                    "default": "기본값 사용",
-                    "none": "없음",
+                    "default": "기본 사용",
+                    "none": "None",
                     "muted": "뮤트",
                     "mention": "멘션만"
                 },
@@ -362,12 +362,16 @@
                     "create_invite_created": "새 초대코드는 다음과 같습니다:",
                     "confirm_kick": "{{name}}님을 추방하시겠습니까?",
                     "confirm_ban": "{{name}}님을 차단하려고합니다",
-                    "confirm_ban_reason": "차단 사유"
+                    "confirm_ban_reason": "차단 사유",
+                    "confirm_close_dm_long": "나중에 다시 열 수 있지만 상대방과 나에게서 사라집니다.",
+                    "confirm_delete": "{{name}}을 삭제하시겠습니까?"
                 },
                 "account": {
                     "change": {
-                        "password": "비밀번호 변경하기"
-                    }
+                        "password": "비밀번호 변경하기",
+                        "email": "이메일 변경"
+                    },
+                    "failed": "변경에 실패하였습니다!"
                 }
             },
             "friends": {
@@ -376,7 +380,7 @@
                 "outgoing": "친구 수락 대기중.",
                 "nobody": "아직 아무도 없어요!"
             },
-            "copy_username": "클릭하여 유저네임 복사",
+            "copy_username": "클릭하여 사용자 이름 복사",
             "copy": "클릭하여 복사"
         }
     },
