@@ -10,11 +10,13 @@
                     "failed_load": "메세지를 불러올 수 없습니다.",
                     "blocked_user": "차단된 사용자",
                     "sent_file": "첨부파일을 보냈습니다",
-                    "sent_multiple_files": "여러 첨부파일을 보냈습니다"
+                    "sent_multiple_files": "여러 첨부파일을 보냈습니다",
+                    "blocked_messages": "차단된 메시지 {{count}}개"
                 },
                 "search": {
                     "sort": {
-                        "latest": "최신"
+                        "latest": "최신",
+                        "oldest": "오래된 순"
                     },
                     "title": "검색"
                 },
@@ -26,7 +28,8 @@
                     "channel_description_changed": "{{user}}님이 채널 설명을 변경했어요",
                     "user_banned": "{{user}}님이 차단되었어요",
                     "added_by": "{{other_user}}님이 {{user}}님을 추가했어요",
-                    "removed_by": "{{other_user}}님이 {{user}}님을 제거했어요"
+                    "removed_by": "{{other_user}}님이 {{user}}님을 제거했어요",
+                    "channel_renamed": "{{user}}님이 채널 이름을 {{name}}(으)로 변경했어요"
                 },
                 "voice": {
                     "leave": "연결 끊기",
@@ -46,11 +49,16 @@
                 "message_who": "{{person}}에게 메세지 보내기",
                 "bot": "봇",
                 "notifications": {
-                    "all": "모든 메세지"
+                    "all": "모든 메세지",
+                    "default": "기본값 사용",
+                    "none": "없음",
+                    "muted": "뮤트",
+                    "mention": "멘션만"
                 },
                 "nsfw": {
                     "channel": {
-                        "marked": "이 채널은 NSFW로 표시됩니다."
+                        "marked": "이 채널은 NSFW로 표시됩니다.",
+                        "confirm": "채널 입장"
                     },
                     "confirm": "본인은 18세 이상임을 확인합니다."
                 },
@@ -101,7 +109,8 @@
                         "description": "언제든지 계정을 비활성화하거나 삭제할 수 있습니다. 이 작업을 수행하면 계정에서 로그아웃되고 채팅 기록 및 친구 목록이 삭제됩니다.",
                         "title": "계정 관리"
                     },
-                    "unique_id": "이 번호는 계정의 고유한 식별 번호입니다."
+                    "unique_id": "이 번호는 계정의 고유한 식별 번호입니다.",
+                    "change_field": "변경"
                 },
                 "profile": {
                     "title": "프로필",
@@ -110,7 +119,8 @@
                     "placeholder": "자신을 소개하세요…",
                     "info": "내 소개",
                     "custom_background": "커스텀 배경",
-                    "edit_background": "배경 수정"
+                    "edit_background": "배경 수정",
+                    "fetching": "프로필을 불러오고 있어요…"
                 },
                 "appearance": {
                     "theme": "테마",
@@ -126,7 +136,13 @@
                     "font": "폰트",
                     "custom_css": "커스텀 CSS",
                     "advanced": "고급 옵션",
-                    "import": "테마 삽입"
+                    "import": "테마 삽입",
+                    "message_display": "메세지 표시",
+                    "overrides": "테마 재정의",
+                    "reset_overrides": "재정의 초기화",
+                    "import_theme": "문자열로부터 테마 불러오기",
+                    "theme_data": "테마 데이터",
+                    "sync": "동기화 옵션"
                 },
                 "language": {
                     "title": "언어",
@@ -135,7 +151,9 @@
                     "const": "구성 언어"
                 },
                 "audio": {
-                    "title": "음성 설정"
+                    "title": "음성 설정",
+                    "input_device": "마이크",
+                    "output_device": "스피커 / 헤드셋"
                 },
                 "donate": {
                     "title": "후원"
@@ -183,15 +201,21 @@
                     "this_device": "이 디바이스",
                     "created": "{{time_ago}}전에 만들어졌어요",
                     "logout": "모든 세션에서 로그아웃"
+                },
+                "sync": {
+                    "title": "동기화",
+                    "categories": "카테고리 동기화"
                 }
             },
             "title": "설정",
             "categories": {
-                "user_settings": "사용자 설정"
+                "user_settings": "사용자 설정",
+                "client_settings": "클라이언트 설정"
             },
             "actions": {
                 "upload": "업로드",
-                "remove": "삭제"
+                "remove": "삭제",
+                "max_filesize": "(최대 {{filesize}})"
             },
             "channel_pages": {
                 "overview": {
