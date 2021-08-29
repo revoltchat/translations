@@ -195,7 +195,20 @@
             "remove_member": "ازل من المجموعه",
             "kick_member": "ازل العضو",
             "open_file": "افتح الملف",
-            "message_user": "رساله"
+            "message_user": "رساله",
+            "copy_uid": "نسخ هوية المستخدم",
+            "copy_cid": "نسخ هوية القناة",
+            "quote_message": "اقتباس الرسالة",
+            "copy_text": "نسخ النص",
+            "copy_mid": "نسخ هوية الرسالة",
+            "create_invite": "إنشاء دعوة",
+            "open_server_settings": "إعدادات الخادم",
+            "copy_selection": "نسخ التحديد",
+            "copy_sid": "نسخ هوية الخادم",
+            "view_profile": "عرض الملف الشخصي",
+            "mark_as_read": "تحديد كمقروء",
+            "create_category": "إنشاء فئة",
+            "open_channel_settings": "إعدادات القناة"
         },
         "settings": {
             "pages": {
@@ -398,7 +411,9 @@
         "special": {
             "invite": {
                 "user_count": "{{member_count}} شخص",
-                "invited_by": "مدعو بواسطته {{user}}"
+                "invited_by": "مدعو بواسطته {{user}}",
+                "login": "تسجيل الدخول إلى ريفولت",
+                "accept": "قبول الدعوة"
             },
             "popovers": {
                 "user_profile": {
@@ -409,7 +424,17 @@
                     "badges": {
                         "supporter": "مساعد",
                         "translator": "مترجم"
-                    }
+                    },
+                    "profile": "الملف الشخصي",
+                    "mutual_groups": "المجموعات المشتَركة",
+                    "mutual_servers": "الخوادم المشتَركة",
+                    "no_servers": "لا يوجد خوادم مشتَركة!",
+                    "mutual_friends": "الأصدقاء المشتَركون",
+                    "no_users": "لا يوجد أصدقاء مشتَركون!",
+                    "no_groups": "لا يوجد مجموعات مشتَركة!"
+                },
+                "user_picker": {
+                    "select": "حدد أصدقاء لإضافتهم."
                 }
             },
             "requires_online": "يجب ان تكون اونلاين لترى هاذا.",
@@ -430,7 +455,59 @@
                 "nobody": "لا أحد هنا بعد!"
             },
             "copy_username": "انقر لنسخ اسم المستخدم",
-            "copy": "انقر للنسخ"
+            "copy": "انقر للنسخ",
+            "modals": {
+                "actions": {
+                    "update": "تحديث",
+                    "delete": "حذف",
+                    "send_email": "إرسال بريد إلكتروني",
+                    "remove": "إزالة",
+                    "leave": "مغادرة",
+                    "reload": "إعادة تحميل التطبيق",
+                    "back": "العودة للخلف",
+                    "ok": "حسناً",
+                    "kick": "طرد",
+                    "block": "حظر",
+                    "reveal": "إظهار",
+                    "cancel": "إلغاء",
+                    "continue": "متابعة",
+                    "ban": "منع",
+                    "save": "حفظ",
+                    "hide": "إخفاء",
+                    "close": "إغلاق",
+                    "create": "إنشاء",
+                    "preview": "معاينة"
+                },
+                "prompt": {
+                    "confirm_leave": "مغادرة {{name}}؟",
+                    "block_user": "حظر {{name}}؟",
+                    "confirm_kick": "هل أنت متأكد أنك تريد طرد {{name}}؟",
+                    "confirm_ban": "أنت على وشك حظر {{name}}",
+                    "confirm_ban_reason": "سبب الحظر",
+                    "confirm_leave_long": "لن تتمكن من الانضمام مجدداً ما لم تتم دعوتك مرة أُخرى.",
+                    "confirm_close_dm": "أغلق المحادثة مع {{name}}؟",
+                    "confirm_delete": "حذف {{name}}؟",
+                    "confirm_delete_message_long": "هل أنت متأكد أنك تريد حذف هذا؟",
+                    "unfriend_user_long": "لن تتمكن من محادثتهم مجدداً حتى تُعيد إضافتهم.",
+                    "block_user_long": "هل أنت متأكد أنك تريد حظر {{name}}؟ سيتم إزالتهم من قائمة أصدقائك أيضاً."
+                },
+                "signed_out": "لقد تم تسجيل خروجك!",
+                "onboarding": {
+                    "welcome": "مرحباً بك في"
+                },
+                "account": {
+                    "change": {
+                        "password": "تغيير كلمة المرور الخاصة بك",
+                        "username": "تغيير اسم المستخدم",
+                        "email": "تغيير عنوان البريد الخاص بك"
+                    },
+                    "failed": "فشل التغيير!"
+                },
+                "clipboard": {
+                    "copy": "نسخ يدوي:",
+                    "unavailable": "الحافظة غير متوفرة!"
+                }
+            }
         }
     },
     "error": {
@@ -449,7 +526,24 @@
         "UsernameTaken": "اسم المستخدم ماخوذ.",
         "AlreadyFriends": "بالفعل انت صديق مع هذا الشخص.",
         "OperationFailed": "فشلت العمليه.",
-        "InternalError": "خطأ داخلي."
+        "InternalError": "خطأ داخلي.",
+        "Unauthorized": "غير مصرّح.",
+        "FailedValidation": "فشل التحقق من صحة الحقول.",
+        "DatabaseError": "خطأ في قاعدة البيانات.",
+        "MissingPermission": "إذن مفقود.",
+        "UnknownError": "انظر إلى الكونسول.",
+        "InvalidSession": "جلسة غير صالحة.",
+        "UnverifiedAccount": "حساب لم يتم التحقق منه.",
+        "InvalidCredentials": "البريد الإلكتروني أو كلمة المرور خاطئة.",
+        "InvalidToken": "رمز غير صالح",
+        "InvalidInvite": "رمز غير صالح",
+        "ProbeError": "فشل الحصول على البيانات الوصفية للملف.",
+        "UnsupportedBrowser": "المتصفح يفتقد دعم هذه الميزة.",
+        "Unlabelled": "حدث شيء ما.",
+        "EmailInUse": "البريد الإلكتروني قيد الاستخدام.",
+        "EmailFailed": "فشل إرسال البريد الإلكتروني.",
+        "AlreadySentRequest": "تم إرسال طلب إلى هذا المستخدم بالفعل.",
+        "IoError": "واجه الخادم خطأ في الإدخال / الإخراج (I/O)."
     },
     "permissions": {
         "server": {
@@ -481,7 +575,8 @@
                 "d": "السماح للأعضاء بتغيير الصورة الخاصة بهم في هذا السيرفر."
             },
             "RemoveAvatars": {
-                "t": "إزالة الصور"
+                "t": "إزالة الصور",
+                "d": "السماح للأعضاء بإزالة الصور الرمزية الخاصة بأعضاء آخرين في هذا الخادم."
             },
             "BanMembers": {
                 "t": "حظر الأعضاء"
@@ -514,10 +609,23 @@
             "InviteOthers": {
                 "d": "السماح للأعضاء بدعوة مستخدمين آخرين إلى القناة.",
                 "t": "تغيير الاسم المستعار"
+            },
+            "EmbedLinks": {
+                "t": "تضمين روابط"
             }
         }
     },
     "shortcuts": {
         "ctrlc": "نسخ"
+    },
+    "quantities": {
+        "members": {
+            "one": "عضو واحد",
+            "many": "{{count}} أعضاء"
+        }
+    },
+    "notifications": {
+        "now_friends": "أنت الآن صديق مع @{{person}}!",
+        "sent_request": "@{{person}} أرسل لك طلب صداقة."
     }
 }
