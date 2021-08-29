@@ -248,7 +248,9 @@
                     "other": "Más (Írd ide)",
                     "send": "Visszajelzés beküldése",
                     "describe": "Kérjük, írd ismertesd a problémát.",
-                    "suggest": "Funkciójavaslat benyújtása"
+                    "suggest": "Funkciójavaslat benyújtása",
+                    "suggest_desc": "Új Revolt funkciók javaslása Github-on.",
+                    "issue": "Probléma bejelentése"
                 },
                 "donate": {
                     "title": "Adományozás"
@@ -322,11 +324,17 @@
             },
             "server_pages": {
                 "invites": {
-                    "title": "Meghívók"
+                    "title": "Meghívók",
+                    "invitor": "Meghívó",
+                    "revoke": "Visszavonás",
+                    "code": "Meghívó kód",
+                    "channel": "Csatorna"
                 },
                 "bans": {
                     "title": "Kitiltások",
-                    "no_reason": "Nincs tiltási indok."
+                    "no_reason": "Nincs tiltási indok.",
+                    "user": "Felhasználó",
+                    "revoke": "Visszavonás"
                 },
                 "members": {
                     "title": "Tagok"
@@ -339,6 +347,9 @@
                 },
                 "roles": {
                     "title": "Rangok"
+                },
+                "categories": {
+                    "title": "Kategóriák"
                 }
             },
             "permissions": {
@@ -423,7 +434,8 @@
                 "nobody": "Még nincs itt senki!",
                 "sent": "Kimenő",
                 "from": {
-                    "single": "{{user}}-től"
+                    "single": "{{user}}-től",
+                    "multiple": "{{userlist}}-től és {{user}}"
                 }
             },
             "popovers": {
