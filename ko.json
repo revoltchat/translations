@@ -99,10 +99,10 @@
             "pages": {
                 "account": {
                     "2fa": {
-                        "remove_auth": "2단계 인증 삭제하기",
+                        "remove_auth": "인증기 삭제하기",
                         "title": "2단계 인증",
                         "description": "계정에 2단계 인증을 활성화하여 보안 수준을 향상시키세요.",
-                        "add_auth": "2단계 인증 추가하기"
+                        "add_auth": "인증기 추가하기"
                     },
                     "title": "나의 계정",
                     "manage": {
@@ -150,7 +150,7 @@
                     "title": "형태",
                     "accent_selector": "강조 색",
                     "mono_font": "고정폭 폰트 선택기",
-                    "ligatures_desc": "자동으로 이모티콘을 이모지로 변환하기 (예시: ->를 화살표로 바꿀수 있어요.) 이 옵션은 켜고 끌 수 있습니다.",
+                    "ligatures_desc": "지원되는 폰트에 한해서, 자동으로 이모티콘을 이모지로 변환하기 (예시: ->를 화살표로 바꿀수 있어요.) 이 옵션은 켜고 끌 수 있습니다.",
                     "ligatures": "추천 폰트"
                 },
                 "language": {
@@ -271,7 +271,7 @@
                     "user": "사용자",
                     "title": "차단",
                     "no_reason": "차단 사유가 없습니다.",
-                    "revoke": "해제하기"
+                    "revoke": "해제"
                 }
             },
             "permissions": {
@@ -299,18 +299,18 @@
         "context_menu": {
             "copy_message_link": "메세지 링크 복사",
             "view_profile": "프로필 보기",
-            "kick_member": "멤버 추방하기",
-            "copy_id": "ID 복사하기",
+            "kick_member": "멤버 추방",
+            "copy_id": "ID 복사",
             "copy_cid": "채널 ID 복사",
             "copy_mid": "메세지 ID 복사",
             "copy_sid": "서버 ID 복사",
             "mention": "멘션",
             "message_user": "메세지",
             "reply_message": "답장",
-            "ban_member": "멤버 차단하기",
+            "ban_member": "멤버 차단",
             "copy_uid": "유저 ID 복사",
             "delete_message": "메시지 삭제",
-            "edit_message": "메시지 수정",
+            "edit_message": "수정",
             "copy_text": "텍스트 복사",
             "mark_as_read": "읽음으로 표시하기",
             "save_file": "파일 저장",
@@ -328,15 +328,15 @@
             "block_user": "사용자 차단",
             "unblock_user": "사용자 차단 해제",
             "remove_friend": "친구 삭제하기",
-            "add_friend": "친구 추가하기",
-            "cancel_friend": "요청 취소하기",
-            "clear_status": "상태 삭제하기",
+            "add_friend": "친구 추가",
+            "cancel_friend": "요청 취소",
+            "clear_status": "상태 삭제",
             "set_custom_status": "사용자 지정 상태 설정하기",
             "leave_group": "그룹에서 나가기",
             "leave_server": "서버에서 나가기",
-            "delete_server": "서버 삭제하기",
-            "delete_channel": "채널 삭제하기",
-            "create_channel": "채널 생성하기",
+            "delete_server": "서버 삭제",
+            "delete_channel": "채널 삭제",
+            "create_channel": "채널 만들기",
             "create_category": "카테고리 만들기",
             "create_invite": "초대주소 만들기",
             "open_notification_options": "알림 옵션",
@@ -345,8 +345,8 @@
             "open_group_settings": "그룹 설정",
             "remove_member": "그룹에서 추방",
             "custom_status": "사용자 지정 상태",
-            "quote_message": "메세지 인용",
-            "edit_identity": "아이디 수정"
+            "quote_message": "메시지 인용",
+            "edit_identity": "아이덴티티 변경"
         },
         "navigation": {
             "tabs": {
@@ -400,8 +400,8 @@
             "invite": {
                 "login": "Revolt에 로그인",
                 "accept": "초대 수락",
-                "invited_by": "{{user}}님이 초대함",
-                "user_count": "사용자 {{member_count}}명"
+                "invited_by": "{{user}}님의 초대",
+                "user_count": "{{member_count}}명"
             },
             "modals": {
                 "actions": {
@@ -420,7 +420,7 @@
                     "remove": "제거",
                     "update": "업데이트",
                     "cancel": "취소",
-                    "reload": "앱 리로드",
+                    "reload": "앱 재시작",
                     "continue": "계속",
                     "send_email": "이메일 전송",
                     "reveal": "공개"
@@ -432,7 +432,7 @@
                     "confirm_kick": "{{name}}님을 추방하시겠습니까?",
                     "confirm_ban": "{{name}}님을 차단하려고합니다",
                     "confirm_ban_reason": "차단 사유",
-                    "confirm_close_dm_long": "나중에 다시 열 수 있지만 상대방과 나에게서 사라집니다.",
+                    "confirm_close_dm_long": "나중에 다시 열 수 있지만 서로에게서 사라집니다.",
                     "confirm_delete": "{{name}}을 삭제하시겠습니까?",
                     "unfriend_user_long": "친구를 다시 추가할때까지 다시 대화를 못할 수도 있습니다.",
                     "block_user_long": "{{name}}님을 차단하시겠습니까? 친구 목록에서도 제거됩니다.",
@@ -446,7 +446,7 @@
                 },
                 "account": {
                     "change": {
-                        "password": "비밀번호 변경하기",
+                        "password": "비밀번호 변경",
                         "email": "이메일 변경",
                         "username": "사용자 이름 변경"
                     },
@@ -454,7 +454,7 @@
                 },
                 "clipboard": {
                     "unavailable": "클립보드를 사용할 수 없습니다!",
-                    "https": "현재 HTTPS 로 접속되어있지 않습니다.",
+                    "https": "현재 HTTPS 연결에 있지 않습니다.",
                     "copy": "수동 복사:"
                 },
                 "signed_out": "로그아웃 되었습니다!",
@@ -468,11 +468,11 @@
                 "incoming": "받은 친구 신청.",
                 "outgoing": "보낸 친구 신청.",
                 "nobody": "아직 아무도 없네요!",
-                "blocked": "차단됨",
+                "blocked": "차단된",
                 "from": {
                     "single": "{{user}}에게서",
                     "multiple": "{{userlist}} 와 {{user}} 로 부터",
-                    "several": "{{userlist}}님 외 {{count}}명에게서…"
+                    "several": "{{userlist}}님과 {{count}}명에게서…"
                 },
                 "sent": "전송 중"
             },
@@ -487,7 +487,7 @@
     "permissions": {
         "channel": {
             "ManageChannel": {
-                "t": "채널 관리하기",
+                "t": "채널 관리",
                 "d": "멤버가 채널을 편집하거나 삭제할 수 있습니다."
             },
             "SendMessage": {
@@ -499,7 +499,7 @@
                 "d": "사용자가 이 권한이 있는 모든 채널을 볼 수 있습니다."
             },
             "ManageMessages": {
-                "t": "메세지 관리하기",
+                "t": "메세지 관리",
                 "d": "멤버가 다른 멤버가 보낸 메세지를 삭제할 수 있습니다."
             },
             "UploadFiles": {
@@ -521,20 +521,20 @@
         },
         "server": {
             "BanMembers": {
-                "t": "멤버 차단하기",
+                "t": "멤버 차단",
                 "d": "멤버가 이 서버에서 특정 멤버를 영구적으로 제거할 수 있습니다."
             },
             "KickMembers": {
-                "t": "멤버 추방하기",
+                "t": "멤버 추방",
                 "d": "이 권한을 가진 멤버가 서버에서 멤버를 추방할 수 있습니다. 추방된 멤버는 초대를 받아 다시 들어올 수 있습니다."
             },
             "ChangeNickname": {
                 "t": "별명 변경하기",
-                "d": "멤버가 이 서버에서 닉네임을 변경할 수 있습니다."
+                "d": "멤버가 이 서버에서 닉네임을 변경할 수 있게 합니다."
             },
             "ManageNicknames": {
                 "t": "별명 관리하기",
-                "d": "사용자가 타 사용자의 닉네임을 변경하는 것을 허가합니다."
+                "d": "사용자가 타 사용자의 닉네임으로 변경하는 것을 허가합니다."
             },
             "ManageRoles": {
                 "t": "역할 관리",
@@ -624,20 +624,20 @@
         "NoEffect": "이 요청은 효과가 없습니다.",
         "IoError": "서버에 I/O 오류가 발생했습니다.",
         "DeniedNotification": "알림 액세스를 거부했습니다. 페이지 설정을 확인하세요.",
-        "InternalError": "내부 오류입니다.",
+        "InternalError": "내부 오류.",
         "Unauthorized": "인증되지 않았습니다.",
         "Unlabelled": "문제가 발생했습니다.",
         "FailedValidation": "필드를 확인하지 못했습니다.",
         "MissingPermission": "권한이 없습니다.",
         "UnknownError": "콘솔을 확인하세요.",
         "OperationFailed": "작업에 실패했습니다.",
-        "RenderFail": "템플릿을 불러오지 못했습니다.",
+        "RenderFail": "템플릿 렌더링하지 못하였습니다.",
         "MissingHeaders": "헤더가 없습니다.",
         "UnverifiedAccount": "확인되지 않은 계정입니다.",
         "InvalidSession": "유효하지 않은 세션입니다.",
         "EmailInUse": "이 이메일은 이미 사용중입니다.",
         "InvalidCredentials": "이메일 또는 비밀번호가 잘못되었습니다.",
-        "MissingInvite": "초대코드가 만료됬거나 없습니다.",
+        "MissingInvite": "초대코드가 만료됐거나 없습니다.",
         "UsernameTaken": "입력한 사용자명이 이미 사용중입니다.",
         "AlreadySentRequest": "이미 이 사용자에게 요청을 보냈습니다.",
         "CompromisedPassword": "이 암호는 손상되었습니다.",
