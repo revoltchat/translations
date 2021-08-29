@@ -4,7 +4,11 @@
         "privacy": "Policy o' Privacy",
         "tos": "Terms o' Service",
         "loading": "Loading…",
-        "image_by": "Image by"
+        "image_by": "Image by",
+        "disabled": "Disabled",
+        "on": "On",
+        "off": "Off",
+        "unavailable": "Unavailable"
     },
     "app": {
         "main": {
@@ -19,13 +23,14 @@
             "tabs": {
                 "friends": "Crewmates",
                 "dev": "Ship Builder",
-                "home": "Mainland"
+                "home": "Mainland",
+                "saved": "Saved Relics"
             }
         },
         "status": {
             "offline": "On leave",
             "invisible": "On leave",
-            "busy": "In the cabins",
+            "busy": "In Th' Cabins",
             "idle": "On a voyage",
             "online": "On-deck"
         },
@@ -42,6 +47,21 @@
                     }
                 }
             }
+        },
+        "context_menu": {
+            "open_video": "Open yer video",
+            "cancel_friend": "Cancel request",
+            "open_file": "Open file",
+            "remove_friend": "Remove me bucko"
+        },
+        "special": {
+            "popovers": {
+                "user_profile": {
+                    "badges": {
+                        "translator": "Pirate"
+                    }
+                }
+            }
         }
     },
     "login": {
@@ -53,18 +73,44 @@
         },
         "check_spam": "Please check spam if ye can nah find it",
         "existing": "Already 'ave an account?",
-        "forgot": "Forgot yer password?",
+        "forgot": "Forgot yer codeword?",
         "enter": {
-            "current_password": "Enter yer current password.",
+            "current_password": "Enter yer current codeword.",
             "invite": "Enter yer invite code.",
-            "password": "Enter yer password.",
+            "password": "Enter yer codeword.",
             "email": "Enter yer email.",
             "username": "Enter a usarname."
         },
         "register": "Register",
         "title": "Login",
         "username": "Usarname",
-        "current_password": "Current Passward",
-        "password": "Secret codeword"
+        "current_password": "Current secret codeword",
+        "password": "Secret codeword",
+        "open_mail_provider": "Check yer {{provider}}",
+        "invite": "Invite Code",
+        "email": "Email",
+        "new": "New t' Revolt?",
+        "reset": "Reset codeword.",
+        "successful_registration": "Ahoy! Successfully registered!",
+        "set_password": "Set new codeword."
+    },
+    "dayjs": {
+        "defaults": {
+            "date_format": "traditional",
+            "twelvehour": "no"
+        }
+    },
+    "permissions": {
+        "channel": {
+            "View": {
+                "t": "View Channel"
+            },
+            "InviteOthers": {
+                "t": "Invite Others to the Ship"
+            }
+        }
+    },
+    "notifications": {
+        "sent_request": "@{{person}} wants to be yer bucko."
     }
 }
