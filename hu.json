@@ -439,7 +439,8 @@
                 "sent": "Kimenő",
                 "from": {
                     "single": "{{user}}-től",
-                    "multiple": "{{userlist}}-től és {{user}}"
+                    "multiple": "{{userlist}}-től és {{user}}",
+                    "several": "{{userlist}}-től és {{count}} mástól…"
                 }
             },
             "popovers": {
@@ -641,10 +642,12 @@
                 "d": "Engedélyezi a tagoknak, hogy módosíthassanak vagy törölhessenek egy csatornát."
             },
             "SendMessage": {
-                "d": "Engedélyezi a tagoknak, hogy üzeneteket küldhessenek szöveg csatornákban."
+                "d": "Engedélyezi a tagoknak, hogy üzeneteket küldhessenek szöveg csatornákban.",
+                "t": "Üzenet Küldése"
             },
             "ManageMessages": {
-                "d": "Engedélyezi a tagoknak, hogy törölhessék a más tagok által küldött üzeneteket."
+                "d": "Engedélyezi a tagoknak, hogy törölhessék a más tagok által küldött üzeneteket.",
+                "t": "Üzenetek Kezelése"
             },
             "EmbedLinks": {
                 "t": "Hivatkozások beágyazása",
@@ -661,10 +664,12 @@
                 "t": "Tagok Kitiltása"
             },
             "ChangeNickname": {
-                "d": "Engedélyezi a tagoknak, hogy megváltoztassák a becenevüket a szerveren."
+                "d": "Engedélyezi a tagoknak, hogy megváltoztassák a becenevüket a szerveren.",
+                "t": "Becenév megváltoztatása"
             },
             "ManageChannels": {
-                "d": "Engedélyezi a tagoknak a csatorna létrehozást, szerkesztést és törlést."
+                "d": "Engedélyezi a tagoknak a csatorna létrehozást, szerkesztést és törlést.",
+                "t": "Csatornák Kezelése"
             },
             "KickMembers": {
                 "t": "Tagok Kirúgása",
@@ -683,7 +688,8 @@
                 "t": "Szerver Kezelése"
             },
             "ManageNicknames": {
-                "d": "Engedélyezi a tagoknak, hogy megváltozassák mások becenevét a szerveren."
+                "d": "Engedélyezi a tagoknak, hogy megváltozassák mások becenevét a szerveren.",
+                "t": "Becenevek Kezelése"
             }
         }
     }
