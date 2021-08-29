@@ -7,7 +7,7 @@
         "loading": "Betöltés…",
         "on": "Be",
         "off": "Ki",
-        "disabled": "Kikapcsolás",
+        "disabled": "Letiltva",
         "unavailable": "Nem elérhető"
     },
     "login": {
@@ -106,7 +106,7 @@
                 "nsfw": {
                     "channel": {
                         "marked": "Ez a csatorna NSFW-nek van jelölve.",
-                        "confirm": "Belépés a Csatornába"
+                        "confirm": "Belépés a csatornába"
                     },
                     "confirm": "Igazolom azt, hogy elmúltam legalább 18 éves."
                 },
@@ -182,7 +182,8 @@
                     "ligatures": "Betűtípus Ligatúrák",
                     "mono_font": "Monospace Betűtípus Választó",
                     "font": "Betűtípus",
-                    "import": "Téma importálása"
+                    "import": "Téma importálása",
+                    "ligatures_desc": "A támogatott betűtípusok esetében a ligatúrák karaktereket kombinálnak, például a ->-ból nyíl lesz. Váltson Interre, és próbálja meg bekapcsolni ezt az opciót."
                 },
                 "logOut": "Kijelentkezés",
                 "account": {
@@ -236,16 +237,18 @@
                     "profile_picture": "Profilkép",
                     "custom_background": "Egyedi háttér",
                     "edit_background": "Háttér szerkesztése",
-                    "fetching": "Profilod betöltése…"
+                    "fetching": "Profilod betöltése…",
+                    "edit_profile": "Profilod Szerkesztése"
                 },
                 "feedback": {
                     "title": "Visszajelzés",
                     "report": "Mit szeretnél bejelenteni?",
-                    "bug": "Hiba",
+                    "bug": "Hibák nyomon követése",
                     "feature": "Funkció kérelmezése",
                     "other": "Más (Írd ide)",
                     "send": "Visszajelzés beküldése",
-                    "describe": "Kérjük, írd ismertesd a problémát."
+                    "describe": "Kérjük, írd ismertesd a problémát.",
+                    "suggest": "Funkciójavaslat benyújtása"
                 },
                 "donate": {
                     "title": "Adományozás"
@@ -273,6 +276,14 @@
                 },
                 "native": {
                     "title": "Asztali Beállítások"
+                },
+                "audio": {
+                    "input_device": "Mikrofon",
+                    "output_device": "Hangszóró / Fejhallgató",
+                    "title": "Hang Beállítások"
+                },
+                "bots": {
+                    "title": "Botjaim"
                 }
             },
             "categories": {
@@ -314,7 +325,8 @@
                     "title": "Meghívók"
                 },
                 "bans": {
-                    "title": "Kitiltások"
+                    "title": "Kitiltások",
+                    "no_reason": "Nincs tiltási indok."
                 },
                 "members": {
                     "title": "Tagok"
@@ -358,7 +370,8 @@
                     "leave": "Kilépés",
                     "remove": "Eltávolít",
                     "back": "Vissza",
-                    "reveal": "Felfed"
+                    "reveal": "Felfed",
+                    "hide": "Elrejtés"
                 },
                 "prompt": {
                     "confirm_leave": "Kilépsz a(z) {{name}} csoportból?",
@@ -406,7 +419,7 @@
                 "outgoing": "Kimenő barátkérelem.",
                 "incoming": "Bejövő barátkérelem.",
                 "blocked": "Blokkolva",
-                "pending": "Függőben lévő",
+                "pending": "Függőben lévő felkérések",
                 "nobody": "Még nincs itt senki!",
                 "sent": "Kimenő",
                 "from": {
@@ -431,14 +444,22 @@
                         "connections": "Kapcsolatok",
                         "badges": "Jelvények"
                     },
-                    "empty": "Nincs itt még semmi…"
+                    "empty": "Nincs itt még semmi…",
+                    "mutual_servers": "Közös szerverek",
+                    "no_servers": "Nincsenek közös szerverek!"
                 },
                 "user_picker": {
                     "select": "Válaszd ki barátaidat a hozzáadáshoz."
                 }
             },
             "copy_username": "Kattints a felhasználóneved másolásához",
-            "copy": "Kattints a másoláshoz"
+            "copy": "Kattints a másoláshoz",
+            "invite": {
+                "user_count": "{{member_count}} tag",
+                "login": "Bejelentkezés Revolt-ra",
+                "accept": "Meghívó elfogadása",
+                "invited_by": "Meghívó általa: {{user}}"
+            }
         },
         "navigation": {
             "tabs": {
@@ -480,12 +501,12 @@
             "copy_selection": "Kiválasztás másolása",
             "open_channel_settings": "Csatorna beállításai",
             "open_group_settings": "Csoport beállításai",
-            "copy_link": "Link Másolása",
-            "open_link": "Link Megnyitása",
+            "copy_link": "Link másolása",
+            "open_link": "Link megnyitása",
             "clear_status": "Állapot törlése",
             "delete_server": "Szerver törlése",
             "leave_group": "Csoport elhagyása",
-            "kick_member": "Tag kidobása",
+            "kick_member": "Tag kirúgása",
             "ban_member": "Tag kitiltása",
             "leave_server": "Szerver elhagyása",
             "close_dm": "Közvetlen beszélgetés törlése",
@@ -496,7 +517,10 @@
             "create_channel": "Csatorna létrehozása",
             "open_server_settings": "Szerver beállításai",
             "reply_message": "Válasz",
-            "open_notification_options": "Értesítési beállítások"
+            "open_notification_options": "Értesítési beállítások",
+            "create_category": "Kategória létrehozása",
+            "copy_message_link": "Üzenethivatkozás másolása",
+            "edit_identity": "Identitás szerkesztése"
         },
         "status": {
             "offline": "Offline",
@@ -504,6 +528,9 @@
             "busy": "Elfoglalt",
             "idle": "Tétlen",
             "online": "Elérhető"
+        },
+        "permissions": {
+            "required": "Jogosultság szükséges"
         }
     },
     "dayjs": {
@@ -578,10 +605,34 @@
     "permissions": {
         "channel": {
             "UploadFiles": {
-                "t": "Fájlok Feltöltése"
+                "t": "Fájlok Feltöltése",
+                "d": "Engedélyezi a tagoknak, hogy fájlokat tölthessenek fel a szöveges csatornákon."
             },
             "View": {
-                "t": "Csatorna Megtekintése"
+                "t": "Csatorna Megtekintése",
+                "d": "Engedélyezi a tagoknak, hogy megtekinthessék azokat a csatornákat, amelyekhez engedélyük van."
+            },
+            "VoiceCall": {
+                "d": "Engedélyezi a tagoknak, hogy csatlakozhassanak hangcsatornákhoz.",
+                "t": "Hanghívás"
+            },
+            "InviteOthers": {
+                "t": "Mások meghívása",
+                "d": "Engedélyezi a tagoknak, hogy meghívhassanak más tagokat egy csatornába."
+            },
+            "ManageChannel": {
+                "t": "Csatornák Kezelése",
+                "d": "Engedélyezi a tagoknak, hogy módosíthassanak vagy törölhessenek egy csatornát."
+            },
+            "SendMessage": {
+                "d": "Engedélyezi a tagoknak, hogy üzeneteket küldhessenek szöveg csatornákban."
+            },
+            "ManageMessages": {
+                "d": "Engedélyezi a tagoknak, hogy törölhessék a más tagok által küldött üzeneteket."
+            },
+            "EmbedLinks": {
+                "t": "Hivatkozások beágyazása",
+                "d": "Engedélyezi a tagoknak, hogy beágyazott tartalmat jelenítsen meg a hivatkozáson, amit küldenek szöveges csatornákon."
             }
         },
         "server": {
@@ -612,7 +663,8 @@
                 "d": "Engedélyezi a tagoknak, hogy eltávolítsák mások szerver avatárjait a szerveren."
             },
             "ManageServer": {
-                "d": "Engedélyezi a tagoknak, hogy megváltoztassák a szerver nevét, leírását, ikonját és ehhez hasonló információkat."
+                "d": "Engedélyezi a tagoknak, hogy megváltoztassák a szerver nevét, leírását, ikonját és ehhez hasonló információkat.",
+                "t": "Szerver Kezelése"
             },
             "ManageNicknames": {
                 "d": "Engedélyezi a tagoknak, hogy megváltozassák mások becenevét a szerveren."
