@@ -87,7 +87,7 @@
                     "confirm": "Dearbhaím go bhfuil me 18 mbliana d'aois ar a laghad."
                 },
                 "edited": "curtha in eagar",
-                "bot": "bot",
+                "bot": "róbó",
                 "notifications": {
                     "default": "réamhshocraithe usaid",
                     "all": "gach teachtaireacht",
@@ -108,7 +108,8 @@
                 "attached_file": "caengailte {{filename}}",
                 "start": {
                     "group": "seo tus do chomhrá."
-                }
+                },
+                "unknown_user": "<Usaideoir aineoil>"
             },
             "groups": {
                 "create": "grúpa a chruthú",
@@ -156,7 +157,7 @@
                         "delete": "scrios Cuntas",
                         "description": "Díchumasaigh no scrios do chuntas ag am ar bith. Daenfaidh an gníomh seo tú a logáil amach agus do chuntas a scriosadh go hiomlán, lena n-áirítear do stair comhrá agus do chairde."
                     },
-                    "unique_id": "Is aitheantóir uathúil uasideora e seo do do chuntas."
+                    "unique_id": "Is aitheantóir uathúil úsáideoira e seo do do chuntas."
                 },
                 "profile": {
                     "title": "Próifíl",
@@ -172,10 +173,95 @@
                     "title": "Seisiúin",
                     "active_sessions": "gniomhach seisiúin",
                     "this_device": "na feistí seo",
-                    "logout": "Logáil amach as gach seisiún eile"
+                    "logout": "Logáil amach as gach seisiún eile",
+                    "created": "Cruthaíodh {{time_ago}}"
                 },
                 "audio": {
-                    "title": "socruithe gutha"
+                    "title": "socruithe gutha",
+                    "input_device": "Micreafón",
+                    "output_device": "Callaire / Cluasáin"
+                },
+                "appearance": {
+                    "display": {
+                        "default_description": "Álainn, slíoctha agus nua-aimseartha.",
+                        "default": "Loiceadh",
+                        "compact": "Dlúth",
+                        "compact_description": "An seansaol breá, de IRC."
+                    },
+                    "custom_css": "CSS saincheaptha",
+                    "ligatures_desc": "Do roinnt clónna, comhcheanglaíonn comharthaí na litreacha. Mar shampla, athraíonn sé '->' go saighead. Aistrigh go Inter agus bain triail as an socrú seo.",
+                    "mono_font": "Cló Monospás roghnóir",
+                    "font": "Cló",
+                    "ligatures": "Comharthaí clónna",
+                    "title": "Cuma",
+                    "theme": "Téama",
+                    "color": {
+                        "light": "geal",
+                        "dark": "dorcha"
+                    },
+                    "accent_selector": "Dath Ábhar",
+                    "emoji_pack": "Paca d'emoji",
+                    "message_display": "Cuma Teachtaireacht",
+                    "advanced": "Roghanna chun cinn",
+                    "overrides": "Téama Sáraímí",
+                    "reset_overrides": "Athshuím sáraímí",
+                    "import": "Iompórt téama",
+                    "import_theme": "Iompórt téama ó téacs",
+                    "theme_data": "Sonraí Téama",
+                    "sync": "Roghanna Sync"
+                },
+                "sync": {
+                    "descriptions": {
+                        "appearance": "Beidh seo sioncrónaigh roghanna, mar shampla paca emoji agus dlús na teachtaireachtaí.",
+                        "theme": "beidh seo sioncrónaigh do téama de rogha, dathanna agus CSS saincheaptha.",
+                        "locale": "Beidh seo sioncrónaigh do teanga de rogha."
+                    },
+                    "title": "Sync",
+                    "categories": "Lasán Earnáilí"
+                },
+                "experiments": {
+                    "not_available": "Níl aon ceannaithe ar fáil anois.",
+                    "title": "Triailí",
+                    "features": "Ceannaithe ar fáil"
+                },
+                "feedback": {
+                    "suggest_desc": "Tabhair ceannaithe nua de Revolt ar GitHub discussions.",
+                    "title": "Aischothú",
+                    "suggest": "Tabhair moladh ceannaithe",
+                    "issue": "Chruthú tál nua"
+                },
+                "notifications": {
+                    "enable_push": "Cuir fógraí push ar siúl.",
+                    "title": "Fógraí",
+                    "push_notifications": "Fógraí Push",
+                    "enable_desktop": "Cuir fógraí córas ar siúl.",
+                    "sounds": "Fuaimeanna",
+                    "descriptions": {
+                        "enable_desktop": "Tabharfaidh seo fógraí duit nuair a bíonn an aip oscailte.",
+                        "enable_push": "Cuir seo ar siúl chun fógraí a fháil nuair a théann tú as líne."
+                    },
+                    "sound": {
+                        "message": "Teachtaireacht a fuarthas",
+                        "outbound": "Teachtaireacht seolta",
+                        "call_join": "Chuaigh Úsáideoir isteach glao",
+                        "call_leave": "D'imigh Úsáideoir glao"
+                    }
+                },
+                "language": {
+                    "title": "Teanga",
+                    "select": "Roghnaigh do theanga",
+                    "const": "Teangacha tógthaí",
+                    "other": "Roghannaí teanga eile"
+                },
+                "native": {
+                    "title": "Roghanna Córas"
+                },
+                "donate": {
+                    "title": "Deonaigh"
+                },
+                "source_code": "Cód Bunaidh",
+                "bots": {
+                    "title": "Mo Róbataí"
                 }
             }
         }
