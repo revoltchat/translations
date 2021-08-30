@@ -184,7 +184,10 @@
                     "advanced": "Napredne postavke",
                     "accent_selector": "Glavna boja",
                     "font": "Font",
-                    "import": "Uvezite temu"
+                    "import": "Uvezite temu",
+                    "ligatures_desc": "Za podržane fontove, ligature kombiniraju znakove zajedno, na primjer, pretvarajući -> u strelicu. Prebacite se na Inter i pokušajte prebaciti ovu opciju.",
+                    "mono_font": "Birač jednoznačnih fontova",
+                    "ligatures": "Font ligatures"
                 },
                 "notifications": {
                     "title": "Obavjesti",
@@ -199,11 +202,19 @@
                     "sounds": "Zvukovi",
                     "push_notifications": "Push obavjesti",
                     "enable_desktop": "Uključi obavjesti.",
-                    "enable_push": "Uključi push obavjesti."
+                    "enable_push": "Uključi push obavjesti.",
+                    "sound": {
+                        "call_join": "Korisnički pridruženi poziv",
+                        "call_leave": "Lijevi poziv korisnika",
+                        "outbound": "Poruka je poslana",
+                        "message": "Poruka primljena"
+                    }
                 },
                 "language": {
                     "title": "Jezik",
-                    "select": "Odaberi jezik"
+                    "select": "Odaberi jezik",
+                    "other": "Ostale jezične opcije",
+                    "const": "Konstruirani jezici"
                 },
                 "sync": {
                     "categories": "Kategorije sinkronizacije",
@@ -222,7 +233,8 @@
                     "title": "Eksperimentalno",
                     "descriptions": {
                         "servers": "Ovo će ti dopustiti da praviš servere sa kanalima, pozivnicama, zabranama, moderacijom i još puno toga."
-                    }
+                    },
+                    "not_available": "Trenutno nisu dostupni eksperimenti."
                 },
                 "donate": {
                     "title": "Doniraj"
@@ -235,13 +247,24 @@
                     "feature": "Zahtjev za značajku",
                     "other": "Ostalo",
                     "send": "Pošalji feedback",
-                    "describe": "Opišite problem."
+                    "describe": "Opišite problem.",
+                    "suggest_desc": "Predložite nove značajke Revolta u raspravama na GitHubu.",
+                    "issue": "Izradite novo izdanje",
+                    "suggest": "Pošaljite prijedlog značajke",
+                    "issue_desc": "Da biste nam lakše olakšali probleme s trijažom, problem možete stvoriti na GitHubu.",
+                    "bug_desc": "Ovdje pogledajte trenutno aktivna izvješća o programskim pogreškama."
                 },
                 "logOut": "Odjavi se",
                 "audio": {
                     "title": "Glasovne postavke",
                     "input_device": "Mikrofon",
                     "output_device": "Zvučnik / slušalice"
+                },
+                "bots": {
+                    "title": "Moji botovi"
+                },
+                "native": {
+                    "title": "Postavke radne površine"
                 }
             },
             "channel_pages": {
@@ -249,22 +272,40 @@
                     "title": "Pregled",
                     "name": "Ime kanala",
                     "description": "Opis kanala"
+                },
+                "permissions": {
+                    "title": "Dopuštenja"
                 }
             },
             "server_pages": {
                 "overview": {
                     "title": "Pregled",
                     "name": "Ime servera",
-                    "description": "Opis kanala"
+                    "description": "Opis kanala",
+                    "system_messages": "Kanali poruka sustava"
                 },
                 "members": {
                     "title": "Članovi"
                 },
                 "invites": {
-                    "title": "Pozivnice"
+                    "title": "Pozivnice",
+                    "code": "Pozivni kod",
+                    "invitor": "Pozivatelj",
+                    "channel": "Kanal",
+                    "revoke": "Opozvati"
                 },
                 "bans": {
-                    "title": "Zabrane"
+                    "title": "Zabrane",
+                    "revoke": "Opozvati",
+                    "no_reason": "Nema razloga za zabranu.",
+                    "reason": "Razlog zabrane",
+                    "user": "Korisnik"
+                },
+                "roles": {
+                    "title": "Uloge"
+                },
+                "categories": {
+                    "title": "Kategorije"
                 }
             },
             "tips": {
@@ -280,6 +321,13 @@
                     "a": "Ako vidite nepoznatu sesiju,",
                     "b": "promjenite svoju lozinku i uključite 2FA."
                 }
+            },
+            "permissions": {
+                "channel": "Dopuštenja kanala",
+                "create_role": "Stvorite novu ulogu",
+                "role_name": "Naziv uloge",
+                "default_role": "Zadano",
+                "server": "Dopuštenja poslužitelja"
             }
         },
         "special": {
@@ -289,7 +337,13 @@
                 "incoming": "Ulazni zahtjev za prijateljstvo.",
                 "outgoing": "Odlazni zahtjev za prijateljstvo.",
                 "nobody": "Nema još ničega ovdje!",
-                "blocked": "Blokiran"
+                "blocked": "Blokiran",
+                "sent": "Odlazni",
+                "from": {
+                    "single": "Od korisnika {{user}}",
+                    "multiple": "Od korisnika {{userlist}} i {{user}}",
+                    "several": "Od korisnika {{userlist}} i još {{count}}…"
+                }
             },
             "status": {
                 "offline": "Izvan mreže.",
@@ -321,7 +375,11 @@
                     "confirm_close_dm": "Zatvori razgovor sa {{name}}?",
                     "confirm_delete_message_long": "Jeste li sigurni da želite izbrisati ovo?",
                     "create_invite_created": "Evo vaše invitacije:",
-                    "confirm_ban": "Vi ćete zabraniti {{name}}"
+                    "confirm_ban": "Vi ćete zabraniti {{name}}",
+                    "unfriend_user": "Ukloniti {{name}}?",
+                    "unfriend_user_long": "Možda nećete moći ponovno razgovarati s njima dok ih ponovo ne dodate.",
+                    "block_user": "Blokirati {{name}}?",
+                    "block_user_long": "Jeste li sigurni da želite blokirati korisnika {{name}}? Također će biti uklonjeni s vašeg popisa prijatelja."
                 },
                 "account": {
                     "change": {
@@ -343,7 +401,18 @@
                     "continue": "Nastavi",
                     "send_email": "Pošalji e-poštu",
                     "delete": "Izbriši",
-                    "reload": "Ponovno pokrenite aplikaciju"
+                    "reload": "Ponovno pokrenite aplikaciju",
+                    "reveal": "Otkriti",
+                    "hide": "Sakriti",
+                    "back": "Vrati se natrag",
+                    "leave": "Napustiti",
+                    "block": "Blok",
+                    "remove": "Ukloniti",
+                    "create": "Stvoriti"
+                },
+                "external_links": {
+                    "title": "Vanjske veze mogu biti opasne!",
+                    "short": "Jeste li sigurni da želite otići na: "
                 }
             },
             "popovers": {
@@ -364,13 +433,22 @@
                         "responsible_disclosure": "Odgovorno otkrivene greške"
                     },
                     "mutual_groups": "Zajedničke grupe",
-                    "no_users": "Nema zajedničkih prijatelja!"
+                    "no_users": "Nema zajedničkih prijatelja!",
+                    "mutual_servers": "Međusobni poslužitelji",
+                    "no_servers": "Nema zajedničkih poslužitelja!"
                 },
                 "user_picker": {
                     "select": "Odaberi prijatelje koje želiš dodati."
                 }
             },
-            "requires_online": "Trebaš biti na vezi da vidiš ovo."
+            "requires_online": "Trebaš biti na vezi da vidiš ovo.",
+            "invite": {
+                "user_count": "Broj korisnika: {{member_count}}",
+                "invited_by": "Pozvao korisnik {{user}}",
+                "login": "Prijavite se u Revolt",
+                "accept": "Prihvati Poziv"
+            },
+            "copy": "Kliknite za kopiranje"
         },
         "context_menu": {
             "copy_id": "Kopiraj ID",
@@ -417,7 +495,15 @@
             "open_image": "Otvori sliku",
             "block_user": "Blokiraj korisnika",
             "delete_channel": "Izbriši kanal",
-            "open_group_settings": "Postavke grupe"
+            "open_group_settings": "Postavke grupe",
+            "copy_message_link": "Kopirajte vezu do poruke",
+            "edit_identity": "Uređivanje identiteta",
+            "open_notification_options": "Opcije obavijesti",
+            "create_category": "Izradi kategoriju",
+            "reply_message": "Odgovor"
+        },
+        "permissions": {
+            "required": "Potrebna dopuštenja"
         }
     },
     "login": {
@@ -530,5 +616,79 @@
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
+    },
+    "permissions": {
+        "server": {
+            "ManageChannels": {
+                "d": "Omogućuje članovima stvaranje, uređivanje i brisanje kanala.",
+                "t": "Upravljanje kanalima"
+            },
+            "KickMembers": {
+                "d": "Dopušta članovima uklanjanje članova s ovog poslužitelja. Izbačeni članovi mogu se ponovno pridružiti pozivom.",
+                "t": "Udarite članove"
+            },
+            "ManageNicknames": {
+                "t": "Upravljajte nadimcima",
+                "d": "Dopušta članovima promjenu nadimaka drugih članova."
+            },
+            "RemoveAvatars": {
+                "t": "Uklonite avatare",
+                "d": "Dopušta članovima uklanjanje avatara poslužitelja drugih članova na ovom poslužitelju."
+            },
+            "ManageServer": {
+                "d": "Dopušta članovima da promijene naziv, opis, ikonu ovog poslužitelja i druge povezane podatke.",
+                "t": "Upravljanje poslužiteljem"
+            },
+            "ChangeAvatar": {
+                "t": "Promijeni avatar",
+                "d": "Dopušta članovima da promijene avatar poslužitelja na ovom poslužitelju."
+            },
+            "ChangeNickname": {
+                "d": "Dopušta članovima promjenu nadimka na ovom poslužitelju.",
+                "t": "Promijeni nadimak"
+            },
+            "BanMembers": {
+                "d": "Dopušta članovima trajno uklanjanje članova s ovog poslužitelja.",
+                "t": "Zabrani članove"
+            },
+            "ManageRoles": {
+                "d": "Omogućuje članovima stvaranje, uređivanje i brisanje uloga s nižim rangom od njihovog. Omogućuje im i izmjenu dopuštenja uloga na kanalima.",
+                "t": "Upravljanje ulogama"
+            }
+        },
+        "channel": {
+            "View": {
+                "t": "Pogledajte kanal",
+                "d": "Omogućuje članovima pregled svih kanala na kojima imaju ovo dopuštenje."
+            },
+            "SendMessage": {
+                "t": "Slanje poruka",
+                "d": "Omogućuje članovima slanje poruka u tekstualnim kanalima."
+            },
+            "ManageMessages": {
+                "d": "Dopušta članovima brisanje poruka koje su poslali drugi članovi.",
+                "t": "Upravljanje porukama"
+            },
+            "VoiceCall": {
+                "t": "Glasovni poziv",
+                "d": "Dopušta članovima da se pridruže glasovnim kanalima."
+            },
+            "EmbedLinks": {
+                "t": "Ugradi veze",
+                "d": "Omogućuje članovima prikazivanje ugrađenog sadržaja na vezama koje objavljuju u tekstualnim kanalima."
+            },
+            "ManageChannel": {
+                "d": "Dopušta članovima uređivanje ili brisanje kanala.",
+                "t": "Upravljanje kanalima"
+            },
+            "InviteOthers": {
+                "t": "Pozovite druge",
+                "d": "Dopušta članovima da pozivaju druge korisnike na kanal."
+            },
+            "UploadFiles": {
+                "t": "Učitaj datoteke",
+                "d": "Omogućuje članovima prijenos datoteka u tekstualne kanale."
+            }
+        }
     }
 }
