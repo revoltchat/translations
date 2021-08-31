@@ -29,7 +29,7 @@
                     "channel_description_changed": "{{user}}님이 채널 설명을 변경했어요",
                     "user_banned": "{{user}}님이 차단되었어요",
                     "added_by": "{{other_user}}님이 {{user}}님을 추가했어요",
-                    "removed_by": "{{other_user}}님이 {{user}}님을 제거했어요",
+                    "removed_by": "{{other_user}}님이 {{user}}님을 삭제했어요",
                     "channel_renamed": "{{user}}님이 채널 이름을 {{name}}(으)로 변경했어요"
                 },
                 "voice": {
@@ -99,7 +99,7 @@
             "pages": {
                 "account": {
                     "2fa": {
-                        "remove_auth": "인증기 삭제하기",
+                        "remove_auth": "인증기 제거하기",
                         "title": "2단계 인증",
                         "description": "계정에 2단계 인증을 활성화하여 보안 수준을 향상시키세요.",
                         "add_auth": "인증기 추가하기"
@@ -133,8 +133,8 @@
                         "compact_description": "좋고 오래된 IRC(Internet Relay Chat)."
                     },
                     "color": {
-                        "dark": "어두운",
-                        "light": "밝은"
+                        "dark": "어둡게",
+                        "light": "밝게"
                     },
                     "emoji_pack": "이모지 팩",
                     "font": "폰트",
@@ -147,8 +147,8 @@
                     "import_theme": "문자열로부터 테마 불러오기",
                     "theme_data": "테마 데이터",
                     "sync": "동기화",
-                    "title": "형태",
-                    "accent_selector": "강조 색",
+                    "title": "디스플레이",
+                    "accent_selector": "색 강조",
                     "mono_font": "고정폭 폰트",
                     "ligatures_desc": "지원되는 폰트에 한해서, 자동으로 이모티콘을 이모지로 변환하기 (예시: ->를 ➡로 바꿀수 있어요.) 이 옵션은 켜고 끌 수 있습니다.",
                     "ligatures": "문자 이모지 변환"
@@ -196,10 +196,10 @@
                         "enable_desktop": "활성화하면 앱이 열려있는동안 알림이 표시됩니다."
                     },
                     "sound": {
-                        "outbound": "메세지 보내기",
-                        "call_join": "사용자가 통화에 입장했습니다",
-                        "call_leave": "사용자가 통화에서 나갔습니다",
-                        "message": "받은 메세지"
+                        "outbound": "메세지 보냈을때",
+                        "call_join": "사용자가 음성 채널에 참가했을때",
+                        "call_leave": "사용자가 음성 채널에서 나갔을때",
+                        "message": "메세지 받기"
                     },
                     "sounds": "소리"
                 },
@@ -217,7 +217,7 @@
                     "title": "동기화",
                     "categories": "카테고리 동기화",
                     "descriptions": {
-                        "theme": "선택한 테마, 색상 및 사용자 정의 CSS가 동기화됩니다.",
+                        "theme": "선택한 테마, 색상 및 커스텀 CSS가 동기화됩니다.",
                         "locale": "현재 고른 언어를 동기화 합니다.",
                         "appearance": "이모지 팩 및 메시지 밀도와 같은 옵션이 동기화됩니다."
                     }
@@ -230,7 +230,7 @@
             },
             "actions": {
                 "upload": "업로드",
-                "remove": "삭제",
+                "remove": "제거",
                 "max_filesize": "(최대 {{filesize}})"
             },
             "channel_pages": {
@@ -325,8 +325,8 @@
             "open_image": "이미지 열기",
             "open_video": "동영상 열기",
             "open_link": "링크 열기",
-            "block_user": "사용자 차단",
-            "unblock_user": "사용자 차단 해제",
+            "block_user": "멤버 차단",
+            "unblock_user": "멤버 차단 해제",
             "remove_friend": "친구 삭제",
             "add_friend": "친구 추가",
             "cancel_friend": "요청 취소",
@@ -376,7 +376,7 @@
                     "badges": {
                         "translator": "번역가",
                         "supporter": "서포터",
-                        "early_adopter": "얼리어답터",
+                        "early_adopter": "얼리 어답터",
                         "responsible_disclosure": "버그 신고자"
                     },
                     "mutual_friends": "같이 아는 친구",
@@ -435,12 +435,12 @@
                     "confirm_close_dm_long": "나중에 다시 열 수 있지만 서로에게서 사라집니다.",
                     "confirm_delete": "{{name}}을 삭제하시겠습니까?",
                     "unfriend_user_long": "친구를 다시 추가할때까지 다시 대화를 못할 수도 있습니다.",
-                    "block_user_long": "{{name}}을(를) 차단하시겠습니까? 친구 목록에서도 제거됩니다.",
+                    "block_user_long": "{{name}}님을 차단하시겠습니까? 친구 목록에서도 제거됩니다.",
                     "confirm_leave": "{{name}}에서 나가시겠습니까?",
                     "confirm_leave_long": "다시 초대되지 않는 이상 다시 들어올수 없습니다.",
                     "confirm_delete_long": "한번 삭제되면 되돌릴 수 없습니다.",
                     "confirm_delete_message_long": "삭제하시겠습니까?",
-                    "unfriend_user": "{{name}}을(를) 삭제하시겠습니까?",
+                    "unfriend_user": "{{name}}님을 친구 삭제하시겠습니까?",
                     "block_user": "{{name}}을(를) 차단하시겠습니까?",
                     "confirm_close_dm": "{{name}}님과의 개인 메세지를 닫으시겠습니까?"
                 },
@@ -448,7 +448,7 @@
                     "change": {
                         "password": "비밀번호 변경",
                         "email": "이메일 변경",
-                        "username": "사용자 이름 변경"
+                        "username": "멤버 이름 변경"
                     },
                     "failed": "변경에 실패하였습니다!"
                 },
