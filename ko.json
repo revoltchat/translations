@@ -43,7 +43,7 @@
                 "message_where": "{{channel_name}}에 메세지 보내기",
                 "typing": {
                     "single": "{{user}}님이 입력하고 있어요…",
-                    "multiple": "{{userlist}} 및 {{user}}님이 입력하고 있어요…",
+                    "multiple": "{{userlist}} 님과 {{user}}님이 입력하고 있어요…",
                     "several": "여러 사람이 입력하고 있어요…"
                 },
                 "attached_file": "{{filename}} 첨부",
@@ -51,7 +51,7 @@
                 "bot": "봇",
                 "notifications": {
                     "all": "모든 메세지",
-                    "default": "기본 사용",
+                    "default": "기본 설정 사용",
                     "none": "없음",
                     "muted": "음소거",
                     "mention": "멘션만"
@@ -130,7 +130,7 @@
                         "default": "기본",
                         "default_description": "아름답고 세련되고 현대적입니다.",
                         "compact": "컴팩트",
-                        "compact_description": "좋고 오래된 IRC(Internet Relay Chat)."
+                        "compact_description": "역사깊고 좋은 채팅 플랫폼."
                     },
                     "color": {
                         "dark": "어둡게",
@@ -527,12 +527,12 @@
                 "d": "사용자가 채팅 채널에 게시한 링크에 포함된 컨텐츠를 표시할 수 있어요."
             },
             "VoiceCall": {
-                "t": "음성 채널 참가",
+                "t": "음성 채널",
                 "d": "사용자가 음성 채널에 참여할 수 있어요."
             },
             "InviteOthers": {
                 "d": "사용자가 타 사용자를 채널에 초대하는 것을 허가합니다.",
-                "t": "다른 사용자 초대"
+                "t": "사용자 초대"
             }
         },
         "server": {
@@ -603,7 +603,7 @@
         "set_password": "새로운 비밀번호를 설정하세요.",
         "new": "Revolt가 처음이신가요?",
         "existing": "이미 계정이 있으신가요?",
-        "create": "새로운 계정을 만드세요.",
+        "create": "새로운 계정 만들기.",
         "missing_verification": "이메일이 없나요?",
         "cancel": "요청 취소.",
         "check_spam": "메일이 보이지 않으면 스팸함을 확인해주세요",
@@ -623,8 +623,8 @@
         "unavailable": "미지원"
     },
     "error": {
-        "TooShort": "너무 짧아요",
-        "TooLong": "너무 깁니다",
+        "TooShort": "너무 문자열이 짧습니다",
+        "TooLong": "너무 문자열이 깁니다",
         "InvalidEmail": "이메일 주소가 잘못되었어요",
         "FileTooLarge": "파일이 너무 큽니다.",
         "RequiredField": "필수",
@@ -632,41 +632,41 @@
         "InvalidInvite": "잘못된 코드",
         "NetworkError": "네트워크에 문제가 발생했어요.",
         "DatabaseError": "데이터베이스에 에러가 발생했어요.",
-        "Blocked": "이미 유저를 차단했어요.",
+        "Blocked": "이미 이 유저를 차단했어요.",
         "UnknownUser": "알 수 없는 사용자입니다.",
         "EmailFailed": "이메일을 보내지 못했어요.",
         "AlreadyOnboarded": "이미 온보딩을 마쳤어요.",
-        "AlreadyFriends": "이 사용자와 이미 친구입니다.",
-        "NoEffect": "이 요청은 효과가 없어요.",
+        "AlreadyFriends": "이미 이 사용자와 친구입니다.",
+        "NoEffect": "정의되지 않은 요청이에요.",
         "IoError": "서버에 I/O 오류가 발생했어요.",
         "DeniedNotification": "알림 액세스를 거부했어요. 페이지 설정을 확인하세요.",
         "InternalError": "내부에서 오류가 발생했어요.",
-        "Unauthorized": "인증되지 않음.",
-        "Unlabelled": "문제가 발생했어요.",
+        "Unauthorized": "인증되지 않았습니다.",
+        "Unlabelled": "무언가 문제가 발생한 것 같네요.",
         "FailedValidation": "필드를 확인하지 못했어요.",
         "MissingPermission": "권한이 없어요.",
         "UnknownError": "콘솔을 확인하세요.",
         "OperationFailed": "작업에 실패했어요.",
         "RenderFail": "템플릿을 렌더링하지 못했어요.",
-        "MissingHeaders": "헤더가 없어요.",
+        "MissingHeaders": "헤더가 존재하지 않네요.",
         "UnverifiedAccount": "확인되지 않은 계정입니다.",
         "InvalidSession": "유효하지 않은 세션입니다.",
         "EmailInUse": "이 이메일은 이미 사용 중입니다.",
         "InvalidCredentials": "이메일 또는 비밀번호가 잘못되었어요.",
         "MissingInvite": "초대 코드가 만료되었거나 없어요.",
-        "UsernameTaken": "입력한 사용자 명이 이미 사용 중입니다.",
+        "UsernameTaken": "이미 존재하는 이름이에요.",
         "AlreadySentRequest": "이미 이 사용자에게 요청을 보냈어요.",
-        "CompromisedPassword": "이 암호는 손상되었어요.",
+        "CompromisedPassword": "올바르지 않은 암호입니다.",
         "UnsupportedBrowser": "브라우저에서 이 기능을 지원하지 않아요.",
         "FailedToReceive": "서버가 파일을 수신하지 못했어요.",
         "ProbeError": "파일 메타데이터를 가져오지 못했어요.",
         "Unavailable": "유효하지 않아요.",
-        "BlockedOther": "이 사용자는 당신을 차단했어요.",
+        "BlockedOther": "이 사용자가 당신을 차단했습니다.",
         "MissingData": "요청에 필요한 데이터가 없어요.",
         "ReachedMaximumBots": "봇을 최대치만큼 가지고 계셔요!"
     },
     "shortcuts": {
-        "ctrlc": "Ctrl + C"
+        "ctrlc": "복사하기"
     },
     "quantities": {
         "members": {
@@ -681,7 +681,7 @@
         "lastWeek": "[마지막] dddd {{time}}",
         "nextWeek": "dddd {{time}}",
         "defaults": {
-            "twelvehour": "yes",
+            "twelvehour": "아니요",
             "date_separator": "-",
             "date_format": "IS08601"
         }
