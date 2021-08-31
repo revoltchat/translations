@@ -287,7 +287,17 @@
                     "title": "Hang Beállítások"
                 },
                 "bots": {
-                    "title": "Botjaim"
+                    "title": "Botjaim",
+                    "public_bot_tip": "A bot publikus. Bárki megtudja hívni.",
+                    "reserved": "Megjegyzés: Ez a mező a jövő számára van fenntartva.",
+                    "create_bot": "Bot létrehozása",
+                    "copy_invite": "Meghívó link másolása",
+                    "add": "Bot hozzáadása",
+                    "token": "Token",
+                    "private_bot_tip": "A bot privát. Csak te tudod meghívni.",
+                    "public_bot": "Publikus Bot",
+                    "public_bot_desc": "Megengedi más felhasználóknak, hogy meghívják ezt a botot.",
+                    "interactions_url": "Interakciós URL"
                 }
             },
             "categories": {
@@ -385,7 +395,8 @@
                     "remove": "Eltávolít",
                     "back": "Vissza",
                     "reveal": "Felfed",
-                    "hide": "Elrejtés"
+                    "hide": "Elrejtés",
+                    "edit": "Szerkesztés"
                 },
                 "prompt": {
                     "confirm_leave": "Kilépsz a(z) {{name}} csoportból?",
@@ -427,7 +438,8 @@
                 "external_links": {
                     "title": "A külsős linkek veszélyesek lehetnek!",
                     "short": "Biztosan ide szeretnél menni: "
-                }
+                },
+                "token_reveal": "{{name}} tokenje"
             },
             "status": {
                 "disconnected": "Szétkapcsolva.",
@@ -619,7 +631,8 @@
         "CompromisedPassword": "Ezt a jelszót egyszer már feltörték, tehát nem ajánlatos használata.",
         "InvalidInvite": "Helytelen kód",
         "InvalidToken": "Helytelen token",
-        "MissingData": "A kérésből adatok hiányoznak."
+        "MissingData": "A kérésből adatok hiányoznak.",
+        "ReachedMaximumBots": "Elérted a maximális botok számát."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
