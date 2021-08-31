@@ -284,7 +284,17 @@
                 },
                 "source_code": "Source Code",
                 "bots": {
-                    "title": "My Bots"
+                    "title": "My Bots",
+                    "create_bot": "Create a Bot",
+                    "copy_invite": "Copy Invite Link",
+                    "add": "Add Bot",
+                    "token": "Token",
+                    "public_bot_tip": "Bot is public. Anyone can invite it.",
+                    "private_bot_tip": "Bot is private. Only you can invite it.",
+                    "public_bot": "Public Bot",
+                    "public_bot_desc": "Whether to allow other users to invite this bot.",
+                    "interactions_url": "Interactions URL",
+                    "reserved": "Note: This field is reserved for the future."
                 },
                 "feedback": {
                     "title": "Feedback",
@@ -390,6 +400,7 @@
                     "copy": "Manual Copy:"
                 },
                 "signed_out": "You were signed out!",
+                "token_reveal": "{{name}}'s Token",
                 "onboarding": {
                     "welcome": "Welcome to",
                     "pick": "Pick a username that you want people to be able to find you by, this can be changed later in settings."
@@ -430,6 +441,7 @@
                     "kick": "Kick",
                     "save": "Save",
                     "hide": "Hide",
+                    "edit": "Edit",
                     "block": "Block",
                     "close": "Close",
                     "leave": "Leave",
@@ -598,7 +610,8 @@
         "IoError": "Server encountered an I/O error.",
         "UnsupportedBrowser": "Browser is missing support for this feature.",
         "DeniedNotification": "You denied notification access, check page settings.",
-        "CompromisedPassword": "This password is compromised."
+        "CompromisedPassword": "This password is compromised.",
+        "ReachedMaximumBots": "You reached the maximum amount of bots."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
