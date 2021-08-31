@@ -15,7 +15,7 @@
                 },
                 "search": {
                     "sort": {
-                        "latest": "최신",
+                        "latest": "최신 순",
                         "oldest": "오래된 순",
                         "relevance": "관련성"
                     },
@@ -150,8 +150,8 @@
                     "title": "형태",
                     "accent_selector": "강조 색",
                     "mono_font": "고정폭 폰트",
-                    "ligatures_desc": "지원되는 폰트에 한해서, 자동으로 이모티콘을 이모지로 변환하기 (예시: ->를 화살표로 바꿀수 있어요.) 이 옵션은 켜고 끌 수 있습니다.",
-                    "ligatures": "추천 폰트"
+                    "ligatures_desc": "지원되는 폰트에 한해서, 자동으로 이모티콘을 이모지로 변환하기 (예시: ->를 ➡로 바꿀수 있어요.) 이 옵션은 켜고 끌 수 있습니다.",
+                    "ligatures": "문자 이모지 변환"
                 },
                 "language": {
                     "title": "언어",
@@ -219,7 +219,7 @@
                     "descriptions": {
                         "theme": "선택한 테마, 색상 및 사용자 정의 CSS가 동기화됩니다.",
                         "locale": "현재 고른 언어를 동기화 합니다.",
-                        "appearance": "그러면 이모지 팩 및 메시지 밀도와 같은 옵션이 동기화됩니다."
+                        "appearance": "이모지 팩 및 메시지 밀도와 같은 옵션이 동기화됩니다."
                     }
                 }
             },
@@ -299,7 +299,7 @@
         "context_menu": {
             "copy_message_link": "메세지 링크 복사",
             "view_profile": "프로필 보기",
-            "kick_member": "멤버 추방",
+            "kick_member": "멤버 추방하기",
             "copy_id": "ID 복사",
             "copy_cid": "채널 ID 복사",
             "copy_mid": "메세지 ID 복사",
@@ -307,15 +307,15 @@
             "mention": "멘션",
             "message_user": "메세지",
             "reply_message": "답장",
-            "ban_member": "멤버 차단",
+            "ban_member": "멤버 차단하기",
             "copy_uid": "유저 ID 복사",
-            "delete_message": "메시지 삭제",
-            "edit_message": "수정",
+            "delete_message": "메시지 삭제하기",
+            "edit_message": "메시지 수정하기",
             "copy_text": "텍스트 복사",
             "mark_as_read": "읽음으로 표시하기",
-            "save_file": "파일 저장",
-            "save_image": "이미지 저장",
-            "save_video": "비디오 저장",
+            "save_file": "파일 저장하기",
+            "save_image": "이미지 저장하기",
+            "save_video": "동영상 저장하기",
             "copy_link": "링크 복사",
             "close_dm": "DM 닫기",
             "copy_selection": "선택 복사",
@@ -323,7 +323,7 @@
             "cancel_message": "전송 취소",
             "open_file": "파일 열기",
             "open_image": "이미지 열기",
-            "open_video": "비디오 열기",
+            "open_video": "동영상 열기",
             "open_link": "링크 열기",
             "block_user": "사용자 차단",
             "unblock_user": "사용자 차단 해제",
@@ -343,9 +343,9 @@
             "open_channel_settings": "채널 설정",
             "open_server_settings": "서버 설정",
             "open_group_settings": "그룹 설정",
-            "remove_member": "그룹에서 추방",
+            "remove_member": "그룹에서 추방하기",
             "custom_status": "사용자 지정 상태",
-            "quote_message": "메시지 인용",
+            "quote_message": "메시지 인용하기",
             "edit_identity": "아이덴티티 변경"
         },
         "navigation": {
@@ -628,7 +628,7 @@
         "NoEffect": "이 요청은 효과가 없습니다.",
         "IoError": "서버에 I/O 오류가 발생했습니다.",
         "DeniedNotification": "알림 액세스를 거부했습니다. 페이지 설정을 확인하세요.",
-        "InternalError": "내부 오류.",
+        "InternalError": "내부에서 오류가 발생했습니다.",
         "Unauthorized": "인증되지 않았습니다.",
         "Unlabelled": "문제가 발생했습니다.",
         "FailedValidation": "필드를 확인하지 못했습니다.",
