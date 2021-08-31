@@ -306,7 +306,17 @@
                     "title": "Masaüstü Ayarları"
                 },
                 "bots": {
-                    "title": "Botlarım"
+                    "title": "Botlarım",
+                    "create_bot": "Bot Oluştur",
+                    "public_bot_tip": "Bot halka açıktır. Herkes botu davet edebilir.",
+                    "public_bot_desc": "Botu diğer kullanıcıların davet etmesine izin verip vermemek içindir.",
+                    "copy_invite": "Davet Bağlantısını Kopyala",
+                    "add": "Bot Ekle",
+                    "token": "Token",
+                    "private_bot_tip": "Bot gizlidir. Sadece siz davet edebilirsiniz.",
+                    "public_bot": "Halka Açık Bot",
+                    "reserved": "Not: Bu alan gelecek için ayrılmıştır.",
+                    "interactions_url": "Etkileşimler URL'si"
                 },
                 "audio": {
                     "title": "Ses Ayarları",
@@ -460,12 +470,14 @@
                     "block": "Engelle",
                     "reveal": "Göster",
                     "back": "Geri dön",
-                    "hide": "Gizle"
+                    "hide": "Gizle",
+                    "edit": "Düzenle"
                 },
                 "external_links": {
                     "title": "Harici bağlantılar tehlikeli olabilir!",
                     "short": "Şuraya gitmek istediğinize emin misin: "
-                }
+                },
+                "token_reveal": "{{name}}'nın Token'i"
             },
             "popovers": {
                 "user_profile": {
@@ -618,7 +630,8 @@
         "MissingData": "İstekte veri eksik.",
         "IoError": "Sunucu bir G/Ç hatasıyla karşılaştı.",
         "UnsupportedBrowser": "Tarayıcınız bu özelliği desteklemiyor.",
-        "CompromisedPassword": "Bu şifrelerin güvenliği ihlal edildi."
+        "CompromisedPassword": "Bu şifrelerin güvenliği ihlal edildi.",
+        "ReachedMaximumBots": "Maksimum bot sayısına ulaştınız."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
