@@ -169,7 +169,17 @@
                 },
                 "source_code": "소스 코드",
                 "bots": {
-                    "title": "내 봇"
+                    "title": "내 봇",
+                    "copy_invite": "초대 링크 복사",
+                    "private_bot_tip": "사적인 봇으로, 당신만이 초대할 수 있습니다.",
+                    "create_bot": "봇 생성하기",
+                    "add": "봇 추가",
+                    "token": "토큰",
+                    "public_bot_tip": "공용 봇으로, 누구나 초대할 수 있습니다.",
+                    "public_bot": "공용 봇",
+                    "public_bot_desc": "다른 유저들이 이 봇을 초대할 수 있는지.",
+                    "interactions_url": "상호작용 URL",
+                    "reserved": "참고: 이 필드는 나중을 위해 비활성화되었습니다."
                 },
                 "feedback": {
                     "title": "피드백",
@@ -189,7 +199,7 @@
                 "notifications": {
                     "title": "알림",
                     "enable_desktop": "데스크탑 알림 활성화.",
-                    "enable_push": "푸시 알림 활성화",
+                    "enable_push": "푸시 알림 활성화.",
                     "push_notifications": "푸시 알림",
                     "descriptions": {
                         "enable_push": "오프라인일 때 알림을 받으려면 활성화하세요.",
@@ -423,7 +433,8 @@
                     "reload": "앱 재시작",
                     "continue": "계속",
                     "send_email": "이메일 전송",
-                    "reveal": "보이기"
+                    "reveal": "보이기",
+                    "edit": "수정"
                 },
                 "error": "오류가 발생했어요!",
                 "prompt": {
@@ -465,7 +476,8 @@
                 "external_links": {
                     "title": "외부 링크는 위험할 수 있어요!",
                     "short": "정말로 접속하시겠어요? "
-                }
+                },
+                "token_reveal": "{{name}}의 토큰"
             },
             "friends": {
                 "pending": "대기 중인 요청",
@@ -650,7 +662,8 @@
         "ProbeError": "파일 메타데이터를 가져오지 못했어요.",
         "Unavailable": "유효하지 않아요.",
         "BlockedOther": "이 사용자는 당신을 차단했어요.",
-        "MissingData": "요청에 필요한 데이터가 없어요."
+        "MissingData": "요청에 필요한 데이터가 없어요.",
+        "ReachedMaximumBots": "봇을 최대치만큼 가지고 계셔요!"
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
