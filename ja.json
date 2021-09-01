@@ -68,7 +68,17 @@
                     "title": "フィードバック"
                 },
                 "bots": {
-                    "title": "マイボッツ"
+                    "title": "マイボッツ",
+                    "private_bot_tip": "私的なボットでは、あなただけが招待することができます。",
+                    "create_bot": "ボット作成",
+                    "copy_invite": "招待リンクをコピー",
+                    "add": "ボットを追加",
+                    "token": "トークン",
+                    "public_bot_tip": "公共ボットに、誰も招待することができます。",
+                    "public_bot": "公共ボット",
+                    "public_bot_desc": "他のユーザーが、このボットを招待することができるかどうか。",
+                    "interactions_url": "相互作用 URL",
+                    "reserved": "注：このフィールドは、後でのために無効にされた。"
                 },
                 "source_code": "ソースコード",
                 "donate": {
@@ -378,7 +388,8 @@
                     "cancel": "キャンセル",
                     "preview": "プレビュー",
                     "continue": "続ける",
-                    "send_email": "メール送信"
+                    "send_email": "メール送信",
+                    "edit": "修正"
                 },
                 "clipboard": {
                     "unavailable": "クリップボードが使用できません!",
@@ -388,7 +399,8 @@
                 "external_links": {
                     "title": "外部リンクは危険なことができます！",
                     "short": "本当に接続しますか？ "
-                }
+                },
+                "token_reveal": "{{name}}のトークン"
             },
             "popovers": {
                 "user_profile": {
@@ -526,15 +538,15 @@
         "title": "ログイン"
     },
     "general": {
-        "unavailable": "入手不可能",
+        "unavailable": "未支援",
         "disabled": "無効化",
         "loading": "ローディング…",
         "privacy": "プライバシーポリシー",
         "tos": "利用規約",
-        "about": "について",
-        "image_by": "イメージ",
-        "on": "活性化",
-        "off": "機能停止中"
+        "about": "紹介",
+        "image_by": "イメージ提供",
+        "on": "オン",
+        "off": "オフ"
     },
     "error": {
         "FailedToReceive": "サーバーがあなたのファイルを受信できませんでした。",
@@ -576,7 +588,8 @@
         "InvalidCredentials": "メールアドレスまたはパスワードが間違っています。",
         "UsernameTaken": "ユーザー名が取られています。",
         "BlockedOther": "このユーザーはあなたをブロックしました。",
-        "NoEffect": "この要求は何の効果もありませんでした。"
+        "NoEffect": "この要求は何の効果もありませんでした。",
+        "ReachedMaximumBots": "すでに最大値だけのボットを持っていらっしゃいますね。"
     },
     "permissions": {
         "server": {
