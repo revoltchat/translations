@@ -137,7 +137,17 @@
                     "title": "桌面设置"
                 },
                 "bots": {
-                    "title": "我的机器人"
+                    "title": "我的机器人",
+                    "public_bot_tip": "机器人为公开。所有人都可以邀请。",
+                    "reserved": "注意：此字段为将来保留。",
+                    "create_bot": "创建机器人",
+                    "copy_invite": "复制邀请链接",
+                    "add": "添加机器人",
+                    "token": "令牌",
+                    "private_bot_tip": "机器人为私密。只有您可以邀请。",
+                    "public_bot": "公开机器人",
+                    "public_bot_desc": "是否允许其他用户邀请此机器人。",
+                    "interactions_url": "交互 URL"
                 },
                 "audio": {
                     "title": "语音设置",
@@ -390,7 +400,8 @@
                     "back": "返回",
                     "hide": "隐藏",
                     "reveal": "显示",
-                    "kick": "踢出"
+                    "kick": "踢出",
+                    "edit": "编辑"
                 },
                 "account": {
                     "failed": "更改失败！",
@@ -426,7 +437,8 @@
                 "external_links": {
                     "title": "外部链接可能有危险！",
                     "short": "您确定要访问： "
-                }
+                },
+                "token_reveal": "{{name}} 的令牌"
             },
             "status": {
                 "disconnected": "已断开连接。",
@@ -611,7 +623,8 @@
         "DatabaseError": "数据库错误。",
         "FailedValidation": "无法验证字段。",
         "NetworkError": "网络错误。",
-        "CompromisedPassword": "此密码不安全。"
+        "CompromisedPassword": "此密码不安全。",
+        "ReachedMaximumBots": "您已达到机器人最大数量。"
     },
     "permissions": {
         "server": {
