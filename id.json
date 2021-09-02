@@ -59,7 +59,13 @@
                 "misc": {
                     "spoiler_attachment": "Spoiler",
                     "jump_present": "Loncat ke masa sekarang",
-                    "viewing_old": "Melihat pesan lama"
+                    "viewing_old": "Melihat pesan lama",
+                    "blocked_messages": "{{count}} pesan diblokir",
+                    "failed_load": "Tidak bisa memuat pesan.",
+                    "blocked_user": "Pengguna diblokir",
+                    "no_sending": "Kamu tidak memiliki izin untuk mengirim pesan di saluran ini.",
+                    "sent_file": "Mengirim sebuah lampiran",
+                    "sent_multiple_files": "Mengirim banyak lampiran"
                 },
                 "voice": {
                     "unmute": "Suarakan",
@@ -71,13 +77,15 @@
                     "group": "Ini adalah permulaan percakapan Anda."
                 },
                 "system": {
-                    "channel_icon_changed": "mengubah ikon saluran",
-                    "channel_description_changed": "mengubah deskripsi saluran",
-                    "channel_renamed": "mengganti nama saluran menjadi",
-                    "removed_by": "dihapus oleh",
-                    "added_by": "ditambahkan oleh",
-                    "user_left": "meninggal.",
-                    "user_joined": "gabung."
+                    "channel_icon_changed": "{{user}} mengubah ikon saluran",
+                    "channel_description_changed": "{{user}} mengubah deskripsi saluran",
+                    "channel_renamed": "{{user}} mengganti nama saluran menjadi {{name}}",
+                    "removed_by": "{{user}} telah dihapus oleh {{other_user}}",
+                    "added_by": "{{user}} telah ditambahkan oleh {{other_user}}",
+                    "user_left": "{{user}} keluar",
+                    "user_joined": "{{user}} bergabung.",
+                    "user_banned": "{{user}} telah dibanned",
+                    "user_kicked": "{{user}} telah dikeluarkan"
                 },
                 "typing": {
                     "several": "Beberapa orang sedang mengetik…",
@@ -86,10 +94,26 @@
                 },
                 "attached_file": "Terlampir {{filename}}",
                 "failed_upload": "Upload gagal!",
-                "uploading_file": "Mengunggah berkas…",
+                "uploading_file": "Mengunggah…",
                 "message_saved": "Simpan ke catatan Anda",
                 "message_who": "Kirim pesan kepada {{person}}",
-                "message_where": "Kirim {{channel_name}} sebuah pesan"
+                "message_where": "Kirim {{channel_name}} sebuah pesan",
+                "notifications": {
+                    "none": "Tidak Ada",
+                    "muted": "Disenyapkan",
+                    "default": "Gunakan Bawaan",
+                    "all": "Semua Pesan",
+                    "mention": "Hanya menyebut"
+                },
+                "nsfw": {
+                    "channel": {
+                        "confirm": "Masuk kedalam saluran"
+                    },
+                    "confirm": "Saya mengkonfirmasi bahwa saya berusia diatas 18 tahun."
+                },
+                "search": {
+                    "title": "Cari"
+                }
             },
             "categories": {
                 "members": "Anggota",
@@ -110,7 +134,7 @@
         "status": {
             "offline": "Offline",
             "invisible": "Tak terlihat",
-            "busy": "Sibuk",
+            "busy": "Jangan Ganggu",
             "idle": "Diam",
             "online": "Online"
         }
@@ -149,13 +173,17 @@
         "email": "Email",
         "username": "Nama pengguna",
         "register": "Daftar",
-        "title": "Masuk"
+        "title": "Masuk",
+        "email_delay": "Harap tunggu hingga 10 menit."
     },
     "general": {
         "loading": "Memuat…",
         "image_by": "Gambar oleh",
         "privacy": "Kebijakan Pribadi",
         "tos": "Persyaratan Layanan",
-        "about": "Tentang"
+        "about": "Tentang",
+        "on": "Aktif",
+        "disabled": "Dinonaktifkan",
+        "unavailable": "Tak Tersedia"
     }
 }
