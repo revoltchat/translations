@@ -14,13 +14,25 @@
                         "default": "Default"
                     },
                     "theme": "Tema",
-                    "title": "Penampilan"
+                    "title": "Penampilan",
+                    "emoji_pack": "Paket Emoji",
+                    "accent_selector": "Aksen Warna",
+                    "advanced": "Opsi Lanjutan",
+                    "reset_overrides": "Reset Perubahan",
+                    "import": "Impor Tema",
+                    "theme_data": "Data Tema",
+                    "custom_css": "Kustom CSS",
+                    "sync": "Opsi Sinkronisasi",
+                    "message_display": "Tampilan Pesan",
+                    "font": "Huruf",
+                    "mono_font": "Pilihan Huruf Monospace"
                 },
                 "sessions": {
                     "created": "Dibuat {{time_ago}}",
                     "this_device": "Perangkat Ini",
                     "active_sessions": "Sesi Aktif",
-                    "title": "Sesi"
+                    "title": "Sesi",
+                    "logout": "Keluarkan dari semua sesi lainnya"
                 },
                 "profile": {
                     "edit_background": "Ubah Latar Belakang",
@@ -29,16 +41,84 @@
                     "placeholder": "Tulis sesuatu tentang dirimu sendiri…",
                     "fetching": "Mengambil profil Anda…",
                     "info": "Informasi",
-                    "title": "Profil"
+                    "title": "Profil",
+                    "edit_profile": "Edit Profil"
                 },
                 "account": {
                     "change_field": "Ubah",
-                    "title": "Akun Saya"
-                }
+                    "title": "Akun Saya",
+                    "unique_id": "Ini adalah pengidentifikasi pengguna untuk akun anda.",
+                    "2fa": {
+                        "description": "Tambahkan lapisan keamanan ekstra dengan mengaktifkan Otentikasi Dua Langkah (2FA).",
+                        "remove_auth": "Hapus Authenticator",
+                        "title": "Otentikasi Dua Langkah",
+                        "add_auth": "Tambahkan Authenticator"
+                    },
+                    "manage": {
+                        "title": "Pengelolaan Akun",
+                        "description": "Nonaktifkan atau hapus akun anda kapan saja. Aksi ini akan mengeluarkan anda dan menghapus akun anda seluruhnya, termasuk pesan anda, riwayat dan teman.",
+                        "disable": "Nonaktifkan Akun",
+                        "delete": "Hapus Akun"
+                    }
+                },
+                "notifications": {
+                    "sounds": "Suara",
+                    "descriptions": {
+                        "enable_push": "Aktifkan untuk menerima notifikasi ketika kamu tidak aktif.",
+                        "enable_desktop": "Ini akan memberimu notifikasi ketika aplikasi terbuka."
+                    },
+                    "enable_desktop": "Aktifkan Notifikasi Desktop.",
+                    "title": "Notifikasi",
+                    "push_notifications": "Pemberitahuan",
+                    "sound": {
+                        "message": "Pesan Diterima",
+                        "call_leave": "Pengguna Keluar dari Panggilan",
+                        "outbound": "Pesan Terkirim",
+                        "call_join": "Pengguna Bergabung dalam Panggilan"
+                    }
+                },
+                "audio": {
+                    "title": "Pengaturan Suara",
+                    "input_device": "Mikrofon",
+                    "output_device": "Pengeras Suara / Headset"
+                },
+                "experiments": {
+                    "features": "Fitur Tersedia",
+                    "title": "Eksperimen",
+                    "not_available": "Tidak ada eksperimen tersedia untuk saat ini."
+                },
+                "donate": {
+                    "title": "Donasi"
+                },
+                "language": {
+                    "other": "Opsi Bahasa Lainnya",
+                    "select": "Pilih Bahasa Anda",
+                    "title": "Bahasa"
+                },
+                "sync": {
+                    "categories": "Kategori Sinkron",
+                    "descriptions": {
+                        "appearance": "Ini akan mengsinkronisasai pengaturan seperti paket emoji dan kepadatan pesan.",
+                        "locale": "Ini akan mengsinkronisasi bahasa pilihanmu sekarang."
+                    },
+                    "title": "Sinkron"
+                },
+                "bots": {
+                    "title": "Robot Saya",
+                    "create_bot": "Buat sebuah Bot",
+                    "copy_invite": "Salin Tautan Undangan",
+                    "add": "Tambahkan Robot",
+                    "token": "Token"
+                },
+                "native": {
+                    "title": "Pengaturan Desktop"
+                },
+                "source_code": "Kode Sumber"
             },
             "actions": {
-                "upload": "Unggah (maks {{filesize}})",
-                "remove": "Hapuskan"
+                "upload": "Unggah",
+                "remove": "Hapuskan",
+                "max_filesize": "(max {{filesize}})"
             },
             "categories": {
                 "client_settings": "Pengaturan Klien",
@@ -50,7 +130,8 @@
             "groups": {
                 "owner": "Pemilik Kelompok",
                 "name": "Nama Kelompok",
-                "create": "Buat kelompok."
+                "create": "Buat sebuah grup",
+                "description": "Deskripsi Grup"
             },
             "channel": {
                 "bot": "bot",
@@ -83,7 +164,7 @@
                     "removed_by": "{{user}} telah dihapus oleh {{other_user}}",
                     "added_by": "{{user}} telah ditambahkan oleh {{other_user}}",
                     "user_left": "{{user}} keluar",
-                    "user_joined": "{{user}} bergabung.",
+                    "user_joined": "{{user}} bergabung",
                     "user_banned": "{{user}} telah dibanned",
                     "user_kicked": "{{user}} telah dikeluarkan"
                 },
@@ -125,6 +206,17 @@
                 "channels": "Saluran",
                 "participants": "Peserta",
                 "conversations": "Percakapan"
+            },
+            "servers": {
+                "create": "Buat sebuah server",
+                "channel_type": "Tipe Saluran",
+                "voice_channel": "Saluran Suara",
+                "text_channel": "Saluran Teks",
+                "name": "Nama Server",
+                "description": "Deskripsi Server",
+                "channel_name": "Nama Saluran",
+                "channel_description": "Deskripsi Saluran",
+                "owner": "Pemilik Server"
             }
         },
         "navigation": {
