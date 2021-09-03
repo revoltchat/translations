@@ -111,7 +111,8 @@
                 "search": {
                     "sort": {
                         "latest": "Viimeisin",
-                        "oldest": "Vanhin"
+                        "oldest": "Vanhin",
+                        "relevance": "Relevanssi"
                     },
                     "title": "Etsi"
                 }
@@ -184,7 +185,13 @@
             "create_channel": "Luo kanava",
             "view_profile": "Näytä profiili",
             "kick_member": "Erota jäsen",
-            "create_invite": "Luo kutsu"
+            "create_invite": "Luo kutsu",
+            "copy_message_link": "Kopioi viestin linkki",
+            "ban_member": "Anna porttikielto käyttäjälle",
+            "edit_identity": "Muokkaa identiteettiä",
+            "open_notification_options": "Ilmoitusasetukset",
+            "create_category": "Luo luokka",
+            "reply_message": "Vastaa"
         },
         "special": {
             "popovers": {
@@ -203,10 +210,16 @@
                     "profile": "Profiili",
                     "no_users": "Ei yhteisiä ystäviä!",
                     "no_groups": "Ei yhteisiä ryhmiä!",
-                    "empty": "Täällä on vähän tyhjä…"
+                    "empty": "Täällä on vähän tyhjä…",
+                    "mutual_servers": "Yhteiset palvelimet",
+                    "no_servers": "Ei yhteisiä palvelimia!"
                 },
                 "user_picker": {
                     "select": "Valitse lisättävät ystävät."
+                },
+                "create_bot": {
+                    "title": "Luo uusi botti",
+                    "failed": "Botin luominen epäonnistui!"
                 }
             },
             "modals": {
@@ -221,12 +234,18 @@
                     "send_email": "Lähetä sähköposti",
                     "reload": "Lataa sovellus uudelleen",
                     "delete": "Poista",
-                    "kick": "Erota"
+                    "kick": "Erota",
+                    "hide": "Piilota",
+                    "create": "Luo",
+                    "remove": "Poista",
+                    "edit": "Muokkaa",
+                    "reveal": "Paljasta",
+                    "block": "Estä"
                 },
                 "clipboard": {
                     "copy": "Manuaalinen kopiointi:",
                     "unavailable": "Leikepöytä ei ole saatavilla!",
-                    "https": "Et ole tällä hetkellä HTTPS kontekstissa."
+                    "https": "Et ole tällä hetkellä HTTPS-kontekstissa."
                 },
                 "account": {
                     "change": {
@@ -244,14 +263,21 @@
                     "confirm_close_dm": "Suljetaanko keskustelu käyttäjän {{name}} kanssa?",
                     "confirm_kick": "Haluatko varmasti erottaa {{name}}?",
                     "confirm_delete_message_long": "Haluatko varmasti poistaa tämän?",
-                    "create_invite_generate": "Luodaan kutsua…"
+                    "create_invite_generate": "Luodaan kutsua…",
+                    "block_user": "Estäkö {{name}}?",
+                    "unfriend_user": "Poistetaanko {{name}}?",
+                    "create_invite_created": "Tässä on uusi kutsukoodisi:",
+                    "confirm_ban_reason": "Porttikiellon syy"
                 },
                 "error": "Tapahtui virhe!",
                 "onboarding": {
                     "pick": "Valitse käyttäjätunnus, jolla haluat ihmisten löytävän sinut. Tätä voi muuttaa myöhemmin asetuksissa.",
                     "welcome": "Tervetuloa"
                 },
-                "signed_out": "Sinut on kirjauduttu ulos!"
+                "signed_out": "Sinut on kirjauduttu ulos!",
+                "external_links": {
+                    "title": "Ulkoiset linkit voivat olla vaarallisia!"
+                }
             },
             "copy_username": "Paina kopioidaksesi käyttäjätunnus",
             "status": {
@@ -268,11 +294,18 @@
                 "incoming": "Saapuva kaveripyyntö.",
                 "sent": "Lähtevä Pyyntö",
                 "from": {
-                    "single": "Käyttäjältä {{user}}"
+                    "single": "Käyttäjältä {{user}}",
+                    "multiple": "Käyttäjiltä {{userlist}} ja {{user}}"
                 }
             },
             "requires_online": "Sinun on oltava verkossa nähdäksesi tämä.",
-            "copy": "Kopioi napsauttamalla"
+            "copy": "Kopioi napsauttamalla",
+            "invite": {
+                "invited_by": "Kutsuja: {{user}}",
+                "login": "Kirjaudu sisään Revolttiin",
+                "accept": "Hyväksy kutsu",
+                "invalid": "Virheellinen kutsu!"
+            }
         },
         "settings": {
             "pages": {
@@ -385,17 +418,26 @@
                     "descriptions": {
                         "locale": "Tämä synkronoi valitsemasi kielen.",
                         "appearance": "Tämä synkronoi vaihtoehtoja kuten emoji paketteja ja viestien tiheyttä.",
-                        "theme": "Tämä synkoroi sinun valitsemaasi teemaa, värejä ja  mitä tahansa muokattua CSS."
+                        "theme": "Tämä synkoroi sinun valitsemaasi teemaa, värejä ja mitä tahansa muokattua CSS."
                     }
                 },
                 "experiments": {
-                    "features": "Saatavilla olevat ominaisuudet"
+                    "features": "Saatavilla olevat ominaisuudet",
+                    "title": "Kokeet"
                 },
                 "native": {
                     "title": "Työpöytä Asetukset"
                 },
                 "bots": {
-                    "title": "Minun Botit"
+                    "title": "Minun Botit",
+                    "copy_invite": "Kopioi kutsulinkki",
+                    "add": "Lisää Botti",
+                    "public_bot": "Julkinen botti",
+                    "create_bot": "Luo botti"
+                },
+                "audio": {
+                    "title": "Ääniasetukset",
+                    "input_device": "Mikrofoni"
                 }
             },
             "categories": {
@@ -489,12 +531,17 @@
         }
     },
     "dayjs": {
-        "sameDay": "[Tänään klo] LT",
-        "lastDay": "[Eilen klo] LT",
+        "sameDay": "[Tänään klo] {{time}}",
+        "lastDay": "[Eilen klo] {{time}}",
         "sameElse": "L",
-        "nextDay": "[Huomenna klo] LT",
-        "lastWeek": "[Viime] dddd [klo] LT",
-        "nextWeek": "dddd [klo] LT"
+        "nextDay": "[Huomenna klo] {{time}}",
+        "lastWeek": "[Viime] dddd [klo] {{time}}",
+        "nextWeek": "dddd [klo] {{time}}",
+        "defaults": {
+            "date_separator": ".",
+            "date_format": "traditional",
+            "twelvehour": "no"
+        }
     },
     "quantities": {
         "members": {
@@ -538,7 +585,8 @@
         "CompromisedPassword": "Tämä salasana on vaarantunut.",
         "MissingData": "Pyynnöstä puuttuu tietoja.",
         "MissingInvite": "Kutsukoodi puuttuu pyynnöstä.",
-        "EmailFailed": "Sähköpostin lähettäminen epäonnistui."
+        "EmailFailed": "Sähköpostin lähettäminen epäonnistui.",
+        "ReachedMaximumBots": "Saavutit botien enimmäismäärän."
     },
     "notifications": {
         "sent_request": "@{{person}} lähetti sinulle kaveripyynnön.",
