@@ -24,7 +24,7 @@
                 "system": {
                     "channel_icon_changed": "{{user}}님이 채널 아이콘을 변경했어요",
                     "user_joined": "{{user}}님이 접속했어요",
-                    "user_left": "{{user}}님이 나갔어요",
+                    "user_left": "{{user}}님이 떠났어요",
                     "user_kicked": "{{user}}님이 추방되었어요",
                     "channel_description_changed": "{{user}}님이 채널 설명을 변경했어요",
                     "user_banned": "{{user}}님이 차단되었어요",
@@ -372,7 +372,7 @@
             "idle": "자리 비움",
             "busy": "다른 용무 중",
             "offline": "오프라인",
-            "invisible": "표시되지 않음"
+            "invisible": "표시 불가"
         },
         "special": {
             "status": {
@@ -405,6 +405,10 @@
                 },
                 "user_picker": {
                     "select": "추가할 친구를 선택하세요."
+                },
+                "create_bot": {
+                    "title": "새로운 봇 만들기",
+                    "failed": "봇을 만드는데 실패 했어요!"
                 }
             },
             "invite": {
@@ -475,7 +479,8 @@
                 },
                 "external_links": {
                     "title": "외부 링크는 위험할 수 있어요!",
-                    "short": "정말로 접속하시겠어요? "
+                    "short": "정말로 접속하시겠어요? ",
+                    "trust_domain": "이 도메인을 신뢰하기"
                 },
                 "token_reveal": "{{name}}의 토큰"
             },
