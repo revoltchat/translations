@@ -242,7 +242,8 @@
                 },
                 "external_links": {
                     "title": "Išorinės nuorodos gali būti pavojingos!",
-                    "short": "Ar tikrai norite eiti į: "
+                    "short": "Ar tikrai norite eiti į: ",
+                    "trust_domain": "Pasitikėti šiuo domenu"
                 },
                 "token_reveal": "{{name}} žetonas"
             },
@@ -271,6 +272,10 @@
                 },
                 "user_picker": {
                     "select": "Pasirinkite draugus, kuriuos norite pridėti."
+                },
+                "create_bot": {
+                    "title": "Sukurti naują botą",
+                    "failed": "Nepavyko sukurti boto!"
                 }
             },
             "copy_username": "Paspausti tam, kad nukopijuotumėte savo vardą",
@@ -279,7 +284,9 @@
                 "invited_by": "Pakviesti {{user}}",
                 "login": "Prisijungti prie Revolt",
                 "accept": "Priimti pakvietimą",
-                "user_count": "{{member_count}} nauddotojai (-ų)"
+                "user_count": "{{member_count}} nauddotojai (-ų)",
+                "invalid": "Netinkamas pakvietimas!",
+                "invalid_desc": "Šis pakvietimas galbūt neegzistuoja arba neturite leidimo prisijungti."
             }
         },
         "context_menu": {
@@ -481,7 +488,8 @@
                     "public_bot": "Viešas botas",
                     "public_bot_desc": "Leisti kitiems naudotojams pakviesti šį botą.",
                     "interactions_url": "Sąveikų URL",
-                    "reserved": "Pastaba: šis laukelis numatytas ateičiai."
+                    "reserved": "Pastaba: šis laukelis numatytas ateičiai.",
+                    "create_bot": "Sukurti botą"
                 },
                 "audio": {
                     "title": "Balso nustatymai",
@@ -633,7 +641,7 @@
         "MissingPermission": "Nėra leidimo.",
         "Unauthorized": "Neleistina.",
         "CompromisedPassword": "Slaptažodis nepatikimas.",
-        "ReachedMaximumBots": "Jūs pasiekėte maksimalų botų kiekį."
+        "ReachedMaximumBots": "Esate pasiekę maksimalų botų kiekį."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
