@@ -437,7 +437,8 @@
                 },
                 "external_links": {
                     "title": "A külsős linkek veszélyesek lehetnek!",
-                    "short": "Biztosan ide szeretnél menni: "
+                    "short": "Biztosan ide szeretnél menni: ",
+                    "trust_domain": "Megbízok ebben a tartományban"
                 },
                 "token_reveal": "{{name}} tokenje"
             },
@@ -484,6 +485,10 @@
                 },
                 "user_picker": {
                     "select": "Válaszd ki barátaidat a hozzáadáshoz."
+                },
+                "create_bot": {
+                    "title": "Új bot létrehozása",
+                    "failed": "Nem sikerült létrehozni a botot!"
                 }
             },
             "copy_username": "Kattints a felhasználóneved másolásához",
@@ -492,7 +497,9 @@
                 "user_count": "{{member_count}} tag",
                 "login": "Bejelentkezés Revolt-ra",
                 "accept": "Meghívó elfogadása",
-                "invited_by": "Meghívó általa: {{user}}"
+                "invited_by": "Meghívó általa: {{user}}",
+                "invalid": "Érvénytelen meghívó!",
+                "invalid_desc": "A meghívó már nem létezik, vagy nincs jogod csatlakozni."
             }
         },
         "navigation": {
