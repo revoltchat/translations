@@ -18,7 +18,7 @@
             "password": "Írd be a jelszavad.",
             "username": "Írd be a felhasználónevedet.",
             "current_password": "Írd be jelenlegi jelszavadat.",
-            "invite": "Írd be a meghívó kódod."
+            "invite": "Írd be a meghívó kódodat."
         },
         "forgot": "Elfelejtetted a jelszavad?",
         "new": "Új vagy a Revolt-nál?",
@@ -29,10 +29,10 @@
         "successful_registration": "Sikeresen regisztálva!",
         "open_mail_provider": "{{provider}} megnyitása",
         "cancel": "Kérelem visszavonása.",
-        "existing": "Van már fiókod?",
-        "remembered": "Visszalépés a bejelentkezéshez.",
+        "existing": "Már van fiókod?",
+        "remembered": "Vissza a bejelentkezéshez.",
         "username": "Felhasználónév",
-        "register": "Regisztrálás",
+        "register": "Regisztráció",
         "error": {
             "resend": "Újraküldés sikertelen!",
             "reset": "Visszaállítás sikertelen!",
@@ -44,8 +44,8 @@
         "missing_verification": "Nincs email-ed?",
         "set_password": "Új jelszó beállítása.",
         "current_password": "Jelenlegi jelszó",
-        "invite": "Meghívó kódja",
-        "email_delay": "Kérlek, várj amíg az e-mail megérkezik. (Legfeljebb 10 perc)."
+        "invite": "Meghívó kód",
+        "email_delay": "Kérlek, várj amíg az e-mail megérkezik. (max. 10 perc)."
     },
     "app": {
         "main": {
@@ -56,7 +56,7 @@
                 "system": {
                     "user_left": "{{user}} távozott",
                     "user_joined": "{{user}} csatlakozott",
-                    "added_by": "{{other_user}} hozzáadta a beszélgetéshez {{user}} felhasználót",
+                    "added_by": "{{other_user}} hozzáadta {{user}} felhasználót a beszélgetéshez",
                     "removed_by": "{{other_user}} eltávolította {{user}} felhasználót",
                     "channel_renamed": "{{user}} átnevezte a csatornát erre: {{name}}",
                     "channel_description_changed": "{{user}} megváltoztatta a csatorna leírását",
@@ -80,7 +80,7 @@
                 },
                 "edited": "(módosítva)",
                 "voice": {
-                    "connected": "Csatlakoztatva hanghoz",
+                    "connected": "Hang csatlakoztatva",
                     "mute": "Némítás",
                     "unmute": "Némítás feloldása",
                     "leave": "Kilépés"
@@ -97,7 +97,7 @@
                     "sent_multiple_files": "Több csatolmányt küldött"
                 },
                 "notifications": {
-                    "default": "Alapértelmezés használata",
+                    "default": "Visszaállítás alapértelmezetre",
                     "all": "Minden üzenet",
                     "mention": "Csak említések",
                     "none": "Semelyik",
@@ -114,7 +114,7 @@
                     "title": "Keresés",
                     "sort": {
                         "latest": "Legújabb",
-                        "relevance": "Lényegesség",
+                        "relevance": "Relevancia",
                         "oldest": "Legrégebbi"
                     }
                 }
@@ -122,7 +122,7 @@
             "groups": {
                 "name": "Csoportnév",
                 "create": "Csoport létrehozása",
-                "owner": "Csoport tulajdonosa",
+                "owner": "Csoport tulajdonos",
                 "description": "A csoport leírása"
             },
             "categories": {
