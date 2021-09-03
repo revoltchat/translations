@@ -106,7 +106,7 @@
                 },
                 "unknown_user": "<Pengguna Tidak Dikenal>",
                 "edited": "(diubah)",
-                "bot": "bot",
+                "bot": "‘bot’",
                 "notifications": {
                     "default": "Gunakan Lalai",
                     "all": "Semua Mesej",
@@ -263,7 +263,17 @@
                 },
                 "source_code": "Kod sumber",
                 "bots": {
-                    "title": "Bot Saya"
+                    "title": "Bot Saya",
+                    "create_bot": "Membina suatu bot",
+                    "copy_invite": "Salin Pautan Jemputan",
+                    "add": "Tambah Bot",
+                    "token": "Token",
+                    "private_bot_tip": "Hanya anda boleh menjemput bot ini.",
+                    "public_bot": "Bot awam",
+                    "public_bot_desc": "Untuk memberi orang lain menggunakan bot ini.",
+                    "interactions_url": "Pautan Interaksi",
+                    "reserved": "Nota: Ruang ini dipelihara untuk masa depan.",
+                    "public_bot_tip": "Bot ini boleh dijemput daripada sesiapa sahaja."
                 },
                 "feedback": {
                     "title": "Maklum balas",
@@ -284,7 +294,7 @@
             "actions": {
                 "remove": "Buang",
                 "upload": "Muat Naik",
-                "max_filesize": "(maks {{filesize}})"
+                "max_filesize": "(maksimum {{filesize}})"
             },
             "channel_pages": {
                 "overview": {
@@ -427,12 +437,15 @@
                     "back": "Kembali",
                     "reload": "Muat semula Apl",
                     "hide": "Sembunyikan",
-                    "send_email": "Hantar e-mel"
+                    "send_email": "Hantar e-mel",
+                    "edit": "Ubah"
                 },
                 "external_links": {
                     "title": "Pautan luaran boleh membahayakan!",
-                    "short": "Adakah anda pasti mahu pergi ke: "
-                }
+                    "short": "Adakah anda pasti mahu pergi ke: ",
+                    "trust_domain": "Mempercayai domain ini"
+                },
+                "token_reveal": "Token bagi {{name}}"
             },
             "popovers": {
                 "user_profile": {
@@ -458,6 +471,10 @@
                 },
                 "user_picker": {
                     "select": "Pilih rakan untuk ditambah."
+                },
+                "create_bot": {
+                    "title": "Mencipta bot baharu",
+                    "failed": "Terdapat sesuatu masalah semasa mencipta bot ini!"
                 }
             },
             "requires_online": "Anda mesti berada dalam talian untuk melihat ini.",
@@ -465,7 +482,9 @@
                 "invited_by": "Dijemput oleh {{user}}",
                 "accept": "Terima Jemputan",
                 "user_count": "{{member_count}} pengguna",
-                "login": "Log masuk ke Revolt"
+                "login": "Log masuk ke Revolt",
+                "invalid": "Pautan jemputan tidak sah!",
+                "invalid_desc": "Pautan jemputan ini mungkin tidak sah atau anda tiada kebenaran untuk masuk."
             },
             "copy_username": "Klik untuk menyalin nama pengguna"
         },
@@ -594,7 +613,8 @@
         "InvalidCredentials": "E-mel atau kata laluan salah.",
         "AlreadySentRequest": "Sudah menghantar permintaan kepada pengguna ini.",
         "FailedToReceive": "Pelayan gagal menerima fail anda.",
-        "DeniedNotification": "Anda menolak akses pemberitahuan, periksa tetapan halaman."
+        "DeniedNotification": "Anda menolak akses pemberitahuan, periksa tetapan halaman.",
+        "ReachedMaximumBots": "Anda telah mencapai had untuk mencipta bot."
     },
     "notifications": {
         "now_friends": "Anda sekarang adalah rakan dengan @ {{person}}!",
