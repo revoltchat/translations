@@ -20,7 +20,7 @@ jobs:
       - name: Commit changes
         uses: EndBug/add-and-commit@v4
         with:
-          add: *.json
+          add: "*.json"
           message: "Update Automatic Languages"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
