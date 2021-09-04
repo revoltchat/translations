@@ -475,7 +475,8 @@
                 },
                 "external_links": {
                     "title": "Harici bağlantılar tehlikeli olabilir!",
-                    "short": "Şuraya gitmek istediğinize emin misin: "
+                    "short": "Şuraya gitmek istediğinize emin misin: ",
+                    "trust_domain": "Bu alan adına güven"
                 },
                 "token_reveal": "{{name}}'nın Token'i"
             },
@@ -503,6 +504,10 @@
                 },
                 "user_picker": {
                     "select": "Eklenecek arkadaşları seçin."
+                },
+                "create_bot": {
+                    "title": "Yeni bot oluştur",
+                    "failed": "Bot oluşturulamadı!"
                 }
             },
             "requires_online": "Bunu görüntülemek için çevrimiçi olmanız gerekir.",
@@ -512,7 +517,9 @@
                 "invited_by": "{{user}} tarafından davet edildi",
                 "login": "Revolt'a Giriş Yap",
                 "accept": "Daveti Kabul Et",
-                "user_count": "{{member_count}} üye"
+                "user_count": "{{member_count}} üye",
+                "invalid": "Geçersiz davet!",
+                "invalid_desc": "Davet mevcut olmayabilir ya da katılma izniniz yok."
             }
         },
         "permissions": {
