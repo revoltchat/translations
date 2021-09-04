@@ -62,7 +62,8 @@
                     "block": "Bwock",
                     "leave": "Weave",
                     "back": "RETURN!!!!",
-                    "hide": "Make it go away >:("
+                    "hide": "Make it go away >:(",
+                    "edit": "Edit"
                 },
                 "prompt": {
                     "confirm_leave": "Go away fwom {{name}} (They'll pwobabwy miss u OmO)?",
@@ -89,6 +90,11 @@
                         "email": "Chyange uw email"
                     },
                     "failed": "Fwailed to chyange!"
+                },
+                "token_reveal": "{{name}}'s Token",
+                "external_links": {
+                    "title": "Extewnyaw winks can be dangewous!",
+                    "trust_domain": "Twust this domain"
                 }
             },
             "requires_online": "Youw need to be onwine to view this.",
@@ -116,6 +122,10 @@
                 },
                 "user_picker": {
                     "select": "Syelect fwiends tyo add."
+                },
+                "create_bot": {
+                    "title": "Cweate a nyew bot",
+                    "failed": "Faiwed to cweate a bot!"
                 }
             },
             "copy_username": "Cwick to copy uwsewname",
@@ -124,7 +134,9 @@
                 "invited_by": "Invwited byw Chad {{user}}",
                 "login": "Wogin tow Revolt",
                 "accept": "Acceptw Invwite",
-                "user_count": "{{member_count}} kittens"
+                "user_count": "{{member_count}} kittens",
+                "invalid": "Invawid Invite!",
+                "invalid_desc": "The invite may nyot exist ow you don't have pewmission to join."
             }
         },
         "status": {
@@ -242,31 +254,31 @@
         "context_menu": {
             "message_user": "Mwessage",
             "copy_id": "Cwopy ID",
-            "block_user": "Bwock Usew",
-            "edit_message": "Edit Mwessage",
+            "block_user": "Bwock usew",
+            "edit_message": "Edit mwessage",
             "cancel_friend": "Cancew Weqwest",
             "remove_friend": "Unfwend ÒmÓ",
-            "add_friend": "Add Fwend OwO",
-            "unblock_user": "Unbwock Usew",
-            "remove_member": "Wemove Fwom Dis Gang",
-            "delete_message": "Delet Dis",
-            "mark_as_read": "Mawk As Wead",
-            "copy_mid": "Steal Message ID",
-            "copy_cid": "Steal Channew ID",
-            "copy_uid": "Steal Usew ID",
+            "add_friend": "Add fwend OwO",
+            "unblock_user": "Unbwock usew",
+            "remove_member": "Wemove fwom gwoup",
+            "delete_message": "Dewete mwessage",
+            "mark_as_read": "Mawk as wead",
+            "copy_mid": "Steaw mwessage ID",
+            "copy_cid": "Steaw channew ID",
+            "copy_uid": "Steaw usew ID",
             "mention": "Annoy",
-            "save_video": "Swave Video",
-            "open_video": "Owopen Video",
-            "save_image": "Swave Image",
-            "open_image": "Owopen Image",
-            "save_file": "Swave Fwile",
-            "open_file": "Open Fwile",
-            "quote_message": "Qwuote Mwessage",
-            "cancel_message": "Cyancel Swend",
+            "save_video": "Swave video",
+            "open_video": "Open video",
+            "save_image": "Swave image",
+            "open_image": "Open image",
+            "save_file": "Swave fwiwe",
+            "open_file": "Open fwiwe",
+            "quote_message": "Qwuote mwessage",
+            "cancel_message": "Cyancel swend",
             "retry_message": "Wetry Swend",
             "copy_text": "Steal text",
-            "open_link": "Opwen Lyink",
-            "copy_link": "Cwopy Lyink",
+            "open_link": "Open wink",
+            "copy_link": "Cwopy wink",
             "set_custom_status": "Syet a cyustom styatus",
             "clear_status": "Yoink Styatus",
             "custom_status": "Cyustom Styatus",
@@ -284,7 +296,7 @@
             "kick_member": "Kick membew",
             "close_dm": "Cwose DM",
             "create_channel": "Cweate channyew",
-            "copy_sid": "Copy sewvew ID",
+            "copy_sid": "Steaw sewvew ID",
             "view_profile": "View pwofiwe",
             "ban_member": "Ban membew",
             "copy_message_link": "Cowpy message link",
@@ -429,7 +441,17 @@
                     "title": "Dwesktopw Setwings"
                 },
                 "bots": {
-                    "title": "Mwy Slyaves"
+                    "title": "Mwy Slyaves",
+                    "create_bot": "Cweate a bot",
+                    "copy_invite": "Copy invite wink",
+                    "add": "Add Bot",
+                    "token": "Token",
+                    "public_bot_tip": "Bot is pubwic. Anyonye can invite it.",
+                    "private_bot_tip": "Bot is pwivate. Onwy you can invite it.",
+                    "public_bot": "Pubwic Bot",
+                    "public_bot_desc": "Whethew to awwow othew usews to invite this bot.",
+                    "interactions_url": "Intewactions URL",
+                    "reserved": "Nyote: This fiewd is wesewved fow the futuwe."
                 },
                 "audio": {
                     "title": "Vwoice Settings- (OwO What's this)",
