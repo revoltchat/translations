@@ -63,7 +63,8 @@
                 },
                 "token_reveal": "Token-ul lui {{name}}",
                 "external_links": {
-                    "title": "Link-urile externe pot fi periculoase!"
+                    "title": "Link-urile externe pot fi periculoase!",
+                    "trust_domain": "Aveți încredere în acest domeniu"
                 }
             },
             "status": {
@@ -110,6 +111,10 @@
                 },
                 "user_picker": {
                     "select": "Selectează prietenii pe care vrei să-i adaugi."
+                },
+                "create_bot": {
+                    "failed": "Nu s-a putut crea un bot!",
+                    "title": "Creați un bot nou"
                 }
             },
             "copy_username": "Dă click pentru a copia numele de utilizator",
@@ -118,7 +123,9 @@
                 "invited_by": "Invitat(ă) de {{user}}",
                 "accept": "Acceptă Invitația",
                 "login": "Autentificare la Revolt",
-                "user_count": "{{member_count}} (de) utilizatori"
+                "user_count": "{{member_count}} (de) utilizatori",
+                "invalid_desc": "Este posibil ca invitația să nu existe sau nu aveți permisiunea de a vă înscrie.",
+                "invalid": "Invitație nevalidă!"
             }
         },
         "settings": {
@@ -268,7 +275,8 @@
                     "add": "Adaugă un Bot",
                     "public_bot_tip": "Botul este public. Orcine îl poate invita.",
                     "public_bot": "Bot public",
-                    "interactions_url": "URL de interacțiuni"
+                    "interactions_url": "URL de interacțiuni",
+                    "token": "Token"
                 },
                 "audio": {
                     "title": "Setări de voce",
