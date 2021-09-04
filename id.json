@@ -75,7 +75,8 @@
                         "call_leave": "Pengguna Keluar dari Panggilan",
                         "outbound": "Pesan Terkirim",
                         "call_join": "Pengguna Bergabung dalam Panggilan"
-                    }
+                    },
+                    "enable_push": "Aktifkan Notifikasi Push."
                 },
                 "audio": {
                     "title": "Pengaturan Suara",
@@ -93,7 +94,8 @@
                 "language": {
                     "other": "Opsi Bahasa Lainnya",
                     "select": "Pilih Bahasa Anda",
-                    "title": "Bahasa"
+                    "title": "Bahasa",
+                    "const": "Bahasa yang sedang dibangun"
                 },
                 "sync": {
                     "categories": "Kategori Sinkron",
@@ -104,16 +106,32 @@
                     "title": "Sinkron"
                 },
                 "bots": {
-                    "title": "Robot Saya",
+                    "title": "Bot Saya",
                     "create_bot": "Buat sebuah Bot",
                     "copy_invite": "Salin Tautan Undangan",
-                    "add": "Tambahkan Robot",
-                    "token": "Token"
+                    "add": "Tambahkan Bot",
+                    "token": "Token",
+                    "reserved": "Catatan: Bagian ini disiapkan untuk masa depan.",
+                    "public_bot_tip": "Bot ini untuk publik. Siapapun bisa mengundangnya.",
+                    "private_bot_tip": "Ini Bot Pribadi, hanya kamu yang bisa mengundangnya.",
+                    "public_bot": "Bot Publik",
+                    "public_bot_desc": "Izinkan pengguna lain untuk mengundang bot ini.",
+                    "interactions_url": "Interaksi URL"
                 },
                 "native": {
                     "title": "Pengaturan Desktop"
                 },
-                "source_code": "Kode Sumber"
+                "source_code": "Kode Sumber",
+                "feedback": {
+                    "title": "Masukan",
+                    "suggest": "Kirim saran fitur",
+                    "bug_desc": "Lihat laporan bug yang sedang aktif disini.",
+                    "bug": "Pelacak Bug",
+                    "suggest_desc": "Beri saran fitur baru Revolt di GitHub Discussions.",
+                    "issue": "Laporkan Masalah",
+                    "issue_desc": "Untuk membantu kami mengatasi masalah dengan lebih mudah, Kamu bisa Laporkan Masalah di GitHub."
+                },
+                "logOut": "Keluar"
             },
             "actions": {
                 "upload": "Unggah",
@@ -124,7 +142,67 @@
                 "client_settings": "Pengaturan Klien",
                 "user_settings": "Pengaturan Pengguna"
             },
-            "title": "Pengaturan"
+            "title": "Pengaturan",
+            "channel_pages": {
+                "overview": {
+                    "name": "Nama Saluran",
+                    "description": "Deskripsi Saluran"
+                },
+                "permissions": {
+                    "title": "Izin"
+                }
+            },
+            "server_pages": {
+                "roles": {
+                    "title": "Peran"
+                },
+                "categories": {
+                    "title": "Kategori"
+                },
+                "members": {
+                    "title": "Anggota"
+                },
+                "invites": {
+                    "invitor": "Pengundang",
+                    "code": "Kode Undangan",
+                    "title": "Undangan",
+                    "channel": "Saluran",
+                    "revoke": "Cabut Undangan"
+                },
+                "bans": {
+                    "no_reason": "Tidak ada alasan.",
+                    "reason": "Alasan Dilarang",
+                    "revoke": "Cabut Larangan",
+                    "user": "Pengguna",
+                    "title": "Dilarang"
+                },
+                "overview": {
+                    "system_messages": "Saluran Pesan Sistem",
+                    "name": "Nama Server",
+                    "description": "Deskripsi Saluran"
+                }
+            },
+            "permissions": {
+                "server": "Izin Server",
+                "default_role": "Bawaan",
+                "channel": "Izin Saluran",
+                "role_name": "Nama Peran",
+                "create_role": "Buat peran baru"
+            },
+            "tips": {
+                "account": {
+                    "b": "Buka pengaturan profil Anda.",
+                    "a": "Ingin menyesuaikan profil publik Anda?"
+                },
+                "sessions": {
+                    "a": "Jika kamu melihat sesi yang tidak diketahui di dalam daftar,",
+                    "b": "amankan akun anda dengan mengganti kata sandi dan gunakan 2FA."
+                },
+                "languages": {
+                    "a": "Tidak lihat bahasa yang kamu inginkan?",
+                    "b": "Bantu berkontribusi lebih banyak terjemahan."
+                }
+            }
         },
         "main": {
             "groups": {
@@ -234,6 +312,18 @@
             "busy": "Jangan Ganggu",
             "idle": "Diam",
             "online": "Online"
+        },
+        "special": {
+            "friends": {
+                "outgoing": "Permintaan pertemanan keluar.",
+                "blocked": "Diblokir",
+                "pending": "Permintaan Tertunda",
+                "incoming": "Permintaan pertemanan masuk.",
+                "sent": "Terkirim",
+                "nobody": "Belum ada orang disini!"
+            },
+            "copy": "Klik untuk menyalin",
+            "copy_username": "Klik untuk menyalin nama pengguna"
         }
     },
     "login": {
@@ -281,6 +371,7 @@
         "about": "Tentang",
         "on": "Aktif",
         "disabled": "Dinonaktifkan",
-        "unavailable": "Tak Tersedia"
+        "unavailable": "Tak Tersedia",
+        "off": "Tidak Aktif"
     }
 }
