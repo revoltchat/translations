@@ -12,7 +12,17 @@
                     "bug_desc": "Vis aktive feilrapporter her."
                 },
                 "bots": {
-                    "title": "Mine botter"
+                    "title": "Mine botter",
+                    "create_bot": "Opprett en bott",
+                    "copy_invite": "Kopier invitasjonslenke",
+                    "add": "Legg til bott",
+                    "token": "Symbol",
+                    "public_bot_tip": "Botten er offentlig. Hvem som helst kan invitere den.",
+                    "private_bot_tip": "Botten er privat. Kun du kan invitere den.",
+                    "public_bot": "Offentlig bott",
+                    "interactions_url": "Interaksjonsnettadresse",
+                    "reserved": "Merk: Dette feltet er reservert for fremtidig bruk.",
+                    "public_bot_desc": "Hvorvidt andre brukere skal kunne invitere denne botten."
                 },
                 "experiments": {
                     "not_available": "Ingen eksperimenter tilgjengelig nå.",
@@ -321,13 +331,19 @@
                 },
                 "user_picker": {
                     "select": "Velg venner å legge til."
+                },
+                "create_bot": {
+                    "title": "Opprett en ny bott",
+                    "failed": "Klarte ikke å opprette en bott."
                 }
             },
             "invite": {
                 "login": "Logg inn på Revolt",
                 "user_count": "{{member_count}} brukere",
                 "accept": "Godta invitasjon",
-                "invited_by": "Invitert av {{user}}"
+                "invited_by": "Invitert av {{user}}",
+                "invalid": "Ugyldig invitasjon.",
+                "invalid_desc": "Enten finnes ikke invitasjonen, eller så har du ikke lov til å delta."
             },
             "requires_online": "Du må være på nett for å vise dette.",
             "modals": {
@@ -350,7 +366,8 @@
                     "ban": "Bannlys",
                     "ok": "OK",
                     "cancel": "Avbryt",
-                    "update": "Oppdater"
+                    "update": "Oppdater",
+                    "edit": "Rediger"
                 },
                 "account": {
                     "failed": "Kunne ikke utføre endring.",
@@ -388,7 +405,12 @@
                     "unavailable": "Utklippstavlen er utilgjengelig."
                 },
                 "signed_out": "Du ble utlogget.",
-                "error": "Noe gikk galt."
+                "error": "Noe gikk galt.",
+                "token_reveal": "{{name}} sitt symbol",
+                "external_links": {
+                    "title": "Eksterne lenker kan være farlige.",
+                    "trust_domain": "Betro dette domenet"
+                }
             },
             "status": {
                 "connecting": "Kobler til …",
@@ -524,7 +546,8 @@
         "UnknownError": "Sjekk konsollen.",
         "MissingPermission": "Manglende tilgang.",
         "InternalError": "Intern feil.",
-        "DatabaseError": "Databasefeil."
+        "DatabaseError": "Databasefeil.",
+        "ReachedMaximumBots": "Du har nådd maksimalt antall botter."
     },
     "notifications": {
         "now_friends": "Du er nå venner med @{{person}}.",
