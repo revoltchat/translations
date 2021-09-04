@@ -8,7 +8,7 @@
         "on": "Włączone",
         "off": "Wyłączone",
         "unavailable": "Niedostępne",
-        "disabled": "Wyłączone"
+        "disabled": "Nieaktywne"
     },
     "login": {
         "title": "Zaloguj się",
@@ -195,7 +195,8 @@
                     "create": "Stwórz",
                     "delete": "Usuń",
                     "reveal": "Pokaż",
-                    "back": "Powrót"
+                    "back": "Powrót",
+                    "edit": "Edytuj"
                 },
                 "onboarding": {
                     "pick": "Wybierz nazwę użytkownika, według której inni będą mogli Cię znaleźć, możesz to później zmienić w ustawieniach.",
@@ -236,7 +237,8 @@
                 },
                 "external_links": {
                     "title": "Zewnętrzne linki mogą być niebezpieczne!",
-                    "short": "Czy na pewno chcesz przejść do: "
+                    "short": "Czy na pewno chcesz przejść do: ",
+                    "trust_domain": "Ufaj tej domenie"
                 }
             },
             "status": {
@@ -269,6 +271,10 @@
                 },
                 "user_picker": {
                     "select": "Wybierz znajomych do dodania."
+                },
+                "create_bot": {
+                    "failed": "Nie udało się utworzyć bota!",
+                    "title": "Utwórz nowego bota"
                 }
             },
             "copy_username": "Kliknij aby skopiować nazwę użytkownika",
@@ -276,7 +282,9 @@
                 "user_count": "{{member_count}} użytkowników",
                 "login": "Zaloguj się do Revolt",
                 "invited_by": "Zaproszony przez {{user}}",
-                "accept": "Zaakceptuj zaproszenie"
+                "accept": "Zaakceptuj zaproszenie",
+                "invalid": "Nieprawidłowe zaproszenie!",
+                "invalid_desc": "Zaproszenie może nie istnieć lub nie masz uprawnień aby dołączyć."
             },
             "copy": "Kliknij aby skopiować"
         },
@@ -468,12 +476,15 @@
                 },
                 "bots": {
                     "title": "Moje Boty",
-                    "create_bot": "Stwórz Bota",
+                    "create_bot": "Stwórz bota",
                     "copy_invite": "Skopiuj link z zaproszeniem",
-                    "add": "Dodaj Bota",
+                    "add": "Dodaj bota",
                     "token": "Token",
                     "public_bot_tip": "Bot jest publiczny. Każdy może go zaprosić.",
-                    "private_bot_tip": "Bot jest prywatny. Tylko ty możesz go zaprosić."
+                    "private_bot_tip": "Bot jest prywatny. Tylko ty możesz go zaprosić.",
+                    "public_bot": "Bot publiczny",
+                    "reserved": "Uwaga: To pole jest zarezerwowane na przyszłość.",
+                    "interactions_url": "Adres interakcji"
                 },
                 "native": {
                     "title": "Ustawienia aplikacji"
@@ -627,7 +638,8 @@
         "MissingPermission": "Brak uprawnień.",
         "Unauthorized": "Nieautoryzowany.",
         "NetworkError": "Błąd sieci.",
-        "CompromisedPassword": "To hasło zostało zdemaskowane."
+        "CompromisedPassword": "To hasło zostało zdemaskowane.",
+        "ReachedMaximumBots": "Osiągnąłeś maksymalną liczbę botów."
     },
     "permissions": {
         "server": {
@@ -653,7 +665,7 @@
             },
             "BanMembers": {
                 "d": "Pozwala członkom na wyrzucenie i zablokowanie innym dostępu do tego serwera.",
-                "t": "Zbanuj członków"
+                "t": "Banuj członków"
             },
             "ManageServer": {
                 "d": "Umożliwia członkom zmianę nazwy, opisu, ikony i innych powiązanych informacji tego serwera.",
