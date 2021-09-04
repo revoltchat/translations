@@ -294,7 +294,17 @@
                     "title": "Bureaublad Instellingen"
                 },
                 "bots": {
-                    "title": "Mijn bots"
+                    "title": "Mijn bots",
+                    "public_bot_tip": "Bot is openbaar. Iedereen kan het uitnodigen.",
+                    "private_bot_tip": "Bot is privé. Alleen jij kunt hem uitnodigen.",
+                    "public_bot": "Publiek Bot",
+                    "interactions_url": "Interacties URL",
+                    "reserved": "Opmerking: Dit veld is gereserveerd voor de toekomst.",
+                    "create_bot": "Maak een Bot",
+                    "copy_invite": "Uitnodigingslink kopiëren",
+                    "add": "Bot toevoegen",
+                    "token": "Token",
+                    "public_bot_desc": "Of andere gebruikers deze bot mogen uitnodigen."
                 },
                 "audio": {
                     "input_device": "Microfoon",
@@ -449,7 +459,8 @@
                     "back": "Ga terug",
                     "delete": "Verwijder",
                     "create": "Creëer",
-                    "hide": "Verbergen"
+                    "hide": "Verbergen",
+                    "edit": "Bewerken"
                 },
                 "onboarding": {
                     "pick": "Kies een gebruikersnaam waarmee je wil dat mensen je kunnen vinden, dit kan later in de instellingen worden gewijzigd.",
@@ -457,8 +468,10 @@
                 },
                 "external_links": {
                     "title": "Externe links kunnen gevaarlijk zijn!",
-                    "short": "Weet je zeker dat je hier naar toe wilt gaan: "
-                }
+                    "short": "Weet je zeker dat je hier naar toe wilt gaan: ",
+                    "trust_domain": "Vertrouw dit domein"
+                },
+                "token_reveal": "{{name}}'s Token"
             },
             "popovers": {
                 "user_profile": {
@@ -484,6 +497,10 @@
                 },
                 "user_picker": {
                     "select": "Selecteer vrienden om toe te voegen."
+                },
+                "create_bot": {
+                    "title": "Maak een nieuwe bot",
+                    "failed": "Mislukt om een bot aan te maken!"
                 }
             },
             "requires_online": "Je moet online zijn om dit te bekijken.",
@@ -492,7 +509,9 @@
                 "invited_by": "Uitgenodigd door {{user}}",
                 "login": "Inloggen op Revolt",
                 "accept": "Accepteer Uitnodiging",
-                "user_count": "{{member_count}} gebruikers"
+                "user_count": "{{member_count}} gebruikers",
+                "invalid": "Ongeldige uitnodiging!",
+                "invalid_desc": "Het kan zijn dat de uitnodiging niet bestaat of dat je geen toestemming hebt om mee te doen."
             }
         },
         "context_menu": {
@@ -614,7 +633,8 @@
         "AlreadySentRequest": "Je hebt al een verzoek naar deze gebruiker gestuurd.",
         "BlockedOther": "Deze gebruiker heeft je geblokkeerd.",
         "NoEffect": "Dit verzoek had geen effect.",
-        "RequiredField": "Verplicht"
+        "RequiredField": "Verplicht",
+        "ReachedMaximumBots": "Je hebt het maximum aantal bots bereikt."
     },
     "permissions": {
         "server": {
