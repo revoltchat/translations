@@ -266,7 +266,8 @@
                 },
                 "nsfw": {
                     "channel": {
-                        "confirm": "Masuk kedalam saluran"
+                        "confirm": "Masuk kedalam saluran",
+                        "marked": "Saluran ini ditandai sebagai NSFW."
                     },
                     "confirm": "Saya mengkonfirmasi bahwa saya berusia diatas 18 tahun."
                 },
@@ -320,10 +321,81 @@
                 "pending": "Permintaan Tertunda",
                 "incoming": "Permintaan pertemanan masuk.",
                 "sent": "Terkirim",
-                "nobody": "Belum ada orang disini!"
+                "nobody": "Belum ada orang disini!",
+                "from": {
+                    "several": "Dari {{userlist}} dan {{count}} lebih banyak lagi…",
+                    "single": "Dari {{user}}",
+                    "multiple": "Dari {{userlist}} dan {{user}}"
+                }
             },
             "copy": "Klik untuk menyalin",
-            "copy_username": "Klik untuk menyalin nama pengguna"
+            "copy_username": "Klik untuk menyalin nama pengguna",
+            "invite": {
+                "user_count": "{{member_count}} pengguna",
+                "accept": "Terima Undangan"
+            },
+            "modals": {
+                "onboarding": {
+                    "welcome": "Selamat datang di",
+                    "pick": "Pilih nama pengguna Anda inginkan agar orang dapat menemukan Anda, ini dapat diubah nanti di pengaturan."
+                },
+                "actions": {
+                    "ok": "Oke",
+                    "continue": "Lanjut",
+                    "delete": "Hapus",
+                    "leave": "Keluar",
+                    "back": "Kembali",
+                    "close": "Tutup",
+                    "block": "Blokir",
+                    "save": "Simpan",
+                    "cancel": "Batal"
+                },
+                "account": {
+                    "change": {
+                        "password": "Ganti password Anda",
+                        "username": "Ganti nama pengguna Anda",
+                        "email": "Ganti email Anda"
+                    }
+                },
+                "prompt": {
+                    "block_user": "Blokir {{name}}?",
+                    "confirm_leave": "Keluar dari {{name}}?",
+                    "confirm_delete_message_long": "Apakah Anda yakin ingin menghapuskan ini?",
+                    "confirm_delete": "Hapus {{name}}?",
+                    "confirm_ban_reason": "Alasan Larangan",
+                    "block_user_long": "Apakah Anda yakin Anda ingin memblokir {{name}}? Mereka akan dihapuskan dari list temanmu."
+                },
+                "external_links": {
+                    "title": "Link-link eksternal bisa berbahaya!"
+                }
+            },
+            "status": {
+                "reconnecting": "Menghubungkan kembali…",
+                "connecting": "Menghubung…"
+            },
+            "popovers": {
+                "user_profile": {
+                    "profile": "Profil",
+                    "sub": {
+                        "information": "Informasi"
+                    }
+                }
+            }
+        },
+        "context_menu": {
+            "remove_friend": "Hapus teman",
+            "delete_message": "Hapus pesan",
+            "add_friend": "Tambah teman",
+            "create_category": "Buat kategori",
+            "cancel_message": "Batal mengirim",
+            "open_image": "Buka gambar",
+            "save_image": "Simpan gambar",
+            "delete_channel": "Hapus saluran",
+            "create_channel": "Buat saluran",
+            "open_channel_settings": "Pengaturan saluran",
+            "block_user": "Blokir pengguna",
+            "leave_group": "Keluar dari grup",
+            "create_invite": "Buat undangan"
         }
     },
     "login": {
@@ -373,5 +445,21 @@
         "disabled": "Dinonaktifkan",
         "unavailable": "Tak Tersedia",
         "off": "Tidak Aktif"
+    },
+    "error": {
+        "InvalidCredentials": "Alamat email atau password salah.",
+        "BlockedOther": "Pengguna ini telah memblokir Anda.",
+        "TooShort": "Terlalu pendek",
+        "TooLong": "Terlalu panjang"
+    },
+    "permissions": {
+        "channel": {
+            "InviteOthers": {
+                "t": "Undang orang lain"
+            },
+            "SendMessage": {
+                "t": "Kirim Pesan"
+            }
+        }
     }
 }
