@@ -91,9 +91,9 @@
         },
         "title": "Accedere",
         "register": "Registrati",
-        "username": "nome utente",
+        "username": "Nome utente",
         "email": "E-mail",
-        "password": "parola d'ordine",
+        "password": "Password",
         "current_password": "password attuale",
         "forgot": "Hai dimenticato la password?",
         "reset": "Resetta la password.",
@@ -111,14 +111,15 @@
         "check_mail": "Controlla la tua posta."
     },
     "general": {
-        "about": "attorno",
+        "about": "Chi siamo",
         "tos": "Termini di servizio",
         "off": "spento",
         "privacy": "Politica sulla riservatezza",
         "image_by": "immagine di",
         "loading": "Caricamento in corso…",
         "on": "acceso",
-        "disabled": "non abilitato"
+        "disabled": "non abilitato",
+        "unavailable": "Non disponibile"
     },
     "app": {
         "status": {
@@ -183,7 +184,9 @@
                     "failed_load": "Impossibile caricare il messaggio.",
                     "no_sending": "Non hai l'autorizzazione per inviare messaggi in questo canale.",
                     "blocked_messages": "{{count}} messaggi bloccati",
-                    "blocked_user": "Utente bloccato"
+                    "blocked_user": "Utente bloccato",
+                    "sent_file": "Spedito un allegato",
+                    "sent_multiple_files": "Spediti allegati multipli"
                 },
                 "nsfw": {
                     "channel": {
@@ -201,6 +204,14 @@
                     "mention": "Solo menzioni",
                     "none": "Nessuna",
                     "muted": "Disattivato"
+                },
+                "search": {
+                    "title": "Cerca",
+                    "sort": {
+                        "relevance": "Rilevanza",
+                        "latest": "Più recenti",
+                        "oldest": "Più vecchi"
+                    }
                 }
             },
             "groups": {
@@ -265,7 +276,8 @@
                     "profile_picture": "Immagine del profilo",
                     "edit_background": "Modifica sfondo",
                     "custom_background": "Sfondo personalizzato",
-                    "fetching": "Recupero del tuo profilo…"
+                    "fetching": "Recupero del tuo profilo…",
+                    "edit_profile": "Modifica profilo"
                 },
                 "sessions": {
                     "title": "sessioni",
@@ -323,7 +335,7 @@
                 "language": {
                     "title": "linguaggio",
                     "select": "seleziona la tua lingua",
-                    "other": "Lingue alternative"
+                    "other": "Opzioni per altre lingue"
                 },
                 "sync": {
                     "title": "Sincronizza",
@@ -346,13 +358,35 @@
                 "feedback": {
                     "title": "Risposta",
                     "report": "Cosa vuoi segnalare?",
-                    "bug": "bug",
+                    "bug": "Tracciatore di bug",
                     "feature": "Richiesta di funzionalità",
                     "other": "Altro",
                     "describe": "Descrivi il problema.",
-                    "send": "Invia feedback"
+                    "send": "Invia feedback",
+                    "bug_desc": "Visualizza le segnalazioni di bug qui.",
+                    "suggest": "Invia suggerimento di funzionalità"
                 },
-                "logOut": "Disconnettersi"
+                "logOut": "Disconnettersi",
+                "bots": {
+                    "title": "I miei bot",
+                    "create_bot": "Crea un bot",
+                    "copy_invite": "Copia link invito",
+                    "add": "Aggiungi bot",
+                    "token": "Token",
+                    "public_bot_tip": "Il bot è pubblico. Chiunque può invitarlo.",
+                    "private_bot_tip": "Il bot è privato. Solo tu puoi invitarlo.",
+                    "public_bot": "Bot pubblico",
+                    "public_bot_desc": "Se consentire ad altri utenti di invitare questo bot.",
+                    "interactions_url": "URL interazioni"
+                },
+                "audio": {
+                    "title": "Impostazioni della voce",
+                    "input_device": "Microfono",
+                    "output_device": "Altoparlante / Cuffia"
+                },
+                "native": {
+                    "title": "Impostazioni del desktop"
+                }
             },
             "channel_pages": {
                 "overview": {
@@ -375,7 +409,8 @@
                     "title": "Membri"
                 },
                 "invites": {
-                    "title": "invita"
+                    "title": "invita",
+                    "code": "Codice d'invito"
                 },
                 "roles": {
                     "title": "Ruoli"
