@@ -14,7 +14,22 @@
                         "default": "預設"
                     },
                     "theme": "主題",
-                    "title": "外觀"
+                    "title": "外觀",
+                    "ligatures_desc": "如果字體支援，此選項將相鄰的字元連結在一起，例如，將->顯示為箭頭。您可以選擇Inter字體並開啟此設定試試。",
+                    "ligatures": "字體連字",
+                    "mono_font": "等寬字體偏好",
+                    "font": "字體",
+                    "sync": "同步設定",
+                    "custom_css": "自訂 CSS",
+                    "theme_data": "主題資料",
+                    "import_theme": "從字串匯入主題",
+                    "import": "匯入主題",
+                    "reset_overrides": "重設主題",
+                    "overrides": "自訂主題",
+                    "advanced": "進階設定",
+                    "message_display": "訊息顯示",
+                    "emoji_pack": "表情包",
+                    "accent_selector": "強調顏色"
                 },
                 "audio": {
                     "output_device": "喇叭/耳機",
@@ -56,7 +71,71 @@
                     "title": "我的帳號"
                 },
                 "bots": {
-                    "token": "令牌"
+                    "token": "令牌",
+                    "reserved": "注意：此欄位為未來保留。",
+                    "interactions_url": "互動 URL",
+                    "public_bot_desc": "是否允許其他人邀請此機器人。",
+                    "public_bot": "公開機器人",
+                    "private_bot_tip": "機器人為私人的。只有你可以邀請它。",
+                    "public_bot_tip": "機器人為公開的。所有人都可以邀請。",
+                    "add": "新增機器人",
+                    "copy_invite": "複製邀請連結",
+                    "create_bot": "創造機器人",
+                    "title": "我的機器人"
+                },
+                "logOut": "登出",
+                "feedback": {
+                    "bug": "追蹤錯誤",
+                    "bug_desc": "查看當前活躍的錯誤回報。",
+                    "issue_desc": "為了幫助我們更輕鬆的區分問題，您可以在 Github 上新增 Issue。",
+                    "issue": "新增 Issue",
+                    "suggest_desc": "在 Github 討論區為 Revolt 建議新功能。",
+                    "suggest": "提交功能建議",
+                    "title": "意見回饋"
+                },
+                "source_code": "原始碼",
+                "donate": {
+                    "title": "捐獻"
+                },
+                "experiments": {
+                    "not_available": "目前沒有可用的實驗功能。",
+                    "features": "可用功能",
+                    "title": "實驗室"
+                },
+                "native": {
+                    "title": "桌面設定"
+                },
+                "sync": {
+                    "descriptions": {
+                        "locale": "這將會同步您當前選擇的語言。",
+                        "theme": "這將會同步您的外觀設定、顏色以及自訂 CSS。",
+                        "appearance": "這將會同步表情包與訊息密度的設定。"
+                    },
+                    "categories": "同步分類",
+                    "title": "同步"
+                },
+                "language": {
+                    "other": "其他語言選項",
+                    "const": "人造語言",
+                    "select": "選擇語言",
+                    "title": "語言"
+                },
+                "notifications": {
+                    "sound": {
+                        "call_leave": "使用者離開語音",
+                        "call_join": "使用者加入語音",
+                        "outbound": "送出訊息",
+                        "message": "接收訊息"
+                    },
+                    "descriptions": {
+                        "enable_push": "允許在離線時收到通知。",
+                        "enable_desktop": "開啟此設定且應用程式運行時將會像您傳送通知。"
+                    },
+                    "sounds": "聲音",
+                    "enable_push": "開啟傳送通知。",
+                    "enable_desktop": "開啟桌面通知。",
+                    "push_notifications": "傳送通知",
+                    "title": "通知"
                 }
             },
             "actions": {
@@ -68,7 +147,69 @@
                 "client_settings": "用戶端設定",
                 "user_settings": "使用者設定"
             },
-            "title": "設定"
+            "title": "設定",
+            "permissions": {
+                "role_name": "角色名稱",
+                "create_role": "創造新角色",
+                "channel": "頻道權限",
+                "server": "伺服器權限",
+                "default_role": "預設"
+            },
+            "tips": {
+                "sessions": {
+                    "b": "請更換密碼且開啟雙重認證以確保您的帳號。",
+                    "a": "如果您在列表中見到不明設備，"
+                },
+                "languages": {
+                    "b": "幫助提供更多翻譯。",
+                    "a": "缺少您需要的語言嗎？"
+                },
+                "account": {
+                    "b": "前往您的個人資訊設定。",
+                    "a": "要自訂您的公開個人資訊嗎？"
+                }
+            },
+            "server_pages": {
+                "categories": {
+                    "title": "類別"
+                },
+                "roles": {
+                    "title": "角色"
+                },
+                "bans": {
+                    "no_reason": "無封鎖原因。",
+                    "revoke": "收回",
+                    "reason": "封鎖原因",
+                    "user": "使用者",
+                    "title": "封鎖"
+                },
+                "invites": {
+                    "revoke": "收回",
+                    "channel": "頻道",
+                    "invitor": "邀請者",
+                    "code": "邀請碼",
+                    "title": "邀請"
+                },
+                "members": {
+                    "title": "成員"
+                },
+                "overview": {
+                    "system_messages": "系統訊息頻道",
+                    "description": "頻道簡介",
+                    "name": "伺服器名稱",
+                    "title": "概述"
+                }
+            },
+            "channel_pages": {
+                "permissions": {
+                    "title": "權限"
+                },
+                "overview": {
+                    "description": "頻道簡介",
+                    "name": "頻道名稱",
+                    "title": "概述"
+                }
+            }
         },
         "main": {
             "servers": {
