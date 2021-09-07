@@ -182,23 +182,57 @@
             "modals": {
                 "prompt": {
                     "confirm_close_dm": "關閉和 {{name}} 的對話?",
-                    "confirm_leave_long": "您將無法再加入除非您再度被邀請"
+                    "confirm_leave_long": "您將無法再加入除非您再度被邀請",
+                    "confirm_ban_reason": "封鎖原因",
+                    "unfriend_user": "移除 {{name}}？",
+                    "confirm_leave": "離開 {{name}}？"
                 },
                 "onboarding": {
-                    "pick": "選擇一個使用者名稱讓其他人能夠找到您，之後可以在設定中進行更改。"
+                    "pick": "選擇一個使用者名稱讓其他人能夠找到您，之後可以在設定中進行更改。",
+                    "welcome": "歡迎來到"
                 },
                 "token_reveal": "{{name}} 的 Token",
                 "signed_out": "你已經登出!",
                 "clipboard": {
                     "https": "您當前不在 HTTPS 連線環境。",
-                    "unavailable": "剪貼簿無法使用!"
-                }
+                    "unavailable": "剪貼簿無法使用!",
+                    "copy": "手動複製："
+                },
+                "actions": {
+                    "continue": "繼續",
+                    "cancel": "取消",
+                    "update": "更新",
+                    "hide": "隱藏",
+                    "edit": "編輯",
+                    "delete": "移除",
+                    "remove": "移除",
+                    "back": "返回",
+                    "leave": "離開",
+                    "close": "關閉",
+                    "block": "封鎖",
+                    "kick": "踢出",
+                    "ban": "封鎖",
+                    "ok": "確定"
+                },
+                "external_links": {
+                    "trust_domain": "信任此域名"
+                },
+                "error": "發現錯誤！"
             },
             "friends": {
                 "from": {
-                    "several": "從{{userlist}} 和其他 {{count}} 人…"
+                    "several": "從{{userlist}} 和其他 {{count}} 人…",
+                    "multiple": "從 {{userlist}} 和 {{user}}",
+                    "single": "從 {{user}}"
                 },
-                "outgoing": "發出好友邀請。"
+                "outgoing": "發出好友邀請。",
+                "blocked": "已封鎖"
+            },
+            "status": {
+                "offline": "離線。",
+                "reconnecting": "重新連結中…",
+                "connecting": "連結中…",
+                "disconnected": "已斷線。"
             }
         }
     },
