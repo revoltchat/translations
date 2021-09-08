@@ -25,7 +25,8 @@
                     "sync": "Opsi Sinkronisasi",
                     "message_display": "Tampilan Pesan",
                     "font": "Huruf",
-                    "mono_font": "Pilihan Huruf Monospace"
+                    "mono_font": "Pilihan Huruf Monospace",
+                    "overrides": "Pengganti Tema"
                 },
                 "sessions": {
                     "created": "Dibuat {{time_ago}}",
@@ -332,7 +333,10 @@
             "copy_username": "Klik untuk menyalin nama pengguna",
             "invite": {
                 "user_count": "{{member_count}} pengguna",
-                "accept": "Terima Undangan"
+                "accept": "Terima Undangan",
+                "login": "Masuk ke Revolt",
+                "invited_by": "Diundang oleh {{user}}",
+                "invalid": "Undangan tidak valid!"
             },
             "modals": {
                 "onboarding": {
@@ -348,7 +352,13 @@
                     "close": "Tutup",
                     "block": "Blokir",
                     "save": "Simpan",
-                    "cancel": "Batal"
+                    "cancel": "Batal",
+                    "hide": "Sembunyi",
+                    "create": "Buat",
+                    "update": "Perbarui",
+                    "edit": "Ubah",
+                    "send_email": "Kirim Email",
+                    "reveal": "Mengungkapkan"
                 },
                 "account": {
                     "change": {
@@ -363,10 +373,12 @@
                     "confirm_delete_message_long": "Apakah Anda yakin ingin menghapuskan ini?",
                     "confirm_delete": "Hapus {{name}}?",
                     "confirm_ban_reason": "Alasan Larangan",
-                    "block_user_long": "Apakah Anda yakin Anda ingin memblokir {{name}}? Mereka akan dihapuskan dari list temanmu."
+                    "block_user_long": "Apakah Anda yakin Anda ingin memblokir {{name}}? Mereka akan dihapuskan dari list temanmu.",
+                    "unfriend_user": "Hapus {{name}}?"
                 },
                 "external_links": {
-                    "title": "Link-link eksternal bisa berbahaya!"
+                    "title": "Link-link eksternal bisa berbahaya!",
+                    "trust_domain": "Percaya domain ini"
                 }
             },
             "status": {
@@ -378,7 +390,11 @@
                     "profile": "Profil",
                     "sub": {
                         "information": "Informasi"
-                    }
+                    },
+                    "empty": "Disini agak kosong…"
+                },
+                "create_bot": {
+                    "title": "Buat sebuah bot baru"
                 }
             }
         },
@@ -395,7 +411,23 @@
             "open_channel_settings": "Pengaturan saluran",
             "block_user": "Blokir pengguna",
             "leave_group": "Keluar dari grup",
-            "create_invite": "Buat undangan"
+            "create_invite": "Buat undangan",
+            "open_group_settings": "Pengaturan grup",
+            "copy_uid": "Salin ID pengguna",
+            "delete_server": "Hapus server",
+            "copy_id": "Salin ID",
+            "edit_identity": "Ubah identitas",
+            "copy_text": "Salin teks",
+            "open_video": "Buka video",
+            "save_video": "Simpan video",
+            "save_file": "Simpan file",
+            "copy_cid": "Salin ID saluran",
+            "copy_mid": "Salin ID pesan",
+            "edit_message": "Ubah pesan",
+            "open_server_settings": "Pengaturan server",
+            "remove_member": "Hapus dari grup",
+            "open_file": "Buka file",
+            "leave_server": "Keluar dari server"
         }
     },
     "login": {
@@ -450,7 +482,12 @@
         "InvalidCredentials": "Alamat email atau password salah.",
         "BlockedOther": "Pengguna ini telah memblokir Anda.",
         "TooShort": "Terlalu pendek",
-        "TooLong": "Terlalu panjang"
+        "TooLong": "Terlalu panjang",
+        "AlreadyFriends": "Anda sudah berteman dengan pengguna ini.",
+        "Unlabelled": "Sesuatu telah terjadi.",
+        "Blocked": "Anda telah memblokir pengguna ini.",
+        "RequiredField": "Wajib",
+        "FileTooLarge": "File ini terlalu besar."
     },
     "permissions": {
         "channel": {
@@ -460,6 +497,36 @@
             "SendMessage": {
                 "t": "Kirim Pesan"
             }
+        },
+        "server": {
+            "ManageChannels": {
+                "d": "Perbolehkan anggota untuk membuat, ubah, dan hapus saluran."
+            },
+            "ManageServer": {
+                "d": "Perbolehkan anggota untuk mengubah nama server, deskripsi, ikon, dan informasi lainnya."
+            }
         }
+    },
+    "dayjs": {
+        "lastWeek": "dddd [kemarin] [jam] {{time}}",
+        "defaults": {
+            "date_format": "traditional",
+            "date_separator": "/",
+            "twelvehour": "no"
+        },
+        "nextDay": "[Besok jam] {{time}}",
+        "nextWeek": "dddd [jam] {{time}}"
+    },
+    "quantities": {
+        "members": {
+            "many": "{{count}} Anggota",
+            "one": "1 Anggota"
+        }
+    },
+    "notifications": {
+        "now_friends": "Anda sekarang berteman dengan @{{person}}!"
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
     }
 }
