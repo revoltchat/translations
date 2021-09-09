@@ -208,7 +208,10 @@
                 "audio": {
                     "title": "Voice Settings",
                     "input_device": "Microphone",
-                    "output_device": "Speaker / Headset"
+                    "output_device": "Speaker / Headset",
+                    "tip_retry": "You don't gave the permission to access to your microphone? Please {{retryBtn}}.",
+                    "device_label_NA": "N/A",
+                    "button_retry": "retry"
                 },
                 "appearance": {
                     "title": "Appearance",
@@ -618,7 +621,8 @@
         "UnsupportedBrowser": "Browser is missing support for this feature.",
         "DeniedNotification": "You denied notification access, check page settings.",
         "CompromisedPassword": "This password is compromised.",
-        "ReachedMaximumBots": "You've reached the maximum amount of bots."
+        "ReachedMaximumBots": "You've reached the maximum amount of bots.",
+        "AudioPermissionBlock": "No access to your microphone, please check your browser's configuration."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
