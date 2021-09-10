@@ -316,12 +316,19 @@
                     "private_bot_tip": "Bot gizlidir. Sadece siz davet edebilirsiniz.",
                     "public_bot": "Halka Açık Bot",
                     "reserved": "Not: Bu alan gelecek için ayrılmıştır.",
-                    "interactions_url": "Etkileşimler URL'si"
+                    "interactions_url": "Etkileşimler URL'si",
+                    "unique_id": "Bu, botunuz için eşsiz bir tanımlayıcıdır. Bu botun jetonu değildir."
                 },
                 "audio": {
                     "title": "Ses Ayarları",
                     "input_device": "Mikrofon",
-                    "output_device": "Hoparlör / Kulaklık"
+                    "output_device": "Hoparlör / Kulaklık",
+                    "button_retry": "tekrar dene",
+                    "device_label_NA": "Yok",
+                    "tip_retry": "Mikrofonunuza erişim izni vermediniz mi ? Lütfen {{retryBtn}}."
+                },
+                "theme_shop": {
+                    "title": "Tema Mağazası"
                 }
             },
             "channel_pages": {
@@ -508,6 +515,11 @@
                 "create_bot": {
                     "title": "Yeni bot oluştur",
                     "failed": "Bot oluşturulamadı!"
+                },
+                "server_identity": {
+                    "nickname": "Takma Ad",
+                    "avatar": "Profil Resmi",
+                    "title": "{{server}} üzerinde kimliği değiştir"
                 }
             },
             "requires_online": "Bunu görüntülemek için çevrimiçi olmanız gerekir.",
@@ -638,7 +650,8 @@
         "IoError": "Sunucu bir G/Ç hatasıyla karşılaştı.",
         "UnsupportedBrowser": "Tarayıcınız bu özelliği desteklemiyor.",
         "CompromisedPassword": "Bu şifrelerin güvenliği ihlal edildi.",
-        "ReachedMaximumBots": "Maksimum bot sayısına ulaştınız."
+        "ReachedMaximumBots": "Maksimum bot sayısına ulaştınız.",
+        "AudioPermissionBlock": "Mikronunuza erişim yok, lütfen tarayıcının yapılandırmasını kontrol ediniz."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
