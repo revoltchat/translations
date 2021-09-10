@@ -251,7 +251,8 @@
                     "interactions_url": "URL de Interacciones",
                     "reserved": "Nota: Este campo está reservado para el futuro.",
                     "copy_invite": "Copiar enlace de invitación",
-                    "public_bot_desc": "Permitir o no que otros usuarios inviten a este bot."
+                    "public_bot_desc": "Permitir o no que otros usuarios inviten a este bot.",
+                    "unique_id": "Este es un identificador único para tu bot. No es el token del bot."
                 },
                 "native": {
                     "title": "Opciones de escritorio"
@@ -260,9 +261,12 @@
                     "title": "Opciones de voz",
                     "output_device": "Altavoz / Auriculares",
                     "input_device": "Micrófono",
-                    "device_label_NA": "N/A",
-                    "button_retry": "rever",
+                    "device_label_NA": "No disponible",
+                    "button_retry": "reintentar",
                     "tip_retry": "¿No has dado permisos para acceder a tu micrófono? Por favor {{retryBtn}}."
+                },
+                "theme_shop": {
+                    "title": "Tienda de temas"
                 }
             },
             "categories": {
@@ -376,7 +380,7 @@
             "message_user": "Enviar mensaje",
             "mark_as_read": "Marcar como leído",
             "edit_message": "Editar mensaje",
-            "delete_message": "Borrar mensaje",
+            "delete_message": "Eliminar mensaje",
             "remove_member": "Eliminar del grupo",
             "view_profile": "Ver perfil",
             "kick_member": "Expulsar miembro",
@@ -504,6 +508,11 @@
                 "create_bot": {
                     "title": "Crear un nuevo bot",
                     "failed": "¡Se ha producido un error al crear el bot!"
+                },
+                "server_identity": {
+                    "title": "Cambiar identidad en el servidor {{server}}",
+                    "nickname": "Apodo",
+                    "avatar": "Avatar"
                 }
             },
             "status": {
@@ -600,7 +609,7 @@
         "sent_request": "@{{person}} te envió una solicitud de amistad."
     },
     "error": {
-        "MissingPermission": "Falta un permiso.",
+        "MissingPermission": "Permisos insuficientes.",
         "FileTooLarge": "El archivo es demasiado grande.",
         "MissingData": "Faltan datos en la solicitud.",
         "TooLong": "Demasiado largo",
@@ -640,7 +649,8 @@
         "TooShort": "Demasiado corto",
         "Unavailable": "No disponible.",
         "CompromisedPassword": "Esta contraseña está comprometida.",
-        "ReachedMaximumBots": "Has alcanzado la cantidad máxima de bots."
+        "ReachedMaximumBots": "Has alcanzado la cantidad máxima de bots.",
+        "AudioPermissionBlock": "No hay acceso a tu micrófono, por favor comprueba la configuración de tu navegador."
     },
     "permissions": {
         "channel": {
