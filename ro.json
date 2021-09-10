@@ -91,7 +91,7 @@
                 "user_profile": {
                     "badges": {
                         "translator": "Traducător/oare",
-                        "supporter": "Susținător",
+                        "supporter": "Susținător/oare",
                         "early_adopter": "Adoptor Timpuriu",
                         "responsible_disclosure": "Bug (bug-uri) dezvăluit(e) în mod responsabil"
                     },
@@ -115,6 +115,11 @@
                 "create_bot": {
                     "failed": "Nu s-a putut crea un bot!",
                     "title": "Creează un bot nou"
+                },
+                "server_identity": {
+                    "title": "Schimbă identitatea pe {{server}}",
+                    "nickname": "Poreclă",
+                    "avatar": "Avatar"
                 }
             },
             "copy_username": "Dă click pentru a copia numele de utilizator",
@@ -276,12 +281,19 @@
                     "public_bot_tip": "Botul este public. Orcine îl poate invita.",
                     "public_bot": "Bot public",
                     "interactions_url": "URL de interacțiuni",
-                    "token": "Token"
+                    "token": "Token",
+                    "unique_id": "Acesta este un identificator unic pentru botul tău. Acesta nu este token-ul botului."
                 },
                 "audio": {
                     "title": "Setări de voce",
                     "input_device": "Microfon",
-                    "output_device": "Difuzor / Căști"
+                    "output_device": "Difuzor / Căști",
+                    "device_label_NA": "N/A",
+                    "button_retry": "încearcă din nou",
+                    "tip_retry": "Nu ai dat permisiunea de a accesa microfonul ? Te rugăm să {{retryBtn}}."
+                },
+                "theme_shop": {
+                    "title": "Magazin de teme"
                 }
             },
             "categories": {
@@ -636,7 +648,8 @@
         "Unauthorized": "Neautorizat.",
         "NetworkError": "Eroare de rețea.",
         "CompromisedPassword": "Această parolă a fost compromisă.",
-        "ReachedMaximumBots": "Ai atins numărul maxim de boți."
+        "ReachedMaximumBots": "Ai atins numărul maxim de boți.",
+        "AudioPermissionBlock": "Fără acces la microfon, te rugăm să îți verifici setările browserului."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
