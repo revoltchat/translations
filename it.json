@@ -382,15 +382,22 @@
                     "public_bot": "Bot pubblico",
                     "public_bot_desc": "Se consentire ad altri utenti di invitare questo bot.",
                     "interactions_url": "URL interazioni",
-                    "reserved": "Nota: Questo campo è riservato per il futuro."
+                    "reserved": "Nota: Questo campo è riservato per il futuro.",
+                    "unique_id": "Questo è un identificare unico per il tuo bot. Questo non è il token del bot."
                 },
                 "audio": {
                     "title": "Impostazioni della voce",
                     "input_device": "Microfono",
-                    "output_device": "Altoparlante / Cuffie"
+                    "output_device": "Altoparlante / Cuffie",
+                    "device_label_NA": "N/A",
+                    "button_retry": "riprova",
+                    "tip_retry": "Non hai dato il permesso per accedere al tuo microfono? Perfare {{retryBtn}}."
                 },
                 "native": {
                     "title": "Impostazioni del desktop"
+                },
+                "theme_shop": {
+                    "title": "Negozio dei temi"
                 }
             },
             "channel_pages": {
@@ -504,7 +511,7 @@
         "special": {
             "friends": {
                 "pending": "Richieste in sospeso",
-                "sent": "Estroverso",
+                "sent": "Inviando",
                 "blocked": "Bloccato",
                 "incoming": "Richiesta di amicizia in arrivo.",
                 "outgoing": "Richiesta di amicizia in uscita.",
@@ -617,6 +624,11 @@
                 "create_bot": {
                     "title": "Crea un nuovo bot",
                     "failed": "Impossibile creare il bot!"
+                },
+                "server_identity": {
+                    "title": "Cambia la tua identità in {{server}}",
+                    "nickname": "Soprannome",
+                    "avatar": "Avatar"
                 }
             },
             "requires_online": "Devi essere online per vederlo.",
@@ -654,7 +666,7 @@
         "InvalidToken": "Token invalido",
         "MissingInvite": "Codice di invito mancante nella richiesta.",
         "InvalidInvite": "Codice invalido",
-        "UsernameTaken": "Il nome utente è preso.",
+        "UsernameTaken": "Il nome utente è già stato preso.",
         "AlreadyFriends": "Sei già amico con questo utente.",
         "AlreadySentRequest": "Hai già inviato una richiesta a questo utente.",
         "Blocked": "Hai bloccato questo utente.",
@@ -674,7 +686,8 @@
         "InvalidCredentials": "L'e-mail o la password sono errate.",
         "FailedToReceive": "Il server non è riuscito a ricevere il tuo file.",
         "DeniedNotification": "Hai negato l'accesso alle notifiche, controlla le impostazioni della pagina.",
-        "ReachedMaximumBots": "Hai raggiunto il numero massimo di bots."
+        "ReachedMaximumBots": "Hai raggiunto il numero massimo di bots.",
+        "AudioPermissionBlock": "Non possiamo accedere al tuo microfono, per favore controlla le impostazioni del tuo browser."
     },
     "quantities": {
         "members": {
@@ -686,7 +699,7 @@
         "lastDay": "[Ieri alle] {{time}}",
         "sameDay": "[Oggi alle] {{time}}",
         "nextDay": "[Domani alle] {{time}}",
-        "lastWeek": "[Ultimo] gggg [alle] {{time}}",
+        "lastWeek": "[Ultimo] dddd [alle] {{time}}",
         "nextWeek": "dddd [alle] {{time}}",
         "defaults": {
             "date_separator": "/",
