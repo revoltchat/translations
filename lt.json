@@ -276,6 +276,11 @@
                 "create_bot": {
                     "title": "Sukurti naują botą",
                     "failed": "Nepavyko sukurti boto!"
+                },
+                "server_identity": {
+                    "title": "Pasikeisti tapatybę {{server}}",
+                    "nickname": "Slapyvardis",
+                    "avatar": "Avataras"
                 }
             },
             "copy_username": "Paspausti tam, kad nukopijuotumėte savo vardą",
@@ -489,12 +494,19 @@
                     "public_bot_desc": "Leisti kitiems naudotojams pakviesti šį botą.",
                     "interactions_url": "Sąveikų URL",
                     "reserved": "Pastaba: šis laukelis numatytas ateičiai.",
-                    "create_bot": "Sukurti botą"
+                    "create_bot": "Sukurti botą",
+                    "unique_id": "Tai unikalius identifikatorius jūsų botui. Tai ne boto žetonas."
                 },
                 "audio": {
                     "title": "Balso nustatymai",
                     "input_device": "Mikrofonas",
-                    "output_device": "Garsiakalbis / Ausinės"
+                    "output_device": "Garsiakalbis / Ausinės",
+                    "button_retry": "Pabandykite iš naujo",
+                    "device_label_NA": "Netinkamas",
+                    "tip_retry": "Nedavėte prieigos prie savo mikrofono? {{retryBtn}}."
+                },
+                "theme_shop": {
+                    "title": "Temų parduotuvė"
                 }
             },
             "categories": {
@@ -641,7 +653,8 @@
         "MissingPermission": "Nėra leidimo.",
         "Unauthorized": "Neleistina.",
         "CompromisedPassword": "Slaptažodis nepatikimas.",
-        "ReachedMaximumBots": "Esate pasiekę maksimalų botų kiekį."
+        "ReachedMaximumBots": "Esate pasiekę maksimalų botų kiekį.",
+        "AudioPermissionBlock": "Nėra prieigos prie jūsų mikrofono, patikrinkite savo naršyklės nustatymus."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
