@@ -147,12 +147,19 @@
                     "private_bot_tip": "机器人为私密。只有您可以邀请。",
                     "public_bot": "公开机器人",
                     "public_bot_desc": "是否允许其他用户邀请此机器人。",
-                    "interactions_url": "交互 URL"
+                    "interactions_url": "交互 URL",
+                    "unique_id": "这是您机器人的唯一标识，而非机器人的令牌。"
                 },
                 "audio": {
                     "title": "语音设置",
                     "input_device": "麦克风",
-                    "output_device": "扬声器 / 耳机"
+                    "output_device": "扬声器 / 耳机",
+                    "device_label_NA": "不可用",
+                    "button_retry": "重试",
+                    "tip_retry": "您没有授予访问麦克风权限吗？请 {{retryBtn}}。"
+                },
+                "theme_shop": {
+                    "title": "主题商店"
                 }
             },
             "tips": {
@@ -376,6 +383,11 @@
                 "create_bot": {
                     "title": "创建新机器人",
                     "failed": "创建机器人失败！"
+                },
+                "server_identity": {
+                    "avatar": "头像",
+                    "title": "更改在 {{server}} 的身份",
+                    "nickname": "昵称"
                 }
             },
             "modals": {
@@ -572,7 +584,7 @@
         "sent_request": "@{{person}} 向您发送了好友请求。"
     },
     "dayjs": {
-        "lastWeek": "[上个]dddd {{time}}",
+        "lastWeek": "[上个] dddd {{time}}",
         "nextDay": "[明天] {{time}}",
         "sameDay": "[今天] {{time}}",
         "lastDay": "[昨天] {{time}}",
@@ -631,7 +643,8 @@
         "FailedValidation": "无法验证字段。",
         "NetworkError": "网络错误。",
         "CompromisedPassword": "此密码不安全。",
-        "ReachedMaximumBots": "您已达到机器人最大数量。"
+        "ReachedMaximumBots": "您已达到机器人最大数量。",
+        "AudioPermissionBlock": "无法访问您的麦克风，请检查您的浏览器设置。"
     },
     "permissions": {
         "server": {
