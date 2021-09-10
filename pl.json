@@ -17,7 +17,7 @@
         "enter": {
             "email": "Wprowadź adres e-mail.",
             "password": "Wpisz twoje hasło.",
-            "username": "Wpisz nazwę użytkownika.",
+            "username": "Wprowadź nazwę użytkownika.",
             "current_password": "Wprowadź swoje aktualne hasło.",
             "invite": "Wpisz swój kod zaproszenia."
         },
@@ -276,6 +276,11 @@
                 "create_bot": {
                     "failed": "Nie udało się utworzyć bota!",
                     "title": "Utwórz nowego bota"
+                },
+                "server_identity": {
+                    "nickname": "Przydomek",
+                    "avatar": "Awatar",
+                    "title": "Zmień tożsamość na {{server}}"
                 }
             },
             "copy_username": "Kliknij aby skopiować nazwę użytkownika",
@@ -486,7 +491,8 @@
                     "public_bot": "Bot publiczny",
                     "reserved": "Uwaga: To pole jest zarezerwowane na przyszłość.",
                     "interactions_url": "URL interakcji",
-                    "public_bot_desc": "Czy zezwolić innym użytkownikom na zapraszanie tego bota."
+                    "public_bot_desc": "Czy zezwolić innym użytkownikom na zapraszanie tego bota.",
+                    "unique_id": "To jest unikalny identyfikator dla twojego bota. To nie jest token bota."
                 },
                 "native": {
                     "title": "Ustawienia aplikacji"
@@ -494,7 +500,13 @@
                 "audio": {
                     "input_device": "Mikrofon",
                     "output_device": "Głośniki / Słuchawki",
-                    "title": "Ustawienia głosu"
+                    "title": "Ustawienia głosu",
+                    "button_retry": "spróbuj ponownie",
+                    "device_label_NA": "Na przykład",
+                    "tip_retry": "Nie dałeś pozwolenia na dostęp do twojego mikrofonu? Proszę {{retryBtn}}."
+                },
+                "theme_shop": {
+                    "title": "Sklep z motywami"
                 }
             },
             "categories": {
@@ -641,7 +653,8 @@
         "Unauthorized": "Nieautoryzowany.",
         "NetworkError": "Błąd sieci.",
         "CompromisedPassword": "To hasło zostało zdemaskowane.",
-        "ReachedMaximumBots": "Osiągnąłeś maksymalną liczbę botów."
+        "ReachedMaximumBots": "Osiągnąłeś maksymalną liczbę botów.",
+        "AudioPermissionBlock": "Brak dostępu do twojego mikrofonu, proszę sprawdź konfiguracje przeglądarki internetowej."
     },
     "permissions": {
         "server": {
