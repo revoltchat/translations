@@ -162,7 +162,10 @@
                 "audio": {
                     "title": "음성 설정",
                     "input_device": "마이크",
-                    "output_device": "스피커 / 헤드셋"
+                    "output_device": "스피커 / 헤드셋",
+                    "tip_retry": "마이크 접근 권한을 주지 않으신거같아요. {{retryBtn}}.",
+                    "device_label_NA": "N/A",
+                    "button_retry": "다시 시도"
                 },
                 "donate": {
                     "title": "후원"
@@ -179,7 +182,8 @@
                     "public_bot": "공용 봇",
                     "public_bot_desc": "다른 유저들이 이 봇을 초대할 수 있는지.",
                     "interactions_url": "상호작용 URL",
-                    "reserved": "참고: 이 필드는 나중을 위해 비활성화되었습니다."
+                    "reserved": "참고: 이 필드는 나중을 위해 비활성화되었습니다.",
+                    "unique_id": "이것은 당신의 봇만의 독특한 식별자에요. 봇의 토큰이 아닙니다."
                 },
                 "feedback": {
                     "title": "피드백",
@@ -231,6 +235,9 @@
                         "locale": "현재 고른 언어를 동기화됩니다.",
                         "appearance": "이모지 팩 및 메시지 밀도와 같은 옵션이 동기화됩니다."
                     }
+                },
+                "theme_shop": {
+                    "title": "테마 가게"
                 }
             },
             "title": "설정",
