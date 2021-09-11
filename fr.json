@@ -365,7 +365,9 @@
                 "audio": {
                     "title": "Options vocales",
                     "input_device": "Microphone",
-                    "output_device": "Haut-parleur / Casque"
+                    "output_device": "Haut-parleur / Casque",
+                    "device_label_NA": "Indisponible",
+                    "button_retry": "réessayer"
                 }
             },
             "channel_pages": {
@@ -556,6 +558,11 @@
                 "create_bot": {
                     "title": "Créer un nouveau bot",
                     "failed": "La création du bot a échouée !"
+                },
+                "server_identity": {
+                    "title": "Changer d'identité sur {{server}}",
+                    "nickname": "Pseudo",
+                    "avatar": "Avatar"
                 }
             },
             "requires_online": "Vous devez être en ligne pour voir cela.",
@@ -638,7 +645,8 @@
         "MissingHeaders": "En-têtes manquants.",
         "EmailInUse": "Adresse e-mail déjà utilisée.",
         "CompromisedPassword": "Ce mot de passe est compromis.",
-        "ReachedMaximumBots": "Vous avez atteint le nombre maximum de bots."
+        "ReachedMaximumBots": "Vous avez atteint le nombre maximum de bots.",
+        "AudioPermissionBlock": "Aucun accès à ton microphone, merci de vérifier l'autorisation de ton navigateur."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
