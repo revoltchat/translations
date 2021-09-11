@@ -496,7 +496,7 @@
             "retry_message": "Coba kirim lagi",
             "reply_message": "Balas",
             "quote_message": "Kutip pesan",
-            "mention": "Mention",
+            "mention": "Sebut",
             "kick_member": "Tendang anggota",
             "copy_selection": "Salin seleksi",
             "copy_sid": "Salin ID server",
@@ -507,7 +507,12 @@
             "copy_link": "Salin Tautan",
             "open_link": "Buka Tautan",
             "unblock_user": "Buka Blokir",
-            "cancel_friend": "Batalkan Permintaan"
+            "cancel_friend": "Batalkan Permintaan",
+            "open_notification_options": "Pengaturan Notifikasi",
+            "clear_status": "Hapus Status"
+        },
+        "permissions": {
+            "required": "Izin Dibutuhkan"
         }
     },
     "login": {
@@ -567,7 +572,8 @@
         "Unlabelled": "Sesuatu telah terjadi.",
         "Blocked": "Anda telah memblokir pengguna ini.",
         "RequiredField": "Wajib",
-        "FileTooLarge": "File ini terlalu besar."
+        "FileTooLarge": "File ini terlalu besar.",
+        "NetworkError": "Jaringan bermasalah."
     },
     "permissions": {
         "channel": {
@@ -578,7 +584,7 @@
                 "t": "Kirim Pesan"
             },
             "UploadFiles": {
-                "d": "Perbolehkan anggota untuk mengunggah file di sebuah saluran teks."
+                "d": "Perbolehkan anggota untuk mengunggah file di saluran teks."
             }
         },
         "server": {
@@ -598,7 +604,9 @@
             "twelvehour": "no"
         },
         "nextDay": "[Besok jam] {{time}}",
-        "nextWeek": "dddd [jam] {{time}}"
+        "nextWeek": "dddd [jam] {{time}}",
+        "lastDay": "[Kemarin jam] {{time}}",
+        "sameDay": "[Hari ini pada jam] {{time}}"
     },
     "quantities": {
         "members": {
@@ -607,7 +615,8 @@
         }
     },
     "notifications": {
-        "now_friends": "Anda sekarang berteman dengan @{{person}}!"
+        "now_friends": "Anda sekarang berteman dengan @{{person}}!",
+        "sent_request": "@{{person}} mengirimi anda permintaan pertemanan."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
