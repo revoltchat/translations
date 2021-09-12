@@ -13,13 +13,13 @@
                 },
                 "bots": {
                     "title": "Mine botter",
-                    "create_bot": "Opprett en bott",
+                    "create_bot": "Opprett en bot",
                     "copy_invite": "Kopier invitasjonslenke",
-                    "add": "Legg til bott",
+                    "add": "Legg til en bot",
                     "token": "Symbol",
                     "public_bot_tip": "Botten er offentlig. Hvem som helst kan invitere den.",
                     "private_bot_tip": "Botten er privat. Kun du kan invitere den.",
-                    "public_bot": "Offentlig bott",
+                    "public_bot": "Offentlig bot",
                     "interactions_url": "Interaksjonsnettadresse",
                     "reserved": "Merk: Dette feltet er reservert for fremtidig bruk.",
                     "public_bot_desc": "Hvorvidt andre brukere skal kunne invitere denne botten."
@@ -32,7 +32,7 @@
                 "sync": {
                     "descriptions": {
                         "locale": "Dette synkroniserer ditt valgte språk.",
-                        "theme": "Dette synkroniserer din valgte drakt, farger, og all egendefinert CSS.",
+                        "theme": "Dette synkroniserer din valgte utseende, farger, og all egendefinert CSS.",
                         "appearance": "Synkroniserer innstillinger som f.eks. emoji-pakker og meldingstetthet."
                     },
                     "categories": "Synkroniser kategorier",
@@ -40,10 +40,10 @@
                 },
                 "notifications": {
                     "descriptions": {
-                        "enable_push": "Tillater mottak av merknader når du er frakoblet.",
+                        "enable_push": "Tillater mottak av varsler når du er frakoblet.",
                         "enable_desktop": "Dette vil gi deg merknader mens programmet ditt er åpent."
                     },
-                    "enable_push": "Skru på dyttingsmerknader",
+                    "enable_push": "Skru på dyttingsvarsler.",
                     "push_notifications": "Dyttingsmerknader",
                     "sound": {
                         "call_leave": "Bruker forlot samtale",
@@ -53,7 +53,7 @@
                     },
                     "sounds": "Lyder",
                     "title": "Merknader",
-                    "enable_desktop": "Skru på skrivebordsmerknader."
+                    "enable_desktop": "Skru på skrivebordsvarsler."
                 },
                 "language": {
                     "const": "Konstruerte språk",
@@ -93,7 +93,9 @@
                 "audio": {
                     "output_device": "Høyttaler/hodetelefoner",
                     "title": "Stemmeinnstillinger",
-                    "input_device": "Mikrofon"
+                    "input_device": "Mikrofon",
+                    "button_retry": "prøv igjen",
+                    "device_label_NA": "Ikke tilgjengelig"
                 },
                 "sessions": {
                     "logout": "Logg ut a alle andre økter",
@@ -214,7 +216,7 @@
         "main": {
             "channel": {
                 "misc": {
-                    "spoiler_attachment": "Avslører",
+                    "spoiler_attachment": "Spoiler",
                     "sent_multiple_files": "Sendte flere vedlegg",
                     "sent_file": "Sendte et vedlegg",
                     "blocked_user": "Blokkert bruker",
@@ -251,7 +253,7 @@
                     "confirm": "Jeg bekrefter at jeg er over 18 år gammel.",
                     "channel": {
                         "confirm": "Gå inn i kanal",
-                        "marked": "Denne kanalen er markert for voksne"
+                        "marked": "Denne kanalen er markert for voksne."
                     }
                 },
                 "voice": {
@@ -275,7 +277,7 @@
                     "user_left": "{{user}} dro sin vei"
                 },
                 "attached_file": "Legg ved {{filename}}",
-                "failed_upload": "Kunne ikke laste opp.",
+                "failed_upload": "Kunne ikke laste opp!",
                 "uploading_file": "Laster opp …",
                 "message_saved": "Lagre i notater",
                 "message_who": "Send melding til {{person}}",
@@ -335,6 +337,10 @@
                 "create_bot": {
                     "title": "Opprett en ny bott",
                     "failed": "Klarte ikke å opprette en bott."
+                },
+                "server_identity": {
+                    "nickname": "Kallenavn",
+                    "avatar": "Avatar"
                 }
             },
             "invite": {
@@ -364,13 +370,13 @@
                     "save": "Lagre",
                     "kick": "Kast ut",
                     "ban": "Bannlys",
-                    "ok": "OK",
+                    "ok": "Ok",
                     "cancel": "Avbryt",
                     "update": "Oppdater",
                     "edit": "Rediger"
                 },
                 "account": {
-                    "failed": "Kunne ikke utføre endring.",
+                    "failed": "Kunne ikke utføre endring!",
                     "change": {
                         "email": "Endre din e-postadresse",
                         "password": "Endre passord",
@@ -378,12 +384,12 @@
                     }
                 },
                 "prompt": {
-                    "block_user_long": "Er du sikker på at du vil blokkere {{name}}? Vedkommende vil også bli fjernet fra vennelisten din.",
+                    "block_user_long": "Er du sikker på at du vil blokkere {{name}}? De vil også bli fjernet fra vennelisten din.",
                     "unfriend_user_long": "Du vil ikke kunne snakke med vedkommende igjen til du legger dem inn igjen.",
                     "confirm_kick": "Er du sikker på at du vil kaste ut {{name}}?",
                     "confirm_delete_message_long": "Er du sikker på at du vil slette dette?",
                     "confirm_delete_long": "Når den er slettet er det ingen vei tilbake.",
-                    "confirm_leave_long": "Du vil ikke kunne ta del igjen med mindre du inviteres igjen.",
+                    "confirm_leave_long": "Du vil ikke kunne bli med igjen med mindre du inviteres igjen.",
                     "confirm_ban": "Du er i ferd med å bannlyse {{name}}",
                     "create_invite_created": "Her er din nye invitasjonskode:",
                     "confirm_close_dm": "Lukk samtale med {{name}}?",
@@ -396,13 +402,13 @@
                     "confirm_close_dm_long": "Du kan gjenåpne den senere, men den vil forsvinne på begge sider."
                 },
                 "onboarding": {
-                    "pick": "Velg et brukernavn du ønsker at folk skal finne deg med. Det kan endres senere i innstillingene.",
+                    "pick": "Velg et brukernavn du ønsker at folk skal finne deg med, dette kan endres senere i innstillingene.",
                     "welcome": "Velkommen til"
                 },
                 "clipboard": {
                     "https": "Du bruker ikke HTTPS.",
                     "copy": "Manuell kopi:",
-                    "unavailable": "Utklippstavlen er utilgjengelig."
+                    "unavailable": "Utklippstavlen er utilgjengelig!"
                 },
                 "signed_out": "Du ble utlogget.",
                 "error": "Noe gikk galt.",
@@ -414,7 +420,7 @@
             },
             "status": {
                 "connecting": "Kobler til …",
-                "disconnected": "Koblet fra.",
+                "disconnected": "Frakoblet.",
                 "offline": "Frakoblet.",
                 "reconnecting": "Kobler til igjen …"
             },
@@ -435,7 +441,7 @@
             "copy_username": "Klikk for å kopiere brukernavn"
         },
         "context_menu": {
-            "mention": "Nevnt",
+            "mention": "Nevn",
             "close_dm": "Lukk privatmelding",
             "reply_message": "Svar",
             "retry_message": "Prøv å sende igjen",
@@ -644,13 +650,13 @@
     },
     "login": {
         "error": {
-            "resend": "Klarte ikke å sende igjen.",
-            "reset": "Klarte ikke å tilbakestille.",
-            "login": "Klarte ikke å logge inn.",
-            "create": "Klarte ikke å registrere."
+            "resend": "Klarte ikke å sende igjen!",
+            "reset": "Klarte ikke å tilbakestille!",
+            "login": "Klarte ikke å logge inn!",
+            "create": "Klarte ikke å registrere!"
         },
-        "successful_registration": "Registrert.",
-        "check_spam": "Sjekk søppelposten hvis du ikke finner den.",
+        "successful_registration": "Registrert!",
+        "check_spam": "Sjekk søppelposten hvis du ikke finner den",
         "email_delay": "Det kan ta opptil 10 min. før den er fremme.",
         "resend": "Send invitasjon på ny.",
         "open_mail_provider": "Åpne {{provider}}",
