@@ -1,7 +1,7 @@
 {
     "general": {
         "about": "حول",
-        "tos": "بنود الخدمة",
+        "tos": "شروط الخدمة",
         "privacy": "سياسة الخصوصية",
         "image_by": "تم إنشاء الصورة بواسطة",
         "loading": "جار التحميل…",
@@ -38,13 +38,13 @@
         "error": {
             "create": "فشل التسجيل!",
             "login": "فشل تسجيل الدخول!",
-            "reset": "خطأ في إعادة التعيين!",
-            "resend": "حدث خطأ في إعادة الإرسال!"
+            "reset": "فشل إعادة التعيين!",
+            "resend": "فشل إعادة الإرسال!"
         },
         "reset": "إعادة تعيين كلمة السر.",
         "remembered": "ارجع إلى شاشة تسجيل الدخول.",
         "email_delay": "الرجاء السماح حتى ١٠ دقائق لوصول الرسالة.",
-        "check_spam": "الرجاء التحقق من البريد العشوائي (spam) إذا لم تجد الرسالة",
+        "check_spam": "الرجاء التحقق من البريد غير المرغوبة (spam) إذا لم تجد الرسالة",
         "open_mail_provider": "افتح {{provider}}"
     },
     "app": {
@@ -59,7 +59,7 @@
                     "removed_by": "{{user}} أُزيلَ من قِبل {{other_user}}",
                     "added_by": "{{user}} أُضيف من قِبل {{other_user}}",
                     "channel_renamed": "{{user}} غير اسم القناة إلى {{name}}",
-                    "channel_icon_changed": "{{user}} غير أيقونة القناة",
+                    "channel_icon_changed": "{{user}} غير شعار القناة",
                     "channel_description_changed": "{{user}} غير وصف القناة"
                 },
                 "typing": {
@@ -83,7 +83,7 @@
                     },
                     "title": "ابحث"
                 },
-                "failed_upload": "حدث خطأ في تحميل الملف!",
+                "failed_upload": "حدث خطأ في رفع الملف!",
                 "attached_file": "المرفق {{filename}}",
                 "start": {
                     "group": "هذه هي بداية محادثتك."
@@ -92,22 +92,22 @@
                     "leave": "الخروج",
                     "connected": "الصوت متصل",
                     "mute": "كتم الصوت",
-                    "unmute": "إزالة كتم الصوت"
+                    "unmute": "إعادة الصوت"
                 },
                 "misc": {
                     "spoiler_attachment": "مخفي",
                     "jump_present": "اقفز إلى الحاضر",
-                    "viewing_old": "تقوم بتصفح رسائل قديمة",
+                    "viewing_old": "يعرض الرسائل قديمة",
                     "sent_file": "أرسل مرفق",
-                    "failed_load": "يتعذر تحميل الرسالة.",
-                    "no_sending": "ليس لديك القدرة على إرسال رسائل في هذه القناة.",
+                    "failed_load": "لا يمكن تحميل الرسالة.",
+                    "no_sending": "ليس لديك الاذن لإرسال رسائل في هذه القناة.",
                     "blocked_messages": "{{count}} رسائل محجوبة",
                     "blocked_user": "مستخدم محجوب",
                     "sent_multiple_files": "أرسل عدة مرفقات"
                 },
                 "edited": "(معدلة)",
-                "message_where": "راسل {{channel_name}}",
-                "message_who": "راسل {{person}}",
+                "message_where": "رسالة {{channel_name}}",
+                "message_who": "رسالة {{person}}",
                 "uploading_file": "يتم رفع الملف…",
                 "nsfw": {
                     "confirm": "أنا أﺅكد أن عمري على الأقل ١٨ سنة.",
@@ -116,7 +116,7 @@
                         "confirm": "إدخل القناة"
                     }
                 },
-                "message_saved": "احفظ إلى الملحوظات",
+                "message_saved": "احفظ إلى الملحوظات خاصة بك",
                 "bot": "آلي"
             },
             "categories": {
@@ -128,17 +128,17 @@
             "servers": {
                 "channel_name": "اسم القناة",
                 "channel_description": "وصف القناة",
-                "description": "وصف السيرفر",
+                "description": "وصف الخادم",
                 "create": "أنشئ خادم",
-                "name": "اسم السيرفر",
+                "name": "اسم الخادم",
                 "custom_banner": "لافتة مخصصة",
                 "text_channel": "قناة نصية",
                 "voice_channel": "قناة صوتية",
                 "channel_type": "نوع القناة",
-                "owner": "مالك السيرفر"
+                "owner": "مالك الخادم"
             },
             "groups": {
-                "create": "كوِّن مجموعة",
+                "create": "أنشئ مجموعة",
                 "name": "اسم المجموعة",
                 "owner": "مالك المجموعة",
                 "description": "وصف المجموعة"
@@ -218,7 +218,7 @@
                     "this_device": "هذا الجهاز",
                     "created": "أُنشئَ {{time_ago}}",
                     "active_sessions": "الجلسات النشطة",
-                    "logout": "الخروج من جميع الجلسات",
+                    "logout": "تسجيل خروج من جميع الجلسات",
                     "title": "الجلسات"
                 },
                 "account": {
@@ -231,12 +231,12 @@
                     "2fa": {
                         "add_auth": "اضافة موثق",
                         "title": "توثيق ذو عاملين (2FA)",
-                        "description": "ضع طبقة اضافية من الأمان عن طريق تفعيل خدمة التوثيق ذو عاملين.",
+                        "description": "ضع طبقة اضافية من الأمان عن طريق تفعيل خدمة التوثيق ذو عاملين (2FA).",
                         "remove_auth": "إزالة موثق"
                     },
                     "title": "حسابي",
                     "change_field": "غير",
-                    "unique_id": "هذا معرف مستخدم مخصص بحسابك."
+                    "unique_id": "هذا معرف مستخدم مخصص الفريد بحسابك."
                 },
                 "profile": {
                     "placeholder": "اكتب شيئاً عن نفسك…",
@@ -253,7 +253,7 @@
                         "default": "الإفتراضي",
                         "compact": "مضغوط",
                         "default_description": "جميل, أنيق وحديث.",
-                        "compact_description": "نظام بروتوكول الدردشة عبر الإنترنت القديم."
+                        "compact_description": "يشبه نظام بروتوكول الدردشة عبر الإنترنت القديم."
                     },
                     "title": "المنظر",
                     "import": "استيراد سمة",
@@ -280,7 +280,10 @@
                 "audio": {
                     "title": "إعدادات الصوت",
                     "input_device": "الميكروفون",
-                    "output_device": "مكبر الصوت / السماعة"
+                    "output_device": "مكبر الصوت / السماعة",
+                    "button_retry": "أعد المحاولة",
+                    "device_label_NA": "غير متوفر",
+                    "tip_retry": "لم تعط الإذن للوصول إلى الميكروفون الخاص بك؟ الرجاء {{retryBtn}}."
                 },
                 "experiments": {
                     "not_available": "لا تجارب متوفرة اللآن.",
@@ -341,13 +344,17 @@
                     "copy_invite": "نسخ رابط الدعوة",
                     "reserved": "ملاحظة: هذا الحقل محجوز للمستقبل.",
                     "public_bot_desc": "سواء السماح للمستخدمين الأخرين من دعوة هذا الروبوت.",
-                    "create_bot": "أصنع روبوت",
+                    "create_bot": "اصنع روبوتك",
                     "add": "أضافة روبوت",
                     "token": "الرمز",
                     "public_bot_tip": "الروبوت عام. يمكن للجميع دعوته.",
                     "private_bot_tip": "الروبوت خاص. فقط انت من يمكنه دعوته.",
                     "public_bot": "روبوت عام",
-                    "interactions_url": "رابط التفاعلات"
+                    "interactions_url": "رابط التفاعلات",
+                    "unique_id": "هذا معرف فريد لروبوتك. هذا ليس رمز الروبوت."
+                },
+                "theme_shop": {
+                    "title": "متجر السمات"
                 }
             },
             "actions": {
@@ -460,6 +467,11 @@
                 "create_bot": {
                     "title": "أصنع روبوت جديد",
                     "failed": "فشل في صنع الروبوت!"
+                },
+                "server_identity": {
+                    "nickname": "لقب",
+                    "avatar": "الصورة الرمزية",
+                    "title": "تغيير الهوية على {{server}}"
                 }
             },
             "requires_online": "يجب ان تكون اونلاين لترى هاذا.",
@@ -596,7 +608,8 @@
         "MissingData": "يفتقد الطلب بعض البيانات.",
         "RenderFail": "فشل في معالجة القالب.",
         "AlreadyOnboarded": "تم الإنتهاء من الدمج بالفعل.",
-        "ReachedMaximumBots": "لقد وصلت للحد الأقصى من عدد الروبوتات."
+        "ReachedMaximumBots": "لقد وصلت للحد الأقصى من عدد الروبوتات.",
+        "AudioPermissionBlock": "لا يمكن الوصول إلى الميكروفون الخاص بك، يرجى التحقق من تكوين متصفح الخاص بك."
     },
     "permissions": {
         "server": {
