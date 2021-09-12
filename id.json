@@ -573,18 +573,29 @@
         "Blocked": "Anda telah memblokir pengguna ini.",
         "RequiredField": "Wajib",
         "FileTooLarge": "File ini terlalu besar.",
-        "NetworkError": "Jaringan bermasalah."
+        "NetworkError": "Jaringan bermasalah.",
+        "UnknownError": "Lihat konsol.",
+        "Unavailable": "Tidak ada."
     },
     "permissions": {
         "channel": {
             "InviteOthers": {
-                "t": "Undang orang lain"
+                "t": "Undang orang lain",
+                "d": "Perbolehkan anggota untuk mengundang orang lain ke sebuah saluran."
             },
             "SendMessage": {
-                "t": "Kirim Pesan"
+                "t": "Kirim Pesan",
+                "d": "Perbolehkan anggota untuk kirim pesan di sebuah saluran teks."
             },
             "UploadFiles": {
-                "d": "Perbolehkan anggota untuk mengunggah file di saluran teks."
+                "d": "Perbolehkan anggota untuk mengunggah file di saluran teks.",
+                "t": "Mengunggah File"
+            },
+            "ManageMessages": {
+                "d": "Perbolehkan anggota untuk menghapuskan pesan yang di kirim oleh anggota lain."
+            },
+            "ManageChannel": {
+                "d": "Perbolehkan anggota untuk mengubah atau menghapus sebuah saluran."
             }
         },
         "server": {
@@ -593,6 +604,21 @@
             },
             "ManageServer": {
                 "d": "Perbolehkan anggota untuk mengubah nama server, deskripsi, ikon, dan informasi lainnya."
+            },
+            "RemoveAvatars": {
+                "d": "Perbolehkan anggota untuk menghapus gambar profil dari anggota lain di server ini."
+            },
+            "ChangeNickname": {
+                "d": "Perbolehkan anggota untuk mengubah nama panggilan mereka di server ini."
+            },
+            "ManageNicknames": {
+                "d": "Perbolehkan anggota untuk mengubah nama panggilan anggota lain."
+            },
+            "ManageRoles": {
+                "d": "Perbolehkan anggota untuk membuat, mengubah, dan menghapus peran dengan peringkat lebih rendah dari peran mereka. Mereka juga boleh mengubah izin peran di sebuah saluran."
+            },
+            "ChangeAvatar": {
+                "d": "Perbolehkan anggota untuk mengubah gambar profil mereka di server ini."
             }
         }
     },
