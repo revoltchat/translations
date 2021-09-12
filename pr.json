@@ -17,6 +17,39 @@
                 "members": "Crew",
                 "channels": "Oceans",
                 "conversations": "Natters"
+            },
+            "channel": {
+                "failed_upload": "Failed t' upload!",
+                "system": {
+                    "channel_renamed": "{{user}} renamed thar channel t' {{name}}",
+                    "channel_description_changed": "{{user}} changed thar channel description",
+                    "channel_icon_changed": "{{user}} changed thar channel icon",
+                    "removed_by": "{{user}} be removed by {{other_user}}"
+                },
+                "typing": {
+                    "single": "{{user}} be typing…",
+                    "several": "Several scallywags be typing…",
+                    "multiple": "{{userlist}} n' {{user}} be typing…"
+                },
+                "start": {
+                    "group": "Dis be thar start o' yer conversation."
+                },
+                "misc": {
+                    "jump_present": "Jump t' present",
+                    "no_sending": "Ye don't have permission t' send messages in dis channel."
+                },
+                "nsfw": {
+                    "channel": {
+                        "marked": "Dis channel be marked as NSFW."
+                    }
+                },
+                "message_saved": "Save t' yer notes"
+            },
+            "groups": {
+                "description": "Maties Description",
+                "create": "Create a maties",
+                "name": "Maties Name",
+                "owner": "Maties Owner"
             }
         },
         "navigation": {
@@ -37,14 +70,62 @@
         "settings": {
             "pages": {
                 "sessions": {
-                    "created": "Created {{time_ago}}"
+                    "created": "Created {{time_ago}}",
+                    "logout": "Log out o' all other sessions",
+                    "this_device": "Dis Device"
                 },
                 "appearance": {
                     "title": "Appearance",
                     "theme": "Theme",
                     "display": {
-                        "default": "Default"
+                        "default": "Default",
+                        "compact_description": "Jolly good barnacle-covered IRC.",
+                        "default_description": "Beautiful, sleek n' modern."
+                    },
+                    "ligatures_desc": "Fer supported fonts, ligatures combine characters t'gether, fer example, turning -> into a arrow. Switch t' Inter n' try toggling dis option."
+                },
+                "profile": {
+                    "fetching": "Fetching yer profile…"
+                },
+                "account": {
+                    "title": "Me Account",
+                    "unique_id": "Dis be a unique user identifier fer yer account.",
+                    "2fa": {
+                        "description": "Add a extra layer o' security by enabling 2FA on yer account."
+                    },
+                    "manage": {
+                        "description": "Disable or delete yer account at any time. Dis action will log ye out n' fully delete yer account, including yer chat history n' crew."
                     }
+                },
+                "experiments": {
+                    "not_available": "Nay experiments be available at dis time."
+                },
+                "notifications": {
+                    "descriptions": {
+                        "enable_push": "Enable t' receive notifications when you be offline.",
+                        "enable_desktop": "Dis will give ye notifications while yer app be open."
+                    }
+                },
+                "language": {
+                    "select": "Select yer language"
+                },
+                "sync": {
+                    "descriptions": {
+                        "theme": "Dis will sync yer chosen theme, colours n' any custom CSS.",
+                        "appearance": "Dis will sync options such as emoji packs n' message density.",
+                        "locale": "Dis will sync yer currently chosen language."
+                    }
+                },
+                "bots": {
+                    "public_bot_tip": "Bot be public. Anyone can invite it.",
+                    "public_bot_desc": "Whether t' allow other users t' invite dis bot.",
+                    "reserved": "Note: Dis field be reserved fer thar future.",
+                    "title": "Me Bots",
+                    "private_bot_tip": "Bot be private. Only ye can invite it.",
+                    "unique_id": "Dis be a unique identifier fer yer bot. Dis be nay thar bot's token."
+                },
+                "audio": {
+                    "tip_retry": "Ye didn't give thar permission t' access yer microphone, please {{retryBtn}}."
                 }
             }
         },
@@ -93,7 +174,12 @@
         "reset": "Reset codeword.",
         "successful_registration": "Ahoy! Successfully registered!",
         "set_password": "Set new codeword.",
-        "remembered": "Go back to login."
+        "remembered": "Go back to login.",
+        "missing_verification": "Nay email?",
+        "email_delay": "Please allow up t' 10 minutes fer it t' arrive.",
+        "resend": "Resend verification.",
+        "create": "Create a new account.",
+        "check_mail": "Check yer mail."
     },
     "dayjs": {
         "defaults": {
