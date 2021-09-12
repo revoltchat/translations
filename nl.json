@@ -126,7 +126,7 @@
             },
             "groups": {
                 "owner": "Groep Eigenaar",
-                "name": "Groep Naam",
+                "name": "Groep naam",
                 "create": "Maak een groep aan",
                 "description": "Groep beschrijving"
             },
@@ -304,12 +304,19 @@
                     "copy_invite": "Uitnodigingslink kopiëren",
                     "add": "Bot toevoegen",
                     "token": "Token",
-                    "public_bot_desc": "Of andere gebruikers deze bot mogen uitnodigen."
+                    "public_bot_desc": "Of andere gebruikers deze bot mogen uitnodigen.",
+                    "unique_id": "Dit is een unieke identificatie voor uw bot. Dit is niet het token van de bot."
                 },
                 "audio": {
                     "input_device": "Microfoon",
                     "title": "Spraakinstellingen",
-                    "output_device": "Speaker / Headset"
+                    "output_device": "Speaker / Koptelefoon",
+                    "tip_retry": "Je hebt geen toestemming gegeven voor toegang tot je microfoon, alsjeblieft {{retryBtn}}.",
+                    "device_label_NA": "N.V.T",
+                    "button_retry": "opnieuw"
+                },
+                "theme_shop": {
+                    "title": "Themawinkel"
                 }
             },
             "actions": {
@@ -468,7 +475,7 @@
                 },
                 "external_links": {
                     "title": "Externe links kunnen gevaarlijk zijn!",
-                    "short": "Weet je zeker dat je hier naar toe wilt gaan: ",
+                    "short": "Weet je zeker dat je hier naar toe wilt gaan: app",
                     "trust_domain": "Vertrouw dit domein"
                 },
                 "token_reveal": "{{name}}'s Token"
@@ -501,6 +508,11 @@
                 "create_bot": {
                     "title": "Maak een nieuwe bot",
                     "failed": "Mislukt om een bot aan te maken!"
+                },
+                "server_identity": {
+                    "nickname": "Gebruikersnaam",
+                    "avatar": "Profielfoto",
+                    "title": "Identiteit wijzigen op {{server}}"
                 }
             },
             "requires_online": "Je moet online zijn om dit te bekijken.",
@@ -634,7 +646,8 @@
         "BlockedOther": "Deze gebruiker heeft je geblokkeerd.",
         "NoEffect": "Dit verzoek had geen effect.",
         "RequiredField": "Verplicht",
-        "ReachedMaximumBots": "Je hebt het maximum aantal bots bereikt."
+        "ReachedMaximumBots": "Je hebt het maximum aantal bots bereikt.",
+        "AudioPermissionBlock": "Geen toegang tot uw microfoon, controleer de configuratie van uw browser."
     },
     "permissions": {
         "server": {
