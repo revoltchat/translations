@@ -1,6 +1,6 @@
 {
     "general": {
-        "about": "À propos",
+        "about": "À Propos",
         "tos": "Conditions d'utilisation",
         "privacy": "Politique de confidentialité",
         "image_by": "Image de",
@@ -117,6 +117,11 @@
                         "latest": "Récents",
                         "oldest": "Anciens"
                     }
+                },
+                "errors": {
+                    "title": "Oups, Il n'y a rien ici!",
+                    "nochannels": "Ce serveur n'a aucun salon, ou tu n'y a pas accès.",
+                    "nochannel": "Aucun salon"
                 }
             },
             "categories": {
@@ -368,7 +373,8 @@
                     "input_device": "Microphone",
                     "output_device": "Haut-parleur / Casque",
                     "device_label_NA": "Indisponible",
-                    "button_retry": "réessayer"
+                    "button_retry": "réessayer",
+                    "tip_retry": "Vous n'avez pas donné la permission pour acceder a votre micro, merci de {{retryBtn}}"
                 },
                 "theme_shop": {
                     "title": "Boutique de Thèmes"
