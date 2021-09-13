@@ -113,11 +113,11 @@
     "general": {
         "about": "Chi siamo",
         "tos": "Termini di servizio",
-        "off": "spento",
+        "off": "Disattivato",
         "privacy": "Politica sulla riservatezza",
         "image_by": "Immagine di",
         "loading": "Caricamento in corso…",
-        "on": "acceso",
+        "on": "Attivato",
         "disabled": "Disabilitato",
         "unavailable": "Non disponibile"
     },
@@ -212,6 +212,11 @@
                         "latest": "Più recenti",
                         "oldest": "Più vecchi"
                     }
+                },
+                "errors": {
+                    "title": "Oops, non c'é nulla qui!",
+                    "nochannels": "Questo server non ha canali, oppure non hai il permesso per accedere a nessuno di essi.",
+                    "nochannel": "Nessun canale"
                 }
             },
             "groups": {
@@ -590,10 +595,11 @@
                     },
                     "failed": "Impossibile cambiare!"
                 },
-                "token_reveal": "Token si {{name}}",
+                "token_reveal": "Token di {{name}}",
                 "external_links": {
                     "trust_domain": "Fidati di questo dominio",
-                    "title": "Link esterni possono essere dannosi!"
+                    "title": "Link esterni possono essere dannosi!",
+                    "short": "Sei sicuro di voler andare da: "
                 }
             },
             "popovers": {
