@@ -87,7 +87,7 @@
                     "confirm": "Dearbhaím go bhfuil me 18 ar a laghad."
                 },
                 "edited": "(athraithe)",
-                "bot": "ríomhaire",
+                "bot": "róbó",
                 "notifications": {
                     "default": "Úsáid Gnáth-shocraithe",
                     "all": "Gach teachtaireacht",
@@ -109,7 +109,12 @@
                 "start": {
                     "group": "Seo tús do chomhrá."
                 },
-                "unknown_user": "<Usáideoir aineolach>"
+                "unknown_user": "<Usáideoir aineolach>",
+                "errors": {
+                    "title": "Brón orm, níl aon rud anseo!",
+                    "nochannels": "Níl aon chainéil, nó rochtain ag an bhfreastalaí seo.",
+                    "nochannel": "Níl aon cainéal"
+                }
             },
             "groups": {
                 "create": "Cruthaigh grúpa",
@@ -179,7 +184,10 @@
                 "audio": {
                     "title": "socruithe gutha",
                     "input_device": "Micreafón",
-                    "output_device": "Callaire / Cluasáin"
+                    "output_device": "Callaire / Cluasáin",
+                    "button_retry": "atriailim",
+                    "tip_retry": "Níor thug tú an cead rochtain a fháil ar do mhicreafón, {{retryBtn}} le do thoil.",
+                    "device_label_NA": "N/A"
                 },
                 "appearance": {
                     "display": {
@@ -228,12 +236,15 @@
                     "suggest_desc": "Tabhair ceannaithe nua de Revolt ar GitHub discussions.",
                     "title": "Aischothú",
                     "suggest": "Tabhair moladh ceannaithe",
-                    "issue": "Chruthú tál nua"
+                    "issue": "Chruthú tál nua",
+                    "issue_desc": "Le cuidiú linn saincheisteanna a thriail níos éasca, is féidir leat saincheist a chruthú ar GitHub.",
+                    "bug_desc": "Féach tuairiscí gníomhacha fabht anseo faoi láthair.",
+                    "bug": "Rianaithe Bug"
                 },
                 "notifications": {
                     "enable_push": "Cuir fógraí push ar siúl.",
                     "title": "Fógraí",
-                    "push_notifications": "Fógraí Push",
+                    "push_notifications": "Fógraí Brúim",
                     "enable_desktop": "Cuir fógraí córas ar siúl.",
                     "sounds": "Fuaimeanna",
                     "descriptions": {
@@ -261,9 +272,205 @@
                 },
                 "source_code": "Cód Bunaidh",
                 "bots": {
-                    "title": "Mo Róbataí"
+                    "title": "Mo Róbataí",
+                    "create_bot": "Cruthaigh Róbó",
+                    "add": "Cuir Róbó",
+                    "token": "Comhartha",
+                    "public_bot_tip": "Tá Róbó poiblí. Is féidir le duine ar bith cuireadh a thabhairt dó.",
+                    "copy_invite": "Cóipeáil Nasc Cuireadh",
+                    "unique_id": "Is aitheantóir uathúil é seo do róbó. Ní hé seo comhartha an róbó.",
+                    "private_bot_tip": "Tá Róbó príobháideach. Ní féidir ach cuireadh a thabhairt dó.",
+                    "public_bot": "Róbó Poiblí",
+                    "public_bot_desc": "Cibé ar cheart ligean d’úsáideoirí eile cuireadh a thabhairt don róbó seo.",
+                    "interactions_url": "URL Idirghníomhaíochtaí",
+                    "reserved": "Nóta: Tá an réimse seo curtha in áirithe don todhchaí."
+                },
+                "theme_shop": {
+                    "title": "Siopa Téama"
+                },
+                "logOut": "Logáil Amach"
+            },
+            "server_pages": {
+                "invites": {
+                    "revoke": "Cúlghairm",
+                    "title": "Cuireadh",
+                    "code": "Cód Cuireadh",
+                    "invitor": "Cuireadh",
+                    "channel": "Cainéal"
+                },
+                "bans": {
+                    "revoke": "Cúlghairm",
+                    "user": "Úsáideoir",
+                    "reason": "Cúis Ban",
+                    "title": "Toirmisc",
+                    "no_reason": "Gan aon chúis toirmeasc."
+                },
+                "overview": {
+                    "title": "Forbhreathnú",
+                    "name": "Ainm an Fhreastalaí",
+                    "description": "Cur síos ar an gCainéal",
+                    "system_messages": "Cainéil Teachtaireachta Córais"
+                },
+                "members": {
+                    "title": "Baill"
+                },
+                "roles": {
+                    "title": "Róil"
+                },
+                "categories": {
+                    "title": "Catagóirí"
+                }
+            },
+            "permissions": {
+                "default_role": "Réamhshocrú",
+                "server": "Ceadanna Freastalaí",
+                "channel": "Ceadanna Cainéal",
+                "create_role": "Cruthaigh ról nua",
+                "role_name": "Ainm Róil"
+            },
+            "channel_pages": {
+                "overview": {
+                    "title": "Forbhreathnú",
+                    "name": "Ainm Cainéal",
+                    "description": "Cur síos ar an gCainéal"
+                },
+                "permissions": {
+                    "title": "Ceadanna"
+                }
+            },
+            "tips": {
+                "languages": {
+                    "b": "Cuidigh le níos mó aistriúcháin a dhéanamh.",
+                    "a": "Teanga ar iarraidh uait?"
+                },
+                "sessions": {
+                    "a": "Má fheiceann tú seisiún anaithnid ar an liosta,",
+                    "b": "slán do chuntas trí d’fhocal faire a athrú agus 2FA a úsáid."
+                },
+                "account": {
+                    "a": "Ag iarraidh do phróifíl phoiblí a shaincheapadh?",
+                    "b": "Téigh ar aghaidh chuig socruithe do phróifíl."
                 }
             }
+        },
+        "special": {
+            "friends": {
+                "from": {
+                    "several": "Ó {{userlist}} agus {{count}} níos mó…",
+                    "multiple": "Ó {{userlist}} agus {{user}}",
+                    "single": "Ó {{user}}"
+                },
+                "nobody": "Aon duine anseo go fóill!",
+                "pending": "Iarrataí ar feitheamh",
+                "sent": "Amach",
+                "blocked": "Blocáilte",
+                "incoming": "Iarratas cara isteach.",
+                "outgoing": "Iarratas cara atá ag dul as oifig."
+            },
+            "status": {
+                "offline": "As líne.",
+                "disconnected": "Dícheangailte.",
+                "connecting": "Ag nascadh…",
+                "reconnecting": "Ag athcheangal…"
+            },
+            "modals": {
+                "clipboard": {
+                    "unavailable": "Níl gearrthóg ar fáil!",
+                    "copy": "Cóip Lámhleabhar:",
+                    "https": "Níl tú i gcomhthéacs HTTPS faoi láthair."
+                },
+                "prompt": {
+                    "confirm_leave": "Fág {{name}}?",
+                    "confirm_close_dm": "Dún comhrá le {{name}}?",
+                    "confirm_delete_long": "Nuair a scriostar é, níl aon dul ar ais.",
+                    "confirm_delete": "Scrios {{name}}?",
+                    "create_invite_generate": "Cuireadh a ghiniúint…",
+                    "confirm_delete_message_long": "An bhfuil tú cinnte gur mhaith leat é seo a scriosadh?",
+                    "confirm_ban": "Tá tú ar tí {{name}} a thoirmeasc",
+                    "confirm_ban_reason": "Cúis Ban",
+                    "unfriend_user_long": "B’fhéidir nach mbeidh tú in ann labhairt leo arís go dtí go gcuirfidh tú ar ais iad.",
+                    "block_user": "Bloc {{name}}?",
+                    "create_invite_created": "Seo do chód nua cuireadh:",
+                    "confirm_kick": "An bhfuil tú cinnte gur mhaith leat {{name}} a chiceáil?",
+                    "block_user_long": "An bhfuil tú cinnte gur mhaith leat {{name}} a bhac? Bainfear iad ó liosta do chairde freisin.",
+                    "confirm_leave_long": "Ní bheidh tú in ann teacht ar ais mura dtugtar cuireadh duit arís.",
+                    "confirm_close_dm_long": "Is féidir leat é a athoscailt níos déanaí ach beidh sé imithe ar an dá thaobh.",
+                    "unfriend_user": "Bain {{name}}?"
+                },
+                "account": {
+                    "change": {
+                        "password": "Athraigh do phasfhocal",
+                        "username": "Athraigh d’ainm úsáideora",
+                        "email": "Athraigh do r-phost"
+                    },
+                    "failed": "Theip ar athrú!"
+                },
+                "external_links": {
+                    "trust_domain": "Iontaobhas an fhearainn seo",
+                    "title": "Is féidir le naisc sheachtracha a bheith contúirteach!",
+                    "short": "An bhfuil tú cinnte gur mhaith leat dul chuig: aip"
+                },
+                "actions": {
+                    "update": "Nuashonrú",
+                    "cancel": "Cealaigh",
+                    "send_email": "Seol Ríomhphost",
+                    "continue": "Leanúint ar aghaidh",
+                    "ok": "Ceart go leor",
+                    "edit": "Cuir in Eagar",
+                    "block": "Bloc",
+                    "close": "Dún",
+                    "back": "Dul ar ais",
+                    "remove": "Bain",
+                    "reload": "Aip Athlódáil",
+                    "ban": "Cosc",
+                    "kick": "Ciceáil",
+                    "save": "Sábháil",
+                    "hide": "Folaigh",
+                    "leave": "Fág",
+                    "delete": "Scrios",
+                    "create": "Cruthaigh",
+                    "reveal": "Nocht",
+                    "preview": "Réamhamharc"
+                },
+                "onboarding": {
+                    "pick": "Roghnaigh ainm úsáideora a theastaíonn uait go mbeadh daoine in ann tú a aimsiú, is féidir é seo a athrú níos déanaí i socruithe.",
+                    "welcome": "Fáilte go"
+                },
+                "error": "Tharla earráid!",
+                "signed_out": "Bhí tú sínithe amach!",
+                "token_reveal": "Taisce {{name}}"
+            },
+            "popovers": {
+                "user_profile": {
+                    "profile": "Próifíl",
+                    "mutual_friends": "Cairde i gCoitinne",
+                    "mutual_groups": "Grúpaí Frithpháirteach",
+                    "mutual_servers": "Freastalaithe Frithpháirteach",
+                    "empty": "Tá sé rud beag folamh anseo…",
+                    "no_users": "Gan cairde frithpháirteach!",
+                    "no_groups": "Sin grúpaí frithpháirteach!",
+                    "no_servers": "Gan freastalaithe frithpháirteacha!",
+                    "sub": {
+                        "badges": "Suaitheantais",
+                        "information": "Eolas",
+                        "connections": "Naisc"
+                    },
+                    "badges": {
+                        "translator": "Aistritheoir",
+                        "supporter": "Tacaí",
+                        "responsible_disclosure": "Bug (anna) Nochtadh go Freagrach",
+                        "early_adopter": "Uchtálaí Luath"
+                    }
+                },
+                "user_picker": {
+                    "select": "Roghnaigh cairde le cur leis."
+                },
+                "create_bot": {
+                    "title": "Cruthaigh bot nua"
+                }
+            },
+            "copy": "Cliceáil chun cóipeáil",
+            "copy_username": "Cliceáil chun ainm úsáideora a chóipeáil"
         }
     },
     "permissions": {
