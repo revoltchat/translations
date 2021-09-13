@@ -33,7 +33,8 @@
         "email": "Email",
         "username": "Brugernavn",
         "register": "Registrer",
-        "title": "Login"
+        "title": "Login",
+        "open_mail_provider": "Åbn {{provider}}"
     },
     "app": {
         "main": {
@@ -88,13 +89,51 @@
                 "uploading_file": "Uploader…",
                 "message_saved": "Gem i dine noter",
                 "message_who": "Besked {{person}}",
-                "message_where": "Besked {{channel_name}}"
+                "message_where": "Besked {{channel_name}}",
+                "bot": "bot",
+                "notifications": {
+                    "default": "Brug Standard",
+                    "all": "Alle Beskeder",
+                    "mention": "Kun Omtaler",
+                    "none": "Ingen"
+                },
+                "search": {
+                    "title": "Søg",
+                    "sort": {
+                        "relevance": "Relevans",
+                        "latest": "Seneste",
+                        "oldest": "Ældste"
+                    }
+                },
+                "errors": {
+                    "title": "Ups, her er intet!",
+                    "nochannels": "Denne server har ingen kanaler, eller du har ikke adgang til nogen.",
+                    "nochannel": "Ingen kanal"
+                }
             },
             "categories": {
                 "members": "Medlemmer",
                 "channels": "Kanaler",
                 "participants": "Deltagere",
                 "conversations": "Samtaler"
+            },
+            "groups": {
+                "create": "Opret en gruppe",
+                "name": "Gruppenavn",
+                "description": "Gruppebeskrivelse",
+                "owner": "Gruppeejer"
+            },
+            "servers": {
+                "create": "Opret en server",
+                "text_channel": "Tekstkanal",
+                "voice_channel": "Stemmekanal",
+                "name": "Servernavn",
+                "description": "Serverbeskrivelse",
+                "channel_name": "Kanalnavn",
+                "channel_type": "Kanaltype",
+                "channel_description": "Kanalbeskrivelse",
+                "custom_banner": "Brugerdefineret banner",
+                "owner": "Serverejer"
             }
         },
         "navigation": {
@@ -118,6 +157,88 @@
                 "prompt": {
                     "create_invite_generate": "Genererer invitation…"
                 }
+            }
+        },
+        "settings": {
+            "actions": {
+                "remove": "Fjern",
+                "upload": "Upload",
+                "max_filesize": "(maks {{filesize}})"
+            },
+            "pages": {
+                "account": {
+                    "change_field": "Ændr",
+                    "unique_id": "Dette er et unikt bruger-id til din konto.",
+                    "2fa": {
+                        "title": "To-faktor-godkendelse",
+                        "description": "Tilføj et ekstra lag sikkerhed ved at aktivere 2FA på din konto.",
+                        "add_auth": "Tilføj Authenticator",
+                        "remove_auth": "Fjern Authenticator"
+                    },
+                    "manage": {
+                        "description": "Deaktiver eller fjern din konto når som helst. Denne handling vil logge dig ud og slette din konto fuldstændigt, herunder din chathistorik og venner.",
+                        "delete": "Slet Konto",
+                        "title": "Kontostyring",
+                        "disable": "Deaktiver Konto"
+                    },
+                    "title": "Min Konto"
+                },
+                "profile": {
+                    "edit_background": "Rediger Baggrund",
+                    "profile_picture": "Profilbillede",
+                    "edit_profile": "Rediger Profil",
+                    "title": "Profil",
+                    "info": "Information",
+                    "fetching": "Henter din profil…",
+                    "placeholder": "Skriv noget om dig selv…",
+                    "custom_background": "Brugerdefineret Baggrund"
+                },
+                "audio": {
+                    "tip_retry": "Du gav ikke tilladelse til at få adgang til din mikrofon, {{retryBtn}}.",
+                    "device_label_NA": "N/A",
+                    "button_retry": "prøv igen",
+                    "title": "Stemmeindstillinger",
+                    "input_device": "Mikrofon",
+                    "output_device": "Højtaler / Headset"
+                },
+                "sessions": {
+                    "title": "Sessioner",
+                    "active_sessions": "Aktive Sessioner",
+                    "this_device": "Denne Enhed",
+                    "created": "Oprettet {{time_ago}}",
+                    "logout": "Log ud af alle andre sessioner"
+                },
+                "appearance": {
+                    "title": "Udseende",
+                    "theme": "Tema",
+                    "display": {
+                        "default": "Standard",
+                        "compact": "Kompakt",
+                        "default_description": "Smuk, glinsende og moderne.",
+                        "compact_description": "Gode gamle IRC."
+                    },
+                    "font": "Skrifttype",
+                    "import": "Importer et tema",
+                    "sync": "Synkroniseringsmuligheder",
+                    "mono_font": "Monospace-skrifttypevælger",
+                    "color": {
+                        "light": "lys",
+                        "dark": "mørk"
+                    },
+                    "accent_selector": "Accent farve",
+                    "emoji_pack": "Emojipakke",
+                    "message_display": "Beskedvisning",
+                    "advanced": "Avancerede Indstillinger",
+                    "import_theme": "Importer tema fra streng",
+                    "theme_data": "Temadata",
+                    "custom_css": "Brugerdefineret CSS",
+                    "ligatures": "Skrifttypeligaturer"
+                }
+            },
+            "title": "Indstillinger",
+            "categories": {
+                "user_settings": "Brugerindstillinger",
+                "client_settings": "Klientindstillinger"
             }
         }
     },
