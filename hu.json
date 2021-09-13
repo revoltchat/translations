@@ -117,6 +117,11 @@
                         "relevance": "Relevancia",
                         "oldest": "Legrégebbi"
                     }
+                },
+                "errors": {
+                    "title": "Hoppá, nincs itt semmi!",
+                    "nochannels": "Ennek a szervernek nincs csatornája, vagy nincs jogod egyhez se.",
+                    "nochannel": "Nincs csatorna"
                 }
             },
             "groups": {
@@ -284,7 +289,10 @@
                 "audio": {
                     "input_device": "Mikrofon",
                     "output_device": "Hangszóró / Fejhallgató",
-                    "title": "Hang Beállítások"
+                    "title": "Hang Beállítások",
+                    "device_label_NA": "Nincs",
+                    "button_retry": "próbáld újra",
+                    "tip_retry": "Nem adtál engedélyt a mikrofonodhoz, kérlek {{retryBtn}}."
                 },
                 "bots": {
                     "title": "Botjaim",
@@ -297,7 +305,11 @@
                     "private_bot_tip": "A bot privát. Csak te tudod meghívni.",
                     "public_bot": "Publikus Bot",
                     "public_bot_desc": "Megengedi más felhasználóknak, hogy meghívják ezt a botot.",
-                    "interactions_url": "Interakciós URL"
+                    "interactions_url": "Interakciós URL",
+                    "unique_id": "Ez a bot egyedi azonosítója. Ez nem a bot tokenje."
+                },
+                "theme_shop": {
+                    "title": "Téma Bolt"
                 }
             },
             "categories": {
@@ -489,6 +501,11 @@
                 "create_bot": {
                     "title": "Új bot létrehozása",
                     "failed": "Nem sikerült létrehozni a botot!"
+                },
+                "server_identity": {
+                    "title": "Személyazonosság megváltoztatása itt: {{server}}",
+                    "nickname": "Becenév",
+                    "avatar": "Profilkép"
                 }
             },
             "copy_username": "Kattints a felhasználóneved másolásához",
@@ -639,7 +656,8 @@
         "InvalidInvite": "Helytelen kód",
         "InvalidToken": "Érvénytelen token",
         "MissingData": "A kérésből adatok hiányoznak.",
-        "ReachedMaximumBots": "Elérted a maximális botok számát."
+        "ReachedMaximumBots": "Elérted a maximális botok számát.",
+        "AudioPermissionBlock": "Nincs hozzáférésünk a mikrofonodhoz, kérlek ellenőrizd a böngésződ beállításait."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
