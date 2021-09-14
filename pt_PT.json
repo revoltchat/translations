@@ -7,7 +7,7 @@
             },
             "BanMembers": {
                 "t": "Banir Membros",
-                "d": "Permitir membros removerem permanemente membros deste servidor."
+                "d": "Permitir aos membros removerem permanemente membros deste servidor."
             },
             "KickMembers": {
                 "d": "Permitir aos membros removerem membros deste servidor. Membros expulsos poderão reentrar com um convite.",
@@ -18,7 +18,7 @@
                 "t": "Gerir Servidor"
             },
             "ManageChannels": {
-                "d": "Permitir aos utilizadores criarem, editarem e eliminarem canais.",
+                "d": "Permitir aos membros criarem, editarem e eliminarem canais.",
                 "t": "Gerir Canais"
             },
             "ManageRoles": {
@@ -34,7 +34,7 @@
                 "t": "Gerir Nicknames"
             },
             "ChangeNickname": {
-                "d": "Permitir membros alterarem o seu nickname neste servidor.",
+                "d": "Permitir aos membros alterarem o seu nickname neste servidor.",
                 "t": "Alterar Nickname"
             }
         },
@@ -117,7 +117,8 @@
         "FailedValidation": "Falha ao verificar os campos.",
         "Unlabelled": "Algo ocorreu.",
         "Unauthorized": "Não autorizado.",
-        "NetworkError": "Erro de Rede."
+        "NetworkError": "Erro de Rede.",
+        "AudioPermissionBlock": "Nenhum acesso ao seu microfone, por favor verifique a configuração de seu navegador."
     },
     "notifications": {
         "now_friends": "É agora amigo de @{{person}}!",
@@ -192,7 +193,7 @@
             "copy_mid": "Copiar ID de mensagem",
             "copy_cid": "Copiar ID de canal",
             "copy_sid": "Copiar ID de servidor",
-            "copy_uid": "Copiar ÎD de utilizador",
+            "copy_uid": "Copiar ID de utilizador",
             "copy_text": "Copiar texto",
             "copy_selection": "Copiar seleção",
             "copy_id": "Copiar ID"
@@ -233,8 +234,13 @@
                     "profile": "Perfil"
                 },
                 "create_bot": {
-                    "title": "Criar um novo robot",
-                    "failed": "Falha ao criar o robot!"
+                    "title": "Criar um novo bot",
+                    "failed": "Falha ao criar o bot!"
+                },
+                "server_identity": {
+                    "avatar": "Avatar",
+                    "title": "Mudar identidade no {{server}}",
+                    "nickname": "Alcunha"
                 }
             },
             "modals": {
@@ -262,7 +268,8 @@
                 },
                 "external_links": {
                     "trust_domain": "Confiar neste domínio",
-                    "title": "Links externos podem ser perigosos!"
+                    "title": "Links externos podem ser perigosos!",
+                    "short": "Tens a certeza que queres ir para: "
                 },
                 "account": {
                     "failed": "Falha ao alterar!",
@@ -285,7 +292,7 @@
                     "confirm_delete_message_long": "Tem a certeza que pretende eliminar?",
                     "confirm_delete_long": "Assim que estiver eliminado, não há forma de voltar atrás.",
                     "confirm_delete": "Eliminar {{name}}?",
-                    "confirm_close_dm_long": "Poderá reabriar mais tarde mas irá desaparecer em ambos os lados.",
+                    "confirm_close_dm_long": "Poderá reabrir mais tarde mas irá desaparecer em ambos os lados.",
                     "confirm_close_dm": "Fechar conversa com {{name}}?",
                     "confirm_leave_long": "Não poderá reentrar a menos que seja convidado novamente.",
                     "confirm_leave": "Deixar {{name}}?"
@@ -319,7 +326,7 @@
                 "nobody": "Não existe ninguém aqui ainda!",
                 "outgoing": "Pedido de amizade enviado.",
                 "sent": "Enviandos",
-                "blocked": "Bloquearo",
+                "blocked": "Bloqueado",
                 "pending": "Pedidos pendentes"
             },
             "copy": "Clique para copiar",
@@ -342,17 +349,18 @@
             },
             "pages": {
                 "bots": {
-                    "create_bot": "Criar um Robot",
-                    "title": "Os Meus Robots",
+                    "create_bot": "Criar um Bot",
+                    "title": "Os Meus Bots",
                     "reserved": "Nota: Este campo está reservado para o futuro.",
                     "interactions_url": "URL de Interações",
-                    "public_bot_desc": "Se permite outros convidarem este robot.",
-                    "public_bot": "Robot Público",
-                    "private_bot_tip": "Robot privado. Apenas tu poderás convidá-lo.",
-                    "public_bot_tip": "Robot público. Qualquer pessoa poderá convidá-lo.",
+                    "public_bot_desc": "Se permite outros convidarem este bot.",
+                    "public_bot": "Bot Público",
+                    "private_bot_tip": "Bot privado. Apenas tu poderás convidá-lo.",
+                    "public_bot_tip": "Bot público. Qualquer pessoa poderá convidá-lo.",
                     "token": "Token",
-                    "add": "Adicionar Robot",
-                    "copy_invite": "Copiar link de Convite"
+                    "add": "Adicionar Bot",
+                    "copy_invite": "Copiar link de Convite",
+                    "unique_id": "Este é um identificador único para seu bot. Não é o token do bot."
                 },
                 "source_code": "Código Fonte",
                 "donate": {
@@ -430,7 +438,10 @@
                 "audio": {
                     "output_device": "Colunas / Auscutadores",
                     "input_device": "Microfone",
-                    "title": "Definições de Voz"
+                    "title": "Definições de Voz",
+                    "device_label_NA": "N/D",
+                    "tip_retry": "Você não tens permissão para utilizar seu microfone, por favor {{retryBtn}}.",
+                    "button_retry": "Tente novamente"
                 },
                 "sessions": {
                     "logout": "Terminar todas as outras sessões",
@@ -475,10 +486,13 @@
                     "suggest_desc": "Sugira uma nova funcionalidade para o Revolt nas discussões do GitHub.",
                     "suggest": "Enviar sugestão de funcionalidade",
                     "title": "Comentários"
+                },
+                "theme_shop": {
+                    "title": "Loja de temas"
                 }
             },
             "actions": {
-                "max_filesize": "(max {{filesize}})",
+                "max_filesize": "(máx {{filesize}})",
                 "upload": "Enviar",
                 "remove": "Remover"
             },
@@ -571,7 +585,7 @@
                     "all": "Todas as Mensagens",
                     "default": "Utilizar Pré-definição"
                 },
-                "bot": "robot",
+                "bot": "bot",
                 "edited": "(editado)",
                 "unknown_user": "<Utilizador Desconhecido>",
                 "nsfw": {
@@ -622,7 +636,12 @@
                 "uploading_file": "Enviando…",
                 "message_saved": "Guardar nas suas notas",
                 "message_who": "Contactar {{person}}",
-                "message_where": "Contactar {{channel_name}}"
+                "message_where": "Contactar {{channel_name}}",
+                "errors": {
+                    "title": "Oops, não há nada por aqui!",
+                    "nochannels": "Este servidor não possui canais, ou não tens acesso a eles.",
+                    "nochannel": "Sem canal"
+                }
             },
             "categories": {
                 "members": "Membros",
@@ -643,7 +662,7 @@
         "status": {
             "offline": "Desligado",
             "invisible": "Invisível",
-            "busy": "Não encomodar",
+            "busy": "Não incomodar",
             "idle": "Ausente",
             "online": "Online"
         }
@@ -694,6 +713,6 @@
         "image_by": "Imagem por",
         "privacy": "Política de Privacidade",
         "tos": "Termos de Serviço",
-        "about": "Acerca"
+        "about": "Sobre"
     }
 }

@@ -151,10 +151,10 @@
                     "title": "Munkamenetek",
                     "this_device": "Jelenlegi eszköz",
                     "active_sessions": "Aktív munkamenetek",
-                    "logout": "Kijelentkeztetés minden más munkamenetből"
+                    "logout": "Kijelentkezés minden helyről"
                 },
                 "appearance": {
-                    "import_theme": "Téma importálása stringből",
+                    "import_theme": "Téma importálása szövegből",
                     "import_manual": "Kézi importálás",
                     "theme_data": "Téma adatok",
                     "overrides": "Téma felülírása",
@@ -221,7 +221,7 @@
                         "enable_sound": "Kapcsold be ahhoz, hogy hangot játsszunk le amikor megérkezik egy üzenet.",
                         "enable_outgoing_sound": "Kapcsold be ahhoz, hogy egy hangot játsszunk le amikor elküldesz egy üzenetet."
                     },
-                    "enable_push": "Leküldéses értesítések bekapcsolása.",
+                    "enable_push": "Értesítések bekapcsolása.",
                     "push_notifications": "Leküldéses értesítések",
                     "sound": {
                         "message": "Üzenetek érkezésekor",
@@ -231,14 +231,14 @@
                     }
                 },
                 "profile": {
-                    "title": "Profilom",
+                    "title": "Profil",
                     "info": "Információ",
                     "placeholder": "Írj valamit magadról…",
                     "profile_picture": "Profilkép",
                     "custom_background": "Egyedi háttér",
                     "edit_background": "Háttér szerkesztése",
                     "fetching": "Profilod betöltése…",
-                    "edit_profile": "Profil Szerksztése"
+                    "edit_profile": "Profil Szerkesztése"
                 },
                 "feedback": {
                     "title": "Visszajelzés",
@@ -250,8 +250,8 @@
                     "describe": "Kérjük, írd ismertesd a problémát.",
                     "suggest": "Funkciójavaslat benyújtása",
                     "suggest_desc": "Javasolj új Revolt funkciókat a GitHub megbeszéléseken.",
-                    "issue": "Probléma bejelentése",
-                    "bug_desc": "A jelenleg aktív hibajelentéseket itt tekintheti meg.",
+                    "issue": "Probléma jelentése",
+                    "bug_desc": "A jelenleg aktív hibákat itt tekintheted meg.",
                     "issue_desc": "Annak érdekében, hogy könnyebben javíthassuk a hibákat, nyiss egy hibajegyet a GitHub oldalunkon."
                 },
                 "donate": {
@@ -288,7 +288,7 @@
                 },
                 "bots": {
                     "title": "Botjaim",
-                    "public_bot_tip": "A bot publikus. Bárki megtudja hívni.",
+                    "public_bot_tip": "A bot publikus. Bárki meg tudja hívni.",
                     "reserved": "Megjegyzés: Ez a mező a jövő számára van fenntartva.",
                     "create_bot": "Bot létrehozása",
                     "copy_invite": "Meghívó link másolása",
@@ -326,7 +326,7 @@
                 },
                 "account": {
                     "a": "Szeretnéd testreszabni a nyilvános profilod?",
-                    "b": "Menj a profilod beállításaihoz."
+                    "b": "Menj a profil beállításokhoz."
                 }
             },
             "actions": {
@@ -344,10 +344,10 @@
                 },
                 "bans": {
                     "title": "Kitiltások",
-                    "no_reason": "Nincs tiltási indok.",
+                    "no_reason": "Nincs kitiltási indok.",
                     "user": "Felhasználó",
                     "revoke": "Visszavonás",
-                    "reason": "Tiltás oka"
+                    "reason": "Kitiltás oka"
                 },
                 "members": {
                     "title": "Tagok"
@@ -378,11 +378,11 @@
             "modals": {
                 "actions": {
                     "reload": "Alkalmazás újratöltése",
-                    "cancel": "Mégse",
+                    "cancel": "Mégsem",
                     "continue": "Folytatás",
                     "close": "Bezárás",
-                    "ok": "Rendben",
-                    "send_email": "Email küldése",
+                    "ok": "Ok",
+                    "send_email": "E-mail küldése",
                     "update": "Frissítés",
                     "save": "Mentés",
                     "preview": "Előnézet",
@@ -392,7 +392,7 @@
                     "create": "Létrehozás",
                     "block": "Felhasználó tiltása",
                     "leave": "Kilépés",
-                    "remove": "Eltávolít",
+                    "remove": "Eltávolítás",
                     "back": "Vissza",
                     "reveal": "Felfed",
                     "hide": "Elrejtés",
@@ -418,7 +418,7 @@
                 },
                 "clipboard": {
                     "https": "Jelenleg nem HTTPS környezetben vagy.",
-                    "copy": "Kézi másolás:",
+                    "copy": "Manuális másolás:",
                     "unavailable": "Vágólap nem elérhető!"
                 },
                 "error": "Hiba történt!",
@@ -436,7 +436,7 @@
                     }
                 },
                 "external_links": {
-                    "title": "A külsős linkek veszélyesek lehetnek!",
+                    "title": "A külső linkek veszélyesek lehetnek!",
                     "short": "Biztosan ide szeretnél menni: ",
                     "trust_domain": "Megbízok ebben a tartományban"
                 },
@@ -451,14 +451,14 @@
             "friends": {
                 "outgoing": "Kimenő barátkérelem.",
                 "incoming": "Bejövő barátkérelem.",
-                "blocked": "Blokkolva",
+                "blocked": "Tiltva",
                 "pending": "Függőben lévő felkérések",
-                "nobody": "Még nincs itt senki!",
+                "nobody": "Még senki sincs itt!",
                 "sent": "Kimenő",
                 "from": {
-                    "single": "{{user}}-től",
-                    "multiple": "{{userlist}}-től és {{user}}",
-                    "several": "{{userlist}}-től és {{count}} mástól…"
+                    "single": "{{user}}-tól/től",
+                    "multiple": "{{userlist}}-tól/től és {{user}}-tól/től",
+                    "several": "{{userlist}}-tól/től és {{count}} mástól…"
                 }
             },
             "popovers": {
@@ -522,10 +522,10 @@
             "edit_message": "Üzenet szerkesztése",
             "mark_as_read": "Megjelölés olvasottként",
             "message_user": "Üzenet",
-            "copy_mid": "Üzenet azonosító másolása",
-            "copy_cid": "Csatorna azonosító másolása",
-            "copy_uid": "Felhasználói azonosító másolása",
-            "copy_id": "Azonosító másolása",
+            "copy_mid": "Üzenet ID másolása",
+            "copy_cid": "Csatorna ID másolása",
+            "copy_uid": "Felhasználói ID másolása",
+            "copy_id": "ID másolása",
             "save_video": "Videó mentése",
             "open_video": "Videó megnyitása",
             "save_image": "Kép mentése",
@@ -537,8 +537,8 @@
             "retry_message": "Újraküldés",
             "mention": "Említés",
             "copy_text": "Szöveg másolása",
-            "set_custom_status": "Egyedi állapot beállítása",
-            "custom_status": "Egyedi állapot",
+            "set_custom_status": "Egyéni állapot beállítása",
+            "custom_status": "Egyéni állapot",
             "copy_selection": "Kiválasztás másolása",
             "open_channel_settings": "Csatorna beállításai",
             "open_group_settings": "Csoport beállításai",
@@ -552,7 +552,7 @@
             "leave_server": "Szerver elhagyása",
             "close_dm": "Közvetlen beszélgetés törlése",
             "create_invite": "Meghívó létrehozása",
-            "copy_sid": "Szerver azonosító másolása",
+            "copy_sid": "Szerver ID másolása",
             "view_profile": "Profil megjelenítése",
             "delete_channel": "Csatorna törlése",
             "create_channel": "Csatorna létrehozása",
@@ -600,24 +600,24 @@
     "error": {
         "AlreadyOnboarded": "Beállítások már elvégezve.",
         "InvalidSession": "Érvénytelen eszköz.",
-        "FailedValidation": "Mezők érvényesítése nem sikerült.",
+        "FailedValidation": "A mezők érvényesítése nem sikerült.",
         "Unavailable": "Nem érhető el.",
         "InvalidEmail": "Érvénytelen e-mail cím",
         "TooLong": "Túl hosszú",
         "TooShort": "Túl rövid",
         "RequiredField": "Szükséges",
         "NoEffect": "Ennek a kérelemnek nem volt hatása.",
-        "BlockedOther": "Ez a felhasználó blokkolt.",
-        "Blocked": "Blokkoltad ezt a felhasználót.",
+        "BlockedOther": "Ez a felhasználó letiltott téged.",
+        "Blocked": "Tiltottad ezt a felhasználót.",
         "AlreadySentRequest": "Már küldtél kérelmet ennek a felhasználónak.",
-        "AlreadyFriends": "Már ismerős ezzel a felhasználóval.",
+        "AlreadyFriends": "Már ismerősöd ez a felhasználó.",
         "UsernameTaken": "Felhasználónév foglalt.",
         "WrongPassword": "Helytelen jelszó.",
-        "EmailInUse": "E-mail már használatban.",
+        "EmailInUse": "Ez az e-mail már használatban van.",
         "UnknownUser": "Ismeretlen felhasználó.",
         "UnverifiedAccount": "Igazolatlan fiók.",
         "MissingHeaders": "Fejléc hiányzik.",
-        "OperationFailed": "Művelet nem sikerült.",
+        "OperationFailed": "A művelet nem sikerült.",
         "UnknownError": "Konzol megtekintése.",
         "InternalError": "Belső hiba.",
         "DatabaseError": "Adatbázis hiba.",
@@ -625,9 +625,9 @@
         "MissingPermission": "Hianyzó engedély.",
         "Unauthorized": "Nem engedélyezett.",
         "NetworkError": "Hálózati hiba.",
-        "RenderFail": "Sablonmegjelenítés sikertelen.",
+        "RenderFail": "A Sablon megjelenítése sikertelen.",
         "EmailFailed": "Nem sikerült elküldeni az e-mailt.",
-        "InvalidCredentials": "Rosz email, vagy jelszó.",
+        "InvalidCredentials": "Rossz email, vagy jelszó.",
         "FileTooLarge": "A fájl túl nagy.",
         "FailedToReceive": "A szerver nem kapta meg a fájlodat.",
         "DeniedNotification": "Megtagadtad az értesítésekhez való hozzáférést, ellenőrizd az oldal beállításait.",
@@ -637,7 +637,7 @@
         "UnsupportedBrowser": "A böngésződ nem támogatja ezt a funkciót.",
         "CompromisedPassword": "Ezt a jelszót egyszer már feltörték, tehát nem ajánlatos használata.",
         "InvalidInvite": "Helytelen kód",
-        "InvalidToken": "Helytelen token",
+        "InvalidToken": "Érvénytelen token",
         "MissingData": "A kérésből adatok hiányoznak.",
         "ReachedMaximumBots": "Elérted a maximális botok számát."
     },
@@ -701,12 +701,12 @@
                 "d": "Engedélyezi a tagoknak, hogy eltávolítsanak felhasználókat erről a szerverről. A kirúgott felhasználók meghívóval vissza tudnak csatlakozni."
             },
             "ChangeAvatar": {
-                "d": "Engedélyezi a tagoknak, hogy megváltoztassák a szerver avatárjukat a szerveren.",
-                "t": "Avatár Megváltoztatása"
+                "d": "Engedélyezi a tagoknak, hogy megváltoztassák a szerver profilképüket a szerveren.",
+                "t": "Profilkép Megváltoztatása"
             },
             "RemoveAvatars": {
-                "t": "Avatár Eltávolítása",
-                "d": "Engedélyezi a tagoknak, hogy eltávolítsák mások szerver avatárjait a szerveren."
+                "t": "Profilkép Eltávolítása",
+                "d": "Engedélyezi a tagoknak, hogy eltávolítsák mások szerver profilképeit a szerveren."
             },
             "ManageServer": {
                 "d": "Engedélyezi a tagoknak, hogy megváltoztassák a szerver nevét, leírását, ikonját és ehhez hasonló információkat.",

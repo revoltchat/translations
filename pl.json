@@ -15,9 +15,9 @@
         "email": "E-mail",
         "password": "Hasło",
         "enter": {
-            "email": "Wprowadź e-mail.",
+            "email": "Wprowadź adres e-mail.",
             "password": "Wpisz twoje hasło.",
-            "username": "Wpisz nazwę użytkownika.",
+            "username": "Wprowadź nazwę użytkownika.",
             "current_password": "Wprowadź swoje aktualne hasło.",
             "invite": "Wpisz swój kod zaproszenia."
         },
@@ -36,10 +36,10 @@
             "login": "Nie udało się zalogować!",
             "create": "Nie udało się zarejestrować!"
         },
-        "successful_registration": "Pomyślnie zarejestrowano!",
+        "successful_registration": "Rejestracja pomyślnie się zakończyła!",
         "open_mail_provider": "Otwórz {{provider}}",
-        "check_spam": "Jeżeli nie możesz znaleźć wiadomości, przeszukaj folder spamu",
-        "check_mail": "Sprawdź swoją skrzynkę E-Mail.",
+        "check_spam": "Upewnij się czy nie masz wiadomości w spamie",
+        "check_mail": "Sprawdź swojego maila.",
         "resend": "Wyślij ponownie weryfikację.",
         "missing_verification": "Nie dostałeś e-maila?",
         "set_password": "Ustaw nowe hasło.",
@@ -139,6 +139,11 @@
                         "oldest": "Najstarsze",
                         "relevance": "Trafność"
                     }
+                },
+                "errors": {
+                    "title": "Oops, tutaj nic nie ma!",
+                    "nochannels": "Ten serwer nie ma żadnych kanałów, lub nie masz do nich dostępu.",
+                    "nochannel": "Brak kanału"
                 }
             },
             "groups": {
@@ -237,9 +242,10 @@
                 },
                 "external_links": {
                     "title": "Zewnętrzne linki mogą być niebezpieczne!",
-                    "short": "Czy na pewno chcesz przejść do: ",
+                    "short": "Czy na pewno chcesz przejść do: aplikacji",
                     "trust_domain": "Ufaj tej domenie"
-                }
+                },
+                "token_reveal": "Token bota {{name}}"
             },
             "status": {
                 "reconnecting": "Ponowne łączenie…",
@@ -258,7 +264,7 @@
                     "no_groups": "Brak wspólnych grup!",
                     "no_users": "Żadnych wspólnych znajomych!",
                     "mutual_groups": "Wspólne grupy",
-                    "mutual_friends": "Wspólni znajomi",
+                    "mutual_friends": "Wspólni Znajomi",
                     "profile": "Profil",
                     "empty": "Trochę tu pusto…",
                     "sub": {
@@ -275,6 +281,11 @@
                 "create_bot": {
                     "failed": "Nie udało się utworzyć bota!",
                     "title": "Utwórz nowego bota"
+                },
+                "server_identity": {
+                    "nickname": "Przydomek",
+                    "avatar": "Awatar",
+                    "title": "Zmień tożsamość na {{server}}"
                 }
             },
             "copy_username": "Kliknij aby skopiować nazwę użytkownika",
@@ -484,7 +495,9 @@
                     "private_bot_tip": "Bot jest prywatny. Tylko ty możesz go zaprosić.",
                     "public_bot": "Bot publiczny",
                     "reserved": "Uwaga: To pole jest zarezerwowane na przyszłość.",
-                    "interactions_url": "Adres interakcji"
+                    "interactions_url": "URL interakcji",
+                    "public_bot_desc": "Czy zezwolić innym użytkownikom na zapraszanie tego bota.",
+                    "unique_id": "To jest unikalny identyfikator dla twojego bota. To nie jest token bota."
                 },
                 "native": {
                     "title": "Ustawienia aplikacji"
@@ -492,7 +505,13 @@
                 "audio": {
                     "input_device": "Mikrofon",
                     "output_device": "Głośniki / Słuchawki",
-                    "title": "Ustawienia głosu"
+                    "title": "Ustawienia głosu",
+                    "button_retry": "spróbuj ponownie",
+                    "device_label_NA": "niedostępne",
+                    "tip_retry": "Nie dałeś pozwolenia na dostęp do twojego mikrofonu? Proszę {{retryBtn}}."
+                },
+                "theme_shop": {
+                    "title": "Sklep z motywami"
                 }
             },
             "categories": {
@@ -579,7 +598,7 @@
         "last": "Ostatnia",
         "at": "o",
         "nextWeek": "dddd [o] {{time}}",
-        "lastWeek": "[Ostatni] dddd [o] {{time}}",
+        "lastWeek": "[Ostatni(ej/go)] dddd [o] {{time}}",
         "sameElse": "L",
         "defaults": {
             "date_format": "tradycyjnie",
@@ -639,7 +658,8 @@
         "Unauthorized": "Nieautoryzowany.",
         "NetworkError": "Błąd sieci.",
         "CompromisedPassword": "To hasło zostało zdemaskowane.",
-        "ReachedMaximumBots": "Osiągnąłeś maksymalną liczbę botów."
+        "ReachedMaximumBots": "Osiągnąłeś maksymalną liczbę botów.",
+        "AudioPermissionBlock": "Brak dostępu do twojego mikrofonu, proszę sprawdź konfiguracje przeglądarki internetowej."
     },
     "permissions": {
         "server": {
@@ -676,7 +696,7 @@
                 "d": "Pozwól członkom na tworzenie, edytowanie i usuwanie kanałów."
             },
             "KickMembers": {
-                "d": "Pozwala członkom na wyrzucanie innych z serwera. Wyrzuceni mogą ponownie dołączyć za pomocą linku zaproszeniowego.",
+                "d": "Pozwala członkom na wyrzucanie innych z serwera. Wyrzuceni użytkownicy mogą ponownie dołączyć za pomocą zaproszenia.",
                 "t": "Wyrzuć członków"
             }
         },
@@ -694,7 +714,7 @@
                 "d": "Zezwala członkom na pokazanie dołączonej do linków treści, która jest wysyłana na kanałach tekstowych."
             },
             "InviteOthers": {
-                "t": "Zaproś Innych",
+                "t": "Zaproś innych",
                 "d": "Zezwól członkom na zapraszanie innych użytkowników do kanału."
             },
             "ManageMessages": {
@@ -702,8 +722,8 @@
                 "t": "Zarządzaj Wiadomościami"
             },
             "UploadFiles": {
-                "d": "Zezwól członkom na udostępnianie plików w kanałach tekstowych.",
-                "t": "Prześlij pliki"
+                "d": "Zezwól członkom na udostępnianie plików na kanałach tekstowych.",
+                "t": "Udostępnij pliki"
             },
             "VoiceCall": {
                 "d": "Zezwala członkom na dołączanie do kanałów głosowych.",

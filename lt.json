@@ -1,6 +1,6 @@
 {
     "general": {
-        "about": "Apie mus",
+        "about": "Apie",
         "tos": "Naudojimo sąlygos",
         "privacy": "Privatumo Politika",
         "image_by": "Paveikslėlio autorius",
@@ -36,14 +36,14 @@
             "create": "Nepavyko sukurti paskyros!",
             "reset": "Nepavyko atstatyti!"
         },
-        "successful_registration": "Paskyra sėkmingai sukurta!",
-        "check_spam": "Patikrinkite \"Spam\" aplanką, jei nerandate laiško",
+        "successful_registration": "Sėkmingai užregistruota!",
+        "check_spam": "Patikrinkite „šlamšto“ („spam“) aplanką, jei nerandate laiško",
         "check_mail": "Patikrinkite savo el. paštą.",
         "resend": "Persiųsti laišką.",
         "missing_verification": "Negavote laiško?",
         "set_password": "Nustatyti naują slaptažodį.",
         "current_password": "Dabartinis slaptažodis",
-        "invite": "Kvietimo slaptažodis",
+        "invite": "Kvietimo kodas",
         "open_mail_provider": "Atidaryti {{provider}}",
         "email_delay": "Palaukite 10 minučių iki kol atvyks laiškas."
     },
@@ -117,6 +117,11 @@
                         "latest": "Naujausi",
                         "oldest": "Seniausi"
                     }
+                },
+                "errors": {
+                    "title": "Oi, čia nieko nėra!",
+                    "nochannels": "Šis serveris neturi kanalų arba jūs neturite prieigos prie jų.",
+                    "nochannel": "Nėra kanalo"
                 }
             },
             "categories": {
@@ -164,8 +169,8 @@
             "friends": {
                 "pending": "Laukiamos užklausos",
                 "blocked": "Užbluokuoti",
-                "incoming": "Prašymas priimti į draugus.",
-                "outgoing": "Prašymas priimti į draugus.",
+                "incoming": "Gavote prašymą priimti į draugus.",
+                "outgoing": "Išsiuntėte prašymą priimti į draugus.",
                 "nobody": "Kol kas nieko nėra!",
                 "sent": "Siunčiama",
                 "from": {
@@ -175,7 +180,7 @@
                 }
             },
             "status": {
-                "reconnecting": "Prisijungiama…",
+                "reconnecting": "Prisijungima iš naujo…",
                 "offline": "Nepasiekiama.",
                 "disconnected": "Neprijungta.",
                 "connecting": "Prisijungiama…"
@@ -189,7 +194,7 @@
                 },
                 "signed_out": "Jus būvote atjungti!",
                 "actions": {
-                    "ok": "Ok",
+                    "ok": "Gerai",
                     "close": "Uždaryti",
                     "reload": "Perkrauti aplikaciją",
                     "continue": "Tęsti",
@@ -225,7 +230,7 @@
                 "prompt": {
                     "confirm_leave_long": "Jūs negalėsite sugrįžti, nebent kažkas kitas jūs pakvies.",
                     "confirm_leave": "Išeiti iš {{name}}?",
-                    "confirm_delete_long": "Kai jis bus ištrintas, jo grąžinti atgal nebus galima.",
+                    "confirm_delete_long": "Kai tai bus ištrinta, nebus kelio atgal.",
                     "unfriend_user": "Pašalinti {{name}}?",
                     "unfriend_user_long": "Gali būti, jog nebegalėsite su jais bendrauti, kol nepridėsite jų vėl.",
                     "block_user": "Užblokuoti {{name}}?",
@@ -237,12 +242,12 @@
                     "confirm_ban_reason": "Blokavimo priežastis",
                     "confirm_kick": "Ar tikrai norite išmesti {{name}}?",
                     "confirm_close_dm": "Uždaryti pokalbį su {{name}}?",
-                    "confirm_close_dm_long": "Vėliau galėsite jį atidaryti iš naujo, tačiau jis dings abiem pusėms.",
+                    "confirm_close_dm_long": "Galėsite vėliau atidaryti iš naujo, tačiau jis dings jums ir gavėjui.",
                     "confirm_delete": "Ištrinti {{name}}?"
                 },
                 "external_links": {
                     "title": "Išorinės nuorodos gali būti pavojingos!",
-                    "short": "Ar tikrai norite eiti į: ",
+                    "short": "Ar tikrai norite eiti į: app",
                     "trust_domain": "Pasitikėti šiuo domenu"
                 },
                 "token_reveal": "{{name}} žetonas"
@@ -276,6 +281,11 @@
                 "create_bot": {
                     "title": "Sukurti naują botą",
                     "failed": "Nepavyko sukurti boto!"
+                },
+                "server_identity": {
+                    "title": "Pasikeisti tapatybę {{server}}",
+                    "nickname": "Slapyvardis",
+                    "avatar": "Avataras"
                 }
             },
             "copy_username": "Paspausti tam, kad nukopijuotumėte savo vardą",
@@ -457,7 +467,7 @@
                 },
                 "experiments": {
                     "not_available": "Nėra prieinamų eksperimentų.",
-                    "features": "Prieinamos funkcijos",
+                    "features": "Galimos funkcijos",
                     "title": "Eksperimentai",
                     "descriptions": {
                         "servers": "Tai leis jums kurti serverius su kanalais, pakvietimais, draudimais bei daugiau."
@@ -470,10 +480,10 @@
                     "descriptions": {
                         "theme": "Tai sinchronizuos jūsų pasirinktą temą, spalvas bei pasirinktą CSS.",
                         "appearance": "Tai sinchronizuos tokius nustatymus, kaip jaustukų paketai bei žinučių tankis.",
-                        "locale": "Tai sinchronizuos jūsų dabartinę pasirinktą kalbą."
+                        "locale": "Tai sinchronizuos jūsų pasirinktą kalbą."
                     },
                     "title": "Sinchronizavimas",
-                    "categories": "Sinchronizuojamos kategorijos"
+                    "categories": "Sinchronizuoti kategorijas"
                 },
                 "native": {
                     "title": "Darbalaukio nustatymai"
@@ -489,12 +499,19 @@
                     "public_bot_desc": "Leisti kitiems naudotojams pakviesti šį botą.",
                     "interactions_url": "Sąveikų URL",
                     "reserved": "Pastaba: šis laukelis numatytas ateičiai.",
-                    "create_bot": "Sukurti botą"
+                    "create_bot": "Sukurti botą",
+                    "unique_id": "Tai unikalius identifikatorius jūsų botui. Tai ne boto žetonas."
                 },
                 "audio": {
                     "title": "Balso nustatymai",
                     "input_device": "Mikrofonas",
-                    "output_device": "Garsiakalbis / Ausinės"
+                    "output_device": "Garsiakalbis / Ausinės",
+                    "button_retry": "Pabandykite iš naujo",
+                    "device_label_NA": "Nepaskelbta",
+                    "tip_retry": "Nesuteikėte prieigos prie savo mikrofono. Prašome {{retryBtn}}."
+                },
+                "theme_shop": {
+                    "title": "Temų parduotuvė"
                 }
             },
             "categories": {
@@ -641,7 +658,8 @@
         "MissingPermission": "Nėra leidimo.",
         "Unauthorized": "Neleistina.",
         "CompromisedPassword": "Slaptažodis nepatikimas.",
-        "ReachedMaximumBots": "Esate pasiekę maksimalų botų kiekį."
+        "ReachedMaximumBots": "Esate pasiekę maksimalų botų kiekį.",
+        "AudioPermissionBlock": "Nėra prieigos prie jūsų mikrofono, patikrinkite savo naršyklės nustatymus."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"

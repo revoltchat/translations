@@ -4,11 +4,11 @@
             "tips": {
                 "account": {
                     "b": "自分のプロフィール設定に進みます。",
-                    "a": "公開されているプロフィールをカスタマイズしたい方?"
+                    "a": "公開されているプロフィールをカスタマイズしたいですか？"
                 },
                 "languages": {
                     "b": "より多くの翻訳に貢献してください。",
-                    "a": "ご希望の言語がない場合?"
+                    "a": "希望する言語ががありませんか？"
                 },
                 "sessions": {
                     "a": "不明なセッションがリストに表示されている場合は",
@@ -30,11 +30,11 @@
                     "title": "バンズ"
                 },
                 "invites": {
-                    "revoke": "リボーク",
+                    "revoke": "取り消し",
                     "channel": "チャンネル",
-                    "invitor": "インバイター",
+                    "invitor": "招待者",
                     "code": "招待コード",
-                    "title": "招待状"
+                    "title": "招待"
                 },
                 "members": {
                     "title": "メンバー"
@@ -69,7 +69,7 @@
                 },
                 "bots": {
                     "title": "マイボッツ",
-                    "private_bot_tip": "私的なボットでは、あなただけが招待することができます。",
+                    "private_bot_tip": "プライベートなボットは、あなただけが招待することができます。",
                     "create_bot": "ボット作成",
                     "copy_invite": "招待リンクをコピー",
                     "add": "ボットを追加",
@@ -78,14 +78,15 @@
                     "public_bot": "公共ボット",
                     "public_bot_desc": "他のユーザーが、このボットを招待することができるかどうか。",
                     "interactions_url": "相互作用 URL",
-                    "reserved": "注：このフィールドは、後でのために無効にされた。"
+                    "reserved": "注：このフィールドは、後でのために無効にされた。",
+                    "unique_id": "これはあなたのボットの唯一の識別子です。ボットのトークンではありません。"
                 },
                 "source_code": "ソースコード",
                 "donate": {
                     "title": "寄贈"
                 },
                 "experiments": {
-                    "not_available": "現時点では実験はできません。",
+                    "not_available": "現時点で利用可能な機能はありません。",
                     "features": "利用可能な機能",
                     "title": "実験の様子"
                 },
@@ -125,8 +126,8 @@
                     "enable_desktop": "デスクトップ通知を有効にする。"
                 },
                 "appearance": {
-                    "ligatures_desc": "サポートされているフォントでは、合字は文字を組み合わせて使うもので、例えば「->」を「矢印」に変えることができます。Interに切り替えて、このオプションを切り替えてみてください。",
-                    "ligatures": "フォントリガチャー",
+                    "ligatures_desc": "いくつかのフォントでは合字がサポートされています。例えば、「->」が「→」のように表示されます。このオプションを切り替えて試してみてください。",
+                    "ligatures": "フォント合字",
                     "mono_font": "Monospaceフォントセレクター",
                     "font": "フォント",
                     "sync": "同期オプション",
@@ -156,7 +157,10 @@
                 "audio": {
                     "output_device": "スピーカー/ヘッドセット",
                     "input_device": "マイクロフォン",
-                    "title": "音声設定"
+                    "title": "音声設定",
+                    "device_label_NA": "該当無し",
+                    "tip_retry": "マイクの使用許可がありません。もう一度{{retryBtn}}",
+                    "button_retry": "もう一度"
                 },
                 "sessions": {
                     "logout": "他のすべてのセッションからのログアウト",
@@ -185,12 +189,15 @@
                     "2fa": {
                         "remove_auth": "Authenticatorの削除",
                         "add_auth": "Authenticatorの追加",
-                        "description": "お客様のアカウントで2FAを有効にすることで、さらにセキュリティを高めることができます。",
+                        "description": "あなたのアカウントで2FAを有効にすることで、さらにセキュリティを高めることができます。",
                         "title": "2ファクタ認証"
                     },
-                    "unique_id": "これは、お客様のアカウントに固有のユーザー識別子です。",
+                    "unique_id": "これは、あなたのアカウントに固有のユーザー識別子です。",
                     "change_field": "変更",
                     "title": "マイアカウント"
+                },
+                "theme_shop": {
+                    "title": "テーマショップ"
                 }
             },
             "actions": {
@@ -247,7 +254,7 @@
                     "default": "デフォルトの使用"
                 },
                 "bot": "ボット",
-                "edited": "(編集)",
+                "edited": "(編集済み)",
                 "unknown_user": "未知のユーザー",
                 "nsfw": {
                     "confirm": "私は、私が18歳以上であることを確認します。",
@@ -260,17 +267,17 @@
                     "sent_multiple_files": "複数の添付ファイルを送信",
                     "sent_file": "添付ファイルの送信",
                     "blocked_user": "ブロックされたユーザー",
-                    "blocked_messages": "{{count}}件の着信拒否メッセージ",
+                    "blocked_messages": "{{count}}件のブロックされたメッセージ",
                     "no_sending": "このチャンネルでメッセージを送信する権限がありません。",
                     "failed_load": "メッセージを読み込めませんでした。",
                     "spoiler_attachment": "ネタバレ",
-                    "jump_present": "現在に至る",
+                    "jump_present": "現在の場所へジャンプ",
                     "viewing_old": "古いメッセージの表示"
                 },
                 "voice": {
                     "unmute": "アンミュート",
                     "mute": "ミュート",
-                    "leave": "ボイスチャットを残す",
+                    "leave": "ボイスチャットから離れる",
                     "connected": "ボイスチャンネルに接続"
                 },
                 "start": {
@@ -288,16 +295,21 @@
                     "user_joined": "{{user}}の参加"
                 },
                 "typing": {
-                    "several": "何人もの人が入力している…",
-                    "multiple": "{{userlist}}と{{user}}が入力している…",
-                    "single": "{{user}}が入力している…"
+                    "several": "複数人が入力中…",
+                    "multiple": "{{userlist}}と{{user}}が入力中…",
+                    "single": "{{user}}が入力中…"
                 },
                 "attached_file": "添付された{{filename}}",
                 "failed_upload": "アップロードに失敗しました!",
                 "uploading_file": "アップロード中…",
                 "message_saved": "ノートに保存",
                 "message_who": "{{person}}にメッセージを送る",
-                "message_where": "{{channel_name}}にメッセージを送る"
+                "message_where": "{{channel_name}}にメッセージを送る",
+                "errors": {
+                    "title": "おっと！ここには何もありません！",
+                    "nochannels": "このサーバーにはチャンネルが無いか、チャンネルへのアクセス権限がありません。",
+                    "nochannel": "チャンネル無し"
+                }
             },
             "categories": {
                 "members": "メンバー",
@@ -310,7 +322,7 @@
             "tabs": {
                 "saved": "保存されたノート",
                 "unreads": "未読",
-                "friends": "フレンズ",
+                "friends": "友達",
                 "dev": "開発者",
                 "home": "ホーム"
             }
@@ -348,17 +360,17 @@
                     "confirm_delete_message_long": "本当にこれを削除していいのか？",
                     "confirm_kick": "本当に{{name}}を蹴りたいのか？",
                     "block_user_long": "本当に{{name}}をブロックしますか？また、あなたの友達リストからも削除されます。",
-                    "confirm_leave": "{{name}}を残す？",
+                    "confirm_leave": "{{name}}から離れますか？",
                     "confirm_leave_long": "再度招待されない限り、再入会はできません。",
-                    "confirm_close_dm": "{{name}}との親密な会話？",
+                    "confirm_close_dm": "{{name}}との会話を閉じますか？",
                     "confirm_close_dm_long": "あとで開きなおすことはできますが、双方ともに消えてしまいます。",
                     "confirm_delete": "{{name}}の削除？",
-                    "create_invite_generate": "招待状を作成する…",
+                    "create_invite_generate": "招待を作成中…",
                     "create_invite_created": "これがあなたの新しい招待コードです:",
                     "confirm_ban": "あなたは{{name}}を禁止しようとしています",
                     "confirm_ban_reason": "禁止理由",
                     "unfriend_user": "{{name}}を削除しますか？",
-                    "unfriend_user_long": "再度、追加しないと会話ができなくなることもあります。",
+                    "unfriend_user_long": "再度追加するまで会話ができなくなるかもしれません。",
                     "block_user": "ブロック{{name}}?"
                 },
                 "account": {
@@ -367,11 +379,11 @@
                         "password": "パスワードの変更",
                         "username": "ユーザー名の変更"
                     },
-                    "failed": "変化に失敗した!"
+                    "failed": "変更に失敗しました！"
                 },
                 "actions": {
                     "block": "ブロック",
-                    "reload": "リロードアプリ",
+                    "reload": "再読み込み",
                     "ok": "OK",
                     "ban": "バン",
                     "kick": "キック",
@@ -382,7 +394,7 @@
                     "back": "戻る",
                     "remove": "削除",
                     "delete": "削除",
-                    "create": "クリエイト",
+                    "create": "作成",
                     "reveal": "暴露",
                     "update": "アップデート",
                     "cancel": "キャンセル",
@@ -431,6 +443,11 @@
                 "create_bot": {
                     "title": "新しいボットを作成する",
                     "failed": "ボットの作成に失敗しました！"
+                },
+                "server_identity": {
+                    "title": "{{server}}のアイコンを変更",
+                    "nickname": "ニックネーム",
+                    "avatar": "アバター"
                 }
             },
             "copy_username": "クリックしてユーザー名をコピー",
@@ -438,16 +455,16 @@
             "status": {
                 "offline": "オフライン。",
                 "disconnected": "切断された。",
-                "connecting": "コネクティング…",
-                "reconnecting": "リコネクティング…"
+                "connecting": "接続中…",
+                "reconnecting": "再接続中…"
             },
             "invite": {
-                "invited_by": "{{user}}の招待状",
+                "invited_by": "{{user}}の招待",
                 "login": "Revoltへのログイン",
-                "accept": "招待状を受け取る",
+                "accept": "招待を受け取る",
                 "user_count": "{{member_count}}ユーザー",
-                "invalid_desc": "招待状がないか、参加権限がありません。",
-                "invalid": "不適切招待状です！"
+                "invalid_desc": "招待がないか、参加権限がありません。",
+                "invalid": "招待が無効です！"
             },
             "requires_online": "これを見るには、オンラインである必要があります。"
         },
@@ -521,9 +538,9 @@
         "check_mail": "メールをチェックする。",
         "cancel": "リクエストをキャンセルします。",
         "resend": "検証を再送する。",
-        "missing_verification": "メールがない？",
+        "missing_verification": "Eメールがありませんか？",
         "create": "新しいアカウントを作成します。",
-        "existing": "既にアカウントをお持ちの方?",
+        "existing": "既にアカウントをお持ちですか？",
         "new": "Revoltは初めてですか？",
         "remembered": "ログインに戻ります。",
         "set_password": "新しいパスワードを設定する。",
@@ -545,9 +562,9 @@
         "title": "ログイン"
     },
     "general": {
-        "unavailable": "未支援",
+        "unavailable": "利用不可",
         "disabled": "無効化",
-        "loading": "ローディング…",
+        "loading": "ロード中…",
         "privacy": "プライバシーポリシー",
         "tos": "利用規約",
         "about": "紹介",
@@ -562,7 +579,7 @@
         "Unauthorized": "未承認です。",
         "FailedValidation": "フィールドの検証に失敗しました。",
         "InternalError": "内部エラーが発生しました。",
-        "UnknownError": "許可がない。",
+        "UnknownError": "コンソールを見てください。",
         "OperationFailed": "操作に失敗しました。",
         "RenderFail": "テンプレートのレンダリングに失敗しました。",
         "MissingHeaders": "ヘッダがない。",
@@ -575,7 +592,7 @@
         "InvalidInvite": "無効なコード",
         "AlreadyOnboarded": "すでにオンボーディングを終えています。",
         "AlreadyFriends": "このユーザーとはすでに友達です。",
-        "AlreadySentRequest": "I'm already friends with this user.",
+        "AlreadySentRequest": "このユーザーに既にフレンドリクエストを送信済です。",
         "Blocked": "このユーザーをブロックしました。",
         "RequiredField": "必須",
         "TooShort": "短すぎる",
@@ -590,13 +607,14 @@
         "CompromisedPassword": "このパスワードは漏洩しています。",
         "Unlabelled": "何かが起こった。",
         "DatabaseError": "データベースエラーです。",
-        "MissingPermission": "許可がない。",
+        "MissingPermission": "権限がありません。",
         "InvalidSession": "無効なセッションです。",
         "InvalidCredentials": "メールアドレスまたはパスワードが間違っています。",
-        "UsernameTaken": "ユーザー名が取られています。",
+        "UsernameTaken": "ユーザー名は既に取得されています。",
         "BlockedOther": "このユーザーはあなたをブロックしました。",
         "NoEffect": "この要求は何の効果もありませんでした。",
-        "ReachedMaximumBots": "すでに最大値だけのボットを持っていらっしゃいますね。"
+        "ReachedMaximumBots": "ボット数が上限に達しました。",
+        "AudioPermissionBlock": "マイクの使用許可がありません。もう一度ブラウザの設定を確かめて下さい。"
     },
     "permissions": {
         "server": {

@@ -23,7 +23,7 @@
                 },
                 "system": {
                     "channel_icon_changed": "{{user}}님이 채널 아이콘을 변경했어요",
-                    "user_joined": "{{user}}님이 접속했어요",
+                    "user_joined": "{{user}}님이 참여했어요",
                     "user_left": "{{user}}님이 떠났어요",
                     "user_kicked": "{{user}}님이 추방되었어요",
                     "channel_description_changed": "{{user}}님이 채널 설명을 변경했어요",
@@ -162,7 +162,10 @@
                 "audio": {
                     "title": "음성 설정",
                     "input_device": "마이크",
-                    "output_device": "스피커 / 헤드셋"
+                    "output_device": "스피커 / 헤드셋",
+                    "tip_retry": "마이크 접근 권한이 없으신가요? {{retryBtn}}.",
+                    "device_label_NA": "N/A",
+                    "button_retry": "다시 시도"
                 },
                 "donate": {
                     "title": "후원"
@@ -171,7 +174,7 @@
                 "bots": {
                     "title": "내 봇",
                     "copy_invite": "초대 링크 복사",
-                    "private_bot_tip": "사적인 봇으로, 당신만이 초대할 수 있습니다.",
+                    "private_bot_tip": "비공개 봇으로, 당신만이 초대할 수 있어요.",
                     "create_bot": "봇 생성하기",
                     "add": "봇 추가",
                     "token": "토큰",
@@ -179,7 +182,8 @@
                     "public_bot": "공용 봇",
                     "public_bot_desc": "다른 유저들이 이 봇을 초대할 수 있는지.",
                     "interactions_url": "상호작용 URL",
-                    "reserved": "참고: 이 필드는 나중을 위해 비활성화되었습니다."
+                    "reserved": "참고: 이 필드는 나중을 위해 비활성화되었습니다.",
+                    "unique_id": "이것은 당신의 봇만의 독특한 식별자에요. 봇의 토큰이 아닙니다."
                 },
                 "feedback": {
                     "title": "피드백",
@@ -231,6 +235,9 @@
                         "locale": "현재 고른 언어를 동기화됩니다.",
                         "appearance": "이모지 팩 및 메시지 밀도와 같은 옵션이 동기화됩니다."
                     }
+                },
+                "theme_shop": {
+                    "title": "테마 가게"
                 }
             },
             "title": "설정",
@@ -409,6 +416,11 @@
                 "create_bot": {
                     "title": "새로운 봇 만들기",
                     "failed": "봇을 만드는데 실패 했어요!"
+                },
+                "server_identity": {
+                    "title": "{{server}} ID 변경",
+                    "nickname": "닉네임",
+                    "avatar": "아바타"
                 }
             },
             "invite": {
@@ -624,7 +636,7 @@
         "loading": "로딩 중…",
         "image_by": "이미지 제공",
         "on": "켜기",
-        "about": "소개",
+        "about": "정보",
         "disabled": "비활성화",
         "off": "끄기",
         "unavailable": "미지원"
@@ -670,7 +682,8 @@
         "Unavailable": "유효하지 않아요.",
         "BlockedOther": "이 사용자가 당신을 차단했습니다.",
         "MissingData": "요청에 필요한 데이터가 없어요.",
-        "ReachedMaximumBots": "이미 최대치만큼의 봇을 거느리고 계셔요."
+        "ReachedMaximumBots": "이미 최대치만큼의 봇을 거느리고 계셔요.",
+        "AudioPermissionBlock": "마이크에 액세스 할 수 없습니다, 브라우저 설정을 확인 해주세요."
     },
     "shortcuts": {
         "ctrlc": "복사하기"
@@ -685,10 +698,10 @@
         "lastDay": "[어제] {{time}}",
         "sameDay": "[오늘] {{time}}",
         "nextDay": "[내일] {{time}}",
-        "lastWeek": "[마지막] dddd {{time}}",
+        "lastWeek": "[지난주] dddd {{time}}",
         "nextWeek": "dddd {{time}}",
         "defaults": {
-            "twelvehour": "아니요",
+            "twelvehour": "yes",
             "date_separator": "-",
             "date_format": "IS08601"
         }

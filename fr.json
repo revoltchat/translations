@@ -1,9 +1,9 @@
 {
     "general": {
-        "about": "À propos",
+        "about": "À Propos",
         "tos": "Conditions d'utilisation",
         "privacy": "Politique de confidentialité",
-        "image_by": "Image par",
+        "image_by": "Image de",
         "loading": "Chargement…",
         "on": "Activé",
         "off": "Désactivé",
@@ -31,7 +31,7 @@
         "cancel": "Annuler la requête.",
         "error": {
             "reset": "Échec de réinitialisation !",
-            "create": "Échec de création de compte !",
+            "create": "La création du compte a échoué !",
             "login": "Nous n'avons pas réussi à vous connecter !",
             "resend": "Nous n'avons pas réussi à renvoyer la requête !"
         },
@@ -44,7 +44,7 @@
         "existing": "Avez-vous déjà un compte ?",
         "username": "Nom d'utilisateur",
         "check_mail": "Vérifiez votre boite mail.",
-        "check_spam": "Veuillez vérifier dans vos pourriels (spams) si le message est introuvable",
+        "check_spam": "Veuillez vérifier dans vos courriers indésirables si le message est introuvable",
         "email_delay": "Merci d'attendre jusqu'à 10 minutes pour qu'il arrive."
     },
     "app": {
@@ -59,14 +59,14 @@
                     "channel_renamed": "{{user}} a modifié le nom du salon en {{name}}",
                     "channel_description_changed": "{{user}} a modifié la description du salon",
                     "channel_icon_changed": "{{user}} a modifié l'icône du salon",
-                    "user_kicked": "{{user}} a été éjecté",
+                    "user_kicked": "{{user}} a été exclu",
                     "user_banned": "{{user}} a été banni"
                 },
                 "bot": "bot",
                 "message_where": "Envoyer un message dans {{channel_name}}",
                 "unknown_user": "<Utilisateur Inconnu>",
-                "uploading_file": "En cours de téléversement…",
-                "failed_upload": "Échec du téléversement !",
+                "uploading_file": "Téléchargement en cours…",
+                "failed_upload": "Echec du téléchargement!",
                 "typing": {
                     "single": "{{user}} est en train d'écrire…",
                     "multiple": "{{userlist}} et {{user}} sont en train d'écrire…",
@@ -86,7 +86,7 @@
                     "unmute": "Activer la voix"
                 },
                 "misc": {
-                    "viewing_old": "Vous regardez d'anciens messages",
+                    "viewing_old": "Voir les d'anciens messages",
                     "jump_present": "Revenir aux messages récents",
                     "spoiler_attachment": "Spoiler",
                     "no_sending": "Vous n'avez pas la permission d'envoyer des messages dans ce salon.",
@@ -108,15 +108,20 @@
                         "marked": "Ce salon est marqué comme NSFW.",
                         "confirm": "Entrez dans le salon"
                     },
-                    "confirm": "Je confirme être âgé d'au moins 18 ans."
+                    "confirm": "Je confirme d'être âgé  18 ans."
                 },
                 "search": {
                     "title": "Rechercher",
                     "sort": {
                         "relevance": "Pertinence",
-                        "latest": "Nouveaux",
-                        "oldest": "Derniers"
+                        "latest": "Récents",
+                        "oldest": "Anciens"
                     }
+                },
+                "errors": {
+                    "title": "Oups, Il n'y a rien ici!",
+                    "nochannels": "Ce serveur n'a aucun salon, ou tu n'y a pas accès.",
+                    "nochannel": "Aucun salon"
                 }
             },
             "categories": {
@@ -158,7 +163,7 @@
             "idle": "Absent",
             "busy": "Ne pas déranger",
             "invisible": "Invisible",
-            "online": "En ligne"
+            "online": "Connecté"
         },
         "context_menu": {
             "retry_message": "Réessayer d'envoyer",
@@ -357,15 +362,22 @@
                     "public_bot_tip": "Votre bot est public. N'importe qui peut l'inviter.",
                     "private_bot_tip": "Votre bot est privé. Il ne peut être invité que par vous-même.",
                     "public_bot": "Bot public",
-                    "interactions_url": "Adresse d'Interactions",
+                    "interactions_url": "URL d'Interactions",
                     "copy_invite": "Copier le lien d'invitation",
                     "add": "Ajouter un bot",
-                    "public_bot_desc": "Autoriser d'autres utilisateurs à inviter ce bot."
+                    "public_bot_desc": "Autoriser d'autres utilisateurs à inviter ce bot.",
+                    "unique_id": "C'est un pseudo unique pour ton bot. Ce n'est pas son identifiant."
                 },
                 "audio": {
                     "title": "Options vocales",
                     "input_device": "Microphone",
-                    "output_device": "Haut-parleur / Casque"
+                    "output_device": "Haut-parleur / Casque",
+                    "device_label_NA": "Indisponible",
+                    "button_retry": "réessayer",
+                    "tip_retry": "Vous n'avez pas donné la permission pour acceder a votre micro, merci de {{retryBtn}}"
+                },
+                "theme_shop": {
+                    "title": "Boutique de Thèmes"
                 }
             },
             "channel_pages": {
@@ -538,7 +550,7 @@
                     "badges": {
                         "translator": "Traducteur",
                         "early_adopter": "Adopteur de longue date",
-                        "supporter": "Supporter",
+                        "supporter": "Donateur",
                         "responsible_disclosure": "Bug(s) divulgué(s) de manière responsable"
                     },
                     "sub": {
@@ -556,6 +568,11 @@
                 "create_bot": {
                     "title": "Créer un nouveau bot",
                     "failed": "La création du bot a échouée !"
+                },
+                "server_identity": {
+                    "title": "Changer d'identité sur {{server}}",
+                    "nickname": "Pseudo",
+                    "avatar": "Avatar"
                 }
             },
             "requires_online": "Vous devez être en ligne pour voir cela.",
@@ -638,7 +655,8 @@
         "MissingHeaders": "En-têtes manquants.",
         "EmailInUse": "Adresse e-mail déjà utilisée.",
         "CompromisedPassword": "Ce mot de passe est compromis.",
-        "ReachedMaximumBots": "Vous avez atteint le nombre maximum de bots."
+        "ReachedMaximumBots": "Vous avez atteint le nombre maximum de bots.",
+        "AudioPermissionBlock": "Aucun accès à ton microphone, merci de vérifier l'autorisation de ton navigateur."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"

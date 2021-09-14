@@ -38,7 +38,7 @@
                 "unknown_user": "<Usuário Desconhecido>",
                 "bot": "bot",
                 "voice": {
-                    "connected": "Conectado por voz",
+                    "connected": "Voz conectada",
                     "leave": "Desconectar",
                     "mute": "Desativar microfone",
                     "unmute": "Ativar microfone"
@@ -69,6 +69,11 @@
                         "latest": "Recente",
                         "oldest": "Antigo"
                     }
+                },
+                "errors": {
+                    "nochannels": "Este servidor não possui nenhum canal, ou você não possui acesso à nenhum deles.",
+                    "nochannel": "Nenhum canal",
+                    "title": "Oops, não tem nada aqui!"
                 }
             },
             "categories": {
@@ -236,16 +241,23 @@
                     "add": "Adicionar bot",
                     "token": "Token",
                     "public_bot_tip": "O bot está público. Qualquer pessoa pode convidá-lo.",
-                    "private_bot_tip": "O bot está privado. Apenas você pode o convidar.",
+                    "private_bot_tip": "O bot está privado. Apenas você pode convidá-lo.",
                     "public_bot": "Bot público",
                     "public_bot_desc": "Permitir que outros usuários convidem esse bot.",
                     "interactions_url": "URL de interações",
-                    "reserved": "Nota: Este campo está reservado para o futuro."
+                    "reserved": "Nota: Este campo está reservado para o futuro.",
+                    "unique_id": "Este é um identificador único para o seu bot. Isso não é o token do bot."
                 },
                 "audio": {
                     "title": "Configurações de voz",
                     "input_device": "Microfone",
-                    "output_device": "Alto-falante / Fone de ouvido"
+                    "output_device": "Alto-falante / Fone de ouvido",
+                    "device_label_NA": "N/D",
+                    "button_retry": "tente novamente",
+                    "tip_retry": "Você não deu a permissão para acessar seu microfone. Por favor, {{retryBtn}}."
+                },
+                "theme_shop": {
+                    "title": "Loja de temas"
                 }
             },
             "permissions": {
@@ -439,6 +451,11 @@
                 "create_bot": {
                     "title": "Criar um novo bot",
                     "failed": "Falha ao criar um bot!"
+                },
+                "server_identity": {
+                    "title": "Alterar identidade em {{server}}",
+                    "nickname": "Apelido",
+                    "avatar": "Avatar"
                 }
             },
             "copy_username": "Clique para copiar o nome de usuário",
@@ -691,7 +708,8 @@
         "InvalidEmail": "Endereço de e-mail inválido",
         "ProbeError": "Falha ao obter os metadados do arquivo.",
         "DeniedNotification": "Você negou o acesso às notificações, confira a página de configurações.",
-        "ReachedMaximumBots": "Você atingiu o limite máximo de bots."
+        "ReachedMaximumBots": "Você atingiu o limite máximo de bots.",
+        "AudioPermissionBlock": "Sem acesso ao seu microfone. Por favor, verifique as configurações do seu navegador."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
