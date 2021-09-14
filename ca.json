@@ -15,7 +15,26 @@
         "email": "Email",
         "username": "Nom d'usuari",
         "register": "Registra't",
-        "title": "Iniciar sessió"
+        "title": "Iniciar sessió",
+        "error": {
+            "reset": "No s'ha pogut reiniciar!",
+            "create": "Error al registrar-se!",
+            "login": "Error a l'inici de sessió!",
+            "resend": "No s'ha pogut reenviar!"
+        },
+        "set_password": "Establir nova contrasenya.",
+        "remembered": "Torna a l'inici de sessió.",
+        "new": "Nou a Revolt?",
+        "existing": "Ja tens un compte?",
+        "create": "Crear una compte nova.",
+        "missing_verification": "Sense email?",
+        "resend": "Reenviar verificació.",
+        "cancel": "Cancel·lar la sol·licitud.",
+        "check_mail": "Comprova el teu mail.",
+        "email_delay": "Siusplau, espereu fins a 10 minuts perquè arribi.",
+        "check_spam": "Revisa la secció de \"no desitjat\" si no ho veus",
+        "open_mail_provider": "Obrir {{provider}}",
+        "successful_registration": "Registrat correctament!"
     },
     "general": {
         "unavailable": "Indisponible",
@@ -27,5 +46,108 @@
         "privacy": "Política de Privacitat",
         "tos": "Termes de servei",
         "about": "Sobre"
+    },
+    "app": {
+        "main": {
+            "categories": {
+                "participants": "Participants",
+                "conversations": "Converses",
+                "channels": "Canals",
+                "members": "Membres"
+            },
+            "channel": {
+                "attached_file": "{{filename}} adjuntat",
+                "system": {
+                    "user_kicked": "{{user}} a sigut expulsat",
+                    "user_joined": "{{user}} s'ha unit",
+                    "user_left": "{{user}} s'ha anat",
+                    "user_banned": "{{user}} ha sigut prohibit",
+                    "added_by": "{{user}} ha sigut afegit per {{other_user}}",
+                    "removed_by": "{{user}} ha sigut eliminat per {{other_user}}",
+                    "channel_renamed": "{{user}} ha reanomenat el canal a {{name}}",
+                    "channel_description_changed": "{{user}} ha camviat la descripció del canal",
+                    "channel_icon_changed": "{{user}} ha cambiat la icona del canal"
+                },
+                "misc": {
+                    "viewing_old": "Mirant missatges antics",
+                    "jump_present": "Tornar al present",
+                    "spoiler_attachment": "Spoiler",
+                    "failed_load": "No s'ha pogut carregar el missatge.",
+                    "no_sending": "No tens permisos per enviar missatges a aquest canal.",
+                    "blocked_messages": "{{count}} missatges bloquejats",
+                    "blocked_user": "Usuari Bloquejat",
+                    "sent_file": "Ha enviat un arxiu adjunt",
+                    "sent_multiple_files": "Ha enviat múltiples arxius adjunts"
+                },
+                "message_where": "Envia un missatge a {{channel_name}}",
+                "message_who": "Enviar un missatge a {{person}}",
+                "message_saved": "Afegir a les teves notes",
+                "uploading_file": "Pujant…",
+                "failed_upload": "Error al pujar!",
+                "typing": {
+                    "single": "{{user}} està escrivint…",
+                    "multiple": "{{userlist}} i {{user}} estan escrivint…",
+                    "several": "Diverses persones estan escrivint…"
+                },
+                "start": {
+                    "group": "Aquest és l'inici de la teva conversa."
+                },
+                "voice": {
+                    "connected": "Veu connectada",
+                    "leave": "Sortir",
+                    "mute": "Silenciar",
+                    "unmute": "Desactivar silenci"
+                },
+                "nsfw": {
+                    "channel": {
+                        "marked": "Aquest canal ha sigut marcat com NSFW.",
+                        "confirm": "Entrar al Canal"
+                    },
+                    "confirm": "Jo confirmo que tinc al menys 18 anys."
+                },
+                "unknown_user": "<Usuari desconegut>",
+                "edited": "(editat)",
+                "bot": "bot",
+                "notifications": {
+                    "default": "Utilitzar opció per defecte",
+                    "all": "Tots el missatges",
+                    "none": "Cap",
+                    "mention": "Només Mencions",
+                    "muted": "Silenciat"
+                },
+                "search": {
+                    "title": "Cercar",
+                    "sort": {
+                        "latest": "Últim",
+                        "relevance": "Rellevància",
+                        "oldest": "Más antic"
+                    }
+                },
+                "errors": {
+                    "title": "Ups, aquí no hi ha res!",
+                    "nochannels": "Aquest servidor no té canals o no tens accés a cap.",
+                    "nochannel": "No hi ha canal"
+                }
+            },
+            "groups": {
+                "create": "Crear un grup"
+            }
+        },
+        "status": {
+            "online": "Connectat",
+            "idle": "Inactiu",
+            "busy": "No Molestar",
+            "invisible": "Invisible",
+            "offline": "Desconnectat"
+        },
+        "navigation": {
+            "tabs": {
+                "home": "Inici",
+                "dev": "Desenvolupador",
+                "friends": "Amics",
+                "unreads": "No llegits",
+                "saved": "Notes Guardades"
+            }
+        }
     }
 }
