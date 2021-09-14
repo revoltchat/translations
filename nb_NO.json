@@ -3,7 +3,7 @@
         "settings": {
             "pages": {
                 "feedback": {
-                    "issue_desc": "For å lette sorteringen av feil til én rapport kan du melde inn feil på GitHub.",
+                    "issue_desc": "For å gjør det lettere for oss å lette etter feil, kan du rapportere det på GitHub.",
                     "suggest_desc": "Foreslå nye Revolt-funksjoner i GitHub-diskusjon.",
                     "issue": "Opprett en ny problemrapport",
                     "suggest": "Send inn funksjonsforslag",
@@ -22,7 +22,8 @@
                     "public_bot": "Offentlig bot",
                     "interactions_url": "Interaksjonsnettadresse",
                     "reserved": "Merk: Dette feltet er reservert for fremtidig bruk.",
-                    "public_bot_desc": "Hvorvidt andre brukere skal kunne invitere denne botten."
+                    "public_bot_desc": "Når andre brukere skal kunne invitere denne botten.",
+                    "unique_id": "Dette er unik identifikator for din bot.\nDette er ikke boten sin token-id."
                 },
                 "experiments": {
                     "not_available": "Ingen eksperimenter tilgjengelig nå.",
@@ -43,7 +44,7 @@
                         "enable_push": "Tillater mottak av varsler når du er frakoblet.",
                         "enable_desktop": "Dette vil gi deg merknader mens programmet ditt er åpent."
                     },
-                    "enable_push": "Skru på dyttingsvarsler.",
+                    "enable_push": "Skru på push-varslinger",
                     "push_notifications": "Dyttingsmerknader",
                     "sound": {
                         "call_leave": "Bruker forlot samtale",
@@ -86,7 +87,7 @@
                     },
                     "theme": "Drakt",
                     "title": "Utseende",
-                    "ligatures_desc": "For støttede skrifter binder ligaturer tegn sammen, for eksempel -> som pil. Bytt til Inter og prøv å skru på dette.",
+                    "ligatures_desc": "For støttede skrifter, binder ligaturer tegn sammen, for eksempel -> som pil. Bytt til Inter og prøv å skru på dette igjen.",
                     "ligatures": "Skriftligaturer",
                     "message_display": "Meldingsvisning"
                 },
@@ -95,7 +96,8 @@
                     "title": "Stemmeinnstillinger",
                     "input_device": "Mikrofon",
                     "button_retry": "prøv igjen",
-                    "device_label_NA": "Ikke tilgjengelig"
+                    "device_label_NA": "Ikke tilgjengelig",
+                    "tip_retry": "Du har ikke gitt tillatelse til å bruke mikrofonen din, prøve igjen {{retryBtn}}."
                 },
                 "sessions": {
                     "logout": "Logg ut a alle andre økter",
@@ -138,11 +140,14 @@
                 },
                 "native": {
                     "title": "Skrivebordsinnstillinger"
+                },
+                "theme_shop": {
+                    "title": "Tema butikk"
                 }
             },
             "server_pages": {
                 "overview": {
-                    "system_messages": "Systemmeldingskanaler",
+                    "system_messages": "Systemmeldingkanaler",
                     "description": "Kanalbeskrivelse",
                     "name": "Tjenernavn",
                     "title": "Oversikt"
@@ -281,7 +286,12 @@
                 "uploading_file": "Laster opp …",
                 "message_saved": "Lagre i notater",
                 "message_who": "Send melding til {{person}}",
-                "message_where": "Send melding til {{channel_name}}"
+                "message_where": "Send melding til {{channel_name}}",
+                "errors": {
+                    "nochannel": "Ingen kanaler",
+                    "title": "Oi, noe stemmer ikke!",
+                    "nochannels": "Denne serveren har ingen kanaler eller du har ikke tilgang til dem."
+                }
             },
             "servers": {
                 "voice_channel": "Stemmekanal",
@@ -336,11 +346,12 @@
                 },
                 "create_bot": {
                     "title": "Opprett en ny bott",
-                    "failed": "Klarte ikke å opprette en bott."
+                    "failed": "Feil ved opprette en bot!"
                 },
                 "server_identity": {
                     "nickname": "Kallenavn",
-                    "avatar": "Avatar"
+                    "avatar": "Avatar",
+                    "title": "Bytt identitet på {{server}}"
                 }
             },
             "invite": {
@@ -385,7 +396,7 @@
                 },
                 "prompt": {
                     "block_user_long": "Er du sikker på at du vil blokkere {{name}}? De vil også bli fjernet fra vennelisten din.",
-                    "unfriend_user_long": "Du vil ikke kunne snakke med vedkommende igjen til du legger dem inn igjen.",
+                    "unfriend_user_long": "Du vil ikke kunne snakke med de igjen til du legger dem inn igjen.",
                     "confirm_kick": "Er du sikker på at du vil kaste ut {{name}}?",
                     "confirm_delete_message_long": "Er du sikker på at du vil slette dette?",
                     "confirm_delete_long": "Når den er slettet er det ingen vei tilbake.",
@@ -406,7 +417,7 @@
                     "welcome": "Velkommen til"
                 },
                 "clipboard": {
-                    "https": "Du bruker ikke HTTPS.",
+                    "https": "Du bruker for tiden ikke HTTPS kontekst.",
                     "copy": "Manuell kopi:",
                     "unavailable": "Utklippstavlen er utilgjengelig!"
                 },
@@ -415,7 +426,8 @@
                 "token_reveal": "{{name}} sitt symbol",
                 "external_links": {
                     "title": "Eksterne lenker kan være farlige.",
-                    "trust_domain": "Betro dette domenet"
+                    "trust_domain": "Betro dette domenet",
+                    "short": "Er du sikker at du vil gå til: "
                 }
             },
             "status": {
@@ -516,19 +528,19 @@
         "NetworkError": "Nettverksfeil.",
         "FailedToReceive": "Tjeneren klarte ikke å motta filen din.",
         "RequiredField": "Påkrevd",
-        "AlreadySentRequest": "Forespørsel har allerede blitt sendt til denne brukeren.",
+        "AlreadySentRequest": "Forespørselen har allerede blitt sendt til denne brukeren.",
         "AlreadyFriends": "Vennskap med denne brukeren er allerede etablert.",
         "AlreadyOnboarded": "Førstegangsveivisning allerede fullført.",
-        "MissingInvite": "Manglende invitasjonskode i forspørsel.",
-        "InvalidCredentials": "E-postadressen eller passordet er galt.",
+        "MissingInvite": "Manglende invitasjonskode i forspørselen.",
+        "InvalidCredentials": "E-postadressen eller passordet er ugyldig.",
         "EmailFailed": "Klarte ikke å sende e-post.",
         "EmailInUse": "E-posten er i bruk.",
         "FailedValidation": "Klarte ikke å bekrefte felter.",
         "Unlabelled": "Noe skjedde.",
-        "UnsupportedBrowser": "Nettleseren mangler støtte for denne funksjonen.",
+        "UnsupportedBrowser": "Nettleseren din mangler støtte for denne funksjonen.",
         "Unauthorized": "Ikke identitetsbekreftet.",
-        "DeniedNotification": "Du nektet merknadstilgang. Sjekk sideinnstillingene.",
-        "CompromisedPassword": "Dette passordet er i gale hender.",
+        "DeniedNotification": "Du nektet varslingstilgang. Sjekk sideinnstillingene.",
+        "CompromisedPassword": "Dette passordet er i usikker.",
         "IoError": "Tjeneren støtte på en I/O-feil.",
         "ProbeError": "Klarte ikke å hente fil-metadata.",
         "MissingData": "Forespørselen mangler data.",
@@ -553,7 +565,8 @@
         "MissingPermission": "Manglende tilgang.",
         "InternalError": "Intern feil.",
         "DatabaseError": "Databasefeil.",
-        "ReachedMaximumBots": "Du har nådd maksimalt antall botter."
+        "ReachedMaximumBots": "Du har nådd maksimalt antall boter.",
+        "AudioPermissionBlock": "Ingen tilgang til din mikrofon, sjekk innstillingene for nettleseren din."
     },
     "notifications": {
         "now_friends": "Du er nå venner med @{{person}}.",
@@ -615,7 +628,7 @@
                 "t": "Fjern avatarer"
             },
             "ChangeAvatar": {
-                "d": "Lar medlemmer endre egen tjeneravatar på denne tjeneren.",
+                "d": "Lar medlemmer endre egen server ikon på denne serveren.",
                 "t": "Endre avatar"
             },
             "ManageNicknames": {
@@ -635,7 +648,7 @@
                 "t": "Kast ut medlemmer"
             },
             "ManageServer": {
-                "d": "Tillat medlemmer å endre tjenerens navn, beskrivelse, ikon og annen relatert info.",
+                "d": "Tillat medlemmer å endre serverens navn, beskrivelse, ikon og annen relatert info.",
                 "t": "Håndter tjener"
             },
             "ManageChannels": {
@@ -643,7 +656,7 @@
                 "t": "Håndter kanaler"
             },
             "ManageRoles": {
-                "d": "Tillater medlemmer å opprette, redigere og slette roller med lavere rang enn egen. Lar dem også endre rolletilganger i kanaler.",
+                "d": "Tillater medlemmer å opprette, redigere og slette roller med lavere rank enn egen. Lar dem også endre rolletilganger i kanaler.",
                 "t": "Håndter roller"
             }
         }

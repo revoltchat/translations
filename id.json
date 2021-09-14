@@ -11,7 +11,7 @@
                         "compact_description": "IRC lama yang bagus.",
                         "default_description": "Indah, halus, dan modern.",
                         "compact": "Kompak",
-                        "default": "Default"
+                        "default": "Bawaan"
                     },
                     "theme": "Tema",
                     "title": "Penampilan",
@@ -280,10 +280,10 @@
                 },
                 "nsfw": {
                     "channel": {
-                        "confirm": "Masuk kedalam saluran",
+                        "confirm": "Masuk ke dalam saluran",
                         "marked": "Saluran ini ditandai sebagai NSFW."
                     },
-                    "confirm": "Saya mengkonfirmasi bahwa saya berusia diatas 18 tahun."
+                    "confirm": "Saya mengkonfirmasi bahwa saya berusia di atas 18 tahun."
                 },
                 "search": {
                     "title": "Cari",
@@ -396,7 +396,7 @@
                 "prompt": {
                     "block_user": "Blokir {{name}}?",
                     "confirm_leave": "Keluar dari {{name}}?",
-                    "confirm_delete_message_long": "Apakah Anda yakin ingin menghapuskan ini?",
+                    "confirm_delete_message_long": "Apakah anda yakin ingin menghapus ini?",
                     "confirm_delete": "Hapus {{name}}?",
                     "confirm_ban_reason": "Alasan Larangan",
                     "block_user_long": "Apakah Anda yakin Anda ingin memblokir {{name}}? Mereka akan dihapuskan dari list temanmu.",
@@ -515,7 +515,10 @@
             "unblock_user": "Buka Blokir",
             "cancel_friend": "Batalkan Permintaan",
             "open_notification_options": "Pengaturan Notifikasi",
-            "clear_status": "Hapus Status"
+            "clear_status": "Hapus Status",
+            "set_custom_status": "Atur status kustom",
+            "close_dm": "Tutup Pesan Langsung",
+            "custom_status": "Status kustom"
         },
         "permissions": {
             "required": "Izin Dibutuhkan"
@@ -539,7 +542,7 @@
         "existing": "Sudah punya akun?",
         "new": "Baru di Revolt?",
         "remembered": "Kembali ke halaman login.",
-        "set_password": "Ubah password.",
+        "set_password": "Buat kata sandi baru.",
         "reset": "Atur ulang kata sandi.",
         "forgot": "Lupa kata sandi Anda?",
         "enter": {
@@ -556,7 +559,7 @@
         "username": "Nama pengguna",
         "register": "Daftar",
         "title": "Masuk",
-        "email_delay": "Harap tunggu hingga 10 menit."
+        "email_delay": "Harap tunggu hingga 10 menit untuk email tiba."
     },
     "general": {
         "loading": "Memuat…",
@@ -581,7 +584,37 @@
         "FileTooLarge": "File ini terlalu besar.",
         "NetworkError": "Jaringan bermasalah.",
         "UnknownError": "Lihat konsol.",
-        "Unavailable": "Tidak ada."
+        "Unavailable": "Tidak ada.",
+        "DatabaseError": "Kesalahan basis data.",
+        "MissingHeaders": "Beberapa header hilang.",
+        "UnverifiedAccount": "Akun tidak terverifikasi.",
+        "Unauthorized": "Tidak sah.",
+        "RenderFail": "Gagal membuat templat.",
+        "InvalidToken": "Token tidak sah",
+        "MissingInvite": "Kode undangan yang diminta tidak tersedia.",
+        "InvalidInvite": "Kode tidak sah",
+        "FailedToReceive": "Server gagal menerima file Anda.",
+        "AudioPermissionBlock": "Tidak ada akses ke mikrofon Anda, harap periksa konfigurasi browser Anda.",
+        "FailedValidation": "Gagal memvalidasi bidang.",
+        "MissingPermission": "Izin hilang.",
+        "AlreadyOnboarded": "Orientasi telah selesai.",
+        "UsernameTaken": "Nama pengguna sudah terpakai.",
+        "OperationFailed": "Operasi gagal.",
+        "NoEffect": "Permintaan ini tidak berpengaruh.",
+        "InternalError": "Kesalahan intern.",
+        "InvalidSession": "Sesi tidak sah.",
+        "UnknownUser": "Akun tidak dikenali.",
+        "EmailInUse": "Email sudah digunakan.",
+        "EmailFailed": "Gagal mengirim email.",
+        "AlreadySentRequest": "Sudah mengirim permintaan ke pengguna ini.",
+        "InvalidEmail": "Alamat email tidak sah",
+        "MissingData": "Permintaan data yang hilang.",
+        "ProbeError": "Gagal mendapatkan berkas metadata.",
+        "IoError": "Server mengalami kesalahan I/O.",
+        "UnsupportedBrowser": "Browser tidak memiliki dukungan untuk fitur ini.",
+        "DeniedNotification": "Anda menolak akses pemberitahuan, periksa pengaturan halaman.",
+        "CompromisedPassword": "Kata sandi ini dikompromikan.",
+        "ReachedMaximumBots": "Anda telah mencapai jumlah bot maksimum."
     },
     "permissions": {
         "channel": {
@@ -598,33 +631,62 @@
                 "t": "Mengunggah File"
             },
             "ManageMessages": {
-                "d": "Perbolehkan anggota untuk menghapuskan pesan yang di kirim oleh anggota lain."
+                "d": "Perbolehkan anggota untuk menghapus pesan yang di kirim oleh anggota lain.",
+                "t": "Kelola Pesan"
             },
             "ManageChannel": {
-                "d": "Perbolehkan anggota untuk mengubah atau menghapus sebuah saluran."
+                "d": "Perbolehkan anggota untuk mengubah atau menghapus sebuah saluran.",
+                "t": "Kelola Saluran"
+            },
+            "EmbedLinks": {
+                "t": "Sematkan Tautan",
+                "d": "Memungkinkan anggota menampilkan konten yang disematkan pada tautan yang mereka poskan di saluran teks."
+            },
+            "View": {
+                "t": "Lihat Saluran",
+                "d": "Mengizinkan anggota melihat saluran apa pun yang izinnya mereka miliki."
+            },
+            "VoiceCall": {
+                "t": "Panggilan suara",
+                "d": "Memungkinkan anggota untuk bergabung dengan saluran suara."
             }
         },
         "server": {
             "ManageChannels": {
-                "d": "Perbolehkan anggota untuk membuat, ubah, dan hapus saluran."
+                "d": "Perbolehkan anggota untuk membuat, ubah, dan hapus saluran.",
+                "t": "Kelola Saluran"
             },
             "ManageServer": {
-                "d": "Perbolehkan anggota untuk mengubah nama server, deskripsi, ikon, dan informasi lainnya."
+                "d": "Perbolehkan anggota untuk mengubah nama server, deskripsi, ikon, dan informasi lainnya.",
+                "t": "Kelola Server"
             },
             "RemoveAvatars": {
-                "d": "Perbolehkan anggota untuk menghapus gambar profil dari anggota lain di server ini."
+                "d": "Perbolehkan anggota untuk menghapus gambar profil dari anggota lain di server ini.",
+                "t": "Hapus Avatar"
             },
             "ChangeNickname": {
-                "d": "Perbolehkan anggota untuk mengubah nama panggilan mereka di server ini."
+                "d": "Perbolehkan anggota untuk mengubah nama panggilan mereka di server ini.",
+                "t": "Ubah Nama Panggilan"
             },
             "ManageNicknames": {
-                "d": "Perbolehkan anggota untuk mengubah nama panggilan anggota lain."
+                "d": "Perbolehkan anggota untuk mengubah nama panggilan anggota lain.",
+                "t": "Kelola Nama Panggilan"
             },
             "ManageRoles": {
-                "d": "Perbolehkan anggota untuk membuat, mengubah, dan menghapus peran dengan peringkat lebih rendah dari peran mereka. Mereka juga boleh mengubah izin peran di sebuah saluran."
+                "d": "Perbolehkan anggota untuk membuat, mengubah, dan menghapus peran dengan peringkat lebih rendah dari peran mereka. Mereka juga boleh mengubah izin peran di sebuah saluran.",
+                "t": "Kelola Peran"
             },
             "ChangeAvatar": {
-                "d": "Perbolehkan anggota untuk mengubah gambar profil mereka di server ini."
+                "d": "Perbolehkan anggota untuk mengubah gambar profil mereka di server ini.",
+                "t": "Mengubah Avatar"
+            },
+            "KickMembers": {
+                "t": "Menendang Anggota",
+                "d": "Memungkinkan anggota untuk menghapus anggota dari server ini. Anggota yang ditendang dapat bergabung kembali dengan undangan."
+            },
+            "BanMembers": {
+                "d": "Memungkinkan anggota untuk menghapus anggota secara permanen dari server ini.",
+                "t": "Melarang Anggota"
             }
         }
     },

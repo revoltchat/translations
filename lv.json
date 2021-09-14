@@ -24,7 +24,17 @@
         "cancel": "Atcelt pieprasījumu.",
         "email_delay": "Lūdzu uzgaidi līdz 10 minūtēm, lai to saņemtu.",
         "check_spam": "Lūdzu pārbaudi mēstules, ja to nevari atrast",
-        "open_mail_provider": "Atvērt {{provider}}"
+        "open_mail_provider": "Atvērt {{provider}}",
+        "reset": "Atjaunot paroli.",
+        "set_password": "Iestatiet jaunu paroli.",
+        "remembered": "Atgriezties pie pieteikšanās.",
+        "new": "Jaunpienācējs vietnē Revolt?",
+        "error": {
+            "create": "Neizdevās reģistrēt!",
+            "login": "Neizdevās pieteikties!",
+            "reset": "Neizdevās atiestatīt!",
+            "resend": "Neizdevās nosūtīt vēlreiz!"
+        }
     },
     "app": {
         "main": {
@@ -63,7 +73,8 @@
                 "voice": {
                     "leave": "Pamest",
                     "mute": "Apklusināt",
-                    "unmute": "Ieslēgt skaņu"
+                    "unmute": "Ieslēgt skaņu",
+                    "connected": "Balss savienots"
                 },
                 "misc": {
                     "viewing_old": "Apskata vecākas ziņas",
@@ -72,24 +83,66 @@
                     "blocked_messages": "{{count}} bloķētas ziņas",
                     "blocked_user": "Bloķēts lietotājs",
                     "sent_file": "Nosūtīts pielikums",
-                    "sent_multiple_files": "Nosūtīti vairāki pielikumi"
+                    "sent_multiple_files": "Nosūtīti vairāki pielikumi",
+                    "spoiler_attachment": "Spoileris",
+                    "no_sending": "Jums nav atļaujas sūtīt ziņojumus šajā kanālā."
                 },
                 "edited": "(rediģēts)",
                 "nsfw": {
                     "channel": {
-                        "marked": "Šis kanāls ir ar NSFW apzīmējumu."
+                        "marked": "Šis kanāls ir ar NSFW apzīmējumu.",
+                        "confirm": "Ievadiet kanālu"
                     },
                     "confirm": "Es apstiprinu, ka esmu vismaz 18 gadus vecs."
                 },
                 "unknown_user": "<nezināms lietotājs>",
-                "bot": "bots"
+                "bot": "bots",
+                "notifications": {
+                    "default": "Izmantot noklusējuma iestatījumu",
+                    "all": "Visi ziņojumi",
+                    "mention": "Tikai pieminējumi",
+                    "none": "Neviens",
+                    "muted": "Klusināts"
+                },
+                "search": {
+                    "title": "Meklēt",
+                    "sort": {
+                        "relevance": "Atbilstība",
+                        "latest": "Jaunākais",
+                        "oldest": "Vecākais"
+                    }
+                },
+                "errors": {
+                    "title": "Ak, šeit nekā nav!",
+                    "nochannels": "Šajā serverī nav kanālu vai arī jums nav piekļuves tiem.",
+                    "nochannel": "Nav kanāla"
+                }
+            },
+            "groups": {
+                "create": "Izveidot grupu",
+                "name": "Grupas nosaukums",
+                "description": "Grupas apraksts",
+                "owner": "Grupas īpašnieks"
+            },
+            "servers": {
+                "description": "Servera apraksts",
+                "channel_name": "Kanāla nosaukums",
+                "channel_type": "Kanāla tips",
+                "create": "Izveidot serveri",
+                "name": "Servera nosaukums",
+                "channel_description": "Kanāla apraksts",
+                "custom_banner": "Pielāgots baneris",
+                "owner": "Servera īpašnieks",
+                "text_channel": "Teksta kanāls",
+                "voice_channel": "Balss kanāls"
             }
         },
         "status": {
             "online": "Tiešsaistē",
             "busy": "Netraucēt",
             "invisible": "Neredzams",
-            "offline": "Bezsaistē"
+            "offline": "Bezsaistē",
+            "idle": "dīkstāves"
         },
         "navigation": {
             "tabs": {
@@ -99,6 +152,37 @@
                 "unreads": "Nelasītās",
                 "saved": "Saglabātās piezīmes"
             }
+        },
+        "settings": {
+            "title": "Iestatījumi",
+            "categories": {
+                "user_settings": "Lietotāja iestatījumi",
+                "client_settings": "Klienta iestatījumi"
+            },
+            "actions": {
+                "remove": "Noņemt",
+                "upload": "Augšupielādēt",
+                "max_filesize": "(maks {{filesize}})"
+            },
+            "pages": {
+                "account": {
+                    "title": "Mans konts",
+                    "change_field": "Mainīt",
+                    "unique_id": "Tas ir unikāls jūsu konta lietotāja identifikators.",
+                    "2fa": {
+                        "title": "Divu faktoru autentifikācija",
+                        "description": "Divu faktoru autentifikācija.",
+                        "add_auth": "Pievienot autentificētāju",
+                        "remove_auth": "Noņemt autentificētāju"
+                    },
+                    "manage": {
+                        "title": "Kontu pārvaldība",
+                        "description": "jebkurā laikā atspējot vai dzēšot savu kontu. Šī darbība jūs izslēgs un pilnībā izdzēsīs jūsu kontu, tostarp tērzēšanas vēsturi un draugus.",
+                        "disable": "Atspējot kontu",
+                        "delete": "Dzēst kontu"
+                    }
+                }
+            }
         }
     },
     "general": {
@@ -107,6 +191,9 @@
         "loading": "Ielādē…",
         "tos": "Lietošanas noteikumi",
         "image_by": "Attēls no",
-        "unavailable": "Nepieejams"
+        "unavailable": "Nepieejams",
+        "on": "Uz",
+        "off": "Izslēgts",
+        "disabled": "Invalīdi"
     }
 }

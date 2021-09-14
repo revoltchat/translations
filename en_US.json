@@ -138,6 +138,11 @@
                         "latest": "Latest",
                         "oldest": "Oldest"
                     }
+                },
+                "errors": {
+                    "title": "Oops, there's nothing here!",
+                    "nochannels": "There are no channels on this server, or you do not have access to them.",
+                    "nochannel": "No channel"
                 }
             },
             "groups": {
@@ -208,7 +213,10 @@
                 "audio": {
                     "title": "Voice Settings",
                     "input_device": "Microphone",
-                    "output_device": "Speaker / Headset"
+                    "output_device": "Speaker / Headset",
+                    "tip_retry": "You didin't give the permission to access your microphone. Please {{retryBtn}}.",
+                    "device_label_NA": "N/A",
+                    "button_retry": "Retry"
                 },
                 "appearance": {
                     "title": "Appearance",
@@ -294,7 +302,8 @@
                     "public_bot": "Public Bot",
                     "public_bot_desc": "Whether to allow other users to invite this bot.",
                     "interactions_url": "Interactions URL",
-                    "reserved": "Note: This field is reserved for the future."
+                    "reserved": "Note: This field is reserved for the future.",
+                    "unique_id": "This is a unique identifier for your bot. This is not the bot's token."
                 },
                 "feedback": {
                     "title": "Feedback",
@@ -305,7 +314,10 @@
                     "bug": "Bug Tracker",
                     "bug_desc": "View currently active bug reports here."
                 },
-                "logOut": "Log Out"
+                "logOut": "Log Out",
+                "theme_shop": {
+                    "title": "Theme Shop"
+                }
             },
             "channel_pages": {
                 "overview": {
@@ -487,6 +499,11 @@
                 "create_bot": {
                     "title": "Create a new bot",
                     "failed": "Failed to create a bot!"
+                },
+                "server_identity": {
+                    "nickname": "Nickname",
+                    "title": "Change identity on {{server}}",
+                    "avatar": "Avatar"
                 }
             },
             "requires_online": "You need to be online to view this.",
@@ -618,7 +635,8 @@
         "UnsupportedBrowser": "Browser is missing support for this feature.",
         "DeniedNotification": "You denied notification access, check page settings.",
         "CompromisedPassword": "This password is compromised.",
-        "ReachedMaximumBots": "You've reached the maximum amount of bots."
+        "ReachedMaximumBots": "You've reached the maximum amount of bots.",
+        "AudioPermissionBlock": "No access to your microphone, please check your browser configuration."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
