@@ -158,7 +158,9 @@
                     "output_device": "スピーカー/ヘッドセット",
                     "input_device": "マイクロフォン",
                     "title": "音声設定",
-                    "device_label_NA": "該当無し"
+                    "device_label_NA": "該当無し",
+                    "tip_retry": "マイクの使用許可がありません。もう一度{{retryBtn}}",
+                    "button_retry": "もう一度"
                 },
                 "sessions": {
                     "logout": "他のすべてのセッションからのログアウト",
@@ -193,6 +195,9 @@
                     "unique_id": "これは、あなたのアカウントに固有のユーザー識別子です。",
                     "change_field": "変更",
                     "title": "マイアカウント"
+                },
+                "theme_shop": {
+                    "title": "テーマショップ"
                 }
             },
             "actions": {
@@ -440,7 +445,9 @@
                     "failed": "ボットの作成に失敗しました！"
                 },
                 "server_identity": {
-                    "title": "{{server}}のアイコンを変更"
+                    "title": "{{server}}のアイコンを変更",
+                    "nickname": "ニックネーム",
+                    "avatar": "アバター"
                 }
             },
             "copy_username": "クリックしてユーザー名をコピー",
@@ -606,7 +613,8 @@
         "UsernameTaken": "ユーザー名は既に取得されています。",
         "BlockedOther": "このユーザーはあなたをブロックしました。",
         "NoEffect": "この要求は何の効果もありませんでした。",
-        "ReachedMaximumBots": "ボット数が上限に達しました。"
+        "ReachedMaximumBots": "ボット数が上限に達しました。",
+        "AudioPermissionBlock": "マイクの使用許可がありません。もう一度ブラウザの設定を確かめて下さい。"
     },
     "permissions": {
         "server": {
