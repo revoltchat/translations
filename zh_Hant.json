@@ -499,7 +499,29 @@
             "block_user": "封鎖使用者",
             "unblock_user": "取消封鎖使用者",
             "open_image": "開啟圖片",
-            "open_video": "開啟影片"
+            "open_video": "開啟影片",
+            "create_channel": "建立頻道",
+            "create_category": "建立類別",
+            "create_invite": "建立邀請",
+            "open_notification_options": "通知選項",
+            "open_group_settings": "群組設定",
+            "add_friend": "新增好友",
+            "remove_friend": "刪除好友",
+            "cancel_friend": "取消好友邀請",
+            "custom_status": "自訂狀態",
+            "clear_status": "清除狀態",
+            "leave_group": "離開群組",
+            "leave_server": "離開伺服器",
+            "close_dm": "關閉私訊",
+            "delete_server": "刪除伺服器",
+            "edit_identity": "編輯身份",
+            "delete_channel": "刪除頻道",
+            "open_channel_settings": "頻道設定",
+            "open_server_settings": "伺服器設定",
+            "set_custom_status": "設定自訂狀態"
+        },
+        "permissions": {
+            "required": "權限不足"
         }
     },
     "login": {
@@ -549,5 +571,38 @@
         "privacy": "隱私條約",
         "tos": "使用規範",
         "about": "關於"
+    },
+    "quantities": {
+        "members": {
+            "one": "一個成員",
+            "many": "{{count}} 位成員"
+        }
+    },
+    "dayjs": {
+        "lastDay": "[昨天] {{time}}",
+        "sameDay": "[今天] {{time}}",
+        "nextDay": "[明天] {{time}}",
+        "lastWeek": "[最後] dddd [在]{{time}}",
+        "nextWeek": "dddd [在] {{time}}",
+        "defaults": {
+            "date_separator": "/",
+            "date_format": "ISO8601",
+            "twelvehour": "yes"
+        }
+    },
+    "notifications": {
+        "now_friends": "您跟 @{{person}} 成為了好友！",
+        "sent_request": "@{{person}} 向您發送了好友邀請。"
+    },
+    "error": {
+        "NetworkError": "網路發生錯誤。"
+    },
+    "permissions": {
+        "channel": {
+            "UploadFiles": {
+                "d": "允許成員在文字頻道上傳檔案。",
+                "t": "上傳檔案"
+            }
+        }
     }
 }
