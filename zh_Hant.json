@@ -34,7 +34,10 @@
                 "audio": {
                     "output_device": "喇叭/耳機",
                     "input_device": "麥克風",
-                    "title": "語音設定"
+                    "title": "語音設定",
+                    "tip_retry": "您沒有給予麥克風權限，請 {{retryBtn}}。",
+                    "device_label_NA": "無法使用",
+                    "button_retry": "重試"
                 },
                 "sessions": {
                     "created": "建立於 {{time_ago}}",
@@ -81,7 +84,8 @@
                     "add": "新增機器人",
                     "copy_invite": "複製邀請連結",
                     "create_bot": "創造機器人",
-                    "title": "我的機器人"
+                    "title": "我的機器人",
+                    "unique_id": "這是您機器人的唯一標誌，而不是機器人的金鑰"
                 },
                 "logOut": "登出",
                 "feedback": {
@@ -136,6 +140,9 @@
                     "enable_desktop": "開啟桌面通知。",
                     "push_notifications": "傳送通知",
                     "title": "通知"
+                },
+                "theme_shop": {
+                    "title": "主題商店"
                 }
             },
             "actions": {
@@ -297,7 +304,12 @@
                 "uploading_file": "上傳中…",
                 "message_saved": "儲存到記事本",
                 "message_who": "發送給 {{person}}",
-                "message_where": "發送到 {{channel_name}}"
+                "message_where": "發送到 {{channel_name}}",
+                "errors": {
+                    "title": "哎呀，這裡什麼都沒有!",
+                    "nochannels": "此伺服器沒有頻道，或者您沒有檢視頻道的權限",
+                    "nochannel": "沒有頻道"
+                }
             },
             "categories": {
                 "members": "成員",
@@ -329,7 +341,18 @@
                     "confirm_leave_long": "您將無法再加入除非您再度被邀請",
                     "confirm_ban_reason": "封鎖原因",
                     "unfriend_user": "移除 {{name}}？",
-                    "confirm_leave": "離開 {{name}}？"
+                    "confirm_leave": "離開 {{name}}？",
+                    "block_user_long": "您確定要封禁{{name}}嗎? 他們將會被移出您的好友清單",
+                    "create_invite_created": "這是您的新邀請代碼:",
+                    "confirm_kick": "您確定要踢出 {{name}}嗎?",
+                    "confirm_ban": "您將會被封禁{{name}}",
+                    "unfriend_user_long": "您可能無法再和他們對話，除非重新新增",
+                    "block_user": "要封鎖 {{name}}嗎?",
+                    "confirm_close_dm_long": "這也會為對方刪除對話，但您可以等會再次打開",
+                    "confirm_delete": "要刪除 {{name}}?",
+                    "confirm_delete_long": "刪除之後，將無法復原。",
+                    "confirm_delete_message_long": "您確定要刪除嗎?",
+                    "create_invite_generate": "正在建立邀請…"
                 },
                 "onboarding": {
                     "pick": "選擇一個使用者名稱讓其他人能夠找到您，之後可以在設定中進行更改。",
@@ -356,12 +379,28 @@
                     "block": "封鎖",
                     "kick": "踢出",
                     "ban": "封鎖",
-                    "ok": "確定"
+                    "ok": "確定",
+                    "reload": "重新載入程式",
+                    "send_email": "發送電子郵件",
+                    "create": "建立",
+                    "reveal": "顯示",
+                    "preview": "預覽",
+                    "save": "儲存"
                 },
                 "external_links": {
-                    "trust_domain": "信任此域名"
+                    "trust_domain": "信任此域名",
+                    "short": "您確定要訪問這個連結嗎: ",
+                    "title": "外部連結可能有危險!"
                 },
-                "error": "發現錯誤！"
+                "error": "發現錯誤！",
+                "account": {
+                    "change": {
+                        "password": "更改您的密碼",
+                        "username": "更改您的使用者名稱",
+                        "email": "更改您的電子郵件"
+                    },
+                    "failed": "更改失效!"
+                }
             },
             "friends": {
                 "from": {
@@ -383,10 +422,84 @@
                 "disconnected": "已斷線。"
             },
             "copy": "點選複製",
-            "copy_username": "點選複製 username"
+            "copy_username": "點選複製 username",
+            "popovers": {
+                "user_profile": {
+                    "profile": "個人資料",
+                    "no_groups": "你們沒有共同的群組!",
+                    "mutual_friends": "共同好友",
+                    "mutual_groups": "共同群組",
+                    "mutual_servers": "共同的伺服器",
+                    "empty": "這裡什麼都沒有…",
+                    "no_users": "你們沒有共同的好友!",
+                    "no_servers": "你們沒有共同的伺服器!",
+                    "sub": {
+                        "badges": "徽章",
+                        "information": "關於我",
+                        "connections": "連結"
+                    },
+                    "badges": {
+                        "translator": "翻譯人員",
+                        "supporter": "支援者",
+                        "responsible_disclosure": "Bug發現者",
+                        "early_adopter": "早期使用者"
+                    }
+                },
+                "server_identity": {
+                    "title": "更改在 {{server}} 的身分",
+                    "nickname": "暱稱",
+                    "avatar": "頭像"
+                },
+                "create_bot": {
+                    "title": "建立新機器人",
+                    "failed": "建立機器人失敗"
+                },
+                "user_picker": {
+                    "select": "選擇要加入的好友"
+                }
+            },
+            "requires_online": "您需要上線才能查看",
+            "invite": {
+                "invited_by": "由 {{user}} 邀請",
+                "login": "登入 Revolt",
+                "accept": "接受邀請",
+                "user_count": "{{member_count}} 位使用者",
+                "invalid": "邀請無效!",
+                "invalid_desc": "此邀請可能不存在，或是您沒有權限加入"
+            }
         },
         "context_menu": {
-            "reply_message": "回覆"
+            "reply_message": "回覆",
+            "save_image": "儲存圖片",
+            "copy_text": "複製文字",
+            "copy_uid": "複製使用者 ID",
+            "copy_sid": "複製伺服器 ID",
+            "copy_cid": "複製頻道 ID",
+            "copy_mid": "複製訊息 ID",
+            "copy_id": "複製 ID",
+            "copy_selection": "複製選擇的區域",
+            "copy_message_link": "複製訊息連結",
+            "mention": "提及",
+            "message_user": "訊息",
+            "view_profile": "檢視個人檔案",
+            "mark_as_read": "標記為已讀",
+            "retry_message": "重新發送",
+            "cancel_message": "取消發送",
+            "quote_message": "引用訊息",
+            "edit_message": "編輯訊息",
+            "delete_message": "刪除訊息",
+            "remove_member": "從群組中移除",
+            "kick_member": "踢出成員",
+            "ban_member": "封禁成員",
+            "open_file": "開啟檔案",
+            "save_file": "儲存檔案",
+            "save_video": "儲存影片",
+            "copy_link": "複製連結",
+            "open_link": "開啟連結",
+            "block_user": "封鎖使用者",
+            "unblock_user": "取消封鎖使用者",
+            "open_image": "開啟圖片",
+            "open_video": "開啟影片"
         }
     },
     "login": {
@@ -428,13 +541,13 @@
     },
     "general": {
         "unavailable": "無法使用",
-        "disabled": "關閉",
+        "disabled": "禁用",
         "off": "關閉",
         "on": "開啟",
         "loading": "讀取中…",
         "image_by": "圖示來源",
         "privacy": "隱私條約",
         "tos": "使用規範",
-        "about": "關於我們"
+        "about": "關於"
     }
 }
