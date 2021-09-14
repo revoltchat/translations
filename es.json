@@ -367,8 +367,8 @@
             "open_link": "Abrir enlace",
             "block_user": "Bloquear usuario",
             "unblock_user": "Desbloquear usuario",
-            "custom_status": "Estado personalizado",
-            "clear_status": "Remover estado personalizado",
+            "custom_status": "Establecer estado personalizado",
+            "clear_status": "Borrar estado personalizado",
             "set_custom_status": "Establecer un estado personalizado",
             "open_channel_settings": "Configuración del canal",
             "open_video": "Abrir vídeo",
@@ -395,7 +395,7 @@
             "leave_server": "Abandonar servidor",
             "delete_server": "Eliminar servidor",
             "delete_channel": "Eliminar canal",
-            "close_dm": "Cerrar DM",
+            "close_dm": "Cerrar MD",
             "create_invite": "Crear invitación",
             "create_channel": "Crear canal",
             "open_notification_options": "Opciones de notificaciones",
@@ -428,7 +428,7 @@
                     "block_user_long": "¿Estás seguro de que quieres bloquear a {{name}}? También se eliminará de tu lista de amigos.",
                     "confirm_close_dm": "¿Cerrar conversación con {{name}}?",
                     "confirm_delete_message_long": "¿Estás seguro de que quieres eliminar esto?",
-                    "confirm_kick": "¿Estás seguro de que quieres patear a {{name}}?",
+                    "confirm_kick": "¿Estás seguro de que quieres expulsar a {{name}}?",
                     "confirm_ban_reason": "Motivo de baneo",
                     "confirm_delete_long": "Una vez que se elimina, no hay vuelta atrás.",
                     "confirm_ban": "Estás a punto de banear a {{name}}",
@@ -454,7 +454,7 @@
                     "kick": "Expulsar",
                     "block": "Bloquear",
                     "leave": "Salir",
-                    "remove": "Remover",
+                    "remove": "Eliminar",
                     "delete": "Eliminar",
                     "hide": "Ocultar",
                     "back": "Volver",
@@ -465,8 +465,8 @@
                     "copy": "Copia manual:",
                     "https": "Ahora mismo no estás en un contexto HTTPS."
                 },
-                "signed_out": "¡Te han dado de baja!",
-                "token_reveal": "{{name}} token",
+                "signed_out": "¡Te han desconectado!",
+                "token_reveal": "Token de {{name}}",
                 "external_links": {
                     "trust_domain": "Confiar en este dominio",
                     "title": "¡Los enlaces externos pueden ser peligrosos!",
@@ -494,7 +494,7 @@
                         "translator": "Traductor",
                         "responsible_disclosure": "Error(es) revelado(s) responsablemente"
                     },
-                    "no_users": "¡No hay amigos en común!",
+                    "no_users": "¡Ningun amigo en común!",
                     "empty": "Está un poco vacío aquí…",
                     "sub": {
                         "badges": "Insignias",
@@ -503,9 +503,9 @@
                     },
                     "mutual_friends": "Amigos en común",
                     "mutual_groups": "Grupos en común",
-                    "no_groups": "¡No hay grupos en común!",
+                    "no_groups": "¡Ningun grupo en común!",
                     "profile": "Perfil",
-                    "no_servers": "¡No hay servidores en común!",
+                    "no_servers": "¡Ningún servidor en común!",
                     "mutual_servers": "Servidores en común"
                 },
                 "user_picker": {
@@ -533,7 +533,7 @@
             "invite": {
                 "invited_by": "Invitado por {{user}}",
                 "accept": "Aceptar invitación",
-                "user_count": "{{member_count}} usuarios",
+                "user_count": "Hay {{member_count}} usuarios",
                 "login": "Iniciar sesión en Revolt",
                 "invalid": "¡Invitación inválida!",
                 "invalid_desc": "Puede que la invitación no exista o que no tengas permiso para unirte."
@@ -690,7 +690,7 @@
             },
             "UploadFiles": {
                 "t": "Subir archivos",
-                "d": "Permite a los miembros cargar archivos en canales de texto."
+                "d": "Permite a los miembros adjuntar archivos en canales de texto."
             }
         },
         "server": {
