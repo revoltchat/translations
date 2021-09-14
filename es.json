@@ -7,7 +7,7 @@
                     "user_joined": "{{user}} se ha unido",
                     "user_left": "{{user}} se ha ido",
                     "added_by": "{{other_user}} ha añadido {{user}}",
-                    "removed_by": "{{user}} ha sido removido por {{other_user}}",
+                    "removed_by": "{{other_user}} ha eliminado {{user}}",
                     "channel_renamed": "{{user}} renombrado el canal a {{name}}",
                     "channel_description_changed": "{{user}} cambió la descripción del canal",
                     "channel_icon_changed": "{{user}} cambió el icono de canal",
@@ -35,11 +35,11 @@
                     "connected": "Conectado a voz",
                     "leave": "Salir",
                     "mute": "Silenciar",
-                    "unmute": "Quitar silencio"
+                    "unmute": "Desactivar Silencio"
                 },
                 "misc": {
                     "viewing_old": "Viendo mensajes antiguos",
-                    "jump_present": "Ver actuales",
+                    "jump_present": "Ir a actuales",
                     "spoiler_attachment": "Spoiler",
                     "blocked_messages": "{{count}} mensajes bloqueados",
                     "failed_load": "No se pudo cargar el mensaje.",
@@ -49,11 +49,11 @@
                     "sent_multiple_files": "Envió múltiples archivos"
                 },
                 "notifications": {
-                    "default": "Uso por defecto",
+                    "default": "Usar opciones por defecto",
                     "all": "Todos los mensajes",
                     "mention": "Solo menciones",
                     "none": "Ninguno",
-                    "muted": "Apagado"
+                    "muted": "Silenciado"
                 },
                 "nsfw": {
                     "channel": {
@@ -73,7 +73,7 @@
                 "errors": {
                     "title": "¡Vaya, no hay nada aquí!",
                     "nochannels": "Este servidor no tiene canales o no tienes acceso a ninguno.",
-                    "nochannel": "Sin canal"
+                    "nochannel": "No hay canal"
                 }
             },
             "categories": {
@@ -128,20 +128,20 @@
                     "title": "Sesiones",
                     "active_sessions": "Sesiones activas",
                     "created": "Creado hace {{time_ago}}",
-                    "logout": "Cerrar sesión en todas las demás sesiones"
+                    "logout": "Cerrar sesión en todas las otras sesiones"
                 },
                 "account": {
                     "title": "Mi cuenta",
-                    "change_field": "Cambio",
+                    "change_field": "Cambiar",
                     "unique_id": "Este es un identificador de usuario único para tu cuenta.",
                     "2fa": {
-                        "title": "Autenticación de dos factores",
-                        "add_auth": "Agregar autenticador",
-                        "remove_auth": "Eliminar autenticador",
+                        "title": "Autentificacion de 2 factores",
+                        "add_auth": "Agregar autentificador",
+                        "remove_auth": "Eliminar autentificador",
                         "description": "Agrega una capa adicional de seguridad activando la función 2FA en tu cuenta."
                     },
                     "manage": {
-                        "title": "Administración de cuentas",
+                        "title": "Administrar cuenta",
                         "description": "Deshabilita o elimina tu cuenta en cualquier momento. Esta acción cerrará la sesión y eliminará por completo tu cuenta, incluido tu historial de chat y amigos.",
                         "disable": "Deshabilitar cuenta",
                         "delete": "Borrar cuenta"
@@ -188,14 +188,14 @@
                     "suggest": "Enviar sugerencia de una característica",
                     "issue": "Crear un nuevo problema",
                     "suggest_desc": "Sugerir nuevas características de Revolt en discusiones de GitHub.",
-                    "bug_desc": "Vea los informes de errores actualmente activos aquí.",
+                    "bug_desc": "Ver informes de errores activos actualmente aquí.",
                     "issue_desc": "Para ayudarnos a clasificar los problemas con mayor facilidad, puede crear un problema en GitHub."
                 },
                 "appearance": {
                     "theme_data": "Datos de tema",
                     "emoji_pack": "Paquete de emojis",
-                    "overrides": "Anular tema",
-                    "reset_overrides": "Restablecer anulaciones",
+                    "overrides": "Cambiar tema",
+                    "reset_overrides": "Restablecer cambios",
                     "export_clipboard": "Exportar al portapapeles",
                     "import_clipboard": "Importar desde portapapeles",
                     "title": "Apariencia",
@@ -216,7 +216,7 @@
                     "custom_css": "CSS personalizado",
                     "sync": "Sincronizar opciones",
                     "advanced": "Opciones avanzadas",
-                    "import_theme": "Importar tema desde una cadena de texto",
+                    "import_theme": "Importar tema desde linea de texto",
                     "font": "Fuente",
                     "ligatures": "Ligaduras de fuentes",
                     "mono_font": "Selector de fuente monoespaciado",
@@ -232,7 +232,7 @@
                         "appearance": "Esto sincronizará opciones como los paquetes de emoji y la densidad de los mensajes.",
                         "locale": "Esto sincronizará el idioma elegido actualmente."
                     },
-                    "categories": "Sincronización de categorías"
+                    "categories": "Sincronizar categorías"
                 },
                 "experiments": {
                     "not_available": "No hay experimentos disponibles en este momento.",
@@ -253,7 +253,7 @@
                     "public_bot_tip": "El bot es público. Cualquiera puede invitarlo.",
                     "private_bot_tip": "El bot es privado. Sólo tú puedes invitarlo.",
                     "public_bot": "Bot público",
-                    "interactions_url": "URL de Interacciones",
+                    "interactions_url": "Interacciones de URL",
                     "reserved": "Nota: Este campo está reservado para el futuro.",
                     "copy_invite": "Copiar enlace de invitación",
                     "public_bot_desc": "Permitir o no que otros usuarios inviten a este bot.",
@@ -291,21 +291,21 @@
             "tips": {
                 "account": {
                     "b": "Ir a la configuración del perfil.",
-                    "a": "¿Quiere personalizar tu perfil público?"
+                    "a": "¿Quieres personalizar tu perfil público?"
                 },
                 "languages": {
-                    "a": "¿Falta un idioma que quieres?",
+                    "a": "¿Falta algún idioma que quieres?",
                     "b": "Ayuda contribuyendo traducciones."
                 },
                 "sessions": {
                     "a": "Si ves una sesión desconocida en la lista,",
-                    "b": "mejora tu seguridad cambiando tu contraseña y activando la autenticación de dos factores."
+                    "b": "mejora tu seguridad cambiando tu contraseña y activando la autentificación de dos factores."
                 }
             },
             "actions": {
                 "remove": "Borrar",
                 "upload": "Subir",
-                "max_filesize": "(max {{filesize}})"
+                "max_filesize": "(tamaño maximo {{filesize}})"
             },
             "server_pages": {
                 "overview": {
@@ -341,7 +341,7 @@
             "permissions": {
                 "server": "Permisos del servidor",
                 "channel": "Permisos de canal",
-                "create_role": "Crea un nuevo rol",
+                "create_role": "Crear un nuevo rol",
                 "role_name": "Nombre de rol",
                 "default_role": "Por defecto"
             }
@@ -474,7 +474,7 @@
                 }
             },
             "friends": {
-                "pending": "Solicitudes pendiente",
+                "pending": "Solicitudes pendientes",
                 "outgoing": "Solicitud de amistad saliente.",
                 "incoming": "Solicitud de amistad entrante.",
                 "blocked": "Bloqueado",
@@ -523,12 +523,12 @@
             },
             "status": {
                 "connecting": "Conectando…",
-                "offline": "Desconectado.",
+                "offline": "Sin conexión",
                 "disconnected": "Desconectado.",
                 "reconnecting": "Reconectando…"
             },
             "requires_online": "Necesitas estar conectado para ver esto.",
-            "copy_username": "Haz click para copiar nombre de usuario",
+            "copy_username": "Haz click para copiar el nombre de usuario",
             "copy": "Haz clic para copiar",
             "invite": {
                 "invited_by": "Invitado por {{user}}",
