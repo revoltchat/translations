@@ -595,7 +595,18 @@
         "sent_request": "@{{person}} 向您發送了好友邀請。"
     },
     "error": {
-        "NetworkError": "網路發生錯誤。"
+        "NetworkError": "網路發生錯誤。",
+        "Unlabelled": "發生某些問題。",
+        "FailedValidation": "無法驗證字串。",
+        "DatabaseError": "資料庫錯誤。",
+        "AudioPermissionBlock": "無法使用您的麥克風，請檢查瀏覽器權限設定。",
+        "InternalError": "內部錯誤。",
+        "MissingPermission": "您沒有該操作的權限。",
+        "ReachedMaximumBots": "您已到達機器人的最大數量。",
+        "IoError": "伺服器發生 I/O 錯誤。",
+        "UnsupportedBrowser": "瀏覽器不支援此功能。",
+        "DeniedNotification": "您拒絕了通知權限，請檢查頁面設定。",
+        "CompromisedPassword": "此密碼不安全。"
     },
     "permissions": {
         "channel": {
@@ -603,6 +614,22 @@
                 "d": "允許成員在文字頻道上傳檔案。",
                 "t": "上傳檔案"
             }
+        },
+        "server": {
+            "ManageRoles": {
+                "t": "管理身份組",
+                "d": "允許成員建立，編輯和刪除等級低於自己的身份組。也允許修改頻道身份組權限。"
+            },
+            "ManageChannels": {
+                "t": "管理頻道",
+                "d": "允許成員建立，編輯和刪除頻道。"
+            },
+            "ManageServer": {
+                "t": "管理伺服器"
+            }
         }
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
     }
 }
