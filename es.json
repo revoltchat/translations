@@ -6,7 +6,7 @@
                 "system": {
                     "user_joined": "{{user}} se ha unido",
                     "user_left": "{{user}} se ha ido",
-                    "added_by": "{{user}} ha sido añadido por {{other_user}}",
+                    "added_by": "{{other_user}} ha añadido {{user}}",
                     "removed_by": "{{user}} ha sido removido por {{other_user}}",
                     "channel_renamed": "{{user}} renombrado el canal a {{name}}",
                     "channel_description_changed": "{{user}} cambió la descripción del canal",
@@ -14,19 +14,19 @@
                     "user_kicked": "{{user}} ha sido expulsado",
                     "user_banned": "{{user}} ha sido baneado"
                 },
-                "message_where": "Mensaje {{channel_name}}",
+                "message_where": "Enviar un mensaje en {{channel_name}}",
                 "bot": "Bot",
                 "unknown_user": "<Usuario desconocido>",
                 "message_saved": "Guardar en tus notas",
                 "uploading_file": "Subiendo…",
                 "failed_upload": "¡Error al subir el archivo!",
-                "attached_file": "Adjunto {{filename}}",
+                "attached_file": "{{filename}} adjuntado",
                 "typing": {
                     "single": "{{user}} está escribiendo…",
                     "multiple": "{{userlist}} y {{user}} están escribiendo…",
-                    "several": "Varios personas están escribiendo…"
+                    "several": "Varias personas están escribiendo…"
                 },
-                "message_who": "Mensaje {{person}}",
+                "message_who": "Enviar un mensaje a  {{person}}",
                 "start": {
                     "group": "Este es el comienzo de la conversación."
                 },
@@ -100,7 +100,7 @@
             "tabs": {
                 "dev": "Desarrollador",
                 "saved": "Notas guardadas",
-                "unreads": "No leídos",
+                "unreads": "Sin leer",
                 "home": "Inicio",
                 "friends": "Amigos"
             }
@@ -343,10 +343,10 @@
         },
         "status": {
             "offline": "Desconectado",
-            "idle": "Inactivo",
+            "idle": "Ausente",
             "busy": "No molestar",
             "invisible": "Invisible",
-            "online": "Activo"
+            "online": "Conectado"
         },
         "context_menu": {
             "retry_message": "Reintentar envío",
@@ -558,7 +558,7 @@
             "resend": "¡No se pudo reenviar!"
         },
         "successful_registration": "¡Registrado exitosamente!",
-        "open_mail_provider": "Abierto {{provider}}",
+        "open_mail_provider": "Abrir {{provider}}",
         "check_spam": "Asegúrate de revisar el correo no deseado si no puede encontrarlo",
         "check_mail": "Revisa tu correo.",
         "cancel": "Cancelar solicitud.",
@@ -576,12 +576,12 @@
     },
     "general": {
         "image_by": "Imagen de",
-        "privacy": "Privacidad",
+        "privacy": "Política de privacidad",
         "tos": "Condiciones de servicio",
         "about": "Acerca de",
         "loading": "Cargando…",
-        "on": "Encendido",
-        "off": "Apagado",
+        "on": "Activado",
+        "off": "Desactivado",
         "disabled": "Deshabilitado",
         "unavailable": "No disponible"
     },
