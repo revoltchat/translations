@@ -355,7 +355,8 @@
                     "public_bot_tip": "Bot público. Qualquer pessoa poderá convidá-lo.",
                     "token": "Token",
                     "add": "Adicionar Bot",
-                    "copy_invite": "Copiar link de Convite"
+                    "copy_invite": "Copiar link de Convite",
+                    "unique_id": "Este é um indentificador único para seu bot. Não é o token do bot."
                 },
                 "source_code": "Código Fonte",
                 "donate": {
@@ -434,7 +435,9 @@
                     "output_device": "Colunas / Auscutadores",
                     "input_device": "Microfone",
                     "title": "Definições de Voz",
-                    "device_label_NA": "N/D"
+                    "device_label_NA": "N/D",
+                    "tip_retry": "Você não tens permissão para utilizar seu microfone, por favor {{retryBtn}}.",
+                    "button_retry": "Tentar novamente"
                 },
                 "sessions": {
                     "logout": "Terminar todas as outras sessões",
@@ -479,6 +482,9 @@
                     "suggest_desc": "Sugira uma nova funcionalidade para o Revolt nas discussões do GitHub.",
                     "suggest": "Enviar sugestão de funcionalidade",
                     "title": "Comentários"
+                },
+                "theme_shop": {
+                    "title": "Loja de temas"
                 }
             },
             "actions": {
@@ -626,7 +632,12 @@
                 "uploading_file": "Enviando…",
                 "message_saved": "Guardar nas suas notas",
                 "message_who": "Contactar {{person}}",
-                "message_where": "Contactar {{channel_name}}"
+                "message_where": "Contactar {{channel_name}}",
+                "errors": {
+                    "title": "Ops, não há nada por aqui!",
+                    "nochannels": "Este servidor não possui canais, ou não tens acesso a eles.",
+                    "nochannel": "Sem canal"
+                }
             },
             "categories": {
                 "members": "Membros",
@@ -698,6 +709,6 @@
         "image_by": "Imagem por",
         "privacy": "Política de Privacidade",
         "tos": "Termos de Serviço",
-        "about": "Acerca"
+        "about": "Sobre"
     }
 }
