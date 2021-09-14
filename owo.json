@@ -94,7 +94,8 @@
                 "token_reveal": "{{name}}'s Token",
                 "external_links": {
                     "title": "Extewnyaw winks can be dangewous!",
-                    "trust_domain": "Twust this domain"
+                    "trust_domain": "Twust this domain",
+                    "short": "Senpai, arew wou suwre wou want to go to: "
                 }
             },
             "requires_online": "Youw need to be onwine to view this.",
@@ -126,6 +127,11 @@
                 "create_bot": {
                     "title": "Cweate a nyew bot",
                     "failed": "Faiwed to cweate a bot!"
+                },
+                "server_identity": {
+                    "title": "Chawnge identity on {{server}}",
+                    "nickname": "Niickname-chan",
+                    "avatar": "Awatar"
                 }
             },
             "copy_username": "Cwick to copy uwsewname",
@@ -230,6 +236,11 @@
                         "oldest": "Owdest"
                     },
                     "title": "Seawch"
+                },
+                "errors": {
+                    "nochannels": "Theews serwer has nwon channew, or wou downt hawe waccess to awny.",
+                    "title": "Owo, thewe's nowthin hewe! ><",
+                    "nochannel": "Nwon channew"
                 }
             },
             "groups": {
@@ -451,14 +462,19 @@
                     "public_bot": "Pubwic Bot",
                     "public_bot_desc": "Whethew to awwow othew usews to invite this bot.",
                     "interactions_url": "Intewactions URL",
-                    "reserved": "Nyote: This fiewd is wesewved fow the futuwe."
+                    "reserved": "Nyote: This fiewd is wesewved fow the futuwe.",
+                    "unique_id": "Theews is a uniqwe idewntifier for wour senpai. Theews is not twe senpai token >///<."
                 },
                 "audio": {
                     "title": "Vwoice Settings- (OwO What's this)",
                     "input_device": "Micwophone",
                     "output_device": "Spweaker / Headset",
                     "device_label_NA": "N/A",
-                    "button_retry": "retwy"
+                    "button_retry": "retwy",
+                    "tip_retry": "Wou didiwnt giwve twe perwmissyon to waccess wour meewcrophowne, please >< {{retryBtn}}."
+                },
+                "theme_shop": {
+                    "title": "Thewme swop"
                 }
             },
             "categories": {
@@ -641,7 +657,8 @@
         "Unauthorized": "Unyauthowized.",
         "NetworkError": "Network config issue.",
         "CompromisedPassword": "Tyis passwowowd is cyompwomised.",
-        "ReachedMaximumBots": "Uw'we rewsed the maxwimum amount ow bowts :c"
+        "ReachedMaximumBots": "Uw'we rewsed the maxwimum amount ow bowts :c",
+        "AudioPermissionBlock": "Nyon waccess to wour meewcrophowne, please >< chewck wour brOwOser's configwration."
     },
     "permissions": {
         "server": {
