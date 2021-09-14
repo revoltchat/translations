@@ -138,7 +138,12 @@
                 },
                 "unknown_user": "<Người Dùng Chưa Xác Định>",
                 "message_saved": "Lưu vào ghi chú của bạn",
-                "uploading_file": "Đang tải lên…"
+                "uploading_file": "Đang tải lên…",
+                "errors": {
+                    "title": "Ối, không có gì ở đây cả!!!",
+                    "nochannels": "Máy chủ này không có kênh nào  cả, hoặc bạn không có quyền truy cập vào chúng.",
+                    "nochannel": "Không có kênh nào"
+                }
             },
             "groups": {
                 "create": "Tạo nhóm",
@@ -180,7 +185,7 @@
                         "compact_description": "Chat chuyển tiếp Internet tốt."
                     },
                     "accent_selector": "Màu nhấn mạnh",
-                    "overrides": "Ghi đè Chủ đề",
+                    "overrides": "Ghi đè  lên  Chủ đề",
                     "reset_overrides": "Làm lại Ghi đè",
                     "import": "Nhập chủ đề",
                     "import_theme": "Nhập chủ đề từ chuỗi",
@@ -273,13 +278,35 @@
                     "issue": "Tạo một bản phát hành mới",
                     "issue_desc": "Để giúp chúng tôi xử lý các vấn đề dễ dàng hơn, bạn có thể tạo vấn đề trên GitHub.",
                     "bug": "Trình theo dõi lỗi",
-                    "bug_desc": "Xem các báo cáo lỗi hiện đang hoạt động tại đây."
+                    "bug_desc": "Xem các báo cáo về lỗi hiện đang hoạt động tại đây."
                 },
                 "native": {
                     "title": "Cài Đặt Màn Hình"
                 },
                 "bots": {
-                    "title": "Máy Của Tôi"
+                    "title": "Máy Của Tôi",
+                    "unique_id": "Đây là ID nhận dạng riêng cho Bot của bạn. Đây không phải dấu hiệu nhận dạng của Bot.",
+                    "create_bot": "Tạo một Bot",
+                    "reserved": "Ghi chú: Khoảng này được dành cho tương lai.",
+                    "copy_invite": "Sao chép liên kết mời",
+                    "add": "Thêm Bot",
+                    "token": "Dấu hiệu nhận dạng",
+                    "public_bot_tip": "Bot này công khai. Ai cũng có thể mời nó.",
+                    "private_bot_tip": "Bot này bí mật. Chỉ có bạn mới có thể mời nó.",
+                    "public_bot": "Bot công khai",
+                    "public_bot_desc": "Có cho phép người dùng khác mời Bot này hay không.",
+                    "interactions_url": "Link tương tác"
+                },
+                "audio": {
+                    "title": "Cài đặt giọng nói",
+                    "input_device": "Microphone",
+                    "output_device": "Loa / Tai nghe",
+                    "tip_retry": "Bạn chưa cấp quyền truy cập microphone cho chúng tôi, vui lòng {{retryBtn}}.",
+                    "device_label_NA": "Không có",
+                    "button_retry": "thử lại"
+                },
+                "theme_shop": {
+                    "title": "Cửa hàng chủ đề"
                 }
             },
             "actions": {
@@ -340,7 +367,7 @@
                 },
                 "sessions": {
                     "b": "bảo mật tài khoản của bạn bằng việc đổi mật khẩu và dùng Bảo Mật Hai Lớp.",
-                    "a": "Nếu như bạn thấy một phiên không xác định trên danh mục"
+                    "a": "Nếu như bạn thấy một phiên không xác định trên danh sách,"
                 },
                 "account": {
                     "a": "Tìm cách để chỉnh sửa hồ sơ của bạn?",
@@ -419,7 +446,8 @@
                     "cancel": "Hủy bỏ",
                     "preview": "Xem trước",
                     "continue": "Tiếp tục",
-                    "send_email": "Gửi Email"
+                    "send_email": "Gửi Email",
+                    "edit": "Chỉnh sửa"
                 },
                 "error": "Đã xảy ra lỗi!",
                 "clipboard": {
@@ -434,7 +462,13 @@
                         "password": "Thay đổi mật khẩu"
                     },
                     "failed": "Thay đổi thất bại!"
-                }
+                },
+                "external_links": {
+                    "trust_domain": "Tin tưởng tên miền này",
+                    "short": "Ban có chắc muốn chuyển hướng đến: ",
+                    "title": "Liên kết bên ngoài có thể rất nguy hiểm!!!"
+                },
+                "token_reveal": "Mã nhận dạng của {{name}}"
             },
             "popovers": {
                 "user_profile": {
@@ -448,10 +482,89 @@
                     "no_servers": "Không có máy chủ chung!",
                     "sub": {
                         "badges": "Huy hiệu",
-                        "information": "Thông tin"
+                        "information": "Thông tin",
+                        "connections": "Kết nối"
+                    },
+                    "badges": {
+                        "translator": "Phiên dịch viên",
+                        "supporter": "Người hỗ trợ dự án",
+                        "responsible_disclosure": "Người báo lỗi",
+                        "early_adopter": "Người hỗ trợ từ những ngày đầu"
                     }
+                },
+                "create_bot": {
+                    "title": "Tạo một Bot mới.",
+                    "failed": "Tạo Bot thất bại!"
+                },
+                "server_identity": {
+                    "title": "Thay đổi danh tính ở  {{server}}",
+                    "nickname": "Biệt danh",
+                    "avatar": "Hình đại diện"
+                },
+                "user_picker": {
+                    "select": "Chọn bàn bè để thêm."
                 }
+            },
+            "requires_online": "Bạn phải có kết nối mạng để xem thứ này.",
+            "invite": {
+                "invited_by": "Được mời bỏi {{user}}",
+                "login": "Đăng nhập vào Revolt",
+                "invalid": "Lời mời không hợp lệ!",
+                "invalid_desc": "Lời mời không tồn tại hoặc bạn không có quyền tham gia.",
+                "accept": "Chấp nhận lời mời",
+                "user_count": "{{member_count}} người"
             }
+        },
+        "context_menu": {
+            "copy_text": "Sao chép văn bản",
+            "cancel_message": "Hủy gửi",
+            "save_image": "Lưu ảnh",
+            "open_video": "Mở video",
+            "open_image": "Mở ảnh",
+            "copy_link": "Sao chép liên kết",
+            "block_user": "Chặn người dùng",
+            "remove_friend": "Bỏ bạn",
+            "set_custom_status": "Thêm hoạt động tự thiết lập",
+            "copy_selection": "Sao chép phần lựa chọn",
+            "copy_sid": "Sao chép ID máy chủ",
+            "mention": "Nhắc tới",
+            "view_profile": "Xem hồ sơ",
+            "kick_member": "Mời thành viên rời khỏi máy chủ",
+            "open_link": "Mở liên kết",
+            "leave_group": "Rời nhóm",
+            "delete_channel": "Xóa kênh",
+            "leave_server": "Rời máy chủ",
+            "create_channel": "Tạo kênh",
+            "remove_member": "Xóa khỏi nhóm",
+            "delete_message": "Xóa tin nhắn",
+            "open_channel_settings": "Cài đặt kênh",
+            "copy_uid": "Sao chép ID",
+            "open_notification_options": "Tùy chọn thông báo",
+            "open_server_settings": "Cài đặt máy chủ",
+            "open_group_settings": "Cài đặt nhóm",
+            "copy_cid": "Sao chép ID kênh",
+            "add_friend": "Thêm bạn",
+            "cancel_friend": "Hủy yêu cầu kết bạn",
+            "custom_status": "Hoạt động tự điều chỉnh",
+            "copy_id": "Sao chép ID",
+            "copy_mid": "Sao chép ID tin nhắn",
+            "mark_as_read": "Đánh dấu đã đọc",
+            "retry_message": "Gửi lại",
+            "reply_message": "Trả lời",
+            "copy_message_link": "Sao chép liên kết tin nhắn",
+            "message_user": "Nhắn tin",
+            "edit_message": "Chỉnh sửa tin nhắn",
+            "ban_member": "Cấm vĩnh viễn thành viên",
+            "open_file": "Mở tệp tin",
+            "save_file": "Lưu tệp tin",
+            "save_video": "Lưu video",
+            "unblock_user": "Xóa chặn người dùng",
+            "clear_status": "Xóa bỏ hoạt động",
+            "close_dm": "Đóng cuộc trò chuyện riêng",
+            "delete_server": "Xóa máy chủ",
+            "edit_identity": "Sửa đổi danh tính",
+            "create_category": "Tạo chủ danh mục",
+            "create_invite": "Tạo lời mời"
         }
     },
     "permissions": {
