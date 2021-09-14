@@ -85,7 +85,7 @@
                     "copy_invite": "複製邀請連結",
                     "create_bot": "創造機器人",
                     "title": "我的機器人",
-                    "unique_id": "這是您機器人的唯一標誌，而不是機器人的金鑰"
+                    "unique_id": "這是您機器人的唯一標誌，而不是機器人的金鑰。"
                 },
                 "logOut": "登出",
                 "feedback": {
@@ -307,7 +307,7 @@
                 "message_where": "發送到 {{channel_name}}",
                 "errors": {
                     "title": "哎呀，這裡什麼都沒有!",
-                    "nochannels": "此伺服器沒有頻道，或者您沒有檢視頻道的權限",
+                    "nochannels": "此伺服器沒有頻道，或者您沒有檢視頻道的權限。",
                     "nochannel": "沒有頻道"
                 }
             },
@@ -338,17 +338,17 @@
             "modals": {
                 "prompt": {
                     "confirm_close_dm": "關閉和 {{name}} 的對話?",
-                    "confirm_leave_long": "您將無法再加入除非您再度被邀請",
+                    "confirm_leave_long": "您將無法再加入除非您再度被邀請。",
                     "confirm_ban_reason": "封鎖原因",
                     "unfriend_user": "移除 {{name}}？",
                     "confirm_leave": "離開 {{name}}？",
-                    "block_user_long": "您確定要封禁{{name}}嗎? 他們將會被移出您的好友清單",
+                    "block_user_long": "您確定要封禁{{name}}嗎? 他們將會被移出您的好友清單。",
                     "create_invite_created": "這是您的新邀請代碼:",
                     "confirm_kick": "您確定要踢出 {{name}}嗎?",
                     "confirm_ban": "您將會被封禁{{name}}",
-                    "unfriend_user_long": "您可能無法再和他們對話，除非重新新增",
+                    "unfriend_user_long": "您可能無法再和他們對話，除非重新新增。",
                     "block_user": "要封鎖 {{name}}嗎?",
-                    "confirm_close_dm_long": "這也會為對方刪除對話，但您可以等會再次打開",
+                    "confirm_close_dm_long": "這也會為對方刪除對話，但您可以等會再次打開。",
                     "confirm_delete": "要刪除 {{name}}?",
                     "confirm_delete_long": "刪除之後，將無法復原。",
                     "confirm_delete_message_long": "您確定要刪除嗎?",
@@ -455,17 +455,17 @@
                     "failed": "建立機器人失敗!"
                 },
                 "user_picker": {
-                    "select": "選擇要加入的好友"
+                    "select": "選擇要加入的好友。"
                 }
             },
-            "requires_online": "您需要上線才能查看",
+            "requires_online": "您需要上線才能查看。",
             "invite": {
                 "invited_by": "由 {{user}} 邀請",
                 "login": "登入 Revolt",
                 "accept": "接受邀請",
                 "user_count": "{{member_count}} 位使用者",
                 "invalid": "邀請無效!",
-                "invalid_desc": "此邀請可能不存在，或是您沒有權限加入"
+                "invalid_desc": "此邀請可能不存在，或是您沒有權限加入。"
             }
         },
         "context_menu": {
@@ -633,13 +633,44 @@
         "AlreadyFriends": "已經與此使用者成為好友。",
         "AlreadySentRequest": "已經向此使用者發送了邀請。",
         "Blocked": "您已封鎖此使用者。",
-        "BlockedOther": "此使用者已封鎖您。"
+        "BlockedOther": "此使用者已封鎖您。",
+        "RenderFail": "模板載入失败。",
+        "MissingData": "請求缺少資料。",
+        "ProbeError": "取得文件元資料失敗。"
     },
     "permissions": {
         "channel": {
             "UploadFiles": {
                 "d": "允許成員在文字頻道上傳檔案。",
                 "t": "上傳檔案"
+            },
+            "VoiceCall": {
+                "t": "語音聊天",
+                "d": "允許成員加入語音頻道。"
+            },
+            "InviteOthers": {
+                "t": "邀請成員",
+                "d": "允許成員邀請其他成員到此頻道。"
+            },
+            "EmbedLinks": {
+                "t": "嵌入式連結",
+                "d": "允許成員在文字頻道發送連結時，顯示嵌入式內容。"
+            },
+            "ManageMessages": {
+                "d": "允許成員刪除其他成員發送的訊息。",
+                "t": "管理訊息"
+            },
+            "View": {
+                "t": "查看頻道",
+                "d": "允許成員查看此伺服器上的所有頻道。"
+            },
+            "SendMessage": {
+                "t": "發送訊息",
+                "d": "允許成員在本文字頻道發送訊息。"
+            },
+            "ManageChannel": {
+                "t": "管理頻道",
+                "d": "允許成員編輯或刪除頻道。"
             }
         },
         "server": {
@@ -652,7 +683,32 @@
                 "d": "允許成員建立，編輯和刪除頻道。"
             },
             "ManageServer": {
-                "t": "管理伺服器"
+                "t": "管理伺服器",
+                "d": "允許成員更改伺服器名稱，說明，圖示和其他相關訊息。"
+            },
+            "BanMembers": {
+                "t": "封鎖成員",
+                "d": "允許成員從伺服器永久移除成員。"
+            },
+            "KickMembers": {
+                "t": "踢出成員",
+                "d": "允許成員在伺服器移除成員，被踢出的人可以透過邀請重新加入此伺服器。"
+            },
+            "ChangeNickname": {
+                "t": "更改暱稱",
+                "d": "允許成員更改在此伺服器上的暱稱。"
+            },
+            "ManageNicknames": {
+                "t": "管理暱稱",
+                "d": "允許成員更改其他成員的暱稱。"
+            },
+            "ChangeAvatar": {
+                "t": "更改頭貼",
+                "d": "允許成員更改在此伺服器的頭貼。"
+            },
+            "RemoveAvatars": {
+                "t": "移除頭貼",
+                "d": "允許成員刪除此伺服器上其他成員的頭貼。"
             }
         }
     },
