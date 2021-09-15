@@ -2,7 +2,7 @@
     "permissions": {
         "server": {
             "RemoveAvatars": {
-                "d": "Permite que os membros removam avatars de servidor dos outros membros neste servidor.",
+                "d": "Permite que os membros removam avatares de servidor dos outros membros neste servidor.",
                 "t": "Remover Avatars"
             },
             "BanMembers": {
@@ -14,7 +14,7 @@
                 "t": "Expulsar Membros"
             },
             "ManageServer": {
-                "d": "Permite que os membros alterem o nome descrição, ícone e outras informações relacionadas com o servidor.",
+                "d": "Permite que os membros alterem o nome, descrição, ícone e outras informações relacionadas com o servidor.",
                 "t": "Gerir Servidor"
             },
             "ManageChannels": {
@@ -22,7 +22,7 @@
                 "t": "Gerir Canais"
             },
             "ManageRoles": {
-                "d": "Permite que os membros criem, editem e eliminem cargos com uma responsabilidade inferior à sua. Permite, também, que estes alterem as permissões do cargo nos canais.",
+                "d": "Permite que os membros criem, editem e eliminem cargos inferiores aos seus. Permite, também, que estes alterem as permissões do cargo nos canais.",
                 "t": "Gerir Cargos"
             },
             "ChangeAvatar": {
@@ -40,12 +40,12 @@
         },
         "channel": {
             "UploadFiles": {
-                "d": "Permite que os membros enviem ficheiros nos canais de texto.",
-                "t": "Enviar Ficheiros"
+                "d": "Permite que os membros carreguem ficheiros nos canais de texto.",
+                "t": "Carregar Ficheiros"
             },
             "EmbedLinks": {
-                "d": "Permite que os membros mostrem conteúdo encorporado nos links que eles enviam nos canais de txto.",
-                "t": "Encorporar Links"
+                "d": "Permite que os membros mostrem conteúdo incorporado nos links que eles enviam nos canais de texto.",
+                "t": "Incorporar Links"
             },
             "InviteOthers": {
                 "d": "Permite que os membros convidem outros para um canal.",
@@ -68,7 +68,7 @@
                 "t": "Enviar Mensagens"
             },
             "View": {
-                "d": "Permite que os membros vejam qualquer canal que tenham esta permissão activa.",
+                "d": "Permite que os membros vejam qualquer canal que tenham esta permissão ativa.",
                 "t": "Ver Canal"
             }
         }
@@ -78,7 +78,7 @@
     },
     "error": {
         "ReachedMaximumBots": "Atingiste o número máximo de bots.",
-        "CompromisedPassword": "Esta password está comprometida.",
+        "CompromisedPassword": "Esta palavra-passe está comprometida.",
         "DeniedNotification": "Negaste o acesso a notificações. Verifica as definições da página.",
         "UnsupportedBrowser": "O navegador não suporta esta funcionalidade.",
         "IoError": "O servidor encontrou um erro de I/O.",
@@ -87,7 +87,7 @@
         "FailedToReceive": "O servidor falhou ao receber o teu ficheiro.",
         "FileTooLarge": "Ficheiro demasiado grande.",
         "Unavailable": "Indisponível.",
-        "InvalidEmail": "Endereço de email inválido",
+        "InvalidEmail": "Endereço de e-mail inválido",
         "TooLong": "Demasiado longo",
         "TooShort": "Demasiado curto",
         "RequiredField": "Obrigatório",
@@ -102,13 +102,13 @@
         "MissingInvite": "Código de convite em falta no pedido.",
         "InvalidToken": "Token inválido",
         "InvalidCredentials": "Email ou password incorretos.",
-        "EmailFailed": "Falha ao enviar email.",
+        "EmailFailed": "Falha ao enviar e-mail.",
         "EmailInUse": "Email em utilização.",
         "UnknownUser": "Utilizador desconhecido.",
         "UnverifiedAccount": "Conta não verificada.",
         "InvalidSession": "Sessão inválida.",
         "MissingHeaders": "Cabeçalhos em falta.",
-        "RenderFail": "Falha ao renderizar template.",
+        "RenderFail": "Falha ao renderizar esse modelo.",
         "OperationFailed": "Operação falhou.",
         "UnknownError": "Verifica a consola.",
         "MissingPermission": "Permissão em falta.",
@@ -121,7 +121,7 @@
         "AudioPermissionBlock": "Para aceder ao teu microfone, por favor verifica as definições do teu navegador."
     },
     "notifications": {
-        "now_friends": "És agora amigo(a) de @{{person}}!",
+        "now_friends": "Agora és amigo(a) de @{{person}}!",
         "sent_request": "@{{person}} enviou-te um pedido de amizade."
     },
     "dayjs": {
@@ -157,7 +157,7 @@
             "delete_channel": "Eliminar canal",
             "edit_identity": "Editar identidade",
             "delete_server": "Eliminar servidor",
-            "close_dm": "Fechar DM",
+            "close_dm": "Fechar MP",
             "leave_server": "Sair do servidor",
             "leave_group": "Sair do grupo",
             "set_custom_status": "Definir um estado personalizado",
@@ -175,7 +175,7 @@
             "save_image": "Guardar imagem",
             "open_image": "Abrir imagem",
             "save_file": "Guardar ficheiro",
-            "open_file": "Abrir Ficheiro",
+            "open_file": "Abrir ficheiro",
             "ban_member": "Banir membro",
             "kick_member": "Expulsar membro",
             "remove_member": "Remover do grupo",
@@ -205,7 +205,7 @@
                 "login": "Entrar no Revolt",
                 "invited_by": "Convidado por {{user}}",
                 "invalid": "Convite inválido!",
-                "invalid_desc": "O convite poderá não existir ou não tens permissão para entrar."
+                "invalid_desc": "O convite pode não existir ou não tens permissão para entrar."
             },
             "requires_online": "Precisas de estar online para ver isto.",
             "popovers": {
@@ -215,7 +215,7 @@
                 "user_profile": {
                     "badges": {
                         "early_adopter": "Pioneiro",
-                        "responsible_disclosure": "Divulgação Responsável de Bugs",
+                        "responsible_disclosure": "Divulgação de Bug(s) de forma responsável",
                         "supporter": "Apoiante",
                         "translator": "Tradutor"
                     },
@@ -225,8 +225,8 @@
                         "badges": "Emblemas"
                     },
                     "no_servers": "Sem servidores em comum!",
-                    "no_groups": "Sem grupos em comum!",
-                    "no_users": "Sem amigos em comum!",
+                    "no_groups": "Não tens grupos em comum!",
+                    "no_users": "Não tens amigos em comum!",
                     "empty": "Isto aqui está um pouco vazio…",
                     "mutual_servers": "Servidores em Comum",
                     "mutual_groups": "Grupos em Comum",
@@ -245,7 +245,7 @@
             },
             "modals": {
                 "actions": {
-                    "send_email": "Enviar Email",
+                    "send_email": "Enviar E-mail",
                     "continue": "Continuar",
                     "reload": "Recarregar a Aplicação",
                     "preview": "Pré-visualizar",
@@ -274,8 +274,8 @@
                 "account": {
                     "failed": "Falha ao alterar!",
                     "change": {
-                        "password": "Alterar a tua password",
-                        "email": "Alterar o teu email",
+                        "password": "Alterar a tua palavra-passe",
+                        "email": "Alterar o teu e-mail",
                         "username": "Alterar o teu nome de utilizador"
                     }
                 },
@@ -284,25 +284,25 @@
                     "block_user": "Bloquear {{name}}?",
                     "unfriend_user_long": "Poderás não conseguir falar com esta pessoa até que a adiciones novamente.",
                     "unfriend_user": "Remover {{name}}?",
-                    "confirm_ban_reason": "Razão Para o Banimento",
+                    "confirm_ban_reason": "Motivo do Banimento",
                     "confirm_ban": "Estás prestes a banir {{name}}",
                     "confirm_kick": "Tens a certeza de que queres expulsar {{name}}?",
                     "create_invite_created": "Aqui está o teu novo código de convite:",
                     "create_invite_generate": "A criar um convite…",
                     "confirm_delete_message_long": "Tens a certeza de que queres eliminar?",
-                    "confirm_delete_long": "Assim que estiver eliminado, não há forma de voltar atrás.",
+                    "confirm_delete_long": "Assim que for eliminado, não há como voltar atrás.",
                     "confirm_delete": "Eliminar {{name}}?",
-                    "confirm_close_dm_long": "Poderás reabri-la mais tarde mas irá desaparecer em ambos os lados.",
+                    "confirm_close_dm_long": "Poderás reabri-la mais tarde mas irá desaparecer para ambos os lados.",
                     "confirm_close_dm": "Fechar a conversa com {{name}}?",
                     "confirm_leave_long": "Não poderás reentrar a menos que sejas convidado novamente.",
-                    "confirm_leave": "Saír de {{name}}?"
+                    "confirm_leave": "Sair de {{name}}?"
                 },
                 "onboarding": {
                     "pick": "Escolhe um nome de utilizador pelo qual pretendes que as pessoas te consigam encontrar. Poderá ser alterado, mais tarde, nas definições.",
-                    "welcome": "Bem-vindo a"
+                    "welcome": "Boas-vindas a"
                 },
                 "token_reveal": "Token de {{name}}",
-                "signed_out": "Foste desconectado!",
+                "signed_out": "A tua sessão foi terminada!",
                 "clipboard": {
                     "copy": "Cópia Manual:",
                     "https": "Não estás atualmente num contexto HTTPS.",
@@ -311,7 +311,7 @@
                 "error": "Ocorreu um erro!"
             },
             "status": {
-                "connecting": "A ligar…",
+                "connecting": "A conectar…",
                 "disconnected": "Desligado.",
                 "offline": "Offline.",
                 "reconnecting": "A reconectar…"
@@ -339,11 +339,11 @@
                     "a": "Queres personalizar o teu perfil público?"
                 },
                 "sessions": {
-                    "b": "salvaguarda a tua conta alterando a tua password e utilizando a 2FA.",
+                    "b": "salvaguarda a tua conta alterando a tua palavra-passe e utilizando a Aut. de 2 Fatores.",
                     "a": "Se reparares numa sessão desconhecida nesta lista,"
                 },
                 "languages": {
-                    "b": "Ajude a contribuir com mais traduções.",
+                    "b": "Ajuda contribuindo com mais traduções.",
                     "a": "Falta alguma língua que queres?"
                 }
             },
@@ -353,7 +353,7 @@
                     "title": "Os Meus Bots",
                     "reserved": "Nota: Este campo está reservado para o futuro.",
                     "interactions_url": "URL de Interações",
-                    "public_bot_desc": "Se permites que outros utilizadores convidem este bot.",
+                    "public_bot_desc": "Se permites ou não que outros utilizadores convidem este bot.",
                     "public_bot": "Bot Público",
                     "private_bot_tip": "Bot privado. Apenas tu poderás convidá-lo.",
                     "public_bot_tip": "Bot público. Qualquer pessoa poderá convidá-lo.",
@@ -362,23 +362,23 @@
                     "copy_invite": "Copiar Link de Convite",
                     "unique_id": "Este é um identificador único para o teu bot. Não é o token do bot."
                 },
-                "source_code": "Código Fonte",
+                "source_code": "Código-fonte",
                 "donate": {
                     "title": "Doar"
                 },
                 "experiments": {
-                    "not_available": "Nenhuma experiência disponível de momento.",
+                    "not_available": "Não há nenhuma experiência disponível de momento.",
                     "features": "Funcionalidades Disponíveis",
                     "title": "Experiências"
                 },
                 "native": {
-                    "title": "Definições Desktop"
+                    "title": "Definições do Ambiente de Trabalho"
                 },
                 "sync": {
                     "descriptions": {
                         "locale": "Isto irá sincronizar a língua atualmente escolhida.",
-                        "theme": "Isto irá sincronizar o seu tema escolhido, cores e qualquer CSS personalizado.",
-                        "appearance": "Isto irá sincronizar opções como estilos de emoji e densidade de mensagens."
+                        "theme": "Isto irá sincronizar o teu tema escolhido, cores e qualquer CSS personalizado.",
+                        "appearance": "Isto irá sincronizar opções como estilos de emoji e a densidade de mensagens."
                     },
                     "categories": "Categorias de Sincronização",
                     "title": "Sincronização"
@@ -407,7 +407,7 @@
                     "title": "Notificações"
                 },
                 "appearance": {
-                    "ligatures_desc": "Para tipos de letra suportados, as ligaduras combinam caracteres, por exemplo, ao transformar -> numa seta. Altera para Inter e tenta ativar/desativar esta opção.",
+                    "ligatures_desc": "Para os tipos de letra suportados, as ligaduras combinam caracteres, por exemplo, ao transformar -> numa seta. Altera para Inter e tenta ativar/desativar esta opção.",
                     "ligatures": "Ligaduras de Tipo de Letra",
                     "mono_font": "Seleção de Tipo de Letra Monoespaçada",
                     "font": "Tipo de Letra",
@@ -426,7 +426,7 @@
                         "light": "claro"
                     },
                     "display": {
-                        "compact_description": "Ao bom estilo do IRC.",
+                        "compact_description": "Como o bom e velho IRC.",
                         "default_description": "Bonito, elegante e moderno.",
                         "compact": "Compacto",
                         "default": "Pré-Definido"
@@ -464,14 +464,14 @@
                     "manage": {
                         "delete": "Eliminar Conta",
                         "disable": "Desativar Conta",
-                        "description": "Desativa ou elimina a sua conta a qualquer momento. Este procedimento terminará a tua sessão e eliminará por completo a tua conta, incluíndo o teu histórico de chat e amigos.",
+                        "description": "Desativa ou elimina a tua conta a qualquer momento. Isto terminará a tua sessão e eliminará por completo a tua conta, incluindo o teu histórico de chat e amigos.",
                         "title": "Gestão de Conta"
                     },
                     "2fa": {
-                        "remove_auth": "Remover Autenticator",
+                        "remove_auth": "Remover Autenticador",
                         "add_auth": "Adicionar Autenticador",
-                        "description": "Adiciona uma camada extra de segurança ao activar o 2FA para a tua conta.",
-                        "title": "Autenticação de 2-Fatores"
+                        "description": "Adiciona uma camada extra de segurança ao ativar a Aut. de 2 Fatores na tua conta.",
+                        "title": "Autenticação de 2 Fatores"
                     },
                     "unique_id": "Este é um identificador único de utilizador para a tua conta.",
                     "change_field": "Alterar",
@@ -479,11 +479,11 @@
                 },
                 "logOut": "Sair",
                 "feedback": {
-                    "bug_desc": "Verifica aqui os relatórios de incidentes ativos de momento.",
-                    "bug": "Rastrear Bugs",
-                    "issue_desc": "Para nos ajudares a identificar problemas mais facilmente, poderás criar uma nova questão no GitHub.",
-                    "issue": "Criar uma nova questão",
-                    "suggest_desc": "Sugerir novas funcionalidades para o Revolt nas discussões do GitHub.",
+                    "bug_desc": "Verifica aqui os relatórios ativos de bugs atuais.",
+                    "bug": "Rastreador de Bugs",
+                    "issue_desc": "Para nos ajudares a identificar problemas mais facilmente, podes criar um problema no GitHub.",
+                    "issue": "Criar um novo problema",
+                    "suggest_desc": "Sugere novas funcionalidades para o Revolt nas discussões do GitHub.",
                     "suggest": "Enviar sugestão de funcionalidade",
                     "title": "Feedback"
                 },
@@ -493,7 +493,7 @@
             },
             "actions": {
                 "max_filesize": "(máx. {{filesize}})",
-                "upload": "Enviar",
+                "upload": "Carregar",
                 "remove": "Remover"
             },
             "categories": {
@@ -516,9 +516,9 @@
                     "title": "Cargos"
                 },
                 "bans": {
-                    "no_reason": "Sem razão para o banimento.",
+                    "no_reason": "Não há motivo do banimento.",
                     "revoke": "Revogar",
-                    "reason": "Razão Para o Banimento",
+                    "reason": "Motivo do Banimento",
                     "user": "Utilizador",
                     "title": "Banimentos"
                 },
@@ -583,7 +583,7 @@
                     "none": "Nenhuma",
                     "mention": "Apenas Menções",
                     "all": "Todas as Mensagens",
-                    "default": "Utilizar Pré-Definição"
+                    "default": "Utilizar Predefinição"
                 },
                 "bot": "bot",
                 "edited": "(editado)",
@@ -604,13 +604,13 @@
                     "failed_load": "Não foi possível carregar a mensagem.",
                     "spoiler_attachment": "Spoiler",
                     "jump_present": "Saltar para o presente",
-                    "viewing_old": "A ver mensagens antigas"
+                    "viewing_old": "Estás a ver mensagens antigas"
                 },
                 "voice": {
-                    "unmute": "Ligar voz",
+                    "unmute": "Ativar o microfone",
                     "mute": "Silenciar",
                     "leave": "Sair",
-                    "connected": "Voz ligada"
+                    "connected": "Voz conectada"
                 },
                 "start": {
                     "group": "Este é o início da tua conversa."
@@ -655,7 +655,7 @@
                 "saved": "Notas Guardadas",
                 "unreads": "Por ler",
                 "friends": "Amigos",
-                "dev": "Developer",
+                "dev": "Programador",
                 "home": "Início"
             }
         },
@@ -670,39 +670,39 @@
     "login": {
         "error": {
             "resend": "Falha ao reenviar!",
-            "reset": "Falha ao reconfigurar!",
-            "login": "Falha ao autenticar!",
+            "reset": "Falha ao redefinir!",
+            "login": "Falha ao iniciar sessão!",
             "create": "Falha ao registar!"
         },
         "successful_registration": "Conta registada com sucesso!",
         "open_mail_provider": "Abrir {{provider}}",
-        "check_spam": "Por favor verifica a tua pasta despam caso não o encontres",
-        "email_delay": "Por favor aguarda até 10 minutos para que este seja entregue.",
-        "check_mail": "Verifica o teu email.",
+        "check_spam": "Por favor, verifica a tua pasta de spam caso não a encontres",
+        "email_delay": "Por favor, aguarda até 10 minutos para que a mensagem chegue.",
+        "check_mail": "Verifica o teu e-mail.",
         "cancel": "Cancelar pedido.",
         "resend": "Reenviar verificação.",
-        "missing_verification": "Sem email?",
-        "create": "Criar uma nova conta.",
+        "missing_verification": "Não tens e-mail?",
+        "create": "Cria a tua conta.",
         "existing": "Já tens uma conta?",
         "new": "Novo(a) no Revolt?",
-        "remembered": "Voltar para o login.",
-        "set_password": "Definir nova password.",
-        "reset": "Redefinir password.",
-        "forgot": "Esqueceste-te da tua password?",
+        "remembered": "Voltar para o início de sessão.",
+        "set_password": "Definir nova palavra-passe.",
+        "reset": "Redefinir palavra-passe.",
+        "forgot": "Esqueceste-te da tua palavra-passe?",
         "enter": {
-            "current_password": "Insere a tua password atual.",
+            "current_password": "Insere a tua palavra-passe atual.",
             "invite": "Insere o teu código de convite.",
-            "password": "Insere a tua password.",
+            "password": "Insere a tua palavra-passe.",
             "email": "Insere o teu email.",
-            "username": "Insira um nome de utilizador."
+            "username": "Insere um nome de utilizador."
         },
-        "password": "Password",
-        "current_password": "Password Atual",
+        "password": "Palavra-passe",
+        "current_password": "Palavra-passe Atual",
         "invite": "Código de Convite",
-        "email": "Email",
+        "email": "E-mail",
         "username": "Utilizador",
         "register": "Registar",
-        "title": "Login"
+        "title": "Iniciar sessão"
     },
     "general": {
         "unavailable": "Indisponível",
