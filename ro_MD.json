@@ -351,6 +351,368 @@
                 "create_role": "Creează un rol nou",
                 "role_name": "Nume Rol"
             }
+        },
+        "status": {
+            "online": "Online",
+            "idle": "Inactiv",
+            "busy": "Nu deranja",
+            "invisible": "Invizibil",
+            "offline": "Deconectat"
+        },
+        "navigation": {
+            "tabs": {
+                "saved": "Notițe salvate",
+                "home": "Acasă",
+                "dev": "Dezvoltator",
+                "friends": "Prieteni",
+                "unreads": "Necitite"
+            }
+        },
+        "main": {
+            "channel": {
+                "system": {
+                    "removed_by": "{{user}} a fost eliminat(ă) de către {{other_user}}",
+                    "user_joined": "{{user}} s-a alăturat",
+                    "user_left": "{{user}} a ieșit",
+                    "user_kicked": "{{user}} a fost dat afară",
+                    "user_banned": "I-a fost interzis accesul lui {{user}}",
+                    "added_by": "{{user}} a fost adăugat(ă) de către {{other_user}}",
+                    "channel_renamed": "{{user}} a schimbat numele grupului în {{name}}",
+                    "channel_description_changed": "{{user}} a schimbat descrierea canalului",
+                    "channel_icon_changed": "{{user}} a schimbat pictograma grupului"
+                },
+                "errors": {
+                    "nochannel": "Fără canal",
+                    "title": "Oops, nu e nimic aici!",
+                    "nochannels": "Acest server nu are canale, sau nu ai acces la niciunul."
+                },
+                "message_where": "Trimite un mesaj pe {{channel_name}}",
+                "message_who": "Trimite un mesaj către {{person}}",
+                "message_saved": "Salvează în notițele tale",
+                "uploading_file": "Încărcare…",
+                "failed_upload": "Încărcare eșuată!",
+                "attached_file": "{{filename}} atașat",
+                "typing": {
+                    "single": "{{user}} scrie…",
+                    "multiple": "{{userlist}} și {{user}} scriu…",
+                    "several": "Mai multe persoane scriu…"
+                },
+                "start": {
+                    "group": "Acesta este începutul conversației tale."
+                },
+                "voice": {
+                    "connected": "Voce conectată",
+                    "leave": "Părăsește",
+                    "mute": "Dezactivează microfonul",
+                    "unmute": "Activează microfonul"
+                },
+                "misc": {
+                    "viewing_old": "Acum vezi mesajele vechi",
+                    "jump_present": "Sari la prezent",
+                    "spoiler_attachment": "Spoiler",
+                    "failed_load": "Nu s-a putut încărca mesajul.",
+                    "no_sending": "Nu ai permisiunea de a trimite mesaje pe acest canal.",
+                    "blocked_messages": "{{count}} mesaje blocate",
+                    "blocked_user": "Utilizator Blocat",
+                    "sent_file": "A trimis un atașament",
+                    "sent_multiple_files": "A trimis mai multe atașamente"
+                },
+                "nsfw": {
+                    "channel": {
+                        "marked": "Acest canal este marcat ca fiind NSFW.",
+                        "confirm": "Intră în canal"
+                    },
+                    "confirm": "Confirm că am cel puțin 18 ani."
+                },
+                "unknown_user": "<Utilizator Necunoscut>",
+                "edited": "(editat)",
+                "bot": "bot",
+                "notifications": {
+                    "default": "Folosește implicit",
+                    "all": "Toate mesajele",
+                    "mention": "Numai mențiuni",
+                    "none": "Nici unul (una)",
+                    "muted": "Amuțit"
+                },
+                "search": {
+                    "title": "Căutare",
+                    "sort": {
+                        "relevance": "Relevanță",
+                        "latest": "Ultimele",
+                        "oldest": "Vechi"
+                    }
+                }
+            },
+            "groups": {
+                "create": "Creează un grup",
+                "name": "Numele grupului",
+                "description": "Descrierea grupului",
+                "owner": "Deținătorul grupului"
+            },
+            "categories": {
+                "conversations": "Conversații",
+                "participants": "Participanți",
+                "channels": "Canale",
+                "members": "Membri"
+            },
+            "servers": {
+                "create": "Creează un server",
+                "name": "Numele serverului",
+                "description": "Descrierea serverului",
+                "channel_name": "Numele canalului",
+                "channel_type": "Tipul canalului",
+                "channel_description": "Descrierea canalului",
+                "custom_banner": "Afiș personalizat",
+                "owner": "Deținătorul serverului",
+                "text_channel": "Canal de Text",
+                "voice_channel": "Canal de Voce"
+            }
+        },
+        "context_menu": {
+            "copy_id": "Copiază ID",
+            "copy_selection": "Copiază selecția",
+            "copy_text": "Copiază textul",
+            "delete_channel": "Șterge canalul",
+            "create_channel": "Creează canal",
+            "create_category": "Creează o categorie",
+            "copy_uid": "Copiază ID-ul de utilizator",
+            "copy_sid": "Copiază ID-ul serverului",
+            "copy_cid": "Copiază ID-ul canalului",
+            "copy_mid": "Copiază ID-ul mesajului",
+            "copy_message_link": "Copiază link-ul mesajului",
+            "mention": "Menționează",
+            "message_user": "Trimite un mesaj",
+            "view_profile": "Vezi profilul",
+            "mark_as_read": "Marchează ca citit",
+            "retry_message": "Reîncearcă trimiterea",
+            "cancel_message": "Anulează trimiterea",
+            "reply_message": "Răspunde",
+            "quote_message": "Citează mesajul",
+            "edit_message": "Editează mesajul",
+            "delete_message": "Șterge mesajul",
+            "remove_member": "Elimină din grup",
+            "kick_member": "Dă afară membrul",
+            "ban_member": "Interzice accesul membrului",
+            "open_file": "Deschide fișierul",
+            "save_file": "Salvează fișierul",
+            "open_image": "Deschide imaginea",
+            "save_image": "Salvează imaginea",
+            "open_video": "Deschide videoclipul",
+            "save_video": "Salvează videoclipul",
+            "copy_link": "Copiază link-ul",
+            "open_link": "Deschide link-ul",
+            "block_user": "Blochează utilizatorul",
+            "unblock_user": "Deblochează utilizatorul",
+            "add_friend": "Adaugă ca prieten",
+            "remove_friend": "Șterge prieten",
+            "cancel_friend": "Anulează cererea",
+            "custom_status": "Status personalizat",
+            "clear_status": "Șterge status",
+            "set_custom_status": "Setează un status personalizat",
+            "leave_group": "Părăsește grupul",
+            "leave_server": "Părăsește serverul",
+            "close_dm": "Închide DM",
+            "delete_server": "Șterge serverul",
+            "edit_identity": "Editează identitatea",
+            "create_invite": "Creează invitație",
+            "open_notification_options": "Setări de notificare",
+            "open_channel_settings": "Setările canalului",
+            "open_server_settings": "Setările serverului",
+            "open_group_settings": "Setările grupului"
+        },
+        "permissions": {
+            "required": "Sunt necesare permisiuni"
         }
+    },
+    "login": {
+        "cancel": "Anulează autentificarea.",
+        "check_mail": "Verifică-ți emailul.",
+        "check_spam": "Te rugăm verifică folderul spam dacă nu îl poți găsi",
+        "error": {
+            "resend": "Retrimitere eșuată!",
+            "create": "Înregistrare eșuată!",
+            "login": "Conectare eșuată!",
+            "reset": "Resetare eșuată!"
+        },
+        "title": "Conectare",
+        "register": "Înregistrare",
+        "username": "Nume de utilizator",
+        "email": "Adresă de email",
+        "password": "Parolă",
+        "invite": "Cod de invitație",
+        "current_password": "Parola actuală",
+        "enter": {
+            "username": "Introdu un nume de utilizator.",
+            "email": "Introdu adresa de email.",
+            "password": "Introdu parola.",
+            "invite": "Introdu codul de invitație.",
+            "current_password": "Introdu parola actuală."
+        },
+        "forgot": "Ți-ai uitat parola?",
+        "reset": "Resetează parola.",
+        "set_password": "Setează o parolă nouă.",
+        "remembered": "Întoarce-te la conectare.",
+        "new": "Prima oară pe Revolt?",
+        "existing": "Ai deja un cont?",
+        "create": "Creează un cont nou.",
+        "missing_verification": "Fără email?",
+        "resend": "Retrimite confirmarea.",
+        "email_delay": "Te rugăm să acorzi pînă la 10 minute pentru sosirea acestuia.",
+        "open_mail_provider": "Deschide {{provider}}",
+        "successful_registration": "Înregistrat cu succes!"
+    },
+    "general": {
+        "disabled": "Dezactivat",
+        "about": "Despre",
+        "tos": "Termeni și condiții",
+        "privacy": "Politica de confidențialitate",
+        "image_by": "Imagine realizată de către",
+        "loading": "Se încarcă…",
+        "on": "Pornit",
+        "off": "Oprit",
+        "unavailable": "Indisponibil"
+    },
+    "permissions": {
+        "server": {
+            "KickMembers": {
+                "d": "Permite membrilor să elimine membri de pe acest server. Membrii dați afară se pot reîntoarce cu o invitație.",
+                "t": "Exclude Membrii"
+            },
+            "RemoveAvatars": {
+                "t": "Îndepărtează Avatare",
+                "d": "Permite membrilor să elimine avatarele de server ale altor membri de pe acest server."
+            },
+            "ManageRoles": {
+                "t": "Gestionează Roluri",
+                "d": "Permite membrilor să creeze, să editeze și să șteargă roluri cu un rang mai mic decît al lor. De asemenea, le permite să modifice permisiunile rolurilor pe canale."
+            },
+            "ManageChannels": {
+                "t": "Gestionează Canalele",
+                "d": "Permite membrilor să creeze, să editeze și să șteargă canale."
+            },
+            "ManageServer": {
+                "t": "Gestionează Serverul",
+                "d": "Permite membrilor să modifice numele, descrierea, pictograma și alte informații legate de acest server."
+            },
+            "BanMembers": {
+                "t": "Interzice Membri",
+                "d": "Permite membrilor să elimine permanent membri de pe acest server."
+            },
+            "ChangeNickname": {
+                "t": "Schimbă Porecla",
+                "d": "Permite membrilor să își schimbe porecla pe acest server."
+            },
+            "ManageNicknames": {
+                "t": "Gestionează Porecle",
+                "d": "Permite membrilor să schimbe poreclele altor membri."
+            },
+            "ChangeAvatar": {
+                "t": "Schimbă Avatar",
+                "d": "Permite membrilor să își schimbe avatarul serverului pe acest server."
+            }
+        },
+        "channel": {
+            "ManageMessages": {
+                "d": "Permite membrilor să șteargă mesajele trimise de alți membri.",
+                "t": "Gestionează Mesaje"
+            },
+            "View": {
+                "t": "Vezi Canalul",
+                "d": "Permite membrilor să vizualizeze toate canalele pentru care au această permisiune."
+            },
+            "SendMessage": {
+                "t": "Trimite Mesaje",
+                "d": "Permite membrilor să trimită mesaje în canale de text."
+            },
+            "ManageChannel": {
+                "t": "Dă afară membri",
+                "d": "Permite membrilor să editeze sau să șteargă un canal."
+            },
+            "VoiceCall": {
+                "t": "Apel Vocal",
+                "d": "Permite membrilor să se alăture canalelor de voce."
+            },
+            "InviteOthers": {
+                "t": "Schimbă porecla",
+                "d": "Permite membrilor să invite alți utilizatori pe un canal."
+            },
+            "EmbedLinks": {
+                "t": "Încorporează link-uri",
+                "d": "Permite membrilor să afișeze conținut încorporat pe link-urile pe care le postează în canalele de text."
+            },
+            "UploadFiles": {
+                "t": "Încarcă fișiere",
+                "d": "Permite membrilor să încarce fișiere în canale de text."
+            }
+        }
+    },
+    "quantities": {
+        "members": {
+            "one": "1 Membru",
+            "many": "{{count}} (de) Membri"
+        }
+    },
+    "dayjs": {
+        "lastDay": "[Ieri la ora] {{time}}",
+        "sameDay": "[Azi la ora] {{time}}",
+        "nextDay": "[Mîine la ora] {{time}}",
+        "lastWeek": "dddd [trecută] [la ora] {{time}}",
+        "nextWeek": "dddd [la ora] {{time}}",
+        "defaults": {
+            "date_separator": "/",
+            "date_format": "traditional",
+            "twelvehour": "nu"
+        }
+    },
+    "notifications": {
+        "sent_request": "@{{person}} ți-a trimis o cerere de prietenie.",
+        "now_friends": "Acum ești prieten cu @{{person}}!"
+    },
+    "error": {
+        "NetworkError": "Eroare de rețea.",
+        "Unauthorized": "Neautorizat.",
+        "Unlabelled": "Ceva s-a întîmplat.",
+        "FailedValidation": "Nu s-a reușit validarea cîmpurilor.",
+        "DatabaseError": "Eroare în baza de date.",
+        "InternalError": "Eroare internă.",
+        "MissingPermission": "Lipsește permisiunea.",
+        "UnknownError": "Vezi consola.",
+        "OperationFailed": "Operațiunea a eșuat.",
+        "RenderFail": "Randarea șablonului a eșuat.",
+        "MissingHeaders": "Antete lipsă.",
+        "InvalidSession": "Sesiune Invalidă.",
+        "UnverifiedAccount": "Cont Neverificat.",
+        "UnknownUser": "Utilizator necunoscut.",
+        "EmailInUse": "Email în uz.",
+        "EmailFailed": "Nu s-a reușit trimiterea e-mailului.",
+        "InvalidCredentials": "Adresa de e-mail sau parola este greșită.",
+        "InvalidToken": "Token Invalid",
+        "MissingInvite": "Lipsește codul de invitație în cerere.",
+        "InvalidInvite": "Cod Invalid",
+        "AlreadyOnboarded": "Ai terminat deja configurarea.",
+        "UsernameTaken": "Numele de utilizator este luat.",
+        "AlreadyFriends": "Ești deja prieten cu acest utilizator.",
+        "AlreadySentRequest": "Ai trimis deja o cerere de prietenie către acest utilizator.",
+        "Blocked": "Ai blocat acest utilizator.",
+        "BlockedOther": "Acest utilizator te-a blocat.",
+        "NoEffect": "Această solicitare nu a avut niciun efect.",
+        "RequiredField": "Obligatoriu",
+        "TooShort": "Prea scurt",
+        "TooLong": "Prea lung",
+        "InvalidEmail": "Adresa de email invalidă",
+        "Unavailable": "Indisponibil.",
+        "FileTooLarge": "Fișierul este prea mare.",
+        "FailedToReceive": "Serverul nu a reușit să primească fișierul tău.",
+        "MissingData": "Cererea nu conține date.",
+        "ProbeError": "Nu s-au putut obține metadatele fișierului.",
+        "IoError": "Serverul a întîmpinat o eroare de I/O.",
+        "UnsupportedBrowser": "Browserul nu oferă suport pentru această funcție.",
+        "DeniedNotification": "Ai refuzat accesul la notificări, verifică setările paginii.",
+        "CompromisedPassword": "Această parolă a fost compromisă.",
+        "ReachedMaximumBots": "Ai atins numărul maxim de boți.",
+        "AudioPermissionBlock": "Fără acces la microfon, te rugăm să îți verifici setările browserului."
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
     }
 }
