@@ -4,7 +4,8 @@
         "tos": "Podmínky",
         "privacy": "Zásady ochrany osobních údajů",
         "image_by": "Fotografie od",
-        "loading": "Načítání…"
+        "loading": "Načítání…",
+        "unavailable": "Nedostupné"
     },
     "login": {
         "title": "Přihlášení",
@@ -28,19 +29,23 @@
         "open_mail_provider": "Otevřít {{provider}}",
         "set_password": "Nastavit nové heslo.",
         "error": {
-            "create": "Registrace selhala!"
+            "create": "Registrace selhala!",
+            "login": "Přihlášení selhalo!"
         },
         "successful_registration": "Úspěšně zaregistrováno!",
         "current_password": "Současné Heslo",
         "existing": "Už máte účet?",
         "check_mail": "Zkontrolujte si Váš e-mail.",
-        "invite": "Přístupový kód"
+        "invite": "Přístupový kód",
+        "missing_verification": "Nepřišel vám e-mail?",
+        "check_spam": "Prosím, zkontrolujte složku spam, pokud jej nemůžete najít.",
+        "email_delay": "Doručení může trvat až 10 minut."
     },
     "app": {
         "main": {
             "channel": {
                 "message": "Odešli zprávu {{name}}",
-                "uploading_file": "Nahrávám soubor…",
+                "uploading_file": "Nahrávání…",
                 "bot": "bot",
                 "unknown_user": "<Neznámý Uživatel>",
                 "failed_upload": "Nahrávání selhalo!",
@@ -57,13 +62,19 @@
                     "group": "Toto je začátek vaše konverzace."
                 },
                 "system": {
-                    "channel_renamed": "přejmenovali kanál na",
-                    "removed_by": "byli odebráni",
+                    "channel_renamed": "{{user}} přejmenovali kanál na {{name}}",
+                    "removed_by": "{{user}} byli odstraněny uživatelem {{other_user}}",
                     "added_by": "byly přidáni",
-                    "user_joined": "se připojili.",
-                    "user_left": "odešli.",
-                    "user_kicked": "byli vyhozeni."
-                }
+                    "user_joined": "{{user}} se připojili",
+                    "user_left": "{{user}} odešli",
+                    "user_kicked": "byli vyhozeni.",
+                    "channel_description_changed": "{{user}} změnil popis kanálu",
+                    "channel_icon_changed": "{{user}} změnil ikonu kanálu"
+                },
+                "misc": {
+                    "viewing_old": "Díváte se na staré zprávy."
+                },
+                "message_saved": "Uložit do poznámek"
             },
             "categories": {
                 "members": "Členové",
@@ -90,13 +101,13 @@
                 "unreads": "Nepřečtené",
                 "friends": "Přátelé",
                 "dev": "Vývojář",
-                "saved": "Uložené Zprávy"
+                "saved": "Poznámky"
             }
         },
         "status": {
             "offline": "Offline",
             "invisible": "Neviditelný",
-            "busy": "Zaneprázdněný",
+            "busy": "Nerušit",
             "idle": "Neaktivní",
             "online": "Online"
         },
