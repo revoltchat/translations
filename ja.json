@@ -499,15 +499,15 @@
             "cancel_friend": "リクエストのキャンセル",
             "clear_status": "ステータスのクリア",
             "leave_group": "グループ離脱",
-            "close_dm": "閉じる DM",
-            "edit_identity": "アイデンティティの編集",
-            "create_channel": "チャンネル作成",
-            "create_category": "カテゴリーの作成",
-            "create_invite": "招待状の作成",
-            "open_notification_options": "通知オプション",
-            "open_channel_settings": "チャンネル設定",
-            "open_server_settings": "サーバー設定",
-            "open_group_settings": "グループ設定",
+            "close_dm": "DMを閉じる",
+            "edit_identity": "プロフィールの編集",
+            "create_channel": "チャンネルを作成",
+            "create_category": "カテゴリーを作成",
+            "create_invite": "招待を作成",
+            "open_notification_options": "通知設定",
+            "open_channel_settings": "チャンネルの設定",
+            "open_server_settings": "サーバーの設定",
+            "open_group_settings": "グループの設定",
             "copy_selection": "コピー選択",
             "copy_sid": "コピーサーバID",
             "retry_message": "リトライ送信",
@@ -517,8 +517,8 @@
             "custom_status": "カスタムステータス",
             "set_custom_status": "カスタムステータスの設定",
             "leave_server": "サーバーを離れる",
-            "delete_server": "サーバーの削除",
-            "delete_channel": "チャンネルの削除"
+            "delete_server": "サーバーを削除",
+            "delete_channel": "チャンネルを削除"
         },
         "permissions": {
             "required": "必要な権限"
@@ -543,7 +543,7 @@
         "existing": "既にアカウントをお持ちですか？",
         "new": "Revoltは初めてですか？",
         "remembered": "ログインに戻ります。",
-        "set_password": "新しいパスワードを設定する。",
+        "set_password": "新しいパスワードを設定しましょう。",
         "reset": "パスワードをリセットする。",
         "forgot": "パスワードをお忘れですか？",
         "enter": {
@@ -567,8 +567,8 @@
         "loading": "ロード中…",
         "privacy": "プライバシーポリシー",
         "tos": "利用規約",
-        "about": "紹介",
-        "image_by": "イメージ提供",
+        "about": "Revoltについて",
+        "image_by": "イメージ提供：",
         "on": "オン",
         "off": "オフ"
     },
@@ -697,16 +697,16 @@
         }
     },
     "dayjs": {
-        "lastDay": "[昨日は] {{time}}",
-        "sameDay": "[今日のところは] {{time}}",
-        "nextDay": "[明日から] {{time}}",
-        "nextWeek": "dddd [で] {{time}}",
+        "lastDay": "[昨日] {{time}}",
+        "sameDay": "[今日] {{time}}",
+        "nextDay": "[明日] {{time}}",
+        "nextWeek": "dddd {{time}}",
         "defaults": {
-            "date_separator": "-",
-            "date_format": "traditional",
+            "date_separator": "/",
+            "date_format": "ISO8601",
             "twelvehour": "no"
         },
-        "lastWeek": "[先週の] dddd [で] {{time}}"
+        "lastWeek": "[先週] dddd {{time}}"
     },
     "notifications": {
         "now_friends": "あなたは@{{person}}さんと友達になりました!",
