@@ -36,7 +36,7 @@
         "existing": "Už máte účet?",
         "check_mail": "Zkontrolujte si Váš e-mail.",
         "invite": "Přístupový kód",
-        "missing_verification": "Nepřišel vám email?"
+        "missing_verification": "Nepřišel vám e-mail?"
     },
     "app": {
         "main": {
@@ -59,11 +59,11 @@
                     "group": "Toto je začátek vaše konverzace."
                 },
                 "system": {
-                    "channel_renamed": "přejmenovali kanál na",
-                    "removed_by": "byli odebráni",
+                    "channel_renamed": "{{user}} přejmenovali kanál na {{name}}",
+                    "removed_by": "{{user}} byli odstraněny uživatelem {{other_user}}",
                     "added_by": "byly přidáni",
-                    "user_joined": "se připojili.",
-                    "user_left": "odešli.",
+                    "user_joined": "{{user}} se připojili",
+                    "user_left": "{{user}} odešli",
                     "user_kicked": "byli vyhozeni."
                 }
             },
@@ -98,7 +98,7 @@
         "status": {
             "offline": "Offline",
             "invisible": "Neviditelný",
-            "busy": "Zaneprázdněný",
+            "busy": "Nerušit",
             "idle": "Neaktivní",
             "online": "Online"
         },
