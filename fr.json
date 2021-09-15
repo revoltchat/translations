@@ -12,10 +12,10 @@
     },
     "login": {
         "title": "Connexion",
-        "email": "Email",
+        "email": "Courriel",
         "password": "Mot de passe",
         "enter": {
-            "email": "Entrez votre adresse mail.",
+            "email": "Entrez votre adresse courriel.",
             "password": "Entrez votre mot de passe.",
             "invite": "Entrez votre code d'invitation.",
             "username": "Entrez un nom d'utilisateur.",
@@ -25,9 +25,9 @@
         "new": "Nouveau sur Revolt ?",
         "create": "Créer un nouveau compte.",
         "open_mail_provider": "Ouvrir {{provider}}",
-        "successful_registration": "Compte créé avec succès !",
+        "successful_registration": "Enregistré avec succès !",
         "set_password": "Définir un nouveau mot de passe.",
-        "missing_verification": "Pas d'email ?",
+        "missing_verification": "Pas de courriel ?",
         "cancel": "Annuler la requête.",
         "error": {
             "reset": "Échec de réinitialisation !",
@@ -43,7 +43,7 @@
         "resend": "Renvoyer la vérification.",
         "existing": "Avez-vous déjà un compte ?",
         "username": "Nom d'utilisateur",
-        "check_mail": "Vérifiez votre boite mail.",
+        "check_mail": "Vérifiez votre courriel.",
         "check_spam": "Veuillez vérifier dans vos courriers indésirables si le message est introuvable",
         "email_delay": "Merci d'attendre jusqu'à 10 minutes pour qu'il arrive."
     },
@@ -53,11 +53,11 @@
                 "message": "Message {{name}}",
                 "system": {
                     "user_left": "{{user}} est parti",
-                    "added_by": "{{other_user}} a ajouté {{user}}",
+                    "added_by": "{{user}} a été ajouté par {{other_user}}",
                     "user_joined": "{{user}} a rejoint",
-                    "removed_by": "{{other_user}} a enlevé {{user}}",
+                    "removed_by": "{{user}} a été enlevé par {{other_user}}",
                     "channel_renamed": "{{user}} a modifié le nom du salon en {{name}}",
-                    "channel_description_changed": "{{user}} a modifié la description du salon",
+                    "channel_description_changed": "{{user}} a changé la description du canal",
                     "channel_icon_changed": "{{user}} a modifié l'icône du salon",
                     "user_kicked": "{{user}} a été exclu",
                     "user_banned": "{{user}} a été banni"
@@ -65,19 +65,19 @@
                 "bot": "bot",
                 "message_where": "Envoyer un message dans {{channel_name}}",
                 "unknown_user": "<Utilisateur Inconnu>",
-                "uploading_file": "Téléchargement en cours…",
-                "failed_upload": "Échec du téléchargement !",
+                "uploading_file": "Téléversement en cours…",
+                "failed_upload": "Échec du téléversement !",
                 "typing": {
                     "single": "{{user}} est en train d'écrire…",
                     "multiple": "{{userlist}} et {{user}} sont en train d'écrire…",
-                    "several": "Plusieurs utilisateurs sont en train d'écrire…"
+                    "several": "Plusieurs personnes sont en train d'écrire…"
                 },
                 "message_who": "Envoyer un message à {{person}}",
                 "message_saved": "Enregistrer dans vos notes",
                 "start": {
                     "group": "Voici le début de votre conversation."
                 },
-                "edited": "(modifié)",
+                "edited": "(édité)",
                 "attached_file": "Pièce jointe {{filename}}",
                 "voice": {
                     "connected": "Connecté en vocal",
@@ -86,7 +86,7 @@
                     "unmute": "Activer la voix"
                 },
                 "misc": {
-                    "viewing_old": "Voir les d'anciens messages",
+                    "viewing_old": "Voir les messages plus anciens",
                     "jump_present": "Revenir aux messages récents",
                     "spoiler_attachment": "Spoiler",
                     "no_sending": "Vous n'avez pas la permission d'envoyer des messages dans ce salon.",
@@ -297,17 +297,17 @@
                     "bug_desc": "Visionnez les rapports de bugs actifs ici."
                 },
                 "account": {
-                    "title": "Mon Compte",
+                    "title": "Mon compte",
                     "change_field": "Modifier",
                     "2fa": {
-                        "title": "Authentification à Deux Facteurs",
+                        "title": "Authentification à deux facteurs",
                         "description": "Ajoutez une couche de sécurité supplémentaire en activant A2F à votre compte.",
-                        "remove_auth": "Supprimer un Facteur d'Authentification",
+                        "remove_auth": "Supprimer un facteur d'authentification",
                         "add_auth": "Ajouter un facteur d'authentification"
                     },
                     "unique_id": "Ceci est un identifiant utilisateur unique à votre compte.",
                     "manage": {
-                        "title": "Gestion du Compte",
+                        "title": "Gestion du compte",
                         "description": "Désactiver ou supprimer votre compte à tout moment. Cette action va vous déconnecter et entièrement supprimer votre compte, y compris vos messages et amis.",
                         "delete": "Supprimer le Compte",
                         "disable": "Désactiver le Compte"
@@ -392,8 +392,8 @@
             },
             "title": "Paramètres",
             "categories": {
-                "user_settings": "Paramètres Utilisateur",
-                "client_settings": "Paramètres de l'Application"
+                "user_settings": "Paramètres utilisateur",
+                "client_settings": "Paramètres de l'application"
             },
             "tips": {
                 "account": {
