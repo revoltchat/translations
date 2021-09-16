@@ -119,7 +119,7 @@
                     }
                 },
                 "errors": {
-                    "title": "Oups, Il n'y a rien ici!",
+                    "title": "Oups, Il n'y a rien ici !",
                     "nochannels": "Ce serveur n'a aucun salon, ou vous n'y avez pas accès.",
                     "nochannel": "Aucun salon"
                 }
@@ -172,7 +172,7 @@
             "copy_uid": "Copier l'identifiant utilisateur",
             "quote_message": "Citer le message",
             "save_video": "Sauvegarder la vidéo",
-            "clear_status": "Supprimer le status",
+            "clear_status": "Supprimer le statut",
             "message_user": "Message",
             "mark_as_read": "Marquer comme lu",
             "delete_message": "Supprimer le message",
@@ -253,7 +253,7 @@
                 },
                 "notifications": {
                     "descriptions": {
-                        "enable_desktop": "Ceci vous permettra de recevoir des notifications tant que l'application est ouverte.",
+                        "enable_desktop": "Ceci vous enverra des notifications tant que votre application est ouverte.",
                         "enable_sound": "Jouera un son a la réception d'un message.",
                         "enable_push": "Recevoir des notifications quand vous êtes hors ligne.",
                         "enable_outgoing_sound": "Jouera un son lors de l'envoi de messages."
@@ -360,13 +360,13 @@
                     "create_bot": "Créer un bot",
                     "token": "Jeton d'authentification",
                     "public_bot_tip": "Votre bot est public. N'importe qui peut l'inviter.",
-                    "private_bot_tip": "Votre bot est privé. Il ne peut être invité que par vous-même.",
+                    "private_bot_tip": "Votre bot est privé. Vous seul pouvez l'inviter.",
                     "public_bot": "Bot public",
                     "interactions_url": "URL d'Interactions",
                     "copy_invite": "Copier le lien d'invitation",
                     "add": "Ajouter un bot",
                     "public_bot_desc": "Autoriser d'autres utilisateurs à inviter ce bot.",
-                    "unique_id": "C'est un identifiant unique pour ton bot. Ce n'est pas son identifiant."
+                    "unique_id": "C'est un identifiant unique pour ton bot. Ce n'est pas le jeton du bot."
                 },
                 "audio": {
                     "title": "Options vocales",
@@ -377,7 +377,7 @@
                     "tip_retry": "Vous n'avez pas donné la permission pour accéder a votre micro, merci de {{retryBtn}}"
                 },
                 "theme_shop": {
-                    "title": "Boutique de Thèmes"
+                    "title": "Boutique de thèmes"
                 }
             },
             "channel_pages": {
@@ -398,14 +398,14 @@
             "tips": {
                 "account": {
                     "a": "Vous cherchez à personnaliser votre profil public ?",
-                    "b": "Rendez-vous dans votre profile."
+                    "b": "Rendez-vous dans vos paramètres de profile."
                 },
                 "languages": {
                     "a": "La langue voulue n'est pas disponible ?",
                     "b": "Contribuez à la traduction."
                 },
                 "sessions": {
-                    "a": "Si une session inconnue est présente dans la liste,",
+                    "a": "Si vous voyez une session inconnue dans la liste,",
                     "b": "sécurisez votre compte en changeant votre mot de passe et en utilisant l'A2F."
                 }
             },
@@ -472,10 +472,10 @@
                 "actions": {
                     "update": "Mettre à jour",
                     "preview": "Prévisualiser",
-                    "reload": "Relancer l'application",
+                    "reload": "Relancer l'appli",
                     "ok": "Ok",
                     "close": "Fermer",
-                    "send_email": "Envoyer un email",
+                    "send_email": "Envoyer un courriel",
                     "continue": "Continuer",
                     "save": "Enregistrer",
                     "cancel": "Annuler",
@@ -494,7 +494,7 @@
                 "signed_out": "Vous avez été déconnecté !",
                 "account": {
                     "change": {
-                        "email": "Changer votre adresse e-mail",
+                        "email": "Changer votre adresse courriel",
                         "username": "Changer votre nom d'utilisateur",
                         "password": "Changer votre mot de passe"
                     },
@@ -509,9 +509,9 @@
                     "confirm_leave": "Quitter le serveur {{name}} ?",
                     "confirm_leave_long": "Vous ne pourrez pas revenir à moins d'y être ré-invité.",
                     "confirm_close_dm": "Fermer la conversation avec {{name}} ?",
-                    "confirm_close_dm_long": "Vous pouvez la fermer plus tard mais elle disparaîtra des deux côtés.",
+                    "confirm_close_dm_long": "Vous pouvez la ré-ouvrir plus tard mais elle disparaîtra des deux côtés.",
                     "confirm_delete": "Supprimer {{name}} ?",
-                    "confirm_delete_long": "Une fois supprimer il n'y a pas de retour en arrière possible.",
+                    "confirm_delete_long": "Une fois supprimé il n'y a pas de retour en arrière possible.",
                     "create_invite_generate": "Génération d'une invitation en cours…",
                     "create_invite_created": "Voici votre nouveau code d'invitation :",
                     "confirm_delete_message_long": "Êtes-vous certain de vouloir supprimer ça ?",
@@ -571,7 +571,7 @@
                 },
                 "server_identity": {
                     "title": "Changer d'identité sur {{server}}",
-                    "nickname": "Pseudo",
+                    "nickname": "Pseudonyme",
                     "avatar": "Avatar"
                 }
             },
@@ -584,7 +584,7 @@
                 "accept": "Accepter l'invitation",
                 "user_count": "{{member_count}} membres",
                 "invalid": "Invitation invalide !",
-                "invalid_desc": "L'invitation n'existe peut-être pas ou vous n'avez pas la permission de rejoindre le serveur."
+                "invalid_desc": "L'invitation peut ne pas exister ou vous n'avez pas la permission de rejoindre le serveur."
             }
         },
         "permissions": {
@@ -594,7 +594,7 @@
     "quantities": {
         "members": {
             "one": "1 membre",
-            "many": "{{count}} Membres"
+            "many": "{{count}} membres"
         }
     },
     "dayjs": {
@@ -617,45 +617,45 @@
     "error": {
         "Unlabelled": "Une erreur est survenue.",
         "RenderFail": "Échec du rendu du modèle.",
-        "InvalidToken": "Token invalide",
+        "InvalidToken": "Jeton invalide",
         "MissingInvite": "Code d'invitation manquant dans la requête.",
         "AlreadyFriends": "Vous êtes déjà ami avec cet utilisateur.",
         "Blocked": "Vous avez bloqué cet utilisateur.",
         "FailedToReceive": "La réception de votre fichier par le serveur a échoué.",
-        "MissingData": "Données de la requête manquantes.",
+        "MissingData": "Les données de la requête manquent.",
         "IoError": "Le serveur a rencontré une erreur de connexion.",
         "UnsupportedBrowser": "Votre navigateur ne supporte pas cette fonctionnalité.",
-        "DeniedNotification": "Vous avez refusé l'accès aux notification, vérifiez les paramètres.",
+        "DeniedNotification": "Vous avez refusé l'accès aux notification, vérifiez la page des paramètres.",
         "FailedValidation": "Échec de la validation des champs.",
         "DatabaseError": "Erreur de la base de données.",
         "InternalError": "Erreur interne.",
-        "MissingPermission": "Permissions manquantes.",
+        "MissingPermission": "Permission manquante.",
         "InvalidSession": "Session invalide.",
         "UnverifiedAccount": "Compte non vérifié.",
         "UnknownUser": "Utilisateur inconnu.",
-        "InvalidCredentials": "Adresse e-mail ou mot de passe incorrect.",
+        "InvalidCredentials": "Adresse courriel ou mot de passe incorrect.",
         "InvalidInvite": "Code d'invitation invalide",
         "AlreadyOnboarded": "Configuration déjà terminée.",
         "UsernameTaken": "Nom d'utilisateur déjà pris.",
         "AlreadySentRequest": "Vous avez déjà une demande en attente pour cet utilisateur.",
         "TooShort": "Trop court",
-        "FileTooLarge": "Fichier trop volumineux.",
-        "NetworkError": "Erreur réseau.",
+        "FileTooLarge": "Ce fichier est trop volumineux.",
+        "NetworkError": "Erreur de réseau.",
         "Unauthorized": "Non autorisé.",
         "UnknownError": "Voir la console.",
         "OperationFailed": "Échec de l'opération.",
-        "EmailFailed": "Échec de l'envoi de l'email.",
+        "EmailFailed": "Échec de l'envoi du courriel.",
         "BlockedOther": "Cet utilisateur vous a bloqué.",
         "NoEffect": "Cette requête n'a pas pris effet.",
         "RequiredField": "Requis",
         "TooLong": "Trop long",
-        "InvalidEmail": "Adresse e-mail invalide",
+        "InvalidEmail": "Adresse courriel invalide",
         "Unavailable": "Indisponible.",
         "ProbeError": "Échec de la récupération des métadonnées du fichier.",
         "MissingHeaders": "En-têtes manquants.",
-        "EmailInUse": "Adresse e-mail déjà utilisée.",
+        "EmailInUse": "Adresse courriel déjà utilisée.",
         "CompromisedPassword": "Ce mot de passe est compromis.",
-        "ReachedMaximumBots": "Vous avez atteint le nombre maximum de bots.",
+        "ReachedMaximumBots": "Vous avez atteint le nombre maximal de bots.",
         "AudioPermissionBlock": "Aucun accès à ton microphone, merci de vérifier l'autorisation de ton navigateur."
     },
     "shortcuts": {
@@ -672,8 +672,8 @@
                 "t": "Expulser les membres"
             },
             "ChangeNickname": {
-                "d": "Permet aux membres de modifier leur surnom sur le serveur.",
-                "t": "Modifier le surnom"
+                "d": "Permet aux membres de modifier leur pseudonyme sur le serveur.",
+                "t": "Modifier le pseudonyme"
             },
             "ManageChannels": {
                 "d": "Permet aux membres de créer, éditer et supprimer des salons.",
@@ -684,8 +684,8 @@
                 "d": "Permet aux membres de modifier le nom, la description, l'icône et d'autres informations liées au serveur."
             },
             "ManageNicknames": {
-                "t": "Gérer les surnoms",
-                "d": "Permet aux membres de modifier les surnoms d'autres membres."
+                "t": "Gérer les pseudonymes",
+                "d": "Permet aux membres de modifier les pseudonymes d'autres membres."
             },
             "ChangeAvatar": {
                 "t": "Modifier l'avatar",
