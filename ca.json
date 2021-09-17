@@ -130,7 +130,22 @@
                 }
             },
             "groups": {
-                "create": "Crear un grup"
+                "create": "Crear un grup",
+                "description": "Descripció del grup",
+                "owner": "Propietari del grup",
+                "name": "Nom del grup"
+            },
+            "servers": {
+                "create": "Creeu un servidor",
+                "name": "Nom del servidor",
+                "channel_name": "Nom del canal",
+                "description": "Descripció del servidor",
+                "channel_type": "Tipus de canal",
+                "channel_description": "Descripció del canal",
+                "custom_banner": "Bàner personalitzat",
+                "owner": "Propietari del servidor",
+                "text_channel": "Canal de text",
+                "voice_channel": "Canal de veu"
             }
         },
         "status": {
@@ -147,6 +162,99 @@
                 "friends": "Amics",
                 "unreads": "No llegits",
                 "saved": "Notes Guardades"
+            }
+        },
+        "settings": {
+            "pages": {
+                "account": {
+                    "manage": {
+                        "description": "Desactiveu o suprimiu el vostre compte en qualsevol moment. Aquesta acció us tancarà la sessió i suprimirà completament el vostre compte, inclòs l'historial de xats i els amics.",
+                        "title": "Administració de comptes",
+                        "disable": "Desactiva el compte",
+                        "delete": "Esborrar compte"
+                    },
+                    "title": "El meu compte",
+                    "change_field": "Canviar",
+                    "unique_id": "Aquest és un identificador d'usuari únic per al vostre compte.",
+                    "2fa": {
+                        "title": "Autenticació de dos factors",
+                        "description": "Afegiu una capa de seguretat addicional activant 2FA al vostre compte.",
+                        "add_auth": "Afegiu l’autenticador",
+                        "remove_auth": "Elimina Authenticator"
+                    }
+                },
+                "appearance": {
+                    "import_theme": "Importa el tema des de la cadena",
+                    "custom_css": "CSS personalitzat",
+                    "ligatures": "Lligadures de tipus de lletra",
+                    "title": "Aparença",
+                    "theme": "Tema",
+                    "display": {
+                        "default": "Predeterminat",
+                        "compact": "Compacte",
+                        "default_description": "Preciós, elegant i modern.",
+                        "compact_description": "Bona antiga IRC."
+                    },
+                    "color": {
+                        "light": "llum",
+                        "dark": "fosc"
+                    },
+                    "accent_selector": "Color d’accent",
+                    "emoji_pack": "Paquet d'emoji",
+                    "message_display": "Visualització de missatges",
+                    "advanced": "Opcions avançades",
+                    "overrides": "Substitució de temes",
+                    "reset_overrides": "Restableix les substitucions",
+                    "import": "Importeu un tema",
+                    "theme_data": "Dades del tema",
+                    "sync": "Opcions de sincronització",
+                    "font": "Font",
+                    "mono_font": "Selector de tipus de lletra Monospace"
+                },
+                "profile": {
+                    "title": "Perfil",
+                    "info": "Informació",
+                    "fetching": "S'està recuperant el vostre perfil…",
+                    "placeholder": "Escriu alguna cosa sobre tu mateix…",
+                    "profile_picture": "Imatge de perfil",
+                    "custom_background": "Fons personalitzat",
+                    "edit_background": "Edita el fons",
+                    "edit_profile": "Edita el perfil"
+                },
+                "sessions": {
+                    "title": "Sesions",
+                    "active_sessions": "Sessions actives",
+                    "this_device": "Aquest dispositiu",
+                    "created": "Creat {{time_ago}}",
+                    "logout": "Tanqueu la sessió de la resta de sessions"
+                },
+                "audio": {
+                    "title": "Configuració de veu",
+                    "input_device": "Micròfon",
+                    "output_device": "Altaveu / auriculars",
+                    "device_label_NA": "N/A"
+                },
+                "notifications": {
+                    "title": "Notificacions",
+                    "push_notifications": "Notificacions push",
+                    "enable_desktop": "Activa les notificacions d'escriptori.",
+                    "enable_push": "Activeu les notificacions push.",
+                    "sounds": "Sons",
+                    "descriptions": {
+                        "enable_desktop": "Això us proporcionarà notificacions mentre l'aplicació estigui oberta.",
+                        "enable_push": "Activeu la possibilitat de rebre notificacions quan no tingueu connexió."
+                    }
+                }
+            },
+            "title": "Configuració",
+            "categories": {
+                "user_settings": "Configuració de l'usuari",
+                "client_settings": "Configuració del client"
+            },
+            "actions": {
+                "remove": "Treure",
+                "upload": "Pujar Carrega",
+                "max_filesize": "(màx {{filesize}})"
             }
         }
     }
