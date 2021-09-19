@@ -30,11 +30,11 @@
             "mark_as_read": "Máirc as léite",
             "open_link": "Oscáil nasc",
             "save_video": "Sábháil físeán",
-            "view_profile": "Féachant ar prófíl",
-            "quote_message": "Teachtaireacht comhartha",
+            "view_profile": "Féach ar an bpróifíl",
+            "quote_message": "Teachtaireacht athfhriotail",
             "copy_link": "Coipéal nasc",
             "message_user": "Teachtaireacht",
-            "retry_message": "Atriail seoladh",
+            "retry_message": "Seol atriail",
             "edit_message": "Eagarthóireacht teachtaireacht",
             "delete_message": "Scrios teachtaireacht",
             "remove_member": "Bain ón grúpa",
@@ -60,7 +60,8 @@
             "set_custom_status": "Socrú stádais custam",
             "edit_identity": "Eagarthóireacht aitheantas",
             "create_channel": "Cruthaigh chainéal",
-            "open_server_settings": "Friothálaí cruithe"
+            "open_server_settings": "Friothálaí cruithe",
+            "open_group_settings": "Socruithe grúpa"
         },
         "status": {
             "online": "Ar líne",
@@ -529,6 +530,9 @@
                 "invalid_desc": "Ní fhéadfaidh an cuireadh a bheith i bhfeidhm nó b’fhéidir nach gceadófar duit páirt a ghlacadh."
             },
             "requires_online": "Caithfidh tú a bheith ar líne chun amharc é seo."
+        },
+        "permissions": {
+            "required": "Ceadanna ag teastáil"
         }
     },
     "permissions": {
@@ -575,5 +579,50 @@
         "resend": "Athdhéan fíorú.",
         "email_delay": "Lig suas le 10 nóiméad dó le do thoil.",
         "successful_registration": "Cláraithe go rathúil!"
+    },
+    "quantities": {
+        "members": {
+            "one": "1 Bhall",
+            "many": "Tá {{count}} bhall air seo"
+        }
+    },
+    "dayjs": {
+        "sameDay": "Inniu ag {{time}}",
+        "nextWeek": "dddd ag {{time}}",
+        "lastDay": "Inné ag {{time}}",
+        "defaults": {
+            "date_format": "traditional",
+            "date_separator": "/",
+            "twelvehour": "no"
+        },
+        "nextDay": "Amárach ag {{time}}",
+        "lastWeek": "Dé dddd seo caite ag {{time}}"
+    },
+    "error": {
+        "NetworkError": "Earráid idirlín.",
+        "AlreadySentRequest": "Tá iarratas seolta chuig an úsáideoir seo cheana féin.",
+        "ProbeError": "Theip ar mheiteashonraí comhaid a fháil.",
+        "MissingInvite": "Cód cuireadh ar iarraidh.",
+        "InvalidInvite": "Cód neamhbhailí",
+        "AlreadyOnboarded": "Críochnaithe cheana féin ar bord.",
+        "BlockedOther": "Chuir an t-úsáideoir seo bac ort.",
+        "NoEffect": "Ní raibh aon éifeacht leis an iarraidh seo.",
+        "RequiredField": "Riachtanach",
+        "TooShort": "Ró-ghearr",
+        "TooLong": "Ró-fhada",
+        "Unavailable": "Níl sé ar fáil.",
+        "FileTooLarge": "Tá an comhad ró-mhór.",
+        "InvalidCredentials": "Tá ríomhphost nó pasfhocal mícheart.",
+        "InvalidToken": "Comhartha mícheart",
+        "UsernameTaken": "Tá ainm úsáideora in úsáid cheana féin.",
+        "AlreadyFriends": "Tá tú cairde leis an úsáideoir seo cheana féin.",
+        "Blocked": "Chuir tú bac ar an úsáideoir seo.",
+        "MissingData": "Tá sonraí in easnamh san iarraidh.",
+        "Unauthorized": "Neamhúdaraithe.",
+        "FailedToReceive": "Theip ar an bhfreastalaí do chomhad a aisghabháil."
+    },
+    "notifications": {
+        "sent_request": "Chuir @{{person}} iarratas cara chugat",
+        "now_friends": "Tá tú anois cairde le @{{person}}!"
     }
 }
