@@ -23,9 +23,9 @@
                     "title": "役割"
                 },
                 "bans": {
-                    "no_reason": "禁止理由はありません。",
-                    "revoke": "リボーク",
-                    "reason": "禁止理由",
+                    "no_reason": "BANの理由はありません。",
+                    "revoke": "取り消し",
+                    "reason": "BAN理由",
                     "user": "ユーザー",
                     "title": "バンズ"
                 },
@@ -251,13 +251,13 @@
                     "none": "なし",
                     "mention": "メンションのみ",
                     "all": "すべてのメッセージ",
-                    "default": "デフォルトの使用"
+                    "default": "デフォルトを使用"
                 },
                 "bot": "ボット",
                 "edited": "(編集済み)",
-                "unknown_user": "未知のユーザー",
+                "unknown_user": "不明なユーザー",
                 "nsfw": {
-                    "confirm": "私は、私が18歳以上であることを確認します。",
+                    "confirm": "私は、自分が18歳以上であることを確認します。",
                     "channel": {
                         "confirm": "チャンネルに入る",
                         "marked": "このチャンネルはNSFWとしてマークされています。"
@@ -267,44 +267,44 @@
                     "sent_multiple_files": "複数の添付ファイルを送信",
                     "sent_file": "添付ファイルの送信",
                     "blocked_user": "ブロックされたユーザー",
-                    "blocked_messages": "{{count}}件のブロックされたメッセージ",
+                    "blocked_messages": "{{count}} 件のブロックされたメッセージ",
                     "no_sending": "このチャンネルでメッセージを送信する権限がありません。",
                     "failed_load": "メッセージを読み込めませんでした。",
                     "spoiler_attachment": "ネタバレ",
-                    "jump_present": "現在の場所へジャンプ",
+                    "jump_present": "最新のメッセージへジャンプ",
                     "viewing_old": "古いメッセージの表示"
                 },
                 "voice": {
-                    "unmute": "アンミュート",
+                    "unmute": "ミュートを解除",
                     "mute": "ミュート",
-                    "leave": "ボイスチャットから離れる",
+                    "leave": "ボイスチャットから去る",
                     "connected": "ボイスチャンネルに接続"
                 },
                 "start": {
                     "group": "これが会話の始まりです。"
                 },
                 "system": {
-                    "channel_icon_changed": "{{user}}はチャンネルアイコンを変更しました",
-                    "channel_description_changed": "{{user}}がチャンネルの説明を変更しました",
-                    "channel_renamed": "{{user}}はチャンネルを{{name}}にリネームしました",
-                    "removed_by": "{{user}}は{{other_user}}によって削除されました",
-                    "added_by": "{{user}}は{{other_user}}によって追加されました",
-                    "user_banned": "{{user}}がサーバーから禁止されました",
-                    "user_kicked": "{{user}}がサーバーからキックされました",
-                    "user_left": "{{user}}がサーバーから離脱",
-                    "user_joined": "{{user}}の参加"
+                    "channel_icon_changed": "{{user}} がチャンネルアイコンを変更しました",
+                    "channel_description_changed": "{{user}} がチャンネルの説明を変更しました",
+                    "channel_renamed": "{{user}} はチャンネルの名前を {{name}} に変更しました",
+                    "removed_by": "{{user}} が {{other_user}} に削除されました",
+                    "added_by": "{{user}} が {{other_user}} によって追加されました",
+                    "user_banned": "{{user}} がサーバーからBANされました",
+                    "user_kicked": "{{user}} がサーバーからキックされました",
+                    "user_left": "{{user}} がサーバーから離脱しました",
+                    "user_joined": "{{user}} がサーバーに滑り込みました"
                 },
                 "typing": {
                     "several": "複数人が入力中…",
-                    "multiple": "{{userlist}}と{{user}}が入力中…",
-                    "single": "{{user}}が入力中…"
+                    "multiple": "{{userlist}} と {{user}} が入力中…",
+                    "single": "{{user}} が入力中…"
                 },
-                "attached_file": "添付された{{filename}}",
+                "attached_file": "添付された {{filename}}",
                 "failed_upload": "アップロードに失敗しました!",
                 "uploading_file": "アップロード中…",
                 "message_saved": "ノートに保存",
-                "message_who": "{{person}}にメッセージを送る",
-                "message_where": "{{channel_name}}にメッセージを送る",
+                "message_who": "{{person}} にメッセージを送る",
+                "message_where": "{{channel_name}} にメッセージを送る",
                 "errors": {
                     "title": "おっと！ここには何もありません！",
                     "nochannels": "このサーバーにはチャンネルが無いか、チャンネルへのアクセス権限がありません。",
@@ -329,8 +329,8 @@
         },
         "status": {
             "offline": "オフライン",
-            "invisible": "インビジブル",
-            "busy": "邪魔しないで",
+            "invisible": "オンラインステータスを隠す",
+            "busy": "取り込み中",
             "idle": "離席中",
             "online": "オンライン"
         },
@@ -367,8 +367,8 @@
                     "confirm_delete": "{{name}}の削除？",
                     "create_invite_generate": "招待を作成中…",
                     "create_invite_created": "これがあなたの新しい招待コードです:",
-                    "confirm_ban": "あなたは{{name}}を禁止しようとしています",
-                    "confirm_ban_reason": "禁止理由",
+                    "confirm_ban": "あなたは {{name}} をBANしようとしています",
+                    "confirm_ban_reason": "BANの理由",
                     "unfriend_user": "{{name}}を削除しますか？",
                     "unfriend_user_long": "再度追加するまで会話ができなくなるかもしれません。",
                     "block_user": "ブロック{{name}}?"
@@ -395,7 +395,7 @@
                     "remove": "削除",
                     "delete": "削除",
                     "create": "作成",
-                    "reveal": "暴露",
+                    "reveal": "表示",
                     "update": "アップデート",
                     "cancel": "キャンセル",
                     "preview": "プレビュー",
@@ -526,23 +526,23 @@
     },
     "login": {
         "error": {
-            "resend": "再送に失敗しました!",
-            "reset": "リセットに失敗しました!",
-            "login": "ログインに失敗しました!",
-            "create": "登録に失敗しました!"
+            "resend": "再送に失敗しました...",
+            "reset": "リセットに失敗しました...",
+            "login": "ログインに失敗しました...",
+            "create": "登録に失敗しました..."
         },
         "successful_registration": "登録が完了しました!",
-        "open_mail_provider": "オープン {{provider}}",
+        "open_mail_provider": "{{provider}} を開く",
         "check_spam": "見つからない場合は、迷惑メールをご確認ください",
-        "email_delay": "到着までに10分程度かかる場合があります。",
+        "email_delay": "メールを受信するまで10分程度かかる場合があります。",
         "check_mail": "メールをチェックする。",
-        "cancel": "リクエストをキャンセルします。",
-        "resend": "検証を再送する。",
+        "cancel": "リクエストをキャンセル。",
+        "resend": "検証コードを再送する。",
         "missing_verification": "Eメールがありませんか？",
-        "create": "新しいアカウントを作成します。",
+        "create": "新しいアカウントを作成する。",
         "existing": "既にアカウントをお持ちですか？",
         "new": "Revoltは初めてですか？",
-        "remembered": "ログインに戻ります。",
+        "remembered": "ログイン画面に戻る。",
         "set_password": "新しいパスワードを設定しましょう。",
         "reset": "パスワードをリセットする。",
         "forgot": "パスワードをお忘れですか？",
@@ -556,7 +556,7 @@
         "current_password": "現在のパスワード",
         "invite": "招待コード",
         "password": "パスワード",
-        "email": "電子メール",
+        "email": "メールアドレス",
         "username": "ユーザー名",
         "register": "登録",
         "title": "ログイン"
