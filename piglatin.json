@@ -271,12 +271,17 @@
                 },
                 "account": {
                     "change_field": "Angechay",
-                    "title": "Myay Accountway"
+                    "title": "Myay Accountway",
+                    "unique_id": "Histay siay aay niqueay seruay dentifieriay orfay ouryay ccountaay.",
+                    "2fa": {
+                        "title": "Wotay-actorfay Uthenticationaay"
+                    }
                 }
             },
             "actions": {
-                "upload": "{{filesize}})",
-                "remove": "Emoveray"
+                "upload": "Ploadu (max {{filesize}})",
+                "remove": "Emoveray",
+                "max_filesize": "(axmay {{filesize}})"
             },
             "categories": {
                 "client_settings": "Ientclay Ettingssay",
@@ -288,7 +293,8 @@
             "groups": {
                 "owner": "Oupgray Ownerway",
                 "name": "Oupgray Amenay",
-                "create": "Eatecray away oupgray."
+                "create": "Reatecay aay roupgay.",
+                "description": "Roupgay Escriptionday"
             },
             "channel": {
                 "bot": "otbay",
@@ -297,7 +303,13 @@
                 "misc": {
                     "spoiler_attachment": "Oilerspay",
                     "jump_present": "Umpjay otay esentpray",
-                    "viewing_old": "Iewingvay olderway essagesmay"
+                    "viewing_old": "Iewingvay olderway essagesmay",
+                    "failed_load": "Ouldn'tcay oadlay essagemay.",
+                    "blocked_messages": "{{count}} lockedbay essagesmay",
+                    "no_sending": "Ouyay on'tday avehay ermissionpay otay endsay essagesay niay histay hannelcay.",
+                    "sent_file": "Entsay naay ttachmentaay",
+                    "sent_multiple_files": "Entsay ultiplemay ttachmentsaay",
+                    "blocked_user": "Lockedbay Seruay"
                 },
                 "voice": {
                     "unmute": "Unmuteway",
@@ -309,13 +321,15 @@
                     "group": "Isthay isway ethay artstay ofway yourway onversationcay."
                 },
                 "system": {
-                    "channel_renamed": "enamedray ethay annelchay otay",
-                    "removed_by": "emovedray byay",
-                    "added_by": "addedway byay",
-                    "user_left": "eftlay.",
-                    "user_joined": "oinedjay.",
-                    "channel_description_changed": "angedchay ethay annelchay escriptionday",
-                    "channel_icon_changed": "angedchay ethay annelchay iconway"
+                    "channel_renamed": "{{user}} enamedray ethay annelchay otay {{name}}",
+                    "removed_by": "{{user}} asway emovedray byay {{other_user}}",
+                    "added_by": "{{user}} addedway byay ybay {{other_user}}",
+                    "user_left": "{{user}} Eftlay.",
+                    "user_joined": "{{user}} Oinedjay.",
+                    "channel_description_changed": "{{user}} angedchay ethay annelchay escriptionday",
+                    "channel_icon_changed": "{{user}} angedchay ethay annelchay coniay",
+                    "user_banned": "{{user}} asway annedbay",
+                    "user_kicked": "{{user}} Asway ickeday"
                 },
                 "typing": {
                     "several": "Everalsay eoplepay areway ing…typay",
@@ -327,13 +341,52 @@
                 "uploading_file": "Uploadingway ile…fay",
                 "message_saved": "Avesay otay yourway otesnay",
                 "message_who": "{{person}}",
-                "message_where": "{{channel_name}}"
+                "message_where": "{{channel_name}}",
+                "notifications": {
+                    "all": "Llaay Essagesmay",
+                    "mention": "Entionsmay Nlyoay",
+                    "muted": "Utedmay",
+                    "default": "Seuay Efaultday",
+                    "none": "Onenay"
+                },
+                "errors": {
+                    "nochannels": "Histay erversay ashay onay hannelsay, roay ouyay on'tday avehay ccessaay otay nyaay.",
+                    "nochannel": "Onay hannelay",
+                    "title": "Opsoay, here'stay othingnay erehay!"
+                },
+                "nsfw": {
+                    "channel": {
+                        "confirm": "Ntereay Hannelcay",
+                        "marked": "Histay hannelsay siay arkedsay saay SFWNay."
+                    },
+                    "confirm": "Iay onfirmcay hattay Iay maay taay eastlay 81ay earsyay ldoay."
+                },
+                "search": {
+                    "sort": {
+                        "latest": "Atestlay",
+                        "oldest": "Ldestoay",
+                        "relevance": "Elevanceray"
+                    },
+                    "title": "Earchsay"
+                }
             },
             "categories": {
                 "members": "Embersmay",
                 "channels": "Annelschay",
                 "participants": "Articipantspay",
                 "conversations": "Onversationscay"
+            },
+            "servers": {
+                "create": "Rreatecay aay erversay",
+                "description": "Erversay Escriptionday",
+                "channel_description": "Hannelcay Escriptionday",
+                "text_channel": "Exttay Hannelcay",
+                "voice_channel": "Oicevay Hannelcay",
+                "channel_type": "Hannelcay Ypetay",
+                "name": "Erversay Amenay",
+                "custom_banner": "Ustomcay Annerbay",
+                "owner": "Erversay Wneroay",
+                "channel_name": "Hannelcay Amenay"
             }
         },
         "navigation": {
@@ -387,13 +440,18 @@
         "email": "Emailway",
         "username": "Usernameway",
         "register": "Egisterray",
-        "title": "Oginlay"
+        "title": "Oginlay",
+        "email_delay": "Lease allow up to 10 minutes for it to arrivepay."
     },
     "general": {
         "loading": "Oading…lay",
         "image_by": "Imageway byay",
         "privacy": "Ivacypray Olicypay",
         "tos": "Ermstay ofway Ervicesay",
-        "about": "Aboutway"
+        "about": "Boutayay",
+        "on": "Noay",
+        "off": "Fofay",
+        "disabled": "Isabledday",
+        "unavailable": "Navailableuay"
     }
 }
