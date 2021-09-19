@@ -117,6 +117,11 @@
                         "latest": "Senaste",
                         "oldest": "Äldsta"
                     }
+                },
+                "errors": {
+                    "title": "Det finns inget här!",
+                    "nochannels": "Den här servern har inga kanaler eller så har du inte åtkomst till några.",
+                    "nochannel": "Ingen kanal"
                 }
             },
             "categories": {
@@ -195,7 +200,8 @@
                     "kick": "Sparka",
                     "block": "Blockera",
                     "back": "Gå tillbaka",
-                    "hide": "Göm"
+                    "hide": "Göm",
+                    "edit": "Redigera"
                 },
                 "signed_out": "Du blev utloggad!",
                 "clipboard": {
@@ -233,7 +239,13 @@
                         "email": "Ändra din e-postadress",
                         "username": "Byt ditt användarnamn"
                     }
-                }
+                },
+                "external_links": {
+                    "trust_domain": "Lita på den här domänen",
+                    "short": "Vill du gå till: ",
+                    "title": "Externa länkar kan vara farliga!"
+                },
+                "token_reveal": "Token för {{name}}"
             },
             "status": {
                 "reconnecting": "Återansluter…",
@@ -259,10 +271,21 @@
                         "information": "Information",
                         "badges": "Märken"
                     },
-                    "empty": "Det är lite tomt här…"
+                    "empty": "Det är lite tomt här…",
+                    "no_servers": "Inga gemensamma servrar!",
+                    "mutual_servers": "Gemensamma servrar"
                 },
                 "user_picker": {
                     "select": "Välj vänner att lägga till."
+                },
+                "server_identity": {
+                    "title": "Ändra identitet på {{server}}",
+                    "nickname": "Smeknamn",
+                    "avatar": "Avatar"
+                },
+                "create_bot": {
+                    "title": "Skapa en ny bot",
+                    "failed": "Det gick inte att skapa en bot!"
                 }
             },
             "copy_username": "Klicka för att kopiera användarnamn",
@@ -271,7 +294,9 @@
                 "invited_by": "Inbjuden av {{user}}",
                 "login": "Logga in till Revolt",
                 "accept": "Acceptera Inbjudan",
-                "user_count": "{{member_count}} användarna"
+                "user_count": "{{member_count}} användarna",
+                "invalid": "Ogiltig inbjudan!",
+                "invalid_desc": "Inbjudan kanske inte finns eller så har du inte behörighet att ansluta."
             }
         },
         "context_menu": {
@@ -321,7 +346,10 @@
             "kick_member": "Sparka medlem",
             "open_notification_options": "Aviseringsinställningar",
             "ban_member": "Bannlys medlem",
-            "reply_message": "Svara"
+            "reply_message": "Svara",
+            "copy_message_link": "Kopiera meddelandelänk",
+            "edit_identity": "Redigera identitet",
+            "create_category": "Skapa kategori"
         },
         "settings": {
             "pages": {
@@ -420,7 +448,12 @@
                     "other": "Annat",
                     "feature": "Funktionsförfrågan",
                     "bug": "Buggspårare",
-                    "report": "Vad vill du rapportera?"
+                    "report": "Vad vill du rapportera?",
+                    "suggest": "Skicka funktionsförslag",
+                    "issue_desc": "För att hjälpa oss lättare triage frågor, kan du skapa ett problem på GitHub.",
+                    "suggest_desc": "Föreslå nya Revolt funktioner på GitHub diskussioner.",
+                    "issue": "Skapa ett nytt ärende",
+                    "bug_desc": "Visa aktuella felrapporter här."
                 },
                 "profile": {
                     "info": "Information",
@@ -452,7 +485,9 @@
                 "audio": {
                     "title": "Röstinställningar",
                     "output_device": "Högtalare / Hörlurar",
-                    "input_device": "Mikrofone"
+                    "input_device": "Mikrofone",
+                    "device_label_NA": "EJ TILLÄMPLIGT",
+                    "button_retry": "försöka igen"
                 },
                 "bots": {
                     "title": "Min bottar",
@@ -464,7 +499,12 @@
                     "private_bot_tip": "Botten är privat. Endast du kan bjuda in den.",
                     "copy_invite": "Kopiera Inbjudninglänk",
                     "create_bot": "Skapa en Bot",
-                    "add": "Lägg till Bot"
+                    "add": "Lägg till Bot",
+                    "interactions_url": "Interaktions-URL",
+                    "unique_id": "Detta är en unik identifierare för din bot. Detta är inte botens token."
+                },
+                "theme_shop": {
+                    "title": "Temabutik"
                 }
             },
             "categories": {
@@ -610,7 +650,9 @@
         "UnsupportedBrowser": "Webbläsaren saknar support för den här funktionen.",
         "Unauthorized": "Obefogad.",
         "NetworkError": "Nätverksfel.",
-        "CompromisedPassword": "Det här lösenordet har äventyrats."
+        "CompromisedPassword": "Det här lösenordet har äventyrats.",
+        "ReachedMaximumBots": "Du har nått maxantalet botar.",
+        "AudioPermissionBlock": "Ingen åtkomst till din mikrofon. Kontrollera webbläsarens konfiguration."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
