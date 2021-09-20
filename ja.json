@@ -8,7 +8,7 @@
                 },
                 "languages": {
                     "b": "より多くの翻訳に貢献してください。",
-                    "a": "希望する言語ががありませんか？"
+                    "a": "希望する言語がありませんか？"
                 },
                 "sessions": {
                     "a": "不明なセッションがリストに表示されている場合は",
@@ -48,7 +48,7 @@
             },
             "channel_pages": {
                 "permissions": {
-                    "title": "パーミッション"
+                    "title": "権限"
                 },
                 "overview": {
                     "description": "チャンネルの説明",
@@ -61,34 +61,34 @@
                 "feedback": {
                     "bug_desc": "現在進行中のバグレポートはこちら。",
                     "bug": "バグトラッカー",
-                    "issue_desc": "問題のトリアージを容易にするために、GitHub上で課題を作成することができます。",
-                    "issue": "新規課題の作成",
+                    "issue_desc": "問題をより簡単に選別するために、GitHubでissueを作成することができます。",
+                    "issue": "新規issueの作成",
                     "suggest_desc": "Revoltの新しい機能をGitHubのディスカッションで提案してみましょう。",
-                    "suggest": "機能提案の提出",
+                    "suggest": "機能の提案をする",
                     "title": "フィードバック"
                 },
                 "bots": {
-                    "title": "マイボッツ",
-                    "private_bot_tip": "プライベートなボットは、あなただけが招待することができます。",
+                    "title": "自分のボット",
+                    "private_bot_tip": "ボットは非公開です。あなただけが招待できます。",
                     "create_bot": "ボット作成",
                     "copy_invite": "招待リンクをコピー",
                     "add": "ボットを追加",
                     "token": "トークン",
-                    "public_bot_tip": "公共ボットに、誰も招待することができます。",
-                    "public_bot": "公共ボット",
+                    "public_bot_tip": "ボットは公開されています。誰でも招待することができます。",
+                    "public_bot": "公開されているボット",
                     "public_bot_desc": "他のユーザーが、このボットを招待することができるかどうか。",
                     "interactions_url": "相互作用 URL",
-                    "reserved": "注：このフィールドは、後でのために無効にされた。",
+                    "reserved": "注：このフィールドは将来のために確保されています。",
                     "unique_id": "これはあなたのボットの唯一の識別子です。ボットのトークンではありません。"
                 },
                 "source_code": "ソースコード",
                 "donate": {
-                    "title": "寄贈"
+                    "title": "寄付"
                 },
                 "experiments": {
                     "not_available": "現時点で利用可能な機能はありません。",
                     "features": "利用可能な機能",
-                    "title": "実験の様子"
+                    "title": "試験的な機能"
                 },
                 "native": {
                     "title": "デスクトップ設定"
@@ -110,13 +110,13 @@
                 },
                 "notifications": {
                     "sound": {
-                        "call_leave": "ユーザーレフトコール",
-                        "call_join": "ユーザーがコールに参加",
+                        "call_leave": "ユーザーが通話から退出",
+                        "call_join": "ユーザーが通話に参加",
                         "outbound": "メッセージ送信",
-                        "message": "受信したメッセージ"
+                        "message": "メッセージ受信"
                     },
                     "descriptions": {
-                        "enable_push": "オフラインになったときに通知を受け取るようにする。",
+                        "enable_push": "オフライン時に通知を受け取るようにする。",
                         "enable_desktop": "これにより、アプリを開いている間、通知を受け取ることができます。"
                     },
                     "sounds": "サウンド",
@@ -163,7 +163,7 @@
                     "button_retry": "もう一度"
                 },
                 "sessions": {
-                    "logout": "他のすべてのセッションからのログアウト",
+                    "logout": "他のすべてのセッションからログアウトする",
                     "created": "作成された{{time_ago}}",
                     "this_device": "このデバイス",
                     "active_sessions": "アクティブセッション",
@@ -171,7 +171,7 @@
                 },
                 "profile": {
                     "edit_profile": "プロフィール編集",
-                    "edit_background": "編集背景",
+                    "edit_background": "背景を編集",
                     "custom_background": "カスタムバックグラウンド",
                     "profile_picture": "プロフィール写真",
                     "placeholder": "自分のことを書いて…",
@@ -183,14 +183,14 @@
                     "manage": {
                         "delete": "アカウントの削除",
                         "disable": "アカウントの無効化",
-                        "description": "いつでもアカウントを無効にしたり、削除することができます。この操作を行うと、ログアウトして、チャット履歴や友達を含むアカウントが完全に削除されます。",
+                        "description": "いつでもアカウントを無効化、または削除することができます。この操作を行うとログアウトされ、チャット履歴やフレンドと共に、アカウントは完全に削除されます。",
                         "title": "アカウント管理"
                     },
                     "2fa": {
                         "remove_auth": "Authenticatorの削除",
                         "add_auth": "Authenticatorの追加",
                         "description": "あなたのアカウントで2FAを有効にすることで、さらにセキュリティを高めることができます。",
-                        "title": "2ファクタ認証"
+                        "title": "二要素認証"
                     },
                     "unique_id": "これは、あなたのアカウントに固有のユーザー識別子です。",
                     "change_field": "変更",
@@ -212,10 +212,10 @@
             "title": "設定",
             "permissions": {
                 "default_role": "デフォルト",
-                "server": "サーバーパーミッション",
+                "server": "サーバー権限",
                 "channel": "チャンネル権限",
                 "create_role": "新規ロールの作成",
-                "role_name": "役名"
+                "role_name": "ロール名"
             }
         },
         "main": {
@@ -225,7 +225,7 @@
                 "owner": "サーバーオーナー",
                 "custom_banner": "カスタムバナー",
                 "channel_description": "チャンネルの説明",
-                "channel_type": "チャンネルタイプ",
+                "channel_type": "チャンネルの種類",
                 "channel_name": "チャンネル名",
                 "description": "サーバーの説明",
                 "name": "サーバー名",
@@ -286,7 +286,7 @@
                 "system": {
                     "channel_icon_changed": "{{user}} がチャンネルアイコンを変更しました",
                     "channel_description_changed": "{{user}} がチャンネルの説明を変更しました",
-                    "channel_renamed": "{{user}} はチャンネルの名前を {{name}} に変更しました",
+                    "channel_renamed": "{{user}} がチャンネルの名前を {{name}} に変更しました",
                     "removed_by": "{{user}} が {{other_user}} に削除されました",
                     "added_by": "{{user}} が {{other_user}} によって追加されました",
                     "user_banned": "{{user}} がサーバーからBANされました",
@@ -336,12 +336,12 @@
         },
         "special": {
             "friends": {
-                "pending": "リクエストの保留",
-                "sent": "発信",
+                "pending": "保留中",
+                "sent": "送信",
                 "nobody": "まだ誰もいませんよ!",
                 "blocked": "ブロック",
-                "incoming": "友達のリクエストが来ています。",
-                "outgoing": "友達リクエストの発信。",
+                "incoming": "フレンドリクエストが来ています。",
+                "outgoing": "送信済みのフレンドリクエスト。",
                 "from": {
                     "single": "{{user}}より",
                     "multiple": "{{userlist}}と{{user}}から",
@@ -350,28 +350,28 @@
             },
             "modals": {
                 "error": "エラーが発生しました!",
-                "signed_out": "あなたはサインアウトされていました!",
+                "signed_out": "サインアウトしました!",
                 "onboarding": {
                     "welcome": "ようこそ",
-                    "pick": "このユーザー名は、後で設定で変更することができます。"
+                    "pick": "他のユーザーから検索されるように名前を決めましょう。この名前は後ほど設定から変更できます。"
                 },
                 "prompt": {
-                    "confirm_delete_long": "一度削除してしまうと元には戻れません。",
-                    "confirm_delete_message_long": "本当にこれを削除していいのか？",
-                    "confirm_kick": "本当に{{name}}を蹴りたいのか？",
+                    "confirm_delete_long": "一度削除してしまうと、元に戻すことはできません。",
+                    "confirm_delete_message_long": "本当に削除してもよろしいですか？",
+                    "confirm_kick": "本当に{{name}}を追放しますか？",
                     "block_user_long": "本当に{{name}}をブロックしますか？また、あなたの友達リストからも削除されます。",
                     "confirm_leave": "{{name}}から離れますか？",
-                    "confirm_leave_long": "再度招待されない限り、再入会はできません。",
+                    "confirm_leave_long": "再招待されない限り、参加することはできません。",
                     "confirm_close_dm": "{{name}}との会話を閉じますか？",
-                    "confirm_close_dm_long": "あとで開きなおすことはできますが、双方ともに消えてしまいます。",
-                    "confirm_delete": "{{name}}の削除？",
+                    "confirm_close_dm_long": "また開き直すことは可能ですが、両者ともに消えてしまいます。",
+                    "confirm_delete": "{{name}}を削除しますか？",
                     "create_invite_generate": "招待を作成中…",
                     "create_invite_created": "これがあなたの新しい招待コードです:",
                     "confirm_ban": "あなたは {{name}} をBANしようとしています",
                     "confirm_ban_reason": "BANの理由",
                     "unfriend_user": "{{name}}を削除しますか？",
-                    "unfriend_user_long": "再度追加するまで会話ができなくなるかもしれません。",
-                    "block_user": "ブロック{{name}}?"
+                    "unfriend_user_long": "再追加するまで、彼らと会話ができなくなるかもしれません。",
+                    "block_user": "{{name}}をブロックしますか?"
                 },
                 "account": {
                     "change": {
@@ -385,12 +385,12 @@
                     "block": "ブロック",
                     "reload": "再読み込み",
                     "ok": "OK",
-                    "ban": "バン",
+                    "ban": "Ban",
                     "kick": "キック",
                     "save": "保存",
                     "hide": "隠す",
                     "close": "閉じる",
-                    "leave": "放置",
+                    "leave": "離れる",
                     "back": "戻る",
                     "remove": "削除",
                     "delete": "削除",
@@ -401,10 +401,10 @@
                     "preview": "プレビュー",
                     "continue": "続ける",
                     "send_email": "メール送信",
-                    "edit": "修正"
+                    "edit": "編集"
                 },
                 "clipboard": {
-                    "unavailable": "クリップボードが使用できません!",
+                    "unavailable": "クリップボードは使用できません!",
                     "https": "現在、HTTPS環境ではありません。",
                     "copy": "マニュアルコピー:"
                 },
@@ -421,16 +421,16 @@
                     "badges": {
                         "translator": "翻訳者",
                         "supporter": "サポーター",
-                        "responsible_disclosure": "責任を持って開示したバグ（複数",
+                        "responsible_disclosure": "バグハンター",
                         "early_adopter": "アーリーアダプター"
                     },
                     "profile": "プロフィール",
                     "mutual_friends": "共通の友人",
-                    "mutual_groups": "相互グループ",
-                    "mutual_servers": "相互のサーバー",
-                    "no_users": "共通の友人がいない！",
-                    "no_groups": "相互のグループがない！",
-                    "no_servers": "相互のサーバーはありません!",
+                    "mutual_groups": "共通のグループ",
+                    "mutual_servers": "共通のサーバー",
+                    "no_users": "共通の友人がいません！",
+                    "no_groups": "共通のグループがありません！",
+                    "no_servers": "共通のサーバーがありません!",
                     "sub": {
                         "badges": "バッジ",
                         "information": "インフォメーション",
@@ -454,7 +454,7 @@
             "copy": "クリックしてコピー",
             "status": {
                 "offline": "オフライン。",
-                "disconnected": "切断された。",
+                "disconnected": "接続切れ。",
                 "connecting": "接続中…",
                 "reconnecting": "再接続中…"
             },
