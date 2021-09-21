@@ -302,7 +302,7 @@
                     "input_device": "Mic",
                     "output_device": "Loa / Tai nghe",
                     "tip_retry": "Bạn chưa cấp quyền truy cập microphone cho chúng tôi, vui lòng {{retryBtn}}.",
-                    "device_label_NA": "Không có",
+                    "device_label_NA": "Không có sẵn",
                     "button_retry": "thử lại"
                 },
                 "theme_shop": {
@@ -452,7 +452,8 @@
                 "error": "Đã xảy ra lỗi!",
                 "clipboard": {
                     "unavailable": "Clipboard không khả dụng!",
-                    "https": "Bạn hiện không ở trong ngữ cảnh HTTPS."
+                    "https": "Bạn hiện không ở trong ngữ cảnh HTTPS.",
+                    "copy": "Sao chép thủ công:"
                 },
                 "signed_out": "Bạn đã đăng xuất!",
                 "account": {
@@ -524,7 +525,7 @@
             "copy_link": "Sao chép liên kết",
             "block_user": "Chặn người dùng",
             "remove_friend": "Bỏ bạn",
-            "set_custom_status": "Thêm hoạt động tự thiết lập",
+            "set_custom_status": "Đặt trạng thái tuỳ chỉnh",
             "copy_selection": "Sao chép phần lựa chọn",
             "copy_sid": "Sao chép ID máy chủ",
             "mention": "Nhắc tới",
@@ -559,12 +560,16 @@
             "save_file": "Lưu tệp tin",
             "save_video": "Lưu video",
             "unblock_user": "Xóa chặn người dùng",
-            "clear_status": "Xóa bỏ hoạt động",
+            "clear_status": "Xóa trạng thái",
             "close_dm": "Đóng cuộc trò chuyện riêng",
             "delete_server": "Xóa máy chủ",
             "edit_identity": "Sửa đổi danh tính",
             "create_category": "Tạo chủ danh mục",
-            "create_invite": "Tạo lời mời"
+            "create_invite": "Tạo lời mời",
+            "quote_message": "Trích dẫn tin nhắn"
+        },
+        "permissions": {
+            "required": "Yêu cầu quyền"
         }
     },
     "permissions": {
@@ -604,8 +609,89 @@
         },
         "server": {
             "RemoveAvatars": {
-                "d": "Cho phép thành viên gỡ ảnh đại diện máy chủ của thành viên khác trong máy chủ này."
+                "d": "Cho phép thành viên gỡ ảnh đại diện máy chủ của thành viên khác trong máy chủ này.",
+                "t": "Xoá ảnh đại diện"
+            },
+            "ManageRoles": {
+                "t": "Quản lý vai trò",
+                "d": "Cho phép các thành viên tạo, chỉnh sửa và xóa các vai trò có thứ hạng thấp hơn của họ. Đồng thời cho phép họ sửa đổi quyền vai trò trên các kênh."
+            },
+            "ManageChannels": {
+                "t": "Quản lý kênh",
+                "d": "Cho phép các thành viên tạo, chỉnh sửa và xóa kênh."
+            },
+            "ManageServer": {
+                "t": "Quản lý máy chủ",
+                "d": "Cho phép các thành viên thay đổi tên, mô tả, biểu tượng của máy chủ này và các thông tin liên quan khác."
+            },
+            "KickMembers": {
+                "t": "Xoá thành viên",
+                "d": "Cho phép xóa thành viên khỏi máy chủ này. Các thành viên bị đuổi có thể tham gia lại với một lời mời khác."
+            },
+            "ChangeAvatar": {
+                "t": "Thay đổi ảnh đại diện",
+                "d": "Cho phép các thành viên thay đổi hình đại diện máy chủ của họ trên máy chủ này."
+            },
+            "BanMembers": {
+                "d": "Cho phép cấm vĩnh viễn thành viên khỏi máy chủ này.",
+                "t": "Cấm Thành Viên"
+            },
+            "ChangeNickname": {
+                "t": "Thay đổi biệt danh",
+                "d": "Cho phép thành viên tuỳ ý thay đổi biệt danh trong máy chủ này."
+            },
+            "ManageNicknames": {
+                "t": "Quản lý biệt danh",
+                "d": "Cho phép thành viên thay đổi biệt danh của thành viên khác."
             }
         }
+    },
+    "error": {
+        "RequiredField": "Cần thiết",
+        "EmailFailed": "Không gởi được email.",
+        "OperationFailed": "Thao tác thất bại.",
+        "UnverifiedAccount": "Tài khoản chưa xác thực.",
+        "EmailInUse": "Email đã được sử dụng.",
+        "AlreadySentRequest": "Đã gửi yêu cầu cho người dùng này trước đó.",
+        "CompromisedPassword": "Mật khẩu này đã bị xâm phạm.",
+        "ReachedMaximumBots": "Bạn đã đạt số lượng bot tối đa.",
+        "InvalidToken": "Token không hợp lệ",
+        "MissingInvite": "Thiếu mã mời trong yêu cầu.",
+        "InvalidInvite": "Mã không hợp lệ",
+        "AlreadyFriends": "Đã kết bạn với người dùng này.",
+        "InvalidSession": "Phiên không hợp lệ.",
+        "InvalidCredentials": "Email hoặc mật khẩu không đúng.",
+        "UsernameTaken": "Tên người dùng đã lấy.",
+        "NoEffect": "Yêu cầu này không có hiệu lực.",
+        "TooShort": "Quá ngắn",
+        "BlockedOther": "Người dùng này đã chặn bạn.",
+        "TooLong": "Quá dài",
+        "Unavailable": "Không có sẵn.",
+        "FileTooLarge": "Tập tin quá lớn.",
+        "FailedToReceive": "Máy chủ không nhận được tập tin của bạn.",
+        "MissingData": "Yêu cầu bị thiếu dữ liệu.",
+        "UnsupportedBrowser": "Trình duyệt thiếu hỗ trợ tính năng này.",
+        "DeniedNotification": "Bạn đã từ chối quyền truy cập thông báo, hãy kiểm tra cài đặt trang.",
+        "Unauthorized": "Không có quyền.",
+        "DatabaseError": "Lỗi cơ sở dữ liệu.",
+        "InternalError": "Lỗi hệ thống.",
+        "MissingPermission": "Thiếu quyền.",
+        "UnknownError": "Kiểm tra console.",
+        "Blocked": "Bạn đã chặn người dùng này.",
+        "NetworkError": "Lỗi mạng.",
+        "InvalidEmail": "Địa chỉ mail không hợp lệ",
+        "Unlabelled": "Chuyện gì đó đã xảy ra.",
+        "IoError": "Máy chủ gặp lỗi I/O.",
+        "FailedValidation": "Không xác thực được các trường.",
+        "AudioPermissionBlock": "Không có quyền truy cập vào mic của bạn, vui lòng kiểm tra cài đặt trình duyệt của bạn.",
+        "UnknownUser": "Người dùng không xác định.",
+        "AlreadyOnboarded": "Đã hoàn thành giới thiệu."
+    },
+    "notifications": {
+        "now_friends": "Bạn đã trở thành bạn với @{{person}}!",
+        "sent_request": "@{{person}} đã gởi lời mời kết bạn."
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
     }
 }
