@@ -3,8 +3,8 @@
         "status": {
             "invisible": "Naka-invisible",
             "busy": "Huwag istorbohin",
-            "offline": "Offline",
-            "online": "Online",
+            "offline": "Naka-offline",
+            "online": "Naka-online",
             "idle": "Naka-idle"
         },
         "navigation": {
@@ -696,13 +696,13 @@
         "defaults": {
             "date_separator": "/",
             "date_format": "simplified",
-            "twelvehour": "yes"
+            "twelvehour": "no"
         },
-        "sameDay": "[Kanina alas] {{time}}",
-        "nextDay": "[Bukas alas] {{time}}",
-        "lastDay": "[Kahapon alas] {{time}}",
-        "lastWeek": "[Huling] dddd [alas] {{time}}",
-        "nextWeek": "dddd [alas] {{time}}"
+        "sameDay": "[Ngayong] {{time}}",
+        "nextDay": "[Bukas ng] {{time}}",
+        "lastDay": "[Kahapon ng] {{time}}",
+        "lastWeek": "[Huling {{time}} [ng] dddd",
+        "nextWeek": "{{time}} [ng] dddd"
     },
     "quantities": {
         "members": {
