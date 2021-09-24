@@ -4,14 +4,14 @@
             "channel": {
                 "system": {
                     "added_by": "{{user}} je dodan od {{other_user}}",
-                    "user_kicked": "{{user}} je izbačen.",
-                    "user_left": "{{user}} je otišao.",
+                    "user_kicked": "{{user}} je izbačen",
+                    "user_left": "{{user}} nas je napustio",
                     "user_joined": "{{user}} se pridružio",
                     "channel_icon_changed": "{{user}} je promjenio ikonu kanala",
                     "channel_description_changed": "{{user}} je promjenio opis kanala",
                     "channel_renamed": "{{user}} je promjenio ime kanala u {{name}}",
                     "removed_by": "{{user}} je izbačen od {{other_user}}",
-                    "user_banned": "{{user}} je zabranjen."
+                    "user_banned": "{{user}} je banan"
                 },
                 "typing": {
                     "several": "Nekoliko ljudi tipka…",
@@ -20,18 +20,19 @@
                 },
                 "attached_file": "Prenesao {{filename}}",
                 "failed_upload": "Prijenos neuspješan!",
-                "uploading_file": "Prenesujem…",
+                "uploading_file": "Učitavanje…",
                 "message_saved": "Spremi u bilješke",
                 "message_who": "Pošalji poruku osobi {{person}}",
                 "message_where": "Pošalji poruku u {{channel_name}}",
                 "voice": {
                     "mute": "Utišaj",
-                    "leave": "Napusti",
-                    "connected": "Glas povezan",
+                    "leave": "Napusti poziv",
+                    "connected": "Glas spojen",
                     "unmute": "Uključi zvuk"
                 },
                 "start": {
-                    "group": "Ovo je početak vašeg razgovora."
+                    "group": "Ovo je početak vašeg razgovora.",
+                    "saved": "Ovo je početak vaših bilješki."
                 },
                 "misc": {
                     "viewing_old": "Pregledavate stare poruke",
@@ -40,7 +41,7 @@
                     "failed_load": "Nemogu učitati poruku.",
                     "no_sending": "Nemate dopuštenje za slanje poruka na ovom kanalu.",
                     "blocked_messages": "{{count}} blokiranih poruka",
-                    "sent_file": "Poslao prilog",
+                    "sent_file": "Priloži datoteku",
                     "sent_multiple_files": "Poslano je više privitaka",
                     "blocked_user": "Blokirani korisnik"
                 },
@@ -58,7 +59,7 @@
                 "notifications": {
                     "none": "Nijedan",
                     "all": "Sve poruke",
-                    "mention": "Samo spomene",
+                    "mention": "Samo spominjanja",
                     "muted": "Prigušen",
                     "default": "Koristi zadano"
                 },
@@ -68,6 +69,11 @@
                         "marked": "Ovaj kanal je označen kao NSFW."
                     },
                     "confirm": "Potvrđujem da imam najmanje 18 godina."
+                },
+                "errors": {
+                    "nochannels": "Ovaj server nema nijedan kanal, ili vi nemate pristup niti jednome.",
+                    "title": "Oops, ovdje nema ničega!",
+                    "nochannel": "Nema kanala"
                 }
             },
             "categories": {
@@ -80,10 +86,10 @@
                 "name": "Ime grupe",
                 "description": "Opis grupe",
                 "owner": "Vlasnik grupe",
-                "create": "Napravi grupu."
+                "create": "Napravi grupu"
             },
             "servers": {
-                "create": "Napravi server.",
+                "create": "Napravi server",
                 "name": "Ime servera",
                 "description": "Opis servera",
                 "channel_name": "Ime kanala",
@@ -91,7 +97,7 @@
                 "custom_banner": "Vlastiti banner",
                 "owner": "Vlasnik servera",
                 "channel_type": "Vrsta kanala",
-                "text_channel": "SMS kanal",
+                "text_channel": "Tekstualni kanal",
                 "voice_channel": "Glasovni kanal"
             }
         },
@@ -107,7 +113,7 @@
         "status": {
             "offline": "Izvan mreže",
             "invisible": "Nevidljiv",
-            "busy": "Zauzet",
+            "busy": "Zauzet ne ometaj",
             "idle": "U mirovanju",
             "online": "Na vezi"
         },
@@ -147,7 +153,7 @@
                     "custom_background": "Vlastita pozadina",
                     "edit_background": "Promjeni pozadinu",
                     "profile_picture": "Profilna slika",
-                    "fetching": "Dohvaćujem profil…",
+                    "fetching": "Dohvaćam vaš profil…",
                     "edit_profile": "Uredi profil"
                 },
                 "sessions": {
@@ -258,7 +264,9 @@
                 "audio": {
                     "title": "Glasovne postavke",
                     "input_device": "Mikrofon",
-                    "output_device": "Zvučnik / slušalice"
+                    "output_device": "Zvučnik / slušalice",
+                    "device_label_NA": "Nije dostupno",
+                    "button_retry": "pokušaj ponovno"
                 },
                 "bots": {
                     "title": "Moji botovi",
@@ -271,10 +279,14 @@
                     "interactions_url": "URL za Interakcije",
                     "reserved": "Napomena: Ovo polje rezervirano je za budućnost.",
                     "create_bot": "Stvori Bota",
-                    "public_bot_desc": "Treba li dopustiti drugim korisnicima da dodaju ovog bota."
+                    "public_bot_desc": "Treba li dopustiti drugim korisnicima da dodaju ovog bota.",
+                    "unique_id": "Ovo je jedinstveni identifikator vašeg bota. Ovo nije botov token."
                 },
                 "native": {
                     "title": "Postavke radne površine"
+                },
+                "theme_shop": {
+                    "title": "Kupi teme"
                 }
             },
             "channel_pages": {
@@ -380,12 +392,12 @@
                     "confirm_delete": "Izbriši {{name}}?",
                     "confirm_delete_long": "Nakon što ga izbrišeš, nema povratka.",
                     "create_invite_generate": "Pravim invitaciju…",
-                    "confirm_kick": "Jeste li sigurni da želite izbrisati {{name}}?",
+                    "confirm_kick": "Jeste li sigurni da želite izbaciti {{name}}?",
                     "confirm_ban_reason": "Razlog zabrane",
                     "confirm_close_dm": "Zatvori razgovor sa {{name}}?",
                     "confirm_delete_message_long": "Jeste li sigurni da želite izbrisati ovo?",
                     "create_invite_created": "Evo vaše invitacije:",
-                    "confirm_ban": "Vi ćete zabraniti {{name}}",
+                    "confirm_ban": "Banati korisnika {{name}}",
                     "unfriend_user": "Ukloniti {{name}}?",
                     "unfriend_user_long": "Možda nećete moći ponovno razgovarati s njima dok ih ponovo ne dodate.",
                     "block_user": "Blokirati {{name}}?",
@@ -418,12 +430,15 @@
                     "leave": "Napustiti",
                     "block": "Blok",
                     "remove": "Ukloniti",
-                    "create": "Stvoriti"
+                    "create": "Stvoriti",
+                    "edit": "Uredi"
                 },
                 "external_links": {
                     "title": "Vanjske veze mogu biti opasne!",
-                    "short": "Jeste li sigurni da želite otići na: "
-                }
+                    "short": "Jeste li sigurni da želite otići na: ",
+                    "trust_domain": "Vjeruj ovoj domeni"
+                },
+                "token_reveal": "{{name}}'s Token"
             },
             "popovers": {
                 "user_profile": {
@@ -449,6 +464,15 @@
                 },
                 "user_picker": {
                     "select": "Odaberi prijatelje koje želiš dodati."
+                },
+                "create_bot": {
+                    "failed": "Neuspješno kreiranje bota!",
+                    "title": "Napravi novog bota"
+                },
+                "server_identity": {
+                    "nickname": "Nadimak",
+                    "title": "Promijeni identitet na {{server}}",
+                    "avatar": "Slika profila"
                 }
             },
             "requires_online": "Trebaš biti na vezi da vidiš ovo.",
@@ -456,7 +480,9 @@
                 "user_count": "Broj korisnika: {{member_count}}",
                 "invited_by": "Pozvao korisnik {{user}}",
                 "login": "Prijavite se u Revolt",
-                "accept": "Prihvati Poziv"
+                "accept": "Prihvati Poziv",
+                "invalid": "Pogrešan invite!",
+                "invalid_desc": "Invite možda ne postoji ili nemaš dozvolu za pristup."
             },
             "copy": "Kliknite za kopiranje"
         },
@@ -472,7 +498,7 @@
             "edit_message": "Uredi poruku",
             "remove_member": "Izbaci iz grupe",
             "kick_member": "Izbaci člana",
-            "ban_member": "Zabrani člana",
+            "ban_member": "Banaj člana",
             "open_file": "Otvori datoteku",
             "save_file": "Spremi datoteku",
             "save_image": "Spremi sliku",
@@ -483,7 +509,7 @@
             "unblock_user": "Odblokiraj korisnika",
             "add_friend": "Dodaj prijatelja",
             "remove_friend": "Ukloni prijatelja",
-            "cancel_friend": "Odkaži zahtjev",
+            "cancel_friend": "Otkaži zahtjev",
             "custom_status": "Prilagođeni status",
             "clear_status": "Ukloni status",
             "set_custom_status": "Postavi prilagođeni status",
@@ -492,7 +518,7 @@
             "close_dm": "Zatvori DM",
             "delete_server": "Izbriši server",
             "create_channel": "Napravi kanal",
-            "create_invite": "Napravi pozivnicu",
+            "create_invite": "Napravi invite",
             "open_channel_settings": "Postavke kanala",
             "open_server_settings": "Postavke servera",
             "copy_text": "Kopiraj tekst",
@@ -527,22 +553,22 @@
         "open_mail_provider": "Otvori {{provider}}",
         "check_spam": "Provjerite neželjenu poštu ako ga ne možete pronaći",
         "check_mail": "Provjerite svoj sandučić.",
-        "cancel": "Odkaži.",
+        "cancel": "Otkaži zahtjev.",
         "resend": "Ponovno pošalji verifikaciju.",
         "missing_verification": "Niste primili e-poštu?",
         "create": "Napravi novi račun.",
         "existing": "Već imate račun?",
-        "new": "Novi na Revolt-u?",
-        "remembered": "Vrati se na prijavljivanje.",
+        "new": "Novi ste na Revolt-u?",
+        "remembered": "Vrati se na prijavu.",
         "set_password": "Postavi novu lozinku.",
         "reset": "Promjeni lozinku.",
         "forgot": "Zaboravili ste lozinku?",
         "enter": {
             "current_password": "Unesite trenutačnu lozinku.",
-            "invite": "Unesite ključ od pozivnice.",
+            "invite": "Unesite invite kod.",
             "password": "Unesite lozinku.",
-            "email": "Unesite e-poštu.",
-            "username": "Unesite korsničko ime."
+            "email": "Unesite vašu e-mail adresu.",
+            "username": "Unesite željeno korisničko ime."
         },
         "current_password": "Trenutačna lozinka",
         "invite": "Pozivnica",
@@ -571,12 +597,17 @@
         }
     },
     "dayjs": {
-        "lastDay": "[Jučer u] LT",
-        "sameDay": "[Danas u] LT",
-        "nextDay": "[Sutra u] LT",
-        "lastWeek": "[Prošli] dddd [u] LT",
-        "nextWeek": "dddd [u] LT",
-        "sameElse": "L"
+        "lastDay": "[Jučer u] {{time}}",
+        "sameDay": "[Danas u] {{time}}",
+        "nextDay": "[Sutra u] {{time}}",
+        "lastWeek": "[Zadnji] dddd [at] {{time}}",
+        "nextWeek": "dddd [u] {{time}}",
+        "sameElse": "L",
+        "defaults": {
+            "date_separator": "/",
+            "date_format": "traditional",
+            "twelvehour": "no"
+        }
     },
     "notifications": {
         "now_friends": "Sada the prijatelji sa @{{person}}!",
@@ -622,7 +653,9 @@
         "ProbeError": "Dohvaćanje metapodataka datoteke nije uspjelo.",
         "IoError": "Poslužitelj je naišao na I/O pogrešku.",
         "UnsupportedBrowser": "Vašem web pregledniku nedostaje podrška za ovu značajku.",
-        "DeniedNotification": "Odbili ste pristup obavijesti, provjerite postavke stranice."
+        "DeniedNotification": "Odbili ste pristup obavijesti, provjerite postavke stranice.",
+        "ReachedMaximumBots": "Dosegnuli ste maksimalnu kolicinu botova.",
+        "AudioPermissionBlock": "Nemamo pristup mikrofonu, molimo te da provjeriš postavke preglednika."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
