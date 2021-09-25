@@ -281,7 +281,8 @@
                     "connected": "ボイスチャンネルに接続"
                 },
                 "start": {
-                    "group": "これが会話の始まりです。"
+                    "group": "これが会話の始まりです。",
+                    "saved": "これがノートの始まりです。"
                 },
                 "system": {
                     "channel_icon_changed": "{{user}} がチャンネルアイコンを変更しました",
@@ -409,7 +410,7 @@
                     "copy": "マニュアルコピー:"
                 },
                 "external_links": {
-                    "title": "外部リンクは危険な場合があります。",
+                    "title": "外部リンクは危険な場合があります！",
                     "short": "本当に接続しますか？ ",
                     "trust_domain": "このドメインを信頼する"
                 },
@@ -526,18 +527,18 @@
     },
     "login": {
         "error": {
-            "resend": "再送に失敗しました...",
-            "reset": "リセットに失敗しました...",
-            "login": "ログインに失敗しました...",
-            "create": "登録に失敗しました..."
+            "resend": "再送信に失敗しました！",
+            "reset": "リセットに失敗しました！",
+            "login": "ログインに失敗しました！",
+            "create": "登録に失敗しました！"
         },
-        "successful_registration": "登録が完了しました!",
+        "successful_registration": "登録が完了しました！",
         "open_mail_provider": "{{provider}} を開く",
-        "check_spam": "見つからない場合は、迷惑メールをご確認ください",
+        "check_spam": "見つからない場合は、迷惑メールフォルダーをご確認ください",
         "email_delay": "メールを受信するまで10分程度かかる場合があります。",
         "check_mail": "メールをチェックする。",
-        "cancel": "リクエストをキャンセル。",
-        "resend": "検証コードを再送する。",
+        "cancel": "リクエストをキャンセルする。",
+        "resend": "認証コードを再送信する。",
         "missing_verification": "Eメールがありませんか？",
         "create": "新しいアカウントを作成する。",
         "existing": "既にアカウントをお持ちですか？",
@@ -550,7 +551,7 @@
             "current_password": "現在のパスワードを入力してください。",
             "invite": "招待コードを入力してください。",
             "password": "パスワードを入力してください。",
-            "email": "Eメールを入力してください。",
+            "email": "メールアドレスを入力してください。",
             "username": "ユーザー名を入力してください。"
         },
         "current_password": "現在のパスワード",
@@ -564,11 +565,11 @@
     "general": {
         "unavailable": "利用不可",
         "disabled": "無効化",
-        "loading": "ロード中…",
+        "loading": "読み込み中…",
         "privacy": "プライバシーポリシー",
         "tos": "利用規約",
         "about": "私達について",
-        "image_by": "イメージ提供：",
+        "image_by": "画像提供：",
         "on": "オン",
         "off": "オフ"
     },
