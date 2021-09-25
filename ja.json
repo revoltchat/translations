@@ -12,7 +12,7 @@
                 },
                 "sessions": {
                     "a": "不明なセッションがリストに表示されている場合は",
-                    "b": "パスワードを変更し、2FAを使用してアカウントを保護してください。"
+                    "b": "パスワードを変更し、二要素認証を使用してアカウントを保護してください。"
                 }
             },
             "server_pages": {
@@ -23,7 +23,7 @@
                     "title": "ロール"
                 },
                 "bans": {
-                    "no_reason": "BANの理由はありません。",
+                    "no_reason": "BAN理由はありません。",
                     "revoke": "取り消し",
                     "reason": "BAN理由",
                     "user": "ユーザー",
@@ -75,9 +75,9 @@
                     "add": "ボットを追加",
                     "token": "トークン",
                     "public_bot_tip": "ボットは公開されています。誰でも招待することができます。",
-                    "public_bot": "公開されているボット",
+                    "public_bot": "公開ボット",
                     "public_bot_desc": "他のユーザーが、このボットを招待することができるかどうか。",
-                    "interactions_url": "相互作用 URL",
+                    "interactions_url": "相互作用URL",
                     "reserved": "注：このフィールドは将来のために確保されています。",
                     "unique_id": "これはあなたのボットの唯一の識別子です。ボットのトークンではありません。"
                 },
@@ -121,7 +121,7 @@
                     },
                     "sounds": "サウンド",
                     "push_notifications": "プッシュ通知",
-                    "title": "お知らせ",
+                    "title": "通知",
                     "enable_push": "プッシュ通知を有効にする。",
                     "enable_desktop": "デスクトップ通知を有効にする。"
                 },
@@ -160,21 +160,21 @@
                     "title": "音声設定",
                     "device_label_NA": "該当無し",
                     "tip_retry": "マイクの使用許可がありません。もう一度{{retryBtn}}。",
-                    "button_retry": "もう一度"
+                    "button_retry": "リトライ"
                 },
                 "sessions": {
                     "logout": "他のすべてのセッションからログアウトする",
-                    "created": "作成された{{time_ago}}",
+                    "created": "{{time_ago}}に作成",
                     "this_device": "このデバイス",
-                    "active_sessions": "アクティブセッション",
+                    "active_sessions": "アクティブなセッション",
                     "title": "セッション"
                 },
                 "profile": {
                     "edit_profile": "プロフィール編集",
                     "edit_background": "背景を編集",
-                    "custom_background": "カスタムバックグラウンド",
+                    "custom_background": "カスタム背景",
                     "profile_picture": "プロフィール写真",
-                    "placeholder": "自分のことを書いて…",
+                    "placeholder": "自分についてのことを書いて…",
                     "fetching": "あなたのプロフィールを取得しています…",
                     "info": "インフォメーション",
                     "title": "プロフィール"
@@ -189,7 +189,7 @@
                     "2fa": {
                         "remove_auth": "Authenticatorの削除",
                         "add_auth": "Authenticatorの追加",
-                        "description": "あなたのアカウントで2FAを有効にすることで、さらにセキュリティを高めることができます。",
+                        "description": "あなたのアカウントで二要素認証を有効にすることで、さらにセキュリティを高めることができます。",
                         "title": "二要素認証"
                     },
                     "unique_id": "これは、あなたのアカウントに固有のユーザー識別子です。",
@@ -254,7 +254,7 @@
                     "default": "デフォルトを使用"
                 },
                 "bot": "ボット",
-                "edited": "(編集済み)",
+                "edited": "(編集済)",
                 "unknown_user": "不明なユーザー",
                 "nsfw": {
                     "confirm": "私は、自分が18歳以上であることを確認します。",
@@ -277,7 +277,7 @@
                 "voice": {
                     "unmute": "ミュートを解除",
                     "mute": "ミュート",
-                    "leave": "ボイスチャットから去る",
+                    "leave": "切断",
                     "connected": "ボイスチャンネルに接続"
                 },
                 "start": {
@@ -288,12 +288,12 @@
                     "channel_icon_changed": "{{user}} がチャンネルアイコンを変更しました",
                     "channel_description_changed": "{{user}} がチャンネルの説明を変更しました",
                     "channel_renamed": "{{user}} がチャンネルの名前を {{name}} に変更しました",
-                    "removed_by": "{{user}} が {{other_user}} に削除されました",
+                    "removed_by": "{{user}} が {{other_user}} によって削除されました",
                     "added_by": "{{user}} が {{other_user}} によって追加されました",
                     "user_banned": "{{user}} がサーバーからBANされました",
                     "user_kicked": "{{user}} がサーバーからキックされました",
                     "user_left": "{{user}} がサーバーから離脱しました",
-                    "user_joined": "{{user}} がサーバーに滑り込みました"
+                    "user_joined": "{{user}} がサーバーに参加しました"
                 },
                 "typing": {
                     "several": "複数人が入力中…",
@@ -301,13 +301,13 @@
                     "single": "{{user}} が入力中…"
                 },
                 "attached_file": "添付された {{filename}}",
-                "failed_upload": "アップロードに失敗しました!",
+                "failed_upload": "アップロードに失敗しました！",
                 "uploading_file": "アップロード中…",
                 "message_saved": "ノートに保存",
                 "message_who": "{{person}} にメッセージを送る",
                 "message_where": "{{channel_name}} にメッセージを送る",
                 "errors": {
-                    "title": "おっと！ここには何もありません！",
+                    "title": "おっと、ここには何もありません！",
                     "nochannels": "このサーバーにはチャンネルが無いか、チャンネルへのアクセス権限がありません。",
                     "nochannel": "チャンネル無し"
                 }
@@ -339,19 +339,19 @@
             "friends": {
                 "pending": "保留中",
                 "sent": "送信",
-                "nobody": "まだ誰もいませんよ!",
+                "nobody": "まだ誰もいませんよ！",
                 "blocked": "ブロック",
                 "incoming": "フレンドリクエストが来ています。",
                 "outgoing": "送信済みのフレンドリクエスト。",
                 "from": {
                     "single": "{{user}}より",
-                    "multiple": "{{userlist}}と{{user}}から",
-                    "several": "{{userlist}}さんより 他{{count}}名…"
+                    "multiple": "{{userlist}}と{{user}}より",
+                    "several": "{{userlist}}さんと他{{count}}名より…"
                 }
             },
             "modals": {
-                "error": "エラーが発生しました!",
-                "signed_out": "サインアウトしました!",
+                "error": "エラーが発生しました！",
+                "signed_out": "サインアウトしました！",
                 "onboarding": {
                     "welcome": "ようこそ",
                     "pick": "他のユーザーから検索されるように名前を決めましょう。この名前は後ほど設定から変更できます。"
@@ -359,7 +359,7 @@
                 "prompt": {
                     "confirm_delete_long": "一度削除してしまうと、元に戻すことはできません。",
                     "confirm_delete_message_long": "本当に削除してもよろしいですか？",
-                    "confirm_kick": "本当に{{name}}を追放しますか？",
+                    "confirm_kick": "本当に{{name}}をキックしますか？",
                     "block_user_long": "本当に{{name}}をブロックしますか？また、あなたの友達リストからも削除されます。",
                     "confirm_leave": "{{name}}から離れますか？",
                     "confirm_leave_long": "再招待されない限り、参加することはできません。",
@@ -369,14 +369,14 @@
                     "create_invite_generate": "招待を作成中…",
                     "create_invite_created": "これがあなたの新しい招待コードです:",
                     "confirm_ban": "あなたは {{name}} をBANしようとしています",
-                    "confirm_ban_reason": "BANの理由",
+                    "confirm_ban_reason": "BAN理由",
                     "unfriend_user": "{{name}}を削除しますか？",
                     "unfriend_user_long": "再追加するまで、彼らと会話ができなくなるかもしれません。",
-                    "block_user": "{{name}}をブロックしますか?"
+                    "block_user": "{{name}}をブロックしますか？"
                 },
                 "account": {
                     "change": {
-                        "email": "Eメールの変更",
+                        "email": "メールアドレスの変更",
                         "password": "パスワードの変更",
                         "username": "ユーザー名の変更"
                     },
@@ -386,12 +386,12 @@
                     "block": "ブロック",
                     "reload": "再読み込み",
                     "ok": "OK",
-                    "ban": "Ban",
+                    "ban": "BAN",
                     "kick": "キック",
                     "save": "保存",
                     "hide": "隠す",
                     "close": "閉じる",
-                    "leave": "離れる",
+                    "leave": "離脱する",
                     "back": "戻る",
                     "remove": "削除",
                     "delete": "削除",
@@ -405,7 +405,7 @@
                     "edit": "編集"
                 },
                 "clipboard": {
-                    "unavailable": "クリップボードは使用できません!",
+                    "unavailable": "クリップボードは使用できません！",
                     "https": "現在、HTTPS環境ではありません。",
                     "copy": "マニュアルコピー:"
                 },
@@ -431,7 +431,7 @@
                     "mutual_servers": "共通のサーバー",
                     "no_users": "共通の友人がいません！",
                     "no_groups": "共通のグループがありません！",
-                    "no_servers": "共通のサーバーがありません!",
+                    "no_servers": "共通のサーバーがありません！",
                     "sub": {
                         "badges": "バッジ",
                         "information": "インフォメーション",
@@ -460,7 +460,7 @@
                 "reconnecting": "再接続中…"
             },
             "invite": {
-                "invited_by": "{{user}}の招待",
+                "invited_by": "{{user}}による招待",
                 "login": "Revoltへのログイン",
                 "accept": "招待を受け取る",
                 "user_count": "{{member_count}}ユーザー",
@@ -470,11 +470,11 @@
             "requires_online": "これを見るには、オンラインである必要があります。"
         },
         "context_menu": {
-            "copy_id": "コピーID",
+            "copy_id": "IDをコピー",
             "copy_text": "コピーテキスト",
             "copy_uid": "ユーザーIDのコピー",
             "copy_cid": "チャンネルIDのコピー",
-            "copy_mid": "コピーメッセージID",
+            "copy_mid": "メッセージIDのコピー",
             "copy_message_link": "メッセージリンクのコピー",
             "mention": "言及",
             "message_user": "メッセージ",
@@ -490,11 +490,11 @@
             "open_file": "ファイルを開く",
             "open_image": "画像を開く",
             "save_image": "画像の保存",
-            "open_video": "オープンビデオ",
+            "open_video": "ビデオを開く",
             "save_video": "ビデオの保存",
-            "copy_link": "コピーリンク",
+            "copy_link": "リンクをコピー",
             "open_link": "リンクを開く",
-            "block_user": "ブロックユーザー",
+            "block_user": "ユーザーのブロック",
             "add_friend": "友達追加",
             "remove_friend": "友人の削除",
             "cancel_friend": "リクエストのキャンセル",
@@ -510,14 +510,14 @@
             "open_server_settings": "サーバーの設定",
             "open_group_settings": "グループの設定",
             "copy_selection": "コピー選択",
-            "copy_sid": "コピーサーバID",
-            "retry_message": "リトライ送信",
+            "copy_sid": "サーバーIDのコピー",
+            "retry_message": "再送信",
             "cancel_message": "送信キャンセル",
             "save_file": "ファイルの保存",
             "unblock_user": "ユーザーのブロック解除",
             "custom_status": "カスタムステータス",
             "set_custom_status": "カスタムステータスの設定",
-            "leave_server": "サーバーを離れる",
+            "leave_server": "サーバーを離脱",
             "delete_server": "サーバーを削除",
             "delete_channel": "チャンネルを削除"
         },
@@ -536,13 +536,13 @@
         "open_mail_provider": "{{provider}} を開く",
         "check_spam": "見つからない場合は、迷惑メールフォルダーをご確認ください",
         "email_delay": "メールを受信するまで10分程度かかる場合があります。",
-        "check_mail": "メールをチェックする。",
+        "check_mail": "メールボックスを確認する。",
         "cancel": "リクエストをキャンセルする。",
         "resend": "認証コードを再送信する。",
         "missing_verification": "Eメールがありませんか？",
         "create": "新しいアカウントを作成する。",
         "existing": "既にアカウントをお持ちですか？",
-        "new": "Revoltは初めてですか？",
+        "new": "Revoltを利用するのは初めてですか？",
         "remembered": "ログイン画面に戻る。",
         "set_password": "新しいパスワードを設定しましょう。",
         "reset": "パスワードをリセットする。",
@@ -583,13 +583,13 @@
         "UnknownError": "コンソールを見てください。",
         "OperationFailed": "操作に失敗しました。",
         "RenderFail": "テンプレートのレンダリングに失敗しました。",
-        "MissingHeaders": "ヘッダがない。",
-        "UnverifiedAccount": "未検証のアカウントです。",
+        "MissingHeaders": "ヘッダーがありません。",
+        "UnverifiedAccount": "未認証のアカウントです。",
         "UnknownUser": "不明なユーザーです。",
-        "EmailInUse": "使用中のEメール。",
+        "EmailInUse": "使用中のメールアドレス。",
         "EmailFailed": "メールの送信に失敗しました。",
         "InvalidToken": "無効なトークン",
-        "MissingInvite": "リクエストに招待コードがない。",
+        "MissingInvite": "リクエストに招待コードがありません。",
         "InvalidInvite": "無効なコード",
         "AlreadyOnboarded": "すでにオンボーディングを終えています。",
         "AlreadyFriends": "このユーザーとはすでに友達です。",
@@ -598,7 +598,7 @@
         "RequiredField": "必須",
         "TooShort": "短すぎる",
         "TooLong": "長すぎる",
-        "InvalidEmail": "無効なEメールアドレス",
+        "InvalidEmail": "無効なメールアドレス",
         "Unavailable": "利用できません。",
         "FileTooLarge": "ファイルが大きすぎます。",
         "MissingData": "リクエストにはデータがありません。",
@@ -611,11 +611,11 @@
         "MissingPermission": "権限がありません。",
         "InvalidSession": "無効なセッションです。",
         "InvalidCredentials": "メールアドレスまたはパスワードが間違っています。",
-        "UsernameTaken": "ユーザー名は既に取得されています。",
+        "UsernameTaken": "ユーザー名は既に使用されています。",
         "BlockedOther": "このユーザーはあなたをブロックしました。",
-        "NoEffect": "この要求は何の効果もありませんでした。",
+        "NoEffect": "このリクエストは何の効果もありませんでした。",
         "ReachedMaximumBots": "ボット数が上限に達しました。",
-        "AudioPermissionBlock": "マイクの使用許可がありません。もう一度ブラウザの設定を確かめて下さい。"
+        "AudioPermissionBlock": "マイクの使用許可がありません。ブラウザの設定を確認して下さい。"
     },
     "permissions": {
         "server": {
@@ -645,7 +645,7 @@
             },
             "BanMembers": {
                 "t": "メンバーをBAN",
-                "d": "メンバーがこのサーバーからメンバーを永久に削除できるようにします。"
+                "d": "メンバーがこのサーバーからメンバーを永久に追放できるようにします。"
             },
             "ChangeNickname": {
                 "t": "ニックネームの変更",
@@ -678,7 +678,7 @@
                 "d": "メンバーがチャンネルの編集や削除を行うことができます。"
             },
             "InviteOthers": {
-                "t": "他の人を招待する",
+                "t": "他のユーザーを招待する",
                 "d": "メンバーが他のユーザーをチャンネルに招待することができます。"
             },
             "EmbedLinks": {
@@ -710,8 +710,8 @@
         "lastWeek": "[先週] dddd {{time}}"
     },
     "notifications": {
-        "now_friends": "あなたは@{{person}}さんと友達になりました!",
-        "sent_request": "@{{person}}さんからフレンドリクエストをいただきました。"
+        "now_friends": "あなたは@{{person}}さんと友達になりました！",
+        "sent_request": "@{{person}}さんからフレンドリクエストが届いています。"
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
