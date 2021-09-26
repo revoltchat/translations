@@ -24,8 +24,8 @@
             "password": "Nhập mật khẩu của bạn.",
             "current_password": "Nhập mật khẩu hiện tại của bạn.",
             "invite": "Nhập mã lời mời của bạn.",
-            "username": "Nhập tên người dùng.",
-            "email": "Nhập email của bạn."
+            "username": "Nhập tên người dùng của bạn.",
+            "email": "Cảm phiền bạn nhập email của mình."
         },
         "set_password": "Tạo mật khẩu mới.",
         "remembered": "Quay lại phần đăng nhập.",
@@ -93,7 +93,8 @@
                     "removed_by": "{{user}} đã bị loại bỏ bởi {{other_user}}"
                 },
                 "start": {
-                    "group": "Đây là khởi đầu cuộc trò chuyện của bạn."
+                    "group": "Đây là khởi đầu cuộc trò chuyện của bạn.",
+                    "saved": "Đây là sự bắt đầu cho phần ghi chú của bạn"
                 },
                 "voice": {
                     "leave": "Ngắt kết nối",
@@ -180,16 +181,16 @@
                     "theme": "Chủ đề",
                     "display": {
                         "default": "Mặc Định",
-                        "compact": "Thỏa thuận",
+                        "compact": "Gọn nhẹ",
                         "default_description": "Đẹp, mượt và hiện đại.",
-                        "compact_description": "Chat chuyển tiếp Internet tốt."
+                        "compact_description": "Chat chuyển tiếp Internet cũ và tốt."
                     },
-                    "accent_selector": "Màu nhấn mạnh",
+                    "accent_selector": "Màu được nhấn mạnh",
                     "overrides": "Ghi Đè Lên Chủ Đề",
-                    "reset_overrides": "Làm lại Ghi đè",
-                    "import": "Nhập chủ đề",
+                    "reset_overrides": "Sắp xếp lại phần ghi đè",
+                    "import": "Nhập vào một chủ đề",
                     "import_theme": "Nhập chủ đề từ chuỗi",
-                    "theme_data": "Dữ liệu chủ đề",
+                    "theme_data": "Dữ liệu về chủ đề",
                     "custom_css": "CSS tùy chỉnh",
                     "mono_font": "Bộ chọn phông chữ Monospace",
                     "ligatures": "Ký tự chữ",
@@ -223,8 +224,8 @@
                     "edit_profile": "Chỉnh Sửa Hồ Sơ"
                 },
                 "sessions": {
-                    "title": "Các buổi gặp mặt",
-                    "active_sessions": "Các buổi họp mặt đang hoạt động",
+                    "title": "Các phiên",
+                    "active_sessions": "Các phiên đang hoạt động",
                     "this_device": "Thiết Bị Này",
                     "created": "Được tạo ra vào {{time_ago}}",
                     "logout": "Thoát ra khỏi các cuộc họp khác"
@@ -276,7 +277,7 @@
                     "suggest": "Góp ý tính năng",
                     "suggest_desc": "Gợi ý tính năng mới của Revolt ở các cuộc bàn luận trong GitHub.",
                     "issue": "Tạo một bản phát hành mới",
-                    "issue_desc": "Để giúp chúng tôi xử lý các vấn đề dễ dàng hơn, bạn có thể tạo vấn đề trên GitHub.",
+                    "issue_desc": "Để giúp chúng tôi xử lý các vấn đề một cách dễ dàng hơn, bạn có thể tạo một vấn đề trên GitHub.",
                     "bug": "Trình theo dõi lỗi",
                     "bug_desc": "Xem các báo cáo về lỗi hiện đang hoạt động tại đây."
                 },
@@ -285,17 +286,17 @@
                 },
                 "bots": {
                     "title": "Máy Của Tôi",
-                    "unique_id": "Đây là ID nhận dạng riêng cho Bot của bạn. Đây không phải dấu hiệu nhận dạng của Bot.",
+                    "unique_id": "Đây là ID nhận dạng riêng cho bot của bạn. Đây không phải chữ kí số cho bot của bạn.",
                     "create_bot": "Tạo một Bot",
-                    "reserved": "Ghi chú: Khoảng này được dành cho tương lai.",
+                    "reserved": "Ghi chú: Chỗ này được dành cho tương lai.",
                     "copy_invite": "Sao chép liên kết mời",
                     "add": "Thêm Bot",
-                    "token": "Dấu hiệu nhận dạng",
+                    "token": "Chữ kí số",
                     "public_bot_tip": "Bot này công khai. Ai cũng có thể mời nó.",
                     "private_bot_tip": "Bot này bí mật. Chỉ có bạn mới có thể mời nó.",
                     "public_bot": "Bot công khai",
-                    "public_bot_desc": "Có cho phép người dùng khác mời Bot này hay không.",
-                    "interactions_url": "Link tương tác"
+                    "public_bot_desc": "Có cho phép những người dùng khác mời bot này hay không.",
+                    "interactions_url": "Đường dẫn tương tác"
                 },
                 "audio": {
                     "title": "Cài đặt giọng nói",
@@ -306,7 +307,7 @@
                     "button_retry": "thử lại"
                 },
                 "theme_shop": {
-                    "title": "Cửa hàng chủ đề"
+                    "title": "Cửa hàng giao diện"
                 }
             },
             "actions": {
@@ -324,14 +325,14 @@
                     "system_messages": "Kênh Tin Nhắn Hệ Thống",
                     "title": "Xem Trước",
                     "name": "Tên Máy Chủ",
-                    "description": "Mô tả kênh"
+                    "description": "Mô Tả Kênh"
                 },
                 "members": {
                     "title": "Thành Viên"
                 },
                 "invites": {
                     "title": "Lời Mời",
-                    "code": "Mã Lời Mời",
+                    "code": "Mã Dùng Để Mời",
                     "invitor": "Người Mời",
                     "channel": "Kênh",
                     "revoke": "Thu hồi"
@@ -352,7 +353,7 @@
             },
             "channel_pages": {
                 "overview": {
-                    "name": "Tên Kênh",
+                    "name": "Tên của kênh",
                     "title": "Tổng quan",
                     "description": "Mô Tả Kênh"
                 },
@@ -376,8 +377,8 @@
             },
             "permissions": {
                 "default_role": "Mặc định",
-                "server": "Quyền hành máy chủ",
-                "channel": "Quyền hành kênh",
+                "server": "Quyền điều hành máy chủ",
+                "channel": "Quyền điều hành kênh",
                 "create_role": "Tạo một vai trò mới",
                 "role_name": "Tên Vai Trò"
             }
@@ -406,8 +407,8 @@
             },
             "modals": {
                 "onboarding": {
-                    "pick": "Chọn tên người dùng mà bạn muốn mọi người có thể tìm thấy bạn, cái này có thể được thay đổi sau này trong cài đặt.",
-                    "welcome": "Chào mừng đến"
+                    "pick": "Chọn tên người dùng mà bạn muốn mọi người có thể tìm thấy bằng cái tên đó, nó có thể được thay đổi sau trong phần cài đặt.",
+                    "welcome": "Chào mừng đến với"
                 },
                 "prompt": {
                     "create_invite_created": "Đây là mã lời mời mới của bạn:",
@@ -452,7 +453,7 @@
                 "error": "Đã xảy ra lỗi!",
                 "clipboard": {
                     "unavailable": "Clipboard không khả dụng!",
-                    "https": "Bạn hiện không ở trong ngữ cảnh HTTPS.",
+                    "https": "Bạn hiện không ở trong chuẩn HTTPS.",
                     "copy": "Sao chép thủ công:"
                 },
                 "signed_out": "Bạn đã đăng xuất!",
@@ -469,7 +470,7 @@
                     "short": "Ban có chắc muốn chuyển hướng đến: ",
                     "title": "Liên kết bên ngoài có thể rất nguy hiểm!!!"
                 },
-                "token_reveal": "Mã nhận dạng của {{name}}"
+                "token_reveal": "Chữ kí số của {{name}}"
             },
             "popovers": {
                 "user_profile": {
@@ -550,7 +551,7 @@
             "copy_id": "Sao chép ID",
             "copy_mid": "Sao chép ID tin nhắn",
             "mark_as_read": "Đánh dấu đã đọc",
-            "retry_message": "Gửi lại",
+            "retry_message": "Gửi lại lần nữa",
             "reply_message": "Trả lời",
             "copy_message_link": "Sao chép liên kết tin nhắn",
             "message_user": "Nhắn tin",
@@ -584,7 +585,7 @@
             },
             "UploadFiles": {
                 "t": "Tải Lên Tệp",
-                "d": "Cho phép thành viên gửi tệp lên kênh chat."
+                "d": "Cho phép thành viên gửi tệp lên kênh tin nhắn."
             },
             "ManageMessages": {
                 "t": "Quản Lý Tin Nhắn",
@@ -603,8 +604,8 @@
                 "d": "Cho phép thành viên mời người khác vào kênh."
             },
             "EmbedLinks": {
-                "t": "Link được cài vào",
-                "d": "Cho phép thành viên đưa ra nội dung được nhúng vào qua link họ gửi trên kênh văn bản."
+                "t": "Đường dẫn được nhúng vào",
+                "d": "Cho phép thành viên đưa ra nội dung được nhúng vào qua đường dẫn họ gửi trên kênh văn bản."
             }
         },
         "server": {
@@ -625,7 +626,7 @@
                 "d": "Cho phép các thành viên thay đổi tên, mô tả, biểu tượng của máy chủ này và các thông tin liên quan khác."
             },
             "KickMembers": {
-                "t": "Xoá thành viên",
+                "t": "Đuổi thành viên",
                 "d": "Cho phép xóa thành viên khỏi máy chủ này. Các thành viên bị đuổi có thể tham gia lại với một lời mời khác."
             },
             "ChangeAvatar": {
@@ -654,7 +655,7 @@
         "EmailInUse": "Email đã được sử dụng.",
         "AlreadySentRequest": "Đã gửi yêu cầu cho người dùng này trước đó.",
         "CompromisedPassword": "Mật khẩu này đã bị xâm phạm.",
-        "ReachedMaximumBots": "Bạn đã đạt số lượng bot tối đa.",
+        "ReachedMaximumBots": "Bạn đã đạt đến số lượng bot tối đa.",
         "InvalidToken": "Token không hợp lệ",
         "MissingInvite": "Thiếu mã mời trong yêu cầu.",
         "InvalidInvite": "Mã không hợp lệ",
@@ -670,7 +671,7 @@
         "FileTooLarge": "Tập tin quá lớn.",
         "FailedToReceive": "Máy chủ không nhận được tập tin của bạn.",
         "MissingData": "Yêu cầu bị thiếu dữ liệu.",
-        "UnsupportedBrowser": "Trình duyệt thiếu hỗ trợ tính năng này.",
+        "UnsupportedBrowser": "Trình duyệt đang thiếu hỗ trợ tính năng này.",
         "DeniedNotification": "Bạn đã từ chối quyền truy cập thông báo, hãy kiểm tra cài đặt trang.",
         "Unauthorized": "Không có quyền.",
         "DatabaseError": "Lỗi cơ sở dữ liệu.",
@@ -681,11 +682,13 @@
         "NetworkError": "Lỗi mạng.",
         "InvalidEmail": "Địa chỉ mail không hợp lệ",
         "Unlabelled": "Chuyện gì đó đã xảy ra.",
-        "IoError": "Máy chủ gặp lỗi I/O.",
+        "IoError": "Máy chủ đã gặp lỗi I/O.",
         "FailedValidation": "Không xác thực được các trường.",
-        "AudioPermissionBlock": "Không có quyền truy cập vào mic của bạn, vui lòng kiểm tra cài đặt trình duyệt của bạn.",
+        "AudioPermissionBlock": "Không có quyền truy cập vào microphone của bạn, vui lòng kiểm tra cài đặt trình duyệt của bạn.",
         "UnknownUser": "Người dùng không xác định.",
-        "AlreadyOnboarded": "Đã hoàn thành giới thiệu."
+        "AlreadyOnboarded": "Đã hoàn thành giới thiệu.",
+        "MissingHeaders": "Bạn đang thiếu tiêu đề.",
+        "ProbeError": "Thất bại trong việc lấy file siêu dữ liệu."
     },
     "notifications": {
         "now_friends": "Bạn đã trở thành bạn với @{{person}}!",
