@@ -390,7 +390,7 @@
             "remove_member": "Eliminar del grupo",
             "view_profile": "Ver perfil",
             "kick_member": "Expulsar miembro",
-            "ban_member": "Vetar miembro",
+            "ban_member": "Banear miembro",
             "reply_message": "Responder",
             "leave_group": "Abandonar grupo",
             "leave_server": "Abandonar servidor",
@@ -403,7 +403,7 @@
             "open_server_settings": "Configuración del servidor",
             "copy_sid": "Copiar ID del servidor",
             "copy_message_link": "Copiar enlace del mensaje",
-            "edit_identity": "Editar identidad",
+            "edit_identity": "Editar perfil del servidor",
             "create_category": "Crear categoría"
         },
         "special": {
@@ -517,7 +517,7 @@
                     "failed": "¡Se ha producido un error al crear el bot!"
                 },
                 "server_identity": {
-                    "title": "Cambiar identidad en el servidor {{server}}",
+                    "title": "Cambiar perfil en el servidor {{server}}",
                     "nickname": "Apodo",
                     "avatar": "Avatar"
                 }
@@ -560,7 +560,7 @@
         "title": "Iniciar sesión",
         "error": {
             "login": "¡Error al iniciar sesión!",
-            "create": "¡Se ha producido un problema al registrarse!",
+            "create": "¡Se ha producido un error al registrarse!",
             "reset": "¡No se pudo restablecer!",
             "resend": "¡No se pudo reenviar!"
         },
@@ -637,13 +637,13 @@
         "FailedValidation": "No se han podido validar los campos.",
         "DatabaseError": "Error en la base de datos.",
         "AlreadyFriends": "Ya eres amigo de este usuario.",
-        "AlreadySentRequest": "Ya has enviado una solicitud a este usuario.",
+        "AlreadySentRequest": "Ya enviaste una solicitud a este usuario.",
         "Blocked": "Has bloqueado a este usuario.",
         "BlockedOther": "Este usuario te ha bloqueado.",
         "NoEffect": "Esta petición no surtió efecto.",
         "FailedToReceive": "El servidor no ha recibido tu archivo.",
         "ProbeError": "Fallo en la obtención de los metadatos del archivo.",
-        "IoError": "El servidor ha encontrado un error de E/S.",
+        "IoError": "El servidor ha encontrado un error E/S.",
         "UnknownError": "Ver consola.",
         "OperationFailed": "Operación fallida.",
         "UnverifiedAccount": "Cuenta no verificada.",
@@ -705,7 +705,7 @@
             },
             "BanMembers": {
                 "d": "Permite a los miembros eliminar miembros de forma permanente de este servidor.",
-                "t": "Vetar miembros"
+                "t": "Banear miembros"
             },
             "RemoveAvatars": {
                 "d": "Permite a los miembros eliminar los avatares del servidor de otros miembros en este servidor.",
@@ -713,11 +713,11 @@
             },
             "ChangeAvatar": {
                 "d": "Permite a los miembros cambiar su avatar en este servidor.",
-                "t": "Cambiar avatar"
+                "t": "Editar avatar"
             },
             "ManageServer": {
                 "t": "Administrar servidor",
-                "d": "Permite a los miembros cambiar el nombre, la descripción, el icono y otra información relacionada de este servidor."
+                "d": "Permite a los miembros cambiar el nombre, la descripción, el icono y otra información del servidor."
             },
             "ManageChannels": {
                 "t": "Administrar canales",
