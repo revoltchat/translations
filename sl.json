@@ -102,7 +102,7 @@
     },
     "general": {
         "on": "Vklopljeno",
-        "about": "Približno",
+        "about": "O Projektu",
         "tos": "Pogoji storitve",
         "privacy": "Politika zasebnosti",
         "image_by": "Slika avtorja",
@@ -226,11 +226,17 @@
                 "uploading_file": "Nalaganje…",
                 "failed_upload": "Nalaganje ni uspelo!",
                 "start": {
-                    "group": "To je začetek vašega pogovora."
+                    "group": "To je začetek vašega pogovora.",
+                    "saved": "To je začetek vaših zapiskov."
                 },
                 "unknown_user": "<Neznan uporabnik>",
                 "edited": "(urejeno)",
-                "bot": "robot"
+                "bot": "robot",
+                "errors": {
+                    "nochannels": "Ta strežnik nima kanalov ali pa nimaš dostopa do njih.",
+                    "title": "Ups, tukaj ni ničesar!",
+                    "nochannel": "Ni kanala"
+                }
             },
             "servers": {
                 "create": "Ustvarite strežnik",
@@ -290,7 +296,9 @@
                 "audio": {
                     "title": "Glasovne nastavitve",
                     "output_device": "Zvočnik / slušalke",
-                    "input_device": "Mikrofon"
+                    "input_device": "Mikrofon",
+                    "device_label_NA": "N/A",
+                    "button_retry": "poskusi ponovno"
                 },
                 "appearance": {
                     "title": "Videz",
@@ -366,10 +374,26 @@
                     "title": "Nastavitve namizja"
                 },
                 "bots": {
-                    "title": "Moji roboti"
+                    "title": "Moji roboti",
+                    "unique_id": "To je edinstven identifikator vašega robota. To ni žeton robota.",
+                    "interactions_url": "URL Za Interakcije",
+                    "reserved": "Opomba: To polje je rezervirano za prihodnost.",
+                    "create_bot": "Ustvari Robota",
+                    "copy_invite": "Kopirajte Povezavo Za Povabilo",
+                    "add": "Dodaj Robota",
+                    "token": "Žeton",
+                    "public_bot_tip": "Robot je javen. Vsakdo ga lahko povabi.",
+                    "private_bot_tip": "Bot je zaseben. Samo vi ga lahko povabite.",
+                    "public_bot": "Javni Robot",
+                    "public_bot_desc": "Ali dovolite drugim uporabnikom, da povabijo tega robota."
                 },
                 "feedback": {
-                    "title": "Povratne informacije"
+                    "title": "Povratne informacije",
+                    "suggest": "Predložite predlog funkcije",
+                    "suggest_desc": "Predlagajte nove funkcije Revolta v razpravah na GitHubu."
+                },
+                "theme_shop": {
+                    "title": "Trgovina Tem"
                 }
             },
             "title": "Nastavitve",
