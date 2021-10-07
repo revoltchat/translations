@@ -3,7 +3,7 @@
         "settings": {
             "pages": {
                 "appearance": {
-                    "mono_font": "Monospace Font Selector",
+                    "mono_font": "Monospace Font Výber",
                     "font": "Font",
                     "ligatures_desc": "V prípade podporovaných fontov, ligatúry kombinujú znaky dohromady, napríklad otáčaním -> do šípky. Prepnite na Inter a skúste túto možnosť prepínať.",
                     "ligatures": "Font Ligatúry",
@@ -59,7 +59,18 @@
                     "title": "Spätná väzba"
                 },
                 "bots": {
-                    "title": "Moji Boti"
+                    "title": "Moji Boti",
+                    "copy_invite": "Skopíruj odkaz na pozvánku",
+                    "create_bot": "Vytvor Bota",
+                    "add": "Pridaj Bota",
+                    "token": "Token",
+                    "public_bot_tip": "Bot je verejný. Ktokoľvek ho môže pozvať.",
+                    "private_bot_tip": "Bot je súkromný. Pozvať ho môžete iba vy.",
+                    "unique_id": "Toto je jedinečný identifikátor vášho bota. Toto nie je token bota.",
+                    "public_bot": "Verejný Bot",
+                    "public_bot_desc": "Určuje, či umožniť ostatným používateľom pozvať tohto robota.",
+                    "interactions_url": "Interakčné URL",
+                    "reserved": "Poznámka: Toto pole je vyhradené pre budúcnosť."
                 },
                 "source_code": "Zdrojový Kód",
                 "donate": {
@@ -108,7 +119,9 @@
                 "audio": {
                     "output_device": "Reproduktor / Headset",
                     "input_device": "Mikrofón",
-                    "title": "Hlasové Nastavenia"
+                    "title": "Hlasové Nastavenia",
+                    "device_label_NA": "N/A",
+                    "button_retry": "skús znova"
                 },
                 "sessions": {
                     "logout": "Odhláste sa zo všetkých ostatných relácií",
@@ -126,6 +139,9 @@
                     "fetching": "Načítava sa váš profil…",
                     "info": "Informácie",
                     "title": "Profil"
+                },
+                "theme_shop": {
+                    "title": "Témový Obchod"
                 }
             },
             "actions": {
@@ -264,7 +280,8 @@
                     "connected": "Hlas Pripojený"
                 },
                 "start": {
-                    "group": "Toto je začiatok vašej konverzácie."
+                    "group": "Toto je začiatok vašej konverzácie.",
+                    "saved": "Toto je začiatok tvojich poznámok."
                 },
                 "system": {
                     "channel_icon_changed": "{{user}} zmenil ikonu kanála",
@@ -275,7 +292,7 @@
                     "user_banned": "{{user}} bol zabanovaný",
                     "user_kicked": "{{user}} bol vyhodený",
                     "user_left": "{{user}} odišiel",
-                    "user_joined": "{{user}} sa pripojil"
+                    "user_joined": "{{user}} prišiel"
                 },
                 "typing": {
                     "several": "Viacero ľudí píše…",
@@ -287,7 +304,12 @@
                 "uploading_file": "Nahráva sa …",
                 "message_saved": "Uložiť do poznámok",
                 "message_who": "Odoslať Správu {{person}}",
-                "message_where": "Sprava {{channel_name}}"
+                "message_where": "Správa {{channel_name}}",
+                "errors": {
+                    "title": "Ups, nič tu nie je!",
+                    "nochannels": "Tento server nemá žiadne kanály, alebo nemáš permisie na videnie.",
+                    "nochannel": "Žiadny kanál"
+                }
             },
             "categories": {
                 "members": "Členovia",
@@ -351,7 +373,8 @@
                     "cancel": "Zrušiť",
                     "preview": "Náhľad",
                     "reload": "Znova načítať Aplikáciu",
-                    "send_email": "Odoslať Email"
+                    "send_email": "Odoslať Email",
+                    "edit": "Edituj"
                 },
                 "error": "Nastala chyba!",
                 "clipboard": {
@@ -371,6 +394,12 @@
                         "password": "Zmeňte svoje heslo"
                     },
                     "failed": "Nepodarilo sa zmeniť!"
+                },
+                "token_reveal": "{{name}} Token",
+                "external_links": {
+                    "trust_domain": "Dôverujte tejto doméne",
+                    "short": "Ste si istí, že chcete ísť na: ",
+                    "title": "Externé odkazy môžu byť nebezpečné!"
                 }
             },
             "popovers": {
@@ -397,6 +426,15 @@
                 },
                 "user_picker": {
                     "select": "Vyberte priateľov, ktorých chcete pridať."
+                },
+                "create_bot": {
+                    "title": "Vytvorte nového robota",
+                    "failed": "Nepodarilo sa vytvoriť robota!"
+                },
+                "server_identity": {
+                    "title": "Zmeniť identitu na {{server}}",
+                    "nickname": "Prezývka",
+                    "avatar": "Avatar"
                 }
             },
             "requires_online": "Ak toto chcete vidieť, musíte byť online.",
@@ -425,7 +463,9 @@
                 "invited_by": "Pozvaný používateľom {{user}}",
                 "login": "Prihláste sa do Revolt",
                 "accept": "Prijmi pozvanie",
-                "user_count": "Používatelia: {{member_count}}"
+                "user_count": "Používatelia: {{member_count}}",
+                "invalid": "Neplatná pozvánka!",
+                "invalid_desc": "Pozvánka možno neexistuje alebo nemáte povolenie sa pripojiť."
             }
         },
         "context_menu": {
@@ -487,7 +527,7 @@
     "general": {
         "off": "Vypnuté",
         "on": "Zapnuté",
-        "about": "O Revolte",
+        "about": "About",
         "unavailable": "Nedostupné",
         "disabled": "Zakázané",
         "loading": "Načítavanie…",
@@ -526,7 +566,7 @@
         "current_password": "Aktuálne Heslo",
         "invite": "Pozvánka",
         "email": "Email",
-        "username": "Používateľke Meno",
+        "username": "Používateľske Meno",
         "register": "Zaregistrovať",
         "title": "Prihlásiť sa",
         "reset": "Restovať Heslo.",
@@ -572,7 +612,9 @@
         "CompromisedPassword": "Toto heslo je prelomené.",
         "OperationFailed": "Operácia zlyhala.",
         "EmailFailed": "E -mail sa nepodarilo odoslať.",
-        "AlreadyOnboarded": "Už dokončená registrácia."
+        "AlreadyOnboarded": "Už dokončená registrácia.",
+        "ReachedMaximumBots": "Dosiahli ste maximálne množstvo robotov.",
+        "AudioPermissionBlock": "Nemáme prístup k mikrofónu, skontrolujte konfiguráciu svojho prehliadača."
     },
     "permissions": {
         "server": {
