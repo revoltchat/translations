@@ -11,14 +11,14 @@
         "unavailable": "Nem elérhető"
     },
     "login": {
-        "email": "E-Mail",
+        "email": "E-mail",
         "password": "Jelszó",
         "enter": {
             "email": "Írd be az e-mail címedet.",
             "password": "Írd be a jelszavad.",
-            "username": "Írd be a felhasználónevedet.",
+            "username": "Írd be a felhasználóneved.",
             "current_password": "Írd be jelenlegi jelszavadat.",
-            "invite": "Írd be a meghívó kódodat."
+            "invite": "Add meg a meghívókódot!"
         },
         "forgot": "Elfelejtetted a jelszavad?",
         "new": "Új vagy a Revolt-nál?",
@@ -44,7 +44,7 @@
         "missing_verification": "Nincs email-ed?",
         "set_password": "Új jelszó beállítása.",
         "current_password": "Jelenlegi jelszó",
-        "invite": "Meghívó kód",
+        "invite": "Meghívó kódja",
         "email_delay": "Kérlek, várj amíg az e-mail megérkezik. (max. 10 perc)."
     },
     "app": {
@@ -114,9 +114,9 @@
                 "search": {
                     "title": "Keresés",
                     "sort": {
-                        "latest": "Legújabb",
-                        "relevance": "Relevancia",
-                        "oldest": "Legrégebbi"
+                        "latest": "Újak",
+                        "relevance": "Releváns",
+                        "oldest": "Régiek"
                     }
                 },
                 "errors": {
@@ -134,7 +134,7 @@
             "categories": {
                 "members": "Tagok",
                 "channels": "Csatornák",
-                "conversations": "Közvetlen üzenetek",
+                "conversations": "Beszélgetések",
                 "participants": "Résztvevők"
             },
             "servers": {
@@ -351,15 +351,15 @@
                 "invites": {
                     "title": "Meghívók",
                     "invitor": "Meghívó",
-                    "revoke": "Visszavonás",
-                    "code": "Meghívó kód",
+                    "revoke": "Érvénytelenítés",
+                    "code": "Meghívó kódja",
                     "channel": "Csatorna"
                 },
                 "bans": {
                     "title": "Kitiltások",
-                    "no_reason": "Nincs kitiltási indok.",
+                    "no_reason": "Indok nélkül.",
                     "user": "Felhasználó",
-                    "revoke": "Visszavonás",
+                    "revoke": "Tiltás feloldása",
                     "reason": "Kitiltás oka"
                 },
                 "members": {
@@ -367,9 +367,9 @@
                 },
                 "overview": {
                     "title": "Áttekintés",
-                    "name": "Szerver neve",
+                    "name": "Szervernév",
                     "description": "Csatorna leírása",
-                    "system_messages": "Rendszer Üzenet Csatornák"
+                    "system_messages": "Rendszerértesítők csatornái"
                 },
                 "roles": {
                     "title": "Rangok"
@@ -379,11 +379,11 @@
                 }
             },
             "permissions": {
-                "channel": "Csatorna Jogok",
+                "channel": "Csatornaszintű engedélyek",
                 "default_role": "Alapértelmezett",
-                "server": "Szerver Jogok",
-                "create_role": "Új rang létrehozása",
-                "role_name": "Rang Neve"
+                "server": "Szerverszintű engedélyek",
+                "create_role": "Új szerep létrehozása",
+                "role_name": "Szerep neve"
             }
         },
         "special": {
@@ -394,7 +394,7 @@
                     "cancel": "Mégsem",
                     "continue": "Folytatás",
                     "close": "Bezárás",
-                    "ok": "Ok",
+                    "ok": "Oké",
                     "send_email": "E-mail küldése",
                     "update": "Frissítés",
                     "save": "Mentés",
@@ -407,15 +407,15 @@
                     "leave": "Kilépés",
                     "remove": "Eltávolítás",
                     "back": "Vissza",
-                    "reveal": "Felfed",
-                    "hide": "Elrejtés",
+                    "reveal": "Megmutat",
+                    "hide": "Elrejt",
                     "edit": "Szerkesztés"
                 },
                 "prompt": {
                     "confirm_leave": "Kilépsz a(z) {{name}} csoportból?",
                     "confirm_leave_long": "Meghívó nélkül nem fogsz tudni visszacsatlakozni.",
                     "confirm_delete_message_long": "Biztos vagy benne, hogy törölni szeretnéd?",
-                    "create_invite_created": "Itt az új meghívód:",
+                    "create_invite_created": "Ez a te meghívókódod:",
                     "confirm_kick": "Biztos vagy benne, hogy ki szeretnéd dobni {{name}} felhasználót?",
                     "confirm_ban_reason": "Kitiltás oka",
                     "confirm_close_dm": "Befejezed a beszélgetést {{name}} felhasználóval?",
@@ -437,7 +437,7 @@
                 "error": "Hiba történt!",
                 "onboarding": {
                     "pick": "Válassz egy olyan felhasználónevet ami alapján mások meg tudnak találni, ezt később a beállításokban tudod megváltozatni.",
-                    "welcome": "Üdvözlünk"
+                    "welcome": "Üdvözöl a"
                 },
                 "signed_out": "Kijelentkeztél!",
                 "account": {
@@ -485,12 +485,12 @@
                         "early_adopter": "Korai támogató",
                         "supporter": "Támogató",
                         "translator": "Fordító",
-                        "responsible_disclosure": "Felelősen nyilvánosságra hozott hibák"
+                        "responsible_disclosure": "Felelősségteljesen hozott nyilvánosságra hibákat"
                     },
                     "sub": {
                         "information": "Információ",
                         "connections": "Kapcsolatok",
-                        "badges": "Jelvények"
+                        "badges": "Kitűzők"
                     },
                     "empty": "Nincs itt még semmi…",
                     "mutual_servers": "Közös szerverek",
@@ -506,27 +506,27 @@
                 "server_identity": {
                     "title": "Személyazonosság megváltoztatása itt: {{server}}",
                     "nickname": "Becenév",
-                    "avatar": "Profilkép"
+                    "avatar": "Avatar"
                 }
             },
             "copy_username": "Kattints a felhasználóneved másolásához",
             "copy": "Kattints a másoláshoz",
             "invite": {
                 "user_count": "{{member_count}} tag",
-                "login": "Bejelentkezés Revolt-ra",
+                "login": "Bejelentkezés a Revoltba",
                 "accept": "Meghívó elfogadása",
-                "invited_by": "Meghívó általa: {{user}}",
-                "invalid": "Érvénytelen meghívó!",
-                "invalid_desc": "A meghívó már nem létezik, vagy nincs jogod csatlakozni."
+                "invited_by": "{{user}} meghívott!",
+                "invalid": "Érvénytelen a meghívó!",
+                "invalid_desc": "Vagy nincs engedélyed csatlakozni, vagy pedig a meghívás már nem él."
             }
         },
         "navigation": {
             "tabs": {
                 "unreads": "Olvasatlan üzenetek",
-                "saved": "Jegyzetek",
-                "friends": "Barátok",
-                "dev": "Fejlesztő",
-                "home": "Kezdőlap"
+                "saved": "Mentett jegyzetek",
+                "friends": "Ismerősök",
+                "dev": "Fejlesztés",
+                "home": "Házikó"
             }
         },
         "context_menu": {
@@ -589,7 +589,7 @@
             "online": "Elérhető"
         },
         "permissions": {
-            "required": "Jogosultság szükséges"
+            "required": "Engedélyköteles"
         }
     },
     "dayjs": {
@@ -649,12 +649,12 @@
         "FileTooLarge": "A fájl túl nagy.",
         "FailedToReceive": "A szerver nem kapta meg a fájlodat.",
         "DeniedNotification": "Megtagadtad az értesítésekhez való hozzáférést, ellenőrizd az oldal beállításait.",
-        "MissingInvite": "Hiányzó meghívó kód a kérésben.",
+        "MissingInvite": "Hiányzik a meghívó kódja a kérésben.",
         "ProbeError": "Nem sikerült megszerezni a fájl metaadatait.",
         "IoError": "A szerver I/O hibát észlelt.",
         "UnsupportedBrowser": "A böngésződ nem támogatja ezt a funkciót.",
         "CompromisedPassword": "Ezt a jelszót egyszer már feltörték, tehát nem ajánlatos használata.",
-        "InvalidInvite": "Helytelen kód",
+        "InvalidInvite": "Érvénytelen kód",
         "InvalidToken": "Érvénytelen token",
         "MissingData": "A kérésből adatok hiányoznak.",
         "ReachedMaximumBots": "Elérted a maximális botok számát.",
@@ -666,74 +666,74 @@
     "permissions": {
         "channel": {
             "UploadFiles": {
-                "t": "Fájlok Feltöltése",
-                "d": "Engedélyezi a tagoknak, hogy fájlokat tölthessenek fel a szöveges csatornákon."
+                "t": "Feltölthetnek fájlokat",
+                "d": "A tagok fájlokat tölthetnek fel szöveges csatornákon."
             },
             "View": {
-                "t": "Csatorna Megtekintése",
-                "d": "Engedélyezi a tagoknak, hogy megtekinthessék azokat a csatornákat, amelyekhez engedélyük van."
+                "t": "Láthatják a csatornákat",
+                "d": "A tagok számára ezzel az engedéllyel lesznek láthatóak egyes csatornák."
             },
             "VoiceCall": {
-                "d": "Engedélyezi a tagoknak, hogy csatlakozhassanak hangcsatornákhoz.",
-                "t": "Hanghívás"
+                "d": "A tagok beszédcsatornákhoz csatlakozhatnak.",
+                "t": "Beszédhívást kezdeményezhetnek"
             },
             "InviteOthers": {
-                "t": "Mások meghívása",
-                "d": "Engedélyezi a tagoknak, hogy meghívhassanak más tagokat egy csatornába."
+                "t": "Meghívhatnak másokat",
+                "d": "A tagok másokat is meghívhatnak egy csatornába."
             },
             "ManageChannel": {
-                "t": "Csatornák Kezelése",
-                "d": "Engedélyezi a tagoknak, hogy módosíthassanak vagy törölhessenek egy csatornát."
+                "t": "Kezelhetnek csatornákat",
+                "d": "A tagok módosíthatnak és törölhetnek csatornákat."
             },
             "SendMessage": {
-                "d": "Engedélyezi a tagoknak, hogy üzeneteket küldhessenek szöveg csatornákban.",
-                "t": "Üzenet Küldése"
+                "d": "A tagok üzenetet küldhetnek a szöveges csatornákon.",
+                "t": "Küldhetnek üzenetet"
             },
             "ManageMessages": {
-                "d": "Engedélyezi a tagoknak, hogy törölhessék a más tagok által küldött üzeneteket.",
-                "t": "Üzenetek Kezelése"
+                "d": "A tagok a többi tag elküldött üzeneteit törölhetik.",
+                "t": "Kezelhetnek üzeneteket"
             },
             "EmbedLinks": {
-                "t": "Hivatkozások beágyazása",
-                "d": "Engedélyezi a tagoknak, hogy beágyazott tartalmat jelenítsen meg a hivatkozáson, amit küldenek szöveges csatornákon."
+                "t": "Linkeket ágyazhatnak be",
+                "d": "A tagok a linkekkel beágyazott tartalmakat jeleníthetnek meg szöveges csatornákon."
             }
         },
         "server": {
             "ManageRoles": {
-                "t": "Rangok Kezelése",
-                "d": "Engedélyezi a tagoknak, hogy létrehozzanak, módosítsanak és töröljenek kisebb jogosultsággal rendelkező rangokat. Ezzel csatorna jogosultságokat is lehet módosítani."
+                "t": "Kezelhetnek szerepeket",
+                "d": "A tagok alacsonyabb ranggal is létrehozhatnak szerepeket és módosíthatják és törölhetik is a többi, magasabb rangú tag szerepeit. A szerepekhez hozzárendelt csatornaszintű engedélyeket is módosíthatják."
             },
             "BanMembers": {
-                "d": "Engedélyezi a tagoknak, hogy véglegesen eltávolítsa a felhasználókat erről a szerverről.",
-                "t": "Tagok Kitiltása"
+                "d": "A tagok örökre el tudnak távolítani más tagokat a szerverről.",
+                "t": "Kitilthatnak tagokat"
             },
             "ChangeNickname": {
-                "d": "Engedélyezi a tagoknak, hogy megváltoztassák a becenevüket a szerveren.",
-                "t": "Becenév megváltoztatása"
+                "d": "A tagok megváltoztathatják nicknevüket a szerveren.",
+                "t": "Nicknevet válthatnak"
             },
             "ManageChannels": {
-                "d": "Engedélyezi a tagoknak a csatorna létrehozást, szerkesztést és törlést.",
-                "t": "Csatornák Kezelése"
+                "d": "A tagok létrehozhatnak, szerkeszthetnek és törölhetnek csatornákat.",
+                "t": "Kezelhetnek csatornákat"
             },
             "KickMembers": {
-                "t": "Tagok Kirúgása",
-                "d": "Engedélyezi a tagoknak, hogy eltávolítsanak felhasználókat erről a szerverről. A kirúgott felhasználók meghívóval vissza tudnak csatlakozni."
+                "t": "Kirúghatnak tagokat",
+                "d": "A tagok más tagokat is eltávolíthatnak a szerverről. A kirúgott tagok meghívóval újból csatlakozhatnak."
             },
             "ChangeAvatar": {
-                "d": "Engedélyezi a tagoknak, hogy megváltoztassák a szerver profilképüket a szerveren.",
-                "t": "Profilkép Megváltoztatása"
+                "d": "A tagok megváltoztathatják avatarjukat a szerveren.",
+                "t": "Avatart válthatnak"
             },
             "RemoveAvatars": {
-                "t": "Profilkép Eltávolítása",
-                "d": "Engedélyezi a tagoknak, hogy eltávolítsák mások szerver profilképeit a szerveren."
+                "t": "Avatarokat távolíthatnak el",
+                "d": "A tagok eltávolíthatják a többi tag szerveren lévő avatarját."
             },
             "ManageServer": {
-                "d": "Engedélyezi a tagoknak, hogy megváltoztassák a szerver nevét, leírását, ikonját és ehhez hasonló információkat.",
-                "t": "Szerver Kezelése"
+                "d": "A tagok megváltoztathatják a szerver nevét, leírását, ikonját és az egyéb, ilyen információkat.",
+                "t": "Kezelhetik a szervert"
             },
             "ManageNicknames": {
-                "d": "Engedélyezi a tagoknak, hogy megváltozassák mások becenevét a szerveren.",
-                "t": "Becenevek Kezelése"
+                "d": "A tagok megváltoztathatják a többi tag nicknevét a szerveren.",
+                "t": "Kezelhetik más nicknevét"
             }
         }
     }
