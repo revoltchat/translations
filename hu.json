@@ -8,7 +8,7 @@
         "on": "Be",
         "off": "Ki",
         "disabled": "Letiltva",
-        "unavailable": "Nem lehetséges"
+        "unavailable": "nem lehetséges"
     },
     "login": {
         "email": "E-mail",
@@ -16,8 +16,8 @@
         "enter": {
             "email": "Add meg az e-mail-címed!",
             "password": "A Revolt-jelszavad helye.",
-            "username": "Add meg a felhasználóneved!",
-            "current_password": "Add meg a mostani jelszavad!",
+            "username": "Adj meg egy nevet!",
+            "current_password": "Add meg a mostani jelszót!",
             "invite": "Add meg a meghívókódod!"
         },
         "forgot": "Nem emlékszel a jelszavadra?",
@@ -30,7 +30,7 @@
         "open_mail_provider": "{{provider}} megnyitása",
         "cancel": "Folyamat megszakítása",
         "existing": "Van már fiókod?",
-        "remembered": "Vissza a bejelentkezéshez.",
+        "remembered": "Vissza a bejelentkezéshez",
         "username": "Felhasználónév",
         "register": "Regisztráció",
         "error": {
@@ -41,7 +41,7 @@
         },
         "check_spam": "Nézd meg, hogy nem került-e a spamek közé.",
         "resend": "Fiókhitelesítő e-mail újraküldése",
-        "missing_verification": "Nincs email-ed?",
+        "missing_verification": "Nem jött meg az e-mail?",
         "set_password": "Add meg az új jelszavad!",
         "current_password": "Mostani jelszavad",
         "invite": "Meghívókód",
@@ -79,9 +79,9 @@
                     "group": "Itt van a beszélgetésed eleje.",
                     "saved": "Itt van a jegyzeted eleje."
                 },
-                "edited": "(szerkesztve lett)",
+                "edited": "(átírták)",
                 "voice": {
-                    "connected": "Hallható vagy",
+                    "connected": "Csatlakoztál",
                     "mute": "Némítás",
                     "unmute": "Némítás feloldása",
                     "leave": "Hívás vége"
@@ -94,8 +94,8 @@
                     "no_sending": "Engedély nélkül nem küldhetsz üzeneteket ide.",
                     "blocked_messages": "{{count}} blokkolt üzenet",
                     "blocked_user": "Blokkolt felhasználó",
-                    "sent_file": "Csatolmányt küldött",
-                    "sent_multiple_files": "Több csatolmányt küldött"
+                    "sent_file": "csatolmányt küldött",
+                    "sent_multiple_files": "több csatolmányt küldött"
                 },
                 "notifications": {
                     "default": "Alapértelmezett használata",
@@ -189,11 +189,11 @@
                     "mono_font": "Azonos szélességű betűtípus",
                     "font": "Betűtípus",
                     "import": "Téma importálása",
-                    "ligatures_desc": "A támogatott betűtípusok összekötnek karaktereket, mint például -> egy nyíllá változik. Válts \"Inter\"-re és kapcsold be ezt a funkciót."
+                    "ligatures_desc": "A ligatúrákat támogató betűtípusok bizonyos karakteregyütteseket egybeírva jelenítenek meg, mint például -> gépelésével jobbra nyíl jelenik meg. Válts Interre és próbáld meg beállítani ezt a lehetőséget."
                 },
                 "logOut": "Kijelentkezés",
                 "account": {
-                    "title": "Fiókom",
+                    "title": "Fiók",
                     "change_field": "Megváltoztatás",
                     "unique_id": "Ez a fiókod egyedi felhasználói azonosítója.",
                     "2fa": {
@@ -210,7 +210,7 @@
                     }
                 },
                 "language": {
-                    "title": "Nyelv",
+                    "title": "Nyelvek",
                     "select": "Válassz nyelvet!",
                     "other": "Egyéb nyelvezetek",
                     "const": "Mesterséges nyelvek"
@@ -223,7 +223,7 @@
                     "sounds": "Hangos értesítések",
                     "descriptions": {
                         "enable_desktop": "Értesítéseket fogsz kapni, amíg az app nyitva marad.",
-                        "enable_push": "További értesítéseket kapsz majd, amíg offline vagy.",
+                        "enable_push": "További értesítéseket kapsz majd, amíg offline leszel.",
                         "enable_sound": "Kapcsold be ahhoz, hogy hangot játsszunk le amikor megérkezik egy üzenet.",
                         "enable_outgoing_sound": "Kapcsold be ahhoz, hogy egy hangot játsszunk le amikor elküldesz egy üzenetet."
                     },
@@ -293,7 +293,7 @@
                     "title": "Beszéd beállításai",
                     "device_label_NA": "nem elérhető",
                     "button_retry": "próbáld újra",
-                    "tip_retry": "Nem adtál engedélyt a mikrofonodhoz, kérlek {{retryBtn}}."
+                    "tip_retry": "Nem adtál engedélyt a mikrofonhoz. Kérlek, {{retryBtn}}."
                 },
                 "bots": {
                     "title": "Saját ’botok",
@@ -594,10 +594,10 @@
     },
     "dayjs": {
         "nextWeek": "dddd {{time}}[-kor]",
-        "lastWeek": "[Múlt] dddd {{time}}[-kor]",
-        "nextDay": "[Holnap] {{time}}[-kor]",
-        "sameDay": "[Ma] {{time}}[-kor]",
-        "lastDay": "[Tegnap] {{time}}[-kor]",
+        "lastWeek": "[múlt] dddd {{time}}[-kor]",
+        "nextDay": "[holnap] {{time}}[-kor]",
+        "sameDay": "[ma] {{time}}[-kor]",
+        "lastDay": "[tegnap] {{time}}[-kor]",
         "sameElse": "L",
         "defaults": {
             "date_format": "ISO8601",
