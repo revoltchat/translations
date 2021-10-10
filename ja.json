@@ -61,10 +61,10 @@
                 "feedback": {
                     "bug_desc": "現在進行中のバグレポートはこちら。",
                     "bug": "バグトラッカー",
-                    "issue_desc": "問題をより簡単に選別するために、GitHubでissueを作成することができます。",
-                    "issue": "新規issueの作成",
+                    "issue_desc": "問題をより簡単に選別するために、GitHubでイシューを作成することができます。",
+                    "issue": "新規イシューの作成",
                     "suggest_desc": "Revoltの新しい機能をGitHubのディスカッションで提案してみましょう。",
-                    "suggest": "機能の提案をする",
+                    "suggest": "機能を提案する",
                     "title": "フィードバック"
                 },
                 "bots": {
@@ -79,7 +79,7 @@
                     "public_bot_desc": "他のユーザーが、このボットを招待することができるかどうか。",
                     "interactions_url": "相互作用URL",
                     "reserved": "注：このフィールドは将来のために確保されています。",
-                    "unique_id": "これはあなたのボットの唯一の識別子です。ボットのトークンではありません。"
+                    "unique_id": "これは、あなたのボットに固有の識別子です。ボットのトークンではありません。"
                 },
                 "source_code": "ソースコード",
                 "donate": {
@@ -128,16 +128,16 @@
                 "appearance": {
                     "ligatures_desc": "いくつかのフォントでは合字がサポートされています。例えば、「->」が「→」のように表示されます。このオプションを切り替えて試してみてください。",
                     "ligatures": "フォント合字",
-                    "mono_font": "Monospaceフォントセレクター",
+                    "mono_font": "等幅フォントセレクター",
                     "font": "フォント",
                     "sync": "同期オプション",
                     "custom_css": "カスタムCSS",
                     "theme_data": "テーマデータ",
                     "import_theme": "テーマを文字列から読み込む",
                     "import": "テーマの読み込み",
-                    "reset_overrides": "リセットのオーバーライド",
+                    "reset_overrides": "上書きリセット",
                     "overrides": "テーマのオーバーライド",
-                    "advanced": "高度なオプション",
+                    "advanced": "詳細オプション",
                     "message_display": "メッセージ表示",
                     "emoji_pack": "絵文字パック",
                     "accent_selector": "アクセントカラー",
@@ -156,7 +156,7 @@
                 },
                 "audio": {
                     "output_device": "スピーカー/ヘッドセット",
-                    "input_device": "マイクロフォン",
+                    "input_device": "マイク",
                     "title": "音声設定",
                     "device_label_NA": "該当無し",
                     "tip_retry": "マイクの使用許可がありません。もう一度{{retryBtn}}。",
@@ -166,7 +166,7 @@
                     "logout": "他のすべてのセッションからログアウトする",
                     "created": "{{time_ago}}に作成",
                     "this_device": "このデバイス",
-                    "active_sessions": "アクティブなセッション",
+                    "active_sessions": "有効なセッション",
                     "title": "セッション"
                 },
                 "profile": {
@@ -174,7 +174,7 @@
                     "edit_background": "背景を編集",
                     "custom_background": "カスタム背景",
                     "profile_picture": "プロフィール写真",
-                    "placeholder": "自分についてのことを書いて…",
+                    "placeholder": "自分のことを紹介しましょう…",
                     "fetching": "あなたのプロフィールを取得しています…",
                     "info": "インフォメーション",
                     "title": "プロフィール"
@@ -194,7 +194,7 @@
                     },
                     "unique_id": "これは、あなたのアカウントに固有のユーザー識別子です。",
                     "change_field": "変更",
-                    "title": "マイアカウント"
+                    "title": "自分のアカウント"
                 },
                 "theme_shop": {
                     "title": "テーマショップ"
@@ -222,7 +222,7 @@
             "servers": {
                 "voice_channel": "ボイスチャンネル",
                 "text_channel": "テキストチャンネル",
-                "owner": "サーバーオーナー",
+                "owner": "サーバー管理人",
                 "custom_banner": "カスタムバナー",
                 "channel_description": "チャンネルの説明",
                 "channel_type": "チャンネルの種類",
@@ -232,7 +232,7 @@
                 "create": "サーバーの作成"
             },
             "groups": {
-                "owner": "グループオーナー",
+                "owner": "グループ管理人",
                 "description": "グループ概要",
                 "name": "グループ名",
                 "create": "グループの作成"
@@ -255,7 +255,7 @@
                 },
                 "bot": "ボット",
                 "edited": "(編集済)",
-                "unknown_user": "不明なユーザー",
+                "unknown_user": "＜不明なユーザー＞",
                 "nsfw": {
                     "confirm": "私は、自分が18歳以上であることを確認します。",
                     "channel": {
@@ -264,21 +264,21 @@
                     }
                 },
                 "misc": {
-                    "sent_multiple_files": "複数の添付ファイルを送信",
-                    "sent_file": "添付ファイルの送信",
+                    "sent_multiple_files": "複数の添付ファイルが送信されました",
+                    "sent_file": "添付ファイルが送信されました",
                     "blocked_user": "ブロックされたユーザー",
                     "blocked_messages": "{{count}} 件のブロックされたメッセージ",
                     "no_sending": "このチャンネルでメッセージを送信する権限がありません。",
                     "failed_load": "メッセージを読み込めませんでした。",
                     "spoiler_attachment": "ネタバレ",
-                    "jump_present": "最新のメッセージへジャンプ",
-                    "viewing_old": "古いメッセージの表示"
+                    "jump_present": "最新のメッセージへ移動",
+                    "viewing_old": "古いメッセージを表示しています"
                 },
                 "voice": {
                     "unmute": "ミュートを解除",
                     "mute": "ミュート",
                     "leave": "切断",
-                    "connected": "ボイスチャンネルに接続"
+                    "connected": "ボイスチャンネルに接続しました"
                 },
                 "start": {
                     "group": "これが会話の始まりです。",
@@ -300,7 +300,7 @@
                     "multiple": "{{userlist}} と {{user}} が入力中…",
                     "single": "{{user}} が入力中…"
                 },
-                "attached_file": "添付された {{filename}}",
+                "attached_file": "{{filename}} が添付されました",
                 "failed_upload": "アップロードに失敗しました！",
                 "uploading_file": "アップロード中…",
                 "message_saved": "ノートに保存",
@@ -351,10 +351,10 @@
             },
             "modals": {
                 "error": "エラーが発生しました！",
-                "signed_out": "サインアウトしました！",
+                "signed_out": "ログアウトしました！",
                 "onboarding": {
                     "welcome": "ようこそ",
-                    "pick": "他のユーザーから検索されるように名前を決めましょう。この名前は後ほど設定から変更できます。"
+                    "pick": "他のユーザーから検索されるように名前を決めましょう。この名前は後でも設定から変更できます。"
                 },
                 "prompt": {
                     "confirm_delete_long": "一度削除してしまうと、元に戻すことはできません。",
@@ -366,7 +366,7 @@
                     "confirm_close_dm": "{{name}}との会話を閉じますか？",
                     "confirm_close_dm_long": "また開き直すことは可能ですが、両者ともに消えてしまいます。",
                     "confirm_delete": "{{name}}を削除しますか？",
-                    "create_invite_generate": "招待を作成中…",
+                    "create_invite_generate": "招待コードを作成中…",
                     "create_invite_created": "これがあなたの新しい招待コードです:",
                     "confirm_ban": "あなたは {{name}} をBANしようとしています",
                     "confirm_ban_reason": "BAN理由",
@@ -405,9 +405,9 @@
                     "edit": "編集"
                 },
                 "clipboard": {
-                    "unavailable": "クリップボードは使用できません！",
+                    "unavailable": "クリップボードを使用できません！",
                     "https": "現在、HTTPS環境ではありません。",
-                    "copy": "マニュアルコピー:"
+                    "copy": "手動でコピー:"
                 },
                 "external_links": {
                     "title": "外部リンクは危険な場合があります！",
@@ -471,17 +471,17 @@
         },
         "context_menu": {
             "copy_id": "IDをコピー",
-            "copy_text": "コピーテキスト",
-            "copy_uid": "ユーザーIDのコピー",
-            "copy_cid": "チャンネルIDのコピー",
-            "copy_mid": "メッセージIDのコピー",
-            "copy_message_link": "メッセージリンクのコピー",
+            "copy_text": "テキストをコピー",
+            "copy_uid": "ユーザーIDをコピー",
+            "copy_cid": "チャンネルIDをコピー",
+            "copy_mid": "メッセージIDをコピー",
+            "copy_message_link": "メッセージリンクをコピー",
             "mention": "言及",
             "message_user": "メッセージ",
             "view_profile": "プロフィールを見る",
             "mark_as_read": "既読にする",
             "reply_message": "返信",
-            "quote_message": "引用メッセージ",
+            "quote_message": "メッセージを引用する",
             "edit_message": "メッセージの編集",
             "delete_message": "メッセージの削除",
             "remove_member": "グループからの削除",
@@ -495,7 +495,7 @@
             "copy_link": "リンクをコピー",
             "open_link": "リンクを開く",
             "block_user": "ユーザーのブロック",
-            "add_friend": "友達追加",
+            "add_friend": "友達に追加",
             "remove_friend": "友人の削除",
             "cancel_friend": "リクエストのキャンセル",
             "clear_status": "ステータスのクリア",
@@ -509,8 +509,8 @@
             "open_channel_settings": "チャンネルの設定",
             "open_server_settings": "サーバーの設定",
             "open_group_settings": "グループの設定",
-            "copy_selection": "コピー選択",
-            "copy_sid": "サーバーIDのコピー",
+            "copy_selection": "選択領域をコピー",
+            "copy_sid": "サーバーIDをコピー",
             "retry_message": "再送信",
             "cancel_message": "送信キャンセル",
             "save_file": "ファイルの保存",
@@ -522,7 +522,7 @@
             "delete_channel": "チャンネルを削除"
         },
         "permissions": {
-            "required": "必要な権限"
+            "required": "権限が必要です"
         }
     },
     "login": {
@@ -537,7 +537,7 @@
         "check_spam": "見つからない場合は、迷惑メールフォルダーをご確認ください",
         "email_delay": "メールを受信するまで10分程度かかる場合があります。",
         "check_mail": "メールボックスを確認する。",
-        "cancel": "リクエストをキャンセルする。",
+        "cancel": "ログインをキャンセルする。",
         "resend": "認証コードを再送信する。",
         "missing_verification": "Eメールがありませんか？",
         "create": "新しいアカウントを作成する。",
@@ -568,7 +568,7 @@
         "loading": "読み込み中…",
         "privacy": "プライバシーポリシー",
         "tos": "利用規約",
-        "about": "私達に関して",
+        "about": "私達について",
         "image_by": "画像提供：",
         "on": "オン",
         "off": "オフ"
@@ -584,9 +584,9 @@
         "OperationFailed": "操作に失敗しました。",
         "RenderFail": "テンプレートのレンダリングに失敗しました。",
         "MissingHeaders": "ヘッダーがありません。",
-        "UnverifiedAccount": "未認証のアカウントです。",
+        "UnverifiedAccount": "認証されていないアカウントです。",
         "UnknownUser": "不明なユーザーです。",
-        "EmailInUse": "使用中のメールアドレス。",
+        "EmailInUse": "使用中のメールアドレスです。",
         "EmailFailed": "メールの送信に失敗しました。",
         "InvalidToken": "無効なトークン",
         "MissingInvite": "リクエストに招待コードがありません。",
@@ -628,11 +628,11 @@
                 "t": "チャンネルの管理"
             },
             "KickMembers": {
-                "d": "メンバーがこのサーバーからメンバーを追い出すことができます。追い出されたメンバーは、招待を受ければ再び参加することができます。",
+                "d": "メンバーがこのサーバーから他のメンバーを追い出すことができます。追い出されたメンバーは、招待を受ければ再び参加することができます。",
                 "t": "メンバーをキック"
             },
             "ManageNicknames": {
-                "d": "メンバーが他のメンバーのニックネームを変更することができます。",
+                "d": "メンバーが他のメンバーのニックネームを変更できるようにします。",
                 "t": "ニックネームの管理"
             },
             "RemoveAvatars": {
@@ -640,7 +640,7 @@
                 "d": "メンバーがこのサーバー上の他のメンバーのサーバーアバターを削除することができます。"
             },
             "ManageServer": {
-                "d": "このサーバーの名前、説明、アイコンなどの情報を変更することができます。",
+                "d": "メンバーがこのサーバーの名前、説明、アイコンなどの情報を変更することができます。",
                 "t": "サーバーの管理"
             },
             "BanMembers": {
@@ -649,11 +649,11 @@
             },
             "ChangeNickname": {
                 "t": "ニックネームの変更",
-                "d": "このサーバーでのメンバーのニックネームの変更を許可します。"
+                "d": "メンバーがこのサーバーでのメンバーのニックネームの変更できるようにします。"
             },
             "ChangeAvatar": {
                 "t": "アバターの変更",
-                "d": "このサーバーでメンバーがサーバーアバターを変更できるようにします。"
+                "d": "このサーバーでメンバーが自分のサーバーアバターを変更できるようにします。"
             }
         },
         "channel": {
@@ -662,7 +662,7 @@
                 "t": "メッセージの送信"
             },
             "VoiceCall": {
-                "d": "メンバーが音声チャンネルに参加できるようになります。",
+                "d": "メンバーがボイスチャンネルに参加できるようになります。",
                 "t": "ボイスコール"
             },
             "View": {
