@@ -265,7 +265,7 @@
                     "import": "استيراد سمة",
                     "theme": "السمة",
                     "emoji_pack": "حزمة الرموز التعبيرية",
-                    "reset_overrides": "إعادة التجاوزات",
+                    "reset_overrides": "استعد التجاوزات",
                     "mono_font": "محدد الخط الثابت",
                     "color": {
                         "light": "فاتح",
@@ -311,13 +311,13 @@
                         "enable_push": "فعل التنبيهات عندما تكون غير متصل."
                     },
                     "title": "التنبيهات",
-                    "push_notifications": "الإشعارات المباشرة",
-                    "enable_push": "تفعيل الإشعارات المباشرة.",
+                    "push_notifications": "ارسال التنبيهات",
+                    "enable_push": "فعّل ارسال التنبيهات.",
                     "sound": {
-                        "message": "اُستلمت الرسالة",
-                        "outbound": "أُرسلت الرسالة",
-                        "call_join": "انضم مستخدم للمكالمة",
-                        "call_leave": "غادر مستخدم المكالمة"
+                        "message": "عند استلام رسالة",
+                        "outbound": "عند إرسال رسالة",
+                        "call_join": "عند انضمام مستخدم للمكالمة",
+                        "call_leave": "عند مغادرة مستخدم للمكالمة"
                     }
                 },
                 "donate": {
@@ -706,15 +706,15 @@
         "sent_request": "@{{person}} أرسل لك طلب صداقة."
     },
     "dayjs": {
-        "lastDay": "[الأمس عند] {{time}}",
+        "lastDay": "[أمس على] {{time}}",
         "defaults": {
             "date_separator": "/",
             "date_format": "traditional",
             "twelvehour": "yes"
         },
-        "lastWeek": "[السابق] dddd [عند] {{time}}",
-        "sameDay": "[اليوم عند] {{time}}",
-        "nextDay": "[غداً عند] {{time}}",
-        "nextWeek": "dddd [عند] {{time}}"
+        "lastWeek": "dddd [السابق على] {{time}}",
+        "sameDay": "[اليوم على] {{time}}",
+        "nextDay": "[غداً على] {{time}}",
+        "nextWeek": "dddd [على] {{time}}"
     }
 }
