@@ -19,7 +19,7 @@
                 "unknown_user": "<Usuario desconocido>",
                 "message_saved": "Guardar en tus notas",
                 "uploading_file": "Subiendo…",
-                "failed_upload": "¡Error al subir el archivo!",
+                "failed_upload": "¡Error en subir!",
                 "attached_file": "{{filename}} adjuntado",
                 "typing": {
                     "single": "{{user}} está escribiendo…",
@@ -136,14 +136,14 @@
                     "change_field": "Cambiar",
                     "unique_id": "Este es un identificador de usuario único para tu cuenta.",
                     "2fa": {
-                        "title": "Autenticación en dos pasos",
+                        "title": "Autenticación de dos pasos",
                         "add_auth": "Añadir autenticador",
                         "remove_auth": "Eliminar autenticador",
                         "description": "Agrega una capa adicional de seguridad activando la función 2FA en tu cuenta."
                     },
                     "manage": {
                         "title": "Administrar cuenta",
-                        "description": "Deshabilita o elimina tu cuenta en cualquier momento. Esta acción cerrará la sesión y eliminará por completo tu cuenta, incluido tu historial de chat y amigos.",
+                        "description": "Deshabilita o elimina tu cuenta en cualquier momento. Esta acción cerrará la sesión y eliminará tu cuenta por completo, incluido tu historial de chat y amigos.",
                         "disable": "Deshabilitar cuenta",
                         "delete": "Borrar cuenta"
                     }
@@ -225,7 +225,7 @@
                     "import": "Importar un tema"
                 },
                 "logOut": "Cerrar sesión",
-                "source_code": "Código fuente",
+                "source_code": "Código de origen",
                 "sync": {
                     "title": "Sincronizar",
                     "descriptions": {
@@ -402,7 +402,7 @@
             "open_notification_options": "Opciones de notificaciones",
             "open_server_settings": "Configuración del servidor",
             "copy_sid": "Copiar ID del servidor",
-            "copy_message_link": "Copiar enlace del mensaje",
+            "copy_message_link": "Copiar link del mensaje",
             "edit_identity": "Editar perfil del servidor",
             "create_category": "Crear categoría"
         },
@@ -428,10 +428,10 @@
                     "unfriend_user": "¿Eliminar a {{name}}?",
                     "block_user_long": "¿Estás seguro de que quieres bloquear a {{name}}? También se eliminará de tu lista de amigos.",
                     "confirm_close_dm": "¿Cerrar conversación con {{name}}?",
-                    "confirm_delete_message_long": "¿Estás seguro de que quieres eliminar esto?",
+                    "confirm_delete_message_long": "¿Estás seguro que quieres eliminar esto?",
                     "confirm_kick": "¿Estás seguro de que quieres expulsar a {{name}}?",
                     "confirm_ban_reason": "Motivo del veto",
-                    "confirm_delete_long": "Una vez que se elimine, no hay vuelta atrás.",
+                    "confirm_delete_long": "Una vez borrado, no hay vuelta atrás.",
                     "confirm_ban": "Estás a punto de vetar a {{name}}",
                     "create_invite_created": "Aquí está tu nuevo código de invitación:",
                     "confirm_delete": "¿Eliminar {{name}}?",
@@ -546,12 +546,12 @@
     },
     "login": {
         "create": "Crear una nueva cuenta.",
-        "new": "¿Nuevo en Revolt?",
+        "new": "¿Nuevo a Revolt?",
         "forgot": "¿Olvidaste tu contraseña?",
         "enter": {
             "password": "Pon tu contraseña.",
             "email": "Introduce tu correo electrónico.",
-            "current_password": "Ingresa tu contraseña actual.",
+            "current_password": "Coloca tu contraseña actual.",
             "invite": "Introduce tu código de invitación.",
             "username": "Introduce tu nombre de usuario preferido."
         },
@@ -560,8 +560,8 @@
         "title": "Iniciar sesión",
         "error": {
             "login": "¡Error al iniciar sesión!",
-            "create": "¡Hubo un error al registrarse!",
-            "reset": "¡No se pudo restablecer!",
+            "create": "¡Error al registrarse!",
+            "reset": "¡No se pudo reiniciar!",
             "resend": "¡No se pudo reenviar!"
         },
         "successful_registration": "¡Registrado exitosamente!",
@@ -574,7 +574,7 @@
         "existing": "¿Ya tienes una cuenta?",
         "remembered": "Regresar a iniciar sesión.",
         "set_password": "Establecer nueva contraseña.",
-        "reset": "Restablecer contraseña.",
+        "reset": "Reiniciar contraseña.",
         "current_password": "Contraseña actual",
         "invite": "Código de invitación",
         "username": "Nombre del usuario",
@@ -663,7 +663,7 @@
         "channel": {
             "ManageMessages": {
                 "t": "Administrar mensajes",
-                "d": "Permite a los miembros eliminar los mensajes enviados por otros miembros."
+                "d": "Permite los miembros eliminar los mensajes enviados por otros miembros."
             },
             "SendMessage": {
                 "t": "Enviar mensajes",
@@ -675,7 +675,7 @@
             },
             "ManageChannel": {
                 "t": "Manejar canales",
-                "d": "Permite a los miembros editar o eliminar un canal."
+                "d": "Permite los miembros editar o eliminar un canal."
             },
             "VoiceCall": {
                 "t": "Llamada de voz",
@@ -724,8 +724,8 @@
                 "d": "Permite a los miembros crear, editar y eliminar canales."
             },
             "ManageRoles": {
-                "t": "Administrar roles",
-                "d": "Permite a los miembros crear, editar y eliminar roles con un rango inferior al tuyo. También les permite modificar los permisos de los roles en los canales."
+                "t": "Manejar roles",
+                "d": "Permite miembros crear, editar y eliminar roles con un rango menor al tuyo. También permite modificar los permisos de roles en canales."
             },
             "KickMembers": {
                 "t": "Expulsar miembros",
