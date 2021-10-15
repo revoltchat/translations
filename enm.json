@@ -19,8 +19,8 @@
         "email": "Email",
         "current_password": "Current Password",
         "enter": {
-            "username": "Enter a username.",
-            "email": "Enter your email.",
+            "username": "Enter your preferred username.",
+            "email": "Please enter your email.",
             "password": "Enter your password.",
             "invite": "Enter your invite code.",
             "current_password": "Enter your current password."
@@ -95,7 +95,8 @@
                     "channel_description_changed": "{{user}} changed the channel description"
                 },
                 "start": {
-                    "group": "This is the start of your conversation."
+                    "group": "This is the start of your conversation.",
+                    "saved": "This is the start of your notes."
                 },
                 "voice": {
                     "connected": "Voice connected",
@@ -172,7 +173,24 @@
             "title": "Settings",
             "actions": {
                 "upload": "Lataa",
-                "remove": "Poista"
+                "remove": "Poista",
+                "max_filesize": "(max {{filesize}})"
+            },
+            "pages": {
+                "account": {
+                    "title": "My Account",
+                    "change_field": "Change",
+                    "2fa": {
+                        "description": "Add an extra layer of security by enabling 2FA on your account.",
+                        "add_auth": "Add Authenticator",
+                        "title": "Two-factor Authentication",
+                        "remove_auth": "Remove Authenticator"
+                    },
+                    "unique_id": "This is a unique user identifier for your account."
+                },
+                "notifications": {
+                    "enable_push": "Enable Push Notifications."
+                }
             }
         }
     }
