@@ -210,7 +210,8 @@
                     "theme_data": "Dades del tema",
                     "sync": "Opcions de sincronització",
                     "font": "Font",
-                    "mono_font": "Selector de tipus de lletra Monospace"
+                    "mono_font": "Selector de tipus de lletra Monospace",
+                    "ligatures_desc": "Per a les fonts compatibles, les lligadures combinen caràcters junts, per exemple, convertint -> en una fletxa. Canvieu a Inter i proveu de canviar aquesta opció."
                 },
                 "profile": {
                     "title": "Perfil",
@@ -234,7 +235,8 @@
                     "input_device": "Micròfon",
                     "output_device": "Altaveu / auriculars",
                     "device_label_NA": "N/A",
-                    "button_retry": "reintenta"
+                    "button_retry": "reintenta",
+                    "tip_retry": "No has donat permís per accedir al teu micròfon, si us plau {{retryBtn}}."
                 },
                 "notifications": {
                     "title": "Notificacions",
@@ -474,7 +476,7 @@
                     "sub": {
                         "badges": "Insignies",
                         "information": "Informació",
-                        "connections": "Coneccions"
+                        "connections": "Connexións"
                     },
                     "badges": {
                         "translator": "Traductor",
@@ -560,11 +562,12 @@
             "delete_server": "Eliminar servidor",
             "edit_identity": "Editar identitat",
             "delete_channel": "Eliminar canal",
-            "create_category": "Crear categoría",
+            "create_category": "Crear categoria",
             "create_invite": "Crear invitació",
             "open_notification_options": "Opcions de notificacions",
             "open_channel_settings": "Configuració del canal",
-            "open_server_settings": "Configuració del servidor"
+            "open_server_settings": "Configuració del servidor",
+            "quote_message": "Citar missatge"
         },
         "permissions": {
             "required": "Permisos requerits"
@@ -578,7 +581,7 @@
         "MissingPermission": "Insuficients permissos.",
         "NetworkError": "Error de conexió.",
         "Unauthorized": "Sense permís.",
-        "Unlabelled": "Ha passat algú.",
+        "Unlabelled": "Ha passat alguna cosa.",
         "FailedValidation": "Fallo en validar els camps.",
         "DatabaseError": "Error de base de dades.",
         "InternalError": "Error interí.",
