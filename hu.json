@@ -14,35 +14,35 @@
         "email": "E-mail",
         "password": "Jelszó",
         "enter": {
-            "email": "Add meg az e-mail-címed!",
+            "email": "Add meg az e-mail-címed.",
             "password": "A Revolt-jelszavad helye.",
             "username": "Adj meg egy nevet!",
-            "current_password": "Add meg a mostani jelszót!",
-            "invite": "Add meg a meghívókódod!"
+            "current_password": "Add meg a mostani jelszavad.",
+            "invite": "Add meg a meghívókódod."
         },
         "forgot": "Nem emlékszel a jelszavadra?",
         "new": "Még nincs Revoltod?",
         "title": "Bejelentkezés",
-        "create": "Regisztrálj!",
-        "check_mail": "Nézd meg, hogy jött-e leveled!",
-        "reset": "Új jelszót kérek!",
+        "create": "Új fiók létrehozása.",
+        "check_mail": "Ellenőrizd a beérkező leveleidet.",
+        "reset": "Jelszó visszaállítása.",
         "successful_registration": "Regisztrálva lettél!",
         "open_mail_provider": "{{provider}} megnyitása",
         "cancel": "Folyamat megszakítása",
         "existing": "Van már fiókod?",
-        "remembered": "Vissza a bejelentkezéshez",
+        "remembered": "Vissza a bejelentkezéshez.",
         "username": "Felhasználónév",
         "register": "Regisztráció",
         "error": {
-            "resend": "Nem sikerült újraküldeni.",
-            "reset": "Nem sikerült jelszóváltoztatást kérni.",
-            "login": "Nem sikerült bejelentkezned.",
-            "create": "Nem sikerült regisztrálnod."
+            "resend": "Újraküldés sikertelen!",
+            "reset": "Jelszóvisszaállítás sikertelen!",
+            "login": "Bejelentkezés sikertelen!",
+            "create": "Regisztrálás sikertelen!"
         },
-        "check_spam": "Nézd meg, hogy nem került-e a spamek közé.",
-        "resend": "Fiókhitelesítő e-mail újraküldése",
+        "check_spam": "Ha nem találod, akkor nézd meg spameket is",
+        "resend": "Fiókhitelesítő e-mail újraküldése.",
         "missing_verification": "Nem jött meg az e-mail?",
-        "set_password": "Add meg az új jelszavad!",
+        "set_password": "Add meg az új jelszavad.",
         "current_password": "Mostani jelszavad",
         "invite": "Meghívókód",
         "email_delay": "A leveled 10 percen belül meg fog érkezni."
@@ -70,7 +70,7 @@
                     "single": "{{user}} éppen gépel…"
                 },
                 "attached_file": "{{filename}} csatolva",
-                "failed_upload": "Nem sikerült feltölteni.",
+                "failed_upload": "Feltöltés sikertelen!",
                 "uploading_file": "Feltöltés folyamatban…",
                 "message_saved": "Mentés a jegyzeteid közé",
                 "bot": "’bot",
@@ -200,7 +200,7 @@
                         "title": "Kéttényezős hitelesítés",
                         "add_auth": "Hitelesítő hozzáadása",
                         "remove_auth": "Hitelesítő eltávolítása",
-                        "description": "A fiókod extra védelméért állíts be kéttényezős hitelesítést!"
+                        "description": "A fiókod extra védelméért állíts be kétfaktoros hitelesítést."
                     },
                     "manage": {
                         "title": "Fiókkezelés",
@@ -211,12 +211,12 @@
                 },
                 "language": {
                     "title": "Nyelvek",
-                    "select": "Válassz nyelvet!",
+                    "select": "Válassz nyelvet",
                     "other": "Egyéb nyelvezetek",
                     "const": "Mesterséges nyelvek"
                 },
                 "notifications": {
-                    "enable_desktop": "Asztali értesítések engedélyezése",
+                    "enable_desktop": "Asztali értesítések engedélyezése.",
                     "title": "Értesítések",
                     "enable_sound": "Hang lejátszása üzenetek érkezésekor.",
                     "enable_outgoing_sound": "Hang lejátszása üzenetek küldésekor.",
@@ -227,7 +227,7 @@
                         "enable_sound": "Kapcsold be ahhoz, hogy hangot játsszunk le amikor megérkezik egy üzenet.",
                         "enable_outgoing_sound": "Kapcsold be ahhoz, hogy egy hangot játsszunk le amikor elküldesz egy üzenetet."
                     },
-                    "enable_push": "Leküldéses értesítések engedélyezése",
+                    "enable_push": "Leküldéses értesítések engedélyezése.",
                     "push_notifications": "Leküldéses értesítések",
                     "sound": {
                         "message": "Üzenetek érkezésekor",
@@ -239,7 +239,7 @@
                 "profile": {
                     "title": "Profil",
                     "info": "Tudnivalók",
-                    "placeholder": "Írj valamit magadról!",
+                    "placeholder": "Írj valamit magadról…",
                     "profile_picture": "Profilkép",
                     "custom_background": "Saját háttér",
                     "edit_background": "Háttér szerkesztése",
@@ -249,13 +249,13 @@
                 "feedback": {
                     "title": "Visszajelzés",
                     "report": "Mit szeretnél bejelenteni?",
-                    "bug": "Bug Tracker",
+                    "bug": "Hibatérkép",
                     "feature": "Funkció kérelmezése",
                     "other": "Más (Írd ide)",
                     "send": "Visszajelzés beküldése",
                     "describe": "Kérjük, írd ismertesd a problémát.",
                     "suggest": "Featurejavaslat küldése",
-                    "suggest_desc": "Javasolj új Revolt feature-öket a GitHub Discussions oldalon!",
+                    "suggest_desc": "Javasolj új Revolt funkciókat GitHub-on.",
                     "issue": "Új issue létrehozása",
                     "bug_desc": "Az aktív hibajelentéseket itt láthatod.",
                     "issue_desc": "A GitHubon hozhatsz létre egy új issue-t, hogy segíthess nekünk könnyebben triage-elni azokat."
@@ -305,7 +305,7 @@
                     "token": "Token",
                     "private_bot_tip": "A ’bot nem nyilvános. Csak te hívhatod meg.",
                     "public_bot": "Nyilvános ’bot",
-                    "public_bot_desc": "Meghívhatják-e más felhasználók ezt a ’botot?",
+                    "public_bot_desc": "Meghívhatják-e más felhasználók ezt a botot?",
                     "interactions_url": "Interakciós URL",
                     "unique_id": "Ez a ’botod egyedi azonosítója. Ez nem a ’bot tokenje."
                 },
@@ -330,12 +330,12 @@
             },
             "tips": {
                 "languages": {
-                    "b": "Segíts több fordítást létrehozni!",
+                    "b": "Segíts hozzájárulni a további fordításokhoz.",
                     "a": "Hiányzik egy fordítani való nyelv?"
                 },
                 "sessions": {
                     "b": "Változtass jelszót és használj kéttényezős hitelesítést.",
-                    "a": "Amennyiben nem a saját munkameneteidet látod a listában, helyezd biztonságba fiókod!"
+                    "a": "Ha látsz egy ismeretlen eszközt a listán,"
                 },
                 "account": {
                     "a": "Testre szeretnéd szabni a nyilvános profilod?",
@@ -463,7 +463,7 @@
             },
             "friends": {
                 "outgoing": "Ismerősként jelölted.",
-                "incoming": "Ismerősnek jelöltek!",
+                "incoming": "Bejövő barátkérelem.",
                 "blocked": "Blokkolt",
                 "pending": "Függőben lévő felkérések",
                 "nobody": "Még senki sincs itt!",
