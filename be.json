@@ -96,8 +96,55 @@
                     "nochannels": "На гэтым серверы няма каналаў, ці ў вас няма доступу да іх."
                 },
                 "nsfw": {
-                    "confirm": "Я пацвяржаю, што я старэй за 18 гадоў."
-                }
+                    "confirm": "Я пацвяржаю, што я старэй за 18 гадоў.",
+                    "channel": {
+                        "marked": "Гэты канал пазначаны як NSFW.",
+                        "confirm": "Увайсці ў канал"
+                    }
+                },
+                "message_where": "Паведамленне {{channel_name}}",
+                "message_who": "Паведамленне {{person}}",
+                "message_saved": "Захаваць у нататкі",
+                "uploading_file": "Загрузка…",
+                "attached_file": "Прымацавана {{filename}}",
+                "typing": {
+                    "multiple": "{{userlist}} і {{user}} друкуюць…",
+                    "single": "{{user}} друкуе…",
+                    "several": "Некалькі чалавек друкуюць…"
+                },
+                "system": {
+                    "user_left": "{{user}} выйшаў",
+                    "user_kicked": "{{user}} выгнаны",
+                    "user_banned": "{{user}} быў заблакаваны",
+                    "added_by": "{{other_user}} далучыў {{user}}",
+                    "removed_by": "{{other_user}} выдаліў {{user}}",
+                    "channel_description_changed": "{{user}} змяніў апісанне канала",
+                    "user_joined": "{{user}} далучыўся",
+                    "channel_renamed": "{{user}} пераназваў канал на {{name}}",
+                    "channel_icon_changed": "{{user}} змяніў значок канала"
+                },
+                "start": {
+                    "group": "Гэта пачатак вашай гутаркі.",
+                    "saved": "Гэта пачатак вашых нататак."
+                },
+                "voice": {
+                    "leave": "Пакінуць",
+                    "unmute": "Уключыць мікрафон",
+                    "connected": "Галасавая сувязь падключана",
+                    "mute": "Адключыць мікрафон"
+                },
+                "misc": {
+                    "viewing_old": "Прагляд старых паведамленняў",
+                    "jump_present": "Перайсці у канец",
+                    "spoiler_attachment": "Спойлер",
+                    "blocked_messages": "{{count}} заблакаваных паведамленняў",
+                    "blocked_user": "Заблакаваны карыстач",
+                    "sent_file": "Адправіў укладанне",
+                    "failed_load": "Не атрымалася загрузіць паведамленне.",
+                    "no_sending": "У вас няма права на адпраўленне паведамленняў у гэтым канале.",
+                    "sent_multiple_files": "Адправіў некалькі ўкладанняў"
+                },
+                "failed_upload": "Не атрымалася загрузіць!"
             },
             "groups": {
                 "name": "Імя групы",
@@ -150,12 +197,39 @@
                     "title": "Профіль",
                     "info": "Інфармацыя",
                     "fetching": "Атрымліваем ваш профіль…",
-                    "placeholder": "Напішыце што-небудзь пра сябе…"
+                    "placeholder": "Напішыце што-небудзь пра сябе…",
+                    "profile_picture": "Малюнак профілю",
+                    "custom_background": "Карыстацкі фон",
+                    "edit_background": "Змяніць фон",
+                    "edit_profile": "Змяніць профіль"
                 },
                 "appearance": {
                     "display": {
-                        "default_description": "Выдатны, гладкі і сучасны."
-                    }
+                        "default_description": "Выдатны, гладкі і сучасны.",
+                        "compact": "Кампактна"
+                    },
+                    "title": "Знешні выгляд",
+                    "message_display": "Адлюстраванне паведамленняў",
+                    "advanced": "Пашыраныя опцыі",
+                    "overrides": "Пераазначэнне тэм",
+                    "theme": "Тэма",
+                    "emoji_pack": "Набор эмодзі",
+                    "reset_overrides": "Скінуць пераазначэнне"
+                },
+                "sessions": {
+                    "title": "Сесіі",
+                    "logout": "Выйсці з усіх другіх сесій",
+                    "active_sessions": "Актыўныя сесіі",
+                    "this_device": "Гэтая прылада",
+                    "created": "Зроблена {{time_ago}}"
+                },
+                "audio": {
+                    "title": "Налады голасу",
+                    "input_device": "Мікрафон",
+                    "output_device": "Дынамік / Гарнітура",
+                    "device_label_NA": "Не знойдзена",
+                    "button_retry": "паўтарыць",
+                    "tip_retry": "Вы не далі доступу да вашага мікрафона, калі ласка {{retryBtn}}."
                 }
             },
             "title": "Налады"
