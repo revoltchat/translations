@@ -362,7 +362,16 @@
             },
             "tips": {
                 "account": {
-                    "a": "Хочаце змяніць свой публічны профіль?"
+                    "a": "Хочаце змяніць свой публічны профіль?",
+                    "b": "Перайдзіце ў налады свайго профілю."
+                },
+                "languages": {
+                    "a": "Адсутнічае патрэбная вам мова?",
+                    "b": "Дапамажыце нам у перакладзе."
+                },
+                "sessions": {
+                    "b": "абараніце свой акаўнт змяніўшы пароль і ўключыўшы 2FA.",
+                    "a": "Калі вы бачыце ў спісе невядомы сеанс,"
                 }
             },
             "permissions": {
@@ -536,7 +545,31 @@
             "edit_message": "Рэдагаваць паведамленне",
             "delete_message": "Выдаліць паведамленне",
             "remove_member": "Выдаліць з групы",
-            "save_image": "Захаваць выяву"
+            "save_image": "Захаваць выяву",
+            "custom_status": "Карыстацкі статус",
+            "clear_status": "Ачысціць статус",
+            "leave_group": "Пакінуць групу",
+            "close_dm": "Зачыніць АП",
+            "create_channel": "Стварыць канал",
+            "create_category": "Стварыць катэгорыю",
+            "open_channel_settings": "Налады канала",
+            "open_group_settings": "Налады групы",
+            "block_user": "Заблакаваць карыстача",
+            "unblock_user": "Разблакаваць карыстача",
+            "add_friend": "Дадаць у сябры",
+            "remove_friend": "Выдаліць з сяброў",
+            "cancel_friend": "Адмяніць запыт",
+            "set_custom_status": "Усталяваць карыстацкі статус",
+            "leave_server": "Пакінуць сервер",
+            "delete_server": "Выдаліць сервер",
+            "edit_identity": "Змяніць асобу",
+            "delete_channel": "Выдаліць канал",
+            "create_invite": "Стварыць запрашэнне",
+            "open_notification_options": "Налады апавяшчэнняў",
+            "open_server_settings": "Налады сервера"
+        },
+        "permissions": {
+            "required": "Патрабуюцца дазваленні"
         }
     },
     "permissions": {
@@ -545,5 +578,27 @@
                 "d": "Дазваляе ўдзельнікам загружаць файлы ў тэкставыя каналы."
             }
         }
+    },
+    "quantities": {
+        "members": {
+            "one": "1 удзельнік",
+            "many": "{{count}} Участников"
+        }
+    },
+    "dayjs": {
+        "sameDay": "[Сёння ў] {{time}}",
+        "nextWeek": "dddd [у] {{time}}",
+        "defaults": {
+            "date_separator": ".",
+            "twelvehour": "no",
+            "date_format": "traditional"
+        },
+        "lastDay": "[Учора ў] {{time}}",
+        "nextDay": "[Заўтра ў] {{time}}",
+        "lastWeek": "[Апошн.] dddd [у] {{time}}"
+    },
+    "notifications": {
+        "sent_request": "@{{person}} адправіў вам заяву ў сябры.",
+        "now_friends": "Цяпер вы сябруеце з @{{person}}!"
     }
 }
