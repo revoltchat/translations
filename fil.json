@@ -210,13 +210,14 @@
                     "button_retry": "i-try ulit",
                     "title": "Mga Opsyon ng Voice",
                     "device_label_NA": "Hindi Naaangkop",
-                    "output_device": "Speaker o Headset"
+                    "output_device": "Speaker o Headset",
+                    "tip_retry": "Hindi mo binigyan ang pahintulot na gamitin ang iyong microphone, {{retryBtn}}."
                 },
                 "appearance": {
                     "theme": "Tema",
                     "color": {
-                        "light": "light",
-                        "dark": "dark"
+                        "light": "maputi",
+                        "dark": "madilim"
                     },
                     "reset_overrides": "I-reset and mga overrides",
                     "display": {
@@ -238,7 +239,8 @@
                     "font": "Font",
                     "custom_css": "Sariling CSS",
                     "sync": "I-sync ang mga options",
-                    "import_theme": "Mag-import ng tema sa string"
+                    "import_theme": "Mag-import ng tema sa string",
+                    "ligatures_desc": "Para sa mga supported fonts, pinagsasama ng mga ligature ang mga characters, halimbawa, ipinapalit ang arrow sa -> . Piliin mo ang Inter at subukan mo ang opsyon na ito."
                 },
                 "notifications": {
                     "sounds": "Mga tunog",
@@ -456,7 +458,7 @@
                     "preview": "Preview",
                     "ban": "Ban",
                     "ok": "Sige",
-                    "hide": "Hide",
+                    "hide": "Itago",
                     "remove": "Alisin",
                     "continue": "Ipagpatuloy",
                     "send_email": "Ipadala ang email",
@@ -559,7 +561,7 @@
         "new": "Bago lang sa Revolt?",
         "existing": "Mayroon nang account?",
         "create": "Gumawa ng bagong account.",
-        "missing_verification": "Walang email?",
+        "missing_verification": "Walang email",
         "check_mail": "Tignan ang iyong email.",
         "remembered": "Bumalik sa pag-login.",
         "open_mail_provider": "Buksan ang {{provider}}",
@@ -702,7 +704,7 @@
         "sameDay": "[Ngayong] {{time}}",
         "nextDay": "[Bukas ng] {{time}}",
         "lastDay": "[Kahapon ng] {{time}}",
-        "lastWeek": "[Huling {{time}} [ng] dddd",
+        "lastWeek": "[Huling] {{time}} [ng] dddd",
         "nextWeek": "{{time}} [ng] dddd"
     },
     "quantities": {
