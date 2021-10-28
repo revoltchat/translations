@@ -8,7 +8,7 @@
         "on": "På",
         "off": "Av",
         "disabled": "Inaktiverad",
-        "unavailable": "otillgänglig"
+        "unavailable": "Otillgänglig"
     },
     "login": {
         "title": "Logga in",
@@ -33,7 +33,7 @@
         "successful_registration": "Du har registrerat dig!",
         "open_mail_provider": "Öppna {{provider}}",
         "check_mail": "Kolla din e-post.",
-        "missing_verification": "Inget e-postmeddelande?",
+        "missing_verification": "E-postmeddelandet saknas",
         "error": {
             "resend": "Kunde inte återsända!",
             "reset": "Kunde inte återställa!",
@@ -77,7 +77,8 @@
                 "unknown_user": "<Okänd Användare>",
                 "edited": "(redigerat)",
                 "start": {
-                    "group": "Det här är början av er konversation."
+                    "group": "Det här är början av er konversation.",
+                    "saved": "Detta är starten av dina anteckningar."
                 },
                 "misc": {
                     "spoiler_attachment": "Spoiler",
@@ -87,7 +88,7 @@
                     "blocked_user": "Blockerad Användare",
                     "failed_load": "Kunde inte ladda in meddelande.",
                     "blocked_messages": "{{count}} blockerade meddelanden",
-                    "sent_file": "Laddade upp en bilagor",
+                    "sent_file": "Laddade upp bilagan",
                     "sent_multiple_files": "Laddade upp bilagorna"
                 },
                 "voice": {
@@ -449,7 +450,7 @@
                     "feature": "Funktionsförfrågan",
                     "bug": "Buggspårare",
                     "report": "Vad vill du rapportera?",
-                    "suggest": "Skicka funktionsförslag",
+                    "suggest": "Lämna förslag",
                     "issue_desc": "För att hjälpa oss lättare triage frågor, kan du skapa ett problem på GitHub.",
                     "suggest_desc": "Föreslå nya Revolt funktioner på GitHub diskussioner.",
                     "issue": "Skapa ett nytt ärende",
@@ -485,9 +486,10 @@
                 "audio": {
                     "title": "Röstinställningar",
                     "output_device": "Högtalare / Hörlurar",
-                    "input_device": "Mikrofone",
+                    "input_device": "Mikrofon",
                     "device_label_NA": "EJ TILLÄMPLIGT",
-                    "button_retry": "försöka igen"
+                    "button_retry": "försök igen",
+                    "tip_retry": "Du gav inte tillstånd att använda din mikrofon, försök igen {{retryBtn}}."
                 },
                 "bots": {
                     "title": "Min bottar",
