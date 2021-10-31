@@ -25,7 +25,8 @@
                     "channel_icon_changed": "{{user}} ŝanĝis la bildsimbolon de la kanalo"
                 },
                 "start": {
-                    "group": "Jen la komenco de via interparolo."
+                    "group": "Jen la komenco de via interparolo.",
+                    "saved": "Ĉi tio estas la komenco de viaj notoj."
                 },
                 "voice": {
                     "connected": "Voĉe konektita",
@@ -224,7 +225,13 @@
                     "logout": "Elsalutigi ĉiujn aliajn seancojn"
                 },
                 "feedback": {
-                    "title": "Prikomenti"
+                    "title": "Prikomenti",
+                    "issue_desc": "Por helpi nin pli facile ordigi la problemoj, vi povas krei problemraporton ĉe GitHub.",
+                    "bug_desc": "Rigardu nune aktivajn cimraportojn ĉi tie.",
+                    "suggest": "Sendu plibonigproponon",
+                    "suggest_desc": "Proponu novajn Revolt plibonigproponojn je GitHub Discussions.",
+                    "issue": "Kreu novan problemraporton",
+                    "bug": "Cimspurado"
                 },
                 "language": {
                     "title": "Lingvo",
@@ -252,7 +259,8 @@
                 "donate": {
                     "title": "Donaci"
                 },
-                "source_code": "Fontkodo"
+                "source_code": "Fontkodo",
+                "logOut": "Elsaluti"
             },
             "title": "Agordoj",
             "categories": {
@@ -263,6 +271,83 @@
                 "remove": "Forigi",
                 "upload": "Alŝuti",
                 "max_filesize": "(maksimume {{filesize}})"
+            },
+            "tips": {
+                "languages": {
+                    "a": "Ĉu estas mankantan lingvon ?",
+                    "b": "Helpu deponaĵo multe tradukoj."
+                },
+                "account": {
+                    "a": "Ĉu vi volas ŝanĝi via publika profilo?",
+                    "b": "Iri al via profilo agordoj."
+                },
+                "sessions": {
+                    "a": "Se vi vidas la nesciata sesio en la listo,"
+                }
+            },
+            "server_pages": {
+                "overview": {
+                    "system_messages": "Kanaloj je sistemmesaĝoj",
+                    "title": "Antaŭrigardo",
+                    "name": "Servilnomo",
+                    "description": "Kanalpriskribo"
+                },
+                "invites": {
+                    "title": "Invitoj",
+                    "code": "Invitkodo",
+                    "invitor": "Inviti",
+                    "channel": "Kanalo",
+                    "revoke": "Senvalidigi"
+                },
+                "bans": {
+                    "title": "Forbaroj",
+                    "user": "Uzanto",
+                    "no_reason": "Nenia forbarkialo.",
+                    "revoke": "Senvalidigi",
+                    "reason": "Forbarkialo"
+                },
+                "roles": {
+                    "title": "Roloj"
+                },
+                "categories": {
+                    "title": "Kategorioj"
+                },
+                "members": {
+                    "title": "Membroj"
+                }
+            },
+            "channel_pages": {
+                "permissions": {
+                    "title": "Permesoj"
+                },
+                "overview": {
+                    "title": "Antaŭrigardo",
+                    "name": "Kanalnomo",
+                    "description": "Kanalpriskribo"
+                }
+            },
+            "permissions": {
+                "default_role": "Defaŭlto",
+                "role_name": "Rolnomo",
+                "server": "servilpermesoj",
+                "channel": "Kanalpermesoj",
+                "create_role": "Fari novan rolon"
+            }
+        },
+        "special": {
+            "friends": {
+                "pending": "Pritraktataj petoj",
+                "blocked": "Barita",
+                "from": {
+                    "multiple": "De {{userlist}} kaj {{user}}"
+                }
+            },
+            "copy_username": "Alkalki por kopii uzantnomon",
+            "copy": "Alklaki por kopii",
+            "modals": {
+                "onboarding": {
+                    "welcome": "Bonvenon al"
+                }
             }
         }
     },
@@ -280,7 +365,7 @@
         "check_mail": "Kontrolu vian repoŝton.",
         "cancel": "Nuligi peton.",
         "resend": "Resendi kontrolon.",
-        "missing_verification": "Ĉu neniun repoŝton?",
+        "missing_verification": "Ĉu neniun retpoŝton?",
         "create": "Krei novan konton.",
         "existing": "Ĉu vi jam havas konton?",
         "new": "Nova al Revolt?",
@@ -292,8 +377,8 @@
             "current_password": "Entajpu vian aktualan pasvorton.",
             "invite": "Entajpu vian invitkodon.",
             "password": "Entajpu pasvorton.",
-            "email": "Entajpu retpoŝton.",
-            "username": "Entajpu uzantnomon."
+            "email": "Bonvolu entajpu vian retpoŝton.",
+            "username": "Entajpu vian preferatan uzantnomon."
         },
         "current_password": "Aktuala Pasvorto",
         "invite": "Invitkodo",

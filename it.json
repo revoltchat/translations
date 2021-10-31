@@ -100,7 +100,7 @@
         "new": "Nuovo in Revolt?",
         "existing": "Hai già un account?",
         "create": "Crea un nuovo account.",
-        "missing_verification": "Nessuna e-mail?",
+        "missing_verification": "E-mail mancante",
         "resend": "Rinvia la verifica.",
         "cancel": "Cancella richiesta.",
         "email_delay": "Si prega di attendere fino a 10 minuti per l'arrivo.",
@@ -111,11 +111,11 @@
         "check_mail": "Controlla la tua mail."
     },
     "general": {
-        "about": "Chi siamo",
+        "about": "Informazioni",
         "tos": "Termini di servizio",
         "off": "Disattivato",
         "privacy": "Politica sulla riservatezza",
-        "image_by": "Immagine di",
+        "image_by": "Immagine da",
         "loading": "Caricamento in corso…",
         "on": "Attivato",
         "disabled": "Disabilitato",
@@ -175,7 +175,8 @@
                     "channel_renamed": "{{user}} ha rinominato il canale in {{name}}"
                 },
                 "start": {
-                    "group": "Questo è l'inizio della tua conversazione."
+                    "group": "Questo è l'inizio della tua conversazione.",
+                    "saved": "Questo l'inizio delle tue note."
                 },
                 "misc": {
                     "viewing_old": "Visualizzazione dei messaggi più vecchi",
@@ -214,7 +215,7 @@
                     }
                 },
                 "errors": {
-                    "title": "Oops, non c'é nulla qui!",
+                    "title": "Oops, non c'è niente qui!",
                     "nochannels": "Questo server non ha canali, oppure non hai il permesso per accedere a nessuno di essi.",
                     "nochannel": "Nessun canale"
                 }
@@ -583,14 +584,14 @@
                     "preview": "Anteprima",
                     "reload": "Ricarica l'app",
                     "continue": "Continua",
-                    "send_email": "Invia una email",
+                    "send_email": "Invia una e-mail",
                     "hide": "Nascondi",
                     "edit": "Modifica"
                 },
                 "account": {
                     "change": {
                         "username": "Cambia il tuo nome utente",
-                        "email": "Cambia la tua email",
+                        "email": "Cambia la tua e-mail",
                         "password": "Cambia la tua password"
                     },
                     "failed": "Impossibile cambiare!"
@@ -599,7 +600,7 @@
                 "external_links": {
                     "trust_domain": "Fidati di questo dominio",
                     "title": "Link esterni possono essere dannosi!",
-                    "short": "Sei sicuro di voler andare da: "
+                    "short": "Sei sicuro di voler andare su: "
                 }
             },
             "popovers": {
@@ -656,7 +657,7 @@
         "OperationFailed": "Operazione fallita.",
         "EmailFailed": "Impossibile inviare l'e-mail.",
         "AlreadyOnboarded": "Già terminato l'onboarding.",
-        "InvalidEmail": "indirizzo email non valido",
+        "InvalidEmail": "indirizzo e-mail non valido",
         "NetworkError": "Errore di connessione.",
         "Unauthorized": "Non autorizzato.",
         "FailedValidation": "Impossibile convalidare i campi.",
@@ -705,7 +706,7 @@
         "lastDay": "[Ieri alle] {{time}}",
         "sameDay": "[Oggi alle] {{time}}",
         "nextDay": "[Domani alle] {{time}}",
-        "lastWeek": "[Ultimo] dddd [alle] {{time}}",
+        "lastWeek": "dddd [scorso] [alle] {{time}}",
         "nextWeek": "dddd [alle] {{time}}",
         "defaults": {
             "date_separator": "/",

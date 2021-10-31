@@ -15,7 +15,7 @@
             "invite": "Dəvət kodunu daxil edin.",
             "password": "Şifrənizi daxil edin",
             "email": "Elektron poçtunuzu daxil edin.",
-            "username": "İstifadəçi adı daxil edin."
+            "username": "İstədiyiniz istifadəçi adını daxil edin."
         },
         "current_password": "Hazırkı şifrə",
         "invite": "Dəvət kodu",
@@ -94,7 +94,8 @@
                     "user_banned": "{{user}} qadağandır"
                 },
                 "start": {
-                    "group": "Bu söhbətinizin başlanğıcıdır."
+                    "group": "Bu söhbətinizin başlanğıcıdır.",
+                    "saved": "Bu, qeydlərinizin başlanğıcıdır."
                 },
                 "voice": {
                     "connected": "Səs bağlantısı quruldu",
@@ -109,7 +110,9 @@
                     "blocked_user": "Bloklanmış İstifadəçi",
                     "blocked_messages": "{{count}} bloklanmış mesaj",
                     "no_sending": "Bu kanalda mesaj göndərmək üçün icazəniz yoxdur.",
-                    "failed_load": "Mesaj yüklənə bilmədi."
+                    "failed_load": "Mesaj yüklənə bilmədi.",
+                    "sent_multiple_files": "Birdən çox qoşma göndərildi",
+                    "sent_file": "Əlavə göndərildi"
                 },
                 "unknown_user": "<Naməlum istifadəçi>",
                 "bot": "bot",
@@ -128,6 +131,19 @@
                         "confirm": "Kanala daxil olun"
                     },
                     "confirm": "Ən azı 18 yaşım olduğunu təsdiqləyirəm."
+                },
+                "search": {
+                    "title": "Axtarış",
+                    "sort": {
+                        "relevance": "Uyğunluq",
+                        "latest": "Ən son",
+                        "oldest": "Ən köhnə"
+                    }
+                },
+                "errors": {
+                    "title": "Oops, burada heç nə yoxdur!",
+                    "nochannels": "Bu serverdə heç bir kanal yoxdur və ya onlardan heç birinə girişiniz yoxdur.",
+                    "nochannel": "Kanal yoxdur"
                 }
             },
             "groups": {
@@ -185,7 +201,8 @@
                     "placeholder": "Özünüz haqqında bir şey yazın…",
                     "profile_picture": "Profil şəkili",
                     "custom_background": "Xüsusi arxa plan",
-                    "edit_background": "Arxa planı redaktə edin"
+                    "edit_background": "Arxa planı redaktə edin",
+                    "edit_profile": "Profilə Düzəliş Et"
                 },
                 "sessions": {
                     "title": "İclaslar",
@@ -251,7 +268,7 @@
                     "send": "Rəy göndərin",
                     "title": "Əlaqə",
                     "report": "Nəyi bildirmək istəyirsən?",
-                    "bug": "Hata",
+                    "bug": "Hata İzləyici",
                     "feature": "Xüsusiyyət İstəyi",
                     "other": "Digər",
                     "describe": "Xahiş edirəm məsələni təsvir edin."
@@ -259,7 +276,8 @@
                 "language": {
                     "title": "Dil",
                     "select": "Dilinizi seçin",
-                    "other": "Alternativ dillər"
+                    "other": "Digər dil seçimləri",
+                    "const": "Süni dillər"
                 },
                 "donate": {
                     "title": "Bağış edin"
@@ -285,6 +303,31 @@
                     },
                     "categories": "Kateqoriyalarları sinxronlaşdırın",
                     "title": "Sinxronizasiya"
+                },
+                "audio": {
+                    "input_device": "Mikrofon",
+                    "title": "Səs Parametrləri",
+                    "device_label_NA": "heç biri",
+                    "button_retry": "yenidən cəhd elə",
+                    "output_device": "Dinamik / Qulaqlıq",
+                    "tip_retry": "Mikrofonunuzdan istifadə etməyə icazə vermədiniz, zəhmət olmasa {{retryBtn}}."
+                },
+                "bots": {
+                    "add": "Bot əlavə et",
+                    "public_bot_tip": "Bot xalqa açıqdır. hər kəs serverinə dəvət edə bilər.",
+                    "unique_id": "Bu botun üçün unikal identifikatordur. Bot tokeni deyil.",
+                    "title": "Botlərim",
+                    "create_bot": "Bot yaratmaq",
+                    "copy_invite": "Dəvət linkini kopyalayın",
+                    "token": "Token",
+                    "private_bot_tip": "Bot gizlidir. Yalnız dəvət edə bilərsiniz.",
+                    "public_bot": "İctimai Bot",
+                    "public_bot_desc": "İstifadəçilərə bu botu dəvət etməyə icazə verir.",
+                    "interactions_url": "Qarşılıqlı URL.",
+                    "reserved": "Qeyd: Bu sahə gələcək üçün ayrılmışdır."
+                },
+                "native": {
+                    "title": "Masaüstü parametrləri"
                 }
             },
             "tips": {

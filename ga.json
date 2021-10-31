@@ -2,7 +2,7 @@
     "general": {
         "tos": "Tearmaí Seirbhíse",
         "privacy": "Beartas Príobháideachais",
-        "about": "Fúinn",
+        "about": "Faoi",
         "on": "Ar Siúl",
         "disabled": "Múchta",
         "unavailable": "Gan a bheith ar fáil",
@@ -17,7 +17,51 @@
             "cancel_message": "Cealaigh seol",
             "kick_member": "Ball ciceáil",
             "open_file": "Oscailt comhaid",
-            "save_file": "sábhail on comhaid"
+            "save_file": "sábhail on comhaid",
+            "copy_selection": "Cóipeáil an roghnú",
+            "copy_cid": "Cóipeáil ID cainéil",
+            "copy_id": "Cóipeáil ID",
+            "copy_text": "Cóipeáil téacs",
+            "copy_uid": "Cóipeáil ID úsáideora",
+            "copy_sid": "Cóipeáil ID an fhreastalaí",
+            "copy_mid": "Cóipeáil ID teachtaireacht",
+            "copy_message_link": "Cóipeáil nasc chuig an teachtaireacht",
+            "mention": "Luaigh",
+            "mark_as_read": "Máirc as léite",
+            "open_link": "Oscáil nasc",
+            "save_video": "Sábháil físeán",
+            "view_profile": "Féach ar an bpróifíl",
+            "quote_message": "Teachtaireacht athfhriotail",
+            "copy_link": "Coipéal nasc",
+            "message_user": "Teachtaireacht",
+            "retry_message": "Seol atriail",
+            "edit_message": "Eagarthóireacht teachtaireacht",
+            "delete_message": "Scrios teachtaireacht",
+            "remove_member": "Bain ón grúpa",
+            "open_image": "Oscáil grianghraf",
+            "save_image": "Sábháil grianghraf",
+            "open_video": "Oscáil físeán",
+            "block_user": "Bloc úsáideor",
+            "unblock_user": "Ban blac de úsáideor",
+            "add_friend": "Suimiú chara",
+            "remove_friend": "Bain chara",
+            "cancel_friend": "Cealaigh iarratas",
+            "close_dm": "Dhúnadh DM",
+            "create_category": "Cruthaigh catagóir",
+            "create_invite": "Cruthaigh chuireadh",
+            "open_notification_options": "Roghanna fograí",
+            "open_channel_settings": "Chainéal cruithe",
+            "delete_channel": "Scrios chainéal",
+            "leave_group": "Fhagant grúpa",
+            "leave_server": "Fhagant friothálaí",
+            "delete_server": "Scrios friothálaí",
+            "custom_status": "Stádais custam",
+            "clear_status": "Scrios stádais",
+            "set_custom_status": "Socrú stádais custam",
+            "edit_identity": "Eagarthóireacht aitheantas",
+            "create_channel": "Cruthaigh chainéal",
+            "open_server_settings": "Friothálaí cruithe",
+            "open_group_settings": "Socruithe grúpa"
         },
         "status": {
             "online": "Ar líne",
@@ -408,7 +452,7 @@
                 "external_links": {
                     "trust_domain": "Iontaobhas an fhearainn seo",
                     "title": "Is féidir le naisc sheachtracha a bheith contúirteach!",
-                    "short": "An bhfuil tú cinnte gur mhaith leat dul chuig: aip"
+                    "short": "An bhfuil tú cinnte gur mhaith leat dúl chuig: aip "
                 },
                 "actions": {
                     "update": "Nuashonrú",
@@ -466,11 +510,29 @@
                     "select": "Roghnaigh cairde le cur leis."
                 },
                 "create_bot": {
-                    "title": "Cruthaigh bot nua"
+                    "title": "Cruthaigh bot nua",
+                    "failed": "Teipthe chun dhéanamh bota!"
+                },
+                "server_identity": {
+                    "avatar": "Avatar",
+                    "title": "Athraigh aitheantais ar {{server}}",
+                    "nickname": "Leasainm"
                 }
             },
             "copy": "Cliceáil chun cóipeáil",
-            "copy_username": "Cliceáil chun ainm úsáideora a chóipeáil"
+            "copy_username": "Cliceáil chun ainm úsáideora a chóipeáil",
+            "invite": {
+                "accept": "Glac cuireadh",
+                "invited_by": "Tabhair cuireadh ó {{user}}",
+                "invalid": "Chuireadh neamhbhailí!",
+                "login": "Logáil isteach chuig Revolt",
+                "user_count": "{{member_count}} úsáideoirí",
+                "invalid_desc": "Ní fhéadfaidh an cuireadh a bheith i bhfeidhm nó b’fhéidir nach gceadófar duit páirt a ghlacadh."
+            },
+            "requires_online": "Caithfidh tú a bheith ar líne chun amharc é seo."
+        },
+        "permissions": {
+            "required": "Ceadanna ag teastáil"
         }
     },
     "permissions": {
@@ -487,7 +549,7 @@
         "invite": "Cód Cuiridh",
         "current_password": "Pasfhocal Reatha",
         "enter": {
-            "email": "Scríobh isteach do r-phost.",
+            "email": "Scríobh isteach do ríomhphost.",
             "password": "Cuir isteach do phasfhocal.",
             "current_password": "Cuir isteach do phasfhocal reatha.",
             "username": "Scríobh isteach ainm úsáideora.",
@@ -517,5 +579,52 @@
         "resend": "Athdhéan fíorú.",
         "email_delay": "Lig suas le 10 nóiméad dó le do thoil.",
         "successful_registration": "Cláraithe go rathúil!"
+    },
+    "quantities": {
+        "members": {
+            "one": "1 Bhall",
+            "many": "Tá {{count}} bhall air seo"
+        }
+    },
+    "dayjs": {
+        "sameDay": "Inniu ag {{time}}",
+        "nextWeek": "dddd [at] {{time}}",
+        "lastDay": "Inné ag {{time}}",
+        "defaults": {
+            "date_format": "traditional",
+            "date_separator": "/",
+            "twelvehour": "no"
+        },
+        "nextDay": "Amárach ag {{time}}",
+        "lastWeek": "[Last] dddd [at] {{time}}"
+    },
+    "error": {
+        "NetworkError": "Earráid idirlín.",
+        "AlreadySentRequest": "Tá iarratas seolta chuig an úsáideoir seo cheana féin.",
+        "ProbeError": "Theip ar mheiteashonraí comhaid a fháil.",
+        "MissingInvite": "Cód cuireadh ar iarraidh.",
+        "InvalidInvite": "Cód neamhbhailí",
+        "AlreadyOnboarded": "Críochnaithe cheana féin ar bord.",
+        "BlockedOther": "Chuir an t-úsáideoir seo bac ort.",
+        "NoEffect": "Ní raibh aon éifeacht leis an iarraidh seo.",
+        "RequiredField": "Riachtanach",
+        "TooShort": "Ró-ghearr",
+        "TooLong": "Ró-fhada",
+        "Unavailable": "Níl sé ar fáil.",
+        "FileTooLarge": "Tá an comhad ró-mhór.",
+        "InvalidCredentials": "Tá ríomhphost nó pasfhocal mícheart.",
+        "InvalidToken": "Comhartha mícheart",
+        "UsernameTaken": "Tá ainm úsáideora in úsáid cheana féin.",
+        "AlreadyFriends": "Tá tú cairde leis an úsáideoir seo cheana féin.",
+        "Blocked": "Chuir tú bac ar an úsáideoir seo.",
+        "MissingData": "Tá sonraí in easnamh san iarraidh.",
+        "Unauthorized": "Neamhúdaraithe.",
+        "FailedToReceive": "Theip ar an bhfreastalaí do chomhad a aisghabháil.",
+        "Unlabelled": "Tharla rud éigin.",
+        "EmailInUse": "Tá an ríomhphost seo in úsáid cheana féin."
+    },
+    "notifications": {
+        "sent_request": "Chuir @{{person}} iarratas cara chugat",
+        "now_friends": "Tá tú anois cairde le @{{person}}!"
     }
 }

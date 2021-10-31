@@ -2,15 +2,136 @@
     "general": {
         "tos": "सेवा की शर्तें",
         "privacy": "गोपनीयता नीति",
-        "about": "तकरीबन",
+        "about": "के संबंध में",
         "image_by": "द्वारा छवि",
-        "loading": "लोड हो रहा है…"
+        "loading": "लोड हो रहा है…",
+        "on": "पर",
+        "off": "बंद",
+        "unavailable": "अनुपलब्ध",
+        "disabled": "विकलांग"
     },
     "login": {
         "title": "लॉग इन करें",
         "register": "रजिस्टर करें",
         "username": "उपयोगकर्ता नाम",
         "email": "ईमेल",
-        "password": "कुंजिका"
+        "password": "कुंजिका",
+        "invite": "कोड आमंत्रित",
+        "enter": {
+            "email": "अपना ईमेल दर्ज करें।",
+            "password": "अपना कूटशब्द भरें।",
+            "invite": "अपना आमंत्रण कोड दर्ज करें।",
+            "current_password": "अपने वर्तमान पासवर्ड को दर्ज करें।",
+            "username": "अपना पसंदीदा उपयोगकर्ता नाम दर्ज करें।"
+        },
+        "forgot": "अपना कूट शब्द भूल गए?",
+        "set_password": "नया पासवर्ड सेट करें।",
+        "remembered": "लॉग इन करने के लिए वापस जाएं।",
+        "existing": "क्या आपके पास पहले से एक खाता मौजूद है?",
+        "create": "एक नया खाता बनाएं।",
+        "check_mail": "अपना मेल देखें।",
+        "missing_verification": "कोई ईमेल नहीं?",
+        "cancel": "निवेदन अस्विकार।",
+        "resend": "सत्यापन पुनः भेजें।",
+        "successful_registration": "पंजीकरण सफलतापूर्वक हो गया है!",
+        "error": {
+            "create": "पंजीकरण करने में विफल!",
+            "reset": "रीसेट करने में विफल!",
+            "resend": "पुन: भेजने में विफल!",
+            "login": "लॉगिन करने में विफल!"
+        },
+        "reset": "पासवर्ड रीसेट।",
+        "current_password": "वर्तमान पासवर्ड",
+        "check_spam": "अगर आपको स्पैम नहीं मिल रहा है तो कृपया इसकी जांच करें",
+        "email_delay": "कृपया इसे आने के लिए 10 मिनट तक का समय दें।",
+        "new": "क्या आप रिवोल्ट पहली बार इस्तेमाल कर रहे हैं?"
+    },
+    "app": {
+        "main": {
+            "categories": {
+                "participants": "प्रतिभागियों",
+                "conversations": "बात चिट",
+                "members": "सदस्यों",
+                "channels": "चैनल"
+            },
+            "channel": {
+                "failed_upload": "अपलोड करने में विफल!",
+                "uploading_file": "अपलोड हो रहा है…",
+                "message_saved": "अपने नोट्स में सहेजें",
+                "voice": {
+                    "mute": "मूक",
+                    "connected": "आवाज जुड़ी",
+                    "leave": "छोड़ना",
+                    "unmute": "अनम्यूट"
+                },
+                "start": {
+                    "saved": "यह आपके नोट्स की शुरुआत है।",
+                    "group": "यह आपकी बातचीत की शुरुआत है।"
+                },
+                "nsfw": {
+                    "confirm": "मैं पुष्टि करता/करती हूं कि मेरी आयु कम से कम 18 वर्ष है।",
+                    "channel": {
+                        "confirm": "चैनल दर्ज करें"
+                    }
+                },
+                "notifications": {
+                    "all": "सभी संदेश",
+                    "none": "कोई नहीं"
+                },
+                "typing": {
+                    "several": "कई लोग टाइप कर रहे हैं…",
+                    "multiple": "{{userlist}} और {{user}} लिख रहे हैं…",
+                    "single": "{{user}} लिख रहा हैं"
+                },
+                "misc": {
+                    "spoiler_attachment": "स्पॉइलर",
+                    "blocked_user": "अवरुद्ध उपयोगकर्ता",
+                    "sent_multiple_files": "कई अटैचमेंट भेजे",
+                    "sent_file": "एक अनुलग्नक भेजा"
+                },
+                "search": {
+                    "sort": {
+                        "relevance": "प्रासंगिकता",
+                        "latest": "नवीनतम"
+                    }
+                },
+                "errors": {
+                    "title": "उफ़, यहाँ कुछ भी नहीं है!"
+                },
+                "system": {
+                    "user_left": "{{user}} चला गया",
+                    "added_by": "{{user}} को {{other_user}} ने बुलाया",
+                    "removed_by": "{{user}} को {{other_user}} ने हटाया",
+                    "user_joined": "{{user}} आ गया",
+                    "user_kicked": "{{user}} को किक कर दिया गया",
+                    "user_banned": "{{user}} को बैन कर दिया गया",
+                    "channel_renamed": "{{user}} ने चैनल का नाम अब {{name}} रख दिया"
+                },
+                "message_who": "मैसेज {{person}}",
+                "attached_file": "{{filename}} संलग्न किया गया",
+                "message_where": "मैसेज {{channel_name}}"
+            },
+            "groups": {
+                "description": "समूह चर्चा",
+                "create": "एक समूह बनाएं",
+                "owner": "समूह स्वामी"
+            }
+        },
+        "navigation": {
+            "tabs": {
+                "unreads": "अपठित",
+                "friends": "मित्र",
+                "saved": "सहेजे गए नोट",
+                "dev": "डेवलपर",
+                "home": "घर"
+            }
+        },
+        "status": {
+            "online": "ऑनलाइन",
+            "busy": "परेशान न करें",
+            "invisible": "अदृश्य",
+            "offline": "ऑफलाइन",
+            "idle": "बेकार"
+        }
     }
 }

@@ -2,12 +2,13 @@
     "general": {
         "tos": "Käyttöehdot",
         "privacy": "tietosuojakäytäntö",
-        "about": "Mikä on Revolt",
+        "about": "Tietoa",
         "image_by": "Kuvan tekijä",
         "loading": "Ladataan…",
         "on": "Päällä",
         "off": "Pois päällä",
-        "disabled": "Pois käytöstä"
+        "disabled": "Pois käytöstä",
+        "unavailable": "Ei saatavilla"
     },
     "login": {
         "email": "Sähköpostiosoite",
@@ -89,7 +90,8 @@
                 "message_saved": "Tallenna muistiinpanoihisi",
                 "attached_file": "Liitetty {{filename}}",
                 "start": {
-                    "group": "Tämä on keskustelusi alku."
+                    "group": "Tämä on keskustelusi alku.",
+                    "saved": "Tämä on muistiinpanojesi alku."
                 },
                 "message_who": "Viesti henkilölle {{person}}",
                 "failed_upload": "Lataus epäonnistui!",
@@ -99,13 +101,14 @@
                     "all": "Kaikki viestit",
                     "default": "Käytä oletusta",
                     "muted": "Mykistetty",
-                    "mention": "Maininnat vain",
+                    "mention": "Vain maininnat",
                     "none": "Ei mitään"
                 },
                 "nsfw": {
                     "confirm": "Vahvistan olevani vähintään 18 vuotta vanha.",
                     "channel": {
-                        "marked": "Tämä kanava on merkitty NSFW."
+                        "marked": "Tämä kanava on merkitty NSFW.",
+                        "confirm": "Liity kanavalle"
                     }
                 },
                 "search": {
@@ -115,6 +118,11 @@
                         "relevance": "Relevanssi"
                     },
                     "title": "Etsi"
+                },
+                "errors": {
+                    "nochannels": "Joko tällä palvelimella ei ole kanavia tai sinulla ei ole pääsy oikeutta mihinkään kanavaan.",
+                    "nochannel": "Ei kanavaa",
+                    "title": "Hups, täällä ei ole mitään!"
                 }
             },
             "categories": {
@@ -191,7 +199,8 @@
             "edit_identity": "Muokkaa identiteettiä",
             "open_notification_options": "Ilmoitusasetukset",
             "create_category": "Luo luokka",
-            "reply_message": "Vastaa"
+            "reply_message": "Vastaa",
+            "quote_message": "Lainaa viesti"
         },
         "special": {
             "popovers": {
@@ -203,7 +212,9 @@
                     },
                     "badges": {
                         "translator": "Kääntäjä",
-                        "supporter": "Tukija"
+                        "supporter": "Tukija",
+                        "responsible_disclosure": "Vastuullisesti paljastetut Bugit",
+                        "early_adopter": "Varhainen käyttäjä"
                     },
                     "mutual_groups": "Yhteiset Ryhmät",
                     "mutual_friends": "Yhteiset kaverit",
@@ -220,6 +231,11 @@
                 "create_bot": {
                     "title": "Luo uusi botti",
                     "failed": "Botin luominen epäonnistui!"
+                },
+                "server_identity": {
+                    "nickname": "Nimimerkki",
+                    "avatar": "Kuva",
+                    "title": "Vaihda intenteteettiäsi palvelimella {{server}}"
                 }
             },
             "modals": {
@@ -240,7 +256,10 @@
                     "remove": "Poista",
                     "edit": "Muokkaa",
                     "reveal": "Paljasta",
-                    "block": "Estä"
+                    "block": "Estä",
+                    "back": "Mene takaisin",
+                    "leave": "Lähde",
+                    "ban": "Anna porttikielto"
                 },
                 "clipboard": {
                     "copy": "Manuaalinen kopiointi:",
@@ -267,7 +286,11 @@
                     "block_user": "Estäkö {{name}}?",
                     "unfriend_user": "Poistetaanko {{name}}?",
                     "create_invite_created": "Tässä on uusi kutsukoodisi:",
-                    "confirm_ban_reason": "Porttikiellon syy"
+                    "confirm_ban_reason": "Porttikiellon syy",
+                    "unfriend_user_long": "Et voi ehkä puhua hänelle uudelleen, ennen kuin lisäät heidät takaisin.",
+                    "confirm_close_dm_long": "Voit avata sen myöhemmin uudelleen, mutta se katoaa molemmin puolin.",
+                    "confirm_ban": "Olet porttikieltämässä {{name}}",
+                    "block_user_long": "Oletko varma että haluat estää {{name}}? Hänet poistetaan myös omasta kaveriluettelostasi."
                 },
                 "error": "Tapahtui virhe!",
                 "onboarding": {
@@ -276,7 +299,9 @@
                 },
                 "signed_out": "Sinut on kirjauduttu ulos!",
                 "external_links": {
-                    "title": "Ulkoiset linkit voivat olla vaarallisia!"
+                    "title": "Ulkoiset linkit voivat olla vaarallisia!",
+                    "short": "Oletko varma että haluat mennä: ",
+                    "trust_domain": "Luota tähän verkkotunnukseen"
                 }
             },
             "copy_username": "Paina kopioidaksesi käyttäjätunnus",
@@ -295,7 +320,8 @@
                 "sent": "Lähtevä Pyyntö",
                 "from": {
                     "single": "Käyttäjältä {{user}}",
-                    "multiple": "Käyttäjiltä {{userlist}} ja {{user}}"
+                    "multiple": "Käyttäjiltä {{userlist}} ja {{user}}",
+                    "several": "{{userlist}}:sta ja {{count}} lisää…"
                 }
             },
             "requires_online": "Sinun on oltava verkossa nähdäksesi tämä.",
@@ -304,7 +330,9 @@
                 "invited_by": "Kutsuja: {{user}}",
                 "login": "Kirjaudu sisään Revolttiin",
                 "accept": "Hyväksy kutsu",
-                "invalid": "Virheellinen kutsu!"
+                "invalid": "Virheellinen kutsu!",
+                "user_count": "{{member_count}} käyttäjät",
+                "invalid_desc": "Tätä kutsua ei ole olemassa tai sinulla ei ole lupaa liittyä."
             }
         },
         "settings": {
@@ -320,7 +348,8 @@
                     "suggest": "Lähetä ominaisuusehdotus",
                     "issue": "Luo uusi ongelma",
                     "bug_desc": "Katso tällä hetkellä aktiivisia bugi reportteja täällä.",
-                    "suggest_desc": "Lähetä uusi Revolt ominaisuus Githubin keskusteluissa."
+                    "suggest_desc": "Lähetä uusi Revolt ominaisuus Githubin keskusteluissa.",
+                    "issue_desc": "Auttaakseen meitä korjaamaan ongelmia, voit luoda ongelman GitHubiin."
                 },
                 "notifications": {
                     "sounds": "Äänet",
@@ -366,7 +395,9 @@
                     "custom_css": "Muokattu CSS",
                     "import_theme": "Tuo teema tekstistä",
                     "font": "Fontti",
-                    "mono_font": "Monoscapen fontti valitsin"
+                    "mono_font": "Monoscapen fontti valitsin",
+                    "overrides": "Teeman Ohitus",
+                    "ligatures": "Fontin Ligatuuri"
                 },
                 "donate": {
                     "title": "Lahjoita"
@@ -408,7 +439,8 @@
                         "description": "Lisää suojaustasoa ottamalla 2FA käyttöön tililläsi.",
                         "remove_auth": "Poista Authenticator",
                         "add_auth": "Lisää Authenticator"
-                    }
+                    },
+                    "unique_id": "Tämä on tilisi yksilöllinen käyttäjätunnus."
                 },
                 "logOut": "Kirjaudu ulos",
                 "source_code": "Lähdekoodi",
@@ -423,7 +455,8 @@
                 },
                 "experiments": {
                     "features": "Saatavilla olevat ominaisuudet",
-                    "title": "Kokeet"
+                    "title": "Kokeet",
+                    "not_available": "Kokeita ei ole saatavilla tällä hetkellä."
                 },
                 "native": {
                     "title": "Työpöytä Asetukset"
@@ -433,11 +466,24 @@
                     "copy_invite": "Kopioi kutsulinkki",
                     "add": "Lisää Botti",
                     "public_bot": "Julkinen botti",
-                    "create_bot": "Luo botti"
+                    "create_bot": "Luo botti",
+                    "token": "Merkki",
+                    "interactions_url": "Vuorovaikutus URL",
+                    "public_bot_tip": "Botti on julkinen. Jokainen voi kutsua sen.",
+                    "private_bot_tip": "Botti on yksityinen. Vain sinä voit kutsua sen.",
+                    "reserved": "Huomautus: Tämä kenttä on varattu tulevaisuutta varten.",
+                    "unique_id": "Tämä on yksilöllinen tunniste sinun botillesi. Tämä ei ole botin merkki.",
+                    "public_bot_desc": "Annetaanko muiden käyttäjien kutsua tämä botti."
                 },
                 "audio": {
                     "title": "Ääniasetukset",
-                    "input_device": "Mikrofoni"
+                    "input_device": "Mikrofoni",
+                    "output_device": "Kaiutin / Kuulokkeet",
+                    "button_retry": "jatka",
+                    "device_label_NA": "Ei käytössä"
+                },
+                "theme_shop": {
+                    "title": "Teemakauppa"
                 }
             },
             "categories": {
@@ -528,6 +574,9 @@
             "idle": "Toimeton",
             "invisible": "Näkymätön",
             "busy": "Älä häiritse"
+        },
+        "permissions": {
+            "required": "Lupia vaaditaan"
         }
     },
     "dayjs": {
@@ -586,7 +635,12 @@
         "MissingData": "Pyynnöstä puuttuu tietoja.",
         "MissingInvite": "Kutsukoodi puuttuu pyynnöstä.",
         "EmailFailed": "Sähköpostin lähettäminen epäonnistui.",
-        "ReachedMaximumBots": "Saavutit botien enimmäismäärän."
+        "ReachedMaximumBots": "Olet saavuttanut botien enimmäismäärän.",
+        "AudioPermissionBlock": "Ei pääsyä mikrofooniisi, tarkista selaimesi asetukset.",
+        "FailedToReceive": "Palvelin ei saanut sinun tiedostoasi.",
+        "MissingHeaders": "Otsikot puuttuvat.",
+        "MissingPermission": "Puuttuva lupa.",
+        "AlreadyOnboarded": "Onboarding on jo valmis."
     },
     "notifications": {
         "sent_request": "@{{person}} lähetti sinulle kaveripyynnön.",
@@ -598,24 +652,74 @@
     "permissions": {
         "channel": {
             "InviteOthers": {
-                "t": "Kutsu muita"
+                "t": "Kutsu muita",
+                "d": "Antaa jäsenien kutsua muita käyttäjiä kanavalle."
             },
             "SendMessage": {
-                "t": "Lähetä viestejä"
+                "t": "Lähetä viestejä",
+                "d": "Antaa jäsenien lähettää viestejä viestikanaville."
             },
             "UploadFiles": {
-                "t": "Lähetä tiedostoja"
+                "t": "Lähetä tiedostoja",
+                "d": "Antaa jäsenien ladata tiedostoja tekstikanaville."
             },
             "EmbedLinks": {
-                "d": "Anna jäsenten näyttää upotettua sisältöä linkkeissä jotka he lähettävät tekstikanaviin."
+                "d": "Anna jäsenten näyttää upotettua sisältöä linkkeissä jotka he lähettävät tekstikanaviin.",
+                "t": "Upota Linkit"
             },
             "View": {
-                "t": "Näytä kanava"
+                "t": "Näytä kanavat",
+                "d": "Antaa jäsenten katsoa kanavia, joilla on tämä lupa."
+            },
+            "ManageMessages": {
+                "t": "Hallitse viestejä",
+                "d": "Antaa jäsenten poistaa toisten jäsenten viestejä."
+            },
+            "ManageChannel": {
+                "t": "Hallita kanavia",
+                "d": "Antaa jäsenten muokata tai poistaa kanavan."
+            },
+            "VoiceCall": {
+                "t": "Puhelu",
+                "d": "Antaa jäsenien liittyä puhekanaville."
             }
         },
         "server": {
             "BanMembers": {
-                "t": "Anna porttikieltoja jäsenille"
+                "t": "Anna porttikieltoja jäsenille",
+                "d": "Antaa jäsenien poistaa jäseniä pysyvästi tältä palvelimelta."
+            },
+            "ChangeNickname": {
+                "d": "Antaa käyttäjien muokata omaa käyttäjänimeään tällä palvelimella.",
+                "t": "Vaihda nimimerkkiä"
+            },
+            "RemoveAvatars": {
+                "t": "Poista Profiilikuva",
+                "d": "Antaa jäsenten poistaa toisten jäsenten palvelinkuvakkeet tältä palvelimelta."
+            },
+            "ManageChannels": {
+                "t": "Hallitse kanavia",
+                "d": "Antaa jäsenien luoda, muokata ja poistaa kanavia."
+            },
+            "ManageServer": {
+                "d": "Antaa jäsenien vaihtaa palvelimen nimeä, kuvausta, kuvaketta ja muita tietoja.",
+                "t": "Hallitse Palvelinta"
+            },
+            "KickMembers": {
+                "t": "Erota jäseniä",
+                "d": "Antaa jäsenien poistaa jäseniä tältä palvelimelta. Erotetut jäsenet voivat liittyä uudelleen kutsulla."
+            },
+            "ManageNicknames": {
+                "t": "Hallita käyttäjänimiä",
+                "d": "Antaa jäsenien muokata toisten jäsenien käyttäjänimiä."
+            },
+            "ManageRoles": {
+                "d": "Antaa jäsenien luoda, muokata ja poistaa rooleja, joilla on pienempi ränkki kuin heillä. Antaa heidän myös muokata roolien lupia kanavoilla.",
+                "t": "Hallitse rooleja"
+            },
+            "ChangeAvatar": {
+                "d": "Antaa jäsenien muokata palvelimen kuvaketta tällä palvelimella.",
+                "t": "Vaihda Profiilikuva"
             }
         }
     }

@@ -23,7 +23,7 @@
                     "interactions_url": "Interaksjonsnettadresse",
                     "reserved": "Merk: Dette feltet er reservert for fremtidig bruk.",
                     "public_bot_desc": "Når andre brukere skal kunne invitere denne botten.",
-                    "unique_id": "Dette er unik identifikator for din bot.\nDette er ikke boten sin token-id."
+                    "unique_id": "Dette er unik identifikator for din bot.\nDette er ikke bot'en sin token-id."
                 },
                 "experiments": {
                     "not_available": "Ingen eksperimenter tilgjengelig nå.",
@@ -44,7 +44,7 @@
                         "enable_push": "Tillater mottak av varsler når du er frakoblet.",
                         "enable_desktop": "Dette vil gi deg merknader mens programmet ditt er åpent."
                     },
-                    "enable_push": "Skru på push-varslinger",
+                    "enable_push": "Skru på push-varslinger.",
                     "push_notifications": "Dyttingsmerknader",
                     "sound": {
                         "call_leave": "Bruker forlot samtale",
@@ -97,7 +97,7 @@
                     "input_device": "Mikrofon",
                     "button_retry": "prøv igjen",
                     "device_label_NA": "Ikke tilgjengelig",
-                    "tip_retry": "Du har ikke gitt tillatelse til å bruke mikrofonen din, prøve igjen {{retryBtn}}."
+                    "tip_retry": "Du har ikke tillattet bruk av mikrofonen din, prøv igjen {{retryBtn}}."
                 },
                 "sessions": {
                     "logout": "Logg ut a alle andre økter",
@@ -142,7 +142,7 @@
                     "title": "Skrivebordsinnstillinger"
                 },
                 "theme_shop": {
-                    "title": "Tema butikk"
+                    "title": "Tema Butikk"
                 }
             },
             "server_pages": {
@@ -268,7 +268,8 @@
                     "mute": "Forstum"
                 },
                 "start": {
-                    "group": "Dette er starten på din samtale."
+                    "group": "Dette er starten på din samtale.",
+                    "saved": "Dette er begynnelsen av notatene dine."
                 },
                 "system": {
                     "channel_icon_changed": "{{user}} endret kanalikonet",
@@ -288,9 +289,9 @@
                 "message_who": "Send melding til {{person}}",
                 "message_where": "Send melding til {{channel_name}}",
                 "errors": {
-                    "nochannel": "Ingen kanaler",
-                    "title": "Oi, noe stemmer ikke!",
-                    "nochannels": "Denne serveren har ingen kanaler eller du har ikke tilgang til dem."
+                    "nochannel": "Ingen kanal",
+                    "title": "Oi, det er ingenting her!",
+                    "nochannels": "Denne serveren har ingen kanaler, eller du har ikke tilgang til dem."
                 }
             },
             "servers": {
@@ -345,7 +346,7 @@
                     "select": "Velg venner å legge til."
                 },
                 "create_bot": {
-                    "title": "Opprett en ny bott",
+                    "title": "Opprett en ny bot",
                     "failed": "Feil ved opprette en bot!"
                 },
                 "server_identity": {
@@ -457,7 +458,7 @@
             "close_dm": "Lukk privatmelding",
             "reply_message": "Svar",
             "retry_message": "Prøv å sende igjen",
-            "cancel_message": "Avbryt foresendelse",
+            "cancel_message": "Avbryt sending",
             "view_profile": "Vis profil",
             "leave_group": "Forlat gruppe",
             "set_custom_status": "Sett en egendefinert status",
@@ -688,14 +689,14 @@
             "invite": "Skriv inn invitasjonskoden din.",
             "password": "Skriv inn passordet ditt.",
             "email": "Skriv inn din e-postadresse.",
-            "username": "Skriv inn et brukernavn."
+            "username": "Skriv inn din ønskelige brukernavn."
         },
         "current_password": "Nåværende passord",
         "invite": "Invitasjonskode",
         "password": "Passord",
         "email": "E-post",
         "username": "Brukernavn",
-        "register": "Registrering",
+        "register": "Registrer",
         "title": "Logg inn"
     },
     "quantities": {

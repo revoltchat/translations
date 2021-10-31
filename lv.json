@@ -8,7 +8,7 @@
         "invite": "Ielūguma kods",
         "current_password": "Pašreizējā parole",
         "enter": {
-            "username": "Ievadi lietotājvārdu.",
+            "username": "Ievadiet vēlamo lietotājvārdu.",
             "email": "Ievadi savu e-pasta adresi.",
             "password": "Ievadi paroli.",
             "invite": "Ievadi savu ielūguma kodu.",
@@ -19,16 +19,16 @@
         "title": "Pieslēgties",
         "register": "Reģistrēties",
         "create": "Izveido jaunu kontu.",
-        "missing_verification": "Nesaņēmi e-pastu?",
+        "missing_verification": "Trūkst e-pasta?",
         "resend": "Pārsūti verifikācijas saiti.",
         "cancel": "Atcelt pieprasījumu.",
         "email_delay": "Lūdzu uzgaidi līdz 10 minūtēm, lai to saņemtu.",
         "check_spam": "Lūdzu pārbaudi mēstules, ja to nevari atrast",
         "open_mail_provider": "Atvērt {{provider}}",
-        "reset": "Atjaunot paroli.",
-        "set_password": "Iestatiet jaunu paroli.",
+        "reset": "Atiestatīt paroli.",
+        "set_password": "Iestatīt jaunu paroli.",
         "remembered": "Atgriezties pie pieteikšanās.",
-        "new": "Jaunpienācējs vietnē Revolt?",
+        "new": "Vai esat jauns Revolt lietotājs?",
         "error": {
             "create": "Neizdevās reģistrēt!",
             "login": "Neizdevās pieteikties!",
@@ -68,7 +68,8 @@
                     "channel_icon_changed": "{{user}} nomainīja kanāla ikonu"
                 },
                 "start": {
-                    "group": "Šis ir tavas sarunas sākums."
+                    "group": "Šis ir tavas sarunas sākums.",
+                    "saved": "Šis ir jūsu piezīmju sākums."
                 },
                 "voice": {
                     "leave": "Pamest",
@@ -170,7 +171,7 @@
                     "change_field": "Mainīt",
                     "unique_id": "Tas ir unikāls jūsu konta lietotāja identifikators.",
                     "2fa": {
-                        "title": "Divu faktoru autentifikācija",
+                        "title": "Divfaktoru autentifikācija",
                         "description": "Divu faktoru autentifikācija.",
                         "add_auth": "Pievienot autentificētāju",
                         "remove_auth": "Noņemt autentificētāju"
@@ -181,6 +182,98 @@
                         "disable": "Atspējot kontu",
                         "delete": "Dzēst kontu"
                     }
+                },
+                "profile": {
+                    "placeholder": "Uzraksti kaut ko par sevi…",
+                    "profile_picture": "Profila attēls",
+                    "edit_profile": "Rediģēt profilu",
+                    "custom_background": "Pielāgots fons",
+                    "info": "Informācija",
+                    "fetching": "Notiek jūsu profila ielāde…",
+                    "edit_background": "Rediģēt fonu",
+                    "title": "Profils"
+                },
+                "audio": {
+                    "title": "Balss iestatījumi",
+                    "input_device": "Mikrofons",
+                    "output_device": "Spīkers / Austiņas",
+                    "device_label_NA": "N/A",
+                    "button_retry": "mēģiniet vēlreiz",
+                    "tip_retry": "Jūs, nedevāt atļauju piekļūt savam mikrofonam, lūdzu {{retryBtn}}."
+                },
+                "appearance": {
+                    "title": "Izskats",
+                    "theme": "Tēma",
+                    "display": {
+                        "default": "Parastais",
+                        "compact_description": "Vecais labais IRC.",
+                        "compact": "Kompakts",
+                        "default_description": "Skaista, gluda un moderna."
+                    },
+                    "overrides": "Tēmu ignorēšana",
+                    "import": "Importējiet tēmu",
+                    "import_theme": "Importējiet tēmu no virknes",
+                    "theme_data": "Tēmu dati",
+                    "custom_css": "Pielāgots CSS",
+                    "sync": "Sinhronizācijas opcijas",
+                    "font": "Fonts",
+                    "ligatures": "Fontu ligatūras",
+                    "color": {
+                        "light": "gaisma",
+                        "dark": "tumšs"
+                    },
+                    "accent_selector": "Akcenta krāsa",
+                    "emoji_pack": "Emocijzīmju paka",
+                    "message_display": "Ziņojuma displejs",
+                    "advanced": "Papildu opcijas",
+                    "reset_overrides": "Atiestatīt ignorējumus",
+                    "mono_font": "Monospace fontu atlasītājs",
+                    "ligatures_desc": "Atbalstītiem fontiem ligatūras apvieno rakstzīmes, piemēram, pārvēršot -> par bultiņu. Pārslēdzieties uz Inter un mēģiniet pārslēgt šo opciju."
+                },
+                "notifications": {
+                    "title": "Paziņojumi",
+                    "enable_desktop": "Iespējot darbvirsmas paziņojumus.",
+                    "sounds": "Skaņas",
+                    "descriptions": {
+                        "enable_push": "Iespējojiet paziņojumu saņemšanu, kad esat bezsaistē.",
+                        "enable_desktop": "Tiklīdz jūsu lietotne būs atvērta, jūs saņemsit paziņojumus."
+                    },
+                    "sound": {
+                        "message": "Ziņa saņemta",
+                        "outbound": "Ziņa aizsūtīta",
+                        "call_leave": "Lietotājs atstāja zvanu",
+                        "call_join": "Lietotājs pievienojās zvanam"
+                    },
+                    "push_notifications": "Spiežamā notifikācija",
+                    "enable_push": "Ieslēgt spiežamās notifikācijas."
+                },
+                "language": {
+                    "title": "Valoda",
+                    "const": "Konstruētas valodas",
+                    "other": "Citas valodu opcijas",
+                    "select": "Izvēlies savu valodu"
+                },
+                "sync": {
+                    "title": "Sinhronizēt",
+                    "categories": "Sinhronizēt kategorijas",
+                    "descriptions": {
+                        "theme": "Tas sinhronizēs jūsu izvēlēto motīvu, krāsas un jebkuru pielāgotu CSS.",
+                        "appearance": "Tādējādi tiks sinhronizētas tādas opcijas kā emocijzīmju pakotnes un ziņojumu blīvums.",
+                        "locale": "Tādējādi tiks sinhronizēta jūsu pašlaik izvēlētā valoda."
+                    }
+                },
+                "sessions": {
+                    "title": "Sesijas",
+                    "active_sessions": "Aktīvās sesijas",
+                    "this_device": "Šī ierīce",
+                    "logout": "Izrakstieties no visām pārējām sesijām",
+                    "created": "Izveidots {{time_ago}}"
+                },
+                "native": {
+                    "title": "Darbvirsmas iestatījumi"
+                },
+                "experiments": {
+                    "title": "Eksperimenti"
                 }
             }
         }
@@ -194,6 +287,6 @@
         "unavailable": "Nepieejams",
         "on": "Uz",
         "off": "Izslēgts",
-        "disabled": "Invalīdi"
+        "disabled": "Atspējots"
     }
 }

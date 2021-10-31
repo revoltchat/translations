@@ -4,8 +4,8 @@
             "channel": {
                 "misc": {
                     "jump_present": "최근으로 이동하기",
-                    "viewing_old": "이전 메세지를 보고 있어요",
-                    "no_sending": "이 채널 내에서 메세지를 보낼 권한이 없어요.",
+                    "viewing_old": "오래된 메세지를 보고 있어요",
+                    "no_sending": "이 채널에 메세지를 보낼 권한이 없어요.",
                     "spoiler_attachment": "스포일러",
                     "failed_load": "메세지를 불러올 수 없어요.",
                     "blocked_user": "차단된 사용자",
@@ -22,15 +22,15 @@
                     "title": "검색"
                 },
                 "system": {
-                    "channel_icon_changed": "{{user}}님이 채널 아이콘을 변경했어요",
-                    "user_joined": "{{user}}님이 참여했어요",
-                    "user_left": "{{user}}님이 떠났어요",
-                    "user_kicked": "{{user}}님이 추방되었어요",
-                    "channel_description_changed": "{{user}}님이 채널 설명을 변경했어요",
-                    "user_banned": "{{user}}님이 차단되었어요",
-                    "added_by": "{{other_user}}님이 {{user}}님을 추가했어요",
-                    "removed_by": "{{other_user}}님이 {{user}}님을 삭제했어요",
-                    "channel_renamed": "{{user}}님이 채널 이름을 {{name}}채널로 변경했어요"
+                    "channel_icon_changed": "{{user}} 님이 채널 아이콘을 변경했어요",
+                    "user_joined": "{{user}} 님이 참여했어요",
+                    "user_left": "{{user}} 님이 떠났어요",
+                    "user_kicked": "{{user}} 님이 추방되었어요",
+                    "channel_description_changed": "{{user}} 님이 채널 설명을 변경했어요",
+                    "user_banned": "{{user}} 님이 차단되었어요",
+                    "added_by": "{{other_user}} 님이 {{user}} 님을 추가했어요",
+                    "removed_by": "{{other_user}} 님이 {{user}} 님을 삭제했어요",
+                    "channel_renamed": "{{user}} 님이 채널 이름을 {{name}}(으)로 변경했어요"
                 },
                 "voice": {
                     "leave": "연결 끊기",
@@ -42,11 +42,11 @@
                 "failed_upload": "업로드에 실패했어요!",
                 "message_where": "{{channel_name}}에 메세지 보내기",
                 "typing": {
-                    "single": "{{user}}님이 입력하고 있어요…",
+                    "single": "{{user}} 님이 입력하고 있어요…",
                     "multiple": "{{userlist}} 님과 {{user}}님이 입력하고 있어요…",
                     "several": "여러 사람이 입력하고 있어요…"
                 },
-                "attached_file": "{{filename}} 첨부",
+                "attached_file": "{{filename}} 첨부됨",
                 "message_who": "{{person}}에게 메세지 보내기",
                 "bot": "봇",
                 "notifications": {
@@ -67,7 +67,13 @@
                 "unknown_user": "<알 수 없는 사용자>",
                 "message_saved": "메모에 저장하기",
                 "start": {
-                    "group": "대화의 시작입니다."
+                    "group": "대화의 시작입니다.",
+                    "saved": "노트의 시작입니다."
+                },
+                "errors": {
+                    "title": "이런, 여기에는 아무것도 없네요!",
+                    "nochannels": "이 서버에는 채널이 없거나 채널에 접근할 권한이 없어요.",
+                    "nochannel": "채널 없음"
                 }
             },
             "groups": {
@@ -92,17 +98,17 @@
                 "members": "멤버",
                 "channels": "채널",
                 "conversations": "대화",
-                "participants": "참가자들"
+                "participants": "참가자"
             }
         },
         "settings": {
             "pages": {
                 "account": {
                     "2fa": {
-                        "remove_auth": "2단계 인증 제거하기",
+                        "remove_auth": "인증기 제거",
                         "title": "2단계 인증",
                         "description": "계정에 2단계 인증을 활성화하여 보안 수준을 향상시키세요.",
-                        "add_auth": "2단계 인증 추가하기"
+                        "add_auth": "인증기 추가"
                     },
                     "title": "내 계정",
                     "manage": {
@@ -137,7 +143,7 @@
                         "light": "밝게"
                     },
                     "emoji_pack": "이모지 팩",
-                    "font": "폰트",
+                    "font": "글꼴",
                     "custom_css": "커스텀 CSS",
                     "advanced": "고급 옵션",
                     "import": "테마 불러오기",
@@ -146,10 +152,10 @@
                     "reset_overrides": "재설정 취소",
                     "import_theme": "문자열로부터 테마 불러오기",
                     "theme_data": "테마 데이터",
-                    "sync": "동기화",
-                    "title": "디스플레이",
-                    "accent_selector": "색 강조",
-                    "mono_font": "고정 폭 폰트",
+                    "sync": "동기화 옵션",
+                    "title": "모양",
+                    "accent_selector": "강조 색",
+                    "mono_font": "고정 폭 글꼴",
                     "ligatures_desc": "지원되는 폰트에 한해서, 자동으로 이모티콘을 이모지로 변환할 수 있어요. (예시: ->를 ➡로 바꿀수 있어요.) 이 옵션은 켜고 끌 수 있어요.",
                     "ligatures": "문자 이모지 변환"
                 },
@@ -164,11 +170,11 @@
                     "input_device": "마이크",
                     "output_device": "스피커 / 헤드셋",
                     "tip_retry": "마이크 접근 권한이 없으신가요? {{retryBtn}}.",
-                    "device_label_NA": "N/A",
+                    "device_label_NA": "사용할 수 없음",
                     "button_retry": "다시 시도"
                 },
                 "donate": {
-                    "title": "후원"
+                    "title": "기부하기"
                 },
                 "source_code": "소스 코드",
                 "bots": {
@@ -180,7 +186,7 @@
                     "token": "토큰",
                     "public_bot_tip": "공용 봇으로, 누구나 초대할 수 있습니다.",
                     "public_bot": "공용 봇",
-                    "public_bot_desc": "다른 유저들이 이 봇을 초대할 수 있는지.",
+                    "public_bot_desc": "다른 사용자들이 이 봇을 초대할 수 있도록 허용합니다.",
                     "interactions_url": "상호작용 URL",
                     "reserved": "참고: 이 필드는 나중을 위해 비활성화되었습니다.",
                     "unique_id": "이것은 당신의 봇만의 독특한 식별자에요. 봇의 토큰이 아닙니다."
@@ -197,7 +203,7 @@
                 "experiments": {
                     "title": "실험 기능",
                     "features": "사용 가능한 기능",
-                    "not_available": "현재 사용 가능한 실험 기능이 아쉽지만 없어요."
+                    "not_available": "현재 사용 가능한 실험 기능이 없어요."
                 },
                 "logOut": "로그아웃",
                 "notifications": {
@@ -210,10 +216,10 @@
                         "enable_desktop": "활성화하면 앱이 열려 있는 동안 알림이 표시됩니다."
                     },
                     "sound": {
-                        "outbound": "메시지 보냈을 때",
+                        "outbound": "메시지를 보냈을 때",
                         "call_join": "사용자가 음성 채널에 참가했을 때",
                         "call_leave": "사용자가 음성 채널에서 나갔을 때",
-                        "message": "메시지 받았을 때"
+                        "message": "메시지를 받았을 때"
                     },
                     "sounds": "소리"
                 },
@@ -224,20 +230,20 @@
                     "title": "세션",
                     "active_sessions": "활성화된 세션",
                     "this_device": "현재 기기",
-                    "created": "{{time_ago}}에 만들어졌어요",
-                    "logout": "모든 세션에서 로그아웃"
+                    "created": "{{time_ago}}에 생성됨",
+                    "logout": "다른 모든 세션에서 로그아웃"
                 },
                 "sync": {
                     "title": "동기화",
                     "categories": "카테고리 동기화",
                     "descriptions": {
                         "theme": "선택한 테마, 색상 및 커스텀 CSS가 동기화됩니다.",
-                        "locale": "현재 고른 언어를 동기화됩니다.",
+                        "locale": "현재 선택된 언어가 동기화됩니다.",
                         "appearance": "이모지 팩 및 메시지 밀도와 같은 옵션이 동기화됩니다."
                     }
                 },
                 "theme_shop": {
-                    "title": "테마 가게"
+                    "title": "테마 스토어"
                 }
             },
             "title": "설정",
@@ -254,7 +260,7 @@
                 "overview": {
                     "name": "채널 이름",
                     "description": "채널 설명",
-                    "title": "일반"
+                    "title": "개요"
                 },
                 "permissions": {
                     "title": "권한"
@@ -265,7 +271,7 @@
                     "description": "채널 설명",
                     "name": "서버 이름",
                     "system_messages": "시스템 메세지 채널",
-                    "title": "일반"
+                    "title": "개요"
                 },
                 "members": {
                     "title": "멤버"
@@ -287,12 +293,12 @@
                     "reason": "차단 사유",
                     "user": "사용자",
                     "title": "차단",
-                    "no_reason": "차단 사유가 없네요.",
+                    "no_reason": "차단 사유가 없어요.",
                     "revoke": "해제"
                 }
             },
             "permissions": {
-                "default_role": "기본",
+                "default_role": "기본 역할",
                 "server": "서버 권한",
                 "channel": "채널 권한",
                 "create_role": "새 역할 만들기",
@@ -304,8 +310,8 @@
                     "b": "더 많은 번역에 기여해주세요."
                 },
                 "account": {
-                    "b": "프로필 설정으로 이동합니다.",
-                    "a": "공개 프로필을 설정하시겠습니까?"
+                    "b": "프로필 설정으로 이동하기.",
+                    "a": "공개 프로필 설정을 찾으시나요?"
                 },
                 "sessions": {
                     "b": "비밀번호를 변경하고 2단계 인증을 사용하여 계정을 보호하세요.",
@@ -334,16 +340,16 @@
             "save_image": "이미지 저장하기",
             "save_video": "동영상 저장하기",
             "copy_link": "링크 복사",
-            "close_dm": "DM 닫기",
-            "copy_selection": "선택 복사",
+            "close_dm": "개인 메시지 닫기",
+            "copy_selection": "선택 영역 복사",
             "retry_message": "재전송",
             "cancel_message": "전송 취소",
             "open_file": "파일 열기",
             "open_image": "이미지 열기",
             "open_video": "동영상 열기",
             "open_link": "링크 열기",
-            "block_user": "멤버 차단",
-            "unblock_user": "멤버 차단 해제",
+            "block_user": "사용자 차단",
+            "unblock_user": "사용자 차단 해제",
             "remove_friend": "친구 삭제",
             "add_friend": "친구 추가",
             "cancel_friend": "요청 취소",
@@ -379,7 +385,7 @@
             "idle": "자리 비움",
             "busy": "다른 용무 중",
             "offline": "오프라인",
-            "invisible": "표시 불가"
+            "invisible": "오프라인으로 표시"
         },
         "special": {
             "status": {
@@ -427,7 +433,7 @@
                 "login": "Revolt에 로그인",
                 "accept": "초대 수락",
                 "invited_by": "{{user}}님의 초대",
-                "user_count": "{{member_count}}명",
+                "user_count": "{{member_count}}명의 유저",
                 "invalid": "잘못된 초대장이에요!",
                 "invalid_desc": "초대장이 없거나 참가 권한이 없습니다."
             },
@@ -458,26 +464,26 @@
                 "prompt": {
                     "create_invite_generate": "초대 코드 생성 중…",
                     "create_invite_created": "새 초대 코드는 다음과 같아요 :",
-                    "confirm_kick": "{{name}}님을 추방하시겠습니까?",
+                    "confirm_kick": "{{name}}님을 추방할까요?",
                     "confirm_ban": "{{name}}님을 차단하려고 합니다",
                     "confirm_ban_reason": "차단 사유",
                     "confirm_close_dm_long": "나중에 다시 열 수 있지만 서로에게서 사라집니다.",
                     "confirm_delete": "{{name}}(을)를 삭제할까요?",
                     "unfriend_user_long": "친구를 다시 추가할때까지 개인 메세지를 못할 수도 있어요.",
                     "block_user_long": "{{name}}님을 차단하시겠습니까? 친구 목록에서도 제거됩니다.",
-                    "confirm_leave": "{{name}}에서 나가시겠습니까?",
+                    "confirm_leave": "{{name}}에서 나갈까요?",
                     "confirm_leave_long": "다시 초대되지 않는 이상 다시 들어올 수 없어요.",
                     "confirm_delete_long": "한번 삭제되면 되돌릴 수 없어요.",
                     "confirm_delete_message_long": "삭제하시겠습니까?",
-                    "unfriend_user": "{{name}}님을 친구 삭제하시겠습니까?",
-                    "block_user": "{{name}}을(를) 차단하시겠습니까?",
-                    "confirm_close_dm": "{{name}}님과의 개인 메세지를 닫으시겠습니까?"
+                    "unfriend_user": "{{name}}님을 친구 삭제할까요?",
+                    "block_user": "{{name}}을(를) 차단할까요?",
+                    "confirm_close_dm": "{{name}}님과의 개인 메세지를 닫을까요?"
                 },
                 "account": {
                     "change": {
                         "password": "비밀번호 변경",
                         "email": "이메일 변경",
-                        "username": "멤버 이름 변경"
+                        "username": "사용자 이름 변경"
                     },
                     "failed": "변경에 실패하셨어요!"
                 },
@@ -496,20 +502,20 @@
                     "short": "정말로 접속하시겠어요? ",
                     "trust_domain": "이 도메인을 신뢰하기"
                 },
-                "token_reveal": "{{name}}의 토큰"
+                "token_reveal": "{{name}} 의 토큰"
             },
             "friends": {
                 "pending": "대기 중인 요청",
                 "incoming": "받은 친구 신청.",
                 "outgoing": "보낸 친구 신청.",
                 "nobody": "아직 아무도 없네요!",
-                "blocked": "차단된",
+                "blocked": "차단됨",
                 "from": {
-                    "single": "{{user}}에게서",
-                    "multiple": "{{userlist}} 와 {{user}} 로 부터",
-                    "several": "{{userlist}}님과 {{count}}명에게서…"
+                    "single": "{{user}} 에게서",
+                    "multiple": "{{userlist}} 님과 {{user}} 님으로 부터",
+                    "several": "{{userlist}} 님과 {{count}} 명에게서…"
                 },
-                "sent": "전송 중"
+                "sent": "친구 요청 보냄"
             },
             "copy_username": "클릭하여 유저 이름 복사",
             "copy": "클릭하여 복사",
@@ -538,7 +544,7 @@
                 "d": "멤버가 다른 멤버가 보낸 메세지를 삭제할 수 있어요."
             },
             "UploadFiles": {
-                "d": "멤버가 채팅 채널에 파일을 업로드할 수 있어요.",
+                "d": "멤버들이 채팅 채널에 파일을 업로드할 수 있도록 허용합니다.",
                 "t": "파일 업로드"
             },
             "EmbedLinks": {
@@ -569,19 +575,19 @@
             },
             "ManageNicknames": {
                 "t": "별명 관리하기",
-                "d": "사용자가 타 사용자의 닉네임으로 변경하는 것을 허가합니다."
+                "d": "멤버가 다른 멤버의 닉네임을 변경하는 것을 허가합니다."
             },
             "ManageRoles": {
                 "t": "역할 관리",
-                "d": "사용자가 자신보다 권한이 낮은 역할을 생성, 편집 및 삭제할 수 있어요. 또한 채널에 대한 역할 권한을 수정할 수 있어요."
+                "d": "멤버들이 자신보다 권한이 낮은 역할을 생성, 편집 및 삭제할 수 있어요. 또한 채널에 대한 역할 권한을 수정할 수 있어요."
             },
             "ManageChannels": {
                 "t": "채널 관리",
-                "d": "사용자들이 채널을 만들고 수정하는 것을 허가합니다."
+                "d": "멤버들이 채널을 만들고 수정할 수 있어요."
             },
             "ManageServer": {
                 "t": "서버 관리",
-                "d": "사용자가 이 서버의 이름, 설명, 아이콘 및 기타 관련 정보를 변경할 수 있어요."
+                "d": "멤버들이 이 서버의 이름, 설명, 아이콘 및 기타 관련 정보를 변경할 수 있어요."
             },
             "ChangeAvatar": {
                 "t": "아바타 변경",
@@ -597,14 +603,14 @@
         "title": "로그인",
         "enter": {
             "password": "비밀번호를 입력하세요.",
-            "username": "닉네임을 입력하세요.",
+            "username": "사용하실 사용자명을 입력하세요.",
             "email": "이메일을 입력하세요.",
             "invite": "초대 코드를 입력하세요.",
             "current_password": "현재 비밀번호를 입력하세요."
         },
         "reset": "비밀번호 재설정.",
         "remembered": "로그인으로 돌아가기.",
-        "check_mail": "메일함을 확인해주세요.",
+        "check_mail": "메일을 확인해주세요.",
         "email_delay": "도착하는데 최대 10분이 소요됩니다.",
         "error": {
             "login": "로그인에 실패했어요!",
@@ -613,19 +619,19 @@
             "reset": "재설정에 실패했어요!"
         },
         "register": "가입",
-        "username": "사용자 이름",
+        "username": "사용자명",
         "email": "이메일",
         "password": "비밀번호",
         "invite": "초대 코드",
         "current_password": "현재 비밀번호",
-        "forgot": "비밀번호를 잃어버렸나요?",
+        "forgot": "비밀번호를 잊어버렸나요?",
         "set_password": "새로운 비밀번호를 설정하세요.",
         "new": "Revolt가 처음이신가요?",
         "existing": "이미 계정이 있으신가요?",
         "create": "새로운 계정 만들기.",
-        "missing_verification": "이메일이 없나요?",
-        "cancel": "요청 취소.",
-        "check_spam": "메일이 보이지 않으면 스팸함을 확인해주세요",
+        "missing_verification": "이메일이 없어요",
+        "cancel": "로그인 취소.",
+        "check_spam": "메일이 보이지 않으면 스팸 메일함을 확인해주세요",
         "open_mail_provider": "{{provider}} 열기",
         "successful_registration": "가입을 축하드립니다!",
         "resend": "인증 메일 재전송."
@@ -635,10 +641,10 @@
         "privacy": "개인정보 처리 방침",
         "loading": "로딩 중…",
         "image_by": "이미지 제공",
-        "on": "켜기",
-        "about": "정보",
+        "on": "켬",
+        "about": "소개",
         "disabled": "비활성화",
-        "off": "끄기",
+        "off": "끔",
         "unavailable": "미지원"
     },
     "error": {
@@ -650,7 +656,7 @@
         "InvalidToken": "잘못된 토큰",
         "InvalidInvite": "잘못된 코드",
         "NetworkError": "네트워크에 문제가 발생했어요.",
-        "DatabaseError": "데이터베이스에 에러가 발생했어요.",
+        "DatabaseError": "데이터베이스에 오류가 발생했어요.",
         "Blocked": "이미 이 유저를 차단했어요.",
         "UnknownUser": "알 수 없는 사용자입니다.",
         "EmailFailed": "이메일을 보내지 못했어요.",
@@ -672,7 +678,7 @@
         "InvalidSession": "유효하지 않은 세션입니다.",
         "EmailInUse": "이 이메일은 이미 사용 중입니다.",
         "InvalidCredentials": "이메일 또는 비밀번호가 잘못되었어요.",
-        "MissingInvite": "초대 코드가 만료되었거나 없어요.",
+        "MissingInvite": "초대 코드가 만료되었거나 존재하지 않아요.",
         "UsernameTaken": "이미 존재하는 이름이에요.",
         "AlreadySentRequest": "이미 이 사용자에게 요청을 보냈어요.",
         "CompromisedPassword": "올바르지 않은 암호입니다.",
@@ -686,7 +692,7 @@
         "AudioPermissionBlock": "마이크에 액세스 할 수 없습니다, 브라우저 설정을 확인 해주세요."
     },
     "shortcuts": {
-        "ctrlc": "복사하기"
+        "ctrlc": "Ctrl + C"
     },
     "quantities": {
         "members": {

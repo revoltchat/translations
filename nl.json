@@ -1,9 +1,9 @@
 {
     "general": {
-        "image_by": "Afbeelding",
+        "image_by": "Afbeelding van",
         "tos": "Gebruikersovereenkomst",
         "loading": "Laden…",
-        "privacy": "Privacy",
+        "privacy": "Privacybeleid",
         "about": "Over",
         "disabled": "Uitgeschakeld",
         "on": "Aan",
@@ -13,11 +13,11 @@
     "login": {
         "current_password": "Huidig wachtwoord",
         "enter": {
-            "invite": "Voer hier je uitnodiginscode in.",
-            "username": "Voer hier je gebruikersnaam in.",
-            "email": "Voer hier je email in.",
-            "password": "Voer hier je wachtwoord in.",
-            "current_password": "Voer hier je huidige wachtwoord in."
+            "invite": "Voer je uitnodigingscode in.",
+            "username": "Voer je gewenste gebruikersnaam in.",
+            "email": "Voer je email in.",
+            "password": "Voer je wachtwoord in.",
+            "current_password": "Voer je huidige wachtwoord in."
         },
         "forgot": "Wachtwoord vergeten?",
         "reset": "Wachtwoord resetten.",
@@ -27,7 +27,7 @@
         "resend": "Verzend verificatie opnieuw.",
         "cancel": "Verzoek annuleren.",
         "register": "Registreer",
-        "invite": "Uitnodigings",
+        "invite": "Uitnodigingscode",
         "set_password": "Nieuw wachtwoord.",
         "existing": "Heeft u al een account?",
         "missing_verification": "Geen email?",
@@ -38,9 +38,9 @@
             "login": "Inloggen mislukt!",
             "create": "Registreren mislukt!"
         },
-        "successful_registration": "Registreren succesvol!",
+        "successful_registration": "Succesvol geregistreerd!",
         "open_mail_provider": "Open {{provider}}",
-        "check_spam": "Check je spam als je het niet kunt vinden",
+        "check_spam": "Controleer de spam folder als u het niet kunt vinden",
         "password": "Wachtwoord",
         "username": "Gebruikersnaam",
         "email": "Email",
@@ -57,7 +57,7 @@
                 },
                 "attached_file": "Bijgevoegd {{filename}}",
                 "failed_upload": "Uploaden mislukt!",
-                "uploading_file": "Bestand uploaden…",
+                "uploading_file": "Uploaden…",
                 "message_saved": "Opslaan in jouw notities",
                 "message_who": "Bericht sturen naar {{person}}",
                 "message_where": "Bericht sturen naar {{channel_name}}",
@@ -82,7 +82,8 @@
                     "connected": "Spraak verbonden"
                 },
                 "start": {
-                    "group": "Dit is het begin van je gesprek."
+                    "group": "Dit is het begin van je gesprek.",
+                    "saved": "Dit is het begin van je aantekeningen."
                 },
                 "system": {
                     "channel_icon_changed": "{{user}} veranderde het kanaalpictogram",
@@ -116,10 +117,15 @@
                         "latest": "Laatste",
                         "oldest": "Oudste"
                     }
+                },
+                "errors": {
+                    "title": "Oeps, er is hier niets!",
+                    "nochannel": "Geen kanaal",
+                    "nochannels": "Deze server heeft geen kanalen, of je hebt geen toegang tot een kanaal."
                 }
             },
             "categories": {
-                "participants": "Deelnemen",
+                "participants": "Deelnemers",
                 "members": "Leden",
                 "channels": "Kanalen",
                 "conversations": "Gesprekken"
@@ -475,7 +481,7 @@
                 },
                 "external_links": {
                     "title": "Externe links kunnen gevaarlijk zijn!",
-                    "short": "Weet je zeker dat je hier naar toe wilt gaan: app",
+                    "short": "Weet je zeker dat je hier naar toe wilt gaan: ",
                     "trust_domain": "Vertrouw dit domein"
                 },
                 "token_reveal": "{{name}}'s Token"
