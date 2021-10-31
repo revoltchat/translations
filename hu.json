@@ -16,8 +16,8 @@
         "enter": {
             "email": "Add meg az e-mail-címed.",
             "password": "A Revolt-jelszavad helye.",
-            "username": "Add meg a számodra megfelelő felhasználóneved.",
-            "current_password": "Add meg a mostani jelszavad.",
+            "username": "Adj meg egy nevet.",
+            "current_password": "Add meg a mostanit.",
             "invite": "Add meg a meghívókódot."
         },
         "forgot": "Nem emlékszel a jelszavadra?",
@@ -210,7 +210,7 @@
                     }
                 },
                 "language": {
-                    "title": "Nyelvek",
+                    "title": "Nyelv",
                     "select": "Válassz nyelvet",
                     "other": "Egyéb nyelvezetek",
                     "const": "Mesterséges nyelvek"
@@ -290,7 +290,7 @@
                 "audio": {
                     "input_device": "Mikrofon",
                     "output_device": "Hangszóró / Fejhallgató",
-                    "title": "Beszéd beállításai",
+                    "title": "Beszéd",
                     "device_label_NA": "nem elérhető",
                     "button_retry": "próbáld újra",
                     "tip_retry": "Nem adtál engedélyt a mikrofonhoz. Kérlek, {{retryBtn}}."
@@ -334,8 +334,8 @@
                     "a": "Hiányzik egy fordítani való nyelv?"
                 },
                 "sessions": {
-                    "b": "Változtass jelszót és használj kétlépéses hitelesítést!",
-                    "a": "Ha egy nem ismerős munkamenetet látsz a listában,"
+                    "b": "változtass jelszót és használj kétlépéses hitelesítést!",
+                    "a": "Ha nem a saját munkameneteidet látod a listában"
                 },
                 "account": {
                     "a": "Testre szeretnéd szabni a nyilvános profilod?",
@@ -372,7 +372,7 @@
                     "system_messages": "Rendszerértesítők csatornái"
                 },
                 "roles": {
-                    "title": "Szerepek"
+                    "title": "Titulusok"
                 },
                 "categories": {
                     "title": "Kategóriák"
@@ -382,8 +382,8 @@
                 "channel": "Csatornaszintű engedélyek",
                 "default_role": "Alapértelmezett",
                 "server": "Szerverszintű engedélyek",
-                "create_role": "Új szerep létrehozása",
-                "role_name": "Szerep címe"
+                "create_role": "Új titulus létrehozása",
+                "role_name": "Titulus címe"
             }
         },
         "special": {
@@ -408,7 +408,7 @@
                     "remove": "Eltávolítás",
                     "back": "Vissza",
                     "reveal": "Megmutatás",
-                    "hide": "Elrejtés",
+                    "hide": "elrejtés",
                     "edit": "Szerkesztés"
                 },
                 "prompt": {
@@ -700,8 +700,8 @@
         },
         "server": {
             "ManageRoles": {
-                "t": "Kezelhetnek szerepeket",
-                "d": "A tagok alacsonyabb ranggal is létrehozhatnak szerepeket és módosíthatják és törölhetik is a többi, magasabb rangú tag szerepeit. A szerepekhez hozzárendelt csatornaszintű engedélyeket is módosíthatják."
+                "t": "Kezelhetnek titulusokat",
+                "d": "A tagok alacsonyabb ranggal is létrehozhatnak titulusokat és módosíthatják és törölhetik is a többi, magasabb rangú tag titulusait. A titulusokhoz hozzárendelt csatornaszintű engedélyeket is módosíthatják."
             },
             "BanMembers": {
                 "d": "A tagok örökre el tudnak távolítani más tagokat a szerverről.",
