@@ -43,7 +43,8 @@
         "reset": "पासवर्ड रीसेट।",
         "current_password": "वर्तमान पासवर्ड",
         "check_spam": "अगर आपको स्पैम नहीं मिल रहा है तो कृपया इसकी जांच करें",
-        "email_delay": "कृपया इसे आने के लिए 10 मिनट तक का समय दें।"
+        "email_delay": "कृपया इसे आने के लिए 10 मिनट तक का समय दें।",
+        "new": "क्या आप रिवोल्ट पहली बार इस्तेमाल कर रहे हैं?"
     },
     "app": {
         "main": {
@@ -78,7 +79,9 @@
                     "none": "कोई नहीं"
                 },
                 "typing": {
-                    "several": "कई लोग टाइप कर रहे हैं…"
+                    "several": "कई लोग टाइप कर रहे हैं…",
+                    "multiple": "{{userlist}} और {{user}} लिख रहे हैं…",
+                    "single": "{{user}} लिख रहा हैं"
                 },
                 "misc": {
                     "spoiler_attachment": "स्पॉइलर",
@@ -94,7 +97,19 @@
                 },
                 "errors": {
                     "title": "उफ़, यहाँ कुछ भी नहीं है!"
-                }
+                },
+                "system": {
+                    "user_left": "{{user}} चला गया",
+                    "added_by": "{{user}} को {{other_user}} ने बुलाया",
+                    "removed_by": "{{user}} को {{other_user}} ने हटाया",
+                    "user_joined": "{{user}} आ गया",
+                    "user_kicked": "{{user}} को किक कर दिया गया",
+                    "user_banned": "{{user}} को बैन कर दिया गया",
+                    "channel_renamed": "{{user}} ने चैनल का नाम अब {{name}} रख दिया"
+                },
+                "message_who": "मैसेज {{person}}",
+                "attached_file": "{{filename}} संलग्न किया गया",
+                "message_where": "मैसेज {{channel_name}}"
             },
             "groups": {
                 "description": "समूह चर्चा",
