@@ -99,7 +99,8 @@
                 "channel_name": "Nombre del canal",
                 "channel_description": "Descripción del canal",
                 "custom_banner": "Portada personalizada",
-                "owner": "Propietario del servidor"
+                "owner": "Propietario del servidor",
+                "category_name": "Nombre de categoría"
             }
         },
         "navigation": {
@@ -225,7 +226,7 @@
                     "import": "Importar un tema"
                 },
                 "logOut": "Cerrar sesión",
-                "source_code": "Código de origen",
+                "source_code": "Código fuente",
                 "sync": {
                     "title": "Sincronizar",
                     "descriptions": {
@@ -269,7 +270,9 @@
                     "input_device": "Micrófono",
                     "device_label_NA": "No disponible",
                     "button_retry": "reintentar",
-                    "tip_retry": "No diste permiso para acceder a tu micrófono, por favor {{retryBtn}}."
+                    "tip_retry": "No diste permiso para acceder a tu micrófono, por favor {{retryBtn}}.",
+                    "tip_grant_permission": "Se debe conceder permiso para acceder a los ajustes de audio.",
+                    "button_grant": "Conceder permiso"
                 },
                 "theme_shop": {
                     "title": "Tienda de temas"
@@ -351,8 +354,8 @@
             "offline": "Desconectado",
             "idle": "Ausente",
             "busy": "No molestar",
-            "invisible": "Invisible",
-            "online": "En linea"
+            "invisible": "No visible",
+            "online": "Conectado"
         },
         "context_menu": {
             "retry_message": "Reintentar envío",
@@ -538,15 +541,28 @@
                 "login": "Iniciar sesión en Revolt",
                 "invalid": "¡Invitación inválida!",
                 "invalid_desc": "Puede que la invitación no exista o que no tengas permiso para unirte."
+            },
+            "server-badges": {
+                "official": "Servidor oficial",
+                "verified": "Servidor verificado"
             }
         },
         "permissions": {
             "required": "Permisos requeridos"
+        },
+        "home": {
+            "join-testers": "Unirse al servidor de pruebas",
+            "goto-testers": "Ir al servidor de probadores",
+            "donate": "Donar a Revolt",
+            "feedback": "Dar una opinión sobre Revolt",
+            "settings": "Ajustes",
+            "settings-tooltip": "También puedes hacer clic con el botón derecho del ratón en el icono de usuario de la parte superior izquierda, o con el botón izquierdo si ya estás en el inicio.",
+            "social": "Buscar servidores y bots"
         }
     },
     "login": {
         "create": "Crear una nueva cuenta.",
-        "new": "¿Nuevo a Revolt?",
+        "new": "¿Nuevo en Revolt?",
         "forgot": "¿Olvidaste tu contraseña?",
         "enter": {
             "password": "Pon tu contraseña.",
@@ -570,7 +586,7 @@
         "check_mail": "Revisa tu correo.",
         "cancel": "Cancelar solicitud.",
         "resend": "Reenviar verificación.",
-        "missing_verification": "¿No tienes un correo electrónico?",
+        "missing_verification": "Falta el correo electrónico",
         "existing": "¿Ya tienes una cuenta?",
         "remembered": "Regresar a iniciar sesión.",
         "set_password": "Establecer nueva contraseña.",
