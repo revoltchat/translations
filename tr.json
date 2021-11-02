@@ -166,7 +166,8 @@
                 "channel_description": "Kanal Açıklaması",
                 "channel_type": "Kanal Türü",
                 "text_channel": "Metin Kanalı",
-                "voice_channel": "Ses Kanalı"
+                "voice_channel": "Ses Kanalı",
+                "category_name": "Kategori Adı"
             }
         },
         "settings": {
@@ -331,7 +332,9 @@
                     "output_device": "Hoparlör / Kulaklık",
                     "button_retry": "tekrar dene",
                     "device_label_NA": "Yok",
-                    "tip_retry": "Mikrofonunuza erişim izni vermediniz, lütfen {{retryBtn}}."
+                    "tip_retry": "Mikrofonunuza erişim izni vermediniz, lütfen {{retryBtn}}.",
+                    "tip_grant_permission": "Ses ayarlarına izin vermeniz gerekiyor.",
+                    "button_grant": "İzin ver"
                 },
                 "theme_shop": {
                     "title": "Tema Mağazası"
@@ -488,7 +491,7 @@
                 },
                 "external_links": {
                     "title": "Harici bağlantılar tehlikeli olabilir!",
-                    "short": "Şuraya gitmek istediğinize emin misin: ",
+                    "short": "Şuraya gitmek istediğinize emin misin:",
                     "trust_domain": "Bu alan adına güven"
                 },
                 "token_reveal": "{{name}}'nın Token'i"
@@ -538,10 +541,23 @@
                 "user_count": "{{member_count}} kullanıcı",
                 "invalid": "Geçersiz davet!",
                 "invalid_desc": "Davet mevcut olmayabilir ya da katılma izniniz yok."
+            },
+            "server-badges": {
+                "official": "Resmi Sunucu",
+                "verified": "Doğrulanmış Sunucu"
             }
         },
         "permissions": {
             "required": "Gerekli izinler"
+        },
+        "home": {
+            "donate": "Revolt'a bağış yap",
+            "feedback": "Revolt'ta geri bildirimde bulun",
+            "settings": "Ayarlar",
+            "social": "Sunucuları & Botları Bul",
+            "join-testers": "Test edenler sunucusuna katıl",
+            "goto-testers": "Test edenler sunucusuna git",
+            "settings-tooltip": "Ayrıca sol üstteki kullanıcı simgesine sağ tıklayabilirsin veya eğer ana sayfadaysan sol tıklayabilirsin."
         }
     },
     "general": {
