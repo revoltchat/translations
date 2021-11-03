@@ -41,7 +41,7 @@
         },
         "check_spam": "Schaue bitte in deinem Spamordner nach, wenn du sie nicht finden kannst",
         "resend": "Bestätigung erneut senden.",
-        "missing_verification": "Keine E-Mail?",
+        "missing_verification": "Fehlende E-Mail",
         "set_password": "Neues Passwort festlegen.",
         "current_password": "Aktuelles Passwort",
         "invite": "Einladungscode",
@@ -163,7 +163,8 @@
                 "custom_banner": "Benutzerdefiniertes Banner",
                 "channel_type": "Kanaltyp",
                 "text_channel": "Textkanal",
-                "voice_channel": "Sprachkanal"
+                "voice_channel": "Sprachkanal",
+                "category_name": "Kategoriename"
             }
         },
         "context_menu": {
@@ -295,7 +296,7 @@
                 },
                 "external_links": {
                     "title": "Externe Links können gefährlich sein!",
-                    "short": "Möchten Sie wirklich zu: ",
+                    "short": "Möchten Sie wirklich zu:",
                     "trust_domain": "Dieser Domain vertrauen"
                 },
                 "token_reveal": "Token von {{name}}"
@@ -350,6 +351,10 @@
                 "user_count": "{{member_count}} Mitglieder",
                 "invalid": "Ungültige Einladung!",
                 "invalid_desc": "Die Einladung existiert möglicherweise nicht oder du bist nicht berechtigt beizutreten."
+            },
+            "server-badges": {
+                "official": "Offizieller Server",
+                "verified": "Verifizierter Server"
             }
         },
         "settings": {
@@ -507,9 +512,11 @@
                     "title": "Spracheinstellungen",
                     "output_device": "Ausgabegerät",
                     "input_device": "Eingabegerät",
-                    "tip_retry": "Du hast keine Berechtigungen gegeben, auf dein Mikrofon zuzugreifen, bitte {{retryBtn}}.",
+                    "tip_retry": "Du hast nicht die Berechtigung zum Zugriff auf dein Mikrofon gegeben, bitte {{retryBtn}}.",
                     "device_label_NA": "Nicht verfügbar",
-                    "button_retry": "Erneut versuchen"
+                    "button_retry": "Erneut versuchen",
+                    "tip_grant_permission": "Sie müssen die Berechtigung für den Zugriff auf die Audioeinstellungen erteilen.",
+                    "button_grant": "Berechtigung erteilen"
                 },
                 "theme_shop": {
                     "title": "Themen Shop"
@@ -591,6 +598,15 @@
         },
         "permissions": {
             "required": "Keine Berechtigung"
+        },
+        "home": {
+            "join-testers": "Treten Sie dem Tester-Server bei",
+            "goto-testers": "Gehe zum Tester-Server",
+            "donate": "Spende für die Revolt",
+            "feedback": "Gib Feedback zu Revolt",
+            "settings": "Einstellungen",
+            "settings-tooltip": "Sie können auch mit der rechten Maustaste auf das Benutzersymbol oben links klicken oder mit der linken Maustaste darauf klicken, wenn Sie bereits zu Hause sind.",
+            "social": "Server und Bots finden"
         }
     },
     "dayjs": {
