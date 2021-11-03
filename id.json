@@ -88,7 +88,9 @@
                     "output_device": "Pengeras Suara / Headset",
                     "tip_retry": "Anda tidak memberikan izin untuk mengakses mikrofon Anda, harap {{retryBtn}}.",
                     "device_label_NA": "N/A",
-                    "button_retry": "coba lagi"
+                    "button_retry": "coba lagi",
+                    "tip_grant_permission": "Anda perlu memberikan izin untuk mengakses pengaturan audio.",
+                    "button_grant": "Berikan izin"
                 },
                 "experiments": {
                     "features": "Fitur Tersedia",
@@ -316,7 +318,8 @@
                 "channel_name": "Nama Saluran",
                 "channel_description": "Deskripsi Saluran",
                 "owner": "Pemilik Server",
-                "custom_banner": "Spanduk Kustom"
+                "custom_banner": "Spanduk Kustom",
+                "category_name": "Nama Kategori"
             }
         },
         "navigation": {
@@ -413,9 +416,9 @@
                     "create_invite_created": "Ini kode undangan baru Anda:"
                 },
                 "external_links": {
-                    "title": "Tautan external dapat berbahaya!",
+                    "title": "Tautan external bisa saja berbahaya!",
                     "trust_domain": "Percaya domain ini",
-                    "short": "Apakah anda yakin ingin membuka: "
+                    "short": "Apakah anda yakin ingin membuka:"
                 },
                 "clipboard": {
                     "https": "Anda saat ini tidak berada dalam konteks HTTPS.",
@@ -467,7 +470,11 @@
                     "select": "Pilih teman untuk ditambahkan."
                 }
             },
-            "requires_online": "Anda harus online untuk melihat ini."
+            "requires_online": "Anda harus online untuk melihat ini.",
+            "server-badges": {
+                "official": "Server Resmi",
+                "verified": "Server Terverifikasi"
+            }
         },
         "context_menu": {
             "remove_friend": "Hapus teman",
@@ -523,6 +530,15 @@
         },
         "permissions": {
             "required": "Izin Dibutuhkan"
+        },
+        "home": {
+            "settings-tooltip": "Kamu juga bisa klik kanan ikon pengguna di kiri atas, atau klik kiri jika kamu berada di beranda.",
+            "join-testers": "Bergabunglah dengan server penguji",
+            "goto-testers": "Pergi ke server penguji",
+            "donate": "Donasi kepada Revolt",
+            "feedback": "Beri masukan untuk Revolt",
+            "settings": "Pengaturan",
+            "social": "Cari server & bot"
         }
     },
     "login": {
