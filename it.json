@@ -236,7 +236,8 @@
                 "custom_banner": "Banner personalizzato",
                 "owner": "Proprietario del server",
                 "voice_channel": "Canale vocale",
-                "text_channel": "Canale tastuale"
+                "text_channel": "Canale tastuale",
+                "category_name": "Nome della categoria"
             }
         },
         "settings": {
@@ -354,7 +355,7 @@
                     }
                 },
                 "experiments": {
-                    "title": "esperimenti",
+                    "title": "Esperimenti",
                     "features": "Funzioni disponibili",
                     "not_available": "Al momento non sono disponibili esperimenti."
                 },
@@ -395,9 +396,11 @@
                     "title": "Impostazioni della voce",
                     "input_device": "Microfono",
                     "output_device": "Altoparlante / Cuffie",
-                    "device_label_NA": "N/A",
+                    "device_label_NA": "N/D",
                     "button_retry": "riprova",
-                    "tip_retry": "Non hai dato il permesso per accedere al tuo microfono, per favore {{retryBtn}}."
+                    "tip_retry": "Non hai dato il permesso per accedere al tuo microfono, per favore {{retryBtn}}.",
+                    "tip_grant_permission": "Devi concedere il permesso per accedere alle impostazione audio.",
+                    "button_grant": "Concedi"
                 },
                 "native": {
                     "title": "Impostazioni del desktop"
@@ -646,10 +649,23 @@
                 "accept": "Accetta l'invito",
                 "invalid": "Invito invalido!",
                 "invalid_desc": "Questo invito potrebbe non esistere oppure non hai il permesso di entrarci."
+            },
+            "server-badges": {
+                "official": "Server ufficiale",
+                "verified": "Server verificato"
             }
         },
         "permissions": {
             "required": "Permessi richiesti"
+        },
+        "home": {
+            "join-testers": "Entra nel server dei tester",
+            "settings-tooltip": "Puoi anche premere sulla icona utente in alto a sinistra col tasto destro del mouse, o col tasto sinistro se sei già nella home.",
+            "goto-testers": "Vai al server dei tester",
+            "donate": "Dona a Revolt",
+            "feedback": "Dai un riscontro su Revolt",
+            "settings": "Impostazioni",
+            "social": "Trova server e bots"
         }
     },
     "error": {
