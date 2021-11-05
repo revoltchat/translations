@@ -146,7 +146,8 @@
                 "custom_banner": "Bàner personalitzat",
                 "owner": "Propietari del servidor",
                 "text_channel": "Canal de text",
-                "voice_channel": "Canal de veu"
+                "voice_channel": "Canal de veu",
+                "category_name": "Nom de categoria"
             }
         },
         "status": {
@@ -236,7 +237,9 @@
                     "output_device": "Altaveu / auriculars",
                     "device_label_NA": "N/A",
                     "button_retry": "reintenta",
-                    "tip_retry": "No has donat permís per accedir al teu micròfon, si us plau {{retryBtn}}."
+                    "tip_retry": "No has donat permís per accedir al teu micròfon, si us plau {{retryBtn}}.",
+                    "button_grant": "Concedir permís",
+                    "tip_grant_permission": "Heu de concedir permís per accedir a la configuració d'àudio."
                 },
                 "notifications": {
                     "title": "Notificacions",
@@ -458,7 +461,7 @@
                 },
                 "external_links": {
                     "title": "Els enllaços externs poden ser perillosos!",
-                    "short": "Estás seguro que vols anar a: ",
+                    "short": "Vas a aquest enllaç:",
                     "trust_domain": "Confiar aquest domini"
                 },
                 "error": "S'ha produit un error!",
@@ -515,6 +518,10 @@
                 "connecting": "Connectant…",
                 "reconnecting": "Rrconnectant…",
                 "offline": "Sense connexió."
+            },
+            "server-badges": {
+                "official": "Servidor oficial",
+                "verified": "Servidor verificat"
             }
         },
         "context_menu": {
@@ -571,6 +578,15 @@
         },
         "permissions": {
             "required": "Permisos requerits"
+        },
+        "home": {
+            "join-testers": "Uneix-te'n al servidor de proves",
+            "goto-testers": "Vés al servidor de proves",
+            "donate": "Dóna a Revolt",
+            "feedback": "Deixa una opinió sobre Revolt",
+            "settings": "Configuracións",
+            "settings-tooltip": "També pots fer clic amb el botó dret del ratolí en la icona d'un usuari a la part superior esquerrà, o amb el botó esquerrà si ja estàs al inici.",
+            "social": "Busca servidors i bots"
         }
     },
     "error": {
@@ -688,6 +704,10 @@
             "UploadFiles": {
                 "t": "Pujar arxius",
                 "d": "Permet als membres pujar arxius als canals de text."
+            },
+            "Masquerade": {
+                "t": "Mascarada",
+                "d": "Permet als membres canviar el seu nom i avatar per missatge."
             }
         }
     },
