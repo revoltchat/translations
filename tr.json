@@ -197,7 +197,7 @@
                 "sessions": {
                     "title": "Oturumlar",
                     "this_device": "Bu Cihaz",
-                    "created": "{{time_ago}} oluşturuldu",
+                    "created": "{{time_ago}} önce oluşturuldu",
                     "active_sessions": "Aktif Oturumlar",
                     "logout": "Diğer tüm oturumlardan çıkış yapın"
                 },
@@ -208,7 +208,7 @@
                     "import_manual": "El ile içe aktarın",
                     "theme_data": "Tema Verileri",
                     "overrides": "Tema Ayarları",
-                    "reset_overrides": "Temayı Sıfırla",
+                    "reset_overrides": "Geçerli kılmaları sıfırla",
                     "import_theme": "Temayı dizeden içe aktarın",
                     "display": {
                         "compact_description": "Eski güzel IRC.",
@@ -221,7 +221,7 @@
                         "light": "aydınlık",
                         "dark": "koyu"
                     },
-                    "message_display": "Mesaj Ekranı",
+                    "message_display": "Mesaj Görünümü",
                     "custom_css": "Özel CSS",
                     "sync": "Senkronizasyon Ayarları",
                     "advanced": "Gelişmiş Ayarlar",
@@ -245,7 +245,7 @@
                     },
                     "enable_desktop": "Masaüstü Bildirimlerini Etkinleştirin.",
                     "enable_push": "Anında İleti Bildirimlerini Etkinleştirin.",
-                    "push_notifications": "Anlık Bildirim",
+                    "push_notifications": "Anlık Bildirimler",
                     "sounds": "Sesler",
                     "sound": {
                         "message": "Mesaj Alındı",
@@ -491,7 +491,7 @@
                 },
                 "external_links": {
                     "title": "Harici bağlantılar tehlikeli olabilir!",
-                    "short": "Şuraya gitmek istediğinize emin misin:",
+                    "short": "Bu bağlantıya gidiyorsunuz:",
                     "trust_domain": "Bu alan adına güven"
                 },
                 "token_reveal": "{{name}}'nın Token'i"
@@ -711,6 +711,10 @@
             "UploadFiles": {
                 "t": "Dosyaları Yükle",
                 "d": "Üyelerin metin kanallarına dosya yüklemesine izin verir."
+            },
+            "Masquerade": {
+                "t": "Kılık değiştirme",
+                "d": "Üyelerin her mesajda ismini ve avatarını değiştirmesine izin verir."
             }
         },
         "server": {
