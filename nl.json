@@ -21,7 +21,7 @@
         },
         "forgot": "Wachtwoord vergeten?",
         "reset": "Wachtwoord resetten.",
-        "remembered": "Ga terug naar het inlog scherm.",
+        "remembered": "Ga terug naar het inlog-scherm.",
         "new": "Nieuw bij Revolt?",
         "create": "Maak een nieuw account aan.",
         "resend": "Verzend verificatie opnieuw.",
@@ -30,7 +30,7 @@
         "invite": "Uitnodigingscode",
         "set_password": "Nieuw wachtwoord.",
         "existing": "Heeft u al een account?",
-        "missing_verification": "Geen email?",
+        "missing_verification": "Geen email gevonden",
         "check_mail": "Check je email.",
         "error": {
             "resend": "Opnieuw verzenden mislukt!",
@@ -146,7 +146,8 @@
                 "channel_type": "Kanaal type",
                 "description": "Server beschrijving",
                 "channel_description": "Kanaal beschrijving",
-                "custom_banner": "Aangepaste banner"
+                "custom_banner": "Aangepaste banner",
+                "category_name": "Categorie naam"
             }
         },
         "navigation": {
@@ -319,7 +320,9 @@
                     "output_device": "Speaker / Koptelefoon",
                     "tip_retry": "Je hebt geen toestemming gegeven voor toegang tot je microfoon, alsjeblieft {{retryBtn}}.",
                     "device_label_NA": "N.V.T",
-                    "button_retry": "opnieuw"
+                    "button_retry": "opnieuw",
+                    "tip_grant_permission": "Je moet toestemming geven om aan de audioinstellingen te kunnen.",
+                    "button_grant": "Geef toestemming"
                 },
                 "theme_shop": {
                     "title": "Themawinkel"
@@ -481,7 +484,7 @@
                 },
                 "external_links": {
                     "title": "Externe links kunnen gevaarlijk zijn!",
-                    "short": "Weet je zeker dat je hier naar toe wilt gaan: ",
+                    "short": "Je navigeert naar deze link:",
                     "trust_domain": "Vertrouw dit domein"
                 },
                 "token_reveal": "{{name}}'s Token"
@@ -530,6 +533,10 @@
                 "user_count": "{{member_count}} gebruikers",
                 "invalid": "Ongeldige uitnodiging!",
                 "invalid_desc": "Het kan zijn dat de uitnodiging niet bestaat of dat je geen toestemming hebt om mee te doen."
+            },
+            "server-badges": {
+                "official": "Officiële server",
+                "verified": "Geverifieerde server"
             }
         },
         "context_menu": {
@@ -586,6 +593,15 @@
         },
         "permissions": {
             "required": "Permissies vereist"
+        },
+        "home": {
+            "join-testers": "Word lid van de testers server",
+            "goto-testers": "Ga naar de testers server",
+            "donate": "Doneer aan Revolt",
+            "feedback": "Geef Revolt feedback",
+            "settings": "Instellingen",
+            "settings-tooltip": "Je kunt ook het gebruikersicoon aanklikken links vanboven, of met de linkermuisklik als je al op het thuismenu zit.",
+            "social": "Vind servers & bots"
         }
     },
     "quantities": {
@@ -726,6 +742,10 @@
             "ManageMessages": {
                 "d": "Staat leden toe om berichten te verwijderen die door andere leden worden verzonden.",
                 "t": "Beheer Berichten"
+            },
+            "Masquerade": {
+                "t": "Maskerade",
+                "d": "Geeft toestemming aan leden om hun naam en avatar te veranderen per bericht."
             }
         }
     },
