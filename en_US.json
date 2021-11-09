@@ -162,7 +162,8 @@
                 "custom_banner": "Custom Banner",
                 "owner": "Server Owner",
                 "text_channel": "Text Channel",
-                "voice_channel": "Voice Channel"
+                "voice_channel": "Voice Channel",
+                "category_name": "Category Name"
             }
         },
         "settings": {
@@ -217,7 +218,9 @@
                     "output_device": "Speaker / Headphones",
                     "tip_retry": "You didin't give the permission to access your microphone. Please {{retryBtn}}.",
                     "device_label_NA": "N/A",
-                    "button_retry": "Retry"
+                    "button_retry": "Retry",
+                    "tip_grant_permission": "You need to grant permission to access audio settings.",
+                    "button_grant": "Grant permission"
                 },
                 "appearance": {
                     "title": "Appearance",
@@ -515,6 +518,10 @@
                 "user_count": "{{member_count}} users",
                 "invalid": "Invalid invite!",
                 "invalid_desc": "The invite may not exist or you don't have permission to join."
+            },
+            "server-badges": {
+                "official": "Official Server",
+                "verified": "Verified Server"
             }
         },
         "context_menu": {
@@ -571,6 +578,15 @@
         },
         "permissions": {
             "required": "Permissions required"
+        },
+        "home": {
+            "join-testers": "Join the testers server",
+            "goto-testers": "Go to the testers server",
+            "donate": "Donate to Revolt",
+            "feedback": "Give feedback on Revolt",
+            "settings": "Settings",
+            "settings-tooltip": "You can also right-click the user icon in the top left, or left click it if you're already home.",
+            "social": "find servers & bots"
         }
     },
     "quantities": {
@@ -713,6 +729,10 @@
             "UploadFiles": {
                 "t": "Upload Files",
                 "d": "Allows members to upload files in text channels."
+            },
+            "Masquerade": {
+                "t": "Masquerade",
+                "d": "Allows members to change their name and avatar per-message."
             }
         }
     }
