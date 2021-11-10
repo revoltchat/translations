@@ -121,7 +121,8 @@
                     "input_device": "Mikrofón",
                     "title": "Hlasové Nastavenia",
                     "device_label_NA": "N/A",
-                    "button_retry": "skús znova"
+                    "button_retry": "skús znova",
+                    "tip_retry": "Nedali ste povolenie na prístup k mikrofónu, prosím {{retryBtn}}."
                 },
                 "sessions": {
                     "logout": "Odhláste sa zo všetkých ostatných relácií",
@@ -228,7 +229,8 @@
                 "channel_name": "Meno Kanála",
                 "description": "Popis Servera",
                 "name": "Meno Servera",
-                "create": "Vytvoriť Server"
+                "create": "Vytvoriť Server",
+                "category_name": "Názov kategórie"
             },
             "groups": {
                 "owner": "Majitel Skupiny",
@@ -378,7 +380,7 @@
                 },
                 "error": "Nastala chyba!",
                 "clipboard": {
-                    "unavailable": "Clipboard nie je k dispozícii!",
+                    "unavailable": "Schránka je nedostupná!",
                     "https": "Aktuálne sa nenachádzate v kontexte HTTPS.",
                     "copy": "Ručné kopírovanie:"
                 },
@@ -398,7 +400,7 @@
                 "token_reveal": "{{name}} Token",
                 "external_links": {
                     "trust_domain": "Dôverujte tejto doméne",
-                    "short": "Ste si istí, že chcete ísť na: ",
+                    "short": "Idete na túto webstránku:",
                     "title": "Externé odkazy môžu byť nebezpečné!"
                 }
             },
@@ -466,6 +468,10 @@
                 "user_count": "Používatelia: {{member_count}}",
                 "invalid": "Neplatná pozvánka!",
                 "invalid_desc": "Pozvánka možno neexistuje alebo nemáte povolenie sa pripojiť."
+            },
+            "server-badges": {
+                "official": "Oficiálny server",
+                "verified": "Overený server"
             }
         },
         "context_menu": {
@@ -522,6 +528,13 @@
         },
         "permissions": {
             "required": "Vyžadujú sa povolenia"
+        },
+        "home": {
+            "donate": "Prispejte Revoltu",
+            "settings-tooltip": "Taktiež môžete kliknúť pravým tlačidlom myši na ikonu používateľa vľavo hore, alebo kliknúť ľavým tlačidlom ak už ste na domovskej stránke.",
+            "feedback": "Dajte spätnú väzbu na Revolt",
+            "settings": "Nastavenia",
+            "social": "Nájdite servery a botov"
         }
     },
     "general": {
@@ -549,7 +562,7 @@
         "check_mail": "Skontrolujte si email.",
         "cancel": "Zrušiť požiadavku.",
         "resend": "Znova odoslať overenie.",
-        "missing_verification": "Žiadny e -mail?",
+        "missing_verification": "Žiaden e-mail",
         "create": "Vytvorte si nový účet.",
         "existing": "Máte už účet?",
         "new": "Začínate z Revoltom?",
@@ -561,7 +574,7 @@
             "invite": "Zadajte kód pozvánky.",
             "email": "Zadajte svoj email.",
             "password": "Zadajte svoje heslo.",
-            "username": "Zadaj Používateľské Meno."
+            "username": "Zadajte vaše používateľské meno."
         },
         "current_password": "Aktuálne Heslo",
         "invite": "Pozvánka",
