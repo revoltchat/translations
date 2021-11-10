@@ -37,7 +37,8 @@
                     "title": "語音設定",
                     "tip_retry": "您沒有給予麥克風權限，請 {{retryBtn}}。",
                     "device_label_NA": "無法使用",
-                    "button_retry": "重試"
+                    "button_retry": "重試",
+                    "button_grant": "授予權限"
                 },
                 "sessions": {
                     "created": "建立於 {{time_ago}}",
@@ -229,7 +230,8 @@
                 "channel_name": "頻道名稱",
                 "description": "伺服器簡介",
                 "name": "伺服器名稱",
-                "create": "創立伺服器"
+                "create": "創立伺服器",
+                "category_name": "類別名稱"
             },
             "groups": {
                 "owner": "群主",
@@ -467,6 +469,10 @@
                 "user_count": "{{member_count}} 位使用者",
                 "invalid": "邀請無效!",
                 "invalid_desc": "此邀請可能不存在，或是您沒有權限加入。"
+            },
+            "server-badges": {
+                "official": "官方伺服器",
+                "verified": "已驗證伺服器"
             }
         },
         "context_menu": {
@@ -523,6 +529,13 @@
         },
         "permissions": {
             "required": "權限不足"
+        },
+        "home": {
+            "goto-testers": "前往測試伺服器",
+            "donate": "捐獻給 Revolt",
+            "settings": "設置",
+            "join-testers": "加入測試伺服器",
+            "social": "尋找伺服器和機器人"
         }
     },
     "login": {
@@ -540,7 +553,7 @@
         "check_mail": "檢查你的電子信箱。",
         "cancel": "取消請求。",
         "resend": "重新寄出認證信。",
-        "missing_verification": "沒有電子信箱嗎？",
+        "missing_verification": "沒有收到郵件",
         "existing": "已經有帳號了？",
         "new": "第一次來到Revolt？",
         "remembered": "返回登入頁面。",
@@ -672,6 +685,9 @@
             "ManageChannel": {
                 "t": "管理頻道",
                 "d": "允許成員編輯或刪除頻道。"
+            },
+            "Masquerade": {
+                "t": "偽裝身份"
             }
         },
         "server": {
