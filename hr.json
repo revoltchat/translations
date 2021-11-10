@@ -98,7 +98,8 @@
                 "owner": "Vlasnik servera",
                 "channel_type": "Vrsta kanala",
                 "text_channel": "Tekstualni kanal",
-                "voice_channel": "Glasovni kanal"
+                "voice_channel": "Glasovni kanal",
+                "category_name": "Ime kategorije"
             }
         },
         "navigation": {
@@ -266,7 +267,10 @@
                     "input_device": "Mikrofon",
                     "output_device": "Zvučnik / slušalice",
                     "device_label_NA": "Nije dostupno",
-                    "button_retry": "pokušaj ponovno"
+                    "button_retry": "pokušaj ponovno",
+                    "tip_retry": "Niste dali pristup za uključenje vašeg mikrofona, molim vas {{retryBtn}}.",
+                    "tip_grant_permission": "Morate dopustit dozvolu da pristupite audio opcijama.",
+                    "button_grant": "Dozvoliti"
                 },
                 "bots": {
                     "title": "Moji botovi",
@@ -435,7 +439,7 @@
                 },
                 "external_links": {
                     "title": "Vanjske veze mogu biti opasne!",
-                    "short": "Jeste li sigurni da želite otići na: ",
+                    "short": "Jel ste sigurni da želite otići na ovaj link:",
                     "trust_domain": "Vjeruj ovoj domeni"
                 },
                 "token_reveal": "{{name}}'s Token"
@@ -484,7 +488,11 @@
                 "invalid": "Pogrešan invite!",
                 "invalid_desc": "Invite možda ne postoji ili nemaš dozvolu za pristup."
             },
-            "copy": "Kliknite za kopiranje"
+            "copy": "Kliknite za kopiranje",
+            "server-badges": {
+                "official": "Zvanični server",
+                "verified": "Verifikovan Server"
+            }
         },
         "context_menu": {
             "copy_id": "Kopiraj ID",
@@ -540,6 +548,14 @@
         },
         "permissions": {
             "required": "Potrebna dopuštenja"
+        },
+        "home": {
+            "join-testers": "Pridružite se serveru za testiranje",
+            "feedback": "Dajte povratne informacije Revoltu",
+            "goto-testers": "Idite do servera za testiranje",
+            "donate": "Donirajte Revoltu",
+            "settings": "Podešavanja",
+            "social": "Nađite servere i botove"
         }
     },
     "login": {
@@ -567,7 +583,7 @@
             "current_password": "Unesite trenutačnu lozinku.",
             "invite": "Unesite invite kod.",
             "password": "Unesite lozinku.",
-            "email": "Unesite vašu e-mail adresu.",
+            "email": "Molim vas unesite vašu e-mail adresu.",
             "username": "Unesite željeno korisničko ime."
         },
         "current_password": "Trenutačna lozinka",
@@ -731,6 +747,10 @@
             "UploadFiles": {
                 "t": "Učitaj datoteke",
                 "d": "Omogućuje članovima prijenos datoteka u tekstualne kanale."
+            },
+            "Masquerade": {
+                "t": "Maškarada",
+                "d": "Dozvoljava članovima da promene ime i avatar po poruci."
             }
         }
     }
