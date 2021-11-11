@@ -33,7 +33,7 @@
         "successful_registration": "Du har registrerat dig!",
         "open_mail_provider": "Öppna {{provider}}",
         "check_mail": "Kolla din e-post.",
-        "missing_verification": "E-postmeddelandet saknas",
+        "missing_verification": "E-postadress saknas",
         "error": {
             "resend": "Kunde inte återsända!",
             "reset": "Kunde inte återställa!",
@@ -147,7 +147,8 @@
                 "channel_description": "Kanalbeskrivning",
                 "custom_banner": "Anpassad Baner",
                 "text_channel": "Textkanal",
-                "voice_channel": "Röstkanal"
+                "voice_channel": "Röstkanal",
+                "category_name": "Kategorinamn"
             }
         },
         "navigation": {
@@ -298,6 +299,10 @@
                 "user_count": "{{member_count}} användarna",
                 "invalid": "Ogiltig inbjudan!",
                 "invalid_desc": "Inbjudan kanske inte finns eller så har du inte behörighet att ansluta."
+            },
+            "server-badges": {
+                "official": "Officiell Server",
+                "verified": "Verifierad Server"
             }
         },
         "context_menu": {
@@ -489,7 +494,9 @@
                     "input_device": "Mikrofon",
                     "device_label_NA": "EJ TILLÄMPLIGT",
                     "button_retry": "försök igen",
-                    "tip_retry": "Du gav inte tillstånd att använda din mikrofon, försök igen {{retryBtn}}."
+                    "tip_retry": "Du gav inte tillstånd att använda din mikrofon, försök igen {{retryBtn}}.",
+                    "tip_grant_permission": "Du behöver ge behörighet för att ändra ljudinställningar.",
+                    "button_grant": "Ge behörighet"
                 },
                 "bots": {
                     "title": "Min bottar",
@@ -584,6 +591,15 @@
         },
         "permissions": {
             "required": "Saknar behörigheter"
+        },
+        "home": {
+            "join-testers": "Gå med i vår testserver",
+            "feedback": "Ge feedback till Revolt",
+            "settings-tooltip": "Du kan också högerklicka på användarikonen uppe till vänster, eller vänsterklicka om du redan är på hem-menyn.",
+            "goto-testers": "Gå till vår testserver",
+            "donate": "Donera till Revolt",
+            "settings": "Inställningar",
+            "social": "Hitta servrar & bottar"
         }
     },
     "dayjs": {
@@ -674,7 +690,7 @@
                 "t": "Hantera Meddelanden"
             },
             "InviteOthers": {
-                "t": "Ändra Smeknamn",
+                "t": "Bjud In Andra",
                 "d": "Tillåter medlemmar att bjuda in andra användare till en kanal."
             },
             "UploadFiles": {
@@ -682,7 +698,7 @@
                 "t": "Ladda Upp Filer"
             },
             "ManageChannel": {
-                "t": "Sparka Medlemmar",
+                "t": "Hantera Kanaler",
                 "d": "Tillåter medlemmar att redigera eller radera en kanal."
             },
             "VoiceCall": {
@@ -692,6 +708,10 @@
             "EmbedLinks": {
                 "t": "Bädda in Länkar",
                 "d": "Tillåter medlemmar att visa inbäddat innehåll på länkar de skickar i textkanaler."
+            },
+            "Masquerade": {
+                "t": "Maskerad",
+                "d": "Tillåter medlemmar att ändra namn och avatar för varje meddelande."
             }
         },
         "server": {
