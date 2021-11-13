@@ -32,7 +32,7 @@
         "new": "New to Revolt?",
         "existing": "Already have an account?",
         "create": "Create a new account.",
-        "missing_verification": "No email?",
+        "missing_verification": "Missing e-mail",
         "resend": "Resend verification.",
         "cancel": "Cancel request.",
         "check_mail": "Check your mail.",
@@ -95,7 +95,8 @@
                     "channel_icon_changed": "{{user}} changed the channel icon"
                 },
                 "start": {
-                    "group": "This is the start of your conversation."
+                    "group": "This is the start of your conversation.",
+                    "saved": "This is where your notes start."
                 },
                 "voice": {
                     "connected": "Voice connected",
@@ -141,7 +142,7 @@
                 },
                 "errors": {
                     "title": "Oops, there's nothing here!",
-                    "nochannels": "There are no channels on this server, or you do not have access to them.",
+                    "nochannels": "This server has no channels, or you don't have access to any.",
                     "nochannel": "No channel"
                 }
             },
@@ -161,7 +162,8 @@
                 "custom_banner": "Custom Banner",
                 "owner": "Server Owner",
                 "text_channel": "Text Channel",
-                "voice_channel": "Voice Channel"
+                "voice_channel": "Voice Channel",
+                "category_name": "Category Name"
             }
         },
         "settings": {
@@ -213,10 +215,12 @@
                 "audio": {
                     "title": "Voice Settings",
                     "input_device": "Microphone",
-                    "output_device": "Speaker / Headset",
-                    "tip_retry": "You didin't give the permission to access your microphone. Please {{retryBtn}}.",
+                    "output_device": "Speaker / Headphones",
+                    "tip_retry": "You didn't give the permission to access your microphone, please {{retryBtn}}.",
                     "device_label_NA": "N/A",
-                    "button_retry": "Retry"
+                    "button_retry": "Retry",
+                    "tip_grant_permission": "You need to grant permission to access audio settings.",
+                    "button_grant": "Grant permission"
                 },
                 "appearance": {
                     "title": "Appearance",
@@ -445,7 +449,7 @@
                 },
                 "external_links": {
                     "title": "External links can be dangerous!",
-                    "short": "Are you sure you want to go to: ",
+                    "short": "You are going to this link:",
                     "trust_domain": "Trust this domain"
                 },
                 "actions": {
@@ -503,7 +507,7 @@
                 "server_identity": {
                     "nickname": "Nickname",
                     "title": "Change identity on {{server}}",
-                    "avatar": "Avatar"
+                    "avatar": "User photo"
                 }
             },
             "requires_online": "You need to be online to view this.",
@@ -514,6 +518,10 @@
                 "user_count": "{{member_count}} users",
                 "invalid": "Invalid invite!",
                 "invalid_desc": "The invite may not exist or you don't have permission to join."
+            },
+            "server-badges": {
+                "official": "Official Server",
+                "verified": "Verified Server"
             }
         },
         "context_menu": {
@@ -570,6 +578,15 @@
         },
         "permissions": {
             "required": "Permissions required"
+        },
+        "home": {
+            "join-testers": "Join the testers server",
+            "goto-testers": "Go to the testers server",
+            "donate": "Donate to Revolt",
+            "feedback": "Give feedback on Revolt",
+            "settings": "Settings",
+            "settings-tooltip": "You can also right-click the user icon in the top left, or left click it if you're already home.",
+            "social": "find servers & bots"
         }
     },
     "quantities": {
@@ -636,7 +653,7 @@
         "DeniedNotification": "You denied notification access, check page settings.",
         "CompromisedPassword": "This password is compromised.",
         "ReachedMaximumBots": "You've reached the maximum amount of bots.",
-        "AudioPermissionBlock": "No access to your microphone, please check your browser configuration."
+        "AudioPermissionBlock": "No access to your microphone, please check your browser's configuration."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
@@ -712,6 +729,10 @@
             "UploadFiles": {
                 "t": "Upload Files",
                 "d": "Allows members to upload files in text channels."
+            },
+            "Masquerade": {
+                "t": "Masquerade",
+                "d": "Allows members to change their name and avatar per-message."
             }
         }
     }

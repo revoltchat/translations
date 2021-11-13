@@ -100,7 +100,7 @@
         "new": "Nuovo in Revolt?",
         "existing": "Hai già un account?",
         "create": "Crea un nuovo account.",
-        "missing_verification": "Non hai ricevo l'e-mail?",
+        "missing_verification": "E-mail mancante",
         "resend": "Rinvia la verifica.",
         "cancel": "Cancella richiesta.",
         "email_delay": "Si prega di attendere fino a 10 minuti per l'arrivo.",
@@ -115,7 +115,7 @@
         "tos": "Termini di servizio",
         "off": "Disattivato",
         "privacy": "Politica sulla riservatezza",
-        "image_by": "Immagine di",
+        "image_by": "Immagine da",
         "loading": "Caricamento in corso…",
         "on": "Attivato",
         "disabled": "Disabilitato",
@@ -175,7 +175,8 @@
                     "channel_renamed": "{{user}} ha rinominato il canale in {{name}}"
                 },
                 "start": {
-                    "group": "Questo è l'inizio della tua conversazione."
+                    "group": "Questo è l'inizio della tua conversazione.",
+                    "saved": "Questo l'inizio delle tue note."
                 },
                 "misc": {
                     "viewing_old": "Visualizzazione dei messaggi più vecchi",
@@ -235,7 +236,8 @@
                 "custom_banner": "Banner personalizzato",
                 "owner": "Proprietario del server",
                 "voice_channel": "Canale vocale",
-                "text_channel": "Canale tastuale"
+                "text_channel": "Canale tastuale",
+                "category_name": "Nome della categoria"
             }
         },
         "settings": {
@@ -353,7 +355,7 @@
                     }
                 },
                 "experiments": {
-                    "title": "esperimenti",
+                    "title": "Esperimenti",
                     "features": "Funzioni disponibili",
                     "not_available": "Al momento non sono disponibili esperimenti."
                 },
@@ -394,9 +396,11 @@
                     "title": "Impostazioni della voce",
                     "input_device": "Microfono",
                     "output_device": "Altoparlante / Cuffie",
-                    "device_label_NA": "N/A",
+                    "device_label_NA": "N/D",
                     "button_retry": "riprova",
-                    "tip_retry": "Non hai dato il permesso per accedere al tuo microfono, per favore {{retryBtn}}."
+                    "tip_retry": "Non hai dato il permesso per accedere al tuo microfono, per favore {{retryBtn}}.",
+                    "tip_grant_permission": "Devi concedere il permesso per accedere alle impostazione audio.",
+                    "button_grant": "Concedi"
                 },
                 "native": {
                     "title": "Impostazioni del desktop"
@@ -583,14 +587,14 @@
                     "preview": "Anteprima",
                     "reload": "Ricarica l'app",
                     "continue": "Continua",
-                    "send_email": "Invia una email",
+                    "send_email": "Invia una e-mail",
                     "hide": "Nascondi",
                     "edit": "Modifica"
                 },
                 "account": {
                     "change": {
                         "username": "Cambia il tuo nome utente",
-                        "email": "Cambia la tua email",
+                        "email": "Cambia la tua e-mail",
                         "password": "Cambia la tua password"
                     },
                     "failed": "Impossibile cambiare!"
@@ -599,7 +603,7 @@
                 "external_links": {
                     "trust_domain": "Fidati di questo dominio",
                     "title": "Link esterni possono essere dannosi!",
-                    "short": "Sei sicuro di voler andare da: "
+                    "short": "Sei sicuro di voler andare su: "
                 }
             },
             "popovers": {
@@ -645,10 +649,23 @@
                 "accept": "Accetta l'invito",
                 "invalid": "Invito invalido!",
                 "invalid_desc": "Questo invito potrebbe non esistere oppure non hai il permesso di entrarci."
+            },
+            "server-badges": {
+                "official": "Server ufficiale",
+                "verified": "Server verificato"
             }
         },
         "permissions": {
             "required": "Permessi richiesti"
+        },
+        "home": {
+            "join-testers": "Entra nel server dei tester",
+            "settings-tooltip": "Puoi anche premere sulla icona utente in alto a sinistra col tasto destro del mouse, o col tasto sinistro se sei già nella home.",
+            "goto-testers": "Vai al server dei tester",
+            "donate": "Dona a Revolt",
+            "feedback": "Dai un riscontro su Revolt",
+            "settings": "Impostazioni",
+            "social": "Trova server e bots"
         }
     },
     "error": {
@@ -656,7 +673,7 @@
         "OperationFailed": "Operazione fallita.",
         "EmailFailed": "Impossibile inviare l'e-mail.",
         "AlreadyOnboarded": "Già terminato l'onboarding.",
-        "InvalidEmail": "indirizzo email non valido",
+        "InvalidEmail": "indirizzo e-mail non valido",
         "NetworkError": "Errore di connessione.",
         "Unauthorized": "Non autorizzato.",
         "FailedValidation": "Impossibile convalidare i campi.",

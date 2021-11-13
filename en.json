@@ -19,7 +19,7 @@
         "invite": "Invite Code",
         "current_password": "Current Password",
         "enter": {
-            "username": "Enter a username.",
+            "username": "Enter your preferred username.",
             "email": "Enter your email.",
             "password": "Enter your password.",
             "invite": "Enter your invite code.",
@@ -32,7 +32,7 @@
         "new": "New to Revolt?",
         "existing": "Already have an account?",
         "create": "Create a new account.",
-        "missing_verification": "No email?",
+        "missing_verification": "Missing e-mail",
         "resend": "Resend verification.",
         "cancel": "Cancel request.",
         "check_mail": "Check your mail.",
@@ -63,6 +63,15 @@
                 "unreads": "Unreads",
                 "saved": "Saved Notes"
             }
+        },
+        "home": {
+            "join-testers": "Join the testers server",
+            "goto-testers": "Go to the testers server",
+            "donate": "Donate to Revolt",
+            "feedback": "Give feedback on Revolt",
+            "settings": "Settings",
+            "settings-tooltip": "You can also right-click the user icon in the top left, or left click it if you're already home.",
+            "social": "Find servers & bots"
         },
         "main": {
             "categories": {
@@ -95,7 +104,8 @@
                     "channel_icon_changed": "{{user}} changed the channel icon"
                 },
                 "start": {
-                    "group": "This is the start of your conversation."
+                    "group": "This is the start of your conversation.",
+                    "saved": "This is the start of your notes."
                 },
                 "voice": {
                     "connected": "Voice connected",
@@ -157,6 +167,7 @@
                 "description": "Server Description",
                 "channel_name": "Channel Name",
                 "channel_type": "Channel Type",
+                "category_name": "Category Name",
                 "channel_description": "Channel Description",
                 "custom_banner": "Custom Banner",
                 "owner": "Server Owner",
@@ -215,8 +226,10 @@
                     "input_device": "Microphone",
                     "output_device": "Speaker / Headset",
                     "tip_retry": "You didn't give the permission to access your microphone, please {{retryBtn}}.",
+                    "tip_grant_permission": "You need to grant permission to access audio settings.",
                     "device_label_NA": "N/A",
-                    "button_retry": "retry"
+                    "button_retry": "retry",
+                    "button_grant": "Grant permission"
                 },
                 "appearance": {
                     "title": "Appearance",
@@ -404,6 +417,10 @@
                 "connecting": "Connecting…",
                 "reconnecting": "Reconnecting…"
             },
+            "server-badges": {
+                "official": "Official Server",
+                "verified": "Verified Server"
+            },
             "modals": {
                 "error": "An error occurred!",
                 "clipboard": {
@@ -445,7 +462,7 @@
                 },
                 "external_links": {
                     "title": "External links can be dangerous!",
-                    "short": "Are you sure you want to go to: ",
+                    "short": "You are going to this link:",
                     "trust_domain": "Trust this domain"
                 },
                 "actions": {
@@ -713,6 +730,10 @@
             "UploadFiles": {
                 "t": "Upload Files",
                 "d": "Allows members to upload files in text channels."
+            },
+            "Masquerade": {
+                "t": "Masquerade",
+                "d": "Allows members to change their name and avatar per-message."
             }
         }
     }

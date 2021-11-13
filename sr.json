@@ -16,11 +16,11 @@
         "email": "Имејл",
         "password": "Лозинка",
         "enter": {
-            "email": "Унесите имејл.",
+            "email": "Молимо вас унесите ваш имејл.",
             "password": "Унесите лозинку.",
             "current_password": "Унесите своју тренутну лозинку.",
             "invite": "Унесите позивни код.",
-            "username": "Унесите корисничко име"
+            "username": "Унесите корисничко име."
         },
         "forgot": "Заборавили сте лозинку?",
         "new": "Нов на Revolt?",
@@ -43,7 +43,7 @@
             "resend": "Поновно слање није успело!",
             "login": "Неуспешно пријављивање!",
             "reset": "Неуспешно ресетовање!",
-            "create": "Регистрација није успела!"
+            "create": "Неуспешна регистрација!"
         },
         "successful_registration": "Успешно регистровани!"
     },
@@ -52,7 +52,7 @@
             "channel": {
                 "message": "Писати на {{name}}",
                 "misc": {
-                    "blocked_user": "Блокирани корисник",
+                    "blocked_user": "Блокиран корисник",
                     "spoiler_attachment": "Спојлер",
                     "failed_load": "Грешка у учитавању поруке.",
                     "viewing_old": "Прегледање старих порука",
@@ -63,14 +63,14 @@
                     "sent_file": "Послат прилог"
                 },
                 "system": {
-                    "user_left": "{{user}} је отишао",
+                    "user_left": "{{user}} је изашао",
                     "added_by": "{{user}} је додан од {{other_user}}",
-                    "removed_by": "{{user}} је избачен од {{other_user}}",
-                    "user_banned": "{{user}} је добио прогоњен",
+                    "removed_by": "{{user}} је избачен од стране {{other_user}}",
+                    "user_banned": "{{user}} је прогоњен",
                     "channel_icon_changed": "{{user}} је променуо икону канала",
                     "user_joined": "{{user}} се придружио",
                     "user_kicked": "{{user}} је избачен",
-                    "channel_renamed": "{{user}} је променио име канала у {{name}}",
+                    "channel_renamed": "{{user}} је преименовао канал у {{name}}",
                     "channel_description_changed": "{{user}} је променуо дескрпицију канала"
                 },
                 "message_where": "Пошаљите поруку у {{channel_name}}",
@@ -81,22 +81,24 @@
                     "single": "{{user}} пише…",
                     "several": "Више људи пишу…"
                 },
-                "bot": "робот",
+                "bot": "бот",
                 "search": {
                     "sort": {
-                        "relevance": "Значајност",
+                        "relevance": "Релевантност",
                         "latest": "Најновије",
                         "oldest": "Најстарије"
                     },
-                    "title": "Претраживање"
+                    "title": "Претражити"
                 },
                 "start": {
-                    "group": "Ово је почетак вашег разговора."
+                    "group": "Ово је почетак вашег разговора.",
+                    "saved": "Ово је почетак ваших бележака."
                 },
                 "voice": {
                     "leave": "Изађи",
                     "mute": "Утишај",
-                    "connected": "Глас повезан"
+                    "connected": "Гласовно повезан",
+                    "unmute": "Де-утишај"
                 },
                 "notifications": {
                     "all": "Све Поруке",
@@ -127,14 +129,14 @@
                 "members": "Чланови",
                 "channels": "Канали",
                 "participants": "Учесници",
-                "conversations": "Разговори"
+                "conversations": "Ћаскања"
             },
             "servers": {
                 "name": "Име Сервера",
                 "text_channel": "Текст Канал",
                 "channel_type": "Тип Канала",
                 "voice_channel": "Гласни Канал",
-                "create": "Направите сервер",
+                "create": "Направи сервер",
                 "channel_name": "Име Канала",
                 "description": "Дескрипција Сервера",
                 "custom_banner": "Обичај Заставе",
@@ -144,7 +146,7 @@
             "groups": {
                 "name": "Име Групе",
                 "owner": "Власник Групе",
-                "create": "Направите групу",
+                "create": "Направи групу",
                 "description": "Дескрипција Групе"
             }
         },
@@ -500,7 +502,7 @@
         },
         "navigation": {
             "tabs": {
-                "home": "Кућа",
+                "home": "Почетак",
                 "unreads": "Непрочитане",
                 "saved": "Сачуване Белешке",
                 "dev": "Програмер",
@@ -510,9 +512,9 @@
         "status": {
             "busy": "Не узнемиравај",
             "invisible": "Невидљив",
-            "online": "Активан",
+            "online": "Онлајн",
             "idle": "Неактиван",
-            "offline": "Одустан"
+            "offline": "Офлајн"
         },
         "context_menu": {
             "copy_id": "Копирај ИД",

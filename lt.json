@@ -15,9 +15,9 @@
         "email": "El. paštas",
         "password": "Slaptažodis",
         "enter": {
-            "email": "Įveskite savo el. paštą.",
+            "email": "Įveskite el. pašto adresą.",
             "password": "Įveskite savo slaptažodį.",
-            "username": "Įveskite slapyvardį.",
+            "username": "Įveskite savo norimą slapyvardį.",
             "current_password": "Įveskite savo dabartinį slaptažodį.",
             "invite": "Įveskite kvietimo slaptažodį."
         },
@@ -40,7 +40,7 @@
         "check_spam": "Patikrinkite „šlamšto“ („spam“) aplanką, jei nerandate laiško",
         "check_mail": "Patikrinkite savo el. paštą.",
         "resend": "Persiųsti patvirtinimo laišką.",
-        "missing_verification": "Negavote laiško?",
+        "missing_verification": "Trūksta el. pašto",
         "set_password": "Nustatyti naują slaptažodį.",
         "current_password": "Dabartinis slaptažodis",
         "invite": "Kvietimo kodas",
@@ -55,7 +55,8 @@
                 "edited": "(redaguota)",
                 "unknown_user": "<Nežinomas naudotojas>",
                 "start": {
-                    "group": "Čia yra jūsų pokalbio pradžia."
+                    "group": "Čia yra jūsų pokalbio pradžia.",
+                    "saved": "Tai jūsų užrašų pradžia."
                 },
                 "system": {
                     "channel_renamed": "{{user}} pervadino kanalą į {{name}}",
@@ -146,7 +147,8 @@
                 "voice_channel": "Balso kanalas",
                 "channel_description": "Kanalo aprašymas",
                 "custom_banner": "Pritaikyta reklamjuostė",
-                "description": "Serverio aprašymas"
+                "description": "Serverio aprašymas",
+                "category_name": "Kategorijos pavadinimas"
             }
         },
         "navigation": {
@@ -247,7 +249,7 @@
                 },
                 "external_links": {
                     "title": "Išorinės nuorodos gali būti pavojingos!",
-                    "short": "Ar tikrai norite eiti į: ",
+                    "short": "Ar tikrai norite eiti į:",
                     "trust_domain": "Pasitikėti šiuo domenu"
                 },
                 "token_reveal": "{{name}} žetonas"
@@ -297,6 +299,10 @@
                 "user_count": "{{member_count}} nauddotojai (-ų)",
                 "invalid": "Netinkamas pakvietimas!",
                 "invalid_desc": "Šis pakvietimas galbūt neegzistuoja arba neturite leidimo prisijungti."
+            },
+            "server-badges": {
+                "official": "Oficialus serveris",
+                "verified": "Patvirtintas serveris"
             }
         },
         "context_menu": {
@@ -508,7 +514,9 @@
                     "output_device": "Garsiakalbis / Ausinės",
                     "button_retry": "Pabandykite iš naujo",
                     "device_label_NA": "Nepaskelbta",
-                    "tip_retry": "Nesuteikėte prieigos prie savo mikrofono. Prašome {{retryBtn}}."
+                    "tip_retry": "Nesuteikėte prieigos prie savo mikrofono. Prašome {{retryBtn}}.",
+                    "button_grant": "Suteikti prieigą",
+                    "tip_grant_permission": "Turite suteikti prieigą prie garso nustatymų."
                 },
                 "theme_shop": {
                     "title": "Temų parduotuvė"
@@ -589,6 +597,15 @@
         },
         "permissions": {
             "required": "Reikalingi leidimai"
+        },
+        "home": {
+            "settings-tooltip": "Taip pat galite paspausti dešinįjį pelės klavišą ant naudotojo piktogramos, arba kairįjį, jei jau esate pagrindiniame puslapyje.",
+            "join-testers": "Prisijunkite prie testuotojų serverio",
+            "goto-testers": "Eiti į testuotojų serverį",
+            "donate": "Paaukoti REVOLT",
+            "feedback": "Parašyti atsiliepimą apie Revolt",
+            "settings": "Nustatymai",
+            "social": "Rasti serverių arba botų"
         }
     },
     "dayjs": {

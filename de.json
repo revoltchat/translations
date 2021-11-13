@@ -17,8 +17,8 @@
         "email": "E-Mail",
         "password": "Passwort",
         "enter": {
-            "username": "Gib einen Nutzernamen an.",
-            "email": "Gib eine E-Mail-Adresse an.",
+            "username": "Gib deinen bevorzugten Nutzernamen ein.",
+            "email": "Gib deine E-Mail-Adresse ein.",
             "password": "Gib ein Passwort an.",
             "current_password": "Gib dein aktuelles Passwort ein.",
             "invite": "Gib deinen Einladungscode ein."
@@ -41,7 +41,7 @@
         },
         "check_spam": "Schaue bitte in deinem Spamordner nach, wenn du sie nicht finden kannst",
         "resend": "Bestätigung erneut senden.",
-        "missing_verification": "Keine E-Mail?",
+        "missing_verification": "Fehlende E-Mail",
         "set_password": "Neues Passwort festlegen.",
         "current_password": "Aktuelles Passwort",
         "invite": "Einladungscode",
@@ -99,7 +99,8 @@
                 "unknown_user": "<Unbekannt>",
                 "edited": "(bearbeitet)",
                 "start": {
-                    "group": "Das ist der Anfang deiner Konversation."
+                    "group": "Das ist der Anfang deiner Konversation.",
+                    "saved": "Das ist der Anfang deiner Notizen."
                 },
                 "misc": {
                     "spoiler_attachment": "Spoiler",
@@ -142,8 +143,8 @@
                 },
                 "errors": {
                     "title": "Ups, hier ist nichts!",
-                    "nochannels": "Dieser Server hat keine Kanäle, oder Du hast keinen Zugriff auf die Kanäle.",
-                    "nochannel": "Kein Kanal"
+                    "nochannels": "Dieser Server hat keine Kanäle, oder du hast keinen Zugriff auf diese.",
+                    "nochannel": "Keine Kanäle"
                 }
             },
             "groups": {
@@ -162,7 +163,8 @@
                 "custom_banner": "Benutzerdefiniertes Banner",
                 "channel_type": "Kanaltyp",
                 "text_channel": "Textkanal",
-                "voice_channel": "Sprachkanal"
+                "voice_channel": "Sprachkanal",
+                "category_name": "Kategoriename"
             }
         },
         "context_menu": {
@@ -294,8 +296,8 @@
                 },
                 "external_links": {
                     "title": "Externe Links können gefährlich sein!",
-                    "short": "Bist du dir sicher, dass du weiterhin zu diesem Link gehen möchtest: ",
-                    "trust_domain": "Diesen Domain vertrauen"
+                    "short": "Möchten Sie wirklich zu:",
+                    "trust_domain": "Dieser Domain vertrauen"
                 },
                 "token_reveal": "Token von {{name}}"
             },
@@ -349,6 +351,10 @@
                 "user_count": "{{member_count}} Mitglieder",
                 "invalid": "Ungültige Einladung!",
                 "invalid_desc": "Die Einladung existiert möglicherweise nicht oder du bist nicht berechtigt beizutreten."
+            },
+            "server-badges": {
+                "official": "Offizieller Server",
+                "verified": "Verifizierter Server"
             }
         },
         "settings": {
@@ -490,7 +496,7 @@
                 },
                 "bots": {
                     "title": "Meine Bots",
-                    "create_bot": "Erstelle einen Bot",
+                    "create_bot": "Einen Bot erstellen",
                     "copy_invite": "Einladungslink kopieren",
                     "add": "Bot hinzufügen",
                     "token": "Token",
@@ -499,16 +505,18 @@
                     "public_bot": "Öffentlicher Bot",
                     "public_bot_desc": "Ob andere Benutzer diesen Bot einladen dürfen.",
                     "interactions_url": "Interaktions-URL",
-                    "reserved": "Hinweis: Dieses Feld ist für die Zukunft reserviert.",
-                    "unique_id": "Dies ist ein einzigartiger Erkenner für deinen Bot. Dies ist nicht der Bot Token."
+                    "reserved": "Hinweis: Dieses Feld ist für die Zukünftige Features reserviert.",
+                    "unique_id": "Dies ist eine eindeutige Kennung für Ihren Bot. Dies ist nicht der Bot Token."
                 },
                 "audio": {
                     "title": "Spracheinstellungen",
                     "output_device": "Ausgabegerät",
                     "input_device": "Eingabegerät",
-                    "tip_retry": "Du hast keine Berechtigungen gegeben, auf dein Mikrofon zuzugreifen, bitte {{retryBtn}}.",
+                    "tip_retry": "Du hast nicht die Berechtigung zum Zugriff auf dein Mikrofon gegeben, bitte {{retryBtn}}.",
                     "device_label_NA": "Nicht verfügbar",
-                    "button_retry": "Erneut versuchen"
+                    "button_retry": "Erneut versuchen",
+                    "tip_grant_permission": "Sie müssen die Berechtigung für den Zugriff auf die Audioeinstellungen erteilen.",
+                    "button_grant": "Berechtigung erteilen"
                 },
                 "theme_shop": {
                     "title": "Themen Shop"
@@ -590,6 +598,15 @@
         },
         "permissions": {
             "required": "Keine Berechtigung"
+        },
+        "home": {
+            "join-testers": "Treten Sie dem Tester-Server bei",
+            "goto-testers": "Gehe zum Tester-Server",
+            "donate": "Spende für die Revolt",
+            "feedback": "Gib Feedback zu Revolt",
+            "settings": "Einstellungen",
+            "settings-tooltip": "Sie können auch mit der rechten Maustaste auf das Benutzersymbol oben links klicken oder mit der linken Maustaste darauf klicken, wenn Sie bereits zu Hause sind.",
+            "social": "Server und Bots finden"
         }
     },
     "dayjs": {

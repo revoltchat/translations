@@ -121,6 +121,10 @@
                         "latest": "Terkini",
                         "oldest": "Tertua"
                     }
+                },
+                "errors": {
+                    "nochannel": "Tiada siaran",
+                    "title": "Oops, tiada apa-apa disini!"
                 }
             },
             "categories": {
@@ -145,7 +149,8 @@
                 "text_channel": "Saluran Teks",
                 "voice_channel": "Saluran Suara",
                 "description": "Penerangan server",
-                "channel_description": "Penerangan Saluran"
+                "channel_description": "Penerangan Saluran",
+                "category_name": "Nama Kategori"
             }
         },
         "settings": {
@@ -187,7 +192,9 @@
                 "audio": {
                     "title": "Tetapan Suara",
                     "input_device": "Mikrofon",
-                    "output_device": "Pembesar suara / Alat dengar"
+                    "output_device": "Pembesar suara / Alat dengar",
+                    "button_retry": "Cuba semula",
+                    "device_label_NA": "N/A"
                 },
                 "appearance": {
                     "title": "Penampilan",
@@ -284,7 +291,10 @@
                     "bug": "Penjejak Bug",
                     "bug_desc": "Lihat laporan pepijat yang sedang aktif di sini."
                 },
-                "logOut": "Log Keluar"
+                "logOut": "Log Keluar",
+                "theme_shop": {
+                    "title": "Kedai Tema"
+                }
             },
             "title": "Tetapan",
             "categories": {
@@ -486,7 +496,10 @@
                 "invalid": "Pautan jemputan tidak sah!",
                 "invalid_desc": "Pautan jemputan ini mungkin tidak sah atau anda tiada kebenaran untuk masuk."
             },
-            "copy_username": "Klik untuk menyalin nama pengguna"
+            "copy_username": "Klik untuk menyalin nama pengguna",
+            "server-badges": {
+                "official": "Pelayan Rasmi"
+            }
         },
         "context_menu": {
             "copy_id": "Salin ID",
@@ -542,11 +555,16 @@
         },
         "permissions": {
             "required": "Kebenaran diperlukan"
+        },
+        "home": {
+            "donate": "Derma kepada Revolt",
+            "settings": "Tetapan",
+            "social": "Cari pelayan & bot"
         }
     },
     "general": {
         "image_by": "Imej oleh",
-        "about": "Tentang",
+        "about": "Mengenai",
         "tos": "Syarat Perkhidmatan",
         "privacy": "Dasar Privasi",
         "loading": "Memuat…",

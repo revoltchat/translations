@@ -65,7 +65,7 @@
                 "external_links": {
                     "title": "Link-urile externe pot fi periculoase!",
                     "trust_domain": "Oferă încredere acestui domeniu",
-                    "short": "Ești sigur că vrei să mergi la: "
+                    "short": "Vei merge la acest link:"
                 }
             },
             "status": {
@@ -93,7 +93,7 @@
                     "badges": {
                         "translator": "Traducător/oare",
                         "supporter": "Susținător/oare",
-                        "early_adopter": "Adoptor Timpuriu",
+                        "early_adopter": "Adoptator Timpuriu",
                         "responsible_disclosure": "Bug (bug-uri) dezvăluit(e) în mod responsabil"
                     },
                     "sub": {
@@ -132,6 +132,10 @@
                 "user_count": "{{member_count}} (de) utilizatori",
                 "invalid_desc": "Este posibil ca invitația să nu existe sau să nu ai permisiunea de a te alătura.",
                 "invalid": "Invitație invalidă!"
+            },
+            "server-badges": {
+                "official": "Server oficial",
+                "verified": "Server verificat"
             }
         },
         "settings": {
@@ -291,7 +295,9 @@
                     "output_device": "Difuzor / Căști",
                     "device_label_NA": "N/A",
                     "button_retry": "încearcă din nou",
-                    "tip_retry": "Nu ai acordat permisiunea de a accesa microfonul, te rugăm să {{retryBtn}}."
+                    "tip_retry": "Nu ai acordat permisiunea de a accesa microfonul, te rugăm să {{retryBtn}}.",
+                    "tip_grant_permission": "Trebuie să acorzi permisiunea de a accesa setările audio.",
+                    "button_grant": "Acordă permisiunea"
                 },
                 "theme_shop": {
                     "title": "Magazin de teme"
@@ -401,7 +407,8 @@
                 "message_saved": "Salvează în notițele tale",
                 "edited": "(editat)",
                 "start": {
-                    "group": "Acesta este începutul conversației tale."
+                    "group": "Acesta este începutul conversației tale.",
+                    "saved": "Acesta este începutul notelor tale."
                 },
                 "attached_file": "{{filename}} atașat",
                 "message_who": "Trimite un mesaj către {{person}}",
@@ -467,7 +474,8 @@
                 "custom_banner": "Afiș personalizat",
                 "voice_channel": "Canal de Voce",
                 "text_channel": "Canal de Text",
-                "channel_type": "Tipul canalului"
+                "channel_type": "Tipul canalului",
+                "category_name": "Denumirea categoriei"
             }
         },
         "navigation": {
@@ -540,6 +548,15 @@
         },
         "permissions": {
             "required": "Sunt necesare permisiuni"
+        },
+        "home": {
+            "donate": "Donează pentru Revolt",
+            "join-testers": "Alătură-te serverului de testeri",
+            "goto-testers": "Mergi la serverul testerilor",
+            "feedback": "Spune-ne ce părere ai despre Revolt",
+            "settings": "Setări",
+            "settings-tooltip": "De asemenea, poți face clic dreapta pe pictograma utilizatorului din stânga sus sau clic stânga pe ea dacă ești deja acasă.",
+            "social": "Găsește servere și boți"
         }
     },
     "login": {
@@ -555,7 +572,7 @@
         "check_mail": "Verifică-ți emailul.",
         "cancel": "Anulează autentificarea.",
         "resend": "Retrimite confirmarea.",
-        "missing_verification": "Fără email?",
+        "missing_verification": "Lipsește e-mailul",
         "create": "Creează un cont nou.",
         "existing": "Ai deja un cont?",
         "new": "Prima oară pe Revolt?",
@@ -568,7 +585,7 @@
             "invite": "Introdu codul de invitație.",
             "password": "Introdu parola.",
             "email": "Introdu adresa de email.",
-            "username": "Introdu un nume de utilizator."
+            "username": "Introduce-ți numele de utilizator preferat."
         },
         "current_password": "Parola actuală",
         "invite": "Cod de invitație",
@@ -693,6 +710,10 @@
             "View": {
                 "d": "Permite membrilor să vizualizeze toate canalele pentru care au această permisiune.",
                 "t": "Vezi Canalul"
+            },
+            "Masquerade": {
+                "t": "Mascare",
+                "d": "Permite membrilor să își schimbe numele și avatarul pentru fiecare mesaj."
             }
         },
         "server": {

@@ -6,20 +6,20 @@
                 "system": {
                     "user_joined": "{{user}} se ha unido",
                     "user_left": "{{user}} se ha ido",
-                    "added_by": "{{other_user}} ha añadido {{user}}",
-                    "removed_by": "{{other_user}} ha eliminado {{user}}",
-                    "channel_renamed": "{{user}} renombrado el canal a {{name}}",
+                    "added_by": "{{user}} fue añadido por {{other_user}}",
+                    "removed_by": "{{user}} fue eliminado por {{other_user}}",
+                    "channel_renamed": "{{user}} renombró el canal a {{name}}",
                     "channel_description_changed": "{{user}} cambió la descripción del canal",
                     "channel_icon_changed": "{{user}} cambió el icono de canal",
-                    "user_kicked": "{{user}} ha sido expulsado",
-                    "user_banned": "{{user}} ha sido baneado"
+                    "user_kicked": "{{user}} fue expulsado",
+                    "user_banned": "{{user}} fue baneado"
                 },
                 "message_where": "Enviar un mensaje en {{channel_name}}",
                 "bot": "Bot",
                 "unknown_user": "<Usuario desconocido>",
                 "message_saved": "Guardar en tus notas",
                 "uploading_file": "Subiendo…",
-                "failed_upload": "¡Error al subir el archivo!",
+                "failed_upload": "¡Error en subir!",
                 "attached_file": "{{filename}} adjuntado",
                 "typing": {
                     "single": "{{user}} está escribiendo…",
@@ -28,14 +28,15 @@
                 },
                 "message_who": "Enviar un mensaje a {{person}}",
                 "start": {
-                    "group": "Este es el comienzo de la conversación."
+                    "group": "Este es el comienzo de la conversación.",
+                    "saved": "Este es el comienzo de tus notas."
                 },
                 "edited": "(editado)",
                 "voice": {
                     "connected": "Conectado a voz",
                     "leave": "Salir",
                     "mute": "Silenciar",
-                    "unmute": "Desactivar Silencio"
+                    "unmute": "Quitar silencio"
                 },
                 "misc": {
                     "viewing_old": "Viendo mensajes antiguos",
@@ -44,7 +45,7 @@
                     "blocked_messages": "{{count}} mensajes bloqueados",
                     "failed_load": "No se pudo cargar el mensaje.",
                     "no_sending": "No tienes permiso para enviar mensajes en este canal.",
-                    "blocked_user": "Usuario bloqueado",
+                    "blocked_user": "Usuario Bloqueado",
                     "sent_file": "Envió un archivo",
                     "sent_multiple_files": "Envió múltiples archivos"
                 },
@@ -98,7 +99,8 @@
                 "channel_name": "Nombre del canal",
                 "channel_description": "Descripción del canal",
                 "custom_banner": "Portada personalizada",
-                "owner": "Propietario del servidor"
+                "owner": "Propietario del servidor",
+                "category_name": "Nombre de categoría"
             }
         },
         "navigation": {
@@ -135,14 +137,14 @@
                     "change_field": "Cambiar",
                     "unique_id": "Este es un identificador de usuario único para tu cuenta.",
                     "2fa": {
-                        "title": "Autentificacion de 2 factores",
-                        "add_auth": "Agregar autentificador",
-                        "remove_auth": "Eliminar autentificador",
+                        "title": "Autenticación de dos pasos",
+                        "add_auth": "Añadir autenticador",
+                        "remove_auth": "Eliminar autenticador",
                         "description": "Agrega una capa adicional de seguridad activando la función 2FA en tu cuenta."
                     },
                     "manage": {
                         "title": "Administrar cuenta",
-                        "description": "Deshabilita o elimina tu cuenta en cualquier momento. Esta acción cerrará la sesión y eliminará por completo tu cuenta, incluido tu historial de chat y amigos.",
+                        "description": "Deshabilita o elimina tu cuenta en cualquier momento. Esta acción cerrará la sesión y eliminará tu cuenta por completo, incluido tu historial de chat y amigos.",
                         "disable": "Deshabilitar cuenta",
                         "delete": "Borrar cuenta"
                     }
@@ -186,10 +188,10 @@
                     "other": "Otro",
                     "describe": "Por favor describe el problema.",
                     "suggest": "Enviar sugerencia de una característica",
-                    "issue": "Crear un nuevo problema",
+                    "issue": "Abrir un nuevo problema",
                     "suggest_desc": "Sugerir nuevas características de Revolt en discusiones de GitHub.",
                     "bug_desc": "Ver informes de errores activos actualmente aquí.",
-                    "issue_desc": "Para ayudarnos a clasificar los problemas con mayor facilidad, puede crear un problema en GitHub."
+                    "issue_desc": "Para ayudarnos a clasificar los problemas con mayor facilidad, puedes abrir un problema en GitHub."
                 },
                 "appearance": {
                     "theme_data": "Datos de tema",
@@ -216,11 +218,11 @@
                     "custom_css": "CSS personalizado",
                     "sync": "Sincronizar opciones",
                     "advanced": "Opciones avanzadas",
-                    "import_theme": "Importar tema desde linea de texto",
+                    "import_theme": "Importar tema desde línea de texto",
                     "font": "Fuente",
                     "ligatures": "Ligaduras de fuentes",
                     "mono_font": "Selector de fuente monoespaciado",
-                    "ligatures_desc": "En los tipos de letra compatibles, las ligaduras combinan caracteres, por ejemplo, convirtiendo -> en una flecha. Cambia a Inter y pruebe a activar esta opción.",
+                    "ligatures_desc": "En los tipos de letra compatibles, las ligaduras combinan caracteres, por ejemplo, convirtiendo -> en una flecha. Cambia a Inter y prueba a activar esta opción.",
                     "import": "Importar un tema"
                 },
                 "logOut": "Cerrar sesión",
@@ -251,7 +253,7 @@
                     "add": "Agregar bot",
                     "token": "Token",
                     "public_bot_tip": "El bot es público. Cualquiera puede invitarlo.",
-                    "private_bot_tip": "El bot es privado. Sólo tú puedes invitarlo.",
+                    "private_bot_tip": "El bot es privado. Solo tú puedes invitarlo.",
                     "public_bot": "Bot público",
                     "interactions_url": "Interacciones de URL",
                     "reserved": "Nota: Este campo está reservado para el futuro.",
@@ -263,12 +265,14 @@
                     "title": "Opciones de escritorio"
                 },
                 "audio": {
-                    "title": "Opciones de voz",
+                    "title": "Ajustes de voz",
                     "output_device": "Altavoz / Auriculares",
                     "input_device": "Micrófono",
                     "device_label_NA": "No disponible",
                     "button_retry": "reintentar",
-                    "tip_retry": "No diste permiso para acceder a su micrófono, Por favor {{retryBtn}}."
+                    "tip_retry": "No diste permiso para acceder a tu micrófono, por favor {{retryBtn}}.",
+                    "tip_grant_permission": "Se debe conceder permiso para acceder a los ajustes de audio.",
+                    "button_grant": "Conceder permiso"
                 },
                 "theme_shop": {
                     "title": "Tienda de temas"
@@ -295,11 +299,11 @@
                 },
                 "languages": {
                     "a": "¿Falta algún idioma que quieres?",
-                    "b": "Ayuda contribuyendo traducciones."
+                    "b": "Ayuda contribuyendo con las traducciones."
                 },
                 "sessions": {
                     "a": "Si ves una sesión desconocida en la lista,",
-                    "b": "mejora tu seguridad cambiando tu contraseña y activando la autentificación de dos factores."
+                    "b": "protege tu cuenta cambiando la contraseña y activando la autenticación de dos factores."
                 }
             },
             "actions": {
@@ -315,11 +319,11 @@
                     "system_messages": "Canales de mensajes del sistema"
                 },
                 "bans": {
-                    "title": "Baneados",
+                    "title": "Vetos",
                     "revoke": "Revocar",
-                    "no_reason": "Sin motivo de baneo.",
+                    "no_reason": "Sin motivo del veto.",
                     "user": "Usuario",
-                    "reason": "Razón de baneo"
+                    "reason": "Motivo del veto"
                 },
                 "members": {
                     "title": "Miembros"
@@ -350,7 +354,7 @@
             "offline": "Desconectado",
             "idle": "Ausente",
             "busy": "No molestar",
-            "invisible": "Invisible",
+            "invisible": "No visible",
             "online": "Conectado"
         },
         "context_menu": {
@@ -401,15 +405,15 @@
             "open_notification_options": "Opciones de notificaciones",
             "open_server_settings": "Configuración del servidor",
             "copy_sid": "Copiar ID del servidor",
-            "copy_message_link": "Copiar enlace del mensaje",
-            "edit_identity": "Editar identidad",
+            "copy_message_link": "Copiar link del mensaje",
+            "edit_identity": "Editar perfil del servidor",
             "create_category": "Crear categoría"
         },
         "special": {
             "modals": {
                 "onboarding": {
                     "welcome": "Bienvenido a",
-                    "pick": "Elige un nombre de usuario por el que quieras que la gente pueda encontrarte, esto se puede cambiar más tarde en la configuración."
+                    "pick": "Elige un nombre de usuario por el cual quisieras que la gente pueda encontrarte, esto se puede cambiar más tarde en la configuración."
                 },
                 "account": {
                     "failed": "¡Se ha producido un error al guardar los cambios!",
@@ -420,21 +424,21 @@
                     }
                 },
                 "prompt": {
-                    "confirm_leave_long": "No podrás volver a entrar a no ser que seas invitado de nuevo.",
+                    "confirm_leave_long": "No podrás volver a entrar a menos que te inviten de nuevo.",
                     "confirm_leave": "¿Dejar {{name}}?",
-                    "unfriend_user_long": "Es posible que no pueda volver a hablar con ellos hasta que los vuelva a agregar.",
+                    "unfriend_user_long": "Es posible que no puedas volver a hablar con ellos hasta que los vuelvas a añadir.",
                     "block_user": "¿Bloquear a {{name}}?",
                     "unfriend_user": "¿Eliminar a {{name}}?",
                     "block_user_long": "¿Estás seguro de que quieres bloquear a {{name}}? También se eliminará de tu lista de amigos.",
                     "confirm_close_dm": "¿Cerrar conversación con {{name}}?",
-                    "confirm_delete_message_long": "¿Estás seguro de que quieres eliminar esto?",
+                    "confirm_delete_message_long": "¿Estás seguro que quieres eliminar esto?",
                     "confirm_kick": "¿Estás seguro de que quieres expulsar a {{name}}?",
-                    "confirm_ban_reason": "Motivo de baneo",
-                    "confirm_delete_long": "Una vez que se elimina, no hay vuelta atrás.",
-                    "confirm_ban": "Estás a punto de banear a {{name}}",
+                    "confirm_ban_reason": "Motivo del veto",
+                    "confirm_delete_long": "Una vez borrado, no hay vuelta atrás.",
+                    "confirm_ban": "Estás a punto de vetar a {{name}}",
                     "create_invite_created": "Aquí está tu nuevo código de invitación:",
                     "confirm_delete": "¿Eliminar {{name}}?",
-                    "confirm_close_dm_long": "Puede volver a abrirlo más tarde, pero desaparece por ambos lados.",
+                    "confirm_close_dm_long": "Puedes volver a abrirlo más tarde, pero desaparecerá en ambos lados.",
                     "create_invite_generate": "Generando invitación…"
                 },
                 "error": "¡Se ha producido un error!",
@@ -450,7 +454,7 @@
                     "continue": "Continuar",
                     "reveal": "Revelar",
                     "create": "Crear",
-                    "ban": "Banear",
+                    "ban": "Vetar",
                     "kick": "Expulsar",
                     "block": "Bloquear",
                     "leave": "Salir",
@@ -516,7 +520,7 @@
                     "failed": "¡Se ha producido un error al crear el bot!"
                 },
                 "server_identity": {
-                    "title": "Cambiar identidad en el servidor {{server}}",
+                    "title": "Cambiar perfil en el servidor {{server}}",
                     "nickname": "Apodo",
                     "avatar": "Avatar"
                 }
@@ -528,7 +532,7 @@
                 "reconnecting": "Reconectando…"
             },
             "requires_online": "Necesitas estar conectado para ver esto.",
-            "copy_username": "Haz click para copiar el nombre de usuario",
+            "copy_username": "Haz clic para copiar el nombre de usuario",
             "copy": "Haz clic para copiar",
             "invite": {
                 "invited_by": "Invitado por {{user}}",
@@ -537,10 +541,23 @@
                 "login": "Iniciar sesión en Revolt",
                 "invalid": "¡Invitación inválida!",
                 "invalid_desc": "Puede que la invitación no exista o que no tengas permiso para unirte."
+            },
+            "server-badges": {
+                "official": "Servidor oficial",
+                "verified": "Servidor verificado"
             }
         },
         "permissions": {
             "required": "Permisos requeridos"
+        },
+        "home": {
+            "join-testers": "Unirse al servidor de pruebas",
+            "goto-testers": "Ir al servidor de probadores",
+            "donate": "Donar a Revolt",
+            "feedback": "Dar una opinión sobre Revolt",
+            "settings": "Ajustes",
+            "settings-tooltip": "También puedes hacer clic con el botón derecho del ratón en el icono de usuario de la parte superior izquierda, o con el botón izquierdo si ya estás en el inicio.",
+            "social": "Buscar servidores y bots"
         }
     },
     "login": {
@@ -548,45 +565,45 @@
         "new": "¿Nuevo en Revolt?",
         "forgot": "¿Olvidaste tu contraseña?",
         "enter": {
-            "password": "Introduce tu contraseña.",
+            "password": "Pon tu contraseña.",
             "email": "Introduce tu correo electrónico.",
-            "current_password": "Introduce tu contraseña actual.",
-            "invite": "Ingresa tu código de invitación.",
-            "username": "Introduce un nombre de usuario."
+            "current_password": "Coloca tu contraseña actual.",
+            "invite": "Introduce tu código de invitación.",
+            "username": "Introduce tu nombre de usuario preferido."
         },
         "password": "Contraseña",
         "email": "Correo electrónico",
         "title": "Iniciar sesión",
         "error": {
             "login": "¡Error al iniciar sesión!",
-            "create": "¡Se ha producido un problema al registrarse!",
-            "reset": "¡No se pudo restablecer!",
+            "create": "¡Error al registrarse!",
+            "reset": "¡No se pudo reiniciar!",
             "resend": "¡No se pudo reenviar!"
         },
         "successful_registration": "¡Registrado exitosamente!",
         "open_mail_provider": "Abrir {{provider}}",
-        "check_spam": "Asegúrate de revisar el correo no deseado si no puede encontrarlo",
+        "check_spam": "Asegúrate de revisar spam si no puedes encontrarlo",
         "check_mail": "Revisa tu correo.",
         "cancel": "Cancelar solicitud.",
         "resend": "Reenviar verificación.",
-        "missing_verification": "¿No tienes un correo electrónico?",
+        "missing_verification": "Falta el correo electrónico",
         "existing": "¿Ya tienes una cuenta?",
-        "remembered": "Iniciar sesión.",
+        "remembered": "Regresar a iniciar sesión.",
         "set_password": "Establecer nueva contraseña.",
-        "reset": "Restablecer contraseña.",
+        "reset": "Reiniciar contraseña.",
         "current_password": "Contraseña actual",
         "invite": "Código de invitación",
-        "username": "Nombre de usuario",
-        "register": "Registro",
-        "email_delay": "Espere hasta 10 minutos para que llegue."
+        "username": "Nombre del usuario",
+        "register": "Registrarse",
+        "email_delay": "Espera 10 minutos hasta que llegue."
     },
     "general": {
         "image_by": "Imagen de",
-        "privacy": "Política de privacidad",
-        "tos": "Condiciones de servicio",
-        "about": "Sobre",
+        "privacy": "Política de Privacidad",
+        "tos": "Términos de Servicio",
+        "about": "Acerca de",
         "loading": "Cargando…",
-        "on": "Activado",
+        "on": "Activo",
         "off": "Desactivado",
         "disabled": "Deshabilitado",
         "unavailable": "No disponible"
@@ -601,7 +618,7 @@
         "defaults": {
             "date_separator": "/",
             "twelvehour": "no",
-            "date_format": "traditional"
+            "date_format": "tradicional"
         }
     },
     "quantities": {
@@ -611,7 +628,7 @@
         }
     },
     "notifications": {
-        "now_friends": "¡Ahora eres amigo de @{{person}} amigos!",
+        "now_friends": "¡Ahora eres amigo de @{{person}}!",
         "sent_request": "@{{person}} te envió una solicitud de amistad."
     },
     "error": {
@@ -624,7 +641,7 @@
         "MissingHeaders": "Faltan cabeceras.",
         "InvalidSession": "Sesión invalida.",
         "UsernameTaken": "Este nombre de usuario ya está en uso.",
-        "InvalidEmail": "Dirección de correo electrónico no válida",
+        "InvalidEmail": "Dirección de correo electrónico inválida",
         "UnsupportedBrowser": "Tu navegador no tiene soporte para esta característica.",
         "DeniedNotification": "Ha denegado el acceso a las notificaciones, comprueba la configuración de la página.",
         "RenderFail": "La representación de la plantilla ha fallado.",
@@ -636,13 +653,13 @@
         "FailedValidation": "No se han podido validar los campos.",
         "DatabaseError": "Error en la base de datos.",
         "AlreadyFriends": "Ya eres amigo de este usuario.",
-        "AlreadySentRequest": "Ya has enviado una solicitud a este usuario.",
+        "AlreadySentRequest": "Ya enviaste una solicitud a este usuario.",
         "Blocked": "Has bloqueado a este usuario.",
         "BlockedOther": "Este usuario te ha bloqueado.",
         "NoEffect": "Esta petición no surtió efecto.",
         "FailedToReceive": "El servidor no ha recibido tu archivo.",
         "ProbeError": "Fallo en la obtención de los metadatos del archivo.",
-        "IoError": "El servidor ha encontrado un error de E/S.",
+        "IoError": "El servidor ha encontrado un error E/S.",
         "UnknownError": "Ver consola.",
         "OperationFailed": "Operación fallida.",
         "UnverifiedAccount": "Cuenta no verificada.",
@@ -662,7 +679,7 @@
         "channel": {
             "ManageMessages": {
                 "t": "Administrar mensajes",
-                "d": "Permite a los miembros eliminar los mensajes enviados por otros miembros."
+                "d": "Permite los miembros eliminar los mensajes enviados por otros miembros."
             },
             "SendMessage": {
                 "t": "Enviar mensajes",
@@ -673,15 +690,15 @@
                 "t": "Ver canal"
             },
             "ManageChannel": {
-                "t": "Gestionar canales",
-                "d": "Permite a los miembros editar o eliminar un canal."
+                "t": "Manejar canales",
+                "d": "Permite los miembros editar o eliminar un canal."
             },
             "VoiceCall": {
                 "t": "Llamada de voz",
-                "d": "Permite a los miembros unirse a los canales de voz."
+                "d": "Permite miembros unirse a canales de voz."
             },
             "InviteOthers": {
-                "t": "Cambiar apodo",
+                "t": "Invitar a otros",
                 "d": "Permite a los miembros invitar a otros usuarios a un canal."
             },
             "EmbedLinks": {
@@ -690,7 +707,7 @@
             },
             "UploadFiles": {
                 "t": "Subir archivos",
-                "d": "Permite a los miembros adjuntar archivos en canales de texto."
+                "d": "Permite a los miembros subir archivos en canales de texto."
             }
         },
         "server": {
@@ -707,24 +724,24 @@
                 "t": "Banear miembros"
             },
             "RemoveAvatars": {
-                "d": "Permite a los miembros eliminar los avatares del servidor de otros miembros en este servidor.",
+                "d": "Permite a los miembros eliminar los avatares de otros miembros en este servidor.",
                 "t": "Eliminar avatares"
             },
             "ChangeAvatar": {
                 "d": "Permite a los miembros cambiar su avatar en este servidor.",
-                "t": "Cambiar avatar"
+                "t": "Editar avatar"
             },
             "ManageServer": {
                 "t": "Administrar servidor",
-                "d": "Permite a los miembros cambiar el nombre, la descripción, el icono y otra información relacionada de este servidor."
+                "d": "Permite a los miembros cambiar el nombre, la descripción, el icono y otra información del servidor."
             },
             "ManageChannels": {
                 "t": "Administrar canales",
                 "d": "Permite a los miembros crear, editar y eliminar canales."
             },
             "ManageRoles": {
-                "t": "Administrar roles",
-                "d": "Permite a los miembros crear, editar y eliminar roles con un rango inferior al tuyo. También les permite modificar los permisos de los roles en los canales."
+                "t": "Manejar roles",
+                "d": "Permite miembros crear, editar y eliminar roles con un rango menor al tuyo. También permite modificar los permisos de roles en canales."
             },
             "KickMembers": {
                 "t": "Expulsar miembros",

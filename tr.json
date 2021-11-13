@@ -17,8 +17,8 @@
             "delete_message": "Mesajı sil",
             "remove_member": "Gruptan çıkar",
             "open_file": "Dosyayı aç",
-            "open_image": "Resmi aç",
-            "save_image": "Resmi kaydet",
+            "open_image": "Görseli aç",
+            "save_image": "Görseli kaydet",
             "open_video": "Videoyu aç",
             "save_video": "Videoyu kaydet",
             "block_user": "Kullanıcıyı engelle",
@@ -63,7 +63,7 @@
             "tabs": {
                 "home": "Ana Sayfa",
                 "friends": "Arkadaşlar",
-                "unreads": "Okunmayanlar",
+                "unreads": "Okunmamışlar",
                 "saved": "Kaydedilen Notlar",
                 "dev": "Geliştirici"
             }
@@ -77,7 +77,7 @@
             },
             "channel": {
                 "message_where": "{{channel_name}} kanalına mesaj gönder",
-                "message_who": "{{person}} üyesine mesaj gönder",
+                "message_who": "{{person}} kişisine mesaj gönder",
                 "uploading_file": "Yükleniyor…",
                 "failed_upload": "Dosya yüklenemedi!",
                 "attached_file": "{{filename}} eklendi",
@@ -99,9 +99,10 @@
                 },
                 "unknown_user": "<Bilinmeyen Kullanıcı>",
                 "bot": "bot‎",
-                "message_saved": "Notlarınıza Kaydedin",
+                "message_saved": "Notlarına kaydet",
                 "start": {
-                    "group": "Bu konuşmanızın başlangıcıdır."
+                    "group": "Bu, konuşmanızın başlangıcıdır.",
+                    "saved": "Bu, notlarınızın başlangıcıdır."
                 },
                 "edited": "(düzenlendi)",
                 "voice": {
@@ -165,7 +166,8 @@
                 "channel_description": "Kanal Açıklaması",
                 "channel_type": "Kanal Türü",
                 "text_channel": "Metin Kanalı",
-                "voice_channel": "Ses Kanalı"
+                "voice_channel": "Ses Kanalı",
+                "category_name": "Kategori Adı"
             }
         },
         "settings": {
@@ -179,7 +181,7 @@
                     "title": "Hesabım",
                     "change_field": "Değiştir",
                     "manage": {
-                        "description": "Hesabınızı istediğiniz zaman devre dışı bırakın veya silin. Bu eylem oturumunuzu kapatacak ve sohbet geçmişiniz ve arkadaşlarınız da dahil olmak üzere hesabınızı tamamen silecektir.",
+                        "description": "Hesabınızı istediğiniz zaman devre dışı bırakın veya silin. Bu eylem oturumunuzu kapatacak, sohbet geçmişiniz ve arkadaşlarınız da dahil olmak üzere hesabınızı tamamen silecektir.",
                         "title": "Hesap Yönetimi",
                         "delete": "Hesabı sil",
                         "disable": "Hesabı devre dışı bırak"
@@ -195,7 +197,7 @@
                 "sessions": {
                     "title": "Oturumlar",
                     "this_device": "Bu Cihaz",
-                    "created": "{{time_ago}} oluşturuldu",
+                    "created": "{{time_ago}} önce oluşturuldu",
                     "active_sessions": "Aktif Oturumlar",
                     "logout": "Diğer tüm oturumlardan çıkış yapın"
                 },
@@ -206,7 +208,7 @@
                     "import_manual": "El ile içe aktarın",
                     "theme_data": "Tema Verileri",
                     "overrides": "Tema Ayarları",
-                    "reset_overrides": "Temayı Sıfırla",
+                    "reset_overrides": "Geçerli kılmaları sıfırla",
                     "import_theme": "Temayı dizeden içe aktarın",
                     "display": {
                         "compact_description": "Eski güzel IRC.",
@@ -219,14 +221,14 @@
                         "light": "aydınlık",
                         "dark": "koyu"
                     },
-                    "message_display": "Mesaj Ekranı",
+                    "message_display": "Mesaj Görünümü",
                     "custom_css": "Özel CSS",
                     "sync": "Senkronizasyon Ayarları",
                     "advanced": "Gelişmiş Ayarlar",
                     "accent_selector": "Vurgu Rengi",
                     "emoji_pack": "Emoji Paketi",
                     "font": "Yazı tipi",
-                    "ligatures_desc": "Desteklenen yazı tipleri için bitişik harfler karakterleri birleştirir, örneğin -> oka dönüştürerek. Inter'e geçin ve bu seçeneği değiştirmeyi deneyin.",
+                    "ligatures_desc": "Desteklenen yazı tipleri için bitişik harfler karakterleri birleştirir, örneğin -> bir oka dönüşür. Inter'e geçin ve bu seçeneği değiştirmeyi deneyin.",
                     "mono_font": "Monoscape Yazı Tipi Seçici",
                     "ligatures": "Yazı Tipi İçin Bitişik Harfler",
                     "import": "Bir temayı içe aktar"
@@ -243,7 +245,7 @@
                     },
                     "enable_desktop": "Masaüstü Bildirimlerini Etkinleştirin.",
                     "enable_push": "Anında İleti Bildirimlerini Etkinleştirin.",
-                    "push_notifications": "Anlık Bildirim",
+                    "push_notifications": "Anlık Bildirimler",
                     "sounds": "Sesler",
                     "sound": {
                         "message": "Mesaj Alındı",
@@ -271,7 +273,7 @@
                     "describe": "Lütfen sorunu belirtin.",
                     "send": "Geri bildirim Gönder",
                     "suggest": "Özellik tavsiyesi gönder",
-                    "suggest_desc": "GitHub tartışmalarından yeni Revolt özellikleri önerin.",
+                    "suggest_desc": "GitHub tartışmalarında yeni Revolt özellikleri önerin.",
                     "issue": "Yeni bir konu oluştur",
                     "issue_desc": "Sorunları daha kolay öncelik sırasına koymamıza yardımcı olmak için GitHub'da bir konu oluşturabilirsiniz.",
                     "bug_desc": "Şu anda aktif olan hata raporlarını buradan görüntüleyin."
@@ -313,7 +315,7 @@
                 "bots": {
                     "title": "Botlarım",
                     "create_bot": "Bot Oluştur",
-                    "public_bot_tip": "Bot halka açıktır. Herkes botu davet edebilir.",
+                    "public_bot_tip": "Bot herkese açıktır. Herkes botu davet edebilir.",
                     "public_bot_desc": "Botu diğer kullanıcıların davet etmesine izin verip vermemek içindir.",
                     "copy_invite": "Davet Bağlantısını Kopyala",
                     "add": "Bot Ekle",
@@ -330,7 +332,9 @@
                     "output_device": "Hoparlör / Kulaklık",
                     "button_retry": "tekrar dene",
                     "device_label_NA": "Yok",
-                    "tip_retry": "Mikrofonunuza erişim izni vermediniz, lütfen {{retryBtn}}."
+                    "tip_retry": "Mikrofonunuza erişim izni vermediniz, lütfen {{retryBtn}}.",
+                    "tip_grant_permission": "Ses ayarlarına izin vermeniz gerekiyor.",
+                    "button_grant": "İzin ver"
                 },
                 "theme_shop": {
                     "title": "Tema Mağazası"
@@ -487,7 +491,7 @@
                 },
                 "external_links": {
                     "title": "Harici bağlantılar tehlikeli olabilir!",
-                    "short": "Şuraya gitmek istediğinize emin misin: ",
+                    "short": "Bu bağlantıya gidiyorsunuz:",
                     "trust_domain": "Bu alan adına güven"
                 },
                 "token_reveal": "{{name}}'nın Token'i"
@@ -503,7 +507,7 @@
                         "translator": "Çevirmen",
                         "early_adopter": "Erken Benimseyen",
                         "supporter": "Destekçi",
-                        "responsible_disclosure": "Sorumlu Bir Şekilde Açıklanan Hata(lar)"
+                        "responsible_disclosure": "Sorumluluk Sahibi Hata Bulucusu"
                     },
                     "sub": {
                         "connections": "Bağlantılar",
@@ -534,18 +538,31 @@
                 "invited_by": "{{user}} tarafından davet edildi",
                 "login": "Revolt'a Giriş Yap",
                 "accept": "Daveti Kabul Et",
-                "user_count": "{{member_count}} üye",
+                "user_count": "{{member_count}} kullanıcı",
                 "invalid": "Geçersiz davet!",
                 "invalid_desc": "Davet mevcut olmayabilir ya da katılma izniniz yok."
+            },
+            "server-badges": {
+                "official": "Resmi Sunucu",
+                "verified": "Doğrulanmış Sunucu"
             }
         },
         "permissions": {
             "required": "Gerekli izinler"
+        },
+        "home": {
+            "donate": "Revolt'a bağış yap",
+            "feedback": "Revolt'ta geri bildirimde bulun",
+            "settings": "Ayarlar",
+            "social": "Sunucuları & Botları Bul",
+            "join-testers": "Test edenler sunucusuna katıl",
+            "goto-testers": "Test edenler sunucusuna git",
+            "settings-tooltip": "Ayrıca sol üstteki kullanıcı simgesine sağ tıklayabilirsin veya eğer ana sayfadaysan sol tıklayabilirsin."
         }
     },
     "general": {
         "tos": "Kullanım Koşulları",
-        "image_by": "Tarafından fotoğraf",
+        "image_by": "{user here} tarafından gönderilen görüntü",
         "about": "Hakkında",
         "privacy": "Gizlilik Politikası",
         "loading": "Yükleniyor…",
@@ -556,14 +573,14 @@
     },
     "login": {
         "title": "Giriş Yap",
-        "register": "Kayıt Ol",
+        "register": "Kaydol",
         "username": "Kullanıcı Adı",
         "email": "E-posta",
         "password": "Şifre",
         "invite": "Davet Kodu",
         "current_password": "Mevcut Şifre",
         "enter": {
-            "username": "Bir kullanıcı adı girin.",
+            "username": "İstediğiniz kullanıcı adınızı girin.",
             "password": "Şifrenizi girin.",
             "invite": "Davet kodunuzu girin.",
             "current_password": "Mevcut şifrenizi girin.",
@@ -572,12 +589,12 @@
         "reset": "Şifreni sıfırla.",
         "set_password": "Yeni şifre belirleyin.",
         "remembered": "Giriş sayfasına geri dönün.",
-        "new": "Revolt'ta yeni misiniz?",
+        "new": "Revolt'a yeni misiniz?",
         "create": "Yeni bir hesap oluştur.",
-        "resend": "Doğrulama gönder.",
+        "resend": "Tekrar doğrulama gönder.",
         "cancel": "İsteği iptal et.",
         "check_mail": "E-postanı kontrol et.",
-        "successful_registration": "Başarıyla kayıt oldun!",
+        "successful_registration": "Başarıyla kaydoldun!",
         "error": {
             "create": "Kayıt başarısız!",
             "login": "Giriş yapılamadı!",
@@ -586,9 +603,9 @@
         },
         "forgot": "Şifreni mi unuttun?",
         "existing": "Zaten hesabın var mı?",
-        "missing_verification": "E-postanız yok mu?",
+        "missing_verification": "Eksik e-posta",
         "check_spam": "Eğer bulamıyorsanız lütfen spam kutunuzu kontrol edin",
-        "open_mail_provider": "{{provider}}'i açın",
+        "open_mail_provider": "{{provider}}'ı açın",
         "email_delay": "Lütfen gelmesi için 10 dakikaya kadar bekleyin."
     },
     "quantities": {
@@ -637,7 +654,7 @@
         "TooLong": "Çok uzun",
         "InvalidEmail": "Geçersiz e-posta adresi",
         "FileTooLarge": "Dosya çok büyük.",
-        "FailedToReceive": "Sunucu dosyanızı alamadı.",
+        "FailedToReceive": "Sunucu dosyanızı almakta başarısız oldu.",
         "ProbeError": "Dosya meta verileri alınamadı.",
         "DeniedNotification": "Bildirim erişimini reddettiniz, sayfa ayarlarını kontrol edin.",
         "InternalError": "İç hata.",
@@ -654,7 +671,7 @@
         "MissingData": "İstekte veri eksik.",
         "IoError": "Sunucu bir G/Ç hatasıyla karşılaştı.",
         "UnsupportedBrowser": "Tarayıcınız bu özelliği desteklemiyor.",
-        "CompromisedPassword": "Bu şifrelerin güvenliği ihlal edildi.",
+        "CompromisedPassword": "Bu şifrenin güvenliği ihlal edildi.",
         "ReachedMaximumBots": "Maksimum bot sayısına ulaştınız.",
         "AudioPermissionBlock": "Mikronunuza erişim yok, lütfen tarayıcının yapılandırmasını kontrol ediniz."
     },
@@ -668,7 +685,7 @@
                 "t": "Sesli Arama"
             },
             "EmbedLinks": {
-                "d": "Üyelerin metin kanallarında yayınladıkları bağlantılarda gömülü içeriği göstermelerine olanak tanır.",
+                "d": "Üyelerin metin kanallarında yayınladıkları bağlantılarda gömülü içeriği göstermelerine izin verir.",
                 "t": "Bağlantı Yerleştir"
             },
             "SendMessage": {
@@ -694,12 +711,16 @@
             "UploadFiles": {
                 "t": "Dosyaları Yükle",
                 "d": "Üyelerin metin kanallarına dosya yüklemesine izin verir."
+            },
+            "Masquerade": {
+                "t": "Kılık değiştirme",
+                "d": "Üyelerin her mesajda ismini ve avatarını değiştirmesine izin verir."
             }
         },
         "server": {
             "ManageRoles": {
                 "t": "Rolleri Yönet",
-                "d": "Üyelerin kendilerinden daha düşük bir rütbeye sahip roller oluşturmasına ve düzenlemesine ve silmesine izin verir. Ayrıca kanallardaki rol izinlerini değiştirmelerine de izin verir."
+                "d": "Üyelerin kendilerinden daha düşük bir rütbeye sahip roller oluşturmasına, düzenlemesine ve silmesine izin verir. Ayrıca, kanallardaki rol izinlerini değiştirmelerine de izin verir."
             },
             "ManageChannels": {
                 "t": "Kanalları Yönet",
@@ -719,7 +740,7 @@
             },
             "BanMembers": {
                 "t": "Üyeleri Yasakla",
-                "d": "Üyelerin, üyeleri bu sunucudan kalıcı olarak kaldırmasına izin verir."
+                "d": "Üyelerin, kalıcı olarak üyeleri bu sunucudan kaldırmasına izin verir."
             },
             "ManageNicknames": {
                 "t": "Kullanıcı Adlarını Yönet",
