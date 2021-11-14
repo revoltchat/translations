@@ -147,7 +147,8 @@
                 "channel_type": "Kanavan Tyyppi",
                 "voice_channel": "Puhekanava",
                 "text_channel": "Teksti kanava",
-                "custom_banner": "Muokattu banneri"
+                "custom_banner": "Muokattu banneri",
+                "category_name": "Kategorian nimi"
             }
         },
         "context_menu": {
@@ -333,6 +334,10 @@
                 "invalid": "Virheellinen kutsu!",
                 "user_count": "{{member_count}} käyttäjät",
                 "invalid_desc": "Tätä kutsua ei ole olemassa tai sinulla ei ole lupaa liittyä."
+            },
+            "server-badges": {
+                "official": "Virallinen Palvelin",
+                "verified": "Vahvistettu Palvelin"
             }
         },
         "settings": {
@@ -480,7 +485,10 @@
                     "input_device": "Mikrofoni",
                     "output_device": "Kaiutin / Kuulokkeet",
                     "button_retry": "jatka",
-                    "device_label_NA": "Ei käytössä"
+                    "device_label_NA": "Ei käytössä",
+                    "tip_retry": "Et ole antanut käyttöoikeutta mikrofooniisi, ole hyvä ja {{retryBtn}}.",
+                    "tip_grant_permission": "Sinun on myönnettävä käyttöoikeus ääniasetuksiin.",
+                    "button_grant": "Anna pääsy"
                 },
                 "theme_shop": {
                     "title": "Teemakauppa"
@@ -577,6 +585,15 @@
         },
         "permissions": {
             "required": "Lupia vaaditaan"
+        },
+        "home": {
+            "join-testers": "Liity testaajien serveriin",
+            "goto-testers": "Mene testaajien serveriin",
+            "donate": "Lahjoita Revoltille",
+            "feedback": "Anna palautetta Revoltista",
+            "settings": "Asetukset",
+            "settings-tooltip": "Voit myös napsauttaa oikealla klikkauksella vasemmassa yläkulmassa olevaa käyttäjäkuvaketta, tai napsauttaa sitä vasemmalla klikkauksella, jos olet jo kotona.",
+            "social": "Löydä palvelimia & botteja"
         }
     },
     "dayjs": {
