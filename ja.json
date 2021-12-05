@@ -160,7 +160,9 @@
                     "title": "音声設定",
                     "device_label_NA": "該当無し",
                     "tip_retry": "マイクの使用許可がありません。もう一度{{retryBtn}}。",
-                    "button_retry": "リトライ"
+                    "button_retry": "リトライ",
+                    "tip_grant_permission": "オーディオ設定にアクセスするには、権限を付与する必要があります。",
+                    "button_grant": "許可を与える"
                 },
                 "sessions": {
                     "logout": "他のすべてのセッションからログアウトする",
@@ -386,7 +388,7 @@
                 "actions": {
                     "block": "ブロック",
                     "reload": "再読み込み",
-                    "ok": "OK",
+                    "ok": "確認",
                     "ban": "BAN",
                     "kick": "キック",
                     "save": "保存",
@@ -412,7 +414,7 @@
                 },
                 "external_links": {
                     "title": "外部リンクは危険な場合があります！",
-                    "short": "本当に接続しますか？ ",
+                    "short": "本当に接続しますか：",
                     "trust_domain": "このドメインを信頼する"
                 },
                 "token_reveal": "{{name}}のトークン"
@@ -468,7 +470,11 @@
                 "invalid_desc": "招待がないか、参加権限がありません。",
                 "invalid": "招待が無効です！"
             },
-            "requires_online": "これを見るには、オンラインである必要があります。"
+            "requires_online": "これを見るには、オンラインである必要があります。",
+            "server-badges": {
+                "official": "公式サーバー",
+                "verified": "検証済みサーバー"
+            }
         },
         "context_menu": {
             "copy_id": "IDをコピー",
@@ -529,8 +535,10 @@
             "settings": "設定",
             "social": "サーバーとボットを検索する",
             "goto-testers": "テスターのサーバーに接続します",
-            "donate": "REVOLTに寄付します",
-            "join-testers": "テスターのサーバーに参加する"
+            "donate": "Revoltに寄付します",
+            "join-testers": "テスターのサーバーに参加する",
+            "settings-tooltip": "また、左上のユーザーアイコンを右クリックするか、すでにホームにいる場合は左クリックすることもできます。",
+            "feedback": "Revoltに関するフィードバックを提供する"
         }
     },
     "login": {
@@ -547,7 +555,7 @@
         "check_mail": "メールをチェックしてください。",
         "cancel": "ログインをキャンセルする。",
         "resend": "認証コードを再送信する。",
-        "missing_verification": "メールアドレスがありません",
+        "missing_verification": "メールが届きませんでしたか？",
         "create": "新しいアカウントを作成する。",
         "existing": "既にアカウントをお持ちですか？",
         "new": "Revoltを利用するのは初めてですか？",
@@ -696,6 +704,10 @@
             "UploadFiles": {
                 "t": "ファイルのアップロード",
                 "d": "メンバーがテキストチャンネルでファイルをアップロードできるようにします。"
+            },
+            "Masquerade": {
+                "t": "マスカレード",
+                "d": "メンバーがメッセージごとに名前とアバターを変更できるようにします。"
             }
         }
     },
