@@ -1,7 +1,7 @@
 {
     "general": {
         "tos": "Käyttöehdot",
-        "privacy": "tietosuojakäytäntö",
+        "privacy": "Tietosuojakäytäntö",
         "about": "Tietoa",
         "image_by": "Kuvan tekijä",
         "loading": "Ladataan…",
@@ -74,8 +74,8 @@
                     "viewing_old": "Katselet vanhempia viestejä",
                     "spoiler_attachment": "Spoileri",
                     "no_sending": "Sinulla ei ole oikeuksia lähettää viestejä tähän kanavaan.",
-                    "blocked_messages": "{{count}} Estetyt viestit",
-                    "blocked_user": "Estetty Käyttäjä",
+                    "blocked_messages": "{{count}} estettyä viestiä",
+                    "blocked_user": "Estetty käyttäjä",
                     "sent_file": "Liitä tiedosto",
                     "sent_multiple_files": "Liitä monta tiedostoa",
                     "failed_load": "Viestin lataaminen epäonnistui."
@@ -144,9 +144,9 @@
                 "owner": "Palvelimen omistaja",
                 "channel_description": "Kanavan kuvaus",
                 "description": "Palvelimen kuvaus",
-                "channel_type": "Kanavan Tyyppi",
+                "channel_type": "Kanavan tyyppi",
                 "voice_channel": "Puhekanava",
-                "text_channel": "Teksti kanava",
+                "text_channel": "Tekstikanava",
                 "custom_banner": "Muokattu banneri",
                 "category_name": "Kategorian nimi"
             }
@@ -215,7 +215,9 @@
                         "translator": "Kääntäjä",
                         "supporter": "Tukija",
                         "responsible_disclosure": "Vastuullisesti paljastetut Bugit",
-                        "early_adopter": "Varhainen käyttäjä"
+                        "early_adopter": "Varhainen käyttäjä",
+                        "founder": "Perustaja",
+                        "moderation": "Alustan moderaattori"
                     },
                     "mutual_groups": "Yhteiset Ryhmät",
                     "mutual_friends": "Yhteiset kaverit",
@@ -277,7 +279,7 @@
                 },
                 "prompt": {
                     "confirm_leave_long": "Et voi liittyä uudelleen, ellet ole kutsuttu uudelleen.",
-                    "confirm_leave": "Poistutaanko ryhmästä {{group_name}}?",
+                    "confirm_leave": "Poistutaanko ryhmästä {{name}}?",
                     "confirm_delete": "Poista {{name}}?",
                     "confirm_delete_long": "Kun se on poistettu, ei ole paluuta.",
                     "confirm_close_dm": "Suljetaanko keskustelu käyttäjän {{name}} kanssa?",
@@ -301,9 +303,10 @@
                 "signed_out": "Sinut on kirjauduttu ulos!",
                 "external_links": {
                     "title": "Ulkoiset linkit voivat olla vaarallisia!",
-                    "short": "Oletko varma että haluat mennä: ",
+                    "short": "Oletko varma että haluat mennä:",
                     "trust_domain": "Luota tähän verkkotunnukseen"
-                }
+                },
+                "token_reveal": "{{name}}:n merkki"
             },
             "copy_username": "Paina kopioidaksesi käyttäjätunnus",
             "status": {
@@ -344,7 +347,7 @@
             "pages": {
                 "feedback": {
                     "feature": "Ominaisuuspyyntö",
-                    "bug": "Vika Seuranta",
+                    "bug": "Bugiseuranta",
                     "report": "Mitä haluat ilmoittaa?",
                     "other": "Muu",
                     "title": "Palaute",
@@ -352,9 +355,9 @@
                     "describe": "Kuvaile ongelmaa.",
                     "suggest": "Lähetä ominaisuusehdotus",
                     "issue": "Luo uusi ongelma",
-                    "bug_desc": "Katso tällä hetkellä aktiivisia bugi reportteja täällä.",
-                    "suggest_desc": "Lähetä uusi Revolt ominaisuus Githubin keskusteluissa.",
-                    "issue_desc": "Auttaakseen meitä korjaamaan ongelmia, voit luoda ongelman GitHubiin."
+                    "bug_desc": "Katso tällä hetkellä aktiivisia bugireportteja täällä.",
+                    "suggest_desc": "Ehdota uusia ominaisuuksia Revoltiin GitHubin keskusteluissa.",
+                    "issue_desc": "Auttaaksesi meitä korjaamaan ongelmia, voit luoda ongelman GitHubiin."
                 },
                 "notifications": {
                     "sounds": "Äänet",
@@ -363,14 +366,14 @@
                     "enable_desktop": "Ota työpöytäilmoitukset käyttöön.",
                     "title": "Ilmoitukset",
                     "descriptions": {
-                        "enable_desktop": "Tämä antaa sinulle ilmoituksen kun sovellus on auki.",
+                        "enable_desktop": "Tämä antaa sinulle ilmoituksia kun sovellus on auki.",
                         "enable_push": "Ota käyttöön ilmoitusten vastaanottaminen offline -tilassa."
                     },
                     "sound": {
                         "message": "Viesti vastaanotettu",
-                        "outbound": "Viesti Lähetetty",
-                        "call_join": "Käyttäjä Liittyi Puheluun",
-                        "call_leave": "Käyttäjä Poistui Puhelusta"
+                        "outbound": "Viesti lähetetty",
+                        "call_join": "Käyttäjä liittyi puheluun",
+                        "call_leave": "Käyttäjä poistui puhelusta"
                     }
                 },
                 "appearance": {
@@ -391,18 +394,19 @@
                     },
                     "theme": "Teema",
                     "reset_overrides": "Nollaa ohitukset",
-                    "emoji_pack": "Emoji paketti",
+                    "emoji_pack": "Emojipaketti",
                     "message_display": "Viestinäyttö",
                     "advanced": "Edistyneet asetukset",
                     "import": "Tuo teema",
                     "accent_selector": "Korostusväri",
-                    "theme_data": "Teeman Data",
+                    "theme_data": "Teeman data",
                     "custom_css": "Muokattu CSS",
                     "import_theme": "Tuo teema tekstistä",
                     "font": "Fontti",
-                    "mono_font": "Monoscapen fontti valitsin",
-                    "overrides": "Teeman Ohitus",
-                    "ligatures": "Fontin Ligatuuri"
+                    "mono_font": "Monospace-fontin valitsin",
+                    "overrides": "Teeman ohitus",
+                    "ligatures": "Fontin ligatuuri",
+                    "ligatures_desc": "Ligatuurit yhdistävät merkkejä käyttäessäsi tuettua fonttia (esim. -> muuttuu nuoleksi)."
                 },
                 "donate": {
                     "title": "Lahjoita"
@@ -410,7 +414,7 @@
                 "language": {
                     "select": "Valitse kieli",
                     "title": "Kieli",
-                    "other": "Muut kieli vaihtoehdot",
+                    "other": "Muut kielivaihtoehdot",
                     "const": "Rakennetut kielet"
                 },
                 "sessions": {
@@ -431,10 +435,10 @@
                     "edit_profile": "Muokkaa profiilia"
                 },
                 "account": {
-                    "title": "Minun tili",
+                    "title": "Minun tilini",
                     "change_field": "Muuta",
                     "manage": {
-                        "description": "Poista käytöstä tai poista käyttäjäsi milloin vain. Tämä tulee kirjaamaan sinut ulos ja poistamaan kokonaan sinun käyttäjätilisi, myös sinun keskustelu historian ja kaverit.",
+                        "description": "Poista käytöstä tai poista käyttäjäsi milloin vain. Tämä tulee kirjaamaan sinut ulos ja poistamaan kokonaan sinun käyttäjätilisi, myös keskusteluhistoriasi ja kaverisi.",
                         "title": "Tilin hallinta",
                         "disable": "Poista tili käytöstä",
                         "delete": "Poista tili"
@@ -454,8 +458,8 @@
                     "title": "Synkronoi",
                     "descriptions": {
                         "locale": "Tämä synkronoi valitsemasi kielen.",
-                        "appearance": "Tämä synkronoi vaihtoehtoja kuten emoji paketteja ja viestien tiheyttä.",
-                        "theme": "Tämä synkoroi sinun valitsemaasi teemaa, värejä ja mitä tahansa muokattua CSS."
+                        "appearance": "Tämä synkronoi vaihtoehtoja kuten emojipaketteja ja viestien tiheyttä.",
+                        "theme": "Tämä synkronoi valitsemasi teeman, värit ja mukautetun CSS:n."
                     }
                 },
                 "experiments": {
@@ -464,16 +468,16 @@
                     "not_available": "Kokeita ei ole saatavilla tällä hetkellä."
                 },
                 "native": {
-                    "title": "Työpöytä Asetukset"
+                    "title": "Työpöytäasetukset"
                 },
                 "bots": {
-                    "title": "Minun Botit",
+                    "title": "Omat bottini",
                     "copy_invite": "Kopioi kutsulinkki",
-                    "add": "Lisää Botti",
+                    "add": "Lisää botti",
                     "public_bot": "Julkinen botti",
                     "create_bot": "Luo botti",
                     "token": "Merkki",
-                    "interactions_url": "Vuorovaikutus URL",
+                    "interactions_url": "Vuorovaikutus-URL",
                     "public_bot_tip": "Botti on julkinen. Jokainen voi kutsua sen.",
                     "private_bot_tip": "Botti on yksityinen. Vain sinä voit kutsua sen.",
                     "reserved": "Huomautus: Tämä kenttä on varattu tulevaisuutta varten.",
@@ -484,9 +488,9 @@
                     "title": "Ääniasetukset",
                     "input_device": "Mikrofoni",
                     "output_device": "Kaiutin / Kuulokkeet",
-                    "button_retry": "jatka",
+                    "button_retry": "yritä uudelleen",
                     "device_label_NA": "Ei käytössä",
-                    "tip_retry": "Et ole antanut käyttöoikeutta mikrofooniisi, ole hyvä ja {{retryBtn}}.",
+                    "tip_retry": "Et ole antanut käyttöoikeutta mikrofoniisi, ole hyvä ja {{retryBtn}}.",
                     "tip_grant_permission": "Sinun on myönnettävä käyttöoikeus ääniasetuksiin.",
                     "button_grant": "Anna pääsy"
                 },
@@ -496,7 +500,7 @@
             },
             "categories": {
                 "user_settings": "Käyttäjäasetukset",
-                "client_settings": "Clientin Asetukset"
+                "client_settings": "Asiakasohjelman asetukset"
             },
             "title": "Asetukset",
             "channel_pages": {
@@ -531,7 +535,7 @@
             "server_pages": {
                 "invites": {
                     "title": "Kutsut",
-                    "code": "Kutsu Koodi",
+                    "code": "Kutsukoodi",
                     "invitor": "Kutsuja",
                     "channel": "Kanava",
                     "revoke": "Peruuta"
@@ -543,7 +547,7 @@
                     "description": "Kanavan kuvaus",
                     "name": "Palvelimen nimi",
                     "title": "Yleiskatsaus",
-                    "system_messages": "Järjestelmä Viesti Kanavat"
+                    "system_messages": "Järjestelmäviestien kanavat"
                 },
                 "roles": {
                     "title": "Roolit"
@@ -554,14 +558,14 @@
                 "bans": {
                     "title": "Porttikiellot",
                     "user": "Käyttäjä",
-                    "reason": "Porttikiellon Syy",
+                    "reason": "Porttikiellon syy",
                     "revoke": "Peruuta",
-                    "no_reason": "Ei porttikielto syytä."
+                    "no_reason": "Ei porttikiellon syytä."
                 }
             },
             "permissions": {
-                "server": "Palvelimen Oikeudet",
-                "channel": "Kanavan Oikeudet",
+                "server": "Palvelimen oikeudet",
+                "channel": "Kanavan oikeudet",
                 "create_role": "Luo uusi rooli",
                 "role_name": "Roolin nimi",
                 "default_role": "Oletus"
@@ -587,8 +591,8 @@
             "required": "Lupia vaaditaan"
         },
         "home": {
-            "join-testers": "Liity testaajien serveriin",
-            "goto-testers": "Mene testaajien serveriin",
+            "join-testers": "Liity testaajien palvelimeen",
+            "goto-testers": "Mene testaajien palvelimeen",
             "donate": "Lahjoita Revoltille",
             "feedback": "Anna palautetta Revoltista",
             "settings": "Asetukset",
@@ -681,8 +685,8 @@
                 "d": "Antaa jäsenien ladata tiedostoja tekstikanaville."
             },
             "EmbedLinks": {
-                "d": "Anna jäsenten näyttää upotettua sisältöä linkkeissä jotka he lähettävät tekstikanaviin.",
-                "t": "Upota Linkit"
+                "d": "Anna jäsenten näyttää upotettua sisältöä heidän tekstikanaviin lähettämissään linkeissä.",
+                "t": "Upota linkit"
             },
             "View": {
                 "t": "Näytä kanavat",
@@ -699,6 +703,9 @@
             "VoiceCall": {
                 "t": "Puhelu",
                 "d": "Antaa jäsenien liittyä puhekanaville."
+            },
+            "Masquerade": {
+                "d": "Sallii jäsenten muuttaa nimeään ja avatariaan viestikohtaisesti."
             }
         },
         "server": {
