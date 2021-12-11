@@ -151,7 +151,8 @@
                 "uploading_file": "Ag uaslódáil…",
                 "attached_file": "Ceangailte {{filename}}",
                 "start": {
-                    "group": "Seo tús do chomhrá."
+                    "group": "Seo tús do chomhrá.",
+                    "saved": "Seo tús do chuid nótaí."
                 },
                 "unknown_user": "<Usáideoir aineolach>",
                 "errors": {
@@ -176,7 +177,8 @@
                 "owner": "úinéir an fhreastalaí",
                 "voice_channel": "Cainéal Fuaime",
                 "name": "ainm an fhreastalaí",
-                "text_channel": "cainéal téacs"
+                "text_channel": "cainéal téacs",
+                "category_name": "Ainm chatagóir"
             }
         },
         "settings": {
@@ -231,7 +233,9 @@
                     "output_device": "Callaire / Cluasáin",
                     "button_retry": "atriailim",
                     "tip_retry": "Níor thug tú an cead rochtain a fháil ar do mhicreafón, {{retryBtn}} le do thoil.",
-                    "device_label_NA": "N/A"
+                    "device_label_NA": "N/A",
+                    "tip_grant_permission": "Tá ort deontas cead chun socruithe fuaime a rochtain.",
+                    "button_grant": "Cead Deontas"
                 },
                 "appearance": {
                     "display": {
@@ -503,7 +507,9 @@
                         "translator": "Aistritheoir",
                         "supporter": "Tacaí",
                         "responsible_disclosure": "Bug (anna) Nochtadh go Freagrach",
-                        "early_adopter": "Uchtálaí Luath"
+                        "early_adopter": "Uchtálaí Luath",
+                        "founder": "Bunaitheoir",
+                        "moderation": "Modhnóireacht Ardán"
                     }
                 },
                 "user_picker": {
@@ -529,10 +535,23 @@
                 "user_count": "{{member_count}} úsáideoirí",
                 "invalid_desc": "Ní fhéadfaidh an cuireadh a bheith i bhfeidhm nó b’fhéidir nach gceadófar duit páirt a ghlacadh."
             },
-            "requires_online": "Caithfidh tú a bheith ar líne chun amharc é seo."
+            "requires_online": "Caithfidh tú a bheith ar líne chun amharc é seo.",
+            "server-badges": {
+                "official": "Freastalaí Oifigiúil",
+                "verified": "Fíoraithe Freastalaí"
+            }
         },
         "permissions": {
             "required": "Ceadanna ag teastáil"
+        },
+        "home": {
+            "join-testers": "bí ar an bhfreastalaí tástálaithe",
+            "goto-testers": "Téigh chuig freastalaí an tástálaí",
+            "donate": "deonaigh éirí amach",
+            "feedback": "Tabhair aiseolas ar Revolt",
+            "settings": "Socruithe",
+            "settings-tooltip": "Is féidir leat cliceáil ar dheis freisin ar an deilbhín úsáideora ar thaobh na láimhe clé barr, nó cliceáil ar chlé má tá tú sa bhaile cheana féin.",
+            "social": "Aimsigh freastalaithe agus bots"
         }
     },
     "permissions": {
@@ -540,6 +559,76 @@
             "UploadFiles": {
                 "d": "Lig do bhaill comhaid a uaslódáil i gcainéil téacs.",
                 "t": "Uaslódáil Comhaid"
+            },
+            "SendMessage": {
+                "d": "Ligeann sé do bhaill teachtaireachtaí a sheoladh i gcainéil téacs.",
+                "t": "Seol teachtaireachtaí"
+            },
+            "InviteOthers": {
+                "d": "Ligeann sé do bhaill cuireadh a thabhairt d’úsáideoirí eile chuig cainéal.",
+                "t": "Tabhair cuireadh do dhaoine eile"
+            },
+            "EmbedLinks": {
+                "d": "Ligeann sé do bhaill ábhar leabaithe a thaispeáint ar naisc a phostálann siad i gcainéil téacs.",
+                "t": "Leabú Naisc"
+            },
+            "ManageChannel": {
+                "d": "Ligeann sé do bhaill cainéal a chur in eagar nó a scriosadh.",
+                "t": "Bainistigh Cainéil"
+            },
+            "Masquerade": {
+                "t": "Masquerade",
+                "d": "Ligeann sé do bhaill a n-ainm agus a avatar in aghaidh na teachtaireachta a athrú."
+            },
+            "View": {
+                "t": "Féach ar Mhuir nIocht",
+                "d": "Ligeann sé do bhaill féachaint ar aon chainéal a bhfuil an cead seo acu."
+            },
+            "ManageMessages": {
+                "t": "Bainistigh teachtaireachtaí",
+                "d": "Ligeann sé do bhaill teachtaireachtaí a sheol baill eile a scriosadh."
+            },
+            "VoiceCall": {
+                "t": "Glao Gutha",
+                "d": "Ligeann sé do bhaill dul isteach i gcainéil ghutha."
+            }
+        },
+        "server": {
+            "ManageRoles": {
+                "d": "Ligeann sé do bhaill róil a bhfuil rangú níos ísle acu ná iad a chruthú, a chur in eagar agus a scriosadh. Ligeann sé dóibh freisin ceadanna róil ar chainéil a mhodhnú.",
+                "t": "Bainistigh róil"
+            },
+            "ManageServer": {
+                "d": "Ligeann sé do bhaill ainm, tuairisc, deilbhín agus faisnéis ghaolmhar eile an fhreastalaí a athrú.",
+                "t": "Bainistigh Freastalaí"
+            },
+            "ChangeAvatar": {
+                "d": "Ligeann sé do bhaill a gcuid avatar freastalaí a athrú ar an bhfreastalaí seo.",
+                "t": "Athraigh avatar"
+            },
+            "ManageNicknames": {
+                "d": "Ligeann sé do bhaill leasainmneacha baill eile a athrú.",
+                "t": "Bainistigh Baill"
+            },
+            "KickMembers": {
+                "d": "Ligeann sé do bhaill baill a bhaint den fhreastalaí seo. Féadfaidh comhaltaí ciceáilte teacht arís le cuireadh.",
+                "t": "Ciceáil baill"
+            },
+            "ManageChannels": {
+                "t": "Bainistigh Cainéil",
+                "d": "Ligeann sé do bhaill cainéil a chruthú, a chur in eagar agus a scriosad."
+            },
+            "BanMembers": {
+                "t": "Baill toirmiscthe",
+                "d": "Ligeann sé do bhaill baill a bhaint go buan den fhreastalaí seo."
+            },
+            "ChangeNickname": {
+                "t": "Athraigh Leasainm",
+                "d": "Ligeann sé do bhaill a leasainm a athrú ar an bhfreastalaí seo."
+            },
+            "RemoveAvatars": {
+                "t": "Bain avatars",
+                "d": "Ligeann sé do bhaill avatars freastalaí baill eile a bhaint ar an bhfreastalaí."
             }
         }
     },
@@ -575,7 +664,7 @@
         "register": "Cláraigh",
         "password": "Pasfhocal",
         "set_password": "Socraigh pasfhocal nua.",
-        "missing_verification": "Gan aon ríomhphost?",
+        "missing_verification": "Nach bhfuair tú ríomhphost?",
         "resend": "Athdhéan fíorú.",
         "email_delay": "Lig suas le 10 nóiméad dó le do thoil.",
         "successful_registration": "Cláraithe go rathúil!"
@@ -621,10 +710,32 @@
         "Unauthorized": "Neamhúdaraithe.",
         "FailedToReceive": "Theip ar an bhfreastalaí do chomhad a aisghabháil.",
         "Unlabelled": "Tharla rud éigin.",
-        "EmailInUse": "Tá an ríomhphost seo in úsáid cheana féin."
+        "EmailInUse": "Tá an ríomhphost seo in úsáid cheana féin.",
+        "FailedValidation": "Theip ar réimsí a bhailíochtú",
+        "RenderFail": "Theip ar rindreáil an teimpléid.",
+        "DeniedNotification": "Shéan tú rochtain ar fhógra, seiceáil socruithe leathanaigh.",
+        "InternalError": "Earráid inmheánach.",
+        "UnverifiedAccount": "Cuntas neamhdheimhnithe.",
+        "UnknownUser": "Úsáideoir anaithnid.",
+        "IoError": "Tháinig freastalaí ar earráid I / O.",
+        "UnsupportedBrowser": "Tá brabhsálaí in easnamh ar thacaíocht don ghné.",
+        "CompromisedPassword": "Cuirtear an focal faire seo i gcontúirt.",
+        "InvalidEmail": "Sheoladh ríomhphoist neamhbhailí",
+        "ReachedMaximumBots": "Tá an t-uasmhéid bots sroichte agat.",
+        "DatabaseError": "Earráid bunachar sonraí.",
+        "MissingPermission": "Cead ar iarraidh.",
+        "UnknownError": "Féach consól.",
+        "OperationFailed": "Theip ar an oibríocht.",
+        "MissingHeaders": "Ceanntásca ar iarraidh.",
+        "InvalidSession": "Seisiún neamhbhailí.",
+        "EmailFailed": "Theip ar r-phost a sheoladh.",
+        "AudioPermissionBlock": "Níl aon rochtain ar do mhicreafón, féach cumraíocht do bhrabhsálaí le do thoil."
     },
     "notifications": {
         "sent_request": "Chuir @{{person}} iarratas cara chugat",
         "now_friends": "Tá tú anois cairde le @{{person}}!"
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
     }
 }
