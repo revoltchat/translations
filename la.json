@@ -71,8 +71,48 @@
                 "members": "membra"
             },
             "channel": {
-                "message_where": "Mandatum ord. {{channel_name}}"
+                "message_where": "Mandatum ord. {{channel_name}}",
+                "message_who": "Mandata mittere ad {{person}}",
+                "message_saved": "Servo tuo notas",
+                "uploading_file": "Uploading…",
+                "failed_upload": "Deficio ad upload!",
+                "attached_file": "Adnexa {{filename}}",
+                "typing": {
+                    "multiple": "{{userlist}} et {{user}} typing…",
+                    "several": "Plures homines typing…",
+                    "single": "{{user}} est typing…"
+                },
+                "system": {
+                    "user_joined": "{{user}} joined",
+                    "user_left": "{{user}} reliquit",
+                    "user_kicked": "{{user}} calce erat",
+                    "user_banned": "{{user}} interdictum est",
+                    "added_by": "{{user}} addita est ab {{other_user}}",
+                    "removed_by": "{{user}} ab {{other_user}} remotum est",
+                    "channel_renamed": "{{user}} canalem appellaverunt ad {{name}}",
+                    "channel_description_changed": "{{user}} descriptionem canalem mutavit",
+                    "channel_icon_changed": "{{user}} iconem canalem mutavit"
+                },
+                "start": {
+                    "group": "Hoc initium colloquii tui est.",
+                    "saved": "Haec notarum tuarum initium est."
+                },
+                "voice": {
+                    "connected": "Vox connexa",
+                    "leave": "Relinquere",
+                    "mute": "Mutus",
+                    "unmute": "Unmute"
+                }
             }
+        },
+        "home": {
+            "goto-testers": "Ad probatorem servo",
+            "settings-tooltip": "Potes etiam ius-click in icon utentis sinistra vel sinistra superioris, si iam domi es.",
+            "join-testers": "Iungere testers server",
+            "donate": "Datum to Revolt",
+            "feedback": "Subicite feedback on Revolt",
+            "settings": "Occasus",
+            "social": "Reperio servers & minores"
         }
     }
 }
