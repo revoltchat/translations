@@ -147,7 +147,8 @@
                 "text_channel": "Textový kanál",
                 "channel_type": "Typ kanálu",
                 "owner": "Vlastník serveru",
-                "voice_channel": "Hlasový kanál"
+                "voice_channel": "Hlasový kanál",
+                "category_name": "Název Kategorie"
             }
         },
         "navigation": {
@@ -195,7 +196,7 @@
                     "continue": "Pokračovat",
                     "cancel": "Zrušit",
                     "update": "Aktualizovat",
-                    "send_email": "Poslat E-mail",
+                    "send_email": "Poslat e-mailem",
                     "save": "Uložit",
                     "leave": "Odejít",
                     "block": "Block",
@@ -236,7 +237,9 @@
                     "block_user_long": "Opravdu chcete blokovat {{name}} ? Bude taktéž odebrán z seznamu přátel .",
                     "confirm_ban_reason": "Důvod banu",
                     "unfriend_user": "Smazat {{name}} ?",
-                    "block_user": "Block {{name}} ?"
+                    "block_user": "Block {{name}} ?",
+                    "confirm_ban": "Estás a punto de inhabilitar {{name}}",
+                    "unfriend_user_long": "Je možné, že s nimi nebudete moci znovu mluvit, dokud si je nepřidáte zpět."
                 },
                 "token_reveal": "Token {{name}}",
                 "external_links": {
@@ -268,7 +271,8 @@
                     "badges": {
                         "translator": "Překladač",
                         "early_adopter": "Inovátor",
-                        "supporter": "Podporovatel"
+                        "supporter": "Podporovatel",
+                        "founder": "Zakladatel"
                     },
                     "no_servers": "Žádné společné servery !",
                     "mutual_servers": "Společné servery"
@@ -292,6 +296,10 @@
                 "invited_by": "Byl pozván {{user}}",
                 "accept": "Přijmout pozvánku",
                 "invalid": "Neplatná pozvánka !"
+            },
+            "server-badges": {
+                "official": "Oficiální server",
+                "verified": "Ověřený server"
             }
         },
         "context_menu": {
@@ -440,7 +448,8 @@
                 "language": {
                     "title": "Jazyk",
                     "select": "Vybrat jazyk",
-                    "other": "Další jazykové možnosti"
+                    "other": "Další jazykové možnosti",
+                    "const": "Konstruované jazyky"
                 },
                 "logOut": "Odhlásit se",
                 "donate": {
@@ -475,7 +484,9 @@
                     "input_device": "Mikrofón",
                     "output_device": "Reproduktor / Sluchátka",
                     "tip_retry": "Nedal si povolení k užití mikrofonu, prosím {{retryBtn}}.",
-                    "title": "Hlasové nastavení"
+                    "title": "Hlasové nastavení",
+                    "tip_grant_permission": "Pro přístup k nastavení zvuku musíte udělit oprávnění.",
+                    "button_grant": "Udělte povolení"
                 },
                 "experiments": {
                     "not_available": "V současné době nejsou k dispozici žádné experimenty.",
@@ -562,7 +573,10 @@
             "join-testers": "Připojte se na testovací server",
             "goto-testers": "Jděte na server testerů",
             "donate": "Přispějte Revoltu",
-            "settings": "Nastavení"
+            "settings": "Nastavení",
+            "feedback": "Poskytněte zpětnou vazbu na Revolt",
+            "settings-tooltip": "Můžete také kliknout pravým tlačítkem na ikonu uživatele v levém horním rohu nebo na ni kliknout levým tlačítkem, pokud jste již doma.",
+            "social": "Najděte servery a roboty"
         }
     },
     "dayjs": {
