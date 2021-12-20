@@ -2,7 +2,7 @@
     "login": {
         "cancel": "İstəyi ləğv edin.",
         "resend": "Doğrulamayı dəyişdirin.",
-        "missing_verification": "E-poçt yoxdur?",
+        "missing_verification": "E-poçt almadınız?",
         "create": "Yeni hesab yarat.",
         "existing": "Artıq hesabınız var?",
         "new": "Revolt üçün yenisiniz?",
@@ -162,7 +162,8 @@
                 "channel_description": "Kanal Təsviri",
                 "channel_type": "Kanal növü",
                 "text_channel": "Mətn Kanalı",
-                "voice_channel": "Səs kanalı"
+                "voice_channel": "Səs kanalı",
+                "category_name": "Kateqorya adı"
             }
         },
         "settings": {
@@ -271,7 +272,12 @@
                     "bug": "Hata İzləyici",
                     "feature": "Xüsusiyyət İstəyi",
                     "other": "Digər",
-                    "describe": "Xahiş edirəm məsələni təsvir edin."
+                    "describe": "Xahiş edirəm məsələni təsvir edin.",
+                    "suggest": "Xüsusiyyət təklifi göndərin",
+                    "suggest_desc": "GitHub müzakirələrində yeni Revolt xüsusiyyətləri təklif edin.",
+                    "bug_desc": "Hazırda aktiv bug reportlarına burada baxın.",
+                    "issue_desc": "Problemləri daha asan həll etmək üçün GitHub-da bildirə bilərsiniz.",
+                    "issue": "Yeni məsələ yaradın"
                 },
                 "language": {
                     "title": "Dil",
@@ -310,7 +316,9 @@
                     "device_label_NA": "heç biri",
                     "button_retry": "yenidən cəhd elə",
                     "output_device": "Dinamik / Qulaqlıq",
-                    "tip_retry": "Mikrofonunuzdan istifadə etməyə icazə vermədiniz, zəhmət olmasa {{retryBtn}}."
+                    "tip_retry": "Mikrofonunuzdan istifadə etməyə icazə vermədiniz, zəhmət olmasa {{retryBtn}}.",
+                    "tip_grant_permission": "Sənin səs icazələrinə ehtiyacın var.",
+                    "button_grant": "İcazə ver."
                 },
                 "bots": {
                     "add": "Bot əlavə et",
@@ -328,6 +336,9 @@
                 },
                 "native": {
                     "title": "Masaüstü parametrləri"
+                },
+                "theme_shop": {
+                    "title": "Tema mağazası"
                 }
             },
             "tips": {
@@ -356,13 +367,21 @@
             },
             "server_pages": {
                 "bans": {
-                    "title": "Qadağalar"
+                    "title": "Qadağalar",
+                    "no_reason": "Qadağa səbəbi yoxdur.",
+                    "user": "İstifadəçi",
+                    "reason": "Qadağan səbəbi",
+                    "revoke": "Ləğv Et"
                 },
                 "members": {
                     "title": "Üzvlər"
                 },
                 "invites": {
-                    "title": "Dəvətlər"
+                    "title": "Dəvətlər",
+                    "code": "Dəvət kodu",
+                    "invitor": "Dəvət Edən",
+                    "channel": "Kanal",
+                    "revoke": "Sil"
                 },
                 "overview": {
                     "title": "Baxış",
@@ -372,6 +391,9 @@
                 },
                 "roles": {
                     "title": "Rollar"
+                },
+                "categories": {
+                    "title": "Kateqoryalar"
                 }
             },
             "permissions": {
@@ -432,7 +454,9 @@
                     "back": "Geri dönün",
                     "block": "Blok",
                     "remove": "Sil",
-                    "leave": "Buraxın"
+                    "leave": "Buraxın",
+                    "hide": "Gizlət",
+                    "edit": "Düzəlt"
                 },
                 "error": "Xəta baş verdi!",
                 "signed_out": "Hesabdan çıxdınız!",
@@ -453,6 +477,12 @@
                     "block_user_long": "{{name}} bloklamaq istədiyinizə əminsiniz? Onlar həmçinin dostlarınız siyahısından silinəcəkdir.",
                     "unfriend_user": "{{name}} silinsin?",
                     "unfriend_user_long": "Yenidən əlavə etməyincə onlarla yenidən danışa bilməyəcəksiniz."
+                },
+                "token_reveal": "{{name}}'nin Tokeni",
+                "external_links": {
+                    "trust_domain": "Bu Linkə güvən",
+                    "title": "Xarici linkər təhlükəli ola bilər!",
+                    "short": "Sən buraya getmək istəyirsən?:"
                 }
             },
             "popovers": {
@@ -472,11 +502,24 @@
                         "translator": "Tərcüməçi",
                         "early_adopter": "Erkən Adopter",
                         "supporter": "Dəstəkçi",
-                        "responsible_disclosure": "Məsuliyyətlə açıqlanan səhv(lər)"
-                    }
+                        "responsible_disclosure": "Məsuliyyətlə açıqlanan səhv(lər)",
+                        "founder": "Sahib",
+                        "moderation": "Platforma Moderaysası"
+                    },
+                    "mutual_servers": "Ortaq Serverlər",
+                    "no_servers": "Ortaq server yoxdur!"
                 },
                 "user_picker": {
                     "select": "Əlavə etmək üçün dost seçin."
+                },
+                "create_bot": {
+                    "failed": "Bot Yaradıla Bilmədi!",
+                    "title": "Yeni Bot Yarat"
+                },
+                "server_identity": {
+                    "nickname": "Ad",
+                    "avatar": "Profil",
+                    "title": "{{server}}də şəxsiyyətinizi dəyişin"
                 }
             },
             "copy_username": "İstifadəçi adını kopyalamaq üçün vurun",
@@ -487,7 +530,19 @@
                 "reconnecting": "Yenidən qoşulur …"
             },
             "requires_online": "Buna baxmaq üçün onlayn olmalısınız.",
-            "copy": "Kopyalamaq üçün vurun"
+            "copy": "Kopyalamaq üçün vurun",
+            "invite": {
+                "invalid": "Yanlış dəvət!",
+                "accept": "Dəvəti Qəbul et",
+                "user_count": "{{member_count}} istifadəçi",
+                "invalid_desc": "Sənin bu dəvət ilə daxil olma icazən yoxdur.",
+                "login": "Revolt-a daxil olun",
+                "invited_by": "{{user}} Tərəfindən dəvət edildi"
+            },
+            "server-badges": {
+                "official": "Rəsmi Server",
+                "verified": "Təsdiqlənmiş server"
+            }
         },
         "context_menu": {
             "copy_id": "Şəxsiyyət sənədini kopyalayın",
@@ -506,40 +561,52 @@
             "message_user": "Mesaj",
             "copy_link": "Linki kopyalayın",
             "open_link": "Linki açın",
-            "block_user": "İstifadəçini blok edin",
+            "block_user": "İstifadəçini bloklayın",
             "unblock_user": "İstifadəçini blokdan çıxarın",
             "add_friend": "Dost əlavə edin",
-            "remove_friend": "Dostunu sil",
+            "remove_friend": "Dostluqdan çıxar",
             "cancel_friend": "İstəyi ləğv edin",
             "custom_status": "Xüsusi Status",
-            "clear_status": "Statusu silin",
+            "clear_status": "Statusu sil",
             "set_custom_status": "Xüsusi bir status təyin edin",
             "open_channel_settings": "Kanal parametrləri",
             "open_group_settings": "Qrup parametrləri",
             "copy_cid": "Kanal kimliyini kopyalayın",
-            "mark_as_read": "Oxuduğunu qeyd edin",
+            "mark_as_read": "Oxundu kimi qeyd edin",
             "open_file": "Faylı açın",
-            "save_file": "Fayl saxlamaq",
+            "save_file": "Faylı saxla",
             "retry_message": "Yenidən göndərin",
             "remove_member": "Qrupdan çıxarın",
-            "open_image": "Şəkli açın",
-            "ban_member": "Üzv qadağandır",
-            "delete_channel": "Kanalı silin",
-            "leave_server": "Serverdən ayrılın",
-            "kick_member": "Üzvü vurun",
-            "delete_server": "Serveri silin",
+            "open_image": "Şəkli aç",
+            "ban_member": "Üzv qadağanlıdır",
+            "delete_channel": "Kanalı sil",
+            "leave_server": "Serverdən ayrıl",
+            "kick_member": "Üzvü atın",
+            "delete_server": "Serveri sil",
             "view_profile": "Profilə bax",
-            "create_invite": "Kanal yaradın",
+            "create_invite": "Dəvət yarat",
             "open_server_settings": "Server parametrləri",
             "create_channel": "Kanal yaradın",
             "copy_sid": "Server kimliyini kopyalayın",
-            "leave_group": "qrupu tərk etmək",
+            "leave_group": "qrupu tərk et",
             "close_dm": "Dm'yi yaxın et",
             "reply_message": "Cavab ver",
-            "open_notification_options": "Bildiriş parametrləri"
+            "open_notification_options": "Bildiriş parametrləri",
+            "create_category": "Kateqorya yarat",
+            "edit_identity": "Kimliyi Redaktə Et",
+            "copy_message_link": "Mesaj linkini kopyalayın"
         },
         "permissions": {
             "required": "Tələb olunan icazələr"
+        },
+        "home": {
+            "join-testers": "Testerlər serverinə qatıl",
+            "goto-testers": "Testerlər serverinə get",
+            "donate": "Revolta dəstək",
+            "settings": "Parametrlər",
+            "feedback": "Revolta xəbərdarlıq göndər",
+            "settings-tooltip": "Siz həmçinin yuxarı sol küncdəki istifadəçi ikonasına sağ klikləyə və ya artıq evdəsinizsə, sol klikləyə bilərsiniz.",
+            "social": "Serverlər vəya botları axtar"
         }
     },
     "quantities": {
@@ -600,7 +667,9 @@
         "InternalError": "Daxili səhv.",
         "TooShort": "Çox qısa",
         "IoError": "Server giriş/çıxma xətası ilə qarşılaşdı.",
-        "MissingHeaders": "Yarımçıq başlıqlar."
+        "MissingHeaders": "Yarımçıq başlıqlar.",
+        "AudioPermissionBlock": "Mikrofonunuza giriş yoxdur, lütfən, brauzerinizin konfiqurasiyasını yoxlayın.",
+        "ReachedMaximumBots": "Maksimum bot limitinə çatmısınız."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
@@ -642,6 +711,10 @@
             "SendMessage": {
                 "t": "Mesaj göndər",
                 "d": "Üzvlərə mətn kanallarında mesaj göndərmək imkanı verir."
+            },
+            "Masquerade": {
+                "d": "Üzvlərə hər mesaj üçün adlarını və avatarlarını dəyişməyə imkan verir.",
+                "t": "maskarad"
             }
         },
         "server": {
