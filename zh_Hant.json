@@ -38,7 +38,8 @@
                     "tip_retry": "您沒有給予麥克風權限，請 {{retryBtn}}。",
                     "device_label_NA": "無法使用",
                     "button_retry": "重試",
-                    "button_grant": "授予權限"
+                    "button_grant": "給予權限",
+                    "tip_grant_permission": "你需擁有有權限才能訪問語音頻道設置。"
                 },
                 "sessions": {
                     "created": "建立於 {{time_ago}}",
@@ -334,7 +335,7 @@
             "offline": "離線",
             "invisible": "隱形",
             "busy": "勿擾",
-            "idle": "放置",
+            "idle": "離開",
             "online": "在線"
         },
         "special": {
@@ -445,7 +446,9 @@
                         "translator": "翻譯人員",
                         "supporter": "支援者",
                         "responsible_disclosure": "Bug發現者",
-                        "early_adopter": "早期使用者"
+                        "early_adopter": "早期使用者",
+                        "founder": "創始人",
+                        "moderation": "平台管理者"
                     }
                 },
                 "server_identity": {
@@ -472,7 +475,7 @@
             },
             "server-badges": {
                 "official": "官方伺服器",
-                "verified": "已驗證伺服器"
+                "verified": "被驗證的伺服器"
             }
         },
         "context_menu": {
@@ -531,11 +534,13 @@
             "required": "權限不足"
         },
         "home": {
-            "goto-testers": "前往測試伺服器",
+            "goto-testers": "前往測試者伺服器",
             "donate": "捐獻給 Revolt",
             "settings": "設置",
-            "join-testers": "加入測試伺服器",
-            "social": "尋找伺服器和機器人"
+            "join-testers": "加入測試者伺服器",
+            "social": "尋找其他伺服器和機器人",
+            "feedback": "給予Revolt一些回饋",
+            "settings-tooltip": "使用者"
         }
     },
     "login": {
@@ -553,8 +558,8 @@
         "check_mail": "檢查你的電子信箱。",
         "cancel": "取消請求。",
         "resend": "重新寄出認證信。",
-        "missing_verification": "沒有收到郵件",
-        "existing": "已經有帳號了？",
+        "missing_verification": "沒有收到電子郵件?",
+        "existing": "已經擁有一個Revolt帳號了嗎?",
         "new": "第一次來到Revolt？",
         "remembered": "返回登入頁面。",
         "set_password": "設定新密碼。",
@@ -687,7 +692,8 @@
                 "d": "允許成員編輯或刪除頻道。"
             },
             "Masquerade": {
-                "t": "偽裝身份"
+                "t": "偽裝身份",
+                "d": "允許使用者每發一條訊息就能更改名稱和頭像。"
             }
         },
         "server": {
