@@ -500,25 +500,25 @@
             "delete_message": "刪除訊息",
             "remove_member": "從群組移除",
             "kick_member": "踢出成員",
-            "ban_member": "封禁成員",
+            "ban_member": "封鎖成員",
             "open_file": "開啟檔案",
             "save_file": "儲存檔案",
             "save_video": "儲存影片",
             "copy_link": "複製連結",
             "open_link": "開啟連結",
             "block_user": "封鎖使用者",
-            "unblock_user": "取消封鎖使用者",
+            "unblock_user": "解除封鎖使用者",
             "open_image": "開啟圖片",
             "open_video": "開啟影片",
             "create_channel": "建立頻道",
-            "create_category": "建立類別",
-            "create_invite": "建立邀請",
+            "create_category": "新建分類",
+            "create_invite": "新建邀請",
             "open_notification_options": "通知選項",
             "open_group_settings": "群組設定",
             "add_friend": "新增好友",
             "remove_friend": "刪除好友",
             "cancel_friend": "取消好友邀請",
-            "custom_status": "自訂狀態",
+            "custom_status": "自定義狀態",
             "clear_status": "清除狀態",
             "leave_group": "離開群組",
             "leave_server": "離開伺服器",
@@ -531,7 +531,7 @@
             "set_custom_status": "設定自訂狀態"
         },
         "permissions": {
-            "required": "權限不足"
+            "required": "需要權限"
         },
         "home": {
             "goto-testers": "前往測試者伺服器",
@@ -593,7 +593,7 @@
     },
     "quantities": {
         "members": {
-            "one": "一個成員",
+            "one": "1位成員",
             "many": "{{count}} 位成員"
         }
     },
@@ -601,21 +601,21 @@
         "lastDay": "[昨天] {{time}}",
         "sameDay": "[今天] {{time}}",
         "nextDay": "[明天] {{time}}",
-        "lastWeek": "[最後] dddd [在]{{time}}",
-        "nextWeek": "dddd [在] {{time}}",
+        "lastWeek": "[上] dddd [的] {{time}}",
+        "nextWeek": "dddd [的] {{time}}",
         "defaults": {
             "date_separator": "/",
             "date_format": "ISO8601",
-            "twelvehour": "yes"
+            "twelvehour": "no"
         }
     },
     "notifications": {
-        "now_friends": "您跟 @{{person}} 成為了好友！",
-        "sent_request": "@{{person}} 向您發送了好友邀請。"
+        "now_friends": "你現在是 @{{person}} 的朋友了!",
+        "sent_request": "@{{person}} 發送了好友邀請。"
     },
     "error": {
-        "NetworkError": "網路發生錯誤。",
-        "Unlabelled": "發生某些問題。",
+        "NetworkError": "網路錯誤。",
+        "Unlabelled": "發生了一些事。",
         "FailedValidation": "無法驗證字串。",
         "DatabaseError": "資料庫錯誤。",
         "AudioPermissionBlock": "無法使用您的麥克風，請檢查瀏覽器權限設定。",
@@ -626,7 +626,7 @@
         "UnsupportedBrowser": "瀏覽器不支援此功能。",
         "DeniedNotification": "您拒絕了通知權限，請檢查頁面設定。",
         "CompromisedPassword": "此密碼不安全。",
-        "Unauthorized": "未授權。",
+        "Unauthorized": "未經授權許可。",
         "MissingHeaders": "缺乏 Header。",
         "InvalidSession": "無效的會話。",
         "UnknownError": "請查看瀏覽器控制台。",
