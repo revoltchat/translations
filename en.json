@@ -194,14 +194,20 @@
                     "2fa": {
                         "title": "Two-factor Authentication",
                         "description": "Add an extra layer of security by enabling 2FA on your account.",
+                        "wip": "Two-factor authentication is currently work-in-progress,",
+                        "wip_link": "see v1 milestone here.",
                         "add_auth": "Add Authenticator",
-                        "remove_auth": "Remove Authenticator"
+                        "remove_auth": "Remove Authenticator",
+                        "setup": "Set up Two-factor authentication",
+                        "setup_description": "Set up 2FA Authentication on your account."
                     },
                     "manage": {
                         "title": "Account Management",
                         "description": "Disable or delete your account at any time. This action will log you out and fully delete your account, including your chat history and friends.",
                         "disable": "Disable Account",
-                        "delete": "Delete Account"
+                        "disable_description": "Disable your account. You won't be able to access it unless you log back in.",
+                        "delete": "Delete Account",
+                        "delete_description": "Delete your account, including all of your data. (sends an email to contact@revolt.chat)"
                     }
                 },
                 "profile": {
@@ -258,7 +264,8 @@
                     "font": "Font",
                     "mono_font": "Monospace Font Selector",
                     "ligatures": "Font Ligatures",
-                    "ligatures_desc": "For supported fonts, ligatures combine characters together, for example, turning -> into an arrow. Switch to Inter and try toggling this option."
+                    "ligatures_desc": "For supported fonts, ligatures combine characters together, for example, turning -> into an arrow. Switch to Inter and try toggling this option.",
+                    "app": "App"
                 },
                 "notifications": {
                     "title": "Notifications",
@@ -293,12 +300,50 @@
                     }
                 },
                 "native": {
-                    "title": "Desktop Settings"
+                    "title": "Desktop Settings",
+                    "app_behavior": "App Behavior",
+                    "tip_restart": "Some options might require a restart.",
+                    "titlebar": "Titlebar",
+                    "advanced": "Advanced",
+                    "local_dev_mode": "Local Development Mode",
+                    "local_dev_option_title": "I understand there's no going back.",
+                    "local_dev_option_description": "This will change the app to the 'dev' branch, instead loading the app from a local server on your machine.",
+                    "local_dev_option_desc_without_running": "Without a server running,",
+                    "local_dev_option_desc_wont_load": "the app will not load!",
+                    "dev_mode_currently_on": "Development mode is currently on.",
+                    "option": {
+                        "start_with_computer": "Start with computer",
+                        "discord_status": "Enable Discord status",
+                        "nightly": "Revolt Nightly",
+                        "custom_window_frame": "Custom window frame",
+                        "quick_action_btn": "Enable quick action buttons",
+                        "hardware_accel": "Hardware Acceleration"
+                    },
+                    "description": {
+                        "start_with_computer": "Launch Revolt when you log into your computer.",
+                        "discord_status": "Rep Revolt on your Discord status.",
+                        "nightly": "Use the beta branch of Revolt.",
+                        "custom_window_frame": "Let Revolt use its own window frame.",
+                        "quick_action_btn": "Show mute/deafen buttons on the titlebar.",
+                        "hardware_accel": "Use your GPU to render the app, disable if you run into visual issues."
+                    },
+                    "reload_page": "Reload Page",
+                    "reload_app": "Reload App",
+                    "enter_dev_mode": "Enter Development Mode",
+                    "exit_dev_mode": "Exit Development Mode"
                 },
                 "experiments": {
                     "title": "Experiments",
                     "features": "Available Features",
-                    "not_available": "No experiments are available at this time."
+                    "not_available": "No experiments are available at this time.",
+                    "theme_shop": {
+                        "title": "Theme Shop",
+                        "description": "Allows you to access and set user submitted themes."
+                    },
+                    "search": {
+                        "title": "Search",
+                        "description": "Allows you to search for messages in channels."
+                    }
                 },
                 "donate": {
                     "title": "Donate"
@@ -319,7 +364,8 @@
                     "reserved": "Note: This field is reserved for the future."
                 },
                 "theme_shop": {
-                    "title": "Theme Shop"
+                    "title": "Theme Shop",
+                    "creator": "by {{creator}}"
                 },
                 "feedback": {
                     "title": "Feedback",
