@@ -88,7 +88,7 @@
                     "failed_load": "Zprávu nelze načíst.",
                     "sent_file": "Odeslal přílohu",
                     "sent_multiple_files": "Odesláno více příloh",
-                    "jump_present": "přejít do současnosti"
+                    "jump_present": "Přejít do současnosti"
                 },
                 "message_saved": "Uložit do poznámek",
                 "voice": {
@@ -258,10 +258,10 @@
             "popovers": {
                 "user_profile": {
                     "profile": "Profil",
-                    "no_users": "Žádní vzájemní přátelé!",
+                    "no_users": "Žádní vzájemní přátelé",
                     "mutual_friends": "Vzájemní Přátelé",
                     "mutual_groups": "Vzájemné Skupiny",
-                    "no_groups": "Žádné společné skupiny !",
+                    "no_groups": "Žádné společné skupiny",
                     "empty": "Je tu trošku prázdno…",
                     "sub": {
                         "connections": "Propojení",
@@ -274,7 +274,7 @@
                         "supporter": "Podporovatel",
                         "founder": "Zakladatel"
                     },
-                    "no_servers": "Žádné společné servery !",
+                    "no_servers": "Žádné společné servery",
                     "mutual_servers": "Společné servery"
                 },
                 "server_identity": {
@@ -325,7 +325,7 @@
             "open_video": "Otevřít video",
             "open_group_settings": "Nastavení skupiny",
             "open_channel_settings": "Nastavení Kanálu",
-            "copy_link": "Kopírovat Odkaz",
+            "copy_link": "Kopírovat odkaz",
             "open_server_settings": "Nastavení serveru",
             "open_link": "Otevřít odkaz",
             "copy_sid": "Zkopírovat ID serveru",
@@ -350,6 +350,7 @@
             "close_dm": "Zavřít přímé zprávy",
             "edit_identity": "Upravit identitu",
             "create_category": "Vytvořit kategorii",
+            "create_invite": "Vytvořit pozvánku",
             "open_notification_options": "Nastavení oznámení"
         },
         "settings": {
@@ -474,12 +475,13 @@
                     "public_bot_desc": "Zda povolit ostatním uživatelům pozvat tohoto robota.",
                     "create_bot": "Vytvořte bota",
                     "copy_invite": "Zkopírujte odkaz na pozvánku",
-                    "add": "Přidat Bota",
+                    "add": "Přidat bota",
                     "token": "Token",
+                    "profile": "Profil bota",
                     "public_bot_tip": "Bot je veřejný. Kdokoli ho může pozvat.",
                     "private_bot_tip": "Bot je soukromý. Pozvat jej můžete pouze vy.",
-                    "reserved": "Poznámka: Toto pole je vyhrazeno pro budoucnost.",
-                    "interactions_url": "Interaktivní URL"
+                    "reserved": "Poznámka: Toto pole je vyhrazeno pro budoucí funkci.",
+                    "interactions_url": "URL Interakce"
                 },
                 "audio": {
                     "device_label_NA": "N/A",
@@ -494,13 +496,25 @@
                 "experiments": {
                     "not_available": "V současné době nejsou k dispozici žádné experimenty.",
                     "features": "Dostupné funkce",
-                    "title": "Exeperimenty"
+                    "title": "Experimenty"
                 },
                 "native": {
                     "title": "Nastavení plochy"
                 },
                 "theme_shop": {
-                    "title": "Obchod s vzhledy"
+                    "title": "Obchod se vzhledy",
+                    "description": "Vyberte si ze stovek témat vytvořených a spravovaných komunitou.",
+                    "category": {
+                        "saved": "Uložené",
+                        "manage": "Spravovat uložené",
+                        "new": "Nové tento týden",
+                        "default": "Výchozí témata",
+                        "highest": "Nejlépe hodnocené",
+                        "viewall": "Zobrazit více"
+                    },
+                    "active": "Aktivní",
+                    "use": "Použít téma",
+                    "by": "od"
                 }
             },
             "tips": {
