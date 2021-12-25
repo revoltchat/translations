@@ -136,7 +136,14 @@
                     "ligatures": "Ligaduras da fonte",
                     "ligatures_desc": "Para fontes suportadas, ligaduras combinam caracteres juntos, por exemplo, transformando -> em uma seta. Altere para Inter e tente alternar essa opção.",
                     "export_clipboard": "Exportar para a área de transferência",
-                    "import": "Importar um tema"
+                    "import": "Importar um tema",
+                    "theme_options": {
+                        "seasonal_desc": "Mostra efeitos na aba inicial durante as temporadas de férias.",
+                        "title": "Opções de tema",
+                        "follow": "Seguir o tema do sistema",
+                        "follow_desc": "Quando marcado, você não irá conseguir alterar seu tema ou usar um tema customizado.",
+                        "seasonal": "Tema sazonal"
+                    }
                 },
                 "notifications": {
                     "title": "Notificações",
@@ -250,7 +257,8 @@
                     "public_bot_desc": "Permitir que outros usuários convidem esse bot.",
                     "interactions_url": "URL de interações",
                     "reserved": "Nota: Este campo está reservado para o futuro.",
-                    "unique_id": "Este é um identificador único para o seu bot. Isso não é o token do bot."
+                    "unique_id": "Este é um identificador único para o seu bot. Isso não é o token do bot.",
+                    "profile": "Perfil do bot"
                 },
                 "audio": {
                     "title": "Configurações de voz",
@@ -263,7 +271,20 @@
                     "button_grant": "Conceder permissão"
                 },
                 "theme_shop": {
-                    "title": "Loja de temas"
+                    "title": "Loja de temas",
+                    "description": "Navegue por centenas de temas, criados e curados pela comunidade.",
+                    "search": "Procurar temas...",
+                    "category": {
+                        "saved": "Salvo",
+                        "manage": "Gerenciar salvos",
+                        "new": "Novo nessa semana",
+                        "default": "Temas padrão",
+                        "highest": "Melhor avaliados",
+                        "viewall": "Ver tudo"
+                    },
+                    "active": "Ativo no momento",
+                    "use": "Usar tema",
+                    "by": "por"
                 }
             },
             "permissions": {
@@ -330,6 +351,9 @@
                 },
                 "categories": {
                     "title": "Categorias"
+                },
+                "management": {
+                    "title": "Gerenciamento de usuário"
                 }
             },
             "title": "Configurações",
@@ -561,7 +585,7 @@
         }
     },
     "login": {
-        "create": "Criar uma nova conta.",
+        "create": "Criar uma nova conta",
         "new": "Novo no Revolt?",
         "forgot": "Esqueceu sua senha?",
         "enter": {
@@ -574,20 +598,20 @@
         "password": "Senha",
         "email": "E-mail",
         "title": "Entrar",
-        "remembered": "Voltar para login.",
-        "check_mail": "Confira sua caixa de entrada.",
+        "remembered": "Voltar para login",
+        "check_mail": "Confira sua caixa de entrada!",
         "open_mail_provider": "Abrir {{provider}}",
         "successful_registration": "Registrado com sucesso!",
-        "reset": "Redefinir senha.",
+        "reset": "Redefinir senha",
         "username": "Nome de usuário",
         "register": "Registrar",
-        "cancel": "Cancelar pedido.",
+        "cancel": "Cancelar pedido",
         "current_password": "Senha atual",
         "invite": "Código de convite",
         "check_spam": "Por favor, confira a caixa de spam se você não conseguir encontrar",
-        "set_password": "Definir nova senha.",
+        "set_password": "Definir nova senha",
         "missing_verification": "Não recebeu um e-mail?",
-        "resend": "Reenviar verificação.",
+        "resend": "Reenviar verificação",
         "error": {
             "create": "Falha ao registrar!",
             "login": "Falha ao fazer login!",
@@ -595,7 +619,11 @@
             "resend": "Falha ao reenviar!"
         },
         "email_delay": "Por favor, espere até 10 minutos para chegar.",
-        "existing": "Já possui uma conta?"
+        "existing": "Já possui uma conta?",
+        "welcome2": "Olá!",
+        "subtitle2": "Criar uma conta",
+        "welcome": "Bem-vindo de volta!",
+        "subtitle": "Entrar no Revolt"
     },
     "general": {
         "about": "Sobre",
