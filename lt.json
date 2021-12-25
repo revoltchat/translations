@@ -23,13 +23,13 @@
         },
         "forgot": "Pamiršote slaptažodį?",
         "new": "Neturite Revolt paskyros?",
-        "create": "Sukurti paskyrą.",
+        "create": "Sukurti paskyrą",
         "register": "Sukurti paskyrą",
-        "remembered": "Grįžti prie prisijungimo.",
+        "remembered": "Grįžti prie prisijungimo",
         "existing": "Jau turite paskyrą?",
-        "cancel": "Atšaukti užklausą.",
+        "cancel": "Atšaukti užklausą",
         "username": "Slapyvardis",
-        "reset": "Pamiršau slaptažodį.",
+        "reset": "Atkurti slaptažodį",
         "error": {
             "resend": "Nepavyko išsiųsti iš naujo!",
             "login": "Nepavyko prisijungti!",
@@ -38,14 +38,18 @@
         },
         "successful_registration": "Sėkmingai užregistruota!",
         "check_spam": "Patikrinkite „šlamšto“ („spam“) aplanką, jei nerandate laiško",
-        "check_mail": "Patikrinkite savo el. paštą.",
-        "resend": "Persiųsti patvirtinimo laišką.",
+        "check_mail": "Patikrinkite savo el. paštą!",
+        "resend": "Persiųsti patvirtinimo laišką",
         "missing_verification": "Negavote el. laiško?",
-        "set_password": "Nustatyti naują slaptažodį.",
+        "set_password": "Nustatyti naują slaptažodį",
         "current_password": "Dabartinis slaptažodis",
         "invite": "Kvietimo kodas",
         "open_mail_provider": "Atidaryti {{provider}}",
-        "email_delay": "Gali užtrukti iki 10 minučių kol gausite laišką."
+        "email_delay": "Gali užtrukti iki 10 minučių kol gausite laišką.",
+        "welcome2": "Sveiki!",
+        "subtitle2": "Susikurti paskyrą",
+        "subtitle": "Prisijungti prie Revolt",
+        "welcome": "Sveiki sugrįžę!"
     },
     "app": {
         "main": {
@@ -89,7 +93,8 @@
                     "blocked_messages": "{{count}} užblokuotos (-ų) žinutės (-čių)",
                     "blocked_user": "Užblokuotas naudotojas",
                     "sent_file": "Išsiųstas priedas",
-                    "sent_multiple_files": "Išsiųsti keli priedai"
+                    "sent_multiple_files": "Išsiųsti keli priedai",
+                    "jump_beginning": "Šokti į pradžią"
                 },
                 "voice": {
                     "unmute": "Atsitildyti",
@@ -270,14 +275,14 @@
                         "information": "Informacija",
                         "badges": "Ženkliukai"
                     },
-                    "no_groups": "Nėra bendrų grupių!",
-                    "no_users": "Nėra bendrų draugų!",
+                    "no_groups": "Nėra bendrų grupių",
+                    "no_users": "Nėra bendrų draugų",
                     "empty": "Kažkaip čia tuštoka…",
                     "mutual_groups": "Bendros grupės",
                     "mutual_friends": "Bendri draugai",
                     "profile": "Profilis",
                     "mutual_servers": "Bendri serveriai",
-                    "no_servers": "Nėra bendrų serverių!"
+                    "no_servers": "Nėra bendrų serverių"
                 },
                 "user_picker": {
                     "select": "Pasirinkite draugus, kuriuos norite pridėti."
@@ -391,7 +396,14 @@
                     "mono_font": "Monospace šriftų parinkiklis",
                     "ligatures": "Šriftų ligatūros",
                     "ligatures_desc": "Palaikomuose šriftuose ligatūros sujungia kartu simbolius, pavyzdžiui, paversdamos -> į strėlytę. Persijunkite į Inter ir pabandykite perjungti šią parinktį.",
-                    "import": "Įkelti temą"
+                    "import": "Įkelti temą",
+                    "theme_options": {
+                        "seasonal": "Sezoninė tema",
+                        "seasonal_desc": "Rodo efektus pagrindiniame puslapyje švenčių metu.",
+                        "title": "Temos nustatymai",
+                        "follow": "Laikytis sistemos temos",
+                        "follow_desc": "Jei pažymėta, negalėsite keisti savo temos ar naudoti pritaikytos."
+                    }
                 },
                 "sessions": {
                     "created": "Sukurta {{time_ago}}",
@@ -509,7 +521,8 @@
                     "interactions_url": "Sąveikų URL",
                     "reserved": "Pastaba: šis laukelis numatytas ateičiai.",
                     "create_bot": "Sukurti botą",
-                    "unique_id": "Tai unikalius identifikatorius jūsų botui. Tai ne boto žetonas."
+                    "unique_id": "Tai unikalius identifikatorius jūsų botui. Tai ne boto žetonas.",
+                    "profile": "Boto profilis"
                 },
                 "audio": {
                     "title": "Balso nustatymai",
@@ -522,7 +535,20 @@
                     "tip_grant_permission": "Turite suteikti prieigą prie garso nustatymų."
                 },
                 "theme_shop": {
-                    "title": "Temų parduotuvė"
+                    "title": "Temų parduotuvė",
+                    "description": "Naršykite tarp šimto temų, sukurtų bei kuruojamų bendruomenės.",
+                    "search": "Ieškoti temų...",
+                    "category": {
+                        "saved": "Išsaugotos",
+                        "manage": "Tvarkyti išsaugotas",
+                        "new": "Nauja šią savaitę",
+                        "default": "Numatytosios temos",
+                        "highest": "Geriausiai įvertintos",
+                        "viewall": "Peržiūrėti visas"
+                    },
+                    "use": "Naudoti temą",
+                    "by": "Sukurta",
+                    "active": "Dabar aktyvi"
                 }
             },
             "categories": {
@@ -588,6 +614,9 @@
                 },
                 "categories": {
                     "title": "Kategorijos"
+                },
+                "management": {
+                    "title": "Naudotojo valdymas"
                 }
             },
             "permissions": {
