@@ -77,7 +77,8 @@
                     "blocked_messages": "{{count}} missatges bloquejats",
                     "blocked_user": "Usuari Bloquejat",
                     "sent_file": "Ha enviat un arxiu adjunt",
-                    "sent_multiple_files": "Ha enviat múltiples arxius adjunts"
+                    "sent_multiple_files": "Ha enviat múltiples arxius adjunts",
+                    "jump_beginning": "Torna al principi"
                 },
                 "message_where": "Envia un missatge a {{channel_name}}",
                 "message_who": "Enviar un missatge a {{person}}",
@@ -212,7 +213,14 @@
                     "sync": "Opcions de sincronització",
                     "font": "Font",
                     "mono_font": "Selector de tipus de lletra Monospace",
-                    "ligatures_desc": "Per a les fonts compatibles, les lligadures combinen caràcters junts, per exemple, convertint -> en una fletxa. Canvieu a Inter i proveu de canviar aquesta opció."
+                    "ligatures_desc": "Per a les fonts compatibles, les lligadures combinen caràcters junts, per exemple, convertint -> en una fletxa. Canvieu a Inter i proveu de canviar aquesta opció.",
+                    "theme_options": {
+                        "follow_desc": "Quan estigui marcat, no podreu canviar el tema ni utilitzar un tema personalitzat.",
+                        "title": "Opcións del Tema",
+                        "follow": "Seguir configuracións de Tema del sistema",
+                        "seasonal": "Tema de temporada",
+                        "seasonal_desc": "Mostra els efectes a la pestanya d'inici durant les èpoques de vacances."
+                    }
                 },
                 "profile": {
                     "title": "Perfil",
@@ -271,7 +279,8 @@
                         "locale": "Aixó sincronitzarà el idioma escollit actualment."
                     },
                     "title": "Sincronitzar",
-                    "categories": "Sincrontizar categorías"
+                    "categories": "Sincrontizar categorías",
+                    "options": "Sincronitza les Opcions"
                 },
                 "source_code": "Codi Font",
                 "bots": {
@@ -286,7 +295,8 @@
                     "private_bot_tip": "Bot privada. Nomes tu la pots invitar.",
                     "public_bot_desc": "Permetre als altres usuaris a invitar aquest bot.",
                     "interactions_url": "URL d'interaccions",
-                    "reserved": "Avis: Aquest camp esta reservat pel futur."
+                    "reserved": "Avis: Aquest camp esta reservat pel futur.",
+                    "profile": "Perfil del bot"
                 },
                 "feedback": {
                     "suggest_desc": "Suggerir noves característiques per al Revolt al GitHub Discussions.",
@@ -309,7 +319,20 @@
                     "title": "Donar"
                 },
                 "theme_shop": {
-                    "title": "Botigua de Temes"
+                    "title": "Botigua de Temes",
+                    "description": "Exploreu centenars de temes, creats i comissariats per la comunitat.",
+                    "search": "Cerca temes...",
+                    "category": {
+                        "saved": "Guardat",
+                        "default": "Temes per defecte",
+                        "highest": "Més alt valorat",
+                        "viewall": "Veure tot",
+                        "manage": "Gestió de temes desats",
+                        "new": "Novetats d'aquesta setmana"
+                    },
+                    "active": "Actiu actualment",
+                    "use": "Utilitzar tema",
+                    "by": "per"
                 },
                 "logOut": "Tancar sessió"
             },
@@ -352,6 +375,9 @@
                 },
                 "categories": {
                     "title": "Categories"
+                },
+                "management": {
+                    "title": "Gestió d'usuaris"
                 }
             },
             "tips": {
@@ -473,9 +499,9 @@
                     "mutual_groups": "Grups en comú",
                     "mutual_servers": "Servidors en comú",
                     "empty": "Esta una mica buit per aquí…",
-                    "no_users": "Cap amic en comú!",
-                    "no_groups": "Cap grup en comú!",
-                    "no_servers": "Cap servidor en comú!",
+                    "no_users": "Cap amic en comú",
+                    "no_groups": "Cap grup en comú",
+                    "no_servers": "Cap servidor en comú",
                     "sub": {
                         "badges": "Insignies",
                         "information": "Informació",
@@ -586,7 +612,7 @@
             "goto-testers": "Vés al servidor de proves",
             "donate": "Dóna a Revolt",
             "feedback": "Deixa una opinió sobre Revolt",
-            "settings": "Configuracións",
+            "settings": "Obrir Configuracións",
             "settings-tooltip": "També pots fer clic amb el botó dret del ratolí en la icona d'un usuari a la part superior esquerrà, o amb el botó esquerrà si ja estàs al inici.",
             "social": "Busca servidors i bots"
         }
