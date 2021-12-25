@@ -16,9 +16,9 @@
         "enter": {
             "email": "Add meg az e-mail-címed",
             "password": "A Revolt-jelszavad helye",
-            "username": "Adj meg egy nevet",
-            "current_password": "Add meg a mostani jelszót",
-            "invite": "Add meg a meghívókódot."
+            "username": "Adj meg egy nevet!",
+            "current_password": "Add meg a mostani jelszót!",
+            "invite": "Add meg a meghívókódot!"
         },
         "forgot": "Nem emlékszel a jelszavadra?",
         "new": "Még nincs Revoltod?",
@@ -42,10 +42,14 @@
         "check_spam": "Nézd meg, hogy nem került-e spambe!",
         "resend": "Fiókhitelesítő e-mail újraküldése",
         "missing_verification": "Nem jött meg az e-mail?",
-        "set_password": "Add meg az új jelszavad.",
+        "set_password": "Add meg az új jelszavad!",
         "current_password": "Mostani jelszavad",
         "invite": "Meghívókód",
-        "email_delay": "A leveled 10 percen belül meg fog érkezni."
+        "email_delay": "A leveled 10 percen belül meg fog érkezni.",
+        "subtitle": "Bejelentkezés a Revoltba",
+        "welcome": "Jó, hogy újra itt vagy!",
+        "welcome2": "Szia!",
+        "subtitle2": "Fiók létrehozása"
     },
     "app": {
         "main": {
@@ -95,7 +99,8 @@
                     "blocked_messages": "{{count}} tiltott üzenet",
                     "blocked_user": "Tiltott felhasználó",
                     "sent_file": "csatolmányt küldött",
-                    "sent_multiple_files": "több csatolmányt küldött"
+                    "sent_multiple_files": "több csatolmányt küldött",
+                    "jump_beginning": "Ugrás az újakhoz"
                 },
                 "notifications": {
                     "default": "Alapértelmezett használata",
@@ -190,7 +195,14 @@
                     "mono_font": "Azonos szélességű betűtípus",
                     "font": "Betűtípus",
                     "import": "Téma importálása",
-                    "ligatures_desc": "A ligatúrákat támogató betűtípusok bizonyos karakteregyütteseket egybeírva jelenítenek meg, mint például -> gépelésével jobbra nyíl jelenik meg. Válts át „Inter” betűtípusra és pipáld be (majd ki) a jelölőnégyzetet, hogy lásd, hogyan működik!"
+                    "ligatures_desc": "A ligatúrákat támogató betűtípusok bizonyos karakteregyütteseket egybeírva jelenítenek meg, mint például -> gépelésével jobbra nyíl jelenik meg. Válts át „Inter” betűtípusra és pipáld be (majd ki) a jelölőnégyzetet, hogy lásd, hogyan működik!",
+                    "theme_options": {
+                        "title": "Téma beállításai",
+                        "follow": "Rendszertémához alkalmazkodás",
+                        "seasonal": "Időszakos témák",
+                        "seasonal_desc": "A kezdőhelyen ünnepekhez illő kinézet lesz látható.",
+                        "follow_desc": "Nem fogsz tudni egyéni témát használni, vagy pedig témát váltani, amíg bekapcsolva marad."
+                    }
                 },
                 "logOut": "Kijelentkezés",
                 "account": {
@@ -240,7 +252,7 @@
                 "profile": {
                     "title": "Profil",
                     "info": "Tudnivalók",
-                    "placeholder": "Írj valamit magadról…",
+                    "placeholder": "Írj valamit magadról!",
                     "profile_picture": "Profilkép",
                     "custom_background": "Saját háttér",
                     "edit_background": "Háttér szerkesztése",
@@ -272,7 +284,8 @@
                         "locale": "A most használt nyelvet szinkronizálja."
                     },
                     "title": "Szinkronizálás",
-                    "categories": "Szinkronizálási kategóriák"
+                    "categories": "Szinkronizálási kategóriák",
+                    "options": "Szinkronizálás beállításai"
                 },
                 "experiments": {
                     "title": "Kísérletek",
@@ -310,10 +323,24 @@
                     "public_bot": "Nyilvános ’bot",
                     "public_bot_desc": "Meghívhatják-e más felhasználók ezt a ’botot?",
                     "interactions_url": "Interakciós URL",
-                    "unique_id": "Ez a ’botod egyedi azonosítója. Ez nem a ’bot tokenje."
+                    "unique_id": "Ez a ’botod egyedi azonosítója. Ez nem a ’bot tokenje.",
+                    "profile": "A ’bot profilja"
                 },
                 "theme_shop": {
-                    "title": "Témabolt"
+                    "title": "Témabolt",
+                    "category": {
+                        "saved": "Mentve",
+                        "new": "Heti újdonság",
+                        "highest": "Legjobbra értékeltek",
+                        "viewall": "Összes megtekintése",
+                        "manage": "Mentettek kezelése",
+                        "default": "Alapértelmezett témák"
+                    },
+                    "description": "Tallózz a közösség által létrehozott és ajánlott témák százai között!",
+                    "search": "Keresés a témák között…",
+                    "by": "Készítette:",
+                    "use": "Téma betöltése",
+                    "active": "Most használt"
                 }
             },
             "categories": {
@@ -337,8 +364,8 @@
                     "a": "Hiányzik egy fordítani való nyelv?"
                 },
                 "sessions": {
-                    "b": "változtass jelszót és használj kétlépéses hitelesítést!",
-                    "a": "Ha nem a saját munkameneteidet látod a listában"
+                    "b": "Változtass jelszót és használj kétlépéses hitelesítést!",
+                    "a": "Helyezd biztonságba a fiókodat, ha nem a saját munkameneteidet látnád az aktív munkamenetek között."
                 },
                 "account": {
                     "a": "Testre szeretnéd szabni a nyilvános profilod?",
@@ -379,6 +406,9 @@
                 },
                 "categories": {
                     "title": "Kategóriák"
+                },
+                "management": {
+                    "title": "Felhasználók kezelése"
                 }
             },
             "permissions": {
@@ -479,8 +509,8 @@
             },
             "popovers": {
                 "user_profile": {
-                    "no_groups": "Nem vagytok közösen egy csoportban sem!",
-                    "no_users": "Nincsenek közös ismerőseitek!",
+                    "no_groups": "nem vagytok közösen egy csoportban sem",
+                    "no_users": "nincsenek közös ismerőseitek",
                     "mutual_groups": "Közös csoportjaink",
                     "mutual_friends": "Közös ismerőseink",
                     "profile": "Profil",
@@ -497,9 +527,9 @@
                         "connections": "Kapcsolatok",
                         "badges": "Kitűzők"
                     },
-                    "empty": "Kicsit kong az ürességtől a tudnivalók rész…",
+                    "empty": "kicsit kong az ürességtől a tudnivalók rész",
                     "mutual_servers": "Közös szervereink",
-                    "no_servers": "Nem vagytok közösen egy szerveren sem!"
+                    "no_servers": "nem vagytok közösen egy szerveren sem"
                 },
                 "user_picker": {
                     "select": "Válaszd ki az ismerőseidet!"
@@ -603,10 +633,10 @@
         "home": {
             "join-testers": "Csatlakozz a teszterek szerveréhez",
             "settings-tooltip": "A bal felső sarokban jobb egérgombbal is kattinthatsz a profilképedre, vagy kattints ballal, ha már a kezdőhelyen vagy.",
-            "goto-testers": "Teszterek szervere",
+            "goto-testers": "Irány a teszterek szervere!",
             "donate": "Adományozz a Revoltnak",
-            "feedback": "Adj visszajelzést a Revoltról",
-            "settings": "Beállítások",
+            "feedback": "Adj visszajelzést a Revoltról!",
+            "settings": "Felhasználói beállítások ablak megnyitása",
             "social": "Szerverek és ’botok"
         }
     },
