@@ -24,15 +24,15 @@
             "invite": "Gib deinen Einladungscode ein."
         },
         "forgot": "Passwort vergessen?",
-        "reset": "Passwort zurücksetzen.",
-        "remembered": "Zum Login zurückkehren.",
+        "reset": "Passwort zurücksetzen",
+        "remembered": "Zum Login zurückkehren",
         "new": "Neu bei Revolt?",
         "existing": "Hast du bereits einen Account?",
-        "create": "Neuen Account erstellen.",
-        "cancel": "Anfrage abbrechen.",
+        "create": "Neuen Account erstellen",
+        "cancel": "Anfrage abbrechen",
         "successful_registration": "Erfolgreich registriert!",
         "open_mail_provider": "{{provider}} öffnen",
-        "check_mail": "Schaue in deinem E-Mail Postfach nach.",
+        "check_mail": "Schaue in deinem E-Mail Postfach nach!",
         "error": {
             "resend": "Erneutes senden fehlgeschlagen!",
             "reset": "Zurücksetzen fehlgeschlagen!",
@@ -40,12 +40,16 @@
             "create": "Account konnte nicht erstellt werden!"
         },
         "check_spam": "Schaue bitte in deinem Spamordner nach, wenn du sie nicht finden kannst",
-        "resend": "Bestätigung erneut senden.",
+        "resend": "Bestätigung erneut senden",
         "missing_verification": "Keine E-Mail erhalten?",
-        "set_password": "Neues Passwort festlegen.",
+        "set_password": "Neues Passwort festlegen",
         "current_password": "Aktuelles Passwort",
         "invite": "Einladungscode",
-        "email_delay": "Es kann bis zu 10 Minuten dauern, bis du die E-Mail erreichst."
+        "email_delay": "Es kann bis zu 10 Minuten dauern, bis du die E-Mail erreichst.",
+        "welcome2": "Hallo!",
+        "subtitle2": "Einen Account erstellen",
+        "welcome": "Willkommen zurück!",
+        "subtitle": "Bei Revolt anmelden"
     },
     "app": {
         "status": {
@@ -111,7 +115,8 @@
                     "blocked_messages": "{{count}} blockierte Nachrichten",
                     "blocked_user": "Blockierter Nutzer",
                     "sent_file": "Anhang",
-                    "sent_multiple_files": "Anhänge"
+                    "sent_multiple_files": "Anhänge",
+                    "jump_beginning": "Springe vor zum Anfang"
                 },
                 "voice": {
                     "unmute": "Stummschaltung aufheben",
@@ -309,8 +314,8 @@
             },
             "popovers": {
                 "user_profile": {
-                    "no_groups": "Keine gemeinsamen Gruppen!",
-                    "no_users": "Keine gemeinsamen Freunde!",
+                    "no_groups": "Keine gemeinsamen Gruppen",
+                    "no_users": "Keine gemeinsamen Freunde",
                     "mutual_groups": "Gemeinsame Gruppen",
                     "mutual_friends": "Gemeinsame Freunde",
                     "profile": "Profil",
@@ -329,7 +334,7 @@
                         "badges": "Abzeichen"
                     },
                     "mutual_servers": "Gemeinsame Server",
-                    "no_servers": "Keine gemeinsamen Server!"
+                    "no_servers": "Keine gemeinsamen Server"
                 },
                 "user_picker": {
                     "select": "Zu hinzufügende Freunde auswählen."
@@ -392,7 +397,14 @@
                     "ligatures": "Ligaturen",
                     "font": "Schrift",
                     "ligatures_desc": "Für unterstützte Schriften werden Ligaturen bewirken, dass einige Zeichen kombiniert werden. So wird -> beispielweise zu einem Pfeil. Wechsle die Schrift zu Inter und probiere aus, diese Einstellung umzuschalten.",
-                    "import": "Thema importieren"
+                    "import": "Thema importieren",
+                    "theme_options": {
+                        "title": "Themenoptionen",
+                        "follow": "Folge Systemthema",
+                        "follow_desc": "Wenn bestätigt, ist es dir nicht möglich dein Thema zu wechseln oder ein benutzerdefiniertes Thema zu verwenden.",
+                        "seasonal": "Saisonales Thema",
+                        "seasonal_desc": "Zeigt während der Ferienzeit Effekte auf dem Home-Tab an."
+                    }
                 },
                 "sessions": {
                     "created": "{{time_ago}} erstellt",
@@ -480,7 +492,8 @@
                         "appearance": "Dadurch werden Optionen wie das Emojipaket oder die Dichte von Nachrichten synchronisiert.",
                         "theme": "Dadurch werden Optionen wie das ausgewählte Thema oder die benutzerdefiniertes CSS synchronisiert.",
                         "locale": "Dadurch wird die aktuell ausgewählte Sprache synchronisiert."
-                    }
+                    },
+                    "options": "Synchronisiere Optionen"
                 },
                 "experiments": {
                     "title": "Experimente",
@@ -508,7 +521,8 @@
                     "public_bot_desc": "Ob andere Benutzer diesen Bot einladen dürfen.",
                     "interactions_url": "Interaktions-URL",
                     "reserved": "Hinweis: Dieses Feld ist für die Zukünftige Features reserviert.",
-                    "unique_id": "Dies ist eine eindeutige Kennung für Ihren Bot. Dies ist nicht der Bot Token."
+                    "unique_id": "Dies ist eine eindeutige Kennung für Ihren Bot. Dies ist nicht der Bot Token.",
+                    "profile": "Bot Profil"
                 },
                 "audio": {
                     "title": "Spracheinstellungen",
@@ -521,7 +535,20 @@
                     "button_grant": "Berechtigung erteilen"
                 },
                 "theme_shop": {
-                    "title": "Themen Shop"
+                    "title": "Themen Shop",
+                    "search": "Suche Themen...",
+                    "description": "Durchsuche hunderte von Themen, erstellt und kuratiert von der Community.",
+                    "category": {
+                        "manage": "Verwaltung gesichert",
+                        "new": "Neu diese Woche",
+                        "default": "Standard Themen",
+                        "highest": "Am besten bewertet",
+                        "viewall": "Siehe alle",
+                        "saved": "Gesichert"
+                    },
+                    "active": "Zur Zeit aktiv",
+                    "use": "Benutze Thema",
+                    "by": "von"
                 }
             },
             "categories": {
@@ -588,6 +615,9 @@
                 },
                 "categories": {
                     "title": "Kategorien"
+                },
+                "management": {
+                    "title": "Benutzer Verwaltung"
                 }
             },
             "permissions": {
@@ -606,7 +636,7 @@
             "goto-testers": "Gehe zum Tester-Server",
             "donate": "Spende für die Revolt",
             "feedback": "Gib Feedback zu Revolt",
-            "settings": "Einstellungen",
+            "settings": "Einstellungen öffnen",
             "settings-tooltip": "Sie können auch mit der rechten Maustaste auf das Benutzersymbol oben links klicken oder mit der linken Maustaste darauf klicken, wenn Sie bereits zu Hause sind.",
             "social": "Server und Bots finden"
         }
