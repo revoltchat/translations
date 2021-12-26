@@ -23,11 +23,11 @@
         },
         "forgot": "Zapomniałeś hasła?",
         "new": "Nowy w Revolt?",
-        "create": "Stwórz nowe konto.",
-        "cancel": "Anuluj żądanie.",
+        "create": "Stwórz nowe konto",
+        "cancel": "Anuluj żądanie",
         "existing": "Posiadasz już konto?",
-        "remembered": "Wróć do logowania.",
-        "reset": "Zresetuj hasło.",
+        "remembered": "Wróć do logowania",
+        "reset": "Zresetuj hasło",
         "username": "Nazwa użytkownika",
         "register": "Załóż konto",
         "error": {
@@ -39,13 +39,17 @@
         "successful_registration": "Rejestracja pomyślnie się zakończyła!",
         "open_mail_provider": "Otwórz {{provider}}",
         "check_spam": "Upewnij się czy nie masz wiadomości w spamie",
-        "check_mail": "Sprawdź swojego maila.",
-        "resend": "Wyślij ponownie weryfikację.",
-        "missing_verification": "E-mail nie dotarł?",
-        "set_password": "Ustaw nowe hasło.",
+        "check_mail": "Sprawdź swojego maila!",
+        "resend": "Wyślij ponownie weryfikację",
+        "missing_verification": "Email nie dotarł?",
+        "set_password": "Ustaw nowe hasło",
         "current_password": "Aktualne hasło",
         "invite": "Kod zaproszenia",
-        "email_delay": "Wiadomość E-Mail dotrze do Ciebie w przeciągu najbliższych 10 minut."
+        "email_delay": "Wiadomość E-Mail dotrze do Ciebie w przeciągu najbliższych 10 minut.",
+        "welcome": "Witamy spowrotem!",
+        "subtitle": "Zaloguj się do Revolt",
+        "welcome2": "Witam!",
+        "subtitle2": "Utwórz konto"
     },
     "app": {
         "status": {
@@ -117,7 +121,8 @@
                     "blocked_messages": "{{count}} zablokowanych wiadomości",
                     "blocked_user": "Zablokowany Użytkownik",
                     "sent_file": "wysłał(a) załącznik",
-                    "sent_multiple_files": "wysłał(a) załączniki"
+                    "sent_multiple_files": "wysłał(a) załączniki",
+                    "jump_beginning": "Skok do początku"
                 },
                 "notifications": {
                     "none": "Brak",
@@ -163,7 +168,8 @@
                 "text_channel": "Kanał tekstowy",
                 "channel_description": "Opis kanału",
                 "custom_banner": "Własny baner",
-                "voice_channel": "Kanał głosowy"
+                "voice_channel": "Kanał głosowy",
+                "category_name": "Nazwa Kategorii"
             }
         },
         "special": {
@@ -260,10 +266,12 @@
                         "translator": "Tłumacz",
                         "early_adopter": "Wczesny Ptaszek",
                         "supporter": "Wspieracz",
-                        "responsible_disclosure": "Odpowiedzialnie ujawnione błędy"
+                        "responsible_disclosure": "Odpowiedzialnie ujawnione błędy",
+                        "founder": "Założyciel",
+                        "moderation": "Moderacja platformy"
                     },
-                    "no_groups": "Brak wspólnych grup!",
-                    "no_users": "Żadnych wspólnych znajomych!",
+                    "no_groups": "Brak wspólnych grup",
+                    "no_users": "Żadnych wspólnych znajomych",
                     "mutual_groups": "Wspólne grupy",
                     "mutual_friends": "Wspólni Znajomi",
                     "profile": "Profil",
@@ -273,7 +281,7 @@
                         "information": "Informacje",
                         "connections": "Połączenia"
                     },
-                    "no_servers": "Brak wspólnych serwerów!",
+                    "no_servers": "Brak wspólnych serwerów",
                     "mutual_servers": "Wspólne Serwery"
                 },
                 "user_picker": {
@@ -298,7 +306,11 @@
                 "invalid": "Nieprawidłowe zaproszenie!",
                 "invalid_desc": "Zaproszenie może nie istnieć lub nie masz uprawnień aby dołączyć."
             },
-            "copy": "Kliknij aby skopiować"
+            "copy": "Kliknij aby skopiować",
+            "server-badges": {
+                "official": "Oficjalny serwer",
+                "verified": "Zweryfikowany serwer"
+            }
         },
         "context_menu": {
             "block_user": "Zablokuj użytkownika",
@@ -384,7 +396,14 @@
                     "mono_font": "Wybór czcionki Monospace",
                     "ligatures": "Ligatura czcionki",
                     "ligatures_desc": "Dla obsługiwanych czcionek ligatury łączą ze sobą znaki, przykładowo zmieniając -> w strzałkę. Zmień czcionkę na Inter i spróbuj włączyć tę opcję.",
-                    "import": "Importuj motyw"
+                    "import": "Importuj motyw",
+                    "theme_options": {
+                        "seasonal_desc": "Wyświetla efekty w zakładce Home w okresie sezony świąteczne.",
+                        "title": "Opcje motywu",
+                        "seasonal": "Motyw sezonowy",
+                        "follow": "Śledź motyw systemu",
+                        "follow_desc": "Jeśli zaznaczone, nie będziesz w stanie zmienić motywu ani użyć niestandardowego motywu."
+                    }
                 },
                 "sessions": {
                     "created": "Utworzono {{time_ago}}",
@@ -473,7 +492,8 @@
                         "appearance": "Spowoduje to zsynchronizowanie opcji, takich jak zestaw emoji i wygląd wiadomości."
                     },
                     "title": "Synchronizuj",
-                    "categories": "Synchronizuj kategorie"
+                    "categories": "Synchronizuj kategorie",
+                    "options": "Opcje synchronizacji"
                 },
                 "experiments": {
                     "not_available": "Żadna z funkcji beta nie jest aktualnie dostępna.",
@@ -498,7 +518,8 @@
                     "reserved": "Uwaga: To pole jest zarezerwowane na przyszłość.",
                     "interactions_url": "URL interakcji",
                     "public_bot_desc": "Czy zezwolić innym użytkownikom na zapraszanie tego bota.",
-                    "unique_id": "To jest unikalny identyfikator dla twojego bota. To nie jest token bota."
+                    "unique_id": "To jest unikalny identyfikator dla twojego bota. To nie jest token bota.",
+                    "profile": "Bot profil"
                 },
                 "native": {
                     "title": "Ustawienia aplikacji"
@@ -509,10 +530,25 @@
                     "title": "Ustawienia głosu",
                     "button_retry": "spróbuj ponownie",
                     "device_label_NA": "niedostępne",
-                    "tip_retry": "Nie dałeś pozwolenia na dostęp do twojego mikrofonu? Proszę {{retryBtn}}."
+                    "tip_retry": "Nie dałeś pozwolenia na dostęp do twojego mikrofonu? Proszę {{retryBtn}}.",
+                    "tip_grant_permission": "Musisz przyznać uprawnienia dostępu do ustawień audio.",
+                    "button_grant": "Dać pozwolenie"
                 },
                 "theme_shop": {
-                    "title": "Sklep z motywami"
+                    "title": "Sklep z motywami",
+                    "category": {
+                        "saved": "Zapisane",
+                        "manage": "Zarządzaj zapisanymi",
+                        "default": "Motywy domyślne",
+                        "viewall": "Pokaż wszystkie",
+                        "new": "Nowość w tym tygodniu",
+                        "highest": "Najwyżej oceniany"
+                    },
+                    "description": "Przeglądaj setki motywów stworzonych i wyselekcjonowanych przez społeczność.",
+                    "search": "Wyszukaj motywy...",
+                    "active": "Obecnie aktywny",
+                    "use": "Użyj motywu",
+                    "by": "za pomocą"
                 }
             },
             "categories": {
@@ -578,6 +614,9 @@
                 },
                 "categories": {
                     "title": "Kategorie"
+                },
+                "management": {
+                    "title": "Zarządzanie użytkownikami"
                 }
             },
             "permissions": {
@@ -592,8 +631,13 @@
             "required": "Wymagane uprawnienia"
         },
         "home": {
-            "settings": "Ustawienia",
-            "social": "Odkryj serwery i boty"
+            "settings": "Otwórz ustawienia",
+            "social": "Odkryj serwery i boty",
+            "join-testers": "Dołącz do serwera testerów",
+            "goto-testers": "Przejdź do serwera testerów",
+            "donate": "Przekaż darowiznę na Revolt",
+            "feedback": "Przekaż opinię w Revolt",
+            "settings-tooltip": "Możesz także kliknąć prawym przyciskiem myszy ikonę użytkownika w lewym górnym rogu lub lewym przyciskiem myszy, jeśli jesteś już w domu."
         }
     },
     "dayjs": {
@@ -737,6 +781,10 @@
             "ManageChannel": {
                 "t": "Wyrzuć członków",
                 "d": "Zezwól członkom na edytowanie lub usunięcie kanału."
+            },
+            "Masquerade": {
+                "t": "Maskarada",
+                "d": "Pozwala członkom na zmienić ich imię i awatara za wiadomość."
             }
         }
     },
