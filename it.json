@@ -100,19 +100,23 @@
         "password": "Password",
         "current_password": "Password attuale",
         "forgot": "Hai dimenticato la password?",
-        "reset": "Resetta la password.",
+        "reset": "Resetta la password",
         "new": "Nuovo in Revolt?",
         "existing": "Hai già un account?",
-        "create": "Crea un nuovo account.",
+        "create": "Crea un nuovo account",
         "missing_verification": "Non hai ricevuto l'email?",
-        "resend": "Rinvia la verifica.",
-        "cancel": "Cancella richiesta.",
-        "email_delay": "Si prega di attendere fino a 10 minuti per l'arrivo.",
+        "resend": "Rinvia la verifica",
+        "cancel": "Cancella richiesta",
+        "email_delay": "Si prega di attendere fino a 10 minuti per l'arrivo della mail.",
         "open_mail_provider": "Apri {{provider}}",
-        "successful_registration": "Registrato con successo!",
-        "set_password": "Imposta una nuova password.",
-        "remembered": "Torna al login.",
-        "check_mail": "Controlla la tua mail."
+        "successful_registration": "Registrazione avvenuta con successo!",
+        "set_password": "Imposta una nuova password",
+        "remembered": "Torna al login",
+        "check_mail": "Controlla la tua mail!",
+        "subtitle": "Entra in Revolt",
+        "welcome": "Bentornato!",
+        "welcome2": "Ciao!",
+        "subtitle2": "Crea un account"
     },
     "general": {
         "about": "Informazioni",
@@ -171,7 +175,7 @@
                     "user_joined": "{{user}} è entrato nel server",
                     "user_left": "{{user}} ha lasciato il server",
                     "user_kicked": "{{user}} è stato cacciato",
-                    "user_banned": "{{user}} è stato cacciato",
+                    "user_banned": "{{user}} è stato bannato",
                     "added_by": "{{user}} è stato aggiunto da {{other_user}}",
                     "removed_by": "{{user}} è stato rimosso da {{other_user}}",
                     "channel_description_changed": "{{user}} ha cambiato la descrizione del canale",
@@ -191,7 +195,8 @@
                     "blocked_messages": "{{count}} messaggi bloccati",
                     "blocked_user": "Utente bloccato",
                     "sent_file": "Ha mandato un file",
-                    "sent_multiple_files": "Ha mandato diversi file"
+                    "sent_multiple_files": "Ha mandato diversi file",
+                    "jump_beginning": "Vai all'inizio"
                 },
                 "nsfw": {
                     "channel": {
@@ -240,7 +245,7 @@
                 "custom_banner": "Banner personalizzato",
                 "owner": "Proprietario del server",
                 "voice_channel": "Canale vocale",
-                "text_channel": "Canale tastuale",
+                "text_channel": "Canale testuale",
                 "category_name": "Nome della categoria"
             }
         },
@@ -324,7 +329,14 @@
                     "emoji_pack": "Pacchetto Emoji",
                     "theme_data": "Dati del tema",
                     "custom_css": "CSS personalizzato",
-                    "ligatures_desc": "Per i caratteri supportati, le legature combinano i caratteri insieme, ad esempio trasformando -> in una freccia. Passa all'Inter e prova ad attivare questa opzione."
+                    "ligatures_desc": "Per i caratteri supportati, le legature combinano i caratteri insieme, ad esempio trasformando -> in una freccia. Passa all'Inter e prova ad attivare questa opzione.",
+                    "theme_options": {
+                        "title": "Opzioni dei temi",
+                        "follow": "Usa il tema di sistema",
+                        "seasonal": "Tema stagionale",
+                        "seasonal_desc": "Mostra degli effetti nella home durante le feste stagionali.",
+                        "follow_desc": "Quando attivato, non potrai cambiare il tuo tema o usarne uno personalizzato."
+                    }
                 },
                 "notifications": {
                     "title": "Notifiche",
@@ -356,7 +368,8 @@
                         "locale": "Questo sincronizzerà la lingua attualmente scelta.",
                         "appearance": "Questo sincronizzerà le opzioni come i pacchetti di emoji e la densità dei messaggi.",
                         "theme": "Questo sincronizzerà il tema scelto, i colori e qualsiasi CSS personalizzato."
-                    }
+                    },
+                    "options": "Sicronizza le impostazioni"
                 },
                 "experiments": {
                     "title": "Esperimenti",
@@ -394,13 +407,14 @@
                     "public_bot_desc": "Se consentire ad altri utenti di invitare questo bot.",
                     "interactions_url": "URL interazioni",
                     "reserved": "Nota: Questo campo è riservato per il futuro.",
-                    "unique_id": "Questo è un identificare unico per il tuo bot. Questo non è il token del bot."
+                    "unique_id": "Questo è un identificare unico per il tuo bot. Questo non è il token del bot.",
+                    "profile": "Profile del bot"
                 },
                 "audio": {
                     "title": "Impostazioni della voce",
                     "input_device": "Microfono",
                     "output_device": "Altoparlante / Cuffie",
-                    "device_label_NA": "N/D",
+                    "device_label_NA": "N/A",
                     "button_retry": "riprova",
                     "tip_retry": "Non hai dato il permesso per accedere al tuo microfono, per favore {{retryBtn}}.",
                     "tip_grant_permission": "Devi concedere il permesso per accedere alle impostazione audio.",
@@ -410,7 +424,20 @@
                     "title": "Impostazioni del desktop"
                 },
                 "theme_shop": {
-                    "title": "Negozio dei temi"
+                    "title": "Negozio dei temi",
+                    "description": "Cerca migliaia di temi, creati e mantenuti dalla community.",
+                    "search": "Cerca temi...",
+                    "category": {
+                        "saved": "Salvato",
+                        "manage": "Gestioni salvate",
+                        "new": "Nuovi della settimana",
+                        "default": "Temi predefiniti",
+                        "highest": "Più votato",
+                        "viewall": "Vedi tutti"
+                    },
+                    "active": "Attualmente attivo",
+                    "use": "Usa il tema",
+                    "by": "da"
                 }
             },
             "channel_pages": {
@@ -452,6 +479,9 @@
                 },
                 "categories": {
                     "title": "Categorie"
+                },
+                "management": {
+                    "title": "Gestione dell'utente"
                 }
             },
             "tips": {
@@ -616,8 +646,8 @@
                     "mutual_friends": "Amici in comune",
                     "mutual_groups": "Gruppi in comune",
                     "empty": "È un po' vuoto qui dentro…",
-                    "no_users": "Nessun amico in comune!",
-                    "no_groups": "Nessun gruppo in comune!",
+                    "no_users": "Nessun amico in comune",
+                    "no_groups": "Nessun gruppo in comune",
                     "sub": {
                         "badges": "Distintivi",
                         "information": "Informazione",
@@ -627,10 +657,12 @@
                         "translator": "Traduttore",
                         "supporter": "Sostenitore",
                         "early_adopter": "Primo Adepto",
-                        "responsible_disclosure": "Bug(s) divulgati in modo responsabile"
+                        "responsible_disclosure": "Bug(s) divulgati in modo responsabile",
+                        "moderation": "Moderazione della piattaforma",
+                        "founder": "Fondatore"
                     },
                     "mutual_servers": "Server in comune",
-                    "no_servers": "Nessun server in comune!"
+                    "no_servers": "Nessun server in comune"
                 },
                 "user_picker": {
                     "select": "Seleziona gli amici da aggiungere."
@@ -668,7 +700,7 @@
             "goto-testers": "Vai al server dei tester",
             "donate": "Dona a Revolt",
             "feedback": "Dai un riscontro su Revolt",
-            "settings": "Impostazioni",
+            "settings": "Apri le impostazioni",
             "social": "Trova server e bots"
         }
     },
