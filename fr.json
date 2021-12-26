@@ -1,6 +1,6 @@
 {
     "general": {
-        "about": "À Propos",
+        "about": "À propos",
         "tos": "Conditions d'utilisation",
         "privacy": "Politique de confidentialité",
         "image_by": "Image de",
@@ -15,7 +15,7 @@
         "email": "Adresse e-mail",
         "password": "Mot de passe",
         "enter": {
-            "email": "Entrez votre e-mail.",
+            "email": "Entrez votre adresse mail.",
             "password": "Entrez votre mot de passe.",
             "invite": "Entrez votre code d'invitation.",
             "username": "Entrez votre nom d'utilisateur préféré.",
@@ -23,12 +23,12 @@
         },
         "forgot": "Mot de passe oublié ?",
         "new": "Nouveau sur Revolt ?",
-        "create": "Créer un nouveau compte.",
+        "create": "Créer un nouveau compte",
         "open_mail_provider": "Ouvrir {{provider}}",
         "successful_registration": "Inscrit avec succès !",
         "set_password": "Définir un nouveau mot de passe.",
         "missing_verification": "Vous n'avez pas reçu d'e-mail ?",
-        "cancel": "Annuler la requête.",
+        "cancel": "Annuler la requête",
         "error": {
             "reset": "Échec de la réinitialisation !",
             "create": "La création du compte a échoué !",
@@ -36,16 +36,20 @@
             "resend": "Nous n'avons pas réussi à renvoyer la requête !"
         },
         "reset": "Réinitialiser le mot de passe.",
-        "remembered": "Retour à la page de connexion.",
+        "remembered": "Retour à la page de connexion",
         "register": "S'inscrire",
         "invite": "Code d'invitation",
         "current_password": "Mot de passe actuel",
-        "resend": "Renvoyer la vérification.",
+        "resend": "Renvoyer la vérification",
         "existing": "Avez-vous déjà un compte ?",
         "username": "Nom d'utilisateur",
-        "check_mail": "Vérifiez vos mails.",
+        "check_mail": "Vérifiez vos mails !",
         "check_spam": "Veuillez vérifier dans vos courriers indésirables si le mail est introuvable",
-        "email_delay": "Merci d'attendre jusqu'à 10 minutes pour qu'il arrive."
+        "email_delay": "Merci d'attendre jusqu'à 10 minutes pour qu'il arrive.",
+        "welcome": "Bon retour !",
+        "subtitle": "Se connecter à Revolt",
+        "welcome2": "Bonjour !",
+        "subtitle2": "Créer un compte"
     },
     "app": {
         "main": {
@@ -95,7 +99,8 @@
                     "blocked_messages": "{{count}} messages bloqués",
                     "blocked_user": "Utilisateur bloqué",
                     "sent_file": "Envoi d'une pièce jointe",
-                    "sent_multiple_files": "Envoi de plusieurs pièces jointes"
+                    "sent_multiple_files": "Envoi de plusieurs pièces jointes",
+                    "jump_beginning": "Retour au début"
                 },
                 "notifications": {
                     "all": "Tous les messages",
@@ -251,7 +256,14 @@
                     "font": "Police d'écriture",
                     "mono_font": "Sélecteur de police à taille fixe",
                     "ligatures": "Ligatures de police d'écriture",
-                    "ligatures_desc": "Pour les polices d'écriture prises en charge, les ligatures combinent certains caractères ensemble, par exemple en transformant -> en une flèche. Placez-vous au champ de texte puis essayez avec ou sans cette option."
+                    "ligatures_desc": "Pour les polices d'écriture prises en charge, les ligatures combinent certains caractères ensemble, par exemple en transformant -> en une flèche. Placez-vous au champ de texte puis essayez avec ou sans cette option.",
+                    "theme_options": {
+                        "title": "Options de thème",
+                        "follow": "Utiliser le thème du système d'exploitation",
+                        "follow_desc": "Si activé, vous ne serez pas capable de changer votre thème ou d'utiliser un thème personnalisé.",
+                        "seasonal": "Thème saisonnier",
+                        "seasonal_desc": "Afficher des effets dans l'onglet d'accueil pendant les saisons de vacances."
+                    }
                 },
                 "notifications": {
                     "descriptions": {
@@ -340,7 +352,8 @@
                         "appearance": "Cela synchronisera les options telles que les collections d'emoji et la densité des messages.",
                         "theme": "Cela synchronisera le thème, les couleurs et tout le code CSS personnalisé de votre choix.",
                         "locale": "Cela synchronisera la langue actuellement sélectionnée."
-                    }
+                    },
+                    "options": "Options de synchronisation"
                 },
                 "experiments": {
                     "title": "Expériences",
@@ -368,7 +381,8 @@
                     "copy_invite": "Copier le lien d'invitation",
                     "add": "Ajouter un bot",
                     "public_bot_desc": "Autoriser d'autres utilisateurs à inviter ce bot.",
-                    "unique_id": "C'est un identifiant unique pour ton bot. Ce n'est pas le jeton du bot."
+                    "unique_id": "C'est un identifiant unique pour ton bot. Ce n'est pas le jeton du bot.",
+                    "profile": "Profil du bot"
                 },
                 "audio": {
                     "title": "Options vocales",
@@ -381,7 +395,20 @@
                     "button_grant": "Donner la permission"
                 },
                 "theme_shop": {
-                    "title": "Boutique de thèmes"
+                    "title": "Boutique de thèmes",
+                    "description": "Naviguer à travers des centaines de thèmes, créés par la communauté.",
+                    "search": "Rechercher des thèmes...",
+                    "category": {
+                        "saved": "Sauvegardés",
+                        "new": "Nouveautés de la semaine",
+                        "manage": "Gérer les thèmes sauvegardés",
+                        "default": "Thèmes par défaut",
+                        "viewall": "Voir tout",
+                        "highest": "Hautement notés"
+                    },
+                    "active": "Actuellement actifs",
+                    "use": "Appliquer le thème",
+                    "by": "par"
                 }
             },
             "channel_pages": {
@@ -447,6 +474,9 @@
                 },
                 "roles": {
                     "title": "Rôles"
+                },
+                "management": {
+                    "title": "Gestion des utilisateurs"
                 }
             },
             "permissions": {
