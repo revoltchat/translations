@@ -232,7 +232,14 @@
                     "ligatures_desc": "Desteklenen yazı tipleri için bitişik harfler karakterleri birleştirir, örneğin -> bir oka dönüşür. Inter'e geçin ve bu seçeneği değiştirmeyi deneyin.",
                     "mono_font": "Monoscape Yazı Tipi Seçici",
                     "ligatures": "Yazı Tipi İçin Bitişik Harfler",
-                    "import": "Bir temayı içe aktar"
+                    "import": "Bir temayı içe aktar",
+                    "theme_options": {
+                        "title": "Tema Seçenekleri",
+                        "follow": "Sistem temasını takip et",
+                        "follow_desc": "İşaretlendiğinde, temanızı değiştiremez veya özel bir tema kullanamazsınız.",
+                        "seasonal": "Mevsimlik Tema",
+                        "seasonal_desc": "Tatil mevsimlerinde ana sayfa sekmesinde efektleri görüntüler."
+                    }
                 },
                 "notifications": {
                     "title": "Bildirimler",
@@ -326,7 +333,8 @@
                     "public_bot": "Halka Açık Bot",
                     "reserved": "Not: Bu alan gelecek için ayrılmıştır.",
                     "interactions_url": "Etkileşimler URL'si",
-                    "unique_id": "Bu, botunuz için eşsiz bir tanımlayıcıdır. Bu botun jetonu değildir."
+                    "unique_id": "Bu, botunuz için eşsiz bir tanımlayıcıdır. Bu botun jetonu değildir.",
+                    "profile": "Bot profili"
                 },
                 "audio": {
                     "title": "Ses Ayarları",
@@ -339,7 +347,20 @@
                     "button_grant": "İzin ver"
                 },
                 "theme_shop": {
-                    "title": "Tema Mağazası"
+                    "title": "Tema Mağazası",
+                    "description": "Topluluk tarafından oluşturulan ve koleksiyon yöneticiliğini yaptığı yüzlerce temayı keşfedin.",
+                    "category": {
+                        "default": "Varsayılan temalar",
+                        "highest": "En yüksek oy alan",
+                        "viewall": "Hepsini gör",
+                        "manage": "Kaydedilenleri yönet",
+                        "saved": "Kaydedilenler",
+                        "new": "Bu haftaki yenilikler"
+                    },
+                    "active": "Şuanda aktif",
+                    "by": "tarafından",
+                    "search": "Tema ara...",
+                    "use": "Temayı kullan"
                 }
             },
             "channel_pages": {
@@ -401,6 +422,9 @@
                 },
                 "categories": {
                     "title": "Kategoriler"
+                },
+                "management": {
+                    "title": "Kullanıcı Yönetimi"
                 }
             },
             "permissions": {
@@ -590,14 +614,14 @@
             "current_password": "Mevcut şifrenizi girin.",
             "email": "E-postanızı girin."
         },
-        "reset": "Şifreni sıfırla.",
-        "set_password": "Yeni şifre belirleyin.",
-        "remembered": "Giriş sayfasına geri dönün.",
+        "reset": "Şifreni sıfırla",
+        "set_password": "Yeni şifre belirleyin",
+        "remembered": "Giriş sayfasına geri dönün",
         "new": "Revolt'a yeni misiniz?",
-        "create": "Yeni bir hesap oluştur.",
-        "resend": "Tekrar doğrulama gönder.",
-        "cancel": "İsteği iptal et.",
-        "check_mail": "E-postanı kontrol et.",
+        "create": "Yeni bir hesap oluştur",
+        "resend": "Tekrar doğrulama gönder",
+        "cancel": "İsteği iptal et",
+        "check_mail": "E-postanı kontrol et!",
         "successful_registration": "Başarıyla kaydoldun!",
         "error": {
             "create": "Kayıt başarısız!",
@@ -610,7 +634,11 @@
         "missing_verification": "Bir eposta almadınız mı?",
         "check_spam": "Eğer bulamıyorsanız lütfen spam kutunuzu kontrol edin",
         "open_mail_provider": "{{provider}}'ı açın",
-        "email_delay": "Lütfen gelmesi için 10 dakikaya kadar bekleyin."
+        "email_delay": "Lütfen gelmesi için 10 dakikaya kadar bekleyin.",
+        "welcome2": "Merhaba!",
+        "subtitle2": "Bir hesap oluştur",
+        "subtitle": "Revolt'ta Oturum Aç",
+        "welcome": "Tekrar hoşgeldin!"
     },
     "quantities": {
         "members": {
