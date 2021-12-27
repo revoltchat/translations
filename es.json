@@ -47,7 +47,8 @@
                     "no_sending": "No tienes permiso para enviar mensajes en este canal.",
                     "blocked_user": "Usuario Bloqueado",
                     "sent_file": "Envió un archivo",
-                    "sent_multiple_files": "Envió múltiples archivos"
+                    "sent_multiple_files": "Envió múltiples archivos",
+                    "jump_beginning": "Volver al principio"
                 },
                 "notifications": {
                     "default": "Usar opciones por defecto",
@@ -223,7 +224,14 @@
                     "ligatures": "Ligaduras de fuentes",
                     "mono_font": "Selector de fuente monoespaciado",
                     "ligatures_desc": "En los tipos de letra compatibles, las ligaduras combinan caracteres, por ejemplo, convirtiendo -> en una flecha. Cambia a Inter y prueba a activar esta opción.",
-                    "import": "Importar un tema"
+                    "import": "Importar un tema",
+                    "theme_options": {
+                        "follow_desc": "Cuando está marcada, no podrá cambiar su tema ni usar un tema personalizado.",
+                        "seasonal": "Tema estacional",
+                        "seasonal_desc": "Muestra efectos en la pestaña de inicio durante las temporadas de vacaciones.",
+                        "follow": "Seguir el tema del sistema",
+                        "title": "Opciones de tema"
+                    }
                 },
                 "logOut": "Cerrar sesión",
                 "source_code": "Código fuente",
@@ -234,7 +242,8 @@
                         "appearance": "Esto sincronizará opciones como los paquetes de emoji y la densidad de los mensajes.",
                         "locale": "Esto sincronizará el idioma elegido actualmente."
                     },
-                    "categories": "Sincronizar categorías"
+                    "categories": "Sincronizar categorías",
+                    "options": "Opciones de sincronización"
                 },
                 "experiments": {
                     "not_available": "No hay experimentos disponibles en este momento.",
@@ -259,7 +268,8 @@
                     "reserved": "Nota: Este campo está reservado para el futuro.",
                     "copy_invite": "Copiar enlace de invitación",
                     "public_bot_desc": "Permitir o no que otros usuarios inviten a este bot.",
-                    "unique_id": "Este es un identificador único para tu bot. No es el token del bot."
+                    "unique_id": "Este es un identificador único para tu bot. No es el token del bot.",
+                    "profile": "Perfil de bot"
                 },
                 "native": {
                     "title": "Opciones de escritorio"
@@ -275,7 +285,20 @@
                     "button_grant": "Conceder permiso"
                 },
                 "theme_shop": {
-                    "title": "Tienda de temas"
+                    "title": "Tienda de temas",
+                    "category": {
+                        "manage": "Administrar guardado",
+                        "new": "Nuevo esta semana",
+                        "saved": "Guardado",
+                        "default": "Temas predeterminados",
+                        "highest": "Mayor valorado",
+                        "viewall": "Ver todo"
+                    },
+                    "use": "Usar tema",
+                    "active": "Actualmente activo",
+                    "by": "por",
+                    "description": "Explore cientos de temas, creados y seleccionados por la comunidad.",
+                    "search": "Buscar temas..."
                 }
             },
             "categories": {
@@ -340,6 +363,9 @@
                 },
                 "categories": {
                     "title": "Categorías"
+                },
+                "management": {
+                    "title": "Gestión de usuarios"
                 }
             },
             "permissions": {
@@ -500,7 +526,7 @@
                         "founder": "Fundador",
                         "moderation": "Moderador"
                     },
-                    "no_users": "¡Ningun amigo en común!",
+                    "no_users": "Ningun amigo en común",
                     "empty": "Está un poco vacío aquí…",
                     "sub": {
                         "badges": "Insignias",
@@ -509,9 +535,9 @@
                     },
                     "mutual_friends": "Amigos en común",
                     "mutual_groups": "Grupos en común",
-                    "no_groups": "¡Ningun grupo en común!",
+                    "no_groups": "Ningun grupo en común",
                     "profile": "Perfil",
-                    "no_servers": "¡Ningún servidor en común!",
+                    "no_servers": "Ningún servidor en común",
                     "mutual_servers": "Servidores en común"
                 },
                 "user_picker": {
@@ -557,13 +583,13 @@
             "goto-testers": "Ir al servidor de probadores",
             "donate": "Donar a Revolt",
             "feedback": "Dar una opinión sobre Revolt",
-            "settings": "Ajustes",
+            "settings": "Abrir los Ajustes",
             "settings-tooltip": "También puedes hacer clic con el botón derecho del ratón en el icono de usuario de la parte superior izquierda, o con el botón izquierdo si ya estás en el inicio.",
             "social": "Buscar servidores y bots"
         }
     },
     "login": {
-        "create": "Crear una nueva cuenta.",
+        "create": "Crea una cuenta nueva",
         "new": "¿Nuevo en Revolt?",
         "forgot": "¿Olvidaste tu contraseña?",
         "enter": {
@@ -585,19 +611,23 @@
         "successful_registration": "¡Registrado exitosamente!",
         "open_mail_provider": "Abrir {{provider}}",
         "check_spam": "Asegúrate de revisar spam si no puedes encontrarlo",
-        "check_mail": "Revisa tu correo.",
-        "cancel": "Cancelar solicitud.",
-        "resend": "Reenviar verificación.",
+        "check_mail": "Revise su correo!",
+        "cancel": "Cancelar solicitud",
+        "resend": "Reenviar verificación",
         "missing_verification": "¿No has recibido un correo electrónico?",
         "existing": "¿Ya tienes una cuenta?",
-        "remembered": "Regresar a iniciar sesión.",
-        "set_password": "Establecer nueva contraseña.",
-        "reset": "Reiniciar contraseña.",
+        "remembered": "Regresar al inicio de sesión",
+        "set_password": "Establecer nueva contraseña",
+        "reset": "Restablecer contraseña",
         "current_password": "Contraseña actual",
         "invite": "Código de invitación",
         "username": "Nombre del usuario",
         "register": "Registrarse",
-        "email_delay": "Espera 10 minutos hasta que llegue."
+        "email_delay": "Espera 10 minutos hasta que llegue.",
+        "welcome": "¡Bienvenido de nuevo!",
+        "subtitle": "Iniciar sesión en Revolt",
+        "welcome2": "Hola!",
+        "subtitle2": "Crea una cuenta"
     },
     "general": {
         "image_by": "Imagen por",
