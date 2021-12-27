@@ -22,10 +22,10 @@
             "invite": "Anna kutsukoodisi."
         },
         "new": "Uusi Revoltin käyttäjä?",
-        "create": "Rekisteröidy.",
+        "create": "Rekisteröidy",
         "title": "Kirjaudu sisään",
         "check_spam": "Tarkista roskaposti, jos et löydä sitä",
-        "reset": "Nollaa salasana.",
+        "reset": "Nollaa salasana",
         "current_password": "Nykyinen salasana",
         "error": {
             "login": "Kirjautuminen epäonnistui!",
@@ -34,18 +34,22 @@
             "resend": "Uudelleen lähettäminen epäonnistui!"
         },
         "successful_registration": "Rekisteröinti onnistui!",
-        "check_mail": "Tarkista sähköpostisi.",
-        "set_password": "Aseta uusi salasana.",
+        "check_mail": "Tarkista sähköpostisi!",
+        "set_password": "Aseta uusi salasana",
         "invite": "Kutsukoodi",
         "username": "Käyttäjätunnus",
         "register": "Rekisteröidy",
-        "resend": "Lähetä vahvistus uudelleen.",
+        "resend": "Lähetä vahvistus uudelleen",
         "missing_verification": "Etkö saanut sähköpostia?",
         "existing": "Onko sinulla jo tili?",
-        "remembered": "Palaa kirjautumiseen.",
+        "remembered": "Palaa kirjautumiseen",
         "open_mail_provider": "Avaa {{provider}}",
-        "cancel": "Peruuta pyyntö.",
-        "email_delay": "Joudut odottamaan jopa 10 minuuttia sen saapumista."
+        "cancel": "Peruuta pyyntö",
+        "email_delay": "Joudut odottamaan jopa 10 minuuttia sen saapumista.",
+        "welcome": "Tervetuloa takaisin!",
+        "subtitle": "Kirjaudu Revoltiin",
+        "welcome2": "Hei!",
+        "subtitle2": "Luo tili"
     },
     "app": {
         "main": {
@@ -78,7 +82,8 @@
                     "blocked_user": "Estetty käyttäjä",
                     "sent_file": "Liitä tiedosto",
                     "sent_multiple_files": "Liitä monta tiedostoa",
-                    "failed_load": "Viestin lataaminen epäonnistui."
+                    "failed_load": "Viestin lataaminen epäonnistui.",
+                    "jump_beginning": "Hyppää alkuun"
                 },
                 "edited": "(muokattu)",
                 "bot": "botti",
@@ -222,11 +227,11 @@
                     "mutual_groups": "Yhteiset Ryhmät",
                     "mutual_friends": "Yhteiset kaverit",
                     "profile": "Profiili",
-                    "no_users": "Ei yhteisiä ystäviä!",
-                    "no_groups": "Ei yhteisiä ryhmiä!",
+                    "no_users": "Ei yhteisiä ystäviä",
+                    "no_groups": "Ei yhteisiä ryhmiä",
                     "empty": "Täällä on vähän tyhjä…",
                     "mutual_servers": "Yhteiset palvelimet",
-                    "no_servers": "Ei yhteisiä palvelimia!"
+                    "no_servers": "Ei yhteisiä palvelimia"
                 },
                 "user_picker": {
                     "select": "Valitse lisättävät ystävät."
@@ -306,7 +311,7 @@
                     "short": "Oletko varma että haluat mennä:",
                     "trust_domain": "Luota tähän verkkotunnukseen"
                 },
-                "token_reveal": "{{name}}:n Tunnus"
+                "token_reveal": "{{name}}:n tunnus"
             },
             "copy_username": "Paina kopioidaksesi käyttäjätunnus",
             "status": {
@@ -406,7 +411,14 @@
                     "mono_font": "Monospace-fontin valitsin",
                     "overrides": "Teeman ohitus",
                     "ligatures": "Fontin ligatuuri",
-                    "ligatures_desc": "Ligatuurit yhdistävät merkkejä käyttäessäsi tuettua fonttia (esim. -> muuttuu nuoleksi)."
+                    "ligatures_desc": "Ligatuurit yhdistävät merkkejä käyttäessäsi tuettua fonttia (esim. -> muuttuu nuoleksi).",
+                    "theme_options": {
+                        "seasonal_desc": "Näyttää tehosteita kotivälilehdessä juhla-aikoina.",
+                        "seasonal": "Juhlateema",
+                        "title": "Teeman asetukset",
+                        "follow": "Noudata järjestelmän teemaa",
+                        "follow_desc": "Kun tämä on käytössä, et voi vaihtaa teemaasi tai käyttää mukautettua teemaa."
+                    }
                 },
                 "donate": {
                     "title": "Lahjoita"
@@ -460,7 +472,8 @@
                         "locale": "Tämä synkronoi valitsemasi kielen.",
                         "appearance": "Tämä synkronoi vaihtoehtoja kuten emojipaketteja ja viestien tiheyttä.",
                         "theme": "Tämä synkronoi valitsemasi teeman, värit ja mukautetun CSS:n."
-                    }
+                    },
+                    "options": "Synkronoinnin asetukset"
                 },
                 "experiments": {
                     "features": "Saatavilla olevat ominaisuudet",
@@ -482,7 +495,8 @@
                     "private_bot_tip": "Botti on yksityinen. Vain sinä voit kutsua sen.",
                     "reserved": "Huomautus: Tämä kenttä on varattu tulevaisuutta varten.",
                     "unique_id": "Tämä on yksilöllinen tunniste sinun botillesi. Tämä ei ole botin merkki.",
-                    "public_bot_desc": "Annetaanko muiden käyttäjien kutsua tämä botti."
+                    "public_bot_desc": "Annetaanko muiden käyttäjien kutsua tämä botti.",
+                    "profile": "Botin profiili"
                 },
                 "audio": {
                     "title": "Ääniasetukset",
@@ -495,7 +509,20 @@
                     "button_grant": "Anna pääsy"
                 },
                 "theme_shop": {
-                    "title": "Teemakauppa"
+                    "title": "Teemakauppa",
+                    "description": "Selaa satoja yhteisön luomia ja ylläpitämiä teemoja.",
+                    "category": {
+                        "manage": "Hallinnoi tallennettuja",
+                        "saved": "Tallennettu",
+                        "new": "Uutta tällä viikolla",
+                        "default": "Oletusteemat",
+                        "highest": "Parhaiten arvostellut",
+                        "viewall": "Näytä kaikki"
+                    },
+                    "search": "Hae teemoja...",
+                    "use": "Käytä teemaa",
+                    "by": "tehnyt",
+                    "active": "Tällä hetkellä aktiiviset"
                 }
             },
             "categories": {
@@ -561,6 +588,9 @@
                     "reason": "Porttikiellon syy",
                     "revoke": "Peruuta",
                     "no_reason": "Ei porttikiellon syytä."
+                },
+                "management": {
+                    "title": "Käyttäjien hallinta"
                 }
             },
             "permissions": {
