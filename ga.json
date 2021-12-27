@@ -1,14 +1,14 @@
 {
     "general": {
         "tos": "Tearmaí Seirbhíse",
-        "privacy": "Beartas Príobháideachais",
+        "privacy": "Polasaí Príobháideachais",
         "about": "Faoi",
         "on": "Ar Siúl",
-        "disabled": "Múchta",
+        "disabled": "Faoi míchumas",
         "unavailable": "Gan a bheith ar fáil",
         "off": "As faidhm",
-        "loading": "Ag Luchtú…",
-        "image_by": "Íomhá ag"
+        "loading": "Ag Lódáil…",
+        "image_by": "Íomhá ó"
     },
     "app": {
         "context_menu": {
@@ -19,7 +19,7 @@
             "open_file": "Oscailt comhaid",
             "save_file": "sábhail on comhaid",
             "copy_selection": "Cóipeáil an roghnú",
-            "copy_cid": "Cóipeáil ID cainéil",
+            "copy_cid": "Cóipeáil ID cainéal",
             "copy_id": "Cóipeáil ID",
             "copy_text": "Cóipeáil téacs",
             "copy_uid": "Cóipeáil ID úsáideora",
@@ -75,7 +75,7 @@
                 "home": "Baile",
                 "dev": "Forbróir",
                 "friends": "Cairde",
-                "unreads": "Gan a bheith léite",
+                "unreads": "Neamhléite",
                 "saved": "Nótaí Sábháilte"
             }
         },
@@ -88,22 +88,22 @@
             },
             "channel": {
                 "message_where": "Cuir teachtaireacht chuig {{channel_name}}",
-                "message_saved": "Sábháil le do chuid nótaí",
+                "message_saved": "Sábháil go dtí do chuid nótaí",
                 "failed_upload": "Theip ar uaslodáil!",
                 "typing": {
-                    "several": "Tá mórán daoine ag clóscríobh…",
+                    "several": "Tá roinnt daoine ag clóscríobh…",
                     "single": "Tá {{user}} ag clóscríobh…",
                     "multiple": "Tá {{userlist}} agus {{user}} ag clóscríobh…"
                 },
                 "system": {
                     "user_joined": "Tháinig {{user}} isteach",
-                    "user_kicked": "Díobraíodh {{user}}",
-                    "user_banned": "Díobraíodh {{user}} agus tá cosc air teacht ar ais",
+                    "user_kicked": "Cictear {{user}}",
+                    "user_banned": "Cuirtear cosc air {{user}}",
                     "added_by": "Chur {{other_user}} {{user}} leis an ngrúpa",
                     "channel_renamed": "D'athraigh {{user}} ainm an chainéil go {{name}}",
-                    "channel_description_changed": "D'athraigh {{user}} an tuairisc ar an gcainéal",
+                    "channel_description_changed": "D'athraigh {{user}} cuir síos an gcainéal",
                     "channel_icon_changed": "D'athraigh {{user}} deilbhín an chainéil",
-                    "user_left": "D'imigh {{user}}",
+                    "user_left": "Thuirling {{user}}",
                     "removed_by": "Bhain {{other_user}} {{user}} as an ngrúpa"
                 },
                 "voice": {
@@ -115,32 +115,33 @@
                 "misc": {
                     "viewing_old": "Ag féachaint ar sheanteachtaireachtaí",
                     "jump_present": "Léim go dtí an t-am i láthair",
-                    "spoiler_attachment": "Pictiúr Rúnda",
-                    "failed_load": "Níorbh fhéidir an teachtaireacht a luchtú.",
-                    "blocked_messages": "{{count}} dteachtaireachtaí blocailte",
-                    "blocked_user": "Úsaideoir blocáilte",
+                    "spoiler_attachment": "Pictiúr Milleadh",
+                    "failed_load": "Níorbh fhéidir an teachtaireacht a lódáil.",
+                    "blocked_messages": "{{count}} dteachtaireachtaí blocáilte",
+                    "blocked_user": "Úsaideoir Blocáilte",
                     "sent_file": "Ceangaltán a sheoladh",
                     "sent_multiple_files": "Ceangailteáin seolta",
-                    "no_sending": "Níl cead agat teachtaireachtaí a sheoladh sa chainéal seo."
+                    "no_sending": "Níl cead agat teachtaireachtaí a sheoladh sa chainéal seo.",
+                    "jump_beginning": "Léim chuig an tús"
                 },
                 "nsfw": {
                     "channel": {
                         "marked": "Tá an cainéal seo marcáilte \"gan a bheith iorúnach don obair\" (NSFW).",
                         "confirm": "Téigh isteach"
                     },
-                    "confirm": "Dearbhaím go bhfuil me 18 ar a laghad."
+                    "confirm": "Dearbhaím go bhfuil mé ocht mbliana déag d'aois (18) ar a laghad."
                 },
                 "edited": "(athraithe)",
-                "bot": "róbó",
+                "bot": "róbat",
                 "notifications": {
                     "default": "Úsáid Gnáth-shocraithe",
-                    "all": "Gach teachtaireacht",
+                    "all": "Gach Teachtaireacht",
                     "mention": "Luanna Amháin",
-                    "none": "Aon cheann",
+                    "none": "Faic",
                     "muted": "Balbhaithe"
                 },
                 "search": {
-                    "title": "Cuardach",
+                    "title": "Cuardaigh",
                     "sort": {
                         "relevance": "Ábharthacht",
                         "latest": "Is déanaí",
@@ -152,50 +153,50 @@
                 "attached_file": "Ceangailte {{filename}}",
                 "start": {
                     "group": "Seo tús do chomhrá.",
-                    "saved": "Seo tús do chuid nótaí."
+                    "saved": "Seo tús le do chuid nótaí."
                 },
                 "unknown_user": "<Usáideoir aineolach>",
                 "errors": {
-                    "title": "Brón orm, níl aon rud anseo!",
-                    "nochannels": "Níl aon chainéil, nó rochtain ag an bhfreastalaí seo.",
+                    "title": "Úps, níl aon rud anseo!",
+                    "nochannels": "Níl aon chainéil, nó níl aon chainéil a féidir leatsa rochtain ag an bhfreastalaí seo.",
                     "nochannel": "Níl aon cainéal"
                 }
             },
             "groups": {
                 "create": "Cruthaigh grúpa",
                 "name": "Ainm an Ghrúpa",
-                "description": "Tuairisc an Ghrúpa",
-                "owner": "Úinéir an ghrúpa"
+                "description": "Cuir síos an Ghrúpa",
+                "owner": "Úinéir an Ghrúpa"
             },
             "servers": {
-                "create": "freastalaí a chruthú",
-                "description": "tuairisc ar an bhfreastalaí",
-                "channel_name": "ainm caineil",
-                "channel_type": "cineál cainéil",
-                "channel_description": "tuairisc ar an gcainéal",
-                "custom_banner": "meirge saincheaptha",
-                "owner": "úinéir an fhreastalaí",
+                "create": "Cruthaigh freastalaí",
+                "description": "Cuir síos an bhFreastalaí",
+                "channel_name": "Ainm an Cainéal",
+                "channel_type": "Cineál Cainéal",
+                "channel_description": "Cuir síos ar an gCainéal",
+                "custom_banner": "Bratach Saincheaptha",
+                "owner": "Úinéir an Fhreastalaí",
                 "voice_channel": "Cainéal Fuaime",
-                "name": "ainm an fhreastalaí",
-                "text_channel": "cainéal téacs",
-                "category_name": "Ainm chatagóir"
+                "name": "Ainm an Freastalaí",
+                "text_channel": "Cainéal Téacs",
+                "category_name": "Ainm Catagóir"
             }
         },
         "settings": {
-            "title": "suíomh",
+            "title": "Socruithe",
             "categories": {
-                "user_settings": "socruithe úsáideora",
-                "client_settings": "socruithe cliant"
+                "user_settings": "Socruithe Úsáideora",
+                "client_settings": "Socruithe Cliant"
             },
             "actions": {
-                "remove": "bain",
-                "upload": "uaslódáil",
-                "max_filesize": "(uas {{filesize}})"
+                "remove": "Bain",
+                "upload": "Uaslódáil",
+                "max_filesize": "(uasmhéid {{filesize}})"
             },
             "pages": {
                 "account": {
-                    "title": "mo chuntas",
-                    "change_field": "athrú",
+                    "title": "Mo Chuntas",
+                    "change_field": "Athraigh",
                     "2fa": {
                         "title": "Fíordheimhniú Dhá-fhachtóir",
                         "description": "Cuir sraith bhreise slándála leis trí 2FA a chumasú ar do chuntas.",
@@ -208,7 +209,7 @@
                         "delete": "scrios Cuntas",
                         "description": "Díchumasaigh no scrios do chuntas ag am ar bith. Daenfaidh an gníomh seo tú a logáil amach agus do chuntas a scriosadh go hiomlán, lena n-áirítear do stair comhrá agus do chairde."
                     },
-                    "unique_id": "Is aitheantóir uathúil úsáideoira e seo do do chuntas."
+                    "unique_id": "Is aitheantóir uathúil úsáideoira e seo i gcór do chuntas."
                 },
                 "profile": {
                     "title": "Próifíl",
@@ -234,7 +235,7 @@
                     "button_retry": "atriailim",
                     "tip_retry": "Níor thug tú an cead rochtain a fháil ar do mhicreafón, {{retryBtn}} le do thoil.",
                     "device_label_NA": "N/A",
-                    "tip_grant_permission": "Tá ort deontas cead chun socruithe fuaime a rochtain.",
+                    "tip_grant_permission": "Tá ort cead a tabhairt chun rogha fuaime a rochtain.",
                     "button_grant": "Cead Deontas"
                 },
                 "appearance": {
@@ -264,7 +265,14 @@
                     "import": "Iompórt téama",
                     "import_theme": "Iompórt téama ó téacs",
                     "theme_data": "Sonraí Téama",
-                    "sync": "Roghanna Sync"
+                    "sync": "Roghanna Sync",
+                    "theme_options": {
+                        "title": "Rogha Téama",
+                        "follow": "Lean le téama an córais",
+                        "follow_desc": "Nuair atá seo seiceáilte, ní beidh tú ábalta do théama a athrú nó téama saincheaptha a úsáid.",
+                        "seasonal": "Téama Séasúrach",
+                        "seasonal_desc": "Léiríonn sé maisíochtaí sa táb baile i rith am saoire na Nollag."
+                    }
                 },
                 "sync": {
                     "descriptions": {
@@ -272,8 +280,9 @@
                         "theme": "beidh seo sioncrónaigh do téama de rogha, dathanna agus CSS saincheaptha.",
                         "locale": "Beidh seo sioncrónaigh do teanga de rogha."
                     },
-                    "title": "Sync",
-                    "categories": "Lasán Earnáilí"
+                    "title": "Sinc",
+                    "categories": "Lasán Earnáilí",
+                    "options": "Sinc Rogadh"
                 },
                 "experiments": {
                     "not_available": "Níl aon ceannaithe ar fáil anois.",
@@ -331,10 +340,24 @@
                     "public_bot": "Róbó Poiblí",
                     "public_bot_desc": "Cibé ar cheart ligean d’úsáideoirí eile cuireadh a thabhairt don róbó seo.",
                     "interactions_url": "URL Idirghníomhaíochtaí",
-                    "reserved": "Nóta: Tá an réimse seo curtha in áirithe don todhchaí."
+                    "reserved": "Nóta: Tá an réimse seo curtha in áirithe don todhchaí.",
+                    "profile": "Próifíl bot"
                 },
                 "theme_shop": {
-                    "title": "Siopa Téama"
+                    "title": "Siopa Téama",
+                    "by": "ó",
+                    "description": "Brabhsáil na céadta téama, cruthaithe agus coimeádaithe ag an bpobal.",
+                    "search": "Cuardaigh téamaí...",
+                    "category": {
+                        "saved": "Sábhailte",
+                        "manage": "Shábháil a bhainistiú",
+                        "new": "Nua an seachtain seo",
+                        "default": "Téamaí loic",
+                        "highest": "Rátáil is airde",
+                        "viewall": "Brabhsáil uile"
+                    },
+                    "active": "Gníomhach anois",
+                    "use": "Usáid téama"
                 },
                 "logOut": "Logáil Amach"
             },
@@ -367,6 +390,9 @@
                 },
                 "categories": {
                     "title": "Catagóirí"
+                },
+                "management": {
+                    "title": "Bainistaíocht Úsáideoir"
                 }
             },
             "permissions": {
@@ -456,7 +482,7 @@
                 "external_links": {
                     "trust_domain": "Iontaobhas an fhearainn seo",
                     "title": "Is féidir le naisc sheachtracha a bheith contúirteach!",
-                    "short": "An bhfuil tú cinnte gur mhaith leat dúl chuig: aip "
+                    "short": "An bhfuil tú cinnte gur mhaith leat dúl chuig:"
                 },
                 "actions": {
                     "update": "Nuashonrú",
@@ -495,9 +521,9 @@
                     "mutual_groups": "Grúpaí Frithpháirteach",
                     "mutual_servers": "Freastalaithe Frithpháirteach",
                     "empty": "Tá sé rud beag folamh anseo…",
-                    "no_users": "Gan cairde frithpháirteach!",
-                    "no_groups": "Sin grúpaí frithpháirteach!",
-                    "no_servers": "Gan freastalaithe frithpháirteacha!",
+                    "no_users": "Gan cairde frithpháirteach",
+                    "no_groups": "Sin grúpaí frithpháirteach",
+                    "no_servers": "Gan freastalaithe frithpháirteacha",
                     "sub": {
                         "badges": "Suaitheantais",
                         "information": "Eolas",
@@ -517,7 +543,7 @@
                 },
                 "create_bot": {
                     "title": "Cruthaigh bot nua",
-                    "failed": "Teipthe chun dhéanamh bota!"
+                    "failed": "Theip ar bot a dhéanamh!"
                 },
                 "server_identity": {
                     "avatar": "Avatar",
@@ -529,27 +555,27 @@
             "copy_username": "Cliceáil chun ainm úsáideora a chóipeáil",
             "invite": {
                 "accept": "Glac cuireadh",
-                "invited_by": "Tabhair cuireadh ó {{user}}",
+                "invited_by": "Cuireadh ag an {{user}}",
                 "invalid": "Chuireadh neamhbhailí!",
                 "login": "Logáil isteach chuig Revolt",
                 "user_count": "{{member_count}} úsáideoirí",
                 "invalid_desc": "Ní fhéadfaidh an cuireadh a bheith i bhfeidhm nó b’fhéidir nach gceadófar duit páirt a ghlacadh."
             },
-            "requires_online": "Caithfidh tú a bheith ar líne chun amharc é seo.",
+            "requires_online": "Caithfidh tú a bheith ar líne chun é seo a fheiceáil.",
             "server-badges": {
                 "official": "Freastalaí Oifigiúil",
-                "verified": "Fíoraithe Freastalaí"
+                "verified": "Freastalaí Fíoraithe"
             }
         },
         "permissions": {
             "required": "Ceadanna ag teastáil"
         },
         "home": {
-            "join-testers": "bí ar an bhfreastalaí tástálaithe",
+            "join-testers": "Téigh isteach insan freastalaí tástálaí",
             "goto-testers": "Téigh chuig freastalaí an tástálaí",
-            "donate": "deonaigh éirí amach",
+            "donate": "Deonaigh chuig Revolt",
             "feedback": "Tabhair aiseolas ar Revolt",
-            "settings": "Socruithe",
+            "settings": "Oscail rogha",
             "settings-tooltip": "Is féidir leat cliceáil ar dheis freisin ar an deilbhín úsáideora ar thaobh na láimhe clé barr, nó cliceáil ar chlé má tá tú sa bhaile cheana féin.",
             "social": "Aimsigh freastalaithe agus bots"
         }
@@ -619,7 +645,7 @@
                 "d": "Ligeann sé do bhaill cainéil a chruthú, a chur in eagar agus a scriosad."
             },
             "BanMembers": {
-                "t": "Baill toirmiscthe",
+                "t": "Ruaig Baill",
                 "d": "Ligeann sé do bhaill baill a bhaint go buan den fhreastalaí seo."
             },
             "ChangeNickname": {
@@ -628,46 +654,50 @@
             },
             "RemoveAvatars": {
                 "t": "Bain avatars",
-                "d": "Ligeann sé do bhaill avatars freastalaí baill eile a bhaint ar an bhfreastalaí."
+                "d": "Ligeann sé do bhaill an freastalaí abhatár baill eile a bhaint."
             }
         }
     },
     "login": {
         "username": "Ainm Úsáideora",
         "email": "Ríomhphost",
-        "invite": "Cód Cuiridh",
+        "invite": "Cód Cuireadh",
         "current_password": "Pasfhocal Reatha",
         "enter": {
-            "email": "Scríobh isteach do ríomhphost.",
-            "password": "Cuir isteach do phasfhocal.",
-            "current_password": "Cuir isteach do phasfhocal reatha.",
-            "username": "Scríobh isteach ainm úsáideora.",
-            "invite": "Cuir isteach do chód cuiridh."
+            "email": "Cuir isteach do ríomhphost.",
+            "password": "Iontráil isteach do phasfhocal.",
+            "current_password": "Iontráil isteach do phasfhocal reatha.",
+            "username": "Cuir isteach ainm úsáideora.",
+            "invite": "Iontráil isteach do chód cuiridh."
         },
-        "forgot": "Ar rinne tú dearmad ar do phasfhocal?",
-        "reset": "Athshocraigh Pasfhocal.",
-        "remembered": "Téigh ar ais chuig \"Logáil Isteach\".",
+        "forgot": "Pasfhocal i ndearmad?",
+        "reset": "Athshocraigh Pasfhocal",
+        "remembered": "Téigh ar ais chuig Logáil Isteach",
         "new": "Nua go Revolt?",
-        "existing": "Cúntas agat cheana?",
-        "create": "Cruthaigh cuntas nua.",
-        "cancel": "Cealaigh iarratas.",
-        "check_mail": "Seiceáil do r-phost.",
-        "check_spam": "Seiceáil \"spam\" mura féidir leat é a fháil, le do thoil",
+        "existing": "Cuntas agat cheana?",
+        "create": "Cruthaigh cuntas nua",
+        "cancel": "Cealaigh iarratas",
+        "check_mail": "Seiceáil do r-phost!",
+        "check_spam": "Seiceáil \"spam\" mura féidir leat teacht air, le do thoil",
         "open_mail_provider": "Oscail {{provider}}",
         "error": {
             "login": "Theip ar logáil isteach!",
             "resend": "Theip ar athdhéanamh!",
-            "create": "Theip ar chlárú!",
+            "create": "Theip ar do chlárú!",
             "reset": "Theip ar athshocrú!"
         },
         "title": "Logáil isteach",
         "register": "Cláraigh",
         "password": "Pasfhocal",
-        "set_password": "Socraigh pasfhocal nua.",
+        "set_password": "Socraigh pasfhocal nua",
         "missing_verification": "Nach bhfuair tú ríomhphost?",
-        "resend": "Athdhéan fíorú.",
-        "email_delay": "Lig suas le 10 nóiméad dó le do thoil.",
-        "successful_registration": "Cláraithe go rathúil!"
+        "resend": "Cuir fíorú arís",
+        "email_delay": "Lig suas go dtí 10 nóiméad chun go dtiocfaidh sé le do thoil.",
+        "successful_registration": "Cláraithe go rathúil!",
+        "welcome": "Fáilte ar ais!",
+        "subtitle": "Sínigh isteach i Revolt",
+        "welcome2": "Haigh!",
+        "subtitle2": "Cruthaigh cuntas"
     },
     "quantities": {
         "members": {
@@ -711,7 +741,7 @@
         "FailedToReceive": "Theip ar an bhfreastalaí do chomhad a aisghabháil.",
         "Unlabelled": "Tharla rud éigin.",
         "EmailInUse": "Tá an ríomhphost seo in úsáid cheana féin.",
-        "FailedValidation": "Theip ar réimsí a bhailíochtú",
+        "FailedValidation": "Theip ar réimsí a bhailíochtú.",
         "RenderFail": "Theip ar rindreáil an teimpléid.",
         "DeniedNotification": "Shéan tú rochtain ar fhógra, seiceáil socruithe leathanaigh.",
         "InternalError": "Earráid inmheánach.",
@@ -732,7 +762,7 @@
         "AudioPermissionBlock": "Níl aon rochtain ar do mhicreafón, féach cumraíocht do bhrabhsálaí le do thoil."
     },
     "notifications": {
-        "sent_request": "Chuir @{{person}} iarratas cara chugat",
+        "sent_request": "Chuir @{{person}} iarratas chara chugat.",
         "now_friends": "Tá tú anois cairde le @{{person}}!"
     },
     "shortcuts": {
