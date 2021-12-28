@@ -69,15 +69,32 @@
                 },
                 "notifications": {
                     "none": "None",
-                    "muted": "Mutd'"
+                    "muted": "Mutd'",
+                    "default": "Use Ol' Faithful",
+                    "all": "Entire Messageboard"
                 },
-                "unknown_user": "<Unknown User>"
+                "unknown_user": "<Unknown User>",
+                "errors": {
+                    "title": "Oops, there's no treasure to be found here!",
+                    "nochannels": "Tis' ship contains no boards, or you don't have access to any."
+                }
             },
             "groups": {
                 "description": "Maties Description",
                 "create": "Create a maties",
                 "name": "Maties Name",
                 "owner": "Maties Owner"
+            },
+            "servers": {
+                "create": "Build a cog",
+                "name": "Cog Name",
+                "description": "Cog Tale",
+                "channel_name": "Board Name",
+                "custom_banner": "Custom Sail",
+                "text_channel": "Message Board",
+                "channel_type": "Board Type",
+                "owner": "Ship Captain",
+                "channel_description": "Board Description"
             }
         },
         "navigation": {
@@ -114,13 +131,16 @@
                     "ligatures_desc": "Fer supported fonts, ligatures combine characters t'gether, fer example, turning -> into a arrow. Switch t' Inter n' try toggling dis option."
                 },
                 "profile": {
-                    "fetching": "Fetching yer profile…"
+                    "fetching": "Fetching yer profile…",
+                    "placeholder": "Write something about yourself…",
+                    "title": "Captain’s quarters"
                 },
                 "account": {
                     "title": "Me Account",
                     "unique_id": "Dis be a unique user identifier fer yer account.",
                     "2fa": {
-                        "description": "Add a extra layer o' security by enabling 2FA on yer account."
+                        "description": "Add a extra layer o' security by enabling 2FA on yer account.",
+                        "title": "Double-Booty Protection"
                     },
                     "manage": {
                         "description": "Disable or delete yer account at any time. Dis action will log ye out n' fully delete yer account, including yer chat history n' crew."
@@ -180,7 +200,7 @@
             "goto-testers": "Go t' the testers server",
             "donate": "Donate t' Revolt",
             "feedback": "Give feedback o' Revolt",
-            "settings": "Settins",
+            "settings": "Open Settins",
             "social": "Find servers 'n bots"
         }
     },
@@ -210,16 +230,18 @@
         "invite": "Invite Code",
         "email": "Email",
         "new": "New t' Revolt?",
-        "reset": "Reset codeword.",
+        "reset": "Reset codeword",
         "successful_registration": "Ahoy! Successfully registered!",
-        "set_password": "Set new codeword.",
-        "remembered": "Go back t' login.",
+        "set_password": "Set new codeword",
+        "remembered": "Go back t' login",
         "missing_verification": "Did yer' not get an letter?",
         "email_delay": "Please allow up t' 10 minutes fer it t' arrive.",
-        "resend": "Resend verification.",
-        "create": "Create a new account.",
-        "check_mail": "Check yer mail.",
-        "cancel": "Scuttle th offer."
+        "resend": "Resend verification",
+        "create": "Go on Account",
+        "check_mail": "Check yer mail!",
+        "cancel": "Scuttle th offer",
+        "welcome2": "Ahoy!",
+        "welcome": "Ahoy!"
     },
     "dayjs": {
         "defaults": {

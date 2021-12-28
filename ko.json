@@ -11,7 +11,8 @@
                     "blocked_user": "차단된 사용자",
                     "sent_file": "파일을 보냈어요",
                     "sent_multiple_files": "여러 개의 파일을 보냈어요",
-                    "blocked_messages": "{{count}}개의 차단된 메세지"
+                    "blocked_messages": "{{count}}개의 차단된 메세지",
+                    "jump_beginning": "처음으로 돌아가기"
                 },
                 "search": {
                     "sort": {
@@ -162,7 +163,9 @@
                     "theme_options": {
                         "title": "테마 설정",
                         "follow": "시스템 테마를 따르기",
-                        "follow_desc": "만약 체크한다면, 당신의 테마나 커스텀 테마를 쓸수 없어요."
+                        "follow_desc": "만약 체크한다면, 당신의 테마나 커스텀 테마를 쓸수 없어요.",
+                        "seasonal": "계절 테마",
+                        "seasonal_desc": "연휴 기간 동안 홈 탭에 효과를 표시합니다."
                     }
                 },
                 "language": {
@@ -197,7 +200,8 @@
                     "public_bot_desc": "다른 사용자들이 이 봇을 초대할 수 있도록 허용합니다.",
                     "interactions_url": "상호작용 URL",
                     "reserved": "참고: 이 필드는 나중을 위해 비활성화되었습니다.",
-                    "unique_id": "이것은 당신의 봇만의 독특한 식별자에요. 봇의 토큰이 아닙니다."
+                    "unique_id": "이것은 당신의 봇만의 독특한 식별자에요. 봇의 토큰이 아닙니다.",
+                    "profile": "봇 프로필"
                 },
                 "feedback": {
                     "title": "피드백",
@@ -252,7 +256,20 @@
                     "options": "동기화 설정"
                 },
                 "theme_shop": {
-                    "title": "테마 스토어"
+                    "title": "테마 스토어",
+                    "category": {
+                        "highest": "최고 평점",
+                        "viewall": "모두 보기",
+                        "saved": "저장됨",
+                        "new": "이번 주 신작",
+                        "default": "기본 테마",
+                        "manage": "저장 관리"
+                    },
+                    "active": "활성화됨",
+                    "by": "제작자",
+                    "description": "커뮤니티에서 만들고 선별한 수백 가지의 테마를 찾아보세요.",
+                    "search": "테마 검색...",
+                    "use": "이 테마 사용하기"
                 }
             },
             "title": "설정",
@@ -304,6 +321,9 @@
                     "title": "차단",
                     "no_reason": "차단 사유가 없어요.",
                     "revoke": "해제"
+                },
+                "management": {
+                    "title": "사용자 관리"
                 }
             },
             "permissions": {
@@ -636,9 +656,9 @@
             "invite": "초대 코드를 입력하세요.",
             "current_password": "현재 비밀번호를 입력하세요."
         },
-        "reset": "비밀번호 재설정.",
-        "remembered": "로그인으로 돌아가기.",
-        "check_mail": "메일을 확인해주세요.",
+        "reset": "비밀번호 재설정",
+        "remembered": "로그인으로 돌아가기",
+        "check_mail": "메일을 확인해주세요!",
         "email_delay": "도착하는데 최대 10분이 소요됩니다.",
         "error": {
             "login": "로그인에 실패했어요!",
@@ -653,16 +673,20 @@
         "invite": "초대 코드",
         "current_password": "현재 비밀번호",
         "forgot": "비밀번호를 잊어버렸나요?",
-        "set_password": "새로운 비밀번호를 설정하세요.",
+        "set_password": "새로운 비밀번호를 설정하세요",
         "new": "Revolt가 처음이신가요?",
         "existing": "이미 계정이 있으신가요?",
-        "create": "새로운 계정 만들기.",
+        "create": "새로운 계정 만들기",
         "missing_verification": "이메일을 받지 못했나요?",
-        "cancel": "로그인 취소.",
+        "cancel": "요청 취소",
         "check_spam": "메일이 보이지 않으면 스팸 메일함을 확인해주세요",
         "open_mail_provider": "{{provider}} 열기",
         "successful_registration": "가입을 축하드립니다!",
-        "resend": "인증 메일 재전송."
+        "resend": "인증 메일 재전송",
+        "welcome2": "안녕하세요!",
+        "welcome": "다시 오신 것을 환영합니다!",
+        "subtitle": "Revolt에 로그인",
+        "subtitle2": "계정 만들기"
     },
     "general": {
         "tos": "이용 약관",
