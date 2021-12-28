@@ -13,7 +13,7 @@
                 "prompt": {
                     "confirm_leave": "Părăsești {{name}}?",
                     "confirm_leave_long": "Nu vei putea să reintri decât dacă ești reinvitat.",
-                    "confirm_delete": "Ștergi {{name}}?",
+                    "confirm_delete": "Șterge {{name}}?",
                     "confirm_close_dm_long": "O poți redeschide ulterior dar va dispărea pe ambele părți.",
                     "confirm_close_dm": "Închizi conversația cu {{name}}?",
                     "confirm_delete_long": "Odată ce a fost șters, nu mai există cale de întoarcere.",
@@ -103,13 +103,13 @@
                         "information": "Informații",
                         "badges": "Insigne"
                     },
-                    "no_groups": "Niciun grup în comun!",
-                    "no_users": "Niciun prieten în comun!",
+                    "no_groups": "Niciun grup în comun",
+                    "no_users": "Niciun prieten în comun",
                     "empty": "E cam pustiu aici…",
                     "mutual_groups": "Grupuri în comun",
                     "mutual_friends": "Prieteni în comun",
                     "profile": "Profil",
-                    "no_servers": "Fără servere în comun!",
+                    "no_servers": "Fără servere în comun",
                     "mutual_servers": "Servere în comun"
                 },
                 "user_picker": {
@@ -203,7 +203,7 @@
                     "describe": "Te rugăm să descrii problema.",
                     "other": "Altele",
                     "feature": "Solicitare de caracteristici",
-                    "bug": "Bug tracker",
+                    "bug": "Tracker de probleme",
                     "report": "Ce vrei sa raportezi?",
                     "title": "Părere",
                     "suggest_desc": "Propune caracteristici noi pentru Revolt în discuțiile de pe GitHub.",
@@ -242,7 +242,14 @@
                     "mono_font": "Selector de fonturi Monospace",
                     "ligatures": "Ligaturi de fonturi",
                     "ligatures_desc": "În cazul fonturilor acceptate, ligaturile combină caracterele între ele, de exemplu, transformând -> într-o săgeată. Comută pe Inter și încearcă comutarea acestei opțiuni.",
-                    "import": "Importă o temă"
+                    "import": "Importă o temă",
+                    "theme_options": {
+                        "seasonal_desc": "Arătati efecte în pagina Acasă în timpul sărbătorilor.",
+                        "title": "Opțiuni de temă",
+                        "seasonal": "Temă sezonieră",
+                        "follow": "Folosiți tema sistemului",
+                        "follow_desc": "Când este activit, nu puteti să vă schimbați tema sau să folosiți o temp personalizată."
+                    }
                 },
                 "profile": {
                     "placeholder": "Scrie ceva despre tine…",
@@ -261,7 +268,8 @@
                         "appearance": "Aceasta va sincroniza opțiunile precum pachetele de emoji și densitatea mesajelor.",
                         "theme": "Aceasta va sincroniza tema aleasă, culorile și orice CSS personalizat.",
                         "locale": "Aceasta va sincroniza limba aleasă în prezent."
-                    }
+                    },
+                    "options": "Opțiuni de sincronizare"
                 },
                 "experiments": {
                     "title": "Experimente",
@@ -289,7 +297,8 @@
                     "public_bot": "Bot public",
                     "interactions_url": "URL de interacțiuni",
                     "token": "Token",
-                    "unique_id": "Acesta este un identificator unic pentru botul tău. Acesta nu este token-ul botului."
+                    "unique_id": "Acesta este un identificator unic pentru botul tău. Acesta nu este token-ul botului.",
+                    "profile": "Profil bot"
                 },
                 "audio": {
                     "title": "Setări de voce",
@@ -302,7 +311,20 @@
                     "button_grant": "Acordă permisiunea"
                 },
                 "theme_shop": {
-                    "title": "Magazin de teme"
+                    "title": "Magazin de teme",
+                    "description": "Căutati prin sute de teme, create de comunitate",
+                    "category": {
+                        "saved": "Salvat",
+                        "default": "Teme implicite",
+                        "manage": "Gestionați elementele salvate",
+                        "new": "Nou din această săptămână",
+                        "highest": "Cele mai bine evaluate",
+                        "viewall": "Vedeți tot"
+                    },
+                    "search": "Căutați teme...",
+                    "active": "Acum activ",
+                    "use": "Folosiți temă",
+                    "by": "de către"
                 }
             },
             "categories": {
@@ -337,7 +359,7 @@
             "actions": {
                 "remove": "Elimină",
                 "upload": "Încarcă",
-                "max_filesize": "(max {{filesize}})"
+                "max_filesize": "(maxim {{filesize}})"
             },
             "server_pages": {
                 "invites": {
@@ -368,6 +390,9 @@
                 },
                 "categories": {
                     "title": "Categorii"
+                },
+                "management": {
+                    "title": "Gestionare utilizatori"
                 }
             },
             "permissions": {
@@ -375,7 +400,7 @@
                 "channel": "Permisiuni de canal",
                 "server": "Permisiuni ale serverului",
                 "default_role": "Implicit",
-                "role_name": "Nume Rol"
+                "role_name": "Numele rolului"
             }
         },
         "main": {
@@ -393,9 +418,9 @@
                     "added_by": "{{user}} a fost adăugat(ă) de către {{other_user}}",
                     "user_left": "{{user}} a ieșit",
                     "user_joined": "{{user}} s-a alăturat",
-                    "channel_renamed": "{{user}} a schimbat numele grupului în {{name}}",
+                    "channel_renamed": "{{user}} a schimbat numele canalului în {{name}}",
                     "channel_description_changed": "{{user}} a schimbat descrierea canalului",
-                    "channel_icon_changed": "{{user}} a schimbat pictograma grupului",
+                    "channel_icon_changed": "{{user}} a schimbat pictograma canalului",
                     "user_kicked": "{{user}} a fost dat afară",
                     "user_banned": "I-a fost interzis accesul lui {{user}}"
                 },
@@ -430,7 +455,8 @@
                     "blocked_messages": "{{count}} mesaje blocate",
                     "blocked_user": "Utilizator Blocat",
                     "sent_file": "A trimis un atașament",
-                    "sent_multiple_files": "A trimis mai multe atașamente"
+                    "sent_multiple_files": "A trimis mai multe atașamente",
+                    "jump_beginning": "Săriti la început"
                 },
                 "notifications": {
                     "default": "Folosește implicit",
@@ -571,16 +597,16 @@
         "successful_registration": "Înregistrat cu succes!",
         "open_mail_provider": "Deschide {{provider}}",
         "check_spam": "Te rugăm verifică folderul spam dacă nu îl poți găsi",
-        "check_mail": "Verifică-ți emailul.",
-        "cancel": "Anulează autentificarea.",
-        "resend": "Retrimite confirmarea.",
+        "check_mail": "Verifică-ți emailul!",
+        "cancel": "Anulează autentificarea",
+        "resend": "Retrimite confirmarea",
         "missing_verification": "Nu ai primit un e-mail?",
-        "create": "Creează un cont nou.",
+        "create": "Creează un cont nou",
         "existing": "Ai deja un cont?",
         "new": "Prima oară pe Revolt?",
-        "remembered": "Întoarce-te la conectare.",
-        "set_password": "Setează o parolă nouă.",
-        "reset": "Resetează parola.",
+        "remembered": "Întoarce-te la conectare",
+        "set_password": "Setează o parolă nouă",
+        "reset": "Resetează parola",
         "forgot": "Ți-ai uitat parola?",
         "enter": {
             "current_password": "Introdu parola actuală.",
@@ -596,7 +622,11 @@
         "username": "Nume de utilizator",
         "register": "Înregistrare",
         "title": "Conectare",
-        "email_delay": "Te rugăm să acorzi până la 10 minute pentru sosirea acestuia."
+        "email_delay": "Te rugăm să acorzi până la 10 minute pentru sosirea acestuia.",
+        "welcome2": "Bună!",
+        "subtitle2": "Creați un cont",
+        "welcome": "Bine ai revenit!",
+        "subtitle": "Autentificare în Revolt"
     },
     "general": {
         "image_by": "Imagine realizată de către",
@@ -623,7 +653,7 @@
         "defaults": {
             "date_separator": "/",
             "date_format": "traditional",
-            "twelvehour": "nu"
+            "twelvehour": "no"
         }
     },
     "quantities": {
