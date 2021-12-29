@@ -29,7 +29,15 @@
                         "compact": "Kompaktný",
                         "default": "Predvolené"
                     },
-                    "title": "Vzhľad"
+                    "title": "Vzhľad",
+                    "theme_options": {
+                        "title": "Nastavenie motivu",
+                        "follow": "Použiť motiv systému",
+                        "seasonal": "sezónny motív",
+                        "seasonal_desc": "Efekty displeju v domovskej položke počas sviatočných sezón.",
+                        "transparency": "Efekty priehľadnosti",
+                        "transparency_desc": "Zapnúť efekty priehľadnosti cez aplikaciu."
+                    }
                 },
                 "account": {
                     "manage": {
@@ -70,7 +78,8 @@
                     "public_bot": "Verejný Bot",
                     "public_bot_desc": "Určuje, či umožniť ostatným používateľom pozvať tohto robota.",
                     "interactions_url": "Interakčné URL",
-                    "reserved": "Poznámka: Toto pole je vyhradené pre budúcnosť."
+                    "reserved": "Poznámka: Toto pole je vyhradené pre budúcnosť.",
+                    "profile": "Bot profil"
                 },
                 "source_code": "Zdrojový Kód",
                 "donate": {
@@ -91,7 +100,8 @@
                         "theme": "Týmto sa synchronizuje vami zvolený motív, farby a akékoľvek vlastné CSS."
                     },
                     "categories": "Synchronizovať Kategórie",
-                    "title": "Synchronizovať"
+                    "title": "Synchronizovať",
+                    "options": "Nastavenia Synchronizácie"
                 },
                 "language": {
                     "other": "Ďalšie možnosti Jazyku",
@@ -122,7 +132,9 @@
                     "title": "Hlasové Nastavenia",
                     "device_label_NA": "N/A",
                     "button_retry": "skús znova",
-                    "tip_retry": "Nedali ste povolenie na prístup k mikrofónu, prosím {{retryBtn}}."
+                    "tip_retry": "Nedali ste povolenie na prístup k mikrofónu, prosím {{retryBtn}}.",
+                    "button_grant": "Udeliť povolenie",
+                    "tip_grant_permission": "Musíte udeliť povolenie pre prístup do nastavenia zvuku."
                 },
                 "sessions": {
                     "logout": "Odhláste sa zo všetkých ostatných relácií",
@@ -142,7 +154,19 @@
                     "title": "Profil"
                 },
                 "theme_shop": {
-                    "title": "Témový Obchod"
+                    "title": "Obchod S Motívmi",
+                    "search": "Prehľadávať motívy...",
+                    "category": {
+                        "saved": "Uložené",
+                        "default": "Predvolené témy",
+                        "new": "Novinka tento týždeň",
+                        "highest": "Najvyššie hodnotené",
+                        "viewall": "Zobraziť všetko",
+                        "manage": "Spravovať uložené"
+                    },
+                    "by": "od",
+                    "use": "Použiť motív",
+                    "active": "Aktuálne aktívne"
                 }
             },
             "actions": {
@@ -200,6 +224,9 @@
                     "description": "Popis Kanála",
                     "name": "Meno Servera",
                     "title": "Prehľad"
+                },
+                "management": {
+                    "title": "Správa Užívateľov"
                 }
             },
             "channel_pages": {
@@ -273,7 +300,8 @@
                     "no_sending": "Na odosielanie správ v tomto kanáli nemáte povolenie.",
                     "failed_load": "Správu sa nepodarilo načítať.",
                     "jump_present": "Skočiť do dneška",
-                    "viewing_old": "Zobrazenie starších správ"
+                    "viewing_old": "Zobrazenie starších správ",
+                    "jump_beginning": "Skočiť na začiatok"
                 },
                 "voice": {
                     "unmute": "Zapnúť Zvuk",
@@ -406,7 +434,7 @@
             },
             "popovers": {
                 "user_profile": {
-                    "no_users": "Žiadni spoloční priatelia!",
+                    "no_users": "Žiadni spoloční priatelia",
                     "sub": {
                         "connections": "Pripojenia",
                         "badges": "Odznaky",
@@ -417,13 +445,15 @@
                     "mutual_friends": "Spoloční Priatelia",
                     "mutual_servers": "Vzájomné Servery",
                     "empty": "Je tu trochu prázdno …",
-                    "no_groups": "Žiadne vzájomné skupiny!",
-                    "no_servers": "Žiadne vzájomné servery!",
+                    "no_groups": "Žiadne vzájomné skupiny",
+                    "no_servers": "Žiadne vzájomné servery",
                     "badges": {
                         "translator": "Prekladateľ",
                         "supporter": "Podporovateľ",
                         "responsible_disclosure": "Zodpovedne zverejnená chyba(y)",
-                        "early_adopter": "Inovátor"
+                        "early_adopter": "Inovátor",
+                        "founder": "Zakladateľ",
+                        "moderation": "Moderovanie platformy"
                     }
                 },
                 "user_picker": {
@@ -533,14 +563,16 @@
             "donate": "Prispejte Revoltu",
             "settings-tooltip": "Taktiež môžete kliknúť pravým tlačidlom myši na ikonu používateľa vľavo hore, alebo kliknúť ľavým tlačidlom ak už ste na domovskej stránke.",
             "feedback": "Dajte spätnú väzbu na Revolt",
-            "settings": "Nastavenia",
-            "social": "Nájdite servery a botov"
+            "settings": "Otvoriť nastavenia",
+            "social": "Nájdite servery a botov",
+            "join-testers": "Pripojte sa do serveru testerov",
+            "goto-testers": "Choďte do testers serveru"
         }
     },
     "general": {
         "off": "Vypnuté",
         "on": "Zapnuté",
-        "about": "About",
+        "about": "O",
         "unavailable": "Nedostupné",
         "disabled": "Zakázané",
         "loading": "Načítavanie…",
@@ -559,15 +591,15 @@
         "open_mail_provider": "Otvoriť {{provider}}",
         "check_spam": "Ak ho nemôžete nájsť, skontrolujte spam",
         "email_delay": "Doručenie môže trvať až 10 minút.",
-        "check_mail": "Skontrolujte si email.",
-        "cancel": "Zrušiť požiadavku.",
-        "resend": "Znova odoslať overenie.",
-        "missing_verification": "Žiaden e-mail",
-        "create": "Vytvorte si nový účet.",
+        "check_mail": "Skontrolujte si email!",
+        "cancel": "Zrušiť požiadavku",
+        "resend": "Znova odoslať overenie",
+        "missing_verification": "Nedostali ste email?",
+        "create": "Vytvorte si nový účet",
         "existing": "Máte už účet?",
         "new": "Začínate z Revoltom?",
-        "remembered": "Vrátiť sa späť na prihlásenie.",
-        "set_password": "Nastaviť nové heslo.",
+        "remembered": "Vrátiť sa späť na prihlásenie",
+        "set_password": "Nastaviť nové heslo",
         "forgot": "Zabudol si heslo?",
         "enter": {
             "current_password": "Zadajte vaše súčasné heslo.",
@@ -582,8 +614,12 @@
         "username": "Používateľske Meno",
         "register": "Zaregistrovať",
         "title": "Prihlásiť sa",
-        "reset": "Restovať Heslo.",
-        "password": "Heslo"
+        "reset": "Restovať Heslo",
+        "password": "Heslo",
+        "subtitle2": "Vytvoriť učet",
+        "welcome2": "Ahoj!",
+        "welcome": "Vitaj späť!",
+        "subtitle": "Prihlásiť sa do Revolt"
     },
     "error": {
         "Blocked": "Tohto používateľa ste zablokovali.",
