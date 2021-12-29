@@ -17,7 +17,7 @@
         "email": "E-Mail",
         "password": "Passwort",
         "enter": {
-            "username": "Gib deinen bevorzugten Nutzernamen ein.",
+            "username": "Bevorzugten Nutzernamen eingeben.",
             "email": "Gib deine E-Mail-Adresse ein.",
             "password": "Gib ein Passwort an.",
             "current_password": "Gib dein aktuelles Passwort ein.",
@@ -25,7 +25,7 @@
         },
         "forgot": "Passwort vergessen?",
         "reset": "Passwort zurücksetzen",
-        "remembered": "Zum Login zurückkehren",
+        "remembered": "Zurück zum Login",
         "new": "Neu bei Revolt?",
         "existing": "Hast du bereits einen Account?",
         "create": "Neuen Account erstellen",
@@ -104,7 +104,7 @@
                 "edited": "(bearbeitet)",
                 "start": {
                     "group": "Das ist der Anfang deiner Konversation.",
-                    "saved": "Das ist der Anfang deiner Notizen."
+                    "saved": "Hier fangen deine Notizen an."
                 },
                 "misc": {
                     "spoiler_attachment": "Spoiler",
@@ -301,7 +301,7 @@
                 },
                 "external_links": {
                     "title": "Externe Links können gefährlich sein!",
-                    "short": "Möchten Sie wirklich zu:",
+                    "short": "Möchtest du wirklich zu:",
                     "trust_domain": "Dieser Domain vertrauen"
                 },
                 "token_reveal": "Token von {{name}}"
@@ -396,14 +396,16 @@
                     "mono_font": "Nicht proportionale Schrift",
                     "ligatures": "Ligaturen",
                     "font": "Schrift",
-                    "ligatures_desc": "Für unterstützte Schriften werden Ligaturen bewirken, dass einige Zeichen kombiniert werden. So wird -> beispielweise zu einem Pfeil. Wechsle die Schrift zu Inter und probiere aus, diese Einstellung umzuschalten.",
+                    "ligatures_desc": "Bei unterstützten Schriftarten bewirken Ligaturen, dass einige Zeichen kombiniert werden. Zum Beispiel wird -> zu einem Pfeil.",
                     "import": "Thema importieren",
                     "theme_options": {
                         "title": "Themenoptionen",
                         "follow": "Folge Systemthema",
                         "follow_desc": "Wenn bestätigt, ist es dir nicht möglich dein Thema zu wechseln oder ein benutzerdefiniertes Thema zu verwenden.",
                         "seasonal": "Saisonales Thema",
-                        "seasonal_desc": "Zeigt während der Ferienzeit Effekte auf dem Home-Tab an."
+                        "seasonal_desc": "Zeigt während der Ferienzeit Effekte auf dem Home-Tab an.",
+                        "transparency_desc": "Aktiviert transparente Darstellung in der gesamten App.",
+                        "transparency": "Transparente Darstellung"
                     }
                 },
                 "sessions": {
@@ -518,24 +520,24 @@
                     "public_bot_tip": "Der Bot ist öffentlich. Jeder kann ihn einladen.",
                     "private_bot_tip": "Der Bot ist privat. Nur du kannst ihn einladen.",
                     "public_bot": "Öffentlicher Bot",
-                    "public_bot_desc": "Ob andere Benutzer diesen Bot einladen dürfen.",
+                    "public_bot_desc": "Anderen Nutzer:innen erlauben, diesen Bot einzuladen.",
                     "interactions_url": "Interaktions-URL",
-                    "reserved": "Hinweis: Dieses Feld ist für die Zukünftige Features reserviert.",
-                    "unique_id": "Dies ist eine eindeutige Kennung für Ihren Bot. Dies ist nicht der Bot Token.",
+                    "reserved": "Hinweis: Dieses Feld ist für die Zukunft reserviert.",
+                    "unique_id": "Das ist eine eindeutige Kennung für deinen Bot. Das ist nicht der Bot-Token.",
                     "profile": "Bot Profil"
                 },
                 "audio": {
                     "title": "Spracheinstellungen",
                     "output_device": "Ausgabegerät",
                     "input_device": "Eingabegerät",
-                    "tip_retry": "Sie haben nicht die Berechtigung zum Zugriff auf Ihr Mikrofon erteilt, bitte {{retryBtn}}..",
+                    "tip_retry": "Du hast keine Zugriffsberechtigung auf dein Mikrofon erteilt, bitte {{retryBtn}}.",
                     "device_label_NA": "Nicht verfügbar",
                     "button_retry": "Erneut versuchen",
-                    "tip_grant_permission": "Sie müssen die Berechtigung für den Zugriff auf die Audioeinstellungen erteilen.",
+                    "tip_grant_permission": "Du musst die Berechtigung erteilen, um auf die Audioeinstellungen zugreifen zu können.",
                     "button_grant": "Berechtigung erteilen"
                 },
                 "theme_shop": {
-                    "title": "Themen Shop",
+                    "title": "Themen-Shop",
                     "search": "Suche Themen...",
                     "description": "Durchsuche hunderte von Themen, erstellt und kuratiert von der Community.",
                     "category": {
@@ -632,13 +634,13 @@
             "required": "Keine Berechtigung"
         },
         "home": {
-            "join-testers": "Treten Sie dem Tester-Server bei",
+            "join-testers": "Trete dem Tester-Server bei",
             "goto-testers": "Gehe zum Tester-Server",
-            "donate": "Spende für die Revolt",
+            "donate": "An Revolt spenden",
             "feedback": "Gib Feedback zu Revolt",
             "settings": "Einstellungen öffnen",
-            "settings-tooltip": "Sie können auch mit der rechten Maustaste auf das Benutzersymbol oben links klicken oder mit der linken Maustaste darauf klicken, wenn Sie bereits zu Hause sind.",
-            "social": "Server und Bots finden"
+            "settings-tooltip": "Du kannst auch mit der rechten Maustaste auf das Benutzersymbol oben links klicken oder mit der linken Maustaste, wenn du bereits auf der Hauptseite bist.",
+            "social": "Server & Bots finden"
         }
     },
     "dayjs": {
