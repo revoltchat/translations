@@ -29,7 +29,16 @@
                     "overrides": "Penggantian Tema",
                     "import_theme": "Impor tema dari string",
                     "ligatures": "Ligatur Font",
-                    "ligatures_desc": "Untuk font yang didukung, ligatur menggabungkan karakter bersama, misalnya, mengubah -> menjadi panah. Beralih ke Inter dan coba alihkan opsi ini."
+                    "ligatures_desc": "Untuk font yang didukung, ligatur menggabungkan karakter bersama, misalnya, mengubah -> menjadi panah.",
+                    "theme_options": {
+                        "title": "Pengaturan Tema",
+                        "follow": "Ikuti tema perangkat",
+                        "follow_desc": "Ketika dicek, Anda tidak dapat mengubah tema Anda atau menggunakan tema khusus.",
+                        "seasonal": "Tema Musiman",
+                        "seasonal_desc": "Menampilkan efek di tab beranda selama musim liburan.",
+                        "transparency_desc": "Menampilkan efek transparan di seluruh aplikasi.",
+                        "transparency": "Efek Transparansi"
+                    }
                 },
                 "sessions": {
                     "created": "Dibuat {{time_ago}}",
@@ -113,7 +122,8 @@
                         "locale": "Ini akan mengsinkronisasi bahasa pilihanmu sekarang.",
                         "theme": "Ini akan menyinkronkan tema, warna, dan CSS khusus yang Anda pilih."
                     },
-                    "title": "Sinkron"
+                    "title": "Sinkron",
+                    "options": "Sinkronisasi Pengaturan"
                 },
                 "bots": {
                     "title": "Bot Saya",
@@ -127,7 +137,8 @@
                     "public_bot": "Bot Publik",
                     "public_bot_desc": "Izinkan pengguna lain untuk mengundang bot ini.",
                     "interactions_url": "Interaksi URL",
-                    "unique_id": "Ini adalah pengidentifikasi unik untuk bot Anda. Ini bukan token bot."
+                    "unique_id": "Ini adalah pengidentifikasi unik untuk bot Anda. Ini bukan token bot.",
+                    "profile": "Profil Bot"
                 },
                 "native": {
                     "title": "Pengaturan Desktop"
@@ -144,7 +155,12 @@
                 },
                 "logOut": "Keluar",
                 "theme_shop": {
-                    "title": "Toko Tema"
+                    "title": "Toko Tema",
+                    "search": "Cari tema...",
+                    "description": "Jelajahi ratusan tema, dibuat dan dikurasi oleh komunitas.",
+                    "category": {
+                        "saved": "Disimpan"
+                    }
                 }
             },
             "actions": {
@@ -240,7 +256,9 @@
                     "blocked_user": "Pengguna diblokir",
                     "no_sending": "Anda tidak memiliki izin untuk mengirim pesan di saluran ini.",
                     "sent_file": "Mengirim sebuah lampiran",
-                    "sent_multiple_files": "Mengirim banyak lampiran"
+                    "sent_multiple_files": "Mengirim banyak lampiran",
+                    "jump_beginning": "Kembali ke awal",
+                    "new_messages": "Pesan baru sejak"
                 },
                 "voice": {
                     "unmute": "Suarakan",
@@ -335,7 +353,7 @@
             "offline": "Offline",
             "invisible": "Tak terlihat",
             "busy": "Jangan Ganggu",
-            "idle": "Diam",
+            "idle": "Menganggur",
             "online": "Online"
         },
         "special": {
@@ -537,7 +555,7 @@
             "goto-testers": "Pergi ke server penguji",
             "donate": "Donasi kepada Revolt",
             "feedback": "Beri masukan untuk Revolt",
-            "settings": "Pengaturan",
+            "settings": "Buka pengaturan",
             "social": "Cari server & bot"
         }
     },
@@ -551,16 +569,16 @@
         "successful_registration": "Pendaftaran berhasil!",
         "open_mail_provider": "Buka {{provider}}",
         "check_spam": "Cek spam Anda jika tidak dapat menemukannya",
-        "check_mail": "Cek email Anda.",
-        "cancel": "Batalkan permintaan.",
-        "resend": "Kirim ulang verifikasi.",
-        "missing_verification": "Tidak ada email",
-        "create": "Buat akun baru.",
+        "check_mail": "Periksa surat Anda!",
+        "cancel": "Batalkan permintaan",
+        "resend": "Kirim ulang verifikasi",
+        "missing_verification": "Tidak mendapatkan e-mail?",
+        "create": "Buat akun baru",
         "existing": "Sudah punya akun?",
         "new": "Baru di Revolt?",
-        "remembered": "Kembali ke halaman login.",
-        "set_password": "Buat kata sandi baru.",
-        "reset": "Atur ulang kata sandi.",
+        "remembered": "Kembali ke halaman login",
+        "set_password": "Buat kata sandi baru",
+        "reset": "Atur ulang kata sandi",
         "forgot": "Lupa kata sandi Anda?",
         "enter": {
             "current_password": "Masukkan kata sandi Anda.",
@@ -576,7 +594,11 @@
         "username": "Nama pengguna",
         "register": "Daftar",
         "title": "Masuk",
-        "email_delay": "Mohon tunggu hingga 10 menit untuk email tiba."
+        "email_delay": "Mohon tunggu hingga 10 menit untuk email tiba.",
+        "welcome": "Selamat datang kembali!",
+        "subtitle": "Masuk ke Revolt",
+        "welcome2": "Halo!",
+        "subtitle2": "Buat sebuah akun"
     },
     "general": {
         "loading": "Memuat…",
