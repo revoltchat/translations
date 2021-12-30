@@ -12,7 +12,8 @@
                     "sent_file": "파일을 보냈어요",
                     "sent_multiple_files": "여러 개의 파일을 보냈어요",
                     "blocked_messages": "{{count}}개의 차단된 메세지",
-                    "jump_beginning": "처음으로 돌아가기"
+                    "jump_beginning": "처음으로 돌아가기",
+                    "new_messages": "{{time_ago}} 이후의 새로운 메시지"
                 },
                 "search": {
                     "sort": {
@@ -158,14 +159,16 @@
                     "title": "모양",
                     "accent_selector": "강조 색",
                     "mono_font": "고정 폭 글꼴",
-                    "ligatures_desc": "지원되는 폰트에 한해서, 자동으로 이모티콘을 이모지로 변환할 수 있어요. (예시: ->를 ➡로 바꿀수 있어요.) 이 옵션은 켜고 끌 수 있어요.",
+                    "ligatures_desc": "지원되는 폰트에 한해서, 자동으로 이모티콘을 이모지로 변환할 수 있어요. (예시: ->를 ➡로 바꿀수 있어요.)",
                     "ligatures": "문자 이모지 변환",
                     "theme_options": {
                         "title": "테마 설정",
                         "follow": "시스템 테마를 따르기",
                         "follow_desc": "만약 체크한다면, 당신의 테마나 커스텀 테마를 쓸수 없어요.",
                         "seasonal": "계절 테마",
-                        "seasonal_desc": "연휴 기간 동안 홈 탭에 효과를 표시합니다."
+                        "seasonal_desc": "연휴 기간 동안 홈 탭에 효과를 표시합니다.",
+                        "transparency_desc": "앱 전체에 투명 효과를 활성화합니다.",
+                        "transparency": "투명 효과"
                     }
                 },
                 "language": {
@@ -566,7 +569,8 @@
             "feedback": "Revolt에 피드백",
             "settings": "설정 열기",
             "social": "서버와 봇 찾기",
-            "settings-tooltip": "왼쪽 상단에 있는 사용자 아이콘을 마우스 우클릭하거나 이미 홈에 있는 경우 좌클릭할 수도 있습니다."
+            "settings-tooltip": "왼쪽 상단에 있는 사용자 아이콘을 마우스 우클릭하거나 이미 홈에 있는 경우 좌클릭할 수도 있습니다.",
+            "directs": "개인 메시지"
         }
     },
     "permissions": {
