@@ -7,7 +7,7 @@
         "on": "Sees",
         "disabled": "Keelatud",
         "unavailable": "Mitte saadaval",
-        "about": "Umbes",
+        "about": "Tarkvara kohta",
         "tos": "Kasutustingimused"
     },
     "app": {
@@ -41,6 +41,9 @@
                 },
                 "categories": {
                     "title": "Kategooriad"
+                },
+                "management": {
+                    "title": "Kasutajahaldus"
                 }
             },
             "pages": {
@@ -49,7 +52,19 @@
                 },
                 "source_code": "Lähtekood (source)",
                 "bots": {
-                    "title": "Minu botid"
+                    "title": "Minu botid",
+                    "unique_id": "See on teie bot-i unikaalne ID. See pole bot-i token.",
+                    "create_bot": "Loo bot",
+                    "public_bot": "Avalik bot",
+                    "public_bot_desc": "Kas lubada teisel kasutajatel bot-i kutsuda või mitte.",
+                    "interactions_url": "Interaktsiooni URL",
+                    "reserved": "Märkus: See väli on reserveeritud tulevikus kasutamiseks.",
+                    "copy_invite": "Kopeeri kutselink",
+                    "add": "Lisa bot",
+                    "token": "Token",
+                    "public_bot_tip": "Bot on avalik. Igaüks saab seda kutsuda.",
+                    "private_bot_tip": "Bot on privaatne. Ainult teie saate seda kutsuda.",
+                    "profile": "Bot-i profiil"
                 },
                 "feedback": {
                     "title": "Tagasiside",
@@ -98,7 +113,12 @@
                 "audio": {
                     "title": "Helisätted",
                     "input_device": "Mikrofon",
-                    "output_device": "Kõlarid / Kõrvaklapid"
+                    "output_device": "Kõlarid / Kõrvaklapid",
+                    "device_label_NA": "Pole saadaval",
+                    "button_retry": "proovi uuesti",
+                    "tip_retry": "Te ei andnud mikrofoni kasutamise õigust, palun {{retryBtn}}.",
+                    "button_grant": "Andke luba",
+                    "tip_grant_permission": "Te peate andma mikrofoni kasutamiseks õiguse et muuta helisätteid."
                 },
                 "appearance": {
                     "title": "Välimus",
@@ -127,7 +147,16 @@
                     "overrides": "Teema muudatused",
                     "reset_overrides": "Taasta muudatused",
                     "import_theme": "Impordi teema tekstist",
-                    "ligatures_desc": "Kui font lubab ja säte on sisse lülitatud, ligatuur kombineerib automaatselt karaktereid kokku, näiteks muutes -> nooleks. Valige oma fondiks Inter ning proovige säte sisse lülitada."
+                    "ligatures_desc": "Kui font lubab ja säte on sisse lülitatud, ligatuur kombineerib automaatselt karaktereid kokku, näiteks muutes -> nooleks.",
+                    "theme_options": {
+                        "seasonal_desc": "Kuvab pühade hooajal koduvaates efekte.",
+                        "transparency": "Läbipaistvus efektid",
+                        "transparency_desc": "Lubab läbipaistvus efektid terve programmi ulatuses.",
+                        "title": "Teema sätted",
+                        "follow": "Kasuta süsteemiteemat",
+                        "follow_desc": "Kui valitud, pole teil võimalik enam teemat muuta ega võimalik kasutada kohandatuid teemasid.",
+                        "seasonal": "Hooajaline teema"
+                    }
                 },
                 "notifications": {
                     "title": "Teated",
@@ -159,7 +188,8 @@
                         "appearance": "See sünkroniseerib teie emoji paketide ja sõnumite tiheduste valikud.",
                         "theme": "See sünkroniseerib teie valitud teema, värvid ja kohandatud CSS'i.",
                         "locale": "See sünkroniseerib teie valitud keele."
-                    }
+                    },
+                    "options": "Sünkroniseerimis sätted"
                 },
                 "native": {
                     "title": "Töölaua sätted"
@@ -168,6 +198,22 @@
                     "title": "Eksperimendid",
                     "features": "Saadaval olevad lisad",
                     "not_available": "Praegusel hetkel pole ühtegi lisa võimalik valida."
+                },
+                "theme_shop": {
+                    "search": "Otsi teemasid...",
+                    "category": {
+                        "saved": "Salvestatud",
+                        "manage": "Halda salvestatuid",
+                        "new": "Uued sel nädalal",
+                        "default": "Vaikimisi teemad",
+                        "highest": "Kõrgelt hinnatud",
+                        "viewall": "Vaata kõiki"
+                    },
+                    "active": "Hetkel aktiivne",
+                    "use": "Kasuta teemat",
+                    "by": "kasutajalt",
+                    "title": "Teemade pood",
+                    "description": "Sirvi sadade kogukonna poolt loodud ja kureeritud teemade vahel."
                 }
             },
             "channel_pages": {
@@ -266,12 +312,19 @@
                     "reload": "Lae programm uuesti",
                     "continue": "Jätka",
                     "send_email": "Saada email",
-                    "leave": "Lahku"
+                    "leave": "Lahku",
+                    "edit": "Muuda"
                 },
                 "onboarding": {
                     "welcome": "Tere tulemast",
                     "pick": "Määra omale kasutajanimi mille järgi teised inimesed saavad teid otsida. Seda annab ka hiljem muuta sätete alt."
-                }
+                },
+                "external_links": {
+                    "trust_domain": "Usalda seda domeeni",
+                    "title": "Välised lingid võivad olla pahatahtlikud!",
+                    "short": "Olete kindel, et soovite külastada:"
+                },
+                "token_reveal": "{{name}} token"
             },
             "copy_username": "Vajuta kasutajanime kopeerimiseks",
             "copy": "Vajuta et kopeerida",
@@ -300,8 +353,8 @@
                     "mutual_groups": "Ühised grupid",
                     "mutual_servers": "Ühised serverid",
                     "empty": "Tundub veidi kõle siin…",
-                    "no_users": "Ühised sõbrad puuduvad!",
-                    "no_groups": "Ühised grupid puuduvad!",
+                    "no_users": "Ühised sõbrad puuduvad",
+                    "no_groups": "Ühised grupid puuduvad",
                     "sub": {
                         "badges": "Tunnustused",
                         "information": "Informatsioon",
@@ -311,22 +364,39 @@
                         "translator": "Tõlkija",
                         "supporter": "Toetaja",
                         "responsible_disclosure": "Vastutustundlikult avalikustatud viga/vead",
-                        "early_adopter": "Varajane kasutuselevõtja"
+                        "early_adopter": "Varajane kasutuselevõtja",
+                        "moderation": "Platvormi modereerimine",
+                        "founder": "Asutaja"
                     },
                     "profile": "Profiil",
-                    "no_servers": "Ühised serverid puuduvad!"
+                    "no_servers": "Ühised serverid puuduvad"
                 },
                 "user_picker": {
                     "select": "Vali sõbrad keda lisada."
+                },
+                "create_bot": {
+                    "failed": "Bot-i loomine ebaõnnestus!",
+                    "title": "Loo uus bot"
+                },
+                "server_identity": {
+                    "title": "Muuda {{server}}-is identiteeti",
+                    "nickname": "Hüüdnimi",
+                    "avatar": "Avatar"
                 }
             },
             "invite": {
                 "invited_by": "Kustutud {{user}} poolt",
                 "login": "Logi Revolti sisse",
                 "user_count": "{{member_count}} kasutajat",
-                "accept": "Aktsepteeri kutse"
+                "accept": "Aktsepteeri kutse",
+                "invalid": "Kehtetu kutselink!",
+                "invalid_desc": "Kutset kas ei ole olemas või teil puudub õigus ühineda."
             },
-            "requires_online": "Sa pead olema võrgus et seda näha."
+            "requires_online": "Sa pead olema võrgus et seda näha.",
+            "server-badges": {
+                "verified": "Tõendatud server",
+                "official": "Ametlik server"
+            }
         },
         "status": {
             "online": "Kättesaadav",
@@ -374,7 +444,8 @@
                     "removed_by": "{{user}} eemaldati {{other_user}} poolt"
                 },
                 "start": {
-                    "group": "Siit algab teie vestlus."
+                    "group": "Siit algab teie vestlus.",
+                    "saved": "Siin on teie märkmete alguspunkt."
                 },
                 "voice": {
                     "connected": "Heli ühendus",
@@ -391,7 +462,9 @@
                     "sent_file": "Saatis manuse",
                     "sent_multiple_files": "Saatis mitu manust",
                     "spoiler_attachment": "Spoiler",
-                    "no_sending": "Teil puudub õigus saata sõnumeid selles kanalis."
+                    "no_sending": "Teil puudub õigus saata sõnumeid selles kanalis.",
+                    "jump_beginning": "Hüppa tagasi algusesse",
+                    "new_messages": "Uued sõnumid alates"
                 },
                 "nsfw": {
                     "channel": {
@@ -418,7 +491,12 @@
                         "oldest": "Vanim"
                     }
                 },
-                "message_where": "Sõnum {{channel_name}}"
+                "message_where": "Sõnum {{channel_name}}",
+                "errors": {
+                    "title": "Oih, siin pole midagi!",
+                    "nochannels": "Selles serveris puuduvad kanalid või Teil puudub neile ligipääs.",
+                    "nochannel": "Kanalit pole"
+                }
             },
             "groups": {
                 "create": "Loo grupp",
@@ -436,7 +514,8 @@
                 "voice_channel": "Helikanal",
                 "channel_name": "Kanali nimi",
                 "channel_type": "Kanali tüüp",
-                "custom_banner": "Kohandatud pealkiri"
+                "custom_banner": "Kohandatud pealkiri",
+                "category_name": "Kategooria nimi"
             }
         },
         "context_menu": {
@@ -493,6 +572,16 @@
         },
         "permissions": {
             "required": "Vajalikud õigused"
+        },
+        "home": {
+            "donate": "Anneta Revolt-ile",
+            "goto-testers": "Mine testijate serverisse",
+            "feedback": "Anna Revolt-i kohta tagasisidet",
+            "settings-tooltip": "Samuti on võimalik ekraani üleval vasakus nurgas vajutada paremat hiireklahvi kasutaja ikoonil või vasakut hiireklahvi kui koduvaade on ees.",
+            "social": "Otsi servereid ning bot-e",
+            "settings": "Ava sätted",
+            "directs": "Otsesõnumid",
+            "join-testers": "Liitu testijate serveriga"
         }
     },
     "login": {
@@ -508,17 +597,17 @@
             "password": "Sisesta oma parool.",
             "invite": "Sisesta oma kutsekood.",
             "current_password": "Sisesta oma praegune parool.",
-            "username": "Sisesta kasutajatunnus."
+            "username": "Sisestage oma eelistatud kasutajatunnus."
         },
         "forgot": "Unustasid oma parooli?",
-        "reset": "Vaheta parool.",
-        "set_password": "Määra uus parool.",
+        "reset": "Muuda parool",
+        "set_password": "Määra uus parool",
         "new": "Revolt konto puudub?",
         "existing": "Konto on juba olemas?",
-        "create": "Loo uus konto.",
-        "missing_verification": "Email puudub?",
-        "resend": "Saada kinnitus uuesti.",
-        "check_mail": "Vaata oma postkasti.",
+        "create": "Loo uus konto",
+        "missing_verification": "Kas e-kiri ei saabunud?",
+        "resend": "Saada kinnitus uuesti",
+        "check_mail": "Kontrolli oma postkasti!",
         "check_spam": "Palun kontrollige oma rämpsposti kui te kirja ei leia",
         "open_mail_provider": "Ava {{provider}}",
         "successful_registration": "Registreerumine oli edukas!",
@@ -528,9 +617,13 @@
             "reset": "Muutmine ebaõnnestus!",
             "resend": "Uuesti saatmine ebaõnnestus!"
         },
-        "remembered": "Mine tagasi sisse logima.",
-        "cancel": "Katkesta päring.",
-        "email_delay": "Palun lubake kuni 10 minutit kirja saabumiseks."
+        "remembered": "Mine tagasi sisse logima",
+        "cancel": "Katkesta päring",
+        "email_delay": "Palun lubake kuni 10 minutit kirja saabumiseks.",
+        "welcome": "Tere tulemast tagasi!",
+        "subtitle": "Logi sisse Revolt-i",
+        "welcome2": "Tere!",
+        "subtitle2": "Loo konto"
     },
     "quantities": {
         "members": {
@@ -594,7 +687,9 @@
         "AlreadyOnboarded": "Pardale minek juba lõpetatud.",
         "BlockedOther": "See kasutaja on teid blokeerinud.",
         "FailedToReceive": "Serveril ei õnnestunud teie faili kätte saada.",
-        "DeniedNotification": "Te blokeeritise teavituste ligipääsu, palun kontrolli lehe sätteid."
+        "DeniedNotification": "Te blokeeritise teavituste ligipääsu, palun kontrolli lehe sätteid.",
+        "ReachedMaximumBots": "Te olete saavutanud bot-ide maksimaalse koguse.",
+        "AudioPermissionBlock": "Mikrofoni kasutamise õigus puudub, palun kontrollige oma lehitsejas seadmete sätteid."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
@@ -670,6 +765,9 @@
             "UploadFiles": {
                 "t": "Lae faile",
                 "d": "Luba liikmetel üles laadida faile tekstkanalites."
+            },
+            "Masquerade": {
+                "d": "Lubab liikmetel muuta oma nime ja avatari sõnumi haaval."
             }
         }
     }
