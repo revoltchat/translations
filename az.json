@@ -1,14 +1,14 @@
 {
     "login": {
-        "cancel": "İstəyi ləğv edin.",
-        "resend": "Doğrulamayı dəyişdirin.",
+        "cancel": "İstəyi ləğv edin",
+        "resend": "Doğrulama mesajını yenidən göndər",
         "missing_verification": "E-poçt almadınız?",
         "create": "Yeni hesab yarat.",
         "existing": "Artıq hesabınız var?",
         "new": "Revolt üçün yenisiniz?",
-        "remembered": "Giriş üçün geri qayıt",
-        "set_password": "Yeni parol seçin.",
-        "reset": "Parolu sıfırlamak",
+        "remembered": "Giriş səyfəsinə geri qayıt",
+        "set_password": "Yeni parol seç.",
+        "reset": "Parolu sıfırla",
         "forgot": "Şifrəni unutmusan?",
         "enter": {
             "current_password": "Cari parolunuzu daxil edin",
@@ -24,7 +24,7 @@
         "username": "İstifadəçi adı",
         "register": "Qeydiyyatdan keçin",
         "title": "Daxil ol",
-        "check_mail": "Poçtunuzu yoxlayın.",
+        "check_mail": "Poçtunuzu yoxlayın!",
         "check_spam": "Xahiş edirəm tapa bilmirsinizsə spamı yoxlayın.",
         "open_mail_provider": "{{provider}} açıq",
         "successful_registration": "Uğurla qeydiyyatdan keçdi!",
@@ -34,7 +34,11 @@
             "resend": "Yenidən göndərmək alınmadı!",
             "login": "Giriş alınmadı!"
         },
-        "email_delay": "Xahiş edirəm çatması üçün 10 dəqiqəyə qədər vaxt verin."
+        "email_delay": "Xahiş edirəm çatması üçün 10 dəqiqəyə qədər vaxt verin.",
+        "welcome": "Xoşgəldin!",
+        "subtitle": "Revolta daxil ol",
+        "welcome2": "Salam!",
+        "subtitle2": "Hesab yarat"
     },
     "general": {
         "loading": "Yüklənir…",
@@ -112,7 +116,9 @@
                     "no_sending": "Bu kanalda mesaj göndərmək üçün icazəniz yoxdur.",
                     "failed_load": "Mesaj yüklənə bilmədi.",
                     "sent_multiple_files": "Birdən çox qoşma göndərildi",
-                    "sent_file": "Əlavə göndərildi"
+                    "sent_file": "Əlavə göndərildi",
+                    "jump_beginning": "Başlanğıca geri dön",
+                    "new_messages": "{{time_ago}} zamanından sonra yeni mesajlar"
                 },
                 "unknown_user": "<Naməlum istifadəçi>",
                 "bot": "bot",
@@ -242,7 +248,16 @@
                     "mono_font": "Monoscape Font Seçici",
                     "font": "Şrift",
                     "ligatures": "Şriftin xüsusiyyətləri",
-                    "ligatures_desc": "Dəstəklənən şriftlər üçün işarələr simvolları birləşdirir, məsələn -> oxa çevirərək. Interə keçin və bu seçimi dəyişdirməyə çalışın."
+                    "ligatures_desc": "Dəstəklənən şriftlər üçün işarələr simvolları birləşdirir, məsələn -> oxa çevirərək. Interə keçin və bu seçimi dəyişdirməyə çalışın.",
+                    "theme_options": {
+                        "follow_desc": "Yoxlandıqda, temanızı dəyişə və ya fərdi mövzudan istifadə edə bilməyəcəksiniz.",
+                        "seasonal": "Sezonlu tema",
+                        "transparency": "Transparent effektləri",
+                        "transparency_desc": "Proqram boyunca şəffaflıq effektlərini aktivləşdirir.",
+                        "title": "Tema ayarları",
+                        "follow": "Sistem temasını izlə",
+                        "seasonal_desc": "Tətil mövsümlərində ev tabında effektləri göstərir."
+                    }
                 },
                 "notifications": {
                     "enable_push": "Push Bildirişlərini aktiv edin.",
@@ -308,7 +323,8 @@
                         "theme": "Bu seçdiyiniz mövzunu, rəngləri və istənilən xüsusi CSS sinxronlaşdıracaq."
                     },
                     "categories": "Kateqoriyalarları sinxronlaşdırın",
-                    "title": "Sinxronizasiya"
+                    "title": "Sinxronizasiya",
+                    "options": "Parametrləri sinxronisya et"
                 },
                 "audio": {
                     "input_device": "Mikrofon",
@@ -332,13 +348,27 @@
                     "public_bot": "İctimai Bot",
                     "public_bot_desc": "İstifadəçilərə bu botu dəvət etməyə icazə verir.",
                     "interactions_url": "Qarşılıqlı URL.",
-                    "reserved": "Qeyd: Bu sahə gələcək üçün ayrılmışdır."
+                    "reserved": "Qeyd: Bu sahə gələcək üçün ayrılmışdır.",
+                    "profile": "Bot profili"
                 },
                 "native": {
                     "title": "Masaüstü parametrləri"
                 },
                 "theme_shop": {
-                    "title": "Tema mağazası"
+                    "title": "Tema mağazası",
+                    "active": "İndi aktiv",
+                    "use": "Temanı işlət",
+                    "category": {
+                        "viewall": "Hamısına bax",
+                        "saved": "Saxlanıldı",
+                        "manage": "Saxlanılanları idarə edin",
+                        "new": "Bu həftənin yeniləri",
+                        "default": "Defolt temalar",
+                        "highest": "Ən yüksək reytinq"
+                    },
+                    "description": "İcma tərəfindən yaradılmış və seçilmiş yüzlərlə mövzuya göz atın.",
+                    "search": "Temalar axtar...",
+                    "by": "Tərəfindən"
                 }
             },
             "tips": {
@@ -394,6 +424,9 @@
                 },
                 "categories": {
                     "title": "Kateqoryalar"
+                },
+                "management": {
+                    "title": "İstifadəçi İdarəetmə"
                 }
             },
             "permissions": {
@@ -603,10 +636,11 @@
             "join-testers": "Testerlər serverinə qatıl",
             "goto-testers": "Testerlər serverinə get",
             "donate": "Revolta dəstək",
-            "settings": "Parametrlər",
+            "settings": "Parametrləri aç",
             "feedback": "Revolta xəbərdarlıq göndər",
             "settings-tooltip": "Siz həmçinin yuxarı sol küncdəki istifadəçi ikonasına sağ klikləyə və ya artıq evdəsinizsə, sol klikləyə bilərsiniz.",
-            "social": "Serverlər vəya botları axtar"
+            "social": "Serverlər vəya botları axtar",
+            "directs": "Özəl mesajlar"
         }
     },
     "quantities": {
