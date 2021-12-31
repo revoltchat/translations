@@ -100,7 +100,8 @@
                     "blocked_user": "Utilisateur bloqué",
                     "sent_file": "Envoi d'une pièce jointe",
                     "sent_multiple_files": "Envoi de plusieurs pièces jointes",
-                    "jump_beginning": "Retour au début"
+                    "jump_beginning": "Retour au début",
+                    "new_messages": "Nouveaux messages depuis {{time_ago}}"
                 },
                 "notifications": {
                     "all": "Tous les messages",
@@ -256,13 +257,15 @@
                     "font": "Police d'écriture",
                     "mono_font": "Sélecteur de police à taille fixe",
                     "ligatures": "Ligatures de police d'écriture",
-                    "ligatures_desc": "Pour les polices d'écriture prises en charge, les ligatures combinent certains caractères ensemble, par exemple en transformant -> en une flèche. Placez-vous au champ de texte puis essayez avec ou sans cette option.",
+                    "ligatures_desc": "Pour les polices prises en charge, les liaisons combinent les caractères entre eux, par exemple en transformant -> en flèche.",
                     "theme_options": {
-                        "title": "Options de thème",
+                        "title": "Options des thèmes",
                         "follow": "Utiliser le thème du système d'exploitation",
                         "follow_desc": "Si activé, vous ne serez pas capable de changer votre thème ou d'utiliser un thème personnalisé.",
                         "seasonal": "Thème saisonnier",
-                        "seasonal_desc": "Afficher des effets dans l'onglet d'accueil pendant les saisons de vacances."
+                        "seasonal_desc": "Afficher des effets dans l'onglet d'accueil pendant les saisons de vacances.",
+                        "transparency": "Effets de transparence",
+                        "transparency_desc": "Active les effets de transparence dans toute l'application."
                     }
                 },
                 "notifications": {
@@ -404,7 +407,7 @@
                         "manage": "Gérer les thèmes sauvegardés",
                         "default": "Thèmes par défaut",
                         "viewall": "Voir tout",
-                        "highest": "Hautement notés"
+                        "highest": "Les mieux notés"
                     },
                     "active": "Actuellement actifs",
                     "use": "Appliquer le thème",
@@ -579,8 +582,8 @@
                     "profile": "Profil",
                     "mutual_groups": "Groupes en commun",
                     "mutual_friends": "Amis en commun",
-                    "no_users": "Aucun ami en commun !",
-                    "no_groups": "Aucun groupe en commun !",
+                    "no_users": "Aucun ami en commun",
+                    "no_groups": "Aucun groupe en commun",
                     "badges": {
                         "translator": "Traducteur",
                         "early_adopter": "Utilisateur de longue date",
@@ -596,7 +599,7 @@
                     },
                     "empty": "C'est un peu vide ici…",
                     "mutual_servers": "Serveurs en commun",
-                    "no_servers": "Aucun serveur en commun !"
+                    "no_servers": "Aucun serveur en commun"
                 },
                 "user_picker": {
                     "select": "Sélectionnez des amis à ajouter."
@@ -633,11 +636,12 @@
         "home": {
             "donate": "Donner à Revolt",
             "social": "Trouver des serveurs & des bots",
-            "settings": "Paramètres",
+            "settings": "Ouvrir les paramètres",
             "feedback": "Envoyer des commentaires sur Revolt",
             "settings-tooltip": "Vous pouvez aussi faire un clic droit sur l'icône utilisateur en haut à gauche, ou un clique gauche si vous êtes déjà sur l'accueil.",
             "join-testers": "Rejoinde le serveur de testeurs",
-            "goto-testers": "Aller sur le serveur de testeurs"
+            "goto-testers": "Aller sur le serveur de testeurs",
+            "directs": "Messages directs"
         }
     },
     "quantities": {
