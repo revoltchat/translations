@@ -15,7 +15,7 @@
                     },
                     "theme": "主題",
                     "title": "外觀",
-                    "ligatures_desc": "如果字體支援，此選項將相鄰的字元連結在一起，例如，將->顯示為箭頭。您可以選擇Inter字體並開啟此設定試試。",
+                    "ligatures_desc": "如果字體支援，此選項將相鄰的字元連結在一起，例如，將->顯示為箭頭。",
                     "ligatures": "字體連字",
                     "mono_font": "等寬字體偏好",
                     "font": "字體",
@@ -29,7 +29,16 @@
                     "advanced": "進階設定",
                     "message_display": "訊息顯示",
                     "emoji_pack": "表情包",
-                    "accent_selector": "強調顏色"
+                    "accent_selector": "強調顏色",
+                    "theme_options": {
+                        "transparency_desc": "啟用整個應用程式的透明效果。",
+                        "transparency": "透明效果",
+                        "follow": "跟隨系統主題",
+                        "follow_desc": "勾選後，將無法更改主題或使用自定義主題。",
+                        "title": "主題選項",
+                        "seasonal_desc": "節日期間，在主頁顯示特殊效果。",
+                        "seasonal": "季節性主題"
+                    }
                 },
                 "audio": {
                     "output_device": "喇叭/耳機",
@@ -87,7 +96,8 @@
                     "copy_invite": "複製邀請連結",
                     "create_bot": "創造機器人",
                     "title": "我的機器人",
-                    "unique_id": "這是您機器人的唯一標誌，而不是機器人的金鑰。"
+                    "unique_id": "這是您機器人的唯一標誌，而不是機器人的金鑰。",
+                    "profile": "機器人資料"
                 },
                 "logOut": "登出",
                 "feedback": {
@@ -118,7 +128,8 @@
                         "appearance": "這將會同步表情包與訊息密度的設定。"
                     },
                     "categories": "同步分類",
-                    "title": "同步"
+                    "title": "同步",
+                    "options": "同步設定"
                 },
                 "language": {
                     "other": "其他語言選項",
@@ -144,7 +155,20 @@
                     "title": "通知"
                 },
                 "theme_shop": {
-                    "title": "主題商店"
+                    "title": "主題商店",
+                    "description": "瀏覽由社區建立的數百個主題。",
+                    "search": "搜尋主題...",
+                    "category": {
+                        "manage": "管理已儲存",
+                        "saved": "已儲存",
+                        "highest": "最高評分",
+                        "default": "預設主題",
+                        "viewall": "查看所有",
+                        "new": "本周最新"
+                    },
+                    "use": "使用主題",
+                    "active": "目前使用",
+                    "by": "來自"
                 }
             },
             "actions": {
@@ -207,6 +231,9 @@
                     "description": "頻道簡介",
                     "name": "伺服器名稱",
                     "title": "概述"
+                },
+                "management": {
+                    "title": "使用者管理"
                 }
             },
             "channel_pages": {
@@ -275,7 +302,9 @@
                     "failed_load": "無法讀取訊息。",
                     "spoiler_attachment": "隱藏",
                     "jump_present": "跳到最新",
-                    "viewing_old": "查看歷史訊息"
+                    "viewing_old": "查看歷史訊息",
+                    "jump_beginning": "回到開頭",
+                    "new_messages": "自 {{time_ago}} 以來的新訊息"
                 },
                 "voice": {
                     "unmute": "關閉靜音",
@@ -430,13 +459,13 @@
             "popovers": {
                 "user_profile": {
                     "profile": "個人資料",
-                    "no_groups": "你們沒有共同的群組!",
+                    "no_groups": "沒有共同群組",
                     "mutual_friends": "共同好友",
                     "mutual_groups": "共同群組",
                     "mutual_servers": "共同的伺服器",
                     "empty": "這裡什麼都沒有…",
-                    "no_users": "你們沒有共同的好友!",
-                    "no_servers": "你們沒有共同的伺服器!",
+                    "no_users": "沒有共同好友",
+                    "no_servers": "沒有共同伺服器",
                     "sub": {
                         "badges": "徽章",
                         "information": "關於我",
@@ -536,11 +565,12 @@
         "home": {
             "goto-testers": "前往測試者伺服器",
             "donate": "捐獻給 Revolt",
-            "settings": "設置",
+            "settings": "開啟設置",
             "join-testers": "加入測試者伺服器",
             "social": "尋找其他伺服器和機器人",
             "feedback": "給予Revolt一些回饋",
-            "settings-tooltip": "你也可以從右鍵點擊左上角的用戶頭像，或是在主頁左鍵點擊。"
+            "settings-tooltip": "你也可以從右鍵點擊左上角的用戶頭像，或是在主頁左鍵點擊。",
+            "directs": "私人訊息"
         }
     },
     "login": {
@@ -550,20 +580,20 @@
             "login": "登入失敗！",
             "create": "註冊失敗！"
         },
-        "create": "註冊新帳號。",
+        "create": "註冊新帳號",
         "successful_registration": "成功註冊！",
         "open_mail_provider": "打開{{provider}}",
         "check_spam": "如果找不到，請檢查垃圾信件",
         "email_delay": "最多可能會需要10分鐘。",
-        "check_mail": "檢查你的電子信箱。",
-        "cancel": "取消請求。",
-        "resend": "重新寄出認證信。",
+        "check_mail": "請檢查你的信箱！",
+        "cancel": "取消請求",
+        "resend": "重新發送認證碼",
         "missing_verification": "沒有收到電子郵件?",
         "existing": "已經擁有一個Revolt帳號了嗎?",
         "new": "第一次使用Revolt？",
-        "remembered": "返回登入頁面。",
-        "set_password": "設定新密碼。",
-        "reset": "重置密碼。",
+        "remembered": "返回登入頁面",
+        "set_password": "設定新密碼",
+        "reset": "重置密碼",
         "forgot": "忘記密碼？",
         "enter": {
             "current_password": "輸入目前的密碼。",
@@ -578,7 +608,11 @@
         "email": "電子信箱",
         "username": "用戶名",
         "register": "建立帳號",
-        "title": "登入"
+        "title": "登入",
+        "welcome2": "你好！",
+        "subtitle2": "建立帳號",
+        "welcome": "歡迎回來！",
+        "subtitle": "登入 Revolt"
     },
     "general": {
         "unavailable": "無法使用",
