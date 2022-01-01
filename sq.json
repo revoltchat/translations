@@ -54,7 +54,8 @@
         "status": {
             "online": "Në linjë",
             "busy": "Mos shqetësoni",
-            "invisible": "I padukshëm"
+            "invisible": "I padukshëm",
+            "offline": "jashtë linje"
         },
         "navigation": {
             "tabs": {
@@ -71,7 +72,8 @@
             "settings": "Hap opsionet",
             "feedback": "Jep r",
             "donate": "Dhuroji Revolt-it",
-            "settings-tooltip": "Ju gjithashtu mund të klikoni me kursorin e djathtë ikonën e përdoruesit lart në të majtë, ose të klikoni me kursorin e majtë në qoftë se jeni në shtëpi."
+            "settings-tooltip": "Ju gjithashtu mund të klikoni me kursorin e djathtë ikonën e përdoruesit lart në të majtë, ose të klikoni me kursorin e majtë në qoftë se jeni në shtëpi.",
+            "directs": "mesazhe direkte"
         },
         "main": {
             "categories": {
@@ -137,7 +139,8 @@
                     "title": "Kërko",
                     "sort": {
                         "latest": "Të fundit",
-                        "oldest": "Më të vjetrat"
+                        "oldest": "Më të vjetrat",
+                        "relevance": "Rëndësia"
                     }
                 },
                 "errors": {
@@ -219,14 +222,17 @@
                     "button_retry": "Riprovo",
                     "input_device": "Mikrofoni",
                     "tip_grant_permission": "Ju duhet të jepni leje për të aksesuar opsionet e zërit.",
-                    "button_grant": "Jep leje"
+                    "button_grant": "Jep leje",
+                    "output_device": "Altoparlant / Kufje",
+                    "tip_retry": "Ju nuk e keni dhënë lejen për të hyrë në mikrofonin tuaj, ju lutemi {{retryBtn}}."
                 },
                 "appearance": {
                     "title": "Pamja",
                     "theme": "Tema",
                     "display": {
                         "compact": "Kompakt",
-                        "default_description": "E bukur, e hijshme dhe moderne."
+                        "default_description": "E bukur, e hijshme dhe moderne.",
+                        "default": "E paracaktuar"
                     },
                     "color": {
                         "light": "dritë",
@@ -238,7 +244,9 @@
                         "seasonal": "Temë sezonale",
                         "seasonal_desc": "Shfaq efektet në skedën kryesore gjatë stinëve të festave.",
                         "title": "Opsionet e temës",
-                        "follow_desc": "Kur zgjidhet, nuk do të mund ta ndryshoni temën ose të përdorni një temë të personalizuar."
+                        "follow_desc": "Kur zgjidhet, nuk do të mund ta ndryshoni temën ose të përdorni një temë të personalizuar.",
+                        "transparency": "Efektet e Transparencës",
+                        "transparency_desc": "Aktivizon efektet e transparencës në të gjithë aplikacionin."
                     },
                     "emoji_pack": "Paketë emoji",
                     "message_display": "Shfaqja e mesazheve",
@@ -249,12 +257,57 @@
                     "custom_css": "CSS e personalizuar",
                     "sync": "Opsionet e sinkronizimit",
                     "advanced": "Opsionet e avancuara",
-                    "import": "Importo një temë"
+                    "import": "Importo një temë",
+                    "ligatures_desc": "Për fontet e mbështetura, ligaturat kombinojnë karakteret së bashku, për shembull, duke e kthyer -> në një shigjetë."
                 },
                 "notifications": {
                     "title": "Njoftimet",
-                    "push_notifications": "Njoftimet e shtytura"
+                    "push_notifications": "Njoftimet e shtytura",
+                    "enable_push": "Aktivizo Push Notifications.",
+                    "enable_desktop": "Aktivizo njoftimet e desktopit.",
+                    "sounds": "Tingujt",
+                    "descriptions": {
+                        "enable_desktop": "Kjo do t'ju japë njoftime ndërsa aplikacioni juaj është i hapur.",
+                        "enable_push": "Aktivizo marrjen e njoftimeve kur je jashtë linje."
+                    },
+                    "sound": {
+                        "message": "mesazhi i marrë",
+                        "outbound": "Mesazhi u Dergua"
+                    }
+                },
+                "language": {
+                    "title": "Gjuhe",
+                    "select": "Zgjidhni gjuhën tuaj",
+                    "const": "Gjuhët e ndërtuara",
+                    "other": "Opsione të tjera gjuhësore"
                 }
+            }
+        }
+    },
+    "permissions": {
+        "channel": {
+            "SendMessage": {
+                "t": "Dërgo Mesazhe",
+                "d": "Lejon anëtarët të dërgojnë mesazhe në kanale me tekst."
+            },
+            "ManageMessages": {
+                "t": "Menaxho Mesazhet",
+                "d": "Lejon anëtarët të fshijnë mesazhet e dërguara nga anëtarët e tjerë."
+            },
+            "ManageChannel": {
+                "t": "Menaxho kanalet",
+                "d": "Lejon anëtarët të modifikojnë ose fshijnë një kanal."
+            },
+            "VoiceCall": {
+                "t": "Thirrje zanore",
+                "d": "Lejon anëtarët të bashkohen me kanalet zanore."
+            },
+            "InviteOthers": {
+                "t": "Ftoni të tjerët",
+                "d": "Lejon anëtarët të ftojnë përdorues të tjerë në një kanal."
+            },
+            "Masquerade": {
+                "d": "Lejon anëtarët të ndryshojnë emrin dhe avatarin e tyre për çdo mesazh."
             }
         }
     }
