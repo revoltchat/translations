@@ -1,8 +1,8 @@
 {
     "login": {
         "forgot": "Mot de passe oublié?",
-        "reset": "Réinitialiser le mot de passe.",
-        "set_password": "Definir un nouveau mot de passe.",
+        "reset": "Réinitialiser le mot de passe",
+        "set_password": "Definir un nouveau mot de passe",
         "new": "Nouveau dans Revolt?",
         "create": "Créer un nouveau compte.",
         "cancel": "Demande d'annulation.",
@@ -23,10 +23,10 @@
             "email": "Entrer votre Email.",
             "username": "Entrez votre nom d'utilisateur préféré."
         },
-        "remembered": "Revenez à la connexion.",
+        "remembered": "Revenez à la connexion",
         "existing": "Vous avez déjà un compte?",
         "resend": "Renvoyer vérification.",
-        "check_mail": "Vérifier votre courrier.",
+        "check_mail": "Vérifier votre courrier!",
         "missing_verification": "Vous n'avez pas reçu d'e-mail ?",
         "register": "Enregister",
         "username": "Nom d'utilisateur",
@@ -34,7 +34,11 @@
         "password": "Mot de passe",
         "invite": "Code d'invitation",
         "current_password": "Mot de passe actuel",
-        "title": "Commencer la session"
+        "title": "Commencer la session",
+        "welcome": "Bienvenue à nouveau!",
+        "subtitle": "Connectez-vous sur Revolt",
+        "welcome2": "Salut!",
+        "subtitle2": "Créer un compte"
     },
     "app": {
         "status": {
@@ -121,7 +125,9 @@
                     "blocked_messages": "{{count}} messages bloqués",
                     "blocked_user": "Utilisateur bloqué",
                     "sent_file": "Envoyé une pièce jointe",
-                    "sent_multiple_files": "Envoyé plusieurs pièces jointes"
+                    "sent_multiple_files": "Envoyé plusieurs pièces jointes",
+                    "jump_beginning": "Retour au début",
+                    "new_messages": "Nnouveaux messages de {{time_ago}}"
                 },
                 "unknown_user": "<Utilisateur inconnu>",
                 "message_where": "Message {{channel_name}}",
@@ -142,7 +148,17 @@
                 "name": "Nom de groupe"
             },
             "servers": {
-                "create": "Créer un serveur"
+                "create": "Créer un serveur",
+                "name": "Nom du Serveur",
+                "description": "Description du serveur",
+                "channel_name": "Nom du canal",
+                "channel_type": "Type de canal",
+                "channel_description": "Description de la chaîne",
+                "custom_banner": "Bannière personnalisée",
+                "owner": "Propriétaire du serveur",
+                "category_name": "Nom de catégorie",
+                "text_channel": "Canal de texte",
+                "voice_channel": "Canal vocal"
             }
         },
         "home": {
@@ -151,8 +167,94 @@
             "join-testers": "Rejoignez le serveur des testeurs",
             "goto-testers": "Aller sur le serveur des testeurs",
             "feedback": "Donnez votre avis sur Revolt",
-            "settings": "Paramètres",
-            "social": "Trouver des serveurs et des bots"
+            "settings": "Ouvrir paramètres",
+            "social": "Trouver des serveurs et des bots",
+            "directs": "Messages Directs"
+        },
+        "settings": {
+            "categories": {
+                "client_settings": "Réglages des clients",
+                "user_settings": "Paramètres utilisateur"
+            },
+            "pages": {
+                "account": {
+                    "manage": {
+                        "delete": "Supprimer compte",
+                        "description": "Désactivez ou supprimez votre compte à tout moment. Cette action vous déconnectera et supprimera complètement votre compte, y compris votre historique de discussion et vos amis.",
+                        "title": "Gestion de compte",
+                        "disable": "Désactiver compte"
+                    },
+                    "title": "Mon compte",
+                    "change_field": "Changer",
+                    "2fa": {
+                        "title": "Authentification à deux facteurs",
+                        "add_auth": "Ajouter authenticator",
+                        "description": "Ajoutez une couche de sécurité supplémentaire en activant 2FA sur votre compte.",
+                        "remove_auth": "Supprimer authenticator"
+                    },
+                    "unique_id": "Il s'agit d'un identifiant d'utilisateur unique pour votre compte."
+                },
+                "profile": {
+                    "title": "Profil",
+                    "placeholder": "Écris quelque chose à propos de toi…",
+                    "profile_picture": "Image de profil",
+                    "edit_background": "Modifier arrière-plan",
+                    "info": "Information",
+                    "fetching": "Récupération de votre profil…",
+                    "custom_background": "Arrière-plan personnalisé",
+                    "edit_profile": "Editer profil"
+                },
+                "sessions": {
+                    "active_sessions": "Sessions actives",
+                    "title": "Séances",
+                    "this_device": "Cet appareil",
+                    "created": "Créé il y a {{time_ago}}",
+                    "logout": "Déconnectez-vous de toutes les autres sessions"
+                },
+                "audio": {
+                    "device_label_NA": "Indisponible",
+                    "button_retry": "retenter",
+                    "output_device": "Haut-parleur / Casque",
+                    "input_device": "Microphone",
+                    "tip_retry": "Vous n'avez pas donné l'autorisation d'accéder à votre microphone, veuillez {{retryBtn}}",
+                    "tip_grant_permission": "Vous devez accorder l'autorisation d'accéder aux paramètres audio.",
+                    "button_grant": "Donner permission",
+                    "title": "Paramètres de voix"
+                },
+                "appearance": {
+                    "display": {
+                        "compact_description": "Bon vieil IRC.",
+                        "default": "Par défaut",
+                        "default_description": "Beau, élégant et moderne.",
+                        "compact": "Compact"
+                    },
+                    "color": {
+                        "light": "lumière",
+                        "dark": "foncé"
+                    },
+                    "message_display": "Affichage des messages",
+                    "title": "Apparence",
+                    "theme": "Thème",
+                    "theme_options": {
+                        "seasonal_desc": "Affiche les effets dans l'onglet d'accueil pendant les périodes de vacances.",
+                        "transparency": "Effets de transparence",
+                        "transparency_desc": "Active effets de transparence dans toute l'application.",
+                        "title": "Options du thème",
+                        "follow": "Suivre thème du système",
+                        "follow_desc": "Une fois marqué, vous ne pourrez pas modifier votre thème ou utiliser un thème personnalisé.",
+                        "seasonal": "Thème saisonnier"
+                    },
+                    "advanced": "Options avancées",
+                    "accent_selector": "Couleur d'accent",
+                    "emoji_pack": "Pack d'émojis"
+                }
+            },
+            "actions": {
+                "remove": "Effacer",
+                "upload": "Téléverser",
+                "max_filesize": "(maximum {{filesize}})"
+            },
+            "title": "Réglages"
         }
     },
     "general": {
@@ -165,5 +267,13 @@
         "off": "Éteint",
         "unavailable": "Indisponible",
         "disabled": "Désactiver"
+    },
+    "permissions": {
+        "channel": {
+            "Masquerade": {
+                "t": "Mascarade",
+                "d": "Permettre les membres à changer leur nom et leur avatar par message."
+            }
+        }
     }
 }
