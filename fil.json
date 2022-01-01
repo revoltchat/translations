@@ -40,7 +40,9 @@
                     "blocked_messages": "{{count}} ang blocked na messages",
                     "blocked_user": "Blocked na User",
                     "sent_file": "Sinend na attachment",
-                    "sent_multiple_files": "Sinend ang multiple attachments"
+                    "sent_multiple_files": "Sinend ang multiple attachments",
+                    "jump_beginning": "Bumalik sa simula",
+                    "new_messages": "Bagong mensahe mula nang {{time_ago}}"
                 },
                 "typing": {
                     "single": "Nag ta-type si {{user}}…",
@@ -213,7 +215,8 @@
                     "device_label_NA": "Hindi Naaangkop",
                     "output_device": "Speaker o Headset",
                     "tip_retry": "Hindi mo binigyan ang pahintulot na gamitin ang iyong microphone, {{retryBtn}}.",
-                    "button_grant": "Magbigay ng permiso"
+                    "button_grant": "Magbigay ng permiso",
+                    "tip_grant_permission": "Kailangan mong pahintulutan upang i-access ang audio settings."
                 },
                 "appearance": {
                     "theme": "Tema",
@@ -242,7 +245,16 @@
                     "custom_css": "Sariling CSS",
                     "sync": "I-sync ang mga options",
                     "import_theme": "Mag-import ng tema sa string",
-                    "ligatures_desc": "Para sa mga supported fonts, pinagsasama ng mga ligature ang mga characters, halimbawa, ipinapalit ang arrow sa -> . Piliin mo ang Inter at subukan mo ang opsyon na ito."
+                    "ligatures_desc": "Para sa mga supported fonts, pinagsasama ng mga ligature ang mga characters, halimbawa, ipinapalit ang arrow sa -> . Piliin mo ang Inter at subukan mo ang opsyon na ito.",
+                    "theme_options": {
+                        "follow": "Gayahin ang tema ng iyong sistema",
+                        "follow_desc": "Kung pinagana, hindi mo pwedeng baguhin ang iyong tema o gamitin ang isang temang custom.",
+                        "seasonal": "Pana-panahong tema",
+                        "seasonal_desc": "Nagpapakita ng mga epekto sa home tab habang mga panahong holiday.",
+                        "transparency_desc": "Pinapagana ang mga epekto ng aninaw sa kabuuan ng app.",
+                        "title": "Opsyon ng Tema",
+                        "transparency": "Epektong Aninaw"
+                    }
                 },
                 "notifications": {
                     "sounds": "Mga tunog",
@@ -297,7 +309,8 @@
                     "interactions_url": "Interaksyon ng URL",
                     "reserved": "Palatanda: Ang patlang na ito ay nakalaan na para sa kinabukasan.",
                     "private_bot_tip": "Ang iyong bot ay pangpribado. Ikaw lang ang pwede makapag-imbita nito.",
-                    "public_bot_desc": "Gawing pampubliko at pwede ma-imbita ng mga users ang iyong bot."
+                    "public_bot_desc": "Gawing pampubliko at pwede ma-imbita ng mga users ang iyong bot.",
+                    "profile": "Bot profile"
                 },
                 "sync": {
                     "title": "Synchronohiya",
@@ -306,10 +319,24 @@
                         "locale": "Magiging synchronohiya ang iyong piniling wika.",
                         "appearance": "Magiging synchronohiya ang mga opsyons katulad ng pakete ng emojis at message density.",
                         "theme": "Magiging synchronohiya ang iyong piniling tema, kulay, at ang kahit anong pangsariling CSS."
-                    }
+                    },
+                    "options": "Opsyon ng Sync"
                 },
                 "theme_shop": {
-                    "title": "Tindahan ng Tema"
+                    "title": "Tindahan ng Tema",
+                    "search": "Maghanap ng tema...",
+                    "category": {
+                        "viewall": "Makita ang lahat",
+                        "saved": "Nai-save",
+                        "manage": "I-manage ang saved",
+                        "new": "Bago ngayong linggo",
+                        "default": "Mga default na tema",
+                        "highest": "Pinakabantog"
+                    },
+                    "active": "Aktibo ngayon",
+                    "use": "Gamitin ang tema",
+                    "by": "gawa ni",
+                    "description": "Maghanap ng daan-daang tema, ginawa at pinili ng community natin."
                 },
                 "source_code": "Pinagmulan ng Code",
                 "native": {
@@ -360,6 +387,9 @@
                 },
                 "roles": {
                     "title": "Mga Roles"
+                },
+                "management": {
+                    "title": "User Management"
                 }
             },
             "tips": {
@@ -500,7 +530,9 @@
                         "translator": "Tagasalin",
                         "supporter": "Tagasuporta",
                         "responsible_disclosure": "Responsibly Disclosed Bug(s)",
-                        "early_adopter": "Early Adopter"
+                        "early_adopter": "Early Adopter",
+                        "founder": "Tagapagtatag",
+                        "moderation": "Moderation ng Platform"
                     },
                     "no_servers": "Walang parehong server!",
                     "mutual_friends": "Mga Mutual na Kaibigan",
@@ -521,7 +553,11 @@
                     "failed": "Hindi matagumpay ang paggawa ng bot!"
                 }
             },
-            "requires_online": "Kailangan mo maging online para makita mo ito."
+            "requires_online": "Kailangan mo maging online para makita mo ito.",
+            "server-badges": {
+                "official": "Opisyal na Server",
+                "verified": "Na-verify na Server"
+            }
         },
         "permissions": {
             "required": "Kailangan ng Permiso"
@@ -530,7 +566,11 @@
             "goto-testers": "Punta sa testers server",
             "donate": "Magbigay sa Revolt",
             "feedback": "Magbigay ng puna sa Revolt",
-            "settings": "Mga opsyon"
+            "settings": "Mga opsyon",
+            "directs": "Mga direktang mensahe",
+            "join-testers": "Sumali sa Testers Server",
+            "settings-tooltip": "Pwede mo ring i-right-click sa user icon sa kaliwang itaas, o i-left-click doon kung nasa home page ka na.",
+            "social": "Maghanap ng server at bot"
         }
     },
     "general": {
@@ -579,7 +619,11 @@
             "create": "Hindi matagumpay ang pagrerehistro!",
             "resend": "Hindi matagumpay ang pagpapadala!"
         },
-        "successful_registration": "Matagumpay ang pagpapatala!"
+        "successful_registration": "Matagumpay ang pagpapatala!",
+        "welcome": "Welcome back!",
+        "subtitle": "I-sign-in sa Revolt",
+        "welcome2": "Kumusta!",
+        "subtitle2": "Gumawa ng account"
     },
     "permissions": {
         "server": {
@@ -652,6 +696,10 @@
             "ManageMessages": {
                 "d": "Pinapayagan ang mga miyembro na tanggalin ang mga message ng ibang tao.",
                 "t": "Makapagmanage ng messages"
+            },
+            "Masquerade": {
+                "d": "Pinapagana ang mga member na baguhin ang kanilang pangalan at avatar sa bawat mensahe.",
+                "t": "Magbalatkayo"
             }
         }
     },
