@@ -230,7 +230,7 @@
                         "information": "Informação",
                         "badges": "Insígnias"
                     },
-                    "no_servers": "Não têm servidores em comum!",
+                    "no_servers": "Não têm servidores em comum",
                     "no_groups": "Não têm grupos em comum!",
                     "no_users": "Não têm amigos em comum!",
                     "empty": "Isto aqui está um pouco vazio…",
@@ -370,7 +370,8 @@
                     "token": "Token",
                     "add": "Adicionar robô",
                     "copy_invite": "Copiar link de convite",
-                    "unique_id": "Este é um identificador único para o teu robô. Não é o token do robô."
+                    "unique_id": "Este é um identificador único para o teu robô. Não é o token do robô.",
+                    "profile": "Perfil de bot"
                 },
                 "source_code": "Código-fonte",
                 "donate": {
@@ -391,7 +392,8 @@
                         "appearance": "Isto irá sincronizar opções como estilos de emoji e a densidade de mensagens."
                     },
                     "categories": "Categorias de sincronização",
-                    "title": "Sincronização"
+                    "title": "Sincronização",
+                    "options": "Opções de sincronização"
                 },
                 "language": {
                     "other": "Outras opções de idioma",
@@ -443,7 +445,16 @@
                     },
                     "theme": "Tema",
                     "title": "Aparência",
-                    "message_display": "Exibição das mensagens"
+                    "message_display": "Exibição das mensagens",
+                    "theme_options": {
+                        "title": "Opções de Temas",
+                        "follow": "Seguir tema do sistema",
+                        "follow_desc": "Quando está marcado, você não poderá alterar o tema ou usar um tema personalizado.",
+                        "seasonal": "Tema Sazonal",
+                        "seasonal_desc": "Exibe efeitos na guia inicial durante as temporadas de férias.",
+                        "transparency": "Efeitos de transparência",
+                        "transparency_desc": "Habilite efeitos de transparência em todo o aplicativo."
+                    }
                 },
                 "audio": {
                     "output_device": "Colunas / Auscultadores",
@@ -504,8 +515,16 @@
                     "by": "por",
                     "category": {
                         "saved": "Salvo",
-                        "viewall": "Ver tudo"
-                    }
+                        "viewall": "Ver tudo",
+                        "manage": "Gerenciar salvo",
+                        "new": "Novo esta semana",
+                        "default": "Temas padrão",
+                        "highest": "Melhor classificação"
+                    },
+                    "search": "Encontre tópicos...",
+                    "active": "Atualmente ativo",
+                    "description": "Explore centenas de temas, criados e selecionados pela comunidade.",
+                    "use": "Usar tema"
                 }
             },
             "actions": {
@@ -554,6 +573,9 @@
                     "description": "Descrição do canal",
                     "name": "Nome do servidor",
                     "title": "Visão geral"
+                },
+                "management": {
+                    "title": "Gestão de usuário"
                 }
             },
             "channel_pages": {
@@ -622,7 +644,9 @@
                     "failed_load": "Não foi possível carregar a mensagem.",
                     "spoiler_attachment": "Spoiler",
                     "jump_present": "Saltar para o presente",
-                    "viewing_old": "Estás a ver mensagens antigas"
+                    "viewing_old": "Estás a ver mensagens antigas",
+                    "jump_beginning": "Pule para o começo",
+                    "new_messages": "Novas mensagens desde {{time_ago}}"
                 },
                 "voice": {
                     "unmute": "Não silenciar",
@@ -692,7 +716,8 @@
             "settings": "Abrir definições",
             "social": "Encontrar servidores & robôs",
             "goto-testers": "Ir para o servidor de testadores",
-            "donate": "Doar ao Revolt"
+            "donate": "Doar ao Revolt",
+            "directs": "Mensagens Diretas"
         }
     },
     "login": {
@@ -706,11 +731,11 @@
         "open_mail_provider": "Abrir {{provider}}",
         "check_spam": "Por favor, verifica a tua pasta de spam caso não a encontres",
         "email_delay": "Por favor, aguarda até 10 minutos para que a mensagem chegue.",
-        "check_mail": "Verifica o teu e-mail.",
+        "check_mail": "Verifica o teu e-mail!",
         "cancel": "Cancelar pedido",
-        "resend": "Reenviar verificação.",
+        "resend": "Reenviar verificação",
         "missing_verification": "Não recebeste um e-mail?",
-        "create": "Cria uma nova conta.",
+        "create": "Criar uma nova conta",
         "existing": "Já tens uma conta?",
         "new": "Novo(a) no Revolt?",
         "remembered": "Voltar para o início de sessão",
@@ -731,7 +756,10 @@
         "username": "Nome de utilizador",
         "register": "Registar",
         "title": "Iniciar Sessão",
-        "welcome2": "Olá!"
+        "welcome2": "Olá!",
+        "subtitle2": "Criar uma conta",
+        "welcome": "Bem vindo de volta!",
+        "subtitle": "Entrar em Revolt"
     },
     "general": {
         "unavailable": "Indisponível",
