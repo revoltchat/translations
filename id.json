@@ -159,8 +159,16 @@
                     "search": "Cari tema...",
                     "description": "Jelajahi ratusan tema, dibuat dan dikurasi oleh komunitas.",
                     "category": {
-                        "saved": "Disimpan"
-                    }
+                        "saved": "Disimpan",
+                        "manage": "Kelola tersimpan",
+                        "new": "Baru minggu ini",
+                        "default": "Tema bawaan",
+                        "highest": "Penilaian tertinggi",
+                        "viewall": "Lihat semua"
+                    },
+                    "active": "Saat ini aktif",
+                    "by": "oleh",
+                    "use": "Gunakan tema"
                 }
             },
             "actions": {
@@ -212,6 +220,9 @@
                     "name": "Nama Server",
                     "description": "Deskripsi Saluran",
                     "title": "Ikhtisar"
+                },
+                "management": {
+                    "title": "Manajemen Pengguna"
                 }
             },
             "permissions": {
@@ -258,7 +269,7 @@
                     "sent_file": "Mengirim sebuah lampiran",
                     "sent_multiple_files": "Mengirim banyak lampiran",
                     "jump_beginning": "Kembali ke awal",
-                    "new_messages": "Pesan baru sejak"
+                    "new_messages": "Pesan baru sejak {{time_ago}}"
                 },
                 "voice": {
                     "unmute": "Suarakan",
@@ -436,7 +447,7 @@
                 "external_links": {
                     "title": "Tautan external bisa saja berbahaya!",
                     "trust_domain": "Percaya domain ini",
-                    "short": "Anda pergi ke tautan ini:"
+                    "short": "Apakah Anda yakin ingin pergi ke:"
                 },
                 "clipboard": {
                     "https": "Anda saat ini tidak berada dalam konteks HTTPS.",
@@ -462,15 +473,17 @@
                         "connections": "Koneksi"
                     },
                     "empty": "Disini agak kosong…",
-                    "no_servers": "Tidak ada server bersama!",
+                    "no_servers": "Tidak ada server mutual",
                     "badges": {
                         "responsible_disclosure": "Bug yang Diungkapkan Secara Bertanggung Jawab",
                         "early_adopter": "Pengadopsi Awal",
                         "supporter": "Pendukung",
-                        "translator": "Penerjemah"
+                        "translator": "Penerjemah",
+                        "moderation": "Moderasi Platform",
+                        "founder": "Pendiri"
                     },
-                    "no_users": "Tidak ada teman bersama!",
-                    "no_groups": "Tidak ada grup bersama!",
+                    "no_users": "Tidak ada teman mutual",
+                    "no_groups": "Tidak ada grup mutual",
                     "mutual_friends": "Teman Bersama",
                     "mutual_groups": "Grup Bersama",
                     "mutual_servers": "Server Bersama"
@@ -556,7 +569,8 @@
             "donate": "Donasi kepada Revolt",
             "feedback": "Beri masukan untuk Revolt",
             "settings": "Buka pengaturan",
-            "social": "Cari server & bot"
+            "social": "Cari server & bot",
+            "directs": "Pesan Langsung"
         }
     },
     "login": {
@@ -690,7 +704,8 @@
                 "d": "Memungkinkan anggota untuk bergabung dengan saluran suara."
             },
             "Masquerade": {
-                "d": "Izinkan anggota untuk mengubah nama dan gambar profil mereka per pesan."
+                "d": "Izinkan anggota untuk mengubah nama dan gambar profil mereka per pesan.",
+                "t": "Penyamaran"
             }
         },
         "server": {
