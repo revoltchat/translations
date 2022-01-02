@@ -44,6 +44,9 @@
                     "description": "チャンネルの説明",
                     "name": "サーバー名",
                     "title": "概要"
+                },
+                "management": {
+                    "title": "ユーザー管理"
                 }
             },
             "channel_pages": {
@@ -79,7 +82,8 @@
                     "public_bot_desc": "他のユーザーが、このボットを招待することができるかどうか。",
                     "interactions_url": "相互作用URL",
                     "reserved": "注：このフィールドは将来のために確保されています。",
-                    "unique_id": "これは、あなたのボットに固有の識別子です。ボットのトークンではありません。"
+                    "unique_id": "これは、あなたのボットに固有の識別子です。ボットのトークンではありません。",
+                    "profile": "ボットプロフィール"
                 },
                 "source_code": "ソースコード",
                 "donate": {
@@ -100,7 +104,8 @@
                         "appearance": "これにより、絵文字パックやメッセージ密度などのオプションが同期されます。"
                     },
                     "categories": "カテゴリーの同期",
-                    "title": "同期"
+                    "title": "同期",
+                    "options": "同期設定"
                 },
                 "language": {
                     "other": "その他の言語オプション",
@@ -126,7 +131,7 @@
                     "enable_desktop": "デスクトップ通知を有効にする。"
                 },
                 "appearance": {
-                    "ligatures_desc": "いくつかのフォントでは合字がサポートされています。例えば、「->」が「→」のように表示されます。このオプションを切り替えて試してみてください。",
+                    "ligatures_desc": "いくつかのフォントでは合字がサポートされています。例えば、 「-> 」が 「→ 」のように表示されます。",
                     "ligatures": "フォント合字",
                     "mono_font": "等幅フォントセレクター",
                     "font": "フォント",
@@ -152,7 +157,11 @@
                         "default": "デフォルト"
                     },
                     "theme": "テーマ",
-                    "title": "外観"
+                    "title": "外観",
+                    "theme_options": {
+                        "title": "テーマ設定",
+                        "follow": "システムテーマを使用する"
+                    }
                 },
                 "audio": {
                     "output_device": "スピーカー/ヘッドセット",
@@ -192,14 +201,22 @@
                         "remove_auth": "Authenticatorの削除",
                         "add_auth": "Authenticatorの追加",
                         "description": "あなたのアカウントで二要素認証を有効にすることで、さらにセキュリティを高めることができます。",
-                        "title": "二要素認証"
+                        "title": "2段階認証"
                     },
                     "unique_id": "これは、あなたのアカウントに固有のユーザー識別子です。",
                     "change_field": "変更",
                     "title": "自分のアカウント"
                 },
                 "theme_shop": {
-                    "title": "テーマショップ"
+                    "title": "テーマショップ",
+                    "by": "",
+                    "search": "テーマを検索",
+                    "category": {
+                        "saved": "保存したテーマ",
+                        "default": "デフォルトテーマ",
+                        "manage": "保存したテーマを管理する"
+                    },
+                    "use": "テーマを使用する"
                 }
             },
             "actions": {
@@ -274,8 +291,10 @@
                     "no_sending": "このチャンネルでメッセージを送信する権限がありません。",
                     "failed_load": "メッセージを読み込めませんでした。",
                     "spoiler_attachment": "ネタバレ",
-                    "jump_present": "最新のメッセージへ移動",
-                    "viewing_old": "古いメッセージを表示しています"
+                    "jump_present": "最新のメッセージへ",
+                    "viewing_old": "古いメッセージを表示しています",
+                    "jump_beginning": "既読にする",
+                    "new_messages": "{{time_ago}}から新着メッセージ"
                 },
                 "voice": {
                     "unmute": "ミュートを解除",
@@ -426,15 +445,17 @@
                         "translator": "翻訳者",
                         "supporter": "サポーター",
                         "responsible_disclosure": "バグハンター",
-                        "early_adopter": "アーリーアダプター"
+                        "early_adopter": "アーリーアダプター",
+                        "founder": "元祖",
+                        "moderation": "プラットフォームの管理"
                     },
                     "profile": "プロフィール",
                     "mutual_friends": "共通の友人",
                     "mutual_groups": "共通のグループ",
                     "mutual_servers": "共通のサーバー",
-                    "no_users": "共通の友人がいません！",
-                    "no_groups": "共通のグループがありません！",
-                    "no_servers": "共通のサーバーがありません！",
+                    "no_users": "共通の友人がいません",
+                    "no_groups": "共通のグループがありません",
+                    "no_servers": "共通のサーバーがありません",
                     "sub": {
                         "badges": "バッジ",
                         "information": "インフォメーション",
@@ -538,7 +559,8 @@
             "donate": "Revoltに寄付します",
             "join-testers": "テスターのサーバーに参加する",
             "settings-tooltip": "また、左上のユーザーアイコンを右クリックするか、すでにホームにいる場合は左クリックすることもできます。",
-            "feedback": "Revoltに関するフィードバックを提供する"
+            "feedback": "Revoltに関するフィードバックを提供する",
+            "directs": "ダイレクトメッセージ"
         }
     },
     "login": {
@@ -553,15 +575,15 @@
         "check_spam": "見つからない場合は、迷惑メールフォルダーをご確認ください",
         "email_delay": "メールを受信するまで10分程度かかる場合があります。",
         "check_mail": "メールをチェックしてください。",
-        "cancel": "ログインをキャンセルする。",
-        "resend": "認証コードを再送信する。",
+        "cancel": "ログインをキャンセルする",
+        "resend": "認証コードを再送信する",
         "missing_verification": "メールが届きませんでしたか？",
-        "create": "新しいアカウントを作成する。",
+        "create": "新しいアカウントを作成する",
         "existing": "既にアカウントをお持ちですか？",
         "new": "Revoltを利用するのは初めてですか？",
-        "remembered": "ログイン画面に戻る。",
-        "set_password": "新しいパスワードを設定しましょう。",
-        "reset": "パスワードをリセットする。",
+        "remembered": "ログイン画面に戻る",
+        "set_password": "新しいパスワードを設定する",
+        "reset": "パスワードをリセットする",
         "forgot": "パスワードをお忘れですか？",
         "enter": {
             "current_password": "現在のパスワードを入力してください。",
@@ -576,7 +598,11 @@
         "email": "メールアドレス",
         "username": "ユーザー名",
         "register": "登録",
-        "title": "ログイン"
+        "title": "ログイン",
+        "subtitle": "Revoltへ",
+        "welcome": "おかえり!",
+        "subtitle2": "アカウントを作成",
+        "welcome2": "こんにちは！"
     },
     "general": {
         "unavailable": "利用不可",
