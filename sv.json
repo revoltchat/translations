@@ -23,16 +23,16 @@
         },
         "forgot": "Glömt ditt lösenord?",
         "new": "Ny till Revolt?",
-        "create": "Skapa ett nytt konto.",
-        "cancel": "Avbryt.",
+        "create": "Skapa ett nytt konto",
+        "cancel": "Avbryt",
         "existing": "Har du redan ett konto?",
-        "remembered": "Tillbaka till inloggningssidan.",
-        "reset": "Återställ lösenord.",
+        "remembered": "Tillbaka till inloggningssidan",
+        "reset": "Återställ lösenord",
         "username": "Användarnamn",
         "register": "Registrera",
         "successful_registration": "Du har registrerat dig!",
         "open_mail_provider": "Öppna {{provider}}",
-        "check_mail": "Kolla din e-post.",
+        "check_mail": "Kolla din e-post!",
         "missing_verification": "Fick ni inget e-postmeddelande?",
         "error": {
             "resend": "Kunde inte återsända!",
@@ -41,11 +41,15 @@
             "create": "Misslyckades att registrera!"
         },
         "check_spam": "Kontrollera skräppost om du inte hittar det",
-        "resend": "Återsänd verifikationen.",
-        "set_password": "Ange nytt lösenord.",
+        "resend": "Skicka verifiering igen",
+        "set_password": "Ange nytt lösenord",
         "current_password": "Nuvarande Lösenord",
         "invite": "Inbjudningskod",
-        "email_delay": "Tillåt upp till 10 minuter för det att anlända."
+        "email_delay": "Tillåt upp till 10 minuter för det att anlända.",
+        "welcome2": "Hej!",
+        "subtitle2": "Skapa ett konto",
+        "welcome": "Välkommen tillbaka!",
+        "subtitle": "Logga in till Revolt"
     },
     "app": {
         "main": {
@@ -89,7 +93,9 @@
                     "failed_load": "Kunde inte ladda in meddelande.",
                     "blocked_messages": "{{count}} blockerade meddelanden",
                     "sent_file": "Laddade upp bilagan",
-                    "sent_multiple_files": "Laddade upp bilagorna"
+                    "sent_multiple_files": "Laddade upp bilagorna",
+                    "jump_beginning": "Gå till början",
+                    "new_messages": "Nya meddelanden sedan {{time_ago}}"
                 },
                 "voice": {
                     "unmute": "Sluta tysta",
@@ -480,7 +486,8 @@
                         "appearance": "Detta kommer att synkronisera alternativ som emoji -paket och meddelandetäthet.",
                         "theme": "Detta synkroniserar ditt valda tema, färger och anpassad CSS.",
                         "locale": "Detta kommer att synkronisera det språk du väljer just nu."
-                    }
+                    },
+                    "options": "Synkroniseringsalternativ"
                 },
                 "experiments": {
                     "not_available": "Inga experiment är tillgängliga just nu.",
@@ -512,10 +519,15 @@
                     "create_bot": "Skapa en Bot",
                     "add": "Lägg till Bot",
                     "interactions_url": "Interaktions-URL",
-                    "unique_id": "Detta är en unik identifierare för din bot. Detta är inte botens token."
+                    "unique_id": "Detta är en unik identifierare för din bot. Detta är inte botens token.",
+                    "profile": "Botprofil"
                 },
                 "theme_shop": {
-                    "title": "Temabutik"
+                    "title": "Temabutik",
+                    "category": {
+                        "saved": "Sparad",
+                        "new": "Nytt denna veckan"
+                    }
                 }
             },
             "categories": {
@@ -600,8 +612,9 @@
             "settings-tooltip": "Du kan också högerklicka på användarikonen uppe till vänster, eller vänsterklicka om du redan är på hem-menyn.",
             "goto-testers": "Gå till vår testserver",
             "donate": "Donera till Revolt",
-            "settings": "Inställningar",
-            "social": "Hitta servrar & bottar"
+            "settings": "Öppna inställningar",
+            "social": "Hitta servrar & bottar",
+            "directs": "Direktmeddelanden"
         }
     },
     "dayjs": {
