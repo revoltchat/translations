@@ -26,16 +26,16 @@
             "current_password": "Enter your current password."
         },
         "forgot": "Forgot your password?",
-        "reset": "Reset password.",
-        "set_password": "Set new password.",
-        "remembered": "Go back to login.",
+        "reset": "Reset password",
+        "set_password": "Set new password",
+        "remembered": "Go back to login",
         "new": "New to Revolt?",
         "existing": "Already have an account?",
-        "create": "Create a new account.",
-        "missing_verification": "Missing email",
-        "resend": "Resend verification.",
-        "cancel": "Cancel request.",
-        "check_mail": "Check your mail.",
+        "create": "Create a new account",
+        "missing_verification": "Didn't receive an email?",
+        "resend": "Resend verification",
+        "cancel": "Cancel request",
+        "check_mail": "Check your mail!",
         "email_delay": "Please allow up to 10 minutes for it to arrive.",
         "check_spam": "Please check spam if you can't find it",
         "open_mail_provider": "Open {{provider}}",
@@ -45,7 +45,11 @@
             "login": "Failed to login!",
             "reset": "Failed to reset!",
             "resend": "Failed to resend!"
-        }
+        },
+        "welcome2": "Hello!",
+        "subtitle2": "Create an account",
+        "welcome": "Welcome back!",
+        "subtitle": "Sign into Revolt"
     },
     "app": {
         "status": {
@@ -114,7 +118,8 @@
                     "blocked_messages": "{{count}} blocked messages",
                     "blocked_user": "Blocked User",
                     "sent_file": "Sent an attachment",
-                    "sent_multiple_files": "Sent multiple attachments"
+                    "sent_multiple_files": "Sent multiple attachments",
+                    "new_messages": "New messages since {{time_ago}}"
                 },
                 "nsfw": {
                     "channel": {
@@ -250,7 +255,16 @@
                     "font": "Font",
                     "mono_font": "Monospace Font Selector",
                     "ligatures": "Font Ligatures",
-                    "ligatures_desc": "For supported fonts, ligatures combine characters together, for example, turning -> into an arrow."
+                    "ligatures_desc": "For supported fonts, ligatures combine characters together, for example, turning -> into an arrow.",
+                    "theme_options": {
+                        "title": "Theme Options",
+                        "follow_desc": "When checked, you won’t be able to change your theme or use a custom one.",
+                        "seasonal": "Seasonal Theme",
+                        "follow": "Follow system theme",
+                        "transparency": "Transparency Effects",
+                        "transparency_desc": "Enables transparency effects (like frosted glass) throughout the app.",
+                        "seasonal_desc": "Displays effects in the home tab during holiday seasons."
+                    }
                 },
                 "notifications": {
                     "title": "Notifications",
@@ -282,7 +296,8 @@
                         "appearance": "This will sync options such as emoji packs and message density.",
                         "theme": "This will sync your chosen theme, colors and any custom CSS.",
                         "locale": "This will sync your currently chosen language."
-                    }
+                    },
+                    "options": "Sync Options"
                 },
                 "native": {
                     "title": "Desktop Settings"
@@ -308,7 +323,8 @@
                     "public_bot_desc": "Whether to allow other users to invite this bot.",
                     "interactions_url": "Interactions URL",
                     "reserved": "Note: This field is reserved for the future.",
-                    "unique_id": "This is a unique identifier for your bot. This is not the bot's token."
+                    "unique_id": "This is a unique identifier for your bot. This is not the bot's token.",
+                    "profile": "Bot Profile"
                 },
                 "feedback": {
                     "title": "Feedback",
@@ -321,7 +337,20 @@
                 },
                 "logOut": "Log Out",
                 "theme_shop": {
-                    "title": "Theme Shop"
+                    "title": "Theme Shop",
+                    "category": {
+                        "highest": "Highest rated",
+                        "viewall": "View all",
+                        "manage": "Manage saved",
+                        "new": "New this week",
+                        "default": "Default themes",
+                        "saved": "Saved"
+                    },
+                    "active": "Currently active",
+                    "description": "Browse hundreds of themes, created and curated by the community.",
+                    "search": "Search themes…",
+                    "use": "Use theme",
+                    "by": "by"
                 }
             },
             "channel_pages": {
@@ -363,6 +392,9 @@
                 },
                 "categories": {
                     "title": "Categories"
+                },
+                "management": {
+                    "title": "User Management"
                 }
             },
             "tips": {
@@ -450,7 +482,7 @@
                 },
                 "external_links": {
                     "title": "External links can be dangerous!",
-                    "short": "You are going to this link:",
+                    "short": "Are you sure you want to visit:",
                     "trust_domain": "Trust this domain"
                 },
                 "actions": {
@@ -495,7 +527,9 @@
                         "translator": "Translator",
                         "supporter": "Supporter",
                         "responsible_disclosure": "Responsibly Disclosed Bug(s)",
-                        "early_adopter": "Early Adopter"
+                        "early_adopter": "Early Adopter",
+                        "moderation": "Platform Moderation",
+                        "founder": "Founder"
                     }
                 },
                 "user_picker": {
@@ -587,7 +621,8 @@
             "feedback": "Give feedback on Revolt",
             "settings": "Open settings",
             "settings-tooltip": "You can also right-click the user icon in the top left, or left click it if you're already home.",
-            "social": "Find servers & bots"
+            "social": "Find servers & bots",
+            "directs": "Direct Messages"
         }
     },
     "quantities": {
