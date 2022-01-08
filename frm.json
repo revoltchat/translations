@@ -4,8 +4,8 @@
         "reset": "Réinitialiser le mot de passe",
         "set_password": "Definir un nouveau mot de passe",
         "new": "Nouveau dans Revolt?",
-        "create": "Créer un nouveau compte.",
-        "cancel": "Demande d'annulation.",
+        "create": "Créer un nouveau compte",
+        "cancel": "Demande d'annulation",
         "email_delay": "Veuillez prévoir jusqu'à 10 minutes pour qu'il arrive.",
         "check_spam": "Veuillez vérifier les spams si vous ne le trouvez pas",
         "open_mail_provider": "Ouvrir {{provider}}",
@@ -25,7 +25,7 @@
         },
         "remembered": "Revenez à la connexion",
         "existing": "Vous avez déjà un compte?",
-        "resend": "Renvoyer vérification.",
+        "resend": "Renvoyer la vérification",
         "check_mail": "Vérifier votre courrier!",
         "missing_verification": "Vous n'avez pas reçu d'e-mail ?",
         "register": "Enregister",
@@ -131,8 +131,8 @@
                 },
                 "unknown_user": "<Utilisateur inconnu>",
                 "message_where": "Message {{channel_name}}",
-                "message_who": "Message {{person}}",
-                "failed_upload": "Échec du téléchargement !",
+                "message_who": "Envoyer un message à {{person}}",
+                "failed_upload": "Échec du téléversement !",
                 "attached_file": "Pièce jointe {{filename}}",
                 "voice": {
                     "connected": "Voix connectée",
@@ -167,7 +167,7 @@
             "join-testers": "Rejoignez le serveur des testeurs",
             "goto-testers": "Aller sur le serveur des testeurs",
             "feedback": "Donnez votre avis sur Revolt",
-            "settings": "Ouvrir paramètres",
+            "settings": "Ouvrir les paramètres",
             "social": "Trouver des serveurs et des bots",
             "directs": "Messages Directs"
         },
@@ -216,7 +216,7 @@
                     "button_retry": "retenter",
                     "output_device": "Haut-parleur / Casque",
                     "input_device": "Microphone",
-                    "tip_retry": "Vous n'avez pas donné l'autorisation d'accéder à votre microphone, veuillez {{retryBtn}}",
+                    "tip_retry": "Vous n'avez pas donné l'autorisation d'accéder à votre microphone, veuillez {{retryBtn}}.",
                     "tip_grant_permission": "Vous devez accorder l'autorisation d'accéder aux paramètres audio.",
                     "button_grant": "Donner permission",
                     "title": "Paramètres de voix"
@@ -246,7 +246,20 @@
                     },
                     "advanced": "Options avancées",
                     "accent_selector": "Couleur d'accent",
-                    "emoji_pack": "Pack d'émojis"
+                    "emoji_pack": "Pack d'émojis",
+                    "import": "Importer un thème",
+                    "theme_data": "Données du thème",
+                    "import_theme": "Importer un thème depuis une chaîne de caractères"
+                },
+                "notifications": {
+                    "sounds": "Sons",
+                    "title": "Notifications",
+                    "descriptions": {
+                        "enable_desktop": "Ceci va vous envoyer des notifications quand cette application est ouverte."
+                    }
+                },
+                "language": {
+                    "title": "Langage"
                 }
             },
             "actions": {
@@ -255,6 +268,53 @@
                 "max_filesize": "(maximum {{filesize}})"
             },
             "title": "Réglages"
+        },
+        "context_menu": {
+            "unblock_user": "Débloquer l'utilisateur",
+            "remove_friend": "Retirer des amis",
+            "copy_text": "Copier le texte",
+            "copy_uid": "Copier l'ID de l'utilisateur",
+            "copy_mid": "Copier l'ID du message",
+            "copy_message_link": "Copier le lien du message",
+            "save_video": "Sauvegarder la vidéo",
+            "add_friend": "Ajouter en ami",
+            "open_notification_options": "Options de notifications",
+            "open_channel_settings": "Paramètres du salon",
+            "save_file": "Sauvegarder le fichier",
+            "copy_selection": "Copier la sélection",
+            "mention": "Mentionner",
+            "open_link": "Ouvrir le lien",
+            "cancel_friend": "Annuler la requête",
+            "close_dm": "Fermer les MP",
+            "leave_server": "Quitter le serveur",
+            "delete_server": "Supprimer le serveur",
+            "edit_identity": "Modifier l'identité",
+            "delete_channel": "Supprimer le salon",
+            "create_channel": "Créer un salon",
+            "create_category": "Créer une catégorie",
+            "copy_sid": "Copier l'ID du serveur",
+            "save_image": "Sauvegarder l'image",
+            "open_video": "Ouvrir la vidéo",
+            "copy_link": "Copier le lien",
+            "block_user": "Bloquer l'utilisateur",
+            "leave_group": "Quitter le groupe",
+            "create_invite": "Créer une invitation",
+            "open_server_settings": "Paramètres du serveur",
+            "open_group_settings": "Paramètres du groupe",
+            "open_file": "Ouvrir un fichier",
+            "open_image": "Ouvrir l'image",
+            "copy_id": "Copier l'identifiant",
+            "copy_cid": "Copier l'ID du salon",
+            "view_profile": "Voir le profil"
+        },
+        "special": {
+            "invite": {
+                "invalid": "Invitation invalide !",
+                "invalid_desc": "Cette invitation n'existe pas ou vous n'avez pas la permission de rejoindre."
+            }
+        },
+        "permissions": {
+            "required": "Permissions nécessaires"
         }
     },
     "general": {
@@ -273,7 +333,92 @@
             "Masquerade": {
                 "t": "Mascarade",
                 "d": "Permettre les membres à changer leur nom et leur avatar par message."
+            },
+            "SendMessage": {
+                "t": "Envoyer des messages",
+                "d": "Permettre aux membres d'envoyer des messages dans les salons textuels."
+            },
+            "View": {
+                "t": "Voir un salon"
+            },
+            "VoiceCall": {
+                "t": "Appel vocal",
+                "d": "Permettre aux membres de rejoindre les salons vocaux."
+            },
+            "ManageChannel": {
+                "d": "Permettre aux membres d'éditer ou de supprimer un salon.",
+                "t": "Gérer les salons"
+            },
+            "ManageMessages": {
+                "d": "Permettre aux membres de supprimer les messages envoyés par les autres membres.",
+                "t": "Gérer les messages"
+            },
+            "InviteOthers": {
+                "d": "Permettre aux membres d'inviter d'autres utilisateurs dans un salon."
+            },
+            "UploadFiles": {
+                "t": "Envoyer des fichiers"
             }
+        },
+        "server": {
+            "ManageNicknames": {
+                "t": "Gérer les surnoms",
+                "d": "Permettre de changer le surnom des autres membres."
+            },
+            "ChangeAvatar": {
+                "t": "Changer d'avatar"
+            },
+            "ManageChannels": {
+                "t": "Gérer les salons",
+                "d": "Permettre aux membres de créer, éditer et supprimer des salons."
+            },
+            "KickMembers": {
+                "t": "Expulser des membres"
+            },
+            "ManageServer": {
+                "t": "Gérer le serveur"
+            },
+            "ManageRoles": {
+                "t": "Gérer les rôles"
+            },
+            "BanMembers": {
+                "t": "Bannir des membres"
+            },
+            "ChangeNickname": {
+                "t": "Changer de surnom"
+            }
+        }
+    },
+    "notifications": {
+        "now_friends": "Vous êtes désormais ami avec @{{person}} !",
+        "sent_request": "@{{person}} vous a envoyé une demande d'ami."
+    },
+    "error": {
+        "NetworkError": "Erreur du réseau.",
+        "Unauthorized": "Non autorisé.",
+        "CompromisedPassword": "Ce mot de passe est compromis.",
+        "Unlabelled": "Quelque chose s'est produit.",
+        "MissingPermission": "Permission manquante.",
+        "UnknownError": "Voir la console.",
+        "OperationFailed": "Échec de l'opération.",
+        "FileTooLarge": "Le fichier est trop volumineux.",
+        "ReachedMaximumBots": "Vous avez atteint la limite maximale de bots.",
+        "DatabaseError": "Erreur de base de données.",
+        "InternalError": "Erreur interne."
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
+    },
+    "dayjs": {
+        "sameDay": "[Aujourd'hui à] {{time}}",
+        "lastDay": "[Hier à] {{time}}",
+        "nextDay": "[Demain à]{{time}}",
+        "lastWeek": "[Dernier] dddd [à] {{time}}"
+    },
+    "quantities": {
+        "members": {
+            "one": "1 Membre",
+            "many": "{{count}} Membres"
         }
     }
 }
