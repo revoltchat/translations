@@ -55,7 +55,8 @@
             "online": "Në linjë",
             "busy": "Mos shqetësoni",
             "invisible": "I padukshëm",
-            "offline": "jashtë linje"
+            "offline": "jashtë linje",
+            "idle": "خامل"
         },
         "navigation": {
             "tabs": {
@@ -73,7 +74,14 @@
             "feedback": "Jep r",
             "donate": "Dhuroji Revolt-it",
             "settings-tooltip": "Ju gjithashtu mund të klikoni me kursorin e djathtë ikonën e përdoruesit lart në të majtë, ose të klikoni me kursorin e majtë në qoftë se jeni në shtëpi.",
-            "directs": "mesazhe direkte"
+            "directs": "mesazhe direkte",
+            "join-testers_desc": "يمكنك الإبلاغ عن المشكلات ومناقشة التحسينات معنا مباشرةً هنا.",
+            "goto-testers_desc": "يمكنك الإبلاغ عن المشكلات ومناقشة التحسينات معنا مباشرةً هنا.",
+            "donate_desc": "ادعم المشروع بالتبرع - شكرا لك!",
+            "feedback_desc": "أخبرنا كيف يمكننا تحسين تطبيقنا من خلال تزويدنا بالتعليقات.",
+            "discover_desc": "ابحث عن مجتمع بناءً على هواياتك أو اهتماماتك.",
+            "group": "أنشئ مجموعة",
+            "group_desc": "قم بدعوة جميع أصدقائك ، وبعض الروبوتات الرائعة ، وإقامة حفلة كبيرة."
         },
         "main": {
             "categories": {
@@ -107,7 +115,9 @@
                 },
                 "voice": {
                     "connected": "Zëri u lidh",
-                    "leave": "Largohu"
+                    "leave": "Largohu",
+                    "mute": "صامت",
+                    "unmute": "إعادة الصوت"
                 },
                 "misc": {
                     "viewing_old": "Duke lexuar mesazhet e vjetra",
@@ -117,7 +127,9 @@
                     "sent_file": "Dërgo një bashkangjitje",
                     "sent_multiple_files": "Dërgo disa bashkangjitje",
                     "jump_beginning": "Shko në fillim",
-                    "no_sending": "Ju nuk kini leje për të dërguar mesazhe në këtë kanal."
+                    "no_sending": "Ju nuk kini leje për të dërguar mesazhe në këtë kanal.",
+                    "jump_present": "انتقل إلى العرض",
+                    "new_messages": "رسائل جديدة منذ ذلك الحين"
                 },
                 "nsfw": {
                     "channel": {
@@ -133,7 +145,8 @@
                     "default": "Përdor të parazgjedhurën",
                     "mention": "Vetëm përmendjet",
                     "none": "Asgjë",
-                    "all": "Të githa mesazhet"
+                    "all": "Të githa mesazhet",
+                    "muted": "كتم الصوت"
                 },
                 "search": {
                     "title": "Kërko",
@@ -148,7 +161,8 @@
                     "nochannel": "Pa kanal",
                     "title": "Oops, këtu nuk ka asgjë!"
                 },
-                "attached_file": "Bashkangjitur {{filename}}"
+                "attached_file": "Bashkangjitur {{filename}}",
+                "failed_upload": "فشل التحميل!"
             },
             "groups": {
                 "create": "Krijo një grup",
@@ -232,7 +246,8 @@
                     "display": {
                         "compact": "Kompakt",
                         "default_description": "E bukur, e hijshme dhe moderne.",
-                        "default": "E paracaktuar"
+                        "default": "E paracaktuar",
+                        "compact_description": "IRC قديم جيد."
                     },
                     "color": {
                         "light": "dritë",
@@ -258,7 +273,10 @@
                     "sync": "Opsionet e sinkronizimit",
                     "advanced": "Opsionet e avancuara",
                     "import": "Importo një temë",
-                    "ligatures_desc": "Për fontet e mbështetura, ligaturat kombinojnë karakteret së bashku, për shembull, duke e kthyer -> në një shigjetë."
+                    "ligatures_desc": "Për fontet e mbështetura, ligaturat kombinojnë karakteret së bashku, për shembull, duke e kthyer -> në një shigjetë.",
+                    "font": "الخط",
+                    "mono_font": "محدد الخط الأحادي المسافة",
+                    "ligatures": "وصلات الخط"
                 },
                 "notifications": {
                     "title": "Njoftimet",
@@ -272,7 +290,9 @@
                     },
                     "sound": {
                         "message": "mesazhi i marrë",
-                        "outbound": "Mesazhi u Dergua"
+                        "outbound": "Mesazhi u Dergua",
+                        "call_join": "انضم المستخدم إلى المكالمة",
+                        "call_leave": "غادر المستخدم المكالمة"
                     }
                 },
                 "language": {
@@ -280,7 +300,160 @@
                     "select": "Zgjidhni gjuhën tuaj",
                     "const": "Gjuhët e ndërtuara",
                     "other": "Opsione të tjera gjuhësore"
+                },
+                "native": {
+                    "title": "إعدادات سطح المكتب"
+                },
+                "experiments": {
+                    "features": "الميزات المتوفرة",
+                    "not_available": "لا توجد تجارب متاحة في هذا الوقت.",
+                    "title": "التجارب"
+                },
+                "bots": {
+                    "public_bot": "بوت عام",
+                    "profile": "الملف الشخصي بوت",
+                    "unique_id": "هذا معرف فريد لروبوتك. هذا ليس رمز الروبوت.",
+                    "title": "الروبوتات الخاصة بي",
+                    "copy_invite": "نسخ رابط الدعوة",
+                    "add": "أضف بوت",
+                    "reserved": "ملاحظة: هذا الحقل محجوز للمستقبل.",
+                    "interactions_url": "عنوان URL للتفاعلات",
+                    "token": "توكن",
+                    "public_bot_tip": "البوت عام. يمكن لأي شخص دعوتها.",
+                    "public_bot_desc": "ما إذا كان سيتم السماح للمستخدمين الآخرين بدعوة هذا الروبوت أم لا.",
+                    "create_bot": "قم بإنشاء بوت",
+                    "private_bot_tip": "البوت خاص. فقط يمكنك دعوتها."
+                },
+                "theme_shop": {
+                    "category": {
+                        "manage": "إدارة المحفوظة",
+                        "new": "جديد هذا الأسبوع",
+                        "default": "السمات الافتراضية",
+                        "highest": "أعلى تصنيف",
+                        "saved": "حفظ",
+                        "viewall": "مشاهدة الكل"
+                    },
+                    "use": "استخدم الموضوع",
+                    "by": "بواسطة",
+                    "title": "متجر الموضوع",
+                    "active": "نشط حاليا",
+                    "description": "تصفح مئات الموضوعات ، التي أنشأها ورعاها المجتمع.",
+                    "search": "سمات البحث ..."
+                },
+                "feedback": {
+                    "bug_desc": "عرض تقارير الشوائب النشطة حاليا هنا.",
+                    "suggest": "إرسال اقتراح الميزة",
+                    "suggest_desc": "اقترح ميزات Revolt جديدة في مناقشات GitHub.",
+                    "issue": "إنشاء عدد جديد",
+                    "issue_desc": "لمساعدتنا في فرز المشكلات بسهولة أكبر ، يمكنك إنشاء مشكلة على GitHub."
+                },
+                "logOut": "تسجيل خروج",
+                "sync": {
+                    "categories": "فئات المزامنة",
+                    "descriptions": {
+                        "appearance": "سيؤدي هذا إلى مزامنة الخيارات مثل حزم الرموز التعبيرية وكثافة الرسائل.",
+                        "theme": "سيؤدي هذا إلى مزامنة النسق الذي اخترته والألوان وأي CSS مخصصة.",
+                        "locale": "سيؤدي هذا إلى مزامنة لغتك المختارة حاليًا."
+                    },
+                    "options": "خيارات المزامنة",
+                    "title": "مزامنة"
+                },
+                "donate": {
+                    "title": "تبرع"
+                },
+                "source_code": "مفتوح المصدر"
+            },
+            "channel_pages": {
+                "permissions": {
+                    "title": "أذونات"
+                },
+                "overview": {
+                    "title": "ملخص",
+                    "name": "اسم القناة",
+                    "description": "قناة صفا"
                 }
+            },
+            "server_pages": {
+                "overview": {
+                    "name": "اسم السيرفر",
+                    "description": "قناة صفا",
+                    "system_messages": "قنوات رسائل النظام",
+                    "title": "ملخص"
+                },
+                "invites": {
+                    "channel": "قناة",
+                    "title": "يدعو",
+                    "code": "رقم الدعوة",
+                    "invitor": "داعي"
+                },
+                "bans": {
+                    "no_reason": "لا يوجد سبب للحظر.",
+                    "title": "حظر",
+                    "user": "مستخدم",
+                    "reason": "سبب الحظر"
+                },
+                "management": {
+                    "title": "إدارةالمستخدم"
+                },
+                "members": {
+                    "title": "أعضاء"
+                },
+                "categories": {
+                    "title": "التصنيفات"
+                },
+                "roles": {
+                    "title": "Roles"
+                }
+            },
+            "tips": {
+                "languages": {
+                    "a": "هل تفتقد اللغة التي تريدها؟",
+                    "b": "ساعد في المساهمة بمزيد من الترجمات."
+                },
+                "account": {
+                    "a": "تبحث لتخصيص ملفك الشخصي العام؟",
+                    "b": "توجه إلى إعدادات ملف التعريف الخاص بك."
+                },
+                "sessions": {
+                    "a": "إذا رأيت جلسة غير معروفة في القائمة ،",
+                    "b": "قم بتأمين حسابك عن طريق تغيير كلمة المرور الخاصة بك واستخدام المصادقة الثنائية (2FA)."
+                }
+            },
+            "permissions": {
+                "server": "أذونات الخادم",
+                "channel": "أذونات القناة",
+                "create_role": "أنشئ دورًا جديدًا",
+                "role_name": "اسم الدور"
+            }
+        },
+        "special": {
+            "modals": {
+                "error": "حدث خطأ!"
+            },
+            "friends": {
+                "outgoing": "طلب صداقة صادر.",
+                "pending": "الطلبات المعلقة",
+                "blocked": "محظور",
+                "nobody": "لا أحد هنا بعد!",
+                "from": {
+                    "single": "من",
+                    "multiple": "من {{userlist}} و {{user}}",
+                    "several": "من {{userlist}} و {{count}} أخرى…"
+                },
+                "sent": "منفتح",
+                "incoming": "طلب صداقة وارد."
+            },
+            "server-badges": {
+                "official": "الخادم الرسمي",
+                "verified": "تم التحقق من الخادم"
+            },
+            "copy_username": "انقر لنسخ اسم المستخدم",
+            "copy": "انقر للنسخ",
+            "status": {
+                "offline": "غير متصل على الانترنت.",
+                "disconnected": "انقطع الاتصال.",
+                "connecting": "توصيل…",
+                "reconnecting": "جارٍ إعادة الاتصال…"
             }
         }
     },
