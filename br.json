@@ -7,7 +7,7 @@
         "disabled": "Diweredekaet",
         "about": "A-zivout",
         "tos": "Divizoù Implijout",
-        "unavailable": "N'eo ket da gaout."
+        "unavailable": "N'eo ket da gaout"
     },
     "login": {
         "title": "Kevreañ",
@@ -16,13 +16,17 @@
         "welcome2": "Salud dit !",
         "subtitle2": "Krouiñ ur gont",
         "register": "En em enskrivañ",
-        "new": "Nevez war Revolt ?",
+        "new": "Implijer nevez war Revolt ?",
         "resend": "Adkas ar gwiriadur",
         "cancel": "Nullañ ar goulenn",
         "username": "Anv Implijer",
         "subtitle": "Kevreañ ouzh Revolt",
         "create": "Krouiñ ur gont nevez",
-        "check_mail": "Sell ouzh ho postel !"
+        "check_mail": "Sell ouzh ho postel !",
+        "invite": "Boneg-pediñ",
+        "enter": {
+            "invite": "Roit ho boneg-pediñ."
+        }
     },
     "app": {
         "status": {
@@ -42,12 +46,13 @@
             }
         },
         "home": {
-            "donate": "Reiñ da Revolt",
+            "donate": "Ober ur roadenn da Revolt",
             "donate_desc": "Skorañ ar raktres gant reiñ - trugarez !",
             "discover": "Dizoleiñ Revolt",
             "feedback": "Grit un evezhiadenn diwar-benn Revolt",
             "group": "Krouiñ ur strollad",
-            "settings": "Digeriñ an arventennoù"
+            "settings": "Digeriñ an arventennoù",
+            "group_desc": "Pedit ho mignoned, ur re bennak robotoù, ha bec'h d'ar fest !"
         },
         "main": {
             "categories": {
@@ -130,6 +135,35 @@
                     "display": {
                         "default": "Dre ziouer"
                     }
+                },
+                "bots": {
+                    "copy_invite": "Eilañ al Liamm-pediñ"
+                }
+            },
+            "server_pages": {
+                "overview": {
+                    "description": "Deskrivadur ar c'hanol"
+                },
+                "invites": {
+                    "code": "Boneg-pediñ",
+                    "invitor": "Pediñ",
+                    "revoke": "Terriñ",
+                    "title": "Pedadennoù",
+                    "channel": "Kanol"
+                },
+                "roles": {
+                    "title": "Perzhioù"
+                }
+            },
+            "permissions": {
+                "create_role": "Krouiñ ur perzh nevez",
+                "default_role": "Dre ziouer",
+                "role_name": "Anv ar perzh"
+            },
+            "channel_pages": {
+                "overview": {
+                    "description": "Deskrivadur ar c'hanol",
+                    "name": "Anv ar c'hanol"
                 }
             }
         },
@@ -140,7 +174,23 @@
                         "information": "Titouroù"
                     }
                 }
+            },
+            "modals": {
+                "prompt": {
+                    "create_invite_created": "Setu ho boneg-pediñ nevez :",
+                    "create_invite_generate": "O gan ur pedadenn…"
+                }
+            },
+            "invite": {
+                "login": "Kevreañ ouzh Revolt",
+                "invalid": "Direizh eo ar bedadenn !",
+                "invited_by": "Pedet gant {{user}}",
+                "accept": "Degemer ur bedadenn",
+                "user_count": "{{member_count}} implijerien"
             }
+        },
+        "context_menu": {
+            "create_invite": "Krouiñ ur bedadenn"
         }
     },
     "error": {
@@ -149,6 +199,19 @@
         "TooLong": "Re hir",
         "FileTooLarge": "Re vras eo ar restr.",
         "TooShort": "Berr",
-        "Unavailable": "N'eo ket da gaout."
+        "Unavailable": "N'eo ket da gaout.",
+        "InvalidInvite": "Direizh eo ar boneg"
+    },
+    "permissions": {
+        "server": {
+            "ManageRoles": {
+                "t": "Merañ ar perzhioù"
+            }
+        },
+        "channel": {
+            "InviteOthers": {
+                "t": "Pediñ tud all"
+            }
+        }
     }
 }
