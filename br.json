@@ -99,7 +99,11 @@
                 },
                 "edited": "(kemmet)",
                 "search": {
-                    "title": "Enklask"
+                    "title": "Enklask",
+                    "sort": {
+                        "latest": "Hini diwezhañ",
+                        "oldest": "Hini koshañ"
+                    }
                 },
                 "message_where": "Kemenn e {{channel_name}}",
                 "failed_upload": "Ezkarg dic'hallus !",
@@ -120,7 +124,41 @@
                 "voice": {
                     "connected": "Mouezh kevreet",
                     "leave": "Kuitaat",
-                    "mute": "Mut"
+                    "mute": "Mut",
+                    "unmute": "Elumiñ ar vouezh"
+                },
+                "misc": {
+                    "viewing_old": "O sell ouzh kemennadoù kozh",
+                    "jump_present": "Mont d'an amzer-vremañ",
+                    "jump_beginning": "Mont d'an deraouenn",
+                    "new_messages": "Kemennadoù nevez abaoe {{time_ago}}",
+                    "spoiler_attachment": "Diskuliadur",
+                    "failed_load": "N'eo ket posupl kargañ ar c'hemennad.",
+                    "blocked_messages": "{{count}} kemennadoù berzet",
+                    "blocked_user": "Implijer Berzet",
+                    "sent_file": "Restr stag kaset",
+                    "sent_multiple_files": "Lies restroù stag kaset"
+                },
+                "nsfw": {
+                    "channel": {
+                        "marked": "Berzet eo ar c'hanol-mañ d'an minored.",
+                        "confirm": "Mont e-barzh ar c'hanol"
+                    },
+                    "confirm": "Kadarnaat on un den-a-dra (18 vloaz on da nebeutañ)."
+                },
+                "bot": "robot",
+                "unknown_user": "<Implijer Dianav>",
+                "notifications": {
+                    "default": "Dre ziouer",
+                    "all": "Kemennadoù holl",
+                    "mention": "Menegioù Hepken",
+                    "none": "Hini ebet",
+                    "muted": "Mut"
+                },
+                "errors": {
+                    "nochannels": "Er servijer-mañ n'eus kanol ebet, pe ne gallez ket gwelout hini ebet.",
+                    "title": "Hopala, n'eus netra amañ !",
+                    "nochannel": "Kanol ebet"
                 }
             },
             "groups": {
@@ -138,13 +176,16 @@
                 "category_name": "Anv ar rummad",
                 "channel_description": "Deskrivadur ar c'hanol",
                 "custom_banner": "Banniel personelaet",
-                "owner": "Perc'henn ar servijer"
+                "owner": "Perc'henn ar servijer",
+                "text_channel": "Kanol Skrid",
+                "voice_channel": "Kanol Komz"
             }
         },
         "settings": {
             "actions": {
                 "upload": "Ezkargañ",
-                "max_filesize": "({{filesize}} d'ar muiañ)"
+                "max_filesize": "({{filesize}} d'ar muiañ)",
+                "remove": "Lemel"
             },
             "pages": {
                 "account": {
@@ -154,7 +195,13 @@
                         "delete": "Dilemel ar Gont",
                         "title": "Merañ ar Gont"
                     },
-                    "change_field": "Cheñch"
+                    "change_field": "Cheñch",
+                    "2fa": {
+                        "title": "Dilesadur Dau-Reolennoù",
+                        "description": "Ouzhpennañ surentez gant aotren an Dilesadur Dau-Reolennoù war da gont.",
+                        "add_auth": "Ouzhpennañ ur Reolenn",
+                        "remove_auth": "Lemel ur Reolenn"
+                    }
                 },
                 "profile": {
                     "info": "Titouroù",
@@ -162,18 +209,24 @@
                     "profile_picture": "Skeudenn ar Profil",
                     "custom_background": "Drekleur personelaet",
                     "edit_background": "Cheñch an drekleur",
-                    "edit_profile": "Kemmañ ar Profil"
+                    "edit_profile": "Kemmañ ar Profil",
+                    "title": "Profil",
+                    "fetching": "O adtap da profil…"
                 },
                 "sessions": {
                     "this_device": "An ardivink-mañ",
-                    "created": "Krouet {{time_ago}}"
+                    "created": "Krouet {{time_ago}}",
+                    "title": "Estezioù",
+                    "active_sessions": "Estezioù oberiant",
+                    "logout": "Digevreañ diouzh an estezioù all"
                 },
                 "audio": {
                     "title": "Arventennoù mouezhel",
                     "input_device": "Soneuvrer",
                     "button_retry": "Esaeit en-dro",
                     "output_device": "Uhelgomzer / Selaouell",
-                    "device_label_NA": "Ne zegouezh ket"
+                    "device_label_NA": "Ne zegouezh ket",
+                    "button_grant": "Aotren"
                 },
                 "appearance": {
                     "title": "Neuz",
@@ -215,6 +268,11 @@
                     "description": "Deskrivadur ar c'hanol",
                     "name": "Anv ar c'hanol"
                 }
+            },
+            "title": "Arventennoù",
+            "categories": {
+                "user_settings": "Arventennoù Implijer",
+                "client_settings": "Arventennoù Arval"
             }
         },
         "special": {
@@ -229,7 +287,8 @@
                 "prompt": {
                     "create_invite_created": "Setu ho boneg-pediñ nevez :",
                     "create_invite_generate": "O gan ur pedadenn…"
-                }
+                },
+                "signed_out": "Te zo bet digevreet !"
             },
             "invite": {
                 "login": "Kevreañ ouzh Revolt",
@@ -250,7 +309,8 @@
         "FileTooLarge": "Re vras eo ar restr.",
         "TooShort": "Berr",
         "Unavailable": "N'eo ket da gaout.",
-        "InvalidInvite": "Direizh eo ar boneg"
+        "InvalidInvite": "Direizh eo ar boneg",
+        "InvalidSession": "Direizh eo an estez."
     },
     "permissions": {
         "server": {
