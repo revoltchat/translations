@@ -17,8 +17,12 @@ jobs:
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
-      - name: Run Files
-        run: deno run --allow-read --allow-write *.ts
+      - name: Bottomify translations
+        run: deno run --allow-read --allow-write bottomify.ts
+      - name: Convert to enchantment table
+        run: deno run --allow-read --allow-write enchantment.ts
+      - name: Convert to leet code
+        run: deno run --allow-read --allow-write leet.ts
       - name: Commit changes
         uses: EndBug/add-and-commit@v4
         with:
