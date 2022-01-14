@@ -35,7 +35,7 @@
         "resend": "ارسال مجدد تائیدیه.",
         "cancel": "لغو درخواست.",
         "check_mail": "ایمیل خود را چک کنید.",
-        "email_delay": "لطفا حداکثر 10 دقیقه فرصت دهید.",
+        "email_delay": "لطفا حداکثر 10 دقیقه فرصت دهید تا برسد.",
         "check_spam": "اگر پیدا نشد لطفا پوشه اسپم خود را برسی کنید",
         "open_mail_provider": "باز کردن {{provider}}",
         "successful_registration": "ثبت نام با موفقیت انجام شد!",
@@ -44,7 +44,12 @@
             "login": "ورود ناموفق بود!",
             "reset": "بازنشانی نشد!",
             "resend": "ارسال مجدد انجام نشد!"
-        }
+        },
+        "welcome": "خوش برگشتی",
+        "subtitle": "وارد شوید در ریولت",
+        "new": "تازه اومدی ریولت؟",
+        "welcome2": "سلام!",
+        "subtitle2": "یک حساب کاربری ایجاد کنید"
     },
     "app": {
         "status": {
@@ -67,7 +72,149 @@
             "join-testers": "به سرور آزمایش کنندگان بپیوندید",
             "goto-testers": "به سرور آزمایش کننده ها بروید",
             "donate": "به Revolt کمک مالی کنید",
-            "feedback": "درباره Revolt نظر بدهید"
+            "feedback": "درباره Revolt نظر بدهید",
+            "directs": "پیام مستقیم",
+            "settings": "باز کردن تنظیمات",
+            "settings-tooltip": ".همچنین می‌توانید بر روی آیکون کاربر در بالای چپ کلیک کنید، یا اگر در حال حاضر خانه هستید، روی آن کلیک کنید",
+            "group_desc": "همه دوستات رو دعوت کن. و یه مهمونی بزرگ راه بنداز",
+            "join-testers_desc": ".شما می توانید مشکلات را گزارش دهید و در مورد بهبودها مستقیماً در اینجا با ما صحبت کنید",
+            "goto-testers_desc": ".شما می توانید مشکلات را گزارش دهید و در مورد بهبودها مستقیماً در اینجا با ما صحبت کنید",
+            "donate_desc": "!با کمک مالی از پروژه حمایت کنید - ممنون",
+            "feedback_desc": ".بیایید بدانیم که چگونه می‌توانیم با ارایه نظر بتوانیم بهتر شویم",
+            "discover": ".ریولت را کشف کن",
+            "discover_desc": ".یک گروه را براساس علایق خود پیدا کنید",
+            "group": "ایجاد  گروه"
+        },
+        "main": {
+            "channel": {
+                "misc": {
+                    "failed_load": ".پیام بارگیری نشد",
+                    "viewing_old": "نمایش پیام‌های قدیمیتر",
+                    "spoiler_attachment": "مخفی کردن",
+                    "no_sending": ".شما اجازه ارسال پیغام در این کانال را ندارید",
+                    "blocked_messages": "پیام های مسدود شده {{count}}",
+                    "blocked_user": "کاربر مسدود شده",
+                    "new_messages": "{{time_ago}} اخرین پیام جدید"
+                },
+                "typing": {
+                    "multiple": "...درحال نوشتن {{user}} و {{userlist}}",
+                    "several": "…چند نفر در حال تایپ کردن هستند",
+                    "single": "…در حال تایپ کردن {{user}}"
+                },
+                "notifications": {
+                    "none": "هیچ‌کدام",
+                    "muted": "لال شده",
+                    "default": "استفاده به طور پیش فرض",
+                    "all": "همه پیغام‌ها"
+                },
+                "search": {
+                    "title": "جستجو",
+                    "sort": {
+                        "relevance": "ارتباط",
+                        "latest": "آخرین",
+                        "oldest": "قدیمی ترین"
+                    }
+                },
+                "system": {
+                    "user_joined": "ملحق شد {{user}}",
+                    "user_banned": "بن شد  {{user}}",
+                    "added_by": "{{other_user}} اضافه شد توسط  {{user}}",
+                    "removed_by": "{{other_user}} حذف شد توسط {{user}}",
+                    "channel_description_changed": "توضیحات کانال را تغییر داد {{user}}",
+                    "user_kicked": "بیرون انداخته شد {{user}}",
+                    "channel_icon_changed": "آیکون کانال را تغییر داد {{user}}",
+                    "channel_renamed": "{{name}} اسم کانال را عوض کرد به {{user}}",
+                    "user_left": "ترک کرد {{user}}"
+                },
+                "errors": {
+                    "nochannels": ".این سرور هیچ کانالی ندارد یا شما به هیچ کانالی دسترسی ندارید",
+                    "nochannel": "هیچ کانالی وجود ندارد",
+                    "title": "!وای، اینجا که چیزی نیست"
+                },
+                "message_where": "پیغام {{channel_name}}",
+                "message_who": "{{person}} پیغام",
+                "uploading_file": "…در حال آپلود",
+                "failed_upload": "!آپلود نشد",
+                "attached_file": "{{filename}} پیوست شده",
+                "message_saved": "پیام های زخیره شده",
+                "start": {
+                    "group": ".این شروع گفتگوی شماست",
+                    "saved": ".این شروع یادداشت های شماست"
+                },
+                "voice": {
+                    "connected": "صدا وصل شد",
+                    "leave": "ترک کردن",
+                    "mute": "بی صدا",
+                    "unmute": "در امدن از حالت سکوت"
+                },
+                "nsfw": {
+                    "confirm": "تایید می‌کنم که حداقل ۱۸ سالمه",
+                    "channel": {
+                        "marked": ". این کانال به عنوان محتوا بزرگسالان علامت گزاری شده",
+                        "confirm": "وارد کانال شوید"
+                    }
+                },
+                "bot": "ربات",
+                "unknown_user": "<Unknown User>",
+                "edited": "(ویرایش)"
+            },
+            "categories": {
+                "members": "اعضا",
+                "participants": "شرکت کنندگان",
+                "channels": "کانال ها",
+                "conversations": "گفتگوها"
+            },
+            "groups": {
+                "owner": "مالک گروه",
+                "create": "ایجاد گروه",
+                "name": "نام گروه",
+                "description": "توضیحات گروه"
+            },
+            "servers": {
+                "create": "سرور ایجاد کنید",
+                "description": "توضیحات سرور",
+                "channel_name": "نام کانال",
+                "channel_type": "نوع کانال",
+                "name": "اسم سرور",
+                "channel_description": "توضیحات کانال",
+                "custom_banner": "بنر سفارشی",
+                "owner": "مالک سرور",
+                "text_channel": "نوع نوشتاری کانال",
+                "voice_channel": "نوع صدایی کانال",
+                "category_name": "نام دسته"
+            }
+        },
+        "settings": {
+            "actions": {
+                "upload": "بارگذاری",
+                "max_filesize": "(max {{filesize}})",
+                "remove": "حذف"
+            },
+            "pages": {
+                "account": {
+                    "title": "حساب من",
+                    "change_field": "تغییر",
+                    "manage": {
+                        "description": "از کار انداختن یا حذف حساب تان در هر زمانی. این اقدام شما را از بین می‌برد و حسابی شما را حذف می‌کند، از جمله تاریخچه نوشته و دوستان.",
+                        "disable": "از کار انداختن حساب",
+                        "delete": "حذف حساب"
+                    },
+                    "2fa": {
+                        "title": "دو رمزه کردن"
+                    }
+                },
+                "profile": {
+                    "info": "اطلاعات",
+                    "edit_background": "ویرایش پس زمینه",
+                    "custom_background": "پس‌زمینه سفارشی",
+                    "title": "مجموعه تنظیمات"
+                }
+            },
+            "title": "تنظیمات",
+            "categories": {
+                "user_settings": "تنظیمات کاربر",
+                "client_settings": "تنظیمات کلاینت"
+            }
         }
     }
 }
