@@ -2,8 +2,8 @@
     "general": {
         "privacy": "Buhez Prevez",
         "loading": "O kargañ…",
-        "on": "Bev",
-        "off": "Marv",
+        "on": "War elum",
+        "off": "Lazhet",
         "disabled": "Diweredekaet",
         "about": "Diwar hor penn",
         "tos": "Divizoù Implijout",
@@ -34,12 +34,21 @@
         },
         "welcome": "Laouen d'ho kwelet en-dro !",
         "current_password": "Ger-tremen a-vremañ",
-        "forgot": "Disoñjet ho peus ho ger-tremen ?",
+        "forgot": "Disoñjet ho peus ho ker-tremen ?",
         "reset": "Adderaouekaat ar ger-tremen",
         "set_password": "Skriverezit ar ger-tremen nevez",
         "remembered": "Distreiñ diwar ar gevreadur",
         "existing": "Ur gont 'zo ganit dija?",
-        "open_mail_provider": "Digeriñ {{provider}}"
+        "open_mail_provider": "Digeriñ {{provider}}",
+        "missing_verification": "Postel ebet resevet ?",
+        "check_spam": "Sell er strobel ma ne gavez ket",
+        "successful_registration": "Enskrivet vat !",
+        "error": {
+            "create": "Enskrivadenn dic'hallus !",
+            "login": "Kevreadenn dic'hallus !",
+            "reset": "Adkoradenn dic'hallus !",
+            "resend": "Kasadenn en-dro dic'hallus !"
+        }
     },
     "app": {
         "status": {
@@ -66,7 +75,12 @@
             "group": "Krouiñ ur strollad",
             "settings": "Digeriñ an arventennoù",
             "group_desc": "Pedit ho mignoned, ur re bennak robotoù, ha bec'h d'ar fest !",
-            "discover_desc": "Kavit ur kumuniezh hervez ho plijadur."
+            "discover_desc": "Kavit ur kumuniezh hervez ho plijadur.",
+            "join-testers": "Mont er servijer ar prouaderien",
+            "join-testers_desc": "Amañ gallez aroueziañ ar gudennoù ha kaozeal diwar-benn gwellaenn ganeomp.",
+            "goto-testers": "Mont er servijer ar prouaderien",
+            "goto-testers_desc": "Amañ gallez aroueziañ ar gudennoù ha kaozeal diwar-benn gwellaenn ganeomp.",
+            "directs": "Kemennadoù"
         },
         "main": {
             "categories": {
@@ -80,11 +94,24 @@
                 "uploading_file": "O ezkargañ…",
                 "typing": {
                     "single": "{{user}} o skriv…",
-                    "multiple": "{{userlist}} ha {{user}} o skriv…"
+                    "multiple": "{{userlist}} ha {{user}} o skriv…",
+                    "several": "Kalz tud o skriv…"
                 },
                 "edited": "(kemmet)",
                 "search": {
                     "title": "Enklask"
+                },
+                "message_where": "Kemenn e {{channel_name}}",
+                "failed_upload": "Ezkarg dic'hallus !",
+                "message_who": "Kemenn da {{person}}",
+                "attached_file": "Amañ-kevret {{filename}}",
+                "system": {
+                    "user_joined": "Erru eo {{user}}",
+                    "user_left": "Aet eo {{user}}",
+                    "user_kicked": "{{user}} zo bet taolet e-maez",
+                    "user_banned": "{{user}} zo bet forbannet",
+                    "added_by": "{{user}} zo bet pedet gant {{other_user}}",
+                    "removed_by": "{{user}} zo bet lamet gant {{other_user}}"
                 }
             },
             "groups": {
@@ -225,6 +252,9 @@
         "channel": {
             "InviteOthers": {
                 "t": "Pediñ tud all"
+            },
+            "UploadFiles": {
+                "t": "Ezkargañ Restroù"
             }
         }
     }
