@@ -38,17 +38,18 @@
         "reset": "Adderaouekaat ar ger-tremen",
         "set_password": "Skriverezit ar ger-tremen nevez",
         "remembered": "Distreiñ diwar ar gevreadur",
-        "existing": "Ur gont 'zo ganit dija?",
+        "existing": "Ur gont 'zo ganit dija ?",
         "open_mail_provider": "Digeriñ {{provider}}",
         "missing_verification": "Postel ebet resevet ?",
-        "check_spam": "Sell er strobel ma ne gavez ket",
+        "check_spam": "Sell er strobel ma ne gavit ket",
         "successful_registration": "Enskrivet vat !",
         "error": {
             "create": "Enskrivadenn dic'hallus !",
             "login": "Kevreadenn dic'hallus !",
             "reset": "Adkoradenn dic'hallus !",
             "resend": "Kasadenn en-dro dic'hallus !"
-        }
+        },
+        "email_delay": "Aotreit 10 munutenn evit resev ar postel."
     },
     "app": {
         "status": {
@@ -80,7 +81,8 @@
             "join-testers_desc": "Amañ gallez aroueziañ ar gudennoù ha kaozeal diwar-benn gwellaenn ganeomp.",
             "goto-testers": "Mont er servijer ar prouaderien",
             "goto-testers_desc": "Amañ gallez aroueziañ ar gudennoù ha kaozeal diwar-benn gwellaenn ganeomp.",
-            "directs": "Kemennadoù"
+            "directs": "Kemennadoù",
+            "feedback_desc": "Grit da cʼhouzout penaos gwellaat hor arload gant kas un evezhiadenn."
         },
         "main": {
             "categories": {
@@ -246,13 +248,17 @@
                     },
                     "display": {
                         "default": "Dre ziouer",
-                        "default_description": "Koant, kran hag arnevez."
+                        "default_description": "Koant, kran hag arnevez.",
+                        "compact": "Kompakt"
                     },
                     "theme_options": {
                         "title": "Dibarzhioù Danvez",
                         "follow": "Implijout an danvez reizhiad",
                         "seasonal": "Danvez an Amzer",
-                        "transparency": "Treuzwelusted"
+                        "transparency": "Treuzwelusted",
+                        "follow_desc": "Pa sellet, ne gallit ket cheñch ho danvez pe dibab un danvez personelaet.",
+                        "seasonal_desc": "Gwelet efedoù er pajenn-zegemer e-pad vakañsoù.",
+                        "transparency_desc": "Elumiñ efedoù treuzwelusted dre-holl an arload."
                     },
                     "discover": {
                         "title": "Dizoleiñ Danvezioù",
@@ -265,7 +271,11 @@
                     "advanced": "Dibarzhioù araokaet",
                     "import": "Enporzhiañ an danvez",
                     "theme_data": "Roadoù an danvez",
-                    "font": "Nodrezh"
+                    "font": "Nodrezh",
+                    "mono_font": "Ment-Unel Nodrezh Dibaber",
+                    "ligatures": "Ereadurioù Nodrezhoù",
+                    "accent_selector": "Liv merket mat",
+                    "emoji_pack": "Pakad Emojioù"
                 },
                 "bots": {
                     "copy_invite": "Eilañ al Liamm-pediñ",
@@ -277,18 +287,25 @@
                     "private_bot_tip": "Prevez eo ar robot. Nep den ne gallout ket pediñ ar robot-mañ.",
                     "token": "Token",
                     "public_bot": "Robot Publik",
-                    "profile": "Profil ar Robot"
+                    "profile": "Profil ar Robot",
+                    "reserved": "Notenn : maezienn-mañ zo miret evit an amzer-dazont."
                 },
                 "notifications": {
                     "title": "Kemennoù",
                     "push_notifications": "Kemennoù push",
                     "sound": {
                         "message": "Kemennad Resevet",
-                        "outbound": "Kemennad Kaset"
+                        "outbound": "Kemennad Kaset",
+                        "call_leave": "Aet eo an implijer eus pellgomzadenn",
+                        "call_join": "Erru eo an implijer er pellgomzadenn"
                     },
                     "sounds": "Sonioù",
                     "enable_push": "Elumiñ ar c'hemennoù push.",
-                    "enable_desktop": "Elumiñ ar c'hemennoù da burev."
+                    "enable_desktop": "Elumiñ ar c'hemennoù da burev.",
+                    "descriptions": {
+                        "enable_push": "Elumiñ ar c'hemennoù pegoulz ezlinenn oc'h.",
+                        "enable_desktop": "Kemenn pa digor eo an arload."
+                    }
                 },
                 "language": {
                     "title": "Yezh",
@@ -329,13 +346,21 @@
                     "use": "Diuzañ an danvez"
                 },
                 "feedback": {
-                    "title": "Evezhiadennoù"
-                }
+                    "title": "Evezhiadennoù",
+                    "suggest_desc": "Kinnig aezamantoù nevez da Revolt war GitHub.",
+                    "suggest": "Kinnig un aezamant",
+                    "bug": "Chaseour Beugoù",
+                    "bug_desc": "Gwelout amañ an danevell oberiant beugoù a-vremañ.",
+                    "issue": "Krouiñ ur goulenn nevez"
+                },
+                "logOut": "Digevreañ"
             },
             "server_pages": {
                 "overview": {
                     "description": "Deskrivadur ar c'hanol",
-                    "name": "Anv ar servijer"
+                    "name": "Anv ar servijer",
+                    "title": "Diverradur",
+                    "system_messages": "Kanolioù Kemenn ar Reizhiad"
                 },
                 "invites": {
                     "code": "Boneg-pediñ",
@@ -351,24 +376,54 @@
                     "title": "Merañ an Implijer"
                 },
                 "bans": {
-                    "user": "Implijer"
+                    "user": "Implijer",
+                    "reason": "Perag ar Forbannerezh",
+                    "title": "Forbanned",
+                    "no_reason": "Perag ar Forbannerezh ebet.",
+                    "revoke": "Terriñ"
+                },
+                "members": {
+                    "title": "Izili"
+                },
+                "categories": {
+                    "title": "Rummadoù"
                 }
             },
             "permissions": {
                 "create_role": "Krouiñ ur perzh nevez",
                 "default_role": "Dre ziouer",
-                "role_name": "Anv ar perzh"
+                "role_name": "Anv ar perzh",
+                "channel": "Aotreoù ar C'hanol",
+                "server": "Aotreoù ar Servijer"
             },
             "channel_pages": {
                 "overview": {
                     "description": "Deskrivadur ar c'hanol",
-                    "name": "Anv ar c'hanol"
+                    "name": "Anv ar c'hanol",
+                    "title": "Diverradur"
+                },
+                "permissions": {
+                    "title": "Aotreoù"
                 }
             },
             "title": "Arventennoù",
             "categories": {
                 "user_settings": "Arventennoù Implijer",
                 "client_settings": "Arventennoù Arval"
+            },
+            "tips": {
+                "account": {
+                    "b": "Ait d'an arventennoù da profil.",
+                    "a": "O klask personelaat ho profil publik ?"
+                },
+                "languages": {
+                    "a": "N'eus ket da yezh ?",
+                    "b": "Harpit gant treiñ."
+                },
+                "sessions": {
+                    "a": "Ma gwelit un estez dianav er roll,",
+                    "b": "diogolit ho kont gant cheñch ar ger-tremen hag implijout an Dilesadur Dau-Reolenn."
+                }
             }
         },
         "special": {
@@ -395,10 +450,16 @@
                     "no_groups": "Strollad boutin ebet"
                 },
                 "server_identity": {
-                    "nickname": "Lesanv"
+                    "nickname": "Lesanv",
+                    "avatar": "Skeudenn ar Profil",
+                    "title": "Cheñch pivelezh e {{server}}"
                 },
                 "user_picker": {
                     "select": "Dibab mignoned da ouzhpennañ."
+                },
+                "create_bot": {
+                    "title": "Krouiñ ur robot nevez",
+                    "failed": "Krouiñ ar robot zo dic'hallus !"
                 }
             },
             "modals": {
@@ -408,9 +469,13 @@
                     "confirm_close_dm": "Serriñ ar gaozeadenn gant {{name}} ?",
                     "unfriend_user": "Lemel {{name}} ?",
                     "block_user": "Berzañ {{name}} ?",
-                    "confirm_ban_reason": "Perag ar Forbann",
+                    "confirm_ban_reason": "Perag ar Forbannerezh",
                     "confirm_leave": "Kuitaat {{name}} ?",
-                    "confirm_delete": "Dilemel {{name}} ?"
+                    "confirm_delete": "Dilemel {{name}} ?",
+                    "confirm_delete_message_long": "Sur oc'h e fell deoc'h dilemel an dra-se ?",
+                    "confirm_delete_long": "N'eus distro ebet ur wech dilamet eo.",
+                    "block_user_long": "Sur oc'h e fell deoc'h berzañ {{name}} ?",
+                    "confirm_kick": "Sur oc'h e fell deoc'h diberzhañ {{name}} ?"
                 },
                 "signed_out": "Te zo bet digevreet !",
                 "token_reveal": "Token {{name}}",
@@ -445,10 +510,19 @@
                     "reveal": "Diskuliañ",
                     "update": "Hizivaat",
                     "continue": "Kenderc'hel",
-                    "send_email": "Kas ur postel"
+                    "send_email": "Kas ur postel",
+                    "kick": "Diberzhañ"
                 },
                 "external_links": {
-                    "trust_domain": "Fiziout domani-mañ"
+                    "trust_domain": "Fiziout domani-mañ",
+                    "title": "Al liammoù diavaez a c'hall bezañ arvarus !",
+                    "short": "Sur oc'h e fell deoc'h mont da :"
+                },
+                "error": "Ur fazi ez eus !",
+                "clipboard": {
+                    "unavailable": "N'eo ket da gaout ar golver !",
+                    "https": "N'eo ket HTTPS a-vremañ.",
+                    "copy": "Eilad dorn :"
                 }
             },
             "invite": {
@@ -464,16 +538,33 @@
                     "single": "Eus {{user}}",
                     "multiple": "Eus {{userlist}} ha {{user}}",
                     "several": "Eus {{userlist}} ha {{count}} ouzhpenn…"
-                }
+                },
+                "pending": "Goulennoù e gortoz",
+                "sent": "War ober",
+                "nobody": "N'eus den ebet amañ c'hoazh !",
+                "incoming": "Goulenn-mignon nevez.",
+                "outgoing": "Goulenn-mignon war ober."
             },
-            "copy_username": "Eilañ an anv implijer"
+            "copy_username": "Eilañ an anv implijer",
+            "copy": "Eilañ",
+            "status": {
+                "disconnected": "Digevreet.",
+                "connecting": "O kevreañ…",
+                "reconnecting": "O adkevreañ…",
+                "offline": "Ezlinenn."
+            },
+            "server-badges": {
+                "official": "Servijer Ofisiel",
+                "verified": "Servijer Gwiriet"
+            }
         },
         "context_menu": {
             "create_invite": "Krouiñ ur bedadenn",
             "block_user": "Berzañ an implijer",
             "unblock_user": "Dinaskañ an implijer",
             "copy_uid": "Eilañ ID implijer",
-            "message_user": "Kemenn da"
+            "message_user": "Kemenn da",
+            "kick_member": "Diberzhañ an ezel-mañ"
         }
     },
     "error": {
@@ -485,20 +576,55 @@
         "Unavailable": "N'eo ket da gaout.",
         "InvalidInvite": "Direizh eo ar boneg",
         "InvalidSession": "Direizh eo an estez.",
-        "InvalidToken": "Token direizh"
+        "InvalidToken": "Token direizh",
+        "AudioPermissionBlock": "Moned d'ar soneuvrer ebet, sellit ouzh kefluniadur ho merdeer maj plij.",
+        "DeniedNotification": "Moned kemenn nac'hjoc'h, sellit ouzh an arventennoù."
     },
     "permissions": {
         "server": {
             "ManageRoles": {
                 "t": "Merañ ar perzhioù"
+            },
+            "KickMembers": {
+                "d": "Aotren diberzhañ izili all eus servijer-mañ. Izili diberzhet a c'hall dont en-dro gant ur pedadenn.",
+                "t": "Diberzhañ izili"
             }
         },
         "channel": {
             "InviteOthers": {
-                "t": "Pediñ tud all"
+                "t": "Pediñ tud all",
+                "d": "Aotren pediñ implijerien all er c'hanol."
             },
             "UploadFiles": {
-                "t": "Ezkargañ Restroù"
+                "t": "Ezkargañ Restroù",
+                "d": "Aotren ezkarg restroù er c'hanolioù skrid."
+            },
+            "SendMessage": {
+                "d": "Aotren kas kemennadoù er c'hanolioù skrid.",
+                "t": "Kas Kemennadoù"
+            },
+            "View": {
+                "d": "Aotren sellout ouzh ar c'hanolioù publik."
+            },
+            "EmbedLinks": {
+                "d": "Aotren enkorfañ al liammoù kaset er c'hanolioù skrid.",
+                "t": "Enkorfañ al Liammoù"
+            },
+            "ManageMessages": {
+                "t": "Merañ ar C'hemennadoù",
+                "d": "Aotren dilemel kemennadoù kaset gant izili all."
+            },
+            "VoiceCall": {
+                "t": "Pellgomzadenn",
+                "d": "Aotren dont er c'hanolioù komz."
+            },
+            "ManageChannel": {
+                "t": "Merañ ar C'hanolioù",
+                "d": "Aotren kemmañ pe dilemel ur c'hanol."
+            },
+            "Masquerade": {
+                "t": "Maskaradenn",
+                "d": "Aotren cheñch anv ha skeudenn profil dre kemennad."
             }
         }
     },
