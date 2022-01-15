@@ -102,7 +102,8 @@
                     "title": "Enklask",
                     "sort": {
                         "latest": "Hini diwezhañ",
-                        "oldest": "Hini koshañ"
+                        "oldest": "Hini koshañ",
+                        "relevance": "Reizhidigezh"
                     }
                 },
                 "message_where": "Kemenn e {{channel_name}}",
@@ -115,7 +116,9 @@
                     "user_kicked": "{{user}} zo bet taolet e-maez",
                     "user_banned": "{{user}} zo bet forbannet",
                     "added_by": "{{user}} zo bet pedet gant {{other_user}}",
-                    "removed_by": "{{user}} zo bet lamet gant {{other_user}}"
+                    "removed_by": "{{user}} zo bet lamet gant {{other_user}}",
+                    "channel_description_changed": "{{user}} cheñchas an deskrivadur ar c'hanol",
+                    "channel_icon_changed": "{{user}} cheñchas an arlun ar c'hanol"
                 },
                 "start": {
                     "group": "Setu ar deraouenn ar gaozeadenn.",
@@ -137,7 +140,8 @@
                     "blocked_messages": "{{count}} kemennadoù berzet",
                     "blocked_user": "Implijer Berzet",
                     "sent_file": "Restr stag kaset",
-                    "sent_multiple_files": "Lies restroù stag kaset"
+                    "sent_multiple_files": "Lies restroù stag kaset",
+                    "no_sending": "Ne gallez ket kas kemennadoù er c'hanol-mañ."
                 },
                 "nsfw": {
                     "channel": {
@@ -193,7 +197,8 @@
                     "manage": {
                         "disable": "Diweredekaat ar Gont",
                         "delete": "Dilemel ar Gont",
-                        "title": "Merañ ar Gont"
+                        "title": "Merañ ar Gont",
+                        "description": "Diweredekaat pe lemel da gont. Da gont a vo digevreet ha dilamet, o enklozañ da gaozeadennoù holl ha da vignoned."
                     },
                     "change_field": "Cheñch",
                     "2fa": {
@@ -201,7 +206,8 @@
                         "description": "Ouzhpennañ surentez gant aotren an Dilesadur Dau-Reolennoù war da gont.",
                         "add_auth": "Ouzhpennañ ur Reolenn",
                         "remove_auth": "Lemel ur Reolenn"
-                    }
+                    },
+                    "unique_id": "Amañ eo an anv-tremen unel da gont."
                 },
                 "profile": {
                     "info": "Titouroù",
@@ -226,7 +232,9 @@
                     "button_retry": "Esaeit en-dro",
                     "output_device": "Uhelgomzer / Selaouell",
                     "device_label_NA": "Ne zegouezh ket",
-                    "button_grant": "Aotren"
+                    "button_grant": "Aotren",
+                    "tip_grant_permission": "Ret eo aotren ar moned d'an arventennoù mouezhel.",
+                    "tip_retry": "Moned d'ar soneuvrer ebet, {{retryBtn}} mar plij."
                 },
                 "appearance": {
                     "title": "Neuz",
@@ -236,7 +244,15 @@
                         "light": "Sklaer"
                     },
                     "display": {
-                        "default": "Dre ziouer"
+                        "default": "Dre ziouer",
+                        "default_description": "Koant, kran hag arnevez."
+                    },
+                    "theme_options": {
+                        "title": "Dibarzhioù Danvez"
+                    },
+                    "discover": {
+                        "title": "Dizoleiñ Danvezioù",
+                        "description": "Klask danvezioù krouet gant ar gumuniezh"
                     }
                 },
                 "bots": {
