@@ -118,7 +118,8 @@
                     "added_by": "{{user}} zo bet pedet gant {{other_user}}",
                     "removed_by": "{{user}} zo bet lamet gant {{other_user}}",
                     "channel_description_changed": "{{user}} cheñchas an deskrivadur ar c'hanol",
-                    "channel_icon_changed": "{{user}} cheñchas an arlun ar c'hanol"
+                    "channel_icon_changed": "{{user}} cheñchas an arlun ar c'hanol",
+                    "channel_renamed": "{{user}} cheñchas an anv ar c'hanol e {{name}}"
                 },
                 "start": {
                     "group": "Setu ar deraouenn ar gaozeadenn.",
@@ -202,8 +203,8 @@
                     },
                     "change_field": "Cheñch",
                     "2fa": {
-                        "title": "Dilesadur Dau-Reolennoù",
-                        "description": "Ouzhpennañ surentez gant aotren an Dilesadur Dau-Reolennoù war da gont.",
+                        "title": "Dilesadur Dau-Reolenn",
+                        "description": "Ouzhpennañ surentez gant aotren an Dilesadur Dau-Reolenn war da gont.",
                         "add_auth": "Ouzhpennañ ur Reolenn",
                         "remove_auth": "Lemel ur Reolenn"
                     },
@@ -217,7 +218,7 @@
                     "edit_background": "Cheñch an drekleur",
                     "edit_profile": "Kemmañ ar Profil",
                     "title": "Profil",
-                    "fetching": "O adtap da profil…"
+                    "fetching": "O adtapout da profil…"
                 },
                 "sessions": {
                     "this_device": "An ardivink-mañ",
@@ -248,12 +249,23 @@
                         "default_description": "Koant, kran hag arnevez."
                     },
                     "theme_options": {
-                        "title": "Dibarzhioù Danvez"
+                        "title": "Dibarzhioù Danvez",
+                        "follow": "Implijout an danvez reizhiad",
+                        "seasonal": "Danvez an Amzer",
+                        "transparency": "Treuzwelusted"
                     },
                     "discover": {
                         "title": "Dizoleiñ Danvezioù",
                         "description": "Klask danvezioù krouet gant ar gumuniezh"
-                    }
+                    },
+                    "import_theme": "Enporzhiañ an danvez eus un hedad",
+                    "custom_css": "CSS personelaet",
+                    "sync": "Sinkronelaat an Dibarzhioù",
+                    "message_display": "Gwelet Kemennad",
+                    "advanced": "Dibarzhioù araokaet",
+                    "import": "Enporzhiañ an danvez",
+                    "theme_data": "Roadoù an danvez",
+                    "font": "Font"
                 },
                 "bots": {
                     "copy_invite": "Eilañ al Liamm-pediñ"
@@ -261,7 +273,8 @@
             },
             "server_pages": {
                 "overview": {
-                    "description": "Deskrivadur ar c'hanol"
+                    "description": "Deskrivadur ar c'hanol",
+                    "name": "Anv ar servijer"
                 },
                 "invites": {
                     "code": "Boneg-pediñ",
@@ -297,14 +310,60 @@
                     "sub": {
                         "information": "Titouroù"
                     }
+                },
+                "server_identity": {
+                    "nickname": "Lesanv"
                 }
             },
             "modals": {
                 "prompt": {
                     "create_invite_created": "Setu ho boneg-pediñ nevez :",
-                    "create_invite_generate": "O gan ur pedadenn…"
+                    "create_invite_generate": "O genel ur pedadenn…",
+                    "confirm_close_dm": "Serriñ ar gaozeadenn gant {{name}} ?",
+                    "unfriend_user": "Lemel {{name}} ?",
+                    "block_user": "Berzañ {{name}} ?",
+                    "confirm_ban_reason": "Perag ar Forbann",
+                    "confirm_leave": "Kuitaat {{name}} ?",
+                    "confirm_delete": "Dilemel {{name}} ?"
                 },
-                "signed_out": "Te zo bet digevreet !"
+                "signed_out": "Te zo bet digevreet !",
+                "token_reveal": "Token {{name}}",
+                "onboarding": {
+                    "pick": "Diuzit un anv implijer. Gantañ a c'hall tud kavout da gont. Posupl eo cheñch an anv implijer en arventennoù.",
+                    "welcome": "Degemer mat war"
+                },
+                "account": {
+                    "change": {
+                        "username": "Cheñch da anv implijer",
+                        "email": "Cheñch da chomlec'h postel",
+                        "password": "Cheñch ho ger-tremen"
+                    },
+                    "failed": "Cheñchamant dic'hallus !"
+                },
+                "actions": {
+                    "ok": "Mat eo",
+                    "cancel": "Nullañ",
+                    "reload": "Adkargañ an Arload",
+                    "preview": "Alberz",
+                    "ban": "Forbanniñ",
+                    "save": "Gwareziñ",
+                    "hide": "Kuzhat",
+                    "edit": "Kemmañ",
+                    "block": "Berzañ",
+                    "close": "Serriñ",
+                    "leave": "Kuitaat",
+                    "back": "Distro",
+                    "remove": "Lemel",
+                    "delete": "Dilemel",
+                    "create": "Krouiñ",
+                    "reveal": "Diskuliañ",
+                    "update": "Hizivaat",
+                    "continue": "Kenderc'hel",
+                    "send_email": "Kas ur postel"
+                },
+                "external_links": {
+                    "trust_domain": "Fiziout domani-mañ"
+                }
             },
             "invite": {
                 "login": "Kevreañ ouzh Revolt",
@@ -312,7 +371,11 @@
                 "invited_by": "Pedet gant {{user}}",
                 "accept": "Degemer ur bedadenn",
                 "user_count": "{{member_count}} implijerien"
-            }
+            },
+            "friends": {
+                "blocked": "Berzet"
+            },
+            "copy_username": "Eilañ an anv implijer"
         },
         "context_menu": {
             "create_invite": "Krouiñ ur bedadenn"
@@ -341,6 +404,13 @@
             "UploadFiles": {
                 "t": "Ezkargañ Restroù"
             }
+        }
+    },
+    "dayjs": {
+        "defaults": {
+            "date_format": "traditional",
+            "date_separator": "/",
+            "twelvehour": "yes"
         }
     }
 }
