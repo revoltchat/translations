@@ -265,10 +265,71 @@
                     "advanced": "Dibarzhioù araokaet",
                     "import": "Enporzhiañ an danvez",
                     "theme_data": "Roadoù an danvez",
-                    "font": "Font"
+                    "font": "Nodrezh"
                 },
                 "bots": {
-                    "copy_invite": "Eilañ al Liamm-pediñ"
+                    "copy_invite": "Eilañ al Liamm-pediñ",
+                    "title": "Ma Robotoù",
+                    "create_bot": "Krouiñ ur Robot",
+                    "add": "Ouzhpennañ ur Robot",
+                    "public_bot_tip": "Publik eo ar robot. Nep den gallout pediñ ar robot-mañ.",
+                    "unique_id": "Amañ eo an anv-tremen unel da robot. N'eo ket token ar robot.",
+                    "private_bot_tip": "Prevez eo ar robot. Nep den ne gallout ket pediñ ar robot-mañ.",
+                    "token": "Token",
+                    "public_bot": "Robot Publik",
+                    "profile": "Profil ar Robot"
+                },
+                "notifications": {
+                    "title": "Kemennoù",
+                    "push_notifications": "Kemennoù push",
+                    "sound": {
+                        "message": "Kemennad Resevet",
+                        "outbound": "Kemennad Kaset"
+                    },
+                    "sounds": "Sonioù",
+                    "enable_push": "Elumiñ ar c'hemennoù push.",
+                    "enable_desktop": "Elumiñ ar c'hemennoù da burev."
+                },
+                "language": {
+                    "title": "Yezh",
+                    "select": "Dibab ho yezh",
+                    "const": "Yezhoù savet a-ratozh",
+                    "other": "Dibarzhioù yezh all"
+                },
+                "sync": {
+                    "options": "Sinkronelaat an Dibarzhioù",
+                    "categories": "Sinkronelaat ar Rummadoù",
+                    "title": "Sinkronelaat"
+                },
+                "native": {
+                    "title": "Arventennoù Burev"
+                },
+                "experiments": {
+                    "title": "Arnodoù",
+                    "features": "Aezamant Hegerz",
+                    "not_available": "Arnod ebet c'hoazh."
+                },
+                "donate": {
+                    "title": "Ober ur roadenn"
+                },
+                "source_code": "Tarzh",
+                "theme_shop": {
+                    "title": "Staliad Danvezioù",
+                    "description": "Klask kantadoù danvez, krouet ha kenaozet gant ar gumuniezh.",
+                    "search": "Klask danvezioù...",
+                    "category": {
+                        "new": "Nevez er sizhun-mañ",
+                        "default": "Danvezioù dre-ziouer",
+                        "viewall": "Gwelout ouzh holl",
+                        "manage": "Merañ an danvezioù gwarezet",
+                        "saved": "Gwarezet"
+                    },
+                    "active": "War elum a-vremañ",
+                    "by": "krouet gant",
+                    "use": "Diuzañ an danvez"
+                },
+                "feedback": {
+                    "title": "Evezhiadennoù"
                 }
             },
             "server_pages": {
@@ -285,6 +346,12 @@
                 },
                 "roles": {
                     "title": "Perzhioù"
+                },
+                "management": {
+                    "title": "Merañ an Implijer"
+                },
+                "bans": {
+                    "user": "Implijer"
                 }
             },
             "permissions": {
@@ -308,11 +375,30 @@
             "popovers": {
                 "user_profile": {
                     "sub": {
-                        "information": "Titouroù"
-                    }
+                        "information": "Titouroù",
+                        "badges": "Ardamezoù",
+                        "connections": "Kevreadurioù"
+                    },
+                    "mutual_friends": "Mignoned boutin",
+                    "profile": "Profil",
+                    "badges": {
+                        "founder": "Diazezer·ez",
+                        "moderation": "Habaskadur",
+                        "supporter": "Skor",
+                        "translator": "Troer"
+                    },
+                    "no_servers": "Servijer boutin ebet",
+                    "mutual_groups": "Strolladoù boutin",
+                    "mutual_servers": "Servijer boutin",
+                    "empty": "Goullo eo amañ…",
+                    "no_users": "Mignon boutin ebet",
+                    "no_groups": "Strollad boutin ebet"
                 },
                 "server_identity": {
                     "nickname": "Lesanv"
+                },
+                "user_picker": {
+                    "select": "Dibab mignoned da ouzhpennañ."
                 }
             },
             "modals": {
@@ -373,12 +459,21 @@
                 "user_count": "{{member_count}} implijerien"
             },
             "friends": {
-                "blocked": "Berzet"
+                "blocked": "Berzet",
+                "from": {
+                    "single": "Eus {{user}}",
+                    "multiple": "Eus {{userlist}} ha {{user}}",
+                    "several": "Eus {{userlist}} ha {{count}} ouzhpenn…"
+                }
             },
             "copy_username": "Eilañ an anv implijer"
         },
         "context_menu": {
-            "create_invite": "Krouiñ ur bedadenn"
+            "create_invite": "Krouiñ ur bedadenn",
+            "block_user": "Berzañ an implijer",
+            "unblock_user": "Dinaskañ an implijer",
+            "copy_uid": "Eilañ ID implijer",
+            "message_user": "Kemenn da"
         }
     },
     "error": {
@@ -389,7 +484,8 @@
         "TooShort": "Berr",
         "Unavailable": "N'eo ket da gaout.",
         "InvalidInvite": "Direizh eo ar boneg",
-        "InvalidSession": "Direizh eo an estez."
+        "InvalidSession": "Direizh eo an estez.",
+        "InvalidToken": "Token direizh"
     },
     "permissions": {
         "server": {
