@@ -82,7 +82,8 @@
             "goto-testers": "Mont er servijer ar prouaderien",
             "goto-testers_desc": "Amañ gallez aroueziañ ar gudennoù ha kaozeal diwar-benn gwellaenn ganeomp.",
             "directs": "Kemennadoù",
-            "feedback_desc": "Grit da cʼhouzout penaos gwellaat hor arload gant kas un evezhiadenn."
+            "feedback_desc": "Grit da cʼhouzout penaos gwellaat hor arload gant ober un evezhiadenn.",
+            "settings-tooltip": "Klikañ gallit war an arlun an implijer war laez a-gleiz gant ar c'hlik dehou, pe gant ar c'hlik kleiz ma er pajenn-zegemer oc'h dija."
         },
         "main": {
             "categories": {
@@ -275,7 +276,9 @@
                     "mono_font": "Ment-Unel Nodrezh Dibaber",
                     "ligatures": "Ereadurioù Nodrezhoù",
                     "accent_selector": "Liv merket mat",
-                    "emoji_pack": "Pakad Emojioù"
+                    "emoji_pack": "Pakad Emojioù",
+                    "overrides": "Direizhadennoù Danvez",
+                    "reset_overrides": "Adderaouekaat an direizhadennoù"
                 },
                 "bots": {
                     "copy_invite": "Eilañ al Liamm-pediñ",
@@ -288,7 +291,9 @@
                     "token": "Token",
                     "public_bot": "Robot Publik",
                     "profile": "Profil ar Robot",
-                    "reserved": "Notenn : maezienn-mañ zo miret evit an amzer-dazont."
+                    "reserved": "Notenn : maezienn-mañ zo miret evit an amzer-dazont.",
+                    "interactions_url": "URL etreober",
+                    "public_bot_desc": "Ma aotren implijerien all pediñ ar robot-mañ."
                 },
                 "notifications": {
                     "title": "Kemennoù",
@@ -351,7 +356,8 @@
                     "suggest": "Kinnig un aezamant",
                     "bug": "Chaseour Beugoù",
                     "bug_desc": "Gwelout amañ an danevell oberiant beugoù a-vremañ.",
-                    "issue": "Krouiñ ur goulenn nevez"
+                    "issue": "Krouiñ ur goulenn nevez",
+                    "issue_desc": "Evit hon harpañ gant rummañ ar goulennoù aes, war GitHub a c'hallit krouiñ ur goulenn."
                 },
                 "logOut": "Digevreañ"
             },
@@ -439,7 +445,7 @@
                     "badges": {
                         "founder": "Diazezer·ez",
                         "moderation": "Habaskadur",
-                        "supporter": "Skor",
+                        "supporter": "Harper",
                         "translator": "Troer"
                     },
                     "no_servers": "Servijer boutin ebet",
@@ -474,7 +480,7 @@
                     "confirm_delete": "Dilemel {{name}} ?",
                     "confirm_delete_message_long": "Sur oc'h e fell deoc'h dilemel an dra-se ?",
                     "confirm_delete_long": "N'eus distro ebet ur wech dilamet eo.",
-                    "block_user_long": "Sur oc'h e fell deoc'h berzañ {{name}} ?",
+                    "block_user_long": "Sur oc'h e fell deoc'h berzañ {{name}} ? {{name}} a voe lamet digant ho roll mignoned.",
                     "confirm_kick": "Sur oc'h e fell deoc'h diberzhañ {{name}} ?"
                 },
                 "signed_out": "Te zo bet digevreet !",
@@ -530,7 +536,8 @@
                 "invalid": "Direizh eo ar bedadenn !",
                 "invited_by": "Pedet gant {{user}}",
                 "accept": "Degemer ur bedadenn",
-                "user_count": "{{member_count}} implijerien"
+                "user_count": "{{member_count}} implijerien",
+                "invalid_desc": "Pedadenn a c'hallo direizh pe n'oc'h ket aotreet dont."
             },
             "friends": {
                 "blocked": "Berzet",
@@ -556,7 +563,8 @@
             "server-badges": {
                 "official": "Servijer Ofisiel",
                 "verified": "Servijer Gwiriet"
-            }
+            },
+            "requires_online": "Ret eo deoc'h bezañ enlinenn evit sellout ouzh an dra-se."
         },
         "context_menu": {
             "create_invite": "Krouiñ ur bedadenn",
@@ -564,7 +572,55 @@
             "unblock_user": "Dinaskañ an implijer",
             "copy_uid": "Eilañ ID implijer",
             "message_user": "Kemenn da",
-            "kick_member": "Diberzhañ an ezel-mañ"
+            "kick_member": "Diberzhañ an ezel-mañ",
+            "mark_unread": "Merkañ evel anlennet",
+            "open_file": "Digeriñ ar restr",
+            "save_file": "Gwareziñ ar restr",
+            "open_image": "Digeriñ ar skeudenn",
+            "save_image": "Gwareziñ ar skeudenn",
+            "open_video": "Digeriñ ar video",
+            "save_video": "Gwareziñ ar video",
+            "copy_link": "Eilañ al liamm",
+            "open_link": "Digeriñ al liamm",
+            "add_friend": "Ouzhpennañ ur mignon",
+            "remove_friend": "Lemel ur mignon",
+            "copy_id": "Eilañ ID",
+            "copy_text": "Eilañ ar skrid",
+            "copy_selection": "Eilañ an diuzad",
+            "copy_sid": "Eilañ an ID ar servijer",
+            "copy_cid": "Eilañ an ID ar c'hanol",
+            "copy_mid": "Eilañ an ID ar c'hemennad",
+            "copy_message_link": "Eilañ al liamm ar c'hemennad",
+            "edit_message": "Kemmañ ar c'hemennad",
+            "delete_message": "Dilemel ar c'hemennad",
+            "remove_member": "Lemel eus ar strollad",
+            "cancel_message": "Nullañ ar gasadenn",
+            "reply_message": "Respont",
+            "quote_message": "Menegiñ ar c'hemennad",
+            "custom_status": "Statud personelaet",
+            "cancel_friend": "Nullañ ar goulenn",
+            "clear_status": "Lemel ar statud",
+            "set_custom_status": "Skriverezit ur statud personelaet",
+            "leave_group": "Kuitaat ar strollad",
+            "close_dm": "Lemel ar c'hemennadoù-mañ",
+            "delete_server": "Dilemel ar servijer-mañ",
+            "edit_identity": "Kemmañ ho pivelezh",
+            "delete_channel": "Dilemel ar c'hanol-mañ",
+            "create_channel": "Krouiñ ur c'hanol",
+            "leave_server": "Kuitaat ar servijer",
+            "open_notification_options": "Dibarzhioù ar C'hemennoù",
+            "create_category": "Krouiñ ur rummad",
+            "open_channel_settings": "Arventennoù ar C'hanol",
+            "open_group_settings": "Arventennoù ar Strollad",
+            "open_server_settings": "Arventennoù ar Servijer",
+            "mention": "Ober meneg",
+            "view_profile": "Gwelout ouzh ar profil",
+            "mark_as_read": "Merkañ evel lennet",
+            "retry_message": "Esaeañ kas en-dro",
+            "ban_member": "Forbanniñ an ezel-mañ"
+        },
+        "permissions": {
+            "required": "Aotreoù ret"
         }
     },
     "error": {
@@ -578,7 +634,37 @@
         "InvalidSession": "Direizh eo an estez.",
         "InvalidToken": "Token direizh",
         "AudioPermissionBlock": "Moned d'ar soneuvrer ebet, sellit ouzh kefluniadur ho merdeer maj plij.",
-        "DeniedNotification": "Moned kemenn nac'hjoc'h, sellit ouzh an arventennoù."
+        "DeniedNotification": "Moned kemenn nac'hjoc'h, sellit ouzh an arventennoù.",
+        "FailedValidation": "Dic'hallus eo gwiriekaat ar maeziennoù.",
+        "DatabaseError": "Fazi ar stlennvon.",
+        "InternalError": "Fazi diabarzh.",
+        "RenderFail": "Rentañ ar patrom zo dic'hallus.",
+        "MissingHeaders": "Talbenn ebet.",
+        "Blocked": "An implijer-se a verzjout.",
+        "BlockedOther": "An implijer-se a verzas ho kont.",
+        "ProbeError": "Dic'hallus eo tapout ar metaroadennoù ar restr.",
+        "Unlabelled": "Degouezhet ez eus bet ur fazi dianav.",
+        "NetworkError": "Fazi ar genrouedad.",
+        "MissingPermission": "Aotre ebet.",
+        "UnknownError": "Sellout ouzh ar penel ar fazioù.",
+        "OperationFailed": "Ober dic'hallus.",
+        "EmailInUse": "Miret eo ar chomlec'h postel-mañ.",
+        "UnknownUser": "Dianav eo an implijer-mañ.",
+        "AlreadyOnboarded": "Echu eo lestrañ dija.",
+        "UsernameTaken": "Miret eo ar anv implijer-mañ.",
+        "AlreadyFriends": "Dija oc'h mignon gant an implijer-se.",
+        "AlreadySentRequest": "Dija oc'h kaset ur goulenn d'an implijer-se.",
+        "MissingInvite": "Boneg-pediñ ebet er goulenn.",
+        "FailedToReceive": "Ne diraezas ket ar servijer ho restr.",
+        "NoEffect": "Ne voe ket efedus ar goulenn-mañ.",
+        "MissingData": "Roadoù ebet eo ar goulenn.",
+        "InvalidEmail": "Direizh eo ar chomlec'h postel",
+        "UnsupportedBrowser": "Harp ebet eo ar merdeer evit an aezamant-se.",
+        "IoError": "Er servijer ez eus ur fazi enkas/ezkas.",
+        "InvalidCredentials": "Direizh eo ar chomlec'h postel pe ar ger-tremen.",
+        "UnverifiedAccount": "N'eo ket gwiriet ar gont-mañ.",
+        "EmailFailed": "Kasadenn ar postel zo dic'hallus.",
+        "CompromisedPassword": "Lakaet en arvar eo ar ger-tremen."
     },
     "permissions": {
         "server": {
@@ -588,6 +674,27 @@
             "KickMembers": {
                 "d": "Aotren diberzhañ izili all eus servijer-mañ. Izili diberzhet a c'hall dont en-dro gant ur pedadenn.",
                 "t": "Diberzhañ izili"
+            },
+            "ManageChannels": {
+                "t": "Merañ ar C'hanolioù"
+            },
+            "BanMembers": {
+                "t": "Forbanniñ Izili"
+            },
+            "ChangeAvatar": {
+                "t": "Cheñch ar skeudenn profil"
+            },
+            "ManageServer": {
+                "t": "Merañ ar Servijer"
+            },
+            "ChangeNickname": {
+                "t": "Cheñch ho Lesanv"
+            },
+            "ManageNicknames": {
+                "t": "Merañ al Lesanvioù"
+            },
+            "RemoveAvatars": {
+                "t": "Lemel ar skeudennoù profil"
             }
         },
         "channel": {
@@ -604,7 +711,8 @@
                 "t": "Kas Kemennadoù"
             },
             "View": {
-                "d": "Aotren sellout ouzh ar c'hanolioù publik."
+                "d": "Aotren sellout ouzh ar c'hanolioù publik.",
+                "t": "Gwelout ouzh ar C'hanol"
             },
             "EmbedLinks": {
                 "d": "Aotren enkorfañ al liammoù kaset er c'hanolioù skrid.",
@@ -633,6 +741,24 @@
             "date_format": "traditional",
             "date_separator": "/",
             "twelvehour": "yes"
+        },
+        "lastDay": "[Dec'h -] {{time}}",
+        "nextWeek": "dddd [-] {{time}}",
+        "nextDay": "[Warc'hoazh -] {{time}}",
+        "lastWeek": "dddd [tremen -] {{time}}",
+        "sameDay": "[Hiziv -] {{time}}"
+    },
+    "quantities": {
+        "members": {
+            "one": "1 Ezel",
+            "many": "{{count}} Izili"
         }
+    },
+    "notifications": {
+        "now_friends": "Bremañ oc'h mignon gant @{{person}} !",
+        "sent_request": "@{{person}} a gasas deoc'h ur goulenn-mignon."
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
     }
 }
