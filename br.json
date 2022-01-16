@@ -75,7 +75,7 @@
             "feedback": "Grit un evezhiadenn diwar-benn Revolt",
             "group": "Krouiñ ur strollad",
             "settings": "Digeriñ an arventennoù",
-            "group_desc": "Pedit ho mignoned, ur re bennak robotoù, ha bec'h d'ar fest !",
+            "group_desc": "Pedit ho mignoned, ur re bennak robotoù, ha bec'h d'ar fest.",
             "discover_desc": "Kavit ur kumuniezh hervez ho plijadur.",
             "join-testers": "Mont er servijer ar prouaderien",
             "join-testers_desc": "Amañ a c'hallit aroueziañ ar gudennoù ha kaozeal diwar-benn gwellaenn ganeomp.",
@@ -250,7 +250,8 @@
                     "display": {
                         "default": "Dre ziouer",
                         "default_description": "Koant, kran hag arnevez.",
-                        "compact": "Kompakt"
+                        "compact": "Kompakt",
+                        "compact_description": "An IRC mat."
                     },
                     "theme_options": {
                         "title": "Dibarzhioù Danvez",
@@ -350,7 +351,8 @@
                         "default": "Danvezioù dre-ziouer",
                         "viewall": "Gwelout ouzh holl",
                         "manage": "Merañ an danvezioù gwarezet",
-                        "saved": "Gwarezet"
+                        "saved": "Gwarezet",
+                        "highest": "Ar muiañ notennet"
                     },
                     "active": "War elum a-vremañ",
                     "by": "krouet gant",
@@ -452,7 +454,9 @@
                         "founder": "Diazezer·ez",
                         "moderation": "Habaskadur",
                         "supporter": "Harper",
-                        "translator": "Troer"
+                        "translator": "Troer",
+                        "responsible_disclosure": "Beug(où) diguzhet gant atebegezh",
+                        "early_adopter": "Implijer adalek ar penn-kentañ"
                     },
                     "no_servers": "Servijer boutin ebet",
                     "mutual_groups": "Strolladoù boutin",
@@ -486,7 +490,7 @@
                     "confirm_delete": "Dilemel {{name}} ?",
                     "confirm_delete_message_long": "Sur oc'h e fell deoc'h dilemel an dra-se ?",
                     "confirm_delete_long": "N'eus distro ebet ur wech dilamet eo.",
-                    "block_user_long": "Sur oc'h e fell deoc'h berzañ {{name}} ? {{name}} a voe lamet digant ho roll mignoned.",
+                    "block_user_long": "Sur oc'h e fell deoc'h berzañ {{name}} ? Eñ·hi a voe lamet digant ho roll mignoned.",
                     "confirm_kick": "Sur oc'h e fell deoc'h diberzhañ {{name}} ?",
                     "confirm_leave_long": "Ne c'hallit ket dont en-dro hep ur pedadenn nevez.",
                     "confirm_ban": "C'hwi zo war-nes forbanniñ {{name}}",
@@ -674,37 +678,46 @@
         "InvalidCredentials": "Direizh eo ar chomlec'h postel pe ar ger-tremen.",
         "UnverifiedAccount": "N'eo ket gwiriet ar gont-mañ.",
         "EmailFailed": "Kasadenn ar postel zo dic'hallus.",
-        "CompromisedPassword": "Lakaet en arvar eo ar ger-tremen."
+        "CompromisedPassword": "Lakaet en arvar eo ar ger-tremen.",
+        "ReachedMaximumBots": "Niver uhelañ a robotoù a zo bet tizhet."
     },
     "permissions": {
         "server": {
             "ManageRoles": {
-                "t": "Merañ ar perzhioù"
+                "t": "Merañ ar perzhioù",
+                "d": "Aotren an izili da krouiñ, kemmañ ha dilemel perzhioù izeloc'h. Aotren o ivez da kemmañ an aotreoù perzhioù er c'hanolioù."
             },
             "KickMembers": {
                 "d": "Aotren diberzhañ izili all eus servijer-mañ. Izili diberzhet a c'hall dont en-dro gant ur pedadenn.",
                 "t": "Diberzhañ izili"
             },
             "ManageChannels": {
-                "t": "Merañ ar C'hanolioù"
+                "t": "Merañ ar C'hanolioù",
+                "d": "Aotren an izili da krouiñ, kemmañ ha dilemel kanolioù."
             },
             "BanMembers": {
-                "t": "Forbanniñ Izili"
+                "t": "Forbanniñ Izili",
+                "d": "Aotren an izili da lemel izili all eus ar servijer-mañ da vat."
             },
             "ChangeAvatar": {
-                "t": "Cheñch ar skeudenn profil"
+                "t": "Cheñch ar skeudenn profil",
+                "d": "Aotren an izili da cheñch o skeudenn profil er servijer-mañ."
             },
             "ManageServer": {
-                "t": "Merañ ar Servijer"
+                "t": "Merañ ar Servijer",
+                "d": "Aotren an izili da cheñch an anv ar servijer-mañ, hag e deskrivadur, arlun ha titouroù liammet all."
             },
             "ChangeNickname": {
-                "t": "Cheñch ho Lesanv"
+                "t": "Cheñch ho Lesanv",
+                "d": "Aotren an izili da cheñch o lesanv er servijer-mañ."
             },
             "ManageNicknames": {
-                "t": "Merañ al Lesanvioù"
+                "t": "Merañ al Lesanvioù",
+                "d": "Aotren an izili da cheñch al lesanv izili all."
             },
             "RemoveAvatars": {
-                "t": "Lemel ar skeudennoù profil"
+                "t": "Lemel ar skeudennoù profil",
+                "d": "Aotren an izili da lemel ar skeudenn profil izili all er servijer-mañ."
             }
         },
         "channel": {
