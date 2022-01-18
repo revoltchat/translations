@@ -20,18 +20,18 @@
             "current_password": "Voer je huidige wachtwoord in."
         },
         "forgot": "Wachtwoord vergeten?",
-        "reset": "Wachtwoord resetten.",
-        "remembered": "Ga terug naar het inlog-scherm.",
+        "reset": "Reset wachtwoord",
+        "remembered": "Ga terug naar het inlog-scherm",
         "new": "Nieuw bij Revolt?",
-        "create": "Maak een nieuw account aan.",
-        "resend": "Verzend verificatie opnieuw.",
-        "cancel": "Verzoek annuleren.",
+        "create": "Maak een nieuw account aan",
+        "resend": "Stuur verificatie opnieuw",
+        "cancel": "Annuleer verzoek",
         "register": "Registreer",
         "invite": "Uitnodigingscode",
-        "set_password": "Nieuw wachtwoord.",
+        "set_password": "Nieuw wachtwoord instellen",
         "existing": "Heeft u al een account?",
-        "missing_verification": "Geen email gevonden",
-        "check_mail": "Check je email.",
+        "missing_verification": "Geen e-mail ontvangen?",
+        "check_mail": "Check je e-mail!",
         "error": {
             "resend": "Opnieuw verzenden mislukt!",
             "reset": "Resetten mislukt!",
@@ -45,7 +45,11 @@
         "username": "Gebruikersnaam",
         "email": "Email",
         "title": "Inloggen",
-        "email_delay": "Wacht maximaal 10 minuten voordat het arriveert."
+        "email_delay": "Wacht maximaal 10 minuten voordat het arriveert.",
+        "subtitle": "Inlogging bij Revolt",
+        "welcome2": "Hallo!",
+        "subtitle2": "Maak een account aan",
+        "welcome": "Welkom terug!"
     },
     "app": {
         "main": {
@@ -73,7 +77,9 @@
                     "failed_load": "Kan het bericht niet laden.",
                     "blocked_user": "Geblokkeerde gebruiker",
                     "sent_file": "Verstuur een bijlage",
-                    "sent_multiple_files": "Verstuur meerdere bijlagen"
+                    "sent_multiple_files": "Verstuur meerdere bijlagen",
+                    "jump_beginning": "Terug naar het begin",
+                    "new_messages": "Nieuwe berichten sinds {{time_ago}}"
                 },
                 "voice": {
                     "unmute": "Dempen opheffen",
@@ -194,11 +200,24 @@
                     "export_clipboard": "Exporteren naar klembord",
                     "theme_data": "Themagegevens",
                     "custom_css": "Aangepaste CSS",
-                    "ligatures_desc": "Bij ondersteunde lettertypen, ligaturen combineren tekens, bijvoorbeeld -> wordt een pijl. Schakel over naar Inter en probeer deze optie aan te zetten.",
+                    "ligatures_desc": "Bij ondersteunde lettertypen, combineren ligaturen tekens, bijvoorbeeld -> wordt een pijl.",
                     "font": "Lettertype",
                     "ligatures": "Lettertype Ligaturen",
                     "mono_font": "Monospace-lettertypekiezer",
-                    "import": "Importeer een thema"
+                    "import": "Importeer een thema",
+                    "discover": {
+                        "description": "Blader door thema's gemaakt door de gemeenschap",
+                        "title": "Ontdek Thema's"
+                    },
+                    "theme_options": {
+                        "seasonal_desc": "Laat effecten in het home tabblad zien tijdens kerst.",
+                        "transparency": "Transparantie Effecten",
+                        "transparency_desc": "Zet tranparantie effecten door de app aan.",
+                        "title": "Thema Opties",
+                        "follow": "Volg systeem thema",
+                        "follow_desc": "Wanneer aangevinkt, zul je je thema niet meer kunnen aanpassen, of geen aangepast thema kunnen gebruiken.",
+                        "seasonal": "Seizoensgebonden Thema"
+                    }
                 },
                 "sessions": {
                     "created": "Gemaakt {{time_ago}}",
@@ -276,7 +295,7 @@
                     "suggest": "Dien functie suggestie in",
                     "suggest_desc": "Stel nieuwe Revolt-functies voor op GitHub-discussions.",
                     "issue": "Maak een nieuwe issue aan",
-                    "issue_desc": "Om ons gemakkelijker te helpen met het achterhalen van bugs, kunt je een issue op GitHub maken.",
+                    "issue_desc": "Om ons gemakkelijker te helpen met het achterhalen van bugs, kun je een ticket op GitHub maken.",
                     "bug_desc": "Bekijk hier de momenteel actieve bugrapporten."
                 },
                 "logOut": "Uitloggen",
@@ -287,7 +306,8 @@
                         "locale": "Hiermee wordt de momenteel gekozen taal gesynchroniseerd.",
                         "theme": "Schakel het synchroniseren van thema's, kleuren en eigen CSS in.",
                         "appearance": "Schakel het synchroniseren van opties, waaronder emoji paketten en berichtdichtheid, in."
-                    }
+                    },
+                    "options": "Synchronisatie Opties"
                 },
                 "experiments": {
                     "features": "Beschikbare functies",
@@ -304,7 +324,7 @@
                     "title": "Mijn bots",
                     "public_bot_tip": "Bot is openbaar. Iedereen kan het uitnodigen.",
                     "private_bot_tip": "Bot is privé. Alleen jij kunt hem uitnodigen.",
-                    "public_bot": "Publiek Bot",
+                    "public_bot": "Publieke Bot",
                     "interactions_url": "Interacties URL",
                     "reserved": "Opmerking: Dit veld is gereserveerd voor de toekomst.",
                     "create_bot": "Maak een Bot",
@@ -312,7 +332,8 @@
                     "add": "Bot toevoegen",
                     "token": "Token",
                     "public_bot_desc": "Of andere gebruikers deze bot mogen uitnodigen.",
-                    "unique_id": "Dit is een unieke identificatie voor uw bot. Dit is niet het token van de bot."
+                    "unique_id": "Dit is een unieke identificatie voor uw bot. Dit is niet het token van de bot.",
+                    "profile": "Bot profiel"
                 },
                 "audio": {
                     "input_device": "Microfoon",
@@ -325,7 +346,20 @@
                     "button_grant": "Geef toestemming"
                 },
                 "theme_shop": {
-                    "title": "Themawinkel"
+                    "title": "Themawinkel",
+                    "category": {
+                        "default": "Standaard thema's",
+                        "new": "Nieuw deze week",
+                        "manage": "Beheer opgeslagen",
+                        "saved": "Opgeslagen",
+                        "highest": "Hoogst gewaardeerd",
+                        "viewall": "Bekijk alle"
+                    },
+                    "description": "Blader door honderden thema's, gemaakt en samengesteld door de gemeenschap.",
+                    "search": "Zoek thema's...",
+                    "use": "Gebruik thema",
+                    "by": "door",
+                    "active": "Nu actief"
                 }
             },
             "actions": {
@@ -391,6 +425,9 @@
                     "invitor": "Uitnodiger",
                     "channel": "Kanaal",
                     "revoke": "Intrekken"
+                },
+                "management": {
+                    "title": "Gebruiker beheer"
                 }
             },
             "permissions": {
@@ -484,7 +521,7 @@
                 },
                 "external_links": {
                     "title": "Externe links kunnen gevaarlijk zijn!",
-                    "short": "Je navigeert naar deze link:",
+                    "short": "Weet je zeker dat je hier naartoe wilt gaan:",
                     "trust_domain": "Vertrouw dit domein"
                 },
                 "token_reveal": "{{name}}'s Token"
@@ -495,8 +532,8 @@
                     "mutual_friends": "Gemeenschappelijke vrienden",
                     "mutual_groups": "Gemeenschappelijke groepen",
                     "empty": "Het is hier een beetje leeg…",
-                    "no_users": "Geen gemeenschappelijke vrienden!",
-                    "no_groups": "Geen gemeenschappelijke groepen!",
+                    "no_users": "Geen gemeenschappelijke vrienden",
+                    "no_groups": "Geen gemeenschappelijke groepen",
                     "sub": {
                         "badges": "Insignes",
                         "information": "Informatie",
@@ -506,10 +543,12 @@
                         "early_adopter": "Vroege adoptie",
                         "translator": "Vertaler",
                         "supporter": "Supporter",
-                        "responsible_disclosure": "Verantwoord Doorgegeven Bug(s)"
+                        "responsible_disclosure": "Verantwoord Doorgegeven Bug(s)",
+                        "founder": "Oprichter",
+                        "moderation": "Platform Moderatie"
                     },
                     "mutual_servers": "Gemeenschappelijke Servers",
-                    "no_servers": "Geen gemeenschappelijke servers!"
+                    "no_servers": "Geen gemeenschappelijke servers"
                 },
                 "user_picker": {
                     "select": "Selecteer vrienden om toe te voegen."
@@ -589,7 +628,8 @@
             "create_invite": "Creëer uitnodiging",
             "copy_message_link": "Kopieer bericht link",
             "edit_identity": "Bewerk identiteit",
-            "create_category": "Categorie aanmaken"
+            "create_category": "Categorie aanmaken",
+            "mark_unread": "Markeer als gelezen"
         },
         "permissions": {
             "required": "Permissies vereist"
@@ -599,9 +639,18 @@
             "goto-testers": "Ga naar de testers server",
             "donate": "Doneer aan Revolt",
             "feedback": "Geef Revolt feedback",
-            "settings": "Instellingen",
+            "settings": "Open instellingen",
             "settings-tooltip": "Je kunt ook het gebruikersicoon aanklikken links vanboven, of met de linkermuisklik als je al op het thuismenu zit.",
-            "social": "Vind servers & bots"
+            "social": "Vind servers & bots",
+            "directs": "Directe Berichten",
+            "join-testers_desc": "Je kan hier problemen melden en verbeteringen direct met ons bespreken.",
+            "goto-testers_desc": "Je kan hier problemen melden en verbeteringen direct met ons bespreken.",
+            "donate_desc": "Support het project door te doneren - bedankt!",
+            "feedback_desc": "Laat ons weten hoe we onze app kunnen verbeteren door ons feedback te geven.",
+            "discover": "Ontdek Revolt",
+            "discover_desc": "Vind een gemeenschap gebaseerd op je hobby's of interesses.",
+            "group": "Maak een groep",
+            "group_desc": "Nodig al je vrienden uit, een paar coole bots, en gooi een groot feest."
         }
     },
     "quantities": {
