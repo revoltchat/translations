@@ -49,7 +49,8 @@
                     "failed_load": "Yer message could not make it.",
                     "blocked_messages": "{{count}} obscured messages",
                     "jump_beginning": "Start from ye starts",
-                    "blocked_user": "Dead men tell no tales"
+                    "blocked_user": "Dead men tell no tales",
+                    "spoiler_attachment": "Blimey, spoiler"
                 },
                 "nsfw": {
                     "channel": {
@@ -73,7 +74,8 @@
                     "title": "Sear'",
                     "sort": {
                         "oldest": "Olest",
-                        "latest": "Newest"
+                        "latest": "Newest",
+                        "relevance": "Handsomeness"
                     }
                 },
                 "notifications": {
@@ -104,11 +106,12 @@
                 "description": "Cog Tale",
                 "channel_name": "Board Name",
                 "custom_banner": "Custom Sail",
-                "text_channel": "Message Board",
+                "text_channel": "Scribin' deck",
                 "channel_type": "Board Type",
                 "owner": "Ship Captain",
                 "channel_description": "Board Description",
-                "voice_channel": "Speakeasy"
+                "voice_channel": "Speakin' deck",
+                "category_name": "Yer category name"
             }
         },
         "navigation": {
@@ -132,7 +135,9 @@
                 "sessions": {
                     "created": "Created {{time_ago}}",
                     "logout": "Log out o' all other sessions",
-                    "this_device": "Dis Device"
+                    "this_device": "Dis Device",
+                    "title": "Swashbucklin’ session",
+                    "active_sessions": "active swashbucklin’ session"
                 },
                 "appearance": {
                     "title": "Appearance",
@@ -142,23 +147,34 @@
                         "compact_description": "Jolly good barnacle-covered IRC.",
                         "default_description": "Beautiful, sleek n' modern."
                     },
-                    "ligatures_desc": "Fer supported fonts, ligatures combine characters t'gether, fer example, turning -> into a arrow. Switch t' Inter n' try toggling dis option."
+                    "ligatures_desc": "Fer supported fonts, ligatures combine characters t'gether, fer example, turning -> into a arrow. Switch t' Inter n' try toggling dis option.",
+                    "discover": {
+                        "title": "Sail for Themes"
+                    }
                 },
                 "profile": {
                     "fetching": "Fetching yer profile…",
                     "placeholder": "Write sometin' 'bout yer self…",
-                    "title": "Captain’s quarters"
+                    "title": "Captain’s quarters",
+                    "edit_background": "Edit yer jolly roger",
+                    "edit_profile": "Edit yer captain’s quarters",
+                    "info": "'nformation",
+                    "custom_background": "Yer own jolly roger",
+                    "profile_picture": "Yer Jack"
                 },
                 "account": {
                     "title": "Me Account",
                     "unique_id": "Dis be a unique user identifier fer yer account.",
                     "2fa": {
                         "description": "Add a extra layer o' security by enabling 2FA on yer account.",
-                        "title": "Double-Booty Protection"
+                        "title": "Double-booty Protection"
                     },
                     "manage": {
-                        "description": "Disable or delete yer account at any time. Dis action will log ye out n' fully delete yer account, including yer chat history n' crew."
-                    }
+                        "description": "Disable or delete yer account at any time. Dis action will log ye out n' fully delete yer account, including yer chat history n' crew.",
+                        "title": "Manage the captain's quarter",
+                        "delete": "Burn down captain's quarter"
+                    },
+                    "change_field": "Change yarr"
                 },
                 "experiments": {
                     "not_available": "Nay experiments be available at dis time."
@@ -189,8 +205,22 @@
                     "unique_id": "Dis be a unique identifier fer yer bot. Dis be nay thar bot's token."
                 },
                 "audio": {
-                    "tip_retry": "Ye didn't give thar permission t' access yer microphone, please {{retryBtn}}."
+                    "tip_retry": "Ye didn't give thar permission t' access yer microphone, {{retryBtn}}.",
+                    "input_device": "Speakin' horn",
+                    "title": "Speakin' Settins'",
+                    "output_device": "Listenin' horn",
+                    "tip_grant_permission": "Ye need t' grant permission t' access audio settins'."
                 }
+            },
+            "actions": {
+                "upload": "Ye upload",
+                "max_filesize": "(ye max {{filesize}})",
+                "remove": "Blow the dog down"
+            },
+            "title": "Settins'",
+            "categories": {
+                "user_settings": "Pirate Settins'",
+                "client_settings": "Client Settins'"
             }
         },
         "context_menu": {
@@ -241,7 +271,8 @@
             "donate_desc": "Yarrr give some doubloons, ye bilge rat!",
             "join-testers_desc": "Ye can report issues and discuss improvements with us d'rectly here yarr.",
             "goto-testers_desc": "Ye can report issues and discuss improvements with us d'rectly here yarr.",
-            "discover": "Sail the 7 seas"
+            "discover": "Sail the 7 seas",
+            "feedback_desc": "Ye be lettin' us know how t' improve."
         }
     },
     "login": {

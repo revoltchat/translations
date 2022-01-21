@@ -15,7 +15,7 @@
         "email": "E-mail",
         "password": "Hasło",
         "enter": {
-            "email": "Wprowadź swój adres e-mail.",
+            "email": "Wpisz swój adres e-mail.",
             "password": "Wpisz twoje hasło.",
             "username": "Wprowadź preferowaną przez Ciebie nazwę użytkownika.",
             "current_password": "Wprowadź swoje aktualne hasło.",
@@ -38,14 +38,14 @@
         },
         "successful_registration": "Rejestracja pomyślnie się zakończyła!",
         "open_mail_provider": "Otwórz {{provider}}",
-        "check_spam": "Upewnij się czy nie masz wiadomości w spamie",
+        "check_spam": "Proszę sprawdzić spam, jeśli nie możesz go znaleźć",
         "check_mail": "Sprawdź swojego maila!",
-        "resend": "Wyślij ponownie weryfikację",
-        "missing_verification": "Email nie dotarł?",
+        "resend": "Ponowne wysłanie weryfikacji",
+        "missing_verification": "Nie otrzymałeś e-maila?",
         "set_password": "Ustaw nowe hasło",
         "current_password": "Aktualne hasło",
         "invite": "Kod zaproszenia",
-        "email_delay": "Wiadomość E-Mail dotrze do Ciebie w przeciągu najbliższych 10 minut.",
+        "email_delay": "Czas oczekiwania na przesyłkę wynosi do 10 minut.",
         "welcome": "Witamy z powrotem!",
         "subtitle": "Zaloguj się do Revolt",
         "welcome2": "Witam!",
@@ -104,7 +104,7 @@
                 "edited": "(edytowane)",
                 "start": {
                     "group": "To jest początek twojej rozmowy.",
-                    "saved": "To jest początek twoich notatek."
+                    "saved": "To jest początek Twoich notatek."
                 },
                 "voice": {
                     "connected": "Połączono z kanałem głosowym",
@@ -363,7 +363,8 @@
             "open_notification_options": "Opcje powiadomień",
             "create_invite": "Stwórz zaproszenie",
             "create_category": "Stwórz kategorię",
-            "edit_identity": "Edytuj tożsamość"
+            "edit_identity": "Edytuj tożsamość",
+            "mark_unread": "Oznacz jako nieprzeczytane"
         },
         "settings": {
             "pages": {
@@ -406,6 +407,10 @@
                         "follow_desc": "Jeśli zaznaczone, nie będziesz w stanie zmienić motywu ani użyć niestandardowego motywu.",
                         "transparency": "Efekty przezroczystości",
                         "transparency_desc": "Włącza efekty przezroczystości w całej aplikacji."
+                    },
+                    "discover": {
+                        "title": "Odkryj tematy",
+                        "description": "Przeglądaj motywy stworzone przez społeczność"
                     }
                 },
                 "sessions": {
@@ -534,8 +539,8 @@
                     "button_retry": "spróbuj ponownie",
                     "device_label_NA": "niedostępne",
                     "tip_retry": "Nie dałeś pozwolenia na dostęp do twojego mikrofonu? Proszę {{retryBtn}}.",
-                    "tip_grant_permission": "Musisz przyznać uprawnienia dostępu do ustawień audio.",
-                    "button_grant": "Dać pozwolenie"
+                    "tip_grant_permission": "Aby uzyskać dostęp do ustawień audio, konieczne jest przyznanie uprawnień.",
+                    "button_grant": "Udzielenie pozwolenia"
                 },
                 "theme_shop": {
                     "title": "Sklep z motywami",
@@ -638,9 +643,9 @@
             "social": "Odkryj serwery i boty",
             "join-testers": "Dołącz do serwera testerów",
             "goto-testers": "Przejdź do serwera testerów",
-            "donate": "Przekaż darowiznę na Revolt",
-            "feedback": "Przekaż opinię o Revolt",
-            "settings-tooltip": "Możesz także kliknąć prawym przyciskiem myszy ikonę użytkownika w lewym górnym rogu lub lewym przyciskiem myszy, jeśli jesteś już w domu.",
+            "donate": "Przekaż darowiznę na rzecz Revolt",
+            "feedback": "Wystaw opinię na temat Revolt",
+            "settings-tooltip": "Możesz również kliknąć prawym przyciskiem myszy ikonę użytkownika w lewym górnym rogu lub kliknąć ją lewym przyciskiem myszy, jeśli jesteś już w domu.",
             "directs": "Wiadomości bezpośrednie",
             "discover": "Odkryj Revolt",
             "discover_desc": "Znajdź społeczność w oparciu o własne hobby lub zainteresowania.",
@@ -648,7 +653,8 @@
             "group_desc": "Sproś przyjaciół, parę fajnych botów i urządźcie wielką imprezę.",
             "goto-testers_desc": "Tu możesz zgłaszać problemy i dyskutować z nami bezpośrednio na temat usprawnień.",
             "join-testers_desc": "Tu możesz zgłaszać problemy i dyskutować z nami bezpośrednio na temat usprawnień.",
-            "feedback_desc": "Daj znać, jak możemy ulepszyć naszą aplikację, wysyłając nam swoją opinię."
+            "feedback_desc": "Daj znać, jak możemy ulepszyć naszą aplikację, wysyłając nam swoją opinię.",
+            "donate_desc": "Wesprzyj projekt przekazując darowiznę - dziękujemy!"
         }
     },
     "dayjs": {
