@@ -43,7 +43,9 @@
                     "blocked_messages": "{{count}} blokiranih poruka",
                     "sent_file": "Priloži datoteku",
                     "sent_multiple_files": "Poslano je više privitaka",
-                    "blocked_user": "Blokirani korisnik"
+                    "blocked_user": "Blokirani korisnik",
+                    "jump_beginning": "Idi na početak",
+                    "new_messages": "Nova poruka od {{time_ago}}"
                 },
                 "unknown_user": "<Nepoznati korisnik>",
                 "edited": "(uređeno)",
@@ -74,6 +76,9 @@
                     "nochannels": "Ovaj server nema nijedan kanal, ili vi nemate pristup niti jednome.",
                     "title": "Oops, ovdje nema ničega!",
                     "nochannel": "Nema kanala"
+                },
+                "reply": {
+                    "replying": "Odgovaranje"
                 }
             },
             "categories": {
@@ -192,9 +197,20 @@
                     "accent_selector": "Glavna boja",
                     "font": "Font",
                     "import": "Uvezite temu",
-                    "ligatures_desc": "Za podržane fontove, ligature kombiniraju znakove zajedno, na primjer, pretvarajući -> u strelicu. Prebacite se na Inter i pokušajte prebaciti ovu opciju.",
+                    "ligatures_desc": "Za podržane fontove, ligature kombiniraju znakove zajedno, na primjer, pretvarajući -> u strelicu.",
                     "mono_font": "Birač jednoznačnih fontova",
-                    "ligatures": "Font ligatures"
+                    "ligatures": "Font ligatures",
+                    "theme_options": {
+                        "seasonal_desc": "Prikazuje efekte na početnoj stranici tijekom blagdana.",
+                        "transparency": "Transparentnost",
+                        "transparency_desc": "Uključuje efekt transparentnosti u cijeloj aplikaciji.",
+                        "title": "Opcije teme",
+                        "follow": "Koristi temu sustava"
+                    },
+                    "discover": {
+                        "description": "Pregledajte teme koje je stvorila zajednica",
+                        "title": "Pronađi teme"
+                    }
                 },
                 "notifications": {
                     "title": "Obavjesti",
@@ -556,9 +572,18 @@
             "feedback": "Dajte povratne informacije Revoltu",
             "goto-testers": "Idite do servera za testiranje",
             "donate": "Donirajte Revoltu",
-            "settings": "Podešavanja",
+            "settings": "Otvori podešavanja",
             "social": "Nađite servere i botove",
-            "settings-tooltip": "Također možete kliknuti desnom tipkom miša na ikonu korisnika u gornjem lijevom kutu ili je kliknuti lijevom tipkom ako ste već kod kuće."
+            "settings-tooltip": "Također možete kliknuti desnom tipkom miša na ikonu korisnika u gornjem lijevom kutu ili je kliknuti lijevom tipkom ako ste već kod kuće.",
+            "directs": "Direktne poruke",
+            "join-testers_desc": "Možete prijaviti greške i razgovarati o poboljšanjima s nama izravno ovdje.",
+            "goto-testers_desc": "Možete prijaviti greške i razgovarati o poboljšanjima s nama izravno ovdje.",
+            "donate_desc": "Pordžite projekt donacijom - hvala!",
+            "feedback_desc": "Javite nam kako možemo poboljšati našu aplikaciju ostavljajući nam povratne informacije.",
+            "discover": "Istraži Revolt",
+            "discover_desc": "Pronađite zajednicu koja se temelji na vašim hobijima ili interesima.",
+            "group": "Stvori grupu",
+            "group_desc": "Pozovite sve svoje prijatelje, neke cool botove i priredite veliku zabavu."
         }
     },
     "login": {
@@ -571,16 +596,16 @@
         "successful_registration": "Uspješno ste se registrirali!",
         "open_mail_provider": "Otvori {{provider}}",
         "check_spam": "Provjerite neželjenu poštu ako ga ne možete pronaći",
-        "check_mail": "Provjerite svoj sandučić.",
-        "cancel": "Otkaži zahtjev.",
-        "resend": "Ponovno pošalji verifikaciju.",
+        "check_mail": "Provjerite svoj sandučić!",
+        "cancel": "Otkaži zahtjev",
+        "resend": "Ponovno pošalji verifikaciju",
         "missing_verification": "Niste primili e-poruku?",
-        "create": "Napravi novi račun.",
+        "create": "Napravi novi račun",
         "existing": "Već imate račun?",
         "new": "Novi ste na Revolt-u?",
-        "remembered": "Vrati se na prijavu.",
-        "set_password": "Postavi novu lozinku.",
-        "reset": "Promjeni lozinku.",
+        "remembered": "Vrati se na prijavu",
+        "set_password": "Postavi novu lozinku",
+        "reset": "Promjeni lozinku",
         "forgot": "Zaboravili ste lozinku?",
         "enter": {
             "current_password": "Unesite trenutačnu lozinku.",
@@ -596,7 +621,11 @@
         "username": "Korisničko ime",
         "register": "Registrirajte se",
         "title": "Prijavi se",
-        "email_delay": "Pričekajte do 10 minuta da se pojavi."
+        "email_delay": "Pričekajte do 10 minuta da se pojavi.",
+        "welcome": "Dobrodošli natrag!",
+        "subtitle": "Prijavi se u Revolt",
+        "welcome2": "Bok!",
+        "subtitle2": "Napravi račun"
     },
     "general": {
         "loading": "Učitavam…",
