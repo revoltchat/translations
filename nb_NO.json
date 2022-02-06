@@ -9,7 +9,8 @@
                     "suggest": "Send inn funksjonsforslag",
                     "bug": "Feilsporer",
                     "title": "Tilbakemelding",
-                    "bug_desc": "Vis aktive feilrapporter her."
+                    "bug_desc": "Vis aktive feilrapporter her.",
+                    "description": "Send tilbakemelding"
                 },
                 "bots": {
                     "title": "Mine botter",
@@ -23,7 +24,8 @@
                     "interactions_url": "Interaksjonsnettadresse",
                     "reserved": "Merk: Dette feltet er reservert for fremtidig bruk.",
                     "public_bot_desc": "Når andre brukere skal kunne invitere denne botten.",
-                    "unique_id": "Dette er unik identifikator for din bot.\nDette er ikke bot'en sin token-id."
+                    "unique_id": "Dette er unik identifikator for din bot. Dette er ikke boten sin token-id.",
+                    "profile": "Bot profil"
                 },
                 "experiments": {
                     "not_available": "Ingen eksperimenter tilgjengelig nå.",
@@ -37,7 +39,8 @@
                         "appearance": "Synkroniserer innstillinger som f.eks. emoji-pakker og meldingstetthet."
                     },
                     "categories": "Synkroniser kategorier",
-                    "title": "Synkronisering"
+                    "title": "Synkronisering",
+                    "options": "Synkroniseringsinstillinger"
                 },
                 "notifications": {
                     "descriptions": {
@@ -45,7 +48,7 @@
                         "enable_desktop": "Dette vil gi deg merknader mens programmet ditt er åpent."
                     },
                     "enable_push": "Skru på push-varslinger.",
-                    "push_notifications": "Dyttingsmerknader",
+                    "push_notifications": "Pushvarsler",
                     "sound": {
                         "call_leave": "Bruker forlot samtale",
                         "call_join": "Bruker tok del i samtale",
@@ -87,9 +90,22 @@
                     },
                     "theme": "Drakt",
                     "title": "Utseende",
-                    "ligatures_desc": "For støttede skrifter, binder ligaturer tegn sammen, for eksempel -> som pil. Bytt til Inter og prøv å skru på dette igjen.",
+                    "ligatures_desc": "For støttede fonter, binder ligaturer tegn sammen, for eksempel -> som pil.",
                     "ligatures": "Skriftligaturer",
-                    "message_display": "Meldingsvisning"
+                    "message_display": "Meldingsvisning",
+                    "theme_options": {
+                        "title": "Stilinstillinger",
+                        "follow": "Følg systemstilen",
+                        "follow_desc": "Når det er valgt vil du ikke ha muligheten til å endre stil eller velge en modifisert stil.",
+                        "transparency": "Gjennomsiktighet effekter",
+                        "transparency_desc": "Aktiverer gjennomsiktighets effekter for hele appen.",
+                        "seasonal_desc": "Viser effekter på hjemmesiden under høytidsesonger.",
+                        "seasonal": "Sesongbasert stil"
+                    },
+                    "discover": {
+                        "title": "Utforsk Stiler",
+                        "description": "Bla gjennom stiler laget av fellesskapet"
+                    }
                 },
                 "audio": {
                     "output_device": "Høyttaler/hodetelefoner",
@@ -97,10 +113,12 @@
                     "input_device": "Mikrofon",
                     "button_retry": "prøv igjen",
                     "device_label_NA": "Ikke tilgjengelig",
-                    "tip_retry": "Du har ikke tillattet bruk av mikrofonen din, prøv igjen {{retryBtn}}."
+                    "tip_retry": "Du har ikke tillattet bruk av mikrofonen din, prøv igjen {{retryBtn}}.",
+                    "button_grant": "Gi tillatelse",
+                    "tip_grant_permission": "Du må gi oss tillatelse for å nå lydinstillinger."
                 },
                 "sessions": {
-                    "logout": "Logg ut a alle andre økter",
+                    "logout": "Logg ut av alle andre økter",
                     "created": "Opprettet {{time_ago}}",
                     "this_device": "Denne enheten",
                     "active_sessions": "Aktive økter",
@@ -119,9 +137,9 @@
                 "account": {
                     "manage": {
                         "delete": "Slett konto",
-                        "disable": "Skru av konto",
+                        "disable": "Deaktiver konto",
                         "title": "Kontohåndtering",
-                        "description": "Skru av eller slett kontoen din når du vil. Denne handlingen vil logge deg ut og slette kontoen din fullstendig, inkludert sludrehistorikk og venner."
+                        "description": "Deaktiver eller slett kontoen din når du vil. Denne handlingen vil logge deg ut og slette kontoen din fullstendig, inkludert samtalehistorikk og venner."
                     },
                     "2fa": {
                         "remove_auth": "Fjern identitetsbekrefter",
@@ -142,14 +160,27 @@
                     "title": "Skrivebordsinnstillinger"
                 },
                 "theme_shop": {
-                    "title": "Tema Butikk"
+                    "title": "Stilbutikk",
+                    "category": {
+                        "manage": "Administrer lagrede",
+                        "saved": "Lagret",
+                        "new": "Nytt denne uken",
+                        "highest": "Høyest vurderte",
+                        "viewall": "Vis alle",
+                        "default": "Standardstiler"
+                    },
+                    "description": "Bla gjennom hundrevis av stiler laget av fellesskapet.",
+                    "search": "Søk etter stiler...",
+                    "active": "Aktive nå",
+                    "by": "av",
+                    "use": "Bruk stil"
                 }
             },
             "server_pages": {
                 "overview": {
                     "system_messages": "Systemmeldingkanaler",
                     "description": "Kanalbeskrivelse",
-                    "name": "Tjenernavn",
+                    "name": "Servernavn",
                     "title": "Oversikt"
                 },
                 "bans": {
@@ -161,7 +192,7 @@
                 },
                 "invites": {
                     "revoke": "Tilbakekall",
-                    "invitor": "Inviter",
+                    "invitor": "Innbyder",
                     "channel": "Kanal",
                     "code": "Invitasjonskode",
                     "title": "Invitasjoner"
@@ -174,6 +205,9 @@
                 },
                 "members": {
                     "title": "Medlemmer"
+                },
+                "management": {
+                    "title": "Bruker administrering"
                 }
             },
             "tips": {
@@ -199,7 +233,7 @@
                 "role_name": "Rollenavn",
                 "create_role": "Opprett en ny rolle",
                 "channel": "Kanaltilganger",
-                "server": "Tjenertilganger",
+                "server": "Server tillatelser",
                 "default_role": "Forvalg"
             },
             "channel_pages": {
@@ -229,12 +263,14 @@
                     "no_sending": "Du har ikke tilgang til å sende meldinger i denne kanalen.",
                     "failed_load": "Kunne ikke laste inn melding.",
                     "jump_present": "Hopp til nåtid",
-                    "viewing_old": "Viser eldre meldinger"
+                    "viewing_old": "Viser eldre meldinger",
+                    "jump_beginning": "Hopp til begynnelsen",
+                    "new_messages": "Nye meldinger siden {{time_ago}}"
                 },
                 "typing": {
-                    "several": "Du kjenner blott blodets hvisken og benpipernes bøn fra fleres ubevisste sjeleliv…",
-                    "single": "Du kjenner blott blodets hvisken og benpipernes bøn fra {{user}} sitt ubevisste sjeleliv …",
-                    "multiple": "Du kjenner blott blodets hvisken og benpipernes bøn fra {{userlist}} og {{user}} sine ubevisste sjeleliv …"
+                    "several": "Flere personer skriver…",
+                    "single": "{{user}} skriver…",
+                    "multiple": "{{userlist}} og {{user}} skriver…"
                 },
                 "bot": "bott",
                 "search": {
@@ -292,19 +328,24 @@
                     "nochannel": "Ingen kanal",
                     "title": "Oi, det er ingenting her!",
                     "nochannels": "Denne serveren har ingen kanaler, eller du har ikke tilgang til dem."
+                },
+                "reply": {
+                    "replying": "Svarer",
+                    "toggle": "Aktiver/deaktiver pinging av opphavsperson"
                 }
             },
             "servers": {
                 "voice_channel": "Stemmekanal",
                 "custom_banner": "Egendefinert banner",
                 "text_channel": "Tekstkanal",
-                "owner": "Tjenereier",
+                "owner": "Servereier",
                 "channel_description": "Kanalbeskrivelse",
                 "channel_type": "Kanaltype",
                 "channel_name": "Kanalnavn",
-                "description": "Tjenerbeskrivelse",
-                "name": "Tjenernavn",
-                "create": "Opprett en tjener"
+                "description": "Serverbeskrivelse",
+                "name": "Servernavn",
+                "create": "Opprett en server",
+                "category_name": "Navn på kategori"
             },
             "categories": {
                 "conversations": "Samtaler",
@@ -326,7 +367,9 @@
                         "responsible_disclosure": "Ansvarlig innmeldt(e) feil",
                         "early_adopter": "Tidlig bruker",
                         "supporter": "Støttespiller",
-                        "translator": "Oversetter"
+                        "translator": "Oversetter",
+                        "founder": "Grunnlegger",
+                        "moderation": "Platform moderasjon"
                     },
                     "sub": {
                         "badges": "Skilt",
@@ -334,12 +377,12 @@
                         "information": "Info"
                     },
                     "empty": "Det er ganske tomt her …",
-                    "mutual_servers": "Tjenere felles",
+                    "mutual_servers": "Felles servere",
                     "mutual_groups": "Grupper felles",
                     "mutual_friends": "Venner felles",
-                    "no_servers": "Ingen tjenere felles.",
-                    "no_groups": "Ingen grupper felles.",
-                    "no_users": "Ingen venner felles.",
+                    "no_servers": "Ingen felles servere",
+                    "no_groups": "Ingen felles grupper",
+                    "no_users": "Ingen felles venner",
                     "profile": "Profil"
                 },
                 "user_picker": {
@@ -360,7 +403,7 @@
                 "user_count": "{{member_count}} brukere",
                 "accept": "Godta invitasjon",
                 "invited_by": "Invitert av {{user}}",
-                "invalid": "Ugyldig invitasjon.",
+                "invalid": "Ugyldig invitasjon!",
                 "invalid_desc": "Enten finnes ikke invitasjonen, eller så har du ikke lov til å delta."
             },
             "requires_online": "Du må være på nett for å vise dette.",
@@ -422,13 +465,13 @@
                     "copy": "Manuell kopi:",
                     "unavailable": "Utklippstavlen er utilgjengelig!"
                 },
-                "signed_out": "Du ble utlogget.",
-                "error": "Noe gikk galt.",
+                "signed_out": "Du ble logget ut!",
+                "error": "Noe gikk galt!",
                 "token_reveal": "{{name}} sitt symbol",
                 "external_links": {
-                    "title": "Eksterne lenker kan være farlige.",
+                    "title": "Eksterne lenker kan være farlige!",
                     "trust_domain": "Betro dette domenet",
-                    "short": "Er du sikker at du vil gå til: "
+                    "short": "Er du sikker at du vil gå til:"
                 }
             },
             "status": {
@@ -438,7 +481,7 @@
                 "reconnecting": "Kobler til igjen …"
             },
             "friends": {
-                "nobody": "Ingen her enda.",
+                "nobody": "Ingen her ennå!",
                 "outgoing": "Utgående venneforespørsel.",
                 "incoming": "Innkommende venneforespørsel.",
                 "sent": "Utgående",
@@ -451,7 +494,11 @@
                 "pending": "Ventende forespørsler"
             },
             "copy": "Klikk for å kopiere",
-            "copy_username": "Klikk for å kopiere brukernavn"
+            "copy_username": "Klikk for å kopiere brukernavn",
+            "server-badges": {
+                "official": "Offisiell server",
+                "verified": "Verifisert server"
+            }
         },
         "context_menu": {
             "mention": "Nevn",
@@ -488,13 +535,13 @@
             "copy_message_link": "Kopier meldingslenke",
             "copy_mid": "Kopier meldings-ID",
             "copy_cid": "Kopier kanal-ID",
-            "copy_sid": "Kopier tjener-ID",
+            "copy_sid": "Kopier server-ID",
             "copy_uid": "Kopier bruker-ID",
             "copy_text": "Kopier tekst",
             "copy_selection": "Kopier utvalg",
             "copy_id": "Kopier ID",
             "open_group_settings": "Gruppeinnstillinger",
-            "open_server_settings": "Tjenerinnstillinger",
+            "open_server_settings": "Serverinnstillinger",
             "open_channel_settings": "Kanalinnstillinger",
             "open_notification_options": "Merknadsinnstillinger",
             "create_invite": "Opprett invitasjon",
@@ -502,8 +549,9 @@
             "create_channel": "Opprett kanal",
             "delete_channel": "Slett kanal",
             "edit_identity": "Rediger identitet",
-            "delete_server": "Slett tjener",
-            "leave_server": "Forlat tjener"
+            "delete_server": "Slett server",
+            "leave_server": "Forlat server",
+            "mark_unread": "Merk som ulest"
         },
         "navigation": {
             "tabs": {
@@ -515,7 +563,7 @@
             }
         },
         "status": {
-            "idle": "Ikke aktiv",
+            "idle": "Inaktiv",
             "offline": "Frakoblet",
             "invisible": "Usynlig",
             "busy": "Ikke forstyrr",
@@ -523,11 +571,28 @@
         },
         "permissions": {
             "required": "Tilganger kreves"
+        },
+        "home": {
+            "directs": "Direktemelding",
+            "join-testers": "Bli med i tester serveren",
+            "goto-testers": "Gå til tester serveren",
+            "donate": "Doner til Revolt",
+            "settings-tooltip": "Du kan også høyre-klikke bruker ikonet øverst til venstre, eller venstre klikk den hvis du er hjemme allerede.",
+            "feedback": "Gi en tilbakemelding til Revolt",
+            "settings": "Åpne instillinger",
+            "join-testers_desc": "Du kan foreslå forbedringer og rapportere inn feil til oss her.",
+            "goto-testers_desc": "Du kan foreslå forbedringer og rapportere inn feil til oss her.",
+            "donate_desc": "Støtt prosjektet ved å donere - takk!",
+            "feedback_desc": "Fortell oss hvordan vi kan forbedre appen vår ved å gi oss en tilbakemelding.",
+            "discover": "Oppdag Revolt",
+            "discover_desc": "Finn et fellesskap basert på dine hobbyer eller interesser.",
+            "group": "Skap en gruppe",
+            "group_desc": "Inviter alle vennene dine, noen kule bots, og ha en stor fest."
         }
     },
     "error": {
         "NetworkError": "Nettverksfeil.",
-        "FailedToReceive": "Tjeneren klarte ikke å motta filen din.",
+        "FailedToReceive": "Serveren mislyktes med å motta filen din.",
         "RequiredField": "Påkrevd",
         "AlreadySentRequest": "Forespørselen har allerede blitt sendt til denne brukeren.",
         "AlreadyFriends": "Vennskap med denne brukeren er allerede etablert.",
@@ -542,7 +607,7 @@
         "Unauthorized": "Ikke identitetsbekreftet.",
         "DeniedNotification": "Du nektet varslingstilgang. Sjekk sideinnstillingene.",
         "CompromisedPassword": "Dette passordet er i usikker.",
-        "IoError": "Tjeneren støtte på en I/O-feil.",
+        "IoError": "Serveren støttet på en I/O-feil.",
         "ProbeError": "Klarte ikke å hente fil-metadata.",
         "MissingData": "Forespørselen mangler data.",
         "FileTooLarge": "Filen er for stor.",
@@ -553,7 +618,7 @@
         "NoEffect": "Denne forespørselen hadde ingen effekt.",
         "BlockedOther": "Denne brukeren har blokkert deg.",
         "Blocked": "Du har blokkert denne brukeren.",
-        "UsernameTaken": "Brukernavnet er i bruk.",
+        "UsernameTaken": "Brukernavnet er allerede i bruk.",
         "InvalidInvite": "Ugyldig kode",
         "InvalidToken": "Ugyldig symbol",
         "UnknownUser": "Ukjent bruker.",
@@ -570,7 +635,7 @@
         "AudioPermissionBlock": "Ingen tilgang til din mikrofon, sjekk innstillingene for nettleseren din."
     },
     "notifications": {
-        "now_friends": "Du er nå venner med @{{person}}.",
+        "now_friends": "Du er nå venn med @{{person}}!",
         "sent_request": "@{{person}} sendte deg en venneforespørsel."
     },
     "dayjs": {
@@ -621,11 +686,15 @@
             "View": {
                 "d": "Lar medlemmer vise alle kanaler de har denne tilgangen i.",
                 "t": "Vis kanal"
+            },
+            "Masquerade": {
+                "t": "Utkledning",
+                "d": "Tillater medlemmer å endre navn og avatar ved melding."
             }
         },
         "server": {
             "RemoveAvatars": {
-                "d": "Lar medlemmer fjerne andre medlemmers tjeneravatar på denne tjeneren.",
+                "d": "Lar medlemmer fjerne andre medlemmers serveravatar på denne serveren.",
                 "t": "Fjern avatarer"
             },
             "ChangeAvatar": {
@@ -637,20 +706,20 @@
                 "t": "Håndter kallenavn"
             },
             "ChangeNickname": {
-                "d": "Lar medlemmer endre eget kallenavn på denne tjeneren.",
+                "d": "Lar medlemmer endre sitt eget kallenavn i denne serveren.",
                 "t": "Endre kallenavn"
             },
             "BanMembers": {
-                "d": "Lar medlemmer fjerne medlemmer fra denne tjeneren permanent.",
+                "d": "Lar medlemmer fjerne andre fra denne serveren permanent.",
                 "t": "Bannlys medlemmer"
             },
             "KickMembers": {
-                "d": "Lar medlemmer fjerne andre fra denne tjeneren. Utkastede medlemmer kan bli med igjen med invitasjon.",
+                "d": "Lar medlemmer fjerne andre fra denne serveren. Utkastede medlemmer kan bli med igjen med en invitasjon.",
                 "t": "Kast ut medlemmer"
             },
             "ManageServer": {
                 "d": "Tillat medlemmer å endre serverens navn, beskrivelse, ikon og annen relatert info.",
-                "t": "Håndter tjener"
+                "t": "Administrer server"
             },
             "ManageChannels": {
                 "d": "Tillat medlemmer å opprette, redigere og slette kanaler.",
@@ -672,24 +741,24 @@
         "successful_registration": "Registrert!",
         "check_spam": "Sjekk søppelposten hvis du ikke finner den",
         "email_delay": "Det kan ta opptil 10 min. før den er fremme.",
-        "resend": "Send invitasjon på ny.",
+        "resend": "Send invitasjon på ny",
         "open_mail_provider": "Åpne {{provider}}",
-        "check_mail": "Sjekk e-posten din.",
-        "cancel": "Avbryt forespørsel.",
-        "missing_verification": "Ingen e-post?",
-        "create": "Opprett en ny konto.",
+        "check_mail": "Sjekk e-posten din!",
+        "cancel": "Avbryt forespørsel",
+        "missing_verification": "Fikk du ingen e-post?",
+        "create": "Opprett en ny konto",
         "existing": "Har du allerede en konto?",
         "new": "Ny på Revolt?",
-        "remembered": "Gå tilbake til innlogging.",
-        "set_password": "Sett nytt passord.",
-        "reset": "Tilbakestill passord.",
+        "remembered": "Gå tilbake til innlogging",
+        "set_password": "Angi et nytt passord",
+        "reset": "Tilbakestill passord",
         "forgot": "Glemt passordet?",
         "enter": {
             "current_password": "Skriv inn ditt nåværende passord.",
             "invite": "Skriv inn invitasjonskoden din.",
             "password": "Skriv inn passordet ditt.",
-            "email": "Skriv inn din e-postadresse.",
-            "username": "Skriv inn din ønskelige brukernavn."
+            "email": "Skriv inn e-postadressen din.",
+            "username": "Skriv inn din foretrukne brukernavn."
         },
         "current_password": "Nåværende passord",
         "invite": "Invitasjonskode",
@@ -697,7 +766,11 @@
         "email": "E-post",
         "username": "Brukernavn",
         "register": "Registrer",
-        "title": "Logg inn"
+        "title": "Logg inn",
+        "welcome": "Velkommen tilbake!",
+        "subtitle": "Logg inn på Revolt",
+        "welcome2": "Hallo!",
+        "subtitle2": "Opprett en konto"
     },
     "quantities": {
         "members": {
