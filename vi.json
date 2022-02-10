@@ -42,10 +42,14 @@
             "reset": "Khôi phục không thành công!",
             "resend": "Gửi lại không thành công!"
         },
-        "reset": "Khôi phục mật khẩu.",
+        "reset": "Khôi phục mật khẩu",
         "check_mail": "Kiểm tra hòm thư của bạn.",
         "successful_registration": "Đăng ký hoàn tất!",
-        "current_password": "Mật Khẩu Hiện Tại"
+        "current_password": "Mật Khẩu Hiện Tại",
+        "welcome2": "Chào bạn!",
+        "subtitle2": "Tạo tài khoản mới",
+        "welcome": "Mừng bạn trở lại!",
+        "subtitle": "Đăng nhập vào Revolt"
     },
     "app": {
         "status": {
@@ -111,7 +115,9 @@
                     "sent_file": "Đã gửi tệp đính kèm",
                     "sent_multiple_files": "Đã gửi nhiều tệp đính kèm",
                     "blocked_user": "Người Dùng Bị Chặn",
-                    "no_sending": "Bạn không có quyền để gửi tin nhắn trong kênh này."
+                    "no_sending": "Bạn không có quyền để gửi tin nhắn trong kênh này.",
+                    "jump_beginning": "Nhảy đến đầu hội thoại",
+                    "new_messages": "Tin nhắn mới kể từ {{time_ago}}"
                 },
                 "nsfw": {
                     "channel": {
@@ -144,6 +150,10 @@
                     "title": "Ối, không có gì ở đây cả!!!",
                     "nochannels": "Máy chủ này không có kênh nào cả, hoặc bạn không có quyền truy cập vào chúng.",
                     "nochannel": "Không có kênh nào"
+                },
+                "reply": {
+                    "replying": "Đang phản hồi",
+                    "toggle": "Ping tác giả gốc"
                 }
             },
             "groups": {
@@ -176,7 +186,7 @@
                     "font": "Phông Chữ",
                     "emoji_pack": "Gói Emoji",
                     "message_display": "Hiển Thị Tin Nhắn",
-                    "ligatures_desc": "Đối với các phông chữ được hỗ trợ, chữ ghép kết hợp các ký tự với nhau, ví dụ: chuyển -> thành mũi tên. Chuyển sang Inter và thử chuyển đổi tùy chọn này.",
+                    "ligatures_desc": "Đối với các phông chữ được hỗ trợ, chữ ghép kết hợp các ký tự với nhau, ví dụ: chuyển -> thành mũi tên.",
                     "title": "Giao diện",
                     "theme": "Chủ đề",
                     "display": {
@@ -491,7 +501,8 @@
                         "translator": "Phiên dịch viên",
                         "supporter": "Người hỗ trợ dự án",
                         "responsible_disclosure": "Người báo lỗi",
-                        "early_adopter": "Người hỗ trợ từ những ngày đầu"
+                        "early_adopter": "Người hỗ trợ từ những ngày đầu",
+                        "moderation": "Điều hành nền tảng"
                     }
                 },
                 "create_bot": {
@@ -507,7 +518,7 @@
                     "select": "Chọn bàn bè để thêm."
                 }
             },
-            "requires_online": "Bạn phải có kết nối mạng để xem thứ này.",
+            "requires_online": "Bạn phải có kết nối mạng để xem cái này.",
             "invite": {
                 "invited_by": "Được mời bỏi {{user}}",
                 "login": "Đăng nhập vào Revolt",
@@ -529,7 +540,7 @@
             "set_custom_status": "Đặt trạng thái tuỳ chỉnh",
             "copy_selection": "Sao chép phần lựa chọn",
             "copy_sid": "Sao chép ID máy chủ",
-            "mention": "Nhắc tới",
+            "mention": "Đề cập",
             "view_profile": "Xem hồ sơ",
             "kick_member": "Mời thành viên rời khỏi máy chủ",
             "open_link": "Mở liên kết",
@@ -547,7 +558,7 @@
             "copy_cid": "Sao chép ID kênh",
             "add_friend": "Thêm bạn",
             "cancel_friend": "Hủy yêu cầu kết bạn",
-            "custom_status": "Hoạt động tự điều chỉnh",
+            "custom_status": "Trạng thái tùy chỉnh",
             "copy_id": "Sao chép ID",
             "copy_mid": "Sao chép ID tin nhắn",
             "mark_as_read": "Đánh dấu đã đọc",
@@ -556,7 +567,7 @@
             "copy_message_link": "Sao chép liên kết tin nhắn",
             "message_user": "Nhắn tin",
             "edit_message": "Chỉnh sửa tin nhắn",
-            "ban_member": "Cấm vĩnh viễn thành viên",
+            "ban_member": "Cấm thành viên",
             "open_file": "Mở tệp tin",
             "save_file": "Lưu tệp tin",
             "save_video": "Lưu video",
@@ -565,12 +576,28 @@
             "close_dm": "Đóng cuộc trò chuyện riêng",
             "delete_server": "Xóa máy chủ",
             "edit_identity": "Sửa đổi danh tính",
-            "create_category": "Tạo chủ danh mục",
+            "create_category": "Tạo danh mục",
             "create_invite": "Tạo lời mời",
-            "quote_message": "Trích dẫn tin nhắn"
+            "quote_message": "Trích dẫn tin nhắn",
+            "mark_unread": "Đánh dấu là chưa đọc"
         },
         "permissions": {
             "required": "Yêu cầu quyền"
+        },
+        "home": {
+            "join-testers_desc": "Bạn có thể báo cáo vấn đề và trao đổi về những cải tiến trực tiếp với chúng tôi tại đây.",
+            "goto-testers_desc": "Bạn có thể báo cáo vấn đề và trao đổi về những cải tiến trực tiếp với chúng tôi tại đây.",
+            "donate_desc": "Ủng hộ dự án bằng cách quyên góp - cảm ơn bạn rất nhiều!",
+            "feedback_desc": "Giúp chúng tôi cải tiến bằng cách gửi phản hồi.",
+            "discover": "Khám phá Revolt",
+            "group": "Tạo một nhóm mới",
+            "join-testers": "Tham gia máy chủ thử nghiệm",
+            "goto-testers": "Tham gia máy chủ thử nghiệm",
+            "donate": "Ủng hộ Revolt",
+            "feedback": "Đưa phản hồi ý kiến cho Revolt",
+            "settings": "Cài Đặt",
+            "settings-tooltip": "Bạn cũng có thể nhấp chuột phải vào biểu tượng người dùng ở trên cùng bên trái hoặc nhấp chuột trái vào biểu tượng nếu bạn đã ở trang chủ.",
+            "directs": "Tin nhắn trực tiếp"
         }
     },
     "permissions": {
