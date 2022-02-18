@@ -130,15 +130,19 @@
                     "new_messages": "Nnouveaux messages de {{time_ago}}"
                 },
                 "unknown_user": "<Utilisateur inconnu>",
-                "message_where": "Message {{channel_name}}",
+                "message_where": "Envoyer un message sur {{channel_name}}",
                 "message_who": "Envoyer un message à {{person}}",
                 "failed_upload": "Échec du téléversement !",
                 "attached_file": "Pièce jointe {{filename}}",
                 "voice": {
                     "connected": "Voix connectée",
-                    "leave": "Laisser",
+                    "leave": "Partir",
                     "mute": "Muet",
                     "unmute": "Rétablir le son"
+                },
+                "reply": {
+                    "replying": "Répondre à",
+                    "toggle": "Basculer la mention de l'auteur"
                 }
             },
             "groups": {
@@ -169,7 +173,14 @@
             "feedback": "Donnez votre avis sur Revolt",
             "settings": "Ouvrir les paramètres",
             "social": "Trouver des serveurs et des bots",
-            "directs": "Messages Directs"
+            "directs": "Messages Directs",
+            "join-testers_desc": "Vous pouvez signaler les problèmes et discuter de suggestions directement avec nous ici.",
+            "feedback_desc": "Faites-nous savoir comment améliorer notre application en nous donnant vos retours.",
+            "donate_desc": "Supportez le projet en faisant une donation - merci !",
+            "discover": "Découvrir Revolt",
+            "discover_desc": "Trouvez une communauté correspondant à vos passions et à vos intérêts.",
+            "group": "Créer un groupe",
+            "group_desc": "Invitez tous vos amis, des bots cools, et démarrez une grosse fête."
         },
         "settings": {
             "categories": {
@@ -249,25 +260,160 @@
                     "emoji_pack": "Pack d'émojis",
                     "import": "Importer un thème",
                     "theme_data": "Données du thème",
-                    "import_theme": "Importer un thème depuis une chaîne de caractères"
+                    "import_theme": "Importer un thème depuis une chaîne de caractères",
+                    "font": "Police d'écriture",
+                    "discover": {
+                        "description": "Naviguer dans les thèmes créées par la communauté",
+                        "title": "Découvrir des thèmes"
+                    },
+                    "mono_font": "Sélecteur de police d'écriture à chasse fixe",
+                    "overrides": "Surcouches de thème",
+                    "custom_css": "CSS personnalisé",
+                    "sync": "Paramètres de synchronisation"
                 },
                 "notifications": {
                     "sounds": "Sons",
                     "title": "Notifications",
                     "descriptions": {
-                        "enable_desktop": "Ceci va vous envoyer des notifications quand cette application est ouverte."
-                    }
+                        "enable_desktop": "Ceci va vous envoyer des notifications quand cette application est ouverte.",
+                        "enable_push": "Activez pour recevoir les notifications quand vous êtes hors-ligne."
+                    },
+                    "enable_push": "Activer les notifications Push.",
+                    "sound": {
+                        "call_leave": "Un utilisateur a quitté l'appel",
+                        "outbound": "Message envoyé",
+                        "call_join": "Un utilisateur a rejoint l'appel",
+                        "message": "Message reçu"
+                    },
+                    "push_notifications": "Notifications Push",
+                    "enable_desktop": "Activer les notifications de bureau."
                 },
                 "language": {
-                    "title": "Langage"
-                }
+                    "title": "Langage",
+                    "const": "Langues construites",
+                    "other": "Autres paramètres de langue",
+                    "select": "Sélectionnez votre langue"
+                },
+                "bots": {
+                    "token": "Jeton",
+                    "profile": "Profil du bot",
+                    "create_bot": "Créer un bot",
+                    "copy_invite": "Copier le lien d'invitation",
+                    "unique_id": "Ceci est un identifiant unique pour votre bot. Ce n'est pas le jeton de votre bot.",
+                    "title": "Mes bots",
+                    "add": "Ajouter un bot",
+                    "public_bot": "Bot public",
+                    "private_bot_tip": "Votre bot est privé. Vous seul pouvez l'inviter.",
+                    "reserved": "Note : ce champ est réservé à une utilisation future.",
+                    "public_bot_tip": "Votre bot est public. N'importe qui peut l'inviter."
+                },
+                "sync": {
+                    "title": "Synchronisation",
+                    "descriptions": {
+                        "locale": "Cela synchronisera la langue actuellement sélectionnée.",
+                        "appearance": "Cela synchronisera les paramètres telles que les collections d'emoji et la densité des messages.",
+                        "theme": "Cela synchronisera votre choix de thème, vos couleurs et votre CSS personnalisé."
+                    },
+                    "categories": "Synchronisation des catégories",
+                    "options": "Synchronisation des paramètres"
+                },
+                "native": {
+                    "title": "Paramètres de bureau"
+                },
+                "theme_shop": {
+                    "description": "Naviguer à travers des centaines de thèmes, créées et maintenues par la communauté.",
+                    "title": "Boutique de thèmes",
+                    "category": {
+                        "default": "Thèmes par défaut",
+                        "highest": "Les mieux notés",
+                        "viewall": "Voir tout"
+                    },
+                    "search": "Rechercher des thèmes...",
+                    "by": "par"
+                },
+                "feedback": {
+                    "bug": "Traqueur de bugs",
+                    "issue": "Créer un nouveau ticket"
+                },
+                "experiments": {
+                    "features": "Fonctionnalités disponibles",
+                    "title": "Expériences",
+                    "not_available": "Aucune expérience n'est disponible pour le moment."
+                },
+                "donate": {
+                    "title": "Faire un don"
+                },
+                "logOut": "Déconnexion",
+                "source_code": "Code source"
             },
             "actions": {
                 "remove": "Effacer",
                 "upload": "Téléverser",
                 "max_filesize": "(maximum {{filesize}})"
             },
-            "title": "Réglages"
+            "title": "Réglages",
+            "server_pages": {
+                "invites": {
+                    "title": "Invitations",
+                    "code": "Code d'invitation",
+                    "channel": "Salon",
+                    "revoke": "Révoquer"
+                },
+                "overview": {
+                    "description": "Description du salon",
+                    "title": "Vue d'ensemble",
+                    "name": "Nom du serveur"
+                },
+                "roles": {
+                    "title": "Rôles"
+                },
+                "bans": {
+                    "user": "Utilisateur",
+                    "title": "Bannissements",
+                    "no_reason": "Aucune raison de bannissement.",
+                    "reason": "Raison du bannissement",
+                    "revoke": "Révoquer"
+                },
+                "management": {
+                    "title": "Gestion des utilisateurs"
+                },
+                "members": {
+                    "title": "Membres"
+                },
+                "categories": {
+                    "title": "Catégories"
+                }
+            },
+            "channel_pages": {
+                "permissions": {
+                    "title": "Permissions"
+                },
+                "overview": {
+                    "title": "Vue d'ensemble",
+                    "description": "Description du salon",
+                    "name": "Nom du salon"
+                }
+            },
+            "tips": {
+                "account": {
+                    "a": "Vous cherchez à personnaliser votre profil public ?",
+                    "b": "Rendez-vous dans vos paramètres de profil."
+                },
+                "languages": {
+                    "a": "Manque-t-il la langue que vous souhaitiez ?",
+                    "b": "Contribuez à la traduction."
+                },
+                "sessions": {
+                    "b": "sécurisez votre compte en changeant votre mot de passe et en activant l'A2F."
+                }
+            },
+            "permissions": {
+                "role_name": "Nom du rôle",
+                "default_role": "Par défaut",
+                "server": "Permissions du serveur",
+                "channel": "Permissions du salon",
+                "create_role": "Créer un nouveau rôle"
+            }
         },
         "context_menu": {
             "unblock_user": "Débloquer l'utilisateur",
@@ -311,7 +457,46 @@
             "invite": {
                 "invalid": "Invitation invalide !",
                 "invalid_desc": "Cette invitation n'existe pas ou vous n'avez pas la permission de rejoindre."
-            }
+            },
+            "friends": {
+                "sent": "Envoyées",
+                "incoming": "Demande d'ami reçue.",
+                "pending": "Demandes en attente",
+                "blocked": "Bloqués",
+                "outgoing": "Demande d'ami envoyée.",
+                "nobody": "Il n'y a encore personne ici !"
+            },
+            "modals": {
+                "error": "Une erreur est survenue !",
+                "prompt": {
+                    "confirm_delete_long": "Après la suppression, vous ne pourrez pas revenir en arrière.",
+                    "confirm_leave_long": "Vous ne pourrez pas revenir sans être réinvité.",
+                    "confirm_delete": "Supprimer {{name}} ?",
+                    "confirm_leave": "Quitter {{name}} ?",
+                    "confirm_close_dm": "Fermer la conversation avec {{name}} ?"
+                },
+                "onboarding": {
+                    "pick": "Choisissez un nom d'utilisateur avec lequel vous souhaitez être trouvable, il pourra être changé plus tard dans les paramètres."
+                },
+                "clipboard": {
+                    "unavailable": "Le presse-papier n'est pas disponible !",
+                    "copy": "Copie manuelle :"
+                },
+                "signed_out": "Vous avez été déconnecté !",
+                "token_reveal": "Jeton de {{name}}"
+            },
+            "server-badges": {
+                "official": "Serveur officiel",
+                "verified": "Serveur vérifié"
+            },
+            "status": {
+                "connecting": "Connexion…",
+                "reconnecting": "Reconnexion…",
+                "disconnected": "Déconnecté.",
+                "offline": "Hors ligne."
+            },
+            "copy_username": "Cliquez pour copier le nom d'utilisateur",
+            "copy": "Cliquez pour copier"
         },
         "permissions": {
             "required": "Permissions nécessaires"
