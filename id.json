@@ -18,14 +18,14 @@
                     "emoji_pack": "Paket Emoji",
                     "accent_selector": "Aksen Warna",
                     "advanced": "Opsi Lanjutan",
-                    "reset_overrides": "Reset Perubahan",
+                    "reset_overrides": "Setel Ulang Perubahan",
                     "import": "Impor Tema",
                     "theme_data": "Data Tema",
                     "custom_css": "Kustom CSS",
                     "sync": "Opsi Sinkronisasi",
                     "message_display": "Tampilan Pesan",
-                    "font": "Huruf",
-                    "mono_font": "Pilihan Huruf Monospace",
+                    "font": "Font",
+                    "mono_font": "Pilihan Font Monospace",
                     "overrides": "Penggantian Tema",
                     "import_theme": "Impor tema dari string",
                     "ligatures": "Ligatur Font",
@@ -49,14 +49,14 @@
                     "this_device": "Perangkat Ini",
                     "active_sessions": "Sesi Aktif",
                     "title": "Sesi",
-                    "logout": "Keluarkan dari semua sesi lainnya"
+                    "logout": "Keluar dari semua sesi lainnya"
                 },
                 "profile": {
                     "edit_background": "Ubah Latar Belakang",
-                    "custom_background": "Latar Belakang Kustom",
+                    "custom_background": "Latar Belakang Khusus",
                     "profile_picture": "Gambar Profil",
                     "placeholder": "Tulis sesuatu tentang diri Anda…",
-                    "fetching": "Mengambil profil Anda…",
+                    "fetching": "Sedang memuat profil Anda…",
                     "info": "Informasi",
                     "title": "Profil",
                     "edit_profile": "Edit Profil"
@@ -81,8 +81,8 @@
                 "notifications": {
                     "sounds": "Suara",
                     "descriptions": {
-                        "enable_push": "Aktifkan untuk menerima notifikasi ketika kamu tidak aktif.",
-                        "enable_desktop": "Ini akan memberimu notifikasi ketika aplikasi terbuka."
+                        "enable_push": "Aktifkan untuk menerima notifikasi ketika anda sedang tidak aktif.",
+                        "enable_desktop": "Ini akan memberi anda notifikasi ketika aplikasi sedang dibuka."
                     },
                     "enable_desktop": "Aktifkan Notifikasi Desktop.",
                     "title": "Notifikasi",
@@ -93,7 +93,7 @@
                         "outbound": "Pesan Terkirim",
                         "call_join": "Pengguna Bergabung dalam Panggilan"
                     },
-                    "enable_push": "Aktifkan Notifikasi Push."
+                    "enable_push": "Aktifkan Pemberitahuan."
                 },
                 "audio": {
                     "title": "Pengaturan Suara",
@@ -106,9 +106,9 @@
                     "button_grant": "Berikan izin"
                 },
                 "experiments": {
-                    "features": "Fitur Tersedia",
+                    "features": "Fitur yang Tersedia",
                     "title": "Eksperimen",
-                    "not_available": "Tidak ada eksperimen tersedia untuk saat ini."
+                    "not_available": "Tidak ada eksperimen yang tersedia untuk saat ini."
                 },
                 "donate": {
                     "title": "Donasi"
@@ -120,7 +120,7 @@
                     "const": "Bahasa yang sedang dibangun"
                 },
                 "sync": {
-                    "categories": "Kategori Sinkron",
+                    "categories": "Kategori Sinkronisasi",
                     "descriptions": {
                         "appearance": "Ini akan mengsinkronisasai pengaturan seperti paket emoji dan kepadatan pesan.",
                         "locale": "Ini akan mengsinkronisasi bahasa pilihanmu sekarang.",
@@ -136,7 +136,7 @@
                     "add": "Tambahkan Bot",
                     "token": "Token",
                     "reserved": "Catatan: Bagian ini disiapkan untuk masa depan.",
-                    "public_bot_tip": "Bot ini untuk publik. Siapapun bisa mengundangnya.",
+                    "public_bot_tip": "Bot ini publik. Siapapun bisa mengundangnya.",
                     "private_bot_tip": "Ini Bot Pribadi, hanya kamu yang bisa mengundangnya.",
                     "public_bot": "Bot Publik",
                     "public_bot_desc": "Izinkan pengguna lain untuk mengundang bot ini.",
@@ -153,9 +153,9 @@
                     "suggest": "Kirim saran fitur",
                     "bug_desc": "Lihat laporan bug yang sedang aktif disini.",
                     "bug": "Pelacak Bug",
-                    "suggest_desc": "Beri saran fitur baru Revolt di diskusi GitHub.",
+                    "suggest_desc": "Beri saran fitur baru Revolt di GitHub discussions.",
                     "issue": "Laporkan Masalah",
-                    "issue_desc": "Untuk membantu kami mengatasi masalah dengan lebih mudah, kamu bisa laporkan masalah di GitHub.",
+                    "issue_desc": "Untuk membantu kami mengatasi masalah dengan lebih mudah, anda bisa laporkan masalah di GitHub.",
                     "description": "Kirim ulasan"
                 },
                 "logOut": "Keluar",
@@ -198,7 +198,7 @@
             },
             "server_pages": {
                 "roles": {
-                    "title": "Peran"
+                    "title": "Role"
                 },
                 "categories": {
                     "title": "Kategori"
@@ -214,9 +214,9 @@
                     "revoke": "Cabut Undangan"
                 },
                 "bans": {
-                    "no_reason": "Tidak ada alasan larangan.",
-                    "reason": "Alasan Dilarang",
-                    "revoke": "Cabut Larangan",
+                    "no_reason": "Tidak ada alasan diban.",
+                    "reason": "Alasan Diban",
+                    "revoke": "Cabut Ban",
                     "user": "Pengguna",
                     "title": "Ban"
                 },
@@ -227,15 +227,15 @@
                     "title": "Ikhtisar"
                 },
                 "management": {
-                    "title": "Manajemen Pengguna"
+                    "title": "Pengelolaan Pengguna"
                 }
             },
             "permissions": {
                 "server": "Izin Server",
                 "default_role": "Bawaan",
                 "channel": "Izin Saluran",
-                "role_name": "Nama Peran",
-                "create_role": "Buat peran baru"
+                "role_name": "Nama Role",
+                "create_role": "Buat role baru"
             },
             "tips": {
                 "account": {
@@ -254,8 +254,8 @@
         },
         "main": {
             "groups": {
-                "owner": "Pemilik Kelompok",
-                "name": "Nama Kelompok",
+                "owner": "Pemilik Grup",
+                "name": "Nama Grup",
                 "create": "Buat sebuah grup",
                 "description": "Deskripsi Grup"
             },
@@ -266,13 +266,13 @@
                 "misc": {
                     "spoiler_attachment": "Spoiler",
                     "jump_present": "Loncat ke masa sekarang",
-                    "viewing_old": "Melihat pesan lama",
+                    "viewing_old": "Sedang melihat pesan lama",
                     "blocked_messages": "{{count}} pesan diblokir",
                     "failed_load": "Tidak dapat memuat pesan.",
                     "blocked_user": "Pengguna diblokir",
                     "no_sending": "Anda tidak memiliki izin untuk mengirim pesan di saluran ini.",
-                    "sent_file": "Mengirim sebuah lampiran",
-                    "sent_multiple_files": "Mengirim banyak lampiran",
+                    "sent_file": "Lampiran terkirim",
+                    "sent_multiple_files": "Lampiran - lampiran terkirim",
                     "jump_beginning": "Kembali ke awal",
                     "new_messages": "Pesan baru sejak {{time_ago}}"
                 },
@@ -290,7 +290,7 @@
                     "channel_icon_changed": "{{user}} mengubah ikon saluran",
                     "channel_description_changed": "{{user}} mengubah deskripsi saluran",
                     "channel_renamed": "{{user}} mengganti nama saluran menjadi {{name}}",
-                    "removed_by": "{{user}} telah dihapus oleh {{other_user}}",
+                    "removed_by": "{{user}} telah dikeluarkan oleh {{other_user}}",
                     "added_by": "{{user}} telah ditambahkan oleh {{other_user}}",
                     "user_left": "{{user}} keluar",
                     "user_joined": "{{user}} bergabung",
@@ -302,9 +302,9 @@
                     "multiple": "{{userlist}} dan {{user}} sedang mengetik…",
                     "single": "{{user}} sedang mengetik…"
                 },
-                "attached_file": "Terlampir {{filename}}",
-                "failed_upload": "Unggahan gagal!",
-                "uploading_file": "Mengunggah…",
+                "attached_file": "{{filename}} Terlampir",
+                "failed_upload": "Gagal Mengunggah!",
+                "uploading_file": "Sedang Mengunggah…",
                 "message_saved": "Simpan ke catatan Anda",
                 "message_who": "Kirim ke {{person}}",
                 "message_where": "Kirim ke {{channel_name}}",
@@ -313,7 +313,7 @@
                     "muted": "Disenyapkan",
                     "default": "Gunakan Bawaan",
                     "all": "Semua Pesan",
-                    "mention": "Hanya menyebut"
+                    "mention": "Hanya sebutan"
                 },
                 "nsfw": {
                     "channel": {
@@ -356,7 +356,7 @@
                 "channel_name": "Nama Saluran",
                 "channel_description": "Deskripsi Saluran",
                 "owner": "Pemilik Server",
-                "custom_banner": "Spanduk Kustom",
+                "custom_banner": "Banner Khusus",
                 "category_name": "Nama Kategori"
             }
         },
@@ -382,7 +382,7 @@
                 "blocked": "Diblokir",
                 "pending": "Permintaan Tertunda",
                 "incoming": "Permintaan pertemanan masuk.",
-                "sent": "Ramah",
+                "sent": "Tertunda",
                 "nobody": "Tidak ada siapapun di sini!",
                 "from": {
                     "several": "Dari {{userlist}} dan {{count}} lebih banyak lagi…",
@@ -419,36 +419,36 @@
                     "create": "Buat",
                     "update": "Perbarui",
                     "edit": "Ubah",
-                    "send_email": "Kirim Email",
+                    "send_email": "Kirim Surel",
                     "reveal": "Perlihatkan",
-                    "ban": "Larang",
+                    "ban": "Ban",
                     "reload": "Muat Ulang Aplikasi",
                     "preview": "Pratinjau",
-                    "kick": "Tendang",
+                    "kick": "Keluarkan",
                     "remove": "Hapus"
                 },
                 "account": {
                     "change": {
                         "password": "Ganti kata sandi Anda",
                         "username": "Ganti nama pengguna Anda",
-                        "email": "Ganti email Anda"
+                        "email": "Ganti surel Anda"
                     },
-                    "failed": "Gagal merubah!"
+                    "failed": "Gagal mengubah!"
                 },
                 "prompt": {
                     "block_user": "Blokir {{name}}?",
                     "confirm_leave": "Keluar dari {{name}}?",
                     "confirm_delete_message_long": "Apakah anda yakin ingin menghapus ini?",
                     "confirm_delete": "Hapus {{name}}?",
-                    "confirm_ban_reason": "Alasan Larangan",
+                    "confirm_ban_reason": "Alasan Ban",
                     "block_user_long": "Apakah Anda yakin ingin memblokir {{name}}? Dia juga akan dihapus dari daftar teman Anda.",
                     "unfriend_user": "Hapus {{name}}?",
                     "unfriend_user_long": "Anda mungkin tidak dapat berbicara dengan mereka lagi sampai Anda menambahkannya kembali.",
                     "confirm_leave_long": "Anda tidak dapat bergabung kembali kecuali Anda diundang kembali.",
                     "create_invite_generate": "Membuat undangan…",
-                    "confirm_delete_long": "Setelah dihapus, tidak ada jalan untuk kembali.",
+                    "confirm_delete_long": "Setelah dihapus, tidak ada kembali lagi.",
                     "confirm_kick": "Anda yakin ingin mengeluarkan {{name}}?",
-                    "confirm_ban": "Anda akan melarang {{name}}",
+                    "confirm_ban": "Anda akan memban {{name}}",
                     "confirm_close_dm": "Tutup percakapan dengan {{name}}?",
                     "confirm_close_dm_long": "Anda dapat membukanya kembali nanti tetapi akan hilang di kedua sisi.",
                     "create_invite_created": "Ini kode undangan baru Anda:"
@@ -543,7 +543,7 @@
             "copy_mid": "Salin ID pesan",
             "edit_message": "Ubah pesan",
             "open_server_settings": "Pengaturan server",
-            "remove_member": "Hapus dari grup",
+            "remove_member": "Keluarkan dari grup",
             "open_file": "Buka file",
             "leave_server": "Keluar dari server",
             "view_profile": "Tampilkan profil",
@@ -551,13 +551,13 @@
             "reply_message": "Balas",
             "quote_message": "Kutip pesan",
             "mention": "Sebut",
-            "kick_member": "Tendang anggota",
+            "kick_member": "Keluarkan anggota",
             "copy_selection": "Salin seleksi",
             "copy_sid": "Salin ID server",
             "copy_message_link": "Salin tautan pesan",
             "message_user": "Pesan",
             "mark_as_read": "Tandai sebagai dibaca",
-            "ban_member": "Larang anggota",
+            "ban_member": "Ban anggota",
             "copy_link": "Salin Tautan",
             "open_link": "Buka Tautan",
             "unblock_user": "Buka Blokir",
@@ -573,7 +573,7 @@
             "required": "Izin Dibutuhkan"
         },
         "home": {
-            "settings-tooltip": "Kamu juga bisa klik kanan ikon pengguna di kiri atas, atau klik kiri jika kamu berada di beranda.",
+            "settings-tooltip": "Anda juga bisa klik kanan ikon pengguna di kiri atas, atau klik kiri jika sedang berada di beranda.",
             "join-testers": "Bergabunglah dengan server penguji",
             "goto-testers": "Pergi ke server penguji",
             "donate": "Donasi kepada Revolt",
@@ -600,8 +600,8 @@
         },
         "successful_registration": "Pendaftaran berhasil!",
         "open_mail_provider": "Buka {{provider}}",
-        "check_spam": "Cek spam Anda jika tidak dapat menemukannya",
-        "check_mail": "Periksa surat Anda!",
+        "check_spam": "Cek spam jika Anda tidak dapat menemukannya",
+        "check_mail": "Periksa surel Anda!",
         "cancel": "Batalkan permintaan",
         "resend": "Kirim ulang verifikasi",
         "missing_verification": "Tidak mendapatkan e-mail?",
@@ -615,11 +615,11 @@
         "enter": {
             "current_password": "Masukkan kata sandi Anda.",
             "invite": "Masukkan kode undangan Anda.",
-            "email": "Masukkan email anda.",
+            "email": "Masukkan surel anda.",
             "password": "Masukkan kata sandi Anda.",
             "username": "Masukkan nama pengguna pilihan anda."
         },
-        "current_password": "Kata Sandi Saat Ini",
+        "current_password": "Kata Sandi Sekarang",
         "invite": "Kode Undangan",
         "password": "Kata sandi",
         "email": "Email",
@@ -630,14 +630,14 @@
         "welcome": "Selamat datang kembali!",
         "subtitle": "Masuk ke Revolt",
         "welcome2": "Halo!",
-        "subtitle2": "Buat sebuah akun"
+        "subtitle2": "Buat akun"
     },
     "general": {
         "loading": "Memuat…",
         "image_by": "Gambar oleh",
         "privacy": "Kebijakan Privasi",
         "tos": "Persyaratan Layanan",
-        "about": "Tentang",
+        "about": "Tentang Revolt",
         "on": "Aktif",
         "disabled": "Dinonaktifkan",
         "unavailable": "Tak Tersedia",
@@ -656,7 +656,7 @@
         "NetworkError": "Jaringan bermasalah.",
         "UnknownError": "Lihat konsol.",
         "Unavailable": "Tidak ada.",
-        "DatabaseError": "Kesalahan basis data.",
+        "DatabaseError": "Kesalahan database.",
         "MissingHeaders": "Beberapa header hilang.",
         "UnverifiedAccount": "Akun tidak terverifikasi.",
         "Unauthorized": "Tidak sah.",
@@ -766,16 +766,16 @@
         }
     },
     "dayjs": {
-        "lastWeek": "dddd [kemarin] [jam] {{time}}",
+        "lastWeek": "dddd [kemarin] {{time}}",
         "defaults": {
             "date_format": "traditional",
             "date_separator": "/",
             "twelvehour": "no"
         },
-        "nextDay": "[Besok jam] {{time}}",
-        "nextWeek": "dddd [jam] {{time}}",
-        "lastDay": "[Kemarin jam] {{time}}",
-        "sameDay": "[Hari ini pada jam] {{time}}"
+        "nextDay": "[Besok] {{time}}",
+        "nextWeek": "dddd {{time}}",
+        "lastDay": "[Kemarin ] {{time}}",
+        "sameDay": "[Hari ini] {{time}}"
     },
     "quantities": {
         "members": {
