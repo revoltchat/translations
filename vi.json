@@ -27,13 +27,13 @@
             "username": "Nhập tên người dùng của bạn.",
             "email": "Cảm phiền bạn nhập email của mình."
         },
-        "set_password": "Tạo mật khẩu mới.",
-        "remembered": "Quay lại phần đăng nhập.",
+        "set_password": "Tạo mật khẩu mới",
+        "remembered": "Quay lại trang đăng nhập",
         "create": "Tạo tài khoản mới.",
         "missing_verification": "Không có email?",
-        "cancel": "Huỷ yêu cầu.",
+        "cancel": "Huỷ yêu cầu",
         "email_delay": "Làm ơn chờ 10 phút để thư đến tay bạn.",
-        "resend": "Gửi lại yêu cầu xác nhận.",
+        "resend": "Gửi lại yêu cầu xác nhận",
         "check_spam": "Hãy thử kiểm tra hòm thư rác nếu bạn vẫn không tìm thấy",
         "open_mail_provider": "Mở {{provider}}",
         "error": {
@@ -43,7 +43,7 @@
             "resend": "Gửi lại không thành công!"
         },
         "reset": "Khôi phục mật khẩu",
-        "check_mail": "Kiểm tra hòm thư của bạn.",
+        "check_mail": "Kiểm tra hòm thư của bạn!",
         "successful_registration": "Đăng ký hoàn tất!",
         "current_password": "Mật Khẩu Hiện Tại",
         "welcome2": "Chào bạn!",
@@ -204,7 +204,10 @@
                     "custom_css": "CSS tùy chỉnh",
                     "mono_font": "Bộ chọn phông chữ Monospace",
                     "ligatures": "Ký tự chữ",
-                    "advanced": "Cài Đặt Nâng Cao"
+                    "advanced": "Cài Đặt Nâng Cao",
+                    "theme_options": {
+                        "transparency_desc": "Bật hiệu ứng trong suốt trong ứng dụng."
+                    }
                 },
                 "account": {
                     "2fa": {
@@ -271,7 +274,8 @@
                         "appearance": "Thao tác này sẽ đồng bộ hóa các tùy chọn như gói biểu tượng cảm xúc và mật độ tin nhắn.",
                         "locale": "Thao tác này sẽ đồng bộ hóa ngôn ngữ đã chọn của bạn."
                     },
-                    "categories": "Đồng bộ hóa danh mục"
+                    "categories": "Đồng bộ hóa danh mục",
+                    "options": "Tùy Chọn Đồng Bộ Hóa"
                 },
                 "experiments": {
                     "title": "Thử Nghiệm",
@@ -289,7 +293,8 @@
                     "issue": "Tạo một bản phát hành mới",
                     "issue_desc": "Để giúp chúng tôi xử lý các vấn đề một cách dễ dàng hơn, bạn có thể tạo một vấn đề trên GitHub.",
                     "bug": "Trình theo dõi lỗi",
-                    "bug_desc": "Xem các báo cáo về lỗi hiện đang hoạt động tại đây."
+                    "bug_desc": "Xem các báo cáo về lỗi hiện đang hoạt động tại đây.",
+                    "description": "Góp ý phản hồi"
                 },
                 "native": {
                     "title": "Cài Đặt Màn Hình"
@@ -297,16 +302,17 @@
                 "bots": {
                     "title": "Bot Của Tôi",
                     "unique_id": "Đây là ID nhận dạng riêng cho bot của bạn. Đây không phải chữ kí số cho bot của bạn.",
-                    "create_bot": "Tạo một Bot",
+                    "create_bot": "Tạo Bot",
                     "reserved": "Ghi chú: Chỗ này được dành cho tương lai.",
                     "copy_invite": "Sao chép liên kết mời",
                     "add": "Thêm Bot",
                     "token": "Chữ kí số",
-                    "public_bot_tip": "Bot này công khai. Ai cũng có thể mời nó.",
-                    "private_bot_tip": "Bot này bí mật. Chỉ có bạn mới có thể mời nó.",
+                    "public_bot_tip": "Đây là Bot công khai. Có thể được mời bởi bất cứ ai.",
+                    "private_bot_tip": "Đây là Bot riêng tư. Chỉ bạn mới có thể mời.",
                     "public_bot": "Bot công khai",
                     "public_bot_desc": "Có cho phép những người dùng khác mời bot này hay không.",
-                    "interactions_url": "Đường dẫn tương tác"
+                    "interactions_url": "Đường dẫn tương tác",
+                    "profile": "Hồ sơ Bot"
                 },
                 "audio": {
                     "title": "Cài đặt giọng nói",
@@ -317,7 +323,17 @@
                     "button_retry": "thử lại"
                 },
                 "theme_shop": {
-                    "title": "Cửa hàng giao diện"
+                    "title": "Cửa hàng giao diện",
+                    "use": "Sử dụng giao diện",
+                    "category": {
+                        "viewall": "Xem tất cả",
+                        "default": "Giao diện mặc định",
+                        "saved": "Đã lưu",
+                        "highest": "Được đánh giá cao nhất"
+                    },
+                    "by": "bởi",
+                    "description": "Duyệt hàng trăm giao diện được tạo bởi cộng đồng.",
+                    "search": "Tìm kiếm giao diện..."
                 }
             },
             "actions": {
@@ -359,6 +375,9 @@
                 },
                 "categories": {
                     "title": "Danh mục"
+                },
+                "management": {
+                    "title": "Quản lý người dùng"
                 }
             },
             "channel_pages": {
@@ -477,7 +496,7 @@
                 },
                 "external_links": {
                     "trust_domain": "Tin tưởng tên miền này",
-                    "short": "Ban có chắc muốn chuyển hướng đến: ",
+                    "short": "Ban có chắc muốn chuyển hướng đến:",
                     "title": "Liên kết bên ngoài có thể rất nguy hiểm!!!"
                 },
                 "token_reveal": "Chữ kí số của {{name}}"
@@ -489,9 +508,9 @@
                     "mutual_friends": "Bạn Chung",
                     "mutual_servers": "Máy Chủ Chung",
                     "empty": "Hơi trống trải ở đây đấy…",
-                    "no_users": "Không có bạn chung!",
-                    "no_groups": "Không có nhóm chung!",
-                    "no_servers": "Không có máy chủ chung!",
+                    "no_users": "Không có bạn chung",
+                    "no_groups": "Không có nhóm chung",
+                    "no_servers": "Không có máy chủ chung",
                     "sub": {
                         "badges": "Huy hiệu",
                         "information": "Thông tin",
@@ -526,6 +545,9 @@
                 "invalid_desc": "Lời mời không tồn tại hoặc bạn không có quyền tham gia.",
                 "accept": "Chấp nhận lời mời",
                 "user_count": "{{member_count}} người"
+            },
+            "server-badges": {
+                "verified": "Máy Chủ Đã Xác Minh"
             }
         },
         "context_menu": {
