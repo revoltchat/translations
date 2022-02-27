@@ -1,14 +1,14 @@
 {
     "general": {
-        "loading": "Đang Tải…",
-        "disabled": "Tắt",
+        "loading": "Đang tải…",
+        "disabled": "Vô hiệu hóa",
         "on": "Bật",
         "off": "Tắt",
         "image_by": "Hình ảnh bởi",
         "privacy": "Chính Sách Bảo Mật",
         "about": "Thông Tin",
         "tos": "Điều Khoản Dịch Vụ",
-        "unavailable": "Không Khả Dụng"
+        "unavailable": "Không khả dụng"
     },
     "login": {
         "title": "Đăng Nhập",
@@ -18,14 +18,14 @@
         "password": "Mật Khẩu",
         "invite": "Mã Lời Mời",
         "forgot": "Quên mật khẩu?",
-        "new": "Mới tới Revolt?",
-        "existing": "Đã có tài khoản rồi?",
+        "new": "Lần đầu tại Revolt?",
+        "existing": "Đã có tài khoản?",
         "enter": {
             "password": "Nhập mật khẩu của bạn.",
             "current_password": "Nhập mật khẩu hiện tại của bạn.",
             "invite": "Nhập mã lời mời của bạn.",
             "username": "Nhập tên người dùng của bạn.",
-            "email": "Cảm phiền bạn nhập email của mình."
+            "email": "Nhập email của bạn."
         },
         "set_password": "Tạo mật khẩu mới",
         "remembered": "Quay lại trang đăng nhập",
@@ -342,11 +342,14 @@
                         "viewall": "Xem tất cả",
                         "default": "Giao diện mặc định",
                         "saved": "Đã lưu",
-                        "highest": "Được đánh giá cao nhất"
+                        "highest": "Được đánh giá cao nhất",
+                        "new": "Mới trong tuần này",
+                        "manage": "Quản lý đã lưu"
                     },
                     "by": "bởi",
                     "description": "Duyệt hàng trăm giao diện được tạo bởi cộng đồng.",
-                    "search": "Tìm kiếm giao diện..."
+                    "search": "Tìm kiếm giao diện...",
+                    "active": "Hiện đang hoạt động"
                 }
             },
             "actions": {
@@ -534,7 +537,8 @@
                         "supporter": "Người hỗ trợ dự án",
                         "responsible_disclosure": "Người báo lỗi",
                         "early_adopter": "Người hỗ trợ từ những ngày đầu",
-                        "moderation": "Điều hành nền tảng"
+                        "moderation": "Điều hành nền tảng",
+                        "founder": "Nhà sáng lập"
                     }
                 },
                 "create_bot": {
@@ -560,7 +564,8 @@
                 "user_count": "{{member_count}} người"
             },
             "server-badges": {
-                "verified": "Máy Chủ Đã Xác Minh"
+                "verified": "Máy Chủ Đã Xác Minh",
+                "official": "Máy Chủ Chính Thức"
             }
         },
         "context_menu": {
@@ -670,6 +675,9 @@
             "EmbedLinks": {
                 "t": "Đường dẫn được nhúng vào",
                 "d": "Cho phép thành viên đưa ra nội dung được nhúng vào qua đường dẫn họ gửi trên kênh văn bản."
+            },
+            "Masquerade": {
+                "d": "Cho phép các thành viên thay đổi tên và avatar trong mỗi tin nhắn."
             }
         },
         "server": {
