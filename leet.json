@@ -93,31 +93,31 @@
                 "members": "M3M8325"
             },
             "channel": {
-                "message_where": "M355463 {{CH4NN3L_N4M3}}",
-                "message_who": "M355463 {{P3250N}}",
+                "message_where": "M355463 {{channel_name}}",
+                "message_who": "M355463 {{person}}",
                 "message_saved": "54V3 70 Y0U2 N0735",
                 "uploading_file": "UPL04D1N6…",
                 "failed_upload": "F41L3D 70 UPL04D!",
-                "attached_file": "4774CH3D {{F1L3N4M3}}",
+                "attached_file": "4774CH3D {{filename}}",
                 "reply": {
                     "replying": "23PLY1N6 70",
                     "toggle": "7066L3 4U7H02 P1N6"
                 },
                 "typing": {
-                    "single": "{{U532}} 15 7YP1N6…",
-                    "multiple": "{{U532L157}} 4ND {{U532}} 423 7YP1N6…",
+                    "single": "{{user}} 15 7YP1N6…",
+                    "multiple": "{{userlist}} 4ND {{user}} 423 7YP1N6…",
                     "several": "53V324L P30PL3 423 7YP1N6…"
                 },
                 "system": {
-                    "user_joined": "{{U532}} J01N3D",
-                    "user_left": "{{U532}} L3F7",
-                    "user_kicked": "{{U532}} W45 K1CK3D",
-                    "user_banned": "{{U532}} W45 84NN3D",
-                    "added_by": "{{U532}} W45 4DD3D 8Y {{07H32_U532}}",
-                    "removed_by": "{{U532}} W45 23M0V3D 8Y {{07H32_U532}}",
-                    "channel_renamed": "{{U532}} 23N4M3D 7H3 CH4NN3L 70 {{N4M3}}",
-                    "channel_description_changed": "{{U532}} CH4N63D 7H3 CH4NN3L D35C21P710N",
-                    "channel_icon_changed": "{{U532}} CH4N63D 7H3 CH4NN3L 1C0N"
+                    "user_joined": "{{user}} J01N3D",
+                    "user_left": "{{user}} L3F7",
+                    "user_kicked": "{{user}} W45 K1CK3D",
+                    "user_banned": "{{user}} W45 84NN3D",
+                    "added_by": "{{user}} W45 4DD3D 8Y {{other_user}}",
+                    "removed_by": "{{user}} W45 23M0V3D 8Y {{other_user}}",
+                    "channel_renamed": "{{user}} 23N4M3D 7H3 CH4NN3L 70 {{name}}",
+                    "channel_description_changed": "{{user}} CH4N63D 7H3 CH4NN3L D35C21P710N",
+                    "channel_icon_changed": "{{user}} CH4N63D 7H3 CH4NN3L 1C0N"
                 },
                 "start": {
                     "group": "7H15 15 7H3 57427 0F Y0U2 C0NV3254710N.",
@@ -133,11 +133,11 @@
                     "viewing_old": "V13W1N6 0LD32 M3554635",
                     "jump_present": "JUMP 70 P2353N7",
                     "jump_beginning": "JUMP 70 7H3 8361NN1N6",
-                    "new_messages": "N3W M3554635 51NC3 {{71M3_460}}",
+                    "new_messages": "N3W M3554635 51NC3 {{time_ago}}",
                     "spoiler_attachment": "5P01L32",
                     "failed_load": "C0ULDN'7 L04D M355463.",
                     "no_sending": "Y0U D0N'7 H4V3 P32M15510N 70 53ND M3554635 1N 7H15 CH4NN3L.",
-                    "blocked_messages": "{{C0UN7}} 8L0CK3D M3554635",
+                    "blocked_messages": "{{count}} 8L0CK3D M3554635",
                     "blocked_user": "8L0CK3D U532",
                     "sent_file": "53N7 4N 4774CHM3N7",
                     "sent_multiple_files": "53N7 MUL71PL3 4774CHM3N75"
@@ -202,7 +202,7 @@
             "actions": {
                 "remove": "23M0V3",
                 "upload": "UPL04D",
-                "max_filesize": "(M4X {{F1L351Z3}})"
+                "max_filesize": "(M4X {{filesize}})"
             },
             "pages": {
                 "account": {
@@ -236,14 +236,14 @@
                     "title": "535510N5",
                     "active_sessions": "4C71V3 535510N5",
                     "this_device": "7H15 D3V1C3",
-                    "created": "C23473D {{71M3_460}}",
+                    "created": "C23473D {{time_ago}}",
                     "logout": "L06 0U7 0F 4LL 07H32 535510N5"
                 },
                 "audio": {
                     "title": "V01C3 53771N65",
                     "input_device": "M1C20PH0N3",
                     "output_device": "5P34K32 / H34D537",
-                    "tip_retry": "Y0U D1DN'7 61V3 7H3 P32M15510N 70 4CC355 Y0U2 M1C20PH0N3, PL3453 {{2372Y87N}}.",
+                    "tip_retry": "Y0U D1DN'7 61V3 7H3 P32M15510N 70 4CC355 Y0U2 M1C20PH0N3, PL3453 {{retryBtn}}.",
                     "tip_grant_permission": "Y0U N33D 70 624N7 P32M15510N 70 4CC355 4UD10 53771N65.",
                     "device_label_NA": "N/4",
                     "button_retry": "2372Y",
@@ -456,9 +456,9 @@
                 "outgoing": "0U7601N6 F213ND 23QU357.",
                 "nobody": "N080DY H323 Y37!",
                 "from": {
-                    "single": "F20M {{U532}}",
-                    "multiple": "F20M {{U532L157}} 4ND {{U532}}",
-                    "several": "F20M {{U532L157}} 4ND {{C0UN7}} M023…"
+                    "single": "F20M {{user}}",
+                    "multiple": "F20M {{userlist}} 4ND {{user}}",
+                    "several": "F20M {{userlist}} 4ND {{count}} M023…"
                 }
             },
             "status": {
@@ -479,13 +479,13 @@
                     "copy": "M4NU4L C0PY:"
                 },
                 "signed_out": "Y0U W323 516N3D 0U7!",
-                "token_reveal": "{{N4M3}}'5 70K3N",
+                "token_reveal": "{{name}}'5 70K3N",
                 "onboarding": {
                     "welcome": "W3LC0M3 70",
                     "pick": "P1CK 4 U532N4M3 7H47 Y0U W4N7 P30PL3 70 83 48L3 70 F1ND Y0U 8Y, 7H15 C4N 83 CH4N63D L4732 1N 53771N65."
                 },
                 "prompt": {
-                    "confirm_leave": "L34V3 {{N4M3}}?",
+                    "confirm_leave": "L34V3 {{name}}?",
                     "confirm_leave_long": "Y0U W0N'7 83 48L3 70 23J01N UNL355 Y0U 423 23-1NV173D.",
                     "confirm_close_dm": "CL053 C0NV3254710N W17H {{N4M3}}?",
                     "confirm_close_dm_long": "Y0U C4N 23-0P3N 17 L4732 8U7 17 W1LL D154PP342 0N 807H 51D35.",
@@ -687,17 +687,17 @@
         "InvalidInvite": "1nv411d c0d3",
         "AlreadyOnboarded": "41234dy f1n15h3d 0n8042d1n9.",
         "UsernameTaken": "U532n4m3 15 74k3n.",
-        "AlreadyFriends": "Already friends with this user.",
-        "AlreadySentRequest": "Already sent a request to this user.",
-        "Blocked": "You have blocked this user.",
-        "BlockedOther": "This user has blocked you.",
-        "NoEffect": "This request had no effect.",
-        "RequiredField": "Required",
-        "TooShort": "Too short",
-        "TooLong": "Too long",
-        "InvalidEmail": "Invalid email address",
-        "Unavailable": "Unavailable.",
-        "FileTooLarge": "File is too large.",
+        "AlreadyFriends": "41R34DY FR13ND5 W17H 7H15 U532.",
+        "AlreadySentRequest": "41R34DY 53N7 4 R3QU357 70 7H1S U532.",
+        "Blocked": "Y0U h4v3 b10ck3d 7h15 u532.",
+        "BlockedOther": "7h15 u532 h45 b10ck3d y0u.",
+        "NoEffect": "7h1s r3qu35t h4d n0 3ff3ct.",
+        "RequiredField": "R3qu1r3d",
+        "TooShort": "700 5h027",
+        "TooLong": "700 10ng",
+        "InvalidEmail": "1nv411d 3m411 4ddr355",
+        "Unavailable": "Un4v4114b13.",
+        "FileTooLarge": "F113 15 700 14RG3.",
         "FailedToReceive": "Server failed to receive your file.",
         "MissingData": "Request is missing data.",
         "ProbeError": "Failed to get file metadata.",
@@ -722,53 +722,53 @@
                 "d": "Allows members to create, edit and delete channels."
             },
             "ManageServer": {
-                "t": "Manage Server",
+                "t": "M4n4g3 532v32",
                 "d": "Allows members to change this server's name, description, icon and other related information."
             },
             "KickMembers": {
-                "t": "Kick Members",
-                "d": "Allows members to remove members from this server. Kicked members may rejoin with an invite."
+                "t": "K1ck M3mb3r5",
+                "d": "4110w5 m3mb325 t0 23m0v3 m3mb325 f20m th15 532v32. K1ck3d m3mb325 m4y r3j01n w1th 4n 1nv1t3."
             },
             "BanMembers": {
-                "t": "Ban Members",
-                "d": "Allows members to permanently remove members from this server."
+                "t": "B4n M3mb325",
+                "d": "4110w5 m3mb325 t0 p32m4n3nt1y 23m0v3 m3mb325 fr0m th15 532v32."
             },
             "ChangeNickname": {
-                "t": "Change Nickname",
-                "d": "Allows members to change their nickname on this server."
+                "t": "Ch4ng3 N1ckn4m3",
+                "d": "4110w5 m3mb325 t0 ch4ng3 th312 n1ckn4m3 0n th15 532v32."
             },
             "ManageNicknames": {
-                "t": "Manage Nicknames",
-                "d": "Allows members to change the nicknames of other members."
+                "t": "M4n4g3 N1ckn4m35",
+                "d": "4110w5 m3mb325 t0 ch4ng3 th3 n1ckn4m35 0f 0th3r m3mb325."
             },
             "ChangeAvatar": {
-                "t": "Change Avatar",
+                "t": "Ch4ng3 4v742",
                 "d": "Allows members to change their server avatar on this server."
             },
             "RemoveAvatars": {
-                "t": "Remove Avatars",
+                "t": "23m0v3 4v47425",
                 "d": "Allows members to remove the server avatars of other members on this server."
             }
         },
         "channel": {
             "View": {
-                "t": "View Channel",
-                "d": "Allows members to view any channels they have this permission on."
+                "t": "V13w Ch4nn3l",
+                "d": "4110w5 m3mb25 t0 v13w 4ny ch4nn3ls th3y h4v3 th1s p3rm1ss10n 0n."
             },
             "SendMessage": {
-                "t": "Send Messages",
+                "t": "53nd M3ss4g35",
                 "d": "Allows members to send messages in text channels."
             },
             "ManageMessages": {
-                "t": "Manage Messages",
-                "d": "Allows members to delete messages sent by other members."
+                "t": "M4n4g3 M3ss4g35",
+                "d": "4110W5 M3M83R5 T0 D31373 M3554635 S3N7 8Y 07H3R M3M83R5."
             },
             "ManageChannel": {
-                "t": "Manage Channels",
-                "d": "Allows members to edit or delete a channel."
+                "t": "M4N4G3 CH4NN3L5",
+                "d": "4110W5 M3M83R5 T0 3D17 0R D3L373 4 CH4NN31."
             },
             "VoiceCall": {
-                "t": "Voice Call",
+                "t": "V01C3 C4LL",
                 "d": "Allows members to join voice channels."
             },
             "InviteOthers": {
