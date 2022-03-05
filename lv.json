@@ -19,7 +19,7 @@
         "title": "Pieslēgties",
         "register": "Reģistrēties",
         "create": "Izveido jaunu kontu.",
-        "missing_verification": "Trūkst e-pasta?",
+        "missing_verification": "Neatnāca E-pasts?",
         "resend": "Pārsūti verifikācijas saiti.",
         "cancel": "Atcelt pieprasījumu.",
         "email_delay": "Lūdzu uzgaidi līdz 10 minūtēm, lai to saņemtu.",
@@ -34,7 +34,11 @@
             "login": "Neizdevās pieteikties!",
             "reset": "Neizdevās atiestatīt!",
             "resend": "Neizdevās nosūtīt vēlreiz!"
-        }
+        },
+        "welcome2": "Labdien!",
+        "subtitle2": "Uztaisi Kontu",
+        "welcome": "Laipni Lūdzams Atpakaļ!",
+        "subtitle": "Ienāc Atpakaļ Revolt"
     },
     "app": {
         "main": {
@@ -86,7 +90,9 @@
                     "sent_file": "Nosūtīts pielikums",
                     "sent_multiple_files": "Nosūtīti vairāki pielikumi",
                     "spoiler_attachment": "Spoileris",
-                    "no_sending": "Jums nav atļaujas sūtīt ziņojumus šajā kanālā."
+                    "no_sending": "Jums nav atļaujas sūtīt ziņojumus šajā kanālā.",
+                    "jump_beginning": "Aizlec uz sākumu",
+                    "new_messages": "Jaunas ziņas kopš {{time_ago}}"
                 },
                 "edited": "(rediģēts)",
                 "nsfw": {
@@ -117,6 +123,10 @@
                     "title": "Ak, šeit nekā nav!",
                     "nochannels": "Šajā serverī nav kanālu vai arī jums nav piekļuves tiem.",
                     "nochannel": "Nav kanāla"
+                },
+                "reply": {
+                    "replying": "Atbildi uz",
+                    "toggle": "Pārslēgt autora ziņu"
                 }
             },
             "groups": {
@@ -231,7 +241,11 @@
                     "advanced": "Papildu opcijas",
                     "reset_overrides": "Atiestatīt ignorējumus",
                     "mono_font": "Monospace fontu atlasītājs",
-                    "ligatures_desc": "Atbalstītiem fontiem ligatūras apvieno rakstzīmes, piemēram, pārvēršot -> par bultiņu. Pārslēdzieties uz Inter un mēģiniet pārslēgt šo opciju."
+                    "ligatures_desc": "Atbalstītiem fontiem ligatūras apvieno rakstzīmes, piemēram, pārvēršot -> par bultiņu. Pārslēdzieties uz Inter un mēģiniet pārslēgt šo opciju.",
+                    "theme_options": {
+                        "transparency": "Caurspīdīgi Efekti",
+                        "transparency_desc": "Ieslēdz caurspīdīgus efektus visā lietotnē."
+                    }
                 },
                 "notifications": {
                     "title": "Paziņojumi",
@@ -288,7 +302,60 @@
                     "copy_invite": "Kopēt uzaicinājuma saiti",
                     "title": "Mani roboti",
                     "create_bot": "Izveidojiet robotu",
-                    "add": "Pievienojiet Botu"
+                    "add": "Pievienojiet Botu",
+                    "private_bot_tip": "Bots ir privāts. Tikai tu to vari uzaicināt.",
+                    "public_bot": "Publisks Bots",
+                    "profile": "Bota profils",
+                    "public_bot_tip": "Bots ir publisks. Jebkurš var viņu uzaicināt.",
+                    "token": "Žetons",
+                    "reserved": "Ziņa: Šī vieta ir rezervēta nākotnei."
+                },
+                "theme_shop": {
+                    "category": {
+                        "viewall": "Skatīt visus",
+                        "saved": "Saglabāts",
+                        "highest": "Visaugstāk novērtēts",
+                        "new": "Jauns šonedēļ",
+                        "manage": "Pārvaldi saglabātos"
+                    },
+                    "active": "Šobrīt aktīvs",
+                    "by": "autors:"
+                },
+                "feedback": {
+                    "issue": "Uztaisi jaunu problēmu",
+                    "suggest_desc": "Iesaki jaunas Revolt funkcijas mūsu Github diskusijās.",
+                    "suggest": "Sūti funkciju ieteikumu",
+                    "issue_desc": "Lai palīdzētu mums viegli atrast jaunas problēmas, tu vari uztaisīt problēmu iekšā GitHub.",
+                    "bug": "Kļūdu Meklētājs",
+                    "bug_desc": "Skaties šobrīd aktīvas kļūdu problēmas šeit.",
+                    "title": "Atsauksmes",
+                    "description": "Sūti atsauksmi"
+                },
+                "logOut": "Izlagoties ārā"
+            },
+            "server_pages": {
+                "overview": {
+                    "name": "Servera nosaukums",
+                    "system_messages": "Sistēmas Ziņu Kanāli",
+                    "description": "Kanāla apraksts"
+                },
+                "members": {
+                    "title": "Biedri"
+                },
+                "invites": {
+                    "title": "Uzaicinājumi"
+                },
+                "management": {
+                    "title": "Lietotāja vadība"
+                }
+            },
+            "channel_pages": {
+                "overview": {
+                    "description": "Kanāla apraksts",
+                    "name": "Kanāla vārds"
+                },
+                "permissions": {
+                    "title": "Atļaujas"
                 }
             }
         },
@@ -299,7 +366,16 @@
             "donate": "Ziedojiet Revolt",
             "feedback": "Sniedziet atsauksmes par Revolt",
             "settings": "Iestatījumi",
-            "settings-tooltip": "Varat arī ar peles labo pogu noklikšķināt uz lietotāja ikonas augšējā kreisajā stūrī vai ar peles kreiso taustiņu noklikšķināt uz tās, ja jau esat mājās."
+            "settings-tooltip": "Varat arī ar peles labo pogu noklikšķināt uz lietotāja ikonas augšējā kreisajā stūrī vai ar peles kreiso taustiņu noklikšķināt uz tās, ja jau esat mājās.",
+            "directs": "Tiešās ziņas",
+            "join-testers_desc": "Tu vari paziņot kļūdas un pārrunāt labojumus ar mums šeit.",
+            "goto-testers_desc": "Tu vari paziņot problēmas uz pārrunāt labojumus ar mums tieši šeit.",
+            "donate_desc": "Atbalsti projektu ziedojot - paldies!",
+            "feedback_desc": "Pastāsti mums kā mēs varam uzlabot mūsu lietotni sniedzot mums atsauksmes.",
+            "discover": "Atklāj Revolt",
+            "discover_desc": "Atrodi citus cilvēkus ar savām interesēm.",
+            "group": "Uztaisi grupu",
+            "group_desc": "Uzaicini visus savus draugus, labus botus, un uztaisi milzīgu ballīti."
         }
     },
     "general": {
