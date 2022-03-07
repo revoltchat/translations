@@ -75,10 +75,10 @@
                 "system": {
                     "channel_renamed": "{{user}} přejmenovali kanál na {{name}}",
                     "removed_by": "{{user}} byli odstraněny uživatelem {{other_user}}",
-                    "added_by": "{{user}} byl přidán uživatelem  {{other_user}}",
+                    "added_by": "{{user}} byl přidán uživatelem {{other_user}}",
                     "user_joined": "{{user}} se připojili",
                     "user_left": "{{user}} odešli",
-                    "user_kicked": "Uživatel byl vyhozen .",
+                    "user_kicked": "{{user}} byl vyhozen",
                     "channel_description_changed": "{{user}} změnil popis kanálu",
                     "channel_icon_changed": "{{user}} změnil ikonu kanálu",
                     "user_banned": "Uživatel {{user}} byl zabanován"
@@ -92,7 +92,8 @@
                     "failed_load": "Zprávu nelze načíst.",
                     "sent_file": "Odeslal přílohu",
                     "sent_multiple_files": "Odesláno více příloh",
-                    "jump_present": "Přejít do současnosti"
+                    "jump_present": "Přejít do současnosti",
+                    "jump_beginning": "Přejít na začátek"
                 },
                 "message_saved": "Uložit do poznámek",
                 "voice": {
@@ -127,6 +128,9 @@
                     "title": "Jejda, tady nic není!",
                     "nochannels": "Tento server nemá žádné kanály nebo k žádnému nemáte přístup.",
                     "nochannel": "Žádný kanál"
+                },
+                "reply": {
+                    "replying": "Odpovídá na"
                 }
             },
             "categories": {
@@ -136,7 +140,7 @@
                 "participants": "Účastníci"
             },
             "groups": {
-                "create": "Vytvořit skupinu.",
+                "create": "Vytvořit skupinu",
                 "name": "Název skupiny",
                 "owner": "Vlastník skupiny",
                 "description": "Popis skupiny"
@@ -276,7 +280,8 @@
                         "translator": "Překladač",
                         "early_adopter": "Inovátor",
                         "supporter": "Podporovatel",
-                        "founder": "Zakladatel"
+                        "founder": "Zakladatel",
+                        "responsible_disclosure": "Zodpovědně zveřejněné chyby"
                     },
                     "no_servers": "Žádné společné servery",
                     "mutual_servers": "Společné servery"
@@ -289,15 +294,18 @@
                 "create_bot": {
                     "failed": "Chyba při vytváření bota !",
                     "title": "Vytvořit nového bota"
+                },
+                "user_picker": {
+                    "select": "Vyber přátele k pozvání."
                 }
             },
             "copy_username": "Kliknutím zkopírujete uživatelské jméno",
             "copy": "Kliknutím zkopírujete",
             "invite": {
-                "invalid_desc": "Pozvánka nemusí existovat nebo nemáš pravomoce k připojení",
+                "invalid_desc": "Pozvánka nemusí existovat nebo nemáš pravomoce k připojení.",
                 "user_count": "{{member_count}} počet uživatelů",
                 "login": "Přihlásit k Revoltu",
-                "invited_by": "Byl pozván {{user}}",
+                "invited_by": "Pozván uživatelem {{user}}",
                 "accept": "Přijmout pozvánku",
                 "invalid": "Neplatná pozvánka !"
             },
@@ -355,7 +363,8 @@
             "edit_identity": "Upravit identitu",
             "create_category": "Vytvořit kategorii",
             "create_invite": "Vytvořit pozvánku",
-            "open_notification_options": "Nastavení oznámení"
+            "open_notification_options": "Nastavení oznámení",
+            "mark_unread": "Označit jako nepřečtené"
         },
         "settings": {
             "pages": {
@@ -423,7 +432,18 @@
                     "import": "Importuj tému",
                     "ligatures": "Fontové Ligatúry",
                     "ligatures_desc": "U podporovaných písem kurzívou se kombinují znaky dohromady, například změnou -> na šipku. Přepněte na Inter a zkuste tuto možnost přepnout.",
-                    "mono_font": "Monoscape font katalog"
+                    "mono_font": "Monoscape font katalog",
+                    "theme_options": {
+                        "seasonal": "Motiv podle období",
+                        "seasonal_desc": "Ukazuje animace v domovské záložce v období prázdnin.",
+                        "follow": "Použít motiv zařízení",
+                        "title": "Nastavení motivů",
+                        "transparency": "Průhlednost"
+                    },
+                    "discover": {
+                        "title": "Prozkoumej Motivy",
+                        "description": "Procházet motivy vytvořené komunitou"
+                    }
                 },
                 "source_code": "Zdrojový kód",
                 "feedback": {
@@ -433,7 +453,8 @@
                     "suggest": "Odeslat návrh funkce",
                     "bug": "Sledování chyb",
                     "bug_desc": "Zde si můžete prohlédnout aktuálně aktivní hlášení chyb.",
-                    "issue": "Vytvořit nové chybové hlášení"
+                    "issue": "Vytvořit nové chybové hlášení",
+                    "description": "Odeslat zpětnou vazbu"
                 },
                 "notifications": {
                     "title": "Oznámení",
@@ -465,12 +486,13 @@
                 },
                 "sync": {
                     "descriptions": {
-                        "locale": "Tato možnost synchronizuje vaše nastavení jazyka",
+                        "locale": "Tato možnost synchronizuje vaše nastavení jazyka.",
                         "appearance": "Tím se synchronizují možnosti, jako jsou balíčky emodži a hustota zpráv.",
                         "theme": "Tím se synchronizuje vámi zvolené téma, barvy a jakékoli vlastní CSS."
                     },
                     "title": "Synchronizace",
-                    "categories": "Synchronizace kategorií"
+                    "categories": "Synchronizace kategorií",
+                    "options": "Možnosti Synchronizace"
                 },
                 "bots": {
                     "title": "Moji boti",
@@ -518,7 +540,8 @@
                     },
                     "active": "Aktivní",
                     "use": "Použít téma",
-                    "by": "od"
+                    "by": "od",
+                    "search": "Hledat motivy..."
                 }
             },
             "tips": {
@@ -606,7 +629,11 @@
             "donate_desc": "Podpořte projekt darem - děkujeme!",
             "feedback_desc": "Dejte nám vědět, jak můžeme naši aplikaci vylepšit, a poskytněte nám zpětnou vazbu.",
             "directs": "Přímé zprávy",
-            "join-testers_desc": "Zde můžete nahlásit problémy a diskutovat o vylepšeních přímo s námi."
+            "join-testers_desc": "Zde můžete nahlásit problémy a diskutovat o vylepšeních přímo s námi.",
+            "group": "Vytvořit skupinu",
+            "discover": "Prozkoumat Revolt",
+            "discover_desc": "Najdi komunitu podle svých koníčků a zájmů.",
+            "group_desc": "Pozvi všechny své přátele, pár cool botů a uspořádej velkou párty."
         }
     },
     "dayjs": {
@@ -652,15 +679,15 @@
         "MissingPermission": "Chybějící povolení.",
         "EmailInUse": "Použitá Emailový adresa .",
         "AlreadyOnboarded": "Přihlášení dokončeno",
-        "AlreadyFriends": "Už jste přáteli s tímto uživatelem",
+        "AlreadyFriends": "Už jste přáteli s tímto uživatelem.",
         "AlreadySentRequest": "Žádost již byla odeslána tomuto uživateli .",
         "Blocked": "Tento uživatel je již blokován .",
-        "Unavailable": "Nedostupní",
-        "Unauthorized": "Neautorizovaný",
+        "Unavailable": "Nedostupný.",
+        "Unauthorized": "Neautorizovaný.",
         "FailedValidation": "Nepodařilo se ověřit pole .",
-        "MissingHeaders": "Chybějící hlavy",
+        "MissingHeaders": "Chybějící hlavy.",
         "InvalidSession": "Neplatná relace .",
-        "EmailFailed": "Nepodařilo se odeslat Email",
+        "EmailFailed": "Nepodařilo se odeslat e-mail.",
         "InvalidCredentials": "Email nebo heslo je špatné .",
         "InvalidToken": "Neplatný token",
         "BlockedOther": "Tento uživatel tě zablokoval .",
