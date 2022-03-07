@@ -93,7 +93,8 @@
                     "sent_file": "Odeslal přílohu",
                     "sent_multiple_files": "Odesláno více příloh",
                     "jump_present": "Přejít do současnosti",
-                    "jump_beginning": "Přejít na začátek"
+                    "jump_beginning": "Přejít na začátek",
+                    "new_messages": "Nových zpráv od {{time_ago}}"
                 },
                 "message_saved": "Uložit do poznámek",
                 "voice": {
@@ -364,7 +365,8 @@
             "create_category": "Vytvořit kategorii",
             "create_invite": "Vytvořit pozvánku",
             "open_notification_options": "Nastavení oznámení",
-            "mark_unread": "Označit jako nepřečtené"
+            "mark_unread": "Označit jako nepřečtené",
+            "create_channel": "Vytvořit kanál"
         },
         "settings": {
             "pages": {
@@ -438,7 +440,9 @@
                         "seasonal_desc": "Ukazuje animace v domovské záložce v období prázdnin.",
                         "follow": "Použít motiv zařízení",
                         "title": "Nastavení motivů",
-                        "transparency": "Průhlednost"
+                        "transparency": "Průhlednost",
+                        "follow_desc": "Po zvolení již nebude možné motiv měnit, ani používat vlastní motiv.",
+                        "transparency_desc": "Nastaví průhlednost některých prvků v aplikaci."
                     },
                     "discover": {
                         "title": "Prozkoumej Motivy",
@@ -602,6 +606,9 @@
                 },
                 "categories": {
                     "title": "Kategorie"
+                },
+                "management": {
+                    "title": "Správa Uživatelů"
                 }
             },
             "permissions": {
@@ -710,7 +717,8 @@
     "permissions": {
         "server": {
             "ManageRoles": {
-                "t": "Manage roles"
+                "t": "Manage roles",
+                "d": "Umožní členům vytvářet, upravovat a mazat role s menší hodnotou. Mohou také modifikovat jejich oprávnění v nastavení jednotlivých kanálů."
             },
             "KickMembers": {
                 "t": "Vyhodit členy",
@@ -721,15 +729,60 @@
                 "d": "Dovolte členům utvořit, upravit a smazat kanály ."
             },
             "BanMembers": {
-                "t": "Zabanovat člena"
+                "t": "Zabanovat člena",
+                "d": "Umožní členům navždy odstranit jiné členy z tohoto serveru."
             },
             "ManageServer": {
-                "d": "Umožňuje členům změnit název, popis, ikonu a další související informace tohoto serveru."
+                "d": "Umožní členům změnit název serveru, popis, ikonu a další související informace.",
+                "t": "Správa Serveru"
+            },
+            "RemoveAvatars": {
+                "d": "Umožní členům odstranit alternativní profilové obrázky jiných členů na tomto serveru.",
+                "t": "Odstranit Profilové obrázky"
+            },
+            "ChangeAvatar": {
+                "t": "Změnit Profilový obrázek",
+                "d": "Umožní členům nastavit si jiný profilový obrázek pro tento server."
+            },
+            "ManageNicknames": {
+                "t": "Spravovat Přezdívky",
+                "d": "Umožní členům změnit přezdívky ostatních členů."
+            },
+            "ChangeNickname": {
+                "t": "Změnit přezdívku",
+                "d": "Umožní členům změnit si svou přezdívku na tomto serveru."
             }
         },
         "channel": {
             "Masquerade": {
                 "t": "Maškaráda"
+            },
+            "ManageMessages": {
+                "t": "Spravovat Zprávy",
+                "d": "Umožní členům mazat zprávy odeslané ostatními členy."
+            },
+            "ManageChannel": {
+                "d": "Umožní členům editovat nebo mazat kanály.",
+                "t": "Spravovat Kanály"
+            },
+            "View": {
+                "d": "Umožní členům vidět všechny kanály, na kterých mají toto oprávnění."
+            },
+            "SendMessage": {
+                "t": "Posílání Zpráv",
+                "d": "Umožní členům posílání zpráv v textových kanálech."
+            },
+            "UploadFiles": {
+                "t": "Nahrávání Souborů",
+                "d": "Umožní členům nahrávat soubory v textových kanálech."
+            },
+            "VoiceCall": {
+                "t": "Hlasový Hovor",
+                "d": "Umožní členům připojit se k hlasovému hovoru."
+            },
+            "InviteOthers": {
+                "t": "Pozvat Ostatní",
+                "d": "Umožní členům pozvat další uživatele do kanálu."
             }
         }
     }
