@@ -25,7 +25,7 @@
             "current_password": "Nhập mật khẩu hiện tại của bạn.",
             "invite": "Nhập mã lời mời của bạn.",
             "username": "Nhập tên người dùng của bạn.",
-            "email": "Nhập email của bạn."
+            "email": "Nhập địa chỉ email của bạn."
         },
         "set_password": "Tạo mật khẩu mới",
         "remembered": "Quay lại trang đăng nhập",
@@ -43,7 +43,7 @@
             "resend": "Gửi lại không thành công!"
         },
         "reset": "Khôi phục mật khẩu",
-        "check_mail": "Hãy kiểm tra mail của bạn!",
+        "check_mail": "Kiểm tra hòm thư của bạn!",
         "successful_registration": "Đăng ký thành công!",
         "current_password": "Mật Khẩu Hiện Tại",
         "welcome2": "Chào bạn!",
@@ -54,7 +54,7 @@
     "app": {
         "status": {
             "online": "Trực Tuyến",
-            "idle": "Rảnh",
+            "idle": "Bận",
             "invisible": "Vô Hình",
             "offline": "Ngoại Tuyến",
             "busy": "Không Làm Phiền"
@@ -64,7 +64,7 @@
                 "dev": "Nhà Phát Triển",
                 "friends": "Bạn Bè",
                 "unreads": "Chưa Đọc",
-                "saved": "Ghi Chú Đã Lưu",
+                "saved": "Những Ghi Chú",
                 "home": "Trang Chủ"
             }
         },
@@ -79,9 +79,9 @@
                 "message_where": "Gửi tin nhắn đến {{channel_name}}",
                 "message_who": "Gửi tin nhắn đến {{person}}",
                 "failed_upload": "Tải lên thất bại!",
-                "attached_file": "Đã gắn {{filename}}",
+                "attached_file": "Đã đính kèm {{filename}}",
                 "typing": {
-                    "several": "Vài người đang nhắn…",
+                    "several": "Nhiều người đang nhắn…",
                     "single": "{{user}} đang nhắn…",
                     "multiple": "{{userlist}} và {{user}} đang nhắn…"
                 },
@@ -92,19 +92,19 @@
                     "user_banned": "{{user}} đã bị cấm",
                     "added_by": "{{user}} đã được thêm vào bởi {{other_user}}",
                     "channel_renamed": "{{user}} đã đổi tên kênh thành {{name}}",
-                    "channel_description_changed": "{{user}} đã thay đổi thông tin của kênh",
+                    "channel_description_changed": "{{user}} đã thay đổi mô tả của kênh",
                     "channel_icon_changed": "{{user}} đã thay đổi biểu tượng của kênh",
                     "removed_by": "{{user}} đã bị loại bỏ bởi {{other_user}}"
                 },
                 "start": {
-                    "group": "Đây là khởi đầu cuộc trò chuyện của bạn.",
-                    "saved": "Đây là bắt đầu của phần ghi chú của bạn."
+                    "group": "Đây là khởi đầu của cuộc trò chuyện này.",
+                    "saved": "Đây là khởi đầu của phần ghi chú của bạn."
                 },
                 "voice": {
                     "leave": "Ngắt kết nối",
                     "mute": "Tắt âm",
                     "unmute": "Bỏ tắt âm",
-                    "connected": "Đã kết nối giọng nói"
+                    "connected": "Đã kết nối thoại"
                 },
                 "misc": {
                     "viewing_old": "Đang xem các tin nhắn cũ",
@@ -126,14 +126,14 @@
                     },
                     "confirm": "Tôi xác nhận rằng tôi đã đủ 18 tuổi."
                 },
-                "edited": "(đã chỉnh sửa)",
+                "edited": "(đã sửa)",
                 "bot": "máy",
                 "notifications": {
                     "all": "Tất Cả Tin Nhắn",
                     "mention": "Chỉ Đề Cập",
                     "none": "Không có",
                     "muted": "Đã bị tắt âm",
-                    "default": "Sử Dụng Mặc Định"
+                    "default": "Sử Dụng Cài Đặt Mặc Định"
                 },
                 "search": {
                     "title": "Tìm kiếm",
@@ -147,7 +147,7 @@
                 "message_saved": "Lưu vào ghi chú của bạn",
                 "uploading_file": "Đang tải lên…",
                 "errors": {
-                    "title": "Ối, không có gì ở đây cả!!!",
+                    "title": "Ối, không có gì ở đây đâu!",
                     "nochannels": "Máy chủ này không có kênh nào cả, hoặc bạn không có quyền truy cập vào chúng.",
                     "nochannel": "Không có kênh nào"
                 },
@@ -194,12 +194,12 @@
                         "default": "Mặc Định",
                         "compact": "Gọn nhẹ",
                         "default_description": "Đẹp, mượt và hiện đại.",
-                        "compact_description": "Chat chuyển tiếp Internet cũ và tốt."
+                        "compact_description": "IRC thật tuyệt."
                     },
-                    "accent_selector": "Màu được nhấn mạnh",
+                    "accent_selector": "Màu chủ đề",
                     "overrides": "Ghi Đè Lên Chủ Đề",
-                    "reset_overrides": "Sắp xếp lại phần ghi đè",
-                    "import": "Nhập vào một chủ đề",
+                    "reset_overrides": "Khôi phục lại phần ghi đè",
+                    "import": "Nhập vào chủ đề",
                     "import_theme": "Nhập chủ đề từ chuỗi",
                     "theme_data": "Dữ liệu về chủ đề",
                     "custom_css": "CSS tùy chỉnh",
@@ -235,11 +235,11 @@
                         "delete": "Xoá Tài Khoản",
                         "title": "Quản Lí Tài Khoản"
                     },
-                    "unique_id": "Đây là mã định danh người dùng độc nhất cho tài khoản của bạn."
+                    "unique_id": "Đây là mã định danh độc nhất cho tài khoản của bạn."
                 },
                 "profile": {
                     "info": "Thông Tin",
-                    "placeholder": "Viết gì đấy về bản thân…",
+                    "placeholder": "Mô tả chính mình…",
                     "custom_background": "Hình Nền Tuỳ Chỉnh",
                     "edit_background": "Chỉnh Sửa Hình Nền",
                     "fetching": "Đang tìm hồ sơ của bạn…",
@@ -252,7 +252,7 @@
                     "active_sessions": "Các Phiên Đang Hoạt Động",
                     "this_device": "Thiết Bị Này",
                     "created": "Được tạo ra vào {{time_ago}}",
-                    "logout": "Thoát ra khỏi các cuộc họp khác"
+                    "logout": "Thoát ra khỏi mọi phiên khác"
                 },
                 "logOut": "Đăng Xuất",
                 "notifications": {
@@ -296,13 +296,13 @@
                 "donate": {
                     "title": "Ủng Hộ"
                 },
-                "source_code": "Mã Nguồn",
+                "source_code": "Mã Nguồn Mở",
                 "feedback": {
                     "title": "Phản Hồi",
                     "suggest": "Góp ý tính năng",
                     "suggest_desc": "Gợi ý tính năng mới của Revolt ở các cuộc bàn luận trong GitHub.",
                     "issue": "Tạo một bản phát hành mới",
-                    "issue_desc": "Để giúp chúng tôi xử lý các vấn đề một cách dễ dàng hơn, bạn có thể tạo một vấn đề trên GitHub.",
+                    "issue_desc": "Để giúp chúng tôi xử lý các vấn đề một cách dễ dàng hơn, bạn có thể tạo một văn bản đề cập đến một vấn đề trên GitHub.",
                     "bug": "Trình theo dõi lỗi",
                     "bug_desc": "Xem các báo cáo về lỗi hiện đang hoạt động tại đây.",
                     "description": "Góp ý phản hồi"
@@ -409,7 +409,7 @@
             "tips": {
                 "languages": {
                     "a": "Thiếu ngôn ngữ mà bạn muốn?",
-                    "b": "Hỗ trợ các bản dịch khác."
+                    "b": "Góp phần vào các bản dịch khác."
                 },
                 "sessions": {
                     "b": "bảo mật tài khoản của bạn bằng việc đổi mật khẩu và dùng Bảo Mật Hai Lớp.",
@@ -452,7 +452,7 @@
             },
             "modals": {
                 "onboarding": {
-                    "pick": "Chọn tên người dùng mà bạn muốn mọi người có thể tìm thấy bằng cái tên đó, nó có thể được thay đổi sau trong phần cài đặt.",
+                    "pick": "Chọn tên người dùng mà bạn muốn mọi người có thể nhận ra, nó có thể được thay đổi sau trong cài đặt.",
                     "welcome": "Chào mừng đến với"
                 },
                 "prompt": {
@@ -468,7 +468,7 @@
                     "create_invite_generate": "Tạo lời mời…",
                     "confirm_kick": "Bạn có chắc muốn đuổi {{name}} không?",
                     "confirm_ban": "Bạn đang chuẩn bị cấm {{name}}",
-                    "confirm_ban_reason": "Lý Do Cấm",
+                    "confirm_ban_reason": "Lí Do Cấm",
                     "unfriend_user": "Xóa {{name}}?",
                     "block_user": "Chặn {{name}}?",
                     "block_user_long": "Bạn có chắc muốn chặn {{name}}? Họ cũng sẽ bị xóa khỏi danh sách bạn của bạn."
@@ -535,7 +535,7 @@
                     "badges": {
                         "translator": "Phiên dịch viên",
                         "supporter": "Người hỗ trợ dự án",
-                        "responsible_disclosure": "Người báo lỗi",
+                        "responsible_disclosure": "Đã có trách nhiệm báo lỗi nghiêm trọng",
                         "early_adopter": "Người hỗ trợ từ những ngày đầu",
                         "moderation": "Điều hành nền tảng",
                         "founder": "Nhà sáng lập"
@@ -548,7 +548,7 @@
                 "server_identity": {
                     "title": "Thay đổi danh tính ở {{server}}",
                     "nickname": "Biệt danh",
-                    "avatar": "Hình đại diện"
+                    "avatar": "Ảnh đại diện"
                 },
                 "user_picker": {
                     "select": "Chọn bàn bè để thêm."
@@ -588,7 +588,7 @@
             "delete_channel": "Xóa kênh",
             "leave_server": "Rời máy chủ",
             "create_channel": "Tạo kênh",
-            "remove_member": "Xóa khỏi nhóm",
+            "remove_member": "Đuổi khỏi nhóm",
             "delete_message": "Xóa tin nhắn",
             "open_channel_settings": "Cài đặt kênh",
             "copy_uid": "Sao chép ID",
@@ -602,7 +602,7 @@
             "copy_id": "Sao chép ID",
             "copy_mid": "Sao chép ID tin nhắn",
             "mark_as_read": "Đánh dấu đã đọc",
-            "retry_message": "Gửi lại lần nữa",
+            "retry_message": "Thử gửi lại",
             "reply_message": "Trả lời",
             "copy_message_link": "Sao chép liên kết tin nhắn",
             "message_user": "Nhắn tin",
@@ -625,7 +625,7 @@
             "required": "Yêu cầu quyền"
         },
         "home": {
-            "join-testers_desc": "Bạn có thể báo cáo các vấn đề và trao đổi về những cải tiến trực tiếp với chúng tôi tại đây.",
+            "join-testers_desc": "Bạn có thể báo cáo các vấn đề và đóng góp ý kiến trực tiếp với chúng tôi tại đây.",
             "goto-testers_desc": "Bạn có thể báo cáo các vấn đề và trao đổi về những cải tiến trực tiếp với chúng tôi tại đây.",
             "donate_desc": "Ủng hộ dự án bằng cách quyên góp - cảm ơn bạn rất nhiều!",
             "feedback_desc": "Giúp chúng tôi cải tiến bằng cách gửi phản hồi.",
@@ -636,10 +636,10 @@
             "donate": "Ủng hộ Revolt",
             "feedback": "Phản hồi ý kiến cho Revolt",
             "settings": "Mở cài đặt",
-            "settings-tooltip": "Bạn cũng có thể nhấp chuột phải vào biểu tượng người dùng ở trên cùng góc trái hoặc nhấp chuột trái vào biểu tượng nếu bạn đã ở trang chủ.",
-            "directs": "Tin nhắn trực tiếp",
-            "discover_desc": "Tìm một cộng đồng dựa trên sở thích của bạn.",
-            "group_desc": "Mời tất cả các bạn của bạn, những bot thật ngầu và mở một bữa tiệc lớn."
+            "settings-tooltip": "Bạn cũng có thể nhấp chuột phải vào biểu tượng người dùng ở trên cùng góc trái, hoặc nhấp chuột trái vào biểu tượng nếu bạn ở trang chủ.",
+            "directs": "Tin Nhắn Trực Tiếp",
+            "discover_desc": "Tìm cộng đồng dựa trên sở thích của bạn.",
+            "group_desc": "Mời tất cả các bạn của bạn, những bot thật ngầu và bày bữa tiệc lớn."
         }
     },
     "permissions": {
@@ -650,34 +650,35 @@
             },
             "SendMessage": {
                 "t": "Gửi Tin Nhắn",
-                "d": "Cho phép thành viên gửi tin nhắn trên kênh chat."
+                "d": "Cho phép thành viên gửi tin nhắn trên kênh tin nhắn."
             },
             "UploadFiles": {
                 "t": "Tải Lên Tệp",
                 "d": "Cho phép thành viên gửi tệp lên kênh tin nhắn."
             },
             "ManageMessages": {
-                "t": "Quản Lý Tin Nhắn",
+                "t": "Quản Lí Tin Nhắn",
                 "d": "Cho phép thành viên xóa tin nhắn của các thành viên khác."
             },
             "ManageChannel": {
                 "d": "Cho phép thành viên chỉnh sửa hoặc xóa kênh.",
-                "t": "Quản Lý Kênh"
+                "t": "Quản Lí Kênh"
             },
             "VoiceCall": {
                 "t": "Hội Thoại",
                 "d": "Cho phép thành viên vào kênh thoại."
             },
             "InviteOthers": {
-                "t": "Mời Người khác",
+                "t": "Mời Người Khác",
                 "d": "Cho phép thành viên mời người khác vào kênh."
             },
             "EmbedLinks": {
-                "t": "Đường dẫn được nhúng vào",
+                "t": "Nhúng Liên Kết",
                 "d": "Cho phép thành viên đưa ra nội dung được nhúng vào qua đường dẫn họ gửi trên kênh văn bản."
             },
             "Masquerade": {
-                "d": "Cho phép các thành viên thay đổi tên và avatar trong mỗi tin nhắn."
+                "d": "Cho phép các thành viên thay đổi tên và ảnh đại diện của họ trên mỗi tin nhắn.",
+                "t": "Hóa Trang"
             }
         },
         "server": {
@@ -686,19 +687,19 @@
                 "t": "Xoá ảnh đại diện"
             },
             "ManageRoles": {
-                "t": "Quản lý vai trò",
+                "t": "Quản Lí Vai Trò",
                 "d": "Cho phép các thành viên tạo, chỉnh sửa và xóa các vai trò có thứ hạng thấp hơn của họ. Đồng thời cho phép họ sửa đổi quyền vai trò trên các kênh."
             },
             "ManageChannels": {
-                "t": "Quản lý kênh",
+                "t": "Quản Lí Kênh",
                 "d": "Cho phép các thành viên tạo, chỉnh sửa và xóa kênh."
             },
             "ManageServer": {
-                "t": "Quản lý máy chủ",
+                "t": "Quản Lí Máy Chủ",
                 "d": "Cho phép các thành viên thay đổi tên, mô tả, biểu tượng của máy chủ này và các thông tin liên quan khác."
             },
             "KickMembers": {
-                "t": "Đuổi thành viên",
+                "t": "Đuổi Thành Viên",
                 "d": "Cho phép xóa thành viên khỏi máy chủ này. Các thành viên bị đuổi có thể tham gia lại với một lời mời khác."
             },
             "ChangeAvatar": {
@@ -726,7 +727,7 @@
         "UnverifiedAccount": "Tài khoản chưa xác thực.",
         "EmailInUse": "Email đã được sử dụng.",
         "AlreadySentRequest": "Đã gửi yêu cầu cho người dùng này trước đó.",
-        "CompromisedPassword": "Mật khẩu này đã bị xâm phạm.",
+        "CompromisedPassword": "Mật khẩu này đã bị rò rỉ.",
         "ReachedMaximumBots": "Bạn đã đạt đến số lượng bot tối đa.",
         "InvalidToken": "Token không hợp lệ",
         "MissingInvite": "Thiếu mã mời trong yêu cầu.",
@@ -754,13 +755,13 @@
         "NetworkError": "Lỗi mạng.",
         "InvalidEmail": "Địa chỉ mail không hợp lệ",
         "Unlabelled": "Chuyện gì đó đã xảy ra.",
-        "IoError": "Máy chủ đã gặp lỗi I/O.",
+        "IoError": "Máy chủ đã gặp lỗi đầu vào/đầu ra.",
         "FailedValidation": "Không xác thực được các trường.",
         "AudioPermissionBlock": "Không có quyền truy cập vào microphone của bạn, vui lòng kiểm tra cài đặt trình duyệt của bạn.",
         "UnknownUser": "Người dùng không xác định.",
         "AlreadyOnboarded": "Đã hoàn thành giới thiệu.",
         "MissingHeaders": "Bạn đang thiếu tiêu đề.",
-        "ProbeError": "Thất bại trong việc lấy file siêu dữ liệu.",
+        "ProbeError": "Thất bại trong việc lấy thông tin của tệp.",
         "RenderFail": "Template rendering failed là cái gì đấy."
     },
     "notifications": {
