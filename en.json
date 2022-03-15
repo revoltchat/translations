@@ -8,7 +8,21 @@
         "on": "On",
         "off": "Off",
         "disabled": "Disabled",
-        "unavailable": "Unavailable"
+        "unavailable": "Unavailable",
+        "new": "New",
+        "app": "App",
+        "under_construction": "This section is under construction.",
+        "copied": "Copied!",
+        "system_messages": {
+            "user_joined": "User Joined",
+            "user_left": "User Left",
+            "user_kicked": "User Kicked",
+            "user_banned": "User Banned"
+        },
+        "markdown_tip": {
+            "a": "Descriptions support Markdown formatting,",
+            "b": "learn more here."
+        }
     },
     "login": {
         "title": "Login",
@@ -44,6 +58,7 @@
         "check_spam": "Please check spam if you can't find it",
         "open_mail_provider": "Open {{provider}}",
         "successful_registration": "Successfully registered!",
+        "captcha_question": "Are you human?",
         "error": {
             "create": "Failed to register!",
             "login": "Failed to login!",
@@ -99,6 +114,12 @@
                 "uploading_file": "Uploading…",
                 "failed_upload": "Failed to upload!",
                 "attached_file": "Attached {{filename}}",
+                "edit_message_tip": {
+                    "a": "\"Esc\" to",
+                    "b": "cancel • ",
+                    "c": "Enter to",
+                    "d": "save"
+                },
                 "reply": {
                     "replying": "Replying to",
                     "toggle": "Toggle author ping"
@@ -171,6 +192,14 @@
                     "title": "Oops, there's nothing here!",
                     "nochannels": "This server has no channels, or you don't have access to any.",
                     "nochannel": "No channel"
+                },
+                "members_offline_tip": {
+                    "a": "Offline users temporarily disabled for this server, see issue",
+                    "b": "for when this will be resolved."
+                },
+                "members_offline_enable_tip": {
+                    "a": "You may re-enable them in",
+                    "b": "experiments"
                 }
             },
             "groups": {
@@ -190,7 +219,8 @@
                 "custom_banner": "Custom Banner",
                 "owner": "Server Owner",
                 "text_channel": "Text Channel",
-                "voice_channel": "Voice Channel"
+                "voice_channel": "Voice Channel",
+                "server_settings": "Server settings"
             }
         },
         "settings": {
@@ -213,13 +243,20 @@
                         "title": "Two-factor Authentication",
                         "description": "Add an extra layer of security by enabling 2FA on your account.",
                         "add_auth": "Add Authenticator",
-                        "remove_auth": "Remove Authenticator"
+                        "remove_auth": "Remove Authenticator",
+                        "setup_2factor": "Set up Two-factor authentication",
+                        "description_soon": {
+                            "a": "Two-factor authentication is currently work-in-progress, see",
+                            "b": "v1 milestone here"
+                        }
                     },
                     "manage": {
                         "title": "Account Management",
                         "description": "Disable or delete your account at any time. This action will log you out and fully delete your account, including your chat history and friends.",
                         "disable": "Disable Account",
-                        "delete": "Delete Account"
+                        "delete": "Delete Account",
+                        "disabled_account_desc": "Disable your account. You won't be able to access it unless you log back in.",
+                        "delete_account_desc": "Delete your account, including all of your data. (sends an email to contact@revolt.chat)"
                     }
                 },
                 "profile": {
@@ -230,14 +267,19 @@
                     "profile_picture": "Profile Picture",
                     "custom_background": "Custom Background",
                     "edit_background": "Edit Background",
-                    "edit_profile": "Edit Profile"
+                    "edit_profile": "Edit Profile",
+                    "change_username_tip": {
+                        "a": "Want to change your username?",
+                        "b": "Head over to your account settings."
+                    }
                 },
                 "sessions": {
                     "title": "Sessions",
                     "active_sessions": "Active Sessions",
                     "this_device": "This Device",
                     "created": "Created {{time_ago}}",
-                    "logout": "Log out of all other sessions"
+                    "logout": "Log out of all other sessions",
+                    "log_out_desc": "Logs you out of all sessions except this device."
                 },
                 "audio": {
                     "title": "Voice Settings",
@@ -325,7 +367,41 @@
                     }
                 },
                 "native": {
-                    "title": "Desktop Settings"
+                    "title": "Desktop Settings",
+                    "description": "Some options might require a restart.",
+                    "app_behavior": "App Behavior",
+                    "titlebar": "Titlebar",
+                    "advanced": "Advanced",
+                    "development_mode": "Development mode is currently on.",
+                    "revolt_desktop": "Revolt for Desktop",
+                    "revolt_desktop_desc": "Version {{version}}",
+                    "start_revolt_startup": " Start with computer",
+                    "start_revolt_startup_desc": "Launch Revolt when you log into your computer.",
+                    "discord_status": "Enable Discord status",
+                    "discord_status_desc": "Rep Revolt on your Discord status.",
+                    "revolt_nightly": "Revolt Nightly",
+                    "revolt_nightly_desc": "Use the beta branch of Revolt.",
+                    "custom_window_frame": "Custom window frame",
+                    "custom_window_frame_desc": "Let Revolt use its own window frame.",
+                    "quick_actions": "Enable quick action buttons",
+                    "quick_actions_desc": "Show mute/deafen buttons on the titlebar.",
+                    "hardware_acceleration": "Hardware Acceleration",
+                    "hardware_acceleration_desc": "Uses your GPU to render the app, disable if you run into visual issues.",
+                    "local_development_mode": "Local Development Mode",
+                    "local_development_mode_desc": {
+                        "a": "This will change the app to the 'dev' branch, instead loading the app from a local server on your machine.",
+                        "b": "Without a server running,",
+                        "c": "the app will not load!"
+                    },
+                    "buttons": {
+                        "reload_app": "Reload app",
+                        "reload_page": "Reload page",
+                        "development_mode": "Enter Development Mode",
+                        "exit_development_mode": "Exit Development Mode"
+                    },
+                    "actions": {
+                        "enable_dev_mode": "I understand there's no going back."
+                    }
                 },
                 "experiments": {
                     "title": "Experiments",
@@ -349,7 +425,15 @@
                     "profile": "Bot profile",
                     "public_bot_desc": "Whether to allow other users to invite this bot.",
                     "interactions_url": "Interactions URL",
-                    "reserved": "Note: This field is reserved for the future."
+                    "reserved": "Note: This field is reserved for the future.",
+                    "crate_bot_tip": {
+                        "a": "By creating a bot, you are agreeing to the",
+                        "b": "acceptable Usage Policy."
+                    },
+                    "errors": {
+                        "username_taken": "That username is taken!",
+                        "username_error": "An error has occurred. {{error}}"
+                    }
                 },
                 "theme_shop": {
                     "title": "Theme Shop",
@@ -375,7 +459,9 @@
                     "issue": "Create a new issue",
                     "issue_desc": "To help us more easily triage issues, you can create an issue on GitHub.",
                     "bug": "Bug Tracker",
-                    "bug_desc": "View currently active bug reports here."
+                    "bug_desc": "View currently active bug reports here.",
+                    "tester_server": "Join the testers server",
+                    "teste_server_desc": "Join the official Revolt server to discuss the use of the application."
                 },
                 "logOut": "Log Out"
             },
@@ -383,10 +469,14 @@
                 "overview": {
                     "title": "Overview",
                     "name": "Channel Name",
-                    "description": "Channel Description"
+                    "description": "Channel Description",
+                    "add_description": "Add a description...",
+                    "mark_as_nsfw": "Set this channel to NSFW."
                 },
                 "permissions": {
-                    "title": "Permissions"
+                    "title": "Permissions",
+                    "select_role": "Select role",
+                    "save_permissions": "Save permissions"
                 }
             },
             "server_pages": {
@@ -394,13 +484,16 @@
                     "title": "Overview",
                     "name": "Server Name",
                     "description": "Channel Description",
-                    "system_messages": "System Message Channels"
+                    "system_messages": "System Message Channels",
+                    "add_topic": "Add a creative description to the server..."
                 },
                 "management": {
                     "title": "User Management"
                 },
                 "members": {
-                    "title": "Members"
+                    "title": "Members",
+                    "search_members": "Search for a specific user...",
+                    "search_members_count": "{{total}} members"
                 },
                 "invites": {
                     "title": "Invites",
@@ -420,7 +513,9 @@
                     "title": "Roles"
                 },
                 "categories": {
-                    "title": "Categories"
+                    "title": "Categories",
+                    "uncategorized": "Uncategorized",
+                    "new_category": "New category"
                 }
             },
             "tips": {
@@ -455,6 +550,8 @@
                 "incoming": "Incoming friend request.",
                 "outgoing": "Outgoing friend request.",
                 "nobody": "Nobody here yet!",
+                "create_group": "Create Group",
+                "add_friend": "Add Friend",
                 "from": {
                     "single": "From {{user}}",
                     "multiple": "From {{userlist}} and {{user}}",
@@ -636,7 +733,8 @@
             "open_notification_options": "Notification options",
             "open_channel_settings": "Channel settings",
             "open_server_settings": "Server settings",
-            "open_group_settings": "Group settings"
+            "open_group_settings": "Group settings",
+            "more": "More"
         },
         "permissions": {
             "required": "Permissions required"
