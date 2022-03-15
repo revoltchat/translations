@@ -38,6 +38,10 @@
                         "title": "主題選項",
                         "seasonal_desc": "節日期間，在主頁顯示特殊效果。",
                         "seasonal": "季節性主題"
+                    },
+                    "discover": {
+                        "title": "探索主題",
+                        "description": "瀏覽其他人做的主題"
                     }
                 },
                 "audio": {
@@ -107,7 +111,8 @@
                     "issue": "新增 Issue",
                     "suggest_desc": "在 Github 討論區為 Revolt 建議新功能。",
                     "suggest": "提交功能建議",
-                    "title": "意見回饋"
+                    "title": "意見回饋",
+                    "description": "提供反應"
                 },
                 "source_code": "原始碼",
                 "donate": {
@@ -156,7 +161,7 @@
                 },
                 "theme_shop": {
                     "title": "主題商店",
-                    "description": "瀏覽由社區建立的數百個主題。",
+                    "description": "瀏覽由他人建立的數百個主題。",
                     "search": "搜尋主題...",
                     "category": {
                         "manage": "管理已儲存",
@@ -303,7 +308,7 @@
                     "spoiler_attachment": "隱藏",
                     "jump_present": "跳到最新",
                     "viewing_old": "查看歷史訊息",
-                    "jump_beginning": "回到開頭",
+                    "jump_beginning": "跳回開頭",
                     "new_messages": "自 {{time_ago}} 以來的新訊息"
                 },
                 "voice": {
@@ -342,6 +347,10 @@
                     "title": "哎呀，這裡什麼都沒有!",
                     "nochannels": "此伺服器沒有頻道，或者您沒有檢視頻道的權限。",
                     "nochannel": "沒有頻道"
+                },
+                "reply": {
+                    "replying": "回覆",
+                    "toggle": "提及使用者"
                 }
             },
             "categories": {
@@ -557,7 +566,8 @@
             "delete_channel": "刪除頻道",
             "open_channel_settings": "頻道設定",
             "open_server_settings": "伺服器設定",
-            "set_custom_status": "設定自訂狀態"
+            "set_custom_status": "設定自訂狀態",
+            "mark_unread": "標記為未讀"
         },
         "permissions": {
             "required": "需要權限"
@@ -570,7 +580,15 @@
             "social": "尋找其他伺服器和機器人",
             "feedback": "給予Revolt一些回饋",
             "settings-tooltip": "你也可以從右鍵點擊左上角的用戶頭像，或是在主頁左鍵點擊。",
-            "directs": "私人訊息"
+            "directs": "私人訊息",
+            "join-testers_desc": "您可以直接在此處報告問題並與我們討論改進。",
+            "goto-testers_desc": "您可以直接在此處報告問題並與我們討論改進。",
+            "donate_desc": "通過捐贈支持該項目 - 謝謝！",
+            "feedback_desc": "通過向我們提供反饋，讓我們知道如何改進我們的應用程序。",
+            "discover_desc": "根據您的愛好或興趣找到一個社區。",
+            "group": "創建群組",
+            "group_desc": "邀請你所有的朋友，一些很酷的機器人，並舉辦一個盛大的派對。",
+            "discover": "探索 Revolt"
         }
     },
     "login": {
@@ -585,7 +603,7 @@
         "open_mail_provider": "打開{{provider}}",
         "check_spam": "如果找不到，請檢查垃圾信件",
         "email_delay": "最多可能會需要10分鐘。",
-        "check_mail": "請檢查你的信箱！",
+        "check_mail": "檢查你的電子信箱！",
         "cancel": "取消請求",
         "resend": "重新發送認證碼",
         "missing_verification": "沒有收到電子郵件?",

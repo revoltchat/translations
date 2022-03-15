@@ -263,8 +263,8 @@
             },
             "popovers": {
                 "user_profile": {
-                    "no_groups": "Inga gemensamma grupper!",
-                    "no_users": "Inga gemensamma vänner!",
+                    "no_groups": "Inga gemensamma grupper",
+                    "no_users": "Inga gemensamma vänner",
                     "mutual_groups": "Gemensamma Grupper",
                     "mutual_friends": "Gemensamma Vänner",
                     "profile": "Profil",
@@ -282,7 +282,7 @@
                         "badges": "Märken"
                     },
                     "empty": "Det är lite tomt här…",
-                    "no_servers": "Inga gemensamma servrar!",
+                    "no_servers": "Inga gemensamma servrar",
                     "mutual_servers": "Gemensamma servrar"
                 },
                 "user_picker": {
@@ -402,8 +402,11 @@
                     "theme_options": {
                         "transparency": "Transparenseffekter",
                         "title": "Temainställningar",
-                        "follow": "Följ systemtema",
+                        "follow": "Använd datorns tema",
                         "seasonal": "Säsongstema"
+                    },
+                    "discover": {
+                        "description": "Utforska teman gjorda av användarna"
                     }
                 },
                 "sessions": {
@@ -533,7 +536,8 @@
                     "category": {
                         "saved": "Sparad",
                         "new": "Nytt denna veckan"
-                    }
+                    },
+                    "search": "Sök efter teman..."
                 }
             },
             "categories": {
@@ -623,7 +627,9 @@
             "directs": "Direktmeddelanden",
             "donate_desc": "Stöd projektet genom att donera - tack!",
             "discover": "Upptäck Revolt",
-            "group": "Skapa en grupp"
+            "group": "Skapa en grupp",
+            "feedback_desc": "Berätta för oss om hur vi kan förbättra vår app genom att ge oss feedback.",
+            "join-testers_desc": "Du kan rapportera problem och diskutera förbättringar med oss här."
         }
     },
     "dayjs": {
@@ -634,7 +640,7 @@
         "lastDay": "[Igår vid] {{time}}",
         "sameElse": "L",
         "nextWeek": "dddd [vid] {{time}}",
-        "lastWeek": "[Förra] dddd [vid] {{time}}",
+        "lastWeek": "[Förra] dddden [vid] {{time}}",
         "defaults": {
             "date_separator": "-",
             "date_format": "simplified",

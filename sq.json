@@ -81,7 +81,8 @@
             "feedback_desc": "أخبرنا كيف يمكننا تحسين تطبيقنا من خلال تزويدنا بالتعليقات.",
             "discover_desc": "ابحث عن مجتمع بناءً على هواياتك أو اهتماماتك.",
             "group": "أنشئ مجموعة",
-            "group_desc": "قم بدعوة جميع أصدقائك ، وبعض الروبوتات الرائعة ، وإقامة حفلة كبيرة."
+            "group_desc": "قم بدعوة جميع أصدقائك ، وبعض الروبوتات الرائعة ، وإقامة حفلة كبيرة.",
+            "discover": "Zbuloni Revolt"
         },
         "main": {
             "categories": {
@@ -162,7 +163,10 @@
                     "title": "Oops, këtu nuk ka asgjë!"
                 },
                 "attached_file": "Bashkangjitur {{filename}}",
-                "failed_upload": "فشل التحميل!"
+                "failed_upload": "فشل التحميل!",
+                "reply": {
+                    "replying": "Duke iu përgjigjur"
+                }
             },
             "groups": {
                 "create": "Krijo një grup",
@@ -276,7 +280,11 @@
                     "ligatures_desc": "Për fontet e mbështetura, ligaturat kombinojnë karakteret së bashku, për shembull, duke e kthyer -> në një shigjetë.",
                     "font": "الخط",
                     "mono_font": "محدد الخط الأحادي المسافة",
-                    "ligatures": "وصلات الخط"
+                    "ligatures": "وصلات الخط",
+                    "discover": {
+                        "title": "Zbuloni Temat",
+                        "description": "Shfletoni temat e bëra nga komuniteti"
+                    }
                 },
                 "notifications": {
                     "title": "Njoftimet",
@@ -345,7 +353,8 @@
                     "suggest": "إرسال اقتراح الميزة",
                     "suggest_desc": "اقترح ميزات Revolt جديدة في مناقشات GitHub.",
                     "issue": "إنشاء عدد جديد",
-                    "issue_desc": "لمساعدتنا في فرز المشكلات بسهولة أكبر ، يمكنك إنشاء مشكلة على GitHub."
+                    "issue_desc": "لمساعدتنا في فرز المشكلات بسهولة أكبر ، يمكنك إنشاء مشكلة على GitHub.",
+                    "title": "Feedback"
                 },
                 "logOut": "تسجيل خروج",
                 "sync": {
@@ -384,7 +393,8 @@
                     "channel": "قناة",
                     "title": "يدعو",
                     "code": "رقم الدعوة",
-                    "invitor": "داعي"
+                    "invitor": "داعي",
+                    "revoke": "Revoko"
                 },
                 "bans": {
                     "no_reason": "لا يوجد سبب للحظر.",
@@ -423,12 +433,29 @@
                 "server": "أذونات الخادم",
                 "channel": "أذونات القناة",
                 "create_role": "أنشئ دورًا جديدًا",
-                "role_name": "اسم الدور"
+                "role_name": "اسم الدور",
+                "default_role": "E paracaktuar"
             }
         },
         "special": {
             "modals": {
-                "error": "حدث خطأ!"
+                "error": "حدث خطأ!",
+                "clipboard": {
+                    "https": "Aktualisht nuk jeni në një kontekst HTTPS.",
+                    "unavailable": "Clipboard është i padisponueshëm!",
+                    "copy": "Kopje manuale:"
+                },
+                "prompt": {
+                    "confirm_leave": "Të largohesh nga {{name}}?",
+                    "confirm_close_dm": "Të mbyllet biseda me {{name}}?",
+                    "confirm_close_dm_long": "Mund ta rihapni më vonë, por do të zhduket nga të dyja anët.",
+                    "confirm_leave_long": "Nuk do të mund të bashkohesh sërish nëse nuk ftoheni sërish.",
+                    "create_invite_created": "Këtu është kodi juaj i ri i ftesës:"
+                },
+                "signed_out": "Ju keni dalë nga llogaria!",
+                "onboarding": {
+                    "welcome": "Mire se erdhet ne"
+                }
             },
             "friends": {
                 "outgoing": "طلب صداقة صادر.",
@@ -453,7 +480,7 @@
                 "offline": "غير متصل على الانترنت.",
                 "disconnected": "انقطع الاتصال.",
                 "connecting": "توصيل…",
-                "reconnecting": "جارٍ إعادة الاتصال…"
+                "reconnecting": "Po rilidhet…"
             }
         }
     },

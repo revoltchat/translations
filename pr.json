@@ -50,7 +50,8 @@
                     "blocked_messages": "{{count}} obscured messages",
                     "jump_beginning": "Start from ye starts",
                     "blocked_user": "Dead men tell no tales",
-                    "spoiler_attachment": "Blimey, spoiler"
+                    "spoiler_attachment": "Blimey, spoiler",
+                    "new_messages": "Ye Missed since {{time_ago}}"
                 },
                 "nsfw": {
                     "channel": {
@@ -67,7 +68,7 @@
                     "leave": "Set sail",
                     "unmute": "Talk",
                     "connected": "Voice be connected",
-                    "mute": "Mute"
+                    "mute": "Shut it, Sailor"
                 },
                 "attached_file": "'tached {{filename}}",
                 "search": {
@@ -92,7 +93,11 @@
                     "nochannel": "No plunder"
                 },
                 "bot": "Landlubber",
-                "edited": "(scribbled)"
+                "edited": "(scribbled)",
+                "reply": {
+                    "replying": "Ye Replyin to",
+                    "toggle": "Toggle yer author ping"
+                }
             },
             "groups": {
                 "description": "Maties Description",
@@ -145,12 +150,26 @@
                     "display": {
                         "default": "Default",
                         "compact_description": "Jolly good barnacle-covered IRC.",
-                        "default_description": "Beautiful, sleek n' modern."
+                        "default_description": "Beautiful, sleek n' modern.",
+                        "compact": "Tine'h"
                     },
-                    "ligatures_desc": "Fer supported fonts, ligatures combine characters t'gether, fer example, turning -> into a arrow. Switch t' Inter n' try toggling dis option.",
+                    "ligatures_desc": "Fer supported fonts, ligatures combine characters t'gether, fer example, turning -> into a arrow.",
                     "discover": {
-                        "title": "Sail for Themes"
-                    }
+                        "title": "Sail for Themes",
+                        "description": "Browse Themes made by Ye Maties"
+                    },
+                    "theme_options": {
+                        "follow": "Follow that beautiful booty",
+                        "seasonal": "Theme o' Seasons",
+                        "title": "Options o' Ship Colors"
+                    },
+                    "color": {
+                        "light": "Eye burn'in"
+                    },
+                    "font": "Ink",
+                    "accent_selector": "Color o' ye accent",
+                    "emoji_pack": "Pick Your Crew",
+                    "import": "Steal a ship"
                 },
                 "profile": {
                     "fetching": "Fetching yer profile…",
@@ -167,12 +186,15 @@
                     "unique_id": "Dis be a unique user identifier fer yer account.",
                     "2fa": {
                         "description": "Add a extra layer o' security by enabling 2FA on yer account.",
-                        "title": "Double-booty Protection"
+                        "title": "Double-booty Protection",
+                        "remove_auth": "Send yer Authenticator off to Davy Jone's locker",
+                        "add_auth": "Add a authenticator"
                     },
                     "manage": {
                         "description": "Disable or delete yer account at any time. Dis action will log ye out n' fully delete yer account, including yer chat history n' crew.",
                         "title": "Manage the captain's quarter",
-                        "delete": "Burn down captain's quarter"
+                        "delete": "Burn down captain's quarter",
+                        "disable": "Walk Ye Plank"
                     },
                     "change_field": "Change yarr"
                 },
@@ -209,8 +231,12 @@
                     "input_device": "Speakin' horn",
                     "title": "Speakin' Settins'",
                     "output_device": "Listenin' horn",
-                    "tip_grant_permission": "Ye need t' grant permission t' access audio settins'."
-                }
+                    "tip_grant_permission": "Ye need t' grant permission t' access audio settins'.",
+                    "button_retry": "Keep Tryin’",
+                    "device_label_NA": "N/A",
+                    "button_grant": "Grant Ye Ship"
+                },
+                "logOut": "Abort ye Ship"
             },
             "actions": {
                 "upload": "Ye upload",
@@ -221,6 +247,46 @@
             "categories": {
                 "user_settings": "Pirate Settins'",
                 "client_settings": "Client Settins'"
+            },
+            "server_pages": {
+                "invites": {
+                    "channel": "Deck"
+                },
+                "members": {
+                    "title": "Pirates"
+                },
+                "bans": {
+                    "reason": "Reason of Walking yhe Plank",
+                    "user": "Pirate",
+                    "title": "Plank Walkers"
+                },
+                "management": {
+                    "title": "Manage ye Pirate"
+                },
+                "overview": {
+                    "title": "Birds Eye View",
+                    "name": "Name of ye Port"
+                }
+            },
+            "channel_pages": {
+                "permissions": {
+                    "title": "Ye Allowings"
+                },
+                "overview": {
+                    "title": "Birds Eye View",
+                    "name": "Name o' the Deck"
+                }
+            },
+            "permissions": {
+                "create_role": "Create ye new rank"
+            },
+            "tips": {
+                "sessions": {
+                    "b": "secure yer pirate by changin' yer password n' using double booty protection."
+                },
+                "account": {
+                    "a": "Ye want to customize yer public profile?"
+                }
             }
         },
         "context_menu": {
