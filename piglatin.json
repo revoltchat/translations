@@ -117,7 +117,8 @@
             "kick_member": "Ickkay embermay",
             "leave_server": "Eavelay erversay",
             "close_dm": "Oseclay mday",
-            "delete_channel": "Eleteday annelchay"
+            "delete_channel": "Eleteday annelchay",
+            "mark_unread": "Arkmay asyay unreadyay"
         },
         "special": {
             "requires_online": "Youway eednay otay ebay onlineway otay iewvay isthay.",
@@ -130,21 +131,23 @@
                         "early_adopter": "Earlyway Adopterway",
                         "supporter": "Upportersay",
                         "translator": "Anslatortray",
-                        "responsible_disclosure": "Esponsiblyray Isclosedday Ugbay(s)"
+                        "responsible_disclosure": "Esponsiblyray Isclosedday Ugbay(s)",
+                        "founder": "Ounderfay",
+                        "moderation": "Atformplay Oderationmay"
                     },
                     "sub": {
                         "connections": "Onnectionscay",
                         "information": "Informationway",
                         "badges": "Adgesbay"
                     },
-                    "no_groups": "Onay utualmay oupsgray!",
-                    "no_users": "Onay utualmay iendsfray!",
+                    "no_groups": "Onay utualmay oupsgray",
+                    "no_users": "Onay utualmay iendsfray",
                     "empty": "It'syay ayay itbay emptyyay inyay erehay…",
                     "mutual_groups": "Utualmay Oupsgray",
                     "mutual_friends": "Utualmay Iendsfray",
                     "profile": "Ofilepray",
                     "mutual_servers": "Utualmay Erverssay",
-                    "no_servers": "Onay utualmay erverssay!"
+                    "no_servers": "Onay utualmay erverssay"
                 },
                 "server_identity": {
                     "nickname": "Icknamenay",
@@ -218,7 +221,7 @@
                 "error": "Anway errorway occurredway!",
                 "token_reveal": "{{name}}'s Okentay",
                 "external_links": {
-                    "short": "Ouyay areyay oinggay otay isthay inklay:",
+                    "short": "areyay ouyay uresay ouyay antway otay ogay otay:",
                     "title": "Externalyay inkslay ancay ebay angerousday!",
                     "trust_domain": "Usttray isthay omainday"
                 }
@@ -296,7 +299,8 @@
                     "suggest_desc": "Uggestsay ewnay Evoltray eaturesfay onyay Ithubgay iscussionsday.",
                     "issue": "Eatecray ayay ewnay issueyay",
                     "issue_desc": "Otay elphay usyay oremay easilyyay iagetray issuesyay, ouyay ancay eatecray anyay issueyay onyay Ithubgay.",
-                    "bug_desc": "Iewvay urrentlycay activeyay ugbay eportsray erehay."
+                    "bug_desc": "Iewvay urrentlycay activeyay ugbay eportsray erehay.",
+                    "description": "Ubmitsay eedbackfay"
                 },
                 "source_code": "Ourcesay odecay",
                 "donate": {
@@ -355,11 +359,24 @@
                     },
                     "theme": "Emethay",
                     "title": "Appearanceway",
-                    "ligatures_desc": "Orfay upportedsay ontsfay, igatureslay ombinecay aracterschay ogethertay, orfay exampleyay, urningtay -> intoyay anyay arrowyay. Itchsway otay interyay andyay ytray ogglingtay isthay optionyay.",
+                    "ligatures_desc": "Orfay upportedsay ontsfay, igatureslay ombinecay aracterschay ogethertay, orfay exampleyay, urningtay -> intoyay anyay arrowyay.",
                     "mono_font": "Onospacemay Ontfay Electorsay",
                     "ligatures": "Ontfay igatureslay",
                     "font": "Ontfay",
-                    "import": "Importyay ayay emethay"
+                    "import": "Importyay ayay emethay",
+                    "theme_options": {
+                        "title": "Emethay Optionsyay",
+                        "follow_desc": "Enwhay eckedchay, ouyay on'tway ebay ableyay otay angechay ouryay emethay oryay useyay ayay ustomcay emethay.",
+                        "transparency": "Ansparencytray Effectsyay",
+                        "transparency_desc": "Enablesyay ansparencytray effectsyay oughoutthray ethay appyay.",
+                        "seasonal": "Easonalsay Emethay",
+                        "seasonal_desc": "Isplaysday effectsyay inyay ethay omehay abtay uringday olidayhay easonssay.",
+                        "follow": "Ollowfay emsystay emethay"
+                    },
+                    "discover": {
+                        "title": "Iscoverday Emesthay",
+                        "description": "Bwsebray emesthay ademay ybay ethay ommunitycay"
+                    }
                 },
                 "sessions": {
                     "created": "{{time_ago}}",
@@ -407,7 +424,8 @@
                     "unique_id": "Isthay isyay ayay uniqueyay identifieryay orfay ouryay otbay. isthay isyay otnay ethay ot'sbay okentay.",
                     "public_bot_tip": "Otbay isyay ublicpay. Anyoneyay ancay inviteyay ityay.",
                     "private_bot_tip": "Otbay isyay ivatepray. Onlyyay ouyay ancay inviteyay ityay.",
-                    "interactions_url": "Interactionsyay URLyay"
+                    "interactions_url": "Interactionsyay URLyay",
+                    "profile": "Otbay ofilepray"
                 },
                 "sync": {
                     "categories": "Csynay Ategoriescay",
@@ -416,7 +434,8 @@
                         "appearance": "Isthay illway csynay optionsyay uchsay asyay emojiyay ackspay andyay essagemay ensityday.",
                         "theme": "Isthay illway csynay ouryay osenchay emethay, olourscay andyay anyyay ustomcay scsay.",
                         "locale": "Isthay illway csynay ouryay urrentlycay osenchay anguagelay."
-                    }
+                    },
+                    "options": "Csynay Optionsyay"
                 },
                 "experiments": {
                     "not_available": "Onay experimentsyay areyay availableyay atyay isthay imetay.",
@@ -437,7 +456,20 @@
                     "button_grant": "Antgray ermissionpay"
                 },
                 "theme_shop": {
-                    "title": "Emethay Opshay"
+                    "title": "Emethay Opshay",
+                    "category": {
+                        "manage": "Anagemay avedsay",
+                        "new": "Ewnay isthay eekway",
+                        "default": "Efaultday emesthay",
+                        "highest": "Ighesthay atedray",
+                        "viewall": "Iewvay allyay",
+                        "saved": "Avedsay"
+                    },
+                    "description": "Owsebray undredshay ofyay emesthay, eatedcray andyay uratedcay ybay ethay ommunitycay.",
+                    "search": "Earchsay emesthay...",
+                    "use": "Useyay emethay",
+                    "by": "ybay",
+                    "active": "Urrentlycay activeyay"
                 }
             },
             "actions": {
@@ -486,6 +518,9 @@
                 },
                 "categories": {
                     "title": "Ategoriescay"
+                },
+                "management": {
+                    "title": "Useryay Anagementmay"
                 }
             }
         },
@@ -509,7 +544,9 @@
                     "no_sending": "Ouyay on'tday avehay ermissionpay otay endsay essagesay niay histay hannelcay.",
                     "sent_file": "Entsay naay ttachmentaay",
                     "sent_multiple_files": "Entsay ultiplemay ttachmentsaay",
-                    "blocked_user": "Lockedbay Seruay"
+                    "blocked_user": "Lockedbay Seruay",
+                    "jump_beginning": "Umpjay otay ethay eginningbay",
+                    "new_messages": "Nwnay essagesmay incesay {{time_ago}}"
                 },
                 "voice": {
                     "unmute": "Unmuteway",
@@ -537,7 +574,7 @@
                     "multiple": "{{userlist}} andyay {{user}} areyay ingtypay…",
                     "single": "{{user}} isyay ingtypay…"
                 },
-                "attached_file": "{{filename}}",
+                "attached_file": "Attachedyay {{filename}}",
                 "failed_upload": "Ailedfay otay uploadway!",
                 "uploading_file": "Uploadingway…",
                 "message_saved": "Avesay otay yourway otesnay",
@@ -569,6 +606,10 @@
                         "relevance": "Elevanceray"
                     },
                     "title": "Earchsay"
+                },
+                "reply": {
+                    "replying": "Eplyingray otay",
+                    "toggle": "Oggletay authoryay ingpay"
                 }
             },
             "categories": {
@@ -615,9 +656,18 @@
             "goto-testers": "Ogay otay ethay esterstay server",
             "donate": "Onateday otay Revolt",
             "feedback": "Ivegay eedbackfay onyay Evoltray",
-            "settings": "ettingssay",
+            "settings": "Openyay ettingssay",
             "settings-tooltip": "Ouyay ancay alsoyay ight-clickray ethay useryay iconyay inyay ethay optay eftlay , oryay eftlay ickclay ityay ifyay ou'reyay alreadyyay omehay .",
-            "social": "Indfay erverssay & otsbay"
+            "social": "Indfay erverssay & otsbay",
+            "directs": "Irectday Essagesmay",
+            "join-testers_desc": "Ouyay ancay eportray issuesyay andyay iscussday improvementsyay ithway usyay irectlyday erehay.",
+            "goto-testers_desc": "Ouyay ancay eportray issuesyay andyay iscussday improvementsyay ithway usyay irectlyday erehay.",
+            "donate_desc": "Upportsay ethay ojectpray ybay onatingday - ankthay ouyay!",
+            "feedback_desc": "Ltlay usyay owknay owhay eway ancay improveyay ouryay appyay ybay ivinggay usyay eedbackfay.",
+            "discover_desc": "Indfay ayay ommunitycay asedbay onyay ouryay obbieshay oryay interestsyay.",
+            "discover": "Iscoverday Evoltray",
+            "group": "Eatecray ayay oupgray",
+            "group_desc": "Inviteyay allyay ofyay ouryay iendsfray, omesay oolcay otsbay, andyay owthray ayay igbay artypay."
         }
     },
     "login": {
@@ -630,11 +680,11 @@
         "successful_registration": "Uccessfullysay egisteredray!",
         "open_mail_provider": "{{provider}}",
         "check_spam": "Easeplay eckchay amspay ifway youway an'tcay indfay itway",
-        "check_mail": "Eckchay yourway ailmay.",
-        "cancel": "Ancelcay equestray.",
-        "resend": "Esendray erificationvay.",
-        "missing_verification": "Issingmay e-mailyay",
-        "create": "Eatecray away ewnay accountway.",
+        "check_mail": "Eckchay yourway ailmay!",
+        "cancel": "Ancelcay equestray",
+        "resend": "Esendray erificationvay",
+        "missing_verification": "Idn'tday eceiveray anyay emailyay?",
+        "create": "Eatecray ayay ewnay accountyay.",
         "existing": "Alreadyway avehay anway accountway?",
         "new": "Ewnay otay Evoltray?",
         "remembered": "Ogay ackbay otay oginlay.",
