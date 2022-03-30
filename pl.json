@@ -8,7 +8,7 @@
         "on": "Włączone",
         "off": "Wyłączone",
         "unavailable": "Niedostępne",
-        "disabled": "Nieaktywne"
+        "disabled": "Wyłączony"
     },
     "login": {
         "title": "Zaloguj się",
@@ -48,7 +48,7 @@
         "email_delay": "Czas oczekiwania na przesyłkę wynosi do 10 minut.",
         "welcome": "Witamy z powrotem!",
         "subtitle": "Zaloguj się do Revolt",
-        "welcome2": "Witam!",
+        "welcome2": "Witaj!",
         "subtitle2": "Utwórz konto"
     },
     "app": {
@@ -413,7 +413,7 @@
                         "transparency_desc": "Włącza efekty przezroczystości w całej aplikacji."
                     },
                     "discover": {
-                        "title": "Odkryj tematy",
+                        "title": "Odkryj motywy",
                         "description": "Przeglądaj motywy stworzone przez społeczność"
                     }
                 },
@@ -544,8 +544,8 @@
                     "button_retry": "spróbuj ponownie",
                     "device_label_NA": "niedostępne",
                     "tip_retry": "Nie dałeś pozwolenia na dostęp do twojego mikrofonu? Proszę {{retryBtn}}.",
-                    "tip_grant_permission": "Aby uzyskać dostęp do ustawień audio, konieczne jest przyznanie uprawnień.",
-                    "button_grant": "Udzielenie pozwolenia"
+                    "tip_grant_permission": "Aby uzyskać dostęp do ustawień dźwięku, konieczne jest przyznanie uprawnień.",
+                    "button_grant": "Udziel pozwolenia"
                 },
                 "theme_shop": {
                     "title": "Sklep z motywami",
@@ -558,10 +558,16 @@
                         "highest": "Najwyżej oceniany"
                     },
                     "description": "Przeglądaj setki motywów stworzonych i wyselekcjonowanych przez społeczność.",
-                    "search": "Wyszukaj motywy...",
+                    "search": "Wyszukaj motywy…",
                     "active": "Obecnie aktywny",
                     "use": "Użyj motywu",
                     "by": "za pomocą"
+                },
+                "plugins": {
+                    "title": "Wtyczki",
+                    "wip": "Uwaga: ta funkcja jest wciąż w fazie rozwoju.",
+                    "delete_plugin": "Usuń",
+                    "no_plugins": "Obecnie nie zainstalowano żadnych wtyczek."
                 }
             },
             "categories": {
@@ -650,7 +656,7 @@
             "goto-testers": "Przejdź do serwera testerów",
             "donate": "Przekaż darowiznę na rzecz Revolt",
             "feedback": "Wystaw opinię na temat Revolt",
-            "settings-tooltip": "Możesz również kliknąć prawym przyciskiem myszy ikonę użytkownika w lewym górnym rogu lub kliknąć ją lewym przyciskiem myszy, jeśli jesteś już w domu.",
+            "settings-tooltip": "Możesz również kliknąć prawym przyciskiem myszy na ikonę użytkownika w lewym górnym rogu lub kliknąć ją lewym przyciskiem myszy, jeśli jesteś już w domu.",
             "directs": "Wiadomości bezpośrednie",
             "discover": "Odkryj Revolt",
             "discover_desc": "Znajdź społeczność w oparciu o własne hobby lub zainteresowania.",
@@ -781,7 +787,7 @@
                 "t": "Zobacz Kanał"
             },
             "EmbedLinks": {
-                "t": "Umieszczać Linki",
+                "t": "Umieszczanie linków",
                 "d": "Zezwala członkom na pokazanie dołączonej do linków treści, która jest wysyłana na kanałach tekstowych."
             },
             "InviteOthers": {
@@ -806,7 +812,7 @@
             },
             "Masquerade": {
                 "t": "Maskarada",
-                "d": "Pozwala członkom na zmienić ich imię i awatara za wiadomość."
+                "d": "Umożliwia członkom zmianę nazwy i awatara na wiadomość."
             }
         }
     },
