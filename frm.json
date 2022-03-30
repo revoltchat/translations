@@ -583,7 +583,7 @@
         "image_by": "Photo de",
         "loading": "Chargement…",
         "about": "À propos de",
-        "tos": "Conditions d'utilisation",
+        "tos": "Termes",
         "privacy": "Politique de confidentialité",
         "on": "Allumage",
         "off": "Éteint",
@@ -594,32 +594,39 @@
         "channel": {
             "Masquerade": {
                 "t": "Mascarade",
-                "d": "Permettre les membres à changer leur nom et leur avatar par message."
+                "d": "Permet aux membres de changer leur pseudonyme et avatar par message."
             },
             "SendMessage": {
                 "t": "Envoyer des messages",
-                "d": "Permettre aux membres d'envoyer des messages dans les salons textuels."
+                "d": "Permettre aux membres d'envoyer des messages dans les canaux textuels."
             },
             "View": {
-                "t": "Voir un salon"
+                "t": "Voir un canal",
+                "d": "Permet aux membres de voir tous les canaux sur lesquels ils ont cette permission."
             },
             "VoiceCall": {
                 "t": "Appel vocal",
-                "d": "Permettre aux membres de rejoindre les salons vocaux."
+                "d": "Permettre aux membres de rejoindre les canaux vocaux."
             },
             "ManageChannel": {
-                "d": "Permettre aux membres d'éditer ou de supprimer un salon.",
-                "t": "Gérer les salons"
+                "d": "Permettre aux membres d'éditer ou de supprimer un canal.",
+                "t": "Gérer les canaux"
             },
             "ManageMessages": {
                 "d": "Permettre aux membres de supprimer les messages envoyés par les autres membres.",
                 "t": "Gérer les messages"
             },
             "InviteOthers": {
-                "d": "Permettre aux membres d'inviter d'autres utilisateurs dans un salon."
+                "d": "Permettre aux membres d'inviter d'autres utilisateurs dans un canal.",
+                "t": "Inviter d'autres personnes"
             },
             "UploadFiles": {
-                "t": "Envoyer des fichiers"
+                "t": "Envoyer des fichiers",
+                "d": "Permet aux membres d'envoyer des fichiers dans les canaux textuels."
+            },
+            "EmbedLinks": {
+                "d": "Permet aux membres d'afficher du contenu intégré aux liens qu'ils envoient dans un canal textuel.",
+                "t": "Intégration de liens"
             }
         },
         "server": {
@@ -631,23 +638,32 @@
                 "t": "Changer d'avatar"
             },
             "ManageChannels": {
-                "t": "Gérer les salons",
-                "d": "Permettre aux membres de créer, éditer et supprimer des salons."
+                "t": "Gérer les canaux.",
+                "d": "Permettre aux membres de créer, éditer et supprimer des canaux."
             },
             "KickMembers": {
-                "t": "Expulser des membres"
+                "t": "Expulser des membres",
+                "d": "Permet aux membres d'expulser les autres membres du serveur. Les membres expulsés peuvent rejoindre à nouveau avec une invitation valide."
             },
             "ManageServer": {
-                "t": "Gérer le serveur"
+                "t": "Gérer le serveur",
+                "d": "Permet aux membres de modifier le nom, la description, l'icône et d'autres informations liées au serveur."
             },
             "ManageRoles": {
-                "t": "Gérer les rôles"
+                "t": "Manager les rôles",
+                "d": "Permet aux membres de créer, modifier et supprimer les rôles hiérarchiquement inférieurs aux leurs. Leur permet également de modifier les droits des rôles pour les canaux."
             },
             "BanMembers": {
-                "t": "Bannir des membres"
+                "t": "Bannir des membres",
+                "d": "Permet aux membres de retirer définitivement des membres de ce serveur."
             },
             "ChangeNickname": {
-                "t": "Changer de surnom"
+                "t": "Changer de surnom",
+                "d": "Permet aux membres de modifier leur surnom sur le serveur."
+            },
+            "RemoveAvatars": {
+                "d": "Permet aux membres de retirer les avatars de serveur d'autres membres du serveur.",
+                "t": "Retirer  les avatars"
             }
         }
     },
@@ -664,9 +680,13 @@
         "UnknownError": "Voir la console.",
         "OperationFailed": "Échec de l'opération.",
         "FileTooLarge": "Le fichier est trop volumineux.",
-        "ReachedMaximumBots": "Vous avez atteint la limite maximale de bots.",
+        "ReachedMaximumBots": "Vous avez abouti la limite maximale de robots.",
         "DatabaseError": "Erreur de base de données.",
-        "InternalError": "Erreur interne."
+        "InternalError": "Erreur interne.",
+        "ProbeError": "Un problème est survenu lors de  l'interaction du fichier metadata.",
+        "DeniedNotification": "Vous avez renier l'accès aux notifications, vérifiez la page des paramètres.",
+        "UnsupportedBrowser": "Votre navigateur internet ne supporte pas cette fonctionnalité.",
+        "AudioPermissionBlock": "Aucun accès à votre microphone,  pouvez-vous vérifier l'autorisation de votre navigateur internet."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
