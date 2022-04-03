@@ -633,7 +633,19 @@
             "remove_friend": "لابردنی هاوڕێ",
             "cancel_friend": "پاشگەزبەوە لە داواکاریەکە",
             "clear_status": "سڕینەوەی بار",
-            "set_custom_status": "دانانی بارێکی تایبەتمەند"
+            "set_custom_status": "دانانی بارێکی تایبەتمەند",
+            "edit_identity": "بژارکردنی ناسنامە",
+            "delete_channel": "سڕینەوەی کەناڵ",
+            "create_channel": "دروستکردنی کەناڵ",
+            "create_category": "دروستکردنی بابەت",
+            "create_invite": "دروستکردنی بانگهێشتکردن",
+            "open_notification_options": "هەڵبژاردنەکانی ئاگانامەکان",
+            "open_channel_settings": "ڕێکبەندەکانی کەناڵ",
+            "open_server_settings": "ڕێکبەندەکانی سێرڤەر",
+            "open_group_settings": "ڕێکبەندەکانی گروپ"
+        },
+        "permissions": {
+            "required": "ڕێپێدانەکان پێویستە"
         }
     },
     "permissions": {
@@ -680,13 +692,27 @@
     },
     "quantities": {
         "members": {
-            "one": "۱ ئەندام"
+            "one": "۱ ئەندام",
+            "many": "{{count}} ئەندامەکان"
         }
     },
     "dayjs": {
         "defaults": {
             "twelvehour": "نەخێر",
-            "date_separator": "/"
-        }
+            "date_separator": "/",
+            "date_format": "نەریتی"
+        },
+        "lastDay": "(دوێنێ کاتژمێر) {{time}}",
+        "sameDay": "(ئەمڕۆ کاتژمێر) {{time}}",
+        "nextDay": "(سبەی کاتژمێر) {{time}}",
+        "lastWeek": "[last] دددد [at] {{time}}",
+        "nextWeek": "دددد [at] {{time}}"
+    },
+    "notifications": {
+        "now_friends": "تۆ ئێستا هاوڕێیت لەگەڵ {{person}}@!",
+        "sent_request": "@{{person}} داواکاری هاوڕێیەکی بۆ ناردیت"
+    },
+    "error": {
+        "NetworkError": "هەڵەی تۆڕ."
     }
 }
