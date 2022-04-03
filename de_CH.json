@@ -199,6 +199,51 @@
                 "user_settings": "Benutzer-istellige",
                 "client_settings": "Clientistellige"
             }
+        },
+        "permissions": {
+            "required": "Berechtigungen erforderlich"
         }
+    },
+    "dayjs": {
+        "lastDay": "[Gestern um] {{time}}",
+        "sameDay": "[Heute um] {{time}}",
+        "nextDay": "[Morgen um] {{time}}",
+        "lastWeek": "[Letzter] dddd [um] {{time}}",
+        "nextWeek": "dddd [um] {{time}}",
+        "defaults": {
+            "date_separator": "."
+        }
+    },
+    "error": {
+        "UnknownError": "Siehe Konsole.",
+        "InternalError": "Interner Fehler.",
+        "MissingPermission": "Fehlende Erlaubnis.",
+        "AlreadyFriends": "Bereits mit diesem Benutzer befreundet.",
+        "OperationFailed": "Operation fehlgeschlagen.",
+        "InvalidInvite": "Ungültiger Code",
+        "InvalidCredentials": "Email oder Passwort ist falsch.",
+        "MissingInvite": "Fehlender Einladungscode in Anfrage.",
+        "UsernameTaken": "Benutzername ist vergeben.",
+        "Unauthorized": "Unbefugt.",
+        "Unlabelled": "Etwas passiert.",
+        "Blocked": "Sie haben diesen Benutzer blockiert.",
+        "NetworkError": "Netzwerkfehler.",
+        "DatabaseError": "Datenbankfehler.",
+        "InvalidToken": "Ungültiges Token",
+        "RenderFail": "Rendern der Vorlage fehlgeschlagen.",
+        "InvalidSession": "Ungültige Sitzung.",
+        "UnverifiedAccount": "Unbestätigtes Konto.",
+        "UnknownUser": "Unbekannter Benutzer.",
+        "CompromisedPassword": "Dieses Passwort ist kompromittiert."
+    },
+    "quantities": {
+        "members": {
+            "one": "1 Mitglied",
+            "many": "{{count}} Mitglieder"
+        }
+    },
+    "notifications": {
+        "now_friends": "Du bist jetzt mit @{{person}} befreundet!",
+        "sent_request": "@{{person}} hat dir eine Freundschaftsanfrage gesendet."
     }
 }
