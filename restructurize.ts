@@ -23,6 +23,12 @@ for await (const entry of Deno.readDir('.')) {
         delete data?.permissions?.server;
         delete data?.permissions?.channel;
 
+        // [2022-04-21] Move ManageRoles to ManageRole
+        if (data?.permissions?.ManageRoles) {
+            data.permissions.ManageRole = data?.permissions?.ManageRoles;
+            delete data?.permissions?.ManageRoles;
+        }
+
         // * Commit
         await Deno.writeTextFile(fn, JSON.stringify(data, undefined, '\t'));
     }
