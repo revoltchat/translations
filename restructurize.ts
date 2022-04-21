@@ -29,6 +29,12 @@ for await (const entry of Deno.readDir('.')) {
             delete data?.permissions?.ManageRoles;
         }
 
+        // [2022-04-21] Move View to ViewChannel
+        if (data?.permissions?.View) {
+            data.permissions.ViewChannel = data?.permissions?.View;
+            delete data?.permissions?.View;
+        }
+
         // * Commit
         await Deno.writeTextFile(fn, JSON.stringify(data, undefined, '\t'));
     }

@@ -726,6 +726,14 @@
 			"t": "Manage Server",
 			"d": "Allows members to change this server's name, description, icon and other related information."
 		},
+		"ManagePermissions": {
+			"t": "Manage Permissions",
+			"d": "Allows members to change permissions for channels and roles with a lower ranking."
+		},
+		"ManageRole": {
+			"t": "Manage Roles",
+			"d": "Allows members to create, edit and delete roles with a lower rank than theirs. Also allows them to modify role permissions on channels."
+		},
 		"KickMembers": {
 			"t": "Kick Members",
 			"d": "Allows members to remove members from this server. Kicked members may rejoin with an invite."
@@ -733,6 +741,14 @@
 		"BanMembers": {
 			"t": "Ban Members",
 			"d": "Allows members to permanently remove members from this server."
+		},
+		"TimeoutMembers": {
+			"t": "Timeout Members",
+			"d": "Allows members to temporarily prevent users from interacting with the server."
+		},
+		"AssignRoles": {
+			"t": "Assign Roles",
+			"d": "Allows members to assign roles below their own rank to other members."
 		},
 		"ChangeNickname": {
 			"t": "Change Nickname",
@@ -749,10 +765,6 @@
 		"RemoveAvatars": {
 			"t": "Remove Avatars",
 			"d": "Allows members to remove the server avatars of other members on this server."
-		},
-		"View": {
-			"t": "View Channel",
-			"d": "Allows members to view any channels they have this permission on."
 		},
 		"SendMessage": {
 			"t": "Send Messages",
@@ -786,9 +798,9 @@
 			"t": "Masquerade",
 			"d": "Allows members to change their name and avatar per-message."
 		},
-		"ManageRole": {
-			"t": "Manage Roles",
-			"d": "Allows members to create, edit and delete roles with a lower rank than theirs. Also allows them to modify role permissions on channels."
+		"ViewChannel": {
+			"t": "View Channel",
+			"d": "Allows members to view any channels they have this permission on."
 		}
 	}
 }
