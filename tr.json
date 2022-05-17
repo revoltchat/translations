@@ -461,7 +461,10 @@
                 "delete_role": "Rolü sil",
                 "role_options": "Rol Ayarları",
                 "role_ranking": "Rol Sıralaması",
-                "hoist_desc": "Bu rolü diğerlerinden üstünde göster."
+                "hoist_desc": "Bu rolü diğerlerinden üstünde göster.",
+                "hoist_role": "Üstte Görünen Rol",
+                "title": "{{role}} için izinler",
+                "edit_title": "İzinleri Düzenle"
             }
         },
         "special": {
@@ -549,7 +552,12 @@
                     "short": "Buraya gitmek istediğine emin misin:",
                     "trust_domain": "Bu alan adına güven"
                 },
-                "token_reveal": "{{name}}'nın Token'i"
+                "token_reveal": "{{name}}'nın Token'i",
+                "sessions": {
+                    "title": "Oturumlarınızı temizlemek istediğinize emin misiniz?",
+                    "short": "Bu eylemi geri alamazsınız.",
+                    "accept": "Bütün oturumları sil"
+                }
             },
             "popovers": {
                 "user_profile": {
@@ -820,6 +828,54 @@
         "ViewChannel": {
             "t": "Kanalı Görüntüle",
             "d": "Üyelerin bu izne sahip oldukları kanalları görüntülemelerine izin verir."
+        },
+        "AssignRoles": {
+            "d": "Üyelerin, diğer üyelere kendi rollerinden daha roller atamalarına izin verir.",
+            "t": "Rolleri Ata"
+        },
+        "ManageWebhooks": {
+            "d": "Üyelerin, bir kanaldaki webhookları kontrol etmelerine izin verir.",
+            "t": "Webhookları Yönet"
+        },
+        "SendEmbeds": {
+            "t": "Yerleştirmeleri Gönder",
+            "d": "Üyelerin, bağlantılar veya özel metin yerleştirmelerinden gömülü içerik göndermelerine izin verir."
+        },
+        "Connect": {
+            "t": "Bağlan",
+            "d": "Üyelerin, bir ses kanalına bağlanmalarına izin verir."
+        },
+        "MuteMembers": {
+            "t": "Üyeleri Sustur",
+            "d": "Üyelerin, bir ses kanalında diğerlerini susturmalarına izin verir."
+        },
+        "Video": {
+            "d": "Üyelerin, bir ses kanalında video yayınlamalarına izin verir.",
+            "t": "Video"
+        },
+        "MoveMembers": {
+            "d": "Üyelerin, diğerlerini ses kanalları arasında taşımalarına izin verir.",
+            "t": "Üyeleri Taşı"
+        },
+        "ManagePermissions": {
+            "t": "İzinleri Yönet",
+            "d": "Üyelerin daha düşük bir rol ile kanallar ve roller için izinleri değiştirmelerine izin verir."
+        },
+        "TimeoutMembers": {
+            "t": "Zamanaşımı Üyeleri",
+            "d": "Üyelerin, sunucu ile etkileşime girmesini geçici olarak önlemelerine izin verir."
+        },
+        "ReadMessageHistory": {
+            "t": "Mesaj Geçmişini Oku",
+            "d": "Üyelerin, bu kanaldaki mesaj geçmişini okumalarına izin verir."
+        },
+        "Speak": {
+            "t": "Konuş",
+            "d": "Üyelerin, bir ses kanalında konuşmalarına izin verir."
+        },
+        "DeafenMembers": {
+            "t": "Üyeleri Sağırlaştır",
+            "d": "Üyelerin, bir ses kanalında diğerlerini sağırlaştırmalarına izin verir."
         }
     }
 }
