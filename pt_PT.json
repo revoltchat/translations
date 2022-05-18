@@ -311,7 +311,12 @@
                     "https": "Não estás atualmente num contexto HTTPS.",
                     "unavailable": "Área de transferência indisponível!"
                 },
-                "error": "Ocorreu um erro!"
+                "error": "Ocorreu um erro!",
+                "sessions": {
+                    "short": "Você não pode desfazer esta ação.",
+                    "title": "Certeza que quer apagar todas as sessões?",
+                    "accept": "Remover todas as sessões"
+                }
             },
             "status": {
                 "connecting": "A ligar…",
@@ -538,11 +543,13 @@
             "actions": {
                 "max_filesize": "(máx. {{filesize}})",
                 "upload": "Carregar",
-                "remove": "Remover"
+                "remove": "Remover",
+                "edit": "Editar {{name}}"
             },
             "categories": {
                 "client_settings": "Configurações de cliente",
-                "user_settings": "Configurações de utilizador"
+                "user_settings": "Configurações de utilizador",
+                "danger_zone": "Zona de Perigo"
             },
             "title": "Configurações",
             "permissions": {
@@ -550,7 +557,15 @@
                 "create_role": "Criar um novo cargo",
                 "channel": "Permissões do canal",
                 "server": "Permissões do servidor",
-                "default_role": "Padrão"
+                "default_role": "Padrão",
+                "role_colour": "Cor do Cargo",
+                "role_options": "Opções do Cargo",
+                "delete_role": "Apagar Cargo",
+                "hoist_desc": "Exibir cargo acima de todos os outros.",
+                "title": "Permissões para {{role}}",
+                "edit_title": "Editar Permissões",
+                "role_ranking": "Rankeamento do Cargo",
+                "hoist_role": "Elevar Cargo"
             },
             "server_pages": {
                 "categories": {
@@ -654,7 +669,8 @@
                     "jump_present": "Saltar para o presente",
                     "viewing_old": "Estás a ver mensagens antigas",
                     "jump_beginning": "Saltar para o começo",
-                    "new_messages": "Novas mensagens desde {{time_ago}}"
+                    "new_messages": "Novas mensagens desde {{time_ago}}",
+                    "load_file": "Carregar arquivo"
                 },
                 "voice": {
                     "unmute": "Não silenciar",
@@ -719,12 +735,13 @@
             "invisible": "Invisível",
             "busy": "Não incomodar",
             "idle": "Ausente",
-            "online": "Em linha"
+            "online": "Em linha",
+            "reconnect": "Reconectar"
         },
         "home": {
             "join-testers": "Entrar no servidor dos testadores",
             "settings-tooltip": "Podes ainda carregar com o botão direito do rato no ícone de utilizador em cima e à esquerda, ou carregar com o botão direito se estiveres na página inicial.",
-            "feedback": "Dar comentários sobre o Revolt",
+            "feedback": "Deixar comentários sobre o Revolt",
             "settings": "Abrir configurações",
             "social": "Encontrar servidores & robôs",
             "goto-testers": "Ir para o servidor de testadores",
