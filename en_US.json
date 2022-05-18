@@ -367,7 +367,10 @@
                     "by": "by"
                 },
                 "plugins": {
-                    "title": "Plugins"
+                    "title": "Plugins",
+                    "delete_plugin": "Delete",
+                    "wip": "Warning: This feature is still in development.",
+                    "no_plugins": "No plugins are currently installed."
                 }
             },
             "channel_pages": {
@@ -433,7 +436,15 @@
                 "server": "Server Permissions",
                 "channel": "Channel Permissions",
                 "create_role": "Create a new role",
-                "role_name": "Role Name"
+                "role_name": "Role Name",
+                "delete_role": "Delete Role",
+                "hoist_role": "Hoist Role",
+                "hoist_desc": "Display this role above others.",
+                "title": "Permissions for {{role}}",
+                "edit_title": "Edit Permissions",
+                "role_colour": "Role Colour",
+                "role_options": "Role Options",
+                "role_ranking": "Role Ranking"
             }
         },
         "special": {
@@ -523,6 +534,11 @@
                     "reload": "Reload App",
                     "continue": "Continue",
                     "send_email": "Send Email"
+                },
+                "sessions": {
+                    "short": "You cannot undo this action.",
+                    "accept": "Remove all sessions",
+                    "title": "Are you sure you want to clear your sessions?"
                 }
             },
             "popovers": {
@@ -792,6 +808,54 @@
         "ViewChannel": {
             "t": "View Channel",
             "d": "Allows members to view any channels they have this permission on."
+        },
+        "ManagePermissions": {
+            "t": "Manage Permissions",
+            "d": "Allows members to change permissions for channels and roles with a lower ranking."
+        },
+        "ReadMessageHistory": {
+            "t": "Read Message History",
+            "d": "Allows members to read the message history of this channel."
+        },
+        "Connect": {
+            "t": "Connect",
+            "d": "Allows members to connect to a voice channel."
+        },
+        "ManageWebhooks": {
+            "t": "Manage Webhooks",
+            "d": "Allows members to control webhooks in a channel."
+        },
+        "SendEmbeds": {
+            "t": "Send Embeds",
+            "d": "Allows members to send embedded content, whether from links or custom text embeds."
+        },
+        "DeafenMembers": {
+            "d": "Allows members to deafen others in a voice channel.",
+            "t": "Deafen Members"
+        },
+        "MoveMembers": {
+            "t": "Move Members",
+            "d": "Allows members to move others between voice channels."
+        },
+        "Video": {
+            "d": "Allows members to stream video in a voice channel.",
+            "t": "Video"
+        },
+        "MuteMembers": {
+            "t": "Mute Members",
+            "d": "Allows members to mute others in a voice channel."
+        },
+        "TimeoutMembers": {
+            "t": "Timeout Members",
+            "d": "Allows members to temporarily prevent users from interacting with the server."
+        },
+        "AssignRoles": {
+            "t": "Assign Roles",
+            "d": "Allows members to assign roles below their own rank to other members."
+        },
+        "Speak": {
+            "t": "Speak",
+            "d": "Allows members to speak in a voice channel."
         }
     }
 }
