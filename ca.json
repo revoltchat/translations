@@ -394,7 +394,7 @@
                     "user": "Usuari",
                     "reason": "Motiu de Vet",
                     "revoke": "Revocar",
-                    "no_reason": "Sense motiu de Vet"
+                    "no_reason": "Sense motiu de Ban."
                 },
                 "roles": {
                     "title": "Rols"
@@ -412,7 +412,7 @@
                     "b": "Anar a configuració del perfil."
                 },
                 "sessions": {
-                    "b": "protegiu el vostre compte canviant la contrasenya i utilitzant l’autenticació de dos factors",
+                    "b": "protegiu el vostre compte canviant la contrasenya i utilitzant 2FA.",
                     "a": "Si veieu una sessió desconeguda a la llista,"
                 },
                 "languages": {
@@ -785,7 +785,7 @@
         },
         "TimeoutMembers": {
             "d": "Permet als membres a prevenir temporalment als usuaris a actuar amb el servidor.",
-            "t": "Membres en temps d'espera"
+            "t": "Membres de temps d'espera"
         },
         "ManageWebhooks": {
             "t": "Gestionar Webhooks",
@@ -809,19 +809,27 @@
         },
         "ManagePermissions": {
             "t": "Administrar Permisos",
-            "d": "Permet als membres canviar permisos pels canals i rols amb rang inferior."
+            "d": "Permet als membres canviar els permisos dels canals i els rols amb una classificació inferior."
         },
         "AssignRoles": {
             "t": "Assignar Rols",
             "d": "Permet als membres assignar rols per sota del seu rang als altres membres."
         },
         "ReadMessageHistory": {
-            "t": "Llegir Història de Missatges.",
+            "t": "Llegeix l'historial de missatges",
             "d": "Permet als membres llegir l'historial de missatges d'aquest canal."
         },
         "Speak": {
             "t": "Parlar",
             "d": "Permet als membres parlar en un canal de veu."
+        },
+        "DeafenMembers": {
+            "t": "Membres sords",
+            "d": "Permet als membres ensordir els altres en un canal de veu."
+        },
+        "MoveMembers": {
+            "t": "Moure els membres",
+            "d": "Permet als membres moure altres entre canals de veu."
         }
     },
     "quantities": {
