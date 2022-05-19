@@ -134,7 +134,8 @@
                 "reply": {
                     "replying": "Neki válaszolsz:",
                     "toggle": "Értesítés küldése a válaszolásról"
-                }
+                },
+                "bridge": "híd"
             },
             "groups": {
                 "name": "Csoportnév",
@@ -440,9 +441,12 @@
                 "role_name": "Titulus címe",
                 "role_colour": "Titulus színe",
                 "delete_role": "Titulus törlése",
-                "title": "{{role}} jogosultságai",
-                "hoist_desc": "Titulus megjelenítése a többi felett.",
-                "edit_title": "Jogosultságok szerkesztése"
+                "title": "{{role}} engedélyei",
+                "hoist_desc": "A titulus megjelenítése a többi felett.",
+                "edit_title": "Engedélyek szerkesztése",
+                "role_ranking": "Titulusok rangsorolása",
+                "role_options": "Titulusok beállításai",
+                "hoist_role": "Titulus kiemelése"
             }
         },
         "special": {
@@ -514,9 +518,9 @@
                 },
                 "token_reveal": "{{name}} tokenje",
                 "sessions": {
-                    "title": "Biztos, hogy törölni szeretnéd a munkameneteid?",
-                    "short": "Ezt a műveletet nem vonhatod vissza.",
-                    "accept": "Munkamenetek eltávolítása"
+                    "title": "Tényleg törölni szeretnéd a munkameneteket?",
+                    "short": "Ez a művelet nem vonható vissza.",
+                    "accept": "Minden munkamenet törlése"
                 }
             },
             "status": {
@@ -820,22 +824,22 @@
         },
         "ManageRole": {
             "t": "Kezelhetnek titulusokat",
-            "d": "A tagok alacsonyabb ranggal is létrehozhatnak titulusokat és módosíthatják és törölhetik is a többi, magasabb rangú tag titulusait. A titulusokhoz hozzárendelt csatornaszintű engedélyeket is módosíthatják."
+            "d": "A tagok a többi taghoz képest alacsonyabb ranggal is létrehozhatnak titulusokat és módosíthatják és törölhetik is a többi, magasabb rangú tag titulusait. A titulusokhoz hozzárendelt csatornaszintű engedélyeket is módosíthatják."
         },
         "ViewChannel": {
             "t": "Láthatják a csatornákat",
             "d": "A tagok számára minden csatorna látható lesz."
         },
         "ManagePermissions": {
-            "d": "A tagok szerkeszthetik a jogosultságokat a csatornáknak és az alacsonyabb rangú titulusoknak.",
-            "t": "Jogosultságok kezelése"
+            "d": "A tagok alacsonyabb ranggal is szerkeszthetik a csatornák és titulusok engedélyeit.",
+            "t": "Engedélyek kezelése"
         },
         "Connect": {
             "t": "Csatlakozás",
             "d": "A tagok csatlakozhatnak hangcsatornához."
         },
         "MuteMembers": {
-            "d": "A tagok lenémíthatnak másokat hangcsatornában.",
+            "d": "A tagok másokat is némíthatnak a hangcsatornában.",
             "t": "Tagok némítása"
         },
         "Speak": {
@@ -844,15 +848,35 @@
         },
         "Video": {
             "t": "Videó",
-            "d": "A tagok videót streamelhetnek hangcsatornában."
+            "d": "A tagok videót streamelhetnek a hangcsatornában."
         },
         "DeafenMembers": {
             "t": "Tagok süketítése",
-            "d": "A tagok lesüketíthetnek másokat hangcsatornában."
+            "d": "A tagok másokat is süketíthetnek a hangcsatornában."
         },
         "MoveMembers": {
             "t": "Tagok áthelyezése",
-            "d": "A tagok áthelyezhetnek másokat hangcsatornák között."
+            "d": "A tagok másokat is áthelyezhetnek a hangcsatornák között."
+        },
+        "TimeoutMembers": {
+            "d": "A tagok ideiglenesen eltilthatnak más tagokat a szerver használatától.",
+            "t": "Tageltiltás"
+        },
+        "AssignRoles": {
+            "d": "A tagok alacsonyabb ranggal is hozzárendelhetnek titulusokat a többi taghoz.",
+            "t": "Titulusok hozzárendelése"
+        },
+        "ManageWebhooks": {
+            "t": "Kezelhetnek Webhookokat",
+            "d": "A tagok kezelhetik a csatorna webhookjait."
+        },
+        "ReadMessageHistory": {
+            "t": "Régebbi üzenetek olvasása",
+            "d": "A tagok elolvashatják a csatorna régebbi üzeneteit."
+        },
+        "SendEmbeds": {
+            "t": "Beágyazott tartalmak küldése",
+            "d": "A tagok linkekkel vagy egyéni, szöveges beágyazással küldhetnek beágyazott tartalmakat."
         }
     }
 }
