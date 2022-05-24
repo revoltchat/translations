@@ -7,6 +7,14 @@ body:
     id: language
     attributes:
       label: What language(s) did you translate?
+      description: Comma-separate languages if more than one
+    validations:
+      required: true
+  - type: input
+    id: revolt-id
+    attributes:
+      label: What is your Revolt ID?
+      description: Used to assign you a badge
     validations:
       required: true
   - type: input
