@@ -8,12 +8,12 @@ Please only PR if you are adding new strings to the source language, otherwise c
 
 The following people are enlisted for verifying certain languages are up to standard.
 
-| Language | Maintainers |
-|---|---|
-| 🇬🇧 English (UK) | [@insertish](https://github.com/insertish/) |
-| 🇩🇪 German | [@janderedev](https://github.com/janderedev/) |
-| 🇸🇪 Swedish | [@raggebatman](https://github.com/raggebatman) |
-| 🇭🇺 Hungarian | [@f3rr31](https://github.com/f3rr31) |
+| | Language | Maintainers |
+|:-:|---|---|
+| 🇬🇧 | English (UK) | [@insertish](https://github.com/insertish/) |
+| 🇩🇪 | German | [@janderedev](https://github.com/janderedev/) |
+| 🇸🇪 | Swedish | [@raggebatman](https://github.com/raggebatman) |
+| 🇭🇺 | Hungarian | [@f3rr31](https://github.com/f3rr31) |
 
 If you would like to maintain a language, please open an issue with your request.
 
