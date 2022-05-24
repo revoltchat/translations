@@ -38,7 +38,8 @@
         "welcome2": "Sveiki!",
         "subtitle2": "Izveidot kontu",
         "welcome": "Priecājamies tevi atkal redzēt!",
-        "subtitle": "Ienākt Revolt"
+        "subtitle": "Ienākt Revolt",
+        "unofficial_instance": "Trešās puses instance."
     },
     "app": {
         "main": {
@@ -259,6 +260,11 @@
                     "discover": {
                         "description": "Pārlūkot motīvus, ko veidojusi kopiena",
                         "title": "Atklāt motīvus"
+                    },
+                    "appearance_options": {
+                        "show_send": "Vienmēr rādīt ziņas sūtīšanas pogu",
+                        "show_send_desc": "Ja atspējosi, sūtīšanas pogu redzēsi tikai mobilajās ierīcēs.",
+                        "title": "Izskata iespējas"
                     }
                 },
                 "notifications": {
@@ -430,7 +436,10 @@
                 "role_options": "Lomu opcijas",
                 "role_ranking": "Lomu klasifikācija",
                 "delete_role": "Dzēst lomu",
-                "hoist_role": "Pacēlāja loma"
+                "hoist_role": "Pacēlāja loma",
+                "hoist_desc": "Rādīt šo lomu virs citām.",
+                "title": "Atļaujas lomai {{role}}",
+                "edit_title": "Rediģēt atļaujas"
             }
         },
         "home": {
@@ -569,7 +578,12 @@
                     "trust_domain": "Uzticēties šim domēnam"
                 },
                 "signed_out": "Esi izrakstījies!",
-                "token_reveal": "Lietotāja {{name}} autorizācijas žetons"
+                "token_reveal": "Lietotāja {{name}} autorizācijas žetons",
+                "sessions": {
+                    "accept": "Noņemt visas sesijas",
+                    "title": "Vai tiešām vēlies atvienot visas savas sesijas?",
+                    "short": "Šo darbību nav iespējams atsaukt."
+                }
             },
             "friends": {
                 "pending": "Neapstiprinātie pieprasījumi",
@@ -657,7 +671,8 @@
         "unavailable": "Nav pieejams",
         "on": "Ieslēgts",
         "off": "Izslēgts",
-        "disabled": "Atspējots"
+        "disabled": "Atspējots",
+        "learn_more": "Uzzināt vēl"
     },
     "error": {
         "OperationFailed": "Operācija neizdevās.",
@@ -777,34 +792,52 @@
             "d": "Atļauj dalībniekiem skatīt tos kanālus, kuros viņiem ir šī atļauja."
         },
         "Video": {
-            "t": "Video"
+            "t": "Video",
+            "d": "Atļauj dalībniekiem straumēt video balss kanālos."
         },
         "MuteMembers": {
-            "t": "Izslēgt skaņu locekļi"
+            "t": "Izslēgt skaņu locekļi",
+            "d": "Atļauj dalībniekiem apklusināt citus balss kanālos."
         },
         "MoveMembers": {
-            "t": "Kustēties locekļi"
+            "t": "Kustēties locekļi",
+            "d": "Atļauj dalībniekiem pārvietot citus starp balss kanāliem."
         },
         "AssignRoles": {
-            "t": "Piešķirt lomas"
+            "t": "Piešķirt lomas",
+            "d": "Atļauj dalībniekiem piešķirt citiem zemākas lomas par savējām."
         },
         "ManagePermissions": {
-            "t": "Pārvaldīt atļaujas"
+            "t": "Pārvaldīt atļaujas",
+            "d": "Atļauj dalībniekiem mainīt kanālu atļaujas un zemāku lomu atļaujas."
         },
         "Speak": {
-            "t": "Runājiet"
+            "t": "Runājiet",
+            "d": "Atļauj dalībniekiem piedalīties balss kanālos."
         },
         "DeafenMembers": {
-            "t": "Nedzirdīgi locekļi"
+            "t": "Izslēgt dalībnieku klausuli",
+            "d": "Atļauj dalībniekiem izslēgt citu dalībnieku skaļruni balss kanālos."
         },
         "Connect": {
-            "t": "Savienot"
+            "t": "Savienot",
+            "d": "Atļauj dalībniekiem pievienoties balss kanāliem."
         },
         "ManageWebhooks": {
-            "t": "Pārvaldīt Webhooks"
+            "t": "Pārvaldīt Webhooks",
+            "d": "Atļauj dalībniekiem pārvaldīt kanāla Webhooks."
         },
         "ReadMessageHistory": {
-            "t": "Lasīt ziņa vēsture"
+            "t": "Lasīt ziņa vēsture",
+            "d": "Atļauj dalībniekiem lasīt ziņu vēsturi šajā kanālā."
+        },
+        "TimeoutMembers": {
+            "t": "Īslaicīga dalībnieku bloķēšana",
+            "d": "Atļauj dalībniekiem īslaicīgi bloķēt lietotāju darbības serverī."
+        },
+        "SendEmbeds": {
+            "d": "Atļauj dalībniekiem sūtīt ietvertu saturu, gan no saitēm, gan pielāgotu teksta ietverto saturu.",
+            "t": "Sūtīt ietverto saturu"
         }
     },
     "dayjs": {
