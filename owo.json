@@ -8,7 +8,8 @@
         "on": "On",
         "off": "No",
         "disabled": "Disabwed",
-        "unavailable": "Unyavaiwabwe"
+        "unavailable": "Unyavaiwabwe",
+        "learn_more": "Weawn mowe"
     },
     "app": {
         "special": {
@@ -96,6 +97,11 @@
                     "title": "Extewnyaw winks can be dangewous!",
                     "trust_domain": "Twust this domain",
                     "short": "Are wou swure wou want to vwisit this wink:"
+                },
+                "sessions": {
+                    "title": "Awe uwu suwe uwu wawnt tuwu cweaw youw sessions?",
+                    "short": "Uwu cannot undo thiws action.",
+                    "accept": "Wemove aww sessions"
                 }
             },
             "requires_online": "Youw need to be onwine to view this.",
@@ -217,7 +223,8 @@
                     "sent_file": "Sent an attyachmwent",
                     "sent_multiple_files": "Sent muwtipwe attachmwents",
                     "jump_beginning": "Juwmp to thye beginnying",
-                    "new_messages": "Nyew messages swince {{time_ago}}"
+                    "new_messages": "Nyew messages swince {{time_ago}}",
+                    "load_file": "Woad fiwe"
                 },
                 "voice": {
                     "unmute": "Unmuwte",
@@ -410,6 +417,11 @@
                     "discover": {
                         "description": "Browuse Thewmes Madwe Bwy Thwe Commwuinty",
                         "title": "Discovwer Thewmes"
+                    },
+                    "appearance_options": {
+                        "show_send": "Awways show Send Message button",
+                        "title": "Appeawance Options",
+                        "show_send_desc": "If disabwed, the Send Message button wiww onwy appeaw own mobiwe."
                     }
                 },
                 "account": {
@@ -606,7 +618,15 @@
                 "channel": "Channew pewmissions",
                 "create_role": "Cweate a nyew wowe",
                 "role_name": "Rowe nyame",
-                "default_role": "Defauwt"
+                "default_role": "Defauwt",
+                "role_ranking": "Wowe Wanking",
+                "delete_role": "Dewete Wowe",
+                "hoist_role": "Hoist Wowe",
+                "hoist_desc": "Dispway thiws wowe above othews.",
+                "title": "Pewmissions fow {{role}}",
+                "edit_title": "Edit Pewmissions",
+                "role_colour": "Wowe Cowouw",
+                "role_options": "Wowe Options"
             }
         },
         "permissions": {
@@ -670,7 +690,8 @@
         "welcome": "Wewcome back!",
         "subtitle": "Sign into Wevowt",
         "welcome2": "Henwo!",
-        "subtitle2": "Cweate an account"
+        "subtitle2": "Cweate an account",
+        "unofficial_instance": "Thiwd-pawty instance."
     },
     "dayjs": {
         "lastDay": "[Yestewday at] {{time}}",
@@ -812,6 +833,50 @@
         "ViewChannel": {
             "t": "View channyew",
             "d": "Awwows membews to view any channyews they have this pewmission on."
+        },
+        "TimeoutMembers": {
+            "t": "Timeouwt Membews",
+            "d": "Awwows membews tuwu tempowawiwy pwevent usews fwom intewacting with the sewvew."
+        },
+        "AssignRoles": {
+            "t": "Assign Wowes",
+            "d": "Awwows membews tuwu assign wowes bewow theiw own wank tuwu othew membews."
+        },
+        "MuteMembers": {
+            "t": "Mute Membews"
+        },
+        "Speak": {
+            "d": "Awwows membews to speak in a voice channyew.",
+            "t": "Tawk"
+        },
+        "Video": {
+            "d": "Awwows membews to stweam video in a voice channyew."
+        },
+        "DeafenMembers": {
+            "t": "Deafen Membews"
+        },
+        "MoveMembers": {
+            "t": "Muv Membews",
+            "d": "Awwows membews to muv othews between voice channyews."
+        },
+        "ManagePermissions": {
+            "t": "Manage Pewmissions",
+            "d": "Awwows membews tuwu change pewmissions fow channews awnd wowes with a wowew wanking."
+        },
+        "ManageWebhooks": {
+            "d": "Awwows membews to contwow webhooks in a channyew.",
+            "t": "Manyage Webhooks"
+        },
+        "SendEmbeds": {
+            "d": "Awwows membews t-to send embedded content, whethew fwom winks ow custom text embeds."
+        },
+        "ReadMessageHistory": {
+            "t": "Wead Message Histowy",
+            "d": "Awwows membews to wead the message histowy of this channyew."
+        },
+        "Connect": {
+            "t": "Connyect",
+            "d": "Awwows membews to connyect to a voice channyew."
         }
     },
     "shortcuts": {
