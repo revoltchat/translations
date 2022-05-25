@@ -66,9 +66,9 @@
                     "user_left": "{{user}} pameta",
                     "user_kicked": "{{user}} tika izmests",
                     "user_banned": "{{user}} tika pastāvīgi izraidīts",
-                    "added_by": "{{other_user}} pievienoja {{user}}",
-                    "removed_by": "{{other_user}} noņēma {{user}}",
-                    "channel_renamed": "{{user}} pārsauca kanālu uz {{name}}",
+                    "added_by": "Lietotājs {{user}} pievienoja {{other_user}}",
+                    "removed_by": "Lietotājs {{user}} noņēma {{other_user}}",
+                    "channel_renamed": "{{user}} pārsauca kanālu par {{name}}",
                     "channel_description_changed": "{{user}} nomainīja kanāla aprakstu",
                     "channel_icon_changed": "{{user}} nomainīja kanāla ikonu"
                 },
@@ -83,7 +83,7 @@
                     "connected": "Savienots balss sarunā"
                 },
                 "misc": {
-                    "viewing_old": "Apskata vecākas ziņas",
+                    "viewing_old": "Redzamas vecākas ziņas",
                     "jump_present": "Doties uz jaunākajām ziņām",
                     "failed_load": "Nevarēja ielādēt ziņu.",
                     "blocked_messages": "{{count}} bloķētas ziņas",
@@ -108,7 +108,7 @@
                 "bot": "robots",
                 "notifications": {
                     "default": "Izmantot noklusējuma iestatījumu",
-                    "all": "Visi ziņojumi",
+                    "all": "Visas ziņas",
                     "mention": "Tikai pieminējumi",
                     "none": "Neviens",
                     "muted": "Klusināts"
@@ -158,7 +158,7 @@
             "invisible": "Neredzams",
             "offline": "Bezsaistē",
             "idle": "Brīvs",
-            "reconnect": "atkārtoti izveidot savienojumu"
+            "reconnect": "Savienoties no jauna"
         },
         "navigation": {
             "tabs": {
@@ -234,7 +234,7 @@
                     "import_theme": "Importēt motīva kodu",
                     "theme_data": "Motīva dati",
                     "custom_css": "Pielāgots CSS",
-                    "sync": "Sinhronizācijas opcijas",
+                    "sync": "Sinhronizācijas iestatījumi",
                     "font": "Fonts",
                     "ligatures": "Fontu ligatūras",
                     "color": {
@@ -432,11 +432,11 @@
                 "create_role": "Izveidot jaunu lomu",
                 "default_role": "Noklusējums",
                 "server": "Servera atļaujas",
-                "role_colour": "Lomu Krāsa",
-                "role_options": "Lomu opcijas",
-                "role_ranking": "Lomu klasifikācija",
+                "role_colour": "Lomas krāsa",
+                "role_options": "Lomas opcijas",
+                "role_ranking": "Lomas rangs",
                 "delete_role": "Dzēst lomu",
-                "hoist_role": "Pacēlāja loma",
+                "hoist_role": "Pacelt lomu",
                 "hoist_desc": "Rādīt šo lomu virs citām.",
                 "title": "Atļaujas lomai {{role}}",
                 "edit_title": "Rediģēt atļaujas"
@@ -764,7 +764,7 @@
             "d": "Atļauj dalībniekiem dzēst citu dalībnieku ziņas."
         },
         "Masquerade": {
-            "t": "Lietot maskas",
+            "t": "Maskēties",
             "d": "Atļauj dalībniekiem nomainīt savu vārdu un avatāru atsevišķām ziņām."
         },
         "InviteOthers": {
@@ -796,11 +796,11 @@
             "d": "Atļauj dalībniekiem straumēt video balss kanālos."
         },
         "MuteMembers": {
-            "t": "Izslēgt skaņu locekļi",
+            "t": "Izslēgt dalībniekiem mikrofonu",
             "d": "Atļauj dalībniekiem apklusināt citus balss kanālos."
         },
         "MoveMembers": {
-            "t": "Kustēties locekļi",
+            "t": "Pārvietot dalībniekus",
             "d": "Atļauj dalībniekiem pārvietot citus starp balss kanāliem."
         },
         "AssignRoles": {
