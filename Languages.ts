@@ -6,7 +6,9 @@ export enum Language {
     BELARUSIAN = "be",
     BULGARIAN = "bg",
     BENGALI = "bn",
+    BRETON = "br",
     CATALONIAN = "ca",
+    CENTRAL_KURDISH = "ckb",
     CZECH = "cs",
     DANISH = "da",
     GERMAN = "de",
@@ -45,6 +47,7 @@ export enum Language {
     THAI = "th",
     TURKISH = "tr",
     UKRANIAN = "uk",
+    VENETIAN = "vec",
     VIETNAMESE = "vi",
     CHINESE_SIMPLIFIED = "zh_Hans",
     LATVIAN = "lv",
@@ -67,6 +70,7 @@ export interface LanguageEntry {
     dayjs?: string;
     rtl?: boolean;
     cat?: "const" | "alt";
+    verified?: boolean;
 }
 
 export const Languages: { [key in Language]: LanguageEntry } = {
@@ -75,6 +79,7 @@ export const Languages: { [key in Language]: LanguageEntry } = {
         emoji: "🇬🇧",
         i18n: "en",
         dayjs: "en-gb",
+        verified: true,
     },
 
     ar: { display: "عربي", emoji: "🇸🇦", i18n: "ar", rtl: true },
@@ -82,10 +87,18 @@ export const Languages: { [key in Language]: LanguageEntry } = {
     be: { display: "беларуская", emoji: "🇧🇾", i18n: "be" },
     bg: { display: "български", emoji: "🇧🇬", i18n: "bg" },
     bn: { display: "বাংলা", emoji: "🇧🇩", i18n: "bn" },
+    br: { display: "Brezhoneg", emoji: "br", i18n: "br" },
     ca: { display: "Català", emoji: "🇪🇸", i18n: "ca" },
+    ckb: {
+        display: "کوردی",
+        emoji: "krd",
+        i18n: "ckb",
+        dayjs: "ku",
+        verified: true,
+    },
     cs: { display: "Čeština", emoji: "🇨🇿", i18n: "cs" },
     da: { display: "Danskers", emoji: "🇩🇰", i18n: "da" },
-    de: { display: "Deutsch", emoji: "🇩🇪", i18n: "de" },
+    de: { display: "Deutsch", emoji: "🇩🇪", i18n: "de", verified: true },
     el: { display: "Ελληνικά", emoji: "🇬🇷", i18n: "el" },
     es: { display: "Español", emoji: "🇪🇸", i18n: "es" },
     et: { display: "eesti", emoji: "🇪🇪", i18n: "et" },
@@ -95,7 +108,7 @@ export const Languages: { [key in Language]: LanguageEntry } = {
     ga: { display: "Gaeilge", emoji: "🇮🇪", i18n: "ga" },
     hi: { display: "हिन्दी", emoji: "🇮🇳", i18n: "hi" },
     hr: { display: "Hrvatski", emoji: "🇭🇷", i18n: "hr" },
-    hu: { display: "magyar", emoji: "🇭🇺", i18n: "hu" },
+    hu: { display: "magyar", emoji: "🇭🇺", i18n: "hu", verified: true },
     id: { display: "bahasa Indonesia", emoji: "🇮🇩", i18n: "id" },
     it: { display: "Italiano", emoji: "🇮🇹", i18n: "it" },
     ja: { display: "日本語", emoji: "🇯🇵", i18n: "ja" },
@@ -113,6 +126,7 @@ export const Languages: { [key in Language]: LanguageEntry } = {
         emoji: "🇧🇷",
         i18n: "pt_BR",
         dayjs: "pt-br",
+        verified: true,
     },
     pt_PT: {
         display: "Português (Portugal)",
@@ -126,11 +140,12 @@ export const Languages: { [key in Language]: LanguageEntry } = {
     sl: { display: "Slovenščina", emoji: "🇸🇮", i18n: "sl" },
     sr: { display: "Српски", emoji: "🇷🇸", i18n: "sr" },
     si: { display: "සිංහල", emoji: "🇱🇰", i18n: "si" },
-    sv: { display: "Svenska", emoji: "🇸🇪", i18n: "sv" },
+    sv: { display: "Svenska", emoji: "🇸🇪", i18n: "sv", verified: true },
     ta: { display: "தமிழ்", emoji: "🇮🇳", i18n: "ta" },
     th: { display: "ไทย", emoji: "🇹🇭", i18n: "th" },
     tr: { display: "Türkçe", emoji: "🇹🇷", i18n: "tr" },
     uk: { display: "Українська", emoji: "🇺🇦", i18n: "uk" },
+    vec: { display: "Vèneto", emoji: "vec", i18n: "vec", dayjs: "en-gb" },
     vi: { display: "Tiếng Việt", emoji: "🇻🇳", i18n: "vi" },
     zh_Hans: {
         display: "中文 (简体)",
