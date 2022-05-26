@@ -16,13 +16,13 @@
         "enter": {
             "invite": "Voer je uitnodigingscode in.",
             "username": "Voer je gewenste gebruikersnaam in.",
-            "email": "Voer je email in.",
+            "email": "Voer je e-mail in.",
             "password": "Voer je wachtwoord in.",
             "current_password": "Voer je huidige wachtwoord in."
         },
         "forgot": "Wachtwoord vergeten?",
         "reset": "Reset wachtwoord",
-        "remembered": "Ga terug naar inloggen",
+        "remembered": "Ga terug naar het inlogscherm",
         "new": "Nieuw bij Revolt?",
         "create": "Maak een nieuw account aan",
         "resend": "Stuur verificatie opnieuw",
@@ -32,19 +32,19 @@
         "set_password": "Nieuw wachtwoord instellen",
         "existing": "Heeft u al een account?",
         "missing_verification": "Geen e-mail ontvangen?",
-        "check_mail": "Check je e-mail!",
+        "check_mail": "Check je mailbox!",
         "error": {
             "resend": "Opnieuw verzenden mislukt!",
             "reset": "Resetten mislukt!",
             "login": "Inloggen mislukt!",
-            "create": "Registreren mislukt!"
+            "create": "Registratie mislukt!"
         },
         "successful_registration": "Succesvol geregistreerd!",
         "open_mail_provider": "Open {{provider}}",
         "check_spam": "Controleer de spam folder als u het niet kunt vinden",
         "password": "Wachtwoord",
         "username": "Gebruikersnaam",
-        "email": "Email",
+        "email": "E-mail",
         "title": "Inloggen",
         "email_delay": "Wacht maximaal 10 minuten voordat het arriveert.",
         "subtitle": "Inloggen bij Revolt",
@@ -92,7 +92,7 @@
                 },
                 "start": {
                     "group": "Dit is het begin van je gesprek.",
-                    "saved": "Dit is het begin van je aantekeningen."
+                    "saved": "Dit is het begin van je notities."
                 },
                 "system": {
                     "channel_icon_changed": "{{user}} veranderde het kanaalpictogram",
@@ -168,7 +168,7 @@
             "tabs": {
                 "saved": "Opgeslagen notities",
                 "dev": "Ontwikkelaar",
-                "home": "Naar Huis",
+                "home": "Home",
                 "unreads": "Ongelezen",
                 "friends": "Vrienden"
             }
@@ -229,7 +229,8 @@
                     },
                     "appearance_options": {
                         "title": "Uiterlijk Opties",
-                        "show_send": "Altijd de knop Bericht verzenden weergeven"
+                        "show_send": "Altijd de knop Bericht verzenden weergeven",
+                        "show_send_desc": "Indien uitgeschakeld, verschijnt de knop 'Bericht verzenden' alleen op mobiele-apparaten."
                     }
                 },
                 "sessions": {
@@ -458,13 +459,14 @@
                 "channel": "Kanaalpermissies",
                 "create_role": "Creëer een nieuwe rol",
                 "role_name": "Naam van de rol",
-                "delete_role": "Rol Verwijderen",
-                "hoist_desc": "Tonen deze rol boven anderen.",
+                "delete_role": "Rol wissen",
+                "hoist_desc": "Vertoon deze rol boven anderen.",
                 "title": "Machtigingen voor {{role}}",
-                "role_colour": "Rol Kleur",
+                "role_colour": "Rolkleur",
                 "role_options": "Rol Opties",
                 "edit_title": "Machtigingen Bewerken",
-                "role_ranking": "Rolranglijst"
+                "role_ranking": "Rolranglijst",
+                "hoist_role": "Rol heffen"
             }
         },
         "special": {
@@ -556,7 +558,7 @@
                 "token_reveal": "{{name}}'s Token",
                 "sessions": {
                     "title": "Weet u zeker duidelijk u uw sessies wilt wissen?",
-                    "accept": "Alle sessies verwijderen",
+                    "accept": "Alle sessies laten vervallen",
                     "short": "Je kanniet deze actie niet ongedaan maken."
                 }
             },
@@ -673,16 +675,16 @@
             "goto-testers": "Ga naar de testers server",
             "donate": "Doneer aan Revolt",
             "feedback": "Geef Revolt feedback",
-            "settings": "Open instellingen",
+            "settings": "Instellingen Openen",
             "settings-tooltip": "Je kunt ook het gebruikersicoon aanklikken links vanboven, of met de linkermuisklik als je al op het thuismenu zit.",
             "social": "Vind servers & bots",
             "directs": "Directe Berichten",
             "join-testers_desc": "Je kan hier problemen melden en verbeteringen direct met ons bespreken.",
             "goto-testers_desc": "Je kan hier problemen melden en verbeteringen direct met ons bespreken.",
-            "donate_desc": "Support het project door te doneren - bedankt!",
+            "donate_desc": "Steun het project door te doneren - bedankt!",
             "feedback_desc": "Laat ons weten hoe we onze app kunnen verbeteren door ons feedback te geven.",
             "discover": "Ontdek Revolt",
-            "discover_desc": "Vind een gemeenschap gebaseerd op je hobby's of interesses.",
+            "discover_desc": "Vind een community gebaseerd op je hobby's of interesses.",
             "group": "Maak een groep",
             "group_desc": "Nodig al je vrienden uit, een paar coole bots, en gooi een groot feest."
         }
@@ -832,22 +834,48 @@
             "d": "Hiermee kunnen leden machtigingen wijzigen voor kanalen en rollen met een lagere rangschikking."
         },
         "ReadMessageHistory": {
-            "t": "Berichtgeschiedenis lezen"
+            "t": "Berichtgeschiedenis lezen",
+            "d": "Stelt leden in staat om de berichtengeschiedenis van dit kanaal te lezen."
         },
         "ManageWebhooks": {
-            "t": "Webhooks Beheren"
+            "t": "Webhooks Beheren",
+            "d": "Stelt leden in staat om webhooks in een kanaal te bedienen."
         },
         "TimeoutMembers": {
-            "d": "Hiermee kunnen leden tijdelijk voorkomen dat gebruikers interactie hebben met de server."
+            "d": "Stelt leden in staat om tijdelijk gebruikers te stoppen van het communiceren in de server.",
+            "t": "Leden time-out geven"
         },
         "AssignRoles": {
-            "t": "Rollen Toewijzen"
+            "t": "Rollen Toewijzen",
+            "d": "Staat leden toe rollen onder hun eigen rang aan andere leden toe te wijzen."
         },
         "Speak": {
-            "t": "Spreken"
+            "t": "Spreken",
+            "d": "Stelt leden in staat te spreken in een spraakkanaal."
         },
         "Connect": {
-            "t": "Aansluiten"
+            "t": "Verbinden",
+            "d": "Hiermee kunnen leden verbinding maken met een spraakkanaal."
+        },
+        "SendEmbeds": {
+            "t": "Embeds versturen",
+            "d": "Hiermee kunnen leden ingesloten inhoud verzenden, of het nu gaat om links of aangepaste tekst-embeds."
+        },
+        "DeafenMembers": {
+            "t": "Geluid van leden onhoorbaar maken",
+            "d": "Stelt leden in staat om andere leden onhoorbaar te maken, dit betekent dat het onhoorbare lid niet meer anderen kan horen in spraakkanalen."
+        },
+        "MuteMembers": {
+            "d": "Hiermee kunnen leden de microfoon dempen van anderen in een spraakkanaal, dit betekent dat andere leden dit lid niet meer kunnen horen.",
+            "t": "Microfoon van leden dempen"
+        },
+        "Video": {
+            "t": "Video",
+            "d": "Stelt leden in staat video te streamen in een spraakkanaal."
+        },
+        "MoveMembers": {
+            "t": "Leden verplaatsen",
+            "d": "Stelt leden in staat anderen te verplaatsen van één spraakkanaal naar een ander."
         }
     },
     "shortcuts": {
