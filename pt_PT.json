@@ -79,6 +79,46 @@
         "ReadMessageHistory": {
             "t": "Ler Histórico de Mensagens",
             "d": "Permite que membros leiam o histórico de mensagens deste canal."
+        },
+        "SendEmbeds": {
+            "t": "Enviar \"embutidos\"",
+            "d": "Permite enviar conteúdo embutido, quer sejam ligações ou texto personalizado."
+        },
+        "Speak": {
+            "d": "Permite falar num canal de voz.",
+            "t": "Falar"
+        },
+        "Video": {
+            "d": "Permite transmitir vídeo num canal de voz.",
+            "t": "Vídeo"
+        },
+        "DeafenMembers": {
+            "t": "Desativar áudio de membros",
+            "d": "Permite desativar completamente o áudio de outras pessoas num canal de voz."
+        },
+        "MuteMembers": {
+            "t": "Silenciar membros",
+            "d": "Permite silenciar outras pessoas num canal de voz."
+        },
+        "MoveMembers": {
+            "t": "Mover membros",
+            "d": "Permite mover outras pessoas entre canais."
+        },
+        "ManagePermissions": {
+            "t": "Gerir permissões",
+            "d": "Permite alterar as permissões de canais e cargos abaixo deste."
+        },
+        "TimeoutMembers": {
+            "t": "Suspender membros",
+            "d": "Permite impedir utilizadores de interagirem com o servidor, temporariamente."
+        },
+        "ManageWebhooks": {
+            "d": "Permite controlar as webhooks num canal.",
+            "t": "Gerir webhooks"
+        },
+        "Connect": {
+            "t": "Ligar",
+            "d": "Permite ligar a um canal de voz."
         }
     },
     "shortcuts": {
@@ -312,7 +352,7 @@
                     "pick": "Escolhe um nome de utilizador pelo qual pretendes que as pessoas te consigam encontrar. Poderá ser alterado, mais tarde, nas configurações.",
                     "welcome": "Bem-vindo(a) a"
                 },
-                "token_reveal": "Testemunho de {{name}}",
+                "token_reveal": "Testemunho (token) de {{name}}",
                 "signed_out": "A tua sessão foi terminada!",
                 "clipboard": {
                     "copy": "Cópia manual:",
@@ -377,10 +417,10 @@
                     "public_bot": "Robô público",
                     "private_bot_tip": "Robô privado. Apenas tu poderás convidá-lo.",
                     "public_bot_tip": "Robô público. Qualquer pessoa poderá convidá-lo.",
-                    "token": "Testemunho",
+                    "token": "Testemunho (token)",
                     "add": "Adicionar robô",
                     "copy_invite": "Copiar link de convite",
-                    "unique_id": "Este é um identificador único para o teu robô. Não é o testemunho do robô.",
+                    "unique_id": "Este é um identificador único para o teu robô. Não é o testemunho (token) do robô.",
                     "profile": "Perfil de bot"
                 },
                 "source_code": "Código-fonte",
@@ -471,7 +511,8 @@
                     },
                     "appearance_options": {
                         "title": "Opções de aparência",
-                        "show_send": "Mostrar o butão \"Enviar mensagem\" sempre"
+                        "show_send": "Mostrar o butão \"Enviar mensagem\" sempre",
+                        "show_send_desc": "Quando desativada, o botão de \"Enviar mensagem\" só aparecerá no telemóvel."
                     }
                 },
                 "audio": {
@@ -796,7 +837,7 @@
             "current_password": "Introduz a tua palavra-passe atual.",
             "invite": "Introduz o teu código de convite.",
             "password": "Introduz a tua palavra-passe.",
-            "email": "Introduza o seu correio eletrónico.",
+            "email": "Por favor, introduza o seu correio eletrónico.",
             "username": "Introduz um nome de utilizador."
         },
         "password": "Palavra-passe",
@@ -809,7 +850,8 @@
         "welcome2": "Olá!",
         "subtitle2": "Criar uma conta",
         "welcome": "Bem-vindo de volta!",
-        "subtitle": "Entrar no Revolt"
+        "subtitle": "Entrar no Revolt",
+        "unofficial_instance": "Instância independente."
     },
     "general": {
         "unavailable": "Indisponível",
@@ -820,6 +862,7 @@
         "image_by": "Imagem de",
         "privacy": "Política de Privacidade",
         "tos": "Termos de Serviço",
-        "about": "Acerca de"
+        "about": "Acerca de",
+        "learn_more": "Saber mais"
     }
 }
