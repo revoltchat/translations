@@ -65,7 +65,384 @@
         "navigation": {
             "tabs": {
                 "home": "Mal",
-                "dev": "Pêşdebir"
+                "dev": "Pêşdebir",
+                "friends": "Hevalên",
+                "unreads": "Nexwendî",
+                "saved": "notên xilas kirin"
+            }
+        },
+        "home": {
+            "join-testers": "Tevlî servera ceribandinan bibin",
+            "donate_desc": "Bi bexşînê piştgirî bidin projeyê - spas!",
+            "directs": "Peyamên Rasterast",
+            "join-testers_desc": "Hûn dikarin pirsgirêkan ragihînin û li vir rasterast bi me re çêtirkirinan nîqaş bikin.",
+            "goto-testers": "Biçe ser servera testers",
+            "goto-testers_desc": "Hûn dikarin pirsgirêkan ragihînin û li vir rasterast bi me re çêtirkirinan nîqaş bikin.",
+            "donate": "bexş bike ber Revolt",
+            "feedback": "Li ser Revolt bertek bidin",
+            "feedback_desc": "Ka em zanibin ka em çawa dikarin bi dayîna bertekên xwe ve sepana xwe baştir bikin.",
+            "settings": "Mîhengan vekin",
+            "settings-tooltip": "Her weha hûn dikarin li ser îkonê bikarhênerê li milê çepê yê jor rast-klîk bikin, an ger hûn berê li malê ne, wê bikirtînin.",
+            "discover": "Kişfkirina Revolt",
+            "discover_desc": "Civatek li ser bingeha hobî an berjewendîyên xwe bibînin.",
+            "group": "Komek çêbikin",
+            "group_desc": "Hemî hevalên xwe, çend botên xweş vexwînin, û şahiyek mezin bavêjin."
+        },
+        "main": {
+            "categories": {
+                "members": "endamên",
+                "conversations": "sohbetên",
+                "participants": "Beşdarên",
+                "channels": "kanalên"
+            },
+            "channel": {
+                "failed_upload": "Barkirin bi ser neket!",
+                "system": {
+                    "removed_by": "{{bikarhêner}} ji hêla {{bikarhênerek din}} ve hat rakirin",
+                    "user_joined": "{{bikarhêner}} tevlî bû",
+                    "user_left": "{{bikarhêner}} hiştin",
+                    "user_kicked": "{{bikarhêner}} hat xistin",
+                    "user_banned": "{{bikarhêner}} hate qedexekirin",
+                    "added_by": "{{bikarhêner}} ji hêla {{bikarhênerek din}} ve hat zêdekirin",
+                    "channel_renamed": "{{user}} navê kanalê kir {{name}}",
+                    "channel_description_changed": "{{user}} şiroveya kanalê guhert",
+                    "channel_icon_changed": "{{user}} îkona kanalê guhert"
+                },
+                "voice": {
+                    "leave": "terikandin",
+                    "connected": "Deng girêdayî",
+                    "mute": "bêdeng",
+                    "unmute": "mijê ewr"
+                },
+                "misc": {
+                    "viewing_old": "Dîtina peyamên kevintir",
+                    "no_sending": "Destûra we tune ku hûn di vê kanalê de peyaman bişînin.",
+                    "jump_present": "Biçe pêşkêşkirinê",
+                    "jump_beginning": "Biçe destpêkê",
+                    "new_messages": "Peyamên nû ji {{time_ago}}",
+                    "spoiler_attachment": "Spoiler",
+                    "failed_load": "Peyam nehat barkirin.",
+                    "blocked_messages": "{{count}} peyamên astengkirî",
+                    "blocked_user": "kesê astengkirî",
+                    "sent_file": "Pêvek şandin",
+                    "sent_multiple_files": "Gelek pêvekan bişînin",
+                    "load_file": "Pelê barkirin"
+                },
+                "search": {
+                    "sort": {
+                        "oldest": "herî kevn",
+                        "relevance": "têkildariya",
+                        "latest": "Dawîtirîn"
+                    },
+                    "title": "Gerr"
+                },
+                "errors": {
+                    "nochannels": "Tu kanalên vê serverê tune, an jî tu xwe bigihînî tu kesî.",
+                    "title": "Oops, li vir tiştek tune!",
+                    "nochannel": "Kanal tune"
+                },
+                "message_where": "Peyama {{kanala_nav}}",
+                "message_who": "Peyam {{kes}}",
+                "message_saved": "tomar bike li notên xwe",
+                "uploading_file": "Barkirin…",
+                "attached_file": "Pêvekirî {{navê pelê}}",
+                "reply": {
+                    "replying": "Bersiv didin",
+                    "toggle": "Pinga nivîskarê biguherîne"
+                },
+                "typing": {
+                    "single": "{{bikarhêner}} dinivîse…",
+                    "multiple": "{{lîsteya bikarhêner}} û {{bikarhêner}} dinivîsin…",
+                    "several": "Çend kes dinivîsin…"
+                },
+                "start": {
+                    "group": "Ev destpêka sohbeta we ye.",
+                    "saved": "Ev destpêka notên we ye."
+                },
+                "nsfw": {
+                    "channel": {
+                        "marked": "Ev kanal wekî NSFW hatiye nîşankirin.",
+                        "confirm": "Têkeve Channel"
+                    },
+                    "confirm": "Ez piştrast dikim ku ez herî kêm 18 salî me."
+                },
+                "unknown_user": "<Bikarhêner nenas>",
+                "edited": "(guherandin)",
+                "bot": "robotan",
+                "bridge": "pir",
+                "notifications": {
+                    "default": "Default bikar bînin",
+                    "all": "Hemû Peyam",
+                    "mention": "Behsa Tenê",
+                    "none": "Netû",
+                    "muted": "Netû"
+                }
+            },
+            "servers": {
+                "custom_banner": "tiştekî adeta",
+                "owner": "Xwediyê serverê",
+                "create": "Serverek çêbikin",
+                "name": "Navê Server",
+                "description": "ravekirina serverê",
+                "channel_name": "Navê kanalê",
+                "channel_type": "Tîpa kanalê",
+                "category_name": "Navê Kategoriyê",
+                "channel_description": "Danasîna kanalê",
+                "text_channel": "kanalên nivîsê",
+                "voice_channel": "Kanala Deng"
+            },
+            "groups": {
+                "create": "Komek çêbikin",
+                "name": "Navê Koma",
+                "description": "Danasîna Koma",
+                "owner": "Xwediyê Koma"
+            }
+        },
+        "settings": {
+            "categories": {
+                "danger_zone": "herêma xeternak",
+                "user_settings": "Mîhengên Bikarhêner",
+                "client_settings": "Mîhengên Client"
+            },
+            "pages": {
+                "account": {
+                    "2fa": {
+                        "add_auth": "Authenticator zêde bikin",
+                        "title": "Nasnameya du-faktorî",
+                        "description": "Ji kerema xwe ji bo parastina hesabê xwe 2FA çalak bikin",
+                        "remove_auth": "Authenticator rakin"
+                    },
+                    "manage": {
+                        "description": "Di her kêliyê de hesabê xwe neçalak bike an jê bibe.  Ev çalakî dê we derxe û hesabê we, tevî dîroka chat û hevalên we, bi tevahî jê bibe.",
+                        "delete": "Hesabê jêbirin",
+                        "title": "rêveberiya hesabê",
+                        "disable": "Hesabê neçalak bike"
+                    },
+                    "title": "Hesabê min",
+                    "change_field": "Gûherrandinî",
+                    "unique_id": "Ev ji bo hesabê we nasnameyek bikarhênerek yekta ye."
+                },
+                "profile": {
+                    "profile_picture": "Wêne Profîl",
+                    "title": "Tengal",
+                    "info": "Agahî",
+                    "fetching": "Profîla te distîne…",
+                    "placeholder": "Li ser xwe tiştek binivîsin…",
+                    "custom_background": "paşxaneya xwerû",
+                    "edit_background": "Biguherîne Background",
+                    "edit_profile": "Profîl biguherîne"
+                },
+                "sessions": {
+                    "this_device": "vê cîhazê",
+                    "title": "danişînan",
+                    "active_sessions": "Rûniştinên Çalak",
+                    "created": "afirandin{{time_ago}}",
+                    "logout": "Ji hemû danişînên din derkevin"
+                },
+                "audio": {
+                    "tip_grant_permission": "Pêdivî ye ku hûn destûr bidin ku hûn bigihîjin mîhengên deng.",
+                    "title": "Mîhengên Deng",
+                    "input_device": "Mîkrofon",
+                    "output_device": "Axaftvan / Headset",
+                    "tip_retry": "Ji kerema xwe te destûra gihîştina mîkrofona. xwe neda {{retryBtn}}",
+                    "device_label_NA": "ez nizanim",
+                    "button_retry": "dîsa hewl didin",
+                    "button_grant": "Destûr bide"
+                },
+                "appearance": {
+                    "discover": {
+                        "description": "Mijarên ku ji hêla civakê ve hatine çêkirin bigerin",
+                        "title": "Mijar kifş bikin"
+                    },
+                    "appearance_options": {
+                        "show_send_desc": "Ger neçalak be, bişkoka Send Message dê tenê li ser mobîl xuya bibe.",
+                        "title": "Vebijêrkên Xuyang",
+                        "show_send": "Bişkoka Send Message Her tim nîşan bide"
+                    },
+                    "theme_options": {
+                        "follow_desc": "Dema ku were kontrol kirin, hûn ê nikaribin mijara xwe biguherînin an mijarek xwerû bikar bînin.",
+                        "transparency_desc": "Li seranserê sepanê bandorên zelaliyê çalak dike.",
+                        "title": "Vebijarkên Mijarê",
+                        "follow": "Mijara pergalê bişopînin",
+                        "seasonal": "Mijara Demsalî",
+                        "seasonal_desc": "Di demsalên betlaneyê de bandorên li tabloya malê nîşan dide.",
+                        "transparency": "bandorên zelaliyê"
+                    },
+                    "overrides": "mijar derbas dibe",
+                    "reset_overrides": "Reset serûbin dike",
+                    "import_theme": "Mijarê ji rêzê derxînin",
+                    "font": "Destwazhe",
+                    "ligatures_desc": "Ji bo tîpên piştgirîkirî, lîgaturan tîpan bi hev re berhev dikin, mînakî, -> veguherînin tîrek.",
+                    "title": "Xuyabûnî",
+                    "theme": "Mijad",
+                    "display": {
+                        "default": "Destçûnî",
+                        "compact": "Gişt",
+                        "compact_description": "IRC kevn baş.",
+                        "default_description": "Bedew, şêrîn û nûjen."
+                    },
+                    "color": {
+                        "light": "sivik",
+                        "dark": "tarî"
+                    },
+                    "accent_selector": "Rengê Accent",
+                    "emoji_pack": "Emoji hevdan",
+                    "message_display": "Nîşandana Peyamê",
+                    "advanced": "Vebijêrkên pêşketî",
+                    "import": "Mijarek import bikin",
+                    "theme_data": "Daneyên Mijarê",
+                    "custom_css": "xwerû CSS",
+                    "sync": "Vebijêrkên Sync",
+                    "mono_font": "Hilbijêrê Font Monospace",
+                    "ligatures": "tişta nivîsandinê"
+                },
+                "notifications": {
+                    "enable_desktop": "Agahiyên Sermaseyê çalak bikin.",
+                    "descriptions": {
+                        "enable_desktop": "Dema ku sepana we vekirî ye ev ê agahdariyan bide we.",
+                        "enable_push": "çalak ji bo agahdarkirinê. gava ku tu offline"
+                    },
+                    "sound": {
+                        "call_join": "banga tevlîbûnê kir",
+                        "message": "peyam şandin",
+                        "outbound": "peyam hat dayîn",
+                        "call_leave": "dev ji bangê berda"
+                    },
+                    "title": "agahdayin",
+                    "push_notifications": "ragihandina nû",
+                    "enable_push": "Push Notifications çalak bike.",
+                    "sounds": "Deng"
+                },
+                "language": {
+                    "other": "zimanên din hene",
+                    "title": "Ziman",
+                    "select": "Zimanê xwe hilbijêre",
+                    "const": "Zimanên ava kirin"
+                },
+                "sync": {
+                    "descriptions": {
+                        "appearance": "Ev ê vebijarkên wekî pakêtên emoji û tîrêjiya peyamê hevdeng bike.",
+                        "theme": "Ev ê mijara weya bijartî, reng û her CSS-ya xwerû hevdeng bike.",
+                        "locale": "Ev ê zimanê weya niha hilbijartî hevdeng bike."
+                    },
+                    "title": "bihevgirêdan",
+                    "options": "bihevgirêdan eyarkirin",
+                    "categories": "hevdemkirinê"
+                },
+                "plugins": {
+                    "title": "pêvekên",
+                    "no_plugins": "Niha tu pêvek nehatine sazkirin.",
+                    "wip": "Hişyarî: Ev taybetmendî hîn di pêşkeftinê de ye.",
+                    "delete_plugin": "Jêbirin"
+                },
+                "source_code": "Koda çavkanî",
+                "bots": {
+                    "copy_invite": "Girêdana vexwendinê kopî bikin",
+                    "private_bot_tip": "Bot taybet e. Tenê hûn dikarin wê vexwendin.",
+                    "interactions_url": "Têkiliyên URL",
+                    "title": "Bota Min",
+                    "create_bot": "Botek çêbikin",
+                    "add": "Bot zêde bikin",
+                    "unique_id": "Ev ji bo bota we nasnameyek yekta ye. Ev ne nîşana botê ye.",
+                    "token": "Tokên",
+                    "public_bot_tip": "Bot giştî ye. Her kes dikare vexwîne.",
+                    "public_bot": "Bota giştîê",
+                    "profile": "Profîla botê",
+                    "public_bot_desc": "Ma destûrê dide bikarhênerên din ku vê botê vexwendin.",
+                    "reserved": "Nîşe: Ev qad ji bo pêşerojê hatiye veqetandin."
+                },
+                "theme_shop": {
+                    "description": "Bi sedan mijaran, ku ji hêla civakê ve hatî afirandin û verast kirin, bigerin.",
+                    "category": {
+                        "manage": "nîşanî kirin",
+                        "saved": "kir",
+                        "new": "Vê hefteyê nû",
+                        "default": "Mijarên xwerû",
+                        "highest": "Rêjeya herî bilind",
+                        "viewall": "Hemî bibînin"
+                    },
+                    "use": "Mijarê bikar bînin",
+                    "title": "mijad dikan",
+                    "search": "Mijaran bigerin…",
+                    "active": "Niha çalak e",
+                    "by": "ji"
+                },
+                "feedback": {
+                    "suggest_desc": "Li ser nîqaşên GitHub taybetmendiyên nû yên Revolt pêşniyar bikin.",
+                    "bug_desc": "Li vir raporên xeletiyên heyî yên çalak bibînin.",
+                    "title": "TEXMÎN",
+                    "description": "şandin TexmÎn",
+                    "suggest": "Pêşniyara taybetmendiyê bişînin",
+                    "issue": "Pirsgirêkek nû çêbikin",
+                    "issue_desc": "Ji bo ku ji me re bibin alîkar ku pirsgirêkên sêwiranê hêsantir bikin, hûn dikarin pirsgirêkek li ser GitHub biafirînin.",
+                    "bug": "Rûnask şop"
+                },
+                "native": {
+                    "title": "Mîhengên Sermaseyê"
+                },
+                "experiments": {
+                    "title": "ceribandinên",
+                    "features": "Taybetmendiyên Berdest",
+                    "not_available": "Di vê demê de ceribandin tune."
+                },
+                "donate": {
+                    "title": "bexş kirin"
+                },
+                "logOut": "Derkeve"
+            },
+            "server_pages": {
+                "invites": {
+                    "code": "koda vexwendinê",
+                    "title": "vedixwîne",
+                    "invitor": "vexwendinkeran",
+                    "revoke": "revok"
+                },
+                "bans": {
+                    "reason": "Sedema qedexekirinê",
+                    "title": "qedexe krin",
+                    "user": "Bikaranîvan",
+                    "no_reason": "Sedema qedexekirinê tune."
+                },
+                "categories": {
+                    "title": "kategoriyan"
+                },
+                "overview": {
+                    "title": "Têgihiştinî",
+                    "name": "Navê Server",
+                    "description": "Danasîna kanalê",
+                    "system_messages": "Kanalên Peyama Sîstemê"
+                },
+                "management": {
+                    "title": "Rêveberiya Bikarhêner"
+                },
+                "members": {
+                    "title": "endam"
+                },
+                "roles": {
+                    "title": "rolên"
+                }
+            },
+            "title": "mîhengên",
+            "actions": {
+                "remove": "Dûrxistin",
+                "upload": "Barkirin",
+                "max_filesize": "(herî zêde {{filesize}}",
+                "edit": "weşandin{{name}}"
+            },
+            "channel_pages": {
+                "overview": {
+                    "title": "Têgihiştinî",
+                    "name": "Navê kanalê",
+                    "description": "Danasîna kanalê"
+                },
+                "permissions": {
+                    "title": "Destûrên"
+                }
+            },
+            "tips": {
+                "account": {
+                    "a": "Digerin ku profîla xweya giştî xweş bikin?"
+                }
             }
         }
     }
