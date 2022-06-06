@@ -96,7 +96,8 @@
                 "reply": {
                     "replying": "Rumeresponde kay",
                     "toggle": "I-ping"
-                }
+                },
+                "bridge": "tulay"
             },
             "groups": {
                 "owner": "May-ari ng grupo",
@@ -263,6 +264,9 @@
                     "discover": {
                         "title": "Humanap ng mga Tema",
                         "description": "Maghanap ng mga temang gawa ng komunidad"
+                    },
+                    "appearance_options": {
+                        "show_send": "Palaging i-pakita ang  Ipadala ang mensahe button"
                     }
                 },
                 "notifications": {
@@ -359,7 +363,8 @@
             "actions": {
                 "remove": "Tanggalin",
                 "upload": "Mag-upload",
-                "max_filesize": "(hanggang {{filesize}} lamang)"
+                "max_filesize": "(hanggang {{filesize}} lamang)",
+                "edit": "i-edit {{name}}"
             },
             "channel_pages": {
                 "overview": {
@@ -424,12 +429,17 @@
                 "channel": "Mga Permiso ng Kanal",
                 "create_role": "Lumikha ng bagong papel",
                 "role_name": "Pangalan ng Papel",
-                "default_role": "Default"
+                "default_role": "Default",
+                "hoist_role": "Magtaas ng Role",
+                "hoist_desc": "Itanghai itong tunkulin sa-itaas ng iba.",
+                "title": "Mga permiso para sa {{role}}",
+                "edit_title": "i-edit ang mga permisyon"
             },
             "title": "Mga Opsyon",
             "categories": {
                 "user_settings": "Mga Opsyon ng User",
-                "client_settings": "Mga Konfigurasyon sa Kliyente"
+                "client_settings": "Mga Konfigurasyon sa Kliyente",
+                "danger_zone": "Mapanganib na lugar"
             }
         },
         "special": {
@@ -603,7 +613,8 @@
         "about": "Tungkol",
         "tos": "Mga Palatuntunan",
         "privacy": "Patakaran sa Privacy",
-        "disabled": "Naka-disabled"
+        "disabled": "Naka-disabled",
+        "learn_more": "Matuto pa"
     },
     "login": {
         "enter": {
