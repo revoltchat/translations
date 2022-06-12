@@ -148,7 +148,13 @@
                         "title": "Autenticación de dos pasos",
                         "add_auth": "Añadir autenticador",
                         "remove_auth": "Eliminar autenticador",
-                        "description": "Agrega una capa adicional de seguridad activando la función 2FA en tu cuenta."
+                        "description": "Agrega una capa adicional de seguridad activando la función A2F en tu cuenta.",
+                        "view_recovery": "Ver códigos de recuperación",
+                        "generate_recovery": "Generar códigos de recuperación",
+                        "generate_recovery_long": "Prepárese para usar A2F configurando un método de recuperación.",
+                        "view_recovery_long": "Vea y descargue sus códigos de recuperación A2F.",
+                        "two_factor_on": "La autenticación de dos factores está actualmente activada.",
+                        "two_factor_off": "¡No ha habilitado la autenticación de dos factores!"
                     },
                     "manage": {
                         "title": "Administrar cuenta",
@@ -525,7 +531,10 @@
                     "delete": "Eliminar",
                     "hide": "Ocultar",
                     "back": "Volver",
-                    "edit": "Editar"
+                    "edit": "Editar",
+                    "done": "Hecho",
+                    "reset": "Reiniciar",
+                    "confirm": "Confirmar"
                 },
                 "clipboard": {
                     "unavailable": "¡El portapapeles no está disponible!",
@@ -543,6 +552,28 @@
                     "title": "¿Estás seguro(a) de que quieres borrar tus sesiones?",
                     "short": "No puede deshacer esta acción.",
                     "accept": "Eliminar todas las sesiones"
+                },
+                "confirm": "Confirmar acción",
+                "mfa": {
+                    "recovery_codes": "Tus códigos de recuperación",
+                    "save_codes": "Guárdelos en un lugar seguro.",
+                    "confirm": "Confirme utilizando el método seleccionado.",
+                    "select_method": "Seleccione un método para autenticar su solicitud.",
+                    "enable_totp": "Habilitar aplicación de autenticación",
+                    "prompt_totp": "Escanee o use el token a continuación en su aplicación de autenticación.",
+                    "enter_code": "Introduzca el código"
+                },
+                "out_of_date": {
+                    "ignore": "Ignorar actualización",
+                    "attempting": "Intentando actualizar...",
+                    "title": "¡Tu cliente está desactualizado!",
+                    "description": "Debe actualizarse para que funcione con los cambios recientes.",
+                    "version": "Su cliente está en {{client}}, mientras que el servidor requiere {{server}}."
+                },
+                "changelogs": {
+                    "title": "Registros de cambios",
+                    "description": "Lea acerca de las actualizaciones de Revolt.",
+                    "older": "Ver actualizaciones anteriores"
                 }
             },
             "friends": {
@@ -679,7 +710,9 @@
         "subtitle": "Iniciar sesión en Revolt",
         "welcome2": "¡Hola!",
         "subtitle2": "Crear una cuenta",
-        "unofficial_instance": "Instancia de terceros."
+        "unofficial_instance": "Instancia de terceros.",
+        "totp": "Aplicación de autenticación",
+        "recovery": "Código de recuperación"
     },
     "general": {
         "image_by": "Imagen por",
