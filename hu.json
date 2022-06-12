@@ -51,7 +51,9 @@
         "welcome": "Jó, hogy újra itt vagy!",
         "welcome2": "Szia!",
         "subtitle2": "Fiók létrehozása",
-        "unofficial_instance": "Ezt egy harmadik személy üzemelteti"
+        "unofficial_instance": "Ezt egy harmadik személy üzemelteti",
+        "totp": "Hitelesítést végző app",
+        "recovery": "Helyreállító kód"
     },
     "app": {
         "main": {
@@ -233,7 +235,13 @@
                         "title": "Kétlépéses hitelesítés",
                         "add_auth": "Hitelesítő hozzáadása",
                         "remove_auth": "Hitelesítő eltávolítása",
-                        "description": "A fiókod extra védelméért állíts be kétlépéses hitelesítést."
+                        "description": "A fiókod extra védelméért állíts be kétlépéses hitelesítést.",
+                        "view_recovery": "Helyreállító kódok megtekintése",
+                        "view_recovery_long": "Itt tudod megnézni és letölteni a kétlépéses hitelesítést helyreállító kódokat.",
+                        "generate_recovery": "Helyreállító kódok létrehozása",
+                        "two_factor_on": "Kétlépéses hitelesítést használsz.",
+                        "generate_recovery_long": "A kétlépéses hitelesítés használatát a helyreállítási mód kiválasztása után kezdheted meg.",
+                        "two_factor_off": "Jelenleg nem használsz kétlépéses hitelesítést."
                     },
                     "manage": {
                         "title": "Fiókkezelés",
@@ -479,7 +487,10 @@
                     "back": "Vissza",
                     "reveal": "megmutat",
                     "hide": "elrejt",
-                    "edit": "Szerkesztés"
+                    "edit": "Szerkesztés",
+                    "done": "Rendben van!",
+                    "reset": "Visszaállítás",
+                    "confirm": "Jóváhagyás"
                 },
                 "prompt": {
                     "confirm_leave": "Végleg elhagyod ezt a helyet? „{{name}}”",
@@ -528,6 +539,16 @@
                     "title": "Tényleg törölni szeretnéd a munkameneteket?",
                     "short": "Ez a művelet nem vonható vissza.",
                     "accept": "Minden munkamenet törlése"
+                },
+                "confirm": "Művelet jóváhagyása",
+                "mfa": {
+                    "recovery_codes": "Helyreállító kódok",
+                    "save_codes": "Tárold biztonságos helyen ezeket a kódokat!",
+                    "confirm": "Hagyd jóvá a kiválasztott helyreállítási módot!",
+                    "select_method": "Válaszd ki a kérés hitelesítéséhez való módot.",
+                    "enable_totp": "Hitelesítő app engedélyezése",
+                    "prompt_totp": "Olvasd be, vagy a lenti tokent haszáld a hitelesítő appodban.",
+                    "enter_code": "Add meg a kódot"
                 }
             },
             "status": {
