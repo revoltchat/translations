@@ -72,7 +72,13 @@
                         "add_auth": "添加认证器",
                         "remove_auth": "移除认证器",
                         "title": "双重认证",
-                        "description": "启用双重认证，为您的账户添加额外一层保护。"
+                        "description": "启用双重认证，为您的账户添加额外一层保护。",
+                        "view_recovery_long": "查看与下载您的两步验证恢复代码。",
+                        "generate_recovery": "生成恢复代码",
+                        "two_factor_on": "两步验证目前已启用。",
+                        "two_factor_off": "您尚未启用两步验证！",
+                        "view_recovery": "查看恢复代码",
+                        "generate_recovery_long": "启用两步验证前，还需要设置一种恢复方式。"
                     },
                     "unique_id": "这是您账户的用户唯一标识。",
                     "manage": {
@@ -490,7 +496,10 @@
                     "hide": "隐藏",
                     "reveal": "显示",
                     "kick": "踢出",
-                    "edit": "编辑"
+                    "edit": "编辑",
+                    "done": "完成",
+                    "reset": "重置",
+                    "confirm": "确认"
                 },
                 "account": {
                     "failed": "更改失败！",
@@ -533,6 +542,16 @@
                     "short": "您无法撤销此操作。",
                     "accept": "删除所有设备",
                     "title": "您确定要清除已登录的设备吗？"
+                },
+                "confirm": "确认操作",
+                "mfa": {
+                    "recovery_codes": "您的恢复代码",
+                    "save_codes": "请将它们保存在安全的位置。",
+                    "confirm": "请使用已选择的方式确认。",
+                    "select_method": "请选择一种方式验证您的请求。",
+                    "enable_totp": "启用身份验证器应用",
+                    "enter_code": "输入代码",
+                    "prompt_totp": "请在身份验证器内扫码或填写下列令牌代码。"
                 }
             },
             "status": {
@@ -672,7 +691,9 @@
         "subtitle2": "创建账户",
         "welcome": "欢迎回来！",
         "subtitle": "登录 Revolt",
-        "unofficial_instance": "第三方实例。"
+        "unofficial_instance": "第三方实例。",
+        "totp": "身份验证器应用",
+        "recovery": "恢复代码"
     },
     "general": {
         "image_by": "图片来自",
