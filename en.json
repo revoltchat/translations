@@ -221,8 +221,14 @@
                     "2fa": {
                         "title": "Two-factor Authentication",
                         "description": "Add an extra layer of security by enabling 2FA on your account.",
+                        "view_recovery": "View Recovery Codes",
+                        "view_recovery_long": "View and download your 2FA recovery codes.",
+                        "generate_recovery": "Generate Recovery Codes",
+                        "generate_recovery_long": "Get ready to use 2FA by setting up a recovery method.",
                         "add_auth": "Add Authenticator",
-                        "remove_auth": "Remove Authenticator"
+                        "remove_auth": "Remove Authenticator",
+                        "two_factor_on": "Two-factor authentication is currently on.",
+                        "two_factor_off": "You have not enabled two-factor authentication!"
                     },
                     "manage": {
                         "title": "Account Management",
@@ -506,6 +512,7 @@
                     "https": "You are currently not in a HTTPS context.",
                     "copy": "Manual Copy:"
                 },
+                "confirm": "Confirm action",
                 "signed_out": "You were signed out!",
                 "token_reveal": "{{name}}'s Token",
                 "onboarding": {
@@ -538,6 +545,15 @@
                     },
                     "failed": "Failed to change!"
                 },
+                "mfa": {
+                    "recovery_codes": "Your recovery codes",
+                    "save_codes": "Please save these to a safe location.",
+                    "confirm": "Please confirm using selected method.",
+                    "select_method": "Please select a method to authenticate your request.",
+                    "enable_totp": "Enable authenticator app",
+                    "prompt_totp": "Please scan or use the token below in your authentication app.",
+                    "enter_code": "Enter Code"
+                },
                 "external_links": {
                     "title": "External links can be dangerous!",
                     "short": "Are you sure you want to go to:",
@@ -551,6 +567,7 @@
                 "actions": {
                     "ok": "Ok",
                     "ban": "Ban",
+                    "done": "Done",
                     "kick": "Kick",
                     "save": "Save",
                     "hide": "Hide",
@@ -558,6 +575,7 @@
                     "block": "Block",
                     "close": "Close",
                     "leave": "Leave",
+                    "reset": "Reset",
                     "back": "Go back",
                     "remove": "Remove",
                     "delete": "Delete",
@@ -566,6 +584,7 @@
                     "update": "Update",
                     "cancel": "Cancel",
                     "preview": "Preview",
+                    "confirm": "Confirm",
                     "reload": "Reload App",
                     "continue": "Continue",
                     "send_email": "Send Email"
