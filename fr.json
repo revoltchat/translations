@@ -51,7 +51,9 @@
         "subtitle": "Se connecter à Revolt",
         "welcome2": "Bonjour !",
         "subtitle2": "Créer un compte",
-        "unofficial_instance": "Instance non-officielle."
+        "unofficial_instance": "Instance non-officielle.",
+        "recovery": "Code de récupération",
+        "totp": "Application d'authentification"
     },
     "app": {
         "main": {
@@ -340,7 +342,13 @@
                         "title": "Authentification à deux facteurs",
                         "description": "Ajoutez une couche de sécurité supplémentaire en activant l'A2F pour votre compte.",
                         "remove_auth": "Supprimer un facteur d'authentification",
-                        "add_auth": "Ajouter un facteur d'authentification"
+                        "add_auth": "Ajouter un facteur d'authentification",
+                        "view_recovery_long": "Voir et télécharger vos codes de récupération A2F.",
+                        "view_recovery": "Voir les codes de récupération",
+                        "generate_recovery_long": "Préparez l'A2F en mettant en place une méthode de récupération.",
+                        "generate_recovery": "Générer les codes de récupération",
+                        "two_factor_off": "Vous n'avez pas activé l'authentification à deux facteurs !",
+                        "two_factor_on": "L'authentification à deux facteurs est activée."
                     },
                     "unique_id": "Il s’agit d’un identifiant d’utilisateur unique pour votre compte.",
                     "manage": {
@@ -562,7 +570,10 @@
                     "leave": "Quitter",
                     "block": "Bloquer",
                     "hide": "Masquer",
-                    "edit": "Modifier"
+                    "edit": "Modifier",
+                    "reset": "Réinitialiser",
+                    "confirm": "Confirmer",
+                    "done": "Terminer"
                 },
                 "signed_out": "Vous avez été déconnecté !",
                 "account": {
@@ -610,6 +621,28 @@
                     "title": "Êtes-vous sûr de vouloir vous déconnecter de toutes vos sessions ?",
                     "short": "Vous ne pourrez pas annuler cette action.",
                     "accept": "Se déconnecter de toutes les sessions"
+                },
+                "confirm": "Confirmer l'action",
+                "mfa": {
+                    "recovery_codes": "Vos codes de récupération",
+                    "save_codes": "Gardez-les dans un endroit sûr.",
+                    "confirm": "Confirmez en utilisant la méthode sélectionnée.",
+                    "select_method": "Sélectionnez une méthode pour authentifier votre requête.",
+                    "enable_totp": "Activer l'application d'authentification",
+                    "enter_code": "Entrez le code",
+                    "prompt_totp": "Veuillez numériser ou utiliser le jeton ci-dessous dans votre application d'authentification."
+                },
+                "changelogs": {
+                    "title": "Modifications",
+                    "description": "Lire à propos des mises à jour de Revolt.",
+                    "older": "Voir les mises à jour précédentes"
+                },
+                "out_of_date": {
+                    "title": "Votre client n'est pas à jour !",
+                    "description": "Il doit être mis à jour pour fonctionner avec les modifications récentes.",
+                    "version": "Votre client est en {{client}} alors que les serveur nécessite {{server}}.",
+                    "ignore": "Ignorer la mise à jour",
+                    "attempting": "Tentative de mise à jour en cours…"
                 }
             },
             "status": {
