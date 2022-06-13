@@ -64,7 +64,10 @@
                     "leave": "Weave",
                     "back": "RETURN!!!!",
                     "hide": "Make it go away >:(",
-                    "edit": "Edit"
+                    "edit": "Edit",
+                    "done": "I'm downe",
+                    "confirm": "Confiwm",
+                    "reset": "Weset"
                 },
                 "prompt": {
                     "confirm_leave": "Go away fwom {{name}} (They'll pwobabwy miss u OmO)?",
@@ -102,6 +105,28 @@
                     "title": "Awe uwu suwe uwu wawnt tuwu cweaw youw sessions?",
                     "short": "Yew cannot undo thiws action.",
                     "accept": "Wemove aww sessions"
+                },
+                "out_of_date": {
+                    "attempting": "Twying tow update...",
+                    "version": "Youw cwient is at {{client}}, buwt the sewvew wequires {{server}}.",
+                    "ignore": "Ignowe update",
+                    "title": "Youw cwient is out of date, mastew!",
+                    "description": "It must be updated in owdew to wowk with wecent changes."
+                },
+                "changelogs": {
+                    "description": "Wead abowt updates to Revolt.",
+                    "title": "Changewogs",
+                    "older": "View owdew updates"
+                },
+                "confirm": "Confiwm action",
+                "mfa": {
+                    "recovery_codes": "Youw wecovery cowodes",
+                    "save_codes": "Pwease save these to a safe location.",
+                    "confirm": "Pwease confiwm using sewected methowd.",
+                    "select_method": "Pwease select a methowd to auwthenticate youw wequest.",
+                    "enable_totp": "Enable auwthenticatow app",
+                    "prompt_totp": "Pwease scan or use the token bewow in youw authentication app.",
+                    "enter_code": "Entew Cowode"
                 }
             },
             "requires_online": "Youw need to be onwine to view this.",
@@ -433,13 +458,19 @@
                         "title": "Two-factow authentication",
                         "description": "Add an extwa wayew of secuwity by enyabwing 2FA on youw account.",
                         "add_auth": "Add authenticatow",
-                        "remove_auth": "Wemuv authenticatow"
+                        "remove_auth": "Wemuv authenticatow",
+                        "view_recovery": "View Wecovewy Cowodes",
+                        "generate_recovery": "Genewate Wecovewy Cowodes",
+                        "generate_recovery_long": "Get weady to use 2FA by syetting up a wecovewy methowd.",
+                        "two_factor_on": "Two-factow authentication is cuwwently on.",
+                        "view_recovery_long": "View and downlowoad youw 2FA wecovewy cowodes.",
+                        "two_factor_off": ">.< Youw have not enabled two-factow authentication, master!"
                     },
                     "manage": {
                         "title": "Account manyagement",
                         "description": "Disabwe ow dewete youw account at any time. This action wiww wog you out and fuwwy dewete youw account, incwuding youw chat histowy and fwiends.",
                         "disable": "Disabwe account",
-                        "delete": "Dewete account"
+                        "delete": "Mark accownt fow dewetion"
                     }
                 },
                 "feedback": {
@@ -692,7 +723,9 @@
         "subtitle": "Sign into Wevowt",
         "welcome2": "Henwo!",
         "subtitle2": "Cweate an account",
-        "unofficial_instance": "Thiwd-pawty instance."
+        "unofficial_instance": "Thiwd-pawty instance.",
+        "totp": "Auwthenticatow App",
+        "recovery": "Wecovewy Cowode"
     },
     "dayjs": {
         "lastDay": "[Yestewday at] {{time}}",
