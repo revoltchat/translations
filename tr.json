@@ -202,7 +202,13 @@
                         "title": "Çift Faktörlü Doğrulama",
                         "description": "Hesabınızda 2AD'yı etkinleştirerek ekstra bir güvenlik katmanı ekleyin.",
                         "add_auth": "Kimlik Doğrulayıcı Ekle",
-                        "remove_auth": "Kimlik Doğrulayıcıyı Kaldır"
+                        "remove_auth": "Kimlik Doğrulayıcıyı Kaldır",
+                        "two_factor_on": "İki aşamalı kimlik doğrulama şuan açık.",
+                        "view_recovery": "Kurtarma Kodlarına Bak",
+                        "view_recovery_long": "2AD kurtarma kodlarına bak ve indir.",
+                        "generate_recovery": "Kurtarma Kodu Oluştur",
+                        "generate_recovery_long": "Bir kurtarma yöntemi ayarlayarak 2AD kullanmaya hazır olun.",
+                        "two_factor_off": "İki aşamalı kimlik doğrulaman etkin değil!"
                     }
                 },
                 "sessions": {
@@ -550,7 +556,10 @@
                     "reveal": "Göster",
                     "back": "Geri dön",
                     "hide": "Gizle",
-                    "edit": "Düzenle"
+                    "edit": "Düzenle",
+                    "done": "Bitti",
+                    "reset": "Sıfırla",
+                    "confirm": "Onayla"
                 },
                 "external_links": {
                     "title": "Harici bağlantılar tehlikeli olabilir!",
@@ -562,6 +571,28 @@
                     "title": "Oturumlarınızı temizlemek istediğinize emin misiniz?",
                     "short": "Bu eylemi geri alamazsınız.",
                     "accept": "Bütün oturumları sil"
+                },
+                "out_of_date": {
+                    "title": "İstemcin güncel değil!",
+                    "description": "Son değişiklilerle çalışabilmesi için güncellemesi gerekli.",
+                    "version": "İstemcin {{client}} üzerindeyken, sunucu ise {{server}} gerektiriyor.",
+                    "ignore": "Güncellemeyi yoksay",
+                    "attempting": "Güncellenmeye çalışılıyor..."
+                },
+                "changelogs": {
+                    "title": "Değişim günlüğü",
+                    "description": "Revolt güncellemeleri hakkında bilgi edinin.",
+                    "older": "Eski güncellemelere bakın"
+                },
+                "confirm": "İşlemi onayla",
+                "mfa": {
+                    "recovery_codes": "Kurtarma kodların",
+                    "save_codes": "Lütfen bunları güvenli bir yere kaydedin.",
+                    "confirm": "Lütfen seçilen yöntemi kullanarak onaylayın.",
+                    "select_method": "Lütfen isteğinizi doğrulamak için bir yöntem seçin.",
+                    "enable_totp": "Kimlik doğrulama uygulamasını etkinleştirin",
+                    "prompt_totp": "Lütfen kimlik doğrulama uygulamanızda alttaki jetonu tarayın ya da kullanın.",
+                    "enter_code": "Kodu Gir"
                 }
             },
             "popovers": {
@@ -691,7 +722,9 @@
         "subtitle2": "Bir hesap oluştur",
         "subtitle": "Revolt'ta Oturum Aç",
         "welcome": "Tekrar hoşgeldin!",
-        "unofficial_instance": "Üçüncü-parti örneği."
+        "unofficial_instance": "Üçüncü-parti örneği.",
+        "totp": "Kimlik Doğrulama Uygulaması",
+        "recovery": "Kurtarma Kodu"
     },
     "quantities": {
         "members": {
