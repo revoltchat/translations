@@ -51,7 +51,9 @@
         "subtitle2": "Tạo tài khoản mới",
         "welcome": "Mừng bạn trở lại!",
         "subtitle": "Đăng nhập vào Revolt",
-        "unofficial_instance": "Phiên bản của bên thứ ba."
+        "unofficial_instance": "Phiên bản của bên thứ ba.",
+        "totp": "Ứng Dụng Xác Thực",
+        "recovery": "Mã Khôi Phục"
     },
     "app": {
         "status": {
@@ -235,7 +237,13 @@
                         "title": "Bảo Mật Hai Lớp",
                         "description": "Thêm một lớp bảo mật bằng việc bật Bảo Mật Hai Lớp trong tài khoản của bạn.",
                         "add_auth": "Thêm Lớp Xác Thực",
-                        "remove_auth": "Bỏ Lớp Xác Thực"
+                        "remove_auth": "Bỏ Lớp Xác Thực",
+                        "view_recovery": "Xem Mã Khôi Phục",
+                        "view_recovery_long": "Xem và tải về mã khôi phục hai lớp của bạn.",
+                        "generate_recovery": "Tạo Mã Khôi Phục",
+                        "generate_recovery_long": "Cài đặt phương thức khôi phục để sử dụng bảo mật hai lớp.",
+                        "two_factor_on": "Bảo mật hai lớp đang bật.",
+                        "two_factor_off": "Bạn chưa bật bảo mật hai lớp!"
                     },
                     "title": "Tài Khoản Của Tôi",
                     "change_field": "Đổi",
@@ -519,7 +527,10 @@
                     "preview": "Xem trước",
                     "continue": "Tiếp tục",
                     "send_email": "Gửi Email",
-                    "edit": "Chỉnh sửa"
+                    "edit": "Chỉnh sửa",
+                    "done": "Đã xong",
+                    "reset": "Đặt lại",
+                    "confirm": "Xác nhận"
                 },
                 "error": "Đã xảy ra lỗi!",
                 "clipboard": {
@@ -546,6 +557,26 @@
                     "short": "Bạn không thể hoàn tác hành động này.",
                     "title": "Bạn có muốn xóa phiên không?",
                     "accept": "Loại bỏ tất cả các phiên"
+                },
+                "out_of_date": {
+                    "title": "Ứng dụng của bạn đã quá cũ!",
+                    "description": "Bạn cần phải cập nhật ứng dụng để tương thích với những cập nhật gần đây.",
+                    "ignore": "Bỏ qua bản cập nhật",
+                    "attempting": "Đang cập nhật..."
+                },
+                "changelogs": {
+                    "older": "Xem các cập nhật cũ hơn",
+                    "title": "Lịch sử thay đổi",
+                    "description": "Đọc về các cập nhật của Revolt."
+                },
+                "confirm": "Xác nhận hành động",
+                "mfa": {
+                    "recovery_codes": "Mã khôi phục của bạn",
+                    "save_codes": "Hãy lưu chúng ở nơi an toàn.",
+                    "confirm": "Hãy xác nhận sử dụng phương thức đã chọn.",
+                    "select_method": "Hãy chọn một phương thức để xác thực yêu cầu của bạn.",
+                    "enable_totp": "Dùng ứng dụng xác thực",
+                    "enter_code": "Nhập Mã"
                 }
             },
             "popovers": {
