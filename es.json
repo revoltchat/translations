@@ -19,7 +19,7 @@
                 "unknown_user": "<Usuario desconocido>",
                 "message_saved": "Guardar en tus notas",
                 "uploading_file": "Subiendo…",
-                "failed_upload": "¡Error en subir!",
+                "failed_upload": "¡Error al subir!",
                 "attached_file": "{{filename}} adjuntado",
                 "typing": {
                     "single": "{{user}} está escribiendo…",
@@ -48,7 +48,7 @@
                     "blocked_user": "Usuario Bloqueado",
                     "sent_file": "Envió un archivo",
                     "sent_multiple_files": "Envió múltiples archivos",
-                    "jump_beginning": "Ver inicio",
+                    "jump_beginning": "Saltar al principio",
                     "new_messages": "Nuevos mensajes desde {{time_ago}}",
                     "load_file": "Cargar archivo"
                 },
@@ -81,7 +81,7 @@
                 },
                 "reply": {
                     "replying": "Respondiendo a",
-                    "toggle": "Alternar mención al autor"
+                    "toggle": "Deshabilitar mención al autor"
                 },
                 "bridge": "Puente"
             },
@@ -152,13 +152,13 @@
                         "view_recovery": "Ver códigos de recuperación",
                         "generate_recovery": "Generar códigos de recuperación",
                         "generate_recovery_long": "Prepárese para usar A2F configurando un método de recuperación.",
-                        "view_recovery_long": "Vea y descargue sus códigos de recuperación A2F.",
+                        "view_recovery_long": "Ver y descargar sus códigos de recuperación A2F.",
                         "two_factor_on": "La autenticación de dos factores está actualmente activada.",
                         "two_factor_off": "¡No ha habilitado la autenticación de dos factores!"
                     },
                     "manage": {
                         "title": "Administrar cuenta",
-                        "description": "Deshabilita o elimina tu cuenta en cualquier momento. Esta acción cerrará la sesión y eliminará tu cuenta por completo, incluido tu historial de chat y amigos.",
+                        "description": "Deshabilitar o eliminar su cuenta en cualquier momento. Esta acción cerrará la sesión y eliminará tu cuenta por completo, incluido tu historial de chat y amigos.",
                         "disable": "Deshabilitar cuenta",
                         "delete": "Marcar cuenta para eliminación"
                     }
@@ -240,22 +240,22 @@
                     "ligatures_desc": "En los tipos de letra compatibles, las ligaduras combinan caracteres, por ejemplo, convirtiendo -> en una flecha.",
                     "import": "Importar un tema",
                     "theme_options": {
-                        "follow_desc": "Cuando está marcada, no podrá cambiar su tema ni usar un tema personalizado.",
+                        "follow_desc": "Cuando este marcada no podrás cambiar el tema ni usar un tema personalizado.",
                         "seasonal": "Tema estacional",
-                        "seasonal_desc": "Muestra efectos en la pestaña de inicio durante las temporadas de vacaciones.",
+                        "seasonal_desc": "Mostrar efectos en la pestaña de inicio durante las temporadas festivas.",
                         "follow": "Seguir el tema del sistema",
                         "title": "Opciones de tema",
-                        "transparency_desc": "Activa los efectos de transparencia en toda la aplicación.",
+                        "transparency_desc": "Habilita los efectos de transparencia en toda la aplicación.",
                         "transparency": "Efectos de transparencia"
                     },
                     "discover": {
-                        "title": "Descubre temas",
-                        "description": "Examinar los temas creados por la comunidad"
+                        "title": "Descubrir temas",
+                        "description": "Descubrir los temas creados por la comunidad"
                     },
                     "appearance_options": {
                         "title": "Opciones de apariencia",
-                        "show_send": "Mostrar siempre el botón de Enviar mensaje",
-                        "show_send_desc": "Si está deshabilitado, el botón Enviar mensaje solo aparecerá en dispositivos móviles."
+                        "show_send": "Mostrar siempre el botón de enviar mensaje",
+                        "show_send_desc": "Si está deshabilitado, el botón enviar mensaje solo aparecerá en dispositivos móviles."
                     }
                 },
                 "logOut": "Cerrar sesión",
@@ -294,7 +294,7 @@
                     "copy_invite": "Copiar enlace de invitación",
                     "public_bot_desc": "Permitir o no que otros usuarios inviten a este bot.",
                     "unique_id": "Este es un identificador único para tu bot. No es el token del bot.",
-                    "profile": "Perfil de bot"
+                    "profile": "Perfil del bot"
                 },
                 "native": {
                     "title": "Opciones de escritorio"
@@ -312,17 +312,17 @@
                 "theme_shop": {
                     "title": "Tienda de temas",
                     "category": {
-                        "manage": "Administrar guardado",
+                        "manage": "Administrar guardados",
                         "new": "Nuevo esta semana",
                         "saved": "Guardado",
                         "default": "Temas predeterminados",
-                        "highest": "Mayor valorado",
+                        "highest": "Mejor valorado",
                         "viewall": "Ver todo"
                     },
                     "use": "Usar tema",
                     "active": "Actualmente activo",
                     "by": "por",
-                    "description": "Explore cientos de temas, creados y seleccionados por la comunidad.",
+                    "description": "Explore cientos de temas creados y seleccionados por la comunidad.",
                     "search": "Buscar temas…"
                 },
                 "plugins": {
@@ -408,12 +408,12 @@
                 "role_name": "Nombre de rol",
                 "default_role": "Por defecto",
                 "role_colour": "Color del Rol",
-                "role_options": "Opciones de Rol",
+                "role_options": "Opciones del Rol",
                 "hoist_role": "Elevar el Rol",
                 "role_ranking": "Clasificación del rol",
-                "delete_role": "Borrar Rol",
+                "delete_role": "Eliminar Rol",
                 "hoist_desc": "Mostrar este rol por encima de los demás.",
-                "edit_title": "Editar Permisos",
+                "edit_title": "Editar permisos",
                 "title": "Permisos para {{role}}"
             }
         },
@@ -550,7 +550,7 @@
                 },
                 "sessions": {
                     "title": "¿Estás seguro(a) de que quieres borrar tus sesiones?",
-                    "short": "No puede deshacer esta acción.",
+                    "short": "No puedes deshacer esta acción.",
                     "accept": "Eliminar todas las sesiones"
                 },
                 "confirm": "Confirmar acción",
@@ -558,10 +558,10 @@
                     "recovery_codes": "Tus códigos de recuperación",
                     "save_codes": "Guárdelos en un lugar seguro.",
                     "confirm": "Confirme utilizando el método seleccionado.",
-                    "select_method": "Seleccione un método para autenticar su solicitud.",
+                    "select_method": "Porfavor seleccione un método para autenticar su solicitud.",
                     "enable_totp": "Habilitar aplicación de autenticación",
-                    "prompt_totp": "Escanee o use el token a continuación en su aplicación de autenticación.",
-                    "enter_code": "Introduzca el código"
+                    "prompt_totp": "Escanee o use el token en su aplicación de autenticación.",
+                    "enter_code": "Introducir el código"
                 },
                 "out_of_date": {
                     "ignore": "Ignorar actualización",
@@ -571,7 +571,7 @@
                     "version": "Su cliente está en {{client}}, mientras que el servidor requiere {{server}}."
                 },
                 "changelogs": {
-                    "title": "Registros de cambios",
+                    "title": "Registro de cambios",
                     "description": "Lea acerca de las actualizaciones de Revolt.",
                     "older": "Ver actualizaciones anteriores"
                 }
@@ -597,7 +597,7 @@
                         "translator": "Traductor",
                         "responsible_disclosure": "Error(es) revelado(s) responsablemente",
                         "founder": "Fundador",
-                        "moderation": "Moderador"
+                        "moderation": "Moderador de la plataforma"
                     },
                     "no_users": "Ningún amigo en común",
                     "empty": "Está un poco vacío aquí…",
@@ -655,9 +655,9 @@
             "join-testers": "Unirse al servidor de pruebas",
             "goto-testers": "Servidor de probadores",
             "donate": "Donar a Revolt",
-            "feedback": "Dar una opinión sobre Revolt",
-            "settings": "Ajustes",
-            "settings-tooltip": "También puedes hacer clic con el botón derecho del ratón en el icono de usuario de la parte superior izquierda, o con el botón izquierdo si ya estás en el inicio.",
+            "feedback": "Danos tu opinión sobre Revolt",
+            "settings": "Abrir ajustes",
+            "settings-tooltip": "También puedes hacer clic con el botón derecho del ratón en el icono de usuario de la parte superior izquierda o con el botón izquierdo si ya estás en el inicio.",
             "social": "Buscar servidores y bots",
             "directs": "Mensajes Directos",
             "join-testers_desc": "Puede informar problemas y discutir mejoras con nosotros directamente aquí.",
@@ -756,17 +756,17 @@
         "TooLong": "Demasiado largo",
         "NetworkError": "Error de conexión.",
         "InternalError": "Error interno.",
-        "MissingHeaders": "Faltan cabeceras.",
+        "MissingHeaders": "Faltan encabezados.",
         "InvalidSession": "Sesión invalida.",
-        "UsernameTaken": "Este nombre de usuario ya está en uso.",
+        "UsernameTaken": "Este nombre de usuario ya está tomado.",
         "InvalidEmail": "Dirección de correo electrónico inválida",
         "UnsupportedBrowser": "Tu navegador no tiene soporte para esta característica.",
         "DeniedNotification": "Ha denegado el acceso a las notificaciones, comprueba la configuración de la página.",
-        "RenderFail": "La representación de la plantilla ha fallado.",
+        "RenderFail": "Fallo en la renderización de la plantilla.",
         "EmailInUse": "Correo electrónico en uso.",
         "EmailFailed": "No se ha podido enviar el correo electrónico.",
         "InvalidCredentials": "El correo electrónico o la contraseña son incorrectos.",
-        "Unauthorized": "Sin permisos.",
+        "Unauthorized": "Sin autorización.",
         "Unlabelled": "Algo ha pasado.",
         "FailedValidation": "No se han podido validar los campos.",
         "DatabaseError": "Error en la base de datos.",
@@ -777,7 +777,7 @@
         "NoEffect": "Esta petición no surtió efecto.",
         "FailedToReceive": "El servidor no ha recibido tu archivo.",
         "ProbeError": "Fallo en la obtención de los metadatos del archivo.",
-        "IoError": "El servidor ha encontrado un error E/S.",
+        "IoError": "El servidor ha encontrado un error I/O.",
         "UnknownError": "Ver consola.",
         "OperationFailed": "Operación fallida.",
         "UnverifiedAccount": "Cuenta no verificada.",
@@ -803,8 +803,8 @@
             "d": "Permite a los miembros cambiar los apodos de otros miembros."
         },
         "BanMembers": {
-            "d": "Permite a los miembros eliminar miembros de forma permanente de este servidor.",
-            "t": "Banear miembros"
+            "d": "Permite a los miembros expulsar miembros de forma permanente de este servidor.",
+            "t": "Vetar miembros"
         },
         "RemoveAvatars": {
             "d": "Permitir a los miembros eliminar los avatares de otros miembros en este servidor.",
@@ -824,19 +824,19 @@
         },
         "KickMembers": {
             "t": "Expulsar miembros",
-            "d": "Permite a los miembros eliminar miembros de este servidor. Los miembros expulsados pueden volver a unirse con una invitación."
+            "d": "Permite a los miembros expulsar miembros de este servidor. Los miembros expulsados pueden volver a unirse con una invitación."
         },
         "ManageMessages": {
             "t": "Administrar mensajes",
-            "d": "Permite los miembros eliminar los mensajes enviados por otros miembros."
+            "d": "Permite a los miembros eliminar los mensajes enviados por otros miembros."
         },
         "SendMessage": {
             "t": "Enviar mensajes",
-            "d": "Permite a los miembros enviar mensajes en canales de texto."
+            "d": "Permitir a los miembros enviar mensajes en canales de texto."
         },
         "ManageChannel": {
             "t": "Administrar canales",
-            "d": "Permite los miembros editar o eliminar un canal."
+            "d": "Permite a los miembros editar o eliminar un canal."
         },
         "VoiceCall": {
             "t": "Llamada de voz",
@@ -860,7 +860,7 @@
         },
         "ManageRole": {
             "t": "Administrar roles",
-            "d": "Permite miembros crear, editar y eliminar roles con un rango menor al tuyo. También permite modificar los permisos de roles en canales."
+            "d": "Le permite a lo miembros crear, editar y eliminar roles con un rango menor al tuyo. También permite modificar los permisos de los roles en los canales."
         },
         "ViewChannel": {
             "d": "Permite a los miembros ver cualquier canal en el que tengan este permiso.",
@@ -868,11 +868,11 @@
         },
         "ManageWebhooks": {
             "t": "Administrar Webhooks",
-            "d": "Permite a los miembros controlar webhooks en un canal."
+            "d": "Permite a los miembros controlar los webhooks de un canal."
         },
         "SendEmbeds": {
-            "t": "Enviar incrustaciones",
-            "d": "Permite a los miembros enviar contenido incrustado, ya sea desde enlaces o incrustaciones de texto personalizado."
+            "t": "Enviar embeds",
+            "d": "Permite a los miembros enviar contenido embed ya sea desde enlaces o incrustaciones de texto personalizado."
         },
         "Connect": {
             "t": "Conectar",
@@ -891,7 +891,7 @@
             "d": "Permite a los miembros silenciar a otros en un canal de voz."
         },
         "DeafenMembers": {
-            "d": "Permite a los miembros ensordecer a otros en un canal de voz.",
+            "d": "Permite a los miembros ensordecer a otros miembros en un canal de voz.",
             "t": "Ensordecer miembros"
         },
         "MoveMembers": {
@@ -900,10 +900,10 @@
         },
         "ManagePermissions": {
             "t": "Administrar Permisos",
-            "d": "Permite a los miembros cambiar los permisos para canales y roles con una clasificación más baja."
+            "d": "Permite a los miembros cambiar los permisos para los canales y roles con una clasificación más baja."
         },
         "TimeoutMembers": {
-            "d": "Permite a los miembros evitar temporalmente que los usuarios interactúen con el servidor.",
+            "d": "Permite a los miembros aislar temporalmente que los usuarios interactúen con el servidor.",
             "t": "Aislar temporalmente a miembros"
         },
         "AssignRoles": {
