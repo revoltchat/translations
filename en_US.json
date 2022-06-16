@@ -51,7 +51,9 @@
         "subtitle2": "Create an account",
         "welcome": "Welcome back!",
         "subtitle": "Sign into Revolt",
-        "unofficial_instance": "Third-party instance."
+        "unofficial_instance": "Third-party instance.",
+        "totp": "Authenticator App",
+        "recovery": "Recovery Code"
     },
     "app": {
         "status": {
@@ -203,7 +205,13 @@
                         "title": "Two-factor Authentication",
                         "description": "Add an extra layer of security by enabling 2FA on your account.",
                         "add_auth": "Add Authenticator",
-                        "remove_auth": "Remove Authenticator"
+                        "remove_auth": "Remove Authenticator",
+                        "two_factor_off": "You haven't enabled two-factor authentication!",
+                        "view_recovery": "View Recovery Codes",
+                        "view_recovery_long": "View and download your 2FA recovery codes.",
+                        "generate_recovery": "Generate Backup Codes",
+                        "generate_recovery_long": "Get ready to use 2FA by setting up a backup method.",
+                        "two_factor_on": "Two-factor authentication is currently on."
                     },
                     "manage": {
                         "title": "Account Management",
@@ -540,12 +548,37 @@
                     "preview": "Preview",
                     "reload": "Reload App",
                     "continue": "Continue",
-                    "send_email": "Send Email"
+                    "send_email": "Send Email",
+                    "confirm": "Confirm",
+                    "done": "Done",
+                    "reset": "Reset"
                 },
                 "sessions": {
                     "short": "You cannot undo this action.",
                     "accept": "Remove all sessions",
                     "title": "Are you sure you want to clear your sessions?"
+                },
+                "changelogs": {
+                    "description": "Read about updates of Revolt.",
+                    "older": "View older updates",
+                    "title": "Changelogs"
+                },
+                "confirm": "Confirm action",
+                "mfa": {
+                    "recovery_codes": "You recovery codes",
+                    "save_codes": "Please save these to a safe location.",
+                    "confirm": "Please confirm using a selected method.",
+                    "select_method": "Please select a method to authenticate your request.",
+                    "enable_totp": "Enable authenticator app",
+                    "prompt_totp": "Please scan or use the token below in your authentication app.",
+                    "enter_code": "Enter Code"
+                },
+                "out_of_date": {
+                    "title": "Your client is out of date!",
+                    "description": "It must be updated in order to work with recent changes.",
+                    "version": "Your client is at {{client}}, whereas the server requires the server {{server}}.",
+                    "ignore": "Ignore updated",
+                    "attempting": "Attempting to update..."
                 }
             },
             "popovers": {
