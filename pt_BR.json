@@ -12,7 +12,7 @@
                     "blocked_messages": "{{count}} mensagens bloqueadas",
                     "blocked_user": "Usuário bloqueado",
                     "sent_file": "Enviou um anexo",
-                    "sent_multiple_files": "Enviou múltiplos anexos",
+                    "sent_multiple_files": "Enviou vários anexos",
                     "jump_beginning": "Pular para o começo",
                     "new_messages": "Novas mensagens {{time_ago}}",
                     "load_file": "Carregar arquivo"
@@ -32,14 +32,14 @@
                 "message_saved": "Salvar nas suas notas",
                 "failed_upload": "Falha ao enviar!",
                 "uploading_file": "Enviando…",
-                "attached_file": "Anexado {{filename}}",
+                "attached_file": "{{filename}} anexado",
                 "typing": {
                     "several": "Várias pessoas estão digitando…",
                     "multiple": "{{userlist}} e {{user}} estão digitando…",
                     "single": "{{user}} está digitando…"
                 },
                 "unknown_user": "<Usuário Desconhecido>",
-                "bot": "Bot",
+                "bot": "bot",
                 "voice": {
                     "connected": "Voz conectada",
                     "leave": "Desconectar",
@@ -61,7 +61,7 @@
                 "message_who": "Conversar com {{person}}",
                 "nsfw": {
                     "channel": {
-                        "marked": "Este canal está marcado como NSFW.",
+                        "marked": "Este canal está marcado como restrito para maiores.",
                         "confirm": "Entrar no canal"
                     },
                     "confirm": "Eu confirmo que eu tenho pelo menos 18 anos de idade."
@@ -75,7 +75,7 @@
                     }
                 },
                 "errors": {
-                    "nochannels": "Este servidor não possui nenhum canal, ou você não possui acesso a nenhum deles.",
+                    "nochannels": "Este servidor não possui nenhum canal, ou você não tem acesso a nenhum deles.",
                     "nochannel": "Nenhum canal",
                     "title": "Oops, não tem nada aqui!"
                 },
@@ -155,7 +155,7 @@
                         "transparency_desc": "Ativa efeitos de transparência por todo o aplicativo."
                     },
                     "discover": {
-                        "title": "Descobrir Temas",
+                        "title": "Descobrir temas",
                         "description": "Navegue pelos temas feitos pela comunidade"
                     },
                     "appearance_options": {
@@ -198,7 +198,7 @@
                     "suggest": "Enviar sugestão de funcionalidade",
                     "suggest_desc": "Sugerir novas funcionalidades para o Revolt nas discussões do GitHub.",
                     "issue_desc": "Para nos ajudar a separar os problemas com mais facilidade, você pode criar uma issue no GitHub.",
-                    "bug_desc": "Visualize as denúncias ativas de bugs aqui.",
+                    "bug_desc": "Visualize aqui os relatórios de bugs atualmente ativos.",
                     "issue": "Criar uma nova issue",
                     "description": "Enviar comentário"
                 },
@@ -207,17 +207,23 @@
                     "title": "Minha conta",
                     "2fa": {
                         "title": "Autenticação de dois fatores",
-                        "description": "Adiciona uma camada extra de segurança ao ativar 2FA na sua conta.",
+                        "description": "Adicione uma camada extra de segurança ao ativar A2F na sua conta.",
                         "add_auth": "Adicionar autenticador",
-                        "remove_auth": "Remover autenticador"
+                        "remove_auth": "Remover autenticador",
+                        "view_recovery": "Ver códigos de recuperação",
+                        "generate_recovery": "Gerar códigos de recuperação",
+                        "two_factor_off": "Você não ativou a autenticação de dois fatores!",
+                        "two_factor_on": "A autenticação de dois fatores está ativada.",
+                        "view_recovery_long": "Ver e baixar seus códigos de recuperação da A2F.",
+                        "generate_recovery_long": "Prepare-se para usar A2F ao configurar um método de recuperação."
                     },
                     "manage": {
                         "title": "Gerenciamento da conta",
                         "disable": "Desativar conta",
                         "delete": "Marcar conta para exclusão",
-                        "description": "Desative ou delete sua conta a qualquer momento. Essa ação vai te deslogar e deletar completamente a sua conta, incluindo seu histórico de conversas e amigos."
+                        "description": "Desative ou exclua sua conta a qualquer momento. Esta ação irá desconectá-lo e excluir totalmente a sua conta, incluindo seu histórico de conversas e amigos."
                     },
-                    "unique_id": "Este é um identificador único de usuário para a sua conta."
+                    "unique_id": "Este é um identificador de usuário único para sua conta."
                 },
                 "profile": {
                     "placeholder": "Digite algo sobre você…",
@@ -225,14 +231,14 @@
                     "info": "Informação",
                     "custom_background": "Imagem de fundo personalizada",
                     "edit_background": "Alterar imagem de fundo",
-                    "fetching": "Carregando seu perfil…",
+                    "fetching": "Obtendo seu perfil…",
                     "profile_picture": "Imagem de perfil",
                     "edit_profile": "Editar perfil"
                 },
                 "sessions": {
                     "title": "Sessões",
                     "this_device": "Esse dispositivo",
-                    "created": "Criado {{time_ago}}",
+                    "created": "Criada {{time_ago}}",
                     "active_sessions": "Sessões ativas",
                     "logout": "Sair de todas as outras sessões"
                 },
@@ -250,7 +256,7 @@
                     "title": "Doar"
                 },
                 "experiments": {
-                    "not_available": "Sem experimentos disponíveis no momento.",
+                    "not_available": "Nenhum experimento está disponível no momento.",
                     "title": "Experimentos",
                     "titles": {
                         "servers": "Servidores"
@@ -260,8 +266,8 @@
                         "servers": "Isso vai permitir que você crie servidores com canais, convites, banimentos, moderação e mais."
                     }
                 },
-                "source_code": "Código fonte",
-                "logOut": "Sair",
+                "source_code": "Código-fonte",
+                "logOut": "Encerrar sessão",
                 "native": {
                     "title": "Configurações de desktop"
                 },
@@ -292,14 +298,14 @@
                 },
                 "theme_shop": {
                     "title": "Loja de temas",
-                    "description": "Navegue por centenas de temas, criados e curados pela comunidade.",
+                    "description": "Navegue por centenas de temas, criados e selecionados pela comunidade.",
                     "search": "Procurar temas…",
                     "category": {
                         "saved": "Salvo",
                         "manage": "Gerenciar salvos",
-                        "new": "Novo nessa semana",
+                        "new": "Novo nesta semana",
                         "default": "Temas padrão",
-                        "highest": "Melhor avaliados",
+                        "highest": "Melhor avaliado",
                         "viewall": "Ver tudo"
                     },
                     "active": "Ativo no momento",
@@ -308,7 +314,7 @@
                 },
                 "plugins": {
                     "title": "Plugins",
-                    "wip": "Aviso: Essa funcionalidade ainda está em desenvolvimento.",
+                    "wip": "Aviso: Esta funcionalidade ainda está em desenvolvimento.",
                     "delete_plugin": "Deletar",
                     "no_plugins": "Nenhum plugin está instalado no momento."
                 }
@@ -340,7 +346,7 @@
                 },
                 "sessions": {
                     "a": "Se você ver uma sessão desconhecida na lista,",
-                    "b": "proteja sua conta alterando sua senha e usando 2FA."
+                    "b": "proteja sua conta alterando sua senha e usando A2F."
                 },
                 "account": {
                     "b": "Vá para as configurações do seu perfil.",
@@ -367,7 +373,7 @@
                 "invites": {
                     "title": "Convites",
                     "code": "Código de convite",
-                    "invitor": "Convidador",
+                    "invitor": "Convidante",
                     "channel": "Canal",
                     "revoke": "Revogar"
                 },
@@ -375,7 +381,7 @@
                     "title": "Visão geral",
                     "name": "Nome do servidor",
                     "description": "Descrição do canal",
-                    "system_messages": "Canais de mensagem do sistema"
+                    "system_messages": "Canais de mensagens do sistema"
                 },
                 "bans": {
                     "title": "Banimentos",
@@ -388,7 +394,7 @@
                     "title": "Categorias"
                 },
                 "management": {
-                    "title": "Gerenciamento de usuário"
+                    "title": "Gerenciamento de usuários"
                 }
             },
             "title": "Configurações",
@@ -444,7 +450,10 @@
                     "reveal": "Revelar",
                     "back": "Voltar",
                     "hide": "Ocultar",
-                    "edit": "Editar"
+                    "edit": "Editar",
+                    "done": "Feito",
+                    "reset": "Redefinir",
+                    "confirm": "Confirmar"
                 },
                 "prompt": {
                     "confirm_ban_reason": "Motivo do banimento",
@@ -492,6 +501,28 @@
                     "title": "Você tem certeza que deseja limpar suas sessões?",
                     "short": "Você não pode desfazer essa ação.",
                     "accept": "Remover todas as sessões"
+                },
+                "out_of_date": {
+                    "title": "Seu cliente está desatualizado!",
+                    "description": "Ele deve ser atualizado para funcionar com as mudanças recentes.",
+                    "version": "Seu cliente está na {{client}}, enquanto o servidor requer {{server}}.",
+                    "ignore": "Ignorar atualização",
+                    "attempting": "Tentando atualizar..."
+                },
+                "changelogs": {
+                    "title": "Registros de alterações",
+                    "description": "Leia sobre as atualizações do Revolt.",
+                    "older": "Ver atualizações antigas"
+                },
+                "confirm": "Confirmar ação",
+                "mfa": {
+                    "recovery_codes": "Seus códigos de recuperação",
+                    "save_codes": "Por favor, salve-os em um local seguro.",
+                    "confirm": "Por favor, confirme usando o método selecionado.",
+                    "select_method": "Por favor, selecione um método para autenticar sua requisição.",
+                    "enable_totp": "Ativar aplicativo autenticador",
+                    "prompt_totp": "Por favor, escaneie ou use o token abaixo no seu aplicativo autenticador.",
+                    "enter_code": "Inserir código"
                 }
             },
             "popovers": {
@@ -620,7 +651,7 @@
         "home": {
             "join-testers": "Entrar no servidor de testadores",
             "settings": "Abrir configurações",
-            "settings-tooltip": "Você também pode clicar com o botão direito do mouse no ícone do usuário no canto superior esquerdo ou clicar com o botão esquerdo se já estiver no início.",
+            "settings-tooltip": "Você também pode clicar com o botão direito no ícone do usuário no canto superior esquerdo ou clicar com o botão esquerdo se já estiver no início.",
             "goto-testers": "Ir para o servidor de testadores",
             "donate": "Doar para o Revolt",
             "feedback": "Enviar comentários sobre o Revolt",
@@ -650,7 +681,7 @@
         "password": "Senha",
         "email": "E-mail",
         "title": "Entrar",
-        "remembered": "Voltar para login",
+        "remembered": "Voltar para o início de sessão",
         "check_mail": "Confira sua caixa de entrada!",
         "open_mail_provider": "Abrir {{provider}}",
         "successful_registration": "Registrado com sucesso!",
@@ -660,23 +691,25 @@
         "cancel": "Cancelar pedido",
         "current_password": "Senha atual",
         "invite": "Código de convite",
-        "check_spam": "Por favor, confira a caixa de spam se você não conseguir encontrar",
+        "check_spam": "Por favor, confira a caixa de spam se você não conseguir encontrá-lo",
         "set_password": "Definir nova senha",
         "missing_verification": "Não recebeu um e-mail?",
         "resend": "Reenviar verificação",
         "error": {
             "create": "Falha ao registrar!",
-            "login": "Falha ao fazer login!",
+            "login": "Falha ao iniciar sessão!",
             "reset": "Falha ao redefinir!",
             "resend": "Falha ao reenviar!"
         },
-        "email_delay": "Por favor, espere até 10 minutos para chegar.",
+        "email_delay": "Por favor, aguarde até 10 minutos para chegar.",
         "existing": "Já possui uma conta?",
         "welcome2": "Olá!",
         "subtitle2": "Criar uma conta",
         "welcome": "Bem-vindo(a) de volta!",
         "subtitle": "Entrar no Revolt",
-        "unofficial_instance": "Instância de terceiros."
+        "unofficial_instance": "Instância de terceiros.",
+        "recovery": "Código de recuperação",
+        "totp": "Aplicativo autenticador"
     },
     "general": {
         "about": "Sobre",
