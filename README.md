@@ -25,7 +25,8 @@ The following people are enlisted for verifying certain languages are up to stan
 | 🇪🇪  | Estonian           | [@u032](https://github.com/u032)                       |
 | 🇵🇭  | Filipino           | [@I2rys](https://github.com/I2rys)                     |
 | 🇮🇷  | Persian            | [@DevEvil99](https://github.com/DevEvil99)             |
-
+| 🇪🇸 | Spanish            | [@z3ro0k](https://github.com/z3ro0k)                    |
+ 
 If you would like to maintain a language, please open an issue with your request.
 
 ### Coverage
