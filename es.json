@@ -40,7 +40,7 @@
                 },
                 "misc": {
                     "viewing_old": "Viendo mensajes antiguos",
-                    "jump_present": "Ver actuales",
+                    "jump_present": "Ir al actual",
                     "spoiler_attachment": "Spoiler",
                     "blocked_messages": "{{count}} mensajes bloqueados",
                     "failed_load": "No se pudo cargar el mensaje.",
@@ -145,16 +145,16 @@
                     "change_field": "Cambiar",
                     "unique_id": "Este es un identificador de usuario único para tu cuenta.",
                     "2fa": {
-                        "title": "Autenticación de dos pasos",
+                        "title": "Autenticación en dos pasos",
                         "add_auth": "Añadir autenticador",
                         "remove_auth": "Eliminar autenticador",
-                        "description": "Agrega una capa adicional de seguridad activando la función A2F en tu cuenta.",
+                        "description": "Agrega una capa adicional de seguridad activando la autenticación en dos pasos para tu cuenta.",
                         "view_recovery": "Ver códigos de recuperación",
                         "generate_recovery": "Generar códigos de recuperación",
-                        "generate_recovery_long": "Prepárese para usar A2F configurando un método de recuperación.",
+                        "generate_recovery_long": "Genera tus claves de recuperación y prepárate para habilitar la autenticación en dos pasos.",
                         "view_recovery_long": "Ver y descargar sus códigos de recuperación A2F.",
                         "two_factor_on": "La autenticación de dos factores está actualmente activada.",
-                        "two_factor_off": "¡No ha habilitado la autenticación de dos factores!"
+                        "two_factor_off": "¡No has habilitado la autenticación de dos factores!"
                     },
                     "manage": {
                         "title": "Administrar cuenta",
@@ -421,7 +421,7 @@
             "offline": "Desconectado",
             "idle": "Ausente",
             "busy": "No molestar",
-            "invisible": "No visible",
+            "invisible": "Invisible",
             "online": "Conectado",
             "reconnect": "Reconectar"
         },
@@ -653,15 +653,15 @@
         },
         "home": {
             "join-testers": "Unirse al servidor de pruebas",
-            "goto-testers": "Servidor de probadores",
+            "goto-testers": "Servidor de beta testers",
             "donate": "Donar a Revolt",
             "feedback": "Danos tu opinión sobre Revolt",
             "settings": "Abrir ajustes",
             "settings-tooltip": "También puedes hacer clic con el botón derecho del ratón en el icono de usuario de la parte superior izquierda o con el botón izquierdo si ya estás en el inicio.",
             "social": "Buscar servidores y bots",
             "directs": "Mensajes Directos",
-            "join-testers_desc": "Puede informar problemas y discutir mejoras con nosotros directamente aquí.",
-            "goto-testers_desc": "Puede informar problemas y discutir mejoras con nosotros directamente aquí.",
+            "join-testers_desc": "Puedes informar de problemas y comentarnos tus sugerencias aquí.",
+            "goto-testers_desc": "Puedes informar de problemas y comentarnos tus sugerencias aquí.",
             "group": "Crear un grupo",
             "discover_desc": "Encuentra una comunidad basada en tus hobbies o intereses.",
             "discover": "Descubre Revolt",
@@ -673,13 +673,13 @@
     "login": {
         "create": "Crea una cuenta nueva",
         "new": "¿Nuevo en Revolt?",
-        "forgot": "¿Olvidaste tu contraseña?",
+        "forgot": "¿Has olvidado tu contraseña?",
         "enter": {
             "password": "Introduce tu contraseña.",
-            "email": "Ingrese tu correo electrónico.",
-            "current_password": "Coloca tu contraseña actual.",
+            "email": "Introduce tu correo electrónico.",
+            "current_password": "Introduce tu contraseña actual.",
             "invite": "Introduce tu código de invitación.",
-            "username": "Introduce tu nombre de usuario preferido."
+            "username": "Introduce el nombre de usuario que prefieras."
         },
         "password": "Contraseña",
         "email": "Correo electrónico",
@@ -687,12 +687,12 @@
         "error": {
             "login": "¡Error al iniciar sesión!",
             "create": "¡Error al registrarse!",
-            "reset": "¡No se pudo reiniciar!",
+            "reset": "¡No se ha podido restablecer tu contraseña!",
             "resend": "¡No se pudo reenviar!"
         },
         "successful_registration": "¡Registrado exitosamente!",
         "open_mail_provider": "Abrir {{provider}}",
-        "check_spam": "Asegúrate de revisar spam si no puedes encontrarlo",
+        "check_spam": "Por favor, revisa tu carpeta de spam si no encuentras el correo",
         "check_mail": "¡Revisa tu correo!",
         "cancel": "Cancelar solicitud",
         "resend": "Reenviar verificación",
@@ -705,7 +705,7 @@
         "invite": "Código de invitación",
         "username": "Nombre de usuario",
         "register": "Registrarse",
-        "email_delay": "Espera 10 minutos hasta que llegue.",
+        "email_delay": "El correo puede tardar hasta 10 minutos en llegar, por favor se paciente si no lo encuentras.",
         "welcome": "¡Bienvenido de nuevo!",
         "subtitle": "Iniciar sesión en Revolt",
         "welcome2": "¡Hola!",
@@ -724,7 +724,7 @@
         "off": "Desactivado",
         "disabled": "Deshabilitado",
         "unavailable": "No disponible",
-        "learn_more": "Aprende más"
+        "learn_more": "Aprender más"
     },
     "dayjs": {
         "nextDay": "[Mañana a las] {{time}}",
