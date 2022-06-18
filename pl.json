@@ -50,7 +50,10 @@
         "welcome": "Witamy z powrotem!",
         "subtitle": "Zaloguj się do Revolt",
         "welcome2": "Witaj!",
-        "subtitle2": "Utwórz konto"
+        "subtitle2": "Utwórz konto",
+        "totp": "Aplikacja Uwierzytelniająca",
+        "unofficial_instance": "Zewnętrzna instancja.",
+        "recovery": "Kody do odzyskiwania"
     },
     "app": {
         "status": {
@@ -217,7 +220,10 @@
                     "delete": "Usuń",
                     "reveal": "Pokaż",
                     "back": "Powrót",
-                    "edit": "Edytuj"
+                    "edit": "Edytuj",
+                    "done": "Gotowe",
+                    "reset": "Zresetuj",
+                    "confirm": "Potwierdź"
                 },
                 "onboarding": {
                     "pick": "Wybierz nazwę użytkownika, według której inni będą mogli Cię znaleźć, możesz to później zmienić w ustawieniach.",
@@ -266,6 +272,28 @@
                     "title": "Czy jesteś pewny, że chcesz się wylogować ze wszystkich sesji?",
                     "short": "Nie możesz cofnąć tej akcji.",
                     "accept": "Usuń wszystkie sesje"
+                },
+                "out_of_date": {
+                    "title": "Twój klient jest przestarzały!",
+                    "description": "Musi być zaktualizowany, aby działał z najnowszymi zmianami.",
+                    "version": "Twój klient ma wersję {{client}}, a serwer wymaga {{server}}.",
+                    "ignore": "Zignoruj aktualizację",
+                    "attempting": "Próbuję zaktualizować..."
+                },
+                "changelogs": {
+                    "title": "Dziennik zmian",
+                    "description": "Poczytaj o aktualizacjach do Revolta.",
+                    "older": "Zobacz starsze aktualizacje"
+                },
+                "confirm": "Potwierdź akcję",
+                "mfa": {
+                    "recovery_codes": "Twoje kody do odzyskiwania",
+                    "save_codes": "Zapisz je w bezpiecznym miejscu.",
+                    "confirm": "Potwierdź używając wybranej metody.",
+                    "select_method": "Wybierz metodę uwierzytelnienia swojego zapytania.",
+                    "enable_totp": "Włącz aplikację uwierzytelniającą",
+                    "prompt_totp": "Zeskanuj, lub użyj poniższego tokenu w swojej aplikacji uwierzytelniającej.",
+                    "enter_code": "Wpisz kod"
                 }
             },
             "status": {
@@ -444,7 +472,7 @@
                     "manage": {
                         "title": "Zarządzanie kontem",
                         "disable": "Wyłącz konto",
-                        "delete": "Usuń konto",
+                        "delete": "Poproś o usunięcie konta",
                         "description": "Możesz wyłączyć lub usunąć swoje konto w każdej chwili. Sprawi to, że zostaniesz wylogowany, a twoje konto zostanie w pełni usunięte, łącznie z historią czatu i listą znajomych."
                     },
                     "unique_id": "To jest Twój unikatowy identyfikator użytkownika.",
@@ -452,7 +480,13 @@
                         "description": "Zapewnij dodatkową ochronę, włączając 2FA na twoim koncie.",
                         "title": "Uwierzytelnianie dwuetapowe",
                         "remove_auth": "Usuń uwierzytelnianie",
-                        "add_auth": "Dodaj uwierzytelnianie"
+                        "add_auth": "Dodaj uwierzytelnianie",
+                        "view_recovery": "Wyświetl kody do odzyskiwania",
+                        "view_recovery_long": "Wyświetl i pobierz swoje kody do odzyskiwania 2FA.",
+                        "generate_recovery": "Wygeneruj kody do odzyskiwania",
+                        "generate_recovery_long": "Przygotuj się do konfiguracji metody odzyskiwania, aby włączyć 2FA.",
+                        "two_factor_on": "Dwu-składnikowe uwierzytelnianie jest obecnie włączone.",
+                        "two_factor_off": "Nie włączyłeś dwu-składnikowego uwierzytelniania!"
                     }
                 },
                 "logOut": "Wyloguj",
