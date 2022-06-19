@@ -74,7 +74,12 @@
                         "description": "Tambahkan lapisan keamanan ekstra dengan mengaktifkan Otentikasi Dua Langkah (2FA).",
                         "remove_auth": "Hapus Authenticator",
                         "title": "Otentikasi Dua Langkah",
-                        "add_auth": "Tambahkan Authenticator"
+                        "add_auth": "Tambahkan Authenticator",
+                        "view_recovery_long": "Lihat dan Unduh kode pemulihan 2FA anda.",
+                        "view_recovery": "Lihat Kode Pemulihan",
+                        "generate_recovery": "Hasilkan Kode Pemulihan",
+                        "two_factor_on": "Autentikasi dua-faktor sedang menyala.",
+                        "two_factor_off": "Anda belum menyalakan autentikasi dua-faktor!"
                     },
                     "manage": {
                         "title": "Pengelolaan Akun",
@@ -494,6 +499,15 @@
                     "title": "Apakah kamu yakin ingin membersihkan sesi mu?",
                     "accept": "Hapus semua sesi",
                     "short": "Kamu tidak bisa mengubah balik aksi ini."
+                },
+                "mfa": {
+                    "confirm": "Tolong konfirmasi dengan metode terpilih.",
+                    "recovery_codes": "Kode pemulihan anda",
+                    "prompt_totp": "Tolong pindai atau gunakan token dibawah di aplikasi autentikasi anda.",
+                    "enable_totp": "Nyalakan aplikasi autentikator"
+                },
+                "changelogs": {
+                    "description": "Baca tentang pembaruan terhadap Revolt"
                 }
             },
             "status": {
@@ -660,7 +674,9 @@
         "subtitle": "Masuk ke Revolt",
         "welcome2": "Halo!",
         "subtitle2": "Buat akun",
-        "unofficial_instance": "Instansi orang ketiga."
+        "unofficial_instance": "Instansi orang ketiga.",
+        "totp": "Aplikasi Autentikasi",
+        "recovery": "Kode Pemulihan"
     },
     "general": {
         "loading": "Memuat…",
