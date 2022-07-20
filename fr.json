@@ -68,7 +68,8 @@
                     "channel_description_changed": "{{user}} a changé la description du salon",
                     "channel_icon_changed": "{{user}} a modifié l'icône du salon",
                     "user_kicked": "{{user}} a été exclu",
-                    "user_banned": "{{user}} a été banni"
+                    "user_banned": "{{user}} a été banni",
+                    "channel_ownership_changed": "{{from}} a fait de {{to}} le propriétaire du groupe"
                 },
                 "bot": "bot",
                 "message_where": "Envoyer un message dans {{channel_name}}",
@@ -235,7 +236,8 @@
             "copy_message_link": "Copier le lien du message",
             "edit_identity": "Modifier l'identité",
             "create_category": "Créer une catégorie",
-            "mark_unread": "Marquer comme non-lu"
+            "mark_unread": "Marquer comme non-lu",
+            "make_owner": "Donner la propriété du groupe"
         },
         "settings": {
             "pages": {
@@ -597,7 +599,7 @@
                     "unavailable": "Le presse-papier n'est pas disponible !"
                 },
                 "prompt": {
-                    "confirm_leave": "Quitter le serveur {{name}} ?",
+                    "confirm_leave": "Quitter {{name}} ?",
                     "confirm_leave_long": "Vous ne pourrez pas revenir à moins d'y être réinvité.",
                     "confirm_close_dm": "Fermer la conversation avec {{name}} ?",
                     "confirm_close_dm_long": "Vous pouvez la rouvrir plus tard mais elle disparaîtra des deux côtés.",
