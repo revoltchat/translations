@@ -39,7 +39,7 @@
         },
         "successful_registration": "Rejestracja pomyślnie się zakończyła!",
         "open_mail_provider": "Otwórz {{provider}}",
-        "check_spam": "Sprawdź folder spam, jeśli nie możesz znaleźć wiadomości.",
+        "check_spam": "Sprawdź folder spam, jeśli nie możesz znaleźć wiadomości",
         "check_mail": "Sprawdź swojego maila!",
         "resend": "Ponowne wysłanie weryfikacji",
         "missing_verification": "Nie otrzymałeś e-maila?",
@@ -85,13 +85,13 @@
                 "bot": "bot",
                 "unknown_user": "<Nieznany Użytkownik>",
                 "system": {
-                    "channel_renamed": "{{user}} zmienił nazwe kanału na {{name}}",
+                    "channel_renamed": "{{user}} zmienił nazwę kanału na {{name}}",
                     "removed_by": "{{user}} został usunięty przez {{other_user}}",
                     "added_by": "{{user}} został dodany przez {{other_user}}",
                     "user_left": "{{user}} opuszcza",
                     "user_joined": "{{user}} dołączył",
                     "channel_description_changed": "{{user}} zmienił opis kanału",
-                    "channel_icon_changed": "{{user}} zaktualizował ikone kanału",
+                    "channel_icon_changed": "{{user}} zaktualizował ikonę kanału",
                     "user_kicked": "{{user}} został wyrzucony",
                     "user_banned": "{{user}} został zbanowany"
                 },
@@ -154,8 +154,8 @@
                     }
                 },
                 "errors": {
-                    "title": "Oops, tutaj nic nie ma!",
-                    "nochannels": "Ten serwer nie ma żadnych kanałów, lub nie masz do nich dostępu.",
+                    "title": "Rany, nic tu nie ma!",
+                    "nochannels": "W tym serwerze nie ma żadnych kanałów lub nie masz do nich dostępu.",
                     "nochannel": "Brak kanału"
                 },
                 "reply": {
@@ -186,7 +186,7 @@
         },
         "special": {
             "friends": {
-                "pending": "Oczekująca prośba",
+                "pending": "Oczekujące prośby",
                 "outgoing": "Wysłano zaproszenie.",
                 "incoming": "Przychodzące zaproszenie do znajomych.",
                 "blocked": "Zablokowani",
@@ -203,7 +203,7 @@
                 "actions": {
                     "cancel": "Anuluj",
                     "continue": "Kontyntynuj",
-                    "reload": "Załaduj ponownie aplikację",
+                    "reload": "Przeładuj aplikację",
                     "close": "Zamknij",
                     "ok": "Ok",
                     "send_email": "Wyślij e-mail",
@@ -247,9 +247,9 @@
                 },
                 "prompt": {
                     "confirm_leave_long": "Nie będziesz mógł ponownie dołączyć, chyba że zostaniesz ponownie zaproszony.",
-                    "confirm_leave": "Opuścić grupę {{name}}?",
+                    "confirm_leave": "Opuścić {{name}}?",
                     "create_invite_created": "To jest twój nowy kod zaproszenia:",
-                    "unfriend_user_long": "Nie będziesz mógł z nimi znowu rozmawiać, dopóki ich na nowo nie dodasz.",
+                    "unfriend_user_long": "Nie będziesz mógł z nimi znowu rozmawiać, dopóki nie dodasz ich z powrotem.",
                     "block_user": "Zablokować {{name}}?",
                     "unfriend_user": "Usunąć {{name}}?",
                     "create_invite_generate": "Generuję zaproszenie…",
@@ -259,8 +259,8 @@
                     "confirm_kick": "Jesteś pewny, że chcesz wyrzucić {{name}}?",
                     "confirm_ban_reason": "Powód Bana",
                     "confirm_delete": "Usunąć {{name}}?",
-                    "block_user_long": "Jesteś pewny, że chcesz zablokować {{name}}? Będą oni także usunięci z twojej listy znajomych.",
-                    "confirm_close_dm_long": "Możesz je później ponownie otworzyć, ale zniknie po obu stronach.",
+                    "block_user_long": "Jesteś pewny, że chcesz zablokować {{name}}? Użytkownik zostanie teź usunięty z Twojej listy znajomych.",
+                    "confirm_close_dm_long": "Możesz ją później ponownie otworzyć, ale zniknie ona po obu stronach.",
                     "confirm_delete_long": "Akcja usunięcia jest nieodwracalna."
                 },
                 "external_links": {
@@ -270,7 +270,7 @@
                 },
                 "token_reveal": "Token bota {{name}}",
                 "sessions": {
-                    "title": "Czy jesteś pewny, że chcesz się wylogować ze wszystkich sesji?",
+                    "title": "Czy jesteś pewny, że chcesz wylogować się ze wszystkich sesji?",
                     "short": "Nie możesz cofnąć tej akcji.",
                     "accept": "Usuń wszystkie sesje"
                 },
@@ -288,12 +288,12 @@
                 },
                 "confirm": "Potwierdź akcję",
                 "mfa": {
-                    "recovery_codes": "Twoje kody do odzyskiwania",
+                    "recovery_codes": "Twoje kody odzyskiwania",
                     "save_codes": "Zapisz je w bezpiecznym miejscu.",
                     "confirm": "Potwierdź używając wybranej metody.",
                     "select_method": "Wybierz metodę uwierzytelnienia swojego zapytania.",
                     "enable_totp": "Włącz aplikację uwierzytelniającą",
-                    "prompt_totp": "Zeskanuj, lub użyj poniższego tokenu w swojej aplikacji uwierzytelniającej.",
+                    "prompt_totp": "Zeskanuj lub użyj poniższego tokenu w swojej aplikacji uwierzytelniającej.",
                     "enter_code": "Wpisz kod"
                 }
             },
@@ -314,7 +314,7 @@
                         "moderation": "Moderacja platformy"
                     },
                     "no_groups": "Brak wspólnych grup",
-                    "no_users": "Żadnych wspólnych znajomych",
+                    "no_users": "Brak wspólnych znajomych",
                     "mutual_groups": "Wspólne grupy",
                     "mutual_friends": "Wspólni Znajomi",
                     "profile": "Profil",
@@ -347,7 +347,7 @@
                 "invited_by": "Zaproszony przez {{user}}",
                 "accept": "Zaakceptuj zaproszenie",
                 "invalid": "Nieprawidłowe zaproszenie!",
-                "invalid_desc": "Zaproszenie może nie istnieć lub nie masz uprawnień aby dołączyć."
+                "invalid_desc": "Zaproszenie nie istnieje lub nie masz uprawnień aby dołączyć."
             },
             "copy": "Kliknij aby skopiować",
             "server-badges": {
@@ -442,11 +442,11 @@
                     "ligatures_desc": "Dla obsługiwanych czcionek, ligatury łączą ze sobą znaki, przykładowo zmieniając -> w strzałkę.",
                     "import": "Importuj motyw",
                     "theme_options": {
-                        "seasonal_desc": "Wyświetla efekty w zakładce Home w okresie sezony świąteczne.",
+                        "seasonal_desc": "Wyświetla efekty w zakładce Strona główna w okresie sezonów świątecznych.",
                         "title": "Opcje motywu",
                         "seasonal": "Motyw sezonowy",
                         "follow": "Śledź motyw systemu",
-                        "follow_desc": "Jeśli zaznaczone, nie będziesz w stanie zmienić motywu ani użyć niestandardowego motywu.",
+                        "follow_desc": "Jeśli zaznaczone, nie będziesz w stanie zmienić motywu ani użyć niestandardowego.",
                         "transparency": "Efekty przezroczystości",
                         "transparency_desc": "Włącza efekty przezroczystości w całej aplikacji."
                     },
@@ -482,9 +482,9 @@
                         "title": "Uwierzytelnianie dwuetapowe",
                         "remove_auth": "Usuń uwierzytelnianie",
                         "add_auth": "Dodaj uwierzytelnianie",
-                        "view_recovery": "Wyświetl kody do odzyskiwania",
+                        "view_recovery": "Wyświetl kody odzyskiwania",
                         "view_recovery_long": "Wyświetl i pobierz swoje kody do odzyskiwania 2FA.",
-                        "generate_recovery": "Wygeneruj kody do odzyskiwania",
+                        "generate_recovery": "Wygeneruj kody odzyskiwania",
                         "generate_recovery_long": "Przygotuj się do używania 2FA konfigurując metodę odzyskiwania.",
                         "two_factor_on": "Dwu-składnikowe uwierzytelnianie jest obecnie włączone.",
                         "two_factor_off": "Nie włączyłeś dwu-składnikowego uwierzytelniania!"
@@ -500,10 +500,10 @@
                     "bug": "Znane błędy",
                     "report": "Co chcesz zgłosić?",
                     "suggest": "Prześlij propozycję funkcji",
-                    "bug_desc": "Zobacz aktualnie aktywne raporty o błędach tutaj.",
-                    "suggest_desc": "Zaproponuj nowe funkcje Revolt na Github discussions.",
+                    "bug_desc": "Zobacz aktualnie aktywne raporty o błędach.",
+                    "suggest_desc": "Zaproponuj nowe funkcje Revolt na Github Discussions.",
                     "issue": "Powiadom o problemie",
-                    "issue_desc": "Aby pomóc nam segregować problemy, możesz napisać o nim na GitHubie.",
+                    "issue_desc": "Aby pomóc nam sprawniej klasyfikować problemy, możesz zgłosić je na GitHubie.",
                     "description": "Prześlij opinię"
                 },
                 "source_code": "Kod źródłowy",
@@ -513,7 +513,7 @@
                 "language": {
                     "title": "Język",
                     "select": "Wybierz swój język",
-                    "other": "Inne opcje języków",
+                    "other": "Inne języki",
                     "const": "Języki sztuczne"
                 },
                 "notifications": {
@@ -549,16 +549,16 @@
                 },
                 "sync": {
                     "descriptions": {
-                        "theme": "Spowoduje to synchronizacje wybranego motywu, kolorów i własnego kodu CSS.",
-                        "locale": "Wybrany język zostanie zsynchronizowany.",
-                        "appearance": "Spowoduje to zsynchronizowanie opcji, takich jak zestaw emoji i wygląd wiadomości."
+                        "theme": "Spowoduje to synchronizację wybranego motywu, kolorów i własnego kodu CSS.",
+                        "locale": "Spowoduje to synchronizację obecnie wybranego języka.",
+                        "appearance": "Spowoduje to synchronizację opcji, takich jak zestaw emoji i wygląd wiadomości."
                     },
                     "title": "Synchronizuj",
                     "categories": "Synchronizuj kategorie",
                     "options": "Opcje synchronizacji"
                 },
                 "experiments": {
-                    "not_available": "Żadna z funkcji beta nie jest aktualnie dostępna.",
+                    "not_available": "Żadna z funkcji eksperymentalnych nie jest obecnie dostępna.",
                     "titles": {
                         "servers": "Serwery"
                     },
@@ -603,7 +603,7 @@
                         "manage": "Zarządzaj zapisanymi",
                         "default": "Motywy domyślne",
                         "viewall": "Pokaż wszystkie",
-                        "new": "Nowość w tym tygodniu",
+                        "new": "Nowości tygodnia",
                         "highest": "Najwyżej oceniany"
                     },
                     "description": "Przeglądaj setki motywów stworzonych i wyselekcjonowanych przez społeczność.",
@@ -636,7 +636,7 @@
                 },
                 "account": {
                     "b": "Przejdź do ustawień profilu.",
-                    "a": "Chcesz dostować swój publiczny profil?"
+                    "a": "Chcesz dostosować swój publiczny profil?"
                 }
             },
             "channel_pages": {
@@ -696,7 +696,7 @@
                 }
             },
             "permissions": {
-                "default_role": "Podstawowe",
+                "default_role": "Domyślne",
                 "create_role": "Stwórz nową rolę",
                 "role_name": "Nazwa roli",
                 "server": "Uprawnienia serwera",
