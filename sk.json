@@ -42,12 +42,17 @@
                     "discover": {
                         "title": "Objavte Témy",
                         "description": "Prehliadajte témy vytvorené komunitou"
+                    },
+                    "appearance_options": {
+                        "show_send": "Vždy zobraziť tlačidlo Odoslať správu",
+                        "title": "Možnosti vzhľadu",
+                        "show_send_desc": "Ak je vypnuté, tlačidlo Odoslať správu sa zobrazí iba na mobile."
                     }
                 },
                 "account": {
                     "manage": {
                         "description": "Svoj účet môžete kedykoľvek deaktivovať alebo odstrániť. Táto akcia vás odhlási a úplne odstráni váš účet vrátane histórie rozhovorov a priateľov.",
-                        "delete": "Odstrániť Účet",
+                        "delete": "Označiť účet na odstránenie",
                         "disable": "Deaktivovať Účet",
                         "title": "Vedenie Účtu"
                     },
@@ -55,7 +60,13 @@
                         "remove_auth": "Odstrániť Authenticator",
                         "add_auth": "Pridajte aplikáciu Authenticator",
                         "title": "Dvojfaktorová Autentifikácia",
-                        "description": "Pridajte ďalšiu úroveň zabezpečenia tým, že vo svojom účte povolíte 2FA."
+                        "description": "Pridajte ďalšiu úroveň zabezpečenia tým, že vo svojom účte povolíte 2FA.",
+                        "two_factor_on": "Momentálne je zapnutá dvojfaktorová autentifikácia.",
+                        "view_recovery": "Zobraziť Kódy pre Obnovenie",
+                        "view_recovery_long": "Zobraziť a stiahnuť si kódy na obnovenie 2FA.",
+                        "generate_recovery": "Generovať obnovovacie kódy",
+                        "generate_recovery_long": "Pripravte sa na používanie 2FA nastavením metódy obnovy.",
+                        "two_factor_off": "Neni zapnutá dvojfaktorová autentifikácia!"
                     },
                     "unique_id": "Toto je jedinečný identifikátor používateľa pre váš účet.",
                     "change_field": "Zmeniť",
@@ -249,6 +260,12 @@
                 },
                 "management": {
                     "title": "Správa Užívateľov"
+                },
+                "customisation": {
+                    "title": "Prispôsobenie"
+                },
+                "emojis": {
+                    "title": "Emojis"
                 }
             },
             "channel_pages": {
@@ -347,7 +364,8 @@
                     "user_banned": "{{user}} bol zabanovaný",
                     "user_kicked": "{{user}} bol vyhodený",
                     "user_left": "{{user}} odišiel",
-                    "user_joined": "{{user}} prišiel"
+                    "user_joined": "{{user}} prišiel",
+                    "channel_ownership_changed": "{{from}} dal {{to}} skupinové vlastníctvo"
                 },
                 "typing": {
                     "several": "Viacero ľudí píše…",
@@ -435,7 +453,11 @@
                     "preview": "Náhľad",
                     "reload": "Znova načítať Aplikáciu",
                     "send_email": "Odoslať Email",
-                    "edit": "Edituj"
+                    "edit": "Edituj",
+                    "done": "Hotovo",
+                    "report": "Nahlásiť",
+                    "confirm": "Potvrdiť",
+                    "reset": "Reset"
                 },
                 "error": "Nastala chyba!",
                 "clipboard": {
@@ -466,6 +488,28 @@
                     "title": "Naozaj chcete vymazať svoje relácie?",
                     "short": "Túto akciu nemôžete vrátiť späť.",
                     "accept": "Odstráňte všetky relácie"
+                },
+                "out_of_date": {
+                    "description": "Ak chcete pracovať s najnovšími zmenami, musíte ho aktualizovať.",
+                    "title": "Váš klient je zastaraný!",
+                    "version": "Váš klient je na {{client}}, zatiaľ čo server vyžaduje {{server}}.",
+                    "ignore": "Ignorovať aktualizáciu",
+                    "attempting": "Prebieha pokus o aktualizáciu..."
+                },
+                "mfa": {
+                    "save_codes": "Uložte si ich na bezpečné miesto.",
+                    "select_method": "Vyberte spôsob overenia vašej žiadosti.",
+                    "prompt_totp": "Naskenujte alebo použite token nižšie vo svojej overovacej aplikácii.",
+                    "enter_code": "Zadajte kód",
+                    "recovery_codes": "Vaše kódy na obnovenie",
+                    "confirm": "Potvrďte prosím zvolenou metódou.",
+                    "enable_totp": "Povoliť aplikáciu autentifikátora"
+                },
+                "confirm": "Potvrďiť akciu",
+                "changelogs": {
+                    "title": "Denníky zmien",
+                    "description": "Prečítajte si o aktualizáciách Revolt.",
+                    "older": "Zobraziť staršie aktualizácie"
                 }
             },
             "popovers": {
@@ -591,7 +635,8 @@
             "unblock_user": "Odblokovať používateľa",
             "leave_server": "Opustiť server",
             "open_notification_options": "Možnosti upozornení",
-            "mark_unread": "Označiť ako neprečítané"
+            "mark_unread": "Označiť ako neprečítané",
+            "make_owner": "Presunúť vlastníctvo skupiny"
         },
         "permissions": {
             "required": "Vyžadujú sa povolenia"
@@ -624,7 +669,8 @@
         "loading": "Načítavanie…",
         "image_by": "Obrázok od",
         "privacy": "Ochrana Osobných Údajov",
-        "tos": "Podmienky Služby"
+        "tos": "Podmienky Služby",
+        "learn_more": "Viac"
     },
     "login": {
         "error": {
@@ -665,7 +711,10 @@
         "subtitle2": "Vytvoriť učet",
         "welcome2": "Ahoj!",
         "welcome": "Vitaj späť!",
-        "subtitle": "Prihlásiť sa do Revolt"
+        "subtitle": "Prihlásiť sa do Revolt",
+        "unofficial_instance": "Inštancia tretej strany.",
+        "totp": "Aplikácia Authenticator",
+        "recovery": "Obnovovací kód"
     },
     "error": {
         "Blocked": "Tohto používateľa ste zablokovali.",
