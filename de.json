@@ -93,7 +93,8 @@
                     "channel_icon_changed": "{{user}} has das Channelsymbol geändert",
                     "channel_description_changed": "{{user}} hat die Channelbeschreibung geändert",
                     "user_kicked": "{{user}} wurde gekickt",
-                    "user_banned": "{{user}} wurde gebannt"
+                    "user_banned": "{{user}} wurde gebannt",
+                    "channel_ownership_changed": "{{from}} hat {{to}} zum Gruppenbesitzer gemacht"
                 },
                 "typing": {
                     "several": "Mehrere Personen schreiben…",
@@ -235,7 +236,8 @@
             "copy_message_link": "Nachrichten-Link kopieren",
             "edit_identity": "Identität bearbeiten",
             "create_category": "Kategorie erstellen",
-            "mark_unread": "Als ungelesen markieren"
+            "mark_unread": "Als ungelesen markieren",
+            "make_owner": "Zum Gruppenbesitzer machen"
         },
         "special": {
             "friends": {
@@ -273,7 +275,11 @@
                     "reveal": "Anzeigen",
                     "back": "Zurück",
                     "hide": "Verbergen",
-                    "edit": "Bearbeiten"
+                    "edit": "Bearbeiten",
+                    "report": "Melden",
+                    "done": "Erledigt",
+                    "reset": "Zurücksetzen",
+                    "confirm": "Bestätigen"
                 },
                 "signed_out": "Du wurdest ausgeloggt!",
                 "clipboard": {
@@ -322,6 +328,28 @@
                     "title": "Möchten Sie Ihre Sitzungen wirklich löschen?",
                     "accept": "Entfernen Sie alle Sitzungen",
                     "short": "Sie können diese Aktion nicht rückgängig machen."
+                },
+                "changelogs": {
+                    "title": "Änderungsprotokolle",
+                    "description": "Erfahre mehr über die letzten Aktualisierungen von Revolt.",
+                    "older": "Ältere Aktualisierungen anzeigen"
+                },
+                "mfa": {
+                    "enter_code": "Code eingeben",
+                    "recovery_codes": "Deine Wiederherstellungscodes",
+                    "save_codes": "Bitte speichere diese an einem sicheren Ort.",
+                    "confirm": "Bitte bestätige die Nutzung der gewählten Methode.",
+                    "select_method": "Bitte wähle eine Methode zur Authentifizierung deiner Anfrage.",
+                    "enable_totp": "Authentifizierungs-App aktivieren",
+                    "prompt_totp": "Bitte scannen oder verwenden Sie das untenstehende Token in Ihrer Authentifizierungsanwendung."
+                },
+                "confirm": "Aktion bestätigen",
+                "out_of_date": {
+                    "title": "Ihr Client ist veraltet!",
+                    "description": "Eine Aktualisierung ist erforderlich um Kompatibilität mit der letzten Änderung herzustellen.",
+                    "version": "Dein Client ist in {{client}}, aber dein Server erfordert {{server}}.",
+                    "ignore": "Aktualisierung ignorieren",
+                    "attempting": "Aktualisierungsversuch läuft..."
                 }
             },
             "status": {
@@ -453,7 +481,10 @@
                         "remove_auth": "Authenticator entfernen",
                         "view_recovery": "Wiederherstellungscodes anzeigen",
                         "two_factor_on": "Zwei-Faktor-Authentifizierung ist derzeit aktiviert.",
-                        "two_factor_off": "Sie haben die Zwei-Faktor-Authentifizierung nicht aktiviert!"
+                        "two_factor_off": "Sie haben die Zwei-Faktor-Authentifizierung nicht aktiviert!",
+                        "view_recovery_long": "2FA-Wiederherstellungscodes anzeigen und herunterladen.",
+                        "generate_recovery": "Wiederherstellungscodes erzeugen",
+                        "generate_recovery_long": "Bereite dich auf Zwei-Faktor-Authentifizierung vor, indem du eine Wiederherstellungsmethode einrichtest."
                     },
                     "manage": {
                         "title": "Accountverwaltung",
@@ -659,6 +690,12 @@
                 },
                 "management": {
                     "title": "Benutzer Verwaltung"
+                },
+                "customisation": {
+                    "title": "Personalisierung"
+                },
+                "emojis": {
+                    "title": "Emojis"
                 }
             },
             "permissions": {
