@@ -13,19 +13,19 @@
                     "description": "Send tilbakemelding"
                 },
                 "bots": {
-                    "title": "Mine botter",
-                    "create_bot": "Opprett en bot",
-                    "copy_invite": "Kopier invitasjonslenke",
-                    "add": "Legg til en bot",
+                    "title": "Mine Roboter",
+                    "create_bot": "Opprett en Robot",
+                    "copy_invite": "Kopier Invitasjonslenke",
+                    "add": "Legg til en Robot",
                     "token": "Symbol",
-                    "public_bot_tip": "Botten er offentlig. Hvem som helst kan invitere den.",
-                    "private_bot_tip": "Botten er privat. Kun du kan invitere den.",
-                    "public_bot": "Offentlig bot",
-                    "interactions_url": "Interaksjonsnettadresse",
+                    "public_bot_tip": "Roboten er offentlig. Hvem som helst kan invitere den.",
+                    "private_bot_tip": "Roboten er privat. Kun du kan invitere den.",
+                    "public_bot": "Offentlig Robot",
+                    "interactions_url": "Interaksjons-URL",
                     "reserved": "Merk: Dette feltet er reservert for fremtidig bruk.",
-                    "public_bot_desc": "Når andre brukere skal kunne invitere denne botten.",
-                    "unique_id": "Dette er unik identifikator for din bot. Dette er ikke boten sin token-id.",
-                    "profile": "Bot profil"
+                    "public_bot_desc": "Når andre brukere skal kunne invitere denne roboten.",
+                    "unique_id": "Dette er en unik identifikator for din robot. Dette er ikke roboten sin token.",
+                    "profile": "Robot profil"
                 },
                 "experiments": {
                     "not_available": "Ingen eksperimenter tilgjengelig nå.",
@@ -114,7 +114,7 @@
                 },
                 "audio": {
                     "output_device": "Høyttaler/hodetelefoner",
-                    "title": "Stemmeinnstillinger",
+                    "title": "Taleinnstillinger",
                     "input_device": "Mikrofon",
                     "button_retry": "prøv igjen",
                     "device_label_NA": "Ikke tilgjengelig",
@@ -141,7 +141,7 @@
                 },
                 "account": {
                     "manage": {
-                        "delete": "Slett konto",
+                        "delete": "Merk Konto for Sletting",
                         "disable": "Deaktiver konto",
                         "title": "Kontohåndtering",
                         "description": "Deaktiver eller slett kontoen din når du vil. Denne handlingen vil logge deg ut og slette kontoen din fullstendig, inkludert samtalehistorikk og venner."
@@ -150,7 +150,13 @@
                         "remove_auth": "Fjern identitetsbekrefter",
                         "add_auth": "Legg til identitetsbekrefter",
                         "description": "Legg til et ekstra sikkerhetslag ved å bruke dette på kontoen din.",
-                        "title": "To-faktorbekreftelse"
+                        "title": "To-faktorbekreftelse",
+                        "generate_recovery_long": "Gjør deg klar til å bruke 2FA ved å sette opp en gjenopprettingsmetode.",
+                        "view_recovery_long": "Vis og last ned 2FA-gjenopprettingskodene dine.",
+                        "view_recovery": "Vis Gjenopprettingskoder",
+                        "two_factor_on": "To-faktor autentisering er for øyeblikket på.",
+                        "two_factor_off": "Du har ikke aktivert to-faktor autentisering!",
+                        "generate_recovery": "Generer Gjenopprettingskoder"
                     },
                     "unique_id": "Dette er en unik brukeridentifikator for din konto.",
                     "change_field": "Endre",
@@ -219,6 +225,12 @@
                 },
                 "management": {
                     "title": "Bruker administrering"
+                },
+                "emojis": {
+                    "title": "Emojier"
+                },
+                "customisation": {
+                    "title": "Tilpasning"
                 }
             },
             "tips": {
@@ -294,7 +306,7 @@
                     "single": "{{user}} skriver…",
                     "multiple": "{{userlist}} og {{user}} skriver…"
                 },
-                "bot": "bott",
+                "bot": "robot",
                 "search": {
                     "sort": {
                         "oldest": "Eldste",
@@ -338,7 +350,8 @@
                     "user_banned": "{{user}} ble bannlyst",
                     "user_joined": "{{user}} tok del",
                     "user_kicked": "{{user}} ble utkastet",
-                    "user_left": "{{user}} dro sin vei"
+                    "user_left": "{{user}} dro sin vei",
+                    "channel_ownership_changed": "{{from}} ga {{to}} gruppeeierskap"
                 },
                 "attached_file": "Legg ved {{filename}}",
                 "failed_upload": "Kunne ikke laste opp!",
@@ -358,7 +371,7 @@
                 "bridge": "bro"
             },
             "servers": {
-                "voice_channel": "Stemmekanal",
+                "voice_channel": "Talekanal",
                 "custom_banner": "Egendefinert banner",
                 "text_channel": "Tekstkanal",
                 "owner": "Servereier",
@@ -412,8 +425,8 @@
                     "select": "Velg venner å legge til."
                 },
                 "create_bot": {
-                    "title": "Opprett en ny bot",
-                    "failed": "Feil ved opprette en bot!"
+                    "title": "Opprett en ny robot",
+                    "failed": "Kunne ikke opprette en robot!"
                 },
                 "server_identity": {
                     "nickname": "Kallenavn",
@@ -451,7 +464,11 @@
                     "ok": "Ok",
                     "cancel": "Avbryt",
                     "update": "Oppdater",
-                    "edit": "Rediger"
+                    "edit": "Rediger",
+                    "report": "Rapporter",
+                    "reset": "Nullstille",
+                    "confirm": "Bekreft",
+                    "done": "Ferdig"
                 },
                 "account": {
                     "failed": "Kunne ikke utføre endring!",
@@ -500,6 +517,28 @@
                     "title": "Er du sikker på at du vil slette øktene dine?",
                     "short": "Du kan ikke angre denne handlingen.",
                     "accept": "Fjern alle økter"
+                },
+                "mfa": {
+                    "save_codes": "Vennligst lagre disse på et trygt sted.",
+                    "enable_totp": "Aktiver autentiseringsappen",
+                    "prompt_totp": "Vennligst skann eller bruk tokenet nedenfor i autentiseringsappen din.",
+                    "enter_code": "Oppgi Kode",
+                    "recovery_codes": "Dine gjenopprettingskoder",
+                    "confirm": "Vennligst bekreft med den valgte metoden.",
+                    "select_method": "Vennligst velg en metode for å autentisere forespørselen din."
+                },
+                "confirm": "Bekreft handling",
+                "out_of_date": {
+                    "attempting": "Forsøker å oppdatere...",
+                    "title": "Din klient er utdatert!",
+                    "description": "Den må oppdateres for å fungere med nylige endringer.",
+                    "version": "Klienten din er på {{client}}, mens serveren krever {{server}}.",
+                    "ignore": "Ignorer oppdatering"
+                },
+                "changelogs": {
+                    "description": "Les om oppdateringer til Revolt.",
+                    "title": "Endringslogg",
+                    "older": "Vis eldre oppdateringer"
                 }
             },
             "status": {
@@ -579,7 +618,8 @@
             "edit_identity": "Rediger identitet",
             "delete_server": "Slett server",
             "leave_server": "Forlat server",
-            "mark_unread": "Merk som ulest"
+            "mark_unread": "Merk som ulest",
+            "make_owner": "Gi gruppeeierskap"
         },
         "navigation": {
             "tabs": {
@@ -603,7 +643,7 @@
         },
         "home": {
             "directs": "Direktemelding",
-            "join-testers": "Bli med i tester serveren",
+            "join-testers": "Bli med i testers serveren",
             "goto-testers": "Gå til tester serveren",
             "donate": "Doner til Revolt",
             "settings-tooltip": "Du kan også høyre-klikke bruker ikonet øverst til venstre, eller venstre klikk den hvis du er hjemme allerede.",
@@ -616,7 +656,7 @@
             "discover": "Oppdag Revolt",
             "discover_desc": "Finn et fellesskap basert på dine hobbyer eller interesser.",
             "group": "Skap en gruppe",
-            "group_desc": "Inviter alle vennene dine, noen kule bots, og ha en stor fest."
+            "group_desc": "Inviter alle vennene dine, noen kule roboter, og ha en stor fest."
         }
     },
     "error": {
@@ -660,7 +700,7 @@
         "MissingPermission": "Manglende tilgang.",
         "InternalError": "Intern feil.",
         "DatabaseError": "Databasefeil.",
-        "ReachedMaximumBots": "Du har nådd maksimalt antall boter.",
+        "ReachedMaximumBots": "Du har nådd maksimalt antall roboter.",
         "AudioPermissionBlock": "Ingen tilgang til din mikrofon, sjekk innstillingene for nettleseren din."
     },
     "notifications": {
@@ -717,7 +757,7 @@
         },
         "UploadFiles": {
             "d": "Lar medlemmer laste opp filer i tekstkanaler.",
-            "t": "Opplasting av filer"
+            "t": "Last opp Filer"
         },
         "EmbedLinks": {
             "d": "Lar medlemmer vise innebygget innhold på lenker de sender i tekstkanaler.",
@@ -745,7 +785,7 @@
         },
         "Masquerade": {
             "t": "Utkledning",
-            "d": "Tillater medlemmer å endre navn og avatar ved melding."
+            "d": "Tillater medlemmer å endre navn og avatar per melding."
         },
         "ManageRole": {
             "d": "Tillater medlemmer å opprette, redigere og slette roller med lavere rank enn egen. Lar dem også endre rolletilganger i kanaler.",
@@ -780,16 +820,16 @@
             "d": "Lar medlemmer kontrollere webhooks i en kanal."
         },
         "Speak": {
-            "d": "Lar medlemmer snakke i en stemmekanal.",
+            "d": "Lar medlemmer snakke i en talekanal.",
             "t": "Snakke"
         },
         "Video": {
-            "d": "Lar medlemmer strømme video i en stemmekanal.",
+            "d": "Lar medlemmer strømme i en talekanal.",
             "t": "Video"
         },
         "MuteMembers": {
             "t": "Demp medlemmer",
-            "d": "Lar medlemmer dempe andre i en stemmekanal."
+            "d": "Lar medlemmer dempe andre i en talekanal."
         },
         "Connect": {
             "t": "Koble",
@@ -797,11 +837,19 @@
         },
         "DeafenMembers": {
             "t": "Døve medlemmer",
-            "d": "Lar medlemmer overdøve andre i en stemmekanal."
+            "d": "Lar medlemmer døve andre i en talekanal."
         },
         "MoveMembers": {
             "t": "Flytt medlemmer",
             "d": "Lar medlemmer flytte andre mellom talekanaler."
+        },
+        "ManageCustomisation": {
+            "t": "Administrer Tilpasning",
+            "d": "Lar medlemmer opprette, redigere og slette emojier."
+        },
+        "React": {
+            "t": "Bruk Reaksjoner",
+            "d": "Lar medlemmer reagere på meldinger."
         }
     },
     "login": {
@@ -813,8 +861,8 @@
         },
         "successful_registration": "Registrert!",
         "check_spam": "Sjekk søppelposten hvis du ikke finner den",
-        "email_delay": "Det kan ta opptil 10 min. før den er fremme.",
-        "resend": "Send invitasjon på ny",
+        "email_delay": "Det kan ta opptil 10 minutter før den kommer frem.",
+        "resend": "Send bekreftelse på nytt",
         "open_mail_provider": "Åpne {{provider}}",
         "check_mail": "Sjekk e-posten din!",
         "cancel": "Avbryt forespørsel",
@@ -844,7 +892,9 @@
         "subtitle": "Logg inn på Revolt",
         "welcome2": "Hallo!",
         "subtitle2": "Opprett en konto",
-        "unofficial_instance": "Tredjepartsinstans."
+        "unofficial_instance": "Tredjepartsinstans.",
+        "recovery": "Gjenopprettingskode",
+        "totp": "Autentiseringsapp"
     },
     "quantities": {
         "members": {
@@ -857,11 +907,11 @@
         "disabled": "Avskrudd",
         "off": "Av",
         "on": "På",
-        "loading": "Laster inn …",
+        "loading": "Laster…",
         "image_by": "Bilde av",
-        "privacy": "Personvernspraksis",
+        "privacy": "Personvern",
         "tos": "Tjenestevilkår",
         "about": "Om",
-        "learn_more": "Lære mer"
+        "learn_more": "Lær mer"
     }
 }
