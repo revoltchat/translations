@@ -119,6 +119,14 @@
         "MoveMembers": {
             "t": "Spostare membri",
             "d": "Permetti ai membri di spostare altri membri tra canali vocali."
+        },
+        "ManageCustomisation": {
+            "t": "Gestire le personalizzazioni",
+            "d": "Consente ai membri di creare, modificare ed eliminare le emoji."
+        },
+        "React": {
+            "t": "Usare le Reazioni",
+            "d": "Permettere i membri di reagire ai messaggi."
         }
     },
     "login": {
@@ -169,13 +177,13 @@
         "about": "Informazioni",
         "tos": "Termini di servizio",
         "off": "Off",
-        "privacy": "Protezione dei dati",
+        "privacy": "Informativa Privacy",
         "image_by": "Immagine da",
         "loading": "Caricamento in corso…",
         "on": "On",
         "disabled": "Disabilitato",
         "unavailable": "Non disponibile",
-        "learn_more": "Scopri di piu'"
+        "learn_more": "Scopri di più"
     },
     "app": {
         "status": {
@@ -229,7 +237,8 @@
                     "removed_by": "{{user}} è stato rimosso da {{other_user}}",
                     "channel_description_changed": "{{user}} ha cambiato la descrizione del canale",
                     "channel_icon_changed": "{{user}} ha cambiato l'icona del canale",
-                    "channel_renamed": "{{user}} ha rinominato il canale in {{name}}"
+                    "channel_renamed": "{{user}} ha rinominato il canale in {{name}}",
+                    "channel_ownership_changed": "{{from}} ha dato a {{to}} la proprietà del gruppo"
                 },
                 "start": {
                     "group": "Questo è l'inizio della tua conversazione.",
@@ -572,6 +581,12 @@
                 },
                 "management": {
                     "title": "Gestione dell'utente"
+                },
+                "customisation": {
+                    "title": "Personalizzazione"
+                },
+                "emojis": {
+                    "title": "Emoji"
                 }
             },
             "tips": {
@@ -640,7 +655,8 @@
             "copy_message_link": "Copia link del messaggio",
             "edit_identity": "Modifica identità",
             "create_category": "Crea categoria",
-            "mark_unread": "Segna come non letto"
+            "mark_unread": "Segna come non letto",
+            "make_owner": "Dare la proprietà del gruppo"
         },
         "special": {
             "friends": {
@@ -717,7 +733,8 @@
                     "edit": "Modifica",
                     "done": "Fatto",
                     "confirm": "Conferma",
-                    "reset": "Reimposta"
+                    "reset": "Reimposta",
+                    "report": "Segnala"
                 },
                 "account": {
                     "change": {
