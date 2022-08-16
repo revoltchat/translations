@@ -47,6 +47,9 @@
                 },
                 "management": {
                     "title": "ユーザー管理"
+                },
+                "emojis": {
+                    "title": "絵文字"
                 }
             },
             "channel_pages": {
@@ -212,7 +215,8 @@
                         "add_auth": "Authenticatorの追加",
                         "description": "あなたのアカウントで二要素認証を有効にすることで、さらにセキュリティを高めることができます。",
                         "title": "2段階認証",
-                        "view_recovery": "リカバリコードを表示"
+                        "view_recovery": "リカバリコードを表示",
+                        "view_recovery_long": "2段階認証のリカバリーコード表示とダウンロード。"
                     },
                     "unique_id": "これは、あなたのアカウントに固有のユーザー識別子です。",
                     "change_field": "変更",
@@ -221,7 +225,7 @@
                 "theme_shop": {
                     "title": "テーマショップ",
                     "by": "から:",
-                    "search": "テーマ検索…",
+                    "search": "テーマを探す",
                     "category": {
                         "saved": "保存したテーマ",
                         "default": "デフォルトテーマ",
@@ -258,7 +262,8 @@
                 "server": "サーバー権限",
                 "channel": "チャンネル権限",
                 "create_role": "新規ロールの作成",
-                "role_name": "ロール名"
+                "role_name": "ロール名",
+                "role_colour": "ロールの色"
             }
         },
         "main": {
@@ -580,7 +585,8 @@
             "leave_server": "サーバーを離脱",
             "delete_server": "サーバーを削除",
             "delete_channel": "チャンネルを削除",
-            "mark_unread": "未読にする"
+            "mark_unread": "未読にする",
+            "make_owner": "所有権の付与"
         },
         "permissions": {
             "required": "権限が必要です"
@@ -641,11 +647,12 @@
         "register": "登録",
         "title": "ログイン",
         "subtitle": "Revoltにサインイン",
-        "welcome": "おかえり!",
+        "welcome": "おかえりなさい！",
         "subtitle2": "アカウントを作成",
         "welcome2": "こんにちは！",
         "recovery": "リカバリーコード",
-        "totp": "二段階認証アプリ"
+        "totp": "二段階認証アプリ",
+        "unofficial_instance": "サードパーティのインスタンス。"
     },
     "general": {
         "unavailable": "利用不可",
@@ -775,6 +782,19 @@
         "ViewChannel": {
             "t": "チャンネルを見る",
             "d": "メンバーがこの権限を持っているチャンネルの閲覧を許可します。"
+        },
+        "ManageWebhooks": {
+            "t": "ウェブフックの管理"
+        },
+        "MuteMembers": {
+            "t": "メンバーをミュート",
+            "d": "チャンネル"
+        },
+        "React": {
+            "t": "リアクションの使用"
+        },
+        "Connect": {
+            "t": "接続"
         }
     },
     "quantities": {
