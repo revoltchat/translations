@@ -266,6 +266,12 @@
                 },
                 "management": {
                     "title": "使用者管理"
+                },
+                "customisation": {
+                    "title": "自訂"
+                },
+                "emojis": {
+                    "title": "表情符號"
                 }
             },
             "channel_pages": {
@@ -358,7 +364,8 @@
                     "user_banned": "{{user}} 已被封鎖",
                     "user_kicked": "{{user}} 被踢出",
                     "user_joined": "{{user}} 已加入",
-                    "user_left": "{{user}} 已離開"
+                    "user_left": "{{user}} 已離開",
+                    "channel_ownership_changed": "{{from}} 將群組的所有權轉移給了 {{to}}"
                 },
                 "typing": {
                     "several": "很多人正在輸入…",
@@ -460,7 +467,8 @@
                     "save": "儲存",
                     "reset": "重置",
                     "done": "完成",
-                    "confirm": "確定"
+                    "confirm": "確定",
+                    "report": "檢舉"
                 },
                 "external_links": {
                     "trust_domain": "信任此域名",
@@ -627,7 +635,8 @@
             "open_channel_settings": "頻道設定",
             "open_server_settings": "伺服器設定",
             "set_custom_status": "設定自訂狀態",
-            "mark_unread": "標記為未讀"
+            "mark_unread": "標記為未讀",
+            "make_owner": "轉交群組所有權"
         },
         "permissions": {
             "required": "需要權限"
@@ -662,7 +671,7 @@
         "successful_registration": "成功註冊！",
         "open_mail_provider": "打開 {{provider}}",
         "check_spam": "如果找不到，請檢查垃圾信件",
-        "email_delay": "最多可能會需要10分鐘。",
+        "email_delay": "請等待電子郵件送達，最久可能需要10分鐘。",
         "check_mail": "請檢查您的電子信箱！",
         "cancel": "取消請求",
         "resend": "重新發送認證碼",
@@ -893,6 +902,14 @@
         "MuteMembers": {
             "t": "禁言成員",
             "d": "允許成員在語音頻道內禁言其他成員。"
+        },
+        "React": {
+            "t": "使用反應",
+            "d": "允許成員對訊息做出回應。"
+        },
+        "ManageCustomisation": {
+            "t": "管理自訂",
+            "d": "允許成員新增、編輯和刪除表情符號。"
         }
     },
     "shortcuts": {
