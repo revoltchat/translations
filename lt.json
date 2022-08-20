@@ -24,7 +24,7 @@
         },
         "forgot": "Pamiršote slaptažodį?",
         "new": "Neturite Revolt paskyros?",
-        "create": "Kurti naują paskyrą.",
+        "create": "Kurti naują paskyrą",
         "register": "Registruotis",
         "remembered": "Grįžti prie prisijungimo",
         "existing": "Jau turite paskyrą?",
@@ -79,7 +79,7 @@
                     "channel_ownership_changed": "{{from}} suteikė grupės nuosavybę {{to}}"
                 },
                 "typing": {
-                    "several": "Keli žmonės rašo…",
+                    "several": "Rašo keli žmonės…",
                     "multiple": "{{userlist}} ir {{user}} rašo…",
                     "single": "{{user}} rašo…"
                 },
@@ -174,7 +174,7 @@
                 "friends": "Draugai",
                 "home": "Pagrindinis",
                 "dev": "Kūrėjas",
-                "saved": "Išsaugotos pastabos"
+                "saved": "Išsaugoti užrašai"
             }
         },
         "status": {
@@ -230,7 +230,7 @@
                     "create": "Kurti",
                     "kick": "Išmesti",
                     "delete": "Naikinti",
-                    "reveal": "Atskleisti",
+                    "reveal": "Rodyti",
                     "back": "Grįžti atgal",
                     "hide": "Slėpti",
                     "edit": "Redaguoti",
@@ -397,7 +397,7 @@
             "ban_member": "Blokuoti narį",
             "leave_server": "Išeiti iš serverio",
             "leave_group": "Išeiti iš grupės",
-            "close_dm": "Uždaryti AŽ",
+            "close_dm": "Uždaryti AP",
             "open_server_settings": "Serverio nustatymai",
             "delete_server": "Naikinti serverį",
             "delete_channel": "Naikinti kanalą",
@@ -425,7 +425,7 @@
                     },
                     "theme": "Tema",
                     "title": "Išvaizda",
-                    "overrides": "Temos nepaisymai",
+                    "overrides": "Temos tinkinimas",
                     "message_display": "Pranešimų rodymas",
                     "sync": "Sinchronizuoti parinktis",
                     "custom_css": "Tinkintas CSS",
@@ -449,8 +449,8 @@
                         "title": "Temos parinktys",
                         "follow": "Laikytis sistemos temos",
                         "follow_desc": "Jei pažymėta, negalėsite keisti savo temos ir naudoti tinkintų temų.",
-                        "transparency": "Permatomumo efektai",
-                        "transparency_desc": "Įjungia permatomumo efektus programėlėje."
+                        "transparency": "Skaidrumo efektai",
+                        "transparency_desc": "Įjungia skaidrumo efektus programėlėje."
                     },
                     "discover": {
                         "title": "Atraskite temų",
@@ -533,7 +533,7 @@
                         "enable_outgoing_sound": "Įjunkite tam, kad girdėtumėte garsus, kai išsiunčiate pranešimą.",
                         "enable_sound": "Įjunkite tam, kad girdėtumėte garsus tada, kai ateina pranešimas.",
                         "enable_push": "Įjunkite, kad gautumėte pranešimus, kai esate atsijungę.",
-                        "enable_desktop": "Tai siūs jums pranešimus, kol programėlė atidaryta."
+                        "enable_desktop": "Siūs jums pranešimus, kol programėlė atidaryta."
                     },
                     "enable_outgoing_sound": "Skleisti garsą, kai išsiunčiamas pranešimas.",
                     "enable_sound": "Skleisti garsą, kai ateina pranešimas.",
@@ -562,9 +562,9 @@
                 },
                 "sync": {
                     "descriptions": {
-                        "theme": "Tai sinchronizuos jūsų pasirinktą temą, spalvas ir bet kuriuos tinkintus CSS.",
-                        "appearance": "Tai sinchronizuos tokias parinktis, kaip jaustukų paketai ir pranešimų tankis.",
-                        "locale": "Tai sinchronizuos jūsų pasirinktą kalbą."
+                        "theme": "Sinchronizuos jūsų pasirinktą temą, spalvas ir bet kuriuos tinkintus CSS.",
+                        "appearance": "Sinchronizuos tokias parinktis, kaip jaustukų paketai ir pranešimų tankis.",
+                        "locale": "Sinchronizuos jūsų pasirinktą kalbą."
                     },
                     "title": "Sinchronizavimas",
                     "categories": "Sinchronizuoti kategorijas",
@@ -756,8 +756,8 @@
     },
     "quantities": {
         "members": {
-            "many": "{{count}} narių (-iai)",
-            "one": "1 narys"
+            "many": "Nariai: {{count}}",
+            "one": "Nariai: 1"
         }
     },
     "error": {
@@ -918,7 +918,8 @@
             "d": "Leidžia nariams kurti, redaguoti ir naikinti jaustukus."
         },
         "TimeoutMembers": {
-            "d": "Leidžia nariams laikinai neleisti naudotojams sąveikauti su serveriu."
+            "d": "Leidžia nariams laikinai neleisti naudotojams sąveikauti su serveriu.",
+            "t": "Slopinti narius"
         },
         "AssignRoles": {
             "t": "Priskirti vaidmenis",
