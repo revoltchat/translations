@@ -237,7 +237,7 @@
             "edit_identity": "Modifier l'identité",
             "create_category": "Créer une catégorie",
             "mark_unread": "Marquer comme non-lu",
-            "make_owner": "Donner la propriété du groupe"
+            "make_owner": "Léguer la propriété du groupe"
         },
         "settings": {
             "pages": {
@@ -706,7 +706,7 @@
                 "accept": "Accepter l'invitation",
                 "user_count": "{{member_count}} membres",
                 "invalid": "Invitation invalide !",
-                "invalid_desc": "L'invitation peut ne pas exister ou vous n'avez pas la permission de rejoindre le serveur."
+                "invalid_desc": "L'invitation est peut être inexistante ou vous n'avez pas la permission de rejoindre le serveur."
             },
             "server-badges": {
                 "official": "Serveur Officiel",
@@ -761,7 +761,7 @@
     "error": {
         "Unlabelled": "Une erreur est survenue.",
         "RenderFail": "Échec du rendu du modèle.",
-        "InvalidToken": "Jeton invalide",
+        "InvalidToken": "Token invalide",
         "MissingInvite": "Code d'invitation manquant dans la requête.",
         "AlreadyFriends": "Vous êtes déjà ami avec cet utilisateur.",
         "Blocked": "Vous avez bloqué cet utilisateur.",
@@ -769,7 +769,7 @@
         "MissingData": "Les données de la requête manquent.",
         "IoError": "Le serveur a rencontré une erreur de connexion.",
         "UnsupportedBrowser": "Votre navigateur ne supporte pas cette fonctionnalité.",
-        "DeniedNotification": "Vous avez refusé l'accès aux notifications, vérifiez la page des paramètres.",
+        "DeniedNotification": "Vous avez refusé l'accès aux notifications, vérifiez vos paramètres.",
         "FailedValidation": "Échec de la validation des champs.",
         "DatabaseError": "Erreur de la base de données.",
         "InternalError": "Erreur interne.",
@@ -780,13 +780,13 @@
         "InvalidCredentials": "Adresse mail ou mot de passe incorrect.",
         "InvalidInvite": "Code d'invitation invalide",
         "AlreadyOnboarded": "Configuration déjà terminée.",
-        "UsernameTaken": "Ce nom d'utilisateur a déjà été utilisé.",
+        "UsernameTaken": "Nom d'utilisateur déja utilisé.",
         "AlreadySentRequest": "Vous avez déjà une demande en attente pour cet utilisateur.",
         "TooShort": "Trop court",
         "FileTooLarge": "Ce fichier est trop volumineux.",
         "NetworkError": "Erreur de réseau.",
         "Unauthorized": "Non autorisé.",
-        "UnknownError": "Voir la console.",
+        "UnknownError": "Voir console.",
         "OperationFailed": "Échec de l'opération.",
         "EmailFailed": "Échec de l'envoi du mail.",
         "BlockedOther": "Cet utilisateur vous a bloqué.",
@@ -800,7 +800,7 @@
         "EmailInUse": "Adresse mail déjà utilisée.",
         "CompromisedPassword": "Ce mot de passe est compromis.",
         "ReachedMaximumBots": "Vous avez atteint le nombre maximal de bots.",
-        "AudioPermissionBlock": "Aucun accès à ton microphone, merci de vérifier l'autorisation de ton navigateur."
+        "AudioPermissionBlock": "Impossible d'accéder à ton microphone, merci de vérifier l'autorisation de ton navigateur."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
@@ -811,7 +811,7 @@
             "d": "Permet aux membres de retirer définitivement des membres de ce serveur."
         },
         "KickMembers": {
-            "d": "Permet aux membres d'expulser les autres membres du serveur. Les membres expulsés peuvent rejoindre à nouveau avec une invitation valide.",
+            "d": "Permet aux membres d'expulser les autres membres du serveur. Les membres expulsés peuvent toujours rejoindre avec une invitation valide.",
             "t": "Expulser les membres"
         },
         "ChangeNickname": {
@@ -819,7 +819,7 @@
             "t": "Modifier le pseudonyme"
         },
         "ManageChannels": {
-            "d": "Permet aux membres de créer, modifier et supprimer les salons.",
+            "d": "Permet aux membres de créer, modifier et supprimer des salons.",
             "t": "Gérer les salons"
         },
         "ManageServer": {
@@ -884,7 +884,7 @@
         },
         "ManagePermissions": {
             "t": "Gérer les permissions",
-            "d": "Autorise les membres à changer les permissions pour les canaux et rôles de rangs inférieurs."
+            "d": "Autorise les membres à changer les permissions pour les salons et les rôles qui lui sont inférieurs."
         },
         "ReadMessageHistory": {
             "t": "Lire l'historique de messages",
@@ -895,8 +895,8 @@
             "d": "Autorise les membres à contrôler les webhooks dans un salon."
         },
         "SendEmbeds": {
-            "d": "Autorise les membres à envoyer du contenu incrusté, que ce soit depuis des liens ou des incrustations personnalisées.",
-            "t": "Envoyer du contenu incrusté"
+            "d": "Autorise les membres à envoyer du contenu intégré, que ce soit depuis des liens ou des intégrations personnalisées.",
+            "t": "Envoyer du contenu intégré"
         },
         "Speak": {
             "t": "Parler",
@@ -924,7 +924,7 @@
         },
         "AssignRoles": {
             "t": "Assigner des rôles",
-            "d": "Autorise les membres à assigner des rôles de rang inférieur au leur à d'autres membres."
+            "d": "Autorise les membres à assigner des rôles inférieurs au leur à d'autres membres."
         },
         "ManageCustomisation": {
             "t": "Gérer les personnalisations",
