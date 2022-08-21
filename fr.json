@@ -33,16 +33,16 @@
         "error": {
             "reset": "Échec de la réinitialisation !",
             "create": "La création du compte a échoué !",
-            "login": "Impossible de vous connecter !",
+            "login": "Nous n'avons pas réussi à vous connecter !",
             "resend": "Nous n'avons pas réussi à renvoyer la requête !"
         },
         "reset": "Réinitialiser le mot de passe",
-        "remembered": "Retourner à la connexion",
+        "remembered": "Retourner à la page de connexion",
         "register": "S'inscrire",
         "invite": "Code d'invitation",
         "current_password": "Mot de passe actuel",
         "resend": "Renvoyer la vérification",
-        "existing": "Vous possédez déja un compte?",
+        "existing": "Avez-vous déjà un compte ?",
         "username": "Nom d'utilisateur",
         "check_mail": "Vérifiez vos mails !",
         "check_spam": "Vérifiez vos mails indésirables si vous ne le trouvez pas",
@@ -93,17 +93,17 @@
                     "connected": "Connecté en vocal",
                     "leave": "Quitter",
                     "mute": "Muet",
-                    "unmute": "Démuter"
+                    "unmute": "Ne plus être muet"
                 },
                 "misc": {
                     "viewing_old": "Vous voyez d'anciens messages",
                     "jump_present": "Revenir aux messages récents",
                     "spoiler_attachment": "Spoiler",
                     "no_sending": "Vous n'avez pas la permission d'envoyer des messages dans ce salon.",
-                    "failed_load": "Impossible de charger le message.",
+                    "failed_load": "Le message n'a pas pu être chargé.",
                     "blocked_messages": "{{count}} messages bloqués",
                     "blocked_user": "Utilisateur bloqué",
-                    "sent_file": "Envoyer une pièce jointe",
+                    "sent_file": "Envoi d'une pièce jointe",
                     "sent_multiple_files": "Envoi de plusieurs pièces jointes",
                     "jump_beginning": "Retour au début",
                     "new_messages": "Nouveaux messages depuis {{time_ago}}",
@@ -133,11 +133,11 @@
                 },
                 "errors": {
                     "title": "Oups, Il n'y a rien ici !",
-                    "nochannels": "Ce serveur n'a aucun salon, ou vous n'en avez accès à aucun.",
+                    "nochannels": "Ce serveur n'a aucun salon ou vous n'avez accès à aucun salon.",
                     "nochannel": "Aucun salon"
                 },
                 "reply": {
-                    "replying": "En réponse à",
+                    "replying": "Répondre à",
                     "toggle": "Activer/Désactiver la mention de l'auteur"
                 },
                 "bridge": "pont"
@@ -253,7 +253,7 @@
                         "compact_description": "Le bon vieil IRC."
                     },
                     "accent_selector": "Couleur accentuée",
-                    "reset_overrides": "Réinitialiser les surcharges de thème",
+                    "reset_overrides": "Réinitialiser les surcharges",
                     "theme": "Thème",
                     "color": {
                         "light": "clair",
@@ -295,11 +295,11 @@
                     "descriptions": {
                         "enable_desktop": "Cela vous enverra des notifications quand l'application est ouverte.",
                         "enable_sound": "Jouera un son a la réception d'un message.",
-                        "enable_push": "Activez cette option pour recevoir des notifications même quand vous êtes hors-ligne.",
+                        "enable_push": "Cela vous enverra des notifications quand vous êtes hors-ligne.",
                         "enable_outgoing_sound": "Jouera un son lors de l'envoi de messages."
                     },
                     "title": "Notifications",
-                    "enable_push": "Activer les notifications.",
+                    "enable_push": "Activer les notifications push.",
                     "enable_sound": "Jouer un son lors de la réception.",
                     "enable_desktop": "Activer les notifications de Bureau.",
                     "enable_outgoing_sound": "Jouer un sond a l'envoi.",
@@ -308,8 +308,8 @@
                     "sound": {
                         "message": "Message reçu",
                         "outbound": "Message envoyé",
-                        "call_join": "Un utilisateur à rejoint l'appel",
-                        "call_leave": "Un utilisateur à quitté l'appel"
+                        "call_join": "Appel rejoint par un utilisateur",
+                        "call_leave": "Appel quitté par un utilisateur"
                     }
                 },
                 "profile": {
@@ -355,8 +355,8 @@
                     "unique_id": "Il s’agit d’un identifiant unique pour votre compte.",
                     "manage": {
                         "title": "Gestion du compte",
-                        "description": "Désactiver ou supprimer votre compte à tout moment. Cela va vous déconnecter et complètement supprimer votre compte, y compris vos messages et amis.",
-                        "delete": "Marquer le compte comme suppression",
+                        "description": "Désactivez ou supprimez votre compte à tout moment. Cela vous déconnectera et supprimer complètement votre compte, y compris vos messages et liste d'amis.",
+                        "delete": "Marquer le compte pour suppression",
                         "disable": "Désactiver le compte"
                     }
                 },
@@ -371,7 +371,7 @@
                     "title": "Langue",
                     "select": "Sélectionner votre langue",
                     "other": "Autres options de langue",
-                    "const": "Langues complètement traduites"
+                    "const": "Langues construites"
                 },
                 "source_code": "Code source",
                 "logOut": "Déconnexion",
@@ -382,9 +382,9 @@
                     "title": "Synchronisation",
                     "categories": "Synchronisation des catégories",
                     "descriptions": {
-                        "appearance": "Cette option synchronisera certaines options comme les collections d'emoji et la densité des messages.",
-                        "theme": "Cette option synchronisera le thème, les couleurs et le(s) code(s) CSS personnalisé(s) de votre choix.",
-                        "locale": "Cette option synchronisera la langue actuellement sélectionnée."
+                        "appearance": "Cela synchronisera les options telles que les collections d'emoji et la densité des messages.",
+                        "theme": "Cela synchronisera le thème et les couleurs de votre choix et votre CSS personnalisé.",
+                        "locale": "Cela synchronisera la langue actuellement sélectionnée."
                     },
                     "options": "Options de synchronisation"
                 },
@@ -406,7 +406,7 @@
                     "title": "Mes bots",
                     "reserved": "Note : Ce champ est réservé pour le futur.",
                     "create_bot": "Créer un bot",
-                    "token": "Token",
+                    "token": "Jeton",
                     "public_bot_tip": "Votre bot est public. N'importe qui peut l'inviter.",
                     "private_bot_tip": "Votre bot est privé. Vous seul pouvez l'inviter.",
                     "public_bot": "Bot public",
@@ -414,7 +414,7 @@
                     "copy_invite": "Copier le lien d'invitation",
                     "add": "Ajouter un bot",
                     "public_bot_desc": "Autoriser d'autres utilisateurs à inviter ce bot.",
-                    "unique_id": "C'est l'identifiant unique de ton bot. Ce n'est pas son token.",
+                    "unique_id": "Il s'agit d'un identifiant unique pour ton bot. Ce n'est pas son jeton.",
                     "profile": "Profil du bot"
                 },
                 "audio": {
@@ -444,10 +444,10 @@
                     "by": "par"
                 },
                 "plugins": {
-                    "title": "Extensions",
+                    "title": "Modules d'extension",
                     "wip": "Attention : Cette fonctionnalité est toujours en cours de développement.",
                     "delete_plugin": "Supprimer",
-                    "no_plugins": "Aucune extension n'est installée."
+                    "no_plugins": "Aucun module d'extension n'est installé."
                 }
             },
             "channel_pages": {
@@ -472,11 +472,11 @@
                     "b": "Rendez-vous dans vos paramètres de profil."
                 },
                 "languages": {
-                    "a": "Vous ne trouvez pas votre langue?",
+                    "a": "La langue voulue n'est pas disponible ?",
                     "b": "Contribuez à la traduction."
                 },
                 "sessions": {
-                    "a": "Si vous voyez une session qui vous est inconnue,",
+                    "a": "Si vous voyez une session qui vous est inconnue dans la liste,",
                     "b": "sécurisez votre compte en changeant votre mot de passe et en activant l'A2F."
                 }
             },
@@ -491,7 +491,7 @@
                     "title": "Vue d'ensemble",
                     "name": "Nom du serveur",
                     "description": "Description du salon",
-                    "system_messages": "Salons des messages du système"
+                    "system_messages": "Salons des messages système"
                 },
                 "members": {
                     "title": "Membres"
@@ -595,7 +595,7 @@
                 },
                 "clipboard": {
                     "copy": "Copie manuelle :",
-                    "https": "Vous n'êtes actuellement pas connecté en HTTPS.",
+                    "https": "Vous n'êtes actuellement pas connecté en utilisant HTTPS.",
                     "unavailable": "Le presse-papier n'est pas disponible !"
                 },
                 "prompt": {
@@ -604,7 +604,7 @@
                     "confirm_close_dm": "Fermer la conversation avec {{name}} ?",
                     "confirm_close_dm_long": "Vous pouvez la rouvrir plus tard mais elle disparaîtra des deux côtés.",
                     "confirm_delete": "Supprimer {{name}} ?",
-                    "confirm_delete_long": "Une fois supprimé, c'est impossible de revenir en arrière.",
+                    "confirm_delete_long": "Une fois supprimé il n'y a pas de retour en arrière possible.",
                     "create_invite_generate": "Génération d'une invitation en cours…",
                     "create_invite_created": "Voici votre nouveau code d'invitation :",
                     "confirm_delete_message_long": "Êtes-vous certain de vouloir supprimer cela ?",
@@ -612,20 +612,20 @@
                     "confirm_ban": "Vous êtes sur le point de bannir {{name}}",
                     "confirm_ban_reason": "Raison du bannissement",
                     "block_user_long": "Êtes-vous certain de vouloir bloquer {{name}} ? L'utilisateur sera également retiré de votre liste d'amis.",
-                    "unfriend_user_long": "Il ne sera peut-être plus possible de leur parler tant que vous ne les aurez pas rajoutés en amis.",
+                    "unfriend_user_long": "Vous ne pourrez peut-être plus leur parler tant que vous ne les aurez pas rajoutés en tant qu'amis.",
                     "block_user": "Bloquer {{name}} ?",
                     "unfriend_user": "Retirer {{name}} de vos amis ?"
                 },
                 "onboarding": {
                     "welcome": "Bienvenue sur",
-                    "pick": "Choisissez un nom d'utilisateur avec lequel vous souhaitez être appelé, il peut être changé plus tard dans les paramètres."
+                    "pick": "Choisissez le nom d'utilisateur par lequel vous souhaitez être trouvé, il peut être changé plus tard dans les paramètres."
                 },
                 "external_links": {
                     "title": "Les liens externes peuvent être dangereux !",
                     "short": "Êtes-vous sûr(e) de vouloir aller à :",
                     "trust_domain": "Faire confiance à ce domaine"
                 },
-                "token_reveal": "Token de {{name}}",
+                "token_reveal": "Jeton de {{name}}",
                 "sessions": {
                     "title": "Êtes-vous sûr de vouloir vous déconnecter de toutes vos sessions ?",
                     "short": "Vous ne pourrez pas annuler cette action.",
@@ -639,11 +639,11 @@
                     "select_method": "Sélectionnez une méthode pour vous authentifier.",
                     "enable_totp": "Activer l'application d'authentification",
                     "enter_code": "Entrez le code",
-                    "prompt_totp": "Veuillez scanner ou utiliser le token ci-dessous dans votre application d'authentification."
+                    "prompt_totp": "Veuillez numériser ou utiliser le jeton ci-dessous dans votre application d'authentification."
                 },
                 "changelogs": {
                     "title": "Modifications",
-                    "description": "Lisez les mises à jour de Revolt.",
+                    "description": "Lire à propos des mises à jour de Revolt.",
                     "older": "Voir les mises à jour précédentes"
                 },
                 "out_of_date": {
@@ -669,9 +669,9 @@
                     "no_groups": "Aucun groupe en commun",
                     "badges": {
                         "translator": "Traducteur",
-                        "early_adopter": "Ancien Utilisateur",
+                        "early_adopter": "Utilisateur de longue date",
                         "supporter": "Donateur",
-                        "responsible_disclosure": "Bug(s) responsablement(s) divulgé(s)",
+                        "responsible_disclosure": "Bug(s) divulgué(s) de manière responsable",
                         "moderation": "Modération de la plateforme",
                         "founder": "Fondateur"
                     },
@@ -717,21 +717,21 @@
             "required": "Permissions requises"
         },
         "home": {
-            "donate": "Faire une Donation",
+            "donate": "Faire une donation à Revolt",
             "social": "Trouver des serveurs & des bots",
             "settings": "Ouvrir les paramètres",
             "feedback": "Envoyer des commentaires sur Revolt",
             "settings-tooltip": "Vous pouvez aussi faire un clic droit sur l'icône utilisateur en haut à gauche, ou un clique gauche si vous êtes déjà sur l'accueil.",
-            "join-testers": "Rejoindre le serveur de tests",
+            "join-testers": "Rejoindre le serveur de testeurs",
             "goto-testers": "Se rendre sur le serveur de tests",
             "directs": "Messages directs",
-            "join-testers_desc": "Vous pouvez signaler des problèmes et proposer des améliorations juste ici.",
+            "join-testers_desc": "Vous pouvez y signaler des problèmes et discuter des améliorations à venir avec nous directement.",
             "goto-testers_desc": "Vous pouvez signaler des problèmes et proposer des améliorations juste ici.",
             "donate_desc": "Soutenez le projet en faisant un don, merci !",
             "discover": "Découvrir Revolt",
             "discover_desc": "Trouvez une communauté basée sur vos hobbys ou sur vos intérêts.",
             "group": "Créer un groupe",
-            "group_desc": "Invitez vos amis, de bon bots, et organisez une grande fête.",
+            "group_desc": "Invitez tous vos amis, des bots sympa, et organisez une grande fête.",
             "feedback_desc": "Faîtes-nous savoir comment améliorer notre application en nous donnant votre avis."
         }
     },
