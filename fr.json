@@ -277,7 +277,7 @@
                         "follow": "Utiliser le thème du système d'exploitation",
                         "follow_desc": "Si activé, il ne vous sera plus possible de changer votre thème ou d'utiliser un thème personnalisé.",
                         "seasonal": "Thème saisonnier",
-                        "seasonal_desc": "Afficher des effets dans l'onglet d'accueil durant les vacances.",
+                        "seasonal_desc": "Afficher des effets dans l'onglet d'accueil pendant les périodes de fêtes.",
                         "transparency": "Effets de transparence",
                         "transparency_desc": "Active les effets de transparence dans toute l'application."
                     },
@@ -706,7 +706,7 @@
                 "accept": "Accepter l'invitation",
                 "user_count": "{{member_count}} membres",
                 "invalid": "Invitation invalide !",
-                "invalid_desc": "L'invitation est peut être inexistante ou vous n'avez pas la permission de rejoindre le serveur."
+                "invalid_desc": "L'invitation est peut-être inexistante ou vous n'avez pas la permission de rejoindre le serveur."
             },
             "server-badges": {
                 "official": "Serveur Officiel",
@@ -761,7 +761,7 @@
     "error": {
         "Unlabelled": "Une erreur est survenue.",
         "RenderFail": "Échec du rendu du modèle.",
-        "InvalidToken": "Token invalide",
+        "InvalidToken": "Jeton invalide",
         "MissingInvite": "Code d'invitation manquant dans la requête.",
         "AlreadyFriends": "Vous êtes déjà ami avec cet utilisateur.",
         "Blocked": "Vous avez bloqué cet utilisateur.",
@@ -780,13 +780,13 @@
         "InvalidCredentials": "Adresse mail ou mot de passe incorrect.",
         "InvalidInvite": "Code d'invitation invalide",
         "AlreadyOnboarded": "Configuration déjà terminée.",
-        "UsernameTaken": "Nom d'utilisateur déja utilisé.",
+        "UsernameTaken": "Le nom d'utilisateur est déjà utilisé.",
         "AlreadySentRequest": "Vous avez déjà une demande en attente pour cet utilisateur.",
         "TooShort": "Trop court",
         "FileTooLarge": "Ce fichier est trop volumineux.",
         "NetworkError": "Erreur de réseau.",
         "Unauthorized": "Non autorisé.",
-        "UnknownError": "Voir console.",
+        "UnknownError": "Voir la console.",
         "OperationFailed": "Échec de l'opération.",
         "EmailFailed": "Échec de l'envoi du mail.",
         "BlockedOther": "Cet utilisateur vous a bloqué.",
@@ -800,7 +800,7 @@
         "EmailInUse": "Adresse mail déjà utilisée.",
         "CompromisedPassword": "Ce mot de passe est compromis.",
         "ReachedMaximumBots": "Vous avez atteint le nombre maximal de bots.",
-        "AudioPermissionBlock": "Impossible d'accéder à ton microphone, merci de vérifier l'autorisation de ton navigateur."
+        "AudioPermissionBlock": "Impossible d'accéder à votre microphone, merci de vérifier la configuration de votre navigateur."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
@@ -811,7 +811,7 @@
             "d": "Permet aux membres de retirer définitivement des membres de ce serveur."
         },
         "KickMembers": {
-            "d": "Permet aux membres d'expulser les autres membres du serveur. Les membres expulsés peuvent toujours rejoindre avec une invitation valide.",
+            "d": "Permet aux membres d'expulser les autres membres du serveur. Les membres expulsés peuvent rejoindre le serveur à nouveau avec une invitation valide.",
             "t": "Expulser les membres"
         },
         "ChangeNickname": {
@@ -884,7 +884,7 @@
         },
         "ManagePermissions": {
             "t": "Gérer les permissions",
-            "d": "Autorise les membres à changer les permissions pour les salons et les rôles qui lui sont inférieurs."
+            "d": "Autorise les membres à changer les permissions pour les salons et les rôles de rang inférieurs."
         },
         "ReadMessageHistory": {
             "t": "Lire l'historique de messages",
@@ -924,7 +924,7 @@
         },
         "AssignRoles": {
             "t": "Assigner des rôles",
-            "d": "Autorise les membres à assigner des rôles inférieurs au leur à d'autres membres."
+            "d": "Autorise les membres à assigner des rôles de rang inférieur au leur à d'autres membres."
         },
         "ManageCustomisation": {
             "t": "Gérer les personnalisations",
