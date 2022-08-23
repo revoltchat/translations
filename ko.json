@@ -33,7 +33,8 @@
                     "user_banned": "{{user}} 님이 차단되었어요",
                     "added_by": "{{other_user}} 님이 {{user}} 님을 추가했어요",
                     "removed_by": "{{other_user}} 님이 {{user}} 님을 삭제했어요",
-                    "channel_renamed": "{{user}} 님이 채널 이름을 {{name}}(으)로 변경했어요"
+                    "channel_renamed": "{{user}} 님이 채널 이름을 {{name}}(으)로 변경했어요",
+                    "channel_ownership_changed": "{{from}}이(가) {{to}}에게 그룹 소유권을 부여했습니다"
                 },
                 "voice": {
                     "leave": "연결 끊기",
@@ -117,12 +118,18 @@
                         "remove_auth": "인증기 제거",
                         "title": "2단계 인증",
                         "description": "계정에 2단계 인증을 활성화하여 보안 수준을 향상시키세요.",
-                        "add_auth": "인증기 추가"
+                        "add_auth": "인증기 추가",
+                        "two_factor_on": "현재 이중 인증이 켜져 있습니다.",
+                        "view_recovery": "복구 코드 보기",
+                        "view_recovery_long": "2FA 복구 코드 확인과 다운로드.",
+                        "generate_recovery": "복구 코드 생성",
+                        "generate_recovery_long": "복구 방법을 설정하여 2FA를 사용할 준비를 하세요.",
+                        "two_factor_off": "이중 인증을 활성화하지 않았습니다!"
                     },
                     "title": "내 계정",
                     "manage": {
                         "disable": "계정 비활성화",
-                        "delete": "계정 삭제",
+                        "delete": "계정 삭제 표시",
                         "description": "언제든지 계정을 비활성화하거나 삭제할 수 있어요. 이 작업을 수행하면 계정에서 로그아웃되고 채팅 기록 및 친구 목록이 삭제됩니다.",
                         "title": "계정 관리"
                     },
@@ -179,6 +186,11 @@
                     "discover": {
                         "title": "테마 살펴보기",
                         "description": "커뮤니티에서 만든 테마를 찾아봅니다"
+                    },
+                    "appearance_options": {
+                        "title": "모양새 옵션",
+                        "show_send": "메시지 전송 버튼 항상 표시",
+                        "show_send_desc": "비활성화하면 메시지 전송 버튼이 모바일에서만 나타납니다."
                     }
                 },
                 "language": {
@@ -296,7 +308,7 @@
             "categories": {
                 "user_settings": "사용자 설정",
                 "client_settings": "클라이언트 설정",
-                "danger_zone": "위험구역"
+                "danger_zone": "위험 구역"
             },
             "actions": {
                 "upload": "업로드",
@@ -346,6 +358,12 @@
                 },
                 "management": {
                     "title": "사용자 관리"
+                },
+                "customisation": {
+                    "title": "커스터마이징"
+                },
+                "emojis": {
+                    "title": "이모지"
                 }
             },
             "permissions": {
@@ -568,6 +586,19 @@
                     "title": "세션을 초기화하고싶으신가요?",
                     "short": "이 행동은 되돌릴수 없습니다.",
                     "accept": "모든 세션 삭제하기"
+                },
+                "mfa": {
+                    "select_method": "귀하의 요청을 인증할 방법을 선택하세요.",
+                    "prompt_totp": "인증 앱에서 아래 토큰을 스캔하거나 사용하세요.",
+                    "enter_code": "코드 입력",
+                    "recovery_codes": "나의 복구 코드",
+                    "confirm": "선택한 방법으로 확인하세요.",
+                    "save_codes": "안전한 위치에 저장해 주세요.",
+                    "enable_totp": "인증앱 활성화"
+                },
+                "confirm": "작업 확인",
+                "changelogs": {
+                    "title": "새로운 기능"
                 }
             },
             "friends": {
@@ -732,7 +763,10 @@
         "welcome2": "안녕하세요!",
         "welcome": "다시 오신 것을 환영합니다!",
         "subtitle": "Revolt에 로그인",
-        "subtitle2": "계정 만들기"
+        "subtitle2": "계정 만들기",
+        "unofficial_instance": "서드파티 인스턴스.",
+        "totp": "인증 앱",
+        "recovery": "복구 코드"
     },
     "general": {
         "tos": "서비스 이용 약관",
@@ -743,7 +777,8 @@
         "about": "에 대한",
         "disabled": "비활성화",
         "off": "끔",
-        "unavailable": "미지원"
+        "unavailable": "미지원",
+        "learn_more": "더보기"
     },
     "error": {
         "TooShort": "너무 문자열이 짧습니다",
