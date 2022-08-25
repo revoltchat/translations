@@ -3,10 +3,10 @@
         "DeniedNotification": "Zavrnili ste dostop do obvestil, preverite nastavitve strani.",
         "InvalidToken": "Neveljaven žeton",
         "MissingInvite": "Manjka povabi kodo v zahtevi.",
-        "InvalidInvite": "Napačna koda",
+        "InvalidInvite": "Neveljavna koda",
         "UsernameTaken": "Uporabniško ime je vzeto.",
-        "AlreadyFriends": "Že prijatelj s tem uporabnikom.",
-        "AlreadySentRequest": "Že poslali zahtevo za tega uporabnika.",
+        "AlreadyFriends": "Že prijateljujete s tem uporabnikom.",
+        "AlreadySentRequest": "Temu uporabniku ste že poslali zahtevo.",
         "Blocked": "Blokirali ste tega uporabnika.",
         "RequiredField": "Zahtevana",
         "TooShort": "Prekratko",
@@ -20,11 +20,18 @@
         "IoError": "Strežniku je prišlo do I/O napake.",
         "UnsupportedBrowser": "Brskalnik nima podpore za to funkcijo.",
         "EmailFailed": "E -poštnega sporočila ni bilo mogoče poslati.",
-        "InvalidCredentials": "E -poštni naslov ali geslo sta napačna.",
+        "InvalidCredentials": "E-naslov ali geslo je napačno.",
         "AlreadyOnboarded": "Vključitev je že končana.",
         "BlockedOther": "Ta uporabnik vas je blokiral.",
         "NoEffect": "Ta zahteva ni imela učinka.",
-        "ProbeError": "Ni uspelo, da bi dobili datoteko metapodatkov."
+        "ProbeError": "Ni uspelo, da bi dobili datoteko metapodatkov.",
+        "RenderFail": "Renderiranje predloge ni uspelo.",
+        "EmailInUse": "Elektronska pošta v uporabi.",
+        "MissingHeaders": "Manjkajo glave.",
+        "InvalidSession": "Neveljavna seja.",
+        "UnverifiedAccount": "Nepreverjen račun.",
+        "UnknownUser": "Neznani uporabnik.",
+        "AudioPermissionBlock": "Nimate dostopa do mikrofona, preverite konfiguracijo brskalnika."
     },
     "permissions": {
         "ManageServer": {
@@ -94,6 +101,10 @@
         "ViewChannel": {
             "t": "Ogled kanala",
             "d": "Omogoča članom ogled vseh kanalov, za katere imajo to dovoljenje."
+        },
+        "SendEmbeds": {
+            "t": "Pošlji Embed",
+            "d": "Članom omogoča pošiljanje vdelane vsebine, bodisi povezav bodisi vdelanega besedila po meri."
         }
     },
     "general": {
@@ -138,8 +149,8 @@
         "create": "Ustvari nov račun.",
         "missing_verification": "Niste prejeli e-poštnega sporočila?",
         "resend": "Ponovno pošlji preverjanje.",
-        "cancel": "Prekliči zahtevo.",
-        "check_mail": "Preverite svojo pošto.",
+        "cancel": "Prekliči zahtevo",
+        "check_mail": "Preverite svojo pošto!",
         "email_delay": "Prosimo, pustite do 10 minut, da prispe.",
         "check_spam": "Če ga ne najdete, preverite neželeno pošto",
         "open_mail_provider": "Odpri ponudnika {{provider}}",
