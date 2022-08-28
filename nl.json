@@ -9,7 +9,7 @@
         "on": "Aan",
         "off": "Uit",
         "unavailable": "Niet beschikbaar",
-        "learn_more": "Leer meer"
+        "learn_more": "Meer informatie"
     },
     "login": {
         "current_password": "Huidig wachtwoord",
@@ -51,7 +51,9 @@
         "welcome2": "Hallo!",
         "subtitle2": "Maak een account aan",
         "welcome": "Welkom terug!",
-        "unofficial_instance": "Derde-partij instantie."
+        "unofficial_instance": "Derde-partij instantie.",
+        "totp": "Authenticator-app",
+        "recovery": "Herstelcode"
     },
     "app": {
         "main": {
@@ -103,7 +105,8 @@
                     "user_joined": "{{user}} is toegetreden",
                     "user_left": "{{user}} is weggegaan",
                     "user_banned": "{{user}} is verbannen",
-                    "user_kicked": "{{user}} is gekicked"
+                    "user_kicked": "{{user}} is gekicked",
+                    "channel_ownership_changed": "{{from}} gaf {{to}} groepseigendom"
                 },
                 "notifications": {
                     "all": "Alle berichten",
@@ -258,13 +261,19 @@
                         "title": "Tweestapsverificatie",
                         "description": "Voeg een extra beveiligingslaag toe door 2FA in jouw account in te schakelen.",
                         "add_auth": "Authenticator toevoegen",
-                        "remove_auth": "Authenticator verwijderen"
+                        "remove_auth": "Authenticator verwijderen",
+                        "view_recovery_long": "Bekijk en download je 2FA herstelcodes.",
+                        "generate_recovery": "Genereer Herstelcodes",
+                        "generate_recovery_long": "Maak je klaar om 2FA te gebruiken door een herstelmethode in te stellen.",
+                        "two_factor_on": "Tweefactorauthenticatie is momenteel ingeschakeld.",
+                        "two_factor_off": "Je hebt tweefactorauthenticatie niet ingesteld!",
+                        "view_recovery": "Bekijk Herstelcodes"
                     },
                     "manage": {
                         "title": "Accountbeheer",
                         "description": "Jouw account op elk gewenst moment uitschakelen of verwijderen. Deze actie logt je uit en verwijdert jouw account volledig, inclusief uw chatgeschiedenis en vrienden.",
                         "disable": "Account uitschakelen",
-                        "delete": "Account verwijderen"
+                        "delete": "Markeer Account voor Verwijdering"
                     }
                 },
                 "notifications": {
@@ -451,6 +460,12 @@
                 },
                 "management": {
                     "title": "Gebruiker beheer"
+                },
+                "customisation": {
+                    "title": "Aanpassingen"
+                },
+                "emojis": {
+                    "title": "Emoji's"
                 }
             },
             "permissions": {
@@ -544,7 +559,11 @@
                     "delete": "Verwijder",
                     "create": "Creëer",
                     "hide": "Verbergen",
-                    "edit": "Bewerken"
+                    "edit": "Bewerken",
+                    "report": "Rapporteer",
+                    "confirm": "Bevestigen",
+                    "done": "Klaar",
+                    "reset": "Reset"
                 },
                 "onboarding": {
                     "pick": "Kies een gebruikersnaam waarmee je wil dat mensen je kunnen vinden, dit kan later in de instellingen worden gewijzigd.",
@@ -560,6 +579,28 @@
                     "title": "Weet u zeker duidelijk u uw sessies wilt wissen?",
                     "accept": "Alle sessies laten vervallen",
                     "short": "Je kanniet deze actie niet ongedaan maken."
+                },
+                "out_of_date": {
+                    "description": "Het moet worden bijgewerkt om met recente wijzigingen te kunnen werken.",
+                    "attempting": "Proberen om te updaten...",
+                    "title": "Je client is niet geüpdate!",
+                    "version": "Je client bevindt zich op {{client}}, terwijl de server {{server}} nodig heeft.",
+                    "ignore": "Negeer Update"
+                },
+                "changelogs": {
+                    "title": "Wijzigingslogs",
+                    "description": "Lees over updates voor Revolt.",
+                    "older": "Bekijk oudere updates"
+                },
+                "confirm": "Actie bevestigen",
+                "mfa": {
+                    "recovery_codes": "Je herstelcodes",
+                    "save_codes": "Bewaar deze op een veilige locatie.",
+                    "confirm": "Bevestig met de geselecteerde methode.",
+                    "select_method": "Selecteer een methode om je verzoek te verifiëren.",
+                    "enable_totp": "Authenticator-app inschakelen",
+                    "prompt_totp": "Scan of gebruik de onderstaande token in je authenticatie-app.",
+                    "enter_code": "Voer Code In"
                 }
             },
             "popovers": {
@@ -665,7 +706,8 @@
             "copy_message_link": "Kopieer bericht link",
             "edit_identity": "Bewerk identiteit",
             "create_category": "Categorie aanmaken",
-            "mark_unread": "Markeer als gelezen"
+            "mark_unread": "Markeer als gelezen",
+            "make_owner": "Geef groepseigenschap"
         },
         "permissions": {
             "required": "Permissies vereist"
@@ -876,6 +918,14 @@
         "MoveMembers": {
             "t": "Leden verplaatsen",
             "d": "Stelt leden in staat anderen te verplaatsen van één spraakkanaal naar een ander."
+        },
+        "ManageCustomisation": {
+            "t": "Aanpassingen Beheren",
+            "d": "Hiermee kunnen leden emoji's maken, bewerken en verwijderen."
+        },
+        "React": {
+            "t": "Reacties Gebruiken",
+            "d": "Hiermee kunnen leden reageren op berichten."
         }
     },
     "shortcuts": {
