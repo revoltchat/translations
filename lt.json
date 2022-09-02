@@ -40,7 +40,7 @@
         "successful_registration": "Sėkmingai užsiregistravote!",
         "check_spam": "Jei nerandate laiško, patikrinkite šlamšto aplanką",
         "check_mail": "Patikrinkite savo el. paštą!",
-        "resend": "Iš naujo siųsti patvirtinimo laišką",
+        "resend": "Iš naujo siųsti patvirtinimą",
         "missing_verification": "Negavote el. laiško?",
         "set_password": "Nustatyti naują slaptažodį",
         "current_password": "Dabartinis slaptažodis",
@@ -101,7 +101,8 @@
                     "sent_multiple_files": "Išsiųsti keli priedai",
                     "jump_beginning": "Pereiti į pradžią",
                     "new_messages": "Nauji pranešimai nuo {{time_ago}}",
-                    "load_file": "Įkelti failą"
+                    "load_file": "Įkelti failą",
+                    "timed_out": "Esate sulaikyti {{time}}."
                 },
                 "voice": {
                     "unmute": "Atšaukti nutildymą",
@@ -140,7 +141,8 @@
                     "replying": "Atsakoma",
                     "toggle": "Perjungti autoriaus paminėjimą"
                 },
-                "bridge": "tiltas"
+                "bridge": "tiltas",
+                "user_timed_out": "Naudotojas sulaikytas {{time}}."
             },
             "categories": {
                 "members": "Nariai",
@@ -637,7 +639,7 @@
                     "a": "Trūksta norimos kalbos?"
                 },
                 "account": {
-                    "b": "Pereikite prie savo profilio nustatymų.",
+                    "b": "Eikite į savo profilio nustatymus.",
                     "a": "Norite tinkinti savo viešąjį profilį?"
                 }
             },
@@ -919,7 +921,7 @@
         },
         "TimeoutMembers": {
             "d": "Leidžia nariams laikinai neleisti naudotojams sąveikauti su serveriu.",
-            "t": "Slopinti narius"
+            "t": "Sulaikyti narius"
         },
         "AssignRoles": {
             "t": "Priskirti vaidmenis",
