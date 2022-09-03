@@ -32,7 +32,7 @@
         "username": "Naudotojo vardas",
         "reset": "Atkurti slaptažodį",
         "error": {
-            "resend": "Nepavyko išsiųsti iš naujo!",
+            "resend": "Nepavyko siųsti iš naujo!",
             "login": "Nepavyko prisijungti!",
             "create": "Nepavyko užsiregistruoti!",
             "reset": "Nepavyko atkurti!"
@@ -91,7 +91,7 @@
                 "message_where": "Rašyti {{channel_name}}",
                 "misc": {
                     "spoiler_attachment": "Atskleidžiamas turinys",
-                    "jump_present": "Pereiti į dabartį",
+                    "jump_present": "Eiti į dabartį",
                     "viewing_old": "Rodomi senesni pranešimai",
                     "no_sending": "Neturite leidimo siųsti pranešimų šiame kanale.",
                     "failed_load": "Nepavyko įkelti pranešimo.",
@@ -99,7 +99,7 @@
                     "blocked_user": "Užblokuotas naudotojas",
                     "sent_file": "Išsiųstas priedas",
                     "sent_multiple_files": "Išsiųsti keli priedai",
-                    "jump_beginning": "Pereiti į pradžią",
+                    "jump_beginning": "Eiti į pradžią",
                     "new_messages": "Nauji pranešimai nuo {{time_ago}}",
                     "load_file": "Įkelti failą",
                     "timed_out": "Esate sulaikyti {{time}}."
@@ -185,7 +185,7 @@
             "busy": "Netrukdyti",
             "idle": "Pasitraukęs",
             "online": "Prisijungęs",
-            "reconnect": "Prisijungti iš naujo"
+            "reconnect": "Jungtis iš naujo"
         },
         "special": {
             "friends": {
@@ -202,10 +202,10 @@
                 }
             },
             "status": {
-                "reconnecting": "Prisijungiama iš naujo…",
+                "reconnecting": "Jungiamasi iš naujo…",
                 "offline": "Atsijungęs.",
                 "disconnected": "Neprijungtas.",
-                "connecting": "Prisijungiama…"
+                "connecting": "Jungiamasi…"
             },
             "modals": {
                 "error": "Įvyko klaida!",
@@ -269,7 +269,9 @@
                     "confirm_kick": "Tikrai norite išmesti {{name}}?",
                     "confirm_close_dm": "Uždaryti pokalbį su {{name}}?",
                     "confirm_close_dm_long": "Vėliau galėsite jį vėl atidaryti, bet jis išnyks iš abiejų pusių.",
-                    "confirm_delete": "Naikinti {{name}}?"
+                    "confirm_delete": "Naikinti {{name}}?",
+                    "silent_leave": "Tyliai išeiti",
+                    "members_not_notified": "Kitiems nariams nebus pranešta"
                 },
                 "external_links": {
                     "title": "Išorinės nuorodos gali būti pavojingos!",
@@ -690,13 +692,14 @@
                     "title": "Kategorijos"
                 },
                 "management": {
-                    "title": "Naudotojo valdymas"
+                    "title": "Naudotojų valdymas"
                 },
                 "customisation": {
                     "title": "Tinkinimas"
                 },
                 "emojis": {
-                    "title": "Jaustukai"
+                    "title": "Jaustukai",
+                    "upload": "Įkelti jaustuką"
                 }
             },
             "permissions": {
