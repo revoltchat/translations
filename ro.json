@@ -26,7 +26,9 @@
                     "unfriend_user": "Elimini pe {{name}}?",
                     "block_user": "Blochezi pe {{name}}?",
                     "block_user_long": "Ești sigur(ă) că vrei să blochezi {{name}}? Acesta (Aceasta) va fi eliminat(ă) și din lista ta de prieteni.",
-                    "unfriend_user_long": "Este posibil să nu mai poți vorbi cu el (ea) până când nu îl (o) adaugi din nou."
+                    "unfriend_user_long": "Este posibil să nu mai poți vorbi cu el (ea) până când nu îl (o) adaugi din nou.",
+                    "silent_leave": "Ieși fără notificare",
+                    "members_not_notified": "Alți membri vor fi notificați"
                 },
                 "onboarding": {
                     "welcome": "Bun venit la",
@@ -54,7 +56,11 @@
                     "reveal": "Afișează",
                     "back": "Înapoi",
                     "hide": "Ascunde",
-                    "edit": "Editare"
+                    "edit": "Editare",
+                    "done": "Gata",
+                    "report": "Raportează",
+                    "reset": "Resetează",
+                    "confirm": "Confirmă"
                 },
                 "clipboard": {
                     "copy": "Copiere Manuală:",
@@ -71,6 +77,28 @@
                     "accept": "Șterge toate sesiunile",
                     "title": "Ești sigur că vrei să-ți ștergi sesiunile?",
                     "short": "Această acțiune nu poate fi anulată."
+                },
+                "out_of_date": {
+                    "title": "Aplicația nu este updatată!",
+                    "ignore": "Ignoră schimbările",
+                    "version": "Aplicația e la versiunea {{client}} dar serverul necesită versiunea {{server}}.",
+                    "attempting": "Se încarcă sa se updateze...",
+                    "description": "Ca să meargă ultimele schimbări aplicația trebuie updatată."
+                },
+                "confirm": "Confirmă acțiunea",
+                "mfa": {
+                    "enter_code": "Introdu codul",
+                    "enable_totp": "Pornește aplicația de autentificare",
+                    "prompt_totp": "Scanează in aplicație folosind token-ul de mai jos.",
+                    "recovery_codes": "Codurile tale de recuperare",
+                    "save_codes": "Salvați codurile într-o locație sigură.",
+                    "select_method": "Selectează o metodă sa autentifici cererea.",
+                    "confirm": "Confirmă folosind metoda selectată."
+                },
+                "changelogs": {
+                    "title": "Schimbări",
+                    "description": "Citește despre schimbările Revolt.",
+                    "older": "Vezi schimbări mai vechi"
                 }
             },
             "status": {
@@ -194,7 +222,13 @@
                         "title": "Autentificare cu doi factori",
                         "description": "Adaugă un nivel suplimentar de securitate prin activarea 2FA în contul tău.",
                         "add_auth": "Adaugă un autentificator",
-                        "remove_auth": "Dezactivează autentificatorul"
+                        "remove_auth": "Dezactivează autentificatorul",
+                        "view_recovery": "Vezi coduri de recuperare",
+                        "view_recovery_long": "Vezi si instalează codul tau de recuperare în 2 pași.",
+                        "generate_recovery": "Generează coduri de recuperare",
+                        "generate_recovery_long": "Fi pregătit sa folosești recuperare in 2 pași setând o metodă de recuperare.",
+                        "two_factor_on": "Recuperarea în 2 pași este pornită.",
+                        "two_factor_off": "Nu ați activat recuperarea în 2 pași!"
                     },
                     "manage": {
                         "title": "Gestionare Cont",
@@ -418,6 +452,13 @@
                 },
                 "management": {
                     "title": "Gestionare utilizatori"
+                },
+                "emojis": {
+                    "upload": "Încarcă un emoji",
+                    "title": "Emoji-uri"
+                },
+                "customisation": {
+                    "title": "Customizare"
                 }
             },
             "permissions": {
@@ -444,7 +485,7 @@
                 "description": "Descrierea grupului"
             },
             "channel": {
-                "bot": "bot",
+                "bot": "Robot",
                 "unknown_user": "<Utilizator Necunoscut>",
                 "system": {
                     "removed_by": "{{user}} a fost eliminat(ă) de către {{other_user}}",
@@ -455,7 +496,8 @@
                     "channel_description_changed": "{{user}} a schimbat descrierea canalului",
                     "channel_icon_changed": "{{user}} a schimbat pictograma canalului",
                     "user_kicked": "{{user}} a fost dat afară",
-                    "user_banned": "I-a fost interzis accesul lui {{user}}"
+                    "user_banned": "I-a fost interzis accesul lui {{user}}",
+                    "channel_ownership_changed": "{{from}} a dat rolul de proprietar lui {{to}}"
                 },
                 "typing": {
                     "several": "Mai multe persoane scriu…",
@@ -491,7 +533,8 @@
                     "sent_multiple_files": "A trimis mai multe atașamente",
                     "jump_beginning": "Salt la început",
                     "new_messages": "Mesaje noi de {{time_ago}}",
-                    "load_file": "Încarcă fișier"
+                    "load_file": "Încarcă fișier",
+                    "timed_out": "Ai fost pus pe pauză pentru {{time}}."
                 },
                 "notifications": {
                     "default": "Folosește implicit",
@@ -524,7 +567,8 @@
                     "replying": "Se trimite răspuns către",
                     "toggle": "Comută menționarea autorului"
                 },
-                "bridge": "punte"
+                "bridge": "punte",
+                "user_timed_out": "Utilizatorul este pus pe pauză pentru {{time}}."
             },
             "categories": {
                 "members": "Membri",
@@ -614,7 +658,8 @@
             "copy_message_link": "Copiază link-ul mesajului",
             "edit_identity": "Editează identitatea",
             "create_category": "Creează o categorie",
-            "mark_unread": "Marchează ca necitit"
+            "mark_unread": "Marchează ca necitit",
+            "make_owner": "Transferă roulul de proprietar"
         },
         "permissions": {
             "required": "Sunt necesare permisiuni"
@@ -678,7 +723,9 @@
         "subtitle2": "Creează un cont",
         "welcome": "Bine ai revenit!",
         "subtitle": "Autentificare în Revolt",
-        "unofficial_instance": "Instanță terță parte."
+        "unofficial_instance": "Instanță terță parte.",
+        "totp": "Aplicație de autentificare",
+        "recovery": "Cod de Recuperare"
     },
     "general": {
         "image_by": "Imagine realizată de către",
@@ -690,7 +737,7 @@
         "off": "Oprit",
         "disabled": "Dezactivat",
         "unavailable": "Indisponibil",
-        "learn_more": "Află mai multe"
+        "learn_more": "Mai multe informații"
     },
     "notifications": {
         "now_friends": "Acum ești prieten cu @{{person}}!",
@@ -850,6 +897,46 @@
         "ReadMessageHistory": {
             "t": "Citește istoricul mesajelor",
             "d": "Permite membrilor să citească istoricul mesajelor de pe acest canal."
+        },
+        "Speak": {
+            "d": "Permite membrilor să vorbească într-un canal.",
+            "t": "Vorbește"
+        },
+        "ManageWebhooks": {
+            "t": "Modifică webhook-uri",
+            "d": "Permite membrilor să controleze webhook-uri într-un canal."
+        },
+        "SendEmbeds": {
+            "d": "Permite membrilor să trimită fișiere integrate din link-uri sau text.",
+            "t": "Trimite integrat"
+        },
+        "Connect": {
+            "d": "Permite membrilor să se conecteze la un canal voce.",
+            "t": "Conectează-te"
+        },
+        "DeafenMembers": {
+            "t": "Dezactivează sunetul la membri",
+            "d": "Permite membrilor sa dezactiveze sunetul la alții în canale de voce."
+        },
+        "MuteMembers": {
+            "t": "Pune membri pe pauză",
+            "d": "Permite membrilor să puna pe pauză alți membri in canale de voce."
+        },
+        "ManageCustomisation": {
+            "d": "Permite membrilor să creeze, editeze și să șteargă emoji-uri.",
+            "t": "Modifică customizarea"
+        },
+        "React": {
+            "t": "Folosește reacții",
+            "d": "Permite membrilor să reacționeze la mesaje."
+        },
+        "Video": {
+            "t": "Video",
+            "d": "Permite membrilor să transmită video într-un canal de voce."
+        },
+        "MoveMembers": {
+            "t": "Mută membrii",
+            "d": "Permite membrilor să mute pe alții între canalele de voce."
         }
     }
 }
