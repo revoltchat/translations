@@ -57,7 +57,7 @@
                     "back": "Înapoi",
                     "hide": "Ascunde",
                     "edit": "Editare",
-                    "done": "Gata",
+                    "done": "Efectuat",
                     "report": "Raportează",
                     "reset": "Resetează",
                     "confirm": "Confirmă"
@@ -79,26 +79,26 @@
                     "short": "Această acțiune nu poate fi anulată."
                 },
                 "out_of_date": {
-                    "title": "Aplicația nu este updatată!",
-                    "ignore": "Ignoră schimbările",
-                    "version": "Aplicația e la versiunea {{client}} dar serverul necesită versiunea {{server}}.",
-                    "attempting": "Se încarcă sa se updateze...",
-                    "description": "Ca să meargă ultimele schimbări aplicația trebuie updatată."
+                    "title": "Clientul tău nu este actualizat!",
+                    "ignore": "Ignoră actualizarea",
+                    "version": "Clientul tău se află la versiunea {{client}}, în timp ce serverul are nevoie de {{server}}.",
+                    "attempting": "Se încearcă să se actualizeze...",
+                    "description": "Aceasta trebuie să fie actualizată pentru a funcționa cu modificările recente."
                 },
                 "confirm": "Confirmă acțiunea",
                 "mfa": {
                     "enter_code": "Introdu codul",
-                    "enable_totp": "Pornește aplicația de autentificare",
-                    "prompt_totp": "Scanează in aplicație folosind token-ul de mai jos.",
+                    "enable_totp": "Activează aplicația de autentificare",
+                    "prompt_totp": "Te rugăm să scanezi sau să folosești token-ul de mai jos în aplicația ta de autentificare.",
                     "recovery_codes": "Codurile tale de recuperare",
-                    "save_codes": "Salvați codurile într-o locație sigură.",
-                    "select_method": "Selectează o metodă sa autentifici cererea.",
-                    "confirm": "Confirmă folosind metoda selectată."
+                    "save_codes": "Te rugăm să le salvezi într-o locație sigură.",
+                    "select_method": "Te rugăm să selectezi o metodă pentru a autentifica cererea.",
+                    "confirm": "Te rugăm să confirmi folosind metoda selectată."
                 },
                 "changelogs": {
                     "title": "Schimbări",
                     "description": "Citește despre schimbările Revolt.",
-                    "older": "Vezi schimbări mai vechi"
+                    "older": "Vezi actualizări mai vechi"
                 }
             },
             "status": {
@@ -223,12 +223,12 @@
                         "description": "Adaugă un nivel suplimentar de securitate prin activarea 2FA în contul tău.",
                         "add_auth": "Adaugă un autentificator",
                         "remove_auth": "Dezactivează autentificatorul",
-                        "view_recovery": "Vezi coduri de recuperare",
-                        "view_recovery_long": "Vezi si instalează codul tau de recuperare în 2 pași.",
+                        "view_recovery": "Vizualizează codurile de recuperare",
+                        "view_recovery_long": "Vizualizează și descarcă codurile tale 2FA.",
                         "generate_recovery": "Generează coduri de recuperare",
-                        "generate_recovery_long": "Fi pregătit sa folosești recuperare in 2 pași setând o metodă de recuperare.",
-                        "two_factor_on": "Recuperarea în 2 pași este pornită.",
-                        "two_factor_off": "Nu ați activat recuperarea în 2 pași!"
+                        "generate_recovery_long": "Pregătește-te să folosești 2FA prin configurarea unei metode de recuperare.",
+                        "two_factor_on": "Autentificarea în doi pași este activată.",
+                        "two_factor_off": "Nu ai activat autentificarea prin doi pași!"
                     },
                     "manage": {
                         "title": "Gestionare Cont",
@@ -458,7 +458,7 @@
                     "title": "Emoji-uri"
                 },
                 "customisation": {
-                    "title": "Customizare"
+                    "title": "Personalizare"
                 }
             },
             "permissions": {
@@ -497,7 +497,7 @@
                     "channel_icon_changed": "{{user}} a schimbat pictograma canalului",
                     "user_kicked": "{{user}} a fost dat afară",
                     "user_banned": "I-a fost interzis accesul lui {{user}}",
-                    "channel_ownership_changed": "{{from}} a dat rolul de proprietar lui {{to}}"
+                    "channel_ownership_changed": "{{from}} a dat (lui) {{to}} proprietatea grupului"
                 },
                 "typing": {
                     "several": "Mai multe persoane scriu…",
@@ -659,7 +659,7 @@
             "edit_identity": "Editează identitatea",
             "create_category": "Creează o categorie",
             "mark_unread": "Marchează ca necitit",
-            "make_owner": "Transferă roulul de proprietar"
+            "make_owner": "Transferă rolul de proprietar"
         },
         "permissions": {
             "required": "Sunt necesare permisiuni"
@@ -725,7 +725,7 @@
         "subtitle": "Autentificare în Revolt",
         "unofficial_instance": "Instanță terță parte.",
         "totp": "Aplicație de autentificare",
-        "recovery": "Cod de Recuperare"
+        "recovery": "Cod de recuperare"
     },
     "general": {
         "image_by": "Imagine realizată de către",
@@ -912,7 +912,7 @@
         },
         "Connect": {
             "d": "Permite membrilor să se conecteze la un canal voce.",
-            "t": "Conectează-te"
+            "t": "Conectare"
         },
         "DeafenMembers": {
             "t": "Dezactivează sunetul la membri",
@@ -924,7 +924,7 @@
         },
         "ManageCustomisation": {
             "d": "Permite membrilor să creeze, editeze și să șteargă emoji-uri.",
-            "t": "Modifică customizarea"
+            "t": "Gestionează personalizarea"
         },
         "React": {
             "t": "Folosește reacții",
