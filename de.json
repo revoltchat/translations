@@ -18,7 +18,7 @@
         "email": "E-Mail",
         "password": "Passwort",
         "enter": {
-            "username": "Gib deinen bevorzugten Nutzernamen ein.",
+            "username": "Geben Sie Ihren bevorzugten Benutzernamen ein.",
             "email": "Gib deine E-Mail-Adresse ein.",
             "password": "Gib ein Passwort an.",
             "current_password": "Gib dein aktuelles Passwort ein.",
@@ -52,7 +52,7 @@
         "welcome": "Willkommen zurück!",
         "subtitle": "Bei Revolt anmelden",
         "unofficial_instance": "Drittanbieter-Instanz.",
-        "totp": "Authentifizierungsapp",
+        "totp": "Authenticator App",
         "recovery": "Wiederherstellungscode"
     },
     "app": {
@@ -308,7 +308,9 @@
                     "unfriend_user": "{{name}} entfernen?",
                     "unfriend_user_long": "Du wirst mit dem:der Nutzer:in nicht sprechen können, bis du den:die Nutzer:in wieder hinzufügst.",
                     "block_user": "{{name}} blockieren?",
-                    "block_user_long": "Bist du dir sicher, dass du {{name}} blockieren willst? Der Nutzer wird auch von deiner Freundesliste entfernt."
+                    "block_user_long": "Bist du dir sicher, dass du {{name}} blockieren willst? Der Nutzer wird auch von deiner Freundesliste entfernt.",
+                    "members_not_notified": "Andere Mitglieder werden nicht benachrichtigt",
+                    "silent_leave": "Leise gehen"
                 },
                 "account": {
                     "failed": "Konnte nicht geändert werden!",
@@ -480,11 +482,11 @@
                         "add_auth": "Authenticator hinzufügen",
                         "remove_auth": "Authenticator entfernen",
                         "view_recovery": "Wiederherstellungscodes anzeigen",
-                        "two_factor_on": "Zwei-Faktor-Authentifizierung ist derzeit aktiviert.",
+                        "two_factor_on": "Die Zwei-Faktor-Authentifizierung ist derzeit aktiviert.",
                         "two_factor_off": "Sie haben die Zwei-Faktor-Authentifizierung nicht aktiviert!",
                         "view_recovery_long": "2FA-Wiederherstellungscodes anzeigen und herunterladen.",
-                        "generate_recovery": "Wiederherstellungscodes erzeugen",
-                        "generate_recovery_long": "Bereite dich auf Zwei-Faktor-Authentifizierung vor, indem du eine Wiederherstellungsmethode einrichtest."
+                        "generate_recovery": "Wiederherstellungscodes generieren",
+                        "generate_recovery_long": "Bereiten Sie sich auf die Verwendung von 2FA vor, indem Sie eine Wiederherstellungsmethode einrichten."
                     },
                     "manage": {
                         "title": "Accountverwaltung",
@@ -695,7 +697,8 @@
                     "title": "Personalisierung"
                 },
                 "emojis": {
-                    "title": "Emojis"
+                    "title": "Emojis",
+                    "upload": "Emoji hochladen"
                 }
             },
             "permissions": {
@@ -718,17 +721,17 @@
             "required": "Keine Berechtigung"
         },
         "home": {
-            "join-testers": "Trete dem Testserver bei",
-            "goto-testers": "Gehe zum Testserver",
-            "donate": "An Revolt spenden",
-            "feedback": "Gebe Revolt ein Feedback",
+            "join-testers": "Treten Sie dem Testserver bei",
+            "goto-testers": "Gehen Sie zum Testserver",
+            "donate": "Spenden Sie an Revolt",
+            "feedback": "Feedback zu Revolt geben",
             "settings": "Einstellungen öffnen",
             "settings-tooltip": "Du kannst auch mit der rechten Maustaste auf das Benutzersymbol oben links klicken oder mit der linken Maustaste darauf klicken, wenn du bereits auf der Hauptseite bist.",
             "social": "Server & Bots finden",
             "directs": "Direktnachrichten",
             "discover": "Entdecke Server bei Revolt",
             "group": "Eine Gruppe erstellen",
-            "feedback_desc": "Teile uns mit, wie wir unsere App verbessern können, indem du uns Feedback gibst.",
+            "feedback_desc": "Lassen Sie uns wissen, wie wir unsere App verbessern können, indem Sie uns Feedback geben.",
             "goto-testers_desc": "Hier kannst du Probleme melden und Vorschläge einbringen.",
             "group_desc": "Lade all deine Freunde und ein paar Bots ein und schmeiße eine große Party.",
             "donate_desc": "Unterstütze das Projekt durch Spenden - Vielen Dank!",
