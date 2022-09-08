@@ -226,7 +226,7 @@
                         "title": "2段階認証",
                         "view_recovery": "リカバリコードを表示",
                         "view_recovery_long": "2FA リカバリー コードを表示してダウンロードします。",
-                        "generate_recovery": "回復コードを生成する",
+                        "generate_recovery": "リカバリ コードの生成",
                         "generate_recovery_long": "復元方法を設定して、二段階認証を使用する準備を整えます。",
                         "two_factor_on": "現在、二要素認証を使用しています。",
                         "two_factor_off": "現在、二要素認証を使っていません！"
@@ -367,7 +367,7 @@
                     "user_kicked": "{{user}} がサーバーからキックされました",
                     "user_left": "{{user}} がサーバーから離脱しました",
                     "user_joined": "{{user}} がサーバーに参加しました",
-                    "channel_ownership_changed": "{{from}} が {{to}} にグループオーナシップを与えました。"
+                    "channel_ownership_changed": "{{from}} が {{to}} にグループの所有権を与えました"
                 },
                 "typing": {
                     "several": "複数人が入力中…",
@@ -498,13 +498,13 @@
                 },
                 "external_links": {
                     "title": "外部リンクは危険な場合があります！",
-                    "short": "本当にこのリンクを開きますか？",
+                    "short": "本当にこのリンクを開きますか:",
                     "trust_domain": "このドメインを信頼する"
                 },
                 "token_reveal": "{{name}}のトークン",
                 "out_of_date": {
                     "ignore": "アップデートを無視する",
-                    "attempting": "アップデート試行中・・・",
+                    "attempting": "アップデート試行中...",
                     "title": "このクライアントは古いバージョンですよ！",
                     "description": "最新の変更に対応するため、アップデートが必要です。",
                     "version": "このクライアントのバージョンは {{client}} ですが、サーバーは {{server}} を要求しています。"
@@ -707,7 +707,7 @@
         "welcome2": "こんにちは！",
         "recovery": "リカバリーコード",
         "totp": "二段階認証アプリ",
-        "unofficial_instance": "非公式のインスタンス。"
+        "unofficial_instance": "サードパーティ製のインスタンス。"
     },
     "general": {
         "unavailable": "利用不可",
@@ -844,7 +844,7 @@
         },
         "MuteMembers": {
             "t": "メンバーをミュート",
-            "d": "チャンネル"
+            "d": "音声チャネルで他のメンバーをミュートできるようにします。"
         },
         "React": {
             "t": "リアクションの使用",
