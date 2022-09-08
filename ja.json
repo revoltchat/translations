@@ -49,7 +49,8 @@
                     "title": "ユーザー管理"
                 },
                 "emojis": {
-                    "title": "絵文字"
+                    "title": "絵文字",
+                    "upload": "絵文字のアップロード"
                 },
                 "customisation": {
                     "title": "カスタマイズ"
@@ -224,8 +225,8 @@
                         "description": "あなたのアカウントで二要素認証を有効にすることで、さらにセキュリティを高めることができます。",
                         "title": "2段階認証",
                         "view_recovery": "リカバリコードを表示",
-                        "view_recovery_long": "二段階認証の回復コードを表示、ダウンロードします。",
-                        "generate_recovery": "復元コードを生成",
+                        "view_recovery_long": "2FA リカバリー コードを表示してダウンロードします。",
+                        "generate_recovery": "回復コードを生成する",
                         "generate_recovery_long": "復元方法を設定して、二段階認証を使用する準備を整えます。",
                         "two_factor_on": "現在、二要素認証を使用しています。",
                         "two_factor_off": "現在、二要素認証を使っていません！"
@@ -236,8 +237,8 @@
                 },
                 "theme_shop": {
                     "title": "テーマショップ",
-                    "by": "作者",
-                    "search": "テーマを検索・・・",
+                    "by": "作者:",
+                    "search": "検索テーマ…",
                     "category": {
                         "saved": "保存したテーマ",
                         "default": "デフォルトテーマ",
@@ -254,7 +255,7 @@
                     "title": "プラグイン",
                     "wip": "注意：この機能は現在開発中です。",
                     "delete_plugin": "削除",
-                    "no_plugins": "現在、プラグインはインストールされていません。"
+                    "no_plugins": "プラグインはインストールされていません。"
                 }
             },
             "actions": {
@@ -343,7 +344,8 @@
                     "viewing_old": "古いメッセージを表示しています",
                     "jump_beginning": "既読にする",
                     "new_messages": "{{time_ago}}から新着メッセージ",
-                    "load_file": "ファイルを読み込み"
+                    "load_file": "ファイルを読み込み",
+                    "timed_out": "{{time}}でタイムアウトになりました。"
                 },
                 "voice": {
                     "unmute": "ミュートを解除",
@@ -387,7 +389,8 @@
                     "replying": "への返信:",
                     "toggle": "作成者への通知を切り替える"
                 },
-                "bridge": "ブリッジ"
+                "bridge": "ブリッジ",
+                "user_timed_out": "ユーザーは{{time}}でタイムアウトしました。"
             },
             "categories": {
                 "members": "メンバー",
@@ -450,7 +453,9 @@
                     "confirm_ban_reason": "BAN理由",
                     "unfriend_user": "{{name}}を削除しますか？",
                     "unfriend_user_long": "再追加するまで、彼らと会話ができなくなるかもしれません。",
-                    "block_user": "{{name}}をブロックしますか？"
+                    "block_user": "{{name}}をブロックしますか？",
+                    "silent_leave": "静かに退出",
+                    "members_not_notified": "他のメンバーには通知されません"
                 },
                 "account": {
                     "change": {
@@ -834,7 +839,7 @@
             "d": "メンバーがこの権限を持っているチャンネルの閲覧を許可します。"
         },
         "ManageWebhooks": {
-            "t": "ウェブフックの管理",
+            "t": "Webhookの管理",
             "d": "このチャンネルに接続されたウェブフックの管理ができるようにします。"
         },
         "MuteMembers": {
@@ -879,7 +884,7 @@
         },
         "SendEmbeds": {
             "t": "埋め込み",
-            "d": "リンクなどからの埋め込みコンテンツを送信できるようにします。"
+            "d": "リンク内に含まれている埋め込みコンテンツを送信できるようにする。"
         },
         "Video": {
             "t": "動画放送",
