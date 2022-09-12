@@ -8,7 +8,8 @@
         "off": "Fikur",
         "unavailable": "I/e padisponueshme",
         "about": "Rreth",
-        "disabled": "I paaftë"
+        "disabled": "E bllokuar",
+        "learn_more": "Më shumë informacione"
     },
     "login": {
         "title": "Identifikohu",
@@ -49,7 +50,10 @@
         "missing_verification": "Nuk morrët një email?",
         "resend": "Ridërgo verifikimin",
         "email_delay": "Ju lutem, prisni deri në 10 minuta për email-in që të mbërrijë.",
-        "open_mail_provider": "Hapni {{provider}}"
+        "open_mail_provider": "Hapni {{provider}}",
+        "recovery": "Kodi i rikthimit",
+        "totp": "Aplikacioni Authenticator",
+        "unofficial_instance": "Instanc e palës së tretë"
     },
     "app": {
         "status": {
@@ -57,7 +61,8 @@
             "busy": "Mos shqetësoni",
             "invisible": "I padukshëm",
             "offline": "jashtë linje",
-            "idle": "خامل"
+            "idle": "خامل",
+            "reconnect": "Rilidhu"
         },
         "navigation": {
             "tabs": {
@@ -109,7 +114,10 @@
                     "channel_description_changed": "{{user}} ndryshoi përshkrimin e kanalit",
                     "channel_icon_changed": "{{user}} ndryshoi ikonën e kanalit",
                     "added_by": "{{user}} u shtua nga {{other_user}}",
-                    "channel_renamed": "{{user}} riemërtoi kanalin në {{name}}"
+                    "channel_renamed": "{{user}} riemërtoi kanalin në {{name}}",
+                    "user_kicked": "{{user}} u përjashtua",
+                    "user_banned": "{{user}} u ndalua",
+                    "channel_ownership_changed": "{{from}} jep {{to}} zotërim në grup"
                 },
                 "start": {
                     "group": "Ky është fillimi i bisedës suaj.",
@@ -131,7 +139,10 @@
                     "jump_beginning": "Shko në fillim",
                     "no_sending": "Ju nuk kini leje për të dërguar mesazhe në këtë kanal.",
                     "jump_present": "انتقل إلى العرض",
-                    "new_messages": "رسائل جديدة منذ ذلك الحين"
+                    "new_messages": "رسائل جديدة منذ ذلك الحين",
+                    "load_file": "Bashkangjitë skedar",
+                    "spoiler_attachment": "Spoiler",
+                    "timed_out": "Ju jeni jashtë për kaqë kohë {{time}}."
                 },
                 "nsfw": {
                     "channel": {
@@ -166,8 +177,11 @@
                 "attached_file": "Bashkangjitur {{filename}}",
                 "failed_upload": "فشل التحميل!",
                 "reply": {
-                    "replying": "Duke iu përgjigjur"
-                }
+                    "replying": "Duke iu përgjigjur",
+                    "toggle": "Ndrysho etiketimin e autorit"
+                },
+                "bridge": "Urë",
+                "user_timed_out": "Perdoruesi është jashtë për kaqë kohë {{time}}."
             },
             "groups": {
                 "create": "Krijo një grup",
@@ -193,12 +207,14 @@
             "title": "Opsionet",
             "categories": {
                 "user_settings": "Opsionet e përdoruesit",
-                "client_settings": "Opsionet e klientit"
+                "client_settings": "Opsionet e klientit",
+                "danger_zone": "Zona e rrezikut"
             },
             "actions": {
                 "remove": "Hiq",
                 "upload": "Ngarko",
-                "max_filesize": "(maksimumi {{filesize}})"
+                "max_filesize": "(maksimumi {{filesize}})",
+                "edit": "Ndrysho {{name}}"
             },
             "pages": {
                 "account": {
@@ -209,12 +225,18 @@
                         "title": "Vërtetim me dy faktorë",
                         "description": "Shto një shtresë tjetër sigurie duke aktivizuar 2FA në llogarinë tuaj.",
                         "add_auth": "Shto vërtetuesin",
-                        "remove_auth": "Hiq vërtetuesin"
+                        "remove_auth": "Hiq vërtetuesin",
+                        "view_recovery": "Shiko kodet e rikthimit",
+                        "view_recovery_long": "Shiko dhe shkarko kodet tuaja të 2FA.",
+                        "generate_recovery": "Prodho kodet e rikthimit",
+                        "generate_recovery_long": "Jeni gati të përdorni 2FA cilësimet e metodavë të rikthimit.",
+                        "two_factor_on": "Autentifikimi dy-faktorial tani është aktiv.",
+                        "two_factor_off": "Ti nuk përdor Autentifikim dy-faktorial!"
                     },
                     "manage": {
                         "title": "Menaxhimi i llogarisë",
                         "disable": "Çaktivizo llogarinë",
-                        "delete": "Fshi llogarinë",
+                        "delete": "Fshij llogarinë",
                         "description": "Çaktivizo ose fshi llogarinë tuaj në çdo kohë. Ky veprim do t'ju shkyçë ju nga llogaria dhe ta fshijë atë, duke përfshirë historinë e bisedave dhe shokët."
                     }
                 },
@@ -279,12 +301,17 @@
                     "advanced": "Opsionet e avancuara",
                     "import": "Importo një temë",
                     "ligatures_desc": "Për fontet e mbështetura, ligaturat kombinojnë karakteret së bashku, për shembull, duke e kthyer -> në një shigjetë.",
-                    "font": "الخط",
+                    "font": "Fonti",
                     "mono_font": "محدد الخط الأحادي المسافة",
                     "ligatures": "وصلات الخط",
                     "discover": {
                         "title": "Zbuloni Temat",
                         "description": "Shfletoni temat e bëra nga komuniteti"
+                    },
+                    "appearance_options": {
+                        "show_send": "Gjithëmon shfaq butonin e \"Dërgo mesazh\"",
+                        "title": "Cilësimet për dukjen",
+                        "show_send_desc": "Nese keni kufizuar \"Dergo Mesazh\" butonin ai do të shfaqet vetëm në pajisjen mobile."
                     }
                 },
                 "notifications": {
@@ -301,7 +328,7 @@
                         "message": "mesazhi i marrë",
                         "outbound": "Mesazhi u Dergua",
                         "call_join": "انضم المستخدم إلى المكالمة",
-                        "call_leave": "غادر المستخدم المكالمة"
+                        "call_leave": "Perdoruesi u largua nga thirreja"
                     }
                 },
                 "language": {
@@ -347,7 +374,7 @@
                     "title": "متجر الموضوع",
                     "active": "نشط حاليا",
                     "description": "تصفح مئات الموضوعات ، التي أنشأها ورعاها المجتمع.",
-                    "search": "سمات البحث ..."
+                    "search": "Kërko pamje…"
                 },
                 "feedback": {
                     "bug_desc": "عرض تقارير الشوائب النشطة حاليا هنا.",
@@ -355,7 +382,9 @@
                     "suggest_desc": "اقترح ميزات Revolt جديدة في مناقشات GitHub.",
                     "issue": "إنشاء عدد جديد",
                     "issue_desc": "لمساعدتنا في فرز المشكلات بسهولة أكبر ، يمكنك إنشاء مشكلة على GitHub.",
-                    "title": "Feedback"
+                    "title": "Feedback",
+                    "bug": "Gjurmuesi i gabimeve",
+                    "description": "Dërgo komente"
                 },
                 "logOut": "تسجيل خروج",
                 "sync": {
@@ -371,7 +400,13 @@
                 "donate": {
                     "title": "تبرع"
                 },
-                "source_code": "مفتوح المصدر"
+                "source_code": "مفتوح المصدر",
+                "plugins": {
+                    "no_plugins": "Nuk ka ndonje shtesë të instaluar.",
+                    "title": "Shtesat",
+                    "wip": "Paralajmërim: Kjo veçori është ende në zhvillim.",
+                    "delete_plugin": "Fshije"
+                }
             },
             "channel_pages": {
                 "permissions": {
@@ -401,7 +436,8 @@
                     "no_reason": "لا يوجد سبب للحظر.",
                     "title": "حظر",
                     "user": "مستخدم",
-                    "reason": "سبب الحظر"
+                    "reason": "سبب الحظر",
+                    "revoke": "Revoko"
                 },
                 "management": {
                     "title": "إدارةالمستخدم"
@@ -414,6 +450,13 @@
                 },
                 "roles": {
                     "title": "Roles"
+                },
+                "emojis": {
+                    "upload": "Ngarko Emoji",
+                    "title": "Emoji"
+                },
+                "customisation": {
+                    "title": "Përshtatje"
                 }
             },
             "tips": {
@@ -435,7 +478,15 @@
                 "channel": "أذونات القناة",
                 "create_role": "أنشئ دورًا جديدًا",
                 "role_name": "اسم الدور",
-                "default_role": "E paracaktuar"
+                "default_role": "E paracaktuar",
+                "hoist_role": "Ngrit Rolin",
+                "title": "Lejet për {{role}}",
+                "edit_title": "Ndrysho të drejtat",
+                "role_colour": "Ngjyra e roleve",
+                "role_options": "Cilsimet e rolit",
+                "role_ranking": "Renditja e roleve",
+                "delete_role": "Fshij Rolin",
+                "hoist_desc": "Shfaqni këtë rol mbi të tjerët."
             }
         },
         "special": {
@@ -451,11 +502,92 @@
                     "confirm_close_dm": "Të mbyllet biseda me {{name}}?",
                     "confirm_close_dm_long": "Mund ta rihapni më vonë, por do të zhduket nga të dyja anët.",
                     "confirm_leave_long": "Nuk do të mund të bashkohesh sërish nëse nuk ftoheni sërish.",
-                    "create_invite_created": "Këtu është kodi juaj i ri i ftesës:"
+                    "create_invite_created": "Këtu është kodi juaj i ri i ftesës:",
+                    "unfriend_user": "Fshij {{name}}?",
+                    "confirm_ban_reason": "Arsyea e largimit",
+                    "confirm_delete_long": "Pasi të fshihet, nuk ka kthim prapa.",
+                    "confirm_ban": "Ju jeni duke përjashtuar {{name}}!",
+                    "confirm_delete": "Fshij {{name}}?",
+                    "confirm_delete_message_long": "Jeni i sigurt që dëshironi ta fshini këtë?",
+                    "create_invite_generate": "Ftesa po gjenerohet…",
+                    "confirm_kick": "A jeni i sigurt që doni ta përjashtoni {{name}}?",
+                    "unfriend_user_long": "Mund të mos jeni në gjendje të flisni më me ta derisa t'i shtoni përsëri.",
+                    "silent_leave": "Ik në heshtje",
+                    "block_user": "Blloko {{name}}?",
+                    "block_user_long": "Jeni i sigurt që dëshironi të bllokoni {{name}}? Ata gjithashtu do të hiqen nga lista juaj e miqve.",
+                    "members_not_notified": "Anëtarët e tjerë nuk do të njoftohen"
                 },
                 "signed_out": "Ju keni dalë nga llogaria!",
                 "onboarding": {
-                    "welcome": "Mire se erdhet ne"
+                    "welcome": "Mire se erdhet ne",
+                    "pick": "Zgjidh një emër përdoruesi me të cilin dëshiron që njerëzit të mund të të gjejnë, ky mund të ndryshohet më vonë te cilësimet."
+                },
+                "actions": {
+                    "delete": "Fshije",
+                    "back": "Kthehu mbrapa",
+                    "reload": "Rifresko aplikacionin",
+                    "block": "Blloko",
+                    "close": "Mbylle",
+                    "ok": "Në rregull",
+                    "save": "Ruaj",
+                    "ban": "Përjashto",
+                    "create": "Krijo",
+                    "reveal": "Zbulo",
+                    "send_email": "Dergo Email",
+                    "continue": "Vazhdo",
+                    "hide": "Fshihe",
+                    "kick": "Largo",
+                    "edit": "Ndrysho",
+                    "leave": "Largohu",
+                    "remove": "Fshij",
+                    "report": "Raporto",
+                    "preview": "Parapamje",
+                    "update": "Përditëso",
+                    "cancel": "Anulo",
+                    "done": "U krye",
+                    "reset": "Rivendos",
+                    "confirm": "Konfirmo"
+                },
+                "out_of_date": {
+                    "title": "Klienti juaj është jo i përditësuar!",
+                    "version": "Klienti juaj është {{client}}, ndersa serveri këkrkon {{server}}.",
+                    "ignore": "Injoro përditësimin",
+                    "attempting": "Duke u përpjekur për të përditësuar...",
+                    "description": "Duhet të përditësohet në mënyrë që të funksionojë me ndryshimet e fundit."
+                },
+                "sessions": {
+                    "short": "Ju nuk mund ta zhbëni këtë veprim.",
+                    "accept": "Hiq të gjitha sesionet",
+                    "title": "Jeni i sigurt që dëshironi të pastroni seancat tuaja?"
+                },
+                "token_reveal": "Tokeni i {{name}}",
+                "external_links": {
+                    "trust_domain": "Besojini këtij domeni",
+                    "short": "Jeni të sigurt që dëshironi të vizitoni:",
+                    "title": "Lidhjet e jashtme mund të jenë të rrezikshme!"
+                },
+                "account": {
+                    "change": {
+                        "password": "Ndryshoni fjalëkalimin tuaj",
+                        "username": "Ndrysho emrin e përdoruesit",
+                        "email": "Ndryshoni emailin tuaj"
+                    },
+                    "failed": "Dështoi të ndryshonte!"
+                },
+                "mfa": {
+                    "select_method": "Ju lutemi zgjidhni një metodë për të vërtetuar kërkesën tuaj.",
+                    "enable_totp": "Aktivizo aplikacionin e vërtetuesit",
+                    "prompt_totp": "Ju lutemi skanoni ose përdorni kodin më poshtë në aplikacionin tuaj të vërtetimit.",
+                    "confirm": "Ju lutemi konfirmoni duke përdorur metodën e zgjedhur.",
+                    "enter_code": "Shkruani kodin",
+                    "recovery_codes": "Kodet e tua të rikthimit",
+                    "save_codes": "Ju lutemi ruani këto në një vend të sigurt."
+                },
+                "confirm": "Konfirmo veprimin",
+                "changelogs": {
+                    "title": "Ndryshimet",
+                    "description": "Lexoni rreth përditësimeve të Revolt.",
+                    "older": "Shiko përditësimet më të vjetra"
                 }
             },
             "friends": {
@@ -472,7 +604,7 @@
                 "incoming": "طلب صداقة وارد."
             },
             "server-badges": {
-                "official": "الخادم الرسمي",
+                "official": "Serveri zyrtar",
                 "verified": "تم التحقق من الخادم"
             },
             "copy_username": "انقر لنسخ اسم المستخدم",
@@ -482,6 +614,37 @@
                 "disconnected": "انقطع الاتصال.",
                 "connecting": "توصيل…",
                 "reconnecting": "Po rilidhet…"
+            },
+            "popovers": {
+                "create_bot": {
+                    "title": "Krijo një bot të ri"
+                },
+                "user_picker": {
+                    "select": "Zgjidhni miqtë për të shtuar."
+                },
+                "user_profile": {
+                    "sub": {
+                        "badges": "Bexhet",
+                        "information": "Informacioni",
+                        "connections": "Lidhjet"
+                    },
+                    "profile": "Profili",
+                    "mutual_groups": "Grupet e përbashkëta",
+                    "mutual_friends": "Shoke te perbashket",
+                    "no_users": "Nuk keni shokë të përbashkët",
+                    "no_groups": "Nuk ka grupe të përbashkëta",
+                    "no_servers": "Nuk ka serverë të përbashkët",
+                    "mutual_servers": "Serverat e përbashkët",
+                    "empty": "Është pak thatë këtu…",
+                    "badges": {
+                        "founder": "Themelues",
+                        "supporter": "Mbështetëse",
+                        "early_adopter": "Adoptues i hershëm",
+                        "translator": "Përkthyes",
+                        "moderation": "Moderues i platformës",
+                        "responsible_disclosure": "Defektet e zbuluara me përgjegjësi"
+                    }
+                }
             }
         }
     },
