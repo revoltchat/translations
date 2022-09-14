@@ -4,17 +4,18 @@
             "channel": {
                 "misc": {
                     "jump_present": "최근으로 이동하기",
-                    "viewing_old": "오래된 메세지를 보고 있어요",
-                    "no_sending": "이 채널에 메세지를 보낼 권한이 없어요.",
+                    "viewing_old": "오래된 메시지를 보고 있어요",
+                    "no_sending": "이 채널에 메시지를 보낼 권한이 없어요.",
                     "spoiler_attachment": "스포일러",
-                    "failed_load": "메세지를 불러올 수 없어요.",
+                    "failed_load": "메시지를 불러오지 못했어요.",
                     "blocked_user": "차단된 사용자",
-                    "sent_file": "파일을 보냈어요",
-                    "sent_multiple_files": "여러 개의 파일을 보냈어요",
-                    "blocked_messages": "{{count}}개의 차단된 메세지",
+                    "sent_file": "첨부파일을 보냈어요",
+                    "sent_multiple_files": "여러 개의 첨부파일을 보냈어요",
+                    "blocked_messages": "차단된 메시지 {{count}}개",
                     "jump_beginning": "처음으로 돌아가기",
-                    "new_messages": "{{time_ago}} 이후의 새로운 메시지",
-                    "load_file": "불러오기"
+                    "new_messages": "{{time_ago}} 이후의 새 메시지",
+                    "load_file": "파일 불러오기",
+                    "timed_out": "{{time}} 동안 타임아웃됐어요."
                 },
                 "search": {
                     "sort": {
@@ -25,36 +26,36 @@
                     "title": "검색"
                 },
                 "system": {
-                    "channel_icon_changed": "{{user}} 님이 채널 아이콘을 변경했어요",
-                    "user_joined": "{{user}} 님이 참여했어요",
-                    "user_left": "{{user}} 님이 떠났어요",
-                    "user_kicked": "{{user}} 님이 추방되었어요",
-                    "channel_description_changed": "{{user}} 님이 채널 설명을 변경했어요",
-                    "user_banned": "{{user}} 님이 차단되었어요",
-                    "added_by": "{{other_user}} 님이 {{user}} 님을 추가했어요",
-                    "removed_by": "{{other_user}} 님이 {{user}} 님을 삭제했어요",
-                    "channel_renamed": "{{user}} 님이 채널 이름을 {{name}}(으)로 변경했어요",
-                    "channel_ownership_changed": "{{from}}이(가) {{to}}에게 그룹 소유권을 부여했습니다"
+                    "channel_icon_changed": "{{user}}님이 채널 아이콘을 변경했어요",
+                    "user_joined": "{{user}}님이 참가했어요",
+                    "user_left": "{{user}}님이 떠났어요",
+                    "user_kicked": "{{user}}님이 추방됐어요",
+                    "channel_description_changed": "{{user}}님이 채널 설명을 변경했어요",
+                    "user_banned": "{{user}}님이 차단됐어요",
+                    "added_by": "{{other_user}}님이 {{user}}님을 추가했어요",
+                    "removed_by": "{{other_user}}님이 {{user}}님을 삭제했어요",
+                    "channel_renamed": "{{user}}님이 채널 이름을 {{name}}(으)로 변경했어요",
+                    "channel_ownership_changed": "{{from}}님이 {{to}}님께 그룹 소유권을 이전했어요"
                 },
                 "voice": {
                     "leave": "연결 끊기",
                     "unmute": "음소거 해제",
-                    "connected": "음성 채널 접속됨",
+                    "connected": "음성 채널에 접속함",
                     "mute": "음소거"
                 },
                 "uploading_file": "업로드 중…",
-                "failed_upload": "업로드에 실패했어요!",
-                "message_where": "{{channel_name}}에 메세지 보내기",
+                "failed_upload": "업로드하지 못했어요!",
+                "message_where": "{{channel_name}}에 메시지 보내기",
                 "typing": {
-                    "single": "{{user}} 님이 입력하고 있어요…",
-                    "multiple": "{{userlist}} 님과 {{user}}님이 입력하고 있어요…",
-                    "several": "여러 사람이 입력하고 있어요…"
+                    "single": "{{user}}님이 입력 중이에요…",
+                    "multiple": "{{userlist}}님과 {{user}}님이 입력 중이에요…",
+                    "several": "여러 사람이 입력 중이에요…"
                 },
-                "attached_file": "{{filename}} 첨부됨",
-                "message_who": "{{person}}에게 메세지 보내기",
+                "attached_file": "{{filename}}을(를) 첨부함",
+                "message_who": "{{person}}님께 메시지 보내기",
                 "bot": "봇",
                 "notifications": {
-                    "all": "모든 메세지",
+                    "all": "모든 메시지",
                     "default": "기본 설정 사용",
                     "none": "없음",
                     "muted": "음소거",
@@ -62,17 +63,17 @@
                 },
                 "nsfw": {
                     "channel": {
-                        "marked": "이 채널은 NSFW로 표시됩니다.",
+                        "marked": "이 채널이 연령 제한 채널로 표시됐어요.",
                         "confirm": "채널 입장"
                     },
-                    "confirm": "자신이 18세 이상임을 확인합니다."
+                    "confirm": "전 18세 이상이에요."
                 },
                 "edited": "(수정됨)",
                 "unknown_user": "<알 수 없는 사용자>",
-                "message_saved": "메모에 저장하기",
+                "message_saved": "내 메모에 저장",
                 "start": {
-                    "group": "대화의 시작입니다.",
-                    "saved": "노트의 시작입니다."
+                    "group": "내 대화의 시작이에요.",
+                    "saved": "내 노트의 시작이에요."
                 },
                 "errors": {
                     "title": "이런, 여기에는 아무것도 없네요!",
@@ -80,10 +81,11 @@
                     "nochannel": "채널 없음"
                 },
                 "reply": {
-                    "replying": "답장을 보낼 대상 :",
-                    "toggle": "원 작성자 멘션 스위치"
+                    "replying": "답장:",
+                    "toggle": "원 게시자 멘션 여부"
                 },
-                "bridge": "브릿지"
+                "bridge": "브릿지",
+                "user_timed_out": "사용자가 {{time}} 동안 타임아웃됐어요."
             },
             "groups": {
                 "create": "그룹 만들기",
@@ -626,22 +628,22 @@
             "required": "권한이 필요합니다"
         },
         "home": {
-            "join-testers": "테스트 서버 참가하기",
-            "goto-testers": "테스트 서버로 가기",
+            "join-testers": "테스트 서버 참가",
+            "goto-testers": "테스트 서버로 이동",
             "donate": "Revolt 후원",
-            "feedback": "Revolt에 피드백",
+            "feedback": "Revolt에 의견 전송",
             "settings": "설정 열기",
             "social": "서버와 봇 찾기",
-            "settings-tooltip": "왼쪽 상단에 있는 사용자 아이콘을 마우스 우클릭하거나 이미 홈에 있는 경우 좌클릭할 수도 있습니다.",
-            "directs": "개인 메시지",
-            "join-testers_desc": "여기서 이슈를 제보하고 개선사항에 대해 얘기할 수 있어요.",
-            "discover_desc": "당신의 취미나 관심사에 따라 커뮤니티를 찾아보세요.",
-            "goto-testers_desc": "여기서 이슈를 제보하고 개선사항에 대해 얘기할 수 있어요.",
-            "donate_desc": "기부로 프로젝트를 지원해주세요, 감사합니다!",
-            "feedback_desc": "피드백을 통해 앱을 개선할 수 있는 방법을 알려주세요.",
+            "settings-tooltip": "왼쪽 상단에 있는 사용자 아이콘을 우클릭하거나, 홈에 있는 경우 좌클릭할 수도 있어요.",
+            "directs": "다이렉트 메시지",
+            "join-testers_desc": "여기서 문제점을 제보하고 개선 사항에 대해 논의할 수 있어요.",
+            "discover_desc": "나의 취미와 흥미에 맞는 커뮤니티를 찾아보세요.",
+            "goto-testers_desc": "여기서 문제점을 제보하고 개선 사항에 대해 논의할 수 있어요.",
+            "donate_desc": "기부로 프로젝트를 지원해 주세요. 감사드려요!",
+            "feedback_desc": "여러분의 의견으로 앱을 개선할 수 있는 방법을 알려주세요.",
             "discover": "Revolt 살펴보기",
-            "group": "그룹 만들기",
-            "group_desc": "모든 친구들과 멋진 봇들을 초대해서 큰 파티를 열어보세요."
+            "group": "그룹 생성",
+            "group_desc": "내 친구들과 멋진 봇을 초대해서 큰 파티를 열어보세요."
         }
     },
     "permissions": {
@@ -728,20 +730,20 @@
         "title": "로그인",
         "enter": {
             "password": "비밀번호를 입력하세요.",
-            "username": "사용하실 사용자명을 입력하세요.",
+            "username": "선호하는 사용자명을 입력하세요.",
             "email": "이메일을 입력하세요.",
             "invite": "초대 코드를 입력하세요.",
             "current_password": "현재 비밀번호를 입력하세요."
         },
         "reset": "비밀번호 재설정",
         "remembered": "로그인으로 돌아가기",
-        "check_mail": "메일을 확인해주세요!",
-        "email_delay": "도착하는데 최대 10분이 소요됩니다.",
+        "check_mail": "메일함을 확인하세요!",
+        "email_delay": "발송까지 10분 정도 소요될 수 있어요.",
         "error": {
-            "login": "로그인에 실패했어요!",
-            "create": "가입에 실패했어요!",
-            "resend": "재전송에 실패했어요!",
-            "reset": "재설정에 실패했어요!"
+            "login": "로그인하지 못했어요!",
+            "create": "가입하지 못했어요!",
+            "resend": "재전송하지 못했어요!",
+            "reset": "재설정하지 못했어요!"
         },
         "register": "가입",
         "username": "사용자명",
@@ -749,36 +751,36 @@
         "password": "비밀번호",
         "invite": "초대 코드",
         "current_password": "현재 비밀번호",
-        "forgot": "비밀번호를 잊어버렸나요?",
+        "forgot": "비밀번호를 잊어버리셨나요?",
         "set_password": "새로운 비밀번호를 설정하세요",
         "new": "Revolt가 처음이신가요?",
         "existing": "이미 계정이 있으신가요?",
-        "create": "새로운 계정 만들기",
-        "missing_verification": "이메일을 받지 못했나요?",
+        "create": "새 계정 생성",
+        "missing_verification": "이메일을 받지 못하셨나요?",
         "cancel": "요청 취소",
-        "check_spam": "메일이 보이지 않으면 스팸 메일함을 확인해주세요",
+        "check_spam": "메일을 찾지 못하셨다면 스팸함을 확인하세요",
         "open_mail_provider": "{{provider}} 열기",
-        "successful_registration": "가입을 축하드립니다!",
+        "successful_registration": "가입하셨어요!",
         "resend": "인증 메일 재전송",
-        "welcome2": "안녕하세요!",
-        "welcome": "다시 오신 것을 환영합니다!",
+        "welcome2": "환영해요!",
+        "welcome": "다시 오신 것을 환영해요!",
         "subtitle": "Revolt에 로그인",
-        "subtitle2": "계정 만들기",
-        "unofficial_instance": "서드파티 인스턴스.",
+        "subtitle2": "계정 생성",
+        "unofficial_instance": "제삼자 인스턴스.",
         "totp": "인증 앱",
         "recovery": "복구 코드"
     },
     "general": {
         "tos": "서비스 이용 약관",
         "privacy": "개인정보 처리 방침",
-        "loading": "로딩 중…",
-        "image_by": "이미지 제공",
-        "on": "켬",
-        "about": "에 대한",
-        "disabled": "비활성화",
-        "off": "끔",
-        "unavailable": "미지원",
-        "learn_more": "더보기"
+        "loading": "불러오는 중…",
+        "image_by": "사진 제공:",
+        "on": "켜짐",
+        "about": "소개",
+        "disabled": "비활성화됨",
+        "off": "꺼짐",
+        "unavailable": "이용 불가",
+        "learn_more": "세부 정보"
     },
     "error": {
         "TooShort": "너무 문자열이 짧습니다",
