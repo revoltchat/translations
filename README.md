@@ -50,7 +50,7 @@ The following table shows languages and people enlisted for verifying certain la
 |🇳🇱|Nederlands / nl|||
 |🇮🇷|فارسی / fa|[@DevEvil99](https://github.com/DevEvil99)||
 |🇵🇱|Polski / pl|[@jacekpoz](https://github.com/jacekpoz) [@Pawelek-dev](https://github.com/Pawelek-dev)||
-|🇧🇷|Português (do Brasil) / pt_BR|[@Tmpod](https://github.com/Tmpod)||
+|🇧🇷|Português (do Brasil) / pt_BR|[@yanndere](https://github.com/yanndere)||
 |🇵🇹|Português (Portugal) / pt_PT|[@Tmpod](https://github.com/Tmpod)||
 |🇷🇴|Română / ro||[@S703T](https://github.com/S703T)|
 |🇷🇺|Русский / ru|[@div2005](https://github.com/div2005)||
