@@ -249,7 +249,8 @@
                     "title": "Pengelolaan Pengguna"
                 },
                 "emojis": {
-                    "title": "Emoji"
+                    "title": "Emoji",
+                    "upload": "Unggah Emoji"
                 },
                 "customisation": {
                     "title": "Kustomisasi"
@@ -492,7 +493,9 @@
                     "confirm_ban": "Kamu akan memban {{name}}",
                     "confirm_close_dm": "Tutup percakapan dengan {{name}}?",
                     "confirm_close_dm_long": "Kamu dapat membukanya kembali nanti tetapi akan hilang di kedua sisi.",
-                    "create_invite_created": "Ini kode undangan barumu:"
+                    "create_invite_created": "Ini kode undangan barumu:",
+                    "silent_leave": "Tinggalkan diam-diam",
+                    "members_not_notified": "Anggota lain tidak akan diberitahu"
                 },
                 "external_links": {
                     "title": "Tautan eksternal bisa saja berbahaya!",
@@ -682,7 +685,7 @@
         "reset": "Atur ulang kata sandi",
         "forgot": "Lupa kata sandi kamu?",
         "enter": {
-            "current_password": "Masukkan kata sandimu.",
+            "current_password": "Masukkan kata sandimu saat ini.",
             "invite": "Masukkan kode undanganmu.",
             "email": "Masukkan surelmu.",
             "password": "Masukkan kata sandimu.",
@@ -714,7 +717,7 @@
         "disabled": "Dinonaktifkan",
         "unavailable": "Tak Tersedia",
         "off": "Nonaktif",
-        "learn_more": "Pelajari lebih lanjut"
+        "learn_more": "Informasi lebih lanjut"
     },
     "error": {
         "InvalidCredentials": "Alamat surel atau kata sandi salah.",
@@ -880,6 +883,13 @@
         "SendEmbeds": {
             "t": "Kirim Sematan",
             "d": "Memperbolehkan anggota untuk mengirim konten yang di sematkan, maupun dari tautan atau penyemat teks khusus."
+        },
+        "ManageCustomisation": {
+            "d": "Memungkinkan pengguna untuk membuat, menyunting dan menghapus emoji."
+        },
+        "React": {
+            "t": "Gunakan Reaksi",
+            "d": "Memungkinkan anggota untuk bereaksi pada pesan."
         }
     },
     "dayjs": {
