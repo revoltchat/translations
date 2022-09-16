@@ -4,6 +4,7 @@
 for await (const entry of Deno.readDir('.')) {
     const fn = entry.name;
     if (fn.endsWith('.json')) {
+        if (fn === 'contributors.json') continue;
         console.log('Processing', fn);
 
         const text = await Deno.readTextFile(fn);

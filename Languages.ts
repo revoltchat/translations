@@ -1,7 +1,11 @@
+import incomplete from "./incomplete";
+
 export enum Language {
     ENGLISH = "en",
+    ENGLISH_STUPEFIED = "en_US",
 
     ARABIC = "ar",
+    ASSAMESE = "as",
     AZERBAIJANI = "az",
     BELARUSIAN = "be",
     BULGARIAN = "bg",
@@ -50,6 +54,7 @@ export enum Language {
     VENETIAN = "vec",
     VIETNAMESE = "vi",
     CHINESE_SIMPLIFIED = "zh_Hans",
+    CHINESE_TRADITIONAL = "zh_Hant",
     LATVIAN = "lv",
 
     TOKIPONA = "tokipona",
@@ -71,6 +76,7 @@ export interface LanguageEntry {
     rtl?: boolean;
     cat?: "const" | "alt";
     verified?: boolean;
+    incomplete?: boolean;
 }
 
 export const Languages: { [key in Language]: LanguageEntry } = {
@@ -81,8 +87,19 @@ export const Languages: { [key in Language]: LanguageEntry } = {
         dayjs: "en-gb",
         verified: true,
     },
+    en_US: {
+        display: "English (Simplified)",
+        emoji: "🇺🇸",
+        i18n: "en_US",
+        dayjs: "en",
+    },
 
     ar: { display: "عربي", emoji: "🇸🇦", i18n: "ar", rtl: true, verified: true },
+    as: {
+        display: "অসমীয়া",
+        emoji: "🇮🇳",
+        i18n: "as",
+    },
     az: { display: "Azərbaycan dili", emoji: "🇦🇿", i18n: "az" },
     be: { display: "беларуская", emoji: "🇧🇾", i18n: "be" },
     bg: { display: "български", emoji: "🇧🇬", i18n: "bg" },
@@ -159,6 +176,12 @@ export const Languages: { [key in Language]: LanguageEntry } = {
         i18n: "zh_Hans",
         dayjs: "zh",
     },
+    zh_Hant: {
+        display: "繁體中文",
+        emoji: "🇹🇼",
+        i18n: "zh_Hant",
+        dayjs: "zh",
+    },
     lv: { display: "Latviešu", emoji: "🇱🇻", i18n: "lv", verified: true },
 
     tokipona: {
@@ -219,3 +242,11 @@ export const Languages: { [key in Language]: LanguageEntry } = {
         cat: "alt",
     },
 };
+
+// Apply 'incomplete' flag at runtime
+for (const key of incomplete) {
+    const entry = Languages[key as keyof typeof Languages];
+    if (entry) {
+        entry.incomplete = true;
+    }
+}
