@@ -65,7 +65,7 @@ The following table shows languages and people enlisted for verifying certain la
 |🇺🇦|Українська / uk|[@div2005](https://github.com/div2005)||
 |vec|Vèneto / vec|||
 |🇻🇳|Tiếng Việt / vi|||
-|🇨🇳|中文 (简体) / zh_Hans|||
+|🇨🇳|中文 (简体) / zh_Hans||[@YouTubeGameNana](https://github.com/YouTubeGameNana)|
 |🇹🇼|繁體中文 / zh_Hant|[@Zhuzi-ouo](https://github.com/Zhuzi-ouo)||
 |🇱🇻|Latviešu / lv|[@rMazeiks](https://github.com/rMazeiks)||
 |🙂|Toki Pona / tokipona|[@Gapva](https://github.com/Gapva)||
