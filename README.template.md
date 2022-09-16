@@ -18,7 +18,7 @@ If you would like to maintain a language, please open an issue with your request
 
 ### What do I do?
 
-As a maintainer you get access to review capabilities on Weblate, this lets you approve strings, edit approved strings and accept new suggestions.
+As a maintainer you get access to review capabilities on Weblate, this lets you approve strings, edit approved strings and accept new suggestions. You may also be mentioned in GitHub issues to approve badges for others.
 
 ![Approval UI](approve_ui.png)
 

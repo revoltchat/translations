@@ -14,74 +14,74 @@ The following table shows languages and people enlisted for verifying certain la
 
 |   | Language | Maintainers | Contributors |
 |:-:|---|---|---|
-|🇬🇧|English (Traditional)|[@insertish](https://github.com/insertish)||
-|🇺🇸|English (Simplified)|||
-|🇸🇦|عربي|[@LedaThemis](https://github.com/LedaThemis)||
-|🇮🇳|অসমীয়া|||
-|🇦🇿|Azərbaycan dili|||
-|🇧🇾|беларуская|||
-|🇧🇬|български|||
-|🇧🇩|বাংলা|||
-|br|Brezhoneg|[@SperedAnveliour](https://github.com/SperedAnveliour)||
-|🇪🇸|Català|[@TallerThanShort](https://github.com/TallerThanShort)||
-|krd|کوردی|[@fanticwastaken](https://github.com/fanticwastaken)||
-|🇨🇿|Čeština|||
-|🇩🇰|Danskers|||
-|🇩🇪|Deutsch|[@janderedev](https://github.com/janderedev)||
-|🇬🇷|Ελληνικά|[@janast3369](https://github.com/janast3369)||
-|🇪🇸|Español|[@z3ro0k](https://github.com/z3ro0k) [@fernandopal](https://github.com/fernandopal)||
-|🇪🇪|eesti|[@u032](https://github.com/u032)||
-|🇫🇮|suomi|||
-|🇵🇭|Pilipino|[@I2rys](https://github.com/I2rys)||
-|🇫🇷|Français|[@Hades785](https://github.com/Hades785)||
-|🇮🇪|Gaeilge|||
-|🇮🇳|हिन्दी|||
-|🇭🇷|Hrvatski|||
-|🇭🇺|magyar|[@f3rr31](https://github.com/f3rr31)||
-|🇮🇩|bahasa Indonesia|[@liimee](https://github.com/liimee)||
-|🇮🇹|Italiano|[@SingleSlice](https://github.com/SingleSlice)||
-|🇯🇵|日本語|[@weasles](https://github.com/weasles)||
-|🇰🇷|한국어|||
-|🇱🇺|Lëtzebuergesch|||
-|🇱🇹|Lietuvių|[@ErnestasKaralius](https://github.com/ErnestasKaralius)||
-|🇲🇰|Македонски|||
-|🇲🇾|Melayu|||
-|🇳🇴|Norsk bokmål|[@tobggs](https://github.com/tobggs)||
-|🇳🇱|Nederlands|||
-|🇮🇷|فارسی|[@DevEvil99](https://github.com/DevEvil99)||
-|🇵🇱|Polski|[@jacekpoz](https://github.com/jacekpoz) [@Pawelek-dev](https://github.com/Pawelek-dev)||
-|🇧🇷|Português (do Brasil)|[@yanndere](https://github.com/yanndere) [@Tmpod](https://github.com/Tmpod)||
-|🇵🇹|Português (Portugal)|||
-|🇷🇴|Română|||
-|🇷🇺|Русский|[@div2005](https://github.com/div2005)||
-|🇸🇰|Slovensky|[@ShadowLp174](https://github.com/ShadowLp174)||
-|🇸🇮|Slovenščina|||
-|🇷🇸|Српски|||
-|🇱🇰|සිංහල|||
-|🇸🇪|Svenska|[@raggebatman](https://github.com/raggebatman)||
-|🇮🇳|தமிழ்|||
-|🇹🇭|ไทย|||
-|🇹🇷|Türkçe|[@KerizAlperwastaken](https://github.com/KerizAlperwastaken)||
-|🇺🇦|Українська|[@div2005](https://github.com/div2005)||
-|vec|Vèneto|||
-|🇻🇳|Tiếng Việt|||
-|🇨🇳|中文 (简体)|||
-|🇹🇼|繁體中文|[@Zhuzi-ouo](https://github.com/Zhuzi-ouo)||
-|🇱🇻|Latviešu|[@rMazeiks](https://github.com/rMazeiks)||
-|🙂|Toki Pona|[@Gapva](https://github.com/Gapva)||
-|EO|Esperanto|||
-|😸|OwO|[@janderedev](https://github.com/janderedev) [@FanMclaine](https://github.com/FanMclaine)||
-|🏴‍☠️|Pirate|||
-|🥺|Bottom|||
-|💾|1337|||
-|🪄|Enchantment Table|||
-|🐖|Pig Latin|||
+|🇬🇧|English (Traditional) / en|[@insertish](https://github.com/insertish)||
+|🇺🇸|English (Simplified) / en_US|||
+|🇸🇦|عربي / ar|[@LedaThemis](https://github.com/LedaThemis)||
+|🇮🇳|অসমীয়া / as|||
+|🇦🇿|Azərbaycan dili / az|||
+|🇧🇾|беларуская / be|||
+|🇧🇬|български / bg|||
+|🇧🇩|বাংলা / bn|||
+|br|Brezhoneg / br|[@SperedAnveliour](https://github.com/SperedAnveliour)||
+|🇪🇸|Català / ca|[@TallerThanShort](https://github.com/TallerThanShort)||
+|krd|کوردی / ckb|[@fanticwastaken](https://github.com/fanticwastaken)||
+|🇨🇿|Čeština / cs|||
+|🇩🇰|Danskers / da|||
+|🇩🇪|Deutsch / de|[@janderedev](https://github.com/janderedev)||
+|🇬🇷|Ελληνικά / el|[@janast3369](https://github.com/janast3369)||
+|🇪🇸|Español / es|[@z3ro0k](https://github.com/z3ro0k) [@fernandopal](https://github.com/fernandopal)||
+|🇪🇪|eesti / et|[@u032](https://github.com/u032)||
+|🇫🇮|suomi / fi|||
+|🇵🇭|Pilipino / fil|[@I2rys](https://github.com/I2rys)||
+|🇫🇷|Français / fr|[@Hades785](https://github.com/Hades785)||
+|🇮🇪|Gaeilge / ga|||
+|🇮🇳|हिन्दी / hi|||
+|🇭🇷|Hrvatski / hr|||
+|🇭🇺|magyar / hu|[@f3rr31](https://github.com/f3rr31)||
+|🇮🇩|bahasa Indonesia / id|[@liimee](https://github.com/liimee)||
+|🇮🇹|Italiano / it|[@SingleSlice](https://github.com/SingleSlice)||
+|🇯🇵|日本語 / ja|[@weasles](https://github.com/weasles)||
+|🇰🇷|한국어 / ko|||
+|🇱🇺|Lëtzebuergesch / lb|||
+|🇱🇹|Lietuvių / lt|[@ErnestasKaralius](https://github.com/ErnestasKaralius)||
+|🇲🇰|Македонски / mk|||
+|🇲🇾|Melayu / ms|||
+|🇳🇴|Norsk bokmål / nb_NO|[@tobggs](https://github.com/tobggs)||
+|🇳🇱|Nederlands / nl|||
+|🇮🇷|فارسی / fa|[@DevEvil99](https://github.com/DevEvil99)||
+|🇵🇱|Polski / pl|[@jacekpoz](https://github.com/jacekpoz) [@Pawelek-dev](https://github.com/Pawelek-dev)||
+|🇧🇷|Português (do Brasil) / pt_BR|[@yanndere](https://github.com/yanndere) [@Tmpod](https://github.com/Tmpod)||
+|🇵🇹|Português (Portugal) / pt_PT|||
+|🇷🇴|Română / ro|||
+|🇷🇺|Русский / ru|[@div2005](https://github.com/div2005)||
+|🇸🇰|Slovensky / sk|[@ShadowLp174](https://github.com/ShadowLp174)||
+|🇸🇮|Slovenščina / sl|||
+|🇷🇸|Српски / sr|||
+|🇱🇰|සිංහල / si|||
+|🇸🇪|Svenska / sv|[@raggebatman](https://github.com/raggebatman)||
+|🇮🇳|தமிழ் / ta|||
+|🇹🇭|ไทย / th|||
+|🇹🇷|Türkçe / tr|[@KerizAlperwastaken](https://github.com/KerizAlperwastaken)||
+|🇺🇦|Українська / uk|[@div2005](https://github.com/div2005)||
+|vec|Vèneto / vec|||
+|🇻🇳|Tiếng Việt / vi|||
+|🇨🇳|中文 (简体) / zh_Hans|||
+|🇹🇼|繁體中文 / zh_Hant|[@Zhuzi-ouo](https://github.com/Zhuzi-ouo)||
+|🇱🇻|Latviešu / lv|[@rMazeiks](https://github.com/rMazeiks)||
+|🙂|Toki Pona / tokipona|[@Gapva](https://github.com/Gapva)||
+|EO|Esperanto / esperanto|||
+|😸|OwO / owo|[@janderedev](https://github.com/janderedev) [@FanMclaine](https://github.com/FanMclaine)||
+|🏴‍☠️|Pirate / pr|||
+|🥺|Bottom / bottom|||
+|💾|1337 / leet|||
+|🪄|Enchantment Table / enchantment|||
+|🐖|Pig Latin / piglatin|||
 
 If you would like to maintain a language, please open an issue with your request.
 
 ### What do I do?
 
-As a maintainer you get access to review capabilities on Weblate, this lets you approve strings, edit approved strings and accept new suggestions.
+As a maintainer you get access to review capabilities on Weblate, this lets you approve strings, edit approved strings and accept new suggestions. You may also be mentioned in GitHub issues to approve badges for others.
 
 ![Approval UI](approve_ui.png)
 

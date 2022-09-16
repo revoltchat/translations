@@ -59,7 +59,7 @@ ${Object.keys(Languages)
         }
     }
 
-    return `|${lang.emoji}|${lang.display}|${maintainers.map(u).join(' ')}|${contribs.map(u).join(' ')}|`;
+    return `|${lang.emoji}|${lang.display} / ${key}|${maintainers.map(u).join(' ')}|${contribs.map(u).join(' ')}|`;
 })
 .join('\n')}`;
 
