@@ -34,7 +34,7 @@ for await (const entry of Deno.readDir('.')) {
 await Deno.writeTextFile("incomplete.js", 'export default ' + JSON.stringify(below_threshold, undefined, '\t'));
 
 // write verified translations to file
-await Deno.writeTextFile("verified.js", 'export default ' + JSON.stringify(Object.keys(contributors), undefined, '\t'));
+await Deno.writeTextFile("verified.js", 'export default ' + JSON.stringify(Object.keys(contributors).filter(x => contributors[x].maintainer.length > 0), undefined, '\t'));
 
 // generate new README
 import { Languages } from './Languages.ts';

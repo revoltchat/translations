@@ -52,7 +52,7 @@ The following table shows languages and people enlisted for verifying certain la
 |🇵🇱|Polski / pl|[@jacekpoz](https://github.com/jacekpoz) [@Pawelek-dev](https://github.com/Pawelek-dev)||
 |🇧🇷|Português (do Brasil) / pt_BR|[@yanndere](https://github.com/yanndere) [@Tmpod](https://github.com/Tmpod)||
 |🇵🇹|Português (Portugal) / pt_PT|||
-|🇷🇴|Română / ro|||
+|🇷🇴|Română / ro||[@S703T](https://github.com/S703T)|
 |🇷🇺|Русский / ru|[@div2005](https://github.com/div2005)||
 |🇸🇰|Slovensky / sk|[@ShadowLp174](https://github.com/ShadowLp174)||
 |🇸🇮|Slovenščina / sl|||
