@@ -5,6 +5,7 @@ export default [
 	"hu",
 	"ckb",
 	"pt_BR",
+	"pt_PT",
 	"fr",
 	"br",
 	"lv",
