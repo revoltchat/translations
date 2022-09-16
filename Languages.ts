@@ -1,5 +1,3 @@
-import incomplete from "./incomplete";
-
 export enum Language {
     ENGLISH = "en",
     ENGLISH_STUPEFIED = "en_US",
@@ -85,7 +83,7 @@ export const Languages: { [key in Language]: LanguageEntry } = {
         emoji: "🇬🇧",
         i18n: "en",
         dayjs: "en-gb",
-        verified: true,
+        
     },
     en_US: {
         display: "English (Simplified)",
@@ -111,7 +109,7 @@ export const Languages: { [key in Language]: LanguageEntry } = {
         emoji: "krd",
         i18n: "ckb",
         dayjs: "ku",
-        verified: true,
+        
     },
     cs: { display: "Čeština", emoji: "🇨🇿", i18n: "cs" },
     da: { display: "Danskers", emoji: "🇩🇰", i18n: "da" },
@@ -125,7 +123,7 @@ export const Languages: { [key in Language]: LanguageEntry } = {
         emoji: "🇵🇭",
         i18n: "fil",
         dayjs: "tl-ph",
-        verified: true,
+        
     },
     fr: { display: "Français", emoji: "🇫🇷", i18n: "fr", verified: true },
     ga: { display: "Gaeilge", emoji: "🇮🇪", i18n: "ga" },
@@ -149,7 +147,7 @@ export const Languages: { [key in Language]: LanguageEntry } = {
         emoji: "🇧🇷",
         i18n: "pt_BR",
         dayjs: "pt-br",
-        verified: true,
+        
     },
     pt_PT: {
         display: "Português (Portugal)",
@@ -242,11 +240,3 @@ export const Languages: { [key in Language]: LanguageEntry } = {
         cat: "alt",
     },
 };
-
-// Apply 'incomplete' flag at runtime
-for (const key of incomplete) {
-    const entry = Languages[key as keyof typeof Languages];
-    if (entry) {
-        entry.incomplete = true;
-    }
-}
