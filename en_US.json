@@ -9,7 +9,7 @@
         "off": "Off",
         "disabled": "Disabled",
         "unavailable": "Unavailable",
-        "learn_more": "Learn more"
+        "learn_more": "More information"
     },
     "login": {
         "title": "Login",
@@ -51,7 +51,9 @@
         "subtitle2": "Create an account",
         "welcome": "Welcome back!",
         "subtitle": "Sign into Revolt",
-        "unofficial_instance": "Third-party instance."
+        "unofficial_instance": "Third-party instance.",
+        "totp": "Authenticator App",
+        "recovery": "Recovery Code"
     },
     "app": {
         "status": {
@@ -99,7 +101,8 @@
                     "removed_by": "{{user}} was removed by {{other_user}}",
                     "channel_renamed": "{{user}} renamed the channel to {{name}}",
                     "channel_description_changed": "{{user}} changed the channel description",
-                    "channel_icon_changed": "{{user}} changed the channel icon"
+                    "channel_icon_changed": "{{user}} changed the channel icon",
+                    "channel_ownership_changed": "{{from}} gave {{to}} group ownership"
                 },
                 "start": {
                     "group": "This is the start of your conversation.",
@@ -123,7 +126,8 @@
                     "sent_file": "Sent an attachment",
                     "sent_multiple_files": "Sent multiple attachments",
                     "new_messages": "New messages since {{time_ago}}",
-                    "load_file": "Load file"
+                    "load_file": "Load file",
+                    "timed_out": "You are timed out for {{time}}."
                 },
                 "nsfw": {
                     "channel": {
@@ -159,7 +163,8 @@
                     "replying": "Replying to",
                     "toggle": "Toggle author ping"
                 },
-                "bridge": "bridge"
+                "bridge": "bridge",
+                "user_timed_out": "User is timed out for {{time}}."
             },
             "groups": {
                 "create": "Create a group",
@@ -203,7 +208,13 @@
                         "title": "Two-factor Authentication",
                         "description": "Add an extra layer of security by enabling 2FA on your account.",
                         "add_auth": "Add Authenticator",
-                        "remove_auth": "Remove Authenticator"
+                        "remove_auth": "Remove Authenticator",
+                        "two_factor_off": "You haven't enabled two-factor authentication!",
+                        "view_recovery": "View Recovery Codes",
+                        "view_recovery_long": "View and download your 2FA recovery codes.",
+                        "generate_recovery": "Generate Backup Codes",
+                        "generate_recovery_long": "Get ready to use 2FA by setting up a backup method.",
+                        "two_factor_on": "Two-factor authentication is currently on."
                     },
                     "manage": {
                         "title": "Account Management",
@@ -422,6 +433,13 @@
                 },
                 "management": {
                     "title": "User Management"
+                },
+                "customisation": {
+                    "title": "Customization"
+                },
+                "emojis": {
+                    "title": "Emojis",
+                    "upload": "Upload Emoji"
                 }
             },
             "tips": {
@@ -449,7 +467,7 @@
                 "hoist_desc": "Display this role above others.",
                 "title": "Permissions for {{role}}",
                 "edit_title": "Edit Permissions",
-                "role_colour": "Role Colour",
+                "role_colour": "Role Color",
                 "role_options": "Role Options",
                 "role_ranking": "Role Ranking"
             }
@@ -505,7 +523,9 @@
                     "unfriend_user": "Remove {{name}}?",
                     "unfriend_user_long": "You may not be able to talk to them again until you add them back.",
                     "block_user": "Block {{name}}?",
-                    "block_user_long": "Are you sure you want to block {{name}}? They will also be removed from your friends list."
+                    "block_user_long": "Are you sure you want to block {{name}}? They will also be removed from your friends list.",
+                    "silent_leave": "Silently Leave",
+                    "members_not_notified": "Other members will not be notified"
                 },
                 "account": {
                     "change": {
@@ -540,12 +560,38 @@
                     "preview": "Preview",
                     "reload": "Reload App",
                     "continue": "Continue",
-                    "send_email": "Send Email"
+                    "send_email": "Send Email",
+                    "confirm": "Confirm",
+                    "done": "Done",
+                    "reset": "Reset",
+                    "report": "Report"
                 },
                 "sessions": {
                     "short": "You cannot undo this action.",
                     "accept": "Remove all sessions",
                     "title": "Are you sure you want to clear your sessions?"
+                },
+                "changelogs": {
+                    "description": "Read about updates of Revolt.",
+                    "older": "View older updates",
+                    "title": "Changelogs"
+                },
+                "confirm": "Confirm action",
+                "mfa": {
+                    "recovery_codes": "Your recovery codes",
+                    "save_codes": "Please save these to a safe location.",
+                    "confirm": "Please confirm using a selected method.",
+                    "select_method": "Please select a method to authenticate your request.",
+                    "enable_totp": "Enable authenticator app",
+                    "prompt_totp": "Please scan or use the token below in your authentication app.",
+                    "enter_code": "Enter Code"
+                },
+                "out_of_date": {
+                    "title": "Your client is out of date!",
+                    "description": "It must be updated in order to work with recent changes.",
+                    "version": "Your client is at {{client}}, whereas the server requires the server {{server}}.",
+                    "ignore": "Ignore updated",
+                    "attempting": "Attempting to update..."
                 }
             },
             "popovers": {
@@ -650,7 +696,8 @@
             "open_channel_settings": "Channel settings",
             "open_server_settings": "Server settings",
             "open_group_settings": "Group settings",
-            "mark_unread": "Mark as unread"
+            "mark_unread": "Mark as unread",
+            "make_owner": "Transfer Group Ownership"
         },
         "permissions": {
             "required": "Permissions required"
@@ -863,6 +910,14 @@
         "Speak": {
             "t": "Speak",
             "d": "Allows members to speak in a voice channel."
+        },
+        "ManageCustomisation": {
+            "t": "Manage Customization",
+            "d": "Allows members to create, edit and delete emojis."
+        },
+        "React": {
+            "t": "Use Reactions",
+            "d": "Allows members to react to messages."
         }
     }
 }

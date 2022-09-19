@@ -38,7 +38,10 @@
         "welcome2": "Hola!",
         "subtitle2": "Crear un compte",
         "welcome": "Benvingut de nou!",
-        "subtitle": "Entra a Revolt"
+        "subtitle": "Entra a Revolt",
+        "unofficial_instance": "Instància de tercers.",
+        "totp": "Aplicació d'autenticació",
+        "recovery": "Codi de recuperació"
     },
     "general": {
         "unavailable": "Indisponible",
@@ -49,7 +52,8 @@
         "image_by": "Imatge de",
         "privacy": "Política de Privacitat",
         "tos": "Termes de servei",
-        "about": "Sobre"
+        "about": "Sobre",
+        "learn_more": "Aprèn més"
     },
     "app": {
         "main": {
@@ -70,7 +74,8 @@
                     "removed_by": "{{user}} ha sigut eliminat per {{other_user}}",
                     "channel_renamed": "{{user}} ha reanomenat el canal a {{name}}",
                     "channel_description_changed": "{{user}} ha camviat la descripció del canal",
-                    "channel_icon_changed": "{{user}} ha cambiat la icona del canal"
+                    "channel_icon_changed": "{{user}} ha cambiat la icona del canal",
+                    "channel_ownership_changed": "{{from}} ha donat a {{to}} la propietat del grup"
                 },
                 "misc": {
                     "viewing_old": "Mirant missatges antics",
@@ -186,7 +191,7 @@
                         "description": "Desactiveu o suprimiu el vostre compte en qualsevol moment. Aquesta acció us tancarà la sessió i suprimirà completament el vostre compte, inclòs l'historial de xats i els amics.",
                         "title": "Administració de comptes",
                         "disable": "Desactiva el compte",
-                        "delete": "Esborrar compte"
+                        "delete": "Marca el compte per suprimir-lo"
                     },
                     "title": "El meu compte",
                     "change_field": "Canviar",
@@ -195,7 +200,13 @@
                         "title": "Autenticació de dos factors",
                         "description": "Afegiu una capa de seguretat addicional activant 2FA al vostre compte.",
                         "add_auth": "Afegiu l’autenticador",
-                        "remove_auth": "Elimina Authenticator"
+                        "remove_auth": "Elimina Authenticator",
+                        "view_recovery": "Veure codis de recuperació",
+                        "view_recovery_long": "Consulteu i descarregueu els vostres codis de recuperació 2FA.",
+                        "generate_recovery": "Generar codis de recuperació",
+                        "generate_recovery_long": "Prepareu-vos per utilitzar 2FA configurant un mètode de recuperació.",
+                        "two_factor_on": "Actualment, l'autenticació de dos factors està activada.",
+                        "two_factor_off": "No heu activat l'autenticació de dos factors!"
                     }
                 },
                 "appearance": {
@@ -238,6 +249,11 @@
                     "discover": {
                         "title": "Descobreix Temes",
                         "description": "Exploreu temes creats per la comunitat"
+                    },
+                    "appearance_options": {
+                        "show_send_desc": "Si està desactivat, el botó Enviar missatge només apareixerà al mòbil.",
+                        "title": "Opcions d'aparença",
+                        "show_send": "Mostra sempre el botó Envia missatge"
                     }
                 },
                 "profile": {
@@ -405,6 +421,12 @@
                 },
                 "management": {
                     "title": "Gestió d'usuaris"
+                },
+                "customisation": {
+                    "title": "Personalització"
+                },
+                "emojis": {
+                    "title": "Emojis"
                 }
             },
             "tips": {
@@ -532,7 +554,12 @@
                     "short": "Aquesta acció es irreversible.",
                     "accept": "Tancar totes les sessions",
                     "title": "Estàs segur què vols tancar les teves sessions?"
-                }
+                },
+                "mfa": {
+                    "recovery_codes": "Els vostres codis de recuperació",
+                    "save_codes": "Deseu-los en un lloc segur."
+                },
+                "confirm": "Confirmeu l'acció"
             },
             "popovers": {
                 "user_profile": {

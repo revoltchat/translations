@@ -9,7 +9,7 @@
         "off": "Av",
         "disabled": "Inaktiverad",
         "unavailable": "Otillgänglig",
-        "learn_more": "Lär dig mer"
+        "learn_more": "Mer information"
     },
     "login": {
         "title": "Logga in",
@@ -51,7 +51,9 @@
         "subtitle2": "Skapa ett konto",
         "welcome": "Välkommen tillbaka!",
         "subtitle": "Logga in till Revolt",
-        "unofficial_instance": "Tredjeparts-instans."
+        "unofficial_instance": "Tredjeparts-instans.",
+        "recovery": "Kod för återvinning",
+        "totp": "Appen Authenticator"
     },
     "app": {
         "main": {
@@ -68,7 +70,8 @@
                     "channel_description_changed": "{{user}} ändrade kanalens beskrivning",
                     "channel_icon_changed": "{{user}} ändrade kanalens ikon",
                     "user_banned": "{{user}} blev bannlyst",
-                    "user_kicked": "{{user}} blev sparkad"
+                    "user_kicked": "{{user}} blev sparkad",
+                    "channel_ownership_changed": "{{from}} gav {{to}} gruppägarskap"
                 },
                 "typing": {
                     "several": "Flera personer skriver…",
@@ -98,7 +101,8 @@
                     "sent_multiple_files": "Laddade upp bilagorna",
                     "jump_beginning": "Gå till början",
                     "new_messages": "Nya meddelanden sedan {{time_ago}}",
-                    "load_file": "Ladda fil"
+                    "load_file": "Ladda fil",
+                    "timed_out": "Du har tagit ut din tid för {{time}}."
                 },
                 "voice": {
                     "unmute": "Sluta tysta",
@@ -137,7 +141,8 @@
                     "replying": "Svarar på",
                     "toggle": "Växla författarping"
                 },
-                "bridge": "brygga"
+                "bridge": "brygga",
+                "user_timed_out": "Användaren har tagit ut sin tid för {{time}}."
             },
             "categories": {
                 "members": "Medlemmar",
@@ -218,7 +223,11 @@
                     "block": "Blockera",
                     "back": "Gå tillbaka",
                     "hide": "Göm",
-                    "edit": "Redigera"
+                    "edit": "Redigera",
+                    "report": "Rapportera",
+                    "confirm": "Bekräfta",
+                    "reset": "Återställ",
+                    "done": "Klart"
                 },
                 "signed_out": "Du blev utloggad!",
                 "clipboard": {
@@ -247,7 +256,9 @@
                     "confirm_kick": "Är du säker på att du vill sparka {{name}}?",
                     "block_user": "Blockera {{name}}?",
                     "block_user_long": "Är du säker på att du vill blockera {{name}}? De kommer bli borttagna från din vänlista.",
-                    "confirm_ban_reason": "Anledning"
+                    "confirm_ban_reason": "Anledning",
+                    "silent_leave": "Lämna tyst",
+                    "members_not_notified": "Andra medlemmar kommer inte att meddelas"
                 },
                 "account": {
                     "failed": "Misslyckades att ändra!",
@@ -267,6 +278,28 @@
                     "short": "Du kan inte ångra detta.",
                     "title": "Är du säker på att du vill avsluta alla dina sessioner?",
                     "accept": "Ta bort alla sessioner"
+                },
+                "out_of_date": {
+                    "description": "Den måste uppdateras för att fungera med de senaste förändringarna.",
+                    "ignore": "Ignorera uppdatering",
+                    "title": "Din klient är föråldrad!",
+                    "attempting": "Försöker uppdatera...",
+                    "version": "Din klient finns på {{client}}, medan servern kräver {{server}}."
+                },
+                "mfa": {
+                    "prompt_totp": "Skanna eller använd tokenet nedan i din autentiseringsapp.",
+                    "enter_code": "Ange kod",
+                    "select_method": "Välj en metod för att autentisera din begäran.",
+                    "confirm": "Bekräfta med den valda metoden.",
+                    "enable_totp": "Aktivera autentiseringsappen",
+                    "recovery_codes": "Dina återvinningskoder",
+                    "save_codes": "Spara dem på en säker plats."
+                },
+                "confirm": "Bekräfta åtgärd",
+                "changelogs": {
+                    "title": "Ändringsloggar",
+                    "description": "Läs om uppdateringar av Revolt.",
+                    "older": "Visa äldre uppdateringar"
                 }
             },
             "status": {
@@ -378,7 +411,8 @@
             "copy_message_link": "Kopiera meddelandelänk",
             "edit_identity": "Redigera identitet",
             "create_category": "Skapa kategori",
-            "mark_unread": "markera som oläst"
+            "mark_unread": "markera som oläst",
+            "make_owner": "Ge gruppen äganderätt"
         },
         "settings": {
             "pages": {
@@ -445,7 +479,7 @@
                     "change_field": "Ändra",
                     "manage": {
                         "disable": "Inaktivera Konto",
-                        "delete": "Radera Konto",
+                        "delete": "Markera konto för radering",
                         "description": "Inaktivera eller ta bort ditt konto när som helst. Det här kommer logga ut dig samt helt och hållet radera ditt konto, inkluderande din chatt historik och dina vänner.",
                         "title": "Kontohantering"
                     },
@@ -453,7 +487,13 @@
                         "description": "Lägg på ett extra lager säkerhet genom att aktivera 2FA på ditt konto.",
                         "title": "Tvåfaktorsautentisering",
                         "add_auth": "Lägg till Autentiserare",
-                        "remove_auth": "Ta bort Autentiserare"
+                        "remove_auth": "Ta bort Autentiserare",
+                        "view_recovery": "Visa koder för återhämtning",
+                        "view_recovery_long": "Visa och ladda ner dina 2FA-återställningskoder.",
+                        "generate_recovery": "Generera återställningskoder",
+                        "generate_recovery_long": "Gör dig redo att använda 2FA genom att ställa in en återställningsmetod.",
+                        "two_factor_on": "Tvåfaktorsautentisering är för närvarande aktiverad.",
+                        "two_factor_off": "Du har inte aktiverat tvåfaktorsautentisering!"
                     },
                     "unique_id": "Det här är en unik identifierare för ditt konto."
                 },
@@ -662,6 +702,13 @@
                 },
                 "management": {
                     "title": "Användarhantering"
+                },
+                "emojis": {
+                    "upload": "Ladda upp Emoji",
+                    "title": "Emojis"
+                },
+                "customisation": {
+                    "title": "Anpassning"
                 }
             }
         },
@@ -880,6 +927,14 @@
         "Video": {
             "t": "Video",
             "d": "Tillåter medlemmar att strömma video i en röstkanal."
+        },
+        "React": {
+            "d": "Gör det möjligt för medlemmarna att reagera på meddelanden.",
+            "t": "Använd reaktioner"
+        },
+        "ManageCustomisation": {
+            "t": "Hantera anpassningar",
+            "d": "Tillåter medlemmarna att skapa, redigera och radera emojis."
         }
     }
 }

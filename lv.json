@@ -39,7 +39,9 @@
         "subtitle2": "Izveidot kontu",
         "welcome": "Priecājamies tevi atkal redzēt!",
         "subtitle": "Ienākt Revolt",
-        "unofficial_instance": "Trešās puses instance."
+        "unofficial_instance": "Trešās puses instance.",
+        "totp": "Autentifikācijas lietotne",
+        "recovery": "Piekļuves atgūšanas kods"
     },
     "app": {
         "main": {
@@ -191,13 +193,19 @@
                         "title": "Divfaktoru autentifikācija",
                         "description": "Pievienojiet drošības slāni, iepējojot 2FA jūsu kontam.",
                         "add_auth": "Pievienot autentificētāju",
-                        "remove_auth": "Noņemt autentificētāju"
+                        "remove_auth": "Noņemt autentificētāju",
+                        "view_recovery": "Skatīt atgūšanas kodus",
+                        "view_recovery_long": "Skati un lejupielādē savus divfaktoru autentifikācijas (2FA) kodus.",
+                        "generate_recovery": "Izveidot piekļuves atgūšanas kodus",
+                        "generate_recovery_long": "Sagatavojies divfaktoru autentifikācijas (2FA), uzstādot piekļuves atgūšanu.",
+                        "two_factor_on": "Divfaktoru autentifikācija ir ieslēgta.",
+                        "two_factor_off": "Neesi ieslēdzis divfaktoru autentifikāciju!"
                     },
                     "manage": {
                         "title": "Konta pārvaldība",
                         "description": "Jebkurā laikā atspējot vai dzēst savu kontu. Šī darbība tevi izrakstīs un pilnībā izdzēsīs tavu kontu, tostarp tērzēšanas vēsturi un draugus.",
                         "disable": "Atspējot kontu",
-                        "delete": "Dzēst kontu"
+                        "delete": "Atzīmēt kontu dzēšanai"
                     }
                 },
                 "profile": {
@@ -540,7 +548,10 @@
                     "delete": "Dzēst",
                     "create": "Izveidot",
                     "send_email": "Sūtīt e-pastu",
-                    "ok": "Labi"
+                    "ok": "Labi",
+                    "done": "Gatavs",
+                    "reset": "Atiestatīt",
+                    "confirm": "Apstiprināt"
                 },
                 "onboarding": {
                     "pick": "Izvēlies lietotājvārdu, kādu vēlies, lai citi tevi varētu atrast – to var nomainīt iestatījumos.",
@@ -583,6 +594,28 @@
                     "accept": "Noņemt visas sesijas",
                     "title": "Vai tiešām vēlies atvienot visas savas sesijas?",
                     "short": "Šo darbību nav iespējams atsaukt."
+                },
+                "out_of_date": {
+                    "title": "Tava klienta lietotne ir novecojusi!",
+                    "description": "Tā jāatjaunina, lai darbotos jaunākās izmaiņas.",
+                    "ignore": "Ignorēt atjauninājumu",
+                    "attempting": "Mēģina autjaunināt...",
+                    "version": "Tavas lietotnes versija ir {{client}}, taču serverim nepieciešama {{server}}."
+                },
+                "confirm": "Apstiprināt darbību",
+                "mfa": {
+                    "recovery_codes": "Tavi piekļuves atgūšanas kodi",
+                    "save_codes": "Lūdzu, glabā tos drošā vietā.",
+                    "confirm": "Lūdzu, apstiprini izvēlēto sistēmu.",
+                    "select_method": "Lūdzu izvēlies sistēmu, ar ko autentificēt savu pieprasījumu.",
+                    "enable_totp": "Iespējot autentifikācijas lietotni",
+                    "prompt_totp": "Lūdzu, skenē vai ievadi zemāk esošo kodu savā autentifikācijas lietotnē.",
+                    "enter_code": "Ievadīt kodu"
+                },
+                "changelogs": {
+                    "title": "Izmaiņas",
+                    "description": "Lasīt par Revolt jaunumiem.",
+                    "older": "Skatīt vecākus atjauninājumus"
                 }
             },
             "friends": {

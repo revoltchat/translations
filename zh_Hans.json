@@ -273,6 +273,13 @@
                 },
                 "management": {
                     "title": "用户管理"
+                },
+                "customisation": {
+                    "title": "自定义"
+                },
+                "emojis": {
+                    "title": "Emoji",
+                    "upload": "上传表情"
                 }
             },
             "permissions": {
@@ -310,7 +317,8 @@
                     "channel_icon_changed": "{{user}} 更改了频道图标",
                     "channel_description_changed": "{{user}} 更改了频道简介",
                     "user_kicked": "{{user}} 被踢出",
-                    "user_banned": "{{user}} 被封禁了"
+                    "user_banned": "{{user}} 被封禁了",
+                    "channel_ownership_changed": "{{from}} 将群组所有权转移给了 {{to}}"
                 },
                 "typing": {
                     "several": "多人正在输入…",
@@ -325,7 +333,7 @@
                 "message_where": "发送至 {{channel_name}}",
                 "edited": "（已编辑）",
                 "start": {
-                    "group": "这里是你们对话的开始。",
+                    "group": "这里是你对话的开始。",
                     "saved": "这里是您笔记的开始。"
                 },
                 "misc": {
@@ -340,7 +348,8 @@
                     "sent_multiple_files": "发送多个附件",
                     "jump_beginning": "跳转到最早",
                     "new_messages": "{{time_ago}} 以来的新消息",
-                    "load_file": "加载文件"
+                    "load_file": "加载文件",
+                    "timed_out": "您已超时 {{time}}。"
                 },
                 "voice": {
                     "unmute": "取消静音",
@@ -379,7 +388,8 @@
                     "replying": "回复至",
                     "toggle": "开关作者提醒"
                 },
-                "bridge": "桥接"
+                "bridge": "桥接",
+                "user_timed_out": "用户已超时 {{time}}。"
             },
             "categories": {
                 "members": "成员",
@@ -499,7 +509,8 @@
                     "edit": "编辑",
                     "done": "完成",
                     "reset": "重置",
-                    "confirm": "确认"
+                    "confirm": "确认",
+                    "report": "举报"
                 },
                 "account": {
                     "failed": "更改失败！",
@@ -525,7 +536,9 @@
                     "confirm_close_dm": "要关闭与 {{name}} 的对话吗？",
                     "confirm_delete_message_long": "您确定要删除吗？",
                     "confirm_ban": "您即将封禁 {{name}}",
-                    "confirm_close_dm_long": "这也会为对方删除此对话，但您可以稍后再重新打开。"
+                    "confirm_close_dm_long": "这也会为对方删除此对话，但您可以稍后再重新打开。",
+                    "silent_leave": "静默离开",
+                    "members_not_notified": "其他成员不会收到通知"
                 },
                 "onboarding": {
                     "pick": "选择一个用户名，让人们能够找到您，以后也可以在设置中修改。",
@@ -639,7 +652,8 @@
             "delete_channel": "删除频道",
             "delete_server": "删除服务器",
             "create_category": "创建类别",
-            "mark_unread": "标记为未读"
+            "mark_unread": "标记为未读",
+            "make_owner": "转移群组所有权"
         },
         "permissions": {
             "required": "需要权限"
@@ -717,7 +731,7 @@
         "off": "关",
         "disabled": "已禁用",
         "unavailable": "不可用",
-        "learn_more": "了解更多"
+        "learn_more": "更多信息"
     },
     "notifications": {
         "now_friends": "您与 @{{person}} 成为了好友！",
@@ -906,6 +920,14 @@
         "DeafenMembers": {
             "t": "静音成员",
             "d": "允许成员在语音频道内禁止其他成员收听。"
+        },
+        "ManageCustomisation": {
+            "t": "管理自定义",
+            "d": "允许成员创建、编辑和删除 Emoji。"
+        },
+        "React": {
+            "t": "使用回应",
+            "d": "允许成员对消息作出回应。"
         }
     },
     "shortcuts": {

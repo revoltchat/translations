@@ -51,7 +51,9 @@
         "subtitle": "Kirjaudu Revoltiin",
         "welcome2": "Hei!",
         "subtitle2": "Luo tili",
-        "unofficial_instance": "Kolmannen osapuolen instanssi."
+        "unofficial_instance": "Kolmannen osapuolen instanssi.",
+        "totp": "Valtuutussovellus",
+        "recovery": "Palautuskoodi"
     },
     "app": {
         "main": {
@@ -67,7 +69,8 @@
                     "channel_renamed": "{{user}} antoi kanavalle uuden nimen {{name}}",
                     "channel_icon_changed": "{{user}} muutti kanavan kuvaketta",
                     "user_kicked": "{{user}} potkittiin",
-                    "user_banned": "{{user}} sai porttikiellon"
+                    "user_banned": "{{user}} sai porttikiellon",
+                    "channel_ownership_changed": "{{from}} siirsi ryhmän omistajuuden käyttäjälle {{to}}"
                 },
                 "voice": {
                     "leave": "Poistu",
@@ -216,7 +219,8 @@
             "create_category": "Luo luokka",
             "reply_message": "Vastaa",
             "quote_message": "Lainaa viesti",
-            "mark_unread": "Merkkaa lukemattomaksi"
+            "mark_unread": "Merkkaa lukemattomaksi",
+            "make_owner": "Anna ryhmän omistajuus"
         },
         "special": {
             "popovers": {
@@ -277,7 +281,11 @@
                     "block": "Estä",
                     "back": "Mene takaisin",
                     "leave": "Lähde",
-                    "ban": "Anna porttikielto"
+                    "ban": "Anna porttikielto",
+                    "reset": "Nollaa",
+                    "done": "Valmis",
+                    "confirm": "Vahvista",
+                    "report": "Ilmoita"
                 },
                 "clipboard": {
                     "copy": "Manuaalinen kopiointi:",
@@ -326,6 +334,28 @@
                     "title": "Haluatko tyhjentää istuntosi?",
                     "short": "Et voi peruuttaa tätä toimenpidettä.",
                     "accept": "Poista kaikki istunnot"
+                },
+                "confirm": "Vahvista toimenpide",
+                "mfa": {
+                    "recovery_codes": "Palautuskoodisi",
+                    "save_codes": "Talleta nämä turvalliseen paikkaan.",
+                    "select_method": "Valitse menetelmä pyyntösi valtuuttamiseksi.",
+                    "enable_totp": "Ota valtuutussovellus käyttöön",
+                    "prompt_totp": "Skannaa tai käytä alla olevaa tunnusta valtuutussovelluksessasi.",
+                    "enter_code": "Syötä koodi",
+                    "confirm": "Vahvista käyttäen valittua menetelmää."
+                },
+                "changelogs": {
+                    "title": "Muutoslokit",
+                    "description": "Lue Revoltin päivityksistä.",
+                    "older": "Näytä vanhemmat päivitykset"
+                },
+                "out_of_date": {
+                    "description": "Se täytyy päivittää toimiakseen viimeaikaisten muutosten kanssa.",
+                    "version": "Asiakkaasi on versiota {{client}}, kun taas palvelin vaatii version {{server}}.",
+                    "ignore": "Ohita päivitys",
+                    "attempting": "Yritetään päivittää...",
+                    "title": "Asiakasohjelmasi on vanhentunut!"
                 }
             },
             "copy_username": "Paina kopioidaksesi käyttäjätunnus",
@@ -480,13 +510,19 @@
                         "description": "Poista käytöstä tai poista käyttäjäsi milloin vain. Tämä tulee kirjaamaan sinut ulos ja poistamaan kokonaan sinun käyttäjätilisi, myös keskusteluhistoriasi ja kaverisi.",
                         "title": "Tilin hallinta",
                         "disable": "Poista tili käytöstä",
-                        "delete": "Poista tili"
+                        "delete": "Merkkaa tili poistettavaksi"
                     },
                     "2fa": {
                         "title": "Kaksivaiheinen todennus",
                         "description": "Lisää suojaustasoa ottamalla 2FA käyttöön tililläsi.",
                         "remove_auth": "Poista Authenticator",
-                        "add_auth": "Lisää Authenticator"
+                        "add_auth": "Lisää Authenticator",
+                        "view_recovery_long": "Näytä ja lataa 2FA-palautuskoodisi.",
+                        "generate_recovery": "Luo palautuskoodit",
+                        "generate_recovery_long": "Valmistaudu 2FA:n käyttöön asettamalla palautusmenetelmä.",
+                        "two_factor_on": "Kaksipuoleinen valtuutus on tällä hetkellä päällä.",
+                        "two_factor_off": "Et ole asettanut kaksipuoleista valtuutusta käyttöön!",
+                        "view_recovery": "Näytä palautuskoodit"
                     },
                     "unique_id": "Tämä on tilisi yksilöllinen käyttäjätunnus."
                 },
@@ -626,6 +662,12 @@
                 },
                 "management": {
                     "title": "Käyttäjien hallinta"
+                },
+                "customisation": {
+                    "title": "Kustomointi"
+                },
+                "emojis": {
+                    "title": "Emojit"
                 }
             },
             "permissions": {
@@ -873,6 +915,14 @@
         "MoveMembers": {
             "t": "Siirrä jäseniä",
             "d": "Sallii jäsenten siirtää toisia äänikanavien välillä."
+        },
+        "ManageCustomisation": {
+            "t": "Hallinnoi mukautusta",
+            "d": "Sallii käyttäjien luoda, muokata ja poistaa emojeita."
+        },
+        "React": {
+            "t": "Käytä reaktioita",
+            "d": "Sallii käyttäjien reagoida viesteihin."
         }
     }
 }

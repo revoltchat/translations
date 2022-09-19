@@ -51,7 +51,8 @@
             "copy_message_link": "Mesaj bağlantısını kopyala",
             "edit_identity": "Kullanıcı görünümünü düzenle",
             "create_category": "Kategori oluştur",
-            "mark_unread": "Okunmadı olarak işaretle"
+            "mark_unread": "Okunmadı olarak işaretle",
+            "make_owner": "Grup sahipliğini ver"
         },
         "status": {
             "online": "Çevrimiçi",
@@ -97,7 +98,8 @@
                     "channel_icon_changed": "{{user}} kanal simgesini değiştirdi",
                     "channel_description_changed": "{{user}} kanal açıklamasını değiştirdi",
                     "user_kicked": "{{user}} atıldı",
-                    "user_banned": "{{user}} yasaklandı"
+                    "user_banned": "{{user}} yasaklandı",
+                    "channel_ownership_changed": "{{from}}, {{to}} kişisine grup sahipliğini verdi"
                 },
                 "unknown_user": "<Bilinmeyen Kullanıcı>",
                 "bot": "bot‎",
@@ -125,7 +127,8 @@
                     "sent_multiple_files": "Birden fazla ek gönderildi",
                     "jump_beginning": "Başlangıca geri dön",
                     "new_messages": "{{time_ago}} zamanından beri yeni mesajlar",
-                    "load_file": "Dosyayı yükle"
+                    "load_file": "Dosyayı yükle",
+                    "timed_out": "{{time}} zaman aşımına uğradınız."
                 },
                 "notifications": {
                     "default": "Varsayılanı Kullan",
@@ -158,7 +161,8 @@
                     "replying": "Yanıt veriliyor",
                     "toggle": "Yazar pingini aç/kapat"
                 },
-                "bridge": "köprü"
+                "bridge": "köprü",
+                "user_timed_out": "Kullanıcı {{time}} zaman aşımına uğradı."
             },
             "groups": {
                 "name": "Grup Adı",
@@ -273,7 +277,7 @@
                     "enable_sound": "İletide Ses Çıkar.",
                     "enable_outgoing_sound": "Mesaj Gönderirken Ses Çıkar.",
                     "descriptions": {
-                        "enable_desktop": "Bu, uygulamanız açıkken size bildirimleri gösterecektir.",
+                        "enable_desktop": "Bu, uygulamanız açıkken size bildirimleri gönderecektir.",
                         "enable_sound": "Gelen iletiler için sesi etkinleştirin.",
                         "enable_outgoing_sound": "Mesaj gönderdiğinizde ses çalmasını etkinleştir.",
                         "enable_push": "Çevrimdışı olduğunuzda bildirim almayı etkinleştirin."
@@ -293,7 +297,7 @@
                     "title": "Dil",
                     "select": "Dilinizi seçin",
                     "other": "Diğer dil seçenekleri",
-                    "const": "Yapı dilleri"
+                    "const": "Yapay diller"
                 },
                 "donate": {
                     "title": "Bağış Yap"
@@ -339,7 +343,7 @@
                     "descriptions": {
                         "servers": "Bu, kanallar, davetler, yasaklar, denetleme ve daha fazlasını içeren sunucular oluşturmanıza olanak tanır."
                     },
-                    "title": "Deneyler",
+                    "title": "Deneysel özellikler",
                     "features": "Mevcut Özellikler",
                     "titles": {
                         "servers": "Sunucular"
@@ -352,16 +356,16 @@
                 "bots": {
                     "title": "Botlarım",
                     "create_bot": "Bot Oluştur",
-                    "public_bot_tip": "Bot herkese açıktır. Herkes botu davet edebilir.",
+                    "public_bot_tip": "Bot herkese açıktır. Herkes davet edebilir.",
                     "public_bot_desc": "Botu diğer kullanıcıların davet etmesine izin verip vermemek içindir.",
                     "copy_invite": "Davet Bağlantısını Kopyala",
                     "add": "Bot Ekle",
                     "token": "Token",
-                    "private_bot_tip": "Bot gizlidir. Sadece siz davet edebilirsiniz.",
+                    "private_bot_tip": "Bot gizli. Sadece sen davet edebilirsin.",
                     "public_bot": "Halka Açık Bot",
                     "reserved": "Not: Bu alan gelecek için ayrılmıştır.",
                     "interactions_url": "Etkileşimler URL'si",
-                    "unique_id": "Bu, botunuz için eşsiz bir tanımlayıcıdır. Bu botun jetonu değildir.",
+                    "unique_id": "Bu, botunuz için eşsiz bir tanımlayıcıdır. Bu botun tokeni değildir.",
                     "profile": "Bot profili"
                 },
                 "audio": {
@@ -393,7 +397,7 @@
                 "plugins": {
                     "title": "Eklentiler",
                     "wip": "Uyarı: Bu özellik hala geliştirme aşamasındadır.",
-                    "delete_plugin": "silmek",
+                    "delete_plugin": "Sil",
                     "no_plugins": "Şu anda yüklü eklenti yok."
                 }
             },
@@ -418,7 +422,7 @@
                     "b": "şifrenizi değiştirerek ve 2AD kullanarak hesabınızı güvence altına alabilirsiniz."
                 },
                 "account": {
-                    "a": "Herkese açık profilinizi özelleştirmek mi istiyorsunuz?",
+                    "a": "Herkese açık profilinizi özelleştirmeye mi çalışıyorsunuz?",
                     "b": "Profil ayarlarınıza gidin."
                 }
             },
@@ -460,6 +464,13 @@
                 },
                 "management": {
                     "title": "Kullanıcı Yönetimi"
+                },
+                "customisation": {
+                    "title": "Özelleştirme"
+                },
+                "emojis": {
+                    "title": "Emojiler",
+                    "upload": "Emoji Yükle"
                 }
             },
             "permissions": {
@@ -526,7 +537,9 @@
                     "unfriend_user": "{{name}} kaldırılsın mı?",
                     "unfriend_user_long": "Onları tekrar ekleyene kadar onlarla tekrar konuşamayabilirsiniz.",
                     "block_user": "{{name}} engellensin mi?",
-                    "block_user_long": "{{name}} adlı kullanıcıyı engellemek istediğinizden emin misiniz? Ayrıca arkadaş listenizden de kaldırılacaktır."
+                    "block_user_long": "{{name}} adlı kullanıcıyı engellemek istediğinizden emin misiniz? Ayrıca arkadaş listenizden de kaldırılacaktır.",
+                    "silent_leave": "Sessizce Ayrıl",
+                    "members_not_notified": "Diğer üyeler bilgilendirilmeyecek"
                 },
                 "account": {
                     "change": {
@@ -559,7 +572,8 @@
                     "edit": "Düzenle",
                     "done": "Bitti",
                     "reset": "Sıfırla",
-                    "confirm": "Onayla"
+                    "confirm": "Onayla",
+                    "report": "Bildir"
                 },
                 "external_links": {
                     "title": "Harici bağlantılar tehlikeli olabilir!",
@@ -580,7 +594,7 @@
                     "attempting": "Güncellenmeye çalışılıyor..."
                 },
                 "changelogs": {
-                    "title": "Değişim günlüğü",
+                    "title": "Değişim Kayıtları",
                     "description": "Revolt güncellemeleri hakkında bilgi edinin.",
                     "older": "Eski güncellemelere bakın"
                 },
@@ -679,8 +693,8 @@
         "on": "Açık",
         "off": "Kapalı",
         "disabled": "Devre dışı",
-        "unavailable": "Kullanım dışı",
-        "learn_more": "Daha fazlasını öğrenin"
+        "unavailable": "Kullanımda değil",
+        "learn_more": "Daha fazla bilgi"
     },
     "login": {
         "title": "Giriş Yap",
@@ -916,6 +930,14 @@
         "DeafenMembers": {
             "t": "Üyeleri Sağırlaştır",
             "d": "Üyelerin, bir ses kanalında diğerlerini sağırlaştırmalarına izin verir."
+        },
+        "ManageCustomisation": {
+            "t": "Özelleştirmeyi Yönet",
+            "d": "Üyelerin emoji yaratma, düzenleme ve silmelerine izin verir."
+        },
+        "React": {
+            "t": "Tepki Kullan",
+            "d": "Üyelerin mesajlara tepki eklemesine izin verir."
         }
     }
 }

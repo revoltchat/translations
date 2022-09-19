@@ -1,27 +1,27 @@
 {
     "permissions": {
         "RemoveAvatars": {
-            "d": "Permite que os membros removam avatares de servidor dos outros membros neste servidor.",
+            "d": "Permite remover avatares de servidor dos outros membros.",
             "t": "Remover avatares"
         },
         "BanMembers": {
             "t": "Banir membros",
-            "d": "Permite que os membros removam permanentemente membros deste servidor."
+            "d": "Permite remover permanentemente membros deste servidor."
         },
         "KickMembers": {
-            "d": "Permite que os membros removam membros deste servidor. Membros expulsos poderão entrar novamente com um convite.",
+            "d": "Permite remover membros deste servidor. Membros expulsos poderão entrar novamente com um convite.",
             "t": "Expulsar membros"
         },
         "ManageServer": {
-            "d": "Permite que os membros alterem o nome, descrição, ícone e outras informações relacionadas com o servidor.",
+            "d": "Permite alterar o nome, descrição, ícone e outras informações relacionadas com o servidor.",
             "t": "Gerir servidor"
         },
         "ManageChannels": {
-            "d": "Permite que os membros criem, editem e eliminem canais.",
+            "d": "Permite criar, editar e eliminar canais.",
             "t": "Gerir canais"
         },
         "ChangeAvatar": {
-            "d": "Permite que os membros alterem o seu avatar de servidor neste servidor.",
+            "d": "Permite alterar o próprio avatar de servidor.",
             "t": "Alterar avatar"
         },
         "ManageNicknames": {
@@ -29,11 +29,11 @@
             "t": "Gerir alcunhas"
         },
         "ChangeNickname": {
-            "d": "Permite que os membros alterarem a sua alcunha neste servidor.",
+            "d": "Permite alterar a sua alcunha neste servidor.",
             "t": "Alterar alcunha"
         },
         "UploadFiles": {
-            "d": "Permite que os membros carreguem ficheiros nos canais de texto.",
+            "d": "Permite carregar ficheiros nos canais de texto.",
             "t": "Carregar ficheiros"
         },
         "EmbedLinks": {
@@ -41,7 +41,7 @@
             "t": "Incorporar ligações"
         },
         "InviteOthers": {
-            "d": "Permite que os membros convidem outros para um canal.",
+            "d": "Permite convidar outros utilizadores para um canal.",
             "t": "Convidar outros"
         },
         "VoiceCall": {
@@ -49,15 +49,15 @@
             "t": "Chamada de voz"
         },
         "ManageChannel": {
-            "d": "Permite que os membros editem ou eliminem um canal.",
+            "d": "Permite editar ou eliminar um canais.",
             "t": "Gerir canais"
         },
         "ManageMessages": {
-            "d": "Permite que os membros eliminem mensagens enviadas por outros membros.",
+            "d": "Permite eliminar mensagens enviadas por outros membros.",
             "t": "Gerir mensagens"
         },
         "SendMessage": {
-            "d": "Permite que os membros enviem mensagens nos canais de texto.",
+            "d": "Permite enviar mensagens nos canais de texto.",
             "t": "Enviar mensagens"
         },
         "Masquerade": {
@@ -65,11 +65,11 @@
             "d": "Permite que os membros alterem o seu nome e avatar em cada mensagem."
         },
         "ManageRole": {
-            "d": "Permite que os membros criem, editem e eliminem cargos inferiores aos seus. Permite, também, que estes alterem as permissões do cargo nos canais.",
+            "d": "Permite criar, editar e eliminar cargos inferiores aos próprios. Permite também alterar as permissões do cargo nos canais.",
             "t": "Gerir cargos"
         },
         "ViewChannel": {
-            "d": "Permite que os membros vejam qualquer canal que tenham esta permissão ativa.",
+            "d": "Permite ver qualquer canal no qual se tenha esta permissão ativa.",
             "t": "Ver canal"
         },
         "AssignRoles": {
@@ -77,8 +77,8 @@
             "t": "Atribuir Cargos"
         },
         "ReadMessageHistory": {
-            "t": "Ler Histórico de Mensagens",
-            "d": "Permite que membros leiam o histórico de mensagens deste canal."
+            "t": "Ler histórico de mensagens",
+            "d": "Permite ler o histórico de mensagens deste canal."
         },
         "SendEmbeds": {
             "t": "Enviar \"embutidos\"",
@@ -119,6 +119,14 @@
         "Connect": {
             "t": "Ligar",
             "d": "Permite ligar a um canal de voz."
+        },
+        "ManageCustomisation": {
+            "d": "Permite criar, editar e eliminar emojis.",
+            "t": "Gerir personalização"
+        },
+        "React": {
+            "t": "Usar reações",
+            "d": "Permite reagir a mensagens."
         }
     },
     "shortcuts": {
@@ -135,7 +143,7 @@
         "FailedToReceive": "O servidor não conseguiu receber o teu ficheiro.",
         "FileTooLarge": "Ficheiro demasiado grande.",
         "Unavailable": "Indisponível.",
-        "InvalidEmail": "Endereço de correio eletrónico inválido",
+        "InvalidEmail": "Endereço de e-mail inválido",
         "TooLong": "Demasiado longo",
         "TooShort": "Demasiado curto",
         "RequiredField": "Obrigatório",
@@ -149,9 +157,9 @@
         "InvalidInvite": "Código inválido",
         "MissingInvite": "Código de convite em falta no pedido.",
         "InvalidToken": "Testemunho inválido",
-        "InvalidCredentials": "Correio eletrónico ou palavra-passe incorretos.",
-        "EmailFailed": "Falha ao enviar correio eletrónico.",
-        "EmailInUse": "Correio eletrónico em utilização.",
+        "InvalidCredentials": "E-mail ou palavra-passe incorretos.",
+        "EmailFailed": "Falha ao enviar o e-mail.",
+        "EmailInUse": "Esse e-mail já está em uso.",
         "UnknownUser": "Utilizador desconhecido.",
         "UnverifiedAccount": "Conta não verificada.",
         "InvalidSession": "Sessão inválida.",
@@ -195,9 +203,9 @@
             "required": "Permissões necessárias"
         },
         "context_menu": {
-            "open_group_settings": "Configurações do grupo",
-            "open_server_settings": "Configurações do servidor",
-            "open_channel_settings": "Configurações do canal",
+            "open_group_settings": "Definições do grupo",
+            "open_server_settings": "Definições do servidor",
+            "open_channel_settings": "Definições do canal",
             "open_notification_options": "Opções de notificação",
             "create_invite": "Criar convite",
             "create_category": "Criar categoria",
@@ -238,14 +246,15 @@
             "message_user": "Enviar mensagem",
             "mention": "Mencionar",
             "copy_message_link": "Copiar ligação da mensagem",
-            "copy_mid": "Copiar ID de mensagem",
-            "copy_cid": "Copiar ID de canal",
-            "copy_sid": "Copiar ID de servidor",
-            "copy_uid": "Copiar ID de utilizador",
+            "copy_mid": "Copiar ID da mensagem",
+            "copy_cid": "Copiar ID do canal",
+            "copy_sid": "Copiar ID do servidor",
+            "copy_uid": "Copiar ID do utilizador",
             "copy_text": "Copiar texto",
             "copy_selection": "Copiar seleção",
             "copy_id": "Copiar ID",
-            "mark_unread": "Marcar como não lida"
+            "mark_unread": "Marcar como não lida",
+            "make_owner": "Transferir posse do grupo"
         },
         "special": {
             "invite": {
@@ -296,9 +305,9 @@
             },
             "modals": {
                 "actions": {
-                    "send_email": "Enviar correio eletrónico",
+                    "send_email": "Enviar e-mail",
                     "continue": "Continuar",
-                    "reload": "Recarregar a aplicação",
+                    "reload": "Recarregar aplicação",
                     "preview": "Pré-visualizar",
                     "cancel": "Cancelar",
                     "update": "Atualizar",
@@ -318,18 +327,19 @@
                     "ok": "Ok",
                     "done": "Feito",
                     "reset": "Repor",
-                    "confirm": "Confirmar"
+                    "confirm": "Confirmar",
+                    "report": "Reportar"
                 },
                 "external_links": {
                     "trust_domain": "Confiar neste domínio",
                     "title": "Ligações externos podem ser perigosas!",
-                    "short": "Tens certeza que queres ir para:"
+                    "short": "Tens a certeza que queres ir para:"
                 },
                 "account": {
                     "failed": "Falha ao alterar!",
                     "change": {
                         "password": "Alterar a tua palavra-passe",
-                        "email": "Alterar o teu correio eletrónico",
+                        "email": "Alterar o teu e-mail",
                         "username": "Alterar o teu nome de utilizador"
                     }
                 },
@@ -349,10 +359,12 @@
                     "confirm_close_dm_long": "Poderás reabri-la mais tarde mas irá desaparecer para ambos os lados.",
                     "confirm_close_dm": "Fechar a conversa com {{name}}?",
                     "confirm_leave_long": "Não poderás reentrar a menos que sejas convidado novamente.",
-                    "confirm_leave": "Sair de {{name}}?"
+                    "confirm_leave": "Sair de {{name}}?",
+                    "silent_leave": "Sair silenciosamente",
+                    "members_not_notified": "Os outros membros não serão notificados"
                 },
                 "onboarding": {
-                    "pick": "Escolhe um nome de utilizador pelo qual pretendes que as pessoas te consigam encontrar. Poderá ser alterado, mais tarde, nas configurações.",
+                    "pick": "Escolhe um nome de utilizador pelo qual pretendes que as pessoas te consigam encontrar. Poderá ser alterado, mais tarde, nas definições.",
                     "welcome": "Bem-vindo(a) a"
                 },
                 "token_reveal": "Testemunho (token) de {{name}}",
@@ -364,8 +376,8 @@
                 },
                 "error": "Ocorreu um erro!",
                 "sessions": {
-                    "short": "Você não pode desfazer esta ação.",
-                    "title": "Certeza que quer apagar todas as sessões?",
+                    "short": "Não podes desfazer esta ação.",
+                    "title": "Tens a certeza que queres apagar todas as sessões?",
                     "accept": "Remover todas as sessões"
                 },
                 "confirm": "Confirmar ação",
@@ -375,7 +387,7 @@
                     "enable_totp": "Ativar autenticador",
                     "prompt_totp": "Por favor, digitaliza o código ou utiliza o testemunho abaixo no teu autenticador.",
                     "enter_code": "Inserir código",
-                    "recovery_codes": "Visualizar códigos de recuperação",
+                    "recovery_codes": "Os teus códigos de recuperação",
                     "select_method": "Por favor, seleciona um método para autenticar o teu pedido."
                 },
                 "out_of_date": {
@@ -440,13 +452,13 @@
                     "interactions_url": "URL de interações",
                     "public_bot_desc": "Se permites ou não que outros utilizadores convidem este robô.",
                     "public_bot": "Robô público",
-                    "private_bot_tip": "Robô privado. Apenas tu poderás convidá-lo.",
-                    "public_bot_tip": "Robô público. Qualquer pessoa poderá convidá-lo.",
+                    "private_bot_tip": "Robô privado. Apenas tu podes convidá-lo.",
+                    "public_bot_tip": "Robô público. Qualquer pessoa pode convidá-lo.",
                     "token": "Testemunho (token)",
                     "add": "Adicionar robô",
                     "copy_invite": "Copiar link de convite",
-                    "unique_id": "Este é um identificador único para o teu robô. Não é o testemunho (token) do robô.",
-                    "profile": "Perfil de bot"
+                    "unique_id": "Este é um identificador único para o teu robô. Não é o seu testemunho (token).",
+                    "profile": "Perfil de robô"
                 },
                 "source_code": "Código-fonte",
                 "donate": {
@@ -478,8 +490,8 @@
                 },
                 "notifications": {
                     "sound": {
-                        "call_leave": "O utilizador saiu da chamada",
-                        "call_join": "O utilizador entrou na chamada",
+                        "call_leave": "Alguém saiu da chamada",
+                        "call_join": "Alguém entrou na chamada",
                         "outbound": "Mensagem enviada",
                         "message": "Mensagem recebida"
                     },
@@ -495,7 +507,7 @@
                 },
                 "appearance": {
                     "ligatures_desc": "Para os tipos de letra suportados, as ligaduras combinam caracteres, transformando, por exemplo, -> numa seta.",
-                    "ligatures": "Ligaduras de tipo de letra",
+                    "ligatures": "Ligaduras do tipo de letra",
                     "mono_font": "Seleção de tipo de letra monoespaçada",
                     "font": "Tipo de letra",
                     "sync": "Opções de sincronização",
@@ -525,10 +537,10 @@
                         "title": "Opções de temas",
                         "follow": "Seguir tema do sistema",
                         "follow_desc": "Quando selecionado, não será possível alterar o tema ou usar um tema personalizado.",
-                        "seasonal": "Tema Sazonal",
-                        "seasonal_desc": "Exibe efeitos no separador inicial durante as temporadas de férias.",
+                        "seasonal": "Tema sazonal",
+                        "seasonal_desc": "Exibe efeitos no separador inicial durante épocas festivas.",
                         "transparency": "Efeitos de transparência",
-                        "transparency_desc": "Ative efeitos de transparência em todo a aplicação."
+                        "transparency_desc": "Ativa efeitos de transparência em todo a aplicação."
                     },
                     "discover": {
                         "title": "Descobrir temas",
@@ -536,14 +548,14 @@
                     },
                     "appearance_options": {
                         "title": "Opções de aparência",
-                        "show_send": "Mostrar o butão \"Enviar mensagem\" sempre",
+                        "show_send": "Mostrar o botão \"Enviar mensagem\" sempre",
                         "show_send_desc": "Quando desativada, o botão de \"Enviar mensagem\" só aparecerá no telemóvel."
                     }
                 },
                 "audio": {
                     "output_device": "Colunas / Auscultadores",
                     "input_device": "Microfone",
-                    "title": "Configurações de voz",
+                    "title": "Definições de voz",
                     "device_label_NA": "N/D",
                     "tip_retry": "Não deste permissão para aceder ao teu microfone. Por favor, {{retryBtn}}.",
                     "button_retry": "tenta novamente",
@@ -595,7 +607,7 @@
                     "bug_desc": "Verifica aqui os relatórios de bugs ativos.",
                     "bug": "Rastreador de bugs",
                     "issue_desc": "Para nos ajudares a identificar problemas mais facilmente, podes abrir um problema no GitHub.",
-                    "issue": "Abrir um novo problema",
+                    "issue": "Abre um novo problema",
                     "suggest_desc": "Sugere novas funcionalidades para o Revolt nas discussões do GitHub.",
                     "suggest": "Enviar sugestão de funcionalidade",
                     "title": "Feedback",
@@ -612,7 +624,7 @@
                         "default": "Temas padrão",
                         "highest": "Melhor classificação"
                     },
-                    "search": "Encontre tópicos…",
+                    "search": "Encontre temas…",
                     "active": "Atualmente ativo",
                     "description": "Explore centenas de temas, criados e selecionados pela comunidade.",
                     "use": "Usar tema"
@@ -621,7 +633,7 @@
                     "title": "Extensões",
                     "wip": "Aviso: Esta funcionalidade ainda está em desenvolvimento.",
                     "delete_plugin": "Eliminar",
-                    "no_plugins": "Nenhuma extensão está instalada, de momento."
+                    "no_plugins": "De momento, não está nenhuma extensão instalada."
                 }
             },
             "actions": {
@@ -631,25 +643,25 @@
                 "edit": "Editar {{name}}"
             },
             "categories": {
-                "client_settings": "Configurações de cliente",
-                "user_settings": "Configurações de utilizador",
+                "client_settings": "Definições do cliente",
+                "user_settings": "Definições do utilizador",
                 "danger_zone": "Zona de Perigo"
             },
-            "title": "Configurações",
+            "title": "Definições",
             "permissions": {
                 "role_name": "Nome do cargo",
                 "create_role": "Criar um novo cargo",
                 "channel": "Permissões do canal",
                 "server": "Permissões do servidor",
-                "default_role": "Padrão",
-                "role_colour": "Cor do Cargo",
-                "role_options": "Opções do Cargo",
-                "delete_role": "Apagar Cargo",
-                "hoist_desc": "Exibir cargo acima de todos os outros.",
+                "default_role": "Base",
+                "role_colour": "Cor do cargo",
+                "role_options": "Opções do cargo",
+                "delete_role": "Apagar cargo",
+                "hoist_desc": "Exibir cargo acima doutros.",
                 "title": "Permissões para {{role}}",
-                "edit_title": "Editar Permissões",
-                "role_ranking": "Rankeamento do Cargo",
-                "hoist_role": "Elevar Cargo"
+                "edit_title": "Editar permissões",
+                "role_ranking": "Posição do cargo",
+                "hoist_role": "Destacar cargo"
             },
             "server_pages": {
                 "categories": {
@@ -683,6 +695,13 @@
                 },
                 "management": {
                     "title": "Gestão de utilizadores"
+                },
+                "customisation": {
+                    "title": "Personalização"
+                },
+                "emojis": {
+                    "title": "Emojis",
+                    "upload": "Carregar emoji"
                 }
             },
             "channel_pages": {
@@ -751,10 +770,11 @@
                     "failed_load": "Não foi possível carregar a mensagem.",
                     "spoiler_attachment": "Ocultado",
                     "jump_present": "Saltar para o presente",
-                    "viewing_old": "Estás a ver mensagens antigas",
+                    "viewing_old": "A ver mensagens antigas",
                     "jump_beginning": "Saltar para o começo",
                     "new_messages": "Novas mensagens desde {{time_ago}}",
-                    "load_file": "Carregar arquivo"
+                    "load_file": "Carregar arquivo",
+                    "timed_out": "Foste posto de castigo por {{time}}."
                 },
                 "voice": {
                     "unmute": "Não silenciar",
@@ -763,7 +783,7 @@
                     "connected": "Voz ligada"
                 },
                 "start": {
-                    "group": "Este é o início da tua conversa.",
+                    "group": "Este é o início da vossa conversa.",
                     "saved": "As tuas notas começam aqui."
                 },
                 "system": {
@@ -775,7 +795,8 @@
                     "user_banned": "{{user}} foi banido",
                     "user_kicked": "{{user}} foi expulso",
                     "user_left": "{{user}} saiu",
-                    "user_joined": "{{user}} entrou"
+                    "user_joined": "{{user}} entrou",
+                    "channel_ownership_changed": "{{from}} transferiu a posse do grupo para {{to}}"
                 },
                 "typing": {
                     "several": "Várias pessoas estão a escrever…",
@@ -789,15 +810,16 @@
                 "message_who": "Enviar mensagem a {{person}}",
                 "message_where": "Enviar mensagem em {{channel_name}}",
                 "errors": {
-                    "title": "Oops, não existe nada aqui!",
+                    "title": "Ups, não existe nada aqui!",
                     "nochannels": "Este servidor não possui canais, ou não tens acesso a nenhum deles.",
                     "nochannel": "Sem canais"
                 },
                 "reply": {
-                    "replying": "A responder a",
+                    "replying": "Em resposta a",
                     "toggle": "Comutar menção do autor"
                 },
-                "bridge": "ponte"
+                "bridge": "ponte",
+                "user_timed_out": "O utilizador foi posto de castigo por {{time}}."
             },
             "categories": {
                 "members": "Membros",
@@ -820,25 +842,25 @@
             "invisible": "Invisível",
             "busy": "Não incomodar",
             "idle": "Ausente",
-            "online": "Em linha",
-            "reconnect": "Reconectar"
+            "online": "Online",
+            "reconnect": "Religar"
         },
         "home": {
             "join-testers": "Entrar no servidor dos testadores",
-            "settings-tooltip": "Podes ainda carregar com o botão direito do rato no ícone de utilizador em cima e à esquerda, ou carregar com o botão direito se estiveres na página inicial.",
+            "settings-tooltip": "Podes ainda carregar com o botão direito do rato no ícone de utilizador no canto superior esquerdo, ou carregar com o esquerdo se estiveres na página inicial.",
             "feedback": "Deixar comentários sobre o Revolt",
-            "settings": "Abrir configurações",
+            "settings": "Abrir as definições",
             "social": "Encontrar servidores & robôs",
             "goto-testers": "Ir para o servidor de testadores",
             "donate": "Doar ao Revolt",
             "directs": "Mensagens Diretas",
             "join-testers_desc": "Aqui podes reportar problemas e discutir melhorias diretamente connosco.",
-            "feedback_desc": "Diz-nos como podemos melhorar a nossa aplicação, dando feedback.",
+            "feedback_desc": "Diz-nos como podemos melhorar a nossa aplicação, deixando um comentário.",
             "group_desc": "Convida todos os teus amigos, alguns robôs fixes e monta uma grande festa.",
-            "goto-testers_desc": "Podes reportar problemas e discutir melhorias diretamente connosco aqui.",
+            "goto-testers_desc": "Aqui podes reportar problemas e discutir melhorias diretamente connosco.",
             "donate_desc": "Apoia o projeto doando - obrigado!",
             "discover": "Descobrir o Revolt",
-            "discover_desc": "Encontra uma comunidade baseada nos teus hobbies e interesses.",
+            "discover_desc": "Encontra uma comunidade baseada nos teus hobbies ou interesses.",
             "group": "Criar um grupo"
         }
     },
@@ -853,10 +875,10 @@
         "open_mail_provider": "Abrir {{provider}}",
         "check_spam": "Por favor, verifica a tua pasta de spam caso não a encontres",
         "email_delay": "Por favor, aguarda até 10 minutos para que a mensagem chegue.",
-        "check_mail": "Verifica o teu correio eletrónico!",
+        "check_mail": "Verifica o teu e-mail!",
         "cancel": "Cancelar pedido",
         "resend": "Reenviar verificação",
-        "missing_verification": "Não recebeste um correio eletrónico?",
+        "missing_verification": "Não recebeste um e-mail?",
         "create": "Criar uma nova conta",
         "existing": "Já tens uma conta?",
         "new": "Novo(a) no Revolt?",
@@ -868,21 +890,21 @@
             "current_password": "Introduz a tua palavra-passe atual.",
             "invite": "Introduz o teu código de convite.",
             "password": "Introduz a tua palavra-passe.",
-            "email": "Por favor, introduza o seu correio eletrónico.",
+            "email": "Introduz o teu e-mail.",
             "username": "Introduz um nome de utilizador."
         },
         "password": "Palavra-passe",
         "current_password": "Palavra-passe atual",
         "invite": "Código de convite",
-        "email": "Correio eletrónico",
+        "email": "E-mail",
         "username": "Nome de utilizador",
         "register": "Registar",
-        "title": "Iniciar Sessão",
+        "title": "Iniciar sessão",
         "welcome2": "Olá!",
         "subtitle2": "Criar uma conta",
-        "welcome": "Bem-vindo de volta!",
+        "welcome": "Bem-vindo(a) de volta!",
         "subtitle": "Entrar no Revolt",
-        "unofficial_instance": "Instância independente.",
+        "unofficial_instance": "Instância de terceiros.",
         "totp": "Autenticador",
         "recovery": "Código de recuperação"
     },
@@ -896,6 +918,6 @@
         "privacy": "Política de Privacidade",
         "tos": "Termos de Serviço",
         "about": "Acerca de",
-        "learn_more": "Saber mais"
+        "learn_more": "Mais informação"
     }
 }

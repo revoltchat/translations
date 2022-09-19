@@ -47,6 +47,13 @@
                 },
                 "management": {
                     "title": "ユーザー管理"
+                },
+                "emojis": {
+                    "title": "絵文字",
+                    "upload": "絵文字のアップロード"
+                },
+                "customisation": {
+                    "title": "カスタマイズ"
                 }
             },
             "channel_pages": {
@@ -64,8 +71,8 @@
                 "feedback": {
                     "bug_desc": "現在進行中のバグレポートはこちら。",
                     "bug": "バグトラッカー",
-                    "issue_desc": "問題をより簡単に選別するために、GitHubでイシューを作成することができます。",
-                    "issue": "新規イシューの作成",
+                    "issue_desc": "問題をより簡単に選別するために、GitHubでIssueを作成することができます。",
+                    "issue": "新規Issueの作成",
                     "suggest_desc": "Revoltの新しい機能をGitHubのディスカッションで提案してみましょう。",
                     "suggest": "機能を提案する",
                     "title": "フィードバック",
@@ -171,6 +178,11 @@
                     "discover": {
                         "title": "テーマを探す",
                         "description": "コミュニティが作ったテーマをブラウズする"
+                    },
+                    "appearance_options": {
+                        "show_send": "送信ボタンを全ての端末で表示する",
+                        "show_send_desc": "オフの場合、送信ボタンはスマホでのみ表示されます。",
+                        "title": "外観の設定"
                     }
                 },
                 "audio": {
@@ -211,7 +223,13 @@
                         "remove_auth": "Authenticatorの削除",
                         "add_auth": "Authenticatorの追加",
                         "description": "あなたのアカウントで二要素認証を有効にすることで、さらにセキュリティを高めることができます。",
-                        "title": "2段階認証"
+                        "title": "2段階認証",
+                        "view_recovery": "リカバリコードを表示",
+                        "view_recovery_long": "2FA リカバリー コードを表示してダウンロードします。",
+                        "generate_recovery": "リカバリ コードの生成",
+                        "generate_recovery_long": "復元方法を設定して、二段階認証を使用する準備を整えます。",
+                        "two_factor_on": "現在、二要素認証を使用しています。",
+                        "two_factor_off": "現在、二要素認証を使っていません！"
                     },
                     "unique_id": "これは、あなたのアカウントに固有のユーザー識別子です。",
                     "change_field": "変更",
@@ -219,7 +237,7 @@
                 },
                 "theme_shop": {
                     "title": "テーマショップ",
-                    "by": "から:",
+                    "by": "作者:",
                     "search": "テーマ検索…",
                     "category": {
                         "saved": "保存したテーマ",
@@ -235,9 +253,9 @@
                 },
                 "plugins": {
                     "title": "プラグイン",
-                    "wip": "注意: この機能は開発中です。",
+                    "wip": "注意：この機能は現在開発中です。",
                     "delete_plugin": "削除",
-                    "no_plugins": "現在、プラグインはインストールされていません。"
+                    "no_plugins": "プラグインはインストールされていません。"
                 }
             },
             "actions": {
@@ -257,7 +275,15 @@
                 "server": "サーバー権限",
                 "channel": "チャンネル権限",
                 "create_role": "新規ロールの作成",
-                "role_name": "ロール名"
+                "role_name": "ロール名",
+                "role_colour": "ロールの色",
+                "role_ranking": "ロールの順序",
+                "title": "{{role}}の権限",
+                "edit_title": "権限を編集",
+                "delete_role": "ロールを削除",
+                "hoist_role": "掲げて表示",
+                "hoist_desc": "ユーザーリストの上部に表示します。",
+                "role_options": "ロール設定"
             }
         },
         "main": {
@@ -317,7 +343,9 @@
                     "jump_present": "最新のメッセージへ",
                     "viewing_old": "古いメッセージを表示しています",
                     "jump_beginning": "既読にする",
-                    "new_messages": "{{time_ago}}から新着メッセージ"
+                    "new_messages": "{{time_ago}}から新着メッセージ",
+                    "load_file": "ファイルを読み込み",
+                    "timed_out": "{{time}}でタイムアウトになりました。"
                 },
                 "voice": {
                     "unmute": "ミュートを解除",
@@ -338,7 +366,8 @@
                     "user_banned": "{{user}} がサーバーからBANされました",
                     "user_kicked": "{{user}} がサーバーからキックされました",
                     "user_left": "{{user}} がサーバーから離脱しました",
-                    "user_joined": "{{user}} がサーバーに参加しました"
+                    "user_joined": "{{user}} がサーバーに参加しました",
+                    "channel_ownership_changed": "{{from}} が {{to}} にグループの所有権を与えました"
                 },
                 "typing": {
                     "several": "複数人が入力中…",
@@ -359,7 +388,9 @@
                 "reply": {
                     "replying": "への返信:",
                     "toggle": "作成者への通知を切り替える"
-                }
+                },
+                "bridge": "ブリッジ",
+                "user_timed_out": "ユーザーは{{time}}でタイムアウトしました。"
             },
             "categories": {
                 "members": "メンバー",
@@ -422,7 +453,9 @@
                     "confirm_ban_reason": "BAN理由",
                     "unfriend_user": "{{name}}を削除しますか？",
                     "unfriend_user_long": "再追加するまで、彼らと会話ができなくなるかもしれません。",
-                    "block_user": "{{name}}をブロックしますか？"
+                    "block_user": "{{name}}をブロックしますか？",
+                    "silent_leave": "静かに退出",
+                    "members_not_notified": "他のメンバーには通知されません"
                 },
                 "account": {
                     "change": {
@@ -435,7 +468,7 @@
                 "actions": {
                     "block": "ブロック",
                     "reload": "再読み込み",
-                    "ok": "確認",
+                    "ok": "OK",
                     "ban": "BAN",
                     "kick": "キック",
                     "save": "保存",
@@ -452,7 +485,11 @@
                     "preview": "プレビュー",
                     "continue": "続ける",
                     "send_email": "メール送信",
-                    "edit": "編集"
+                    "edit": "編集",
+                    "report": "報告",
+                    "done": "完了",
+                    "confirm": "確認",
+                    "reset": "元に戻す"
                 },
                 "clipboard": {
                     "unavailable": "クリップボードを使用できません！",
@@ -461,10 +498,37 @@
                 },
                 "external_links": {
                     "title": "外部リンクは危険な場合があります！",
-                    "short": "本当に接続しますか：",
+                    "short": "本当にこのリンクを開きますか:",
                     "trust_domain": "このドメインを信頼する"
                 },
-                "token_reveal": "{{name}}のトークン"
+                "token_reveal": "{{name}}のトークン",
+                "out_of_date": {
+                    "ignore": "アップデートを無視する",
+                    "attempting": "アップデート試行中...",
+                    "title": "このクライアントは古いバージョンですよ！",
+                    "description": "最新の変更に対応するため、アップデートが必要です。",
+                    "version": "このクライアントのバージョンは {{client}} ですが、サーバーは {{server}} を要求しています。"
+                },
+                "sessions": {
+                    "title": "本当に全部のセッションを終了しますか?",
+                    "short": "この操作は元に戻せません。",
+                    "accept": "全てのセッションを終了する"
+                },
+                "confirm": "確認する",
+                "mfa": {
+                    "recovery_codes": "あなたの回復コード",
+                    "save_codes": "安全な場所に保存しておいてください。",
+                    "confirm": "選択された方法で確認してください。",
+                    "enter_code": "コード入力",
+                    "select_method": "要求を認証する方法を選んでください。",
+                    "enable_totp": "認証アプリを使えるようにする",
+                    "prompt_totp": "お使いの認証アプリで、下記のトークンをスキャンもしくは入力してください。"
+                },
+                "changelogs": {
+                    "title": "変更履歴",
+                    "description": "Revolt への更新について読む。",
+                    "older": "過去のアップデートを見る"
+                }
             },
             "popovers": {
                 "user_profile": {
@@ -515,7 +579,7 @@
                 "invited_by": "{{user}}による招待",
                 "login": "Revoltへのログイン",
                 "accept": "招待を受け取る",
-                "user_count": "{{member_count}}ユーザー",
+                "user_count": "ユーザー {{member_count}} 名",
                 "invalid_desc": "招待がないか、参加権限がありません。",
                 "invalid": "招待が無効です！"
             },
@@ -576,7 +640,8 @@
             "leave_server": "サーバーを離脱",
             "delete_server": "サーバーを削除",
             "delete_channel": "チャンネルを削除",
-            "mark_unread": "未読にする"
+            "mark_unread": "未読にする",
+            "make_owner": "所有権の付与"
         },
         "permissions": {
             "required": "権限が必要です"
@@ -611,7 +676,7 @@
         "open_mail_provider": "{{provider}} を開く",
         "check_spam": "見つからない場合は、迷惑メールフォルダーをご確認ください",
         "email_delay": "メールを受信するまで10分程度かかる場合があります。",
-        "check_mail": "メールチェック!",
+        "check_mail": "メールをチェック！",
         "cancel": "ログインをキャンセルする",
         "resend": "認証コードを再送信する",
         "missing_verification": "メールが届きませんでしたか？",
@@ -636,10 +701,13 @@
         "username": "ユーザー名",
         "register": "登録",
         "title": "ログイン",
-        "subtitle": "Revoltへ",
-        "welcome": "おかえり!",
+        "subtitle": "Revoltにサインイン",
+        "welcome": "おかえりなさい！",
         "subtitle2": "アカウントを作成",
-        "welcome2": "こんにちは！"
+        "welcome2": "こんにちは！",
+        "recovery": "リカバリーコード",
+        "totp": "二段階認証アプリ",
+        "unofficial_instance": "サードパーティ製のインスタンス。"
     },
     "general": {
         "unavailable": "利用不可",
@@ -650,7 +718,8 @@
         "about": "私達について",
         "image_by": "画像提供：",
         "on": "オン",
-        "off": "オフ"
+        "off": "オフ",
+        "learn_more": "もっと詳しく"
     },
     "error": {
         "FailedToReceive": "サーバーがあなたのファイルを受信できませんでした。",
@@ -659,7 +728,7 @@
         "Unauthorized": "未承認です。",
         "FailedValidation": "フィールドの検証に失敗しました。",
         "InternalError": "内部エラーが発生しました。",
-        "UnknownError": "コンソールを見てください。",
+        "UnknownError": "コンソールを参照してください。",
         "OperationFailed": "操作に失敗しました。",
         "RenderFail": "テンプレートのレンダリングに失敗しました。",
         "MissingHeaders": "ヘッダーがありません。",
@@ -672,7 +741,7 @@
         "InvalidInvite": "無効なコードです",
         "AlreadyOnboarded": "すでにオンボーディングを終えています。",
         "AlreadyFriends": "このユーザーとはすでに友達です。",
-        "AlreadySentRequest": "このユーザーに既にフレンドリクエストを送信済です。",
+        "AlreadySentRequest": "このユーザーには既にフレンドリクエストを送信済です。",
         "Blocked": "このユーザーをブロックしました。",
         "RequiredField": "必須",
         "TooShort": "短すぎます",
@@ -685,7 +754,7 @@
         "IoError": "サーバーにI/Oエラーが発生しました。",
         "DeniedNotification": "通知アクセスが拒否されたので、ページ設定を確認してください。",
         "CompromisedPassword": "このパスワードは漏洩しています。",
-        "Unlabelled": "何かが起こった。",
+        "Unlabelled": "何かが起こってしまいました。",
         "DatabaseError": "データベースエラーです。",
         "MissingPermission": "権限がありません。",
         "InvalidSession": "無効なセッションです。",
@@ -698,7 +767,7 @@
     },
     "permissions": {
         "ManageChannels": {
-            "d": "メンバーがチャンネルを作成、編集、削除することができます。",
+            "d": "メンバーにチャンネルを作成、編集、削除する権限を与えます。",
             "t": "チャンネルの管理"
         },
         "KickMembers": {
@@ -714,7 +783,7 @@
             "d": "メンバーがこのサーバー上の他のメンバーのサーバーアバターを削除することができます。"
         },
         "ManageServer": {
-            "d": "メンバーがこのサーバーの名前、説明、アイコンなどの情報を変更することができます。",
+            "d": "メンバーがこのサーバーの名前、説明、アイコンなどの情報を編集できるようにします。",
             "t": "サーバーの管理"
         },
         "BanMembers": {
@@ -723,11 +792,11 @@
         },
         "ChangeNickname": {
             "t": "ニックネームの変更",
-            "d": "メンバーがこのサーバーでのメンバーのニックネームの変更できるようにします。"
+            "d": "メンバーがこのサーバー上での自分のニックネームを変更できるようにします。"
         },
         "ChangeAvatar": {
             "t": "アバターの変更",
-            "d": "このサーバーでメンバーが自分のサーバーアバターを変更できるようにします。"
+            "d": "メンバーがこのサーバー上での自分のアバターを変更できるようにします。"
         },
         "SendMessage": {
             "d": "メンバーがテキストチャンネルでメッセージを送ることができます。",
@@ -768,6 +837,62 @@
         "ViewChannel": {
             "t": "チャンネルを見る",
             "d": "メンバーがこの権限を持っているチャンネルの閲覧を許可します。"
+        },
+        "ManageWebhooks": {
+            "t": "Webhookの管理",
+            "d": "このチャンネルに接続されたウェブフックの管理ができるようにします。"
+        },
+        "MuteMembers": {
+            "t": "メンバーをミュート",
+            "d": "音声チャネルで他のメンバーをミュートできるようにします。"
+        },
+        "React": {
+            "t": "リアクションの使用",
+            "d": "メッセージにリアクションを追加できるようにします。"
+        },
+        "Connect": {
+            "t": "接続",
+            "d": "音声チャンネルに接続できるようにします。"
+        },
+        "DeafenMembers": {
+            "d": "音声チャンネル内で、他のメンバーに音声が聞こえないようにすることができます。",
+            "t": "メンバーを聞こえなくする"
+        },
+        "ManageCustomisation": {
+            "t": "カスタマイズの管理",
+            "d": "メンバーにエモートを作成、編集、削除する権限を与えます。"
+        },
+        "TimeoutMembers": {
+            "d": "メンバーが、他のユーザーとサーバーとのやり取りを一時的に禁止することができるようにします。",
+            "t": "メンバーをタイムアウト"
+        },
+        "ReadMessageHistory": {
+            "d": "このチャンネルでこれまで送信されたメッセージの履歴を見えるようにします。",
+            "t": "メッセージ履歴を閲覧"
+        },
+        "Speak": {
+            "t": "発言する",
+            "d": "音声チャンネル内で自分の音声を発信できるようにします。"
+        },
+        "ManagePermissions": {
+            "t": "権限の管理",
+            "d": "メンバーが自分より低いランクのチャンネルとロールの権限を変更できるようにします。"
+        },
+        "AssignRoles": {
+            "d": "メンバーが、自分のランクより下のロールを、他のメンバーに追加できるようにします。",
+            "t": "ロールを付与する"
+        },
+        "SendEmbeds": {
+            "t": "埋め込み",
+            "d": "リンク内に含まれている埋め込みコンテンツを送信できるようにする。"
+        },
+        "Video": {
+            "t": "動画放送",
+            "d": "音声チャンネル内で動画を生配信できるようにします。"
+        },
+        "MoveMembers": {
+            "d": "他のメンバーを別の音声チャンネルに移動することができるようにします。",
+            "t": "メンバーの移動"
         }
     },
     "quantities": {
