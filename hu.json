@@ -107,7 +107,8 @@
                     "sent_multiple_files": "több csatolmányt küldött",
                     "jump_beginning": "ugrás az újakhoz",
                     "new_messages": "{{time_ago}} érkeztek új üzenetek",
-                    "load_file": "Fájl betöltése"
+                    "load_file": "Fájl betöltése",
+                    "timed_out": "{{time}}ig eltiltottak."
                 },
                 "notifications": {
                     "default": "Alapértelmezett használata",
@@ -140,7 +141,8 @@
                     "replying": "Neki válaszolsz:",
                     "toggle": "Értesítés küldése a válaszolásról"
                 },
-                "bridge": "híd"
+                "bridge": "híd",
+                "user_timed_out": "{{time}}ig el lett tiltva."
             },
             "groups": {
                 "name": "Csoportnév",
@@ -449,7 +451,8 @@
                     "title": "Felhasználók kezelése"
                 },
                 "emojis": {
-                    "title": "Emodzsik"
+                    "title": "Emodzsik",
+                    "upload": "Emodzsi feltöltése"
                 },
                 "customisation": {
                     "title": "Testreszabás"
@@ -516,7 +519,9 @@
                     "block_user": "Kizárod őt? „{{name}}”",
                     "unfriend_user": "Eltávolítod az ismerőseid közül őt? „{{name}}”",
                     "unfriend_user_long": "Nem fogsz tudni többé kapcsolatba lépni vele, amíg újból ismerősnek nem jelölöd.",
-                    "block_user_long": "Tényleg ki szeretnéd zárni {{name}} tagot? Az ismerőseid közül is törölve lesz."
+                    "block_user_long": "Tényleg ki szeretnéd zárni {{name}} tagot? Az ismerőseid közül is törölve lesz.",
+                    "members_not_notified": "A többi tag nem lesz értesítve",
+                    "silent_leave": "A hely feltűnés nélküli elhagyása"
                 },
                 "clipboard": {
                     "https": "Pillanatnyilag nem HTTPS-kapcsolat áll fent.",
@@ -566,9 +571,9 @@
                     "description": "A változások miatt frissítened kell, különben azok nem fognak működni!"
                 },
                 "changelogs": {
-                    "title": "Változások naplója",
-                    "description": "Olvass a Revolt frissítéseiről",
-                    "older": "Olvass régebbi frissítésekről"
+                    "title": "Változások",
+                    "description": "A Revolt újdonságai",
+                    "older": "A Revolt közelmúltbeli újdonságai"
                 }
             },
             "status": {
@@ -594,8 +599,8 @@
                 "user_profile": {
                     "no_groups": "nem vagytok közösen egy csoportban sem",
                     "no_users": "nincsenek közös ismerőseitek",
-                    "mutual_groups": "Közös csoportjaink",
-                    "mutual_friends": "Közös ismerőseink",
+                    "mutual_groups": "Csoportjaink",
+                    "mutual_friends": "Ismerőseink",
                     "profile": "Profil",
                     "badges": {
                         "early_adopter": "Pionír volt",
@@ -611,7 +616,7 @@
                         "badges": "Kitűzők"
                     },
                     "empty": "kicsit kong az ürességtől a tudnivalók rész",
-                    "mutual_servers": "Közös szervereink",
+                    "mutual_servers": "Szervereink",
                     "no_servers": "nem vagytok közösen egy szerveren sem"
                 },
                 "user_picker": {
@@ -884,8 +889,8 @@
             "t": "Engedélyek kezelése"
         },
         "Connect": {
-            "t": "Csatlakozás",
-            "d": "A tagok csatlakozhatnak hangcsatornához."
+            "t": "Hangcsatornához csatlakozhatnak",
+            "d": "A tagok hangcsatornához csatlakozhatnak."
         },
         "MuteMembers": {
             "d": "A tagok másokat is némíthatnak a hangcsatornában.",
@@ -926,6 +931,14 @@
         "SendEmbeds": {
             "t": "Beágyazott tartalmak küldése",
             "d": "A tagok linkekkel vagy egyéni, szöveges beágyazással küldhetnek beágyazott tartalmakat."
+        },
+        "ManageCustomisation": {
+            "d": "A tagok emodzsikat hozhatnak létre, szerkeszthetik és törölhetik azokat.",
+            "t": "Testreszabás kezelése"
+        },
+        "React": {
+            "t": "Üzenetekre reagálhatnak",
+            "d": "A tagok reagálhatnak az üzenetekre."
         }
     }
 }

@@ -1,7 +1,9 @@
 export enum Language {
     ENGLISH = "en",
+    ENGLISH_STUPEFIED = "en_US",
 
     ARABIC = "ar",
+    ASSAMESE = "as",
     AZERBAIJANI = "az",
     BELARUSIAN = "be",
     BULGARIAN = "bg",
@@ -50,6 +52,7 @@ export enum Language {
     VENETIAN = "vec",
     VIETNAMESE = "vi",
     CHINESE_SIMPLIFIED = "zh_Hans",
+    CHINESE_TRADITIONAL = "zh_Hant",
     LATVIAN = "lv",
 
     TOKIPONA = "tokipona",
@@ -71,6 +74,7 @@ export interface LanguageEntry {
     rtl?: boolean;
     cat?: "const" | "alt";
     verified?: boolean;
+    incomplete?: boolean;
 }
 
 export const Languages: { [key in Language]: LanguageEntry } = {
@@ -79,10 +83,21 @@ export const Languages: { [key in Language]: LanguageEntry } = {
         emoji: "🇬🇧",
         i18n: "en",
         dayjs: "en-gb",
-        verified: true,
+        
+    },
+    en_US: {
+        display: "English (Simplified)",
+        emoji: "🇺🇸",
+        i18n: "en_US",
+        dayjs: "en",
     },
 
     ar: { display: "عربي", emoji: "🇸🇦", i18n: "ar", rtl: true, verified: true },
+    as: {
+        display: "অসমীয়া",
+        emoji: "🇮🇳",
+        i18n: "as",
+    },
     az: { display: "Azərbaycan dili", emoji: "🇦🇿", i18n: "az" },
     be: { display: "беларуская", emoji: "🇧🇾", i18n: "be" },
     bg: { display: "български", emoji: "🇧🇬", i18n: "bg" },
@@ -94,7 +109,7 @@ export const Languages: { [key in Language]: LanguageEntry } = {
         emoji: "krd",
         i18n: "ckb",
         dayjs: "ku",
-        verified: true,
+        
     },
     cs: { display: "Čeština", emoji: "🇨🇿", i18n: "cs" },
     da: { display: "Danskers", emoji: "🇩🇰", i18n: "da" },
@@ -108,7 +123,7 @@ export const Languages: { [key in Language]: LanguageEntry } = {
         emoji: "🇵🇭",
         i18n: "fil",
         dayjs: "tl-ph",
-        verified: true,
+        
     },
     fr: { display: "Français", emoji: "🇫🇷", i18n: "fr", verified: true },
     ga: { display: "Gaeilge", emoji: "🇮🇪", i18n: "ga" },
@@ -132,7 +147,7 @@ export const Languages: { [key in Language]: LanguageEntry } = {
         emoji: "🇧🇷",
         i18n: "pt_BR",
         dayjs: "pt-br",
-        verified: true,
+        
     },
     pt_PT: {
         display: "Português (Portugal)",
@@ -157,6 +172,12 @@ export const Languages: { [key in Language]: LanguageEntry } = {
         display: "中文 (简体)",
         emoji: "🇨🇳",
         i18n: "zh_Hans",
+        dayjs: "zh",
+    },
+    zh_Hant: {
+        display: "繁體中文",
+        emoji: "🇹🇼",
+        i18n: "zh_Hant",
         dayjs: "zh",
     },
     lv: { display: "Latviešu", emoji: "🇱🇻", i18n: "lv", verified: true },

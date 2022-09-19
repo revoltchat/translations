@@ -9,7 +9,7 @@
         "off": "Off",
         "disabled": "Disabled",
         "unavailable": "Unavailable",
-        "learn_more": "Learn more"
+        "learn_more": "More information"
     },
     "login": {
         "title": "Login",
@@ -59,6 +59,7 @@
         "status": {
             "online": "Online",
             "idle": "Idle",
+            "focus": "Focus",
             "busy": "Do Not Disturb",
             "invisible": "Invisible",
             "offline": "Offline",
@@ -144,6 +145,7 @@
                     "spoiler_attachment": "Spoiler",
                     "failed_load": "Couldn't load message.",
                     "no_sending": "You don't have permission to send messages in this channel.",
+                    "timed_out": "You are timed out for {{time}}.",
                     "blocked_messages": "{{count}} blocked messages",
                     "blocked_user": "Blocked User",
                     "sent_file": "Sent an attachment",
@@ -161,6 +163,7 @@
                 "edited": "(edited)",
                 "bot": "bot",
                 "bridge": "bridge",
+                "user_timed_out": "User is timed out for {{time}}.",
                 "notifications": {
                     "default": "Use Default",
                     "all": "All Messages",
@@ -456,7 +459,8 @@
                     "title": "Categories"
                 },
                 "emojis": {
-                    "title": "Emojis"
+                    "title": "Emojis",
+                    "upload": "Upload Emoji"
                 }
             },
             "tips": {
@@ -545,7 +549,9 @@
                     "unfriend_user": "Remove {{name}}?",
                     "unfriend_user_long": "You may not be able to talk to them again until you add them back.",
                     "block_user": "Block {{name}}?",
-                    "block_user_long": "Are you sure you want to block {{name}}? They will also be removed from your friends list."
+                    "block_user_long": "Are you sure you want to block {{name}}? They will also be removed from your friends list.",
+                    "silent_leave": "Silently Leave",
+                    "members_not_notified": "Other members will not be notified"
                 },
                 "account": {
                     "change": {
@@ -804,6 +810,10 @@
             "t": "Manage Roles",
             "d": "Allows members to create, edit and delete roles with a lower rank than theirs. Also allows them to modify role permissions on channels."
         },
+        "ManageCustomisation": {
+            "t": "Manage Customisation",
+            "d": "Allows members to create, edit and delete emojis."
+        },
         "KickMembers": {
             "t": "Kick Members",
             "d": "Allows members to remove members from this server. Kicked members may rejoin with an invite."
@@ -875,6 +885,10 @@
         "Masquerade": {
             "t": "Masquerade",
             "d": "Allows members to change their name and avatar per-message."
+        },
+        "React": {
+            "t": "Use Reactions",
+            "d": "Allows members to react to messages."
         },
         "Connect": {
             "t": "Connect",

@@ -9,7 +9,7 @@
         "about": "Thông tin",
         "tos": "Điều Khoản Dịch Vụ",
         "unavailable": "Không khả dụng",
-        "learn_more": "Tìm hiểu thêm"
+        "learn_more": "Thông tin khác"
     },
     "login": {
         "title": "Đăng Nhập",
@@ -99,7 +99,8 @@
                     "channel_renamed": "{{user}} đã đổi tên kênh thành {{name}}",
                     "channel_description_changed": "{{user}} đã thay đổi mô tả của kênh",
                     "channel_icon_changed": "{{user}} đã thay đổi biểu tượng của kênh",
-                    "removed_by": "{{user}} đã bị loại bỏ bởi {{other_user}}"
+                    "removed_by": "{{user}} đã bị loại bỏ bởi {{other_user}}",
+                    "channel_ownership_changed": "Chuyển quyền sở hữu nhóm từ {{from}} sang {{to}}"
                 },
                 "start": {
                     "group": "Đây là khởi đầu của cuộc trò chuyện này.",
@@ -123,7 +124,8 @@
                     "no_sending": "Bạn không có quyền để gửi tin nhắn trong kênh này.",
                     "jump_beginning": "Nhảy đến đầu hội thoại",
                     "new_messages": "Tin nhắn mới kể từ {{time_ago}}",
-                    "load_file": "Tải file"
+                    "load_file": "Tải file",
+                    "timed_out": "Bạn đã bị hạn chế trong {{time}}."
                 },
                 "nsfw": {
                     "channel": {
@@ -159,9 +161,10 @@
                 },
                 "reply": {
                     "replying": "Đang phản hồi",
-                    "toggle": "Ping tác giả gốc"
+                    "toggle": "Đề cập tác giả gốc"
                 },
-                "bridge": "cầu nối"
+                "bridge": "cầu nối",
+                "user_timed_out": "Người dùng bị hạn chế trong {{time}}."
             },
             "groups": {
                 "create": "Tạo nhóm",
@@ -420,6 +423,13 @@
                 },
                 "management": {
                     "title": "Quản lý người dùng"
+                },
+                "customisation": {
+                    "title": "Tuỳ biến"
+                },
+                "emojis": {
+                    "title": "Emoji",
+                    "upload": "Tải lên Emoji"
                 }
             },
             "channel_pages": {
@@ -505,7 +515,9 @@
                     "confirm_ban_reason": "Lí Do Cấm",
                     "unfriend_user": "Xóa {{name}}?",
                     "block_user": "Chặn {{name}}?",
-                    "block_user_long": "Bạn có chắc muốn chặn {{name}}? Họ cũng sẽ bị xóa khỏi danh sách bạn của bạn."
+                    "block_user_long": "Bạn có chắc muốn chặn {{name}}? Họ cũng sẽ bị xóa khỏi danh sách bạn của bạn.",
+                    "silent_leave": "Rời Lặng Lẽ",
+                    "members_not_notified": "Các thành viên khác sẽ không nhận được thông báo"
                 },
                 "actions": {
                     "leave": "Rời khỏi",
@@ -530,7 +542,8 @@
                     "edit": "Chỉnh sửa",
                     "done": "Đã xong",
                     "reset": "Đặt lại",
-                    "confirm": "Xác nhận"
+                    "confirm": "Xác nhận",
+                    "report": "Báo cáo"
                 },
                 "error": "Đã xảy ra lỗi!",
                 "clipboard": {
@@ -549,7 +562,7 @@
                 },
                 "external_links": {
                     "trust_domain": "Tin tưởng tên miền này",
-                    "short": "Ban có chắc muốn đến:",
+                    "short": "Ban có chắc muốn chuyển hướng đến:",
                     "title": "Liên kết bên ngoài có thể rất nguy hiểm!!!"
                 },
                 "token_reveal": "Chữ kí số của {{name}}",
@@ -562,7 +575,8 @@
                     "title": "Ứng dụng của bạn đã quá cũ!",
                     "description": "Bạn cần phải cập nhật ứng dụng để tương thích với những cập nhật gần đây.",
                     "ignore": "Bỏ qua bản cập nhật",
-                    "attempting": "Đang cập nhật..."
+                    "attempting": "Đang cập nhật...",
+                    "version": "Ứng dụng của bạn là phiên bản {{client}}, nhưng máy chủ yêu cầu {{server}}."
                 },
                 "changelogs": {
                     "older": "Xem các cập nhật cũ hơn",
@@ -576,7 +590,8 @@
                     "confirm": "Hãy xác nhận sử dụng phương thức đã chọn.",
                     "select_method": "Hãy chọn một phương thức để xác thực yêu cầu của bạn.",
                     "enable_totp": "Dùng ứng dụng xác thực",
-                    "enter_code": "Nhập Mã"
+                    "enter_code": "Nhập Mã",
+                    "prompt_totp": "Vui lòng quét hoặc dùng token sau trong ứng dụng xác thực của bạn."
                 }
             },
             "popovers": {
@@ -681,14 +696,15 @@
             "create_category": "Tạo danh mục",
             "create_invite": "Tạo lời mời",
             "quote_message": "Trích dẫn tin nhắn",
-            "mark_unread": "Đánh dấu là chưa đọc"
+            "mark_unread": "Đánh dấu là chưa đọc",
+            "make_owner": "Trao quyền sở hữu nhóm"
         },
         "permissions": {
             "required": "Yêu cầu quyền"
         },
         "home": {
             "join-testers_desc": "Bạn có thể báo cáo các vấn đề và đóng góp ý kiến trực tiếp với chúng tôi tại đây.",
-            "goto-testers_desc": "Bạn có thể báo cáo các vấn đề và trao đổi về những cải tiến trực tiếp tại đây.",
+            "goto-testers_desc": "Bạn có thể báo cáo vấn đề và trao đổi về những cải tiến trực tiếp với chúng tôi tại đây.",
             "donate_desc": "Ủng hộ dự án bằng cách quyên góp - cảm ơn bạn!",
             "feedback_desc": "Giúp chúng tôi cải tiến bằng cách gửi phản hồi.",
             "discover": "Khám phá Revolt",
@@ -696,7 +712,7 @@
             "join-testers": "Tham gia máy chủ thử nghiệm",
             "goto-testers": "Tham gia máy chủ thử nghiệm",
             "donate": "Ủng hộ Revolt",
-            "feedback": "Phản hồi ý kiến cho Revolt",
+            "feedback": "Phản hồi cho Revolt",
             "settings": "Mở cài đặt",
             "settings-tooltip": "Bạn cũng có thể nhấp chuột phải vào biểu tượng người dùng ở trên cùng góc trái, hoặc nhấp chuột trái vào biểu tượng nếu bạn ở trang chủ.",
             "directs": "Tin Nhắn Trực Tiếp",
@@ -824,6 +840,14 @@
         "MoveMembers": {
             "d": "Cho phép thành viên di chuyển thành viên đến kênh thoại khác.",
             "t": "Di Chuyển Thành Viên"
+        },
+        "ManageCustomisation": {
+            "t": "Quản Lý Tuỳ Biến",
+            "d": "Cho phép các thành viên tạo, chỉnh sửa và xoá emoji."
+        },
+        "React": {
+            "t": "Sử Dụng Biểu Cảm",
+            "d": "Cho phép các thành viên thêm biểu cảm."
         }
     },
     "error": {

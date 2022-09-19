@@ -51,7 +51,8 @@
                     "sent_multiple_files": "Envió múltiples archivos",
                     "jump_beginning": "Saltar al principio",
                     "new_messages": "Nuevos mensajes desde {{time_ago}}",
-                    "load_file": "Cargar archivo"
+                    "load_file": "Cargar archivo",
+                    "timed_out": "Estás castigado durante {{time}}."
                 },
                 "notifications": {
                     "default": "Usar opciones por defecto",
@@ -84,7 +85,8 @@
                     "replying": "Respondiendo a",
                     "toggle": "Deshabilitar mención al autor"
                 },
-                "bridge": "Puente"
+                "bridge": "Puente",
+                "user_timed_out": "Usuario castigado durante {{time}}."
             },
             "categories": {
                 "members": "Miembros",
@@ -116,7 +118,7 @@
             "tabs": {
                 "dev": "Desarrollador",
                 "saved": "Notas guardadas",
-                "unreads": "Sin leer",
+                "unreads": "No leídos",
                 "home": "Inicio",
                 "friends": "Amigos"
             }
@@ -146,13 +148,13 @@
                     "change_field": "Cambiar",
                     "unique_id": "Este es un identificador de usuario único para tu cuenta.",
                     "2fa": {
-                        "title": "Autenticación en dos pasos",
+                        "title": "Autenticación de dos factores",
                         "add_auth": "Añadir autenticador",
                         "remove_auth": "Eliminar autenticador",
                         "description": "Agrega una capa adicional de seguridad activando la autenticación en dos pasos para tu cuenta.",
                         "view_recovery": "Ver códigos de recuperación",
                         "generate_recovery": "Generar códigos de recuperación",
-                        "generate_recovery_long": "Genera tus claves de recuperación y prepárate para habilitar la autenticación en dos pasos.",
+                        "generate_recovery_long": "Genera tus claves de recuperación y prepárate para habilitar la autenticación de dos factores.",
                         "view_recovery_long": "Ver y descargar sus códigos de recuperación A2F.",
                         "two_factor_on": "La autenticación de dos factores está actualmente activada.",
                         "two_factor_off": "¡No has habilitado la autenticación de dos factores!"
@@ -402,7 +404,8 @@
                     "title": "Gestión de usuarios"
                 },
                 "emojis": {
-                    "title": "Emojis"
+                    "title": "Emojis",
+                    "upload": "Subir emoji"
                 },
                 "customisation": {
                     "title": "Personalización"
@@ -516,7 +519,9 @@
                     "create_invite_created": "Aquí está tu nuevo código de invitación:",
                     "confirm_delete": "¿Eliminar {{name}}?",
                     "confirm_close_dm_long": "Puedes volver a abrirla más tarde, pero los mensajes enviados anteriormente se perderan para ambos.",
-                    "create_invite_generate": "Generando invitación…"
+                    "create_invite_generate": "Generando invitación…",
+                    "members_not_notified": "Los otros miembros no serán notificados",
+                    "silent_leave": "Abandonar sigilosamente"
                 },
                 "error": "¡Se ha producido un error!",
                 "actions": {
@@ -662,7 +667,7 @@
         },
         "home": {
             "join-testers": "Unirse al servidor de pruebas",
-            "goto-testers": "Servidor de pruebas beta",
+            "goto-testers": "Servidor de pruebas",
             "donate": "Donar a Revolt",
             "feedback": "Danos tu opinión sobre Revolt",
             "settings": "Abrir ajustes",
@@ -702,19 +707,19 @@
         "successful_registration": "¡Registro completado con éxito!",
         "open_mail_provider": "Abrir {{provider}}",
         "check_spam": "Por favor, revisa tu carpeta de spam si no encuentras el correo",
-        "check_mail": "¡Revisa tu bandeja de entrada!",
+        "check_mail": "¡Revisa tu correo electrónico!",
         "cancel": "Cancelar solicitud",
         "resend": "Reenviar verificación",
         "missing_verification": "¿No has recibido el correo de verificación?",
         "existing": "¿Ya tienes una cuenta?",
-        "remembered": "Regresar al inicio de sesión",
+        "remembered": "Volver al inicio de sesión",
         "set_password": "Establecer una nueva contraseña",
         "reset": "Restablecer contraseña",
         "current_password": "Contraseña actual",
         "invite": "Código de invitación",
         "username": "Nombre de usuario",
         "register": "Registrarse",
-        "email_delay": "El correo puede tardar hasta 10 minutos en llegar; por favor se paciente si no lo encuentras.",
+        "email_delay": "El correo puede tardar hasta 10 minutos en llegar, por favor se paciente si no lo encuentras.",
         "welcome": "¡Bienvenido de nuevo!",
         "subtitle": "Iniciar sesión en Revolt",
         "welcome2": "¡Hola!",
@@ -922,6 +927,14 @@
         "ReadMessageHistory": {
             "t": "Leer historial de mensajes",
             "d": "Permite a los miembros leer el historial de mensajes de este canal."
+        },
+        "ManageCustomisation": {
+            "t": "Administrar personalización",
+            "d": "Permite a los miembros crear, editar y eliminar emojis."
+        },
+        "React": {
+            "t": "Usar reacciones",
+            "d": "Permite a los miembros reaccionar a los mensajes."
         }
     },
     "shortcuts": {
