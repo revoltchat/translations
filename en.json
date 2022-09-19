@@ -70,7 +70,8 @@
                 "dev": "Developer",
                 "friends": "Friends",
                 "unreads": "Unreads",
-                "saved": "Saved Notes"
+                "saved": "Saved Notes",
+                "discover": "Discover"
             }
         },
         "home": {
@@ -226,7 +227,9 @@
                         "generate_recovery": "Generate Recovery Codes",
                         "generate_recovery_long": "Get ready to use 2FA by setting up a recovery method.",
                         "add_auth": "Add Authenticator",
+                        "add_long": "Set up time-based one-time password.",
                         "remove_auth": "Remove Authenticator",
+                        "remove_long": "Remove 2FA from your account.",
                         "two_factor_on": "Two-factor authentication is currently on.",
                         "two_factor_off": "You have not enabled two-factor authentication!"
                     },
@@ -234,7 +237,9 @@
                         "title": "Account Management",
                         "description": "Disable or delete your account at any time. This action will log you out and fully delete your account, including your chat history and friends.",
                         "disable": "Disable Account",
-                        "delete": "Mark Account for Deletion"
+                        "disable_long": "Disable your account. You won't be able to access it unless you contact support.",
+                        "delete": "Mark Account for Deletion",
+                        "delete_long": "Your account will be queued for deletion, a confirmation email will be sent."
                     }
                 },
                 "profile": {
@@ -262,7 +267,8 @@
                     "tip_grant_permission": "You need to grant permission to access audio settings.",
                     "device_label_NA": "N/A",
                     "button_retry": "retry",
-                    "button_grant": "Grant permission"
+                    "button_grant": "Grant permission",
+                    "audio_codec": "Audio codec powered by Opus"
                 },
                 "appearance": {
                     "title": "Appearance",
@@ -375,7 +381,11 @@
                     "profile": "Bot profile",
                     "public_bot_desc": "Whether to allow other users to invite this bot.",
                     "interactions_url": "Interactions URL",
-                    "reserved": "Note: This field is reserved for the future."
+                    "reserved": "Note: This field is reserved for the future.",
+                    "usage_policy": {
+                        "a": "By creating a bot, you are agreeing to the",
+                        "b": "Acceptable Usage Policy"
+                    }
                 },
                 "theme_shop": {
                     "title": "Theme Shop",
@@ -461,6 +471,14 @@
                 "sessions": {
                     "a": "If you see an unknown session on the list,",
                     "b": "secure your account by changing your password and using 2FA."
+                },
+                "profile": {
+                    "a": "Want to change your username?",
+                    "b": "Head over to your account settings."
+                },
+                "markdown": {
+                    "a": "Descriptions support Markdown formatting,",
+                    "b": "learn more here"
                 }
             },
             "permissions": {
