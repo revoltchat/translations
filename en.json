@@ -11,7 +11,12 @@
         "unavailable": "Unavailable",
         "learn_more": "More information"
     },
+    "generic": {
+        "please_wait": "Please wait…",
+        "contacting_server": "Contacting the server."
+    },
     "login": {
+        "captcha_title": "Are you human?",
         "title": "Login",
         "welcome": "Welcome back!",
         "subtitle": "Sign into Revolt",
@@ -574,6 +579,14 @@
                         "email": "Change your email",
                         "password": "Change your password"
                     },
+                    "delete": {
+                        "confirmation": "Confirmed deletion.",
+                        "long": {
+                            "a": "Your account will be deleted in 7 days.<br/>You may contact",
+                            "b": "Revolt support",
+                            "c": "to cancel the request if you wish."
+                        }
+                    },
                     "failed": "Failed to change!"
                 },
                 "mfa": {
@@ -644,6 +657,10 @@
                     "no_users": "No mutual friends",
                     "no_groups": "No mutual groups",
                     "no_servers": "No mutual servers",
+                    "friends": {
+                        "new_group": "Create Group",
+                        "add": "Add Friend"
+                    },
                     "sub": {
                         "badges": "Badges",
                         "information": "Information",
@@ -655,7 +672,9 @@
                         "supporter": "Supporter",
                         "moderation": "Platform Moderation",
                         "responsible_disclosure": "Responsibly Disclosed Bug(s)",
-                        "early_adopter": "Early Adopter"
+                        "early_adopter": "Early Adopter",
+                        "sus": "sus",
+                        "morbin_time": "It's Morbin Time"
                     }
                 },
                 "user_picker": {
@@ -669,6 +688,31 @@
                     "title": "Change identity on {{server}}",
                     "nickname": "Nickname",
                     "avatar": "Avatar"
+                },
+                "voice": {
+                    "leave_call": "Leave Call",
+                    "mute_self": "Mute microphone",
+                    "unmute_self": "Unmute microphone",
+                    "undeafen": "Undeafen",
+                    "deafen": "Deafen"
+                },
+                "footer": {
+                    "discover_revolt": "Discover Revolt",
+                    "add_server": "Add a server"
+                },
+                "message": {
+                    "reply": "Reply",
+                    "react": "React",
+                    "edit": "Edit",
+                    "delete": "Delete",
+                    "more": "More",
+                    "mark_unread": "Mark as unread",
+                    "copied": "Copied!",
+                    "copy_link": "Copy link",
+                    "copy_id": "Copy ID"
+                },
+                "misc": {
+                    "copy": "Copy to Clipboard"
                 }
             },
             "requires_online": "You need to be online to view this.",
