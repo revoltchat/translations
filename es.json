@@ -120,7 +120,8 @@
                 "saved": "Notas guardadas",
                 "unreads": "No leídos",
                 "home": "Inicio",
-                "friends": "Amigos"
+                "friends": "Amigos",
+                "discover": "Descubrir"
             }
         },
         "settings": {
@@ -157,13 +158,17 @@
                         "generate_recovery_long": "Genera tus claves de recuperación y prepárate para habilitar la autenticación de dos factores.",
                         "view_recovery_long": "Ver y descargar sus códigos de recuperación A2F.",
                         "two_factor_on": "La autenticación de dos factores está actualmente activada.",
-                        "two_factor_off": "¡No has habilitado la autenticación de dos factores!"
+                        "two_factor_off": "¡No has habilitado la autenticación de dos factores!",
+                        "add_long": "Establece una contraseña temporal de un solo uso",
+                        "remove_long": "Elimina la autenticación en dos pasos de tu cuenta"
                     },
                     "manage": {
                         "title": "Administrar cuenta",
                         "description": "Deshabilita o elimina tu cuenta en cualquier momento. Esta acción cerrará tu sesión y borrará por completo tu cuenta, incluyendo tu historial de chat y amigos.",
                         "disable": "Deshabilitar cuenta",
-                        "delete": "Marcar cuenta para eliminación"
+                        "delete": "Marcar cuenta para eliminación",
+                        "disable_long": "Deshabilita tu cuenta. No podrás volver a acceder hasta que hables con el equipo de soporte.",
+                        "delete_long": "Marca tu cuenta para que sea eliminada, recibirás un email para confirmar esta acción."
                     }
                 },
                 "donate": {
@@ -297,7 +302,11 @@
                     "copy_invite": "Copiar enlace de invitación",
                     "public_bot_desc": "Permitir o no que otros usuarios inviten a este bot.",
                     "unique_id": "Este es un identificador único para tu bot. No es el token del bot.",
-                    "profile": "Perfil del bot"
+                    "profile": "Perfil del bot",
+                    "usage_policy": {
+                        "a": "Al crear un bot estás aceptando nuestras",
+                        "b": "Políticas de Uso"
+                    }
                 },
                 "native": {
                     "title": "Opciones de escritorio"
@@ -310,7 +319,8 @@
                     "button_retry": "reintentar",
                     "tip_retry": "No diste permiso para acceder a tu micrófono, por favor {{retryBtn}}.",
                     "tip_grant_permission": "Se debe conceder permiso para acceder a los ajustes de audio.",
-                    "button_grant": "Conceder permiso"
+                    "button_grant": "Conceder permiso",
+                    "audio_codec": "Codec de audio proporcionado por Opus"
                 },
                 "theme_shop": {
                     "title": "Tienda de temas",
@@ -362,6 +372,14 @@
                 "sessions": {
                     "a": "Si ves una sesión desconocida en la lista,",
                     "b": "protege tu cuenta cambiando la contraseña y activando la autenticación de dos factores."
+                },
+                "profile": {
+                    "a": "¿Quieres cambiar tu nombre de usuario?",
+                    "b": "Ve a la configuración de tu cuenta."
+                },
+                "markdown": {
+                    "a": "Las descripciones soportan el uso de Markup,",
+                    "b": "aprende como aquí"
                 }
             },
             "actions": {
