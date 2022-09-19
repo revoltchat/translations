@@ -11,7 +11,12 @@
         "unavailable": "Unavailable",
         "learn_more": "More information"
     },
+    "generic": {
+        "please_wait": "Please wait…",
+        "contacting_server": "Contacting the server."
+    },
     "login": {
+        "captcha_title": "Are you human?",
         "title": "Login",
         "welcome": "Welcome back!",
         "subtitle": "Sign into Revolt",
@@ -71,7 +76,8 @@
                 "dev": "Developer",
                 "friends": "Friends",
                 "unreads": "Unreads",
-                "saved": "Saved Notes"
+                "saved": "Saved Notes",
+                "discover": "Discover"
             }
         },
         "home": {
@@ -230,7 +236,9 @@
                         "generate_recovery": "Generate Recovery Codes",
                         "generate_recovery_long": "Get ready to use 2FA by setting up a recovery method.",
                         "add_auth": "Add Authenticator",
+                        "add_long": "Set up time-based one-time password.",
                         "remove_auth": "Remove Authenticator",
+                        "remove_long": "Remove 2FA from your account.",
                         "two_factor_on": "Two-factor authentication is currently on.",
                         "two_factor_off": "You have not enabled two-factor authentication!"
                     },
@@ -238,7 +246,9 @@
                         "title": "Account Management",
                         "description": "Disable or delete your account at any time. This action will log you out and fully delete your account, including your chat history and friends.",
                         "disable": "Disable Account",
-                        "delete": "Mark Account for Deletion"
+                        "disable_long": "Disable your account. You won't be able to access it unless you contact support.",
+                        "delete": "Mark Account for Deletion",
+                        "delete_long": "Your account will be queued for deletion, a confirmation email will be sent."
                     }
                 },
                 "profile": {
@@ -266,7 +276,8 @@
                     "tip_grant_permission": "You need to grant permission to access audio settings.",
                     "device_label_NA": "N/A",
                     "button_retry": "retry",
-                    "button_grant": "Grant permission"
+                    "button_grant": "Grant permission",
+                    "audio_codec": "Audio codec powered by Opus"
                 },
                 "appearance": {
                     "title": "Appearance",
@@ -379,7 +390,11 @@
                     "profile": "Bot profile",
                     "public_bot_desc": "Whether to allow other users to invite this bot.",
                     "interactions_url": "Interactions URL",
-                    "reserved": "Note: This field is reserved for the future."
+                    "reserved": "Note: This field is reserved for the future.",
+                    "usage_policy": {
+                        "a": "By creating a bot, you are agreeing to the",
+                        "b": "Acceptable Usage Policy"
+                    }
                 },
                 "theme_shop": {
                     "title": "Theme Shop",
@@ -472,6 +487,14 @@
                 "sessions": {
                     "a": "If you see an unknown session on the list,",
                     "b": "secure your account by changing your password and using 2FA."
+                },
+                "profile": {
+                    "a": "Want to change your username?",
+                    "b": "Head over to your account settings."
+                },
+                "markdown": {
+                    "a": "Descriptions support Markdown formatting,",
+                    "b": "learn more here"
                 }
             },
             "permissions": {
@@ -556,6 +579,14 @@
                         "email": "Change your email",
                         "password": "Change your password"
                     },
+                    "delete": {
+                        "confirmation": "Confirmed deletion.",
+                        "long": {
+                            "a": "Your account will be deleted in 7 days.<br/>You may contact",
+                            "b": "Revolt support",
+                            "c": "to cancel the request if you wish."
+                        }
+                    },
                     "failed": "Failed to change!"
                 },
                 "mfa": {
@@ -626,6 +657,10 @@
                     "no_users": "No mutual friends",
                     "no_groups": "No mutual groups",
                     "no_servers": "No mutual servers",
+                    "friends": {
+                        "new_group": "Create Group",
+                        "add": "Add Friend"
+                    },
                     "sub": {
                         "badges": "Badges",
                         "information": "Information",
@@ -637,7 +672,9 @@
                         "supporter": "Supporter",
                         "moderation": "Platform Moderation",
                         "responsible_disclosure": "Responsibly Disclosed Bug(s)",
-                        "early_adopter": "Early Adopter"
+                        "early_adopter": "Early Adopter",
+                        "sus": "sus",
+                        "morbin_time": "It's Morbin Time"
                     }
                 },
                 "user_picker": {
@@ -651,6 +688,31 @@
                     "title": "Change identity on {{server}}",
                     "nickname": "Nickname",
                     "avatar": "Avatar"
+                },
+                "voice": {
+                    "leave_call": "Leave Call",
+                    "mute_self": "Mute microphone",
+                    "unmute_self": "Unmute microphone",
+                    "undeafen": "Undeafen",
+                    "deafen": "Deafen"
+                },
+                "footer": {
+                    "discover_revolt": "Discover Revolt",
+                    "add_server": "Add a server"
+                },
+                "message": {
+                    "reply": "Reply",
+                    "react": "React",
+                    "edit": "Edit",
+                    "delete": "Delete",
+                    "more": "More",
+                    "mark_unread": "Mark as unread",
+                    "copied": "Copied!",
+                    "copy_link": "Copy link",
+                    "copy_id": "Copy ID"
+                },
+                "misc": {
+                    "copy": "Copy to Clipboard"
                 }
             },
             "requires_online": "You need to be online to view this.",
