@@ -33,14 +33,14 @@ The following table shows languages and people enlisted for verifying certain la
 |🇪🇪|eesti / et|[@u032](https://github.com/u032)||
 |🇫🇮|suomi / fi|||
 |🇵🇭|Pilipino / fil|[@I2rys](https://github.com/I2rys)||
-|🇫🇷|Français / fr|[@Hades785](https://github.com/Hades785)||
+|🇫🇷|Français / fr|[@Hades785](https://github.com/Hades785)|[@RedNight-was-taken](https://github.com/RedNight-was-taken)|
 |🇮🇪|Gaeilge / ga|||
-|🇮🇳|हिन्दी / hi|||
+|🇮🇳|हिन्दी / hi|[@Infiniticity](https://github.com/Infiniticity)||
 |🇭🇷|Hrvatski / hr|||
 |🇭🇺|magyar / hu|[@f3rr31](https://github.com/f3rr31)||
 |🇮🇩|bahasa Indonesia / id|[@liimee](https://github.com/liimee)||
 |🇮🇹|Italiano / it|[@SingleSlice](https://github.com/SingleSlice)||
-|🇯🇵|日本語 / ja|[@weasles](https://github.com/weasles)||
+|🇯🇵|日本語 / ja|[@chelley](https://github.com/chelley)||
 |🇰🇷|한국어 / ko|||
 |🇱🇺|Lëtzebuergesch / lb|||
 |🇱🇹|Lietuvių / lt|[@ErnestasKaralius](https://github.com/ErnestasKaralius)||
@@ -51,7 +51,7 @@ The following table shows languages and people enlisted for verifying certain la
 |🇮🇷|فارسی / fa|[@DevEvil99](https://github.com/DevEvil99)||
 |🇵🇱|Polski / pl|[@jacekpoz](https://github.com/jacekpoz) [@Pawelek-dev](https://github.com/Pawelek-dev)||
 |🇧🇷|Português (do Brasil) / pt_BR|[@yanndere](https://github.com/yanndere)||
-|🇵🇹|Português (Portugal) / pt_PT|[@Tmpod](https://github.com/Tmpod)||
+|🇵🇹|Português (Portugal) / pt_PT|[@Tmpod](https://github.com/Tmpod)|[@SlicedBlueApple](https://github.com/SlicedBlueApple)|
 |🇷🇴|Română / ro||[@S703T](https://github.com/S703T)|
 |🇷🇺|Русский / ru|[@div2005](https://github.com/div2005)||
 |🇸🇰|Slovensky / sk|[@ShadowLp174](https://github.com/ShadowLp174)||
@@ -69,7 +69,7 @@ The following table shows languages and people enlisted for verifying certain la
 |🇹🇼|繁體中文 / zh_Hant|[@Zhuzi-ouo](https://github.com/Zhuzi-ouo)||
 |🇱🇻|Latviešu / lv|[@rMazeiks](https://github.com/rMazeiks)||
 |🙂|Toki Pona / tokipona|[@Gapva](https://github.com/Gapva)||
-|EO|Esperanto / esperanto|||
+|EO|Esperanto / esperanto|[@Fussmatte](https://github.com/Fussmatte)||
 |😸|OwO / owo|[@janderedev](https://github.com/janderedev) [@FanMclaine](https://github.com/FanMclaine)||
 |🏴‍☠️|Pirate / pr|||
 |🥺|Bottom / bottom|||

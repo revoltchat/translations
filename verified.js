@@ -29,5 +29,6 @@ export default [
 	"sk",
 	"tr",
 	"ja",
-	"eo"
+	"esperanto",
+	"hi"
 ]

@@ -18,6 +18,7 @@ export default [
 	"he",
 	"hi",
 	"hr",
+	"ko",
 	"la",
 	"lb",
 	"li",
