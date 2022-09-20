@@ -12,8 +12,9 @@
                     "channel_description_changed": "{{user}} cambió la descripción del canal",
                     "channel_icon_changed": "{{user}} cambió el icono de canal",
                     "user_kicked": "{{user}} fue expulsado",
-                    "user_banned": "{{user}} fue baneado",
-                    "channel_ownership_changed": "{{from}} ha hecho a {{to}} dueño del grupo"
+                    "user_banned": "{{user}} ha sido baneado",
+                    "channel_ownership_changed": "{{from}} ha hecho a {{to}} dueño del grupo",
+                    "registered_at": "Registrado a la {{time}}"
                 },
                 "message_where": "Enviar un mensaje en {{channel_name}}",
                 "bot": "Bot",
@@ -40,7 +41,7 @@
                     "unmute": "Quitar silencio"
                 },
                 "misc": {
-                    "viewing_old": "Viendo mensajes antiguos",
+                    "viewing_old": "Estás viendo mensajes antiguos",
                     "jump_present": "Ir al actual",
                     "spoiler_attachment": "Spoiler",
                     "blocked_messages": "{{count}} mensajes bloqueados",
@@ -49,7 +50,7 @@
                     "blocked_user": "Usuario Bloqueado",
                     "sent_file": "Envió un archivo",
                     "sent_multiple_files": "Envió múltiples archivos",
-                    "jump_beginning": "Saltar al principio",
+                    "jump_beginning": "Ir al principio",
                     "new_messages": "Nuevos mensajes desde {{time_ago}}",
                     "load_file": "Cargar archivo",
                     "timed_out": "Estás castigado durante {{time}}."
@@ -83,7 +84,7 @@
                 },
                 "reply": {
                     "replying": "Respondiendo a",
-                    "toggle": "Deshabilitar mención al autor"
+                    "toggle": "Mencionar al autor"
                 },
                 "bridge": "Puente",
                 "user_timed_out": "Usuario castigado durante {{time}}."
@@ -258,7 +259,9 @@
                     "appearance_options": {
                         "title": "Opciones de apariencia",
                         "show_send": "Mostrar siempre el botón de enviar mensaje",
-                        "show_send_desc": "Si está deshabilitado, el botón enviar mensaje solo aparecerá en dispositivos móviles."
+                        "show_send_desc": "Si está deshabilitado, el botón enviar mensaje solo aparecerá en dispositivos móviles.",
+                        "show_account_age": "Mostrar siempre la antiguedad de una cuenta junto a los mensajes de entrada",
+                        "show_account_age_desc": "Si se deshabilita, la antiguedad de la cuenta solo se mostrará para los nuevos usuarios."
                     }
                 },
                 "logOut": "Cerrar sesión",
