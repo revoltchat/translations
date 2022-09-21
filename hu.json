@@ -71,7 +71,8 @@
                     "channel_icon_changed": "{{user}} megváltoztatta a csatorna ikonját",
                     "user_banned": "{{user}} ki lett tiltva",
                     "user_kicked": "{{user}} ki lett rúgva",
-                    "channel_ownership_changed": "{{from}} átruházta a csoport tulajdonjogát {{to}} tagnak"
+                    "channel_ownership_changed": "{{from}} átruházta a csoport tulajdonjogát {{to}} tagnak",
+                    "registered_at": "{{time}}[-kor] regisztrált"
                 },
                 "typing": {
                     "several": "Többen is gépelnek…",
@@ -226,7 +227,9 @@
                     "appearance_options": {
                         "show_send": "Mindig látszódjon az üzenetküldő gomb",
                         "title": "Kinézet beállításai",
-                        "show_send_desc": "Ha nincs kipipálva, akkor az üzenetküldő gomb csak mobilon lesz látható."
+                        "show_send_desc": "Ha nincs kipipálva, akkor az üzenetküldő gomb csak mobilon lesz látható.",
+                        "show_account_age": "A fiók regisztrálási ideje mindig látszik a csatlakozási üzenetnél",
+                        "show_account_age_desc": "Ha nincs kipipálva, akkor a fiók regisztrálási ideje csak az új tagoknál látszik."
                     }
                 },
                 "logOut": "Kijelentkezés",
@@ -716,7 +719,8 @@
             "busy": "Ne zavard",
             "idle": "Nem csinál semmit",
             "online": "Online",
-            "reconnect": "Újracsatlakozás"
+            "reconnect": "Újracsatlakozás",
+            "focus": "Figyelek, ha megemlítesz"
         },
         "permissions": {
             "required": "Engedélyköteles"
