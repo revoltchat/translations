@@ -46,7 +46,9 @@
                     "appearance_options": {
                         "show_send": "Vždy zobraziť tlačidlo Odoslať správu",
                         "title": "Možnosti vzhľadu",
-                        "show_send_desc": "Ak je vypnuté, tlačidlo Odoslať správu sa zobrazí iba na mobile."
+                        "show_send_desc": "Ak je vypnuté, tlačidlo Odoslať správu sa zobrazí iba na mobile.",
+                        "show_account_age": "Vždy zobrazovať vek účtu vedľa správ o pripojení",
+                        "show_account_age_desc": "Ak je vypnuté, vek účtu sa zobrazí len pre nových používateľov."
                     }
                 },
                 "account": {
@@ -367,11 +369,12 @@
                     "user_kicked": "{{user}} bol vyhodený",
                     "user_left": "{{user}} odišiel",
                     "user_joined": "{{user}} prišiel",
-                    "channel_ownership_changed": "{{from}} dal {{to}} skupinové vlastníctvo"
+                    "channel_ownership_changed": "{{from}} dal {{to}} skupinové vlastníctvo",
+                    "registered_at": "Registrovaný {{time}}"
                 },
                 "typing": {
-                    "several": "Viacero ľudí píše…",
-                    "multiple": "{{userlist}} a {{user}} píše…",
+                    "several": "Niekoľko ľudí píše…",
+                    "multiple": "{{userlist}} a {{user}} píšu…",
                     "single": "{{user}} píše…"
                 },
                 "attached_file": "Priložené {{filename}}",
@@ -379,7 +382,7 @@
                 "uploading_file": "Nahráva sa …",
                 "message_saved": "Uložiť do poznámok",
                 "message_who": "Odoslať Správu {{person}}",
-                "message_where": "Správa {{channel_name}}",
+                "message_where": "Správa pre kanál {{channel_name}}",
                 "errors": {
                     "title": "Ups, nič tu nie je!",
                     "nochannels": "Tento server nemá žiadne kanály, alebo nemáš permisie na videnie.",
@@ -404,7 +407,7 @@
                 "saved": "Uložené poznámky",
                 "unreads": "Neprečítané",
                 "friends": "Priatelia",
-                "dev": "Vývojár",
+                "dev": "Výrobca",
                 "home": "Domov"
             }
         },
@@ -487,11 +490,11 @@
                 "token_reveal": "{{name}} Token",
                 "external_links": {
                     "trust_domain": "Dôverujte tejto doméne",
-                    "short": "Ste si istý že chcete ísť do:",
+                    "short": "Si si istý, že chceš ísť na:",
                     "title": "Externé odkazy môžu byť nebezpečné!"
                 },
                 "sessions": {
-                    "title": "Naozaj chcete vymazať svoje relácie?",
+                    "title": "Si si istý, že chceš vymazať svoje relácie?",
                     "short": "Túto akciu nemôžete vrátiť späť.",
                     "accept": "Odstráňte všetky relácie"
                 },
@@ -575,7 +578,7 @@
                 "offline": "Offline.",
                 "disconnected": "Odpojený.",
                 "connecting": "Pripájanie…",
-                "reconnecting": "Opätovné pripojenie…"
+                "reconnecting": "Pokúšam sa pripojiť…"
             },
             "invite": {
                 "invited_by": "Pozvaný používateľom {{user}}",
@@ -622,7 +625,7 @@
             "cancel_friend": "Zrušiť požiadavku",
             "custom_status": "Vlastný stav",
             "clear_status": "Vymaž stav",
-            "set_custom_status": "Nastavte vlastný stav",
+            "set_custom_status": "Nastaviť vlastný stav",
             "leave_group": "Opustit skupinu",
             "close_dm": "Zatvorit DM",
             "delete_server": "Odstrániť server",
@@ -648,16 +651,16 @@
             "required": "Vyžadujú sa povolenia"
         },
         "home": {
-            "donate": "Prispejte Revoltu",
+            "donate": "Prispieť na Revolt",
             "settings-tooltip": "Taktiež môžete kliknúť pravým tlačidlom myši na ikonu používateľa vľavo hore, alebo kliknúť ľavým tlačidlom ak už ste na domovskej stránke.",
             "feedback": "Dajte spätnú väzbu na Revolt",
             "settings": "Otvoriť nastavenia",
             "social": "Nájdite servery a botov",
             "join-testers": "Pripojte sa do serveru testerov",
-            "goto-testers": "Choďte do testers serveru",
+            "goto-testers": "Prejsť na server testerov",
             "discover_desc": "Nájdite komunitu na základe svojich koníčkov alebo záujmov.",
             "goto-testers_desc": "Tu môžete nahlásiť problémy a diskutovať o vylepšeniach.",
-            "donate_desc": "Podporte projekt príspevkom - ďakujem!",
+            "donate_desc": "Podporte projekt príspevkom - ďakujeme!",
             "discover": "Objavte Revolt",
             "group": "Vytvoriť Skupinu",
             "group_desc": "Pozvite všetkých svojich priateľov, pár cool robotov a usporiadajte veľkú párty.",
@@ -671,23 +674,23 @@
         "on": "Zapnuté",
         "about": "About",
         "unavailable": "Nedostupné",
-        "disabled": "Zakázané",
-        "loading": "Načítavanie…",
+        "disabled": "Vypnuté",
+        "loading": "Načítava sa…",
         "image_by": "Obrázok od",
-        "privacy": "Ochrana Osobných Údajov",
+        "privacy": "Zásady ochrany osobných údajov",
         "tos": "Podmienky Služby",
         "learn_more": "Viac informácií"
     },
     "login": {
         "error": {
-            "resend": "Nepodarilo sa odoslať znova!",
-            "reset": "Resetovanie zlyhalo!",
+            "resend": "Odoslanie sa nepodarilo!",
+            "reset": "Reset sa nepodaril!",
             "login": "Prihlásenie zlyhalo!",
             "create": "Registrácia zlyhala!"
         },
         "successful_registration": "Úspešne zaregistrovaný!",
         "open_mail_provider": "Otvoriť {{provider}}",
-        "check_spam": "Ak ho nemôžete nájsť, skontrolujte spam",
+        "check_spam": "Skontroluj spam, ak ju nemôžeš nájsť",
         "email_delay": "Doručenie môže trvať až 10 minút.",
         "check_mail": "Skontrolujte si email!",
         "cancel": "Zrušiť požiadavku",
@@ -695,8 +698,8 @@
         "missing_verification": "Nedostali ste email?",
         "create": "Vytvorte si nový účet",
         "existing": "Máte už účet?",
-        "new": "Začínate z Revoltom?",
-        "remembered": "Vrátiť sa späť na prihlásenie",
+        "new": "Nový v Revolte?",
+        "remembered": "Späť na prihlásenie",
         "set_password": "Nastaviť nové heslo",
         "forgot": "Zabudol si heslo?",
         "enter": {
@@ -704,22 +707,22 @@
             "invite": "Zadajte kód pozvánky.",
             "email": "Zadajte svoj email.",
             "password": "Zadajte svoje heslo.",
-            "username": "Zadajte vaše používateľské meno."
+            "username": "Zadajte preferované používateľské meno."
         },
         "current_password": "Aktuálne Heslo",
-        "invite": "Pozvánka",
+        "invite": "Kód pozvánky",
         "email": "Email",
         "username": "Používateľske Meno",
         "register": "Zaregistrovať",
         "title": "Prihlásiť sa",
-        "reset": "Restovať Heslo",
+        "reset": "Obnoviť heslo",
         "password": "Heslo",
         "subtitle2": "Vytvoriť učet",
         "welcome2": "Ahoj!",
         "welcome": "Vitaj späť!",
         "subtitle": "Prihlásiť sa do Revolt",
         "unofficial_instance": "Inštancia tretej strany.",
-        "totp": "Aplikácia Authenticator",
+        "totp": "Overovacia aplikácia",
         "recovery": "Obnovovací kód"
     },
     "error": {
