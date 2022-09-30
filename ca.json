@@ -53,7 +53,7 @@
         "privacy": "Política de Privacitat",
         "tos": "Termes de servei",
         "about": "Sobre",
-        "learn_more": "Aprèn més"
+        "learn_more": "Més informació"
     },
     "app": {
         "main": {
@@ -75,7 +75,8 @@
                     "channel_renamed": "{{user}} ha reanomenat el canal a {{name}}",
                     "channel_description_changed": "{{user}} ha camviat la descripció del canal",
                     "channel_icon_changed": "{{user}} ha cambiat la icona del canal",
-                    "channel_ownership_changed": "{{from}} ha donat a {{to}} la propietat del grup"
+                    "channel_ownership_changed": "{{from}} ha donat a {{to}} la propietat del grup",
+                    "registered_at": "Registrat {{time}}"
                 },
                 "misc": {
                     "viewing_old": "Mirant missatges antics",
@@ -89,7 +90,8 @@
                     "sent_multiple_files": "Ha enviat múltiples arxius adjunts",
                     "jump_beginning": "Torna al principi",
                     "new_messages": "Nous missatges des de llavors {{time_ago}}",
-                    "load_file": "Carregar arxiu"
+                    "load_file": "Carregar arxiu",
+                    "timed_out": "Estàs aïllat temporalment per {{time}}."
                 },
                 "message_where": "Envia un missatge a {{channel_name}}",
                 "message_who": "Enviar un missatge a {{person}}",
@@ -145,7 +147,8 @@
                     "replying": "Responent a",
                     "toggle": "Alterar menció al autor"
                 },
-                "bridge": "pont"
+                "bridge": "pont",
+                "user_timed_out": "L'usuari està aïllat temporalment per {{time}}."
             },
             "groups": {
                 "create": "Crear un grup",
@@ -173,7 +176,8 @@
             "busy": "No Molestar",
             "invisible": "Invisible",
             "offline": "Desconnectat",
-            "reconnect": "Reconnecta"
+            "reconnect": "Reconnecta",
+            "focus": "Mode de concentració"
         },
         "navigation": {
             "tabs": {
@@ -253,7 +257,9 @@
                     "appearance_options": {
                         "show_send_desc": "Si està desactivat, el botó Enviar missatge només apareixerà al mòbil.",
                         "title": "Opcions d'aparença",
-                        "show_send": "Mostra sempre el botó Envia missatge"
+                        "show_send": "Mostra sempre el botó Envia missatge",
+                        "show_account_age": "Mostra sempre l'edat del compte al costat dels missatges d'unió",
+                        "show_account_age_desc": "Si està desactivat, l'edat del compte només es mostrarà per als usuaris nous."
                     }
                 },
                 "profile": {
@@ -426,7 +432,8 @@
                     "title": "Personalització"
                 },
                 "emojis": {
-                    "title": "Emojis"
+                    "title": "Emojis",
+                    "upload": "Puja emoji"
                 }
             },
             "tips": {
@@ -509,7 +516,11 @@
                     "preview": "Vista prèvia",
                     "reload": "Recarregar l'app",
                     "continue": "Continuar",
-                    "send_email": "Enviar correu"
+                    "send_email": "Enviar correu",
+                    "reset": "Reinicia",
+                    "done": "Fet",
+                    "report": "Reporta",
+                    "confirm": "Confirma"
                 },
                 "clipboard": {
                     "copy": "Copia Manual:",
@@ -532,7 +543,9 @@
                     "unfriend_user": "Eliminar {{name}}?",
                     "unfriend_user_long": "Potser no podràs tornar a parlar amb ells fins que els tornis a afegir.",
                     "block_user": "Bloquejar {{name}}?",
-                    "block_user_long": "Estas segur que vols bloquejar a {{name}}? També es treuran de la llista d'amics."
+                    "block_user_long": "Estas segur que vols bloquejar a {{name}}? També es treuran de la llista d'amics.",
+                    "members_not_notified": "No es notificarà als altres membres",
+                    "silent_leave": "Surt silenciosament"
                 },
                 "account": {
                     "change": {
@@ -557,9 +570,26 @@
                 },
                 "mfa": {
                     "recovery_codes": "Els vostres codis de recuperació",
-                    "save_codes": "Deseu-los en un lloc segur."
+                    "save_codes": "Deseu-los en un lloc segur.",
+                    "confirm": "Confirmeu l'ús del mètode seleccionat.",
+                    "select_method": "Seleccioneu un mètode per a autenticar la vostra petició.",
+                    "enable_totp": "Activa l'aplicació d'autenticació",
+                    "prompt_totp": "Escanegeu o utilitzeu el token següent a l'aplicació d'autenticació.",
+                    "enter_code": "Introduïu el codi"
                 },
-                "confirm": "Confirmeu l'acció"
+                "confirm": "Confirmeu l'acció",
+                "out_of_date": {
+                    "title": "El vostre client no està actualitzat!",
+                    "description": "Ha de ser actualitzat per a poder usar els canvis recents.",
+                    "version": "El vostre client és a {{client}}, mentre que el servidor requereix {{server}}.",
+                    "ignore": "Ignora l'actualització",
+                    "attempting": "S'està intentant actualitzar..."
+                },
+                "changelogs": {
+                    "title": "Registres de canvis",
+                    "description": "Llegiu sobre les actualitzacions de Revolt.",
+                    "older": "Mostra les actualitzacions més antigues"
+                }
             },
             "popovers": {
                 "user_profile": {
@@ -670,7 +700,8 @@
             "open_channel_settings": "Configuració del canal",
             "open_server_settings": "Configuració del servidor",
             "quote_message": "Citar missatge",
-            "mark_unread": "Marcar com no llegit"
+            "mark_unread": "Marcar com no llegit",
+            "make_owner": "Doneu la propietat del grup"
         },
         "permissions": {
             "required": "Permisos requerits"
@@ -858,6 +889,14 @@
         "MoveMembers": {
             "t": "Moure els membres",
             "d": "Permet als membres moure altres entre canals de veu."
+        },
+        "ManageCustomisation": {
+            "t": "Gestiona personalització",
+            "d": "Permet als membres crear, editar i suprimir emojis."
+        },
+        "React": {
+            "d": "Permet als membres reaccionar als missatges.",
+            "t": "Utilitza reaccions"
         }
     },
     "quantities": {
