@@ -174,14 +174,14 @@
                 },
                 "theme_shop": {
                     "title": "主題商店",
-                    "description": "瀏覽由他人建立的數百個主題。",
+                    "description": "瀏覽由社群建立並精心挑選的數百個主題。",
                     "search": "搜尋主題…",
                     "category": {
                         "manage": "管理已儲存",
                         "saved": "已儲存",
                         "highest": "最高評分",
                         "default": "預設主題",
-                        "viewall": "查看所有",
+                        "viewall": "查看全部",
                         "new": "本周最新"
                     },
                     "use": "使用主題",
@@ -189,9 +189,9 @@
                     "by": "來自"
                 },
                 "plugins": {
-                    "wip": "警告：此功能仍在開發階段。",
-                    "no_plugins": "當前未安裝任何插件。",
-                    "title": "外掛程式",
+                    "wip": "警告：此功能仍在開發中。",
+                    "no_plugins": "目前沒有安裝任何插件。",
+                    "title": "插件",
                     "delete_plugin": "刪除"
                 }
             },
@@ -208,17 +208,17 @@
             },
             "title": "設定",
             "permissions": {
-                "role_name": "角色名稱",
-                "create_role": "新建角色",
+                "role_name": "身份組名稱",
+                "create_role": "新建身分組",
                 "channel": "頻道權限",
                 "server": "伺服器權限",
                 "default_role": "預設",
-                "role_ranking": "角色等級",
-                "hoist_desc": "將此角色顯示在其他角色之上。",
-                "role_colour": "角色顏色",
-                "role_options": "角色選項",
-                "delete_role": "刪除角色",
-                "hoist_role": "提升角色",
+                "role_ranking": "身分組等級",
+                "hoist_desc": "將此身分組顯示在其他身分組之上。",
+                "role_colour": "身分組顏色",
+                "role_options": "身分組選項",
+                "delete_role": "刪除身分組",
+                "hoist_role": "提升身分組",
                 "title": "{{role}} 的權限",
                 "edit_title": "編輯權限"
             },
@@ -241,7 +241,7 @@
                     "title": "類別"
                 },
                 "roles": {
-                    "title": "角色"
+                    "title": "身分組"
                 },
                 "bans": {
                     "no_reason": "無封鎖原因。",
@@ -865,7 +865,7 @@
             "d": "允許成員查看此伺服器上的所有頻道。"
         },
         "ManagePermissions": {
-            "d": "允許成員更改等級低於自己的頻道與角色的權限。",
+            "d": "允許成員更改等級低於自己的頻道與身分組的權限。",
             "t": "管理權限"
         },
         "TimeoutMembers": {
@@ -873,8 +873,8 @@
             "d": "允許成員臨時阻止使用者與此伺服器互動。"
         },
         "AssignRoles": {
-            "d": "允許成員向其他成員分配低於自己的角色。",
-            "t": "分配角色"
+            "d": "允許成員向其他成員分配低於自己的身分組。",
+            "t": "分配身分組"
         },
         "ManageWebhooks": {
             "d": "允許成員控制頻道內的 Webhook。",
