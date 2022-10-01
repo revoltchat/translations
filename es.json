@@ -78,9 +78,9 @@
                     "title": "Buscar"
                 },
                 "errors": {
-                    "title": "¡Vaya, no hay nada aquí!",
+                    "title": "¡Ups, no hay nada aquí!",
                     "nochannels": "Este servidor no tiene canales o no tienes acceso a ninguno.",
-                    "nochannel": "No hay canal"
+                    "nochannel": "Canal inexistente"
                 },
                 "reply": {
                     "replying": "Respondiendo a",
@@ -104,7 +104,7 @@
             "servers": {
                 "text_channel": "Canal de texto",
                 "voice_channel": "Canal de voz",
-                "channel_type": "Tipo de canal",
+                "channel_type": "Tipo del canal",
                 "create": "Crear servidor",
                 "name": "Nombre del servidor",
                 "description": "Descripción del servidor",
@@ -141,7 +141,7 @@
                     "this_device": "Este dispositivo",
                     "title": "Sesiones",
                     "active_sessions": "Sesiones activas",
-                    "created": "Creado hace {{time_ago}}",
+                    "created": "Creado {{time_ago}}",
                     "logout": "Cerrar sesión en todas las otras sesiones"
                 },
                 "account": {
@@ -156,12 +156,12 @@
                         "view_recovery": "Ver códigos de recuperación",
                         "generate_recovery": "Generar códigos de recuperación",
                         "generate_recovery_long": "Genera tus claves de recuperación y prepárate para habilitar la autenticación de dos factores.",
-                        "view_recovery_long": "Ver y descargar sus códigos de recuperación A2F.",
-                        "two_factor_on": "La autenticación de dos factores está actualmente activada.",
+                        "view_recovery_long": "Mira y descarga tus códigos de recuperación A2F.",
+                        "two_factor_on": "La autenticación de dos factores está activada.",
                         "two_factor_off": "¡No has habilitado la autenticación de dos factores!"
                     },
                     "manage": {
-                        "title": "Administrar cuenta",
+                        "title": "Administración de la cuenta",
                         "description": "Deshabilita o elimina tu cuenta en cualquier momento. Esta acción cerrará tu sesión y borrará por completo tu cuenta, incluyendo tu historial de chat y amigos.",
                         "disable": "Deshabilitar cuenta",
                         "delete": "Marcar cuenta para eliminación"
@@ -181,7 +181,7 @@
                         "enable_sound": "Habilita esto para reproducir sonido cuando te llegue un mensaje.",
                         "enable_push": "Habilita esto para recibir notificaciones cuando estés desconectado.",
                         "enable_outgoing_sound": "Habilita esto para reproducir sonido cuando envíes un mensaje.",
-                        "enable_desktop": "Esto te enviará notificaciones cuando la app este abierta."
+                        "enable_desktop": "Esto te enviará notificaciones cuando la app esté abierta."
                     },
                     "title": "Notificaciones",
                     "enable_push": "Habilitar notificaciones push.",
@@ -193,12 +193,12 @@
                     "sound": {
                         "message": "Mensaje recibido",
                         "outbound": "Mensaje enviado",
-                        "call_join": "Un usuario se ha unido a la llamada",
-                        "call_leave": "Un usuario ha abandonado la llamada"
+                        "call_join": "Usuario se une a la llamada",
+                        "call_leave": "Usuario abandona la llamada"
                     }
                 },
                 "feedback": {
-                    "title": "Sugerencias",
+                    "title": "Comentarios",
                     "report": "Qué te gustaría reportar?",
                     "bug": "Rastreador de errores",
                     "send": "Enviar sugerencias",
@@ -215,8 +215,8 @@
                 "appearance": {
                     "theme_data": "Datos de tema",
                     "emoji_pack": "Paquete de emojis",
-                    "overrides": "Cambiar tema",
-                    "reset_overrides": "Restablecer cambios",
+                    "overrides": "Anulaciones de tema",
+                    "reset_overrides": "Restablecer anulaciones",
                     "export_clipboard": "Exportar al portapapeles",
                     "import_clipboard": "Importar desde portapapeles",
                     "title": "Apariencia",
@@ -224,7 +224,7 @@
                         "default": "Por defecto",
                         "compact": "Compacto",
                         "default_description": "Bonito, elegante y moderno.",
-                        "compact_description": "Buen viejo IRC."
+                        "compact_description": "El viejo IRC."
                     },
                     "accent_selector": "Color de acento",
                     "import_manual": "Importar manualmente",
@@ -233,18 +233,18 @@
                         "light": "claro",
                         "dark": "oscuro"
                     },
-                    "message_display": "Vista de mensajes",
+                    "message_display": "Visualización de mensajes",
                     "custom_css": "CSS personalizado",
                     "sync": "Sincronizar opciones",
                     "advanced": "Opciones avanzadas",
-                    "import_theme": "Importar tema desde línea de texto",
+                    "import_theme": "Importar tema desde texto",
                     "font": "Fuente",
                     "ligatures": "Ligaduras de fuentes",
-                    "mono_font": "Selector de fuente monoespaciado",
+                    "mono_font": "Selector de fuente monoespaciada",
                     "ligatures_desc": "En los tipos de letra compatibles, las ligaduras combinan caracteres, por ejemplo, convirtiendo -> en una flecha.",
                     "import": "Importar un tema",
                     "theme_options": {
-                        "follow_desc": "Cuando este marcada no podrás cambiar el tema ni usar un tema personalizado.",
+                        "follow_desc": "Cuando esté marcada, no podrás cambiar el tema ni usar un tema personalizado.",
                         "seasonal": "Tema estacional",
                         "seasonal_desc": "Mostrar efectos en la pestaña de inicio durante las temporadas festivas.",
                         "follow": "Seguir el tema del sistema",
@@ -254,12 +254,12 @@
                     },
                     "discover": {
                         "title": "Descubrir temas",
-                        "description": "Descubre los temas creados por la comunidad"
+                        "description": "Descubre temas creados por la comunidad"
                     },
                     "appearance_options": {
                         "title": "Opciones de apariencia",
                         "show_send": "Mostrar siempre el botón de enviar mensaje",
-                        "show_send_desc": "Si está deshabilitado, el botón enviar mensaje solo aparecerá en dispositivos móviles.",
+                        "show_send_desc": "Si está deshabilitado, el botón de enviar mensaje solo aparecerá en dispositivos móviles.",
                         "show_account_age": "Mostrar siempre la antiguedad de una cuenta junto a los mensajes de entrada",
                         "show_account_age_desc": "Si se deshabilita, la antiguedad de la cuenta solo se mostrará para los nuevos usuarios."
                     }
@@ -295,15 +295,15 @@
                     "public_bot_tip": "El bot es público. Cualquiera puede invitarlo.",
                     "private_bot_tip": "El bot es privado. Solo tú puedes invitarlo.",
                     "public_bot": "Bot público",
-                    "interactions_url": "Interacciones de URL",
-                    "reserved": "Nota: Este campo está reservado para el futuro.",
+                    "interactions_url": "URL de interacciones",
+                    "reserved": "Nota: este campo está reservado para el futuro.",
                     "copy_invite": "Copiar enlace de invitación",
                     "public_bot_desc": "Permitir o no que otros usuarios inviten a este bot.",
                     "unique_id": "Este es un identificador único para tu bot. No es el token del bot.",
                     "profile": "Perfil del bot"
                 },
                 "native": {
-                    "title": "Opciones de escritorio"
+                    "title": "Ajustes de escritorio"
                 },
                 "audio": {
                     "title": "Ajustes de voz",
@@ -333,7 +333,7 @@
                 },
                 "plugins": {
                     "title": "Complementos",
-                    "wip": "Advertencia: Esta característica sigue en desarrollo.",
+                    "wip": "Advertencia: esta característica aún está en desarrollo.",
                     "delete_plugin": "Eliminar",
                     "no_plugins": "No hay complementos instalados."
                 }
@@ -341,7 +341,7 @@
             "categories": {
                 "user_settings": "Ajustes de usuario",
                 "client_settings": "Configuración del cliente",
-                "danger_zone": "Zona Peligrosa"
+                "danger_zone": "Zona peligrosa"
             },
             "channel_pages": {
                 "overview": {
@@ -370,7 +370,7 @@
             "actions": {
                 "remove": "Borrar",
                 "upload": "Subir",
-                "max_filesize": "(tamaño maximo {{filesize}})",
+                "max_filesize": "(tamaño máximo {{filesize}})",
                 "edit": "Editar {{name}}"
             },
             "server_pages": {
