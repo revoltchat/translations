@@ -46,7 +46,9 @@
                     "appearance_options": {
                         "show_send": "總是顯示發送訊息按鈕",
                         "show_send_desc": "如果禁用，則發送訊息按鈕僅在移動端顯示。",
-                        "title": "外觀選項"
+                        "title": "外觀選項",
+                        "show_account_age": "永遠在加入訊息旁邊顯示帳號年齡",
+                        "show_account_age_desc": "如果關閉，則僅會顯示新帳號的帳號年齡。"
                     }
                 },
                 "audio": {
@@ -63,7 +65,7 @@
                     "created": "建立於 {{time_ago}}",
                     "logout": "從所有其他裝置登出",
                     "active_sessions": "使用中的裝置",
-                    "title": "使用裝置",
+                    "title": "裝置",
                     "this_device": "這個裝置"
                 },
                 "profile": {
@@ -367,7 +369,8 @@
                     "user_kicked": "{{user}} 被踢出",
                     "user_joined": "{{user}} 已加入",
                     "user_left": "{{user}} 已離開",
-                    "channel_ownership_changed": "{{from}} 將群組的所有權轉移給了 {{to}}"
+                    "channel_ownership_changed": "{{from}} 將群組的所有權轉移給了 {{to}}",
+                    "registered_at": "已註冊 {{time}}"
                 },
                 "typing": {
                     "several": "很多人正在輸入…",
@@ -414,7 +417,8 @@
             "busy": "勿擾",
             "idle": "離開",
             "online": "在線",
-            "reconnect": "重新連接"
+            "reconnect": "重新連接",
+            "focus": "專注"
         },
         "special": {
             "modals": {
@@ -490,7 +494,7 @@
                     "failed": "更改失效！"
                 },
                 "sessions": {
-                    "title": "您確定要清除您的使用裝置嗎？",
+                    "title": "您確定要清除您已登入的裝置嗎？",
                     "accept": "刪除所有使用設備",
                     "short": "您無法撤銷此操作。"
                 },
@@ -719,7 +723,7 @@
         "privacy": "隱私政策",
         "tos": "服務條款",
         "about": "關於",
-        "learn_more": "更多信息"
+        "learn_more": "更多訊息"
     },
     "quantities": {
         "members": {
