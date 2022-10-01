@@ -4,7 +4,7 @@
             "pages": {
                 "appearance": {
                     "color": {
-                        "light": "手電筒模式",
+                        "light": "明亮模式",
                         "dark": "黑暗模式"
                     },
                     "display": {
@@ -350,14 +350,14 @@
                     "timed_out": "您已超時 {{time}}."
                 },
                 "voice": {
-                    "unmute": "關閉靜音",
+                    "unmute": "取消靜音",
                     "mute": "靜音",
                     "leave": "離開",
-                    "connected": "語音已連結"
+                    "connected": "已連接語音"
                 },
                 "start": {
                     "group": "這裡是聊天室的起始。",
-                    "saved": "您的筆記從這兒開始。"
+                    "saved": "這裡是你筆記的開始。"
                 },
                 "system": {
                     "channel_icon_changed": "{{user}} 更改了頻道圖示",
@@ -365,16 +365,16 @@
                     "channel_renamed": "{{user}} 將頻道名稱更改為 {{name}}",
                     "removed_by": "{{other_user}} 移除了 {{user}}",
                     "added_by": "{{other_user}} 加入了 {{user}}",
-                    "user_banned": "{{user}} 已被封鎖",
-                    "user_kicked": "{{user}} 被踢出",
-                    "user_joined": "{{user}} 已加入",
-                    "user_left": "{{user}} 已離開",
+                    "user_banned": "{{user}} 被停權了",
+                    "user_kicked": "{{user}} 被踢出伺服器",
+                    "user_joined": "{{user}} 加入了伺服器",
+                    "user_left": "{{user}} 離開了伺服器",
                     "channel_ownership_changed": "{{from}} 將群組的所有權轉移給了 {{to}}",
                     "registered_at": "已註冊 {{time}}"
                 },
                 "typing": {
-                    "several": "很多人正在輸入…",
-                    "multiple": "{{userlist}} 與 {{user}} 正在輸入…",
+                    "several": "有好幾個人正在輸入…",
+                    "multiple": "{{userlist}} 和 {{user}} 正在輸入…",
                     "single": "{{user}} 正在輸入…"
                 },
                 "attached_file": "附件 {{filename}}",
@@ -414,10 +414,10 @@
         "status": {
             "offline": "離線",
             "invisible": "隱形",
-            "busy": "勿擾",
-            "idle": "離開",
-            "online": "在線",
-            "reconnect": "重新連接",
+            "busy": "請勿打擾",
+            "idle": "閒置",
+            "online": "線上",
+            "reconnect": "重新連線",
             "focus": "專注"
         },
         "special": {
@@ -545,13 +545,13 @@
             "popovers": {
                 "user_profile": {
                     "profile": "個人資料",
-                    "no_groups": "沒有共同群組",
+                    "no_groups": "沒有共同的群組",
                     "mutual_friends": "共同好友",
                     "mutual_groups": "共同群組",
                     "mutual_servers": "共同的伺服器",
                     "empty": "這裡什麼都沒有…",
-                    "no_users": "沒有共同好友",
-                    "no_servers": "沒有共同伺服器",
+                    "no_users": "沒有共同的朋友",
+                    "no_servers": "沒有共同的伺服器",
                     "sub": {
                         "badges": "徽章",
                         "information": "關於我",
@@ -653,17 +653,17 @@
         "home": {
             "goto-testers": "前往測試者伺服器",
             "donate": "捐獻給 Revolt",
-            "settings": "開啟設置",
+            "settings": "開啟設定",
             "join-testers": "加入測試者伺服器",
             "social": "尋找其他伺服器和機器人",
             "feedback": "給予 Revolt 一些回饋",
-            "settings-tooltip": "您也可以右鍵點擊左上角的使用者頭像，或是在主頁左鍵點擊。",
+            "settings-tooltip": "您也可以右鍵點擊左上角的使用者頭像，或是在首頁點擊左鍵。",
             "directs": "私人訊息",
             "join-testers_desc": "您可以直接在此處報告問題並與我們討論改進。",
             "goto-testers_desc": "您可以直接在此處報告問題並與我們討論改進。",
             "donate_desc": "通過捐贈支持該項目 - 謝謝！",
-            "feedback_desc": "通過向我們提供反饋，讓我們知道如何改進我們的應用程序。",
-            "discover_desc": "根據您的愛好或興趣找到一個社區。",
+            "feedback_desc": "通過向我們提供反饋，讓我們知道如何改進我們的應用程式。",
+            "discover_desc": "根據您的愛好或興趣尋找社群。",
             "group": "建立群組",
             "group_desc": "邀請你所有的朋友，一些很酷的機器人，並舉辦一個盛大的派對。",
             "discover": "探索 Revolt"
@@ -677,33 +677,33 @@
             "create": "註冊失敗！"
         },
         "create": "註冊新帳號",
-        "successful_registration": "成功註冊！",
+        "successful_registration": "註冊成功！",
         "open_mail_provider": "打開 {{provider}}",
-        "check_spam": "如果找不到，請檢查垃圾信件",
+        "check_spam": "如果找不到，請檢查垃圾信箱",
         "email_delay": "請等待電子郵件送達，最久可能需要10分鐘。",
-        "check_mail": "請檢查您的電子信箱！",
+        "check_mail": "請檢查您的電子郵件！",
         "cancel": "取消請求",
         "resend": "重新發送認證碼",
         "missing_verification": "沒有收到電子郵件？",
-        "existing": "已經擁有一個 Revolt 帳號了嗎？",
+        "existing": "已經有一個帳號了嗎？",
         "new": "第一次使用 Revolt？",
         "remembered": "返回登入頁面",
         "set_password": "設定新密碼",
-        "reset": "重置密碼",
+        "reset": "重設密碼",
         "forgot": "忘記密碼？",
         "enter": {
             "current_password": "輸入目前的密碼。",
             "invite": "輸入邀請碼。",
             "password": "輸入密碼。",
-            "email": "輸入電子信箱。",
+            "email": "輸入你的電子郵件。",
             "username": "輸入使用者名稱。"
         },
         "current_password": "目前密碼",
         "invite": "邀請碼",
         "password": "密碼",
-        "email": "電子信箱",
+        "email": "電子郵件",
         "username": "使用者名稱",
-        "register": "建立帳號",
+        "register": "註冊",
         "title": "登入",
         "welcome2": "你好！",
         "subtitle2": "建立帳號",
