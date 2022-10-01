@@ -314,6 +314,9 @@
                     "title": "tomo esun pi nasin lukin",
                     "active": "lon",
                     "description": "o alasa e kulupu pi kule mute"
+                },
+                "plugins": {
+                    "title": "ilo sin"
                 }
             },
             "permissions": {
@@ -398,7 +401,9 @@
                     "viewing_old": "ni li lon tenpo pini",
                     "sent_file": "sitelen",
                     "sent_multiple_files": "sitelen mute",
-                    "jump_beginning": "o tawa open toki"
+                    "jump_beginning": "o tawa open toki",
+                    "timed_out": "sina ken toki ala lon tenpo kama {{time}}",
+                    "new_messages": "toki sin lon {{time_ago}}"
                 },
                 "voice": {
                     "unmute": "o ken e kalama",
@@ -419,7 +424,8 @@
                     "user_banned": "lawa li weka e jan {{user}} lon tenpo ale",
                     "user_kicked": "lawa li weka e jan {{user}}",
                     "user_left": "jan {{user}} li weka",
-                    "user_joined": "jan sin {{user}} li kama"
+                    "user_joined": "jan sin {{user}} li kama",
+                    "channel_ownership_changed": "jan {{from}} li pana e Group Ownership tawa {{to}}"
                 },
                 "typing": {
                     "several": "jan mute li kama toki…",
@@ -437,7 +443,8 @@
                     "nochannel": "poki toki ala"
                 },
                 "reply": {
-                    "replying": "sina toki lon ni:"
+                    "replying": "sina toki lon ni:",
+                    "toggle": "o awen e Ping jan ni"
                 }
             },
             "servers": {
@@ -532,10 +539,18 @@
             "invisible": "kon",
             "busy": "o toki ala",
             "idle": "weka",
-            "online": "lon"
+            "online": "lon",
+            "focus": "kute"
         },
         "home": {
-            "settings": "o open e nasin"
+            "settings": "o open e nasin",
+            "donate_desc": "sina olin e ilo ni? o pana e mani - pona a!",
+            "group": "o pali e poki pi jan mute",
+            "discover": "o lukin e Revolt",
+            "directs": "toki pi jan pona ale",
+            "join-testers": "o tawa Testers Server",
+            "goto-testers": "o tawa Testers Server",
+            "donate": "o pana e mani tawa Revolt"
         }
     },
     "error": {
@@ -609,7 +624,9 @@
         "email": "ilo Email",
         "register": "o pali e sijelo",
         "welcome2": "toki!",
-        "welcome": "o kama pona sin!"
+        "welcome": "o kama pona sin!",
+        "totp": "lipu open",
+        "recovery": "nimi open mute"
     },
     "general": {
         "off": "ala",
