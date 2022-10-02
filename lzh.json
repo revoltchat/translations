@@ -17,7 +17,7 @@
         "email": "洋飛鴿",
         "password": "暗語",
         "enter": {
-            "username": "書君好之命。",
+            "username": "書君好之名。",
             "password": "書君之暗語。",
             "current_password": "書君當前之暗語。",
             "email": "書君洋飛鴿之名。"
@@ -34,7 +34,11 @@
         "check_mail": "請君查洋飛鴿。",
         "check_spam": "若不得，請查荒棄之洋飛鴿",
         "welcome": "恭迎君返！",
-        "welcome2": "近來可好！"
+        "welcome2": "近來可好！",
+        "create": "造新冊",
+        "error": {
+            "login": "入不成！"
+        }
     },
     "app": {
         "status": {
@@ -67,6 +71,16 @@
                 "conversations": "語",
                 "participants": "與會之士",
                 "members": "黨眾"
+            },
+            "channel": {
+                "system": {
+                    "user_joined": "{{user}} 入",
+                    "user_left": "{{user}} 去",
+                    "user_kicked": "驅 {{user}}",
+                    "user_banned": "禁 {{user}}",
+                    "added_by": "{{other_user}} 邀 {{user}}",
+                    "removed_by": "{{other_user}} 除 {{user}}"
+                }
             }
         }
     }
