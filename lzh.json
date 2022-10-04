@@ -5,7 +5,7 @@
         "disabled": "閉",
         "image_by": "出畫影之處",
         "loading": "待頃刻…",
-        "unavailable": "不可用",
+        "unavailable": "用之不可",
         "learn_more": "欲知詳情",
         "tos": "行事律法",
         "privacy": "私隱律法"
@@ -33,8 +33,8 @@
         "missing_verification": "未得洋飛鴿？",
         "email_delay": "請待洋飛鴿達，久至二三刻。",
         "open_mail_provider": "啟 {{provider}}",
-        "check_mail": "請君查洋飛鴿。",
-        "check_spam": "若不得，請查荒棄之洋飛鴿",
+        "check_mail": "請君察洋飛鴿。",
+        "check_spam": "若不得，請察荒棄之洋飛鴿",
         "welcome": "恭迎君返！",
         "welcome2": "近來可好！",
         "create": "造新冊",
@@ -99,7 +99,8 @@
                 },
                 "misc": {
                     "spoiler_attachment": "文矣",
-                    "viewing_old": "閱舊訊"
+                    "viewing_old": "閱舊訊",
+                    "blocked_user": "與其不相來往"
                 },
                 "edited": "(修)",
                 "bot": "洋鐵俑",
@@ -109,8 +110,10 @@
                 "search": {
                     "sort": {
                         "oldest": "舊雨",
-                        "latest": "新知"
-                    }
+                        "latest": "新知",
+                        "relevance": "最適"
+                    },
+                    "title": "尋"
                 }
             }
         },
@@ -123,6 +126,65 @@
             "pages": {
                 "account": {
                     "change_field": "更"
+                },
+                "notifications": {
+                    "title": "報",
+                    "sounds": "樂"
+                },
+                "experiments": {
+                    "title": "講工部"
+                },
+                "profile": {
+                    "info": "訊"
+                },
+                "sessions": {
+                    "title": "入之方位"
+                },
+                "audio": {
+                    "input_device": "傳話使",
+                    "device_label_NA": "用之不可",
+                    "button_retry": "復試"
+                },
+                "appearance": {
+                    "title": "面目",
+                    "theme": "景",
+                    "display": {
+                        "default": "本位",
+                        "compact": "儉"
+                    },
+                    "color": {
+                        "light": "陽",
+                        "dark": "陰"
+                    },
+                    "font": "書文"
+                },
+                "sync": {
+                    "title": "相應"
+                },
+                "language": {
+                    "title": "言語"
+                }
+            }
+        },
+        "special": {
+            "copy": "得壹抄本",
+            "friends": {
+                "incoming": "求與君識之士。",
+                "nobody": "尚無眾於此！"
+            },
+            "modals": {
+                "error": "見壹誤也！",
+                "account": {
+                    "change": {
+                        "username": "更汝之稱呼",
+                        "email": "更汝之洋飛鴿",
+                        "password": "更汝之暗語"
+                    },
+                    "failed": "更之不成！"
+                },
+                "mfa": {
+                    "recovery_codes": "汝之復語",
+                    "enable_totp": "啟二重密語之器"
                 }
             }
         }
