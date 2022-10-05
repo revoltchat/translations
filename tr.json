@@ -56,11 +56,11 @@
         },
         "status": {
             "online": "Çevrimiçi",
-            "idle": "Dışarıda",
+            "idle": "Boşta",
             "offline": "Çevrimdışı",
             "busy": "Rahatsız Etmeyin",
             "invisible": "Görünmez",
-            "reconnect": "Tekrar baglanmak",
+            "reconnect": "Tekrar bağlan",
             "focus": "Odaklanmış"
         },
         "navigation": {
@@ -137,7 +137,7 @@
                     "all": "Tüm Mesajlar",
                     "mention": "Sadece Bahsetmeler",
                     "none": "Hiçbiri",
-                    "muted": "Sessiz"
+                    "muted": "Susturuldu"
                 },
                 "nsfw": {
                     "channel": {
@@ -175,7 +175,7 @@
             "servers": {
                 "create": "Bir sunucu oluştur",
                 "name": "Sunucu Adı",
-                "channel_name": "Kanal İsmi",
+                "channel_name": "Kanal Adı",
                 "owner": "Sunucu Sahibi",
                 "description": "Sunucu Açıklaması",
                 "custom_banner": "Özel Afiş",
@@ -304,7 +304,7 @@
                     "const": "Yapay diller"
                 },
                 "donate": {
-                    "title": "Bağış Yap"
+                    "title": "Bağışta bulun"
                 },
                 "source_code": "Kaynak Kodu",
                 "feedback": {
@@ -318,7 +318,7 @@
                     "suggest": "Özellik tavsiyesi gönder",
                     "suggest_desc": "GitHub tartışmalarında yeni Revolt özellikleri önerin.",
                     "issue": "Yeni bir konu oluştur",
-                    "issue_desc": "Sorunları daha kolay öncelik sırasına koymamıza yardımcı olmak için GitHub'da bir konu oluşturabilirsiniz.",
+                    "issue_desc": "Sorunları daha kolay öncelik vermemize yardımcı olmak için GitHub'da bir konu oluşturabilirsiniz.",
                     "bug_desc": "Şu anda aktif olan hata raporlarını buradan görüntüleyin.",
                     "description": "Geri bildirim gönder"
                 },
@@ -352,7 +352,7 @@
                     "titles": {
                         "servers": "Sunucular"
                     },
-                    "not_available": "Şu anda kullanılabilir deney yok."
+                    "not_available": "Şimdilik kullanılabilir bir deneysel özellik yok."
                 },
                 "native": {
                     "title": "Masaüstü Ayarları"
@@ -369,7 +369,7 @@
                     "public_bot": "Halka Açık Bot",
                     "reserved": "Not: Bu alan gelecek için ayrılmıştır.",
                     "interactions_url": "Etkileşimler URL'si",
-                    "unique_id": "Bu, botunuz için eşsiz bir tanımlayıcıdır. Bu botun tokeni değildir.",
+                    "unique_id": "Bu, botunuz için eşsiz bir tanımlayıcıdır. Bu botun token'i değildir.",
                     "profile": "Bot profili"
                 },
                 "audio": {
@@ -393,14 +393,14 @@
                         "saved": "Kaydedilenler",
                         "new": "Bu haftaki yenilikler"
                     },
-                    "active": "Şuanda aktif",
+                    "active": "Şu anda aktif",
                     "by": "tarafından",
-                    "search": "temaları ara…",
+                    "search": "Temaları ara…",
                     "use": "Temayı kullan"
                 },
                 "plugins": {
                     "title": "Eklentiler",
-                    "wip": "Uyarı: Bu özellik hala geliştirme aşamasındadır.",
+                    "wip": "Uyarı: Bu özellik hala geliştirilme aşamasındadır.",
                     "delete_plugin": "Sil",
                     "no_plugins": "Şu anda yüklü eklenti yok."
                 }
@@ -418,7 +418,7 @@
             },
             "tips": {
                 "languages": {
-                    "a": "İstediğiniz bir dil mi eksik?",
+                    "a": "İstediğiniz dil burda yok mu?",
                     "b": "Daha fazla çeviri için katkıda bulunun."
                 },
                 "sessions": {
@@ -441,7 +441,7 @@
                     "title": "Genel Bakış",
                     "name": "Sunucu Adı",
                     "description": "Kanal Açıklaması",
-                    "system_messages": "Sistem Mesaj Kanalları"
+                    "system_messages": "Sistem Mesajı Kanalları"
                 },
                 "members": {
                     "title": "Üyeler"
@@ -451,10 +451,10 @@
                     "code": "Davet Kodu",
                     "invitor": "Davet Eden",
                     "channel": "Kanal",
-                    "revoke": "Geri Al"
+                    "revoke": "iptal"
                 },
                 "bans": {
-                    "title": "Yasaklar",
+                    "title": "Yasaklananlar",
                     "reason": "Yasaklanma Sebebi",
                     "user": "Kullanıcı",
                     "revoke": "Geri Al",
@@ -487,7 +487,7 @@
                 "delete_role": "Rolü sil",
                 "role_options": "Rol Ayarları",
                 "role_ranking": "Rol Sıralaması",
-                "hoist_desc": "Bu rolü diğerlerinin üstünde göster.",
+                "hoist_desc": "Bu rolü diğerlerinin üzerinde tut.",
                 "hoist_role": "Üstte Görünen Rol",
                 "title": "{{role}} için izinler",
                 "edit_title": "İzinleri Düzenle"
@@ -499,7 +499,7 @@
                 "incoming": "Gelen arkadaşlık isteği.",
                 "outgoing": "Giden arkadaşlık isteği.",
                 "pending": "Bekleyen istekler",
-                "nobody": "Henüz burada kimse yok!",
+                "nobody": "Henüz burada kimsecikler yok!",
                 "sent": "Giden",
                 "from": {
                     "single": "{{user}} tarafından",
@@ -534,10 +534,10 @@
                     "confirm_delete_long": "Bir kez silindikten sonra geri dönüşü olmayacaktır.",
                     "create_invite_generate": "Davet oluşturuluyor…",
                     "create_invite_created": "İşte yeni davet kodunuz:",
-                    "confirm_delete_message_long": "Bunu silmek istediğinizden emin misiniz?",
-                    "confirm_ban_reason": "Yasaklama Nedeni",
-                    "confirm_kick": "{{name}} kullanıcısını atmak istediğinizden emin misiniz?",
-                    "confirm_ban": "{{name}} kullanıcısını yasaklamak üzeresiniz",
+                    "confirm_delete_message_long": "Bunu silmek istediğinden emin misin?",
+                    "confirm_ban_reason": "Yasaklama sebebi",
+                    "confirm_kick": "{{name}} adlı kullanıcıyı atmak istediğinizden emin misiniz?",
+                    "confirm_ban": "{{name}} adlı kullanıcıyı banlamak üzeresiniz",
                     "unfriend_user": "{{name}} kaldırılsın mı?",
                     "unfriend_user_long": "Onları tekrar ekleyene kadar onlarla tekrar konuşamayabilirsiniz.",
                     "block_user": "{{name}} engellensin mi?",
@@ -652,7 +652,7 @@
             },
             "requires_online": "Bunu görüntülemek için çevrimiçi olmanız gerekir.",
             "copy_username": "Kullanıcı adını kopyalamak için tıklayın",
-            "copy": "Kopyalamak için tıklayın",
+            "copy": "Kopyalamak için tıkla",
             "invite": {
                 "invited_by": "{{user}} tarafından davet edildi",
                 "login": "Revolt'a Giriş Yap",
@@ -844,7 +844,7 @@
             "d": "Üyelerin bu sunucudaki avatarlarını değiştirmelerine izin verir."
         },
         "RemoveAvatars": {
-            "t": "Avatarları Kaldır",
+            "t": "Profil Resmini Kaldır",
             "d": "Üyelerin bu sunucudaki diğer üyelerin sunucu avatarlarını kaldırmasına izin verir."
         },
         "VoiceCall": {
@@ -940,7 +940,7 @@
             "d": "Üyelerin emoji yaratma, düzenleme ve silmelerine izin verir."
         },
         "React": {
-            "t": "Tepki Kullan",
+            "t": "Tepkileri Kullan",
             "d": "Üyelerin mesajlara tepki eklemesine izin verir."
         }
     }
