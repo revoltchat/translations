@@ -8,7 +8,7 @@
         "on": "Włączone",
         "off": "Wyłączone",
         "unavailable": "Niedostępne",
-        "disabled": "Wyłączone",
+        "disabled": "Nieaktywne",
         "learn_more": "Więcej informacji"
     },
     "login": {
@@ -18,7 +18,7 @@
         "enter": {
             "email": "Wpisz swojego emaila.",
             "password": "Wpisz swoje hasło.",
-            "username": "Wpisz swoją preferowaną nazwę.",
+            "username": "Wpisz swoją preferowaną nazwę użytkownika.",
             "current_password": "Wprowadź swoje obecne hasło.",
             "invite": "Wpisz swój kod zaproszenia."
         },
@@ -39,14 +39,14 @@
         },
         "successful_registration": "Rejestracja pomyślnie się zakończyła!",
         "open_mail_provider": "Otwórz {{provider}}",
-        "check_spam": "Sprawdź folder spam, jeśli nie możesz znaleźć wiadomości",
+        "check_spam": "Sprawdź folder spam, jeśli nie możesz znaleźć emaila",
         "check_mail": "Sprawdź swojego emaila!",
-        "resend": "Ponowna weryfikacja",
+        "resend": "Wyślij weryfikację ponownie",
         "missing_verification": "Nie dostałeś emaila?",
         "set_password": "Ustaw nowe hasło",
         "current_password": "Obecne hasło",
         "invite": "Kod zaproszenia",
-        "email_delay": "Proszę poczekaj do 10 minut aż dotrze.",
+        "email_delay": "Proszę poczekaj do 10 minut, aby email dotarł.",
         "welcome": "Witamy z powrotem!",
         "subtitle": "Zaloguj się do Revolt",
         "welcome2": "Witaj!",
@@ -159,7 +159,7 @@
                 },
                 "errors": {
                     "title": "Ups, tu nic nie ma!",
-                    "nochannels": "W tym serwerze nie ma żadnych kanałów lub nie masz do nich dostępu.",
+                    "nochannels": "Ten serwer nie ma kanałów, lub nie masz do żadnego dostępu.",
                     "nochannel": "Brak kanału"
                 },
                 "reply": {
@@ -212,7 +212,7 @@
                     "close": "Zamknij",
                     "ok": "Ok",
                     "send_email": "Wyślij e-mail",
-                    "update": "Zmień",
+                    "update": "Zaktualizuj",
                     "preview": "Podgląd",
                     "save": "Zapisz",
                     "ban": "Zbanuj",
@@ -254,12 +254,12 @@
                     "confirm_leave_long": "Nie będziesz mógł ponownie dołączyć, chyba że zostaniesz ponownie zaproszony.",
                     "confirm_leave": "Opuścić {{name}}?",
                     "create_invite_created": "Oto twój nowy kod zaproszenia:",
-                    "unfriend_user_long": "Nie będziesz mógł z nim/nią rozmawiać, dopóki nie dodasz go/jej z powrotem.",
+                    "unfriend_user_long": "Nie będziesz mógł rozmawiać z tym użytkownikiem, dopóki nie dodasz go z powrotem.",
                     "block_user": "Zablokować {{name}}?",
                     "unfriend_user": "Usunąć {{name}}?",
                     "create_invite_generate": "Generuję zaproszenie…",
                     "confirm_close_dm": "Zamknąć rozmowę z {{name}}?",
-                    "confirm_ban": "Masz zamiar zbanować {{name}}",
+                    "confirm_ban": "Na pewno chcesz zbanować {{name}}?",
                     "confirm_delete_message_long": "Jesteś pewny, że chcesz to usunąć?",
                     "confirm_kick": "Jesteś pewny, że chcesz wyrzucić {{name}}?",
                     "confirm_ban_reason": "Powód bana",
@@ -314,8 +314,8 @@
                 "user_profile": {
                     "badges": {
                         "translator": "Tłumacz",
-                        "early_adopter": "Wczesny Ptaszek",
-                        "supporter": "Wspieracz",
+                        "early_adopter": "Wczesny ptaszek",
+                        "supporter": "Wspierający",
                         "responsible_disclosure": "Odpowiedzialnie ujawnione błędy",
                         "founder": "Założyciel",
                         "moderation": "Moderacja platformy"
@@ -323,7 +323,7 @@
                     "no_groups": "Brak wspólnych grup",
                     "no_users": "Brak wspólnych znajomych",
                     "mutual_groups": "Wspólne grupy",
-                    "mutual_friends": "Wspólni Znajomi",
+                    "mutual_friends": "Wspólni znajomi",
                     "profile": "Profil",
                     "empty": "Trochę tu pusto…",
                     "sub": {
@@ -332,7 +332,7 @@
                         "connections": "Połączenia"
                     },
                     "no_servers": "Brak wspólnych serwerów",
-                    "mutual_servers": "Wspólne Serwery"
+                    "mutual_servers": "Wspólne serwery"
                 },
                 "user_picker": {
                     "select": "Wybierz znajomych do dodania."
@@ -354,7 +354,7 @@
                 "invited_by": "Zaproszony przez {{user}}",
                 "accept": "Zaakceptuj zaproszenie",
                 "invalid": "Nieprawidłowe zaproszenie!",
-                "invalid_desc": "Zaproszenie nie istnieje lub nie masz uprawnień aby dołączyć."
+                "invalid_desc": "Zaproszenie nie istnieje lub nie masz uprawnień, by dołączyć."
             },
             "copy": "Kliknij aby skopiować",
             "server-badges": {
@@ -390,22 +390,22 @@
             "copy_cid": "Skopiuj ID kanału",
             "copy_uid": "Skopiuj ID użytkownika",
             "copy_text": "Skopiuj tekst",
-            "set_custom_status": "Ustaw status niestandardowy",
+            "set_custom_status": "Ustaw niestandardowy status",
             "clear_status": "Usuń status",
-            "custom_status": "Status niestandardowy",
+            "custom_status": "Niestandardowy status",
             "open_channel_settings": "Ustawienia kanału",
-            "copy_selection": "Kopiuj zaznaczone",
+            "copy_selection": "Skopiuj zaznaczone",
             "open_group_settings": "Ustawienia grupy",
             "reply_message": "Odpowiedz",
             "delete_server": "Usuń serwer",
             "delete_channel": "Usuń kanał",
             "create_channel": "Stwórz kanał",
             "open_server_settings": "Ustawienia serwera",
-            "leave_group": "Opuść grupę",
-            "leave_server": "Opuść serwer",
+            "leave_group": "Wyjdź z grupy",
+            "leave_server": "Wyjdź z serwera",
             "view_profile": "Pokaż profil",
             "copy_sid": "Skopiuj ID serwera",
-            "copy_message_link": "Skopiuj link wiadomości",
+            "copy_message_link": "Skopiuj link do wiadomości",
             "kick_member": "Wyrzuć członka",
             "ban_member": "Zbanuj członka",
             "close_dm": "Zamknij DM",
@@ -453,8 +453,8 @@
                         "seasonal_desc": "Wyświetla efekty w zakładce strona główna w okresie sezonów świątecznych.",
                         "title": "Opcje motywu",
                         "seasonal": "Motyw sezonowy",
-                        "follow": "Śledź motyw systemu",
-                        "follow_desc": "Jeśli zaznaczone, nie będziesz w stanie zmienić motywu ani użyć niestandardowego.",
+                        "follow": "Podążaj za motywem systemowym",
+                        "follow_desc": "Jeśli zaznaczone, nie będziesz w stanie zmienić motywu, ani użyć niestandardowego.",
                         "transparency": "Efekty przezroczystości",
                         "transparency_desc": "Włącza efekty przezroczystości w całej aplikacji."
                     },
@@ -475,7 +475,7 @@
                     "this_device": "To urządzenie",
                     "title": "Sesje",
                     "active_sessions": "Aktywne Sesje",
-                    "logout": "Wyloguj się ze wszystkich sesji"
+                    "logout": "Wyloguj się ze wszystkich sesji poza obecną"
                 },
                 "account": {
                     "change_field": "Zmień",
@@ -490,10 +490,10 @@
                     "2fa": {
                         "description": "Zapewnij dodatkową ochronę, włączając 2FA na twoim koncie.",
                         "title": "Uwierzytelnianie dwuetapowe",
-                        "remove_auth": "Usuń aplikację do uwierzytelniania",
+                        "remove_auth": "Usuń aplikację do uwierzytelniania",
                         "add_auth": "Dodaj aplikację do uwierzytelniania",
                         "view_recovery": "Wyświetl kody odzyskiwania",
-                        "view_recovery_long": "Wyświetl i pobierz swoje kody do odzyskiwania 2FA.",
+                        "view_recovery_long": "Wyświetl i pobierz swoje kody odzyskiwania 2FA.",
                         "generate_recovery": "Wygeneruj kody odzyskiwania",
                         "generate_recovery_long": "Przygotuj się do używania 2FA konfigurując metodę odzyskiwania.",
                         "two_factor_on": "Dwuskładnikowe uwierzytelnianie jest obecnie włączone.",
@@ -536,7 +536,7 @@
                     "enable_outgoing_sound": "Odtwórz dźwięk wysyłania.",
                     "enable_sound": "Odtwórz dźwięk w wiadomości.",
                     "enable_push": "Włącz powiadomienia push.",
-                    "enable_desktop": "Włącz powiadomienia na pulpicie.",
+                    "enable_desktop": "Włącz powiadomienia desktopowe.",
                     "title": "Powiadomienia",
                     "push_notifications": "Powiadomienia push",
                     "sounds": "Dźwięki",
@@ -552,8 +552,8 @@
                     "fetching": "Pobieranie twojego profilu…",
                     "info": "Informacje",
                     "title": "Profil",
-                    "profile_picture": "Obrazek profilowy",
-                    "custom_background": "Własne tło",
+                    "profile_picture": "Zdjęcie profilowe",
+                    "custom_background": "Niestandardowe tło",
                     "edit_background": "Edytuj tło",
                     "edit_profile": "Edytuj profil"
                 },
@@ -564,7 +564,7 @@
                         "appearance": "Spowoduje to synchronizację opcji, takich jak zestaw emoji i wygląd wiadomości."
                     },
                     "title": "Synchronizacja",
-                    "categories": "Synchronizuj kategorie",
+                    "categories": "Kategorie synchronizacji",
                     "options": "Opcje synchronizacji"
                 },
                 "experiments": {
@@ -620,7 +620,7 @@
                     "search": "Wyszukaj motywy…",
                     "active": "Obecnie aktywny",
                     "use": "Użyj motywu",
-                    "by": "przez"
+                    "by": "autorstwa"
                 },
                 "plugins": {
                     "title": "Wtyczki",
@@ -641,7 +641,7 @@
                     "a": "Jeśli widzisz na liście nieznaną sesję,"
                 },
                 "languages": {
-                    "b": "Pomóż w dodawaniu większej liczby tłumaczeń.",
+                    "b": "Pomóż z tłumaczeniem.",
                     "a": "Brakuje ci języka, którego szukasz?"
                 },
                 "account": {
@@ -670,7 +670,7 @@
                     "title": "Bany",
                     "reason": "Powód bana",
                     "user": "Użytkownik",
-                    "no_reason": "Nie podano powodu.",
+                    "no_reason": "Brak powodu bana.",
                     "revoke": "Cofnij"
                 },
                 "invites": {
@@ -719,7 +719,7 @@
                 "title": "Uprawnienia dla {{role}}",
                 "hoist_desc": "Wyświetlaj tą rolę nad innymi.",
                 "edit_title": "Edytuj uprawnienia",
-                "hoist_role": "Wznieś rolę"
+                "hoist_role": "Podnieś rolę"
             }
         },
         "permissions": {
@@ -746,22 +746,22 @@
     },
     "dayjs": {
         "lastDay": "[Wczoraj o] {{time}}",
-        "sameDay": "[Dzisiaj o] {{time}}",
+        "sameDay": "[Dziś o] {{time}}",
         "nextDay": "[Jutro o] {{time}}",
         "last": "Ostatnia",
         "at": "o",
         "nextWeek": "dddd [o] {{time}}",
-        "lastWeek": "[Ostatni(ej/go)] dddd [o] {{time}}",
+        "lastWeek": "[Ostatni/a)] dddd [o] {{time}}",
         "sameElse": "L",
         "defaults": {
-            "date_format": "tradycyjnie",
-            "date_separator": "/",
-            "twelvehour": "nie"
+            "date_format": "traditional",
+            "date_separator": ".",
+            "twelvehour": "no"
         }
     },
     "notifications": {
-        "now_friends": "Jesteście teraz znajomymi z @{{person}}!",
-        "sent_request": "@{{person}} wysłał Ci zaproszenie do znajomych."
+        "now_friends": "@{{person}} jest teraz twoim znajomym!",
+        "sent_request": "@{{person}} wysłał ci zaproszenie do znajomych."
     },
     "quantities": {
         "members": {
@@ -772,17 +772,17 @@
     "error": {
         "InvalidEmail": "Niepoprawny adres email",
         "TooLong": "Za długie",
-        "TooShort": "Zbyt krótkie",
+        "TooShort": "Za krótkie",
         "RequiredField": "Wymagane",
-        "NoEffect": "Ta prośba nie przyniosła skutku.",
-        "BlockedOther": "Ten użytkownik Cię zablokował.",
+        "NoEffect": "To zapytanie nie przyniosło skutku.",
+        "BlockedOther": "Ten użytkownik cię zablokował.",
         "Blocked": "Zablokowałeś tego użytkownika.",
-        "AlreadySentRequest": "Wysłano już zaproszenie.",
-        "AlreadyFriends": "Jestes już znajomym z użytkownikiem.",
+        "AlreadySentRequest": "Wysłano już zaproszenie do tego użytkownika.",
+        "AlreadyFriends": "Ten użytkownik jest już twoim znajomym.",
         "UsernameTaken": "Nazwa użytkownika jest zajęta.",
         "AlreadyOnboarded": "Konfiguracja już zakończona.",
         "WrongPassword": "Złe hasło.",
-        "EmailInUse": "Adres e-mail w użyciu.",
+        "EmailInUse": "Email zajęty.",
         "UnknownUser": "Nieznany użytkownik.",
         "UnverifiedAccount": "Niezweryfikowane konto.",
         "InvalidSession": "Nieprawidłowa sesja.",
@@ -801,146 +801,146 @@
         "FailedToReceive": "Serwer nie mógł odebrać pliku.",
         "FileTooLarge": "Plik jest za duży.",
         "Unavailable": "Niedostępne.",
-        "InvalidInvite": "Nieprawidłowy kod zaproszenia",
-        "MissingInvite": "Brak kodu zaproszenia.",
-        "InvalidToken": "Nieprawidłowy Token",
-        "InvalidCredentials": "E-mail lub hasło jest nieprawidłowe.",
-        "EmailFailed": "Nie udało się wysłać e-maila.",
+        "InvalidInvite": "Nieprawidłowy kod",
+        "MissingInvite": "Brak kodu zaproszenia w zapytaniu.",
+        "InvalidToken": "Nieprawidłowy klucz",
+        "InvalidCredentials": "Email lub hasło jest błędne.",
+        "EmailFailed": "Nie udało się wysłać emaila.",
         "RenderFail": "Renderowanie szablonu nie powiodło się.",
         "MissingPermission": "Brak uprawnień.",
         "Unauthorized": "Nieautoryzowany.",
         "NetworkError": "Błąd sieci.",
-        "CompromisedPassword": "To hasło zostało zdemaskowane.",
+        "CompromisedPassword": "To hasło zostało ujawnione.",
         "ReachedMaximumBots": "Osiągnąłeś maksymalną liczbę botów.",
-        "AudioPermissionBlock": "Brak dostępu do twojego mikrofonu, proszę sprawdź konfiguracje przeglądarki internetowej."
+        "AudioPermissionBlock": "Brak dostępu do twojego mikrofonu, proszę sprawdź konfigurację swojej przeglądarki."
     },
     "permissions": {
         "RemoveAvatars": {
-            "t": "Usuń Avatary",
-            "d": "Zezwól członkom na usuwanie serwerowych avatarów innych członków na tym serwerze."
+            "t": "Usuwanie awatarów",
+            "d": "Pozwala członkom na usuwanie serwerowych awatarów innych członków na tym serwerze."
         },
         "ChangeAvatar": {
-            "t": "Zmień Avatar",
-            "d": "Zezwól członkom na zmianę swojego avataru na tym serwerze."
+            "t": "Zmiana awataru",
+            "d": "Pozwala członkom na zmianę swojego awataru na tym serwerze."
         },
         "ChangeNickname": {
-            "d": "Zezwól członkom na zmianę ich pseudonimów na tym serwerze.",
-            "t": "Zmień Pseudonim"
+            "d": "Pozwala członkom na zmianę ich pseudonimów na tym serwerze.",
+            "t": "Zmiana pseudonimu"
         },
         "ManageNicknames": {
-            "t": "Zarządzaj Pseudonimami",
-            "d": "Zezwól członkom na zmianę pseudonimów innych użytkowników."
+            "t": "Zarządzanie pseudonimami",
+            "d": "Pozwala członkom na zmianę pseudonimów innych członków."
         },
         "BanMembers": {
-            "d": "Pozwala członkom na wyrzucenie i zablokowanie innym dostępu do tego serwera.",
-            "t": "Banuj członków"
+            "d": "Pozwala członkom na permanentne usunięcie członków z tego serwera.",
+            "t": "Banowanie członków"
         },
         "ManageServer": {
-            "d": "Umożliwia członkom zmianę nazwy, opisu, ikony i innych powiązanych informacji tego serwera.",
-            "t": "Zarządzaj serwerem"
+            "d": "Pozwala członkom na zmianę nazwy, opisu, ikony i innych informacji powiązanych z tym serwerem.",
+            "t": "Zarządzanie serwerem"
         },
         "ManageChannels": {
-            "t": "Zarządzaj kanałami",
-            "d": "Pozwól członkom na tworzenie, edytowanie i usuwanie kanałów."
+            "t": "Zarządzanie kanałami",
+            "d": "Pozwala członkom na tworzenie, edytowanie i usuwanie kanałów."
         },
         "KickMembers": {
-            "d": "Pozwala członkom na wyrzucanie innych z serwera. Wyrzuceni użytkownicy mogą ponownie dołączyć za pomocą zaproszenia.",
-            "t": "Wyrzuć członków"
+            "d": "Pozwala członkom na wyrzucanie innych z tego serwera. Wyrzuceni użytkownicy mogą ponownie dołączyć za pomocą zaproszenia.",
+            "t": "Wyrzucanie członków"
         },
         "SendMessage": {
-            "t": "Wysyłaj Wiadomości",
-            "d": "Zezwala członkom na wysyłanie wiadomości w kanałach tekstowych."
+            "t": "Wysyłanie wiadomości",
+            "d": "Pozwala członkom na wysyłanie wiadomości w kanałach tekstowych."
         },
         "EmbedLinks": {
             "t": "Umieszczanie linków",
             "d": "Zezwala członkom na pokazanie dołączonej do linków treści, która jest wysyłana na kanałach tekstowych."
         },
         "InviteOthers": {
-            "t": "Zaproś innych",
-            "d": "Zezwól członkom na zapraszanie innych użytkowników do kanału."
+            "t": "Zapraszanie innych",
+            "d": "Pozwala członkom na zapraszanie innych użytkowników do kanału."
         },
         "ManageMessages": {
-            "d": "Zezwala członkom na usuwanie wiadomości wysłanych przez innych członków.",
-            "t": "Zarządzaj Wiadomościami"
+            "d": "Pozwala członkom na usuwanie wiadomości wysłanych przez innych członków.",
+            "t": "Zarządzanie wiadomościami"
         },
         "UploadFiles": {
-            "d": "Zezwól członkom na udostępnianie plików na kanałach tekstowych.",
-            "t": "Udostępnij pliki"
+            "d": "Pozwala członkom na udostępnianie plików na kanałach tekstowych.",
+            "t": "Wysyłanie plików"
         },
         "VoiceCall": {
             "d": "Zezwala członkom na dołączanie do kanałów głosowych.",
             "t": "Połączenie Głosowe"
         },
         "ManageChannel": {
-            "t": "Zarządzaj kanałami",
-            "d": "Zezwól członkom na edytowanie lub usunięcie kanału."
+            "t": "Zarządzanie kanałami",
+            "d": "Pozwala członkom na edytowanie lub usunięcie kanału."
         },
         "Masquerade": {
             "t": "Maskarada",
-            "d": "Umożliwia członkom zmianę nazwy i awatara na wiadomość."
+            "d": "Pozwala członkom zmianę nazwy i awatara co wiadomość."
         },
         "ManageRole": {
-            "t": "Zarządzaj rolami",
-            "d": "Pozwala członkom na utworzenie, edycję i usunięcie ról niżej położonych w hierarchii niż rola, którą posiada użytkownik. Dodatkowo pozwala im również na edycję uprawnień na określonych kanałach."
+            "t": "Zarządzanie rolami",
+            "d": "Pozwala członkom na utworzenie, edycję i usunięcie ról z niższym rankingiem niż ich. Pozwala im również na modyfikację uprawnień ról na kanałach."
         },
         "ViewChannel": {
-            "d": "Zezwala członkom na zobaczenie jakiegokolwiek kanału do którego mają dostęp.",
-            "t": "Zobacz Kanał"
+            "d": "Zezwala członkom na zobaczenie jakiegokolwiek kanału, do którego mają dostęp.",
+            "t": "Oglądanie kanału"
         },
         "ManagePermissions": {
-            "t": "Zarządzaj Uprawnieniami",
-            "d": "Zezwól członkom na zmianę uprawnień kanałów i ról położonych niżej w hierarchii."
+            "t": "Zarządzanie uprawnieniami",
+            "d": "Pozwala członkom na zmianę uprawnień kanałów i ról z niższym rankingiem."
         },
         "TimeoutMembers": {
-            "t": "Wycisz członków",
-            "d": "Pozwól członkom na wyciszenie innych użytkowników."
+            "t": "Wyciszanie członków",
+            "d": "Pozwala członkom na wyciszenie innych użytkowników."
         },
         "AssignRoles": {
-            "t": "Przypisz role",
-            "d": "Pozwól członkom na przypisanie ról położonych niżej w hierarchii niż ich własna dla innych członków."
+            "t": "Przypisywanie ról",
+            "d": "Pozwala członkom na przypisanie ról z niższym rankingiem niż ich innym członkom."
         },
         "ReadMessageHistory": {
-            "t": "Odczytaj historię wiadomości",
-            "d": "Pozwól członkom na odczytywanie historii wiadomości tego kanału."
+            "t": "Czytanie historii wiadomości",
+            "d": "Pozwala członkom na czytanie historii wiadomości tego kanału."
         },
         "ManageWebhooks": {
-            "t": "Zarządzaj Webhookami",
-            "d": "Pozwól członkom na kontrolowanie webhooków w danym kanale."
+            "t": "Zarządzanie webhookami",
+            "d": "Pozwala członkom na kontrolowanie webhooków w danym kanale."
         },
         "SendEmbeds": {
-            "t": "Wyślij embedy",
-            "d": "Pozwól członkom na wysyłanie embedów z linków czy niestandardowych embedów tekstowych."
+            "t": "Wysłanie embedów",
+            "d": "Pozwala członkom na wysyłanie embedów z linków lub niestandardowych embedów tekstowych."
         },
         "DeafenMembers": {
-            "t": "Wyłącz dźwięk członkom",
-            "d": "Pozwól członkom na wyłączanie dźwięku innym członkom w kanale głosowym."
+            "t": "Wyłączanie dźwięku członkom",
+            "d": "Pozwala członkom na wyłączanie dźwięku innym członkom w kanale głosowym."
         },
         "MuteMembers": {
-            "d": "Pozwól członkom na wyciszanie innych w kanale głosowym.",
-            "t": "Wycisz członków"
+            "d": "Pozwala członkom na wyciszanie innych w kanale głosowym.",
+            "t": "Wyciszanie członków"
         },
         "MoveMembers": {
-            "t": "Przenieś członków",
-            "d": "Pozwól członkom na przenoszenie innych członków między kanałami głosowymi."
+            "t": "Przenoszenie członków",
+            "d": "Pozwala członkom na przenoszenie innych członków między kanałami głosowymi."
         },
         "Video": {
-            "d": "Pozwól członkom na udostępnianie video w kanale głosowym.",
+            "d": "Pozwala członkom na udostępnianie wideo w kanale głosowym.",
             "t": "Wideo"
         },
         "Connect": {
-            "d": "Pozwól członkom na połączenie się z kanałem głosowym.",
-            "t": "Połącz"
+            "d": "Pozwala członkom na połączenie się z kanałem głosowym.",
+            "t": "Łącznie się"
         },
         "Speak": {
-            "t": "Mów",
-            "d": "Pozwól członkom na rozmowę w kanale głosowym."
+            "t": "Mówienie",
+            "d": "Pozwala członkom na rozmowę w kanale głosowym."
         },
         "ManageCustomisation": {
-            "t": "Zarządzaj personalizacją",
-            "d": "Pozwalaj członkom na tworzenie, edytowanie i usuwanie emotikon."
+            "t": "Zarządzanie personalizacją",
+            "d": "Pozwala członkom na tworzenie, edytowanie i usuwanie emoji."
         },
         "React": {
-            "t": "Używaj reakcji",
+            "t": "Używanie reakcji",
             "d": "Pozwala członkom na reagowanie na wiadomości."
         }
     },
