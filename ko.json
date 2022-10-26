@@ -192,7 +192,9 @@
                     "appearance_options": {
                         "title": "모양새 옵션",
                         "show_send": "메시지 전송 버튼 항상 표시",
-                        "show_send_desc": "비활성화하면 메시지 전송 버튼이 모바일에서만 나타납니다."
+                        "show_send_desc": "비활성화하면 메시지 전송 버튼이 모바일에서만 나타납니다.",
+                        "show_account_age": "항상 가입 메시지 옆에 계정 생성일 표시",
+                        "show_account_age_desc": "비활성화하면 계정 생성일이 신규 사용자에게만 표시돼요."
                     }
                 },
                 "language": {
@@ -365,7 +367,8 @@
                     "title": "커스터마이징"
                 },
                 "emojis": {
-                    "title": "이모지"
+                    "title": "이모지",
+                    "upload": "이모지 업로드"
                 }
             },
             "permissions": {
@@ -539,7 +542,11 @@
                     "continue": "계속",
                     "send_email": "이메일 전송",
                     "reveal": "보이기",
-                    "edit": "수정"
+                    "edit": "수정",
+                    "report": "신고",
+                    "done": "완료",
+                    "confirm": "확인",
+                    "reset": "초기화"
                 },
                 "error": "오류가 발생했어요!",
                 "prompt": {
@@ -558,7 +565,8 @@
                     "confirm_delete_message_long": "삭제하시겠습니까?",
                     "unfriend_user": "{{name}}님을 친구 삭제할까요?",
                     "block_user": "{{name}}을(를) 차단할까요?",
-                    "confirm_close_dm": "{{name}}님과의 개인 메세지를 닫을까요?"
+                    "confirm_close_dm": "{{name}}님과의 개인 메세지를 닫을까요?",
+                    "silent_leave": "조용히 나가기"
                 },
                 "account": {
                     "change": {
@@ -600,7 +608,14 @@
                 },
                 "confirm": "작업 확인",
                 "changelogs": {
-                    "title": "새로운 기능"
+                    "title": "새로운 기능",
+                    "description": "Revolt 업데이트에 대해 읽어보세요.",
+                    "older": "이전 업데이트 보기"
+                },
+                "out_of_date": {
+                    "description": "최신 변경 사항을 적용하려면 업데이트해야 합니다.",
+                    "ignore": "업데이트 무시",
+                    "attempting": "업데이트를 시도하는 중..."
                 }
             },
             "friends": {
