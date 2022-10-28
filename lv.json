@@ -72,7 +72,9 @@
                     "removed_by": "Lietotājs {{user}} noņēma {{other_user}}",
                     "channel_renamed": "{{user}} pārsauca kanālu par {{name}}",
                     "channel_description_changed": "{{user}} nomainīja kanāla aprakstu",
-                    "channel_icon_changed": "{{user}} nomainīja kanāla ikonu"
+                    "channel_icon_changed": "{{user}} nomainīja kanāla ikonu",
+                    "channel_ownership_changed": "{{from}} padarīja {{to}} par grupas īpašnieku",
+                    "registered_at": "Registrējās {{time}}"
                 },
                 "start": {
                     "group": "Šis ir tavas sarunas sākums.",
@@ -96,7 +98,8 @@
                     "no_sending": "Tev nav atļaujas sūtīt ziņas šajā kanālā.",
                     "jump_beginning": "Doties uz sākumu",
                     "new_messages": "Jaunas ziņas {{time_ago}}",
-                    "load_file": "Lelādēt failu"
+                    "load_file": "Lelādēt failu",
+                    "timed_out": "Jūsu konts īslaicīgi bloķēts: {{time}}."
                 },
                 "edited": "(rediģēts)",
                 "nsfw": {
@@ -132,7 +135,8 @@
                     "replying": "Raksta atbildi",
                     "toggle": "Pārslēgt autora ziņu"
                 },
-                "bridge": "tilts"
+                "bridge": "tilts",
+                "user_timed_out": "Lietotāja konts īslaicīgi bloķēts: {{time}}."
             },
             "groups": {
                 "create": "Izveidot grupu",
@@ -160,7 +164,8 @@
             "invisible": "Neredzams",
             "offline": "Bezsaistē",
             "idle": "Brīvs",
-            "reconnect": "Savienoties no jauna"
+            "reconnect": "Savienoties no jauna",
+            "focus": "Fokusēt"
         },
         "navigation": {
             "tabs": {
@@ -272,7 +277,9 @@
                     "appearance_options": {
                         "show_send": "Vienmēr rādīt ziņas sūtīšanas pogu",
                         "show_send_desc": "Ja atspējosi, sūtīšanas pogu redzēsi tikai mobilajās ierīcēs.",
-                        "title": "Izskata iespējas"
+                        "title": "Izskata iespējas",
+                        "show_account_age": "Vienmēr rādīt konta vecumu blakus pievienošanās ziņojumiem",
+                        "show_account_age_desc": "Izslēdzot šo funkciju, konta vecums tiks rādīts tikai jauniem kontiem."
                     }
                 },
                 "notifications": {
@@ -408,6 +415,13 @@
                 },
                 "roles": {
                     "title": "Lomas"
+                },
+                "emojis": {
+                    "title": "Emocijzīmes",
+                    "upload": "Augšuplādēt emocijzīmes"
+                },
+                "customisation": {
+                    "title": "Pielāgošana"
                 }
             },
             "channel_pages": {
@@ -551,7 +565,8 @@
                     "ok": "Labi",
                     "done": "Gatavs",
                     "reset": "Atiestatīt",
-                    "confirm": "Apstiprināt"
+                    "confirm": "Apstiprināt",
+                    "report": "Ziņot par pārkāpumu"
                 },
                 "onboarding": {
                     "pick": "Izvēlies lietotājvārdu, kādu vēlies, lai citi tevi varētu atrast – to var nomainīt iestatījumos.",
@@ -573,7 +588,9 @@
                     "confirm_delete_message_long": "Esi pārliecināts, ka vēlies šo izdzēst?",
                     "create_invite_created": "Lūk tavs ielūguma kods:",
                     "confirm_kick": "Vai tiešām vēlies izmest {{name}}?",
-                    "block_user_long": "Vai patiesi vēlies bloķēt {{name}}? Lietotājs tiks arī noņemts no tava draugu saraksta."
+                    "block_user_long": "Vai patiesi vēlies bloķēt {{name}}? Lietotājs tiks arī noņemts no tava draugu saraksta.",
+                    "silent_leave": "Pamest bez paziņojuma",
+                    "members_not_notified": "Nepaziņosim citiem dalībniekiem"
                 },
                 "account": {
                     "change": {
@@ -689,7 +706,8 @@
             "quote_message": "Citēt ziņu",
             "edit_message": "Mainīt ziņu",
             "copy_text": "Kopēt tekstu",
-            "copy_uid": "Kopēt lietotāja ID"
+            "copy_uid": "Kopēt lietotāja ID",
+            "make_owner": "Padarīt par grupas īpašnieku"
         },
         "permissions": {
             "required": "Nepieciešamās atļaujas"
@@ -705,7 +723,7 @@
         "on": "Ieslēgts",
         "off": "Izslēgts",
         "disabled": "Atspējots",
-        "learn_more": "Uzzināt vēl"
+        "learn_more": "Vairāk informācijas"
     },
     "error": {
         "OperationFailed": "Operācija neizdevās.",
@@ -871,6 +889,14 @@
         "SendEmbeds": {
             "d": "Atļauj dalībniekiem sūtīt ietvertu saturu, gan no saitēm, gan pielāgotu teksta ietverto saturu.",
             "t": "Sūtīt ietverto saturu"
+        },
+        "React": {
+            "d": "Atļauj dalībniekiem reaģēt uz ziņām.",
+            "t": "Izmantot reakcijas"
+        },
+        "ManageCustomisation": {
+            "t": "Pārvaldīt pielāgošanu",
+            "d": "Atļaut dalībniekiem izveidot, mainīt un dzēst emocijzīmes."
         }
     },
     "dayjs": {
