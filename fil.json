@@ -5,7 +5,8 @@
             "busy": "Huwag abalahin",
             "offline": "Di-konektado",
             "online": "Konektado",
-            "idle": "Inaktibo"
+            "idle": "Inaktibo",
+            "focus": "Naka-pokus"
         },
         "navigation": {
             "tabs": {
@@ -29,7 +30,9 @@
                     "channel_description_changed": "Pinalitan ni {{user}} ang deskripsiyon ng kanal",
                     "user_kicked": "Tinanggal si {{user}}",
                     "user_banned": "Na-ban si {{user}}",
-                    "channel_icon_changed": "Binago ni {{user}} ang icon ng kanal"
+                    "channel_icon_changed": "Binago ni {{user}} ang icon ng kanal",
+                    "registered_at": "Nag-register noong {{time}}",
+                    "channel_ownership_changed": "Ibinigay ni {{from}} kay {{to}} ang pag-mamayari ng grupo"
                 },
                 "misc": {
                     "viewing_old": "Tinitingnan ang mga lumang message",
@@ -176,7 +179,8 @@
             "copy_mid": "Kopyahin itong message ID",
             "copy_message_link": "Kopyahin ang link ng message",
             "copy_sid": "Kopyahin itong server ID",
-            "mark_unread": "I-unread"
+            "mark_unread": "I-unread",
+            "make_owner": "Ibigay ang pagmamay-ari ng grupo"
         },
         "settings": {
             "pages": {
@@ -197,7 +201,10 @@
                         "add_auth": "Maglagay ng Autentikador",
                         "remove_auth": "Tanggalin ang Autentikador",
                         "title": "Dalawang-Faktor na Autentikasyon",
-                        "description": "Itulot ang 2FA sa iyong kwenta upang madagdagan ang seguridad."
+                        "description": "Itulot ang 2FA sa iyong kwenta upang madagdagan ang seguridad.",
+                        "view_recovery_long": "Tignan at i-download ang iyong mga 2FA recovery codes.",
+                        "view_recovery": "Tignan Ang Mga Recovery Code",
+                        "generate_recovery_long": "Maghandang gumamit ng 2FA sa pamamagitan ng paglagay ng recovery method."
                     },
                     "manage": {
                         "delete": "Burahin ang kwenta",
@@ -338,7 +345,7 @@
                 },
                 "theme_shop": {
                     "title": "Tindahan ng Tema",
-                    "search": "Maghanap ng tema...",
+                    "search": "Maghanap ng tema…",
                     "category": {
                         "viewall": "Makita ang lahat",
                         "saved": "Nai-save",
@@ -495,7 +502,8 @@
                     "create_invite_generate": "Gumagawa ng pang-imbita…",
                     "confirm_kick": "Gusto mo bang paalisin si {{name}}?",
                     "confirm_close_dm_long": "Pwede mo ulit itong buksan mamaya pero mawawala ito sa both sides.",
-                    "create_invite_created": "Ito ang iyong panibagong kodigo ng imbitasyon:"
+                    "create_invite_created": "Ito ang iyong panibagong kodigo ng imbitasyon:",
+                    "silent_leave": "Tahimik na umalis"
                 },
                 "actions": {
                     "edit": "I-edit",
@@ -517,7 +525,10 @@
                     "remove": "Tanggalin",
                     "continue": "Ipagpatuloy",
                     "send_email": "Ipadala ang email",
-                    "reload": "I-reload ang App"
+                    "reload": "I-reload ang App",
+                    "report": "Iulat",
+                    "confirm": "Ikumpirma",
+                    "done": "Tapos na"
                 },
                 "external_links": {
                     "short": "Sigurado ka bang gusto mong pumunta sa:",
@@ -537,7 +548,17 @@
                     },
                     "failed": "Hindi naipalit!"
                 },
-                "signed_out": "Na signed out ka!"
+                "signed_out": "Na signed out ka!",
+                "out_of_date": {
+                    "attempting": "Sinusubukang mag-update...",
+                    "ignore": "Huwag pansinin ang update"
+                },
+                "mfa": {
+                    "enter_code": "Ilagay Ang Code"
+                },
+                "changelogs": {
+                    "title": "Mga Pag-babago"
+                }
             },
             "popovers": {
                 "user_profile": {
@@ -614,7 +635,7 @@
         "tos": "Mga Palatuntunan",
         "privacy": "Patakaran sa Privacy",
         "disabled": "Naka-disabled",
-        "learn_more": "Matuto pa"
+        "learn_more": "Marami pang impormasyon"
     },
     "login": {
         "enter": {
@@ -732,6 +753,12 @@
         },
         "MuteMembers": {
             "t": "e-Mute ang mga miyembro"
+        },
+        "React": {
+            "t": "Gumamit ng mga reaksyon"
+        },
+        "Video": {
+            "t": "Bidyo"
         }
     },
     "error": {
