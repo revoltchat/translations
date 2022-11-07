@@ -1,18 +1,19 @@
 {
     "app": {
         "status": {
-            "invisible": "Imbisible",
+            "invisible": "Huwag ipakita",
             "busy": "Huwag abalahin",
             "offline": "Di-konektado",
-            "online": "Konektado",
-            "idle": "Inaktibo",
-            "focus": "Naka-pokus"
+            "online": "Nasa linya",
+            "idle": "Bakante",
+            "focus": "Nakatutok",
+            "reconnect": "Rumerekonekta"
         },
         "navigation": {
             "tabs": {
                 "friends": "Kaibigan",
                 "unreads": "Hindi pa nababasa",
-                "dev": "Tagalikha",
+                "dev": "Developer",
                 "home": "Panimula",
                 "saved": "Personal na talaan"
             }
@@ -25,14 +26,14 @@
                     "user_left": "Umalis si {{user}}",
                     "channel_renamed": "Pinalitan ni {{user}} ang pangalan ng kanal sa {{name}}",
                     "user_joined": "Sumali si {{user}}",
-                    "added_by": "Isinali si {{other_user}} ni {{user}}",
+                    "added_by": "Isinali ni {{user}} si {{other_user}}",
                     "removed_by": "Tinanngal ni {{user}} si {{other_user}}",
-                    "channel_description_changed": "Pinalitan ni {{user}} ang deskripsiyon ng kanal",
+                    "channel_description_changed": "Pinalitan ni {{user}} ang deskripsyon ng kanal",
                     "user_kicked": "Tinanggal si {{user}}",
-                    "user_banned": "Na-ban si {{user}}",
+                    "user_banned": "Si {{user}} ay na-banned",
                     "channel_icon_changed": "Binago ni {{user}} ang icon ng kanal",
-                    "registered_at": "Nag-register noong {{time}}",
-                    "channel_ownership_changed": "Ibinigay ni {{from}} kay {{to}} ang pag-mamayari ng grupo"
+                    "registered_at": "Nagrehistro noong {{time}}",
+                    "channel_ownership_changed": "Ibinigay ni {{from}} kay {{to}} ang pagmamay-ari ng grupo"
                 },
                 "misc": {
                     "viewing_old": "Tinitingnan ang mga lumang message",
@@ -40,18 +41,19 @@
                     "no_sending": "Wala kang permisong magpadala ng mga mensahe sa kanal na ito.",
                     "spoiler_attachment": "Spoiler",
                     "failed_load": "Hindi mailahad ang mensahe.",
-                    "blocked_messages": "{{count}} ang binarang mensahe",
+                    "blocked_messages": "{{count}} itinagong mensahe",
                     "blocked_user": "Binarang User",
                     "sent_file": "Naipadala ang lakip",
                     "sent_multiple_files": "Naipadala ang mga lakip",
                     "jump_beginning": "Bumalik sa simula",
-                    "new_messages": "Bagong mensahe mula {{time_ago}}",
-                    "load_file": "Mag-load ng file"
+                    "new_messages": "Mga bagong mensahe mula {{time_ago}}",
+                    "load_file": "Maglapag ng file",
+                    "timed_out": "Ikaw ay pinahinto nang {{time}}."
                 },
                 "typing": {
-                    "single": "Tumitipa si {{user}}…",
-                    "multiple": "Tumitipa sina {{userlist}} at {{user}}…",
-                    "several": "Marami ang tumitipa…"
+                    "single": "May sinusulat si {{user}}…",
+                    "multiple": "May sinusulat sina {{userlist}} at {{user}}…",
+                    "several": "Marami ang may gustong sabihin…"
                 },
                 "start": {
                     "group": "Ito ang simula ng iyong usapan.",
@@ -59,68 +61,69 @@
                 },
                 "voice": {
                     "leave": "Umalis",
-                    "mute": "I-silensyo",
+                    "mute": "Tumahimik",
                     "unmute": "Magsalita",
-                    "connected": "Ang boses ay konektado"
+                    "connected": "Nasa kanal pamboses"
                 },
                 "nsfw": {
                     "confirm": "Kinukumpirma ko na ako ay hindi bababa sa 18 na taong gulang.",
                     "channel": {
-                        "marked": "Naka-markang NSFW ang kanal na ito.",
+                        "marked": "Ang kanal na ito ay minarkahan bilang NSFW.",
                         "confirm": "Pumasok sa Kanal"
                     }
                 },
                 "notifications": {
                     "muted": "Naka-silensyo",
-                    "all": "Lahat ng mensahe",
-                    "none": "Wala",
+                    "all": "Lahat ng mga mensahe",
+                    "none": "Walang abiso",
                     "default": "Gamitin ang Default",
-                    "mention": "Mga nabanggit lang"
+                    "mention": "Mga pagbanggit lang"
                 },
                 "search": {
-                    "title": "Hanapin",
+                    "title": "Humanap",
                     "sort": {
                         "latest": "Bago",
                         "oldest": "Luma",
-                        "relevance": "Ugnayan"
+                        "relevance": "Kaugnayan"
                     }
                 },
                 "uploading_file": "Pinapadala…",
                 "failed_upload": "Hindi naipadala!",
                 "message_saved": "Ilagay sa personal na talaan",
                 "attached_file": "Nakalakip ang (mga) {{filename}}",
-                "unknown_user": "<Di-kilalang User>",
-                "edited": "(na-edit)",
+                "unknown_user": "<basta-tao-rin-ito>",
+                "edited": "(inedit)",
                 "bot": "bot",
                 "errors": {
-                    "nochannels": "Walang kanal ang serbidor na ito, o wala kang akseso sa ilan.",
+                    "nochannels": "Walang kanal itong serbidor o wala kang akseso sa ilan.",
                     "title": "Naku, wala rito!",
                     "nochannel": "Walang kanal"
                 },
                 "reply": {
-                    "replying": "Rumeresponde kay",
+                    "replying": "Tumutugon kay",
                     "toggle": "I-ping"
                 },
-                "bridge": "tulay"
+                "bridge": "tulay",
+                "user_timed_out": "Pinahinto ang User nang {{time}}."
             },
             "groups": {
                 "owner": "May-ari ng grupo",
                 "create": "Gumawa ng grupo",
                 "name": "Pangalan ng Grupo",
-                "description": "Deskripsyon ng grupo"
+                "description": "Deskripsyon ng Grupo"
             },
             "servers": {
                 "channel_description": "Deskripsyon ng Kanal",
                 "description": "Deskripsyon ng Server",
                 "create": "Gumawa ng serbidor",
                 "name": "Pangalan ng Serbidor",
-                "channel_type": "Klase ng Kanal",
+                "channel_type": "Tipo ng Kanal",
                 "owner": "May-ari ng Serbidor",
                 "channel_name": "Pangalan ng Kanal",
                 "custom_banner": "Personalisadong Bandera",
-                "text_channel": "Kanal ng Texto",
-                "voice_channel": "Kanal ng Boses",
-                "category_name": "Pangalan ng Kategorya"
+                "text_channel": "Kanal pan-texto",
+                "voice_channel": "Kanal pamboses",
+                "category_name": "Pangalan ng Kategoriya"
             },
             "categories": {
                 "members": "Mga miyembro",
@@ -131,69 +134,69 @@
         },
         "context_menu": {
             "message_user": "I-mensahe",
-            "cancel_friend": "Ikansela ang request",
-            "create_category": "Gumawa ng kategorya",
+            "cancel_friend": "Ikansela ang hiling",
+            "create_category": "Gumawa ng kategoriya",
             "view_profile": "Tignan ang profile",
-            "retry_message": "Ulitin ang pag-send",
-            "cancel_message": "Ikansela ang pag-send",
-            "add_friend": "I-add na kaibigan",
+            "retry_message": "Ulitin ang pagpadala",
+            "cancel_message": "Ikansela ang pagpadala",
+            "add_friend": "Kaibiganin",
             "open_file": "Buksan ang file",
             "save_file": "I-save ang file",
             "open_image": "Buksan ang larawan",
             "save_image": "I-save ang larawan",
-            "open_video": "Buksan ang bidyo",
-            "save_video": "I-save ang bidyo",
+            "open_video": "Buksan ang video",
+            "save_video": "I-save ang video",
             "remove_friend": "Tanggalin ang kaibigan",
-            "custom_status": "Status ko",
-            "clear_status": "Tanggalin ang status",
-            "set_custom_status": "Maglagay ng status",
+            "custom_status": "Estado mo",
+            "clear_status": "Tanggalin ang estado",
+            "set_custom_status": "Maglagay ng estado",
             "leave_group": "Umalis sa grupo",
             "leave_server": "Umalis sa server",
-            "close_dm": "Isarado ang DM",
-            "create_channel": "Gumawa ng channel",
-            "create_invite": "Gumawa ng imbita",
+            "close_dm": "Isara ang DM",
+            "create_channel": "Gumawa ng kanal",
+            "create_invite": "Gumawa ng imbitasyon",
             "delete_server": "Burahin ang server",
             "copy_selection": "Kopyahin ang selection",
-            "reply_message": "Mag-reply",
-            "quote_message": "I-quote ang message",
-            "edit_message": "Baguhin ang message",
+            "reply_message": "Tumugon",
+            "quote_message": "I-quote ang mensahe",
+            "edit_message": "I-edit ang mensahe",
             "copy_link": "Kopyahin ang link",
             "copy_text": "Kopyahin itong text",
             "copy_uid": "Kopyahin itong user ID",
             "copy_cid": "Kopyahin itong channel ID",
             "mention": "Mensyon",
-            "mark_as_read": "I-markang nabasa",
+            "mark_as_read": "Markahan bilang nabasa",
             "ban_member": "I-ban ang miyembro",
             "remove_member": "Tanggalin sa grupo",
-            "open_notification_options": "Opsyons ng Abiso",
-            "open_server_settings": "Mga Settings ng Server",
-            "open_channel_settings": "Settings ng Channel",
+            "open_notification_options": "Opsyones ng Abiso",
+            "open_server_settings": "Settings ng Serbidor",
+            "open_channel_settings": "Settings ng Kanal",
             "open_group_settings": "Settings ng Grupo",
             "delete_message": "Alisin ang message",
             "kick_member": "Paalisin ang miyembro",
-            "block_user": "I-block ang user na ito",
-            "unblock_user": "I-unblock ang user",
+            "block_user": "Barahin ang user na ito",
+            "unblock_user": "Huwag nang barahin ang user",
             "open_link": "Buksan ang link",
-            "edit_identity": "Baguhin ang sarili",
+            "edit_identity": "I-edit ang identidad",
             "delete_channel": "Alisin ang channel",
             "copy_id": "Kopyahin ang ID",
             "copy_mid": "Kopyahin itong message ID",
             "copy_message_link": "Kopyahin ang link ng message",
             "copy_sid": "Kopyahin itong server ID",
-            "mark_unread": "I-unread",
+            "mark_unread": "Markahan bilang hindi nabasa",
             "make_owner": "Ibigay ang pagmamay-ari ng grupo"
         },
         "settings": {
             "pages": {
                 "profile": {
                     "placeholder": "Ikwento mo ang sarili mo…",
-                    "title": "Profayl",
+                    "title": "Iyong profile",
                     "info": "Impormasyon",
-                    "fetching": "Kinukuha ang iyong profayl…",
+                    "fetching": "Kinukuha ang iyong profile…",
                     "profile_picture": "Larawang Pambista",
-                    "custom_background": "Sariling Bandera",
-                    "edit_background": "I-edit ang Bandera",
-                    "edit_profile": "I-edit ang Profayl"
+                    "custom_background": "Sariling Background",
+                    "edit_background": "I-edit ang Background",
+                    "edit_profile": "I-edit ang Profile"
                 },
                 "account": {
                     "title": "Aking kwenta",
@@ -201,36 +204,39 @@
                     "2fa": {
                         "add_auth": "Maglagay ng Autentikador",
                         "remove_auth": "Tanggalin ang Autentikador",
-                        "title": "Dalawang-Faktor na Autentikasyon",
+                        "title": "Autentikasyong Two-factor (2FA)",
                         "description": "Itulot ang 2FA sa iyong kwenta upang madagdagan ang seguridad.",
-                        "view_recovery_long": "Tignan at i-download ang iyong mga 2FA recovery codes.",
-                        "view_recovery": "Tignan Ang Mga Recovery Code",
-                        "generate_recovery_long": "Maghandang gumamit ng 2FA sa pamamagitan ng paglagay ng recovery method."
+                        "view_recovery_long": "Tignan at i-download ang iyong mga 2FA na kodigo ng pagbawi.",
+                        "view_recovery": "Tignan Ang Mga Kodigo ng Pagbawi",
+                        "generate_recovery_long": "I-handang gamitin ang 2FA sa pamamagitan ng paglagay ng paraan ng pagbawi.",
+                        "generate_recovery": "Magsagawa ng Mga Kodigo ng Pagbawi",
+                        "two_factor_off": "Hindi mo inaktiba ang autentikasyong two-factor!",
+                        "two_factor_on": "Naka-aktiba ang autentikasyong two-factor."
                     },
                     "manage": {
-                        "delete": "Markahan ang account para sa pagtanggal",
+                        "delete": "Markahan ang account para sa pagbura",
                         "title": "Pangangasiwa ng Kwenta",
                         "disable": "Ilingan ang kwenta",
-                        "description": "Ilingan o tanggalin ang iyong kwenta sa anumang oras. Ila-logout at buburahin ang iyong kwenta, kabilang riyan ang iyong kasaysayan ng chat at iyong mga kaibigan."
+                        "description": "Ilingan o tanggalin ang iyong kwenta kailanman. Itong aksyon ay magla-logout at magbubura ng iyong kwenta, kabilang riyan ang iyong kasaysayan ng chat at iyong mga kaibigan."
                     },
                     "unique_id": "Ito'y isang natatanging identipikador para sa iyong kwenta."
                 },
                 "sessions": {
                     "title": "Mga Sesyon",
                     "active_sessions": "Mga Aktibong Sesyon",
-                    "created": "Ginawa noong {{time_ago}}",
+                    "created": "Rinehistro noong {{time_ago}}",
                     "this_device": "Itong Device",
                     "logout": "I-logout ang lahat ng iyong ibang sesyon"
                 },
                 "audio": {
                     "input_device": "Mikropono",
                     "button_retry": "ulitin",
-                    "title": "Mga Opsyon sa Boses",
-                    "device_label_NA": "Di-naangkop",
-                    "output_device": "Speaker / Hatinig",
+                    "title": "Settings sa Boses",
+                    "device_label_NA": "N/A",
+                    "output_device": "Altabos / Hatinig",
                     "tip_retry": "Hindi ka nagpahintulot na gamitin ang iyong mikropono, {{retryBtn}}.",
                     "button_grant": "Payagan",
-                    "tip_grant_permission": "Kailangan mong pahintulutan upang mapagana ang mga opsyon ng audio."
+                    "tip_grant_permission": "Kailangan mong pahintulutan upang magamit ang settings ng audio."
                 },
                 "appearance": {
                     "theme": "Tema",
@@ -238,44 +244,47 @@
                         "light": "maliwanag",
                         "dark": "madilim"
                     },
-                    "reset_overrides": "I-reset and mga pagkokontra",
+                    "reset_overrides": "I-reset and mga overrides",
                     "display": {
                         "default_description": "Maganda, makinis at moderno.",
                         "compact": "Kompakto",
-                        "compact_description": "IRC lang.",
+                        "compact_description": "Parang yung makalumang IRC.",
                         "default": "Default"
                     },
                     "title": "Hitsura",
-                    "emoji_pack": "Paketeng Emoji",
-                    "mono_font": "Pangpili ng Fonteng Mono-espasyo",
+                    "emoji_pack": "Pakete Emoji",
+                    "mono_font": "Fonteng Mono-espasyo",
                     "ligatures": "Mga Ligadura ng Fonte",
                     "accent_selector": "Kulay ng Asento",
                     "advanced": "Higit pang mga opsyon",
-                    "overrides": "Mga sa Tema",
-                    "import": "Mag-import ng tema",
+                    "overrides": "Overrides sa Tema",
+                    "import": "Mag-importa ng tema",
                     "theme_data": "Datos ng Tema",
-                    "message_display": "Pagkadisplay ng mensahe",
+                    "message_display": "Pagka-display ng mensahe",
                     "font": "Fonte",
                     "custom_css": "Sariling CSS",
-                    "sync": "Sinkronisahin ang mga opsyon",
-                    "import_theme": "Mag-import ng tema mula sa string",
-                    "ligatures_desc": "Para sa mga suportadong fonts, pinagsasama-sama ng mga ligadura ang mga letra o karakteres, ang -> ay magiging arrow.",
+                    "sync": "I-sinkronisa ang mga opsyon",
+                    "import_theme": "Mag-importa ng tema mula sa string",
+                    "ligatures_desc": "Para sa mga suportadong fonte, pinagsasama-sama ng mga ligadura ang mga letra o karakteres, ang -> ay magiging arrow.",
                     "theme_options": {
-                        "follow": "Gayahin ang tema ng iyong sistema",
-                        "follow_desc": "Kung pinagana, hindi mo pwedeng baguhin ang iyong tema o gumamit ng personalisadong tema.",
+                        "follow": "Itulad sa tema ng iyong sistema",
+                        "follow_desc": "Kung inaktibá, hindi mo maaaring baguhin ang iyong tema o gumamit ng personal na tema.",
                         "seasonal": "Pana-panahong tema",
-                        "seasonal_desc": "Nagpapakita ng mga epekto sa pahina ng panimula kapag panahon ng mga kapistahan.",
-                        "transparency_desc": "Pinapagana ang mga epekto ng aninaw sa kabuuan ng app.",
-                        "title": "Opsyon sa Tema",
-                        "transparency": "Epektong Aninaw"
+                        "seasonal_desc": "Nagpapakita ng mga epekto sa pahina ng panimula kapag panahon ng mga okasyon.",
+                        "transparency_desc": "Pinapagana ang transparensya sa kabuuan ng app.",
+                        "title": "Opsyones sa Tema",
+                        "transparency": "Transparensya"
                     },
                     "discover": {
-                        "title": "Humanap ng mga Tema",
+                        "title": "Humanap ng Mga Tema",
                         "description": "Maghanap ng mga temang gawa ng komunidad"
                     },
                     "appearance_options": {
-                        "show_send": "Palaging i-pakita ang Ipadala ang mensahe button",
-                        "title": "Opsyon ng hitsura"
+                        "show_send": "Palaging i-pakita ang boton ng \"Ipadala ang Mensahe\"",
+                        "title": "Opsyones sa hitsura",
+                        "show_account_age": "Palaging i-pakita ang edad ng kwenta kasunod ng mga mensahe ng pag-entra",
+                        "show_account_age_desc": "Kapag nakapatay, sa mga bagong users lamang magpapakita ang edad ng kwenta.",
+                        "show_send_desc": "Kapag nakapatay, sa selpon lamang magpapakita ang boton ng \"Ipadala ang Mensahe\"."
                     }
                 },
                 "notifications": {
@@ -302,7 +311,7 @@
                     "const": "Mga nailagay na wika"
                 },
                 "experiments": {
-                    "title": "Mga Experimento",
+                    "title": "Mga Eksperimento",
                     "not_available": "Walang mga experimentong magagamit ngayon.",
                     "features": "Mga Magagamit na Features"
                 },
@@ -314,10 +323,10 @@
                     "bug_desc": "Tignan and mga aktibong ulat ng mga peste rito.",
                     "issue_desc": "Para madaling masaayos ang mga isyu, maaari kang gumawa ng isyu sa GitHub.",
                     "bug": "Tagasubaybay ng mga Peste",
-                    "title": "Mag-feedback",
+                    "title": "Magpuna",
                     "suggest": "Magsumite ng suhestiyon sa features",
                     "suggest_desc": "Magmungkahi ng mga panibagong Revolt features sa mga diskusyon sa GitHub.",
-                    "description": "Magsumite ng ulat o feedback"
+                    "description": "Magsumite ng ulat o puna"
                 },
                 "logOut": "Mag-log out",
                 "bots": {
@@ -337,10 +346,10 @@
                 },
                 "sync": {
                     "title": "Sinkronisasyon",
-                    "categories": "Kategorya ng Sinkronisasyon",
+                    "categories": "Kategoriya ng Sinkronisasyon",
                     "descriptions": {
                         "locale": "Magiging sinkronisado ang iyong piniling wika.",
-                        "appearance": "Magiging sinkronisado ang mga opsyon katulad ng pakete ng emojis at ang densidad ng mga mensahe.",
+                        "appearance": "Magiging sinkronisado ang mga opsyon katulad ng pakete ng emoji at ang densidad ng mga mensahe.",
                         "theme": "Magiging sinkronisado ang iyong piniling tema, kulay, at ang iyong sariling CSS."
                     },
                     "options": "Opsyon ng Sinkronisasyon"
@@ -351,8 +360,8 @@
                     "category": {
                         "viewall": "Makita ang lahat",
                         "saved": "Nai-save",
-                        "manage": "Napamahala ang saved",
-                        "new": "Bago ngayong linggo",
+                        "manage": "Pangasiwain ang mga saved",
+                        "new": "Mga bago ngayong linggo",
                         "default": "Mga default na tema",
                         "highest": "Pinakabantog"
                     },
@@ -363,17 +372,20 @@
                 },
                 "source_code": "Pinagmulan ng Kodigo",
                 "native": {
-                    "title": "Mga Opsyon ng Desktop"
+                    "title": "Opsyones ng Desktop"
                 },
                 "plugins": {
-                    "delete_plugin": "Burahin"
+                    "delete_plugin": "Burahin",
+                    "wip": "Babala: Nasa proseso pa ng pagdedevelop ang feature na ito.",
+                    "title": "Plugins",
+                    "no_plugins": "Walang plugins ang naka-install."
                 }
             },
             "actions": {
                 "remove": "Tanggalin",
-                "upload": "Mag-upload",
+                "upload": "Maglapag",
                 "max_filesize": "(hanggang {{filesize}} lamang)",
-                "edit": "i-edit {{name}}"
+                "edit": "I-edit ang {{name}}"
             },
             "channel_pages": {
                 "overview": {
@@ -403,7 +415,7 @@
                     "revoke": "Tanggalin"
                 },
                 "categories": {
-                    "title": "Mga Kategorya"
+                    "title": "Mga Kategoriya"
                 },
                 "bans": {
                     "no_reason": "Walang dahilan ng pagka-ban.",
@@ -416,20 +428,27 @@
                     "title": "Mga Papel"
                 },
                 "management": {
-                    "title": "Pamamahala ng mga User"
+                    "title": "Pamamahala sa Mga User"
+                },
+                "emojis": {
+                    "upload": "Magdagdag ng Emoji",
+                    "title": "Emoji"
+                },
+                "customisation": {
+                    "title": "Personalisasyon"
                 }
             },
             "tips": {
                 "account": {
-                    "a": "Nais mo bang palitan ang iyong pampublikong profayl?",
-                    "b": "Tumungo sa iyong mga opsyon ng profayl."
+                    "a": "Nais mo bang palitan ang iyong pampublikong profile?",
+                    "b": "Tumungo sa iyong settings ng profile."
                 },
                 "languages": {
-                    "b": "Tumulong sa pag-aambag ng pagsasalin ng mga wika.",
+                    "b": "Tumulong sa pag-aambag ng mga pagsasalin ng mga wika.",
                     "a": "Nawawala ba ang wika na gusto mo?"
                 },
                 "sessions": {
-                    "a": "Pag may nakita kang kakaibang sesyon sa listahan,",
+                    "a": "Kapag may nakita kang kakaibang sesyon sa listahan,",
                     "b": "I-asegura mo ang iyong kwenta sa pamamagitan ng pagbabago ng iyong kontrasenyas at paggamit ng 2FA."
                 }
             },
@@ -439,16 +458,20 @@
                 "create_role": "Lumikha ng bagong papel",
                 "role_name": "Pangalan ng Papel",
                 "default_role": "Default",
-                "hoist_role": "Itaas ang Role",
-                "hoist_desc": "Itanghai itong tunkulin sa-itaas ng iba.",
+                "hoist_role": "Itaas ang Papel",
+                "hoist_desc": "Itanghal itong papel sa itaas ng iba.",
                 "title": "Mga permiso para sa {{role}}",
-                "edit_title": "i-edit ang mga permisyon"
+                "edit_title": "I-edit ang Mga Permiso",
+                "delete_role": "Alisin ang Papel",
+                "role_colour": "Kulay ng Papel",
+                "role_options": "Opsyones sa Papel",
+                "role_ranking": "Posisyon ng Mga Papel"
             },
-            "title": "Mga Opsyon",
+            "title": "Mga Settings",
             "categories": {
-                "user_settings": "Mga Opsyon ng User",
-                "client_settings": "Mga Konfigurasyon sa Kliyente",
-                "danger_zone": "Mapanganib na lugar"
+                "user_settings": "Settings ng User",
+                "client_settings": "Settings sa Kliyente",
+                "danger_zone": "Mapanganib na Lugar"
             }
         },
         "special": {
@@ -471,7 +494,7 @@
                     "single": "Galing kay {{user}}"
                 },
                 "nobody": "Wala pang tao dito!",
-                "outgoing": "Mukhang mayroong gustong makipagkaibigan.",
+                "outgoing": "Mga kinakaibigan.",
                 "incoming": "Mga kumakaibigan.",
                 "pending": "Mga nakabinbin na kahilingan"
             },
@@ -505,7 +528,8 @@
                     "confirm_kick": "Gusto mo bang paalisin si {{name}}?",
                     "confirm_close_dm_long": "Pwede mo ulit itong buksan mamaya pero mawawala ito sa both sides.",
                     "create_invite_created": "Ito ang iyong panibagong kodigo ng imbitasyon:",
-                    "silent_leave": "Tahimik na umalis"
+                    "silent_leave": "Umalis nang tahimik",
+                    "members_not_notified": "Hindi maaabiso ang mga ibang miyembro"
                 },
                 "actions": {
                     "edit": "I-edit",
@@ -526,11 +550,12 @@
                     "hide": "Itago",
                     "remove": "Tanggalin",
                     "continue": "Ipagpatuloy",
-                    "send_email": "Ipadala ang email",
+                    "send_email": "Ipadala ang koreo",
                     "reload": "I-reload ang App",
-                    "report": "Iulat",
+                    "report": "I-ulat",
                     "confirm": "Ikumpirma",
-                    "done": "Tapos na"
+                    "done": "Tapos na",
+                    "reset": "Reset"
                 },
                 "external_links": {
                     "short": "Sigurado ka bang gusto mong pumunta sa:",
@@ -550,17 +575,34 @@
                     },
                     "failed": "Hindi naipalit!"
                 },
-                "signed_out": "Na signed out ka!",
+                "signed_out": "Na-signout ka!",
                 "out_of_date": {
                     "attempting": "Sinusubukang mag-update...",
-                    "ignore": "Huwag pansinin ang update"
+                    "ignore": "Huwag pansinin ang update",
+                    "title": "Hindi updated ang iyong kliyente!",
+                    "description": "Kailangan updated ito para gagana ang mga kasalukuyang pagbabago.",
+                    "version": "Nasa {{client}} ang iyong kliyente, samantalang kinakailangan ng serbidor ang {{server}}."
                 },
                 "mfa": {
-                    "enter_code": "Ilagay Ang Code"
+                    "enter_code": "Ilagay Ang Kodigo",
+                    "select_method": "Pumili ng paraan para i-autentika ang iyong hiling.",
+                    "enable_totp": "I-konekta ang autentikador",
+                    "prompt_totp": "Paki-scan o gamitin ang token sa ibaba sa iyong autentikador na app.",
+                    "recovery_codes": "Iyong mga kodigo ng pagbawi",
+                    "save_codes": "Itago ito sa isang ligtas na lokasyon.",
+                    "confirm": "Paki-kumpirma gamit ang napiling paraan."
                 },
                 "changelogs": {
-                    "title": "Mga Pag-babago"
-                }
+                    "title": "Mga Pagbabago",
+                    "older": "Basahin ang mga lumang updates",
+                    "description": "Basahin ang mga updates sa Revolt."
+                },
+                "sessions": {
+                    "title": "Sigurado ka bang gusto mong alisin ang lahat ng iyong sesyon?",
+                    "short": "Hindi mo mababalikan itong aksyon.",
+                    "accept": "Alisin lahat ng sesyon"
+                },
+                "confirm": "Kumpirmahin ang aksyon"
             },
             "popovers": {
                 "user_profile": {
@@ -601,43 +643,43 @@
             },
             "requires_online": "Kailangan mo maging online para makita mo ito.",
             "server-badges": {
-                "official": "Opisyal na server",
-                "verified": "Beripikadong Sebidor"
+                "official": "Opisyal na Serbidor",
+                "verified": "Beripikadong Serbidor"
             }
         },
         "permissions": {
-            "required": "Kailangan ng Permiso"
+            "required": "Kailangan ng permiso"
         },
         "home": {
             "goto-testers": "Pumunta sa testers server",
-            "donate": "Magbigay sa Revolt",
+            "donate": "Mag-abuloy sa Revolt",
             "feedback": "Magbigay ng puna sa Revolt",
             "settings": "Mga Opsyon",
-            "directs": "Direktang mensahe",
-            "join-testers": "Sumali sa testers server ng Revolt",
+            "directs": "Mga direktang mensahe",
+            "join-testers": "Sumali sa testers server",
             "settings-tooltip": "Pwede mo ring i-right-click sa user icon sa kaliwang itaas, o i-left-click doon kung nasa pahina ng panimula ka na.",
             "social": "Maghanap ng server at bot",
             "goto-testers_desc": "Pwede mong direktang i-ulat sa amin dito ang mga problema o iyong mga suhestiyon.",
             "donate_desc": "Suportahan itong proyekto sa pamamagitan ng pagbigay ng donasyon - salamat!",
-            "feedback_desc": "Ipaalam sa amin kung paano naming papagandahin ang app.",
-            "discover": "Deskubrehin ang Revolt",
+            "feedback_desc": "Ipaalam sa amin kung paano naming papapagandahin ang app.",
+            "discover": "Magdeskubre sa Revolt",
             "discover_desc": "Humanap ng mga komunidad base sa iyong mga libangan o kagustuhan.",
-            "group_desc": "Imbitahin ang mga kaibigan, mga astig na bots, at magsagawa ng malaking fiesta.",
+            "group_desc": "Magsagawa ng engrandeng party kasama ang iyong mga kaibigan, at mga mahuhusay na bots.",
             "join-testers_desc": "Pwede mong direktang i-ulat sa amin dito ang mga problema o iyong mga suhestiyon.",
             "group": "Gumawa ng grupo"
         }
     },
     "general": {
-        "on": "Naka-on",
-        "image_by": "Litrato ni/ng",
-        "loading": "Mga ilang segundo lamang. Maghintay…",
-        "off": "Naka-off",
-        "unavailable": "Hindi available",
-        "about": "Tungkol",
-        "tos": "Mga Palatuntunan",
-        "privacy": "Patakaran sa Privacy",
-        "disabled": "Naka-disabled",
-        "learn_more": "Marami pang impormasyon"
+        "on": "Aktibado",
+        "image_by": "Retrato ni/ng",
+        "loading": "Ilang segundo…",
+        "off": "Nakapatáy",
+        "unavailable": "Hindi maaari",
+        "about": "Tungkol sa",
+        "tos": "Mga Tuntunin at Serbisyo",
+        "privacy": "Patakaran sa Pagkapribado",
+        "disabled": "Pinagbawal",
+        "learn_more": "Higit pang impormasyon"
     },
     "login": {
         "enter": {
@@ -645,40 +687,43 @@
             "email": "Ilagay ang iyong email.",
             "password": "Ilagay ang iyong kontrasenyas.",
             "current_password": "Ilagay ang iyong kasalukuyang kontrasenyas.",
-            "invite": "Ilagay ang iyong kodigo ng Imbitasyon."
+            "invite": "Ilagay ang iyong kodigo ng imbitasyon."
         },
-        "set_password": "Maglagay ng bagong kontrasenyas",
+        "set_password": "Magtakda ng bagong kontrasenyas",
         "check_spam": "Pakisuri ang spam kapag hindi mo ito makita",
-        "current_password": "Kasalukuyang Password",
+        "current_password": "Kasalukuyang Kontrasenyas",
         "title": "Mag-login",
-        "register": "Mag-rehistro",
+        "register": "Magrehistro",
         "email": "Email",
-        "password": "Password",
-        "username": "Pangalan/Bansag",
-        "invite": "Palahudyatan ng Imbitasyon",
+        "password": "Kontrasenyas",
+        "username": "Bansag",
+        "invite": "Kodigo ng Imbitasyon",
         "forgot": "Nakalimutan ang iyong kontrasenyas?",
-        "reset": "I-reset ang kontrasenyas",
+        "reset": "Ipa-palit ang kontrasenyas",
         "email_delay": "Pakibigyan ito ng hanggang 10 minuto para dumating.",
         "resend": "Muling ipadala ang beripikasyon",
         "cancel": "Ikansela ang hiling",
         "new": "Baguhan sa Revolt?",
         "existing": "Mayroon nang kwenta?",
         "create": "Gumawa ng bagong kwenta",
-        "missing_verification": "Hindi nakatanggap ng email?",
-        "check_mail": "Tignan ang iyong email!",
+        "missing_verification": "Hindi nakatanggap ng koreo?",
+        "check_mail": "Tignan ang iyong koreo!",
         "remembered": "Bumalik sa pag-login",
         "open_mail_provider": "Buksan ang {{provider}}",
         "error": {
             "login": "Hindi matagumpay ang pag-login!",
-            "reset": "Hindi nai-reset!",
+            "reset": "Hindi naipa-palit!",
             "create": "Nagkaproblema sa pagrehistro!",
             "resend": "Hindi naipadala!"
         },
         "successful_registration": "Matagumpay ang pagrehistro!",
         "welcome": "Kumusta ulit!",
-        "subtitle": "Mag-sign-in sa Revolt",
+        "subtitle": "Magrehistro sa Revolt",
         "welcome2": "Kumusta!",
-        "subtitle2": "Gumawa ng account"
+        "subtitle2": "Gumawa ng kwenta",
+        "unofficial_instance": "Instansyang Third-party",
+        "totp": "Autentikador",
+        "recovery": "Kodigo ng Pagbawi"
     },
     "permissions": {
         "ManageNicknames": {
@@ -826,7 +871,7 @@
     "quantities": {
         "members": {
             "one": "1 Miyembro",
-            "many": "{{count}} na miyembro"
+            "many": "{{count}} miyembro"
         }
     },
     "shortcuts": {
