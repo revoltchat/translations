@@ -42,7 +42,8 @@
             "login": "Identifikimi dështoi!",
             "reset": "Rivendosja dështoi!",
             "create": "Regjistrimi dështoi!",
-            "resend": "Ridërgimi dështoi!"
+            "resend": "Ridërgimi dështoi!",
+            "verify": "Dështoi të verifikohej!"
         },
         "welcome": "Mirëseerdhet sërish!",
         "email": "Adresa e email-it",
@@ -53,7 +54,10 @@
         "open_mail_provider": "Hapni {{provider}}",
         "recovery": "Kodi i rikthimit",
         "totp": "Aplikacioni Authenticator",
-        "unofficial_instance": "Instanc e palës së tretë."
+        "unofficial_instance": "Instanc e palës së tretë.",
+        "verified_continue": "Vazhdoni të identifikoheni",
+        "verifying_account": "Po verifikon llogarinë tënde…",
+        "verified_account": "Llogaria juaj është verifikuar!"
     },
     "app": {
         "status": {
@@ -62,7 +66,8 @@
             "invisible": "I padukshëm",
             "offline": "jashtë linje",
             "idle": "Boshe",
-            "reconnect": "Rilidhu"
+            "reconnect": "Rilidhu",
+            "focus": "Fokus"
         },
         "navigation": {
             "tabs": {
@@ -117,7 +122,8 @@
                     "channel_renamed": "{{user}} riemërtoi kanalin në {{name}}",
                     "user_kicked": "{{user}} u përjashtua",
                     "user_banned": "{{user}} u ndalua",
-                    "channel_ownership_changed": "{{from}} jep {{to}} zotërim në grup"
+                    "channel_ownership_changed": "{{from}} jep {{to}} zotërim në grup",
+                    "registered_at": "I regjistruar {{time}}"
                 },
                 "start": {
                     "group": "Ky është fillimi i bisedës suaj.",
@@ -127,7 +133,7 @@
                     "connected": "Zëri u lidh",
                     "leave": "Largohu",
                     "mute": "Hesht",
-                    "unmute": "Unmute"
+                    "unmute": "Pa zërë"
                 },
                 "misc": {
                     "viewing_old": "Duke lexuar mesazhet e vjetra",
@@ -274,7 +280,7 @@
                         "compact": "Kompakt",
                         "default_description": "E bukur, e hijshme dhe moderne.",
                         "default": "E paracaktuar",
-                        "compact_description": "IRC قديم جيد."
+                        "compact_description": "IRC e vjetër e mirë."
                     },
                     "color": {
                         "light": "dritë",
@@ -311,7 +317,9 @@
                     "appearance_options": {
                         "show_send": "Gjithëmon shfaq butonin e \"Dërgo mesazh\"",
                         "title": "Cilësimet për dukjen",
-                        "show_send_desc": "Nese keni kufizuar \"Dergo Mesazh\" butonin ai do të shfaqet vetëm në pajisjen mobile."
+                        "show_send_desc": "Nese keni kufizuar \"Dergo Mesazh\" butonin ai do të shfaqet vetëm në pajisjen mobile.",
+                        "show_account_age": "Trego gjithmonë moshën e llogarisë pranë mesazheve të bashkimit",
+                        "show_account_age_desc": "Nëse çaktivizohet, mosha e llogarisë do të shfaqet vetëm për përdoruesit e rinj."
                     }
                 },
                 "notifications": {
@@ -506,7 +514,7 @@
                     "unfriend_user": "Fshij {{name}}?",
                     "confirm_ban_reason": "Arsyea e largimit",
                     "confirm_delete_long": "Pasi të fshihet, nuk ka kthim prapa.",
-                    "confirm_ban": "Ju jeni duke përjashtuar {{name}}!",
+                    "confirm_ban": "Ju jeni duke përjashtuar {{name}}",
                     "confirm_delete": "Fshij {{name}}?",
                     "confirm_delete_message_long": "Jeni i sigurt që dëshironi ta fshini këtë?",
                     "create_invite_generate": "Ftesa po gjenerohet…",
@@ -617,7 +625,8 @@
             },
             "popovers": {
                 "create_bot": {
-                    "title": "Krijo një bot të ri"
+                    "title": "Krijo një bot të ri",
+                    "failed": "Krijimi i një boti dështoi!"
                 },
                 "user_picker": {
                     "select": "Zgjidhni miqtë për të shtuar."
@@ -644,8 +653,20 @@
                         "moderation": "Moderues i platformës",
                         "responsible_disclosure": "Defektet e zbuluara me përgjegjësi"
                     }
+                },
+                "server_identity": {
+                    "avatar": "Imazhi i profilit",
+                    "nickname": "Pseudonimi",
+                    "title": "Ndryshoni identitetin në {{server}}"
                 }
-            }
+            },
+            "invite": {
+                "invited_by": "I ftuar nga {{user}}",
+                "login": "Hyni në Revolt",
+                "accept": "Pranoje Ftesen",
+                "user_count": "{{member_count}} përdoruesit"
+            },
+            "requires_online": "Duhet të jeni online për ta parë këtë."
         }
     },
     "permissions": {
