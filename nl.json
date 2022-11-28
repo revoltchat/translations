@@ -37,7 +37,8 @@
             "resend": "Opnieuw verzenden mislukt!",
             "reset": "Resetten mislukt!",
             "login": "Inloggen mislukt!",
-            "create": "Registratie mislukt!"
+            "create": "Registratie mislukt!",
+            "verify": "Verificatie mislukt!"
         },
         "successful_registration": "Succesvol geregistreerd!",
         "open_mail_provider": "Open {{provider}}",
@@ -52,8 +53,11 @@
         "subtitle2": "Maak een account aan",
         "welcome": "Welkom terug!",
         "unofficial_instance": "Derde-partij instantie.",
-        "totp": "Authenticator App",
-        "recovery": "Herstelcode"
+        "totp": "Authenticatie-app",
+        "recovery": "Herstelcode",
+        "verified_account": "Je account is geverifiëerd!",
+        "verifying_account": "Account aan het verifiëren…",
+        "verified_continue": "Naar inlogscherm"
     },
     "app": {
         "main": {
@@ -84,7 +88,8 @@
                     "sent_multiple_files": "Heeft meerdere bijlagen gestuurd",
                     "jump_beginning": "Terug naar het begin",
                     "new_messages": "Nieuwe berichten sinds {{time_ago}}",
-                    "load_file": "Laad bestand"
+                    "load_file": "Laad bestand",
+                    "timed_out": "Je hebt een time-out van {{time}}."
                 },
                 "voice": {
                     "unmute": "Dempen opheffen",
@@ -106,7 +111,8 @@
                     "user_left": "{{user}} is weggegaan",
                     "user_banned": "{{user}} is verbannen",
                     "user_kicked": "{{user}} is gekicked",
-                    "channel_ownership_changed": "{{from}} gaf {{to}} groepseigendom"
+                    "channel_ownership_changed": "{{from}} gaf {{to}} groepseigendom",
+                    "registered_at": "{{time}} geregistreerd"
                 },
                 "notifications": {
                     "all": "Alle berichten",
@@ -139,7 +145,8 @@
                     "replying": "Reageren op",
                     "toggle": "Zet auteur ping aan"
                 },
-                "bridge": "brug"
+                "bridge": "brug",
+                "user_timed_out": "Gebruiker heeft een time-out van {{time}}."
             },
             "categories": {
                 "participants": "Deelnemers",
@@ -182,7 +189,8 @@
             "idle": "Afwezig",
             "online": "Online",
             "offline": "Offline",
-            "reconnect": "Opnieuw verbinden"
+            "reconnect": "Opnieuw verbinden",
+            "focus": "Focus"
         },
         "settings": {
             "pages": {
@@ -264,16 +272,16 @@
                         "remove_auth": "Authenticator verwijderen",
                         "view_recovery_long": "Bekijk en download uw 2FA herstelcodes.",
                         "generate_recovery": "Genereer herstelcodes",
-                        "generate_recovery_long": "Maak je klaar om 2FA te gebruiken door een herstelmethode in te stellen.",
+                        "generate_recovery_long": "Bereid u voor om 2FA te gebruiken door een herstelmethode in te stellen.",
                         "two_factor_on": "Twee-factor authenticatie is nu ingeschakeld.",
-                        "two_factor_off": "Je hebt tweefactorauthenticatie niet ingesteld!",
+                        "two_factor_off": "Je hebt tweefactor-authenticatie niet ingeschakeld!",
                         "view_recovery": "Bekijk herstelcodes"
                     },
                     "manage": {
                         "title": "Accountbeheer",
                         "description": "Jouw account op elk gewenst moment uitschakelen of verwijderen. Deze actie logt je uit en verwijdert jouw account volledig, inclusief uw chatgeschiedenis en vrienden.",
                         "disable": "Account uitschakelen",
-                        "delete": "Markeer Account voor Verwijdering"
+                        "delete": "Markeer account voor verwijdering"
                     }
                 },
                 "notifications": {
@@ -720,7 +728,7 @@
             "goto-testers": "Ga naar de testers server",
             "donate": "Doneer aan Revolt",
             "feedback": "Geef Revolt feedback",
-            "settings": "Instellingen Openen",
+            "settings": "Instellingen openen",
             "settings-tooltip": "Je kunt ook het gebruikersicoon aanklikken links vanboven, of met de linkermuisklik als je al op het thuismenu zit.",
             "social": "Vind servers & bots",
             "directs": "Directe Berichten",
@@ -731,7 +739,7 @@
             "discover": "Ontdek Revolt",
             "discover_desc": "Vind een community gebaseerd op je hobby's of interesses.",
             "group": "Maak een groep",
-            "group_desc": "Nodig al je vrienden uit, een paar coole bots, en gooi een groot feest."
+            "group_desc": "Nodig al je vrienden uit, een paar coole bots, en geef een groot feest."
         }
     },
     "quantities": {
