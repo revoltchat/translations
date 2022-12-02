@@ -74,8 +74,8 @@
         },
         "main": {
             "channel": {
-                "message_who": "ข้อความ {{person}}",
-                "attached_file": "แนบ {{filename}}",
+                "message_who": "ส่งข้อความให้ {{person}}",
+                "attached_file": "แนบไฟล์ {{filename}}",
                 "typing": {
                     "several": "ผู้ใช้หลายคนกำลังพิมพ์…",
                     "single": "{{user}} กำลังพิมพ์…",
@@ -98,7 +98,7 @@
                     "viewing_old": "คุณกำลังดูข้อความเก่า",
                     "blocked_messages": "{{count}} ข้อความที่ถูกบล็อก",
                     "sent_multiple_files": "ส่งไฟล์แนบหลายไฟล์",
-                    "jump_present": "ข้ามไปข้อความใหม่",
+                    "jump_present": "ข้ามไปข้อความปัจจุบัน",
                     "spoiler_attachment": "สปอยล์",
                     "failed_load": "ไม่สามารถโหลดข้อความ",
                     "no_sending": "คุณไม่มีสิทธิ์ส่งข้อความในช่องนี้",
@@ -116,7 +116,7 @@
                         "confirm": "เข้าช่อง"
                     }
                 },
-                "message_where": "ข้อความ {{channel_name}}",
+                "message_where": "ส่งข้อความใน {{channel_name}}",
                 "message_saved": "บันทึกลงในโน๊ตของคุณ",
                 "uploading_file": "กำลังอัปโหลด…",
                 "failed_upload": "อัปโหลดไม่สำเร็จ!",
@@ -188,7 +188,7 @@
         },
         "settings": {
             "actions": {
-                "max_filesize": "(อัปโหลดได้สูงสุด {{filesize}})",
+                "max_filesize": "(ขนาดไฟล์สูงสุด {{filesize}})",
                 "remove": "ลบ",
                 "upload": "อัพโหลด",
                 "edit": "แก้ไข {{name}}"
@@ -202,7 +202,7 @@
                         "description": "เพิ่มความปลอดภัยอีกชั้นโดยเปิดใช้งานการยืนยันสองขั้นตอนในบัญชีของคุณ",
                         "add_auth": "เพิ่มตัวยืนยัน",
                         "two_factor_on": "การเข้าสู่ระบบด้วยการยืนยันสองขั้นตอนได้ถูกเปิดใช้งาน",
-                        "two_factor_off": "คุณไม่ได้เปิดการเข้าสู่ระบบด้วยการยืนยันสองขั้นตอน!",
+                        "two_factor_off": "คุณยังไม่ได้เปิดการเข้าสู่ระบบด้วยการยืนยันสองขั้นตอน!",
                         "view_recovery": "ดูรหัสกู้คืน",
                         "view_recovery_long": "ดูและดาวน์โหลดรหัสกู้คืน 2FA ของคุณ",
                         "generate_recovery": "สร้างรหัสกู้คืน",
@@ -446,7 +446,7 @@
             "title": "การตั้งค่า",
             "categories": {
                 "user_settings": "การตั้งค่าผู้ใช้",
-                "client_settings": "การตั้งค่าอุปกรณ์",
+                "client_settings": "การตั้งค่าแอป",
                 "danger_zone": "เขตอันตราย"
             },
             "channel_pages": {
@@ -599,7 +599,7 @@
                         "information": "ข้อมูล"
                     },
                     "badges": {
-                        "responsible_disclosure": "บั๊กที่เปิดเผยอย่างมีจริยธรรม",
+                        "responsible_disclosure": "ข้อบกพร่องที่เปิดเผยอย่างมีจริยธรรม",
                         "translator": "นักแปล",
                         "supporter": "ผู้สนับสนุน",
                         "early_adopter": "ผู้สนับสนุนช่วงแรก",
@@ -661,7 +661,7 @@
             "join-testers_desc": "รายงานปัญหาหรือพูดคุยกับพวกเราโดยตรงได้ที่นี่",
             "donate_desc": "ถ้าอยากสนับสนุนให้ Revolt ก็บริจาคมาได้เลย ขอบคุณนะ!",
             "feedback_desc": "อยากให้เราปรับปรุง Revolt ยังไง ก็ส่งข้อเสนอแนะทางนี้ได้เลย",
-            "discover": "ค้นหาเซิร์ฟเวอร์ Revolt",
+            "discover": "ค้นพบ Revolt",
             "discover_desc": "หาชุมชนที่เหมาะสมกับงานอดิเรกหรือความสนใจของคุณ",
             "group": "สร้างกลุ่ม",
             "group_desc": "ชวนเพื่อนๆ ของคุณ กับบอทเจ๋งๆ แล้วปาร์ตี้โลด",
@@ -891,7 +891,7 @@
         "remembered": "กลับไปหน้าเข้าสู่ระบบ",
         "resend": "ส่งการยืนยันอีกครั้ง",
         "cancel": "ยกเลิกคำขอ",
-        "email_delay": "ถ้ายังไม่เห็น กรุณารอประมาณ 10 นาที เดี๋ยวก็มา",
+        "email_delay": "กรุณารออีเมล์ 10 นาที.",
         "error": {
             "login": "เข้าสู่ระบบล้มเหลว!",
             "create": "ลงทะเบียนล้มเหลว!",
@@ -910,7 +910,7 @@
         "create": "สร้างบัญชีใหม่",
         "missing_verification": "ยังไม่ได้รับอีเมลเหรอ?",
         "check_mail": "โปรดตรวจสอบอีเมล์ของคุณ!",
-        "check_spam": "หรือถ้าไม่เจอ ลองเช็กอีเมล์ขยะดูก็ดีนะ",
+        "check_spam": "ถ้าหาไม่เจอให้เช็คอิเมล์ขยะ",
         "open_mail_provider": "เปิด {{provider}}",
         "successful_registration": "ลงทะเบียนสำเร็จ!",
         "welcome": "ยินดีต้อนรับกลับ!",
