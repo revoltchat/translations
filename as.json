@@ -13,7 +13,8 @@
             "reset": "ৰিছেট কৰিবলৈ ব্যৰ্থ!",
             "create": "পঞ্জীয়ন কৰিবলৈ ব্যৰ্থ!",
             "login": "লগইন কৰিবলৈ ব্যৰ্থ!",
-            "resend": "পুনৰ প্ৰেৰণ কৰিবলৈ ব্যৰ্থ!"
+            "resend": "পুনৰ প্ৰেৰণ কৰিবলৈ ব্যৰ্থ!",
+            "verify": "প্ৰমাণিত কৰিব পৰা নগল!"
         },
         "title": "লগইন",
         "welcome": "পুনৰ স্বাগতম জনাইছোঁ!",
@@ -41,7 +42,10 @@
         "email_delay": "অনুগ্ৰহ কৰি ইয়াক আহিপোৱাৰ বাবে 10 মিনিটলৈকে অনুমতি দিয়ক।",
         "open_mail_provider": "{{provider}} খোলক",
         "successful_registration": "সফলতাৰে পঞ্জীয়ন কৰা হৈছে!",
-        "unofficial_instance": "তৃতীয় পক্ষৰ উদাহৰণ।"
+        "unofficial_instance": "তৃতীয় পক্ষৰ উদাহৰণ।",
+        "verified_account": "অপুনাৰ একাউণ্ট প্ৰমণিত কৰা হয় গইছে!",
+        "verified_continue": "লগইন অব্যাহত ৰাখক",
+        "verifying_account": "অপুনাৰ একাউণ্ট প্ৰমণিত কৰা হয় আছে…"
     },
     "app": {
         "home": {
@@ -82,7 +86,13 @@
                     "jump_present": "বৰ্তমানলৈ জাঁপ দিয়ক",
                     "jump_beginning": "আৰম্ভণিলৈ জঁপিয়াওক",
                     "spoiler_attachment": "স্পোইলাৰ",
-                    "failed_load": "বাৰ্তা লোড কৰিব পৰা নগল।"
+                    "failed_load": "বাৰ্তা লোড কৰিব পৰা নগল।",
+                    "timed_out": "অপুনক {{time}} সময়ৰ বাবে টাইম আউট কৰা হৈছে।",
+                    "blocked_messages": "{{count}} সংখ্যাটো অৱৰুদ্ধ কৰা মেছেজ",
+                    "blocked_user": "অৱৰুদ্ধ ব্যক্তি",
+                    "sent_file": "এটা ফাইল পঠাইছে",
+                    "sent_multiple_files": "বহু কেতা ফাইল পঠিয়াইছে",
+                    "load_file": "ফাইল লোড কৰক"
                 },
                 "message_where": "মেচেজ {{channel_name}}",
                 "attached_file": "সংলগ্ন {{filename}}",
@@ -102,12 +112,45 @@
                     "channel_renamed": "{{user}}ৱে চেনেলটোৰ নাম {{name}}লৈ ৰাখিলে",
                     "channel_description_changed": "{{user}}ৱে চেনেলৰ বিৱৰণ সলনি কৰিলে",
                     "channel_icon_changed": "{{user}}ৱে চেনেলৰ আইকন সলনি কৰিলে",
-                    "channel_ownership_changed": "{{from}}ৱে {{to}} গোটৰ মালিকীস্বত্ব দিছিল"
+                    "channel_ownership_changed": "{{from}}ৱে {{to}} গোটৰ মালিকীস্বত্ব দিছিল",
+                    "registered_at": "পঞ্জীভুক্ত {{time}}"
                 },
                 "typing": {
                     "single": "{{user}} টাইপ কৰি আছে…",
                     "multiple": "{{userlist}} আৰু {{user}} টাইপ কৰি আছে…",
                     "several": "কেইবাজনো লোকে টাইপ কৰি আছে…"
+                },
+                "nsfw": {
+                    "channel": {
+                        "marked": "এই চেনেল টুক NSFW মাৰ্ক কৰা হৈছে।",
+                        "confirm": "চেনেলত প্ৰৱেশ কৰক"
+                    },
+                    "confirm": "মই নিশ্চিত কৰো যে মোৰ বয়স ১৮ বছৰতকৈ অধিক।"
+                },
+                "unknown_user": "<অজ্ঞাত ব্যৱহাৰকাৰী>",
+                "edited": "(সম্পাদিত)",
+                "bot": "বট্",
+                "bridge": "ব্ৰিজ",
+                "user_timed_out": "ব্যৱহাৰকাৰীক {{time}} সময়ৰ বাবে টাইম আউট কৰা হৈছে।",
+                "notifications": {
+                    "default": "ডিফল্ট ব্যৱহাৰ কৰক",
+                    "all": "সকলো বাৰ্তা",
+                    "none": "একো নাই",
+                    "mention": "কেৱল উল্লেখ কৰক",
+                    "muted": "নিস্তব্ধ কৰা হৈছে"
+                },
+                "search": {
+                    "title": "বিছাৰক",
+                    "sort": {
+                        "relevance": "প্ৰাসংগিকতা",
+                        "latest": "শেহতীয়া",
+                        "oldest": "আটাইতকৈ পুৰণি"
+                    }
+                },
+                "errors": {
+                    "title": "ক্ষমা কৰিব, ইয়াত একো নাই!",
+                    "nochannels": "এই চাৰ্ভাৰৰ কোনো চেনেল নাই, অথবা অপুনাৰ কোনো চেনেলত প্ৰৱেশ কৰাৰ অনুমতি নাই।",
+                    "nochannel": "কোনো চেনেল নাই"
                 }
             },
             "categories": {
@@ -115,6 +158,25 @@
                 "participants": "অংশগ্ৰহণকাৰী",
                 "channels": "চেনেলসমূহ",
                 "members": "সদস্য"
+            },
+            "groups": {
+                "create": "এটা গোট সৃষ্টি কৰক",
+                "owner": "গোটৰ মালিক",
+                "name": "গোটৰ নাম",
+                "description": "গোটৰ বৰ্ণনা"
+            },
+            "servers": {
+                "voice_channel": "ভইচ চেনেল",
+                "create": "এটা চাৰ্ভাৰ বনাওক",
+                "channel_type": "চেনেলৰ ধৰণ",
+                "category_name": "শ্ৰেণীৰ নাম",
+                "channel_description": "চেনেলৰ বিৱৰণ",
+                "custom_banner": "কাষ্টম বেনাৰ",
+                "owner": "চাৰ্ভাৰৰ মালিক",
+                "name": "চাৰ্ভাৰৰ নাম",
+                "description": "চাৰ্ভাৰৰ বিৱৰণ",
+                "channel_name": "চেনেলৰ নাম",
+                "text_channel": "টেক্সট চেনেল"
             }
         },
         "status": {
@@ -123,7 +185,8 @@
             "busy": "বিচলিত নকৰিব",
             "invisible": "অদৃশ্য",
             "offline": "অফলাইন",
-            "reconnect": "পুনৰ সংযোগ কৰক"
+            "reconnect": "পুনৰ সংযোগ কৰক",
+            "focus": "ফোকাচ"
         },
         "navigation": {
             "tabs": {
@@ -133,6 +196,53 @@
                 "unreads": "পঢ়া নাই",
                 "saved": "সংৰক্ষিত টোকাসমূহ"
             }
+        },
+        "settings": {
+            "actions": {
+                "remove": "আঁতৰোৱা",
+                "upload": "আপলোড কৰক",
+                "max_filesize": "(সৰ্বোচ্চ {{filesize}})",
+                "edit": "{{name}} সম্পাদনা কৰক"
+            },
+            "categories": {
+                "client_settings": "ক্লায়েন্টৰ ছেটিংছ",
+                "danger_zone": "বিপদৰ অঞ্চল",
+                "user_settings": "আপোনাৰ ছেটিংছ"
+            },
+            "title": "ছেটিংছ",
+            "pages": {
+                "account": {
+                    "title": "মোৰ একাউণ্ট",
+                    "change_field": "সলনি কৰক"
+                }
+            }
+        },
+        "context_menu": {
+            "remove_friend": "বন্ধুক আঁতৰাওক",
+            "cancel_friend": "অনুৰোধ বাতিল কৰক",
+            "custom_status": "কাষ্টম ষ্টেটাছ",
+            "clear_status": "ষ্টেটাছ আঁতৰাওক",
+            "set_custom_status": "কাষ্টম ষ্টেটাছ যোগ কৰক",
+            "leave_group": "গোট এৰি যাওক",
+            "leave_server": "চাৰ্ভাৰ এৰি যাওক",
+            "close_dm": "DM বন্ধ কৰক",
+            "ban_member": "সদস্যজনক নিষিদ্ধ কৰক",
+            "open_file": "ফাইলটো খোলক",
+            "open_image": "ফটোখন খোলক",
+            "save_file": "ফাইলটো চেভ কৰক",
+            "add_friend": "বন্ধুক যোগ কৰক",
+            "open_video": "ভিডিঅ'টো খোলক",
+            "save_image": "ফটোখন চেভ কৰক",
+            "copy_link": "লিংকটো কপি কৰক",
+            "block_user": "ব্যৱহাৰকাৰীক ব্লক কৰক",
+            "unblock_user": "ব্যৱহাৰকাৰীক আনব্লক কৰক",
+            "open_link": "লিংকটো খোলক",
+            "save_video": "ভিডিঅ'টো চেভ কৰক",
+            "edit_identity": "আপোনাৰ পৰিচয় সম্পাদনা কৰক",
+            "delete_server": "চাৰ্ভাৰ ডিলিট কৰক",
+            "delete_channel": "চেনেল ডিলিট কৰক",
+            "create_channel": "এটা চেনেল সৃষ্টি কৰক",
+            "create_category": "এটা শ্ৰেণী সৃষ্টি কৰক"
         }
     },
     "general": {
@@ -146,5 +256,8 @@
         "disabled": "অসামৰ্থবান",
         "unavailable": "উপলব্ধ নহয়",
         "learn_more": "অধিক তথ্য"
+    },
+    "actions": {
+        "submit": "দাখিল কৰক"
     }
 }
