@@ -35,7 +35,8 @@
                     "added_by": "{{other_user}}님이 {{user}}님을 추가했어요",
                     "removed_by": "{{other_user}}님이 {{user}}님을 삭제했어요",
                     "channel_renamed": "{{user}}님이 채널 이름을 {{name}}(으)로 변경했어요",
-                    "channel_ownership_changed": "{{from}}님이 {{to}}님께 그룹 소유권을 이전했어요"
+                    "channel_ownership_changed": "{{from}}님이 {{to}}님께 그룹 소유권을 이전했어요",
+                    "registered_at": "{{time}} 시에 등록 완료"
                 },
                 "voice": {
                     "leave": "연결 끊기",
@@ -382,7 +383,9 @@
                 "role_options": "역할 옵션",
                 "delete_role": "역할 삭제",
                 "edit_title": "권한 수정",
-                "title": "{{role}}에 대한 권한"
+                "title": "{{role}}에 대한 권한",
+                "hoist_role": "역할 끌어올리기",
+                "hoist_desc": "해당 역할은 다른 역할 위에 표시합니다."
             },
             "tips": {
                 "languages": {
@@ -450,7 +453,8 @@
             "custom_status": "사용자 지정 상태",
             "quote_message": "메시지 인용하기",
             "edit_identity": "서버별 프로필 수정",
-            "mark_unread": "읽지 않음으로 표시"
+            "mark_unread": "읽지 않음으로 표시",
+            "make_owner": "그룹에 소유권 부여"
         },
         "navigation": {
             "tabs": {
@@ -567,7 +571,8 @@
                     "unfriend_user": "{{name}}님을 친구 삭제할까요?",
                     "block_user": "{{name}}을(를) 차단할까요?",
                     "confirm_close_dm": "{{name}}님과의 개인 메세지를 닫을까요?",
-                    "silent_leave": "조용히 나가기"
+                    "silent_leave": "조용히 나가기",
+                    "members_not_notified": "다른 멤버들에게 알림을 보내지 않습니다"
                 },
                 "account": {
                     "change": {
@@ -616,7 +621,9 @@
                 "out_of_date": {
                     "description": "최신 변경 사항을 적용하려면 업데이트해야 합니다.",
                     "ignore": "업데이트 무시",
-                    "attempting": "업데이트를 시도하는 중..."
+                    "attempting": "업데이트를 시도하는 중...",
+                    "title": "클라이언트가 구 버전입니다!",
+                    "version": "해당 서버는 {{server}} 버전이 필요하지만 {{client}} 버전의 클라이언트를 사용하고 계십니다."
                 }
             },
             "friends": {
@@ -737,7 +744,7 @@
         },
         "TimeoutMembers": {
             "t": "타임아웃",
-            "d": "멤버가 일시적으로 사용자가 서버와 상호 작용하는 것을 방지할 수 있습니다."
+            "d": "멤버가 일시적으로 다른 유저의 서버 사용을 막을 수 있습니다."
         },
         "ManagePermissions": {
             "t": "권한 관리",
@@ -752,7 +759,8 @@
             "d": "멤버가 메시지에 반응을 다는것을 허가합니다."
         },
         "SendEmbeds": {
-            "t": "임베드 전송"
+            "t": "임베드 전송",
+            "d": "멤버들이 임베디드 된 콘텐츠 (링크, 커스텀 텍스트 임베드 등)를 전송할 수 있도록 허용합니다."
         },
         "ManageWebhooks": {
             "t": "웹훅 관리",
@@ -772,7 +780,7 @@
         },
         "MoveMembers": {
             "t": "멤버 이동",
-            "d": "사용자가 음성 채널 간에 다른 사용자를 이동 할 수 있습니다."
+            "d": "멤버가 음성 채널 간에 다른 사용자를 이동 할 수 있습니다."
         },
         "MuteMembers": {
             "t": "멤버 뮤트",
@@ -787,7 +795,8 @@
             "d": "멤버가 음성 채널에서 다른 사람의 말을 들을 수 있도록 허용해요."
         },
         "ManageCustomisation": {
-            "d": "멤버가 이모티콘을 생성, 편집 및 삭제할 수 있어요."
+            "d": "멤버가 이모티콘을 생성, 편집 및 삭제할 수 있어요.",
+            "t": "커스터마이징 관리"
         }
     },
     "login": {
@@ -834,9 +843,9 @@
         "unofficial_instance": "제삼자 인스턴스.",
         "totp": "인증 앱",
         "recovery": "복구 코드",
-        "verifying_account": "계정을 확인중입니다.",
+        "verifying_account": "계정을 확인 중입니다.",
         "verified_account": "계정이 확인 되었어요!",
-        "verified_continue": "계정에 로그인 하기"
+        "verified_continue": "계정 로그인 하기"
     },
     "general": {
         "tos": "서비스 이용 약관",
@@ -918,5 +927,8 @@
     "notifications": {
         "sent_request": "@{{person}}님이 친구 요청을 보내셨어요.",
         "now_friends": "@{{person}}님과 친구가 되었어요!"
+    },
+    "actions": {
+        "submit": "제출"
     }
 }
