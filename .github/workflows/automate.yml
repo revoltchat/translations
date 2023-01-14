@@ -1,4 +1,4 @@
-name: Automate Translations
+name: Automate Repository
 
 on:
   push:
@@ -10,13 +10,14 @@ on:
 jobs:
   auto:
     runs-on: ubuntu-latest
-    name: "Automate Translations"
+    name: "Automate Repository"
 
     steps:
       - uses: actions/checkout@v2
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
+
       - name: Bottomify translations
         run: deno run --allow-read --allow-write bottomify.ts
       - name: Convert to enchantment table
@@ -28,5 +29,15 @@ jobs:
         with:
           add: "*.json"
           message: "Update Automatic Languages"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update README
+        run: deno run --allow-read --allow-write calculate.ts
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v4
+        with:
+          add: "*.md"
+          message: "Generate README"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
