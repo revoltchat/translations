@@ -109,7 +109,9 @@
                     "appearance_options": {
                         "title": "Utseendealternativer",
                         "show_send": "Vis alltid Send melding-knappen",
-                        "show_send_desc": "Hvis den er deaktivert, vil Send melding-knappen bare vises på mobilen."
+                        "show_send_desc": "Hvis den er deaktivert, vil Send melding-knappen bare vises på mobilen.",
+                        "show_account_age": "Alltid vis kontoalder ved siden av ny-medlem meldinger",
+                        "show_account_age_desc": "Hvis den er deaktivert, vil kontoalderen bare vises for nye brukere."
                     }
                 },
                 "audio": {
@@ -227,7 +229,8 @@
                     "title": "Bruker administrering"
                 },
                 "emojis": {
-                    "title": "Emojier"
+                    "title": "Emojier",
+                    "upload": "Last Opp Emoji"
                 },
                 "customisation": {
                     "title": "Tilpasning"
@@ -299,7 +302,8 @@
                     "viewing_old": "Viser eldre meldinger",
                     "jump_beginning": "Hopp til begynnelsen",
                     "new_messages": "Nye meldinger siden {{time_ago}}",
-                    "load_file": "Last inn filen"
+                    "load_file": "Last inn filen",
+                    "timed_out": "Du er timed out i {{time}}."
                 },
                 "typing": {
                     "several": "Flere personer skriver…",
@@ -351,7 +355,8 @@
                     "user_joined": "{{user}} tok del",
                     "user_kicked": "{{user}} ble utkastet",
                     "user_left": "{{user}} dro sin vei",
-                    "channel_ownership_changed": "{{from}} ga {{to}} gruppeeierskap"
+                    "channel_ownership_changed": "{{from}} ga {{to}} gruppeeierskap",
+                    "registered_at": "Registrert {{time}}"
                 },
                 "attached_file": "Legg ved {{filename}}",
                 "failed_upload": "Kunne ikke laste opp!",
@@ -368,7 +373,8 @@
                     "replying": "Svarer",
                     "toggle": "Aktiver/deaktiver pinging av opphavsperson"
                 },
-                "bridge": "bro"
+                "bridge": "bro",
+                "user_timed_out": "Brukeren er timed out i {{time}}."
             },
             "servers": {
                 "voice_channel": "Talekanal",
@@ -425,7 +431,7 @@
                     "select": "Velg venner å legge til."
                 },
                 "create_bot": {
-                    "title": "Opprett en ny robot",
+                    "title": "Opprett en ny bot",
                     "failed": "Kunne ikke opprette en robot!"
                 },
                 "server_identity": {
@@ -494,7 +500,9 @@
                     "create_invite_generate": "Genererer invitasjon …",
                     "confirm_delete": "Slett {{name}}?",
                     "confirm_leave": "Forlat {{name}}?",
-                    "confirm_close_dm_long": "Du kan gjenåpne den senere, men den vil forsvinne på begge sider."
+                    "confirm_close_dm_long": "Du kan gjenåpne den senere, men den vil forsvinne på begge sider.",
+                    "members_not_notified": "Andre medlemmer vil ikke bli varslet",
+                    "silent_leave": "Forlat I Stillhet"
                 },
                 "onboarding": {
                     "pick": "Velg et brukernavn du ønsker at folk skal finne deg med, dette kan endres senere i innstillingene.",
@@ -636,7 +644,8 @@
             "invisible": "Usynlig",
             "busy": "Ikke forstyrr",
             "online": "Pålogget",
-            "reconnect": "Koble til på nytt"
+            "reconnect": "Koble til på nytt",
+            "focus": "Fokus"
         },
         "permissions": {
             "required": "Tilganger kreves"
@@ -857,7 +866,8 @@
             "resend": "Klarte ikke å sende igjen!",
             "reset": "Klarte ikke å tilbakestille!",
             "login": "Klarte ikke å logge inn!",
-            "create": "Klarte ikke å registrere!"
+            "create": "Klarte ikke å registrere!",
+            "verify": "Kunne ikke bekrefte!"
         },
         "successful_registration": "Registrert!",
         "check_spam": "Sjekk søppelposten hvis du ikke finner den",
@@ -894,7 +904,10 @@
         "subtitle2": "Opprett en konto",
         "unofficial_instance": "Tredjepartsinstans.",
         "recovery": "Gjenopprettingskode",
-        "totp": "Autentiseringsapp"
+        "totp": "Autentiseringsapp",
+        "verifying_account": "Bekrefter kontoen din…",
+        "verified_account": "Kontoen din er bekreftet!",
+        "verified_continue": "Fortsett å logge på"
     },
     "quantities": {
         "members": {
@@ -912,6 +925,9 @@
         "privacy": "Personvern",
         "tos": "Tjenestevilkår",
         "about": "Om",
-        "learn_more": "Lær mer"
+        "learn_more": "Mer Informasjon"
+    },
+    "actions": {
+        "submit": "Send Inn"
     }
 }
