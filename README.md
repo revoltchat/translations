@@ -21,7 +21,7 @@ The following table shows languages and people enlisted for verifying certain la
 |🇦🇿|Azərbaycan dili / az|||
 |🇧🇾|беларуская / be|||
 |🇧🇬|български / bg|||
-|🇧🇩|বাংলা / bn|||
+|🇧🇩|বাংলা / bn|[@Cynycal2003](https://github.com/Cynycal2003)||
 |br|Brezhoneg / br|[@SperedAnveliour](https://github.com/SperedAnveliour)||
 |🇪🇸|Català / ca|[@TallerThanShort](https://github.com/TallerThanShort)||
 |krd|کوردی / ckb|[@fanticwastaken](https://github.com/fanticwastaken)||
