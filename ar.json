@@ -20,7 +20,8 @@
             "password": "أدخل كلمة المرور الخاصة بك.",
             "invite": "أدخل رمز الدعوة.",
             "username": "أدخل إسم المستخدم المرغوب به.",
-            "current_password": "أدخل كلمة السر الحالية."
+            "current_password": "أدخل كلمة السر الحالية.",
+            "new_password": "ادخل كلمة مرور جديدة."
         },
         "forgot": "نسيت كلمة السر؟",
         "new": "جديد على Revolt؟",
@@ -57,7 +58,9 @@
         "recovery": "رمز الاسترجاع",
         "verifying_account": "جار التحقق من حسابك…",
         "verified_account": "تم توثيق حسابك بنجاح!",
-        "verified_continue": "الذهاب لتسجيل الدخول"
+        "verified_continue": "الذهاب لتسجيل الدخول",
+        "new_password": "كلمة مرور جديدة",
+        "log_out_other": "تسجيل خروج من جميع الجلسات الاخرى"
     },
     "app": {
         "main": {
@@ -122,7 +125,8 @@
                     "jump_beginning": "انتقل إلى البداية",
                     "new_messages": "رسائل جديدة منذ {{time_ago}}",
                     "load_file": "إختيار ملف",
-                    "timed_out": "لقد تم توقيفك ل {{time}}."
+                    "timed_out": "لقد تم توقيفك ل {{time}}.",
+                    "not_loaded": "فشل تحميل الرسائل, اضغط للانتقال"
                 },
                 "edited": "(تم التعديل)",
                 "message_where": "ارسل رسالة في {{channel_name}}",
@@ -147,7 +151,9 @@
                     "toggle": "وضع تنبيه كاتب الرسالة"
                 },
                 "bridge": "جسر",
-                "user_timed_out": "المستخدم موقف ل {{time}}."
+                "user_timed_out": "المستخدم موقف ل {{time}}.",
+                "bridged": "هذه الرسالة مرسلة من منصة اخرى",
+                "team": "التواصل الرسمي"
             },
             "categories": {
                 "conversations": "المحادثات",
@@ -221,9 +227,9 @@
             "remove_friend": "إزالة الصديق",
             "custom_status": "حالة مخصصة",
             "leave_group": "غادر المجموعة",
-            "leave_server": "غادر السيرفر",
+            "leave_server": "مغادرة السيرفر",
             "delete_server": "احذف السيرفر",
-            "edit_identity": "عدل الهوية",
+            "edit_identity": "تعديل الهوية",
             "edit_message": "عدل الرسالة",
             "remove_member": "ازل من المجموعة",
             "kick_member": "اطرد العضو",
@@ -300,7 +306,7 @@
                     "import": "استيراد سمة",
                     "theme": "السمة",
                     "emoji_pack": "حزمة الرموز التعبيرية",
-                    "reset_overrides": "إعادة تعيين الإعدادات اليدوية",
+                    "reset_overrides": "إعادة تعيين الإعدادات المعدلة",
                     "mono_font": "محدد الخط الثابت",
                     "color": {
                         "light": "فاتح",
@@ -362,7 +368,7 @@
                 },
                 "notifications": {
                     "sounds": "الأصوات",
-                    "enable_desktop": "فعّل تنبيهات سطح المكتب.",
+                    "enable_desktop": "فعّل تنبيهات الحاسوب.",
                     "descriptions": {
                         "enable_desktop": "ستستلم التنبيهات بينما البرنامج مفتوح.",
                         "enable_push": "فعل التنبيهات عندما تكون غير متصل."
@@ -597,7 +603,7 @@
                 },
                 "incoming": "طلب صداقة وارد.",
                 "pending": "الطلبات في الانتظار",
-                "outgoing": "طلب صداقة صادر.",
+                "outgoing": "طلب صداقةمرسل.",
                 "nobody": "لا أحد هنا بعد!",
                 "sent": "مُرسَل"
             },
