@@ -3,19 +3,20 @@
         "cancel": "İstəyi ləğv edin",
         "resend": "Doğrulama mesajını yenidən göndər",
         "missing_verification": "E-poçt almadınız?",
-        "create": "Yeni hesab yarat.",
+        "create": "Yeni hesab yarat",
         "existing": "Artıq hesabınız var?",
         "new": "Revolt üçün yenisiniz?",
         "remembered": "Giriş səyfəsinə geri qayıt",
-        "set_password": "Yeni parol seç.",
+        "set_password": "Yeni parol seç",
         "reset": "Parolu sıfırla",
         "forgot": "Şifrəni unutmusan?",
         "enter": {
-            "current_password": "Cari parolunuzu daxil edin",
+            "current_password": "Cari parolunuzu daxil edin.",
             "invite": "Dəvət kodunu daxil edin.",
-            "password": "Şifrənizi daxil edin",
+            "password": "Şifrənizi daxil edin.",
             "email": "Elektron poçtunuzu daxil edin.",
-            "username": "İstədiyiniz istifadəçi adını daxil edin."
+            "username": "İstədiyiniz istifadəçi adını daxil edin.",
+            "new_password": "Yeni şifrənizi daxil edin."
         },
         "current_password": "Hazırkı şifrə",
         "invite": "Dəvət kodu",
@@ -25,14 +26,15 @@
         "register": "Qeydiyyatdan keçin",
         "title": "Daxil ol",
         "check_mail": "Poçtunuzu yoxlayın!",
-        "check_spam": "Xahiş edirəm tapa bilmirsinizsə spamı yoxlayın.",
+        "check_spam": "Xahiş edirəm tapa bilmirsinizsə spamı yoxlayın",
         "open_mail_provider": "{{provider}} açıq",
         "successful_registration": "Uğurla qeydiyyatdan keçdi!",
         "error": {
             "create": "Qeydiyyatdan keçmədi!",
             "reset": "Sıfırlamaq alınmadı!",
             "resend": "Yenidən göndərmək alınmadı!",
-            "login": "Giriş alınmadı!"
+            "login": "Giriş alınmadı!",
+            "verify": "Doğrulamaq alınmadı!"
         },
         "email_delay": "Xahiş edirəm çatması üçün 10 dəqiqəyə qədər vaxt verin.",
         "welcome": "Xoşgəldin!",
@@ -44,7 +46,9 @@
         "verifying_account": "Hesabınızı yoxlamaq…",
         "unofficial_instance": "Üçüncü instansiya.",
         "totp": "Authenticator tətbiqi",
-        "recovery": "Bərpa kodu"
+        "recovery": "Bərpa kodu",
+        "new_password": "Yeni Şifrə",
+        "log_out_other": "Bütün digər seanslardan çıxın"
     },
     "general": {
         "loading": "Yüklənir…",
@@ -55,7 +59,8 @@
         "on": "Açıq",
         "off": "Qapalı",
         "disabled": "Sifarişdən kənar",
-        "unavailable": "Əlçatan deyil"
+        "unavailable": "Əlçatan deyil",
+        "learn_more": "Daha çox məlumat"
     },
     "app": {
         "status": {
@@ -97,13 +102,14 @@
                 "system": {
                     "user_joined": "{{user}} qatıldı",
                     "user_left": "{{user}} sol",
-                    "added_by": "{{user}}, {{other_user}} tərəfindən əlavə edilmişdir.",
-                    "removed_by": "{{user}}, {{other_user}} tərəfindən qaldırıldı.",
+                    "added_by": "{{user}}, {{other_user}} tərəfindən əlavə edilmişdir",
+                    "removed_by": "{{user}}, {{other_user}} tərəfindən qaldırıldı",
                     "channel_renamed": "{{user}}, kanalın adı {{name}} ilə dəyişdirildi",
                     "channel_icon_changed": "{{user}} kanal şəklini dəyişdirdi",
                     "channel_description_changed": "{{user}} kanal təsvirini dəyişdirdi",
                     "user_kicked": "{{user}} qovuldu",
-                    "user_banned": "{{user}} qadağandır"
+                    "user_banned": "{{user}} qadağandır",
+                    "channel_ownership_changed": "{{from}} qrup mülkiyyətini {{to}} özünə verdi"
                 },
                 "start": {
                     "group": "Bu söhbətinizin başlanğıcıdır.",
@@ -126,7 +132,9 @@
                     "sent_multiple_files": "Birdən çox qoşma göndərildi",
                     "sent_file": "Əlavə göndərildi",
                     "jump_beginning": "Başlanğıca geri dön",
-                    "new_messages": "{{time_ago}} zamanından sonra yeni mesajlar"
+                    "new_messages": "{{time_ago}} zamanından sonra yeni mesajlar",
+                    "load_file": "Faylı yüklə",
+                    "not_loaded": "Mesaj yüklənmədi, tullanmaq üçün klikləyin"
                 },
                 "unknown_user": "<Naməlum istifadəçi>",
                 "bot": "bot",
@@ -161,11 +169,13 @@
                 },
                 "reply": {
                     "toggle": "Müəllifin pingini dəyişdirin"
-                }
+                },
+                "bridged": "Mesaj başqa platformada göndərildi",
+                "bridge": "körpü"
             },
             "groups": {
                 "create": "Qrup yaradın",
-                "name": "Qrup adı",
+                "name": "Qrup Adı",
                 "owner": "Qrup sahibi",
                 "description": "Qrup Təsviri"
             },
@@ -208,7 +218,7 @@
                     "manage": {
                         "title": "Hesab İdarəetmə",
                         "description": "Hesabınızı istənilən vaxt söndürün və ya silin. Bu hərəkət sizi çıxardacaq və söhbət tarixçəsi və dostlarınız daxil olmaqla hesabınızı tamamilə siləcəkdir.",
-                        "delete": "Hesabı silin",
+                        "delete": "Hesabı silmək üçün işarələyin",
                         "disable": "Hesabı deaktiv edin"
                     }
                 },
@@ -345,7 +355,7 @@
                     "output_device": "Dinamik / Qulaqlıq",
                     "tip_retry": "Mikrofonunuzdan istifadə etməyə icazə vermədiniz, zəhmət olmasa {{retryBtn}}.",
                     "tip_grant_permission": "Sənin səs icazələrinə ehtiyacın var.",
-                    "button_grant": "İcazə ver."
+                    "button_grant": "İcazə ver"
                 },
                 "bots": {
                     "add": "Bot əlavə et",
@@ -358,7 +368,7 @@
                     "private_bot_tip": "Bot gizlidir. Yalnız dəvət edə bilərsiniz.",
                     "public_bot": "İctimai Bot",
                     "public_bot_desc": "İstifadəçilərə bu botu dəvət etməyə icazə verir.",
-                    "interactions_url": "Qarşılıqlı URL.",
+                    "interactions_url": "Qarşılıqlı URL",
                     "reserved": "Qeyd: Bu sahə gələcək üçün ayrılmışdır.",
                     "profile": "Bot profili"
                 },
@@ -378,7 +388,7 @@
                         "highest": "Ən yüksək reytinq"
                     },
                     "description": "İcma tərəfindən yaradılmış və seçilmiş yüzlərlə mövzuya göz atın.",
-                    "search": "Temalar axtar...",
+                    "search": "Temalar axtar…",
                     "by": "Tərəfindən"
                 }
             },
@@ -531,12 +541,12 @@
             },
             "popovers": {
                 "user_profile": {
-                    "no_groups": "Qarşılıqlı qrup yoxdur!",
+                    "no_groups": "Qarşılıqlı qrup yoxdur",
                     "profile": "Profil",
                     "mutual_friends": "Qarşılıqlı Dostlar",
                     "mutual_groups": "Qarşılıqlı Qruplar",
                     "empty": "Bura bir az boşdur…",
-                    "no_users": "Qarşılıqlı dostlar yoxdur!",
+                    "no_users": "Qarşılıqlı dostlar yoxdur",
                     "sub": {
                         "badges": "Nişanlar",
                         "information": "Məlumat",
@@ -551,7 +561,7 @@
                         "moderation": "Platforma Moderaysası"
                     },
                     "mutual_servers": "Ortaq Serverlər",
-                    "no_servers": "Ortaq server yoxdur!"
+                    "no_servers": "Ortaq server yoxdur"
                 },
                 "user_picker": {
                     "select": "Əlavə etmək üçün dost seçin."
@@ -705,7 +715,7 @@
         "NoEffect": "Bu istəyin heç bir təsiri olmadı.",
         "BlockedOther": "Bu istifadəçi sizi blok edib.",
         "RequiredField": "Tələb olunur",
-        "Unavailable": "Əlçatan deyil",
+        "Unavailable": "Əlçatan deyil.",
         "FileTooLarge": "Fayl çox böyükdür.",
         "DatabaseError": "Verilənlər bazası xətası.",
         "MissingData": "İstəkdə məlumat yoxdur.",
