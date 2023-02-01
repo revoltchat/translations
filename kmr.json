@@ -7,7 +7,7 @@
         "off": "Ji",
         "disabled": "Bêmecel",
         "privacy": "Siyaseta Nepenîtiyê",
-        "learn_more": "Bêtir hîn bibin",
+        "learn_more": "Zêdetir agahdarî",
         "about": "Ji dor",
         "unavailable": "Nayê bikarînan"
     },
@@ -26,7 +26,8 @@
             "email": "E-nameya xwe binivîse.",
             "password": "Şîfreya xwe binivîse.",
             "invite": "Koda vexwendina xwe binivîse.",
-            "current_password": "Şîfreya xweya niha binivîse."
+            "current_password": "Şîfreya xweya niha binivîse.",
+            "new_password": "Şîfreyeke nû binivîse."
         },
         "forgot": "Şîfreya xwe ji bîr kir?",
         "reset": "Şîfreyê vegerîne",
@@ -47,11 +48,19 @@
             "create": "Qeydkirin bi ser neket!",
             "login": "Têketinê têk çû!",
             "resend": "Nehat şandin!",
-            "reset": "Vegerandin bi ser neket!"
+            "reset": "Vegerandin bi ser neket!",
+            "verify": "Verastkirina wê bi ser neket!"
         },
         "unofficial_instance": "Mînaka partiya sêyemîn.",
         "username": "Navê bikarhêner",
-        "invite": "Koda vexwendinê"
+        "invite": "Koda vexwendinê",
+        "new_password": "Şîfreya Nû",
+        "log_out_other": "Hemû danişînên din veke",
+        "verifying_account": "Hesaba xwe rast bike…",
+        "verified_account": "Hesabê we hatiye piştrastkirin!",
+        "verified_continue": "Têketinê bidomîne",
+        "totp": "Sepana Xwerastandinê",
+        "recovery": "Koda Rizgarkirinê"
     },
     "app": {
         "status": {
@@ -60,7 +69,8 @@
             "busy": "Bêzar Neke",
             "invisible": "Nexuya",
             "offline": "Nelirêtî",
-            "reconnect": "Dîsa girêdan"
+            "reconnect": "Dîsa girêdan",
+            "focus": "Bal"
         },
         "navigation": {
             "tabs": {
@@ -98,15 +108,17 @@
             "channel": {
                 "failed_upload": "Barkirin bi ser neket!",
                 "system": {
-                    "removed_by": "{{bikarhêner}} ji hêla {{bikarhênerek din}} ve hat rakirin",
-                    "user_joined": "{{bikarhêner}} tevlî bû",
-                    "user_left": "{{bikarhêner}} hiştin",
-                    "user_kicked": "{{bikarhêner}} hat xistin",
-                    "user_banned": "{{bikarhêner}} hate qedexekirin",
-                    "added_by": "{{bikarhêner}} ji hêla {{bikarhênerek din}} ve hat zêdekirin",
+                    "removed_by": "{{user}} ji hêla {{other_user}} ve hat rakirin",
+                    "user_joined": "{{user}} tevlî bû",
+                    "user_left": "{{user}} hiştin",
+                    "user_kicked": "{{user}} hat xistin",
+                    "user_banned": "{{user}} hate qedexekirin",
+                    "added_by": "{{user}} ji hêla {{other_user}} ve hat zêdekirin",
                     "channel_renamed": "{{user}} navê kanalê kir {{name}}",
                     "channel_description_changed": "{{user}} şiroveya kanalê guhert",
-                    "channel_icon_changed": "{{user}} îkona kanalê guhert"
+                    "channel_icon_changed": "{{user}} îkona kanalê guhert",
+                    "channel_ownership_changed": "{{from}} da {{to}} xwedîtîya grûpê",
+                    "registered_at": "Qeydkirî {{time}}"
                 },
                 "voice": {
                     "leave": "terikandin",
@@ -126,7 +138,9 @@
                     "blocked_user": "kesê astengkirî",
                     "sent_file": "Pêvek şandin",
                     "sent_multiple_files": "Gelek pêvekan bişînin",
-                    "load_file": "Pelê barkirin"
+                    "load_file": "Pelê barkirin",
+                    "not_loaded": "Peyam nehat barkirin, ji bo hilavêtinê bitikîne",
+                    "timed_out": "Ji bo we dem derbas bûye {{time}}."
                 },
                 "search": {
                     "sort": {
@@ -141,18 +155,18 @@
                     "title": "Oops, li vir tiştek tune!",
                     "nochannel": "Kanal tune"
                 },
-                "message_where": "Peyama {{kanala_nav}}",
-                "message_who": "Peyam {{kes}}",
+                "message_where": "Peyama {{channel_name}}",
+                "message_who": "Peyam {{person}}",
                 "message_saved": "tomar bike li notên xwe",
                 "uploading_file": "Barkirin…",
-                "attached_file": "Pêvekirî {{navê pelê}}",
+                "attached_file": "Pêvekirî {{filename}}",
                 "reply": {
                     "replying": "Bersiv didin",
                     "toggle": "Pinga nivîskarê biguherîne"
                 },
                 "typing": {
-                    "single": "{{bikarhêner}} dinivîse…",
-                    "multiple": "{{lîsteya bikarhêner}} û {{bikarhêner}} dinivîsin…",
+                    "single": "{{user}} dinivîse…",
+                    "multiple": "{{userlist}} û {{user}} dinivîsin…",
                     "several": "Çend kes dinivîsin…"
                 },
                 "start": {
@@ -176,7 +190,10 @@
                     "mention": "Behsa Tenê",
                     "none": "Netû",
                     "muted": "Netû"
-                }
+                },
+                "user_timed_out": "Bikarhêner ji bo bikarhêneran demderbasdar e {{time}}.",
+                "bridged": "Di platformeke din de peyam hate şandin",
+                "team": "Ragihandina Fermî"
             },
             "servers": {
                 "custom_banner": "tiştekî adeta",
@@ -209,12 +226,18 @@
                     "2fa": {
                         "add_auth": "Authenticator zêde bikin",
                         "title": "Nasnameya du-faktorî",
-                        "description": "Ji kerema xwe ji bo parastina hesabê xwe 2FA çalak bikin",
-                        "remove_auth": "Authenticator rakin"
+                        "description": "Bi lêkirina 2FAyê li ser hesabê xwe tebeqeyeke zêde ya ewlehiyê lê zêde bikin.",
+                        "remove_auth": "Authenticator rakin",
+                        "two_factor_on": "Piştrastkirina du faktoran niha li ser e.",
+                        "generate_recovery_long": "Ji bo bikarînana 2FAyê amade bin, bi sazkirina rêbazeka başkirinê.",
+                        "view_recovery": "Kodên Rizgarkirinê Nîşan Bide",
+                        "view_recovery_long": "Kodên xwe yên rizgarkirinê yên 2FAyê bibînin û daxînin.",
+                        "generate_recovery": "Kodên Rizgarkirinê Ava Bike",
+                        "two_factor_off": "Te destûr neda piştrastkirina du faktoran!"
                     },
                     "manage": {
                         "description": "Di her kêliyê de hesabê xwe neçalak bike an jê bibe. Ev çalakî dê we derxe û hesabê we, tevî dîroka chat û hevalên we, bi tevahî jê bibe.",
-                        "delete": "Hesabê jêbirin",
+                        "delete": "Hesaba Jêbirinê Nîşan Bide",
                         "title": "rêveberiya hesabê",
                         "disable": "Hesabê neçalak bike"
                     },
@@ -244,7 +267,7 @@
                     "title": "Mîhengên Deng",
                     "input_device": "Mîkrofon",
                     "output_device": "Axaftvan / Headset",
-                    "tip_retry": "Ji kerema xwe te destûra gihîştina mîkrofona. xwe neda {{retryBtn}}",
+                    "tip_retry": "Te destûr neda ku hûn xwe bigihînin mîkrofona xwe, ji kerema xwe {{retryBtn}}}.",
                     "device_label_NA": "ez nizanim",
                     "button_retry": "dîsa hewl didin",
                     "button_grant": "Destûr bide"
@@ -257,7 +280,9 @@
                     "appearance_options": {
                         "show_send_desc": "Ger neçalak be, bişkoka Send Message dê tenê li ser mobîl xuya bibe.",
                         "title": "Vebijêrkên Xuyang",
-                        "show_send": "Bişkoka Send Message Her tim nîşan bide"
+                        "show_send": "Bişkoka Send Message Her tim nîşan bide",
+                        "show_account_age": "Her dem temenê hesaba li kêleka peyamên ku dê werin nîşan bide",
+                        "show_account_age_desc": "Heke neçalak be, temenê hesabtenê dê ji bo bikarhênerên nû were nîşandan."
                     },
                     "theme_options": {
                         "follow_desc": "Dema ku were kontrol kirin, hûn ê nikaribin mijara xwe biguherînin an mijarek xwerû bikar bînin.",
@@ -300,7 +325,7 @@
                     "enable_desktop": "Agahiyên Sermaseyê çalak bikin.",
                     "descriptions": {
                         "enable_desktop": "Dema ku sepana we vekirî ye ev ê agahdariyan bide we.",
-                        "enable_push": "çalak ji bo agahdarkirinê. gava ku tu offline"
+                        "enable_push": "Dema ku hûn negirêdayî bin çalak bikin ku agahdarîyan bistînin."
                     },
                     "sound": {
                         "call_join": "banga tevlîbûnê kir",
@@ -395,13 +420,15 @@
                     "code": "koda vexwendinê",
                     "title": "vedixwîne",
                     "invitor": "vexwendinkeran",
-                    "revoke": "revok"
+                    "revoke": "revok",
+                    "channel": "Kanal"
                 },
                 "bans": {
                     "reason": "Sedema qedexekirinê",
                     "title": "qedexe krin",
                     "user": "Bikaranîvan",
-                    "no_reason": "Sedema qedexekirinê tune."
+                    "no_reason": "Sedema qedexekirinê tune.",
+                    "revoke": "Betal bike"
                 },
                 "categories": {
                     "title": "kategoriyan"
@@ -420,6 +447,13 @@
                 },
                 "roles": {
                     "title": "rolên"
+                },
+                "customisation": {
+                    "title": "Taybetkirin"
+                },
+                "emojis": {
+                    "title": "Emûcî",
+                    "upload": "Emûcî bar kirin"
                 }
             },
             "title": "mîhengên",
@@ -441,9 +475,89 @@
             },
             "tips": {
                 "account": {
-                    "a": "Digerin ku profîla xweya giştî xweş bikin?"
+                    "a": "Digerin ku profîla xweya giştî xweş bikin?",
+                    "b": "Serî li eyarên profîla xwe bide."
+                },
+                "languages": {
+                    "b": "Alîkarî yê zêdetir wergeran bike.",
+                    "a": "Zimanekî ku tu dixwazî kêm e?"
+                },
+                "sessions": {
+                    "a": "Heke tu danişîna nenas di lîsteyê da bibînî,",
+                    "b": "Bi guhertina şîfreya xwe û bi bikaranîna 2FAyê hesabê xwe ewle bikin."
                 }
+            },
+            "permissions": {
+                "default_role": "Wekî heyî",
+                "role_ranking": "Rêzkirina Rolê",
+                "server": "Destûrên Pêşkêşkarê",
+                "create_role": "Rolek nû biafirîne",
+                "role_name": "Navê Rolê",
+                "role_colour": "Rol Reng",
+                "role_options": "Vebijêrkên Rolê",
+                "channel": "Destûrên Kanalê",
+                "hoist_role": "Rolê Hilandin",
+                "hoist_desc": "Vê rolê li ser yên din nîşan bidin.",
+                "delete_role": "Rolê Jê Bibe",
+                "title": "Destûrên ji bo {{role}}",
+                "edit_title": "Destûran Sererast Bike"
             }
+        },
+        "special": {
+            "friends": {
+                "incoming": "Daxwaza hevalê tê.",
+                "blocked": "Astengkirî",
+                "nobody": "Tu kes hê li vir nîn e!",
+                "from": {
+                    "single": "Ji {{user}}",
+                    "several": "Ji {{userlist}} û {{count}} bêtir…",
+                    "multiple": "Ji {{userlist}} û {{user}}"
+                },
+                "sent": "Derketî",
+                "pending": "Daxwazên li bendê",
+                "outgoing": "Daxwaza hevaltîya derketî."
+            },
+            "modals": {
+                "confirm": "Çalakiya piştrast bike",
+                "prompt": {
+                    "confirm_leave_long": "Heta ku hûn careke din venexwînin hûn dê nikaribin tevlî bibin.",
+                    "confirm_close_dm": "Axaftina nêzîk bi re {{name}}?",
+                    "create_invite_generate": "Vexwendinê hilberîne…",
+                    "confirm_delete": "Jê bibe {{name}}?",
+                    "confirm_leave": "Dev ji {{name}}?",
+                    "confirm_delete_long": "Piştî ku hate jêbirin, paşve veger tune ye.",
+                    "confirm_delete_message_long": "Tu piştrast î ku dixwazî vê jê bibî?",
+                    "create_invite_created": "Va ye koda we ya vexwendinê ya nû:",
+                    "confirm_close_dm_long": "Tu dikarî paşê dîsa vekî lê ew dê ji her du alîyan jî wenda bibe."
+                },
+                "token_reveal": "{{name}}'s Token",
+                "onboarding": {
+                    "welcome": "Bi xêr hatî",
+                    "pick": "Navê bikarhêneran hilbijêrin ku hûn dixwazin mirov bikarin we bibînin, ev dikare paşê di eyarên xwe da bê guhertin."
+                },
+                "signed_out": "Tu hatim îmzekirin!",
+                "error": "Çewtiyek çêbû!",
+                "clipboard": {
+                    "copy": "Jibergirtin:",
+                    "unavailable": "Pano tune ye!",
+                    "https": "Tu niha ne di çarçoveyeke HTTPS de yî."
+                }
+            },
+            "status": {
+                "offline": "Nelirêtî.",
+                "disconnected": "Girêdan qut bû.",
+                "reconnecting": "Girêdan dîsa tê girêdan…",
+                "connecting": "Tê girêdan…"
+            },
+            "server-badges": {
+                "official": "Pêşkêşkera Fermî",
+                "verified": "Pêşkêşkerê Piştrastkirî"
+            },
+            "copy_username": "Ji bo kopîkirina navê bikarhêner bitikîne",
+            "copy": "Ji bo jibergirtinê bitikîne"
         }
+    },
+    "actions": {
+        "submit": "Nermijîn"
     }
 }
