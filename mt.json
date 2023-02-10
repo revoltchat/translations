@@ -8,7 +8,8 @@
         "unavailable": "Ma jeżistix",
         "about": "Dwar il-proġett",
         "disabled": "Mitfi",
-        "image_by": "Immaġni minn"
+        "image_by": "Immaġni minn",
+        "learn_more": "Informazzjoni Aktar"
     },
     "login": {
         "title": "Idħol f'account",
@@ -24,7 +25,8 @@
             "password": "Daħħal il-password magħżula tiegħek,",
             "email": "Daħħal l-email tiegħek.",
             "invite": "Daħħal il-kodiċi tal-istedina tiegħek.",
-            "current_password": "Daħħal il-password attwali tiegħek."
+            "current_password": "Daħħal il-password attwali tiegħek.",
+            "new_password": "Daħħal password ġdħol"
         },
         "set_password": "Agħmel password ġdida",
         "current_password": "Kodiċi kurrenti",
@@ -48,8 +50,17 @@
             "create": "naqas milli jirreġistra!",
             "login": "naqas milli login!",
             "reset": "Naqas li reset!",
-            "resend": "Naqas milli jerġa' jibgħat!"
-        }
+            "resend": "Naqas milli jerġa' jibgħat!",
+            "verify": "Verifikazzjoni falliet!"
+        },
+        "unofficial_instance": "Instanza terza parti",
+        "log_out_other": "Ħalli Sessjonijiet Oħrajn Kollha",
+        "new_password": "Password Ġdħol",
+        "totp": "App Tal-Awtentikazzjoni",
+        "recovery": "Kodi Tal-Ġimgħat",
+        "verifying_account": "Verifikazzjoni tal-kont tiegħek…",
+        "verified_account": "Il-kont tiegħek ġie verifikat!",
+        "verified_continue": "Kompli jidħol fil-kont"
     },
     "app": {
         "status": {
@@ -58,7 +69,8 @@
             "idle": "Idle",
             "busy": "Ittellifx",
             "invisible": "Inviżibbli",
-            "offline": "Offline"
+            "offline": "Offline",
+            "focus": "Fokus"
         },
         "home": {
             "settings-tooltip": "Tista 'wkoll tikklikkja bil-lemin fuq l-ikona tal-utent fin-naħa ta' fuq tax-xellug, jew tikklikkja fuq ix-xellug jekk int diġà d-dar.",
@@ -102,7 +114,31 @@
                 },
                 "system": {
                     "user_joined": "{{user}} ingħaqad",
-                    "user_left": "{{utent}} telaq"
+                    "user_left": "{{utent}} telaq",
+                    "channel_description_changed": "{{user}} biddel id-diskrizzjoni tal-kanal",
+                    "channel_renamed": "{{user}} biddel il-kanal għal {{name}}",
+                    "registered_at": "Rreġistrat {{time}}",
+                    "user_kicked": "{{user}} ġie bħallet",
+                    "user_banned": "{{user}} ġie bannat",
+                    "added_by": "ġie miżjud mill-{{other_user}}",
+                    "removed_by": "{{user}} ġie rimosso mill-{{other_user}}",
+                    "channel_icon_changed": "{{user}} biddel l-ikona tal-kanal",
+                    "channel_ownership_changed": "{{from}} ttella {{to}} l-għaxar titolu tal-grupp"
+                },
+                "voice": {
+                    "leave": "Ivvjaħt",
+                    "connected": "Vokali konnessa",
+                    "mute": "Mutizza",
+                    "unmute": "Unmutizza"
+                },
+                "start": {
+                    "group": "Dan huwa l-bidu tal-konversazzjoni tiegħek.",
+                    "saved": "Din il-bidu ta' noti tiegħek. traduċi għall-Malti"
+                },
+                "misc": {
+                    "viewing_old": "Qarrej ta' messaġġi qodma",
+                    "jump_present": "Lur għal dik l-Attuali",
+                    "jump_beginning": "Lur għal bidu"
                 }
             }
         },
@@ -115,5 +151,8 @@
                 "saved": "Noti Salvati"
             }
         }
+    },
+    "actions": {
+        "submit": "Ibgħat"
     }
 }
