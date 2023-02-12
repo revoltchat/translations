@@ -6,7 +6,8 @@
             "idle": "Aosente",
             "invisible": "Invisìbile",
             "offline": "Offline",
-            "reconnect": "Recunir"
+            "reconnect": "Recunir",
+            "focus": "Metìo a fogo"
         },
         "navigation": {
             "tabs": {
@@ -60,7 +61,9 @@
                     "channel_renamed": "{{user}} ga renominà el canal par {{name}}",
                     "user_kicked": "{{user}} l'è stà zpulsà",
                     "channel_description_changed": "{{user}} gà canbià ła descrision del canal",
-                    "channel_icon_changed": "{{user}} gà canbià l'ìcone del canal"
+                    "channel_icon_changed": "{{user}} gà canbià l'ìcone del canal",
+                    "registered_at": "Registrà a {{time}}",
+                    "channel_ownership_changed": "Ła propietà del grupo ze stada dada da {{from}} a {{to}}"
                 },
                 "voice": {
                     "mute": "Siłensiar",
@@ -84,7 +87,9 @@
                     "sent_multiple_files": "Ga invià tanti anesi",
                     "load_file": "Cargar archivo",
                     "no_sending": "Ti no te ghè parmeso d'inviar mesàji in sto canal.",
-                    "failed_load": "No se pol cargar el mensàjo."
+                    "failed_load": "No se pol cargar el mensàjo.",
+                    "not_loaded": "El mesàjo no ze stà cargà, clica par saltar",
+                    "timed_out": "Te si in timeout par {{time}}."
                 },
                 "nsfw": {
                     "channel": {
@@ -116,7 +121,8 @@
                     "nochannel": "Nisun canal",
                     "nochannels": "Sto servidor no gà mìa canai, o no te ghè aseso par nisun.",
                     "title": "Oops, no ghe xe njente cuà!"
-                }
+                },
+                "bridged": "El mesàjo ze stà invià da nantra piataforma"
             },
             "categories": {
                 "conversations": "Conversasion",
@@ -361,7 +367,7 @@
         "unavailable": "Indisponìbiłe",
         "about": "Sora",
         "privacy": "Połìtega de Reservadesa",
-        "learn_more": "Saver de pì"
+        "learn_more": "Pì informasion"
     },
     "login": {
         "title": "Asede",
@@ -379,7 +385,8 @@
             "password": "Inseri ła to ciave.",
             "invite": "Inseri el to còdise de convite.",
             "email": "Inseri el to e-mail.",
-            "current_password": "Inseri ła to ciave atual."
+            "current_password": "Inseri ła to ciave atual.",
+            "new_password": "Inseri na nova ciave."
         },
         "forgot": "Gheto smentegà ła to ciave?",
         "new": "Novo in Revolt?",
@@ -396,7 +403,8 @@
             "create": "Registrasion fałista!",
             "reset": "Reset fałisto!",
             "resend": "Rinvio fałisto!",
-            "login": "Aseso fałisto!"
+            "login": "Aseso fałisto!",
+            "verify": "Verifegasion fałista!"
         },
         "password": "Ciave",
         "reset": "Resetar ła ciave",
@@ -405,7 +413,12 @@
         "email_delay": "Te speti fin a 10 menuti par l'arivo del e-mail.",
         "unofficial_instance": "Instànsa de terse parti.",
         "recovery": "Còdise de Recupero",
-        "totp": "Aplicasion d'Autenticasion"
+        "totp": "Aplicasion d'Autenticasion",
+        "new_password": "Nova Ciave",
+        "log_out_other": "Usìr de tute łe sesioni",
+        "verified_continue": "Ndar al login",
+        "verifying_account": "Drio verifegar to conta…",
+        "verified_account": "Ła to conta ła ze stada verifegada!"
     },
     "permissions": {
         "InviteOthers": {
@@ -504,5 +517,8 @@
             "t": "Inviar Archivi",
             "d": "Parmete che i menbri i invie archivi nte canai de testo."
         }
+    },
+    "actions": {
+        "submit": "Sotométer"
     }
 }
