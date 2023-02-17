@@ -86,7 +86,8 @@
                     "toggle": "원 게시자 멘션 여부"
                 },
                 "bridge": "브릿지",
-                "user_timed_out": "사용자가 {{time}} 동안 타임아웃됐어요."
+                "user_timed_out": "사용자가 {{time}} 동안 타임아웃됐어요.",
+                "bridged": "다른 플랫폼에서 전송된 메시지"
             },
             "groups": {
                 "create": "그룹 만들기",
@@ -621,7 +622,7 @@
                 "out_of_date": {
                     "description": "최신 변경 사항을 적용하려면 업데이트해야 합니다.",
                     "ignore": "업데이트 무시",
-                    "attempting": "업데이트를 시도하는 중...",
+                    "attempting": "업데이트를 시도하는 중…",
                     "title": "클라이언트가 구 버전입니다!",
                     "version": "해당 서버는 {{server}} 버전이 필요하지만 {{client}} 버전의 클라이언트를 사용하고 계십니다."
                 }
@@ -803,10 +804,11 @@
         "title": "로그인",
         "enter": {
             "password": "비밀번호를 입력하세요.",
-            "username": "선호하는 사용자명을 입력하세요.",
+            "username": "사용자명을 입력하세요.",
             "email": "이메일을 입력하세요.",
             "invite": "초대 코드를 입력하세요.",
-            "current_password": "현재 비밀번호를 입력하세요."
+            "current_password": "현재 비밀번호를 입력하세요.",
+            "new_password": "새로운 비밀번호를 입력하세요."
         },
         "reset": "비밀번호 재설정",
         "remembered": "로그인으로 돌아가기",
@@ -837,15 +839,17 @@
         "successful_registration": "가입하셨어요!",
         "resend": "인증 메일 재전송",
         "welcome2": "환영해요!",
-        "welcome": "다시 오신 것을 환영해요!",
+        "welcome": "환영합니다!",
         "subtitle": "Revolt에 로그인",
         "subtitle2": "계정 생성",
         "unofficial_instance": "제삼자 인스턴스.",
         "totp": "인증 앱",
         "recovery": "복구 코드",
-        "verifying_account": "계정을 확인 중입니다.",
+        "verifying_account": "계정을 확인 중입니다…",
         "verified_account": "계정이 확인 되었어요!",
-        "verified_continue": "계정 로그인 하기"
+        "verified_continue": "계정 로그인 하기",
+        "log_out_other": "모든 세션에서 로그아웃",
+        "new_password": "새로운 비밀번호"
     },
     "general": {
         "tos": "서비스 이용 약관",
