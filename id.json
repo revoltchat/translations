@@ -280,7 +280,7 @@
                 },
                 "sessions": {
                     "a": "Jika kamu melihat sesi yang tidak dikenal pada daftar,",
-                    "b": "amankan akunmu dengan mengubah kata sandi dan menggunakan 2FA."
+                    "b": "amankan akunmu dengan mengubah sandi dan menggunakan 2FA."
                 },
                 "languages": {
                     "a": "Tidak ada bahasa yang kamu inginkan?",
@@ -312,7 +312,8 @@
                     "jump_beginning": "Loncat ke awal",
                     "new_messages": "Pesan baru sejak {{time_ago}}",
                     "load_file": "Muat berkas",
-                    "timed_out": "Kamu berada dalam mode senyap selama {{time}}."
+                    "timed_out": "Kamu berada dalam mode senyap selama {{time}}.",
+                    "not_loaded": "Pesan tak termuat, klik untuk meloncat"
                 },
                 "voice": {
                     "unmute": "Suarakan",
@@ -380,7 +381,9 @@
                     "toggle": "Ping penulis"
                 },
                 "bridge": "jembatan",
-                "user_timed_out": "Pengguna diberi timeout selama {{time}}."
+                "user_timed_out": "Pengguna diberi timeout selama {{time}}.",
+                "bridged": "Pesan dikirim dari platform lain",
+                "team": "Komunikasi Resmi"
             },
             "categories": {
                 "members": "Anggota",
@@ -477,7 +480,7 @@
                 },
                 "account": {
                     "change": {
-                        "password": "Ubah kata sandimu",
+                        "password": "Ubah sandimu",
                         "username": "Ubah nama pengguna kamu",
                         "email": "Ubah surelmu"
                     },
@@ -541,7 +544,7 @@
                     "description": "Ia perlu diperbarui agar dapat bekerja dengan perubahan terbaru.",
                     "version": "Klienmu berada di {{client}}, sedangkan servernya memerlukan {{server}}.",
                     "ignore": "Abaikan pembaruan",
-                    "attempting": "Mencoba untuk memperbarui..."
+                    "attempting": "Mencoba untuk memperbarui…"
                 }
             },
             "status": {
@@ -688,25 +691,26 @@
         "existing": "Sudah punya akun?",
         "new": "Baru di Revolt?",
         "remembered": "Kembali ke halaman masuk",
-        "set_password": "Buat kata sandi baru",
-        "reset": "Atur ulang kata sandi",
-        "forgot": "Lupa kata sandi kamu?",
+        "set_password": "Buat sandi baru",
+        "reset": "Atur ulang sandi",
+        "forgot": "Lupa sandi kamu?",
         "enter": {
-            "current_password": "Masukkan kata sandimu saat ini.",
+            "current_password": "Masukkan sandimu saat ini.",
             "invite": "Masukkan kode undanganmu.",
-            "email": "Masukkan surelmu.",
-            "password": "Masukkan kata sandimu.",
-            "username": "Masukkan nama pengguna pilihanmu."
+            "email": "Silakan masukkan surelmu.",
+            "password": "Masukkan sandimu.",
+            "username": "Masukkan nama penggunamu.",
+            "new_password": "Masukkan sandi baru."
         },
-        "current_password": "Kata Sandi Saat Ini",
+        "current_password": "Sandi Saat Ini",
         "invite": "Kode Undangan",
-        "password": "Kata Sandi",
+        "password": "Sandi",
         "email": "Surel",
         "username": "Nama Pengguna",
         "register": "Daftar",
         "title": "Masuk",
         "email_delay": "Harap tunggu hingga 10 menit untuk surel tiba.",
-        "welcome": "Selamat datang kembali!",
+        "welcome": "Selamat datang!",
         "subtitle": "Masuk ke Revolt",
         "welcome2": "Halo!",
         "subtitle2": "Buat akun",
@@ -715,7 +719,9 @@
         "recovery": "Kode Pemulihan",
         "verifying_account": "Memverifikasi akunmu…",
         "verified_account": "Akunmu telah diverifikasi!",
-        "verified_continue": "Lanjut masuk"
+        "verified_continue": "Lanjut masuk",
+        "new_password": "Sandi Baru",
+        "log_out_other": "Keluarkan akun pada semua sesi lain"
     },
     "general": {
         "loading": "Memuat…",
@@ -725,12 +731,12 @@
         "about": "Tentang",
         "on": "Aktif",
         "disabled": "Dinonaktifkan",
-        "unavailable": "Tak Tersedia",
+        "unavailable": "Tak tersedia",
         "off": "Nonaktif",
         "learn_more": "Informasi lebih lanjut"
     },
     "error": {
-        "InvalidCredentials": "Alamat surel atau kata sandi salah.",
+        "InvalidCredentials": "Alamat surel atau sandi salah.",
         "BlockedOther": "Pengguna ini telah memblokir kamu.",
         "TooShort": "Terlalu pendek",
         "TooLong": "Terlalu panjang",
@@ -770,7 +776,7 @@
         "IoError": "Server mengalami kesalahan I/O.",
         "UnsupportedBrowser": "Browser tidak memiliki dukungan untuk fitur ini.",
         "DeniedNotification": "Kamu menolak akses notifikasi, periksa pengaturan halaman.",
-        "CompromisedPassword": "Kata sandi ini dikompromikan.",
+        "CompromisedPassword": "Sandi ini sering dibobol.",
         "ReachedMaximumBots": "Kamu telah mencapai jumlah bot maksimum."
     },
     "permissions": {
