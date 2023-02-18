@@ -27,7 +27,7 @@
         "current_password": "Password Karon",
         "log_out_other": "Pag-log out sa tanang uban pang sesyon",
         "enter": {
-            "username": "Ibutang ang imong kinaganahang username.",
+            "username": "Ibutang ang imong username.",
             "email": "Ibutang ang imong email.",
             "password": "Ibutang ang imong password.",
             "new_password": "Pagbutang og bag-ong password.",
@@ -231,7 +231,72 @@
             "pages": {
                 "account": {
                     "title": "Akong Account",
-                    "change_field": "Alisdan"
+                    "change_field": "Alisdan",
+                    "unique_id": "Talagsaon ni nga tig-ila sa user para sa imong account.",
+                    "2fa": {
+                        "title": "Duha Ka Paagi nga Awtentikasyon",
+                        "description": "Pagdugang og ikaduha nga layer sa seguridad pinaagi sa pagpagana og 2FA sa imong account.",
+                        "view_recovery": "Tan-awa ang Mga Code sa Recovery",
+                        "view_recovery_long": "Tan-awa ug i-download ang mga recovery code nimo sa 2FA.",
+                        "generate_recovery": "Paghimo og Recovery Code",
+                        "generate_recovery_long": "Pag-andam sa paggamit og 2FA pinaagi sa pagset-up og paagi sa pag-recover.",
+                        "add_auth": "Pagdugang og Awtentikador",
+                        "remove_auth": "Tangtanga ang Awtentikator",
+                        "two_factor_on": "Abri karon ang Duha Ka Paagi nga Awtentikasyon.",
+                        "two_factor_off": "Wala pa nimo giabrihan ang Duha Ka Paagi nga Awtentikasyon!"
+                    },
+                    "manage": {
+                        "title": "Pagdumala sa Account",
+                        "disable": "I-disable ang Account",
+                        "delete": "Markaha ning Account aron Matangtang",
+                        "description": "I-disable o tangtanga ang imong account bisan kanus-a. Ma-log out ka ug matangtang ang imong account, apil imong chat history ug mga higala."
+                    }
+                },
+                "profile": {
+                    "title": "Profile",
+                    "fetching": "Gikuha ang imong profile…",
+                    "profile_picture": "Hulagway sa Profile",
+                    "custom_background": "Custom nga Background",
+                    "edit_background": "Alisdan ang Background",
+                    "edit_profile": "Alisdan ang Profile",
+                    "info": "Impormasyon",
+                    "placeholder": "Pagsulat mahitungod sa imong kaugalingon…"
+                },
+                "sessions": {
+                    "title": "Mga Sesyon",
+                    "this_device": "Kining Device",
+                    "created": "Gihimo {{time_ago}}",
+                    "active_sessions": "Aktibo nga Mga Sesyon",
+                    "logout": "Pag-log out sa tanang uban pang sesyon"
+                },
+                "audio": {
+                    "title": "Mga Setting sa Boses",
+                    "input_device": "Mikropono",
+                    "output_device": "Speaker / Headset",
+                    "tip_grant_permission": "Kinahanglan nimo mi tugoti aron ma-access ang mga setting sa audio.",
+                    "device_label_NA": "N/A",
+                    "button_grant": "Tugoti",
+                    "tip_retry": "Wala nimo kami tugoti sa pag-access sa imong mikropono, palihug {{retryBtn}}.",
+                    "button_retry": "usaba"
+                },
+                "appearance": {
+                    "title": "Panagway",
+                    "display": {
+                        "default": "Default",
+                        "compact": "Gagmay",
+                        "compact_description": "Tigulang pero masaligan nga IRC.",
+                        "default_description": "Nindot, maanyag ug moderno."
+                    },
+                    "discover": {
+                        "title": "Pagdiskubre og Mga Tema",
+                        "description": "Pagtan-aw sa mga temang gihimo sa komunidad"
+                    },
+                    "color": {
+                        "light": "hayag",
+                        "dark": "ngitngit"
+                    },
+                    "accent_selector": "Kolor sa Accent",
+                    "theme": "Tema"
                 }
             }
         }
