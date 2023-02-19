@@ -28,7 +28,7 @@ The following table shows languages and people enlisted for verifying certain la
 |🇨🇿|Čeština / cs|||
 |🇩🇰|Danskers / da|||
 |🇩🇪|Deutsch / de|[@janderedev](https://github.com/janderedev)|[@nitrobw](https://github.com/nitrobw)|
-|🇬🇷|Ελληνικά / el|[@janast3369](https://github.com/janast3369)||
+|🇬🇷|Ελληνικά / el|[@SudoJanast](https://github.com/SudoJanast)||
 |🇪🇸|Español / es|[@z3ro0k](https://github.com/z3ro0k) [@fernandopal](https://github.com/fernandopal)||
 |🇪🇪|eesti / et|[@u032](https://github.com/u032)||
 |🇫🇮|suomi / fi|||
