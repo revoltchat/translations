@@ -605,6 +605,27 @@
                     "short": "You cannot undo this action.",
                     "accept": "Remove all sessions"
                 },
+                "report": {
+                    "message": "Report Message",
+                    "by_name": "Report {{name}}",
+                    "reason": "Reason",
+                    "additional_context": "Additional Information",
+                    "no_reason": "No reason specified / other reason",
+                    "content_reason": {
+                        "Illegal": "Content breaks one or more laws",
+                        "PromotesHarm": "Content promotes harm to others or self",
+                        "SpamAbuse": "This is spam or platform abuse",
+                        "Malware": "This is malware",
+                        "Harassment": "This is harassment or abuse targeted at another user"
+                    },
+                    "user_reason": {
+                        "SpamAbuse": "User is sending spam or otherwise abusing the platform",
+                        "InappropriateProfile": "User's profile is inappropriate for a general audience",
+                        "Impersonation": "This user is impersonating someone else",
+                        "BanEvasion": "This user is evading a ban",
+                        "Underage": "This user is not old enough to have an account"
+                    }
+                },
                 "actions": {
                     "ok": "Ok",
                     "ban": "Ban",
