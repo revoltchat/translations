@@ -584,6 +584,27 @@
                     "title": "更新日志",
                     "older": "查看以前的更新",
                     "description": "阅读 Revolt 的更新内容。"
+                },
+                "report": {
+                    "message": "举报消息",
+                    "by_name": "举报 {{name}}",
+                    "reason": "原因",
+                    "additional_context": "额外信息",
+                    "no_reason": "无特定原因 / 其他原因",
+                    "content_reason": {
+                        "Illegal": "内容违反一条或多条规则",
+                        "PromotesHarm": "内容助长对他人或自己造成伤害",
+                        "SpamAbuse": "刷屏或滥用平台功能",
+                        "Malware": "恶意软件",
+                        "Harassment": "针对其他用户的骚扰或辱骂"
+                    },
+                    "user_reason": {
+                        "SpamAbuse": "用户发送刷屏消息或滥用平台功能",
+                        "InappropriateProfile": "用户的个人资料不适合一般受众",
+                        "Impersonation": "用户伪装成其他人",
+                        "BanEvasion": "用户尝试逃避封禁",
+                        "Underage": "用户未到可以拥有账户的年龄"
+                    }
                 }
             },
             "status": {
@@ -660,7 +681,10 @@
             "delete_server": "删除服务器",
             "create_category": "创建类别",
             "mark_unread": "标记为未读",
-            "make_owner": "转移群组所有权"
+            "make_owner": "转移群组所有权",
+            "report_message": "举报消息",
+            "report_user": "举报用户",
+            "report_server": "举报服务器"
         },
         "permissions": {
             "required": "需要权限"
@@ -710,8 +734,8 @@
             "current_password": "输入您现在的密码。",
             "invite": "输入您的邀请码。",
             "password": "输入您的密码。",
-            "email": "输入您的电子邮箱。",
-            "username": "输入您要使用的用户名。",
+            "email": "请输入您的电子邮箱。",
+            "username": "输入您的用户名。",
             "new_password": "输入新密码。"
         },
         "current_password": "当前密码",
@@ -724,7 +748,7 @@
         "email_delay": "请等待邮件送达，最长可能需要 10 分钟。",
         "welcome2": "你好！",
         "subtitle2": "创建账户",
-        "welcome": "欢迎回来！",
+        "welcome": "欢迎！",
         "subtitle": "登录 Revolt",
         "unofficial_instance": "第三方实例。",
         "totp": "身份验证器应用",
