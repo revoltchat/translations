@@ -49,7 +49,7 @@
         "check_mail": "Vérifiez vos mails !",
         "check_spam": "Vérifiez vos mails indésirables si vous ne le trouvez pas",
         "email_delay": "Merci d'attendre jusqu'à 10 minutes pour qu'il arrive.",
-        "welcome": "Content de te revoir !",
+        "welcome": "Bienvenue !",
         "subtitle": "Se connecter à Revolt",
         "welcome2": "Bonjour !",
         "subtitle2": "Créer un compte",
@@ -251,7 +251,10 @@
             "edit_identity": "Modifier l'identité",
             "create_category": "Créer une catégorie",
             "mark_unread": "Marquer comme non-lu",
-            "make_owner": "Léguer la propriété du groupe"
+            "make_owner": "Léguer la propriété du groupe",
+            "report_user": "Signaler cet utilisateur",
+            "report_message": "Signaler ce message",
+            "report_server": "Signaler ce serveur"
         },
         "settings": {
             "pages": {
@@ -671,6 +674,27 @@
                     "version": "Votre client est en {{client}} alors que les serveur nécessite {{server}}.",
                     "ignore": "Ignorer la mise à jour",
                     "attempting": "Tentative de mise à jour en cours…"
+                },
+                "report": {
+                    "message": "Signaler le message",
+                    "by_name": "Signaler {{name}}",
+                    "reason": "Raison",
+                    "additional_context": "Informations complémentaires",
+                    "no_reason": "Pas de raison spécifiée / autre raison",
+                    "content_reason": {
+                        "Illegal": "Le contenu enfreint une ou plusieurs lois",
+                        "PromotesHarm": "Le contenu incite à nuire à d'autres ou à soi-même",
+                        "SpamAbuse": "Ceci est du spam ou un abus de la plateforme",
+                        "Malware": "Ceci est un logiciel malveillant",
+                        "Harassment": "Ceci est du harcèlement ou un abus visant un autre utilisateur"
+                    },
+                    "user_reason": {
+                        "SpamAbuse": "L'utilisateur envoie du spam ou abuse autrement de la plateforme",
+                        "InappropriateProfile": "Le profil de l'utilisateur n'est pas approprié à une audience générale",
+                        "Impersonation": "Cet utilisateur usurpe l'identité de quelqu'un d'autre",
+                        "BanEvasion": "Cet utilisateur contourne un ban",
+                        "Underage": "Cet utilisateur n'a pas l'âge légal pour avoir un compte"
+                    }
                 }
             },
             "status": {
