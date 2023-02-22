@@ -494,7 +494,10 @@
             "edit_identity": "Editar perfil del servidor",
             "create_category": "Crear categoría",
             "mark_unread": "Marcar como no leído",
-            "make_owner": "Hacer dueño del grupo"
+            "make_owner": "Hacer dueño del grupo",
+            "report_message": "Reportar mensaje",
+            "report_user": "Reportar usuario",
+            "report_server": "Reportar servidor"
         },
         "special": {
             "modals": {
@@ -595,6 +598,27 @@
                     "title": "Registro de cambios",
                     "description": "Lea acerca de las actualizaciones de Revolt.",
                     "older": "Ver actualizaciones anteriores"
+                },
+                "report": {
+                    "message": "Reportar mensaje",
+                    "by_name": "Reportar a {{name}}",
+                    "reason": "Motivo",
+                    "additional_context": "Información adicional",
+                    "no_reason": "No especifica motivo / otro",
+                    "content_reason": {
+                        "Illegal": "El contenido inflinge una o varias leyes",
+                        "PromotesHarm": "El contenido promueve la violencia o autolesión",
+                        "SpamAbuse": "Es spam o abuso de la plataforma",
+                        "Malware": "Contiene un virus o malware",
+                        "Harassment": "Es acoso o abuso dirigido hacia otro usuario"
+                    },
+                    "user_reason": {
+                        "SpamAbuse": "El usuario está enviando spam o abusando de la plataforma de alguna forma",
+                        "InappropriateProfile": "El perfil del usuario no es apropiado para el público general",
+                        "Impersonation": "Este usuario está suplantando la identidad de otra persona",
+                        "BanEvasion": "Este usuario está evadiendo un baneo",
+                        "Underage": "Este usuario no tiene la edad mínima necesaria para tener una cuenta"
+                    }
                 }
             },
             "friends": {
