@@ -248,7 +248,7 @@
                     "back": "Grįžti atgal",
                     "hide": "Slėpti",
                     "edit": "Redaguoti",
-                    "report": "Pranešti",
+                    "report": "Skųstis",
                     "confirm": "Patvirtinti",
                     "done": "Baigta",
                     "reset": "Atkurti"
@@ -317,7 +317,28 @@
                     "ignore": "Ignoruoti naujinimą",
                     "version": "Jūsų kliento versija yra {{client}}, o serveriui reikia {{server}}."
                 },
-                "confirm": "Patvirtinti veiksmą"
+                "confirm": "Patvirtinti veiksmą",
+                "report": {
+                    "reason": "Priežastis",
+                    "additional_context": "Papildoma informacija",
+                    "message": "Skundas",
+                    "by_name": "Skundas nuo {{name}}",
+                    "no_reason": "Priežastis nenurodyta / kita priežastis",
+                    "content_reason": {
+                        "Illegal": "Turinys pažeidžia vieną arba kelis įstatymus",
+                        "PromotesHarm": "Turinys skatina savęs ir kitų žalojimą",
+                        "SpamAbuse": "Tai yra šlamštas arba piktnaudžiavimas platforma",
+                        "Malware": "Tai yra kenkėjiška programa",
+                        "Harassment": "Tai yra priekabiavimas arba įžeidinėjimas, nukreiptas prieš kitą naudotoją"
+                    },
+                    "user_reason": {
+                        "SpamAbuse": "Naudotojas siunčia šlamštą arba priešingu atveju piktnaudžiauja platforma",
+                        "InappropriateProfile": "Naudotojo profilis yra nepriimtinas bendrajai bendruomenei",
+                        "Impersonation": "Šis naudotojas apsimetinėja kitu",
+                        "BanEvasion": "Šis naudotojas vengia blokavimo",
+                        "Underage": "Šis naudotojas yra per jaunas, kad turėtų paskyrą"
+                    }
+                }
             },
             "requires_online": "Turite būti prisijungę, kad tai peržiūrėtumėte.",
             "popovers": {
@@ -424,7 +445,10 @@
             "edit_identity": "Redaguoti tapatybę",
             "create_category": "Kurti kategoriją",
             "mark_unread": "Pažymėti kaip neskaitytą",
-            "make_owner": "Suteikti grupės nuosavybę"
+            "make_owner": "Suteikti grupės nuosavybę",
+            "report_message": "Skųstis pranešimu",
+            "report_user": "Skųstis naudotoju",
+            "report_server": "Skųstis serveriu"
         },
         "settings": {
             "pages": {
