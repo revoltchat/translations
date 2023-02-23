@@ -254,7 +254,10 @@
             "copy_selection": "Copiar seleção",
             "copy_id": "Copiar ID",
             "mark_unread": "Marcar como não lida",
-            "make_owner": "Transferir posse do grupo"
+            "make_owner": "Transferir posse do grupo",
+            "report_message": "Denunciar mensagem",
+            "report_user": "Denunciar utilizador",
+            "report_server": "Denunciar servidor"
         },
         "special": {
             "invite": {
@@ -394,13 +397,34 @@
                     "title": "O teu cliente está desatualizado!",
                     "description": "Tem que ser atualizado de modo a funcionar com as alterações recentes.",
                     "ignore": "Ignorar atualização",
-                    "attempting": "A tentar atualização...",
+                    "attempting": "A tentar atualização…",
                     "version": "O teu cliente está na {{client}}, porém o servidor necessita a {{server}}."
                 },
                 "changelogs": {
                     "title": "Registo de alterações",
                     "older": "Visualizar atualizações anteriores",
                     "description": "Lê sobre as atualizações do Revolt."
+                },
+                "report": {
+                    "message": "Denunciar mensagem",
+                    "by_name": "Denunciar {{name}}",
+                    "reason": "Razão",
+                    "additional_context": "Informação adicional",
+                    "no_reason": "Nenhuma razão indicada",
+                    "content_reason": {
+                        "Illegal": "O conteúdo viola uma ou mais leis",
+                        "SpamAbuse": "É spam ou abuso da plataforma",
+                        "PromotesHarm": "O conteúdo incita violência ao próprio ou a outros",
+                        "Malware": "É malware (vírus)",
+                        "Harassment": "É assédio ou abuso dirigido a outro utilizador"
+                    },
+                    "user_reason": {
+                        "SpamAbuse": "O utilizador está a enviar spam ou a abusar a plataforma de outra forma",
+                        "InappropriateProfile": "O perfil do utilizador é inapropriado para o público em geral",
+                        "Impersonation": "Este utilizador está a imitar alguém",
+                        "BanEvasion": "Este utilizador está a esquivar-se de um banimento",
+                        "Underage": "Este utilizador não tem idade suficiente para ter uma conta"
+                    }
                 }
             },
             "status": {
@@ -899,7 +923,7 @@
             "invite": "Introduz o teu código de convite.",
             "password": "Introduz a tua palavra-passe.",
             "email": "Introduz o teu e-mail.",
-            "username": "Introduz um nome de utilizador.",
+            "username": "Introduz o teu nome de utilizador.",
             "new_password": "Insere uma nova palavra-passe."
         },
         "password": "Palavra-passe",
@@ -911,7 +935,7 @@
         "title": "Iniciar sessão",
         "welcome2": "Olá!",
         "subtitle2": "Criar uma conta",
-        "welcome": "Bem-vindo(a) de volta!",
+        "welcome": "Bem-vindo(a)!",
         "subtitle": "Entrar no Revolt",
         "unofficial_instance": "Instância de terceiros.",
         "totp": "Autenticador",
