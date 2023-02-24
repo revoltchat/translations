@@ -18,8 +18,8 @@
         "email": "E-Mail",
         "password": "Passwort",
         "enter": {
-            "username": "Geben Sie Ihren bevorzugten Benutzernamen ein.",
-            "email": "Gib deine E-Mail-Adresse ein.",
+            "username": "Gib deinen Benutzernamen ein.",
+            "email": "Bitte gib deine E-Mail ein.",
             "password": "Gib ein Passwort an.",
             "current_password": "Gib dein aktuelles Passwort ein.",
             "invite": "Gib deinen Einladungscode ein.",
@@ -51,7 +51,7 @@
         "email_delay": "Es kann bis zu 10 Minuten dauern, bis du die E-Mail erreichst.",
         "welcome2": "Hallo!",
         "subtitle2": "Einen Account erstellen",
-        "welcome": "Willkommen zurück!",
+        "welcome": "Willkommen!",
         "subtitle": "Bei Revolt anmelden",
         "unofficial_instance": "Drittanbieter-Instanz.",
         "totp": "Authentifizierungs-App",
@@ -134,7 +134,8 @@
                     "jump_beginning": "Springe zum Anfang",
                     "new_messages": "Neue Nachrichten seit {{time_ago}}",
                     "load_file": "Lade Datei",
-                    "timed_out": "Du bist für {{time}} gesperrt."
+                    "timed_out": "Du bist für {{time}} gesperrt.",
+                    "not_loaded": "Nachricht nicht geladen. Klicke zump Springen"
                 },
                 "voice": {
                     "unmute": "Stummschaltung aufheben",
@@ -174,7 +175,9 @@
                     "toggle": "Autor erwähnen"
                 },
                 "bridge": "Brücke",
-                "user_timed_out": "Nutzer ist für {{time}} gesperrt."
+                "user_timed_out": "Nutzer ist für {{time}} gesperrt.",
+                "bridged": "Nachricht wurde auf einer anderen Platform gesendet",
+                "team": "Offizielle Kommunikation"
             },
             "groups": {
                 "name": "Gruppenname",
@@ -248,7 +251,10 @@
             "edit_identity": "Identität bearbeiten",
             "create_category": "Kategorie erstellen",
             "mark_unread": "Als ungelesen markieren",
-            "make_owner": "Zum Gruppenbesitzer machen"
+            "make_owner": "Zum Gruppenbesitzer machen",
+            "report_user": "Benutzer melden",
+            "report_server": "Server melden",
+            "report_message": "Nachricht melden"
         },
         "special": {
             "friends": {
@@ -290,7 +296,8 @@
                     "report": "Melden",
                     "done": "Erledigt",
                     "reset": "Zurücksetzen",
-                    "confirm": "Bestätigen"
+                    "confirm": "Bestätigen",
+                    "dont_block": "Nicht Blockieren"
                 },
                 "signed_out": "Du wurdest ausgeloggt!",
                 "clipboard": {
@@ -360,9 +367,33 @@
                 "out_of_date": {
                     "title": "Ihr Client ist veraltet!",
                     "description": "Eine Aktualisierung ist erforderlich um Kompatibilität mit der letzten Änderung herzustellen.",
-                    "version": "Dein Client ist in {{client}}, aber dein Server erfordert {{server}}.",
+                    "version": "Dein Client ist {{client}}, aber dein Server erfordert {{server}}.",
                     "ignore": "Aktualisierung ignorieren",
-                    "attempting": "Aktualisierungsversuch läuft..."
+                    "attempting": "Aktualisierungsversuch läuft. . ."
+                },
+                "report": {
+                    "reported": "Gemeldet",
+                    "thank_you": "Danke für deine Mithilfe Revolt zu einem Sicheren Ort zu machen. Wir werden deine Meldung so schnell wie möglich beurteilen.",
+                    "block_user": "Möchtest du diesen Benutzer blockieren?",
+                    "content_reason": {
+                        "PromotesHarm": "Inhalt fördert Gewalt gegen andere oder einen Selbst",
+                        "Illegal": "Inhalt verletzt einen oder mehrere Gesetze",
+                        "SpamAbuse": "Es ist Spam oder Missbrauch der Platform",
+                        "Malware": "Es ist Schadsoftware",
+                        "Harassment": "Es ist Belästigung oder Missbrauch gegen einen anderen Benutzer"
+                    },
+                    "user_reason": {
+                        "SpamAbuse": "Benutzer sendet Spam oder missbraucht die Platform anderweitig",
+                        "InappropriateProfile": "Profil des Benutzers ist unangemessen für eine allgemeines Publikum",
+                        "Impersonation": "Dieser Benutzer gibt sich als jemand anderes aus",
+                        "BanEvasion": "Dieser Benutzer umgeht einen Ban",
+                        "Underage": "Dieser Benutzer ist nicht alt genug um ein Konto zu besitzen"
+                    },
+                    "message": "Nachricht melden",
+                    "by_name": "{{name}} melden",
+                    "no_reason": "Kein Grund angegeben / Anderer Grund",
+                    "reason": "Grund",
+                    "additional_context": "Zusätzliche Informationen"
                 }
             },
             "status": {
