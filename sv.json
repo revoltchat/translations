@@ -8,7 +8,7 @@
         "on": "På",
         "off": "Av",
         "disabled": "Inaktiverad",
-        "unavailable": "Otillgänglig",
+        "unavailable": "Inte tillgänglig",
         "learn_more": "Mer information"
     },
     "login": {
@@ -18,9 +18,10 @@
         "enter": {
             "email": "Ange din e-postadress.",
             "password": "Ange ditt lösenord.",
-            "username": "Ange ett användarnamn.",
+            "username": "Ange ditt användarnamn.",
             "current_password": "Ange ditt nuvarande lösenord.",
-            "invite": "Ange din inbjudningskod."
+            "invite": "Ange din inbjudningskod.",
+            "new_password": "Ange ett nytt lösenord."
         },
         "forgot": "Glömt ditt lösenord?",
         "new": "Ny till Revolt?",
@@ -50,14 +51,16 @@
         "email_delay": "Tillåt upp till 10 minuter för det att anlända.",
         "welcome2": "Hej!",
         "subtitle2": "Skapa ett konto",
-        "welcome": "Välkommen tillbaka!",
+        "welcome": "Välkommen!",
         "subtitle": "Logga in i Revolt",
         "unofficial_instance": "Tredjeparts-instans.",
-        "recovery": "Kod för återvinning",
-        "totp": "Appen Authenticator",
+        "recovery": "Återställningskod",
+        "totp": "Autentiseringsapp",
         "verifying_account": "Verifierar ditt konto…",
         "verified_continue": "Fortsätt att logga in",
-        "verified_account": "Ditt konto har blivit verifierat!"
+        "verified_account": "Ditt konto har blivit verifierat!",
+        "new_password": "Nytt Lösenord",
+        "log_out_other": "Logga ut alla andra sessioner"
     },
     "app": {
         "main": {
@@ -107,7 +110,8 @@
                     "jump_beginning": "Gå till början",
                     "new_messages": "Nya meddelanden sedan {{time_ago}}",
                     "load_file": "Ladda fil",
-                    "timed_out": "Du har tagit ut din tid för {{time}}."
+                    "timed_out": "Du har tagit ut din tid för {{time}}.",
+                    "not_loaded": "Meddelandet har inte laddats, klicka för att hoppa"
                 },
                 "voice": {
                     "unmute": "Sluta tysta",
@@ -147,7 +151,9 @@
                     "toggle": "Växla författarping"
                 },
                 "bridge": "brygga",
-                "user_timed_out": "Användaren har tagit ut sin tid för {{time}}."
+                "user_timed_out": "Användaren har tagit ut sin tid för {{time}}.",
+                "bridged": "Meddelandet skickades på en annan plattform",
+                "team": "Officiell kommunikation"
             },
             "categories": {
                 "members": "Medlemmar",
@@ -233,7 +239,8 @@
                     "report": "Rapportera",
                     "confirm": "Bekräfta",
                     "reset": "Återställ",
-                    "done": "Klart"
+                    "done": "Klart",
+                    "dont_block": "Blockera inte"
                 },
                 "signed_out": "Du blev utloggad!",
                 "clipboard": {
@@ -289,7 +296,7 @@
                     "description": "Den måste uppdateras för att fungera med de senaste förändringarna.",
                     "ignore": "Ignorera uppdatering",
                     "title": "Din klient är föråldrad!",
-                    "attempting": "Försöker uppdatera...",
+                    "attempting": "Försöker uppdatera…",
                     "version": "Din klient finns på {{client}}, medan servern kräver {{server}}."
                 },
                 "mfa": {
@@ -306,6 +313,30 @@
                     "title": "Ändringsloggar",
                     "description": "Läs om uppdateringar av Revolt.",
                     "older": "Visa äldre uppdateringar"
+                },
+                "report": {
+                    "reported": "Rapporterad",
+                    "thank_you": "Tack för att du hjälper till att hålla Revolt säker. Vi kommer att granska din rapport så snart som möjligt.",
+                    "message": "Rapportera meddelande",
+                    "by_name": "Rapportera {{name}}",
+                    "reason": "Anledning",
+                    "additional_context": "Extra information",
+                    "content_reason": {
+                        "Harassment": "Detta är trakasserier eller övergrepp riktade mot en annan användare",
+                        "Illegal": "Innehåll bryter mot en eller flera lagar",
+                        "PromotesHarm": "Innehåll främjar skada på andra eller sig själv",
+                        "SpamAbuse": "Detta är spam eller plattformsmissbruk",
+                        "Malware": "Detta är skadlig programvara"
+                    },
+                    "user_reason": {
+                        "SpamAbuse": "Användaren skickar spam eller på annat sätt missbrukar plattformen",
+                        "InappropriateProfile": "Användarens profil är olämplig för en allmän publik",
+                        "BanEvasion": "Den här användaren undviker en bann",
+                        "Underage": "Den här användaren är inte tillräckligt gammal för att ha ett konto",
+                        "Impersonation": "Den här användaren utger sig för att vara någon annan"
+                    },
+                    "no_reason": "Ingen anledning angiven / annan anledning",
+                    "block_user": "Vill du blockera den här användaren?"
                 }
             },
             "status": {
@@ -418,7 +449,10 @@
             "edit_identity": "Redigera identitet",
             "create_category": "Skapa kategori",
             "mark_unread": "markera som oläst",
-            "make_owner": "Ge gruppen äganderätt"
+            "make_owner": "Ge gruppen äganderätt",
+            "report_message": "Rapportera meddelande",
+            "report_user": "Rapportera användare",
+            "report_server": "Rapportera server"
         },
         "settings": {
             "pages": {
@@ -944,5 +978,8 @@
             "t": "Hantera anpassningar",
             "d": "Tillåter medlemmarna att skapa, redigera och radera emojis."
         }
+    },
+    "actions": {
+        "submit": "Skicka"
     }
 }
