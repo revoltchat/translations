@@ -156,7 +156,7 @@ export const Languages: { [key in Language]: LanguageEntry } = {
   et: { display: "eesti", emoji: "🇪🇪", i18n: "et", verified: true },
   fi: { display: "suomi", emoji: "🇫🇮", i18n: "fi" },
   fil: {
-    display: "Pilipino",
+    display: "Filipino",
     emoji: "🇵🇭",
     i18n: "fil",
     dayjs: "tl-ph",
