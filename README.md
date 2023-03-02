@@ -32,13 +32,13 @@ The following table shows languages and people enlisted for verifying certain la
 |🇪🇸|Español / es|[@z3ro0k](https://github.com/z3ro0k) [@fernandopal](https://github.com/fernandopal)||
 |🇪🇪|eesti / et|[@u032](https://github.com/u032)||
 |🇫🇮|suomi / fi|||
-|🇵🇭|Pilipino / fil|[@I2rys](https://github.com/I2rys)||
+|🇵🇭|Filipino / fil|[@I2rys](https://github.com/I2rys)||
 |🇫🇷|Français / fr|[@Hades785](https://github.com/Hades785)|[@RedNight-was-taken](https://github.com/RedNight-was-taken)|
 |🇮🇪|Gaeilge / ga|||
 |🇮🇳|हिन्दी / hi|[@Infiniticity](https://github.com/Infiniticity)||
 |🇭🇷|Hrvatski / hr|||
 |🇭🇺|magyar / hu|[@f3rr31](https://github.com/f3rr31)||
-|🇮🇩|bahasa Indonesia / id|[@liimee](https://github.com/liimee)||
+|🇮🇩|bahasa Indonesia / id|[@liimee](https://github.com/liimee)|[@ilhamfauzan](https://github.com/ilhamfauzan)|
 |🇮🇹|Italiano / it|[@SingleSlice](https://github.com/SingleSlice)||
 |🇯🇵|日本語 / ja|[@chelley](https://github.com/chelley)||
 |🇰🇷|한국어 / ko|||
