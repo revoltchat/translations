@@ -393,7 +393,9 @@
                     "toggle": "提及使用者"
                 },
                 "bridge": "橋接",
-                "user_timed_out": "用戶超時 {{time}}."
+                "user_timed_out": "用戶超時 {{time}}.",
+                "bridged": "訊息傳送自其他平台",
+                "team": "官方社群"
             },
             "categories": {
                 "members": "成員",
@@ -477,7 +479,8 @@
                     "reset": "重置",
                     "done": "完成",
                     "confirm": "確定",
-                    "report": "檢舉"
+                    "report": "檢舉",
+                    "dont_block": "不要封鎖"
                 },
                 "external_links": {
                     "trust_domain": "信任此網域",
@@ -519,7 +522,29 @@
                     "prompt_totp": "請在二步驟驗證器內掃碼或填入以下金鑰。",
                     "enter_code": "輸入代碼"
                 },
-                "confirm": "確定操作"
+                "confirm": "確定操作",
+                "report": {
+                    "message": "檢舉訊息",
+                    "by_name": "檢舉 {{name}}",
+                    "reason": "原因",
+                    "user_reason": {
+                        "SpamAbuse": "使用者發送洗版訊息或濫用平台功能",
+                        "InappropriateProfile": "使用者的個人資料不適合一般受眾",
+                        "Impersonation": "使用者偽裝成其他人",
+                        "Underage": "使用者未達到可擁有帳號的年齡"
+                    },
+                    "no_reason": "無特定原因 / 其他原因",
+                    "content_reason": {
+                        "Illegal": "內容違反一條或多條規定",
+                        "PromotesHarm": "內容助長對他人或自己造成傷害",
+                        "SpamAbuse": "洗版或濫用平台功能",
+                        "Malware": "惡意軟體",
+                        "Harassment": "針對其他使用者的騷擾或辱罵"
+                    },
+                    "reported": "已檢舉",
+                    "thank_you": "感謝你協助維護Revolt的安全，我們會盡快審查你的檢舉。",
+                    "block_user": "你想要封鎖這位使用者嗎？"
+                }
             },
             "friends": {
                 "from": {
@@ -645,7 +670,10 @@
             "open_server_settings": "伺服器設定",
             "set_custom_status": "設定自訂狀態",
             "mark_unread": "標記為未讀",
-            "make_owner": "轉交群組所有權"
+            "make_owner": "轉交群組所有權",
+            "report_message": "檢舉訊息",
+            "report_user": "檢舉使用者",
+            "report_server": "檢舉伺服器"
         },
         "permissions": {
             "required": "需要權限"
@@ -674,7 +702,8 @@
             "resend": "重新發送失敗！",
             "reset": "重置失敗！",
             "login": "登入失敗！",
-            "create": "註冊失敗！"
+            "create": "註冊失敗！",
+            "verify": "驗證失敗！"
         },
         "create": "註冊新帳號",
         "successful_registration": "註冊成功！",
@@ -695,8 +724,9 @@
             "current_password": "輸入目前的密碼。",
             "invite": "輸入邀請碼。",
             "password": "輸入密碼。",
-            "email": "輸入你的電子郵件。",
-            "username": "輸入使用者名稱。"
+            "email": "請輸入你的電子郵件。",
+            "username": "輸入你的使用者名稱。",
+            "new_password": "輸入新密碼。"
         },
         "current_password": "目前密碼",
         "invite": "邀請碼",
@@ -707,11 +737,16 @@
         "title": "登入",
         "welcome2": "你好！",
         "subtitle2": "建立帳號",
-        "welcome": "歡迎回來！",
+        "welcome": "歡迎！",
         "subtitle": "登入 Revolt",
         "unofficial_instance": "第三方實例。",
         "totp": "二步驟驗證程式",
-        "recovery": "恢復代碼"
+        "recovery": "恢復代碼",
+        "new_password": "新密碼",
+        "log_out_other": "登出所有其他裝置",
+        "verifying_account": "驗證你的帳號…",
+        "verified_account": "你的帳號已驗證！",
+        "verified_continue": "繼續登入"
     },
     "general": {
         "unavailable": "無法使用",
@@ -923,5 +958,8 @@
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
+    },
+    "actions": {
+        "submit": "提交"
     }
 }
