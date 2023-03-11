@@ -16,11 +16,12 @@
         "email": "Email",
         "password": "Hasło",
         "enter": {
-            "email": "Wpisz swojego emaila.",
+            "email": "Wpisz tutaj swojego email'a.",
             "password": "Wpisz swoje hasło.",
-            "username": "Wpisz swoją preferowaną nazwę użytkownika.",
+            "username": "Wpisze swoją nazwę użytkownika (nick).",
             "current_password": "Wprowadź swoje obecne hasło.",
-            "invite": "Wpisz swój kod zaproszenia."
+            "invite": "Wpisz swój kod zaproszenia.",
+            "new_password": "Podaj nowe hasło."
         },
         "forgot": "Zapomniałeś swojego hasła?",
         "new": "Nowy w Revolt?",
@@ -57,7 +58,9 @@
         "recovery": "Kody odzyskiwania",
         "verifying_account": "Weryfikowanie konta…",
         "verified_account": "Twoje konto zostało zweryfikowane!",
-        "verified_continue": "Przejdź do logowania"
+        "verified_continue": "Przejdź do logowania",
+        "new_password": "Nowe hasło",
+        "log_out_other": "Wyloguj wszystkie poprzednie sesje (oprócz tej)"
     },
     "app": {
         "status": {
@@ -137,7 +140,8 @@
                     "jump_beginning": "Skocz do początku",
                     "new_messages": "Nowe wiadomości od {{time_ago}}",
                     "load_file": "Wczytaj plik",
-                    "timed_out": "Masz przerwę na {{time}}."
+                    "timed_out": "Masz przerwę na {{time}}.",
+                    "not_loaded": "Wiadomość nie została załadowana, kliknij aby przeskoczyć"
                 },
                 "notifications": {
                     "none": "Brak",
@@ -171,7 +175,9 @@
                     "toggle": "Przełącz wzmiankę autora"
                 },
                 "bridge": "most",
-                "user_timed_out": "Użytkownik ma przerwę na {{time}}."
+                "user_timed_out": "Użytkownik ma przerwę na {{time}}.",
+                "bridged": "Wiadomość została wysłana na innej platformie",
+                "team": "Oficjalna komunikacja"
             },
             "groups": {
                 "owner": "Właściciel grupy",
@@ -233,7 +239,8 @@
                     "done": "Gotowe",
                     "reset": "Zresetuj",
                     "confirm": "Potwierdź",
-                    "report": "Zgłoś"
+                    "report": "Zgłoś",
+                    "dont_block": "Nie blokuj"
                 },
                 "onboarding": {
                     "pick": "Wybierz nazwę użytkownika, według której inni będą mogli cię znaleźć, możesz to później zmienić w ustawieniach.",
@@ -290,7 +297,7 @@
                     "description": "Musi być zaktualizowany, aby działał z najnowszymi zmianami.",
                     "version": "Twój klient ma wersję {{client}}, a serwer wymaga {{server}}.",
                     "ignore": "Zignoruj aktualizację",
-                    "attempting": "Próbuję zaktualizować..."
+                    "attempting": "Próbuję zaktualizować…"
                 },
                 "changelogs": {
                     "title": "Dziennik zmian",
@@ -306,6 +313,30 @@
                     "enable_totp": "Włącz aplikację uwierzytelniającą",
                     "prompt_totp": "Zeskanuj lub użyj poniższego tokenu w swojej aplikacji uwierzytelniającej.",
                     "enter_code": "Wpisz kod"
+                },
+                "report": {
+                    "reported": "Zgłoszono",
+                    "thank_you": "Dziękujemy za pomoc w zapewnieniu bezpieczeństwa na Revolt. Zapoznamy się z Twoim zgłoszeniem tak szybko jak to możliwe.",
+                    "message": "Zgłoś wiadomość",
+                    "by_name": "Zgłoś {{name}}",
+                    "reason": "Powód",
+                    "content_reason": {
+                        "PromotesHarm": "Treści promują krzywdę innych lub własną",
+                        "SpamAbuse": "Jest to spam lub nadużywanie platformy",
+                        "Illegal": "Treść łamie jeden lub więcej przepisów",
+                        "Malware": "Jest to malware",
+                        "Harassment": "Jest to prześladowanie lub nadużycie skierowane do innego użytkownika"
+                    },
+                    "additional_context": "Dodatkowe informacje",
+                    "no_reason": "Nie podano przyczyny / inna przyczyna",
+                    "user_reason": {
+                        "SpamAbuse": "Jest to nękanie lub nadużywanie skierowane do innego użytkownika",
+                        "InappropriateProfile": "Profil użytkownika jest nieodpowiedni dla ogółu odbiorców",
+                        "Impersonation": "Ten użytkownik podszywa się pod kogoś innego",
+                        "BanEvasion": "Ten użytkownik unika bana",
+                        "Underage": "Ten użytkownik nie ma wystarczającej liczby lat aby mieć konto"
+                    },
+                    "block_user": "Czy chciałbyś zablokować tego użytkownika?"
                 }
             },
             "status": {
@@ -418,7 +449,10 @@
             "create_category": "Stwórz kategorię",
             "edit_identity": "Edytuj tożsamość",
             "mark_unread": "Oznacz jako nieprzeczytane",
-            "make_owner": "Oddaj własność grupy"
+            "make_owner": "Oddaj własność grupy",
+            "report_message": "Zgłoś wiadomość",
+            "report_user": "Zgłoś użytkownika",
+            "report_server": "Zgłoś serwer"
         },
         "settings": {
             "pages": {
@@ -950,5 +984,8 @@
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
+    },
+    "actions": {
+        "submit": "Zgłoś"
     }
 }
