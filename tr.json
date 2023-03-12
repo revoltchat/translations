@@ -52,7 +52,10 @@
             "edit_identity": "Kullanıcı görünümünü düzenle",
             "create_category": "Kategori oluştur",
             "mark_unread": "Okunmadı olarak işaretle",
-            "make_owner": "Grup sahipliğini ver"
+            "make_owner": "Grup sahipliğini ver",
+            "report_message": "Mesaj raporla",
+            "report_user": "Kullanıcı raporla",
+            "report_server": "Sunucu raporla"
         },
         "status": {
             "online": "Çevrimiçi",
@@ -580,7 +583,8 @@
                     "done": "Bitti",
                     "reset": "Sıfırla",
                     "confirm": "Onayla",
-                    "report": "Bildir"
+                    "report": "Bildir",
+                    "dont_block": "Engelleme"
                 },
                 "external_links": {
                     "title": "Harici bağlantılar tehlikeli olabilir!",
@@ -614,6 +618,30 @@
                     "enable_totp": "Kimlik doğrulama uygulamasını etkinleştirin",
                     "prompt_totp": "Lütfen kimlik doğrulama uygulamanızda alttaki jetonu tarayın ya da kullanın.",
                     "enter_code": "Kodu Gir"
+                },
+                "report": {
+                    "reason": "Sebep",
+                    "message": "Mesaj Raporla",
+                    "by_name": "{{name}} raporla",
+                    "additional_context": "Ek bilgiler",
+                    "no_reason": "Sebep belirtilmedi / başka sebep",
+                    "content_reason": {
+                        "Illegal": "İçerik bir veya daha fazla yasayı çiğniyor",
+                        "Malware": "Bu, kötü amaçlı yazılımdır",
+                        "SpamAbuse": "Bu, spam veya platformun kötüye kullanımıdır",
+                        "PromotesHarm": "İçerik başkalarına veya kendine zarar vermeyi teşvik ediyor",
+                        "Harassment": "Bu başka bir kullanıcıyı hedef alan taciz veya kötüye kullanımdır"
+                    },
+                    "user_reason": {
+                        "SpamAbuse": "Kullanıcı, spam gönderiyor veya platformu başka türlü kötüye kullanıyor",
+                        "InappropriateProfile": "Kullanıcının profili genel bir kitle için uygunsuzdur",
+                        "Underage": "Bu kullanıcı, bir hesaba sahip olacak yaşta değil",
+                        "Impersonation": "Bu kullanıcı başka birini taklit ediyor",
+                        "BanEvasion": "Bu kullanıcı bir yasaktan kaçıyor"
+                    },
+                    "thank_you": "Revolt'u güvende tutmaya yardım ettiğiniz için teşekkür ederiz. Raporunuzu en kısa zamanda inceleyeceğiz.",
+                    "reported": "Raporlandı",
+                    "block_user": "Bu kullanıcıyı engellemek ister misiniz?"
                 }
             },
             "popovers": {
