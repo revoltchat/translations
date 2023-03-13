@@ -136,13 +136,13 @@
             "create": "Registrazione fallita!",
             "login": "Accesso fallito!",
             "resend": "Rinvio fallito!",
-            "verify": "Impossibile da verificare!"
+            "verify": "Impossibile verificare!"
         },
         "invite": "Codice d'invito",
         "enter": {
             "password": "Inserisci la tua password.",
             "current_password": "Inserisci la tua password attuale.",
-            "username": "Inserisci un nome utente.",
+            "username": "Inserisci il tuo nome utente.",
             "email": "Inserisci il tuo indirizzo email.",
             "invite": "Inserisci il tuo codice d'invito.",
             "new_password": "Inserire una nuova password."
@@ -178,7 +178,7 @@
         "verified_account": "Il tuo account è stato verificato!",
         "verified_continue": "Continua ad effettuare il login",
         "new_password": "Nuova Password",
-        "log_out_other": "Disconnettiti da tutti le altre sessioni"
+        "log_out_other": "Disconnettiti da tutte le altre sessioni"
     },
     "general": {
         "about": "Informazioni",
@@ -247,7 +247,7 @@
                     "channel_icon_changed": "{{user}} ha cambiato l'icona del canale",
                     "channel_renamed": "{{user}} ha rinominato il canale in {{name}}",
                     "channel_ownership_changed": "{{from}} ha dato a {{to}} la proprietà del gruppo",
-                    "registered_at": "Registrato {{time}}"
+                    "registered_at": "Registratə {{time}}"
                 },
                 "start": {
                     "group": "Questo è l'inizio della tua conversazione.",
@@ -305,7 +305,7 @@
                 },
                 "bridge": "ponte",
                 "user_timed_out": "L'utente è mutato per {{time}}.",
-                "bridged": "Messaggio inviato su un'altra piattaforma",
+                "bridged": "Il messaggio è stato inviato su un'altra piattaforma",
                 "team": "Comunicazione Ufficiale"
             },
             "groups": {
@@ -442,8 +442,8 @@
                         "title": "Opzioni d'aspetto",
                         "show_send": "Mostra sempre il pulsante Invia messaggio",
                         "show_send_desc": "Se disabilitato, il pulsante \"Invia\" apparirà solo sui dispositivi mobili.",
-                        "show_account_age": "Mostra sempre l'età dell'account accanto ai messaggi di partecipazione",
-                        "show_account_age_desc": "Se disabilitato, l'età dell'account verrà mostrata solo per i nuovi utenti."
+                        "show_account_age": "Mostra sempre l'età dell'account accanto ai messaggi d'entrata",
+                        "show_account_age_desc": "Se disabilitata, l'età dell'account verrà mostrata solo per i nuovi utenti."
                     }
                 },
                 "notifications": {
@@ -673,7 +673,10 @@
             "edit_identity": "Modifica identità",
             "create_category": "Crea categoria",
             "mark_unread": "Segna come non letto",
-            "make_owner": "Dare la proprietà del gruppo"
+            "make_owner": "Dare la proprietà del gruppo",
+            "report_message": "Segnala messaggio",
+            "report_user": "Segnala utente",
+            "report_server": "Segnala server"
         },
         "special": {
             "friends": {
@@ -753,7 +756,8 @@
                     "done": "Fatto",
                     "confirm": "Conferma",
                     "reset": "Reimposta",
-                    "report": "Segnala"
+                    "report": "Segnala",
+                    "dont_block": "Non bloccare"
                 },
                 "account": {
                     "change": {
@@ -779,7 +783,7 @@
                     "description": "Deve essere aggiornato per poter funzionare con le modifiche recenti.",
                     "version": "Il tuo client è su {{client}}, mentre il server richiede {{server}}.",
                     "ignore": "Ignora aggiornamento",
-                    "attempting": "Provando ad aggiornare..."
+                    "attempting": "Provando ad aggiornare…"
                 },
                 "confirm": "Conferma",
                 "mfa": {
@@ -795,6 +799,30 @@
                     "title": "Lista dei cambiamenti",
                     "description": "Leggi informazioni riguardo agli aggiornamenti di Revolt.",
                     "older": "Visualizza gli aggiornamenti precedenti"
+                },
+                "report": {
+                    "reported": "Segnalatə",
+                    "thank_you": "Grazie per aver aiutato a mantenere Revolt sicuro. Controlleremo la tua segnalazione al più presto.",
+                    "message": "Segnala un Messaggio",
+                    "by_name": "Segnala {{name}}",
+                    "reason": "Motivazione",
+                    "additional_context": "Informazioni Aggiuntive",
+                    "no_reason": "Nessuna motivazione specificata / Altra motivazione",
+                    "content_reason": {
+                        "Illegal": "Il contenuto viola una o altre leggi",
+                        "PromotesHarm": "Il contenuto promuove danni ad altri o a se stessi",
+                        "SpamAbuse": "Questo è spam o abuso della piattaforma",
+                        "Malware": "Questo è un malware",
+                        "Harassment": "Questa è una molestia o un abuso verso un altrə utente"
+                    },
+                    "user_reason": {
+                        "BanEvasion": "Questo utente sta evadendo un ban",
+                        "InappropriateProfile": "Il profilo dell'utente è inappropriato per un utenza generale",
+                        "Impersonation": "Questo utente sta impersonando qualcun altro",
+                        "Underage": "Questo utente non è abbastanza grande per avere un account",
+                        "SpamAbuse": "L'utente invia spam o abusa in altro modo della piattaforma"
+                    },
+                    "block_user": "Vorresti bloccare questo utente?"
                 }
             },
             "popovers": {
@@ -888,14 +916,14 @@
         "UnverifiedAccount": "Account non verificato.",
         "UnknownUser": "Utente sconosciuto.",
         "EmailInUse": "Email in uso.",
-        "InvalidToken": "Token invalida",
+        "InvalidToken": "Token invalido",
         "MissingInvite": "Codice di invito mancante nella richiesta.",
         "InvalidInvite": "Codice invalido",
-        "UsernameTaken": "Il nome utente è stato già preso.",
-        "AlreadyFriends": "Sei già amico con questo utente.",
+        "UsernameTaken": "Il nome utente è già in uso.",
+        "AlreadyFriends": "Sei già amicə con questo utente.",
         "AlreadySentRequest": "Hai già inviato una richiesta di amicizia a questo utente.",
         "Blocked": "Hai bloccato questo utente.",
-        "BlockedOther": "Questo utente ti ha bloccato.",
+        "BlockedOther": "Questo utente ti ha bloccatə.",
         "NoEffect": "Questa richiesta non ha avuto effetto.",
         "RequiredField": "Necessario",
         "TooShort": "Troppo corto",
@@ -927,14 +955,14 @@
         "lastWeek": "dddd [scorso] [alle] {{time}}",
         "nextWeek": "dddd [alle] {{time}}",
         "defaults": {
-            "date_separator": "/",
+            "date_separator": "-",
             "date_format": "traditional",
             "twelvehour": "no"
         }
     },
     "notifications": {
         "sent_request": "@{{person}} ti ha inviato una richiesta di amicizia.",
-        "now_friends": "Ora sei amico con @{{person}}!"
+        "now_friends": "Ora sei amicə con @{{person}}!"
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
