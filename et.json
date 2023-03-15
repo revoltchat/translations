@@ -6,7 +6,7 @@
         "loading": "Laadimin",
         "on": "Lülita sisse",
         "disabled": "Puudega",
-        "unavailable": "Saavutamata",
+        "unavailable": "Pole saadaval",
         "about": "Umbes",
         "tos": "Teenuse tingimused",
         "learn_more": "Lisateave"
@@ -45,6 +45,13 @@
                 },
                 "management": {
                     "title": "Kasutajahaldus"
+                },
+                "emojis": {
+                    "upload": "Laadi üles Emoji",
+                    "title": "Emodžid"
+                },
+                "customisation": {
+                    "title": "Kohandamine"
                 }
             },
             "pages": {
@@ -74,7 +81,8 @@
                     "issue": "Teavita veast",
                     "bug": "Vigade jälgija",
                     "bug_desc": "Vaata hetkel aktiivsete vigade listi siit.",
-                    "issue_desc": "Teavita meid veast läbi GitHub'i et aidata meil probleeme märgata ja lahendada."
+                    "issue_desc": "Teavita meid veast läbi GitHub'i et aidata meil probleeme märgata ja lahendada.",
+                    "description": "Tagasiside edastamine"
                 },
                 "logOut": "Logi välja",
                 "account": {
@@ -84,12 +92,18 @@
                         "title": "Kahefaktoriline autentimine",
                         "add_auth": "Lisa autentikaator",
                         "description": "Lisage kiht turvalisust oma kontole lubades kasutada 2FA'd.",
-                        "remove_auth": "Eemalda autentikaator"
+                        "remove_auth": "Eemalda autentikaator",
+                        "view_recovery_long": "Vaata ja lae oma 2FA taastamise koodid.",
+                        "generate_recovery_long": "Ole valmis kasutama 2FA luues taastamise meetod.",
+                        "view_recovery": "Taastekoodide Kuvamine",
+                        "generate_recovery": "Loo taastekoodid",
+                        "two_factor_on": "Kahekordne autentimine on praegu sisse lülitatud.",
+                        "two_factor_off": "Sa ei ole kahefaktorilist autentimist lubanud!"
                     },
                     "manage": {
                         "title": "Kontohaldus",
                         "disable": "Keela konto",
-                        "delete": "Kustuta konto",
+                        "delete": "Märgi konto kustutamiseks",
                         "description": "Keela või kustuta oma konto ükskõik millisel ajal. Sellega logitakse teid välja ning teie konto kustutatakse täielikult, sealhulgas teie sõnumid ja sõbralist."
                     },
                     "title": "Minu kasutaja"
@@ -157,6 +171,17 @@
                         "follow": "Kasuta süsteemiteemat",
                         "follow_desc": "Kui valitud, pole teil võimalik enam teemat muuta ega võimalik kasutada kohandatuid teemasid.",
                         "seasonal": "Hooajaline teema"
+                    },
+                    "discover": {
+                        "description": "Sirvi kogukonna loodud teemasid",
+                        "title": "Kujunduste ülevaade"
+                    },
+                    "appearance_options": {
+                        "title": "Ilme suvandid",
+                        "show_account_age": "Kuva alati liituvate sõnumite kõrval konto vanus",
+                        "show_account_age_desc": "Keelamise korral näidatakse konto vanust ainult uutele kasutajatele.",
+                        "show_send": "Kuva alati nupp Saada sõnum",
+                        "show_send_desc": "Kui keelatud, Saada sõnum nuppu kuvatakse ainult mobiiltelefoni."
                     }
                 },
                 "notifications": {
@@ -201,7 +226,7 @@
                     "not_available": "Praegusel hetkel pole ühtegi lisa võimalik valida."
                 },
                 "theme_shop": {
-                    "search": "Otsi teemasid...",
+                    "search": "Otsingukujundused…",
                     "category": {
                         "saved": "Salvestatud",
                         "manage": "Halda salvestatuid",
@@ -215,6 +240,12 @@
                     "by": "kasutajalt",
                     "title": "Teemade pood",
                     "description": "Sirvi sadade kogukonna poolt loodud ja kureeritud teemade vahel."
+                },
+                "plugins": {
+                    "delete_plugin": "Kustuta",
+                    "title": "Lisandmoodulid",
+                    "wip": "Hoiatus. See funktsioon on alles väljatöötamisel.",
+                    "no_plugins": "Lisandmooduleid pole praegu installitud."
                 }
             },
             "channel_pages": {
@@ -230,12 +261,14 @@
             "title": "Sätted",
             "categories": {
                 "client_settings": "Kliendisätted",
-                "user_settings": "Kasutajasätted"
+                "user_settings": "Kasutajasätted",
+                "danger_zone": "Ohuala"
             },
             "actions": {
                 "remove": "Eemalda",
                 "upload": "Lae üles",
-                "max_filesize": "(kuni {{filesize}})"
+                "max_filesize": "(kuni {{filesize}})",
+                "edit": "Redigeeri {{name}}"
             },
             "tips": {
                 "languages": {
@@ -256,7 +289,8 @@
                 "server": "Serveri õigused",
                 "channel": "Kanali õigused",
                 "create_role": "Loo uus roll",
-                "role_name": "Rolli nimi"
+                "role_name": "Rolli nimi",
+                "role_colour": "Rolli värv"
             }
         },
         "special": {
@@ -405,7 +439,8 @@
             "invisible": "Nähtamatu",
             "offline": "Võrgust väljas",
             "busy": "Mitte segada",
-            "reconnect": "Ühendage uuesti"
+            "reconnect": "Ühendage uuesti",
+            "focus": "Fookus"
         },
         "navigation": {
             "tabs": {
@@ -443,7 +478,9 @@
                     "channel_renamed": "{{user}} nimetas kanali ümber nimele {{name}}",
                     "channel_description_changed": "{{user}} muutis kanali kirjeldust",
                     "channel_icon_changed": "{{user}} muutis kanali ikooni",
-                    "removed_by": "{{user}} eemaldati {{other_user}} poolt"
+                    "removed_by": "{{user}} eemaldati {{other_user}} poolt",
+                    "registered_at": "Registreeritud {{time}}",
+                    "channel_ownership_changed": "{{from}} andis {{to}} rühma omandiõiguse"
                 },
                 "start": {
                     "group": "Siit algab teie vestlus.",
@@ -466,7 +503,10 @@
                     "spoiler_attachment": "Spoiler",
                     "no_sending": "Teil puudub õigus saata sõnumeid selles kanalis.",
                     "jump_beginning": "Hüppa tagasi algusesse",
-                    "new_messages": "Uued sõnumid alates {{time_ago}}"
+                    "new_messages": "Uued sõnumid alates {{time_ago}}",
+                    "not_loaded": "Sõnumit ei laaditud, klõpsa hüppamiseks",
+                    "timed_out": "Sul on aeg otsas {{time}}.",
+                    "load_file": "Laadi fail"
                 },
                 "nsfw": {
                     "channel": {
@@ -498,6 +538,14 @@
                     "title": "Oih, siin pole midagi!",
                     "nochannels": "Selles serveris puuduvad kanalid või Teil puudub neile ligipääs.",
                     "nochannel": "Kanalit pole"
+                },
+                "bridge": "sild",
+                "bridged": "Sõnum saadeti teisele platvormile",
+                "team": "Ametlik teatis",
+                "user_timed_out": "Kasutaja ajalõpp: {{time}}.",
+                "reply": {
+                    "replying": "Vastamine",
+                    "toggle": "Lülita autori ping"
                 }
             },
             "groups": {
@@ -587,7 +635,11 @@
             "join-testers_desc": "Te võite teatada probleemidest ja arutada parandusi meiega otse siin.",
             "goto-testers_desc": "Te võite teatada probleemidest ja arutada parandusi meiega otse siin.",
             "feedback_desc": "Anna meile teada, kuidas me saame oma rakendust parandada, andes meile tagasisidet.",
-            "donate_desc": "Toetage projekti annetusega - aitäh!"
+            "donate_desc": "Toetage projekti annetusega - aitäh!",
+            "group_desc": "Kutsu kõik oma sõbrad, mõned lahedad robotid, ja viska suur pidu.",
+            "group": "Loo grupp",
+            "discover": "Ülestõusu avastamine",
+            "discover_desc": "Leia kogukond, mis põhineb teie hobidel või huvidel."
         }
     },
     "login": {
@@ -599,11 +651,12 @@
         "invite": "Kutsekoo",
         "current_password": "Praegune paroo",
         "enter": {
-            "email": "Sisesta oma email",
+            "email": "Palun sisesta oma e-posti.",
             "password": "Sisesta oma paroo",
             "invite": "Sisesta oma kutsekoo",
             "current_password": "Sisesta oma praegune parool.",
-            "username": "Sisestage oma eelistatud kasutajatunnus"
+            "username": "Sisesta oma kasutajanimi.",
+            "new_password": "Sisestage uus parool."
         },
         "forgot": "Unustasid oma parooli?",
         "reset": "Muuda parool",
@@ -621,18 +674,24 @@
             "create": "Registreerumine ebaõnnestus!",
             "login": "Sisselogimine ebaõnnestus!",
             "reset": "Muutmine ebaõnnestus!",
-            "resend": "Uuesti saatmine ebaõnnestus!"
+            "resend": "Uuesti saatmine ebaõnnestus!",
+            "verify": "Kinnitamine nurjus!"
         },
         "remembered": "Mine tagasi sisse logima",
         "cancel": "Katkesta päring",
         "email_delay": "Palun lubake kuni 10 minutit kirja saabumiseks.",
-        "welcome": "Tere tulemast tagas",
+        "welcome": "Tere tulemast!",
         "subtitle": "Logi sisse Revolt-",
         "welcome2": "Tere",
         "subtitle2": "Loo kont",
         "totp": "Autentimise rakendus",
         "unofficial_instance": "Kolmanda osapoole instants.",
-        "recovery": "Taastamiskood"
+        "recovery": "Taastamiskood",
+        "verifying_account": "Teie konto kontrollimine…",
+        "verified_account": "Teie konto on kinnitatud!",
+        "verified_continue": "Jätka sisselogimist",
+        "new_password": "Uus parool",
+        "log_out_other": "Kõigi teiste seansside väljalogimine"
     },
     "quantities": {
         "members": {
@@ -798,5 +857,8 @@
         "Connect": {
             "t": "Ühendage"
         }
+    },
+    "actions": {
+        "submit": "Edasta"
     }
 }
