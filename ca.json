@@ -7,7 +7,8 @@
             "invite": "Escriu el teu codi d'invitació.",
             "password": "Escriu la teva contrasenya.",
             "email": "Si us plau, introdueix el teu correu electrònic.",
-            "username": "Escriu un nom d'usuari."
+            "username": "Escriu un nom d'usuari.",
+            "new_password": "Introduïu una contrasenya nova"
         },
         "current_password": "Contrasenya actual",
         "invite": "Codi d'invitació",
@@ -97,7 +98,8 @@
                     "jump_beginning": "Torna al principi",
                     "new_messages": "Nous missatges des de llavors {{time_ago}}",
                     "load_file": "Carregar arxiu",
-                    "timed_out": "Estàs aïllat temporalment per {{time}}."
+                    "timed_out": "Estàs aïllat temporalment per {{time}}.",
+                    "not_loaded": "El missatge no s'ha carregat, feu clic per a saltar"
                 },
                 "message_where": "Envia un missatge a {{channel_name}}",
                 "message_who": "Enviar un missatge a {{person}}",
@@ -154,7 +156,9 @@
                     "toggle": "Alterar menció al autor"
                 },
                 "bridge": "pont",
-                "user_timed_out": "L'usuari està aïllat temporalment per {{time}}."
+                "user_timed_out": "L'usuari està aïllat temporalment per {{time}}.",
+                "bridged": "El missatge s'ha enviat en una altra plataforma",
+                "team": "comunicació oficial"
             },
             "groups": {
                 "create": "Crear un grup",
@@ -526,7 +530,8 @@
                     "reset": "Reinicia",
                     "done": "Fet",
                     "report": "Reporta",
-                    "confirm": "Confirma"
+                    "confirm": "Confirma",
+                    "dont_block": "No bloquegis"
                 },
                 "clipboard": {
                     "copy": "Copia Manual:",
@@ -589,12 +594,36 @@
                     "description": "Ha de ser actualitzat per a poder usar els canvis recents.",
                     "version": "El vostre client és a {{client}}, mentre que el servidor requereix {{server}}.",
                     "ignore": "Ignora l'actualització",
-                    "attempting": "S'està intentant actualitzar..."
+                    "attempting": "S'està intentant actualitzar…"
                 },
                 "changelogs": {
                     "title": "Registres de canvis",
                     "description": "Llegiu sobre les actualitzacions de Revolt.",
                     "older": "Mostra les actualitzacions més antigues"
+                },
+                "report": {
+                    "thank_you": "Gràcies per ajudar a mantenir Revolt segur. Revisarem el vostre informe tan aviat com sigui possible",
+                    "reported": "informat",
+                    "block_user": "Vols bloquejar ha aquest usuari?",
+                    "content_reason": {
+                        "Illegal": "El contingut incompleix una o més normes",
+                        "PromotesHarm": "El contingut promociona mal a altres o a un mateix",
+                        "SpamAbuse": "Això és correu brossa o abús de la plataforma",
+                        "Malware": "Això és programari maliciós",
+                        "Harassment": "Això és assetjament o abús dirigit a un altre usuari"
+                    },
+                    "user_reason": {
+                        "Impersonation": "Aquest usuari està suplantant la identitat d'una altra persona",
+                        "SpamAbuse": "L'usuari esta enviant correu brossa o abusant la plataforma",
+                        "InappropriateProfile": "El perfil de l'usuari es inapropiat per a una audiència general",
+                        "BanEvasion": "Aquest usuari està eludint una prohibició",
+                        "Underage": "Aquest usuari no té l'edat suficient per tenir un compte"
+                    },
+                    "message": "Informeu sobre el missatge",
+                    "by_name": "informa sobre {{nom}}",
+                    "reason": "raó",
+                    "additional_context": "Informació adicional",
+                    "no_reason": "No s'ha especificat cap motiu / altre motiu"
                 }
             },
             "popovers": {
@@ -707,7 +736,10 @@
             "open_server_settings": "Configuració del servidor",
             "quote_message": "Citar missatge",
             "mark_unread": "Marcar com no llegit",
-            "make_owner": "Doneu la propietat del grup"
+            "make_owner": "Doneu la propietat del grup",
+            "report_server": "Informeu sobre el servidor",
+            "report_message": "Informeu sobre el missatge",
+            "report_user": "informa sobre l'usuari"
         },
         "permissions": {
             "required": "Permisos requerits"
