@@ -20,11 +20,12 @@
         "invite": "Invite Code",
         "current_password": "Current Password",
         "enter": {
-            "username": "Enter a username.",
-            "email": "Enter your email.",
+            "username": "Enter your preferred username.",
+            "email": "Please enter your email.",
             "password": "Enter your password.",
             "invite": "Enter your invite code.",
-            "current_password": "Enter your current password."
+            "current_password": "Enter your current password.",
+            "new_password": "Enter a new password."
         },
         "forgot": "Forgot your password?",
         "reset": "Reset password",
@@ -50,14 +51,16 @@
         },
         "welcome2": "Hello!",
         "subtitle2": "Create an account",
-        "welcome": "Welcome back!",
+        "welcome": "Welcome!",
         "subtitle": "Sign into Revolt",
         "unofficial_instance": "Third-party instance.",
         "totp": "Authenticator App",
         "recovery": "Recovery Code",
         "verifying_account": "Verifying your account…",
         "verified_account": "Your account has been verified!",
-        "verified_continue": "Continue to login"
+        "verified_continue": "Continue to login",
+        "new_password": "New Password",
+        "log_out_other": "Log out all other sessions"
     },
     "app": {
         "status": {
@@ -133,7 +136,8 @@
                     "sent_multiple_files": "Sent multiple attachments",
                     "new_messages": "New messages since {{time_ago}}",
                     "load_file": "Load file",
-                    "timed_out": "You are timed out for {{time}}."
+                    "timed_out": "You are timed out for {{time}}.",
+                    "not_loaded": "Message not loaded, click to jump"
                 },
                 "nsfw": {
                     "channel": {
@@ -170,7 +174,9 @@
                     "toggle": "Toggle author ping"
                 },
                 "bridge": "bridge",
-                "user_timed_out": "User is timed out for {{time}}."
+                "user_timed_out": "User is timed out for {{time}}.",
+                "bridged": "Message was sent on another platform",
+                "team": "Official Communication"
             },
             "groups": {
                 "create": "Create a group",
@@ -572,7 +578,8 @@
                     "confirm": "Confirm",
                     "done": "Done",
                     "reset": "Reset",
-                    "report": "Report"
+                    "report": "Report",
+                    "dont_block": "Don't block"
                 },
                 "sessions": {
                     "short": "You cannot undo this action.",
@@ -599,7 +606,31 @@
                     "description": "It must be updated in order to work with recent changes.",
                     "version": "Your client is at {{client}}, whereas the server requires the server {{server}}.",
                     "ignore": "Ignore updated",
-                    "attempting": "Attempting to update..."
+                    "attempting": "Attempting to update…"
+                },
+                "report": {
+                    "no_reason": "No reason specified / other reason",
+                    "message": "Report Message",
+                    "by_name": "Report {{name}}",
+                    "reason": "Reason",
+                    "additional_context": "Additional Information",
+                    "content_reason": {
+                        "Illegal": "Content breaks one or more laws",
+                        "SpamAbuse": "This is spam or platform abuse",
+                        "PromotesHarm": "Content promotes harm to others or self",
+                        "Malware": "This is malware",
+                        "Harassment": "This is harassment or abuse targeted at another user"
+                    },
+                    "user_reason": {
+                        "SpamAbuse": "User is sending spam or otherwise abusing the platform",
+                        "InappropriateProfile": "User's profile is inappropriate for a general audience",
+                        "Impersonation": "This user is impersonating someone else",
+                        "BanEvasion": "This user is evading a ban",
+                        "Underage": "This user is not old enough to have an account"
+                    },
+                    "reported": "Reported",
+                    "thank_you": "Thank you for helping to keep Revolt safe. We will review your report as soon as possible.",
+                    "block_user": "Would you like to block this user?"
                 }
             },
             "popovers": {
@@ -705,7 +736,10 @@
             "open_server_settings": "Server settings",
             "open_group_settings": "Group settings",
             "mark_unread": "Mark as unread",
-            "make_owner": "Transfer Group Ownership"
+            "make_owner": "Transfer Group Ownership",
+            "report_message": "Report message",
+            "report_user": "Report user",
+            "report_server": "Report server"
         },
         "permissions": {
             "required": "Permissions required"
