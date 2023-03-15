@@ -15,10 +15,11 @@
         "current_password": "Huidig wachtwoord",
         "enter": {
             "invite": "Voer je uitnodigingscode in.",
-            "username": "Voer je gewenste gebruikersnaam in.",
+            "username": "Voer je gebruikersnaam in.",
             "email": "Voer je e-mail in.",
             "password": "Voer je wachtwoord in.",
-            "current_password": "Voer je huidige wachtwoord in."
+            "current_password": "Voer je huidige wachtwoord in.",
+            "new_password": "Voer een nieuw wachtwoord in."
         },
         "forgot": "Wachtwoord vergeten?",
         "reset": "Reset wachtwoord",
@@ -57,7 +58,9 @@
         "recovery": "Herstelcode",
         "verified_account": "Je account is geverifiëerd!",
         "verifying_account": "Account aan het verifiëren…",
-        "verified_continue": "Naar inlogscherm"
+        "verified_continue": "Naar inlogscherm",
+        "new_password": "Nieuw wachtwoord",
+        "log_out_other": "Log uit op al je apparaten"
     },
     "app": {
         "main": {
@@ -89,7 +92,8 @@
                     "jump_beginning": "Terug naar het begin",
                     "new_messages": "Nieuwe berichten sinds {{time_ago}}",
                     "load_file": "Laad bestand",
-                    "timed_out": "Je hebt een time-out van {{time}}."
+                    "timed_out": "Je hebt een time-out van {{time}}.",
+                    "not_loaded": "Bericht niet geladen, klik om terug te gaan"
                 },
                 "voice": {
                     "unmute": "Dempen opheffen",
@@ -146,7 +150,9 @@
                     "toggle": "Zet auteur ping aan"
                 },
                 "bridge": "brug",
-                "user_timed_out": "Gebruiker heeft een time-out van {{time}}."
+                "user_timed_out": "Gebruiker heeft een time-out van {{time}}.",
+                "team": "Officiële Communicatie",
+                "bridged": "Bericht is gestuurd op een ander platform"
             },
             "categories": {
                 "participants": "Deelnemers",
@@ -241,7 +247,9 @@
                     "appearance_options": {
                         "title": "Uiterlijk Opties",
                         "show_send": "Altijd de knop Bericht verzenden weergeven",
-                        "show_send_desc": "Indien uitgeschakeld, verschijnt de knop 'Bericht verzenden' alleen op mobiele-apparaten."
+                        "show_send_desc": "Indien uitgeschakeld, verschijnt de knop 'Bericht verzenden' alleen op mobiele-apparaten.",
+                        "show_account_age_desc": "Indien uitgeschakeld, wordt accountleeftijd alleen bij nieuwe gebruikers getoond.",
+                        "show_account_age": "Toon altijd de account-leeftijd naast de welkom berichten"
                     }
                 },
                 "sessions": {
@@ -593,7 +601,7 @@
                 },
                 "out_of_date": {
                     "description": "Het moet worden bijgewerkt om met recente wijzigingen te kunnen werken.",
-                    "attempting": "Proberen om te updaten...",
+                    "attempting": "Proberen te updaten…",
                     "title": "Je client is niet geüpdate!",
                     "version": "Je client bevindt zich op {{client}}, terwijl de server {{server}} nodig heeft.",
                     "ignore": "Negeer Update"
@@ -612,6 +620,14 @@
                     "enable_totp": "Authenticator-app inschakelen",
                     "prompt_totp": "Scan of gebruik de onderstaande token in je authenticatie-app.",
                     "enter_code": "Voer Code In"
+                },
+                "report": {
+                    "message": "Rapporteer bericht",
+                    "by_name": "Rapporteer {{name}}",
+                    "reason": "Reden",
+                    "no_reason": "Geen reden gegeven / andere reden",
+                    "reported": "Gerapporteerd",
+                    "block_user": "Zou je graag deze gebruiker blokkeren?"
                 }
             },
             "popovers": {
@@ -941,5 +957,8 @@
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
+    },
+    "actions": {
+        "submit": "Dien in"
     }
 }
