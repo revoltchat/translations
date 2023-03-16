@@ -1,18 +1,20 @@
 {
     "login": {
         "enter": {
-            "username": "Indtast dit foretrukne brugernavn.",
+            "username": "Indtast dit brugernavn.",
             "current_password": "Indtast dit nuværende kodeord.",
             "invite": "Indtast din invitationskode.",
             "password": "Indtast dit kodeord.",
-            "email": "Indtast din email."
+            "email": "Indtast venligst din email.",
+            "new_password": "Indtast en ny adgangskode."
         },
         "resend": "Gensend verifikation",
         "error": {
             "resend": "Gensendelsen mislykkedes!",
             "reset": "Nulstillingen mislykkedes!",
             "login": "Login mislykkedes!",
-            "create": "Registreringen mislykkedes!"
+            "create": "Registreringen mislykkedes!",
+            "verify": "Verification Mislykkedes!"
         },
         "successful_registration": "Registreringen er fuldendt!",
         "check_spam": "vær venlig at tjekke spam hvis du ikke kan finde den",
@@ -37,8 +39,16 @@
         "open_mail_provider": "Åbn {{provider}}",
         "welcome2": "Hej!",
         "subtitle2": "Opret en bruger",
-        "welcome": "Velkommen tilbage!",
-        "subtitle": "Log in på Revolt"
+        "welcome": "Velkommen!",
+        "subtitle": "Log in på Revolt",
+        "unofficial_instance": "Tredjeparts instans.",
+        "totp": "Authenticator App",
+        "recovery": "Genoprettelses Kode",
+        "verifying_account": "Verificerer din bruger…",
+        "verified_account": "Din bruger er verificeret!",
+        "verified_continue": "Fortsæt til login",
+        "new_password": "Ny Adgangskode",
+        "log_out_other": "Log ud af alle andre sessioner"
     },
     "app": {
         "main": {
@@ -64,7 +74,8 @@
                     "viewing_old": "Ser på ældrere beskeder",
                     "jump_beginning": "Hop til begyndelsen",
                     "new_messages": "Nye beskeder siden {{time_ago}}",
-                    "load_file": "Indlæs fil"
+                    "load_file": "Indlæs fil",
+                    "timed_out": "Du har fået timeout i {{time}}."
                 },
                 "voice": {
                     "unmute": "Ophæv stumhed",
@@ -85,7 +96,9 @@
                     "user_banned": "{{user}} blev bandlyst",
                     "user_kicked": "{{user}} blev smidt ud",
                     "user_left": "{{user}} forlod",
-                    "user_joined": "{{user}} Tilsluttede sig"
+                    "user_joined": "{{user}} Tilsluttede sig",
+                    "registered_at": "Registeret {{time}}",
+                    "channel_ownership_changed": "{{from}} gav {{to}} gruppe ejerskab"
                 },
                 "typing": {
                     "several": "Adskillige personer skriver…",
@@ -123,7 +136,10 @@
                     "replying": "Svar til",
                     "toggle": "Skift forfatter ping"
                 },
-                "bridge": "bro"
+                "bridge": "bro",
+                "user_timed_out": "Brugeren har timeout i {{time}}.",
+                "bridged": "Beskeden var sent på en anden platform",
+                "team": "Official Kommunication"
             },
             "categories": {
                 "members": "Medlemmer",
@@ -166,7 +182,8 @@
             "busy": "Vil Ikke Forstyrres",
             "idle": "Ikke til stede",
             "online": "Online",
-            "reconnect": "Tilslut"
+            "reconnect": "Tilslut",
+            "focus": "Focus"
         },
         "special": {
             "modals": {
@@ -328,11 +345,17 @@
                         "title": "To-faktor-godkendelse",
                         "description": "Tilføj et ekstra lag sikkerhed ved at aktivere 2FA på din konto.",
                         "add_auth": "Tilføj Authenticator",
-                        "remove_auth": "Fjern Authenticator"
+                        "remove_auth": "Fjern Authenticator",
+                        "view_recovery_long": "Vis og download dine 2FA genoprettelses koder.",
+                        "generate_recovery": "Generer Genoprettelses Koder",
+                        "two_factor_on": "To-faktor authentication er slået til.",
+                        "generate_recovery_long": "Bliv klar til at bruge 2FA ved at opsætte en genoprettelses metode.",
+                        "two_factor_off": "Du har ikke slået to-faktor authentication til!",
+                        "view_recovery": "Vis Genoprettelses Koder"
                     },
                     "manage": {
                         "description": "Deaktiver eller fjern din konto når som helst. Denne handling vil logge dig ud og slette din konto fuldstændigt, herunder din chathistorik og venner.",
-                        "delete": "Slet Konto",
+                        "delete": "Marker konto til Sletning",
                         "title": "Kontostyring",
                         "disable": "Deaktiver Konto"
                     },
@@ -405,6 +428,10 @@
                     "discover": {
                         "title": "Udforsk Temaer",
                         "description": "Udforsk temaer lavet af fælleskabet"
+                    },
+                    "appearance_options": {
+                        "title": "Indstillinger for udseende",
+                        "show_send": "Altid vis send besked knappen"
                     }
                 },
                 "feedback": {
@@ -639,7 +666,7 @@
             "goto-testers": "Gå til testerens server",
             "donate": "Doner til Revolt",
             "feedback": "Giv feedback om Revolt",
-            "settings": "Indstillinger",
+            "settings": "Åben indstillinger",
             "settings-tooltip": "Du kan også højreklikke på brugerikonet øverst til venstre eller venstreklikke på det, hvis du allerede er hjemme.",
             "social": "Find servere og bots",
             "directs": "Direkte beskeder",
@@ -665,7 +692,8 @@
         "image_by": "Billede af",
         "privacy": "Privatlivspolitik",
         "tos": "Servicevilkår",
-        "about": "Om"
+        "about": "Om",
+        "learn_more": "Mere Information"
     },
     "dayjs": {
         "nextDay": "[I morgen kl] {{time}}",
@@ -824,5 +852,8 @@
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
+    },
+    "actions": {
+        "submit": "Indsend"
     }
 }
