@@ -422,9 +422,9 @@
                         "information": "Info"
                     },
                     "empty": "Det er ganske tomt her …",
-                    "mutual_servers": "Felles servere",
-                    "mutual_groups": "Grupper felles",
-                    "mutual_friends": "Venner felles",
+                    "mutual_servers": "Felles Servere",
+                    "mutual_groups": "Felles Grupper",
+                    "mutual_friends": "Felles Venner",
                     "no_servers": "Ingen felles servere",
                     "no_groups": "Ingen felles grupper",
                     "no_users": "Ingen felles venner",
@@ -477,7 +477,8 @@
                     "report": "Rapporter",
                     "reset": "Nullstille",
                     "confirm": "Bekreft",
-                    "done": "Ferdig"
+                    "done": "Ferdig",
+                    "dont_block": "Ikke blokker"
                 },
                 "account": {
                     "failed": "Kunne ikke utføre endring!",
@@ -540,7 +541,7 @@
                 },
                 "confirm": "Bekreft handling",
                 "out_of_date": {
-                    "attempting": "Forsøker å oppdatere...",
+                    "attempting": "Forsøker å oppdatere…",
                     "title": "Din klient er utdatert!",
                     "description": "Den må oppdateres for å fungere med nylige endringer.",
                     "version": "Klienten din er på {{client}}, mens serveren krever {{server}}.",
@@ -550,6 +551,30 @@
                     "description": "Les om oppdateringer til Revolt.",
                     "title": "Endringslogg",
                     "older": "Vis eldre oppdateringer"
+                },
+                "report": {
+                    "message": "Rapporter Melding",
+                    "by_name": "Rapporter {{name}}",
+                    "reason": "Grunnen",
+                    "additional_context": "Tilleggsinformasjon",
+                    "no_reason": "Ingen grunn spesifisert / annen grunn",
+                    "content_reason": {
+                        "SpamAbuse": "Dette er spam eller plattformmsmisbruk",
+                        "Malware": "Dette er skadelig programvare",
+                        "Harassment": "Dette er trakassering eller misbruk rettet mot en annen bruker",
+                        "Illegal": "Innhold bryter en eller flere lover",
+                        "PromotesHarm": "Innhold fremmer skade på andre eller seg selv"
+                    },
+                    "user_reason": {
+                        "SpamAbuse": "Brukeren sender spam eller misbruker plattformen på annen måte",
+                        "InappropriateProfile": "Brukerprofilen er upassende for et generelt publikum",
+                        "Impersonation": "Denne brukeren utgir seg for å være en annen",
+                        "BanEvasion": "Denne brukeren unngår et forbud",
+                        "Underage": "Denne brukeren er ikke gammel nok til å ha en konto"
+                    },
+                    "reported": "Rapportert",
+                    "thank_you": "Takk for at du hjelper til med å holde Revolt trygt. Vi vil se igjennom rapporten din så snart som mulig.",
+                    "block_user": "Vil du blokkere denne brukeren?"
                 }
             },
             "status": {
@@ -630,7 +655,10 @@
             "delete_server": "Slett server",
             "leave_server": "Forlat server",
             "mark_unread": "Merk som ulest",
-            "make_owner": "Gi gruppeeierskap"
+            "make_owner": "Gi gruppeeierskap",
+            "report_message": "Rapporter melding",
+            "report_user": "Rapporter bruker",
+            "report_server": "Rapporter server"
         },
         "navigation": {
             "tabs": {
@@ -705,7 +733,7 @@
         "UnknownUser": "Ukjent bruker.",
         "UnverifiedAccount": "Ubekreftet konto.",
         "InvalidSession": "Ugyldig økt.",
-        "MissingHeaders": "Manglende hoder.",
+        "MissingHeaders": "Mangler header.",
         "RenderFail": "Malopptegning mislyktes.",
         "OperationFailed": "Operasjonen mislyktes.",
         "UnknownError": "Sjekk konsollen.",
@@ -892,7 +920,7 @@
             "invite": "Skriv inn invitasjonskoden din.",
             "password": "Skriv inn passordet ditt.",
             "email": "Skriv inn e-postadressen din.",
-            "username": "Skriv inn din foretrukne brukernavn.",
+            "username": "Skriv inn brukernavnet ditt.",
             "new_password": "Skriv inn et nytt passord."
         },
         "current_password": "Nåværende passord",
@@ -902,7 +930,7 @@
         "username": "Brukernavn",
         "register": "Registrer",
         "title": "Logg inn",
-        "welcome": "Velkommen tilbake!",
+        "welcome": "Velkommen!",
         "subtitle": "Logg inn på Revolt",
         "welcome2": "Hallo!",
         "subtitle2": "Opprett en konto",
