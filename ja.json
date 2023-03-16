@@ -347,7 +347,8 @@
                     "jump_beginning": "既読にする",
                     "new_messages": "{{time_ago}}から新着メッセージ",
                     "load_file": "ファイルを読み込み",
-                    "timed_out": "{{time}}でタイムアウトになりました。"
+                    "timed_out": "{{time}}でタイムアウトになりました。",
+                    "not_loaded": "メッセージが読み込まれていません、クリックするとジャンプします"
                 },
                 "voice": {
                     "unmute": "ミュートを解除",
@@ -393,7 +394,9 @@
                     "toggle": "作成者への通知を切り替える"
                 },
                 "bridge": "ブリッジ",
-                "user_timed_out": "ユーザーは{{time}}でタイムアウトしました。"
+                "user_timed_out": "ユーザーは{{time}}でタイムアウトしました。",
+                "bridged": "別のプラットフォームでメッセージが送信された",
+                "team": "公式コミュニティー"
             },
             "categories": {
                 "members": "メンバー",
@@ -508,7 +511,7 @@
                 "token_reveal": "{{name}}のトークン",
                 "out_of_date": {
                     "ignore": "アップデートを無視する",
-                    "attempting": "アップデート試行中...",
+                    "attempting": "アップデート試行中…",
                     "title": "このクライアントは古いバージョンですよ！",
                     "description": "最新の変更に対応するため、アップデートが必要です。",
                     "version": "このクライアントのバージョンは {{client}} ですが、サーバーは {{server}} を要求しています。"
@@ -532,6 +535,26 @@
                     "title": "変更履歴",
                     "description": "Revolt への更新について読む。",
                     "older": "過去のアップデートを見る"
+                },
+                "report": {
+                    "reported": "レポートしました",
+                    "thank_you": "REVOLTの安全性を保つためにご協力いただきありがとうございます。私たちはできるだけ早くあなたのレポートを確認します。",
+                    "user_reason": {
+                        "SpamAbuse": "ユーザーがスパムを送信するなど、プラットフォームを悪用している場合"
+                    },
+                    "message": "メッセージのレポート",
+                    "no_reason": "特に理由はない / その他の理由",
+                    "by_name": "{{name}}をレポート",
+                    "reason": "理由",
+                    "additional_context": "追加情報",
+                    "content_reason": {
+                        "Illegal": "コンテンツが1つまたは複数の法律に違反している",
+                        "PromotesHarm": "他者または自己への危害を助長する内容",
+                        "SpamAbuse": "これはスパムまたはプラットフォームの乱用です",
+                        "Malware": "これはマルウェアです",
+                        "Harassment": "他のユーザーを対象とした嫌がらせや罵倒"
+                    },
+                    "block_user": "このユーザーをブロックしますか？"
                 }
             },
             "popovers": {
@@ -674,7 +697,8 @@
             "resend": "再送信に失敗しました！",
             "reset": "リセットに失敗しました！",
             "login": "ログインに失敗しました！",
-            "create": "登録に失敗しました！"
+            "create": "登録に失敗しました！",
+            "verify": "認証に失敗しました！"
         },
         "successful_registration": "登録が完了しました！",
         "open_mail_provider": "{{provider}} を開く",
@@ -696,7 +720,8 @@
             "invite": "招待コードを入力してください。",
             "password": "パスワードを入力してください。",
             "email": "メールアドレスを入力してください。",
-            "username": "ユーザー名を入力してください。"
+            "username": "ユーザー名を入力してください。",
+            "new_password": "新しいパスワードを入力してください。"
         },
         "current_password": "現在のパスワード",
         "invite": "招待コード",
@@ -706,13 +731,17 @@
         "register": "登録",
         "title": "ログイン",
         "subtitle": "Revoltにサインイン",
-        "welcome": "おかえりなさい！",
+        "welcome": "ようこそ！",
         "subtitle2": "アカウントを作成",
         "welcome2": "こんにちは！",
         "recovery": "リカバリーコード",
         "totp": "二段階認証アプリ",
         "unofficial_instance": "サードパーティ製のインスタンス。",
-        "verified_account": "あなたのアカウントが検証されました！"
+        "verified_account": "あなたのアカウントが検証されました！",
+        "new_password": "新しいパスワード",
+        "log_out_other": "すべての他のセッションからログアウト",
+        "verified_continue": "ログインに進む",
+        "verifying_account": "アカウントの認証…"
     },
     "general": {
         "unavailable": "利用不可",
