@@ -8,7 +8,8 @@
         "disabled": "غیر فعال",
         "about": "درباره",
         "loading": "...بارگذاری",
-        "unavailable": "غیر قابل دسترسی"
+        "unavailable": "در دسترس نیسیت",
+        "learn_more": "اطلاعات بیشتر"
     },
     "login": {
         "title": "ورود",
@@ -18,11 +19,12 @@
         "password": "کلمه عبور",
         "current_password": "رمز عبور فعلی",
         "enter": {
-            "email": "ایمیل خود را وارد کنید.",
+            "email": "لطفا ایمیل خود را وارد کنید.",
             "password": "رمز عبور خود را وارد کنید.",
             "invite": "کد دعوت خود را وارد کنید.",
-            "username": "نام کاربری دلخواه خود را وارد کنید.",
-            "current_password": "رمز عبور فعلی خود را وارد کنید."
+            "username": "نام کاربری خود را وارد کنید.",
+            "current_password": "رمز عبور فعلی خود را وارد کنید.",
+            "new_password": "رمز عبور جدید را وارد کنید."
         },
         "forgot": "رمز عبور خود را فراموش کرده اید؟",
         "reset": "پاک کردن رمزعبور",
@@ -43,13 +45,20 @@
             "create": "ثبت نام نشد!",
             "login": "ورود ناموفق بود!",
             "reset": "بازنشانی نشد!",
-            "resend": "ارسال مجدد انجام نشد!"
+            "resend": "ارسال مجدد انجام نشد!",
+            "verify": "!تایید موفقیت امیز نبود"
         },
-        "welcome": "برگشت دوباره",
+        "welcome": "خوش آمدی",
         "subtitle": "وارد شوید در ریولت",
         "new": "تازه اومدی ریولت؟",
         "welcome2": "سلام!",
-        "subtitle2": "یک حساب کاربری ایجاد کنید"
+        "subtitle2": "یک حساب کاربری ایجاد کنید",
+        "recovery": "کد بازیابی",
+        "unofficial_instance": ".نمونه شخص ثالث",
+        "new_password": "رمز عبور جدید",
+        "verifying_account": "درحال تایید حساب شما…",
+        "verified_account": "حساب شما تایید شده!",
+        "verified_continue": "ادامه برای ورود"
     },
     "app": {
         "status": {
@@ -57,7 +66,9 @@
             "idle": "نیست",
             "busy": "مزاحم نشو",
             "invisible": "نامرئی",
-            "offline": "آفلاین"
+            "offline": "آفلاین",
+            "reconnect": "اتصال مجدد",
+            "focus": "تمرکز"
         },
         "navigation": {
             "tabs": {
@@ -137,7 +148,7 @@
                     "title": "!وای، اینجا که چیزی نیست"
                 },
                 "message_where": "پیغام {{channel_name}}",
-                "message_who": "{{person}} پیغام",
+                "message_who": "{{person}}  پیام",
                 "uploading_file": "…در حال آپلود",
                 "failed_upload": "!آپلود نشد",
                 "attached_file": "{{filename}} پیوست شده",
@@ -501,5 +512,8 @@
     },
     "shortcuts": {
         "ctrlc": "کنترل + سی"
+    },
+    "actions": {
+        "submit": "ارسال"
     }
 }
