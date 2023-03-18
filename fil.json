@@ -48,7 +48,8 @@
                     "jump_beginning": "Bumalik sa simula",
                     "new_messages": "Mga bagong mensahe mula {{time_ago}}",
                     "load_file": "Maglapag ng file",
-                    "timed_out": "Ikaw ay pinahinto nang {{time}}."
+                    "timed_out": "Ikaw ay pinahinto nang {{time}}.",
+                    "not_loaded": "Hindi na-load ang mensahe, i-click para tumalon"
                 },
                 "typing": {
                     "single": "May sinusulat si {{user}}…",
@@ -104,7 +105,9 @@
                     "toggle": "I-ping"
                 },
                 "bridge": "tulay",
-                "user_timed_out": "Pinahinto ang User nang {{time}}."
+                "user_timed_out": "Pinahinto ang User nang {{time}}.",
+                "bridged": "Ipinadala ang mensahe sa ibang platform",
+                "team": "Opisyal na Komunikasyon"
             },
             "groups": {
                 "owner": "May-ari ng grupo",
@@ -555,7 +558,8 @@
                     "report": "I-ulat",
                     "confirm": "Ikumpirma",
                     "done": "Tapos na",
-                    "reset": "Reset"
+                    "reset": "Reset",
+                    "dont_block": "Huwag ipa-block"
                 },
                 "external_links": {
                     "short": "Sigurado ka bang gusto mong pumunta sa:",
@@ -577,7 +581,7 @@
                 },
                 "signed_out": "Na-signout ka!",
                 "out_of_date": {
-                    "attempting": "Sinusubukang mag-update...",
+                    "attempting": "Sinusubukang mag-update…",
                     "ignore": "Huwag pansinin ang update",
                     "title": "Hindi updated ang iyong kliyente!",
                     "description": "Kailangan updated ito para gagana ang mga kasalukuyang pagbabago.",
@@ -602,7 +606,28 @@
                     "short": "Hindi mo mababalikan itong aksyon.",
                     "accept": "Alisin lahat ng sesyon"
                 },
-                "confirm": "Kumpirmahin ang aksyon"
+                "confirm": "Kumpirmahin ang aksyon",
+                "report": {
+                    "block_user": "Gusto mo bang i-block ang user na ito?",
+                    "content_reason": {
+                        "Harassment": "Ito ay Panliligalig o pang-aabuso na naka-target sa ibang user.",
+                        "Illegal": "Ang nilalaman ay lumalabag sa isa o higit pang mga batas",
+                        "PromotesHarm": "Ang nilalaman ay nagtataguyod ng pinsala sa iba o sa sarili.",
+                        "SpamAbuse": "Isa itong spam o pang-aabuso sa platform",
+                        "Malware": "Ito ay isang malware"
+                    },
+                    "user_reason": {
+                        "SpamAbuse": "Nagpapadala ang user ng spam o kung hindi man ay inaabuso ang platform.",
+                        "Impersonation": "Ang user na ito ay nagpapanggap bilang ibang tao.",
+                        "InappropriateProfile": "Ang profile ng user ay hindi naaangkop para sa pangkalahatang madla.",
+                        "BanEvasion": "Ang user na ito ay umiiwas sa isang pagbabawal.",
+                        "Underage": "hindi pa sapat ang edad ng user na ito para magkaroon ng account."
+                    },
+                    "reason": "dahilan",
+                    "additional_context": "Karagdagang ng impormasyon",
+                    "no_reason": "Walang tinukoy na dahilan / ibang dahilan",
+                    "thank_you": "Salamat sa pagtulong na panatilihing ligtas ang Revolt. Susuriin namin ang iyong ulat sa lalong madaling panahon."
+                }
             },
             "popovers": {
                 "user_profile": {
@@ -687,7 +712,8 @@
             "email": "Ilagay ang iyong email.",
             "password": "Ilagay ang iyong kontrasenyas.",
             "current_password": "Ilagay ang iyong kasalukuyang kontrasenyas.",
-            "invite": "Ilagay ang iyong kodigo ng imbitasyon."
+            "invite": "Ilagay ang iyong kodigo ng imbitasyon.",
+            "new_password": "Maglagay ng bagong password"
         },
         "set_password": "Magtakda ng bagong kontrasenyas",
         "check_spam": "Pakisuri ang spam kapag hindi mo ito makita",
@@ -725,7 +751,10 @@
         "totp": "Autentikador",
         "recovery": "Kodigo ng Pagbawi",
         "new_password": "Bagong Kontrasenyas",
-        "log_out_other": "Mag-log out sa lahat ng iba pang mga sesyon"
+        "log_out_other": "Mag-log out sa lahat ng iba pang mga sesyon",
+        "verifying_account": "pag-verify ng iyong account",
+        "verified_account": "Na-verify na ang iyong account!",
+        "verified_continue": "Magpatuloy sa pag-login"
     },
     "permissions": {
         "ManageNicknames": {
@@ -808,6 +837,26 @@
         },
         "Video": {
             "t": "Bidyo"
+        },
+        "ManageWebhooks": {
+            "d": "Nagbibigay-daan sa mga miyembro na kontrolin ang mga webhook sa isang channel.",
+            "t": "Pamahalaan ang Webhooks."
+        },
+        "TimeoutMembers": {
+            "t": "Mga Miyembro ng ipa-timeout",
+            "d": "Nagbibigay-daan sa mga miyembro na pansamantalang pigilan ang mga user na makipag-ugnayan sa server."
+        },
+        "ReadMessageHistory": {
+            "d": "Nagbibigay-daan sa mga miyembro na basahin ang kasaysayan ng mensahe ng channel na ito.",
+            "t": "Basahin ang History ng Mensahe."
+        },
+        "ManageCustomisation": {
+            "t": "Pamahalaan ang Customization",
+            "d": "Nagbibigay-daan sa mga miyembro na gumawa, mag-edit at magtanggal ng mga emoji."
+        },
+        "AssignRoles": {
+            "d": "Nagbibigay-daan sa mga miyembro na magtalaga ng mga tungkulin na mas mababa sa kanilang sariling ranggo sa ibang mga miyembro.",
+            "t": "Magtalaga ng mga Tungkulin."
         }
     },
     "error": {
