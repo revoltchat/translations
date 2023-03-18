@@ -149,7 +149,7 @@ export const Languages: { [key in Language]: LanguageEntry } = {
     dayjs: "ku",
   },
   cs: { display: "Čeština", emoji: "🇨🇿", i18n: "cs" },
-  da: { display: "Danskers", emoji: "🇩🇰", i18n: "da" },
+  da: { display: "Dansk", emoji: "🇩🇰", i18n: "da" },
   de: { display: "Deutsch", emoji: "🇩🇪", i18n: "de", verified: true },
   el: { display: "Ελληνικά", emoji: "🇬🇷", i18n: "el" },
   es: { display: "Español", emoji: "🇪🇸", i18n: "es" },
