@@ -19,8 +19,9 @@
             "password": "Anna salasanasi.",
             "email": "Anna sähköpostiosoitteesi.",
             "current_password": "Anna nykyinen salasanasi.",
-            "username": "Anna käyttäjätunnus.",
-            "invite": "Anna kutsukoodisi."
+            "username": "Anna käyttäjätunnuksesi.",
+            "invite": "Anna kutsukoodisi.",
+            "new_password": "Anna uusi salasana."
         },
         "new": "Uusi Revoltin käyttäjä?",
         "create": "Rekisteröidy",
@@ -32,7 +33,8 @@
             "login": "Kirjautuminen epäonnistui!",
             "create": "Rekisteröinti epäonnistui!",
             "reset": "Nollaaminen epäonnistui!",
-            "resend": "Uudelleen lähettäminen epäonnistui!"
+            "resend": "Uudelleen lähettäminen epäonnistui!",
+            "verify": "Vahistus epäonnistui!"
         },
         "successful_registration": "Rekisteröinti onnistui!",
         "check_mail": "Tarkista sähköpostisi!",
@@ -47,13 +49,18 @@
         "open_mail_provider": "Avaa {{provider}}",
         "cancel": "Peruuta pyyntö",
         "email_delay": "Joudut odottamaan jopa 10 minuuttia sen saapumista.",
-        "welcome": "Tervetuloa takaisin!",
+        "welcome": "Tervetuloa!",
         "subtitle": "Kirjaudu Revoltiin",
         "welcome2": "Hei!",
         "subtitle2": "Luo tili",
         "unofficial_instance": "Kolmannen osapuolen instanssi.",
         "totp": "Valtuutussovellus",
-        "recovery": "Palautuskoodi"
+        "recovery": "Palautuskoodi",
+        "verified_account": "Tilisi on vahvistettu!",
+        "verifying_account": "Vahvistetaan tiliäsi…",
+        "verified_continue": "Jatka kirjautumaan",
+        "new_password": "Uusi salasana",
+        "log_out_other": "Kirjaudu ulos kaikista muista istunnoista"
     },
     "app": {
         "main": {
@@ -70,7 +77,8 @@
                     "channel_icon_changed": "{{user}} muutti kanavan kuvaketta",
                     "user_kicked": "{{user}} potkittiin",
                     "user_banned": "{{user}} sai porttikiellon",
-                    "channel_ownership_changed": "{{from}} siirsi ryhmän omistajuuden käyttäjälle {{to}}"
+                    "channel_ownership_changed": "{{from}} siirsi ryhmän omistajuuden käyttäjälle {{to}}",
+                    "registered_at": "Rekisteröitynyt {{time}}"
                 },
                 "voice": {
                     "leave": "Poistu",
@@ -90,7 +98,9 @@
                     "failed_load": "Viestin lataaminen epäonnistui.",
                     "jump_beginning": "Hyppää alkuun",
                     "new_messages": "Uusia viestejä vuodesta {{time_ago}}",
-                    "load_file": "Lataa tiedosto"
+                    "load_file": "Lataa tiedosto",
+                    "not_loaded": "Viestiä ei ole ladattu, klikkaa hypätäksesi",
+                    "timed_out": "Sinut on aikakatkaistu ajaksi {{time}}."
                 },
                 "edited": "(muokattu)",
                 "bot": "botti",
@@ -140,7 +150,10 @@
                     "replying": "Vastataan käyttäjälle",
                     "toggle": "Kytke vastatun mainitseminen"
                 },
-                "bridge": "silta"
+                "bridge": "silta",
+                "team": "Virallinen viestintä",
+                "bridged": "Viesti on lähetetty toisella alustalla",
+                "user_timed_out": "Käyttäjä on aikakatkaistu ajaksi {{time}}."
             },
             "categories": {
                 "members": "Jäsenet",
@@ -220,7 +233,10 @@
             "reply_message": "Vastaa",
             "quote_message": "Lainaa viesti",
             "mark_unread": "Merkkaa lukemattomaksi",
-            "make_owner": "Anna ryhmän omistajuus"
+            "make_owner": "Anna ryhmän omistajuus",
+            "report_user": "Ilmoita käyttäjä",
+            "report_server": "Ilmoita palvelin",
+            "report_message": "Ilmoita viesti"
         },
         "special": {
             "popovers": {
@@ -285,7 +301,8 @@
                     "reset": "Nollaa",
                     "done": "Valmis",
                     "confirm": "Vahvista",
-                    "report": "Ilmoita"
+                    "report": "Ilmoita",
+                    "dont_block": "Älä estä"
                 },
                 "clipboard": {
                     "copy": "Manuaalinen kopiointi:",
@@ -316,7 +333,9 @@
                     "unfriend_user_long": "Et voi ehkä puhua hänelle uudelleen, ennen kuin lisäät heidät takaisin.",
                     "confirm_close_dm_long": "Voit avata sen myöhemmin uudelleen, mutta se katoaa molemmin puolin.",
                     "confirm_ban": "Olet porttikieltämässä {{name}}",
-                    "block_user_long": "Oletko varma että haluat estää {{name}}? Hänet poistetaan myös omasta kaveriluettelostasi."
+                    "block_user_long": "Oletko varma että haluat estää {{name}}? Hänet poistetaan myös omasta kaveriluettelostasi.",
+                    "members_not_notified": "Muille jäsenille ei lähetetä ilmoitusta",
+                    "silent_leave": "Lähde Äänettömästi"
                 },
                 "error": "Tapahtui virhe!",
                 "onboarding": {
@@ -329,7 +348,7 @@
                     "short": "Oletko varma että haluat mennä:",
                     "trust_domain": "Luota tähän verkkotunnukseen"
                 },
-                "token_reveal": "{{name}}:n tunnus",
+                "token_reveal": "{{name}}:n Avain",
                 "sessions": {
                     "title": "Haluatko tyhjentää istuntosi?",
                     "short": "Et voi peruuttaa tätä toimenpidettä.",
@@ -354,8 +373,32 @@
                     "description": "Se täytyy päivittää toimiakseen viimeaikaisten muutosten kanssa.",
                     "version": "Asiakkaasi on versiota {{client}}, kun taas palvelin vaatii version {{server}}.",
                     "ignore": "Ohita päivitys",
-                    "attempting": "Yritetään päivittää...",
+                    "attempting": "Yritetään päivittää…",
                     "title": "Asiakasohjelmasi on vanhentunut!"
+                },
+                "report": {
+                    "thank_you": "Kiitos, että autat pitämään Revoltin turvallisena. Tarkistamme ilmoituksesi mahdollisimman pian.",
+                    "reported": "Ilmoitettu",
+                    "block_user": "Haluatko estää tämän käyttäjän?",
+                    "additional_context": "Lisätietoja",
+                    "content_reason": {
+                        "PromotesHarm": "Sisältö edistää muiden tai itsensä vahingoittamista",
+                        "Illegal": "Sisältö rikkoo yhtä tai useampaa lakia",
+                        "Malware": "Tämä on haittaohjelma",
+                        "Harassment": "Tämä on toiseen käyttäjään kohdistuvaa häirintää tai hyväksikäyttöä",
+                        "SpamAbuse": "Tämä on roskapostia tai alustan väärinkäyttöä"
+                    },
+                    "message": "Ilmoita Viestistä",
+                    "by_name": "Ilmoita {{name}}",
+                    "reason": "Syy",
+                    "no_reason": "Syytä ei ole määritetty / muu syy",
+                    "user_reason": {
+                        "SpamAbuse": "Käyttäjä lähettää roskapostia tai muulla tapaa väärinkäyttää alustaa",
+                        "InappropriateProfile": "Käyttäjän profiili on epäasiallinen yleisölle",
+                        "Impersonation": "Tämä käyttäjä esiintyy jonain toisena henkilönä",
+                        "Underage": "Tämä käyttäjä ei ole tarpeeksi vanha tiliä varten",
+                        "BanEvasion": "Tämä käyttäjä kiertää porttikieltoa"
+                    }
                 }
             },
             "copy_username": "Paina kopioidaksesi käyttäjätunnus",
@@ -474,7 +517,9 @@
                     "appearance_options": {
                         "title": "Ulkoasuasetukset",
                         "show_send": "Näytä viestinlähetysnappi aina",
-                        "show_send_desc": "Jos tämä on pois käytöstä, viestinlähetysnappi näkyy vain mobiililaitteilla."
+                        "show_send_desc": "Jos tämä on pois käytöstä, viestinlähetysnappi näkyy vain mobiililaitteilla.",
+                        "show_account_age_desc": "Jos ei käytössä, tilin ikä näytetään vain uusille käyttäjille.",
+                        "show_account_age": "Näytä käyttäjätilin ikä aina liittymisviestin vieressä"
                     }
                 },
                 "donate": {
@@ -667,7 +712,8 @@
                     "title": "Kustomointi"
                 },
                 "emojis": {
-                    "title": "Emojit"
+                    "title": "Emojit",
+                    "upload": "Lataa Emoji"
                 }
             },
             "permissions": {
@@ -701,7 +747,8 @@
             "idle": "Toimeton",
             "invisible": "Näkymätön",
             "busy": "Älä häiritse",
-            "reconnect": "Yhdistä uudelleen"
+            "reconnect": "Yhdistä uudelleen",
+            "focus": "Keskity"
         },
         "permissions": {
             "required": "Lupia vaaditaan"
@@ -924,5 +971,8 @@
             "t": "Käytä reaktioita",
             "d": "Sallii käyttäjien reagoida viesteihin."
         }
+    },
+    "actions": {
+        "submit": "Lähetä"
     }
 }
