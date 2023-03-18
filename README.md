@@ -24,18 +24,18 @@ The following table shows languages and people enlisted for verifying certain la
 |🇧🇩|বাংলা / bn|[@Cynycal2003](https://github.com/Cynycal2003)||
 |br|Brezhoneg / br|[@SperedAnveliour](https://github.com/SperedAnveliour)||
 |🇪🇸|Català / ca|[@TallerThanShort](https://github.com/TallerThanShort)||
-|krd|کوردی / ckb|[@fanticwastaken](https://github.com/fanticwastaken)||
+|krd|کوردی / ckb|[@fanticwastaken](https://github.com/fanticwastaken)|[@NoLogicAlan](https://github.com/NoLogicAlan)|
 |🇨🇿|Čeština / cs|||
-|🇩🇰|Danskers / da|||
+|🇩🇰|Dansk / da|||
 |🇩🇪|Deutsch / de|[@janderedev](https://github.com/janderedev)|[@nitrobw](https://github.com/nitrobw)|
 |🇬🇷|Ελληνικά / el|[@SudoJanast](https://github.com/SudoJanast)||
-|🇪🇸|Español / es|[@z3ro0k](https://github.com/z3ro0k) [@fernandopal](https://github.com/fernandopal)||
-|🇪🇪|eesti / et|[@u032](https://github.com/u032)||
+|🇪🇸|Español / es|[@z3ro0k](https://github.com/z3ro0k) [@fernandopal](https://github.com/fernandopal)|[@Dorovich](https://github.com/Dorovich)|
+|🇪🇪|eesti / et|[@u032](https://github.com/u032) [@Asl-script](https://github.com/Asl-script)||
 |🇫🇮|suomi / fi|||
 |🇵🇭|Filipino / fil|[@I2rys](https://github.com/I2rys)||
 |🇫🇷|Français / fr|[@Hades785](https://github.com/Hades785)|[@RedNight-was-taken](https://github.com/RedNight-was-taken)|
 |🇮🇪|Gaeilge / ga|||
-|🇮🇳|हिन्दी / hi|[@Infiniticity](https://github.com/Infiniticity)||
+|🇮🇳|हिन्दी / hi|[@Infiniticity](https://github.com/Infiniticity)|[@CodeWhiteWeb](https://github.com/CodeWhiteWeb) [@FakeFerg](https://github.com/FakeFerg)|
 |🇭🇷|Hrvatski / hr|||
 |🇭🇺|magyar / hu|[@f3rr31](https://github.com/f3rr31)||
 |🇮🇩|bahasa Indonesia / id|[@liimee](https://github.com/liimee)|[@ilhamfauzan](https://github.com/ilhamfauzan)|
@@ -47,12 +47,12 @@ The following table shows languages and people enlisted for verifying certain la
 |🇲🇰|Македонски / mk|||
 |🇲🇾|Melayu / ms|||
 |🇳🇴|Norsk bokmål / nb_NO|[@tobggs](https://github.com/tobggs)||
-|🇳🇱|Nederlands / nl|||
-|🇮🇷|فارسی / fa|[@DevEvil99](https://github.com/DevEvil99)||
-|🇵🇱|Polski / pl|[@jacekpoz](https://github.com/jacekpoz) [@Pawelek-dev](https://github.com/Pawelek-dev)||
+|🇳🇱|Nederlands / nl|[@sympact06](https://github.com/sympact06)||
+|🇮🇷|فارسی / fa|[@DevEvil99](https://github.com/DevEvil99) [@shareghzade](https://github.com/shareghzade)||
+|🇵🇱|Polski / pl|[@jacekpoz](https://github.com/jacekpoz) [@Pawelek-dev](https://github.com/Pawelek-dev) [@HosachiPL](https://github.com/HosachiPL)|[@CyberL1](https://github.com/CyberL1)|
 |🇧🇷|Português (do Brasil) / pt_BR|[@yanndere](https://github.com/yanndere)||
 |🇵🇹|Português (Portugal) / pt_PT|[@Tmpod](https://github.com/Tmpod)|[@SlicedBlueApple](https://github.com/SlicedBlueApple)|
-|🇷🇴|Română / ro||[@S703T](https://github.com/S703T)|
+|🇷🇴|Română / ro|[@Edward205](https://github.com/Edward205)|[@S703T](https://github.com/S703T)|
 |🇷🇺|Русский / ru|[@div2005](https://github.com/div2005)||
 |🇸🇰|Slovensky / sk|[@ShadowLp174](https://github.com/ShadowLp174)||
 |🇸🇮|Slovenščina / sl|||
@@ -60,12 +60,12 @@ The following table shows languages and people enlisted for verifying certain la
 |🇱🇰|සිංහල / si|||
 |🇸🇪|Svenska / sv|[@raggebatman](https://github.com/raggebatman)||
 |🇮🇳|தமிழ் / ta|||
-|🇹🇭|ไทย / th|||
+|🇹🇭|ไทย / th|[@xhayper](https://github.com/xhayper)||
 |🇹🇷|Türkçe / tr|[@KerizAlperwastaken](https://github.com/KerizAlperwastaken)||
 |🇺🇦|Українська / uk|[@div2005](https://github.com/div2005)||
 |vec|Vèneto / vec|||
 |🇻🇳|Tiếng Việt / vi|||
-|🇨🇳|中文 (简体) / zh_Hans||[@YouTubeGameNana](https://github.com/YouTubeGameNana)|
+|🇨🇳|中文 (简体) / zh_Hans|[@deluxghost](https://github.com/deluxghost)|[@YouTubeGameNana](https://github.com/YouTubeGameNana)|
 |🇹🇼|繁體中文 / zh_Hant|[@Zhuzi-ouo](https://github.com/Zhuzi-ouo)||
 |🇱🇻|Latviešu / lv|[@rMazeiks](https://github.com/rMazeiks)||
 |🙂|Toki Pona / tokipona|[@Gapva](https://github.com/Gapva)||
