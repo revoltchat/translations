@@ -204,7 +204,8 @@
                     "create_invite_created": "Her er din nye invitationskode:",
                     "block_user_long": "Er du sikker på at du vil blokere {{name}}? De vil også blive fjernet fra din venneliste.",
                     "unfriend_user": "Vil du fjerne {{name}}?",
-                    "block_user": "Vil du blokere {{name}}?"
+                    "block_user": "Vil du blokere {{name}}?",
+                    "members_not_notified": "Andre medlemmer vil ikke blive underrettet"
                 },
                 "external_links": {
                     "trust_domain": "Stol på dette domæne",
@@ -257,6 +258,28 @@
                     "accept": "Fjern alle sessioner",
                     "title": "Er du sikker at du vil slette dine sessioner?",
                     "short": "Du kan ikke fortryde denne handling."
+                },
+                "mfa": {
+                    "confirm": "Bekræft venligst ved hjælp af den/de valgte metode(r).",
+                    "prompt_totp": "Scan QR-koden, eller brug nedenstående token i din godkendelsesapp.",
+                    "save_codes": "Gem dem venligst på et sikkert sted.",
+                    "select_method": "Vælg venligst en metode til at godkende din anmodning.",
+                    "enable_totp": "Aktiver authenticator-appen",
+                    "recovery_codes": "Dine inddrivelseskoder",
+                    "enter_code": "Indtast kode"
+                },
+                "changelogs": {
+                    "description": "Læs om opdateringerne af Revolt.",
+                    "title": "Ændringslogger",
+                    "older": "Se ældre opdateringer"
+                },
+                "confirm": "Bekræft handling",
+                "out_of_date": {
+                    "title": "Din klient er forældet!",
+                    "description": "Den skal opdateres for at kunne fungere med de seneste ændringer.",
+                    "version": "Din klient er på {{client}}, mens serveren kræver {{server}}.",
+                    "ignore": "Ignorer opdatering",
+                    "attempting": "Forsøger at opdatere…"
                 }
             },
             "popovers": {
@@ -434,7 +457,8 @@
                         "title": "Indstillinger for udseende",
                         "show_send": "Altid vis send besked knappen",
                         "show_send_desc": "Hvis den er deaktiveret, vises knappen Send besked kun på mobilen.",
-                        "show_account_age": "Vis altid kontoalderen ud for at deltage i beskeder"
+                        "show_account_age": "Vis altid kontoalderen ud for at deltage i beskeder",
+                        "show_account_age_desc": "Hvis den er deaktiveret, vises kontoens alder kun for nye brugere."
                     }
                 },
                 "feedback": {
@@ -569,6 +593,9 @@
                 },
                 "management": {
                     "title": "Bruger Administration"
+                },
+                "emojis": {
+                    "title": "Emojis"
                 }
             },
             "permissions": {
