@@ -549,20 +549,20 @@
                 "prompt": {
                     "confirm_leave": "L34V3 {{name}}?",
                     "confirm_leave_long": "Y0U W0N'7 83 48L3 70 23J01N UNL355 Y0U 423 23-1NV173D.",
-                    "confirm_close_dm": "CL053 C0NV3254710N W17H {{N4M3}}?",
+                    "confirm_close_dm": "CL053 C0NV3254710N W17H {{name}}?",
                     "confirm_close_dm_long": "Y0U C4N 23-0P3N 17 L4732 8U7 17 W1LL D154PP342 0N 807H 51D35.",
-                    "confirm_delete": "D3L373 {{N4M3}}?",
+                    "confirm_delete": "D3L373 {{name}}?",
                     "confirm_delete_long": "0NC3 17'5 D3L373D, 7H323'5 N0 601N6 84CK.",
                     "confirm_delete_message_long": "423 Y0U 5U23 Y0U W4N7 70 D3L373 7H15?",
                     "create_invite_generate": "63N32471N6 1NV173…",
                     "create_invite_created": "H323 15 Y0U2 N3W 1NV173 C0D3:",
-                    "confirm_kick": "423 Y0U 5U23 Y0U W4N7 70 K1CK {{N4M3}}?",
-                    "confirm_ban": "Y0U 423 480U7 70 84N {{N4M3}}",
+                    "confirm_kick": "423 Y0U 5U23 Y0U W4N7 70 K1CK {{name}}?",
+                    "confirm_ban": "Y0U 423 480U7 70 84N {{name}}",
                     "confirm_ban_reason": "84N 23450N",
-                    "unfriend_user": "23M0V3 {{N4M3}}?",
+                    "unfriend_user": "23M0V3 {{name}}?",
                     "unfriend_user_long": "Y0U M4Y N07 83 48L3 70 74LK 70 7H3M 4641N UN71L Y0U 4DD 7H3M 84CK.",
-                    "block_user": "8L0CK {{N4M3}}?",
-                    "block_user_long": "423 Y0U 5U23 Y0U W4N7 70 8L0CK {{N4M3}}? 7H3Y W1LL 4L50 83 23M0V3D F20M Y0U2 F213ND5 L157.",
+                    "block_user": "8L0CK {{name}}?",
+                    "block_user_long": "423 Y0U 5U23 Y0U W4N7 70 8L0CK {{name}}? 7H3Y W1LL 4L50 83 23M0V3D F20M Y0U2 F213ND5 L157.",
                     "silent_leave": "51L3N7LY L34V3",
                     "members_not_notified": "07H32 M3M8325 W1LL N07 83 N071F13D"
                 },
@@ -591,7 +591,7 @@
                 "out_of_date": {
                     "title": "Y0U2 CL13N7 15 0U7 0F D473!",
                     "description": "17 MU57 83 UPD473D 1N 02D32 70 W02K W17H 23C3N7 CH4N635.",
-                    "version": "Y0U2 CL13N7 15 47 {{CL13N7}}, WH32345 7H3 532V32 23QU1235 {{532V32}}.",
+                    "version": "Y0U2 CL13N7 15 47 {{client}}, WH32345 7H3 532V32 23QU1235 {{server}}.",
                     "ignore": "16N023 UPD473",
                     "attempting": "4773MP71N6 70 UPD473…"
                 },
@@ -607,7 +607,7 @@
                 },
                 "report": {
                     "message": "23P027 M355463",
-                    "by_name": "23P027 {{N4M3}}",
+                    "by_name": "23P027 {{name}}",
                     "reason": "23450N",
                     "reported": "23P0273D",
                     "thank_you": "7H4NK Y0U F02 H3LP1N6 70 K33P 23V0L7 54F3. W3 W1LL 23V13W Y0U2 23P027 45 500N 45 P05518L3.",
@@ -689,7 +689,7 @@
                     "failed": "F41L3D 70 C23473 4 807!"
                 },
                 "server_identity": {
-                    "title": "CH4N63 1D3N717Y 0N {{532V32}}",
+                    "title": "CH4N63 1D3N717Y 0N {{server}}",
                     "nickname": "N1CKN4M3",
                     "avatar": "4V4742"
                 }
@@ -699,7 +699,7 @@
                 "invited_by": "1NV173D 8Y {{U532}}",
                 "login": "L061N 70 23V0L7",
                 "accept": "4CC3P7 1NV173",
-                "user_count": "{{M3M832_C0UN7}} U5325",
+                "user_count": "{{member_count}} U5325",
                 "invalid": "1NV4L1D 1NV173!",
                 "invalid_desc": "7H3 1NV173 M4Y N07 3X157 02 Y0U D0N'7 H4V3 P32M15510N 70 J01N."
             }
@@ -768,7 +768,7 @@
     "quantities": {
         "members": {
             "one": "1 M3M832",
-            "many": "{{C0UN7}} M3M8325"
+            "many": "{{count}} M3M8325"
         }
     },
     "dayjs": {
