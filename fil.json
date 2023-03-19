@@ -189,7 +189,8 @@
             "mark_unread": "Markahan bilang hindi nabasa",
             "make_owner": "Ibigay ang pagmamay-ari ng grupo",
             "report_user": "I-report ang user",
-            "report_message": "I-report ang message."
+            "report_message": "I-report ang message.",
+            "report_server": "I-report ang server"
         },
         "settings": {
             "pages": {
@@ -204,7 +205,7 @@
                     "edit_profile": "I-edit ang Profile"
                 },
                 "account": {
-                    "title": "Aking kwenta",
+                    "title": "Aking Account",
                     "change_field": "Baguhin",
                     "2fa": {
                         "add_auth": "Maglagay ng Autentikador",
@@ -726,7 +727,7 @@
         "register": "Magrehistro",
         "email": "Email",
         "password": "Kontrasenyas",
-        "username": "Bansag",
+        "username": "Pangalan",
         "invite": "Kodigo ng Imbitasyon",
         "forgot": "Nakalimutan ang iyong kontrasenyas?",
         "reset": "Ipa-palit ang kontrasenyas",
@@ -744,7 +745,8 @@
             "login": "Hindi matagumpay ang pag-login!",
             "reset": "Hindi naipa-palit!",
             "create": "Nagkaproblema sa pagrehistro!",
-            "resend": "Hindi naipadala!"
+            "resend": "Hindi naipadala!",
+            "verify": "Nag-fail mag verify!"
         },
         "successful_registration": "Matagumpay ang pagrehistro!",
         "welcome": "Maligayang Pagdating!",
@@ -757,7 +759,7 @@
         "new_password": "Bagong Kontrasenyas",
         "log_out_other": "Mag-log out sa lahat ng iba pang mga sesyon",
         "verifying_account": "Bine-verify ang iyong account…",
-        "verified_account": "Ang account mo ay na-verify na.",
+        "verified_account": "Ang account mo ay na-verify na!",
         "verified_continue": "Magpatuloy sa pag-login"
     },
     "permissions": {
@@ -837,10 +839,12 @@
             "t": "e-Mute ang mga miyembro"
         },
         "React": {
-            "t": "Gumamit ng mga reaksyon"
+            "t": "Gumamit ng mga reaksyon",
+            "d": "I-allow ang miyembro mag-react sa mga message."
         },
         "Video": {
-            "t": "Bidyo"
+            "t": "Bidyo",
+            "d": "Mag allow ng miyembro mag-stream ng video sa voice channel."
         },
         "ManageWebhooks": {
             "d": "Nagbibigay-daan sa mga miyembro na kontrolin ang mga webhook sa isang channel.",
@@ -861,6 +865,28 @@
         "AssignRoles": {
             "d": "Nagbibigay-daan sa mga miyembro na magtalaga ng mga tungkulin na mas mababa sa kanilang sariling ranggo sa ibang mga miyembro.",
             "t": "Magtalaga ng mga Tungkulin."
+        },
+        "DeafenMembers": {
+            "d": "I-allow ang miyembro na i-deafen ng iba sa voice channel.",
+            "t": "I-deafen ang Miyembro"
+        },
+        "Speak": {
+            "t": "Mag-salita",
+            "d": "Mag-allow ng miyembro mag-salita sa voice channel."
+        },
+        "ManagePermissions": {
+            "d": "I-allow ang miyembro para mag-palit ng mga permisyon sa mga channels at roles na may mababang ranking.",
+            "t": "I-manage ang Permissions"
+        },
+        "Connect": {
+            "t": "Mag-connect",
+            "d": "I-allow ang miyembro mag connect sa voice channel."
+        },
+        "SendEmbeds": {
+            "t": "Mag-send ng Embeds"
+        },
+        "MoveMembers": {
+            "t": "I-move ang miyembro"
         }
     },
     "error": {
