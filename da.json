@@ -205,7 +205,8 @@
                     "block_user_long": "Er du sikker på at du vil blokere {{name}}? De vil også blive fjernet fra din venneliste.",
                     "unfriend_user": "Vil du fjerne {{name}}?",
                     "block_user": "Vil du blokere {{name}}?",
-                    "members_not_notified": "Andre medlemmer vil ikke blive underrettet"
+                    "members_not_notified": "Andre medlemmer vil ikke blive underrettet",
+                    "silent_leave": "Forlad opkaldet stille"
                 },
                 "external_links": {
                     "trust_domain": "Stol på dette domæne",
@@ -232,7 +233,11 @@
                     "send_email": "Send e-mail",
                     "back": "Gå tilbage",
                     "close": "Tæt",
-                    "update": "Opdatering"
+                    "update": "Opdatering",
+                    "report": "Anmeld",
+                    "done": "Færdig",
+                    "reset": "Nulstil",
+                    "confirm": "Bekræft"
                 },
                 "error": "En fejl opstod!",
                 "signed_out": "Du blev logget ud!",
@@ -280,6 +285,28 @@
                     "version": "Din klient er på {{client}}, mens serveren kræver {{server}}.",
                     "ignore": "Ignorer opdatering",
                     "attempting": "Forsøger at opdatere…"
+                },
+                "report": {
+                    "thank_you": "Tak for at hjælpe med af holde Revolt sikker. Vi vil hurtigst mulige kigge på din rapport.",
+                    "block_user": "Vil du gerne blokere denne bruger?",
+                    "content_reason": {
+                        "PromotesHarm": "Indholdet promovere skade til andre eller en selv",
+                        "SpamAbuse": "Dette er spam eller platform misbrug",
+                        "Malware": "Dette er malware",
+                        "Harassment": "Dette er chikane eller misbrug rettet mod en anden bruger",
+                        "Illegal": "Indholdet bryder en eller flere lov"
+                    },
+                    "reported": "Rapporteret",
+                    "user_reason": {
+                        "Impersonation": "Denne bruger udgiver sig for at være en anden person",
+                        "SpamAbuse": "Brugeren sender spam eller misbruger platformen på en anden måde",
+                        "Underage": "Denne bruger er ikke gammel nok til af have en konto",
+                        "InappropriateProfile": "Brugerens profil er upassende for andre brugere af platformen"
+                    },
+                    "reason": "Grundlag",
+                    "message": "Reporter beskeden",
+                    "additional_context": "Yderligere Information",
+                    "no_reason": "ngen grund angivet / anden årsag"
                 }
             },
             "popovers": {
@@ -595,7 +622,11 @@
                     "title": "Bruger Administration"
                 },
                 "emojis": {
-                    "title": "Emojis"
+                    "title": "Emojis",
+                    "upload": "Upload en Emoji"
+                },
+                "customisation": {
+                    "title": "Tilpasning"
                 }
             },
             "permissions": {
@@ -689,7 +720,11 @@
             "create_invite": "Opret invitation",
             "open_notification_options": "Notifikationsmuligheder",
             "open_channel_settings": "Kanalindstillinger",
-            "mark_unread": "Marker som ulæst"
+            "mark_unread": "Marker som ulæst",
+            "make_owner": "Giv Group ejerskab",
+            "report_message": "Anmeld beskeden",
+            "report_user": "Anmeld bruger",
+            "report_server": "Anmeld server"
         },
         "home": {
             "join-testers": "Tilmeld dig testerens server",
@@ -873,7 +908,30 @@
             "d": "Tillad medlemmer at angive roller under deres egen rolle til andre medlemmer."
         },
         "ReadMessageHistory": {
-            "t": "Læs Besked Historik"
+            "t": "Læs Besked Historik",
+            "d": "Tillader medlemmer at læse besked historikken af denne kanal."
+        },
+        "ManageWebhooks": {
+            "t": "Administrer Webhooks",
+            "d": "Tillader medlemmer at tag kontrol over webhooks i en kanal."
+        },
+        "ManageCustomisation": {
+            "d": "Tillader bruger at lave, redigere eller slette emojis"
+        },
+        "SendEmbeds": {
+            "t": "Send indlejringer"
+        },
+        "React": {
+            "d": "Tillad medlemmer at reagere på beskeder.",
+            "t": "Brug reaktioner"
+        },
+        "Connect": {
+            "t": "Forbind",
+            "d": "Tillader at medlemmer til af forbind til en lyd kanal."
+        },
+        "Speak": {
+            "t": "Tale",
+            "d": "Tillader medlemmer at snakke i en lyd kanal."
         }
     },
     "notifications": {
