@@ -40,7 +40,7 @@
         "welcome2": "Hej!",
         "subtitle2": "Opret en bruger",
         "welcome": "Velkommen!",
-        "subtitle": "Log in på Revolt",
+        "subtitle": "Log ind på Revolt",
         "unofficial_instance": "Tredjeparts instans.",
         "totp": "Authenticator App",
         "recovery": "Genoprettelses Kode",
@@ -215,7 +215,7 @@
                 },
                 "actions": {
                     "save": "Gemme",
-                    "hide": "Skjule",
+                    "hide": "Skjul",
                     "delete": "Slet",
                     "reload": "Genindlæs app",
                     "continue": "Blive ved",
@@ -229,15 +229,16 @@
                     "edit": "Redigere",
                     "block": "Blok",
                     "reveal": "Løfte sløret",
-                    "cancel": "Afbestille",
+                    "cancel": "Annuller",
                     "send_email": "Send e-mail",
                     "back": "Gå tilbage",
-                    "close": "Tæt",
+                    "close": "Luk",
                     "update": "Opdatering",
                     "report": "Anmeld",
                     "done": "Færdig",
                     "reset": "Nulstil",
-                    "confirm": "Bekræft"
+                    "confirm": "Bekræft",
+                    "dont_block": "Lad vær med at blokere"
                 },
                 "error": "En fejl opstod!",
                 "signed_out": "Du blev logget ud!",
@@ -365,9 +366,9 @@
             "invite": {
                 "invited_by": "Inviteret af {{user}}",
                 "login": "Log ind på Revolt",
-                "accept": "Accepter Invitere",
+                "accept": "Accepter Invitation",
                 "user_count": "{{member_count}} brugere",
-                "invalid": "Ugyldig invitere!",
+                "invalid": "Ugyldig Invitation!",
                 "invalid_desc": "Invitationen findes muligvis ikke eller du har ikke tilladelse til at deltage."
             },
             "status": {
@@ -592,7 +593,7 @@
             },
             "server_pages": {
                 "bans": {
-                    "title": "Forbuds",
+                    "title": "Udlukninger",
                     "reason": "Grund Forbyde",
                     "user": "Bruger",
                     "revoke": "Tilbagekald",
@@ -737,8 +738,8 @@
             "settings-tooltip": "Du kan også højreklikke på brugerikonet øverst til venstre eller venstreklikke på det, hvis du allerede er hjemme.",
             "social": "Find servere og bots",
             "directs": "Direkte beskeder",
-            "join-testers_desc": "Du kan reportere problemer og diskutere forbedringer med os direkte her.",
-            "goto-testers_desc": "Du kan reportere problemer og diskutere forbedringer med os direkte her.",
+            "join-testers_desc": "Du kan rapportere problemer og diskutere forbedringer med os direkte her.",
+            "goto-testers_desc": "Du kan rapportere problemer og diskutere forbedringer med os direkte her.",
             "donate_desc": "Støt projektet ved at donere - tak!",
             "discover_desc": "Find et fællesskab baseret på dine hobbyer eller interesser.",
             "group": "Lav en gruppe",
@@ -770,7 +771,7 @@
         "nextWeek": "dddd [kl] {{time}}",
         "defaults": {
             "date_separator": "/",
-            "date_format": "hagyományos",
+            "date_format": "traditional",
             "twelvehour": "no"
         }
     },
@@ -918,10 +919,12 @@
             "d": "Tillader medlemmer at tag kontrol over webhooks i en kanal."
         },
         "ManageCustomisation": {
-            "d": "Tillader bruger at lave, redigere eller slette emojis"
+            "d": "Tillader bruger at lave, redigere eller slette emojis.",
+            "t": "Administrer Tilpasning"
         },
         "SendEmbeds": {
-            "t": "Send indlejringer"
+            "t": "Send indlejringer",
+            "d": "Tillad medlemmer at sende indlejret indhold, hvorvidt at det er fra links eller brugerdefinerede text indlejringer."
         },
         "React": {
             "d": "Tillad medlemmer at reagere på beskeder.",
