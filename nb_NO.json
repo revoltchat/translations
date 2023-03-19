@@ -50,8 +50,8 @@
                     "enable_push": "Skru på push-varslinger.",
                     "push_notifications": "Pushvarsler",
                     "sound": {
-                        "call_leave": "Bruker forlot samtale",
-                        "call_join": "Bruker tok del i samtale",
+                        "call_leave": "Bruker Forlot Samtalen",
+                        "call_join": "Bruker Ble Med i Samtalen",
                         "outbound": "Melding sendt",
                         "message": "Melding mottatt"
                     },
@@ -304,7 +304,7 @@
                     "new_messages": "Nye meldinger siden {{time_ago}}",
                     "load_file": "Last inn filen",
                     "timed_out": "Du er timed out i {{time}}.",
-                    "not_loaded": "Melding ble ikke innlastet, trykk for å hoppe"
+                    "not_loaded": "Melding er ikke lastet, trykk for å hoppe"
                 },
                 "typing": {
                     "several": "Flere personer skriver…",
@@ -339,8 +339,8 @@
                 "voice": {
                     "leave": "Forlat",
                     "connected": "Stemme tilkoblet",
-                    "unmute": "Opphev forstumming",
-                    "mute": "Forstum"
+                    "unmute": "Opphev Demping",
+                    "mute": "Demp"
                 },
                 "start": {
                     "group": "Dette er starten på din samtale.",
@@ -352,10 +352,10 @@
                     "channel_renamed": "{{user}} endret kanalens navn til {{name}}",
                     "removed_by": "{{user}} ble fjernet av {{other_user}}",
                     "added_by": "{{user}} ble lagt til av {{other_user}}",
-                    "user_banned": "{{user}} ble bannlyst",
-                    "user_joined": "{{user}} tok del",
-                    "user_kicked": "{{user}} ble utkastet",
-                    "user_left": "{{user}} dro sin vei",
+                    "user_banned": "{{user}} ble utestengt",
+                    "user_joined": "{{user}} ble med",
+                    "user_kicked": "{{user}} ble kastet ut",
+                    "user_left": "{{user}} forlot",
                     "channel_ownership_changed": "{{from}} ga {{to}} gruppeeierskap",
                     "registered_at": "Registrert {{time}}"
                 },
@@ -396,7 +396,7 @@
                 "conversations": "Samtaler",
                 "members": "Medlemmer",
                 "channels": "Kanaler",
-                "participants": "Deltagere"
+                "participants": "Deltakere"
             },
             "groups": {
                 "owner": "Gruppeeier",
@@ -409,15 +409,15 @@
             "popovers": {
                 "user_profile": {
                     "badges": {
-                        "responsible_disclosure": "Ansvarlig innmeldt(e) feil",
-                        "early_adopter": "Tidlig bruker",
-                        "supporter": "Støttespiller",
+                        "responsible_disclosure": "Ansvarlig Innmeldt(e) Feil",
+                        "early_adopter": "Tidlig Bruker",
+                        "supporter": "Støtter",
                         "translator": "Oversetter",
                         "founder": "Grunnlegger",
                         "moderation": "Platform moderasjon"
                     },
                     "sub": {
-                        "badges": "Skilt",
+                        "badges": "Merke",
                         "connections": "Tilkoblinger",
                         "information": "Info"
                     },
@@ -599,8 +599,8 @@
             "copy": "Klikk for å kopiere",
             "copy_username": "Klikk for å kopiere brukernavn",
             "server-badges": {
-                "official": "Offisiell server",
-                "verified": "Verifisert server"
+                "official": "Offisiell Server",
+                "verified": "Verifisert Server"
             }
         },
         "context_menu": {
@@ -662,7 +662,7 @@
         },
         "navigation": {
             "tabs": {
-                "saved": "Lagrede notater",
+                "saved": "Lagrede Notater",
                 "friends": "Venner",
                 "dev": "Utvikler",
                 "unreads": "Uleste",
@@ -673,7 +673,7 @@
             "idle": "Inaktiv",
             "offline": "Frakoblet",
             "invisible": "Usynlig",
-            "busy": "Ikke forstyrr",
+            "busy": "Ikke Forstyrr",
             "online": "Pålogget",
             "reconnect": "Koble til på nytt",
             "focus": "Fokus"
@@ -682,20 +682,20 @@
             "required": "Tilganger kreves"
         },
         "home": {
-            "directs": "Direktemelding",
+            "directs": "Direktemeldinger",
             "join-testers": "Bli med i testers serveren",
             "goto-testers": "Gå til tester serveren",
             "donate": "Doner til Revolt",
             "settings-tooltip": "Du kan også høyre-klikke bruker ikonet øverst til venstre, eller venstre klikk den hvis du er hjemme allerede.",
             "feedback": "Gi en tilbakemelding til Revolt",
-            "settings": "Åpne instillinger",
+            "settings": "Åpne innstillinger",
             "join-testers_desc": "Du kan foreslå forbedringer og rapportere inn feil til oss her.",
             "goto-testers_desc": "Du kan foreslå forbedringer og rapportere inn feil til oss her.",
             "donate_desc": "Støtt prosjektet ved å donere - takk!",
             "feedback_desc": "Fortell oss hvordan vi kan forbedre appen vår ved å gi oss en tilbakemelding.",
             "discover": "Oppdag Revolt",
             "discover_desc": "Finn et fellesskap basert på dine hobbyer eller interesser.",
-            "group": "Skap en gruppe",
+            "group": "Opprett en gruppe",
             "group_desc": "Inviter alle vennene dine, noen kule roboter, og ha en stor fest."
         }
     },
@@ -912,7 +912,7 @@
         "existing": "Har du allerede en konto?",
         "new": "Ny på Revolt?",
         "remembered": "Gå tilbake til innlogging",
-        "set_password": "Angi et nytt passord",
+        "set_password": "Skriv et nytt passord",
         "reset": "Tilbakestill passord",
         "forgot": "Glemt passordet?",
         "enter": {
@@ -923,7 +923,7 @@
             "username": "Skriv inn brukernavnet ditt.",
             "new_password": "Skriv inn et nytt passord."
         },
-        "current_password": "Nåværende passord",
+        "current_password": "Nåværende Passord",
         "invite": "Invitasjonskode",
         "password": "Passord",
         "email": "E-post",
@@ -936,11 +936,11 @@
         "subtitle2": "Opprett en konto",
         "unofficial_instance": "Tredjepartsinstans.",
         "recovery": "Gjenopprettingskode",
-        "totp": "Autentiseringsapp",
+        "totp": "Autentiserings App",
         "verifying_account": "Bekrefter kontoen din…",
         "verified_account": "Kontoen din er bekreftet!",
         "verified_continue": "Fortsett å logge på",
-        "new_password": "Nytt passord",
+        "new_password": "Nytt Passord",
         "log_out_other": "Logg ut alle andre økter"
     },
     "quantities": {
@@ -959,7 +959,7 @@
         "privacy": "Personvern",
         "tos": "Tjenestevilkår",
         "about": "Om",
-        "learn_more": "Mer Informasjon"
+        "learn_more": "Mer informasjon"
     },
     "actions": {
         "submit": "Send Inn"
