@@ -49,7 +49,7 @@
                     "new_messages": "Mga bagong mensahe mula {{time_ago}}",
                     "load_file": "Maglapag ng file",
                     "timed_out": "Ikaw ay pinahinto nang {{time}}.",
-                    "not_loaded": "Hindi na-load ang mensahe, i-click para tumalon"
+                    "not_loaded": "Ang message ay hindi na-load, i-click para tumalon"
                 },
                 "typing": {
                     "single": "May sinusulat si {{user}}…",
@@ -187,7 +187,9 @@
             "copy_message_link": "Kopyahin ang link ng message",
             "copy_sid": "Kopyahin itong server ID",
             "mark_unread": "Markahan bilang hindi nabasa",
-            "make_owner": "Ibigay ang pagmamay-ari ng grupo"
+            "make_owner": "Ibigay ang pagmamay-ari ng grupo",
+            "report_user": "I-report ang user",
+            "report_message": "I-report ang message."
         },
         "settings": {
             "pages": {
@@ -559,7 +561,7 @@
                     "confirm": "Ikumpirma",
                     "done": "Tapos na",
                     "reset": "Reset",
-                    "dont_block": "Huwag ipa-block"
+                    "dont_block": "Huwag i-block."
                 },
                 "external_links": {
                     "short": "Sigurado ka bang gusto mong pumunta sa:",
@@ -610,23 +612,25 @@
                 "report": {
                     "block_user": "Gusto mo bang i-block ang user na ito?",
                     "content_reason": {
-                        "Harassment": "Ito ay Panliligalig o pang-aabuso na naka-target sa ibang user.",
-                        "Illegal": "Ang nilalaman ay lumalabag sa isa o higit pang mga batas",
+                        "Harassment": "Ito ay harassment o abuse na naka-target sa ibang user.",
+                        "Illegal": "Ang content ay lumalabag sa isa o higit pang mga batas.",
                         "PromotesHarm": "Ang nilalaman ay nagtataguyod ng pinsala sa iba o sa sarili.",
-                        "SpamAbuse": "Isa itong spam o pang-aabuso sa platform",
+                        "SpamAbuse": "Ito ay spam or ang pag-abuse ng platform.",
                         "Malware": "Ito ay isang malware"
                     },
                     "user_reason": {
-                        "SpamAbuse": "Nagpapadala ang user ng spam o kung hindi man ay inaabuso ang platform.",
+                        "SpamAbuse": "Ang user ay nag se-send ng spam o kung hindi man ay inaabuso ang platform.",
                         "Impersonation": "Ang user na ito ay nagpapanggap bilang ibang tao.",
                         "InappropriateProfile": "Ang profile ng user ay hindi naaangkop para sa pangkalahatang madla.",
-                        "BanEvasion": "Ang user na ito ay umiiwas sa isang pagbabawal.",
-                        "Underage": "hindi pa sapat ang edad ng user na ito para magkaroon ng account."
+                        "BanEvasion": "Ang user na ito ay umiiwas sa isang ban.",
+                        "Underage": "Hindi sapat ang edad ng user na ito para magkaroon ng account"
                     },
-                    "reason": "dahilan",
-                    "additional_context": "Karagdagang ng impormasyon",
-                    "no_reason": "Walang tinukoy na dahilan / ibang dahilan",
-                    "thank_you": "Salamat sa pagtulong na panatilihing ligtas ang Revolt. Susuriin namin ang iyong ulat sa lalong madaling panahon."
+                    "reason": "Dahilan",
+                    "additional_context": "Karagdagang Impormasyon",
+                    "no_reason": "Walang dahilang sinabi / ibang reason",
+                    "thank_you": "Salamat sa pagtulong na panatilihing ligtas ang Revolt. Titignan namin ang iyong ulat sa lalong madaling panahon.",
+                    "reported": "Na-report na",
+                    "message": "I-report ang Mensahe"
                 }
             },
             "popovers": {
@@ -699,7 +703,7 @@
         "image_by": "Retrato ni/ng",
         "loading": "Ilang segundo…",
         "off": "Nakapatáy",
-        "unavailable": "Hindi maaari",
+        "unavailable": "Hindi available.",
         "about": "Tungkol sa",
         "tos": "Mga Tuntunin at Serbisyo",
         "privacy": "Patakaran sa Pagkapribado",
@@ -708,12 +712,12 @@
     },
     "login": {
         "enter": {
-            "username": "Ilagay ang iyong bansag.",
-            "email": "Ilagay ang iyong email.",
+            "username": "Ilagay ang iyong gustong pangalan.",
+            "email": "Ilagay mo ang email mo.",
             "password": "Ilagay ang iyong kontrasenyas.",
             "current_password": "Ilagay ang iyong kasalukuyang kontrasenyas.",
             "invite": "Ilagay ang iyong kodigo ng imbitasyon.",
-            "new_password": "Maglagay ng bagong password"
+            "new_password": "Maglagay ng bagong password."
         },
         "set_password": "Magtakda ng bagong kontrasenyas",
         "check_spam": "Pakisuri ang spam kapag hindi mo ito makita",
@@ -743,7 +747,7 @@
             "resend": "Hindi naipadala!"
         },
         "successful_registration": "Matagumpay ang pagrehistro!",
-        "welcome": "Kumusta ulit!",
+        "welcome": "Maligayang Pagdating!",
         "subtitle": "Magrehistro sa Revolt",
         "welcome2": "Kumusta!",
         "subtitle2": "Gumawa ng kwenta",
@@ -752,8 +756,8 @@
         "recovery": "Kodigo ng Pagbawi",
         "new_password": "Bagong Kontrasenyas",
         "log_out_other": "Mag-log out sa lahat ng iba pang mga sesyon",
-        "verifying_account": "pag-verify ng iyong account",
-        "verified_account": "Na-verify na ang iyong account!",
+        "verifying_account": "Bine-verify ang iyong account…",
+        "verified_account": "Ang account mo ay na-verify na.",
         "verified_continue": "Magpatuloy sa pag-login"
     },
     "permissions": {
