@@ -751,15 +751,81 @@
             "edit_identity": "Editar identidad",
             "delete_channel": "Eliminar canal",
             "create_channel": "Crear canal",
-            "open_server_settings": "Configuraciones del servidor",
-            "open_group_settings": "Configuraciones del Grupo",
+            "open_server_settings": "Ajustes del servidor",
+            "open_group_settings": "Ajustes del grupo",
             "create_category": "Crear categoría",
             "create_invite": "Crear invitación",
             "open_notification_options": "Opciones de notificación",
             "open_channel_settings": "Ajustes del canal"
+        },
+        "permissions": {
+            "required": "Permisos requeridos"
         }
     },
     "actions": {
         "submit": "Enviar"
+    },
+    "dayjs": {
+        "sameDay": "[Hoy a las] {{time}}",
+        "nextDay": "[Mañana a las] {{time}}",
+        "lastDay": "[Ayer a las] {{time}}",
+        "lastWeek": "[El último] dddd [a las] {{time}}",
+        "nextWeek": "dddd [a las] {{time}}",
+        "defaults": {
+            "date_separator": "/",
+            "date_format": "tradicional",
+            "twelvehour": "no"
+        }
+    },
+    "error": {
+        "Unauthorized": "Sin autorización.",
+        "FailedValidation": "No se han podido validar los campos.",
+        "InternalError": "Error interno.",
+        "RenderFail": "La renderización de la plantilla falló.",
+        "UnverifiedAccount": "Cuenta no verificada.",
+        "EmailInUse": "Correo electrónico en uso.",
+        "UsernameTaken": "Este nombre de usuario ya está en uso.",
+        "TooLong": "Demasiado largo",
+        "InvalidEmail": "Dirección de correo electrónico inválida",
+        "Unavailable": "No disponible.",
+        "FileTooLarge": "El archivo es demasiado grande.",
+        "FailedToReceive": "El servidor no ha recibido tu archivo.",
+        "DeniedNotification": "Has denegado los permisos para el envío de notificaciones, comprueba la configuración de la página.",
+        "NetworkError": "Error de conexión.",
+        "Unlabelled": "Algo ocurrió.",
+        "DatabaseError": "Error en la base de datos.",
+        "MissingPermission": "Permisos faltantes.",
+        "UnknownError": "Ver consola.",
+        "OperationFailed": "Operación fallida.",
+        "MissingHeaders": "Faltan encabezados.",
+        "InvalidSession": "Sesión invalida.",
+        "UnknownUser": "Usuario desconocido.",
+        "EmailFailed": "No se ha podido enviar el correo electrónico.",
+        "InvalidCredentials": "El correo electrónico o la contraseña son incorrectos.",
+        "InvalidToken": "Token inválido",
+        "MissingInvite": "Falta el código de invitación en la solicitud.",
+        "InvalidInvite": "Código inválido",
+        "AlreadyOnboarded": "Configuración ya terminada.",
+        "AlreadyFriends": "Ya eres amigo/a de este/a usuario/a.",
+        "AlreadySentRequest": "Ya has enviado una solicitud a este usuario.",
+        "Blocked": "Has bloqueado a este usuario.",
+        "BlockedOther": "Este usuario te ha bloqueado.",
+        "NoEffect": "Esta solicitud no tuvo efecto.",
+        "RequiredField": "Obligatorio",
+        "TooShort": "Demasiado corto",
+        "MissingData": "Faltan datos en la solicitud.",
+        "ProbeError": "No se pudo obtener los metadatos del archivo.",
+        "IoError": "El servidor ha encontrado un error I/O.",
+        "UnsupportedBrowser": "Tu navegador no soporta esta característica."
+    },
+    "quantities": {
+        "members": {
+            "one": "1 miembro",
+            "many": "{{count}} miembros"
+        }
+    },
+    "notifications": {
+        "sent_request": "@{{person}} te envió una solicitud de amistad.",
+        "now_friends": "¡Ahora tú y @{{person}} son amigos!"
     }
 }
