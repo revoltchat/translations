@@ -173,7 +173,7 @@ export const Languages: { [key in Language]: LanguageEntry } = {
   hi: { display: "हिन्दी", emoji: "🇮🇳", i18n: "hi" },
   hr: { display: "Hrvatski", emoji: "🇭🇷", i18n: "hr" },
   hu: { display: "magyar", emoji: "🇭🇺", i18n: "hu", verified: true },
-  hy: { display: "հայերեն", emoji: "🇦🇲", i18n: "hy" }
+  hy: { display: "հայերեն", emoji: "🇦🇲", i18n: "hy" },
   id: { display: "bahasa Indonesia", emoji: "🇮🇩", i18n: "id" },
   is: { display: "Íslenska", emoji: "🇮🇸", i18n: "is" },
   it: { display: "Italiano", emoji: "🇮🇹", i18n: "it" },
@@ -181,6 +181,7 @@ export const Languages: { [key in Language]: LanguageEntry } = {
   ko: { display: "한국어", emoji: "🇰🇷", i18n: "ko" },
   lb: { display: "Lëtzebuergesch", emoji: "🇱🇺", i18n: "lb" },
   lt: { display: "Lietuvių", emoji: "🇱🇹", i18n: "lt" },
+  lv: { display: "Latviešu", emoji: "🇱🇻", i18n: "lv", verified: true },
   mk: { display: "Македонски", emoji: "🇲🇰", i18n: "mk" },
   ms: { display: "Melayu", emoji: "🇲🇾", i18n: "ms" },
   nb_NO: { display: "Norsk bokmål", emoji: "🇳🇴", i18n: "nb_NO", dayjs: "nb" },
@@ -225,7 +226,6 @@ export const Languages: { [key in Language]: LanguageEntry } = {
     i18n: "zh_Hant",
     dayjs: "zh",
   },
-  lv: { display: "Latviešu", emoji: "🇱🇻", i18n: "lv", verified: true },
 
   // Constructed Languages
   tokipona: {
