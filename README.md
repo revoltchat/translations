@@ -30,6 +30,7 @@ The following table shows languages and people enlisted for verifying certain la
 |🇩🇪|Deutsch / de|[@janderedev](https://github.com/janderedev)|[@nitrobw](https://github.com/nitrobw)|
 |🇬🇷|Ελληνικά / el|[@SudoJanast](https://github.com/SudoJanast)||
 |🇪🇸|Español / es|[@z3ro0k](https://github.com/z3ro0k) [@fernandopal](https://github.com/fernandopal)|[@Dorovich](https://github.com/Dorovich)|
+|🇪🇸|Español (América Latina) / es_419|||
 |🇪🇪|eesti / et|[@u032](https://github.com/u032) [@Asl-script](https://github.com/Asl-script)||
 |🇫🇮|suomi / fi|||
 |🇵🇭|Filipino / fil|[@I2rys](https://github.com/I2rys)||
