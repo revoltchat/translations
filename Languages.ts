@@ -18,6 +18,7 @@ export enum Language {
   GERMAN = "de",
   GREEK = "el",
   SPANISH = "es",
+  SPNAISH_LATIN_AMERICA = "es_419",
   ESTONIAN = "et",
   FINNISH = "fi",
   FILIPINO = "fil",
@@ -153,6 +154,7 @@ export const Languages: { [key in Language]: LanguageEntry } = {
   de: { display: "Deutsch", emoji: "🇩🇪", i18n: "de", verified: true },
   el: { display: "Ελληνικά", emoji: "🇬🇷", i18n: "el" },
   es: { display: "Español", emoji: "🇪🇸", i18n: "es" },
+  es_419: { display: "Español (América Latina)", emoji: "🇪🇸", i18n: "es_419", dayjs: "es" },
   et: { display: "eesti", emoji: "🇪🇪", i18n: "et", verified: true },
   fi: { display: "suomi", emoji: "🇫🇮", i18n: "fi" },
   fil: {
