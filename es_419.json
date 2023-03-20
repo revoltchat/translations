@@ -69,7 +69,7 @@
             "idle": "Ausente",
             "focus": "Enfoque",
             "busy": "No molestar",
-            "offline": "Fuera de línea",
+            "offline": "Sin conexión",
             "reconnect": "Reconectar"
         },
         "home": {
@@ -270,8 +270,150 @@
                     "output_device": "Altavoz / Auriculares",
                     "tip_grant_permission": "Debes otorgar permiso para acceder a los ajustes de audio.",
                     "device_label_NA": "No disponible",
-                    "button_grant": "Conceder permiso"
-                }
+                    "button_grant": "Otorgar permiso"
+                },
+                "appearance": {
+                    "display": {
+                        "compact": "Compacto",
+                        "default_description": "Deslumbrante, sofisticado y moderno.",
+                        "default": "Por defecto",
+                        "compact_description": "El confiable y clásico IRC."
+                    },
+                    "discover": {
+                        "title": "Descubrir temas",
+                        "description": "Descubre temas creados por la comunidad"
+                    },
+                    "appearance_options": {
+                        "title": "Opciones de apariencia",
+                        "show_account_age_desc": "Si está deshabilitado, la antigüedad de una cuenta solo se mostrará para los usuarios nuevos.",
+                        "show_send": "Mostrar siempre el botón de enviar mensaje",
+                        "show_send_desc": "Si está deshabilitado, el botón de enviar mensaje solo aparecerá en dispositivos móviles.",
+                        "show_account_age": "Mostrar siempre la antigüedad de una cuenta junto a los mensajes de unión"
+                    },
+                    "theme_options": {
+                        "follow": "Seguir el tema del sistema",
+                        "seasonal_desc": "Muestra efectos en la pestaña de inicio durante las temporadas festivas.",
+                        "transparency": "Efectos de transparencia",
+                        "transparency_desc": "Activa los efectos de transparencia en toda la aplicación.",
+                        "title": "Opciones de tema",
+                        "follow_desc": "Si lo seleccionas, no podrás cambiar tu tema ni usar un tema personalizado.",
+                        "seasonal": "Tema estacional"
+                    },
+                    "theme_data": "Datos de tema",
+                    "sync": "Sincronizar opciones",
+                    "ligatures": "Ligaduras de fuente",
+                    "ligatures_desc": "Para las fuentes que lo permiten, las ligaduras hacen magia con los caracteres, por ejemplo, convirtiendo -> en una flecha.",
+                    "title": "Apariencia",
+                    "theme": "Tema",
+                    "color": {
+                        "light": "claro",
+                        "dark": "oscuro"
+                    },
+                    "accent_selector": "Color de acento",
+                    "emoji_pack": "Paquete de emojis",
+                    "message_display": "Densidad del chat",
+                    "advanced": "Opciones avanzadas",
+                    "overrides": "Anulaciones del tema",
+                    "reset_overrides": "Restablecer anulaciones",
+                    "import": "Importar un tema",
+                    "import_theme": "Importar tema a partir de texto",
+                    "custom_css": "CSS personalizado",
+                    "font": "Fuente",
+                    "mono_font": "Selector de fuente monoespaciada"
+                },
+                "notifications": {
+                    "enable_desktop": "Habilitar notificaciones de escritorio.",
+                    "descriptions": {
+                        "enable_desktop": "Esto te enviará notificaciones mientras tu app está abierta.",
+                        "enable_push": "Habilita esto para recibir notificaciones cuando estés en modo sin conexión."
+                    },
+                    "title": "Notificaciones",
+                    "push_notifications": "Notificaciones push",
+                    "enable_push": "Habilitar notificaciones push.",
+                    "sounds": "Sonidos",
+                    "sound": {
+                        "message": "Mensaje recibido",
+                        "outbound": "Mensaje enviado",
+                        "call_join": "Un usuario se ha unido a la llamada",
+                        "call_leave": "Un usuario se ha ido de la llamada"
+                    }
+                },
+                "language": {
+                    "title": "Idioma",
+                    "other": "Otras opciones de idioma",
+                    "const": "Idiomas artificiales",
+                    "select": "Escoge un idioma"
+                },
+                "sync": {
+                    "options": "Opciones de sincronización",
+                    "categories": "Sincronizar categorías",
+                    "descriptions": {
+                        "appearance": "Esto sincronizará opciones como los paquetes de emojis y la densidad de mensajes.",
+                        "theme": "Esto sincronizará el tema elegido, los colores y cualquier CSS personalizado.",
+                        "locale": "Esto sincronizará tu idioma actualmente seleccionado."
+                    },
+                    "title": "Sincronizar"
+                },
+                "experiments": {
+                    "title": "Experimentos",
+                    "not_available": "No hay experimentos disponibles en este momento.",
+                    "features": "Funciones disponibles"
+                },
+                "plugins": {
+                    "no_plugins": "No hay extensiones instaladas.",
+                    "title": "Extensiones",
+                    "wip": "Advertencia: Esta función aún está en desarrollo.",
+                    "delete_plugin": "Eliminar"
+                },
+                "bots": {
+                    "unique_id": "Este es el código de identificación exclusivo de tu bot. Pero no te equivoques, no es lo mismo que el token de tu bot.",
+                    "profile": "Perfil del bot",
+                    "public_bot_desc": "Permitir o no que otras personas inviten a este bot.",
+                    "title": "Bots propios",
+                    "create_bot": "Crear un bot",
+                    "copy_invite": "Copiar enlace de invitación",
+                    "add": "Añadir bot",
+                    "token": "Token",
+                    "public_bot_tip": "Este bot es público, lo que significa que cualquier persona puede invitarlo.",
+                    "private_bot_tip": "Este bot es privado, lo que significa que solo tú puedes invitarlo.",
+                    "public_bot": "Bot público",
+                    "interactions_url": "URL de interacciones",
+                    "reserved": "Nota: este campo está reservado para el futuro."
+                },
+                "theme_shop": {
+                    "description": "Descubre cientos de temas, diseñados y elegidos por la comunidad.",
+                    "category": {
+                        "new": "Lo nuevo de esta semana",
+                        "saved": "Guardado",
+                        "manage": "Gestionar guardados",
+                        "default": "Temas por defecto",
+                        "highest": "Mejor valorado",
+                        "viewall": "Ver todo"
+                    },
+                    "use": "Usar tema",
+                    "title": "Tienda de temas",
+                    "search": "Buscar temas…",
+                    "active": "Actualmente activo",
+                    "by": "por"
+                },
+                "feedback": {
+                    "suggest_desc": "Sugerir nuevas características de Revolt en discusiones de GitHub.",
+                    "issue": "Reportar un problema",
+                    "issue_desc": "Para ayudarnos a manejar los problemas con mayor facilidad, puedes abrir una incidencia en GitHub.",
+                    "bug": "Rastreador de errores",
+                    "bug_desc": "Ver informes de errores activos actualmente aquí.",
+                    "title": "Comentarios",
+                    "description": "Enviar comentarios",
+                    "suggest": "Sugerir nuevas funciones"
+                },
+                "native": {
+                    "title": "Ajustes de escritorio"
+                },
+                "donate": {
+                    "title": "Donar"
+                },
+                "source_code": "Código fuente",
+                "logOut": "Cerrar sesión"
             },
             "title": "Ajustes",
             "actions": {
@@ -279,7 +421,110 @@
                 "upload": "Subir",
                 "max_filesize": "(tamaño máximo {{filesize}})",
                 "edit": "Editar {{name}}"
+            },
+            "channel_pages": {
+                "overview": {
+                    "description": "Descripción del canal",
+                    "title": "General",
+                    "name": "Nombre del canal"
+                },
+                "permissions": {
+                    "title": "Permisos"
+                }
+            },
+            "server_pages": {
+                "invites": {
+                    "title": "Invitaciones",
+                    "code": "Código de invitación",
+                    "invitor": "Invitador",
+                    "channel": "Canal",
+                    "revoke": "Retirar"
+                },
+                "bans": {
+                    "title": "Baneos",
+                    "no_reason": "Sin motivo de baneo.",
+                    "user": "Usuario",
+                    "reason": "Motivo de baneo",
+                    "revoke": "Retirar"
+                },
+                "overview": {
+                    "title": "General",
+                    "name": "Nombre del servidor",
+                    "description": "Descripción del canal",
+                    "system_messages": "Canales de mensajes del sistema"
+                },
+                "management": {
+                    "title": "Gestión de usuarios"
+                },
+                "customisation": {
+                    "title": "Personalización"
+                },
+                "members": {
+                    "title": "Miembros"
+                },
+                "roles": {
+                    "title": "Roles"
+                },
+                "categories": {
+                    "title": "Categorías"
+                },
+                "emojis": {
+                    "title": "Emojis",
+                    "upload": "Subir emoji"
+                }
+            },
+            "tips": {
+                "languages": {
+                    "a": "¿No encuentras el idioma que buscas?",
+                    "b": "Ayúdanos a agregar más traducciones."
+                },
+                "sessions": {
+                    "b": "asegura tu cuenta cambiando tu contraseña y activando la autenticación de dos factores (2FA).",
+                    "a": "Si detectas una sesión desconocida en la lista,"
+                },
+                "account": {
+                    "a": "¿Deseas hacer tu perfil público más tuyo?",
+                    "b": "Dirígete a los ajustes de tu perfil."
+                }
+            },
+            "permissions": {
+                "default_role": "Por defecto",
+                "server": "Permisos del servidor",
+                "channel": "Permisos del canal",
+                "create_role": "Crear un nuevo rol",
+                "role_name": "Nombre del rol",
+                "role_colour": "Color del rol",
+                "role_options": "Opciones del rol",
+                "role_ranking": "Clasificación del rol",
+                "delete_role": "Eliminar rol",
+                "hoist_role": "Elevar rol",
+                "hoist_desc": "Mostrar este rol por encima de los demás.",
+                "title": "Permisos de {{role}}",
+                "edit_title": "Editar permisos"
             }
+        },
+        "special": {
+            "copy_username": "Haz clic para copiar el nombre de usuario",
+            "friends": {
+                "outgoing": "Solicitud de amistad enviada.",
+                "pending": "Solicitudes de amistad pendientes",
+                "sent": "Saliente",
+                "blocked": "Bloqueado",
+                "incoming": "Nueva solicitud de amistad.",
+                "nobody": "¡Todavía no hay nadie aquí!",
+                "from": {
+                    "single": "De {{user}}",
+                    "multiple": "De {{userlist}} y {{user}}",
+                    "several": "De {{userlist}} y {{count}} más…"
+                }
+            },
+            "status": {
+                "offline": "Sin conexión.",
+                "connecting": "Conectando…",
+                "disconnected": "Desconectado.",
+                "reconnecting": "Reconectando…"
+            },
+            "copy": "Haz clic para copiar"
         }
     },
     "actions": {
