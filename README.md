@@ -24,6 +24,7 @@ The following table shows languages and people enlisted for verifying certain la
 |🇧🇩|বাংলা / bn|[@Cynycal2003](https://github.com/Cynycal2003)||
 |br|Brezhoneg / br|[@SperedAnveliour](https://github.com/SperedAnveliour)||
 |🇪🇸|Català / ca|[@TallerThanShort](https://github.com/TallerThanShort)||
+|🇵🇭|Bisaya / ceb|||
 |krd|کوردی / ckb|[@fanticwastaken](https://github.com/fanticwastaken)|[@NoLogicAlan](https://github.com/NoLogicAlan)|
 |🇨🇿|Čeština / cs|||
 |🇩🇰|Dansk / da|||
@@ -39,12 +40,15 @@ The following table shows languages and people enlisted for verifying certain la
 |🇮🇳|हिन्दी / hi|[@Infiniticity](https://github.com/Infiniticity)|[@CodeWhiteWeb](https://github.com/CodeWhiteWeb) [@FakeFerg](https://github.com/FakeFerg)|
 |🇭🇷|Hrvatski / hr|||
 |🇭🇺|magyar / hu|[@f3rr31](https://github.com/f3rr31)||
+|🇦🇲|հայերեն / hy|||
 |🇮🇩|bahasa Indonesia / id|[@liimee](https://github.com/liimee)|[@ilhamfauzan](https://github.com/ilhamfauzan)|
+|🇮🇸|Íslenska / is|||
 |🇮🇹|Italiano / it|[@SingleSlice](https://github.com/SingleSlice)||
 |🇯🇵|日本語 / ja|[@chelley](https://github.com/chelley)||
 |🇰🇷|한국어 / ko|||
 |🇱🇺|Lëtzebuergesch / lb|||
 |🇱🇹|Lietuvių / lt|[@ErnestasKaralius](https://github.com/ErnestasKaralius)||
+|🇱🇻|Latviešu / lv|[@rMazeiks](https://github.com/rMazeiks)||
 |🇲🇰|Македонски / mk|||
 |🇲🇾|Melayu / ms|||
 |🇳🇴|Norsk bokmål / nb_NO|[@tobggs](https://github.com/tobggs)||
@@ -63,12 +67,12 @@ The following table shows languages and people enlisted for verifying certain la
 |🇮🇳|தமிழ் / ta|||
 |🇹🇭|ไทย / th|[@xhayper](https://github.com/xhayper)||
 |🇹🇷|Türkçe / tr|[@KerizAlperwastaken](https://github.com/KerizAlperwastaken)||
+|🇵🇰|اردو / ur|||
 |🇺🇦|Українська / uk|[@div2005](https://github.com/div2005)||
 |vec|Vèneto / vec|||
 |🇻🇳|Tiếng Việt / vi|||
 |🇨🇳|中文 (简体) / zh_Hans|[@deluxghost](https://github.com/deluxghost)|[@YouTubeGameNana](https://github.com/YouTubeGameNana)|
 |🇹🇼|繁體中文 / zh_Hant|[@Zhuzi-ouo](https://github.com/Zhuzi-ouo)||
-|🇱🇻|Latviešu / lv|[@rMazeiks](https://github.com/rMazeiks)||
 |🙂|Toki Pona / tokipona|[@Gapva](https://github.com/Gapva)||
 |EO|Esperanto / esperanto|[@Fussmatte](https://github.com/Fussmatte)||
 |😸|OwO / owo|[@janderedev](https://github.com/janderedev) [@FanMclaine](https://github.com/FanMclaine)||
