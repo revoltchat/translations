@@ -176,8 +176,8 @@
                 },
                 "errors": {
                     "title": "¡Ups, no hay nada aquí!",
-                    "nochannels": "Este servidor no tiene ningún canal, o no tienes acceso a ninguno.",
-                    "nochannel": "No canal"
+                    "nochannels": "Este servidor no tiene canales o no tienes acceso a ninguno.",
+                    "nochannel": "Canal inexistente"
                 }
             },
             "categories": {
@@ -188,15 +188,22 @@
             },
             "servers": {
                 "create": "Crear un servidor",
-                "name": "Nombre del Servidor",
-                "description": "Descripción del Servidor",
-                "channel_name": "Nombre del Canal"
+                "name": "Nombre del servidor",
+                "description": "Descripción del servidor",
+                "channel_name": "Nombre del canal",
+                "category_name": "Nombre de categoría",
+                "text_channel": "Canal de texto",
+                "channel_type": "Tipo de canal",
+                "channel_description": "Descripción del canal",
+                "custom_banner": "Portada personalizada",
+                "owner": "Propietario del servidor",
+                "voice_channel": "Canal de voz"
             },
             "groups": {
-                "owner": "Dueño del Grupo",
-                "description": "Descripción del Grupo",
+                "owner": "Responsable del grupo",
+                "description": "Descripción del grupo",
                 "create": "Crear un grupo",
-                "name": "Nombre del Grupo"
+                "name": "Nombre del grupo"
             }
         },
         "navigation": {
@@ -206,6 +213,72 @@
                 "friends": "Amigos",
                 "unreads": "No leídos",
                 "saved": "Notas guardadas"
+            }
+        },
+        "settings": {
+            "categories": {
+                "user_settings": "Ajustes del usuario",
+                "client_settings": "Ajustes del cliente",
+                "danger_zone": "Zona de peligro"
+            },
+            "pages": {
+                "account": {
+                    "2fa": {
+                        "view_recovery_long": "Visualiza y descarga tus códigos de recuperación de autenticación de dos factores (2FA).",
+                        "generate_recovery": "Generar códigos de recuperación",
+                        "two_factor_on": "La autenticación de dos factores (2FA) está activada.",
+                        "title": "Autenticación de dos factores",
+                        "description": "Agrega una capa adicional de seguridad habilitando la autenticación de dos factores (2FA) en tu cuenta.",
+                        "view_recovery": "Ver códigos de recuperación",
+                        "generate_recovery_long": "Prepárate para usar la autenticación de dos factores (2FA) configurando un método de recuperación.",
+                        "add_auth": "Añadir autenticador",
+                        "remove_auth": "Eliminar autenticador",
+                        "two_factor_off": "¡No has habilitado la autenticación de dos factores!"
+                    },
+                    "manage": {
+                        "description": "Si lo deseas, puedes deshabilitar o eliminar tu cuenta en cualquier momento. Esta acción cerrará tu sesión y borrará completamente tu cuenta, incluyendo tu historial de chat y amigos.",
+                        "delete": "Marcar cuenta para eliminación",
+                        "title": "Gestión de cuenta",
+                        "disable": "Deshabilitar cuenta"
+                    },
+                    "title": "Mi cuenta",
+                    "change_field": "Cambiar",
+                    "unique_id": "Este es un identificador de usuario único para tu cuenta."
+                },
+                "profile": {
+                    "edit_background": "Editar fondo",
+                    "title": "Perfil",
+                    "info": "Información",
+                    "fetching": "Obteniendo tu perfil…",
+                    "placeholder": "Escribe algo sobre ti…",
+                    "profile_picture": "Foto de perfil",
+                    "custom_background": "Fondo personalizado",
+                    "edit_profile": "Editar perfil"
+                },
+                "sessions": {
+                    "active_sessions": "Sesiones activas",
+                    "created": "Creado hace {{time_ago}}",
+                    "title": "Sesiones",
+                    "this_device": "Este dispositivo",
+                    "logout": "Cerrar sesión en las demás sesiones"
+                },
+                "audio": {
+                    "title": "Ajustes de voz",
+                    "tip_retry": "No has dado permiso para acceder a tu micrófono, por favor {{retryBtn}} para intentarlo nuevamente.",
+                    "button_retry": "reintentar",
+                    "input_device": "Micrófono",
+                    "output_device": "Altavoz / Auriculares",
+                    "tip_grant_permission": "Debes otorgar permiso para acceder a los ajustes de audio.",
+                    "device_label_NA": "No disponible",
+                    "button_grant": "Conceder permiso"
+                }
+            },
+            "title": "Ajustes",
+            "actions": {
+                "remove": "Borrar",
+                "upload": "Subir",
+                "max_filesize": "(tamaño máximo {{filesize}})",
+                "edit": "Editar {{name}}"
             }
         }
     },
