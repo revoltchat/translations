@@ -524,7 +524,127 @@
                 "disconnected": "Desconectado.",
                 "reconnecting": "Reconectando…"
             },
-            "copy": "Haz clic para copiar"
+            "copy": "Haz clic para copiar",
+            "modals": {
+                "clipboard": {
+                    "unavailable": "¡El portapapeles no está disponible!",
+                    "https": "Actualmente no te encuentras en un contexto HTTPS.",
+                    "copy": "Copia manual:"
+                },
+                "token_reveal": "Token de {{name}}",
+                "onboarding": {
+                    "pick": "Elige un nombre de usuario que te gustaría que la gente use para encontrarte. Recuerda que puedes cambiarlo después en los ajustes, así que no te preocupes si no encuentras el ideal a la primera.",
+                    "welcome": "Te damos la bienvenida a"
+                },
+                "prompt": {
+                    "confirm_leave": "¿Abandonar {{name}}?",
+                    "confirm_leave_long": "Una vez que te vayas, no podrás regresar a menos que recibas una nueva invitación.",
+                    "confirm_delete": "¿Eliminar {{name}}?",
+                    "confirm_delete_long": "Cuando lo elimines, no habrá vuelta atrás.",
+                    "confirm_kick": "¿Deseas expulsar a {{name}}?",
+                    "unfriend_user_long": "Si lo eliminas, es posible que no puedas hablar con esta persona de nuevo hasta que lo vuelvas a añadir.",
+                    "block_user_long": "¿Deseas bloquear a {{name}}? Si lo haces, también se eliminará de tu lista de amigos.",
+                    "confirm_close_dm": "¿Cerrar conversación con {{name}}?",
+                    "confirm_close_dm_long": "Puedes reabrirla más tarde, pero ten en cuenta que desaparecerá de ambos lados.",
+                    "confirm_delete_message_long": "¿Deseas eliminar esto?",
+                    "create_invite_generate": "Generando invitación…",
+                    "create_invite_created": "Este es tu nuevo código de invitación:",
+                    "confirm_ban": "Estás a punto de banear a {{name}}",
+                    "confirm_ban_reason": "Motivo del baneo",
+                    "unfriend_user": "¿Eliminar a {{name}}?",
+                    "block_user": "¿Bloquear a {{name}}?",
+                    "silent_leave": "Abandonar sigilosamente",
+                    "members_not_notified": "Otros miembros no serán notificados"
+                },
+                "mfa": {
+                    "select_method": "Por favor, selecciona un método para autenticar tu solicitud.",
+                    "recovery_codes": "Tus códigos de recuperación",
+                    "save_codes": "Por favor, asegúrate de guardar estos en un lugar seguro.",
+                    "confirm": "Por favor, confirma utilizando el método seleccionado.",
+                    "enable_totp": "Habilitar aplicación de autenticación",
+                    "prompt_totp": "Por favor, escanea el siguiente código o ingresa el token en tu aplicación de autenticación.",
+                    "enter_code": "Introducir el código"
+                },
+                "changelogs": {
+                    "description": "Lee acerca de las actualizaciones de Revolt.",
+                    "title": "Registro de cambios",
+                    "older": "Ver actualizaciones anteriores"
+                },
+                "out_of_date": {
+                    "description": "Debe actualizarse para que funcione con los cambios recientes.",
+                    "attempting": "Intentando actualizar…",
+                    "title": "¡Tu cliente está desactualizado!",
+                    "version": "Su cliente está en {{client}}, mientras que el servidor requiere {{server}}.",
+                    "ignore": "Ignorar actualización"
+                },
+                "external_links": {
+                    "trust_domain": "Confiar en este dominio",
+                    "title": "¡Los enlaces externos pueden ser peligrosos!",
+                    "short": "¿En serio deseas ir a:"
+                },
+                "sessions": {
+                    "title": "¿En serio deseas eliminar tus sesiones?",
+                    "short": "No puedes deshacer esta acción.",
+                    "accept": "Eliminar todas las sesiones"
+                },
+                "report": {
+                    "by_name": "Denunciar a {{name}}",
+                    "thank_you": "Gracias por ayudar a mantener Revolt seguro. Revisaremos tu denuncia lo antes posible.",
+                    "block_user": "¿Deseas bloquear a este usuario?",
+                    "content_reason": {
+                        "Illegal": "El contenido viola una o más leyes",
+                        "PromotesHarm": "El contenido promueve la violencia o autolesión",
+                        "SpamAbuse": "Es spam o abuso de la plataforma",
+                        "Malware": "Contiene un virus o malware",
+                        "Harassment": "Es acoso o abuso dirigido hacia otro usuario"
+                    },
+                    "user_reason": {
+                        "InappropriateProfile": "El perfil del usuario no es apropiado para el público general",
+                        "SpamAbuse": "El usuario está enviando spam o abusando de la plataforma de alguna forma",
+                        "Impersonation": "Este usuario está suplantando la identidad de otra persona",
+                        "BanEvasion": "Este usuario está evadiendo un baneo",
+                        "Underage": "La cuenta de este usuario no cumple con la edad mínima requerida para su uso"
+                    },
+                    "message": "Denunciar mensaje",
+                    "reason": "Motivo",
+                    "reported": "Denunciado",
+                    "additional_context": "Información adicional",
+                    "no_reason": "No se especificó el motivo / Otro motivo"
+                },
+                "actions": {
+                    "done": "Hecho",
+                    "edit": "Editar",
+                    "reset": "Reiniciar",
+                    "remove": "Eliminar",
+                    "ok": "Aceptar",
+                    "ban": "Banear",
+                    "kick": "Expulsar",
+                    "save": "Guardar",
+                    "hide": "Ocultar",
+                    "block": "Bloquear",
+                    "close": "Cerrar",
+                    "leave": "Salir",
+                    "back": "Regresar",
+                    "delete": "Eliminar",
+                    "report": "Denunciar",
+                    "create": "Crear"
+                },
+                "error": "¡Se ha producido un error!",
+                "confirm": "Confirmar acción",
+                "signed_out": "¡Se ha cerrado tu sesión!",
+                "account": {
+                    "change": {
+                        "username": "Cambiar nombre de usuario",
+                        "email": "Cambiar correo electrónico",
+                        "password": "Cambiar contraseña"
+                    },
+                    "failed": "¡Se ha producido un error al guardar los cambios!"
+                }
+            },
+            "server-badges": {
+                "official": "Servidor oficial",
+                "verified": "Servidor verificado"
+            }
         }
     },
     "actions": {
