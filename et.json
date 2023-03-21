@@ -335,7 +335,7 @@
                         "email": "Muuda oma emaili",
                         "password": "Muuda oma parooli"
                     },
-                    "failed": "Muutmine ebaõnnestus!"
+                    "failed": "Muutmine nurjus!"
                 },
                 "actions": {
                     "ok": "Ok",
@@ -357,7 +357,10 @@
                     "continue": "Jätka",
                     "send_email": "Saada email",
                     "leave": "Lahku",
-                    "edit": "Muuda"
+                    "edit": "Muuda",
+                    "report": "Aruanne",
+                    "confirm": "Kinnita",
+                    "dont_block": "Ära blokeeri"
                 },
                 "onboarding": {
                     "welcome": "Tere tulemast",
@@ -370,7 +373,7 @@
                 },
                 "token_reveal": "{{name}} token",
                 "mfa": {
-                    "save_codes": "Salvestage need turvalisse asukohta.",
+                    "save_codes": "Palun salvestage need turvalisse asukohta.",
                     "enter_code": "Sisestage kood",
                     "select_method": "Valige oma taotluse autentimise meetod.",
                     "recovery_codes": "Teie taastekoodid",
@@ -388,7 +391,7 @@
                     "attempting": "Värskendamise katse…",
                     "ignore": "Ignoreeri värskendust",
                     "description": "Hiljutiste muudatustega töötamiseks tuleb seda värskendada.",
-                    "version": "Hiljutiste muudatustega töötamiseks tuleb seda värskendada.",
+                    "version": "Sinu klient on serveris {{client}}, kuid server nõuab serverit {{server}}.",
                     "title": "Teie klient on aegunud!"
                 },
                 "sessions": {
@@ -659,7 +662,12 @@
             "remove_member": "Eemalda grupist",
             "block_user": "Blokeeri kasutaja",
             "set_custom_status": "Määra kohandatud staatus",
-            "open_notification_options": "Teavituste sätted"
+            "open_notification_options": "Teavituste sätted",
+            "make_owner": "Anna grupiomand",
+            "mark_unread": "Märgi mitteloetuks",
+            "report_message": "Teata sõnumist",
+            "report_user": "Aruande user",
+            "report_server": "Aruandeserver"
         },
         "permissions": {
             "required": "Vajalikud õigused"
@@ -693,8 +701,8 @@
         "current_password": "Praegune paroo",
         "enter": {
             "email": "Palun sisesta oma e-posti.",
-            "password": "Sisesta oma paroo",
-            "invite": "Sisesta oma kutsekoo",
+            "password": "Sisesta oma paroo.",
+            "invite": "Sisesta oma kutsekoo.",
             "current_password": "Sisesta oma praegune parool.",
             "username": "Sisesta oma kasutajanimi.",
             "new_password": "Sisestage uus parool."
@@ -885,7 +893,8 @@
             "t": "Timeout liikmed"
         },
         "ManageWebhooks": {
-            "t": "Veebikonksude haldamine"
+            "t": "Veebikonksude haldamine",
+            "d": "Võimaldab liikmetel juhtida kanalil channel."
         },
         "ManagePermissions": {
             "t": "Õiguste haldamine",
@@ -896,7 +905,24 @@
             "d": "Võimaldab liikmetel lugeda selle kanali sõnumite ajalugu."
         },
         "Connect": {
-            "t": "Ühendage"
+            "t": "Ühendage",
+            "d": "Võimaldab liikmetel luua ühenduse kõnekanaliga."
+        },
+        "Speak": {
+            "t": "Räägi",
+            "d": "Võimaldab liikmetel kõnekanalis kõnelda."
+        },
+        "ManageCustomisation": {
+            "t": "Kohanduste haldamine",
+            "d": "Võimaldab liikmetel emojisid luua, redigeerida ja kustutada."
+        },
+        "React": {
+            "t": "Kasutusreaktsioonid",
+            "d": "Võimaldab liikmetel sõnumitele reageerida."
+        },
+        "SendEmbeds": {
+            "t": "Saada manused",
+            "d": "Lubab liikmetel saata manustatud sisu, olenemata sellest, kas see pärineb linkidest või kohandatud teksti manustamisest."
         }
     },
     "actions": {
