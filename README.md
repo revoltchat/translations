@@ -10,7 +10,7 @@ Please only PR if you are adding new strings to the source language, otherwise c
 
 The following table shows languages and people enlisted for verifying certain languages are up to standard.
 
-**Note:** This table only includes languages present in-app, [request a language languages to be added here](https://github.com/revoltchat/revite/issues/362).
+**Note:** This table only includes languages that are available in the app. If a language has been translated via Weblate and you want it to be added to the app, [please click here](https://github.com/revoltchat/frontend/issues/135).
 
 |   | Language | Maintainers | Contributors |
 |:-:|---|---|---|
@@ -82,17 +82,19 @@ The following table shows languages and people enlisted for verifying certain la
 |🪄|Enchantment Table / enchantment|||
 |🐖|Pig Latin / piglatin|||
 
-If you would like to maintain a language, please open an issue with your request.
+If you would like to maintain a language, please [open an issue](https://github.com/revoltchat/transations/issues/new/choose) with your request.
 
-### What do I do? (as a language maintainer)
+### What do I do? 
 
-As a maintainer you get access to review capabilities on Weblate, this lets you approve strings, edit approved strings and accept new suggestions. You may also be mentioned in GitHub issues to approve badges for others.
+#### As a language maintainer
+
+As a maintainer, you gain access to the Reviewer role on Weblate. This lets you approve new strings, edit approved strings and accept new suggestions. You may also be mentioned in GitHub issues to approve badges for others.
 
 ![Approval UI](approve_ui.png)
 
-If you would like to be removed as a maintainer, please create an issue. (you will remain on the contributions list)
+If you would like to be removed as a maintainer, please create an issue. (You will remain on the contributions list.)
 
-### What do I do? (as a repository maintainer)
+#### As a repository maintainer
 
 There are two different things that need to be handled:
 
