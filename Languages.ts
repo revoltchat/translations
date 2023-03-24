@@ -19,7 +19,7 @@ export enum Language {
   GERMAN = "de",
   GREEK = "el",
   SPANISH = "es",
-  SPNAISH_LATIN_AMERICA = "es_419",
+  SPANISH_LATIN_AMERICA = "es_419",
   ESTONIAN = "et",
   FINNISH = "fi",
   FILIPINO = "fil",
