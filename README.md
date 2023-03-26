@@ -26,18 +26,18 @@ The following table shows languages and people enlisted for verifying certain la
 |🇪🇸|Català / ca|[@TallerThanShort](https://github.com/TallerThanShort)||
 |🇵🇭|Bisaya / ceb|||
 |krd|کوردی / ckb|[@fanticwastaken](https://github.com/fanticwastaken)|[@NoLogicAlan](https://github.com/NoLogicAlan)|
-|🇨🇿|Čeština / cs|||
+|🇨🇿|Čeština / cs||[@Cikarin3](https://github.com/Cikarin3)|
 |🇩🇰|Dansk / da|||
-|🇩🇪|Deutsch / de|[@janderedev](https://github.com/janderedev)|[@nitrobw](https://github.com/nitrobw)|
+|🇩🇪|Deutsch / de|[@janderedev](https://github.com/janderedev)|[@nitrobw](https://github.com/nitrobw) [@arktn](https://github.com/arktn)|
 |🇬🇷|Ελληνικά / el|[@SudoJanast](https://github.com/SudoJanast)||
 |🇪🇸|Español / es|[@z3ro0k](https://github.com/z3ro0k) [@fernandopal](https://github.com/fernandopal)|[@Dorovich](https://github.com/Dorovich)|
-|🇪🇸|Español (América Latina) / es_419|||
-|🇪🇪|eesti / et|[@u032](https://github.com/u032) [@Asl-script](https://github.com/Asl-script)||
+|🇪🇸|Español (América Latina) / es_419|[@SrWesly](https://github.com/SrWesly) [@7Macros](https://github.com/7Macros)||
+|🇪🇪|eesti / et|[@Asl-script](https://github.com/Asl-script)|[@u032](https://github.com/u032) [@Lefromrevolt](https://github.com/Lefromrevolt)|
 |🇫🇮|suomi / fi|||
 |🇵🇭|Filipino / fil|[@I2rys](https://github.com/I2rys)||
-|🇫🇷|Français / fr|[@Hades785](https://github.com/Hades785)|[@RedNight-was-taken](https://github.com/RedNight-was-taken)|
+|🇫🇷|Français / fr|[@Hades785](https://github.com/Hades785)|[@RedNight-was-taken](https://github.com/RedNight-was-taken) [@Kasahe](https://github.com/Kasahe)|
 |🇮🇪|Gaeilge / ga|||
-|🇮🇳|हिन्दी / hi|[@Infiniticity](https://github.com/Infiniticity)|[@CodeWhiteWeb](https://github.com/CodeWhiteWeb) [@FakeFerg](https://github.com/FakeFerg)|
+|🇮🇳|हिन्दी / hi|[@Infiniticity](https://github.com/Infiniticity)|[@CodeWhiteWeb](https://github.com/CodeWhiteWeb) [@FakeFerg](https://github.com/FakeFerg) [@Yeikzy](https://github.com/Yeikzy)|
 |🇭🇷|Hrvatski / hr|||
 |🇭🇺|magyar / hu|[@f3rr31](https://github.com/f3rr31)||
 |🇦🇲|հայերեն / hy|||
