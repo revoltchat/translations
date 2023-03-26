@@ -13,7 +13,7 @@ jobs:
     name: "Automate Repository"
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
@@ -28,7 +28,7 @@ jobs:
         uses: EndBug/add-and-commit@v4
         with:
           add: "*.json"
-          message: "Update Automatic Languages"
+          message: "chore: update automatic languages"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -38,6 +38,6 @@ jobs:
         uses: EndBug/add-and-commit@v4
         with:
           add: "*.md"
-          message: "Generate README"
+          message: "chore: generate README"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
