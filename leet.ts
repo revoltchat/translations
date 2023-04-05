@@ -43,4 +43,4 @@ function recurse(obj: { [key: string]: any }) {
 }
 
 recurse(data);
-await Deno.writeTextFile("./leet.json", JSON.stringify(data));
+await Deno.writeTextFile("./leet.json", JSON.stringify(data, null, 4));
