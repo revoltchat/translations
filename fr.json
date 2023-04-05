@@ -153,7 +153,12 @@
                 "bridge": "pont",
                 "user_timed_out": "Cet utilisateur est temporairement exclu pendant {{time}}.",
                 "bridged": "Message envoyé depuis une autre plateforme",
-                "team": "Communiqué officiel"
+                "team": "Communiqué officiel",
+                "reactions": {
+                    "single_reacted": "Une personne a réagi",
+                    "others_reacted": "{{userlist}} et {{count}} autres ont réagi",
+                    "unknown_reacted": "{{count}} personnes ont réagi"
+                }
             },
             "categories": {
                 "conversations": "Conversations",
@@ -786,6 +791,10 @@
         "members": {
             "one": "1 membre",
             "many": "{{count}} membres"
+        },
+        "dropFiles": {
+            "many": "Déposer {{count}} fichiers",
+            "one": "Déposer un fichier"
         }
     },
     "dayjs": {
