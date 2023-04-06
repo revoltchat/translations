@@ -153,7 +153,13 @@
                 "bridge": "híd",
                 "user_timed_out": "{{time}}ig el lett tiltva.",
                 "bridged": "Az üzenetet másik platformon keresztül küldték el",
-                "team": "Hivatalos kommunikáció"
+                "team": "Hivatalos kommunikáció",
+                "reactions": {
+                    "others_reacted": "{{userlist}} és {{count}} többi személy reagált",
+                    "unknown_reacted": "{{count}} személy reagált",
+                    "single_reacted": "1 személy reagált",
+                    "people_reacted": "{{people}} személy reagált"
+                }
             },
             "groups": {
                 "name": "Csoportnév",
@@ -630,7 +636,7 @@
                 "from": {
                     "single": "{{user}}",
                     "multiple": "{{userlist}} és {{user}}",
-                    "several": "{{userlist}} és többi {{count}} személy küldte"
+                    "several": "{{userlist}} és {{count}} többi személy küldte"
                 }
             },
             "popovers": {
