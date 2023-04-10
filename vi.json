@@ -176,7 +176,13 @@
                 "bridge": "cầu nối",
                 "user_timed_out": "Người dùng bị hạn chế trong {{time}}.",
                 "bridged": "Tin nhắn được gửi trên nền tảng khác",
-                "team": "Giao Tiếp Chính Thức"
+                "team": "Giao Tiếp Chính Thức",
+                "reactions": {
+                    "others_reacted": "{{userlist}} và {{count}} người dùng khác đã bày tỏ cảm xúc",
+                    "unknown_reacted": "{{count}} người đã bày tỏ cảm xúc",
+                    "single_reacted": "1 người đã bày tỏ cảm xúc",
+                    "people_reacted": "{{people}} đã bày tỏ cảm xúc"
+                }
             },
             "groups": {
                 "create": "Tạo nhóm",
@@ -589,7 +595,7 @@
                     "title": "Ứng dụng của bạn đã quá cũ!",
                     "description": "Bạn cần phải cập nhật ứng dụng để tương thích với những cập nhật gần đây.",
                     "ignore": "Bỏ qua bản cập nhật",
-                    "attempting": "Đang cập nhật…",
+                    "attempting": "Đang cập nhập…",
                     "version": "Ứng dụng của bạn là phiên bản {{client}}, nhưng máy chủ yêu cầu {{server}}."
                 },
                 "changelogs": {
@@ -615,7 +621,8 @@
                     "no_reason": "Không có lý do / lý do khác",
                     "content_reason": {
                         "Illegal": "Nội dung vi phạm một hoặc nhiều luật",
-                        "Malware": "Đây là phần mềm độc hại"
+                        "Malware": "Đây là phần mềm độc hại",
+                        "SpamAbuse": "Đây là tin nhắn spam hoặc lợi dụng nền tảng"
                     },
                     "reported": "Đã báo cáo",
                     "block_user": "Bạn có muốn chặn người dùng này không?",
@@ -875,7 +882,7 @@
         },
         "React": {
             "t": "Sử Dụng Biểu Cảm",
-            "d": "Cho phép các thành viên thêm biểu cảm."
+            "d": "Cho phép các thành viên bày tỏ cảm xúc với tin nhắn."
         }
     },
     "error": {
