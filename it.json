@@ -306,7 +306,13 @@
                 "bridge": "ponte",
                 "user_timed_out": "L'utente è mutato per {{time}}.",
                 "bridged": "Il messaggio è stato inviato su un'altra piattaforma",
-                "team": "Comunicazione Ufficiale"
+                "team": "Comunicazione Ufficiale",
+                "reactions": {
+                    "others_reacted": "{{userlist}} e altri {{count}} hanno reagito",
+                    "unknown_reacted": "{{count}} persone hanno reagito",
+                    "single_reacted": "1 persona ha reagito",
+                    "people_reacted": "{{people}} hanno reagito"
+                }
             },
             "groups": {
                 "create": "Crea un gruppo",
@@ -946,6 +952,10 @@
         "members": {
             "many": "{{count}} Membri",
             "one": "1 Membro"
+        },
+        "dropFiles": {
+            "one": "Rilascia un file",
+            "many": "Rilascia {{count}} file"
         }
     },
     "dayjs": {
