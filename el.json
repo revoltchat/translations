@@ -63,6 +63,10 @@
         "members": {
             "many": "{{count}} Μέλη",
             "one": "1 μέλος"
+        },
+        "dropFiles": {
+            "one": "Σύρετε ένα αρχείο",
+            "many": "Σύρετε {{count}} αρχεία"
         }
     },
     "app": {
@@ -604,7 +608,7 @@
                     "button_grant": "Χορήγηση άδειας"
                 },
                 "plugins": {
-                    "title": "πρόσθετα",
+                    "title": "Πρόσθετα",
                     "wip": "Προσοχή: Αυτή η λειτουργία βρίσκεται υπό κατασκευή.",
                     "delete_plugin": "Διαγραφή",
                     "no_plugins": "Δεν υπάρχουν εγκατεστημένα plugins."
@@ -731,7 +735,15 @@
                 "bridge": "γέφυρα",
                 "user_timed_out": "Ο χρήστης έχει αποκλειστεί για {{time}}.",
                 "bridged": "Το μήνυμα εστάλη σε άλλη πλατφόρμα",
-                "team": "Επίσημη Επικοινωνία"
+                "team": "Επίσημη Επικοινωνία",
+                "new_to_server": "Νέος σε αυτόν τον server",
+                "new_to_revolt": "Νέος στο Revolt",
+                "reactions": {
+                    "others_reacted": "Ο/Η {{userlist}} καί {{count}} άλλοι αντέδρασαν",
+                    "unknown_reacted": "{{count}} χρήστες αντέδρασαν",
+                    "people_reacted": "{{people}} χρήστες αντέδρασαν",
+                    "single_reacted": "Ένας χρήστης αντέδρασε"
+                }
             },
             "categories": {
                 "members": "Μέλη",
