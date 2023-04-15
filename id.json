@@ -18,8 +18,8 @@
                     "emoji_pack": "Paket Emoji",
                     "accent_selector": "Aksen Warna",
                     "advanced": "Opsi Lanjutan",
-                    "reset_overrides": "Setel Ulang Perubahan",
-                    "import": "Impor Tema",
+                    "reset_overrides": "Setel ulang perubahan",
+                    "import": "Impor tema",
                     "theme_data": "Data Tema",
                     "custom_css": "CSS Khusus",
                     "sync": "Pilihan Sinkronisasi",
@@ -29,7 +29,7 @@
                     "overrides": "Pengubahan Tema",
                     "import_theme": "Impor tema dari string",
                     "ligatures": "Ligatur Fon",
-                    "ligatures_desc": "Untuk fon yang didukung, ligatur menggabungkan karakter bersama, misalnya, mengubah -> menjadi panah.",
+                    "ligatures_desc": "Untuk fon yang didukung, ligatur menggabungkan beberapa karakter menjadi satu, misalnya, mengubah -> menjadi panah.",
                     "theme_options": {
                         "title": "Pengaturan Tema",
                         "follow": "Ikuti tema perangkat",
@@ -99,14 +99,14 @@
                     },
                     "enable_desktop": "Aktifkan Notifikasi Desktop.",
                     "title": "Notifikasi",
-                    "push_notifications": "Pemberitahuan",
+                    "push_notifications": "Notifikasi Push",
                     "sound": {
                         "message": "Pesan Diterima",
-                        "call_leave": "Pengguna Keluar dari Panggilan",
+                        "call_leave": "Pengguna Meninggalkan Panggilan",
                         "outbound": "Pesan Terkirim",
                         "call_join": "Pengguna Bergabung dalam Panggilan"
                     },
-                    "enable_push": "Aktifkan Pemberitahuan."
+                    "enable_push": "Aktifkan Notifikasi Push."
                 },
                 "audio": {
                     "title": "Pengaturan Suara",
@@ -128,7 +128,7 @@
                 },
                 "language": {
                     "other": "Pilihan bahasa lainnya",
-                    "select": "Pilih bahasa kamu",
+                    "select": "Pilih bahasamu",
                     "title": "Bahasa",
                     "const": "Bahasa buatan"
                 },
@@ -174,7 +174,7 @@
                 "logOut": "Keluar",
                 "theme_shop": {
                     "title": "Toko Tema",
-                    "search": "Cari tema…",
+                    "search": "Telusuri tema…",
                     "description": "Jelajahi ratusan tema, dibuat dan dikuratori oleh komunitas.",
                     "category": {
                         "saved": "Disimpan",
@@ -383,7 +383,15 @@
                 "bridge": "jembatan",
                 "user_timed_out": "Pengguna diberi timeout selama {{time}}.",
                 "bridged": "Pesan dikirim dari platform lain",
-                "team": "Komunikasi Resmi"
+                "team": "Komunikasi Resmi",
+                "new_to_revolt": "Baru di Revolt",
+                "new_to_server": "Baru di server ini",
+                "reactions": {
+                    "others_reacted": "{{userlist}} dan {{count}} lainnya memberi reaksi",
+                    "unknown_reacted": "{{count}} orang memberi reaksi",
+                    "single_reacted": "1 orang memberi reaksi",
+                    "people_reacted": "{{people}} memberi reaksi"
+                }
             },
             "categories": {
                 "members": "Anggota",
@@ -953,6 +961,10 @@
         "members": {
             "many": "{{count}} Anggota",
             "one": "1 Anggota"
+        },
+        "dropFiles": {
+            "one": "Letakkan berkas",
+            "many": "Letakkan {{count}} berkas"
         }
     },
     "notifications": {
