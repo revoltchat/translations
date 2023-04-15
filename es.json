@@ -11,8 +11,8 @@
                     "channel_renamed": "{{user}} renombró el canal a {{name}}",
                     "channel_description_changed": "{{user}} cambió la descripción del canal",
                     "channel_icon_changed": "{{user}} cambió el icono de canal",
-                    "user_kicked": "{{user}} fue expulsado",
-                    "user_banned": "{{user}} ha sido baneado",
+                    "user_kicked": "{{user}} fue expulsado temporalmente",
+                    "user_banned": "{{user}} ha sido expulsado",
                     "channel_ownership_changed": "{{from}} ha hecho a {{to}} dueño del grupo",
                     "registered_at": "Registrado {{time}}"
                 },
@@ -392,11 +392,11 @@
                     "system_messages": "Canales de mensajes del sistema"
                 },
                 "bans": {
-                    "title": "Baneos",
+                    "title": "Expulsiones",
                     "revoke": "Revocar",
-                    "no_reason": "Sin motivo de baneo.",
+                    "no_reason": "Sin motivo de expulsión.",
                     "user": "Usuario",
-                    "reason": "Motivo de baneo"
+                    "reason": "Motivo de expulsión"
                 },
                 "members": {
                     "title": "Miembros"
@@ -485,8 +485,8 @@
             "delete_message": "Eliminar mensaje",
             "remove_member": "Eliminar del grupo",
             "view_profile": "Ver perfil",
-            "kick_member": "Expulsar miembro",
-            "ban_member": "Banear miembro",
+            "kick_member": "Expulsar miembro temporalmente",
+            "ban_member": "Expulsar miembro",
             "reply_message": "Responder",
             "leave_group": "Abandonar grupo",
             "leave_server": "Abandonar servidor",
@@ -530,7 +530,7 @@
                     "block_user_long": "¿Estás seguro de que quieres bloquear a {{name}}? También se eliminará de tu lista de amigos.",
                     "confirm_close_dm": "¿Cerrar conversación con {{name}}?",
                     "confirm_delete_message_long": "¿Estás seguro que quieres eliminar esto?",
-                    "confirm_kick": "¿Estás seguro de que quieres expulsar a {{name}}?",
+                    "confirm_kick": "¿Estás seguro de que quieres expulsar temporalmente a {{name}}?",
                     "confirm_ban_reason": "Motivo del baneo",
                     "confirm_delete_long": "Una vez borrado, no hay vuelta atrás.",
                     "confirm_ban": "Estás a punto de banear a {{name}}",
@@ -554,8 +554,8 @@
                     "continue": "Continuar",
                     "reveal": "Revelar",
                     "create": "Crear",
-                    "ban": "Vetar",
-                    "kick": "Expulsar",
+                    "ban": "Expulsar",
+                    "kick": "Expulsar temporalmente",
                     "block": "Bloquear",
                     "leave": "Salir",
                     "remove": "Eliminar",
@@ -625,7 +625,7 @@
                         "SpamAbuse": "El usuario está enviando spam o abusando de la plataforma de alguna forma",
                         "InappropriateProfile": "El perfil del usuario no es apropiado para el público general",
                         "Impersonation": "Este usuario está suplantando la identidad de otra persona",
-                        "BanEvasion": "Este usuario está evadiendo un baneo",
+                        "BanEvasion": "El usuario está intentando eludir una expulsión",
                         "Underage": "Este usuario no tiene la edad mínima necesaria para tener una cuenta"
                     },
                     "reported": "Reportado",
@@ -871,8 +871,8 @@
             "d": "Permite a los miembros cambiar los apodos de otros miembros."
         },
         "BanMembers": {
-            "d": "Permite a los miembros expulsar miembros de forma permanente de este servidor.",
-            "t": "Vetar miembros"
+            "d": "Permite expulsar miembros de forma permanente del servidor.",
+            "t": "Expulsar miembros"
         },
         "RemoveAvatars": {
             "d": "Permitir a los miembros eliminar los avatares de otros miembros en este servidor.",
@@ -891,8 +891,8 @@
             "d": "Permite a los miembros crear, editar y eliminar canales."
         },
         "KickMembers": {
-            "t": "Expulsar miembros",
-            "d": "Permite a los miembros expulsar miembros de este servidor. Los miembros expulsados pueden volver a unirse con una invitación."
+            "t": "Expulsar miembros temporalmente",
+            "d": "Permite a los miembros expulsar miembros de este servidor. Los miembros expulsados temporalmente pueden volver a unirse con una invitación."
         },
         "ManageMessages": {
             "t": "Administrar mensajes",
