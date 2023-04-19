@@ -335,13 +335,13 @@
                     }
                 },
                 "misc": {
-                    "sent_multiple_files": "上傳了複數的附件",
-                    "sent_file": "上傳了附件",
+                    "sent_multiple_files": "上傳多個附件",
+                    "sent_file": "上傳附件",
                     "blocked_user": "封鎖的使用者",
                     "blocked_messages": "{{count}} 個封鎖的訊息",
                     "no_sending": "您沒有權限在此頻道發言。",
                     "failed_load": "無法讀取訊息。",
-                    "spoiler_attachment": "隱藏",
+                    "spoiler_attachment": "爆雷內容",
                     "jump_present": "跳到最新",
                     "viewing_old": "查看歷史訊息",
                     "jump_beginning": "跳回開頭",
@@ -396,7 +396,15 @@
                 "bridge": "橋接",
                 "user_timed_out": "用戶超時 {{time}}.",
                 "bridged": "訊息傳送自其他平台",
-                "team": "官方社群"
+                "team": "官方社群",
+                "new_to_revolt": "Revolt 新手",
+                "new_to_server": "伺服器新成員",
+                "reactions": {
+                    "others_reacted": "{{userlist}} 和其他 {{count}} 人做出反應",
+                    "unknown_reacted": "{{count}} 人做出反應",
+                    "single_reacted": "1 人做出反應",
+                    "people_reacted": "{{people}} 做出反應"
+                }
             },
             "categories": {
                 "members": "成員",
@@ -692,7 +700,7 @@
             "directs": "私人訊息",
             "join-testers_desc": "您可以直接在此處報告問題並與我們討論改進。",
             "goto-testers_desc": "您可以直接在此處報告問題並與我們討論改進。",
-            "donate_desc": "通過捐贈支持該項目 - 謝謝！",
+            "donate_desc": "通過捐贈支持本計劃 - 謝謝！",
             "feedback_desc": "通過向我們提供回饋，讓我們知道如何改進我們的應用程式。",
             "discover_desc": "根據您的愛好或興趣尋找社群。",
             "group": "建立群組",
@@ -744,7 +752,7 @@
         "subtitle": "登入 Revolt",
         "unofficial_instance": "第三方實例。",
         "totp": "二步驟驗證程式",
-        "recovery": "恢復代碼",
+        "recovery": "備份安全碼",
         "new_password": "新密碼",
         "log_out_other": "登出所有其他裝置",
         "verifying_account": "驗證您的帳號…",
@@ -753,7 +761,7 @@
     },
     "general": {
         "unavailable": "無法使用",
-        "disabled": "關閉",
+        "disabled": "已停用",
         "off": "關閉",
         "on": "開啟",
         "loading": "讀取中…",
@@ -767,6 +775,10 @@
         "members": {
             "one": "1位成員",
             "many": "{{count}} 位成員"
+        },
+        "dropFiles": {
+            "many": "上傳 {{count}} 個檔案",
+            "one": "上傳檔案"
         }
     },
     "dayjs": {
