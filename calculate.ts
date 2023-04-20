@@ -46,9 +46,9 @@ const table = `|   | Language | Maintainers | Contributors |
 ${Object.keys(Languages)
 .map(key => {
     const lang = Languages[key];
-    let maintainers = [], contribs = [];
+    const maintainers = [], contribs = [];
     
-    let entry = contributors[key];
+    const entry = contributors[key];
     if (entry) {
         for (const user of entry.users) {
             if (entry.maintainer.includes(user.github)) {
