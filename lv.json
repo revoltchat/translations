@@ -12,7 +12,8 @@
             "email": "Ievadi savu e-pasta adresi.",
             "password": "Ievadi paroli.",
             "invite": "Ievadi savu ielūguma kodu.",
-            "current_password": "Ievadi pašreizējo paroli."
+            "current_password": "Ievadi pašreizējo paroli.",
+            "new_password": "Ievadi jaunu paroli."
         },
         "forgot": "Aizmirsi paroli?",
         "existing": "Jau ir konts?",
@@ -41,7 +42,8 @@
         "subtitle": "Ienākt Revolt",
         "unofficial_instance": "Trešās puses instance.",
         "totp": "Autentifikācijas lietotne",
-        "recovery": "Piekļuves atgūšanas kods"
+        "recovery": "Piekļuves atgūšanas kods",
+        "new_password": "Jauna parole"
     },
     "app": {
         "main": {
@@ -136,7 +138,12 @@
                     "toggle": "Pārslēgt autora ziņu"
                 },
                 "bridge": "tilts",
-                "user_timed_out": "Lietotāja konts īslaicīgi bloķēts: {{time}}."
+                "user_timed_out": "Lietotāja konts īslaicīgi bloķēts: {{time}}.",
+                "bridged": "Ziņa tika nosūtīta citā platformā",
+                "reactions": {
+                    "unknown_reacted": "{{count}} cilvēki reaģēja",
+                    "single_reacted": "1 cilvēks reaģēja"
+                }
             },
             "groups": {
                 "create": "Izveidot grupu",
@@ -633,6 +640,9 @@
                     "title": "Izmaiņas",
                     "description": "Lasīt par Revolt jaunumiem.",
                     "older": "Skatīt vecākus atjauninājumus"
+                },
+                "report": {
+                    "block_user": "Vai vēlies bloķēt šo lietotāju?"
                 }
             },
             "friends": {
@@ -923,5 +933,8 @@
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
+    },
+    "actions": {
+        "submit": "Iesniegt"
     }
 }
