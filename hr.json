@@ -318,6 +318,12 @@
                 },
                 "theme_shop": {
                     "title": "Kupi teme"
+                },
+                "plugins": {
+                    "title": "Dodaci",
+                    "wip": "Upozorenje: Ova funkcija je dalje u proizvodnji.",
+                    "delete_plugin": "Izbriši dodatak",
+                    "no_plugins": "Nema instaliranih dodataka."
                 }
             },
             "channel_pages": {
@@ -380,7 +386,13 @@
                 "create_role": "Stvorite novu ulogu",
                 "role_name": "Naziv uloge",
                 "default_role": "Zadano",
-                "server": "Dopuštenja poslužitelja"
+                "server": "Dopuštenja poslužitelja",
+                "edit_title": "Uredi dozvole",
+                "title": "Dozvole za {{role}}",
+                "hoist_desc": "Prikaži ovaj rank iznad drugih.",
+                "role_colour": "Boja ranka",
+                "role_options": "Postavke ranka",
+                "delete_role": "Izbriši rank"
             }
         },
         "special": {
@@ -477,7 +489,9 @@
                     "ignore": "Zanemari ažuriranje"
                 },
                 "sessions": {
-                    "short": "Ne možeš poništiti ovu radnju."
+                    "short": "Ne možeš poništiti ovu radnju.",
+                    "accept": "Izbriši sve sesije",
+                    "title": "Jeste li sigurni da želite očistiti sesije?"
                 }
             },
             "popovers": {
@@ -813,7 +827,19 @@
             "d": "Dopusti članovima stvaranje, uređivanje i uklanjanje emoji-ja."
         },
         "AssignRoles": {
-            "t": "Dodijeli uloge"
+            "t": "Dodijeli uloge",
+            "d": "Dozvoli članovima da dodjele rank ispod svojeg ranka drugim članovima."
+        },
+        "TimeoutMembers": {
+            "d": "Dozvoli članovima da privremeno spriječe korisnike da se koriste serverom."
+        },
+        "ManageWebhooks": {
+            "t": "Kontroliraj Webhook-ove",
+            "d": "Dozvoli članovima da upravljaju sa Webhook-ovima u ovoj sobi."
+        },
+        "ReadMessageHistory": {
+            "t": "Pročitaj povijest poruka",
+            "d": "Dozvoli članovima da pročitaju povijest poruka u ovoj sobi."
         }
     }
 }
