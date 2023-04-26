@@ -224,7 +224,10 @@
                         "default": "pona"
                     },
                     "theme": "kule selo",
-                    "title": "selo ilo"
+                    "title": "selo ilo",
+                    "theme_options": {
+                        "title": "nasin pi selo ilo"
+                    }
                 },
                 "sessions": {
                     "logout": "o weka e ilo ante",
@@ -313,7 +316,10 @@
                 "theme_shop": {
                     "title": "tomo esun pi nasin lukin",
                     "active": "lon",
-                    "description": "o alasa e kulupu pi kule mute"
+                    "description": "o alasa e kulupu pi kule mute.",
+                    "category": {
+                        "new": "tenpo esun ni la sin"
+                    }
                 },
                 "plugins": {
                     "title": "ilo sin"
@@ -359,7 +365,8 @@
             },
             "categories": {
                 "client_settings": "nasin ilo ilo",
-                "user_settings": "nasin ilo jan"
+                "user_settings": "nasin ilo jan",
+                "danger_zone": "ijo pi ken ike"
             },
             "title": "nasin ilo"
         },
@@ -402,8 +409,9 @@
                     "sent_file": "sitelen",
                     "sent_multiple_files": "sitelen mute",
                     "jump_beginning": "o tawa open toki",
-                    "timed_out": "sina ken toki ala lon tenpo kama {{time}}",
-                    "new_messages": "toki sin lon {{time_ago}}"
+                    "timed_out": "sina ken ala toki lon tenpo kama {{time}}.",
+                    "new_messages": "toki sin lon {{time_ago}}",
+                    "load_file": "o open e lipu"
                 },
                 "voice": {
                     "unmute": "o ken e kalama",
@@ -551,9 +559,12 @@
             "directs": "toki pi jan pona ale",
             "join-testers": "o tawa Testers Server",
             "goto-testers": "o tawa Testers Server",
-            "donate": "o pana e mani tawa Revolt",
+            "donate": "o pana pona tawa jan pali pi ilo Revolt",
             "feedback_desc": "sina wile pona e ilo mi la o toki e pilin sina tawa mi mute.",
-            "group_desc": "o pana e jan pona e ilo tawa ma, o musi"
+            "group_desc": "o pana e jan pona e ilo tawa ma, o musi.",
+            "join-testers_desc": "sina wile toki lon pakala la o toki tawa mi lon ni.",
+            "goto-testers_desc": "sina wile toki lon pakala la o toki tawa mi lon ni.",
+            "discover_desc": "o alasa e kulupu pi ijo musi sina."
         }
     },
     "error": {
@@ -597,7 +608,7 @@
         "new": "sina sin tawa ilo Revolt la",
         "enter": {
             "email": "o sitelen e nimi sina pi ilo Email.",
-            "username": "o sitelen e nimi ilo.",
+            "username": "o sitelen e nimi ilo sina.",
             "current_password": "o sitelen e nimi open pi tenpo ni.",
             "invite": "o sitelen e nimi kama sina.",
             "password": "o sitelen e nimi open."
@@ -630,18 +641,23 @@
         "welcome": "o kama pona sin!",
         "totp": "lipu open",
         "recovery": "nimi open mute",
-        "subtitle": "o tawa sijelo pi ilo Revolt"
+        "subtitle": "o tawa sijelo pi ilo Revolt",
+        "subtitle2": "o pali e sijelo",
+        "unofficial_instance": "sama pi ilo Revolt tan jan ante"
     },
     "general": {
         "off": "ala",
         "disabled": "ken ala",
         "on": "lon",
         "loading": "o awen…",
-        "image_by": "sitelen li tan",
+        "image_by": "sitelen li tan jan",
         "privacy": "lipu pi lawa pi sona jan",
         "tos": "lipu pi lawa ilo",
         "about": "sona",
         "unavailable": "ken ala",
         "learn_more": "sona mute lon ni"
+    },
+    "actions": {
+        "submit": "o pana"
     }
 }
