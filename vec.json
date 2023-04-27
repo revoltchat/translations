@@ -122,7 +122,17 @@
                     "nochannels": "Sto servidor no gà mìa canai, o no te ghè aseso par nisun.",
                     "title": "Oops, no ghe xe njente cuà!"
                 },
-                "bridged": "El mesàjo ze stà invià da nantra piataforma"
+                "bridged": "El mesàjo ze stà invià da nantra piataforma",
+                "reactions": {
+                    "others_reacted": "{{userlist}} e altri {{count}} i gà reazìo",
+                    "unknown_reacted": "{{count}} parsone i gà reazìo",
+                    "single_reacted": "Na parsona gà reazìo",
+                    "people_reacted": "{{people}} i gà reazìo"
+                },
+                "user_timed_out": "'Sta utensa ła ze mudada par {{time}}.",
+                "new_to_revolt": "Novo in Revolt",
+                "new_to_server": "Novo inte 'sto servidor",
+                "team": "Comunicasion Ufisiałe"
             },
             "categories": {
                 "conversations": "Conversasion",
@@ -170,14 +180,14 @@
                     "2fa": {
                         "remove_auth": "Remóver Autenticador",
                         "add_auth": "Adisionar Autenticador",
-                        "title": "Autenticasion de Do-Fatori",
+                        "title": "Autenticasion a Do Fatori",
                         "description": "Adisiona un łìvel de pì de seguresa se ti abilitar el 2FA sù ła to conta.",
                         "view_recovery": "Védar Còdisi de Recupero",
                         "view_recovery_long": "Védar e scarigar to còdisi de recupero 2FA.",
                         "generate_recovery": "Zenerar Còdisi de Recupero",
                         "generate_recovery_long": "Inposta un mèdoto de recùpero par doparar el 2FA.",
-                        "two_factor_on": "Ła autenticasion de do-fatori xé inpisà.",
-                        "two_factor_off": "Ti no te ghè abiłità ła autenticasion de do-fatori!"
+                        "two_factor_on": "Ła autenticasion a do fatori ze inpisà.",
+                        "two_factor_off": "No te ghè abiłità ła autenticasion a do fatori!"
                     },
                     "manage": {
                         "title": "Gerensa de Conta",
@@ -221,7 +231,7 @@
                         "compact": "Compato"
                     },
                     "title": "Aparénsa",
-                    "sync": "Opsioni de Sincronisasion",
+                    "sync": "Opsioni de Sincronizasion",
                     "theme_options": {
                         "title": "Opsioni de Tema",
                         "follow": "Doparar el tema del sistema",
@@ -239,7 +249,9 @@
                     "appearance_options": {
                         "show_send_desc": "Se disativà, el boton de Inviar Mesàjo, el parirà sol' ntel mòbile.",
                         "show_send": "Senpre mostrar el boton de Inviar Mesàjo",
-                        "title": "Opsioni de Aspeto"
+                        "title": "Opsioni de Aspeto",
+                        "show_account_age": "Mostra senpre l'età de ła conta tacà ai mesàji d'entrada",
+                        "show_account_age_desc": "Se desativada, l'età de ła conta sarà mostrada solo par łe nove utense."
                     },
                     "accent_selector": "Cołor de Staco",
                     "import_theme": "Inportar un tema d'una linea",
@@ -263,8 +275,11 @@
                 },
                 "sync": {
                     "categories": "Sincronisar Categorie",
-                    "title": "Sincronisasion",
-                    "options": "Opsioni de Sincronisasion"
+                    "title": "Sincronizasion",
+                    "options": "Opsioni de Sincronizasion",
+                    "descriptions": {
+                        "appearance": "'Sto sincronizarà łe opsioni come i pacheti d'emoji e ła densità dei mesàji."
+                    }
                 },
                 "bots": {
                     "public_bot_tip": "El Bot el xe pùblego. Chisìa połe convidarlo.",
@@ -371,20 +386,20 @@
     },
     "login": {
         "title": "Asede",
-        "welcome": "Benvegnesto de volta!",
+        "welcome": "Benvenjùo(a)!",
         "welcome2": "Ciao!",
         "subtitle2": "Crea na conta",
         "register": "Registrate",
         "username": "Nome utensa",
         "email": "E-mail",
-        "subtitle": "Asede ntel Revolt",
+        "subtitle": "Asedi a Revolt",
         "invite": "Còdise de convite",
         "current_password": "Ciave atual",
         "enter": {
-            "username": "Inseri un nome utensa.",
+            "username": "Inseri el to nome utensa.",
             "password": "Inseri ła to ciave.",
             "invite": "Inseri el to còdise de convite.",
-            "email": "Inseri el to e-mail.",
+            "email": "Inseri el to email.",
             "current_password": "Inseri ła to ciave atual.",
             "new_password": "Inseri na nova ciave."
         },
@@ -393,7 +408,7 @@
         "set_password": "Determinar na nova ciave",
         "remembered": "Tornar al login",
         "missing_verification": "No gheto recevisto mia un e-mail?",
-        "resend": "Rinviar ła verificasion",
+        "resend": "Rinviar ła verifegasion",
         "cancel": "Cansełar ła solisitasion",
         "check_mail": "Verifica el to mail!",
         "check_spam": "Par piazer verifica el spam se no trovarlo mia",
