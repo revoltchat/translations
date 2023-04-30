@@ -82,7 +82,7 @@ The following table shows languages and people enlisted for verifying certain la
 |🪄|Enchantment Table / enchantment|||
 |🐖|Pig Latin / piglatin|||
 
-If you would like to maintain a language, please [open an issue](https://github.com/revoltchat/transations/issues/new/choose) with your request.
+If you would like to maintain a language, please [open an issue](https://github.com/revoltchat/translations/issues/new/choose) with your request.
 
 ### What do I do? 
 
