@@ -6,7 +6,7 @@
         "loading": "Duke u ngarkuar…",
         "on": "Ndezur",
         "off": "Fikur",
-        "unavailable": "I/e padisponueshme",
+        "unavailable": "I padisponueshem",
         "about": "Rreth",
         "disabled": "E bllokuar",
         "learn_more": "Më shumë informacione"
@@ -25,8 +25,9 @@
             "username": "Shkruaj emrin e dëshiruar.",
             "password": "Shkruani fjalëkalimin tuaj.",
             "current_password": "Shkruani fjalëkalimin tuaj aktual.",
-            "email": "Shkruani email-in tuaj.",
-            "invite": "Shkruani kodin e ftesës suaj."
+            "email": "Ju lutem shkruani email-in tuaj.",
+            "invite": "Shkruani kodin e ftesës suaj.",
+            "new_password": "Shkruaj një fjalëkalim të ri."
         },
         "forgot": "Harruat fjalëkalimin?",
         "reset": "Rivendosni fjalëkalimin",
@@ -45,7 +46,7 @@
             "resend": "Ridërgimi dështoi!",
             "verify": "Dështoi të verifikohej!"
         },
-        "welcome": "Mirëseerdhet sërish!",
+        "welcome": "Mirëseerdhe!",
         "email": "Adresa e email-it",
         "set_password": "Vendos fjalëkalimin e ri",
         "missing_verification": "Nuk morrët një email?",
@@ -57,7 +58,9 @@
         "unofficial_instance": "Instanc e palës së tretë.",
         "verified_continue": "Vazhdoni të identifikoheni",
         "verifying_account": "Po verifikon llogarinë tënde…",
-        "verified_account": "Llogaria juaj është verifikuar!"
+        "verified_account": "Llogaria juaj është verifikuar!",
+        "new_password": "Fjalëkalimi i ri",
+        "log_out_other": "Dilni nga të gjitha seancat e tjera"
     },
     "app": {
         "status": {
@@ -148,7 +151,8 @@
                     "new_messages": "Mesazhe të reja që nga {{time_ago}}",
                     "load_file": "Bashkangjitë skedar",
                     "spoiler_attachment": "Spoiler",
-                    "timed_out": "Ju jeni jashtë për kaqë kohë {{time}}."
+                    "timed_out": "Ju jeni jashtë për kaqë kohë {{time}}.",
+                    "not_loaded": "Mesazhi nuk është ngarkuar, klikoni për të kërcyer"
                 },
                 "nsfw": {
                     "channel": {
@@ -187,7 +191,17 @@
                     "toggle": "Ndrysho etiketimin e autorit"
                 },
                 "bridge": "Urë",
-                "user_timed_out": "Perdoruesi është jashtë për kaqë kohë {{time}}."
+                "user_timed_out": "Perdoruesi është jashtë për kaqë kohë {{time}}.",
+                "new_to_revolt": "I ri në Revolt",
+                "new_to_server": "I ri në këtë server",
+                "bridged": "Mesazhi është nisur në platform tjetër",
+                "team": "Komunikimi Zyrtar",
+                "reactions": {
+                    "others_reacted": "Reaguan {{userlist}} dhe {{count}} të tjerë",
+                    "unknown_reacted": "Kanë reaguar {{count}} njerëz",
+                    "single_reacted": "1 njeri reagoi",
+                    "people_reacted": "{{people}} reagoi"
+                }
             },
             "groups": {
                 "create": "Krijo një grup",
@@ -560,7 +574,7 @@
                     "title": "Klienti juaj është jo i përditësuar!",
                     "version": "Klienti juaj është {{client}}, ndersa serveri këkrkon {{server}}.",
                     "ignore": "Injoro përditësimin",
-                    "attempting": "Duke u përpjekur për të përditësuar...",
+                    "attempting": "Duke u përpjekur për të përditësuar…",
                     "description": "Duhet të përditësohet në mënyrë që të funksionojë me ndryshimet e fundit."
                 },
                 "sessions": {
@@ -596,6 +610,26 @@
                     "title": "Ndryshimet",
                     "description": "Lexoni rreth përditësimeve të Revolt.",
                     "older": "Shiko përditësimet më të vjetra"
+                },
+                "report": {
+                    "message": "Raporto Mesazhin",
+                    "by_name": "Raporto {{name}}",
+                    "reason": "Arsyje",
+                    "additional_context": "Informacian extra",
+                    "no_reason": "Asnjë arsyje / Arsyje tjetër",
+                    "content_reason": {
+                        "Illegal": "Përmbajtja shkel një ose më shumë ligje",
+                        "PromotesHarm": "Përmbajtja nxit dëmtimin e të tjerëve ose vetvetes",
+                        "SpamAbuse": "Ky është një abuzim i padëshiruar ose platformë",
+                        "Malware": "Ky është virus",
+                        "Harassment": "Ky është ngacmim ose abuzim i synuar ndaj një përdoruesi tjetër"
+                    },
+                    "user_reason": {
+                        "SpamAbuse": "Përdoruesi po dërgon spam ose po abuzon ndryshe me platformën"
+                    },
+                    "reported": "Raportuar",
+                    "thank_you": "Faleminderit për ndihmën për të mbajtur Revolt të sigurt. Ne do ta shqyrtojmë raportin tuaj sa më shpejt të jetë e mundur.",
+                    "block_user": "A do të bllokosh këtë përdorues?"
                 }
             },
             "friends": {
@@ -693,5 +727,26 @@
         "Masquerade": {
             "d": "Lejon anëtarët të ndryshojnë emrin dhe avatarin e tyre për çdo mesazh."
         }
+    },
+    "error": {
+        "NetworkError": "Error rrjeti.",
+        "Unauthorized": "Pa autorizim.",
+        "DatabaseError": "Error databaz.",
+        "InternalError": "Error i brendshëm.",
+        "MissingPermission": "Mungon leja.",
+        "Unlabelled": "Diçka ndothi."
+    },
+    "dayjs": {
+        "defaults": {
+            "date_format": "tradicional",
+            "twelvehour": "jo"
+        }
+    },
+    "notifications": {
+        "now_friends": "Tani je miq me @{{person}}!",
+        "sent_request": "@{{person}} ju dërgoi një kërkesë miqësie."
+    },
+    "actions": {
+        "submit": "dorëzojë"
     }
 }
