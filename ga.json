@@ -5,7 +5,7 @@
         "about": "Faoi",
         "on": "Ar Siúl",
         "disabled": "Faoi míchumas",
-        "unavailable": "Gan a bheith ar fáil",
+        "unavailable": "Níl sé ar fáil",
         "off": "As faidhm",
         "loading": "Ag Lódáil…",
         "image_by": "Íomhá ó",
@@ -141,7 +141,7 @@
                     "confirm": "Dearbhaím go bhfuil mé ocht mbliana déag d'aois (18) ar a laghad."
                 },
                 "edited": "(athraithe)",
-                "bot": "róbat",
+                "bot": "Róbat",
                 "notifications": {
                     "default": "Úsáid Gnáth-shocraithe",
                     "all": "Gach Teachtaireacht",
@@ -177,7 +177,15 @@
                 "bridged": "Seoladh an teachtaireacht chuig ardán eile",
                 "team": "Cumarsáid Oifigiúil",
                 "bridge": "droichead",
-                "user_timed_out": "Tá an t-am istigh ag úsáideoir {{time}}."
+                "user_timed_out": "Tá an t-am istigh ag úsáideoir {{time}}.",
+                "new_to_revolt": "Nua san Revolt",
+                "new_to_server": "Nua don fhreastalaí seo",
+                "reactions": {
+                    "others_reacted": "D'fhreagair {{userlist}} agus {{count}} duine eile",
+                    "unknown_reacted": "D'fhreagair {{count}} duine",
+                    "single_reacted": "D'fhreagair 1 duine",
+                    "people_reacted": "D'fhreagair {{people}}"
+                }
             },
             "groups": {
                 "create": "Cruthaigh grúpa",
@@ -223,12 +231,15 @@
                         "remove_auth": "Bain Fíordheimhnitheoir",
                         "view_recovery": "Féach Cóid Aisghabhála",
                         "view_recovery_long": "Féach ar agus íoslódáil do chóid aisghabhála 2FA.",
-                        "generate_recovery": "Gin Cóid Aisghabhála"
+                        "generate_recovery": "Gin Cóid Aisghabhála",
+                        "two_factor_off": "Níl fíordheimhniú dhá fhachtóir cumasaithe agat!",
+                        "generate_recovery_long": "Faigh réidh le 2FA a úsáid trí mhodh athshlánaithe a shocrú.",
+                        "two_factor_on": "Tá fíordheimhniú dhá fhachtóir ar siúl faoi láthair."
                     },
                     "manage": {
                         "title": "Bainistíocht Cuntais",
                         "disable": "Cuntas Díchumasaithe",
-                        "delete": "scrios Cuntas",
+                        "delete": "Marcáil Cuntas lena Scriosadh",
                         "description": "Díchumasaigh no scrios do chuntas ag am ar bith. Daenfaidh an gníomh seo tú a logáil amach agus do chuntas a scriosadh go hiomlán, lena n-áirítear do stair comhrá agus do chairde."
                     },
                     "unique_id": "Is aitheantóir uathúil úsáideoira e seo i gcór do chuntas."
@@ -296,6 +307,17 @@
                         "seasonal_desc": "Léiríonn sé maisíochtaí sa táb baile i rith am saoire na Nollag.",
                         "transparency_desc": "Cumasaíonn éifeachtaí trédhearcachta ar fud an aip.",
                         "transparency": "Éifeachtaí Trédhearcachta"
+                    },
+                    "discover": {
+                        "description": "Brabhsáil téamaí a rinne an pobal",
+                        "title": "Faigh amach Téamaí"
+                    },
+                    "appearance_options": {
+                        "show_account_age": "Taispeáin aois an chuntais in aice le teachtaireachtaí a pháirtiú i gcónaí",
+                        "show_account_age_desc": "Má tá sé díchumasaithe, ní thaispeánfar an aois chuntais ach d'úsáideoirí nua.",
+                        "title": "Roghanna Dealramh",
+                        "show_send": "Taispeáin an cnaipe Seol Teachtaireacht i gcónaí",
+                        "show_send_desc": "Má tá sé díchumasaithe, ní bheidh an cnaipe Seol Teachtaireacht le feiceáil ach ar shoghluaiste."
                     }
                 },
                 "sync": {
@@ -320,7 +342,8 @@
                     "issue": "Chruthú tál nua",
                     "issue_desc": "Le cuidiú linn saincheisteanna a thriail níos éasca, is féidir leat saincheist a chruthú ar GitHub.",
                     "bug_desc": "Féach tuairiscí gníomhacha fabht anseo faoi láthair.",
-                    "bug": "Rianaithe Bug"
+                    "bug": "Rianaithe Bug",
+                    "description": "Cuir isteach aiseolas"
                 },
                 "notifications": {
                     "enable_push": "Cuir fógraí push ar siúl.",
@@ -371,7 +394,7 @@
                     "title": "Siopa Téama",
                     "by": "ó",
                     "description": "Brabhsáil na céadta téama, cruthaithe agus coimeádaithe ag an bpobal.",
-                    "search": "Cuardaigh téamaí...",
+                    "search": "Cuardaigh téamaí…",
                     "category": {
                         "saved": "Sábhailte",
                         "manage": "Shábháil a bhainistiú",
@@ -383,7 +406,13 @@
                     "active": "Gníomhach anois",
                     "use": "Usáid téama"
                 },
-                "logOut": "Logáil Amach"
+                "logOut": "Logáil Amach",
+                "plugins": {
+                    "title": "Breiseáin",
+                    "wip": "Rabhadh: Tá an ghné seo fós á forbairt.",
+                    "delete_plugin": "Scrios",
+                    "no_plugins": "Níl aon breiseán suiteáilte faoi láthair."
+                }
             },
             "server_pages": {
                 "invites": {
@@ -417,6 +446,13 @@
                 },
                 "management": {
                     "title": "Bainistaíocht Úsáideoir"
+                },
+                "emojis": {
+                    "upload": "Íoslódáil an Emoji",
+                    "title": "Emojis"
+                },
+                "customisation": {
+                    "title": "Saincheapadh"
                 }
             },
             "permissions": {
@@ -424,7 +460,10 @@
                 "server": "Ceadanna Freastalaí",
                 "channel": "Ceadanna Cainéal",
                 "create_role": "Cruthaigh ról nua",
-                "role_name": "Ainm Róil"
+                "role_name": "Ainm Róil",
+                "role_colour": "Dath Ról",
+                "role_options": "Roghanna Róil",
+                "role_ranking": "Rólrangú"
             },
             "channel_pages": {
                 "overview": {
@@ -696,7 +735,7 @@
             "email": "Cuir isteach do ríomhphost.",
             "password": "Iontráil isteach do phasfhocal.",
             "current_password": "Iontráil isteach do phasfhocal reatha.",
-            "username": "Cuir isteach ainm úsáideora.",
+            "username": "Cuir isteach d'ainm úsáideora.",
             "invite": "Iontráil isteach do chód cuiridh.",
             "new_password": "Cuir isteach pasfhocal nua."
         },
@@ -725,7 +764,7 @@
         "resend": "Cuir fíorú arís",
         "email_delay": "Lig suas go dtí 10 nóiméad chun go dtiocfaidh sé le do thoil.",
         "successful_registration": "Cláraithe go rathúil!",
-        "welcome": "Fáilte ar ais!",
+        "welcome": "Fáilte romhat!",
         "subtitle": "Sínigh isteach i Revolt",
         "welcome2": "Haigh!",
         "subtitle2": "Cruthaigh cuntas",
@@ -736,7 +775,7 @@
         "verified_account": "Tá do chuntas fíoraithe!",
         "verified_continue": "Lean ort ag logáil isteach",
         "new_password": "Focal Faire Nua",
-        "log_out_other": "Logáil amach gach seisiún eile"
+        "log_out_other": "Logáil amach as gach seisiún eile"
     },
     "quantities": {
         "members": {
