@@ -15,7 +15,8 @@
                     "jump_beginning": "처음으로 돌아가기",
                     "new_messages": "{{time_ago}} 이후의 새 메시지",
                     "load_file": "파일 불러오기",
-                    "timed_out": "{{time}} 동안 타임아웃됐어요."
+                    "timed_out": "{{time}} 동안 타임아웃됐어요.",
+                    "not_loaded": "메시지를 불러오지 못했어요. 최신 메시지로 이동하려면 클릭하세요"
                 },
                 "search": {
                     "sort": {
@@ -92,8 +93,11 @@
                 "reactions": {
                     "unknown_reacted": "{{count}}명이 반응했어요",
                     "single_reacted": "1명이 반응했어요",
-                    "people_reacted": "{{people}}이(가) 반응했어요"
-                }
+                    "people_reacted": "{{people}}이(가) 반응했어요",
+                    "others_reacted": "{{userlist}}님과 {{count}}명의 사람들이 반응했어요"
+                },
+                "new_to_revolt": "Revolt는 처음이에요",
+                "new_to_server": "이 서버는 처음이에요"
             },
             "groups": {
                 "create": "그룹 만들기",
@@ -461,7 +465,10 @@
             "quote_message": "메시지 인용하기",
             "edit_identity": "서버별 프로필 수정",
             "mark_unread": "읽지 않음으로 표시",
-            "make_owner": "그룹에 소유권 부여"
+            "make_owner": "그룹에 소유권 부여",
+            "report_message": "메시지 신고하기",
+            "report_user": "사용자 신고하기",
+            "report_server": "서버 신고하기"
         },
         "navigation": {
             "tabs": {
@@ -634,12 +641,27 @@
                 },
                 "report": {
                     "reported": "신고되었습니다",
-                    "thank_you": "Revolt를 안전하게 만들어주셔서 감사해요. 최대한 빨리 신고내용을 확인해볼께요.",
+                    "thank_you": "Revolt를 안전하게 만들어주셔서 감사해요. 최대한 빨리 신고내용을 확인해볼게요.",
                     "block_user": "이 사용자를 차단하시겠습니까?",
                     "message": "메세지 신고",
                     "by_name": "{{name}} 신고",
                     "reason": "이유",
-                    "additional_context": "추가적인 정보"
+                    "additional_context": "추가적인 정보",
+                    "content_reason": {
+                        "Malware": "멀웨어",
+                        "Illegal": "콘텐츠가 하나 이상의 법률을 위반함",
+                        "PromotesHarm": "콘텐츠가 다른 사람 혹은 자신에게 해를 끼치도록 조장함",
+                        "Harassment": "다른 사용자를 대상으로 한 괴롭힘 혹은 폭력",
+                        "SpamAbuse": "스팸 혹은 플랫폼 남용"
+                    },
+                    "user_reason": {
+                        "SpamAbuse": "사용자가 스팸 메시지를 전송하거나 플랫폼을 남용하고 있음",
+                        "Underage": "이 사용자는 계정을 소유할 수 있는 나이가 아님",
+                        "Impersonation": "이 사용자가 다른 사람을 사칭하고 있음",
+                        "InappropriateProfile": "사용자의 프로필이 공개 석상에서 적합하지 않음",
+                        "BanEvasion": "이 사용자는 차단을 피하고 있음"
+                    },
+                    "no_reason": "특별한 이유 없음 / 기타"
                 }
             },
             "friends": {
@@ -929,6 +951,10 @@
         "members": {
             "one": "멤버 1명",
             "many": "멤버 {{count}}명"
+        },
+        "dropFiles": {
+            "one": "파일 드롭",
+            "many": "{{count}}개의 파일 드롭"
         }
     },
     "dayjs": {
