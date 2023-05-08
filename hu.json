@@ -30,7 +30,7 @@
         "reset": "Jelszóváltoztatás kérése",
         "successful_registration": "Regisztráltál, hurrá.",
         "open_mail_provider": "{{provider}} megnyitása",
-        "cancel": "Folyamat megszakítása",
+        "cancel": "Mégse",
         "existing": "Van már fiókod?",
         "remembered": "Vissza a bejelentkezéshez",
         "username": "Felhasználónév",
@@ -48,19 +48,19 @@
         "set_password": "Add meg az új jelszavad",
         "current_password": "Mostani jelszavad",
         "invite": "Meghívókód",
-        "email_delay": "A leveled 10 percen belül meg fog érkezni.",
+        "email_delay": "Az email 10 percen belül meg fog érkezni.",
         "subtitle": "Bejelentkezés a Revoltba",
         "welcome": "Üdv!",
         "welcome2": "Szia!",
         "subtitle2": "Fiók létrehozása",
-        "unofficial_instance": "Ezt egy harmadik személy üzemelteti",
+        "unofficial_instance": "Ezt egy harmadik-fél üzemelteti",
         "totp": "Hitelesítést végző app",
         "recovery": "Helyreállító kód",
         "verifying_account": "A fiókod igazolódik…",
         "verified_account": "A fiókod igazolva lett",
         "verified_continue": "Tovább a bejelentkezéshez",
         "new_password": "Új jelszó",
-        "log_out_other": "Kijelentkezés az összes többi munkamenetből"
+        "log_out_other": "Kijelentkezés az összes többi fiókból"
     },
     "app": {
         "main": {
@@ -98,10 +98,10 @@
                 },
                 "edited": "(módosítva)",
                 "voice": {
-                    "connected": "Hanggal csatlakoztál",
+                    "connected": "Csatlakoztál a hívásba",
                     "mute": "Némítás",
                     "unmute": "Némítás feloldása",
-                    "leave": "Hívás vége"
+                    "leave": "Kilépés a hívásból"
                 },
                 "misc": {
                     "viewing_old": "ezek a régebbi üzenetek",
@@ -109,14 +109,14 @@
                     "spoiler_attachment": "Spoiler",
                     "failed_load": "Nem lehetett betölteni az üzenetet.",
                     "no_sending": "Engedély nélkül nem küldhetsz üzeneteket ide.",
-                    "blocked_messages": "{{count}} kizárt üzenet",
-                    "blocked_user": "Kizárt felhasználó",
+                    "blocked_messages": "{{count}} letiltott üzenet",
+                    "blocked_user": "Letiltott felhasználó",
                     "sent_file": "csatolmányt küldött",
                     "sent_multiple_files": "több csatolmányt küldött",
                     "jump_beginning": "ugrás az újakhoz",
                     "new_messages": "{{time_ago}} érkeztek új üzenetek",
                     "load_file": "Fájl betöltése",
-                    "timed_out": "{{time}}ig eltiltottak.",
+                    "timed_out": "{{time}}ig lenémítottak.",
                     "not_loaded": "Az üzenet nem lett betöltve – kattints az ugráshoz"
                 },
                 "notifications": {
@@ -199,7 +199,7 @@
                     "logout": "Kijelentkezés az összes többi munkamenetből"
                 },
                 "appearance": {
-                    "import_theme": "Színséma importálása stringből",
+                    "import_theme": "Színséma importálása szövegből",
                     "import_manual": "Kézi importálás",
                     "theme_data": "Színséma adata",
                     "overrides": "Színséma felülírása",
@@ -287,10 +287,10 @@
                     "enable_outgoing_sound": "Hang lejátszása üzenetek küldésekor.",
                     "sounds": "Hangos értesítés",
                     "descriptions": {
-                        "enable_desktop": "Értesítéseket fogsz kapni, amíg az app nyitva marad.",
+                        "enable_desktop": "Értesítéseket fogsz kapni, amíg az applikáció nyitva marad.",
                         "enable_push": "További értesítéseket kapsz majd, amíg offline leszel.",
-                        "enable_sound": "Kapcsold be ahhoz, hogy hangot játsszunk le amikor megérkezik egy üzenet.",
-                        "enable_outgoing_sound": "Kapcsold be ahhoz, hogy egy hangot játsszunk le amikor elküldesz egy üzenetet."
+                        "enable_sound": "Kapcsold be ahhoz, hogy hangot játsszunk le, ha megérkezik egy üzenet.",
+                        "enable_outgoing_sound": "Kapcsold be ahhoz, hogy egy hangot játsszunk le, ha elküldesz egy üzenetet."
                     },
                     "enable_push": "Leküldéses értesítések engedélyezése",
                     "push_notifications": "Leküldéses értesítés",
@@ -314,13 +314,13 @@
                 "feedback": {
                     "title": "Visszajelzés",
                     "report": "Mit szeretnél bejelenteni?",
-                    "bug": "Bug Tracker",
+                    "bug": "Hibakövető",
                     "feature": "Funkció kérelmezése",
                     "other": "Más (Írd ide)",
                     "send": "Visszajelzés beküldése",
                     "describe": "Kérjük, írd ismertesd a problémát.",
-                    "suggest": "Featurejavaslat írása",
-                    "suggest_desc": "Javasolj új Revolt feature-öket a GitHub Discussions oldalon!",
+                    "suggest": "Javaslat beküldése",
+                    "suggest_desc": 'Javasolj új funkciókat a Revolt "GitHub Discussions" oldalon!',
                     "issue": "Új issue létrehozása",
                     "bug_desc": "Az aktív hibajelentéseket itt láthatod.",
                     "issue_desc": "A GitHubon hozhatsz létre egy új issue-t, hogy segíthess nekünk könnyebben triage-elni azokat.",
@@ -463,7 +463,7 @@
                     "system_messages": "Rendszerértesítések csatornái"
                 },
                 "roles": {
-                    "title": "Titulusok"
+                    "title": "Rangok"
                 },
                 "categories": {
                     "title": "Kategóriák"
@@ -472,8 +472,8 @@
                     "title": "Felhasználók kezelése"
                 },
                 "emojis": {
-                    "title": "Emodzsik",
-                    "upload": "Emodzsi feltöltése"
+                    "title": "Hangulatjelek",
+                    "upload": "Hangulatjelek feltöltése"
                 },
                 "customisation": {
                     "title": "Testreszabás"
@@ -483,16 +483,16 @@
                 "channel": "Csatornaszintű engedélyek",
                 "default_role": "Alapértelmezett",
                 "server": "Szerverszintű engedélyek",
-                "create_role": "Új titulus létrehozása",
-                "role_name": "Titulus címe",
-                "role_colour": "Titulus színe",
-                "delete_role": "Titulus törlése",
+                "create_role": "Új rang létrehozása",
+                "role_name": "Rang címe",
+                "role_colour": "Rang színe",
+                "delete_role": "Rang törlése",
                 "title": "{{role}} engedélyei",
-                "hoist_desc": "A titulus megjelenítése a többi felett.",
+                "hoist_desc": "A rang megjelenítése a többi felett.",
                 "edit_title": "Engedélyek szerkesztése",
-                "role_ranking": "Titulusok rangsorolása",
-                "role_options": "Titulusok beállításai",
-                "hoist_role": "Titulus kiemelése"
+                "role_ranking": "Rangok rangsorolása",
+                "role_options": "Rangok beállításai",
+                "hoist_role": "Rang kiemelése"
             }
         },
         "special": {
@@ -763,7 +763,7 @@
             "offline": "Offline",
             "invisible": "Láthatatlan",
             "busy": "Ne zavard",
-            "idle": "Nem csinál semmit",
+            "idle": "Tétlen",
             "online": "Online",
             "reconnect": "Újracsatlakozás",
             "focus": "Figyelek, ha megemlítesz"
@@ -778,7 +778,7 @@
             "donate": "Adományozz a Revoltnak",
             "feedback": "Jelezz vissza nekünk",
             "settings": "Beállítások megnyitása",
-            "social": "Szerverek és ’botok",
+            "social": "Szerverek és ’robik",
             "directs": "Közvetlen üzenetek",
             "join-testers_desc": "Közvetlenül itt jelezhetsz az issue-król és vitathatod meg velünk a továbbfejlesztéseket.",
             "donate_desc": "Adományozz a projektnek – ezzel is támogatod. Köszönjük!",
@@ -931,15 +931,15 @@
             "d": "A tagok üzenetküldésenként változtathatják meg profilképüket és becenevüket."
         },
         "ManageRole": {
-            "t": "Kezelhetnek titulusokat",
-            "d": "A tagok a többi taghoz képest alacsonyabb ranggal is létrehozhatnak titulusokat és módosíthatják és törölhetik is a többi, magasabb rangú tag titulusait. A titulusokhoz hozzárendelt csatornaszintű engedélyeket is módosíthatják."
+            "t": "Kezelhetnek rangokat",
+            "d": "A tagok a többi taghoz képest alacsonyabb ranggal is létrehozhatnak rangokat és módosíthatják és törölhetik is a többi, magasabb rangú tag rangjait. A rangokhoz hozzárendelt csatornaszintű engedélyeket is módosíthatják."
         },
         "ViewChannel": {
             "t": "Láthatják a csatornákat",
             "d": "A tagok számára minden csatorna látható lesz."
         },
         "ManagePermissions": {
-            "d": "A tagok alacsonyabb ranggal is szerkeszthetik a csatornák és titulusok engedélyeit.",
+            "d": "A tagok alacsonyabb ranggal is szerkeszthetik a csatornák és rangok engedélyeit.",
             "t": "Engedélyek kezelése"
         },
         "Connect": {
@@ -971,8 +971,8 @@
             "t": "Tageltiltás"
         },
         "AssignRoles": {
-            "d": "A tagok alacsonyabb ranggal is hozzárendelhetnek titulusokat a többi taghoz.",
-            "t": "Titulusok hozzárendelése"
+            "d": "A tagok alacsonyabb ranggal is hozzárendelhetnek rangokat a többi taghoz.",
+            "t": "Rangok hozzárendelése"
         },
         "ManageWebhooks": {
             "t": "Kezelhetnek Webhookokat",
