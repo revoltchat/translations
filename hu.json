@@ -79,7 +79,7 @@
                     "user_banned": "{{user}} ki lett tiltva",
                     "user_kicked": "{{user}} ki lett rúgva",
                     "channel_ownership_changed": "{{from}} átruházta a csoport tulajdonjogát {{to}} tagnak",
-                    "registered_at": "{{time}}[-kor] regisztrált"
+                    "registered_at": "{{time}} regisztrált"
                 },
                 "typing": {
                     "several": "Többen is gépelnek…",
@@ -104,16 +104,16 @@
                     "leave": "Hívás vége"
                 },
                 "misc": {
-                    "viewing_old": "ezek a régebbi üzenetek",
+                    "viewing_old": "a régen írt üzeneteket látod",
                     "jump_present": "ugrás a mostaniakhoz",
                     "spoiler_attachment": "Spoiler",
                     "failed_load": "Nem lehetett betölteni az üzenetet.",
-                    "no_sending": "Engedély nélkül nem küldhetsz üzeneteket ide.",
+                    "no_sending": "ide nincs engedélyed üzenetet írni",
                     "blocked_messages": "{{count}} kizárt üzenet",
                     "blocked_user": "Kizárt felhasználó",
                     "sent_file": "csatolmányt küldött",
                     "sent_multiple_files": "több csatolmányt küldött",
-                    "jump_beginning": "ugrás az újakhoz",
+                    "jump_beginning": "ugrás az elejéhez",
                     "new_messages": "{{time_ago}} érkeztek új üzenetek",
                     "load_file": "Fájl betöltése",
                     "timed_out": "{{time}}ig eltiltottak.",
@@ -131,7 +131,7 @@
                         "marked": "Ez a csatorna NSFW-ként van jelölve.",
                         "confirm": "Belépés a csatornába"
                     },
-                    "confirm": "Kijelentem, hogy elmúltam 18 éves"
+                    "confirm": "Kijelentem, hogy elmúltam 18 éves:"
                 },
                 "search": {
                     "title": "Keresés",
@@ -228,7 +228,7 @@
                     "mono_font": "Azonos szélességű betűtípus",
                     "font": "Betűtípus",
                     "import": "Színséma importálása",
-                    "ligatures_desc": "A ligatúrákat támogató betűtípusok bizonyos karakteregyütteseket egybeírva jelenítenek meg, mint például -> gépelésével jobbra nyíl jelenik meg.",
+                    "ligatures_desc": "A ligatúrákat támogató betűtípusok bizonyos karakteregyütteseket egybeírva jelenítenek meg: például -> gépelésével jobbra nyíl jelenik meg.",
                     "theme_options": {
                         "title": "Színséma beállításai",
                         "follow": "Rendszerszínsémához alkalmazkodás",
@@ -539,7 +539,7 @@
                     "confirm_ban": "Ezennel {{name}} ki lesz tiltva innen",
                     "create_invite_generate": "Meghívó létrehozása…",
                     "block_user": "Kizárod őt? „{{name}}”",
-                    "unfriend_user": "Eltávolítod az ismerőseid közül őt? „{{name}}”",
+                    "unfriend_user": "Te és {{name}} nem lesztek ismerősök",
                     "unfriend_user_long": "Nem fogsz tudni többé kapcsolatba lépni vele, amíg újból ismerősnek nem jelölöd.",
                     "block_user_long": "Tényleg ki szeretnéd zárni {{name}} tagot? Az ismerőseid közül is törölve lesz.",
                     "members_not_notified": "A többi tag nem lesz értesítve",
@@ -792,10 +792,10 @@
     },
     "dayjs": {
         "nextWeek": "dddd {{time}}[-kor]",
-        "lastWeek": "[múlt] dddd {{time}}[-kor]",
-        "nextDay": "[holnap] {{time}}[-kor]",
-        "sameDay": "[ma] {{time}}[-kor]",
-        "lastDay": "[tegnap] {{time}}[-kor]",
+        "lastWeek": "[múlt] dddd {{time}}",
+        "nextDay": "[holnap] {{time}}",
+        "sameDay": "[ma] {{time}}",
+        "lastDay": "[tegnap] {{time}}",
         "sameElse": "L",
         "defaults": {
             "date_format": "ISO8601",
