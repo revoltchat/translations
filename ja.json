@@ -3,7 +3,7 @@
         "settings": {
             "tips": {
                 "account": {
-                    "b": "自分のプロフィール設定に進みます。",
+                    "b": "プロフィール設定に進みます。",
                     "a": "公開されているプロフィールをカスタマイズしたいですか？"
                 },
                 "languages": {
@@ -11,7 +11,7 @@
                     "a": "希望する言語がありませんか？"
                 },
                 "sessions": {
-                    "a": "不明なセッションがリストに表示されている場合は",
+                    "a": "不審なセッションが表示されている場合は",
                     "b": "パスワードを変更し、二要素認証を使用してアカウントを保護してください。"
                 }
             },
@@ -141,7 +141,7 @@
                 "appearance": {
                     "ligatures_desc": "いくつかのフォントでは合字がサポートされています。例えば、 「-> 」が 「→ 」のように表示されます。",
                     "ligatures": "フォント合字",
-                    "mono_font": "等幅フォントセレクター",
+                    "mono_font": "等幅フォントを選択",
                     "font": "フォント",
                     "sync": "同期オプション",
                     "custom_css": "カスタムCSS",
@@ -160,7 +160,7 @@
                     },
                     "display": {
                         "compact_description": "古き良き時代のIRC。",
-                        "default_description": "美しく、洗練された、モダンなデザイン。",
+                        "default_description": "美しく洗練されたモダンなデザイン。",
                         "compact": "コンパクト",
                         "default": "デフォルト"
                     },
@@ -209,7 +209,7 @@
                     "edit_background": "背景を編集",
                     "custom_background": "カスタム背景",
                     "profile_picture": "プロフィール写真",
-                    "placeholder": "自分のことを紹介しましょう…",
+                    "placeholder": "自分について紹介しましょう…",
                     "fetching": "あなたのプロフィールを取得しています…",
                     "info": "インフォメーション",
                     "title": "プロフィール"
@@ -222,16 +222,16 @@
                         "title": "アカウント管理"
                     },
                     "2fa": {
-                        "remove_auth": "Authenticatorの削除",
+                        "remove_auth": "二要素認証を無効化",
                         "add_auth": "Authenticatorの追加",
                         "description": "あなたのアカウントで二要素認証を有効にすることで、さらにセキュリティを高めることができます。",
-                        "title": "2段階認証",
+                        "title": "二要素認証",
                         "view_recovery": "リカバリコードを表示",
                         "view_recovery_long": "2FA リカバリー コードを表示してダウンロードします。",
                         "generate_recovery": "リカバリ コードの生成",
                         "generate_recovery_long": "復元方法を設定して、二段階認証を使用する準備を整えます。",
-                        "two_factor_on": "現在、二要素認証を使用しています。",
-                        "two_factor_off": "現在、二要素認証を使っていません！"
+                        "two_factor_on": "二要素認証を使用しています。",
+                        "two_factor_off": "二要素認証を使っていません！"
                     },
                     "unique_id": "これは、あなたのアカウントに固有のユーザー識別子です。",
                     "change_field": "変更",
@@ -328,7 +328,7 @@
                 "edited": "(編集済)",
                 "unknown_user": "＜不明なユーザー＞",
                 "nsfw": {
-                    "confirm": "私は、自分が18歳以上であることを確認します。",
+                    "confirm": "私は18歳以上であることに同意します。",
                     "channel": {
                         "confirm": "チャンネルに入る",
                         "marked": "このチャンネルはNSFWとしてマークされています。"
@@ -394,16 +394,16 @@
                     "toggle": "作成者への通知を切り替える"
                 },
                 "bridge": "ブリッジ",
-                "user_timed_out": "ユーザーは{{time}}でタイムアウトしました。",
+                "user_timed_out": "ユーザーは{{time}}間タイムアウトされています。",
                 "bridged": "別のプラットフォームでメッセージが送信された",
                 "team": "公式コミュニティー",
                 "new_to_revolt": "新規登録日時 Revolt",
                 "new_to_server": "このサーバーの新機能",
                 "reactions": {
-                    "others_reacted": "{{userlist}}と{{count}} の他の人が反応しました",
-                    "unknown_reacted": "{{count}} 人々は反応した",
-                    "single_reacted": "一 人が反応しました",
-                    "people_reacted": "{{people}} 行動した"
+                    "others_reacted": "{{userlist}}と{{count}} 人が反応しました",
+                    "unknown_reacted": "{{count}} 人が反応しました",
+                    "single_reacted": "一人が反応しました",
+                    "people_reacted": "{{people}} が反応しました"
                 }
             },
             "categories": {
@@ -424,7 +424,7 @@
         },
         "status": {
             "offline": "オフライン",
-            "invisible": "ステータスを隠す",
+            "invisible": "オンライン状態を隠す",
             "busy": "取り込み中",
             "idle": "離席中",
             "online": "オンライン",
@@ -440,8 +440,8 @@
                 "incoming": "フレンドリクエストが来ています。",
                 "outgoing": "送信済みのフレンドリクエスト。",
                 "from": {
-                    "single": "{{user}}より",
-                    "multiple": "{{userlist}}と{{user}}より",
+                    "single": "{{user}}から",
+                    "multiple": "{{userlist}}と{{user}}から",
                     "several": "{{userlist}}さんと他{{count}}名より…"
                 }
             },
@@ -509,7 +509,7 @@
                 },
                 "clipboard": {
                     "unavailable": "クリップボードを使用できません！",
-                    "https": "現在、HTTPS環境ではありません。",
+                    "https": "HTTPS環境ではありません。",
                     "copy": "手動でコピー:"
                 },
                 "external_links": {
@@ -552,8 +552,8 @@
                         "SpamAbuse": "ユーザーがスパムを送信するなど、プラットフォームを悪用している場合",
                         "InappropriateProfile": "ユーザーのプロフィールが一般視聴者に不適切な場合",
                         "Impersonation": "ユーザーは他人になりすましている",
-                        "BanEvasion": "このユーザーは禁止を回避している",
-                        "Underage": "このユーザーはアカウントを持つのに十分な年齢ではありません"
+                        "BanEvasion": "このユーザーはBANを回避しています",
+                        "Underage": "このユーザーはアカウントを作成するのに十分な年齢を満たしていません"
                     },
                     "message": "メッセージのレポート",
                     "no_reason": "特に理由はない / その他の理由",
@@ -561,7 +561,7 @@
                     "reason": "理由",
                     "additional_context": "追加情報",
                     "content_reason": {
-                        "Illegal": "コンテンツが1つまたは複数の法律に違反している",
+                        "Illegal": "コンテンツが1つまたは複数の規約に違反しています",
                         "PromotesHarm": "他者または自己への危害を助長する内容",
                         "SpamAbuse": "これはスパムまたはプラットフォームの乱用です",
                         "Malware": "これはマルウェアです",
@@ -611,7 +611,7 @@
             "copy": "クリックしてコピー",
             "status": {
                 "offline": "オフライン。",
-                "disconnected": "接続切れ。",
+                "disconnected": "切断されました。",
                 "connecting": "接続中…",
                 "reconnecting": "再接続中…"
             },
@@ -718,7 +718,7 @@
         },
         "successful_registration": "登録が完了しました！",
         "open_mail_provider": "{{provider}} を開く",
-        "check_spam": "見つからない場合は、迷惑メールをご確認ください",
+        "check_spam": "メールが届かない場合は、迷惑メールをご確認ください",
         "email_delay": "メールを受信するまで10分程度かかる場合があります。",
         "check_mail": "メールをチェック！",
         "cancel": "ログインをキャンセルする",
@@ -937,7 +937,7 @@
             "d": "リンク内に含まれている埋め込みコンテンツを送信できるようにする。"
         },
         "Video": {
-            "t": "動画放送",
+            "t": "動画",
             "d": "音声チャンネル内で動画を生配信できるようにします。"
         },
         "MoveMembers": {
