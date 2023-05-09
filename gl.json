@@ -1,1 +1,254 @@
-{}
+{
+    "general": {
+        "tos": "Condicións do servizo",
+        "privacy": "Política de privacidade",
+        "loading": "Cargando…",
+        "on": "Activado",
+        "off": "Desactivado",
+        "disabled": "Desactivado",
+        "unavailable": "Non dispoñible",
+        "learn_more": "Saber máis",
+        "about": "Acerca de",
+        "image_by": "Imaxe de"
+    },
+    "actions": {
+        "submit": "Enviar"
+    },
+    "login": {
+        "title": "Iniciar sesión",
+        "welcome": "Benvido!",
+        "welcome2": "Ola!",
+        "subtitle2": "Crear unha conta",
+        "register": "Rexistrarse",
+        "username": "Nome de usuario",
+        "email": "Correo electrónico",
+        "password": "Contrasinal",
+        "new_password": "Novo contrasinal",
+        "totp": "Aplicación de autenticación",
+        "invite": "Código de invitación",
+        "current_password": "Contrasinal actual",
+        "log_out_other": "Pechar tódalas outras sesións",
+        "enter": {
+            "password": "Escribe o teu contrasinal.",
+            "email": "Escribe o teu correo electrónico.",
+            "new_password": "Escribe un novo contrasinal.",
+            "invite": "Escribe o teu código de invitación.",
+            "username": "Escribe un nome de usuario.",
+            "current_password": "Escribe o teu contrasinal actual."
+        },
+        "forgot": "Olvidaches o contrasinal?",
+        "reset": "Restablecer o contrasinal",
+        "set_password": "Establecer un novo contrasinal",
+        "remembered": "Voltar ao inicio de sesión",
+        "new": "Novo en Revolt?",
+        "existing": "Xa tes unha conta?",
+        "create": "Crear unha conta nova",
+        "resend": "Reenviar verificación",
+        "cancel": "Cancelar a solicitude",
+        "check_mail": "Revisa o teu correo electrónico!",
+        "email_delay": "Por favor, agarda ata 10 minutos para que chegue.",
+        "open_mail_provider": "Abrir {{provider}}",
+        "successful_registration": "Rexistrado correctamente!",
+        "verifying_account": "Verificando a túa conta…",
+        "verified_account": "A túa conta foi verificada!",
+        "verified_continue": "Continuar ao inicio de sesión",
+        "error": {
+            "create": "Erro ao rexistrarse!",
+            "login": "Error ao iniciar sesión!",
+            "verify": "Error ao verificar!",
+            "reset": "Non se puido restablecer!",
+            "resend": "Non se puido reenviar!"
+        },
+        "unofficial_instance": "Instancia de terceiros.",
+        "subtitle": "Iniciar sesión en Revolt",
+        "recovery": "Código de recuperación",
+        "missing_verification": "Non recibiches un correo electrónico?",
+        "check_spam": "Por favor, revisa o cartafol de spam se non o atopas"
+    },
+    "app": {
+        "status": {
+            "online": "En liña",
+            "idle": "Ausente",
+            "busy": "Non molestar",
+            "invisible": "Invisible",
+            "offline": "Desconectado",
+            "reconnect": "Reconectar",
+            "focus": "Concentrado"
+        },
+        "navigation": {
+            "tabs": {
+                "home": "Inicio",
+                "dev": "Desenvolvedor",
+                "friends": "Amigos",
+                "unreads": "Non lidos",
+                "saved": "Notas gardadas"
+            }
+        },
+        "home": {
+            "directs": "Mensaxes directas",
+            "join-testers": "Unirse ao servidor de probadores",
+            "goto-testers": "Ir ao servidor de probadores",
+            "goto-testers_desc": "Podes informar de problemas e discutir melloras connosco directamente aquí.",
+            "donate": "Donar a Revolt",
+            "donate_desc": "Apoia o proxecto facendo unha doación - grazas!",
+            "feedback": "Envía comentarios sobre Revolt",
+            "settings": "Abrir axustes",
+            "settings-tooltip": "Tamén podes facer clic dereito na icona de usuario na parte superior esquerda, ou clic esquerdo se xa estás no inicio.",
+            "discover": "Descobre Revolt",
+            "discover_desc": "Encontra unha comunidade basada nas túas aficións ou intereses.",
+            "group": "Crea un grupo",
+            "join-testers_desc": "Podes informar de problemas e discutir melloras connosco directamente aquí.",
+            "feedback_desc": "Déixanos saber como podemos mellorar a nosa aplicación enviándonos as túas suxerencias.",
+            "group_desc": "Convida aos teus amigos, a algúns bots caralludos e organiza unha festa rachada."
+        },
+        "main": {
+            "categories": {
+                "conversations": "Conversas",
+                "participants": "Participantes",
+                "channels": "Canles",
+                "members": "Membros"
+            },
+            "channel": {
+                "message_where": "Enviar unha mensaxe en {{channel_name}}",
+                "message_who": "Enviar unha mensaxe a {{person}}",
+                "message_saved": "Gardar nas túas notas",
+                "uploading_file": "Subindo…",
+                "failed_upload": "Error ao subir!",
+                "reactions": {
+                    "others_reacted": "{{userlist}} e outros {{count}} reaccionaron",
+                    "unknown_reacted": "{{count}} persoas reaccionaron",
+                    "single_reacted": "1 persoa reaccionou",
+                    "people_reacted": "{{people}} reaccionaron"
+                },
+                "reply": {
+                    "replying": "Respondendo a",
+                    "toggle": "Mencionar ao autor"
+                },
+                "typing": {
+                    "multiple": "{{userlist}} e {{user}} están escribindo…",
+                    "several": "Varias persoas están escribindo…",
+                    "single": "{{user}} está escribindo…"
+                },
+                "system": {
+                    "user_joined": "{{user}} uniuse",
+                    "user_left": "{{user}} saiu",
+                    "user_banned": "{{user}} foi baneado",
+                    "added_by": "{{user}} foi engadido por {{other_user}}",
+                    "removed_by": "{{user}} foi eliminado por {{other_user}}",
+                    "channel_description_changed": "{{user}} cambiou a descripción da canle",
+                    "channel_icon_changed": "{{user}} cambiou a icona da canle",
+                    "channel_ownership_changed": "{{from}} transferiu a {{to}} a propiedade do grupo",
+                    "registered_at": "Rexistrado {{time}}",
+                    "user_kicked": "{{user}} foi expulsado",
+                    "channel_renamed": "{{user}} renomeou a canle a {{name}}"
+                },
+                "start": {
+                    "saved": "Isto é o comezo das túas notas.",
+                    "group": "Isto é o comezo da túa conversa."
+                },
+                "voice": {
+                    "connected": "Voz conectada",
+                    "leave": "Saír",
+                    "mute": "Silenciar",
+                    "unmute": "Desactivar silencio"
+                },
+                "misc": {
+                    "viewing_old": "Estás a ver mensaxes antigas",
+                    "jump_present": "Volver ao presente",
+                    "jump_beginning": "Volver ao inicio",
+                    "new_messages": "Novas mensaxes dende {{time_ago}}",
+                    "spoiler_attachment": "Spoiler",
+                    "failed_load": "Non se puido cargar a mensaxe.",
+                    "no_sending": "Non tes permiso para enviar mensaxes nesta canle.",
+                    "timed_out": "Estás castigado por {{time}}.",
+                    "blocked_messages": "{{count}} mensaxes bloqueadas",
+                    "blocked_user": "Usuario bloqueado",
+                    "sent_file": "Enviou un arquivo adxunto",
+                    "load_file": "Cargar arquivo",
+                    "not_loaded": "A mensaxe non se cargou, clic para ir",
+                    "sent_multiple_files": "Enviou varios arquivos adxuntos"
+                },
+                "nsfw": {
+                    "channel": {
+                        "confirm": "Entrar á canle",
+                        "marked": "Esta canle está marcada como contido para adultos (NSFW)."
+                    },
+                    "confirm": "Confirmo que teño polo menos 18 anos."
+                },
+                "unknown_user": "<Usuario descoñecido>",
+                "edited": "(editado)",
+                "bot": "Bot",
+                "bridge": "ponte",
+                "new_to_revolt": "Novo en Revolt",
+                "new_to_server": "Novo neste servidor",
+                "team": "Comunicación oficial",
+                "user_timed_out": "Usuario castigado durante {{time}}.",
+                "notifications": {
+                    "default": "Usar opción por defecto",
+                    "mention": "Só mencións",
+                    "none": "Nada",
+                    "muted": "Silenciado",
+                    "all": "Tódalas mensaxes"
+                },
+                "search": {
+                    "title": "Buscar",
+                    "sort": {
+                        "relevance": "Relevancia",
+                        "latest": "Último",
+                        "oldest": "Máis antigo"
+                    }
+                },
+                "errors": {
+                    "title": "Vaia, aquí non hai nada!",
+                    "nochannel": "Non hai canle",
+                    "nochannels": "Este servidor non ten canles ou non tes acceso a ningunha."
+                },
+                "attached_file": "{{filename}} adxunto",
+                "bridged": "A mensaxe foi enviada noutra plataforma"
+            },
+            "groups": {
+                "create": "Crear un grupo",
+                "name": "Nome do grupo",
+                "description": "Descripción do grupo",
+                "owner": "Propietario do grupo"
+            },
+            "servers": {
+                "create": "Crear un servidor",
+                "name": "Nome do servidor",
+                "description": "Descripción do servidor",
+                "channel_name": "Nome da canle",
+                "channel_type": "Tipo de canle",
+                "category_name": "Nome da categoría",
+                "custom_banner": "Báner personalizado",
+                "owner": "Propietario do servidor",
+                "text_channel": "Canle de texto",
+                "voice_channel": "Canle de voz",
+                "channel_description": "Descripción da canle"
+            }
+        },
+        "settings": {
+            "title": "Axustes",
+            "categories": {
+                "user_settings": "Axustes de usuario",
+                "client_settings": "Axustes do cliente",
+                "danger_zone": "Zona de perigo"
+            },
+            "actions": {
+                "remove": "Borrar",
+                "upload": "Subir",
+                "edit": "Editar {{name}}",
+                "max_filesize": "(máx {{filesize}})"
+            },
+            "pages": {
+                "account": {
+                    "title": "A miña conta",
+                    "change_field": "Cambiar",
+                    "unique_id": "Este é un identificador de usuario único para a túa conta.",
+                    "2fa": {
+                        "title": "Autenticación de dous factores"
+                    }
+                }
+            }
+        }
+    }
+}
