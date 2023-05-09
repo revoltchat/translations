@@ -18,7 +18,7 @@
         "Blocked": "Youway avehay ockedblay isthay userway.",
         "AlreadySentRequest": "Alreadyway entsay away equestray otay isthay userway.",
         "AlreadyFriends": "Alreadyway iendsfray ithway isthay userway.",
-        "UsernameTaken": "Usernameway isway akentay.",
+        "UsernameTaken": "Hattay sernameuway siay akentay.",
         "AlreadyOnboarded": "Alreadyway inishedfay onboardingway.",
         "InvalidInvite": "Invalidway odecay",
         "MissingInvite": "Issingmay inviteway odecay inway equestray.",
@@ -64,6 +64,10 @@
         "members": {
             "many": "{{count}}",
             "one": "1 Embermay"
+        },
+        "dropFiles": {
+            "one": "Ropday aay ilefay",
+            "many": "Ropday {{count}} ilesfay"
         }
     },
     "app": {
@@ -203,7 +207,7 @@
                     "confirm_leave_long": "Youway on'tway ebay ableway otay ejoinray unlessway youway areway e-invitedray.",
                     "confirm_leave": "Eavelay {{name}}?",
                     "confirm_delete_message_long": "Areyay ouyay uresay ouyay antway otay eleteday isthay?",
-                    "unfriend_user": "Emoveray {{name}}?",
+                    "unfriend_user": "nfrienduay {{name}}?",
                     "block_user": "Ockblay {{name}}?",
                     "create_invite_generate": "Eneratinggay inviteyay…",
                     "confirm_ban": "Ouyay areyay aboutyay otay anbay {{name}}",
@@ -384,8 +388,8 @@
                     "enable_outgoing_sound": "Ayplay Endsay Oundsay.",
                     "enable_sound": "Ayplay Oundsay onway Essagemay.",
                     "sounds": "Oundssay",
-                    "enable_push": "Enableway Ushpay Otificationsnay.",
-                    "enable_desktop": "Enableway Esktopday Otificationsnay.",
+                    "enable_push": "Enableway Ushpay Otificationsnay",
+                    "enable_desktop": "Enableway Esktopday Otificationsnay",
                     "push_notifications": "Ushpay Otificationsnay",
                     "title": "Otificationsnay",
                     "sound": {
@@ -630,7 +634,7 @@
                 "description": "Roupgay Escriptionday"
             },
             "channel": {
-                "bot": "otbay",
+                "bot": "Otbay",
                 "edited": "edited)(ay",
                 "unknown_user": "Nknown<uay User>way",
                 "misc": {
@@ -717,7 +721,15 @@
                 "bridge": "idgebray",
                 "user_timed_out": "Useryay isway imedtay outway orfay {{time}}.",
                 "team": "Officialyay ommunicationcay",
-                "bridged": "Essagemay asway entsay onyay anotheryay latformpay"
+                "bridged": "Essagemay asway entsay onyay anotheryay latformpay",
+                "new_to_server": "Ewnay otay histay erversay",
+                "new_to_revolt": "Ewnay otay Evoltray",
+                "reactions": {
+                    "others_reacted": "{{userlist}} ndaay {{count}} thersoay eactedaay",
+                    "unknown_reacted": "{{count}} eoplepay eactedray",
+                    "single_reacted": "1 ersonpay eactedpay",
+                    "people_reacted": "{{people}} eactedpay"
+                }
             },
             "categories": {
                 "members": "Embersmay",
@@ -825,7 +837,7 @@
         "recovery": "Ecoveryway Odecay",
         "totp": "Authenticatorway Appway",
         "new_password": "Ewnay Asswordpay",
-        "log_out_other": "oglay outyay allyay otheryay essionssay",
+        "log_out_other": "oglay outyay foay allyay otheryay essionssay",
         "verified_account": "Ouryay accountyay ashay eenbyay eriviedvay!",
         "verifying_account": "Erifyingvay ouryay accountyay…",
         "verified_continue": "Ontinuecay otay oginlay"
@@ -840,7 +852,7 @@
         "off": "Offyay",
         "disabled": "Isabledday",
         "unavailable": "Otnay availableyay",
-        "learn_more": "Oremay informationyay"
+        "learn_more": "earnlay oremay"
     },
     "permissions": {
         "BanMembers": {
