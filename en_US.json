@@ -9,7 +9,7 @@
         "off": "Off",
         "disabled": "Disabled",
         "unavailable": "Unavailable",
-        "learn_more": "More information"
+        "learn_more": "Learn more"
     },
     "login": {
         "title": "Login",
@@ -60,7 +60,7 @@
         "verified_account": "Your account has been verified!",
         "verified_continue": "Continue to login",
         "new_password": "New Password",
-        "log_out_other": "Log out all other sessions"
+        "log_out_other": "Log out of all other sessions"
     },
     "app": {
         "status": {
@@ -148,7 +148,7 @@
                 },
                 "unknown_user": "<Unknown User>",
                 "edited": "(edited)",
-                "bot": "bot",
+                "bot": "Bot",
                 "notifications": {
                     "default": "Use Default",
                     "all": "All Messages",
@@ -176,7 +176,15 @@
                 "bridge": "bridge",
                 "user_timed_out": "User is timed out for {{time}}.",
                 "bridged": "Message was sent on another platform",
-                "team": "Official Communication"
+                "team": "Official Communication",
+                "new_to_revolt": "New to Revolt",
+                "new_to_server": "New to this server",
+                "reactions": {
+                    "others_reacted": "{{userlist}} and {{count}} others reacted",
+                    "unknown_reacted": "{{count}} people reacted",
+                    "single_reacted": "1 person reacted",
+                    "people_reacted": "{{people}} reacted"
+                }
             },
             "groups": {
                 "create": "Create a group",
@@ -289,7 +297,7 @@
                     "font": "Font",
                     "mono_font": "Monospace Font Selector",
                     "ligatures": "Font Ligatures",
-                    "ligatures_desc": "For supported fonts, ligatures combine characters together, for example, turning -> into an arrow.",
+                    "ligatures_desc": "For supported fonts, ligatures combine characters together - for example, turning -> into an arrow.",
                     "theme_options": {
                         "title": "Theme Options",
                         "follow_desc": "When checked, you won’t be able to change your theme or use a custom one.",
@@ -314,8 +322,8 @@
                 "notifications": {
                     "title": "Notifications",
                     "push_notifications": "Push Notifications",
-                    "enable_desktop": "Enable Desktop Notifications.",
-                    "enable_push": "Enable Push Notifications.",
+                    "enable_desktop": "Enable Desktop Notifications",
+                    "enable_push": "Enable Push Notifications",
                     "sounds": "Sounds",
                     "descriptions": {
                         "enable_desktop": "This will give you notifications while your app is open.",
@@ -534,7 +542,7 @@
                     "confirm_kick": "Are you sure you want to kick {{name}}?",
                     "confirm_ban": "You are about to ban {{name}}",
                     "confirm_ban_reason": "Ban Reason",
-                    "unfriend_user": "Remove {{name}}?",
+                    "unfriend_user": "Unfriend {{name}}?",
                     "unfriend_user_long": "You may not be able to talk to them again until you add them back.",
                     "block_user": "Block {{name}}?",
                     "block_user_long": "Are you sure you want to block {{name}}? They will also be removed from your friends list.",
@@ -767,6 +775,10 @@
         "members": {
             "one": "1 Member",
             "many": "{{count}} Members"
+        },
+        "dropFiles": {
+            "many": "Drop {{count}} files",
+            "one": "Drop a file"
         }
     },
     "dayjs": {
@@ -807,7 +819,7 @@
         "MissingInvite": "Missing invite code in request.",
         "InvalidInvite": "Invalid code",
         "AlreadyOnboarded": "Already finished onboarding.",
-        "UsernameTaken": "Username is taken.",
+        "UsernameTaken": "That username is taken.",
         "AlreadyFriends": "Already friends with this user.",
         "AlreadySentRequest": "Already sent a request to this user.",
         "Blocked": "You have blocked this user.",
