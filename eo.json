@@ -61,7 +61,7 @@
                 },
                 "unknown_user": "<Nekonata uzanto>",
                 "edited": "(redaktita)",
-                "bot": "roboto",
+                "bot": "Roboto",
                 "notifications": {
                     "default": "Uzi defaŭlton",
                     "all": "Ĉiuj mesaĝoj",
@@ -89,7 +89,15 @@
                 },
                 "user_timed_out": "Uzanto estas tempolimigita dum {{time}}.",
                 "team": "Oficiala komunikaĵo",
-                "bridged": "Mesaĝo sendiĝis ĉe alia platformo"
+                "bridged": "Mesaĝo sendiĝis ĉe alia platformo",
+                "new_to_revolt": "Nove en Revolt",
+                "reactions": {
+                    "unknown_reacted": "{{count}} homoj reagis",
+                    "single_reacted": "1 homo reagis",
+                    "people_reacted": "{{people}} reagis",
+                    "others_reacted": "{{userlist}} kaj {{count}} aliaj reagis"
+                },
+                "new_to_server": "Nove en ĉi tiu servilo"
             },
             "categories": {
                 "members": "Membroj",
@@ -143,7 +151,7 @@
                     "font": "Tiparo",
                     "mono_font": "Elektilo de egallarĝa tiparo",
                     "ligatures": "Tiparaj ligaĵoj",
-                    "ligatures_desc": "Por subtenataj tiparoj, ligaĵoj (ligaturoj) kunligas iuj signojn; ekzemple, -> fariĝas sago.",
+                    "ligatures_desc": "Por subtenataj tiparoj, ligaĵoj (ligaturoj) kunligas iuj signojn - ekzemple, -> fariĝas sago.",
                     "title": "Aspekto",
                     "theme": "Etoso",
                     "display": {
@@ -189,8 +197,8 @@
                 "notifications": {
                     "title": "Sciigoj",
                     "push_notifications": "Puŝaj sciigoj",
-                    "enable_desktop": "Ebligi labortablajn sciigojn.",
-                    "enable_push": "Ebligi puŝajn sciigojn.",
+                    "enable_desktop": "Ebligi labortablajn sciigojn",
+                    "enable_push": "Ebligi puŝajn sciigojn",
                     "sounds": "Sonoj",
                     "descriptions": {
                         "enable_desktop": "Ĉi tiu agordo aperigas sciigojn, dum la apo estas malfermita.",
@@ -468,7 +476,8 @@
                     "done": "Farite",
                     "reset": "Restarigi",
                     "report": "Raporti",
-                    "confirm": "Konfirmi"
+                    "confirm": "Konfirmi",
+                    "dont_block": "Ne bloki"
                 },
                 "external_links": {
                     "trust_domain": "Fidi al tiu ĉi domajno",
@@ -487,7 +496,7 @@
                     "confirm_kick": "Ĉu vi vere volas forpeli {{name}}?",
                     "confirm_ban": "Vi pretas forbari {{name}}",
                     "confirm_ban_reason": "Kialo de forbaro",
-                    "unfriend_user": "Ĉu forigi {{name}}?",
+                    "unfriend_user": "Ĉu malamikigi {{name}}?",
                     "block_user": "Ĉu bloki {{name}}?",
                     "block_user_long": "Ĉu vi vere volas bloki {{name}}? Ri ankaŭ foriĝos de via amiklisto.",
                     "confirm_delete_message_long": "Ĉu vi vere volas forigi ĉi tion?",
@@ -537,7 +546,31 @@
                     "short": "Vi ne povas malfari tion.",
                     "title": "Ĉu vi certas, ke vi volas viŝi viajn seancojn?"
                 },
-                "confirm": "Konfirmi agon"
+                "confirm": "Konfirmi agon",
+                "report": {
+                    "content_reason": {
+                        "PromotesHarm": "Enhavo instigas aliajn aŭ la skribinton al memvundado",
+                        "Illegal": "Enhavo rompas unu leĝon aŭ pliajn",
+                        "Harassment": "Ĉi tio estas atakado aŭ fitraktado kontraŭ alia uzanto",
+                        "SpamAbuse": "Ĉi tio estas trudaĵo aŭ fiuzo de la platformo",
+                        "Malware": "Ĉi tio estas fiprogramaro"
+                    },
+                    "by_name": "Raporti {{name}}",
+                    "reason": "Kialo",
+                    "additional_context": "Aldonaj informoj",
+                    "no_reason": "Neniu kialo specifita / alia kialo",
+                    "message": "Raporti mesaĝon",
+                    "user_reason": {
+                        "SpamAbuse": "Uzanto sendas trudaĵojn aŭ alie fiuzas la platformon",
+                        "BanEvasion": "Ĉi tiu uzanto evitadas forbaron",
+                        "Impersonation": "Ĉi tiu uzanto ŝajnigas vere esti alia homo",
+                        "InappropriateProfile": "La profilo de la uzanto estas netaŭga por ĝenerala publiko",
+                        "Underage": "Ĉi tiu uzanto ne sufiĉe aĝas por havi konton"
+                    },
+                    "reported": "Raportite",
+                    "thank_you": "Dankon pro helpi plu sekurigi Revolt. Ni kontrolos vian raporton kiel eble plej baldaŭe.",
+                    "block_user": "Ĉu vi volas bloki ĉi tiun uzanton?"
+                }
             },
             "popovers": {
                 "server_identity": {
@@ -648,7 +681,10 @@
             "kick_member": "Forpeli membron",
             "open_channel_settings": "Agordoj de kanalo",
             "mark_unread": "Marki nelegita",
-            "make_owner": "Transdoni posedon de grupo"
+            "make_owner": "Transdoni posedon de grupo",
+            "report_user": "Raporti uzanton",
+            "report_server": "Raporti servilon",
+            "report_message": "Raporti mesaĝon"
         },
         "home": {
             "goto-testers": "Iri al la servilo de testantoj",
@@ -772,7 +808,7 @@
         "EmailInUse": "Retpoŝtadreso uziĝas.",
         "EmailFailed": "Retpoŝto malsukcese sendiĝis.",
         "AlreadyOnboarded": "Agordado jam finiĝis.",
-        "UsernameTaken": "Uzantonomo jam estas uzata.",
+        "UsernameTaken": "Tiu uzantonomo jam estas uzata.",
         "AlreadyFriends": "Tiu uzanto jam estas amiko.",
         "AlreadySentRequest": "Vi jam sendis peton al tiu uzanto.",
         "Blocked": "Vi blokis ĉi tiun uzanton.",
@@ -929,6 +965,10 @@
         "members": {
             "one": "1 membro",
             "many": "{{count}} membroj"
+        },
+        "dropFiles": {
+            "many": "Delasi {{count}} dosierojn",
+            "one": "Delasi dosieron"
         }
     },
     "shortcuts": {
