@@ -8,7 +8,7 @@
         "disabled": "Desactivado",
         "unavailable": "Non dispoñible",
         "learn_more": "Saber máis",
-        "about": "Acerca de",
+        "about": "Sobre",
         "image_by": "Imaxe de"
     },
     "actions": {
@@ -661,9 +661,9 @@
                         "responsible_disclosure": "Erro(s) divulgado(s) responsablemente",
                         "founder": "Fundador",
                         "translator": "Tradutor",
-                        "moderation": "Moderador da plataforma",
+                        "moderation": "Moderación da plataforma",
                         "early_adopter": "Pioneiro",
-                        "supporter": "Doante"
+                        "supporter": "Contribuidor"
                     },
                     "mutual_friends": "Amigos en común",
                     "mutual_groups": "Grupos en común",
@@ -738,13 +738,234 @@
             "make_owner": "Transferir a propiedade do grupo",
             "remove_member": "Eliminar do grupo",
             "open_file": "Abrir arquivo",
-            "save_file": "Gardar arquivo"
+            "save_file": "Gardar arquivo",
+            "open_group_settings": "Axustes do grupo",
+            "open_image": "Abrir imaxe",
+            "save_image": "Gardar imaxe",
+            "open_video": "Abrir vídeo",
+            "save_video": "Gardar vídeo",
+            "copy_link": "Copiar ligazón",
+            "open_link": "Abrir ligazón",
+            "block_user": "Bloquear usuario",
+            "unblock_user": "Desbloquear usuario",
+            "add_friend": "Engadir amigo",
+            "remove_friend": "Eliminar amigo",
+            "cancel_friend": "Cancelar solicitude",
+            "report_user": "Reportar usuario",
+            "custom_status": "Estado personalizado",
+            "clear_status": "Borrar estado personalizado",
+            "set_custom_status": "Definir un estado personalizado",
+            "leave_group": "Saír do grupo",
+            "leave_server": "Saír do servidor",
+            "close_dm": "Pechar MD",
+            "report_server": "Reportar servidor",
+            "delete_server": "Eliminar servidor",
+            "edit_identity": "Editar identidade",
+            "delete_channel": "Eliminar canle",
+            "create_channel": "Crear canle",
+            "create_category": "Crear categoría",
+            "create_invite": "Crear invitación",
+            "open_notification_options": "Opcións de notificacións",
+            "open_channel_settings": "Axustes da canle",
+            "open_server_settings": "Axustes do servidor"
+        },
+        "permissions": {
+            "required": "Permisos requiridos"
         }
     },
     "permissions": {
         "BanMembers": {
             "t": "Vetar membros",
             "d": "Permite aos membros vetar de forma permanente a outros deste servidor."
+        },
+        "ManageChannels": {
+            "d": "Permite aos membros crear, editar e eliminar canles.",
+            "t": "Administrar canles"
+        },
+        "ManagePermissions": {
+            "d": "Permite aos membros cambiar os permisos das canles e roles dun rango inferior.",
+            "t": "Xestionar permisos"
+        },
+        "KickMembers": {
+            "d": "Permite aos membros eliminar outro membros deste servidor. Os membros expulsados poden retornar cunha invitación.",
+            "t": "Expulsar membros"
+        },
+        "AssignRoles": {
+            "d": "Permite aos membros adxudicar roles por debaixo do seu propio rango a outros membros.",
+            "t": "Adxudicar roles"
+        },
+        "RemoveAvatars": {
+            "d": "Permite aos membros eliminar os avatares doutros membros deste servidor.",
+            "t": "Eliminar avatares"
+        },
+        "ManageMessages": {
+            "d": "Permite aos membros eliminar as mensaxes enviadas por outros membros.",
+            "t": "Administrar mensaxes"
+        },
+        "ManageServer": {
+            "t": "Administrar servidor",
+            "d": "Permite aos membros cambiar o nome, a descripción, a icona e outra información do servidor."
+        },
+        "ManageRole": {
+            "t": "Administrar roles",
+            "d": "Permite aos membros crear, editar e eliminar roles dun rango inferior ao seu. Tamén lles permite modificar os permisos dos roles nas canles."
+        },
+        "ManageCustomisation": {
+            "t": "Administrar personalización",
+            "d": "Permite aos membros crear, editar e eliminar emojis."
+        },
+        "TimeoutMembers": {
+            "t": "Illar membros",
+            "d": "Autoriza aos membros para impedir que os usuarios interactúen con este servidor temporalmente."
+        },
+        "ChangeNickname": {
+            "t": "Cambiar apodo",
+            "d": "Permite aos membros cambiar o seu apodo neste servidor."
+        },
+        "ManageNicknames": {
+            "t": "Administrar apodos",
+            "d": "Permite aos membros cambiar os apodos doutros membros."
+        },
+        "ChangeAvatar": {
+            "t": "Cambiar avatar",
+            "d": "Permite aos membros cambiar o seu avatar neste servidor."
+        },
+        "ViewChannel": {
+            "t": "Ver canle",
+            "d": "Permite aos membros ver calquera canle na que teñan este permiso."
+        },
+        "ReadMessageHistory": {
+            "t": "Ler historial de mensaxes",
+            "d": "Permite aos membros ler o historial de mensaxes desta canle."
+        },
+        "SendMessage": {
+            "t": "Enviar mensaxes",
+            "d": "Permite aos membros enviar mensaxes nas canles de texto."
+        },
+        "ManageWebhooks": {
+            "t": "Administrar webhooks",
+            "d": "Permite que os membros controlen os webhooks dunha canle."
+        },
+        "ManageChannel": {
+            "t": "Administrar canles",
+            "d": "Permite aos membros editar ou eliminar unha canle."
+        },
+        "InviteOthers": {
+            "t": "Convidar a outros",
+            "d": "Permite que os membros conviden a outros usuarios a unha canle."
+        },
+        "SendEmbeds": {
+            "t": "Enviar contido incrustado",
+            "d": "Permite aos membros enviar contido incrustado, sexa dende ligazóns ou contidos incrustados personalizados."
+        },
+        "UploadFiles": {
+            "t": "Subir arquivos",
+            "d": "Permitir aos membros enviar arquivos en canles de texto."
+        },
+        "Masquerade": {
+            "t": "Camuflaxe",
+            "d": "Permite aos membros cambiar o seu nome e avatar para cada mensaxe."
+        },
+        "React": {
+            "t": "Usar reaccións",
+            "d": "Permite aos membros reaccionar ás mensaxes."
+        },
+        "Connect": {
+            "t": "Conectar",
+            "d": "Permite aos membros conectarse a canles de voz."
+        },
+        "Speak": {
+            "t": "Falar",
+            "d": "Permite aos membros falar nunha canle de voz."
+        },
+        "Video": {
+            "t": "Vídeo",
+            "d": "Permite aos membros transmitir vídeo nunha canle de voz."
+        },
+        "MuteMembers": {
+            "t": "Silenciar membros",
+            "d": "Permite aos membros silenciar a outros nunha canle de voz."
+        },
+        "DeafenMembers": {
+            "t": "Enxordecer membros",
+            "d": "Permite aos membros enxordecer a outros nunha canle de voz."
+        },
+        "MoveMembers": {
+            "t": "Mover membros",
+            "d": "Permite aos membros mover a outros entre canles de voz."
         }
+    },
+    "dayjs": {
+        "lastDay": "[Onte ás] {{time}}",
+        "sameDay": "[Hoxe ás] {{time}}",
+        "nextDay": "[Mañá ás] {{time}}",
+        "lastWeek": "[O último] dddd [ás] {{time}}",
+        "nextWeek": "dddd [ás] {{time}}",
+        "defaults": {
+            "date_separator": "/",
+            "date_format": "traditional",
+            "twelvehour": "no"
+        }
+    },
+    "notifications": {
+        "sent_request": "@{{person}} enviouche unha solicitude de amizade.",
+        "now_friends": "Agora eres amigo de {{person}}!"
+    },
+    "error": {
+        "UnknownError": "Ver a consola.",
+        "UnknownUser": "Usuario descoñecido.",
+        "InvalidToken": "Token inválido",
+        "AlreadyFriends": "Xa eres amigo deste usuario.",
+        "NoEffect": "Esta solicitude non tivo efecto.",
+        "MissingData": "Faltan datos na solicitude.",
+        "DeniedNotification": "Denegaches o acceso ás notificacións, comproba os axustes da páxina.",
+        "NetworkError": "Erro de conexión.",
+        "Unauthorized": "Sen autorización.",
+        "Unlabelled": "Aconteceu un erro.",
+        "FailedValidation": "Non se puideron validar os campos.",
+        "DatabaseError": "Erro na base de datos.",
+        "InternalError": "Erro interno.",
+        "MissingPermission": "Permisos insuficientes.",
+        "OperationFailed": "A operación fallou.",
+        "RenderFail": "A renderización do modelo fallou.",
+        "MissingHeaders": "Faltan encabezados.",
+        "InvalidSession": "Sesión inválida.",
+        "UnverifiedAccount": "Conta non verificada.",
+        "EmailInUse": "Correo electrónico en uso.",
+        "EmailFailed": "Produciuse un erro ao enviar o correo electrónico.",
+        "InvalidCredentials": "Correo electrónico ou contrasinal incorrectos.",
+        "MissingInvite": "Falta o código de invitación na solicitude.",
+        "InvalidInvite": "Código inválido",
+        "AlreadyOnboarded": "Configuración xa rematada.",
+        "UsernameTaken": "Este nome de usuario xa está en uso.",
+        "AlreadySentRequest": "Xa enviaches unha solicitude a este usuario.",
+        "Blocked": "Bloqueaches a este usuario.",
+        "BlockedOther": "Este usuario bloqueouche.",
+        "RequiredField": "Obrigatorio",
+        "TooShort": "Demasiado curto",
+        "TooLong": "Demasiado longo",
+        "InvalidEmail": "Correo electrónico inválido",
+        "Unavailable": "Non dispoñible.",
+        "FileTooLarge": "O arquivo é demasiado pesado.",
+        "FailedToReceive": "O servidor non recibiu o teu arquivo.",
+        "ProbeError": "Erro na obtención dos metadatos do arquivo.",
+        "IoError": "O servidor atopou un erro de Entrada/Saída (I/O).",
+        "UnsupportedBrowser": "O teu navegador non é compatible con esta característica.",
+        "CompromisedPassword": "Este contrasinal está comprometido.",
+        "ReachedMaximumBots": "Alcanzaches a cantidade máxima de bots.",
+        "AudioPermissionBlock": "Non hai acceso ao teu micrófono. Por favor, verifica a configuración do teu navegador."
+    },
+    "quantities": {
+        "members": {
+            "one": "1 membro",
+            "many": "{{count}} membros"
+        },
+        "dropFiles": {
+            "one": "Cargar un arquivo",
+            "many": "Cargar {{count}} arquivos"
+        }
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrt + C"
     }
 }
