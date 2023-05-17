@@ -53,7 +53,7 @@
         "welcome2": "Hallo!",
         "subtitle2": "Maak een account aan",
         "welcome": "Welkom terug!",
-        "unofficial_instance": "Instantie van derde partij.",
+        "unofficial_instance": "Derde-partij instantie.",
         "totp": "Authenticatie-app",
         "recovery": "Herstel code",
         "verified_account": "Je account is geverifiëerd!",
@@ -152,7 +152,15 @@
                 "bridge": "brug",
                 "user_timed_out": "Gebruiker heeft een time-out van {{time}}.",
                 "team": "Officiële Communicatie",
-                "bridged": "Bericht is gestuurd op een ander platform"
+                "bridged": "Bericht is gestuurd op een ander platform",
+                "new_to_revolt": "Nieuw op Revolt",
+                "new_to_server": "Nieuw op deze server",
+                "reactions": {
+                    "others_reacted": "{{userlist}} en {{count}} anderen reageerden",
+                    "unknown_reacted": "{{count}} mensen reageerden",
+                    "single_reacted": "1 persoon reageerde",
+                    "people_reacted": "{{people}} reageerden"
+                }
             },
             "categories": {
                 "participants": "Deelnemers",
@@ -226,7 +234,7 @@
                     "export_clipboard": "Exporteren naar klembord",
                     "theme_data": "Themagegevens",
                     "custom_css": "Aangepaste CSS",
-                    "ligatures_desc": "Bij ondersteunde lettertypen, combineren ligaturen tekens, bijvoorbeeld -> wordt een pijl.",
+                    "ligatures_desc": "Bij ondersteunde lettertypen, combineren ligaturen tekens - bijvoorbeeld -> wordt een pijl.",
                     "font": "Lettertype",
                     "ligatures": "Lettertype Ligaturen",
                     "mono_font": "Monospace-lettertypekiezer",
@@ -249,7 +257,19 @@
                         "show_send": "Altijd de knop Bericht verzenden weergeven",
                         "show_send_desc": "Indien uitgeschakeld, verschijnt de knop 'Bericht verzenden' alleen op mobiele-apparaten.",
                         "show_account_age_desc": "Indien uitgeschakeld, wordt accountleeftijd alleen bij nieuwe gebruikers getoond.",
-                        "show_account_age": "Toon altijd de account-leeftijd naast de welkom berichten"
+                        "show_account_age": "Toon altijd de leeftijd van een account naast toetredingsberichten"
+                    },
+                    "colours": {
+                        "title": "Kleuren"
+                    },
+                    "emoji": {
+                        "title": "Emoji"
+                    },
+                    "fonts": {
+                        "title": "Lettertypen"
+                    },
+                    "advanced_options": {
+                        "title": "Geavanceerde Instellingen"
                     }
                 },
                 "sessions": {
@@ -278,8 +298,8 @@
                         "description": "Voeg een extra beveiligingslaag toe door 2FA in jouw account in te schakelen.",
                         "add_auth": "Authenticator toevoegen",
                         "remove_auth": "Authenticator verwijderen",
-                        "view_recovery_long": "Bekijk en download uw 2FA herstelcodes.",
-                        "generate_recovery": "Genereer herstelcodes",
+                        "view_recovery_long": "Bekijk en download jouw 2FA herstelcodes.",
+                        "generate_recovery": "Genereer nieuwe herstelcodes",
                         "generate_recovery_long": "Bereid u voor om 2FA te gebruiken door een herstelmethode in te stellen.",
                         "two_factor_on": "Twee-factor authenticatie is nu ingeschakeld.",
                         "two_factor_off": "Je hebt tweefactor-authenticatie niet ingeschakeld!",
@@ -295,8 +315,8 @@
                 "notifications": {
                     "push_notifications": "Pushmeldingen",
                     "title": "Meldingen",
-                    "enable_desktop": "Schakel Bureaubladmeldingen in.",
-                    "enable_push": "Schakel Pushmeldingen in.",
+                    "enable_desktop": "Schakel Bureaubladmeldingen in",
+                    "enable_push": "Schakel Pushmeldingen in",
                     "enable_sound": "Speel Geluid Bij Een Bericht.",
                     "descriptions": {
                         "enable_desktop": "Dit geeft je meldingen terwijl de app open is.",
@@ -491,10 +511,10 @@
                 "channel": "Kanaalpermissies",
                 "create_role": "Creëer een nieuwe rol",
                 "role_name": "Naam van de rol",
-                "delete_role": "Rol verwijderen",
-                "hoist_desc": "Vertoon deze rol boven anderen.",
+                "delete_role": "Rol Verwijderen",
+                "hoist_desc": "Toon deze rol boven anderen.",
                 "title": "Machtigingen voor {{role}}",
-                "role_colour": "Rolkleur",
+                "role_colour": "Rol Kleur",
                 "role_options": "Rol Opties",
                 "edit_title": "Machtigingen Bewerken",
                 "role_ranking": "Rolranglijst",
@@ -536,7 +556,7 @@
                     "confirm_close_dm": "Beëindig gesprek met {{name}}?",
                     "confirm_kick": "Weet je zeker dat je {{name}} wilt kicken?",
                     "confirm_delete": "Verwijder {{name}}?",
-                    "unfriend_user": "Verwijder {{name}}?",
+                    "unfriend_user": "Ontvriend {{name}}?",
                     "unfriend_user_long": "Je kunt mogelijk niet meer met ze praten totdat u ze weer toevoegt.",
                     "create_invite_created": "Hier is jouw nieuwe uitnodigingscode:",
                     "confirm_ban_reason": "Verbanningsreden",
@@ -582,7 +602,7 @@
                     "report": "Rapporteer",
                     "confirm": "Bevestigen",
                     "done": "Klaar",
-                    "reset": "Reset",
+                    "reset": "Resetten",
                     "dont_block": "Niet blokkeren"
                 },
                 "onboarding": {
@@ -601,25 +621,25 @@
                     "short": "Je kanniet deze actie niet ongedaan maken."
                 },
                 "out_of_date": {
-                    "description": "Het moet worden bijgewerkt om met recente wijzigingen te kunnen werken.",
+                    "description": "Het moet geüpdate worden om met de recente wijzigingen te kunnen werken.",
                     "attempting": "Proberen te updaten…",
-                    "title": "Je client is niet geüpdate!",
-                    "version": "Je client bevindt zich op {{client}}, terwijl de server {{server}} nodig heeft.",
-                    "ignore": "Negeer Update"
+                    "title": "Jouw client is verouderd!",
+                    "version": "Jouw client is op {{client}}, terwijl de server {{server}} nodig heeft.",
+                    "ignore": "Update negeren"
                 },
                 "changelogs": {
-                    "title": "Logboek",
+                    "title": "Wijzigingen",
                     "description": "Lees over updates voor Revolt.",
-                    "older": "Bekijk oudere updates"
+                    "older": "Oudere updates bekijken"
                 },
                 "confirm": "Actie bevestigen",
                 "mfa": {
                     "recovery_codes": "Jouw herstelcodes",
-                    "save_codes": "Bewaar deze alstublieft op een veilige locatie.",
-                    "confirm": "Bevestig met de momenteel geselecteerde methode.",
-                    "select_method": "Selecteer een methode om je verzoek te verifiëren.",
+                    "save_codes": "Sla deze op in een veilige locatie.",
+                    "confirm": "Bevestig met de gekozen methode.",
+                    "select_method": "Kies een methode om jouw verzoek te bevestigen.",
                     "enable_totp": "Authenticator-app inschakelen",
-                    "prompt_totp": "Scan of gebruik de onderstaande token in je authenticatie-app.",
+                    "prompt_totp": "Scan of gebruik de onderstaande token in jouw authenticatie-app.",
                     "enter_code": "Voer Code In"
                 },
                 "report": {
@@ -629,22 +649,22 @@
                     "no_reason": "Geen reden gegeven / andere reden",
                     "reported": "Gerapporteerd",
                     "block_user": "Zou je graag deze gebruiker blokkeren?",
-                    "additional_context": "Overige Informatie",
+                    "additional_context": "Aanvullende Informatie",
                     "content_reason": {
-                        "Illegal": "Content overschrijd een of meerdere wetten",
-                        "PromotesHarm": "Content promoot zelfbeschadiging of beschadiging aan anderen",
-                        "SpamAbuse": "Dit is spam",
-                        "Malware": "Dit is een virus of malware",
+                        "Illegal": "Inhoud breekt een of meerdere regels",
+                        "PromotesHarm": "Inhoud promoot zelfbeschadiging of beschadiging aan anderen",
+                        "SpamAbuse": "Dit is spam of platform misbruik",
+                        "Malware": "Dit is malware",
                         "Harassment": "Dit is intimidatie of misbruik gericht op een andere gebruiker"
                     },
                     "user_reason": {
-                        "InappropriateProfile": "Het profiel is niet geschikt voor algemeen bereik",
-                        "Impersonation": "Deze gebruiker doet iemand na",
-                        "SpamAbuse": "Gebruiker is aan het spammen of op een andere manier het platform aan het misbruiken",
+                        "InappropriateProfile": "Gebruikersprofiel is niet geschikt voor algemeen publiek",
+                        "Impersonation": "Deze gebruiker doet zich voor als iemand anders",
+                        "SpamAbuse": "Gebruiker is aan het spammen of op een andere manier het platform misbruiken",
                         "Underage": "Deze gebruiker is niet oud genoeg om een account te hebben",
-                        "BanEvasion": "Deze gebruiker probeert een ban te omzeilen"
+                        "BanEvasion": "Deze gebruiker ontloopt een ban"
                     },
-                    "thank_you": "Heel er bedankt dat jij Revolt veilig wilt houden. Wij zullen zo spoedig mogelijk jouw report behandelen."
+                    "thank_you": "Dank je voor jouw hulp om Revolt veilig te houden. We zullen jouw klacht zo snel mogelijk bekijken."
                 }
             },
             "popovers": {
@@ -752,9 +772,9 @@
             "create_category": "Categorie aanmaken",
             "mark_unread": "Markeer als gelezen",
             "make_owner": "Geef groepseigenschap",
-            "report_server": "Rapporteer server",
-            "report_message": "Rapporteer bericht",
-            "report_user": "Rapporteer gebruiker"
+            "report_server": "Meld server",
+            "report_message": "Meld bericht",
+            "report_user": "Meld gebruiker"
         },
         "permissions": {
             "required": "Permissies vereist"
@@ -782,6 +802,10 @@
         "members": {
             "one": "1 Lid",
             "many": "{{count}} Leden"
+        },
+        "dropFiles": {
+            "one": "Drop een bestand",
+            "many": "Drop {{count}} bestanden"
         }
     },
     "dayjs": {
@@ -836,7 +860,7 @@
         "InvalidToken": "Ongeldige token",
         "InvalidInvite": "Ongeldige code",
         "AlreadyOnboarded": "Reeds klaar met onboarding.",
-        "UsernameTaken": "Gebruikersnaam is in gebruik.",
+        "UsernameTaken": "Dat gebruikersnaam is in gebruik.",
         "AlreadyFriends": "Reeds bevriend met deze gebruiker.",
         "AlreadySentRequest": "Je hebt al een verzoek naar deze gebruiker gestuurd.",
         "BlockedOther": "Deze gebruiker heeft je geblokkeerd.",
@@ -932,7 +956,7 @@
         },
         "TimeoutMembers": {
             "d": "Stelt leden in staat om tijdelijk gebruikers te stoppen van het communiceren in de server.",
-            "t": "Leden time-out geven"
+            "t": "Timeout leden"
         },
         "AssignRoles": {
             "t": "Rollen Toewijzen",
