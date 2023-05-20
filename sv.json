@@ -9,7 +9,7 @@
         "off": "Av",
         "disabled": "Inaktiverad",
         "unavailable": "Inte tillgänglig",
-        "learn_more": "Mer information"
+        "learn_more": "Lär mer"
     },
     "login": {
         "title": "Logga in",
@@ -35,7 +35,7 @@
         "successful_registration": "Du har registrerat dig!",
         "open_mail_provider": "Öppna {{provider}}",
         "check_mail": "Kolla din e-post!",
-        "missing_verification": "Fick ni inget e-postmeddelande?",
+        "missing_verification": "Fick du inget e-postmeddelande?",
         "error": {
             "resend": "Kunde inte återsända!",
             "reset": "Kunde inte återställa!",
@@ -60,7 +60,7 @@
         "verified_continue": "Fortsätt att logga in",
         "verified_account": "Ditt konto har blivit verifierat!",
         "new_password": "Nytt Lösenord",
-        "log_out_other": "Logga ut alla andra sessioner"
+        "log_out_other": "Logga ut från alla andra sessioner"
     },
     "app": {
         "main": {
@@ -90,7 +90,7 @@
                 "failed_upload": "Misslyckades att ladda upp!",
                 "uploading_file": "Laddar upp…",
                 "message_saved": "Spara till dina anteckningar",
-                "bot": "robot",
+                "bot": "Robot",
                 "unknown_user": "<Okänd Användare>",
                 "edited": "(redigerat)",
                 "start": {
@@ -153,7 +153,15 @@
                 "bridge": "brygga",
                 "user_timed_out": "Användaren har tagit ut sin tid för {{time}}.",
                 "bridged": "Meddelandet skickades på en annan plattform",
-                "team": "Officiell kommunikation"
+                "team": "Officiell kommunikation",
+                "new_to_revolt": "Nytt för Revolt",
+                "new_to_server": "Ny til denna server",
+                "reactions": {
+                    "people_reacted": "{{people}} reagerade",
+                    "others_reacted": "{{userlist}} och {{count}} andra reagerade",
+                    "unknown_reacted": "{{count}} personer har reagerat",
+                    "single_reacted": "En person har reagerat"
+                }
             },
             "categories": {
                 "members": "Medlemmar",
@@ -263,7 +271,7 @@
                     "confirm_delete_long": "När det är borttaget så kommer det inte tillbaka.",
                     "create_invite_created": "Här är din nya inbjudningskod:",
                     "confirm_delete_message_long": "Är du säker på att du vill ta bort detta?",
-                    "unfriend_user": "Ta bort {{name}}?",
+                    "unfriend_user": "Ta bort {{name}} som vän?",
                     "unfriend_user_long": "Du kanske inte kommer kunna prata med dem tills du har lagt till dem igen.",
                     "confirm_ban": "Du är på väg att bannlysa {{name}}",
                     "confirm_kick": "Är du säker på att du vill sparka {{name}}?",
@@ -484,7 +492,7 @@
                     "theme": "Tema",
                     "emoji_pack": "Emoji Paket",
                     "font": "Typsnitt",
-                    "ligatures_desc": "För teckensnitt som stöds kombinerar ligaturer tecken tillsammans, exempelvis omvandling av -> till en pil.",
+                    "ligatures_desc": "För teckensnitt som stöds kombinerar ligaturer tecken tillsammans, - exempelvis omvandling av -> till en pil.",
                     "import": "Importera ett tema",
                     "mono_font": "Monospace Typsnitt",
                     "ligatures": "Ligaturer",
@@ -507,6 +515,18 @@
                         "show_send_desc": "Skicka Meddelande knappen kommer endast visas på mobilen om detta är inaktiverat.",
                         "show_account_age": "Visa alltid kontoålder brevid gick med-meddelanden",
                         "show_account_age_desc": "Om av, kontoålder kommer endast att visas för nya användare."
+                    },
+                    "colours": {
+                        "title": "färger"
+                    },
+                    "advanced_options": {
+                        "title": "Avancerade inställningar"
+                    },
+                    "emoji": {
+                        "title": "Emotikonar"
+                    },
+                    "fonts": {
+                        "title": "Teckensnitt"
                     }
                 },
                 "sessions": {
@@ -547,7 +567,7 @@
                 },
                 "notifications": {
                     "enable_sound": "Spela Ljud vid Meddelande.",
-                    "enable_desktop": "Notifikationer på Skrivbordet.",
+                    "enable_desktop": "Aktivera notifikationer på Skrivbordet",
                     "title": "Notifikationer",
                     "descriptions": {
                         "enable_outgoing_sound": "Tillåt att ljud spelas när du skickar ett meddelande.",
@@ -556,7 +576,7 @@
                         "enable_desktop": "Det här kommer ge dig notifikationer medans appen är öppen."
                     },
                     "enable_outgoing_sound": "Aktivera Ljud för Skickade Meddelanden.",
-                    "enable_push": "Aktivera Pushmeddelanden.",
+                    "enable_push": "Aktivera Pushmeddelanden",
                     "sounds": "Ljud",
                     "push_notifications": "Pushmeddelanden",
                     "sound": {
@@ -624,7 +644,7 @@
                     "button_grant": "Ge behörighet"
                 },
                 "bots": {
-                    "title": "Min bottar",
+                    "title": "Mina bottar",
                     "public_bot_tip": "Botten är offentlig. Vem som helst kan bjuda in den.",
                     "public_bot": "Offentlig Bot",
                     "public_bot_desc": "Om andra ska kunna bjuda in denna botten.",
@@ -635,7 +655,7 @@
                     "create_bot": "Skapa en Bot",
                     "add": "Lägg till Bot",
                     "interactions_url": "Interaktions-URL",
-                    "unique_id": "Detta är en unik identifierare för din bot. Detta är inte botens token.",
+                    "unique_id": "Detta är en unik identifierare för din bot. Detta är inte bottens token.",
                     "profile": "Botprofil"
                 },
                 "theme_shop": {
@@ -747,7 +767,7 @@
                 },
                 "emojis": {
                     "upload": "Ladda upp Emoji",
-                    "title": "Emojis"
+                    "title": "Emotikonar"
                 },
                 "customisation": {
                     "title": "Anpassning"
@@ -771,7 +791,7 @@
             "group": "Skapa en grupp",
             "feedback_desc": "Berätta för oss om hur vi kan förbättra vår app genom att ge oss feedback.",
             "join-testers_desc": "Du kan rapportera problem och diskutera förbättringar med oss här.",
-            "group_desc": "Bjud in alla dina vänner, några coola bots och arrangera en stor fest.",
+            "group_desc": "Bjud in alla dina vänner, några coola bottar och arrangera en stor fest.",
             "goto-testers_desc": "Du kan rapportera problem och diskutera förbättringar med oss direkt här.",
             "discover_desc": "Hitta en gemenskap baserat på dina hobbyer eller intressen."
         }
@@ -795,6 +815,10 @@
         "members": {
             "many": "{{count}} Medlemmar",
             "one": "1 Medlem"
+        },
+        "dropFiles": {
+            "one": "Släpp en fil",
+            "many": "Släpp {{count}} filer"
         }
     },
     "notifications": {
@@ -803,7 +827,7 @@
     },
     "error": {
         "EmailInUse": "E-post används redan.",
-        "UsernameTaken": "Användarnamnet är upptaget.",
+        "UsernameTaken": "Det användarnamnet är upptaget.",
         "BlockedOther": "Användaren har blockerat dig.",
         "Blocked": "Du har blockerat användaren.",
         "AlreadySentRequest": "Skickade redan en förfrågning till användaren.",
