@@ -135,8 +135,8 @@
                     "sounds": "サウンド",
                     "push_notifications": "プッシュ通知",
                     "title": "通知",
-                    "enable_push": "プッシュ通知を有効にする。",
-                    "enable_desktop": "デスクトップ通知を有効にする。"
+                    "enable_push": "プッシュ通知を有効にする",
+                    "enable_desktop": "デスクトップ通知を有効にする"
                 },
                 "appearance": {
                     "ligatures_desc": "いくつかのフォントでは合字がサポートされています。例えば、 「-> 」が 「→ 」のように表示されます。",
@@ -185,6 +185,18 @@
                         "title": "外観の設定",
                         "show_account_age": "メッセージの横に常にアカウントの年齢を表示する",
                         "show_account_age_desc": "無効にすると、年齢は新しいユーザーに対してのみ表示されます。"
+                    },
+                    "colours": {
+                        "title": "色"
+                    },
+                    "advanced_options": {
+                        "title": "詳細設定"
+                    },
+                    "emoji": {
+                        "title": "絵文字"
+                    },
+                    "fonts": {
+                        "title": "フォント"
                     }
                 },
                 "audio": {
@@ -328,7 +340,7 @@
                 "edited": "(編集済)",
                 "unknown_user": "＜不明なユーザー＞",
                 "nsfw": {
-                    "confirm": "私は18歳以上であることに同意します。",
+                    "confirm": "私は18歳以上です。",
                     "channel": {
                         "confirm": "チャンネルに入る",
                         "marked": "このチャンネルはNSFWとしてマークされています。"
@@ -466,7 +478,7 @@
                     "create_invite_created": "これがあなたの新しい招待コードです:",
                     "confirm_ban": "あなたは {{name}} をBANしようとしています",
                     "confirm_ban_reason": "BAN理由",
-                    "unfriend_user": "{{name}}を削除しますか？",
+                    "unfriend_user": "{{name}}をフレンド解除しますか？",
                     "unfriend_user_long": "再追加するまで、彼らと会話ができなくなるかもしれません。",
                     "block_user": "{{name}}をブロックしますか？",
                     "silent_leave": "静かに退出",
@@ -765,7 +777,7 @@
         "loading": "読み込み中…",
         "privacy": "プライバシーポリシー",
         "tos": "利用規約",
-        "about": "に関しては",
+        "about": "概要",
         "image_by": "画像提供：",
         "on": "オン",
         "off": "オフ",
@@ -809,7 +821,7 @@
         "MissingPermission": "権限がありません。",
         "InvalidSession": "無効なセッションです。",
         "InvalidCredentials": "メールアドレスまたはパスワードが間違っています。",
-        "UsernameTaken": "ユーザー名は既に使用されています。",
+        "UsernameTaken": "このユーザー名は既に使用されています。",
         "BlockedOther": "このユーザーはあなたをブロックしました。",
         "NoEffect": "このリクエストは何の効果もありませんでした。",
         "ReachedMaximumBots": "ボット数が上限に達しました。",
