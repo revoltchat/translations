@@ -8,7 +8,7 @@
             "password": "Escriu la teva contrasenya.",
             "email": "Si us plau, introdueix el teu correu electrònic.",
             "username": "Escriu un nom d'usuari.",
-            "new_password": "Introduïu una contrasenya nova"
+            "new_password": "Introduïu una contrasenya nova."
         },
         "current_password": "Contrasenya actual",
         "invite": "Codi d'invitació",
@@ -130,7 +130,7 @@
                 },
                 "unknown_user": "<Usuari desconegut>",
                 "edited": "(editat)",
-                "bot": "bot",
+                "bot": "Bot",
                 "notifications": {
                     "default": "Utilitzar opció per defecte",
                     "all": "Tots el missatges",
@@ -158,7 +158,15 @@
                 "bridge": "pont",
                 "user_timed_out": "L'usuari està aïllat temporalment per {{time}}.",
                 "bridged": "El missatge s'ha enviat en una altra plataforma",
-                "team": "comunicació oficial"
+                "team": "comunicació oficial",
+                "new_to_revolt": "Nou en revolt",
+                "new_to_server": "Nou en aquest servidor",
+                "reactions": {
+                    "others_reacted": "{{userlist}} i {{count}} més van reaccionar",
+                    "unknown_reacted": "{{count}} persones van reaccionar",
+                    "single_reacted": "1 persones a reaccionat",
+                    "people_reacted": "{{people}} han reaccionat"
+                }
             },
             "groups": {
                 "create": "Crear un grup",
@@ -250,7 +258,7 @@
                     "sync": "Opcions de sincronització",
                     "font": "Font",
                     "mono_font": "Selector de tipus de lletra Monospace",
-                    "ligatures_desc": "Per als tipus de lletra compatibles, les lligadures combinen caràcters, per exemple, convertint -> en una fletxa.",
+                    "ligatures_desc": "Per els tipus de lletra compatibles, les lligadures combinen caràcters, per exemple, convertint -> en una fletxa.",
                     "theme_options": {
                         "follow_desc": "Quan estigui marcat, no podreu canviar el tema ni utilitzar un tema personalitzat.",
                         "title": "Opcións del Tema",
@@ -270,6 +278,18 @@
                         "show_send": "Mostra sempre el botó Envia missatge",
                         "show_account_age": "Mostra sempre l'edat del compte al costat dels missatges d'unió",
                         "show_account_age_desc": "Si està desactivat, l'edat del compte només es mostrarà per als usuaris nous."
+                    },
+                    "colours": {
+                        "title": "Colors"
+                    },
+                    "emoji": {
+                        "title": "Emoji"
+                    },
+                    "fonts": {
+                        "title": "Fonts"
+                    },
+                    "advanced_options": {
+                        "title": "Opcions avançades"
                     }
                 },
                 "profile": {
@@ -302,8 +322,8 @@
                 "notifications": {
                     "title": "Notificacions",
                     "push_notifications": "Notificacions push",
-                    "enable_desktop": "Activa les notificacions d'escriptori.",
-                    "enable_push": "Activeu les notificacions push.",
+                    "enable_desktop": "Activa les notificacions d'escriptori",
+                    "enable_push": "Activeu les notificacions push",
                     "sounds": "Sons",
                     "descriptions": {
                         "enable_desktop": "Això us proporcionarà notificacions mentre l'aplicació estigui oberta.",
@@ -551,7 +571,7 @@
                     "confirm_leave": "Deixar {{name}}?",
                     "confirm_ban": "Estas a punt de vetar {{name}}",
                     "confirm_ban_reason": "Motiu del vet",
-                    "unfriend_user": "Eliminar {{name}}?",
+                    "unfriend_user": "¿Deixar de ser amic de {{name}}?",
                     "unfriend_user_long": "Potser no podràs tornar a parlar amb ells fins que els tornis a afegir.",
                     "block_user": "Bloquejar {{name}}?",
                     "block_user_long": "Estas segur que vols bloquejar a {{name}}? També es treuran de la llista d'amics.",
@@ -602,7 +622,7 @@
                     "older": "Mostra les actualitzacions més antigues"
                 },
                 "report": {
-                    "thank_you": "Gràcies per ajudar a mantenir Revolt segur. Revisarem el vostre informe tan aviat com sigui possible",
+                    "thank_you": "Gràcies per ajudar a mantenir Revolt segur. Revisarem el vostre informe tan aviat com sigui possible.",
                     "reported": "informat",
                     "block_user": "Vols bloquejar ha aquest usuari?",
                     "content_reason": {
@@ -941,6 +961,10 @@
         "members": {
             "one": "1 membre",
             "many": "{{count}} membres"
+        },
+        "dropFiles": {
+            "one": "Carregar un fitxer",
+            "many": "Carregar {{count}} fitxers"
         }
     },
     "dayjs": {
