@@ -35,7 +35,7 @@ The following table shows languages and people enlisted for verifying certain la
 |🇪🇪|eesti / et|[@Asl-script](https://github.com/Asl-script)|[@u032](https://github.com/u032) [@Lefromrevolt](https://github.com/Lefromrevolt)|
 |🇫🇮|suomi / fi|||
 |🇵🇭|Filipino / fil|[@I2rys](https://github.com/I2rys)||
-|🇫🇷|Français / fr|[@Hades785](https://github.com/Hades785)|[@RedNight-was-taken](https://github.com/RedNight-was-taken) [@Kasahe](https://github.com/Kasahe)|
+|🇫🇷|Français / fr|[@Hades785](https://github.com/Hades785) [@Kasahe](https://github.com/Kasahe)|[@RedNight-was-taken](https://github.com/RedNight-was-taken)|
 |🇮🇪|Gaeilge / ga|||
 |🇮🇳|हिन्दी / hi|[@Infiniticity](https://github.com/Infiniticity)|[@CodeWhiteWeb](https://github.com/CodeWhiteWeb) [@FakeFerg](https://github.com/FakeFerg) [@Yeikzy](https://github.com/Yeikzy)|
 |🇭🇷|Hrvatski / hr|||
@@ -43,7 +43,7 @@ The following table shows languages and people enlisted for verifying certain la
 |🇦🇲|հայերեն / hy|||
 |🇮🇩|bahasa Indonesia / id|[@liimee](https://github.com/liimee)|[@ilhamfauzan](https://github.com/ilhamfauzan)|
 |🇮🇸|Íslenska / is|||
-|🇮🇹|Italiano / it|[@SingleSlice](https://github.com/SingleSlice)||
+|🇮🇹|Italiano / it|[@SingleSlice](https://github.com/SingleSlice)|[@Gabriele73](https://github.com/Gabriele73)|
 |🇯🇵|日本語 / ja|[@chelley](https://github.com/chelley)||
 |🇰🇷|한국어 / ko|||
 |🇱🇺|Lëtzebuergesch / lb|||
@@ -66,7 +66,7 @@ The following table shows languages and people enlisted for verifying certain la
 |🇸🇪|Svenska / sv|[@raggebatman](https://github.com/raggebatman)||
 |🇮🇳|தமிழ் / ta|||
 |🇹🇭|ไทย / th|[@xhayper](https://github.com/xhayper)||
-|🇹🇷|Türkçe / tr|[@KerizAlperwastaken](https://github.com/KerizAlperwastaken)||
+|🇹🇷|Türkçe / tr|[@KerizAlperwastaken](https://github.com/KerizAlperwastaken) [@ramazaneris](https://github.com/ramazaneris)||
 |🇵🇰|اردو / ur|||
 |🇺🇦|Українська / uk|[@div2005](https://github.com/div2005)||
 |vec|Vèneto / vec|||
