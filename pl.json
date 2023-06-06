@@ -60,7 +60,7 @@
         "verified_account": "Twoje konto zostało zweryfikowane!",
         "verified_continue": "Przejdź do logowania",
         "new_password": "Nowe hasło",
-        "log_out_other": "Wyloguj wszystkie poprzednie sesje (oprócz tej)"
+        "log_out_other": "Wylogowanie ze wszystkich innych sesji"
     },
     "app": {
         "status": {
@@ -359,7 +359,7 @@
                         "translator": "Tłumacz",
                         "early_adopter": "Wczesny ptaszek",
                         "supporter": "Wspierający",
-                        "responsible_disclosure": "Odpowiedzialnie ujawnione błędy",
+                        "responsible_disclosure": "Odpowiedzialnie ujawnione kwestie bezpieczeństwa",
                         "founder": "Założyciel",
                         "moderation": "Moderacja platformy"
                     },
@@ -493,7 +493,7 @@
                     "font": "Czcionka",
                     "mono_font": "Wybór czcionki monospace",
                     "ligatures": "Ligatury czcionki",
-                    "ligatures_desc": "Dla obsługiwanych czcionek, ligatury łączą ze sobą znaki, przykładowo zmieniając -> w strzałkę.",
+                    "ligatures_desc": "Dla obsługiwanych czcionek, ligatury łączą ze sobą znaki - przykładowo zmieniając -> w strzałkę.",
                     "import": "Importuj motyw",
                     "theme_options": {
                         "seasonal_desc": "Wyświetla efekty w zakładce strona główna w okresie sezonów świątecznych.",
@@ -593,8 +593,8 @@
                     },
                     "enable_outgoing_sound": "Odtwórz dźwięk wysyłania.",
                     "enable_sound": "Odtwórz dźwięk w wiadomości.",
-                    "enable_push": "Włącz powiadomienia push.",
-                    "enable_desktop": "Włącz powiadomienia desktopowe.",
+                    "enable_push": "Włącz powiadomienia push",
+                    "enable_desktop": "Włącz powiadomienia desktopowe",
                     "title": "Powiadomienia",
                     "push_notifications": "Powiadomienia push",
                     "sounds": "Dźwięki",
@@ -715,6 +715,9 @@
                 },
                 "permissions": {
                     "title": "Uprawnienia"
+                },
+                "webhooks": {
+                    "title": "Webhooki"
                 }
             },
             "actions": {
@@ -825,6 +828,10 @@
         "members": {
             "many": "{{count}} członków",
             "one": "1 członek"
+        },
+        "dropFiles": {
+            "many": "Upuść {{count}} plików",
+            "one": "Upuść plik"
         }
     },
     "error": {
