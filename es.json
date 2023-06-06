@@ -710,7 +710,7 @@
             "invite": {
                 "invited_by": "Invitado por {{user}}",
                 "accept": "Aceptar invitación",
-                "user_count": "Hay {{member_count}} usuarios",
+                "user_count": "{{member_count}} usuarios",
                 "login": "Iniciar sesión en Revolt",
                 "invalid": "¡Invitación inválida!",
                 "invalid_desc": "Puede que la invitación no exista o que no tengas permiso para unirte."
@@ -830,7 +830,7 @@
     },
     "notifications": {
         "now_friends": "¡Ahora eres amigo de @{{person}}!",
-        "sent_request": "@{{person}} te envió una solicitud de amistad."
+        "sent_request": "@{{person}} te ha enviado una solicitud de amistad."
     },
     "error": {
         "MissingPermission": "Permisos insuficientes.",
@@ -841,7 +841,7 @@
         "InternalError": "Error interno.",
         "MissingHeaders": "Faltan encabezados.",
         "InvalidSession": "Sesión invalida.",
-        "UsernameTaken": "Este nombre de usuario ya está tomado.",
+        "UsernameTaken": "Este nombre de usuario ya está en uso.",
         "InvalidEmail": "Dirección de correo electrónico inválida",
         "UnsupportedBrowser": "Tu navegador no soporta esta característica.",
         "DeniedNotification": "Has denegado los permisos para el envío de notificaciones, comprueba la configuración de la página.",
@@ -857,10 +857,10 @@
         "AlreadySentRequest": "Ya has enviado una solicitud a este usuario.",
         "Blocked": "Has bloqueado a este usuario.",
         "BlockedOther": "Este usuario te ha bloqueado.",
-        "NoEffect": "Esta petición no surtió efecto.",
+        "NoEffect": "Esta petición no ha tenido efecto.",
         "FailedToReceive": "El servidor no ha recibido tu archivo.",
         "ProbeError": "Fallo en la obtención de los metadatos del archivo.",
-        "IoError": "El servidor ha encontrado un error I/O.",
+        "IoError": "El servidor ha encontrado un error de E/S.",
         "UnknownError": "Ver consola.",
         "OperationFailed": "Operación fallida.",
         "UnverifiedAccount": "Cuenta no verificada.",
@@ -890,11 +890,11 @@
             "t": "Expulsar miembros"
         },
         "RemoveAvatars": {
-            "d": "Permitir a los miembros eliminar los avatares de otros miembros en este servidor.",
+            "d": "Permite a los miembros eliminar los avatares de otros miembros en este servidor.",
             "t": "Eliminar avatares"
         },
         "ChangeAvatar": {
-            "d": "Permitir a los miembros cambiar su avatar en este servidor.",
+            "d": "Permite a los miembros cambiar su avatar en este servidor.",
             "t": "Cambiar avatar"
         },
         "ManageServer": {
@@ -939,7 +939,7 @@
         },
         "Masquerade": {
             "t": "Camuflarse",
-            "d": "Permitir a los miembros cambiar su nombre y avatar para cada mensaje."
+            "d": "Permite a los miembros cambiar su nombre y avatar para cada mensaje."
         },
         "ManageRole": {
             "t": "Administrar roles",
@@ -966,8 +966,8 @@
             "d": "Permite a los miembros hablar en un canal de voz."
         },
         "Video": {
-            "t": "Video",
-            "d": "Permite a los miembros transmitir video en un canal de voz."
+            "t": "Vídeo",
+            "d": "Permite a los miembros transmitir vídeo en un canal de voz."
         },
         "MuteMembers": {
             "t": "Silenciar Miembros",
