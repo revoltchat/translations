@@ -334,6 +334,18 @@
                         "show_send_desc": "Nese keni kufizuar \"Dergo Mesazh\" butonin ai do të shfaqet vetëm në pajisjen mobile.",
                         "show_account_age": "Trego gjithmonë moshën e llogarisë pranë mesazheve të bashkimit",
                         "show_account_age_desc": "Nëse çaktivizohet, mosha e llogarisë do të shfaqet vetëm për përdoruesit e rinj."
+                    },
+                    "colours": {
+                        "title": "Ngjyrat"
+                    },
+                    "fonts": {
+                        "title": "Fontet"
+                    },
+                    "emoji": {
+                        "title": "Emoji"
+                    },
+                    "advanced_options": {
+                        "title": "Opsione te avancuara"
                     }
                 },
                 "notifications": {
@@ -438,6 +450,9 @@
                     "title": "ملخص",
                     "name": "اسم القناة",
                     "description": "قناة صفا"
+                },
+                "webhooks": {
+                    "title": "Uebhooks"
                 }
             },
             "server_pages": {
@@ -568,7 +583,8 @@
                     "cancel": "Anulo",
                     "done": "U krye",
                     "reset": "Rivendos",
-                    "confirm": "Konfirmo"
+                    "confirm": "Konfirmo",
+                    "dont_block": "Mos blloko"
                 },
                 "out_of_date": {
                     "title": "Klienti juaj është jo i përditësuar!",
@@ -625,7 +641,11 @@
                         "Harassment": "Ky është ngacmim ose abuzim i synuar ndaj një përdoruesi tjetër"
                     },
                     "user_reason": {
-                        "SpamAbuse": "Përdoruesi po dërgon spam ose po abuzon ndryshe me platformën"
+                        "SpamAbuse": "Përdoruesi po dërgon spam ose po abuzon ndryshe me platformën",
+                        "InappropriateProfile": "Profili i përdoruesit është i papërshtatshëm për një audiencë të përgjithshme",
+                        "Impersonation": "Ky përdorues po imiton dikë tjetër",
+                        "BanEvasion": "Ky përdorues po i shmanget një ndalimi",
+                        "Underage": "Ky përdorues nuk është mjaft i vjetër për të pasur një llogari"
                     },
                     "reported": "Raportuar",
                     "thank_you": "Faleminderit për ndihmën për të mbajtur Revolt të sigurt. Ne do ta shqyrtojmë raportin tuaj sa më shpejt të jetë e mundur.",
@@ -698,9 +718,71 @@
                 "invited_by": "I ftuar nga {{user}}",
                 "login": "Hyni në Revolt",
                 "accept": "Pranoje Ftesen",
-                "user_count": "{{member_count}} përdoruesit"
+                "user_count": "{{member_count}} përdoruesit",
+                "invalid": "Ftesë e pavlefshme!",
+                "invalid_desc": "Ftesa mund të mos ekzistojë ose ju nuk keni leje për t'u bashkuar."
             },
             "requires_online": "Duhet të jeni online për ta parë këtë."
+        },
+        "context_menu": {
+            "cancel_friend": "Hiq shokun",
+            "copy_text": "Kopjo tekstin",
+            "cancel_message": "Anulo dërgimin",
+            "ban_member": "Anëtari i ndalimit",
+            "remove_member": "Hiq nga grupi",
+            "copy_link": "Kopjo lidhjen",
+            "block_user": "Blloko përdoruesin",
+            "unblock_user": "Zhblloko përdoruesin",
+            "remove_friend": "Hiq shokun",
+            "set_custom_status": "Vendosni një status të personalizuar",
+            "create_category": "Krijo kategori",
+            "copy_id": "Kopjo ID",
+            "copy_selection": "Kopjo përzgjedhjen",
+            "copy_uid": "Kopjo ID-në e përdoruesit",
+            "copy_sid": "Kopjo ID-në e serverit",
+            "copy_cid": "Kopjo ID-në e kanalit",
+            "copy_mid": "Kopjo ID-në e mesazhit",
+            "copy_message_link": "Kopjo lidhjen e mesazhit",
+            "mention": "Përmend",
+            "message_user": "Mesazh",
+            "view_profile": "Shiko Profilin",
+            "mark_as_read": "Shënoni si të lexuar",
+            "mark_unread": "Shëno si të palexuar",
+            "retry_message": "Riprovo dërgo",
+            "reply_message": "Përgjigju",
+            "quote_message": "Mesazh citimi",
+            "edit_message": "Redakto mesazhin",
+            "report_message": "Raporto mesazhin",
+            "delete_message": "Fshi mesazhin",
+            "make_owner": "Jepni pronësinë e grupit",
+            "kick_member": "Anëtar i goditjes",
+            "open_file": "Hap skedarin",
+            "save_file": "Ruaj dosjen",
+            "open_image": "Hap imazhin",
+            "save_image": "Ruani imazhin",
+            "open_video": "Hap videon",
+            "save_video": "Hap videon",
+            "open_link": "Link i hapur",
+            "add_friend": "Shtoni mik",
+            "report_user": "Anulo kerkesen",
+            "custom_status": "Raporto përdoruesin",
+            "clear_status": "Statusi i personalizuar",
+            "leave_group": "Largohu nga grupi",
+            "leave_server": "Largohu nga serveri",
+            "close_dm": "Mbylle DM",
+            "report_server": "Serveri i raportit",
+            "delete_server": "Fshi serverin",
+            "edit_identity": "Redakto identitetin",
+            "delete_channel": "Fshi kanalin",
+            "create_channel": "Krijo kanal",
+            "create_invite": "Krijo ftesë",
+            "open_notification_options": "Opsionet e njoftimit",
+            "open_channel_settings": "Cilësimet e kanalit",
+            "open_server_settings": "Cilësimet e serverit",
+            "open_group_settings": "Cilësimet e grupit"
+        },
+        "permissions": {
+            "required": "Kërkohen leje"
         }
     },
     "permissions": {
@@ -725,7 +807,108 @@
             "d": "Lejon anëtarët të ftojnë përdorues të tjerë në një kanal."
         },
         "Masquerade": {
-            "d": "Lejon anëtarët të ndryshojnë emrin dhe avatarin e tyre për çdo mesazh."
+            "d": "Lejon anëtarët të ndryshojnë emrin dhe avatarin e tyre për çdo mesazh.",
+            "t": "Maskaradë"
+        },
+        "Speak": {
+            "t": "Fol",
+            "d": "Lejon anëtarët të flasin në një kanal zanor."
+        },
+        "ManageChannels": {
+            "t": "Menaxho kanalet",
+            "d": "Lejon anëtarët të krijojnë, modifikojnë dhe fshijnë kanale."
+        },
+        "ManageServer": {
+            "t": "Menaxho serverin",
+            "d": "Lejon anëtarët të ndryshojnë emrin, përshkrimin, ikonën dhe informacione të tjera të lidhura me këtë server."
+        },
+        "ManagePermissions": {
+            "t": "Menaxho lejet",
+            "d": "Lejon anëtarët të ndryshojnë lejet për kanalet dhe rolet me një renditje më të ulët."
+        },
+        "ManageRole": {
+            "t": "Menaxho rolet",
+            "d": "Lejon anëtarët të krijojnë, modifikojnë dhe fshijnë role me një gradë më të ulët se e tyre. Gjithashtu i lejon ata të modifikojnë lejet e roleve në kanale."
+        },
+        "ManageCustomisation": {
+            "t": "Menaxho personalizimin",
+            "d": "Lejon anëtarët të krijojnë, modifikojnë dhe fshijnë emoji."
+        },
+        "KickMembers": {
+            "t": "Kick Anëtarët",
+            "d": "Lejon anëtarët të heqin anëtarë nga ky server. Anëtarët e shkelmuar mund të ribashkohen me një ftesë."
+        },
+        "BanMembers": {
+            "t": "Ndaloni anëtarët",
+            "d": "Lejon anëtarët të heqin përgjithmonë anëtarë nga ky server."
+        },
+        "TimeoutMembers": {
+            "t": "Kohëzgjatja e anëtarëve",
+            "d": "Lejon anëtarët të parandalojnë përkohësisht përdoruesit të ndërveprojnë me serverin."
+        },
+        "AssignRoles": {
+            "t": "Cakto role",
+            "d": "Lejon anëtarët të caktojnë role nën rangun e tyre anëtarëve të tjerë."
+        },
+        "ChangeNickname": {
+            "t": "Ndrysho pseudonimin",
+            "d": "Lejon anëtarët të ndryshojnë pseudonimin e tyre në këtë server."
+        },
+        "ManageNicknames": {
+            "t": "Menaxho pseudonimet",
+            "d": "Lejon anëtarët të ndryshojnë pseudonimet e anëtarëve të tjerë."
+        },
+        "ChangeAvatar": {
+            "t": "Ndrysho Avatarin",
+            "d": "Lejon anëtarët të ndryshojnë avatarin e tyre në këtë server."
+        },
+        "RemoveAvatars": {
+            "t": "Hiq Avatarët",
+            "d": "Lejon anëtarët të heqin avatarët e serverit të anëtarëve të tjerë në këtë server."
+        },
+        "ViewChannel": {
+            "t": "Shiko Kanalin",
+            "d": "Lejon anëtarët të shikojnë çdo kanal për të cilin kanë këtë leje."
+        },
+        "ReadMessageHistory": {
+            "t": "Lexoni Historinë e Mesazheve",
+            "d": "Lejon anëtarët të lexojnë historikun e mesazheve të këtij kanali."
+        },
+        "SendEmbeds": {
+            "t": "Dërgo Embeds",
+            "d": "Lejon anëtarët të dërgojnë përmbajtje të ngulitur, qoftë nga lidhje ose nga ngulitje të personalizuara teksti."
+        },
+        "UploadFiles": {
+            "t": "Ngarko skedarë",
+            "d": "Lejon anëtarët të ngarkojnë skedarë në kanale teksti."
+        },
+        "React": {
+            "t": "Përdorni Reaksionet",
+            "d": "Lejon anëtarët të reagojnë ndaj mesazheve."
+        },
+        "Connect": {
+            "t": "Lidhu",
+            "d": "Lejon anëtarët të lidhen me një kanal zanor."
+        },
+        "Video": {
+            "t": "Video",
+            "d": "Lejon anëtarët të transmetojnë video në një kanal zanor."
+        },
+        "MuteMembers": {
+            "t": "Heshtja e anëtarëve",
+            "d": "Lejon anëtarët të heqin zërin e të tjerëve në një kanal zanor."
+        },
+        "DeafenMembers": {
+            "t": "Anëtarët e shurdhër",
+            "d": "Lejon anëtarët të shurdhojnë të tjerët në një kanal zanor."
+        },
+        "MoveMembers": {
+            "t": "Zhvendos anëtarët",
+            "d": "Lejon anëtarët të lëvizin të tjerët midis kanaleve zanore."
+        },
+        "ManageWebhooks": {
+            "t": "Menaxho Webhooks",
+            "d": "Lejon anëtarët të kontrollojnë lidhjet në internet në një kanal."
         }
     },
     "error": {
@@ -734,13 +917,55 @@
         "DatabaseError": "Error databaz.",
         "InternalError": "Error i brendshëm.",
         "MissingPermission": "Mungon leja.",
-        "Unlabelled": "Diçka ndothi."
+        "Unlabelled": "Diçka ndothi.",
+        "UnknownError": "Shih konsolën.",
+        "EmailInUse": "Email në përdorim.",
+        "UnverifiedAccount": "Llogaria e paverifikuar.",
+        "MissingInvite": "Mungon kodi i ftesës në kërkesë.",
+        "FailedValidation": "Vërtetimi i fushave dështoi.",
+        "OperationFailed": "Operacioni dështoi.",
+        "RenderFail": "Paraqitja e shabllonit dështoi.",
+        "MissingHeaders": "Mungojnë kokat.",
+        "InvalidSession": "Sesion i pavlefshëm.",
+        "UnknownUser": "Përdorues i panjohur.",
+        "EmailFailed": "Email-i nuk u dërgua.",
+        "InvalidCredentials": "Email-i ose fjalëkalimi është i gabuar.",
+        "InvalidToken": "Shenja e pavlefshme",
+        "InvalidInvite": "Kodi i pavlefshëm",
+        "AlreadyOnboarded": "Hyrja ka përfunduar tashmë.",
+        "UsernameTaken": "Ai emër përdoruesi është marrë.",
+        "AlreadyFriends": "Tashmë miq me këtë përdorues.",
+        "Blocked": "Ju e keni bllokuar këtë përdorues.",
+        "BlockedOther": "Ky përdorues ju ka bllokuar.",
+        "NoEffect": "Kjo kërkesë nuk pati asnjë efekt.",
+        "RequiredField": "E detyrueshme",
+        "TooShort": "Shumë e shkurtër",
+        "TooLong": "Shume gjate",
+        "Unavailable": "I padisponueshëm.",
+        "FileTooLarge": "Skedari është shumë i madh.",
+        "MissingData": "Kërkesës i mungojnë të dhënat.",
+        "ProbeError": "Marrja e meta të dhënave të skedarit dështoi.",
+        "IoError": "Serveri hasi në një gabim I/O.",
+        "DeniedNotification": "Refuzove aksesin në njoftim, kontrollo cilësimet e faqes.",
+        "CompromisedPassword": "Ky fjalëkalim është komprometuar.",
+        "ReachedMaximumBots": "Ju keni arritur numrin maksimal të robotëve.",
+        "AlreadySentRequest": "I është dërguar tashmë një kërkesë këtij përdoruesi.",
+        "InvalidEmail": "Adresë e pavlefshme emaili",
+        "FailedToReceive": "Serveri nuk arriti të marrë skedarin tuaj.",
+        "UnsupportedBrowser": "Shfletuesit i mungon mbështetja për këtë veçori.",
+        "AudioPermissionBlock": "Nuk ka qasje në mikrofonin tuaj, ju lutemi kontrolloni konfigurimin e shfletuesit tuaj."
     },
     "dayjs": {
         "defaults": {
             "date_format": "tradicional",
-            "twelvehour": "jo"
-        }
+            "twelvehour": "jo",
+            "date_separator": "/"
+        },
+        "lastDay": "[Dje në] {{time}}",
+        "sameDay": "[Sot në] {{time}}",
+        "nextDay": "[Nesër në] {{time}}",
+        "lastWeek": "[E fundit] dddd [në] {{time}}",
+        "nextWeek": "dddd [në] {{time}}"
     },
     "notifications": {
         "now_friends": "Tani je miq me @{{person}}!",
@@ -748,5 +973,18 @@
     },
     "actions": {
         "submit": "dorëzojë"
+    },
+    "quantities": {
+        "dropFiles": {
+            "one": "Hidhni një skedar",
+            "many": "Hiq {{count}} skedarë"
+        },
+        "members": {
+            "one": "1 Anëtar",
+            "many": "{{count}} anëtarë"
+        }
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
     }
 }
