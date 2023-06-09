@@ -22,7 +22,7 @@
                 },
                 "attached_file": "Prenesao {{filename}}",
                 "failed_upload": "Prijenos neuspješan!",
-                "uploading_file": "Učitavanje…",
+                "uploading_file": "Slanje…",
                 "message_saved": "Spremi u bilješke",
                 "message_who": "Pošalji poruku osobi {{person}}",
                 "message_where": "Pošalji poruku u {{channel_name}}",
@@ -48,11 +48,13 @@
                     "blocked_user": "Blokirani korisnik",
                     "jump_beginning": "Idi na početak",
                     "new_messages": "Nova poruka od {{time_ago}}",
-                    "load_file": "Učitaj datoteku"
+                    "load_file": "Učitaj datoteku",
+                    "timed_out": "Stavljeni ste u time-out za {{time}}.",
+                    "not_loaded": "Poruka nije učitana, klikni za prijelaz"
                 },
                 "unknown_user": "<Nepoznati korisnik>",
                 "edited": "(uređeno)",
-                "bot": "robot",
+                "bot": "bot",
                 "search": {
                     "title": "Traži",
                     "sort": {
@@ -81,9 +83,21 @@
                     "nochannel": "Nema kanala"
                 },
                 "reply": {
-                    "replying": "Odgovaranje"
+                    "replying": "Odgovaranje",
+                    "toggle": "Uključi ping za autora"
                 },
-                "bridge": "most"
+                "bridge": "most",
+                "new_to_revolt": "Novi na Revoltu",
+                "team": "Službena komunikacija",
+                "bridged": "Poruka je poslana na drugoj platformi",
+                "new_to_server": "Novi u serveru",
+                "user_timed_out": "Korisnik je stavljen u time-out na {{time}}.",
+                "reactions": {
+                    "unknown_reacted": "{{count}} ljudi je reagiralo",
+                    "single_reacted": "Jedna osoba je reagirala",
+                    "people_reacted": "{{people}} reagiraju",
+                    "others_reacted": "{{userlist}} i {{count}} drugi su reagirali"
+                }
             },
             "categories": {
                 "members": "Članovi",
@@ -133,7 +147,7 @@
             "title": "Postavke",
             "categories": {
                 "client_settings": "Postavke aplikacije",
-                "user_settings": "Postavke korisnika",
+                "user_settings": "Korisničke postavke",
                 "danger_zone": "Zona opasnosti"
             },
             "actions": {
@@ -154,13 +168,16 @@
                         "remove_auth": "Uklonite Authenticator",
                         "generate_recovery": "Stvori kôd za oporavak",
                         "view_recovery": "Pogledaj kôd za oporavak",
-                        "view_recovery_long": "Pogledaj i preuzmi svoje 2FA kôdove za oporavak."
+                        "view_recovery_long": "Pogledaj i preuzmi svoje 2FA kôdove za oporavak.",
+                        "generate_recovery_long": "Pripremi se za korištenje 2FA autorizacije postavljanjem metode za oporavak.",
+                        "two_factor_on": "Dvofaktorska autorizacija je trenutno uključena.",
+                        "two_factor_off": "Niste uključili dvofaktorsku autorizaciju!"
                     },
                     "manage": {
                         "description": "Onemogućite ili izbrišite svoj račun u bilo kojem trenutku. Ova radnja će vas odjaviti i potpuno izbrisati vaš račun, uključujući povijest razgovora i prijatelje.",
                         "title": "Upravljanje računom",
                         "disable": "Onemogući račun",
-                        "delete": "Izbriši račun"
+                        "delete": "Označi račun za brisanje"
                     }
                 },
                 "profile": {
@@ -208,7 +225,7 @@
                     "accent_selector": "Glavna boja",
                     "font": "Font",
                     "import": "Uvezite temu",
-                    "ligatures_desc": "Za podržane fontove, ligature kombiniraju znakove zajedno, na primjer, pretvarajući -> u strelicu.",
+                    "ligatures_desc": "Za podržane fontove, ligature kombiniraju znakove zajedno - na primjer, pretvarajući -> u strelicu.",
                     "mono_font": "Birač jednoznačnih fontova",
                     "ligatures": "Font ligatures",
                     "theme_options": {
@@ -216,11 +233,32 @@
                         "transparency": "Transparentnost",
                         "transparency_desc": "Uključuje efekt transparentnosti u cijeloj aplikaciji.",
                         "title": "Opcije teme",
-                        "follow": "Koristi temu sustava"
+                        "follow": "Koristi temu sustava",
+                        "follow_desc": "Dok je uključeno, nije moguće promijeniti temu ili koristiti vlastite teme.",
+                        "seasonal": "Sezonske teme"
                     },
                     "discover": {
                         "description": "Pregledajte teme koje je stvorila zajednica",
                         "title": "Pronađi teme"
+                    },
+                    "appearance_options": {
+                        "show_send_desc": "Ako je isključeno, tipka za poslati poruku samo će biti prisutna na mobitelu.",
+                        "show_account_age": "Uvijek pokaži dob računa uz poruke pridruživanja",
+                        "title": "Postavke izgleda",
+                        "show_send": "Uvijek pokaži tipku za poslati poruku",
+                        "show_account_age_desc": "Ako je isključeno, dob računa samo će biti pokazana uz nove korisnike."
+                    },
+                    "colours": {
+                        "title": "Boje"
+                    },
+                    "emoji": {
+                        "title": "Emotikoni"
+                    },
+                    "fonts": {
+                        "title": "Fontovi"
+                    },
+                    "advanced_options": {
+                        "title": "Napredne opcije"
                     }
                 },
                 "notifications": {
@@ -235,8 +273,8 @@
                     },
                     "sounds": "Zvukovi",
                     "push_notifications": "Push obavjesti",
-                    "enable_desktop": "Uključi obavjesti.",
-                    "enable_push": "Uključi push obavjesti.",
+                    "enable_desktop": "Uključi obavjesti",
+                    "enable_push": "Uključi push obavijesti",
                     "sound": {
                         "call_join": "Korisnički pridruženi poziv",
                         "call_leave": "Lijevi poziv korisnika",
@@ -257,7 +295,8 @@
                         "appearance": "Ovo će sinkronizirati opcije kao emoji paket i densitet poruka.",
                         "theme": "Ovo će sinkronizirati teme, boje i vlastiti CSS."
                     },
-                    "title": "Sinkronizacija"
+                    "title": "Sinkronizacija",
+                    "options": "Opcije sinkroniziranja"
                 },
                 "experiments": {
                     "features": "Dostupne opcije",
@@ -286,7 +325,8 @@
                     "issue": "Izradite novo izdanje",
                     "suggest": "Pošaljite prijedlog značajke",
                     "issue_desc": "Da biste nam lakše olakšali probleme s trijažom, problem možete stvoriti na GitHubu.",
-                    "bug_desc": "Ovdje pogledajte trenutno aktivna izvješća o programskim pogreškama."
+                    "bug_desc": "Ovdje pogledajte trenutno aktivna izvješća o programskim pogreškama.",
+                    "description": "Pošalji povratne informacije"
                 },
                 "logOut": "Odjavi se",
                 "audio": {
@@ -311,13 +351,27 @@
                     "reserved": "Napomena: Ovo polje rezervirano je za budućnost.",
                     "create_bot": "Stvori Bota",
                     "public_bot_desc": "Treba li dopustiti drugim korisnicima da dodaju ovog bota.",
-                    "unique_id": "Ovo je jedinstveni identifikator vašeg bota. Ovo nije botov token."
+                    "unique_id": "Ovo je jedinstveni identifikator vašeg bota. Ovo nije botov token.",
+                    "profile": "Profil bota"
                 },
                 "native": {
                     "title": "Postavke radne površine"
                 },
                 "theme_shop": {
-                    "title": "Kupi teme"
+                    "title": "Kupi teme",
+                    "category": {
+                        "manage": "Upravljaj spremljenim temama",
+                        "viewall": "Pogledaj sve",
+                        "default": "Zadane teme",
+                        "highest": "Najbolje ocijenjeno",
+                        "new": "Novo ovaj tjedan",
+                        "saved": "Spremljeno"
+                    },
+                    "active": "Trenutno aktivno",
+                    "use": "Koristi temu",
+                    "by": "od",
+                    "description": "Pretraži stotine tema, napravljene i izabrane od naše zajednice.",
+                    "search": "Pretraži teme…"
                 },
                 "plugins": {
                     "title": "Dodaci",
@@ -334,6 +388,9 @@
                 },
                 "permissions": {
                     "title": "Dopuštenja"
+                },
+                "webhooks": {
+                    "title": "Webhookovi"
                 }
             },
             "server_pages": {
@@ -365,6 +422,16 @@
                 },
                 "categories": {
                     "title": "Kategorije"
+                },
+                "emojis": {
+                    "title": "Emotikoni",
+                    "upload": "Prenosi emotikone"
+                },
+                "customisation": {
+                    "title": "Prilagodbe"
+                },
+                "management": {
+                    "title": "Menađžment korisnika"
                 }
             },
             "tips": {
@@ -392,7 +459,9 @@
                 "hoist_desc": "Prikaži ovaj rank iznad drugih.",
                 "role_colour": "Boja ranka",
                 "role_options": "Postavke ranka",
-                "delete_role": "Izbriši rank"
+                "delete_role": "Izbriši rank",
+                "hoist_role": "Podigni ulogu",
+                "role_ranking": "Rankiranje uloga"
             }
         },
         "special": {
@@ -441,10 +510,12 @@
                     "confirm_delete_message_long": "Jeste li sigurni da želite izbrisati ovo?",
                     "create_invite_created": "Evo vaše invitacije:",
                     "confirm_ban": "Banati korisnika {{name}}",
-                    "unfriend_user": "Ukloniti {{name}}?",
+                    "unfriend_user": "Maknuti prijetelja {{name}}?",
                     "unfriend_user_long": "Možda nećete moći ponovno razgovarati s njima dok ih ponovo ne dodate.",
                     "block_user": "Blokirati {{name}}?",
-                    "block_user_long": "Jeste li sigurni da želite blokirati korisnika {{name}}? Također će biti uklonjeni s vašeg popisa prijatelja."
+                    "block_user_long": "Jeste li sigurni da želite blokirati korisnika {{name}}? Također će biti uklonjeni s vašeg popisa prijatelja.",
+                    "members_not_notified": "Drugi korisnici neće biti obavješteni",
+                    "silent_leave": "Napusti u tišini"
                 },
                 "account": {
                     "change": {
@@ -477,7 +548,9 @@
                     "edit": "Uredi",
                     "report": "Prijavi",
                     "done": "Gotovo",
-                    "confirm": "Potvrdi"
+                    "confirm": "Potvrdi",
+                    "dont_block": "Ne blokiraj",
+                    "reset": "Resetiraj"
                 },
                 "external_links": {
                     "title": "Vanjske veze mogu biti opasne!",
@@ -486,20 +559,63 @@
                 },
                 "token_reveal": "{{name}}'s Token",
                 "out_of_date": {
-                    "ignore": "Zanemari ažuriranje"
+                    "ignore": "Zanemari ažuriranje",
+                    "description": "Mora biti nadograđen da radi sa novim promjenama.",
+                    "attempting": "Pokušaj nadogradnje…",
+                    "version": "Vaš klijent je na {{client}}, gdje server zahtjeva {{server}}.",
+                    "title": "Vaš klijent je zastario!"
                 },
                 "sessions": {
                     "short": "Ne možeš poništiti ovu radnju.",
                     "accept": "Izbriši sve sesije",
                     "title": "Jeste li sigurni da želite očistiti sesije?"
-                }
+                },
+                "mfa": {
+                    "prompt_totp": "Molimo skenirajte ili koristite token ispod u vašoj autenfikacijskoj aplikaciji.",
+                    "enter_code": "Unesite kod",
+                    "save_codes": "Molimo spremite ih na sigurnu lokaciju.",
+                    "recovery_codes": "Vaši kodovi za oporavak",
+                    "confirm": "Molimo potvrdite pomoću odabrane metode.",
+                    "select_method": "Molimo odaberite metodu za autenifikaciju vašeg zahtjeva.",
+                    "enable_totp": "Uključite autenifikator"
+                },
+                "report": {
+                    "reported": "Prijavljen",
+                    "message": "Prijavi poruku",
+                    "additional_context": "Dodatne informacije",
+                    "content_reason": {
+                        "Malware": "Ovo je virus/neželjeni softver",
+                        "Illegal": "Sadržaj krši jedan ili više zakona",
+                        "PromotesHarm": "Sadržaj promovira ozljede drugima ili sebi",
+                        "SpamAbuse": "Ovo je spam ili okorištavnje platforme",
+                        "Harassment": "Ovo je maltretiranje ili omalovažanje ciljano na drugog korisnika"
+                    },
+                    "by_name": "Prijavi {{name}}",
+                    "thank_you": "Hvala vam što čuvate Revolt sigurnim. Pregledat ćemo vašu prijavu što prije moguće.",
+                    "block_user": "Želite li blokirati ovog korisnika?",
+                    "no_reason": "Razlog nije specifiran / drugi razlog",
+                    "user_reason": {
+                        "Impersonation": "Ovaj korisnik oponaša nekog drugog",
+                        "InappropriateProfile": "Korisnički profil je neprilagodan za širu zajednicu",
+                        "BanEvasion": "Ovaj korisnik izbjegava ban",
+                        "Underage": "Ovaj korisnik je premlad da bi imao korisnički račun",
+                        "SpamAbuse": "Korisnik šalje spam ili okorištava platformu"
+                    },
+                    "reason": "Razlog"
+                },
+                "changelogs": {
+                    "title": "Spis promjena",
+                    "description": "Pročitaj promjene na Revoltu.",
+                    "older": "Pogledaj starije promjene"
+                },
+                "confirm": "Potvrdi akciju"
             },
             "popovers": {
                 "user_profile": {
                     "profile": "Profil",
                     "mutual_friends": "Zajednički prijatelji",
                     "empty": "Ovdje je prazno…",
-                    "no_groups": "Nema zajedničkih grupa!",
+                    "no_groups": "Nema zajedničkih grupa",
                     "sub": {
                         "badges": "Značke",
                         "connections": "Konekcije",
@@ -509,14 +625,14 @@
                         "translator": "Prevoditelj",
                         "early_adopter": "Rani korisnik",
                         "supporter": "Podržavatelj",
-                        "responsible_disclosure": "Odgovorno otkrivene greške",
+                        "responsible_disclosure": "Odgovorno otkrivene greške u sigurnosti",
                         "founder": "Osnivač",
                         "moderation": "Moderiranje platforme"
                     },
                     "mutual_groups": "Zajedničke grupe",
-                    "no_users": "Nema zajedničkih prijatelja!",
+                    "no_users": "Nema zajedničkih prijatelja",
                     "mutual_servers": "Međusobni poslužitelji",
-                    "no_servers": "Nema zajedničkih poslužitelja!"
+                    "no_servers": "Nema zajedničkih poslužitelja"
                 },
                 "user_picker": {
                     "select": "Odaberi prijatelje koje želiš dodati."
@@ -597,7 +713,11 @@
             "open_notification_options": "Opcije obavijesti",
             "create_category": "Izradi kategoriju",
             "reply_message": "Odgovor",
-            "mark_unread": "Označi kao nepročitano"
+            "mark_unread": "Označi kao nepročitano",
+            "report_message": "Prijavi poruku",
+            "make_owner": "Predaj vlasništvo grupe",
+            "report_user": "Prijavi korisnika",
+            "report_server": "Prijavi server"
         },
         "permissions": {
             "required": "Potrebna dopuštenja"
@@ -626,7 +746,8 @@
             "resend": "Ponovno slanje neuspješno!",
             "reset": "Promjena neuspješna!",
             "login": "Prijava neuspješna!",
-            "create": "Registracija neuspješna!"
+            "create": "Registracija neuspješna!",
+            "verify": "Potvrda neuspješna!"
         },
         "successful_registration": "Uspješno ste se registrirali!",
         "open_mail_provider": "Otvori {{provider}}",
@@ -644,10 +765,11 @@
         "forgot": "Zaboravili ste zaporku?",
         "enter": {
             "current_password": "Unesite trenutačnu zaporku.",
-            "invite": "Unesite pozivnicu",
-            "password": "Unesite zaporku",
-            "email": "Unesite e-poštu.",
-            "username": "Unesite željeno korisničko ime"
+            "invite": "Unesite pozivnicu.",
+            "password": "Unesite zaporku.",
+            "email": "Unesite svoju e-poštu.",
+            "username": "Unesite vaše korisničko ime.",
+            "new_password": "Unesite novu lozinku."
         },
         "current_password": "Trenutačna zaporka",
         "invite": "Pozivnica",
@@ -657,12 +779,18 @@
         "register": "Registrirajte se",
         "title": "Prijavi se",
         "email_delay": "Pričekajte do 10 minuta da se pojavi.",
-        "welcome": "Dobro došli natrag!",
+        "welcome": "Dobro došli!",
         "subtitle": "Prijavi se u Revolt",
         "welcome2": "Bok!",
         "subtitle2": "Napravi račun",
         "totp": "Aplikacija za autentifikaciju",
-        "recovery": "Kôd za oporavak"
+        "recovery": "Kôd za oporavak",
+        "new_password": "Nova lozinka",
+        "log_out_other": "Odjavi se iz svih ostalih sesija",
+        "unofficial_instance": "Instanca trećeg korisnika.",
+        "verifying_account": "Potvrđujemo vaš račun…",
+        "verified_account": "Vaš račun je potvrđen!",
+        "verified_continue": "Nastavi na prijavu"
     },
     "general": {
         "loading": "Učitavam…",
@@ -674,12 +802,16 @@
         "off": "Isključeno",
         "disabled": "Onemogućeno",
         "unavailable": "Nedostupno",
-        "learn_more": "Više informacija"
+        "learn_more": "Naučite više"
     },
     "quantities": {
         "members": {
             "one": "1 član",
             "many": "{{count}} članova"
+        },
+        "dropFiles": {
+            "many": "Pošalji {{count}} datoteka",
+            "one": "Pošalji datoteku"
         }
     },
     "dayjs": {
@@ -824,14 +956,16 @@
             "t": "Upravljaj dozvolama"
         },
         "ManageCustomisation": {
-            "d": "Dopusti članovima stvaranje, uređivanje i uklanjanje emoji-ja."
+            "d": "Dopusti članovima stvaranje, uređivanje i uklanjanje emoji-ja.",
+            "t": "Upravljanje prilagodbama"
         },
         "AssignRoles": {
             "t": "Dodijeli uloge",
             "d": "Dozvoli članovima da dodjele rank ispod svojeg ranka drugim članovima."
         },
         "TimeoutMembers": {
-            "d": "Dozvoli članovima da privremeno spriječe korisnike da se koriste serverom."
+            "d": "Dozvoli članovima da privremeno spriječe korisnike da se koriste serverom.",
+            "t": "Timeout korisnike"
         },
         "ManageWebhooks": {
             "t": "Kontroliraj Webhook-ove",
@@ -840,6 +974,41 @@
         "ReadMessageHistory": {
             "t": "Pročitaj povijest poruka",
             "d": "Dozvoli članovima da pročitaju povijest poruka u ovoj sobi."
+        },
+        "React": {
+            "t": "Koristiti reakcije",
+            "d": "Dozvoljava korisnicima da reagiraju na poruke."
+        },
+        "Connect": {
+            "d": "Dozvoljava korisnicima da se spoje na glasovni kanal.",
+            "t": "Spoji"
+        },
+        "Speak": {
+            "d": "Dozvoljava korisnicima da pričaju u glasovnom kanalu.",
+            "t": "Pričati"
+        },
+        "MoveMembers": {
+            "d": "Dozvoljava korisnike da pomiču druge između glasovnih kanala.",
+            "t": "Premjestiti korisnike"
+        },
+        "SendEmbeds": {
+            "d": "Dozvoljava korisnicima da šalju privitke, ili iz linkova ili posebnih tekstnih privitaka.",
+            "t": "Slanje privitaka"
+        },
+        "MuteMembers": {
+            "d": "Dozvoljava korisnicima da utišaju druge u govornom kanalu.",
+            "t": "Utišaj korisnike"
+        },
+        "DeafenMembers": {
+            "t": "Oglušiti korisnike",
+            "d": "Dozvoljava korisnicima da ogluše druge korisnike u glasovnom kanalu."
+        },
+        "Video": {
+            "t": "Video",
+            "d": "Dozvoljava korisnicima da emitirijaju video u glasovnom kanalu."
         }
+    },
+    "actions": {
+        "submit": "Pošalji"
     }
 }
