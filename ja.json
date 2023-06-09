@@ -91,9 +91,9 @@
                     "public_bot_tip": "ボットは公開されています。誰でも招待することができます。",
                     "public_bot": "公開ボット",
                     "public_bot_desc": "他のユーザーが、このボットを招待することができるかどうか。",
-                    "interactions_url": "相互作用URL",
-                    "reserved": "注：このフィールドは将来のために確保されています。",
-                    "unique_id": "これは、あなたのボットに固有の識別子です。ボットのトークンではありません。",
+                    "interactions_url": "インタラクションURL",
+                    "reserved": "注：このフィールドは将来のために予約されています。",
+                    "unique_id": "これはあなたのボットの固有の識別子です。ボットのトークンではありません。",
                     "profile": "ボットプロフィール"
                 },
                 "source_code": "ソースコード",
@@ -176,15 +176,15 @@
                         "seasonal_desc": "ホリデーシーズン中、ホームタブにエフェクトを表示します。",
                         "seasonal": "季節のテーマ",
                         "transparency": "透明効果",
-                        "transparency_desc": "アプリ全体の透過効果を有効にします。"
+                        "transparency_desc": "アプリ全体で透過効果を有効にします。"
                     },
                     "discover": {
                         "title": "テーマを探す",
-                        "description": "コミュニティが作ったテーマをブラウズする"
+                        "description": "コミュニティで作られたテーマを見る"
                     },
                     "appearance_options": {
-                        "show_send": "送信ボタンを全ての端末で表示する",
-                        "show_send_desc": "オフの場合、送信ボタンはスマホでのみ表示されます。",
+                        "show_send": "常にメッセージ送信ボタンを表示する",
+                        "show_send_desc": "無効の場合、送信ボタンはスマホでのみ表示されます。",
                         "title": "外観の設定",
                         "show_account_age": "メッセージの横に常にアカウントの年齢を表示する",
                         "show_account_age_desc": "無効にすると、年齢は新しいユーザーに対してのみ表示されます。"
@@ -208,7 +208,7 @@
                     "title": "音声設定",
                     "device_label_NA": "該当無し",
                     "tip_retry": "マイクの使用許可がありません。もう一度{{retryBtn}}。",
-                    "button_retry": "リトライ",
+                    "button_retry": "再試行",
                     "tip_grant_permission": "オーディオ設定にアクセスするには、権限を付与する必要があります。",
                     "button_grant": "許可を与える"
                 },
@@ -238,17 +238,17 @@
                     },
                     "2fa": {
                         "remove_auth": "二要素認証を無効化",
-                        "add_auth": "Authenticatorの追加",
+                        "add_auth": "Authenticatorを追加",
                         "description": "あなたのアカウントで二要素認証を有効にすることで、さらにセキュリティを高めることができます。",
                         "title": "二要素認証",
                         "view_recovery": "リカバリコードを表示",
-                        "view_recovery_long": "2FA リカバリー コードを表示してダウンロードします。",
+                        "view_recovery_long": "二要素認証のリカバリー コードを表示、ダウンロードします。",
                         "generate_recovery": "リカバリ コードの生成",
                         "generate_recovery_long": "復元方法を設定して、二段階認証を使用する準備を整えます。",
                         "two_factor_on": "二要素認証を使用しています。",
                         "two_factor_off": "二要素認証を使っていません！"
                     },
-                    "unique_id": "これは、あなたのアカウントに固有のユーザー識別子です。",
+                    "unique_id": "これはあなたのアカウントの固有のユーザー識別子です。",
                     "change_field": "変更",
                     "title": "自分のアカウント"
                 },
@@ -412,7 +412,7 @@
                 "user_timed_out": "ユーザーは{{time}}間タイムアウトされています。",
                 "bridged": "別のプラットフォームでメッセージが送信された",
                 "team": "公式コミュニティー",
-                "new_to_revolt": "新規登録日時 Revolt",
+                "new_to_revolt": "Revoltの初心者",
                 "new_to_server": "このサーバーの新機能",
                 "reactions": {
                     "others_reacted": "{{userlist}}と{{count}} 人が反応しました",
@@ -715,11 +715,11 @@
             "directs": "ダイレクトメッセージ",
             "donate_desc": "寄付でプロジェクトを支援する - ありがとうございます!",
             "group": "グループを作成",
-            "group_desc": "友達みんなと、かっこいいボットを誘って、盛大なパーティーを開きましょう。",
+            "group_desc": "友達全員と素敵なボットを招待して盛大なパーティーを開きましょう。",
             "join-testers_desc": "こちらで直接、問題の報告や改善点の相談ができます。",
             "goto-testers_desc": "こちらで直接、問題の報告や改善点の相談ができます。",
             "feedback_desc": "私たちのアプリをどのように改善するか、フィードバックをお寄せください。",
-            "discover": "ディスカバーリボルト",
+            "discover": "Revoltを発見する",
             "discover_desc": "自分の趣味や関心に基づいたコミュニティを見つける。"
         }
     },
@@ -772,7 +772,7 @@
         "new_password": "新しいパスワード",
         "log_out_other": "すべての他のセッションからログアウト",
         "verified_continue": "ログインに進む",
-        "verifying_account": "アカウントの認証…"
+        "verifying_account": "アカウントを検証中…"
     },
     "general": {
         "unavailable": "利用不可",
