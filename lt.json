@@ -100,18 +100,18 @@
                 "misc": {
                     "spoiler_attachment": "Atskleidžiamas turinys",
                     "jump_present": "Eiti į dabartį",
-                    "viewing_old": "Rodomi senesni pranešimai",
-                    "no_sending": "Neturite leidimo siųsti pranešimų šiame kanale.",
-                    "failed_load": "Nepavyko įkelti pranešimo.",
-                    "blocked_messages": "Užblokuota pranešimų: {{count}}",
+                    "viewing_old": "Rodomos senesnės žinutės",
+                    "no_sending": "Neturite leidimo siųsti žinučių šiame kanale.",
+                    "failed_load": "Nepavyko įkelti žinutės.",
+                    "blocked_messages": "Užblokuota žinučių: {{count}}",
                     "blocked_user": "Užblokuotas naudotojas",
                     "sent_file": "Išsiųstas priedas",
                     "sent_multiple_files": "Išsiųsti keli priedai",
                     "jump_beginning": "Eiti į pradžią",
-                    "new_messages": "Nauji pranešimai {{time_ago}}",
+                    "new_messages": "Naujos žinutės {{time_ago}}",
                     "load_file": "Įkelti failą",
                     "timed_out": "Esate sulaikyti {{time}}.",
-                    "not_loaded": "Pranešimas neįkeltas, spustelėkite, kad pereitumėte"
+                    "not_loaded": "Žinutė neįkelta, spustelėkite, kad pereitumėte"
                 },
                 "voice": {
                     "unmute": "Atšaukti nutildymą",
@@ -120,7 +120,7 @@
                     "connected": "Balsas prijungtas"
                 },
                 "notifications": {
-                    "all": "Visi pranešimai",
+                    "all": "Visos žinutės",
                     "default": "Naudoti numatytuosius nustatymus",
                     "mention": "Tik paminėjimai",
                     "none": "Jokių",
@@ -152,7 +152,7 @@
                 },
                 "bridge": "tiltas",
                 "user_timed_out": "Naudotojas sulaikytas {{time}}.",
-                "bridged": "Pranešimas buvo išsiųstas kitoje platformoje",
+                "bridged": "Žinutė buvo išsiųsta kitoje platformoje",
                 "team": "Oficialus pranešimas",
                 "new_to_revolt": "Revolt naujokas",
                 "new_to_server": "Serverio naujokas",
@@ -407,7 +407,7 @@
         },
         "context_menu": {
             "copy_id": "Kopijuoti ID",
-            "message_user": "Pranešimas",
+            "message_user": "Žinutė",
             "block_user": "Blokuoti naudotoją",
             "open_group_settings": "Grupės nustatymai",
             "open_channel_settings": "Kanalo nustatymai",
@@ -427,14 +427,14 @@
             "save_file": "Išsaugoti failą",
             "open_file": "Atidaryti failą",
             "remove_member": "Šalinti iš grupės",
-            "delete_message": "Naikinti pranešimą",
-            "edit_message": "Redaguoti pranešimą",
-            "quote_message": "Cituoti pranešimą",
+            "delete_message": "Naikinti žinutę",
+            "edit_message": "Redaguoti žinutę",
+            "quote_message": "Cituoti žinutę",
             "cancel_message": "Atšaukti siuntimą",
             "retry_message": "Siųsti iš naujo",
             "mark_as_read": "Pažymėti kaip skaitytą",
             "mention": "Paminėti",
-            "copy_mid": "Kopijuoti pranešimo ID",
+            "copy_mid": "Kopijuoti žinutės ID",
             "copy_cid": "Kopijuoti kanalo ID",
             "copy_uid": "Kopijuoti naudotojo ID",
             "copy_text": "Kopijuoti tekstą",
@@ -453,12 +453,12 @@
             "create_channel": "Kurti kanalą",
             "create_invite": "Kurti kvietimą",
             "open_notification_options": "Pranešimų nustatymai",
-            "copy_message_link": "Kopijuoti pranešimo nuorodą",
+            "copy_message_link": "Kopijuoti žinutės nuorodą",
             "edit_identity": "Redaguoti tapatybę",
             "create_category": "Kurti kategoriją",
             "mark_unread": "Pažymėti kaip neskaitytą",
             "make_owner": "Suteikti grupės nuosavybę",
-            "report_message": "Skųstis pranešimu",
+            "report_message": "Skųstis žinute",
             "report_user": "Skųstis naudotoju",
             "report_server": "Skųstis serveriu"
         },
@@ -478,7 +478,7 @@
                     "theme": "Tema",
                     "title": "Išvaizda",
                     "overrides": "Temos tinkinimas",
-                    "message_display": "Pranešimų rodymas",
+                    "message_display": "Žinučių rodymas",
                     "sync": "Sinchronizuoti parinktis",
                     "custom_css": "Tinkintas CSS",
                     "theme_data": "Temos duomenys",
@@ -510,9 +510,9 @@
                     },
                     "appearance_options": {
                         "title": "Išvaizdos parinktys",
-                        "show_send": "Visada rodyti mygtuką „Siųsti pranešimą“",
-                        "show_send_desc": "Jei išjungta, mygtukas „Siųsti pranešimą“ bus rodomas tik mobiliuosiuose įrenginiuose.",
-                        "show_account_age": "Visada rodyti paskyros amžių šalia prisijungimo pranešimų",
+                        "show_send": "Visada rodyti mygtuką „Siųsti žinutę“",
+                        "show_send_desc": "Jei išjungta, mygtukas „Siųsti žinutę“ bus rodomas tik mobiliuosiuose įrenginiuose.",
+                        "show_account_age": "Visada rodyti paskyros amžių šalia prisijungimo žinučių",
                         "show_account_age_desc": "Jei išjungta, paskyros amžius bus rodomas tik naujiems naudotojams."
                     },
                     "colours": {
@@ -609,8 +609,8 @@
                     "push_notifications": "Iššokantys pranešimai",
                     "title": "Pranešimai",
                     "sound": {
-                        "outbound": "Pranešimas išsiųstas",
-                        "message": "Pranešimas gautas",
+                        "outbound": "Žinutė išsiųsta",
+                        "message": "Žinutė gauta",
                         "call_join": "Naudotojas prisijungė prie skambučio",
                         "call_leave": "Naudotojas paliko skambutį"
                     }
@@ -629,7 +629,7 @@
                 "sync": {
                     "descriptions": {
                         "theme": "Sinchronizuos jūsų pasirinktą temą, spalvas ir bet kuriuos tinkintus CSS.",
-                        "appearance": "Sinchronizuos tokias parinktis, kaip jaustukų paketai ir pranešimų tankis.",
+                        "appearance": "Sinchronizuos tokias parinktis, kaip jaustukų paketai ir žinučių tankis.",
                         "locale": "Sinchronizuos jūsų pasirinktą kalbą."
                     },
                     "title": "Sinchronizavimas",
@@ -734,7 +734,7 @@
                     "description": "Kanalo aprašymas",
                     "name": "Serverio pavadinimas",
                     "title": "Apžvalga",
-                    "system_messages": "Sistemos pranešimų kanalai"
+                    "system_messages": "Sistemos žinučių kanalai"
                 },
                 "invites": {
                     "title": "Kvietimai",
@@ -794,7 +794,7 @@
             "feedback": "Parašykite atsiliepimą apie Revolt",
             "settings": "Atidarykite nustatymus",
             "social": "Rasti serverių arba botų",
-            "directs": "Asmeniniai pranešimai",
+            "directs": "Asmeninės žinutės",
             "join-testers_desc": "Galite pranešti apie problemas ir aptarti patobulinimus su mumis tiesiogiai čia.",
             "goto-testers_desc": "Galite pranešti apie problemas ir aptarti patobulinimus su mumis tiesiogiai čia.",
             "donate_desc": "Paremkite projektą paaukodami - ačiū!",
@@ -916,12 +916,12 @@
             "d": "Leidžia nariams šalinti kitų narių avatarus šiame serveryje."
         },
         "SendMessage": {
-            "t": "Siųsti pranešimus",
-            "d": "Leidžia nariams siųsti pranešimus teksto kanaluose."
+            "t": "Siųsti žinutes",
+            "d": "Leidžia nariams siųsti žinutes teksto kanaluose."
         },
         "ManageMessages": {
-            "t": "Tvarkyti pranešimus",
-            "d": "Leidžia nariams naikinti kitų narių siųstus pranešimus."
+            "t": "Tvarkyti žinutes",
+            "d": "Leidžia nariams naikinti kitų narių siųstas žinutes."
         },
         "ManageChannel": {
             "t": "Tvarkyti kanalus",
@@ -945,7 +945,7 @@
         },
         "Masquerade": {
             "t": "Maskaradas",
-            "d": "Leidžia nariams keisti savo vardą ir avatarą kiekvienam pranešimui."
+            "d": "Leidžia nariams keisti savo vardą ir avatarą kiekvienai žinutei."
         },
         "ManageRole": {
             "t": "Tvarkyti vaidmenis",
@@ -961,7 +961,7 @@
         },
         "React": {
             "t": "Naudoti reakcijas",
-            "d": "Leidžia nariams reaguoti į pranešimus."
+            "d": "Leidžia nariams reaguoti į žinutes."
         },
         "Video": {
             "d": "Leidžia nariams transliuoti vaizdo įrašus balso kanale.",
@@ -984,8 +984,8 @@
             "d": "Leidžia nariams nutildyti kitus balso kanale."
         },
         "ReadMessageHistory": {
-            "t": "Peržiūrėti pranešimų istoriją",
-            "d": "Leidžia nariams peržiūrėti šio kanalo pranešimų istoriją."
+            "t": "Peržiūrėti žinučių istoriją",
+            "d": "Leidžia nariams peržiūrėti šio kanalo žinučių istoriją."
         },
         "ManageCustomisation": {
             "t": "Tvarkyti tinkinimą",
