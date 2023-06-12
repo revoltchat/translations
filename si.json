@@ -8,11 +8,12 @@
         "password": "මුරපදය",
         "current_password": "වත්මන් මුරපදය",
         "enter": {
-            "username": "පරිශීලක නාමයක් යොදන්න.",
+            "username": "පරිශ්‍රීලක නාමය යොදන්න.",
             "password": "මුරපදය ඇතුල් කරන්න.",
             "invite": "ඇරයුම් කේතය යොදන්න.",
             "current_password": "වත්මන් මුරපදය යොදන්න.",
-            "email": "වි-තැපෑල යොදන්න."
+            "email": "වි-තැපෑල යොදන්න.",
+            "new_password": "නව මුරපදයක් යොදන්න."
         },
         "forgot": "මුරපදය අමතක වුනාද?",
         "reset": "මුරපදය යළි සකසන්න",
@@ -44,7 +45,8 @@
         "resend": "නැවත යවන්න",
         "verifying_account": "ඔබගේ ගිණුම තහවුරු වෙමින්…",
         "verified_account": "ඔබගේ ගිණුම තහවුරු වී ඇත!",
-        "verified_continue": "පිවිසුම වෙත යන්න"
+        "verified_continue": "පිවිසුම වෙත යන්න",
+        "new_password": "නව මුරපදය"
     },
     "app": {
         "main": {
@@ -114,7 +116,8 @@
                     "multiple": "{{userlist}} සහ {{user}} ලියමින්…",
                     "several": "කිහිප දෙනෙක් ලියමින්…"
                 },
-                "message_who": "{{person}}ට පණිවුඩයක් යවන්න"
+                "message_who": "{{person}}ට පණිවුඩයක් යවන්න",
+                "team": "නිල සන්නිවේදනය"
             },
             "groups": {
                 "owner": "සමූහයේ හිමිකරු",
@@ -155,7 +158,8 @@
                     "confirm_close_dm_long": "ඔබට එය පසුව විවෘත කළ හැකිමුත් දෙපැත්තෙන්ම නොපෙනී යනු ඇත.",
                     "confirm_ban_reason": "තහනමට හේතුව",
                     "confirm_ban": "{{name}} තහනම් කිරීමට සැරසෙමින්",
-                    "block_user_long": "{{name}} අවහිර කිරීමට ඇවැසිද? ඔබගේ යහළුන්ගේ ලේඛනයෙන්ද ඉවත් වනු ඇත."
+                    "block_user_long": "{{name}} අවහිර කිරීමට ඇවැසිද? ඔබගේ යහළුන්ගේ ලේඛනයෙන්ද ඉවත් වනු ඇත.",
+                    "silent_leave": "නිහඬව හැරයන්න"
                 },
                 "external_links": {
                     "short": "මෙයට යාමට වුවමනා ද:",
@@ -378,12 +382,25 @@
                     "message_display": "පණිවිඩ දර්ශකය",
                     "theme_options": {
                         "title": "තේමා විකල්ප",
-                        "seasonal": "සෘතුමය තේමා"
+                        "seasonal": "සෘතුමය තේමා",
+                        "follow": "පද්ධතියේ තේමාව අනුගමනය"
                     },
                     "appearance_options": {
                         "title": "පෙනුමට විකල්ප"
                     },
-                    "emoji_pack": "ඉමෝජි ඇසුරුම"
+                    "emoji_pack": "ඉමෝජි ඇසුරුම",
+                    "discover": {
+                        "title": "තේමා බලන්න"
+                    },
+                    "emoji": {
+                        "title": "ඉමෝජි"
+                    },
+                    "fonts": {
+                        "title": "රුවකුරු"
+                    },
+                    "advanced_options": {
+                        "title": "වැඩිදුර විකල්ප"
+                    }
                 },
                 "notifications": {
                     "sounds": "ශබ්ද",
@@ -397,15 +414,16 @@
                     "descriptions": {
                         "enable_desktop": "මෙය ඔබගේ යෙදුම විවෘත විට දැනුම්දීම් සපයයි."
                     },
-                    "enable_desktop": "වැඩතල දැනුම්දීම් සබල කරන්න.",
-                    "enable_push": "තල්ලු දැනුම්දීම් සබල කරන්න.",
+                    "enable_desktop": "වැඩතල දැනුම්දීම් සබල කරන්න",
+                    "enable_push": "තල්ලු දැනුම්දීම් සබල කරන්න",
                     "push_notifications": "තල්ලු දැනුම්දීම්"
                 },
                 "sessions": {
                     "this_device": "මෙම උපාංගය",
                     "title": "වාර",
                     "logout": "අන් සියළුම වාර නික්මවන්න",
-                    "active_sessions": "සක්‍රිය වාර"
+                    "active_sessions": "සක්‍රිය වාර",
+                    "created": ""
                 },
                 "language": {
                     "title": "භාෂාව",
@@ -449,7 +467,8 @@
                         "default": "පෙරනිමි තේමා",
                         "saved": "සුරැකිණි"
                     },
-                    "search": "තේමා සොයන්න…"
+                    "search": "තේමා සොයන්න…",
+                    "use": "තේමාව යොදන්න"
                 },
                 "logOut": "නික්මෙන්න",
                 "native": {
@@ -523,7 +542,8 @@
                 "create_role": "නම භූමිකාවක් සාදන්න",
                 "edit_title": "අවසර සංස්කරණය",
                 "title": "{{role}} සඳහා අවසර",
-                "delete_role": "භූමිකාව මකන්න"
+                "delete_role": "භූමිකාව මකන්න",
+                "role_options": "භූමිකාවේ විකල්ප"
             },
             "tips": {
                 "languages": {
@@ -618,8 +638,9 @@
         "about": "පිළිබඳව",
         "tos": "සේවාවේ නියම",
         "loading": "පූරණය වෙමින්…",
-        "learn_more": "තව තොරතුරු",
-        "image_by": "අනුරුව"
+        "learn_more": "තව දැනගන්න",
+        "image_by": "අනුරුව",
+        "unavailable": "නොතිබේ"
     },
     "quantities": {
         "members": {
@@ -682,5 +703,8 @@
     },
     "notifications": {
         "now_friends": "ඔබ දැන් @{{person}} සමඟ යහළු වී ඇත!"
+    },
+    "actions": {
+        "submit": "යොමන්න"
     }
 }
