@@ -9,7 +9,7 @@
         "unavailable": "Ned verfüegbar",
         "tos": "Nutzungsbedingunge",
         "privacy": "Dateschutzrichtlinie",
-        "learn_more": "Meh informatione"
+        "learn_more": "Meh Erfahre"
     },
     "login": {
         "title": "Aamäude",
@@ -48,14 +48,18 @@
             "create": "Regischtrierig fehlgschlagä!",
             "login": "Aamäuldig fehlgschlagä!",
             "resend": "Nöiversände fehlgschlagä!",
-            "reset": "Zruggsätze fehlgschlagä!"
+            "reset": "Zruggsätze fehlgschlagä!",
+            "verify": "Verifikation fählgschlage!"
         },
         "welcome": "Wöuchomä!",
         "invite": "Iiladigscode",
         "recovery": "Wiederherstelligscode",
         "totp": "Authentifizierigs-App",
         "new_password": "Nöie Passwort",
-        "log_out_other": "Aui anderi Sitzige abmälde"
+        "log_out_other": "Vo aui anderi Sitzige abmälde",
+        "unofficial_instance": "Drittanbieter-Instanz.",
+        "verifying_account": "Account wird verifiziert…",
+        "verified_account": "Di Account isch verifiziert worde!"
     },
     "app": {
         "status": {
@@ -63,7 +67,9 @@
             "idle": "Abwäsend",
             "busy": "Ned störe",
             "invisible": "Unsichtbar",
-            "offline": "Unaktiv"
+            "offline": "Unaktiv",
+            "reconnect": "Wieder verbindä",
+            "focus": "Fokus"
         },
         "navigation": {
             "tabs": {
@@ -114,7 +120,10 @@
                     "blocked_messages": "{{count}} blockierte Nachrichte",
                     "blocked_user": "Blockierte Benutzer",
                     "sent_file": "Ahang gsändet",
-                    "sent_multiple_files": "Mehrer Ahäng gsändet"
+                    "sent_multiple_files": "Mehrer Ahäng gsändet",
+                    "not_loaded": "Nachrichtä nid glade, klick zum springe",
+                    "timed_out": "Du häsch e Timeout für {{time}}.",
+                    "load_file": "Lade Datei"
                 },
                 "notifications": {
                     "muted": "Stummgschalte",
@@ -147,7 +156,9 @@
                     "removed_by": "{{user}} isch vo {{other_user}} usegworfe worde",
                     "channel_renamed": "{{user}} het de Kanal zu {{name}} umbenannt",
                     "channel_description_changed": "{{user}} het de Kanalbeschribig gändert",
-                    "channel_icon_changed": "{{user}} het de Kanal-Icon gändert"
+                    "channel_icon_changed": "{{user}} het de Kanal-Icon gändert",
+                    "channel_ownership_changed": "{{from}} hät {{to}} gruppe besitzerrächte gä",
+                    "registered_at": "Registriert am {{time}}"
                 },
                 "start": {
                     "group": "Das isch de Start vo de Konversation.",
@@ -168,7 +179,7 @@
                 },
                 "unknown_user": "<Unbekannte Benutzer>",
                 "edited": "(editiert)",
-                "bot": "bot",
+                "bot": "Bot",
                 "errors": {
                     "title": "Ups, hier isch nüt!",
                     "nochannels": "De Server het cheni Kanäle, oder du häsch che Zuegriff zu dene.",
@@ -177,7 +188,18 @@
                 "reply": {
                     "replying": "Antwortet zue",
                     "toggle": "Autor erwähne"
-                }
+                },
+                "user_timed_out": "User hät e Timeout für {{time}}.",
+                "new_to_revolt": "Neu bi Revolt",
+                "reactions": {
+                    "unknown_reacted": "{{count}} persone hei reagiert",
+                    "single_reacted": "1 person hät reagiert",
+                    "people_reacted": "{{people}} hei reagiert",
+                    "others_reacted": "{{userlist}} u {{count}} angeri hei reagiert"
+                },
+                "new_to_server": "Neu ufm Server",
+                "team": "Offizielli Kommunikation",
+                "bridged": "Nachricht isch uf ere angeri plattform gsendet worde"
             },
             "groups": {
                 "create": "Erstell e Gruppe",
@@ -203,7 +225,36 @@
             "title": "Istellige",
             "categories": {
                 "user_settings": "Benutzer-istellige",
-                "client_settings": "Clientistellige"
+                "client_settings": "Clientistellige",
+                "danger_zone": "Gefahräzone"
+            },
+            "pages": {
+                "account": {
+                    "2fa": {
+                        "two_factor_off": "Du muesch Zwei-Faktor-Authentifizierig aktiviere!",
+                        "view_recovery": "Wiederherstelligs Codes aluege",
+                        "view_recovery_long": "2FA Wiederherstelligs Codes aluege und abelade.",
+                        "remove_auth": "Authenticator entferne",
+                        "add_auth": "Authenticator hizuefüege",
+                        "description": "Mehr sicherheit uf dim Account wenn du 2FA aktiviersch.",
+                        "title": "Zwei-Factor-Authentifizierig",
+                        "generate_recovery": "Wiederherstelligcodes erstelle",
+                        "generate_recovery_long": "Mach dich bereit 2FA zu benutze, in dem du e Wiederherstelligs Methode erstellsch.",
+                        "two_factor_on": "Zwei-Factor-Authentifizierig isch zurzit aktiviert."
+                    },
+                    "change_field": "Ändere",
+                    "manage": {
+                        "title": "Account Management"
+                    },
+                    "title": "Mi Account",
+                    "unique_id": "Das isch e einzigartige User identifikation für di account."
+                }
+            },
+            "actions": {
+                "edit": "Bearbeite {{name}}",
+                "remove": "Entfernä",
+                "upload": "Ufeladä",
+                "max_filesize": "(max {{filesize}})"
             }
         },
         "permissions": {
