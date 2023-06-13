@@ -103,7 +103,7 @@
                     "timed_out": "Sinut on aikakatkaistu ajaksi {{time}}."
                 },
                 "edited": "(muokattu)",
-                "bot": "botti",
+                "bot": "Botti",
                 "typing": {
                     "multiple": "{{userlist}} ja {{user}} kirjoittavat…",
                     "single": "{{user}} kirjoittaa…",
@@ -153,7 +153,15 @@
                 "bridge": "silta",
                 "team": "Virallinen viestintä",
                 "bridged": "Viesti on lähetetty toisella alustalla",
-                "user_timed_out": "Käyttäjä on aikakatkaistu ajaksi {{time}}."
+                "user_timed_out": "Käyttäjä on aikakatkaistu ajaksi {{time}}.",
+                "new_to_revolt": "Uutta Revoltissa",
+                "new_to_server": "Uutta tällä palvelimella",
+                "reactions": {
+                    "others_reacted": "{{userlist}} ja {{count}} muuta reagoivat",
+                    "unknown_reacted": "{{count}} käyttäjää reagoivat",
+                    "single_reacted": "1 käyttäjä reagoi",
+                    "people_reacted": "{{people}} reagoivat"
+                }
             },
             "categories": {
                 "members": "Jäsenet",
@@ -249,12 +257,12 @@
                     "badges": {
                         "translator": "Kääntäjä",
                         "supporter": "Tukija",
-                        "responsible_disclosure": "Vastuullisesti paljastetut bugit",
+                        "responsible_disclosure": "Vastuullisesti paljastetut turvallisuusongelmat",
                         "early_adopter": "Varhainen käyttäjä",
                         "founder": "Perustaja",
                         "moderation": "Alustan moderaattori"
                     },
-                    "mutual_groups": "Yhteiset Ryhmät",
+                    "mutual_groups": "Yhteiset ryhmät",
                     "mutual_friends": "Yhteiset kaverit",
                     "profile": "Profiili",
                     "no_users": "Ei yhteisiä ystäviä",
@@ -327,7 +335,7 @@
                     "confirm_delete_message_long": "Haluatko varmasti poistaa tämän?",
                     "create_invite_generate": "Luodaan kutsua…",
                     "block_user": "Estäkö {{name}}?",
-                    "unfriend_user": "Poistetaanko {{name}}?",
+                    "unfriend_user": "Poistetaanko {{name}} ystävälistalta?",
                     "create_invite_created": "Tässä on uusi kutsukoodisi:",
                     "confirm_ban_reason": "Porttikiellon syy",
                     "unfriend_user_long": "Et voi ehkä puhua hänelle uudelleen, ennen kuin lisäät heidät takaisin.",
@@ -456,8 +464,8 @@
                 "notifications": {
                     "sounds": "Äänet",
                     "push_notifications": "Push-ilmoitukset",
-                    "enable_push": "Ota push-ilmoitukset käyttöön.",
-                    "enable_desktop": "Ota työpöytäilmoitukset käyttöön.",
+                    "enable_push": "Ota push-ilmoitukset käyttöön",
+                    "enable_desktop": "Ota työpöytäilmoitukset käyttöön",
                     "title": "Ilmoitukset",
                     "descriptions": {
                         "enable_desktop": "Tämä antaa sinulle ilmoituksia kun sovellus on auki.",
@@ -500,7 +508,7 @@
                     "mono_font": "Monospace-fontin valitsin",
                     "overrides": "Teeman ohitus",
                     "ligatures": "Fontin ligatuuri",
-                    "ligatures_desc": "Tuetuissa fonteissa ligatuurit yhdistävät merkkejä toisiinsa, jolloin esimerkiksi -> muuttuu nuoleksi.",
+                    "ligatures_desc": "Tuetuissa fonteissa ligatuurit yhdistävät merkkejä toisiinsa - kuten esimerkiksi -> muuttuu nuoleksi.",
                     "theme_options": {
                         "seasonal_desc": "Näyttää tehosteita kotivälilehdessä juhla-aikoina.",
                         "seasonal": "Juhlateema",
@@ -520,6 +528,18 @@
                         "show_send_desc": "Jos tämä on pois käytöstä, viestinlähetysnappi näkyy vain mobiililaitteilla.",
                         "show_account_age_desc": "Jos ei käytössä, tilin ikä näytetään vain uusille käyttäjille.",
                         "show_account_age": "Näytä käyttäjätilin ikä aina liittymisviestin vieressä"
+                    },
+                    "colours": {
+                        "title": "Värit"
+                    },
+                    "emoji": {
+                        "title": "Hymiö"
+                    },
+                    "fonts": {
+                        "title": "Fontit"
+                    },
+                    "advanced_options": {
+                        "title": "Edistyneet asetukset"
                     }
                 },
                 "donate": {
@@ -653,6 +673,9 @@
                 },
                 "permissions": {
                     "title": "Oikeudet"
+                },
+                "webhooks": {
+                    "title": "Webhookit"
                 }
             },
             "actions": {
@@ -789,6 +812,10 @@
         "members": {
             "many": "{{count}} Jäsentä",
             "one": "1 Jäsen"
+        },
+        "dropFiles": {
+            "one": "Pudota tiedosto",
+            "many": "Pudota {{count}} tiedostoa"
         }
     },
     "error": {
@@ -815,7 +842,7 @@
         "IoError": "Palvelin kohtasi I/O virheen.",
         "AlreadySentRequest": "Olet jo lähettänyt pyynnön tälle käyttäjälle.",
         "OperationFailed": "Toimenpide epäonnistui.",
-        "UsernameTaken": "Käyttäjänimi on otettu.",
+        "UsernameTaken": "Tämä käyttäjänimi on otettu.",
         "InvalidToken": "Virheellinen token",
         "UnverifiedAccount": "Vahvistamaton tili.",
         "InvalidSession": "Virheellinen istunto.",
