@@ -3,7 +3,7 @@
         "about": "'Obout",
         "privacy": "Policy o' Shipshape",
         "tos": "Terms o' Service",
-        "loading": "Loadin…",
+        "loading": "Loadin'…",
         "image_by": "Image by",
         "disabled": "Disebl'd",
         "on": "On",
@@ -154,14 +154,14 @@
         "settings": {
             "pages": {
                 "sessions": {
-                    "created": "Created {{time_ago}}",
+                    "created": "Crafted {{time_ago}}",
                     "logout": "Log out o' all other sessions",
                     "this_device": "Dis Device",
                     "title": "Swashbucklin’ session",
                     "active_sessions": "active swashbucklin’ session"
                 },
                 "appearance": {
-                    "title": "Appearance",
+                    "title": "Ye' Pirate Looks",
                     "theme": "Theme",
                     "display": {
                         "default": "Default",
@@ -194,10 +194,10 @@
                     "appearance_options": {
                         "title": "'Pearance Settins'",
                         "show_send": "Always show sned message buttins",
-                        "show_send_desc": "If disabled, the Send Message button will only appear on mobile."
+                        "show_send_desc": "If th'switch turned off, yer Send Message button will only be on ye' mobile electronics."
                     },
-                    "overrides": "Theme Overrides",
-                    "ligatures": "Font Ligatures this.",
+                    "overrides": "Yer Looks Overlappin'",
+                    "ligatures": "Font Ligatures this",
                     "advanced": "More Opsoons settings",
                     "reset_overrides": "Reset overridess",
                     "sync": "Cloud Sync Options",
@@ -210,6 +210,12 @@
                     },
                     "colours": {
                         "title": "Ink colorings"
+                    },
+                    "emoji": {
+                        "title": "Smileys"
+                    },
+                    "advanced_options": {
+                        "title": "Advanced Ship Components"
                     }
                 },
                 "profile": {
@@ -231,7 +237,11 @@
                         "remove_auth": "Send yer Authenticator off to Davy Jone's locker",
                         "add_auth": "Add a authenticator",
                         "two_factor_on": "Double-Booty Protection be on.",
-                        "generate_recovery": "Make ye' recovery ways"
+                        "generate_recovery": "Make ye' recovery ways",
+                        "view_recovery": "See 'em 'Covery Codes",
+                        "view_recovery_long": "See n' steal yer 2FA 'covery codes.",
+                        "generate_recovery_long": "Bucklin' yer shoes for 2FA by settin' up a 'covery way.",
+                        "two_factor_off": "Ye' have not 'nabled two-booty authentication!"
                     },
                     "manage": {
                         "description": "Disable or delete yer account at any time. Dis action will log ye out n' fully delete yer account, including yer chat history n' crew.",
@@ -249,14 +259,14 @@
                         "enable_push": "Enable t' receive notifications when you be offline.",
                         "enable_desktop": "Dis will give ye notifications while yer app be open."
                     },
-                    "enable_push": "'Nable Push Notification.",
+                    "enable_push": "'Nable Push Notification",
                     "sound": {
                         "call_join": "Mariner Joined Call",
                         "call_leave": "Mariner Left Call",
                         "message": "Th' bottled Message Received",
                         "outbound": "Th' bottled Message Sent"
                     },
-                    "title": "Pop Notifications.",
+                    "title": "Ye' Loud Ship Bells.",
                     "enable_desktop": "Turn on ye' plank sounds",
                     "sounds": "Sea Noises"
                 },
@@ -361,7 +371,7 @@
         },
         "context_menu": {
             "open_video": "Open yer video",
-            "cancel_friend": "Cancel request",
+            "cancel_friend": "Cancel yer demand",
             "open_file": "Open yer coffer",
             "remove_friend": "Remove me bucko",
             "save_image": "Save yer image",
@@ -396,7 +406,13 @@
                 "blocked": "Exiled",
                 "incoming": "Incomin' scallywag.",
                 "outgoing": "Outgoin' search for ye' scallywags.",
-                "nobody": "No mateys yet!"
+                "nobody": "No mateys yet!",
+                "sent": "Scallywaggin'",
+                "from": {
+                    "single": "From {{user}}",
+                    "multiple": "From {{userlist}} and {{user}}",
+                    "several": "From {{userlist}} and {{count}} more buccaneers…"
+                }
             },
             "status": {
                 "disconnected": "Lost yer stability on th'plank.",
@@ -418,10 +434,37 @@
                     "confirm_delete_long": "Once it's thrown in ye' ocean, there be no gettin' it back.",
                     "confirm_ban": "You are 'Obout to ban {{name}} off ye' ship",
                     "unfriend_user": "Gettin' yer crewmate {{name}} off the ship?",
-                    "confirm_kick": "Are ya' sure yer gonna kick {{name}} off the plank?"
+                    "confirm_kick": "Are ya' sure yer gonna kick {{name}} off the plank?",
+                    "confirm_leave": "Abandon {{name}}?",
+                    "confirm_close_dm": "Close yer chit-chattin' with {{name}}?",
+                    "confirm_delete": "Gettin' rid of {{name}}?",
+                    "confirm_delete_message_long": "Arr' ya sure you dare push this into the deep sea?",
+                    "create_invite_generate": "Crafting yer ship ladder…",
+                    "create_invite_created": "Here's yer new way of entry matey! :",
+                    "unfriend_user_long": "Ye' be unable to talk t'yer fellow crewmate till ya add 'em back."
+                },
+                "confirm": "Confirm yer actions, matey",
+                "signed_out": "Ye' got kicked out the ship!",
+                "token_reveal": "{{name}}'s Golden Coin",
+                "account": {
+                    "change": {
+                        "email": "Change yer electronic letterin'",
+                        "username": "Switch yer usarname",
+                        "password": "Change ye' codeword"
+                    },
+                    "failed": "Ye' tidal waves prevent yer change!"
+                },
+                "mfa": {
+                    "recovery_codes": "Yer 'covery codes",
+                    "save_codes": "Keep 'em valuables piece of treasure safe y'here me matey?",
+                    "confirm": "Confirm with yer selected way of doin'."
                 }
             },
-            "copy_username": "Click for ye' usar"
+            "copy_username": "Click for ye' usar",
+            "server-badges": {
+                "official": "Partner'd Ship",
+                "verified": "Fellow Trustees"
+            }
         },
         "home": {
             "join-testers": "Join they testers server",
@@ -447,7 +490,8 @@
             "resend": "Failed t' resend!",
             "reset": "Failed t' reset!",
             "login": "Failed t' login!",
-            "create": "Failed t' register!"
+            "create": "Failed t' register!",
+            "verify": "Didn't find ye' right treasure chest key!"
         },
         "check_spam": "Please check spam if ye can nah find it",
         "existing": "Already 'ave an account?",
@@ -460,13 +504,13 @@
             "username": "Enter yer preferred username.",
             "new_password": "Enter ye' new codeword."
         },
-        "register": "Register",
+        "register": "Registar",
         "title": "Login",
         "username": "Usarname",
         "current_password": "Current secret codeword",
         "password": "Secret codeword",
         "open_mail_provider": "Check yer {{provider}}",
-        "invite": "Invite Code",
+        "invite": "Ye' Invitation Code",
         "email": "Email",
         "new": "New t' Revolt?",
         "reset": "Reset codeword",
@@ -475,7 +519,7 @@
         "remembered": "Go back t' login",
         "missing_verification": "Did yer' not get an letter?",
         "email_delay": "Please allow up t' 10 minutes fer it t' arrive.",
-        "resend": "Resend verification",
+        "resend": "Resend yer verification",
         "create": "Go on Account",
         "check_mail": "Check yer mail!",
         "cancel": "Scuttle th offer",
@@ -487,7 +531,9 @@
         "new_password": "New Codeword",
         "verified_continue": "Continue t' login",
         "verifying_account": "Verifying yer 'count…",
-        "verified_account": "Yer 'count has been verified!"
+        "verified_account": "Yer 'count has been verified!",
+        "recovery": "'Covery Code",
+        "log_out_other": "Bail out of 'em other ships"
     },
     "dayjs": {
         "defaults": {
@@ -517,10 +563,23 @@
             "t": "Be lyin'"
         },
         "ViewChannel": {
-            "t": "View Channel"
+            "t": "View Board"
         },
         "MoveMembers": {
             "d": "Allows crew members to travel others between ye' pirate ships."
+        },
+        "Connect": {
+            "t": "Anchor"
+        },
+        "ManageNicknames": {
+            "t": "Manage Ye' Sea Name"
+        },
+        "ChangeAvatar": {
+            "t": "Change Pirate Looks"
+        },
+        "RemoveAvatars": {
+            "d": "Allow 'em pirates to remove server looks o' pirates on this ship.",
+            "t": "Remove Pirate Looks"
         }
     },
     "notifications": {
