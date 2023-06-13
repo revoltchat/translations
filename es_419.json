@@ -461,14 +461,14 @@
                     "code": "Código de invitación",
                     "invitor": "Invitador",
                     "channel": "Canal",
-                    "revoke": "Retirar"
+                    "revoke": "Revocar"
                 },
                 "bans": {
                     "title": "Baneos",
                     "no_reason": "No hay una razón específica del baneo.",
                     "user": "Usuario",
                     "reason": "Razón del baneo",
-                    "revoke": "Retirar"
+                    "revoke": "Desbanear"
                 },
                 "overview": {
                     "title": "General",
@@ -503,7 +503,7 @@
                 },
                 "sessions": {
                     "b": "asegura tu cuenta cambiando tu contraseña y activando la autenticación de dos factores (2FA).",
-                    "a": "Si detectas una sesión desconocida en la lista,"
+                    "a": "Si ves una sesión desconocida en la lista,"
                 },
                 "account": {
                     "a": "¿Deseas hacer tu perfil público más tuyo?",
@@ -556,37 +556,37 @@
                 },
                 "token_reveal": "Token de {{name}}",
                 "onboarding": {
-                    "pick": "Escoge un nombre de usuario que te gustaría que la gente use para encontrarte. Recuerda que puedes cambiarlo después en los ajustes, así que no te preocupes si no encuentras el ideal a la primera.",
+                    "pick": "Escoge un nombre de usuario que te gustaría que la gente use para encontrarte, recuerda que puedes cambiarlo más tarde en ajustes.",
                     "welcome": "Te damos la bienvenida a"
                 },
                 "prompt": {
                     "confirm_leave": "¿Abandonar {{name}}?",
-                    "confirm_leave_long": "Una vez que te vayas, no podrás regresar a menos que recibas una nueva invitación.",
+                    "confirm_leave_long": "No podrás reingresar a menos que recibas una invitación nueva.",
                     "confirm_delete": "¿Eliminar {{name}}?",
-                    "confirm_delete_long": "Cuando lo elimines, no habrá vuelta atrás.",
-                    "confirm_kick": "¿Deseas expulsar a {{name}}?",
-                    "unfriend_user_long": "Si lo eliminas, es posible que no puedas hablar con esta persona de nuevo hasta que lo vuelvas a añadir.",
-                    "block_user_long": "¿Deseas bloquear a {{name}}? Si lo haces, también se eliminará de tu lista de amigos.",
+                    "confirm_delete_long": "Una vez eliminado, no hay vuelta atrás.",
+                    "confirm_kick": "¿Estás seguro de querer expulsar a {{name}}?",
+                    "unfriend_user_long": "Es posible que no le puedas volver a hablar hasta que lo vuelvas a añadir.",
+                    "block_user_long": "¿Estás seguro de querer bloquear a {{name}}? Recuerda que también se eliminará de tu lista de amigos.",
                     "confirm_close_dm": "¿Cerrar conversación con {{name}}?",
                     "confirm_close_dm_long": "Puedes reabrirla más tarde, pero ten en cuenta que desaparecerá de ambos lados.",
-                    "confirm_delete_message_long": "¿Deseas eliminar esto?",
+                    "confirm_delete_message_long": "¿Estás seguro de querer eliminar esto?",
                     "create_invite_generate": "Generando invitación…",
                     "create_invite_created": "Este es tu nuevo código de invitación:",
                     "confirm_ban": "Estás a punto de banear a {{name}}",
                     "confirm_ban_reason": "Razón del baneo",
                     "unfriend_user": "¿Quieres sacar de tu lista de amigos a {{name}}?",
                     "block_user": "¿Bloquear a {{name}}?",
-                    "silent_leave": "Abandonar sigilosamente",
+                    "silent_leave": "Abandonar en silencio",
                     "members_not_notified": "Otros miembros no serán notificados"
                 },
                 "mfa": {
                     "select_method": "Por favor, selecciona un método para autenticar tu solicitud.",
                     "recovery_codes": "Tus códigos de recuperación",
-                    "save_codes": "Por favor, asegúrate de guardar estos en un lugar seguro.",
+                    "save_codes": "Por favor, guardarlos en un lugar seguro.",
                     "confirm": "Por favor, confirma utilizando el método seleccionado.",
                     "enable_totp": "Habilitar aplicación de autenticación",
                     "prompt_totp": "Por favor, escanea el siguiente código o ingresa el token en tu aplicación de autenticación.",
-                    "enter_code": "Introducir el código"
+                    "enter_code": "Ingresa el código"
                 },
                 "changelogs": {
                     "description": "Lee acerca de las actualizaciones de Revolt.",
@@ -597,40 +597,40 @@
                     "description": "Debe actualizarse para que funcione con los cambios recientes.",
                     "attempting": "Intentando actualizar…",
                     "title": "¡Tu cliente está desactualizado!",
-                    "version": "Su cliente está en {{client}}, mientras que el servidor requiere {{server}}.",
+                    "version": "Tu cliente está en {{client}}, mientras que el servidor requiere {{server}}.",
                     "ignore": "Ignorar actualización"
                 },
                 "external_links": {
                     "trust_domain": "Confiar en este dominio",
                     "title": "¡Los enlaces externos pueden ser peligrosos!",
-                    "short": "¿En serio deseas ir a:"
+                    "short": "¿Estás seguro de querer ir a:"
                 },
                 "sessions": {
-                    "title": "¿En serio deseas eliminar tus sesiones?",
+                    "title": "¿Estás seguro de querer eliminar tus sesiones?",
                     "short": "No puedes deshacer esta acción.",
                     "accept": "Eliminar todas las sesiones"
                 },
                 "report": {
-                    "by_name": "Denunciar a {{name}}",
-                    "thank_you": "Gracias por ayudar a mantener Revolt seguro. Revisaremos tu denuncia lo antes posible.",
+                    "by_name": "Reportar a {{name}}",
+                    "thank_you": "Gracias por ayudar a mantener Revolt seguro. Revisaremos tu reporte lo antes posible.",
                     "block_user": "¿Deseas bloquear a este usuario?",
                     "content_reason": {
                         "Illegal": "El contenido viola una o más leyes",
                         "PromotesHarm": "El contenido promueve la violencia o autolesión",
                         "SpamAbuse": "Es spam o abuso de la plataforma",
-                        "Malware": "Contiene un virus o malware",
+                        "Malware": "Contiene virus o malware",
                         "Harassment": "Es acoso o abuso dirigido hacia otro usuario"
                     },
                     "user_reason": {
-                        "InappropriateProfile": "El perfil del usuario no es apropiado para el público general",
+                        "InappropriateProfile": "El perfil del usuario es inapropiado para el público general",
                         "SpamAbuse": "El usuario está enviando spam o abusando de la plataforma de alguna forma",
-                        "Impersonation": "Este usuario está suplantando la identidad de otra persona",
+                        "Impersonation": "Este usuario está suplantando la identidad de alguien más",
                         "BanEvasion": "Este usuario está evadiendo un baneo",
-                        "Underage": "La cuenta de este usuario no cumple con la edad mínima requerida para su uso"
+                        "Underage": "Este usuario no tiene la edad mínima para tener una cuenta"
                     },
-                    "message": "Denunciar mensaje",
+                    "message": "Reportar mensaje",
                     "reason": "Razón",
-                    "reported": "Denunciado",
+                    "reported": "Reportado",
                     "additional_context": "Información adicional",
                     "no_reason": "No se especificó la razón / Otra razón"
                 },
@@ -647,9 +647,9 @@
                     "block": "Bloquear",
                     "close": "Cerrar",
                     "leave": "Salir",
-                    "back": "Regresar",
+                    "back": "Volver",
                     "delete": "Eliminar",
-                    "report": "Denunciar",
+                    "report": "Reportar",
                     "create": "Crear",
                     "update": "Actualizar",
                     "reveal": "Mostrar",
@@ -661,7 +661,7 @@
                     "send_email": "Enviar correo",
                     "dont_block": "No bloquear"
                 },
-                "error": "¡Se ha producido un error!",
+                "error": "¡Ocurrió un error!",
                 "confirm": "Confirmar acción",
                 "signed_out": "¡Se ha cerrado tu sesión!",
                 "account": {
@@ -670,7 +670,7 @@
                         "email": "Cambiar correo electrónico",
                         "password": "Cambiar contraseña"
                     },
-                    "failed": "¡Se ha producido un error al guardar los cambios!"
+                    "failed": "¡No se pudo guardar los cambios!"
                 }
             },
             "server-badges": {
@@ -685,17 +685,17 @@
                         "information": "Información",
                         "connections": "Conexiones"
                     },
-                    "empty": "Está un poco vacío por aquí…",
-                    "no_users": "Ningún amigo en común",
-                    "no_groups": "Ningún grupo en común",
-                    "no_servers": "Ningún servidor en común",
+                    "empty": "Está un poco vacío por acá…",
+                    "no_users": "Sin amigos en común",
+                    "no_groups": "Sin grupos en común",
+                    "no_servers": "Sin servidores en común",
                     "mutual_friends": "Amigos en común",
                     "mutual_groups": "Grupos en común",
                     "mutual_servers": "Servidores en común",
                     "badges": {
                         "translator": "Traductor",
                         "founder": "Fundador",
-                        "supporter": "Donante",
+                        "supporter": "Donador",
                         "moderation": "Moderador de la plataforma",
                         "responsible_disclosure": "Problema(s) de seguridad informado(s) responsablemente",
                         "early_adopter": "Pionero"
@@ -703,10 +703,10 @@
                 },
                 "create_bot": {
                     "title": "Crear un nuevo bot",
-                    "failed": "¡Se ha producido un error al crear el bot!"
+                    "failed": "¡Ocurrió un error al crear el bot!"
                 },
                 "user_picker": {
-                    "select": "Seleccione amigos para agregar."
+                    "select": "Selecciona amigos para añadir."
                 },
                 "server_identity": {
                     "title": "Cambiar identidad en {{server}}",
@@ -714,14 +714,14 @@
                     "avatar": "Avatar"
                 }
             },
-            "requires_online": "Necesitas estar en línea para ver esto.",
+            "requires_online": "Necesitas estar conectado para ver esto.",
             "invite": {
                 "invited_by": "Invitado/a por {{user}}",
                 "login": "Inicia sesión en Revolt",
                 "accept": "Aceptar invitación",
-                "user_count": "Hay {{member_count}} usuarios",
+                "user_count": "{{member_count}} usuarios",
                 "invalid": "¡Invitación inválida!",
-                "invalid_desc": "Puede que la invitación no exista o que no tengas permiso para unirte."
+                "invalid_desc": "Puede que la invitación no exista o no tengas permiso para unirte."
             }
         },
         "context_menu": {
@@ -743,9 +743,9 @@
             "mark_unread": "Marcar como no leído",
             "cancel_message": "Cancelar envío",
             "edit_message": "Editar mensaje",
-            "report_message": "Denunciar mensaje",
+            "report_message": "Reportar mensaje",
             "delete_message": "Eliminar mensaje",
-            "make_owner": "Otorgar propiedad del grupo",
+            "make_owner": "Traspasar propiedad del grupo",
             "remove_member": "Eliminar del grupo",
             "kick_member": "Expulsar miembro",
             "ban_member": "Banear miembro",
@@ -760,16 +760,16 @@
             "open_link": "Abrir enlace",
             "unblock_user": "Desbloquear",
             "add_friend": "Añadir amigo",
-            "report_user": "Denunciar usuario",
+            "report_user": "Reportar usuario",
             "remove_friend": "Eliminar amigo",
-            "clear_status": "Eliminar estado personalizado",
+            "clear_status": "Eliminar tu estado",
             "cancel_friend": "Cancelar solicitud",
-            "custom_status": "Establecer estado personalizado",
+            "custom_status": "Estado personalizado",
             "set_custom_status": "Establecer un estado personalizado",
             "leave_server": "Salir del servidor",
             "leave_group": "Salir del grupo",
             "close_dm": "Cerrar MD",
-            "report_server": "Denunciar servidor",
+            "report_server": "Reportar servidor",
             "delete_server": "Eliminar servidor",
             "edit_identity": "Editar identidad",
             "delete_channel": "Eliminar canal",
@@ -796,7 +796,7 @@
         "nextWeek": "dddd [a las] {{time}}",
         "defaults": {
             "date_separator": "/",
-            "date_format": "tradicional",
+            "date_format": "traditional",
             "twelvehour": "no"
         }
     },
@@ -806,33 +806,33 @@
         "InternalError": "Error interno.",
         "RenderFail": "La renderización de la plantilla falló.",
         "UnverifiedAccount": "Cuenta no verificada.",
-        "EmailInUse": "Correo electrónico en uso.",
+        "EmailInUse": "Este correo electrónico ya está en uso.",
         "UsernameTaken": "Este nombre de usuario ya está en uso.",
         "TooLong": "Demasiado largo",
         "InvalidEmail": "Dirección de correo electrónico inválida",
         "Unavailable": "No disponible.",
         "FileTooLarge": "El archivo es demasiado grande.",
-        "FailedToReceive": "El servidor no ha recibido tu archivo.",
-        "DeniedNotification": "Has denegado los permisos para el envío de notificaciones, comprueba la configuración de la página.",
+        "FailedToReceive": "El servidor no pudo recibir tu archivo.",
+        "DeniedNotification": "Denegaste los permisos para el envío de notificaciones, revisa la configuración de la página.",
         "NetworkError": "Error de conexión.",
         "Unlabelled": "Algo ocurrió.",
         "DatabaseError": "Error en la base de datos.",
-        "MissingPermission": "Permisos faltantes.",
-        "UnknownError": "Ver consola.",
+        "MissingPermission": "Faltan permisos.",
+        "UnknownError": "Revisa la consola.",
         "OperationFailed": "Operación fallida.",
         "MissingHeaders": "Faltan encabezados.",
-        "InvalidSession": "Sesión invalida.",
+        "InvalidSession": "Sesión inválida.",
         "UnknownUser": "Usuario desconocido.",
-        "EmailFailed": "No se ha podido enviar el correo electrónico.",
+        "EmailFailed": "No se pudo enviar el correo electrónico.",
         "InvalidCredentials": "El correo electrónico o la contraseña son incorrectos.",
         "InvalidToken": "Token inválido",
         "MissingInvite": "Falta el código de invitación en la solicitud.",
         "InvalidInvite": "Código inválido",
         "AlreadyOnboarded": "Configuración ya terminada.",
         "AlreadyFriends": "Ya eres amigo/a de este/a usuario/a.",
-        "AlreadySentRequest": "Ya has enviado una solicitud a este usuario.",
-        "Blocked": "Has bloqueado a este usuario.",
-        "BlockedOther": "Este usuario te ha bloqueado.",
+        "AlreadySentRequest": "Ya enviaste una solicitud a este usuario.",
+        "Blocked": "Bloqueaste a este usuario.",
+        "BlockedOther": "Este usuario te bloqueó.",
         "NoEffect": "Esta solicitud no tuvo efecto.",
         "RequiredField": "Obligatorio",
         "TooShort": "Demasiado corto",
@@ -841,8 +841,8 @@
         "IoError": "El servidor ha encontrado un error I/O.",
         "UnsupportedBrowser": "Tu navegador no soporta esta característica.",
         "CompromisedPassword": "Esta contraseña está comprometida.",
-        "ReachedMaximumBots": "Has alcanzado la cantidad máxima de bots.",
-        "AudioPermissionBlock": "No se puede acceder a su micrófono en este momento. Por favor, revise la configuración de su navegador para permitir el acceso al micrófono."
+        "ReachedMaximumBots": "Alcanzaste la cantidad máxima de bots.",
+        "AudioPermissionBlock": "No pudimos acceder a tu micrófono. Por favor, revisa la configuración de tu navegador."
     },
     "quantities": {
         "members": {
@@ -865,7 +865,7 @@
         },
         "ManageServer": {
             "t": "Gestionar servidor",
-            "d": "Permite a los miembros cambiar el nombre, la descripción, el icono y otra información del servidor."
+            "d": "Permite a los miembros cambiar el nombre, descripción, icono y otra información del servidor."
         },
         "ManagePermissions": {
             "d": "Este permiso permite a los miembros cambiar los permisos de canales y roles que tienen una jerarquía inferior.",
@@ -880,11 +880,11 @@
             "d": "Permite a los miembros crear, editar y borrar emojis."
         },
         "KickMembers": {
-            "d": "Permite a los miembros expulsar miembros de este servidor. Los miembros expulsados podrán volver a unirse con una invitación.",
+            "d": "Permite a los miembros expulsar miembros de este servidor. Los miembros expulsados pueden reingresar con una invitación.",
             "t": "Expulsar miembros"
         },
         "BanMembers": {
-            "d": "Permite a los miembros permanentemente eliminar a miembros de este servidor.",
+            "d": "Permite a los miembros banear a otros miembros de este servidor.",
             "t": "Banear miembros"
         },
         "AssignRoles": {
@@ -909,7 +909,7 @@
         },
         "TimeoutMembers": {
             "t": "Suspender usuarios",
-            "d": "Los miembros pueden temporalmente evitar que los usuarios interactúen con el servidor."
+            "d": "Los miembros pueden evitar que los usuarios interactúen con el servidor temporalmente."
         },
         "ManageNicknames": {
             "t": "Gestionar apodos",
