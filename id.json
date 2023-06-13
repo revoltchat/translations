@@ -36,7 +36,7 @@
                         "follow_desc": "Ketika dicentang, kamu tidak dapat mengubah tema kamu atau menggunakan tema khusus.",
                         "seasonal": "Tema Musiman",
                         "seasonal_desc": "Menampilkan efek di tab beranda selama musim liburan.",
-                        "transparency_desc": "Menampilkan efek transparan di seluruh aplikasi.",
+                        "transparency_desc": "Menampilkan efek transparan pada seluruh bagian aplikasi.",
                         "transparency": "Efek Transparansi"
                     },
                     "discover": {
@@ -283,7 +283,7 @@
                 "delete_role": "Hapus Peran",
                 "hoist_role": "Angkat Peran",
                 "hoist_desc": "Tampilkan peran ini diatas yang lain.",
-                "role_options": "Pilihan Peran",
+                "role_options": "Opsi Peran",
                 "role_colour": "Warna Peran",
                 "title": "Izin untuk {{role}}",
                 "edit_title": "Sunting Perizinan"
@@ -467,7 +467,7 @@
                 "accept": "Terima Undangan",
                 "login": "Masuk ke Revolt",
                 "invited_by": "Diundang oleh {{user}}",
-                "invalid": "Undangan tidak valid!",
+                "invalid": "Undangan tidak sah!",
                 "invalid_desc": "Undangan mungkin tidak ada atau kamu tidak memiliki izin untuk bergabung."
             },
             "modals": {
@@ -525,13 +525,13 @@
                     "confirm_kick": "Apa kamu yakin ingin mengeluarkan {{name}}?",
                     "confirm_ban": "Kamu akan memban {{name}}",
                     "confirm_close_dm": "Tutup percakapan dengan {{name}}?",
-                    "confirm_close_dm_long": "Kamu dapat membukanya kembali nanti tetapi akan hilang di kedua sisi.",
+                    "confirm_close_dm_long": "Kamu dapat membukanya kembali nanti namun percakapan akan hilang di kedua sisi.",
                     "create_invite_created": "Ini kode undangan barumu:",
-                    "silent_leave": "Tinggalkan diam-diam",
+                    "silent_leave": "Tinggalkan Diam-Diam",
                     "members_not_notified": "Anggota lain tidak akan diberitahu"
                 },
                 "external_links": {
-                    "title": "Tautan eksternal bisa saja berbahaya!",
+                    "title": "Tautan eksternal bisa berbahaya!",
                     "trust_domain": "Percayai domain ini",
                     "short": "Apa kamu yakin membuka:"
                 },
@@ -566,18 +566,18 @@
                 "out_of_date": {
                     "title": "Klien kamu kedaluwarsa!",
                     "description": "Ia perlu diperbarui agar dapat bekerja dengan perubahan terbaru.",
-                    "version": "Klienmu berada di {{client}}, sedangkan servernya memerlukan {{server}}.",
+                    "version": "Klienmu berada pada versi {{client}}, namun server memerlukan versi {{server}}.",
                     "ignore": "Abaikan pembaruan",
                     "attempting": "Mencoba untuk memperbarui…"
                 },
                 "report": {
-                    "thank_you": "Terima kasih telah membantu menjaga Revolt aman. Kami akan meninjau laporan anda secepatnya.",
+                    "thank_you": "Terima kasih telah membantu menjaga Revolt aman. Kami akan segera meninjau laporanmu.",
                     "by_name": "Laporkan {{name}}",
                     "reason": "Alasan",
                     "reported": "Berhasil dilaporkan",
-                    "additional_context": "Informasi tambahan",
+                    "additional_context": "Informasi Tambahan",
                     "no_reason": "Tidak ada alasan ditentukan / alasan lain",
-                    "block_user": "Apakah Anda ingin memblokir pengguna ini?",
+                    "block_user": "Apakah kamu ingin memblokir pengguna ini?",
                     "message": "Laporkan Pesan",
                     "content_reason": {
                         "PromotesHarm": "Konten mempromosikan bahaya bagi orang lain atau diri sendiri",
@@ -609,7 +609,7 @@
                         "badges": "Lencana",
                         "connections": "Koneksi"
                     },
-                    "empty": "Di sini agak kosong…",
+                    "empty": "Di sini kosong…",
                     "no_servers": "Tidak ada server mutual",
                     "badges": {
                         "responsible_disclosure": "Memberitahukan Masalah Keamanan secara Bertanggungjawab",
@@ -626,7 +626,7 @@
                     "mutual_servers": "Server Bersama"
                 },
                 "create_bot": {
-                    "title": "Buat sebuah bot baru",
+                    "title": "Buat bot baru",
                     "failed": "Gagal membuat bot!"
                 },
                 "server_identity": {
@@ -684,7 +684,7 @@
             "copy_sid": "Salin ID server",
             "copy_message_link": "Salin tautan pesan",
             "message_user": "Pesan",
-            "mark_as_read": "Tandai sebagai dibaca",
+            "mark_as_read": "Tandai sebagai telah dibaca",
             "ban_member": "Ban anggota",
             "copy_link": "Salin tautan",
             "open_link": "Buka tautan",
@@ -734,10 +734,10 @@
         "successful_registration": "Pendaftaran berhasil!",
         "open_mail_provider": "Buka {{provider}}",
         "check_spam": "Periksa spam apabila kamu tidak dapat menemukannya",
-        "check_mail": "Periksa surel kamu!",
+        "check_mail": "Periksa email kamu!",
         "cancel": "Batalkan permintaan",
         "resend": "Kirim ulang verifikasi",
-        "missing_verification": "Tidak mendapatkan surel?",
+        "missing_verification": "Tidak mendapatkan email?",
         "create": "Buat akun baru",
         "existing": "Sudah punya akun?",
         "new": "Baru di Revolt?",
@@ -748,7 +748,7 @@
         "enter": {
             "current_password": "Masukkan sandimu saat ini.",
             "invite": "Masukkan kode undanganmu.",
-            "email": "Silakan masukkan surelmu.",
+            "email": "Silakan masukkan emailmu.",
             "password": "Masukkan sandimu.",
             "username": "Masukkan nama penggunamu.",
             "new_password": "Masukkan sandi baru."
@@ -756,11 +756,11 @@
         "current_password": "Sandi Saat Ini",
         "invite": "Kode Undangan",
         "password": "Sandi",
-        "email": "Surel",
+        "email": "Email",
         "username": "Nama Pengguna",
         "register": "Daftar",
         "title": "Masuk",
-        "email_delay": "Harap tunggu hingga 10 menit untuk surel tiba.",
+        "email_delay": "Harap tunggu hingga 10 menit untuk email tiba.",
         "welcome": "Selamat datang!",
         "subtitle": "Masuk ke Revolt",
         "welcome2": "Halo!",
@@ -787,7 +787,7 @@
         "learn_more": "Ketahui lebih lanjut"
     },
     "error": {
-        "InvalidCredentials": "Alamat surel atau sandi salah.",
+        "InvalidCredentials": "Alamat email atau sandi salah.",
         "BlockedOther": "Pengguna ini telah memblokir kamu.",
         "TooShort": "Terlalu pendek",
         "TooLong": "Terlalu panjang",
