@@ -30,7 +30,9 @@
                     "user_banned": "{{user}} has walked the plank",
                     "user_joined": "{{user}} has docked their ship",
                     "added_by": "{{other_user}} added {{user}} to yer' crew",
-                    "user_kicked": "{{user}} was thrown aboard"
+                    "user_kicked": "{{user}} was thrown aboard",
+                    "channel_ownership_changed": "{{from}} gave {{to}} access to ye' ship wheel",
+                    "registered_at": "Joined ye' crew {{time}}"
                 },
                 "typing": {
                     "single": "{{user}} be typing…",
@@ -53,7 +55,9 @@
                     "blocked_user": "Dead men tell no tales",
                     "spoiler_attachment": "Blimey, spoiler",
                     "new_messages": "Ye Missed since {{time_ago}}",
-                    "load_file": "Load ye parcels"
+                    "load_file": "Load ye parcels",
+                    "not_loaded": "Yer message ain't loadin', click to travel",
+                    "timed_out": "Yer been timed out for {{time}}."
                 },
                 "nsfw": {
                     "channel": {
@@ -100,7 +104,14 @@
                     "replying": "Ye Replyin to",
                     "toggle": "Toggle yer author ping"
                 },
-                "bridge": "plank"
+                "bridge": "plank",
+                "team": "Ye official chit-chattin'",
+                "bridged": "Bottled message was sent from another ship",
+                "reactions": {
+                    "others_reacted": "{{userlist}} an' {{count}} others be reactin'"
+                },
+                "new_to_revolt": "New to Mutiny",
+                "new_to_server": "New to this part of ye' sea"
             },
             "groups": {
                 "description": "Maties Description",
@@ -137,7 +148,8 @@
             "busy": "In Th' Cabins",
             "idle": "On a voyage",
             "online": "On-deck",
-            "reconnect": "Reconnect"
+            "reconnect": "Reconnect",
+            "focus": "Spyglassin'"
         },
         "settings": {
             "pages": {
@@ -192,7 +204,13 @@
                     "theme_data": "Theme Dattas",
                     "custom_css": "Custom for CSS",
                     "mono_font": "Monospace Font Selected",
-                    "import_theme": "Import theme from things"
+                    "import_theme": "Import theme from things",
+                    "fonts": {
+                        "title": "Letterin'"
+                    },
+                    "colours": {
+                        "title": "Ink colorings"
+                    }
                 },
                 "profile": {
                     "fetching": "Fetching yer profile…",
@@ -211,7 +229,9 @@
                         "description": "Add a extra layer o' security by enabling 2FA on yer account.",
                         "title": "Double-booty Protection",
                         "remove_auth": "Send yer Authenticator off to Davy Jone's locker",
-                        "add_auth": "Add a authenticator"
+                        "add_auth": "Add a authenticator",
+                        "two_factor_on": "Double-Booty Protection be on.",
+                        "generate_recovery": "Make ye' recovery ways"
                     },
                     "manage": {
                         "description": "Disable or delete yer account at any time. Dis action will log ye out n' fully delete yer account, including yer chat history n' crew.",
@@ -232,9 +252,13 @@
                     "enable_push": "'Nable Push Notification.",
                     "sound": {
                         "call_join": "Mariner Joined Call",
-                        "call_leave": "Mariner Left Call"
+                        "call_leave": "Mariner Left Call",
+                        "message": "Th' bottled Message Received",
+                        "outbound": "Th' bottled Message Sent"
                     },
-                    "title": "Pop Notifications."
+                    "title": "Pop Notifications.",
+                    "enable_desktop": "Turn on ye' plank sounds",
+                    "sounds": "Sea Noises"
                 },
                 "language": {
                     "select": "Select yer language"
@@ -264,7 +288,15 @@
                     "device_label_NA": "N/A",
                     "button_grant": "Grant Ye Ship"
                 },
-                "logOut": "Abort ye Ship"
+                "logOut": "Abort ye Ship",
+                "feedback": {
+                    "title": "Pirate Advice",
+                    "bug": "Rat Finder"
+                },
+                "native": {
+                    "title": "Planktop settins'"
+                },
+                "source_code": "Ye' Treasure Mark"
             },
             "actions": {
                 "upload": "Ye upload",
@@ -304,7 +336,8 @@
                 },
                 "overview": {
                     "title": "Birds Eye View",
-                    "name": "Name o' the Deck"
+                    "name": "Name o' the Deck",
+                    "description": "Ye Board Information"
                 }
             },
             "permissions": {
@@ -316,6 +349,10 @@
                 },
                 "account": {
                     "a": "Ye want to customize yer public profile?"
+                },
+                "languages": {
+                    "b": "Make yer' pirate writings, mate.",
+                    "a": "Missin' yer speakin' way?"
                 }
             }
         },
@@ -350,7 +387,38 @@
                         "translator": "Pirate"
                     }
                 }
-            }
+            },
+            "friends": {
+                "pending": "Awaitin' treasures",
+                "blocked": "Exiled",
+                "incoming": "Incomin' scallywag.",
+                "outgoing": "Outgoin' search for ye' scallywags.",
+                "nobody": "No mateys yet!"
+            },
+            "status": {
+                "disconnected": "Lost yer stability on th'plank.",
+                "connecting": "Going on th-plank…",
+                "reconnecting": "Re-walking th-plank…",
+                "offline": "Sleepin' ye booty away!"
+            },
+            "modals": {
+                "onboarding": {
+                    "welcome": "Ye' be welcome to",
+                    "pick": "Grab ye' usarname that you want scallywags bein' able to travel to yer ship by, this be changed latr' in settins'."
+                },
+                "error": "Ye' sinkhole in the ship!",
+                "clipboard": {
+                    "unavailable": "Yer ink n' feathers un'vail'ble."
+                },
+                "prompt": {
+                    "confirm_leave_long": "Ye' be unable to get yer booty back on th' ship till yer re-invited.",
+                    "confirm_delete_long": "Once it's thrown in ye' ocean, there be no gettin' it back.",
+                    "confirm_ban": "You are 'Obout to ban {{name}} off ye' ship",
+                    "unfriend_user": "Gettin' yer crewmate {{name}} off the ship?",
+                    "confirm_kick": "Are ya' sure yer gonna kick {{name}} off the plank?"
+                }
+            },
+            "copy_username": "Click for ye' usar"
         },
         "home": {
             "join-testers": "Join they testers server",
@@ -386,7 +454,8 @@
             "invite": "Enter yer invite code.",
             "password": "Enter yer codeword.",
             "email": "Enter yer email.",
-            "username": "Enter yer preferred username."
+            "username": "Enter yer preferred username.",
+            "new_password": "Enter ye' new codeword."
         },
         "register": "Register",
         "title": "Login",
@@ -411,7 +480,11 @@
         "welcome": "Ahoy!",
         "subtitle2": "Create an arrrcount",
         "subtitle": "Tarrr be aft",
-        "unofficial_instance": "Not ye' crew's ship."
+        "unofficial_instance": "Not ye' crew's ship.",
+        "new_password": "New Codeword",
+        "verified_continue": "Continue t' login",
+        "verifying_account": "Verifying yer 'count…",
+        "verified_account": "Yer 'count has been verified!"
     },
     "dayjs": {
         "defaults": {
@@ -442,6 +515,9 @@
         },
         "ViewChannel": {
             "t": "View Channel"
+        },
+        "MoveMembers": {
+            "d": "Allows crew members to travel others between ye' pirate ships."
         }
     },
     "notifications": {
