@@ -17,12 +17,12 @@
         "invite": "Código de invitación",
         "log_out_other": "Cerrar sesión en todas las demás sesiones",
         "enter": {
-            "email": "Introduce tu correo electrónico.",
-            "username": "Introduce tu nombre de usuario.",
-            "password": "Introduce tu contraseña.",
-            "new_password": "Introduce una nueva contraseña.",
-            "invite": "Introduce tu código de invitación.",
-            "current_password": "Introduce tu contraseña actual."
+            "email": "Ingresa tu correo electrónico.",
+            "username": "Ingresa tu nombre de usuario.",
+            "password": "Ingresa tu contraseña.",
+            "new_password": "Ingresa una nueva contraseña.",
+            "invite": "Ingresa tu código de invitación.",
+            "current_password": "Ingresa tu contraseña actual."
         },
         "reset": "Restablecer contraseña",
         "create": "Crea una cuenta nueva",
@@ -40,12 +40,12 @@
         "totp": "Aplicación de autenticación",
         "recovery": "Código de recuperación",
         "current_password": "Contraseña actual",
-        "forgot": "¿Has olvidado tu contraseña?",
+        "forgot": "¿Olvidaste tu contraseña?",
         "set_password": "Establecer una nueva contraseña",
         "remembered": "Regresar al inicio de sesión",
         "new": "¿Es tu primera vez en Revolt?",
         "existing": "¿Ya tienes una cuenta?",
-        "missing_verification": "¿No has recibido el correo de verificación?",
+        "missing_verification": "¿Aún no recibes un correo de verificación?",
         "resend": "Reenviar verificación",
         "check_mail": "¡Revisa tu correo electrónico!",
         "open_mail_provider": "Abrir {{provider}}",
@@ -69,7 +69,7 @@
             "idle": "Ausente",
             "focus": "Enfoque",
             "busy": "No molestar",
-            "offline": "Sin conexión",
+            "offline": "Desconectado",
             "reconnect": "Reconectar"
         },
         "home": {
@@ -77,7 +77,7 @@
             "goto-testers_desc": "Puedes reportar problemas y comentarnos tus sugerencias directamente aquí.",
             "settings-tooltip": "También puedes hacer clic derecho en el icono de usuario que está en la esquina superior izquierda, o hacer clic izquierdo si ya estás en el inicio.",
             "discover_desc": "Descubre una comunidad que comparta tus aficiones o gustos.",
-            "group_desc": "Convoca a todos tus amigos, algunos bots divertidos, y organiza una fiesta inolvidable.",
+            "group_desc": "Invita a todos tus amigos, algunos bots divertidos, y organiza una fiesta inolvidable.",
             "directs": "Mensajes directos",
             "join-testers": "Unirse al servidor de pruebas",
             "join-testers_desc": "Puedes reportar problemas y comentarnos tus sugerencias directamente aquí.",
@@ -101,14 +101,14 @@
                 },
                 "system": {
                     "removed_by": "{{other_user}} eliminó a {{user}}",
-                    "channel_renamed": "{{user}} ha cambiado el nombre del canal: {{name}}",
+                    "channel_renamed": "{{user}} renombró el canal a {{name}}",
                     "user_joined": "{{user}} se ha unido",
                     "user_left": "{{user}} se ha ido",
                     "user_kicked": "{{user}} fue expulsado",
                     "user_banned": "{{user}} fue baneado",
                     "added_by": "{{other_user}} añadió a {{user}}",
-                    "channel_description_changed": "{{user}} ha cambiado la descripción del canal",
-                    "channel_icon_changed": "{{user}} ha cambiado el icono del canal",
+                    "channel_description_changed": "{{user}} cambió la descripción del canal",
+                    "channel_icon_changed": "{{user}} cambió el ícono del canal",
                     "channel_ownership_changed": "{{from}} le otorgó a {{to}} la propiedad del grupo",
                     "registered_at": "Hora de registro: {{time}}"
                 },
@@ -204,11 +204,11 @@
                 "channel_type": "Tipo de canal",
                 "channel_description": "Descripción del canal",
                 "custom_banner": "Portada personalizada",
-                "owner": "Propietario del servidor",
+                "owner": "Dueño del servidor",
                 "voice_channel": "Canal de voz"
             },
             "groups": {
-                "owner": "Responsable del grupo",
+                "owner": "Dueño del grupo",
                 "description": "Descripción del grupo",
                 "create": "Crear un grupo",
                 "name": "Nombre del grupo"
@@ -236,15 +236,15 @@
                         "generate_recovery": "Generar códigos de recuperación",
                         "two_factor_on": "La autenticación de dos factores (2FA) está activada.",
                         "title": "Autenticación de dos factores",
-                        "description": "Agrega una capa adicional de seguridad habilitando la autenticación de dos factores (2FA) en tu cuenta.",
+                        "description": "Agrega una capa adicional de seguridad activando la autenticación de dos factores (2FA) en tu cuenta.",
                         "view_recovery": "Ver códigos de recuperación",
                         "generate_recovery_long": "Prepárate para usar la autenticación de dos factores (2FA) configurando un método de recuperación.",
                         "add_auth": "Añadir autenticador",
                         "remove_auth": "Eliminar autenticador",
-                        "two_factor_off": "¡No has habilitado la autenticación de dos factores!"
+                        "two_factor_off": "¡No has activado la autenticación de dos factores!"
                     },
                     "manage": {
-                        "description": "Si lo deseas, puedes deshabilitar o eliminar tu cuenta en cualquier momento. Esta acción cerrará tu sesión y borrará completamente tu cuenta, incluyendo el historial de chat y tus amistades.",
+                        "description": "Si lo deseas, puedes deshabilitar o eliminar tu cuenta en cualquier momento. Esta acción cerrará tu sesión y borrará completamente tu cuenta, incluyendo tu historial de chat y tus amistades.",
                         "delete": "Marcar cuenta para eliminación",
                         "title": "Gestión de cuenta",
                         "disable": "Deshabilitar cuenta"
