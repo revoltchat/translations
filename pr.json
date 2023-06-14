@@ -108,10 +108,14 @@
                 "team": "Ye official chit-chattin'",
                 "bridged": "Bottled message was sent from another ship",
                 "reactions": {
-                    "others_reacted": "{{userlist}} an' {{count}} others be reactin'"
+                    "others_reacted": "{{userlist}} an' {{count}} others be reactin'",
+                    "single_reacted": "1 scallywag put a message in the bottle",
+                    "unknown_reacted": "{{count}} scallywags put a message in the bottle",
+                    "people_reacted": "{{people}} put a message in a bottle"
                 },
                 "new_to_revolt": "New to Mutiny",
-                "new_to_server": "New to this part of ye' sea"
+                "new_to_server": "New to this part of ye' sea",
+                "user_timed_out": "Pirate has been sent to th' sea for {{time}}."
             },
             "groups": {
                 "description": "Maties Description",
@@ -194,7 +198,9 @@
                     "appearance_options": {
                         "title": "'Pearance Settins'",
                         "show_send": "Always show sned message buttins",
-                        "show_send_desc": "If th'switch turned off, yer Send Message button will only be on ye' mobile electronics."
+                        "show_send_desc": "If th'switch turned off, yer Send Message button will only be on ye' mobile electronics.",
+                        "show_account_age": "Always deliver 'ccount age next to ye' join letters",
+                        "show_account_age_desc": "If anchor be dropped, 'ccount age only be shown for new roamin' scallywags."
                     },
                     "overrides": "Yer Looks Overlappin'",
                     "ligatures": "Font Ligatures this",
@@ -216,7 +222,8 @@
                     },
                     "advanced_options": {
                         "title": "Advanced Ship Components"
-                    }
+                    },
+                    "message_display": "Message Showin'"
                 },
                 "profile": {
                     "fetching": "Fetching yer profile…",
@@ -252,7 +259,8 @@
                     "change_field": "Change yarr"
                 },
                 "experiments": {
-                    "not_available": "Nay experiments be available at dis time."
+                    "not_available": "Nay experiments be available at dis time.",
+                    "features": "'Vailble Features"
                 },
                 "notifications": {
                     "descriptions": {
@@ -266,19 +274,26 @@
                         "message": "Th' bottled Message Received",
                         "outbound": "Th' bottled Message Sent"
                     },
-                    "title": "Ye' Loud Ship Bells.",
+                    "title": "Ye' Loud Ship Bells",
                     "enable_desktop": "Turn on ye' plank sounds",
-                    "sounds": "Sea Noises"
+                    "sounds": "Sea Noises",
+                    "push_notifications": "Push Sea Sounds"
                 },
                 "language": {
-                    "select": "Select yer language"
+                    "select": "Select yer language",
+                    "other": "Yarr, other tongue options, matey",
+                    "title": "Tongue",
+                    "const": "Ye' special tongues"
                 },
                 "sync": {
                     "descriptions": {
                         "theme": "Dis will sync yer chosen theme, colours n' any custom CSS.",
                         "appearance": "Dis will sync options such as emoji packs n' message density.",
                         "locale": "Dis will sync yer currently chosen language."
-                    }
+                    },
+                    "options": "Synchronization Settins'",
+                    "categories": "Synchronization Map",
+                    "title": "Synchronization"
                 },
                 "bots": {
                     "public_bot_tip": "Bot be public. Anyone can invite it.",
@@ -286,7 +301,14 @@
                     "reserved": "Note: Dis field be reserved fer thar future.",
                     "title": "Me Bots",
                     "private_bot_tip": "Bot be private. Only ye can invite it.",
-                    "unique_id": "Dis be a unique identifier fer yer bot. Dis be nay thar bot's token."
+                    "unique_id": "Dis be a unique identifier fer yer bot. Dis be nay thar bot's token.",
+                    "add": "Bringin' Landlubber",
+                    "interactions_url": "Intaractions URL",
+                    "copy_invite": "Copy Invitin' Letter",
+                    "create_bot": "Craft a Landlubber",
+                    "token": "Golden Coins",
+                    "public_bot": "Public Landlubber",
+                    "profile": "Landlubber detailins'"
                 },
                 "audio": {
                     "tip_retry": "Ye didn't give thar permission t' access yer microphone, {{retryBtn}}.",
@@ -309,6 +331,22 @@
                 "source_code": "Ye' Treasure Mark",
                 "donate": {
                     "title": "Give us yer doubloons"
+                },
+                "theme_shop": {
+                    "category": {
+                        "manage": "Manage saved",
+                        "saved": "Saved",
+                        "new": "Be new durin' ye' exploration"
+                    },
+                    "title": "Ye' App Look Shop",
+                    "description": "Spyglass through several app looks, be made by other pirates n' scallywags.",
+                    "search": "Search app looks…"
+                },
+                "plugins": {
+                    "wip": "Danger: Ye' feature still be handcrafted.",
+                    "no_plugins": "No plugins be currently on-board.",
+                    "title": "Plugins",
+                    "delete_plugin": "Get rid of"
                 }
             },
             "actions": {
@@ -504,7 +542,7 @@
             "username": "Enter yer preferred username.",
             "new_password": "Enter ye' new codeword."
         },
-        "register": "Registar",
+        "register": "Registarrr",
         "title": "Login",
         "username": "Usarname",
         "current_password": "Current secret codeword",
@@ -533,7 +571,8 @@
         "verifying_account": "Verifying yer 'count…",
         "verified_account": "Yer 'count has been verified!",
         "recovery": "'Covery Code",
-        "log_out_other": "Bail out of 'em other ships"
+        "log_out_other": "Bail out of 'em other ships",
+        "totp": "Authenticatarr App"
     },
     "dayjs": {
         "defaults": {
