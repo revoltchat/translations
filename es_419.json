@@ -102,14 +102,14 @@
                 "system": {
                     "removed_by": "{{other_user}} eliminó a {{user}}",
                     "channel_renamed": "{{user}} renombró el canal a {{name}}",
-                    "user_joined": "{{user}} se ha unido",
+                    "user_joined": "{{user}} se unió",
                     "user_left": "{{user}} se ha ido",
                     "user_kicked": "{{user}} fue expulsado",
                     "user_banned": "{{user}} fue baneado",
                     "added_by": "{{other_user}} añadió a {{user}}",
                     "channel_description_changed": "{{user}} cambió la descripción del canal",
                     "channel_icon_changed": "{{user}} cambió el ícono del canal",
-                    "channel_ownership_changed": "{{from}} le otorgó a {{to}} la propiedad del grupo",
+                    "channel_ownership_changed": "{{from}} traspasó la propiedad del grupo a {{to}}",
                     "registered_at": "Hora de registro: {{time}}"
                 },
                 "voice": {
@@ -369,7 +369,7 @@
                     "categories": "Sincronizar categorías",
                     "descriptions": {
                         "appearance": "Esto sincronizará opciones como los paquetes de emojis y la densidad de mensajes.",
-                        "theme": "Esto sincronizará el tema elegido, los colores y cualquier CSS personalizado.",
+                        "theme": "Esto sincronizará tu tema elegido, los colores y cualquier CSS personalizado.",
                         "locale": "Esto sincronizará tu idioma actualmente seleccionado."
                     },
                     "title": "Sincronizar"
@@ -386,7 +386,7 @@
                     "delete_plugin": "Eliminar"
                 },
                 "bots": {
-                    "unique_id": "Este es el código de identificación exclusivo de tu bot. Pero no te equivoques, no es lo mismo que el token de tu bot.",
+                    "unique_id": "Este es el código de identificación exclusivo de tu bot. Recuerda que esto no es el token de tu bot.",
                     "profile": "Perfil del bot",
                     "public_bot_desc": "Permitir o no que otras personas inviten a este bot.",
                     "title": "Mis bots",
@@ -421,7 +421,7 @@
                     "issue": "Reportar un problema",
                     "issue_desc": "Para ayudarnos a manejar los problemas con mayor facilidad, puedes abrir una incidencia en GitHub.",
                     "bug": "Rastreador de errores",
-                    "bug_desc": "Ver reportes de errores activos actualmente aquí.",
+                    "bug_desc": "Mira reportes de errores activos aquí.",
                     "title": "Comentarios",
                     "description": "Enviar comentarios",
                     "suggest": "Sugerir nuevas características"
@@ -465,7 +465,7 @@
                 },
                 "bans": {
                     "title": "Baneos",
-                    "no_reason": "No hay una razón específica del baneo.",
+                    "no_reason": "No se dio una razón para el baneo.",
                     "user": "Usuario",
                     "reason": "Razón del baneo",
                     "revoke": "Desbanear"
@@ -574,7 +574,7 @@
                     "create_invite_created": "Este es tu nuevo código de invitación:",
                     "confirm_ban": "Estás a punto de banear a {{name}}",
                     "confirm_ban_reason": "Razón del baneo",
-                    "unfriend_user": "¿Quieres sacar de tu lista de amigos a {{name}}?",
+                    "unfriend_user": "¿Quieres eliminar a {{name}} de tu lista de amigos?",
                     "block_user": "¿Bloquear a {{name}}?",
                     "silent_leave": "Abandonar en silencio",
                     "members_not_notified": "Otros miembros no serán notificados"
@@ -632,7 +632,7 @@
                     "reason": "Razón",
                     "reported": "Reportado",
                     "additional_context": "Información adicional",
-                    "no_reason": "No se especificó la razón / Otra razón"
+                    "no_reason": "No se especificó una razón / otra razón"
                 },
                 "actions": {
                     "done": "Hecho",
