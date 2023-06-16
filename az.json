@@ -109,7 +109,8 @@
                     "channel_description_changed": "{{user}} kanal təsvirini dəyişdirdi",
                     "user_kicked": "{{user}} qovuldu",
                     "user_banned": "{{user}} qadağandır",
-                    "channel_ownership_changed": "{{from}} qrup mülkiyyətini {{to}} özünə verdi"
+                    "channel_ownership_changed": "{{from}} qrup mülkiyyətini {{to}} özünə verdi",
+                    "registered_at": "Qeydiyyatdan keçib: {{time}}"
                 },
                 "start": {
                     "group": "Bu söhbətinizin başlanğıcıdır.",
@@ -168,10 +169,20 @@
                     "nochannel": "Kanal yoxdur"
                 },
                 "reply": {
-                    "toggle": "Müəllifin pingini dəyişdirin"
+                    "toggle": "Müəllifin pingini dəyişdirin",
+                    "replying": "cavab verilir"
                 },
                 "bridged": "Mesaj başqa platformada göndərildi",
-                "bridge": "körpü"
+                "bridge": "körpü",
+                "team": "Rəsmi Əlaqə",
+                "new_to_revolt": "Revolt üçün yeni",
+                "new_to_server": "Bu serverdə yeni",
+                "reactions": {
+                    "others_reacted": "{{userlist}} və digər {{count}} nəfər reaksiya verdi",
+                    "unknown_reacted": "{{count}} nəfər reaksiya verdi",
+                    "single_reacted": "1 nəfər reaksiya verdi",
+                    "people_reacted": "{{people}} reaksiya verdi"
+                }
             },
             "groups": {
                 "create": "Qrup yaradın",
@@ -216,7 +227,11 @@
                         "remove_auth": "Doğrulayıcıyı silin",
                         "add_auth": "Doğrulayıcı əlavə edin",
                         "view_recovery": "Bərpa Kodlarına Bax",
-                        "generate_recovery": "Bərpa Kodları Yarat"
+                        "generate_recovery": "Bərpa Kodları Yarat",
+                        "generate_recovery_long": "Bərpa metodu quraraq 2FA istifadə etməyə hazır olun.",
+                        "two_factor_on": "İki faktorlu autentifikasiya hazırda aktivdir.",
+                        "view_recovery_long": "2FA bərpa kodlarınıza baxın və endirin.",
+                        "two_factor_off": "Siz iki faktorlu autentifikasiyanı aktiv etməmisiniz!"
                     },
                     "manage": {
                         "title": "Hesab İdarəetmə",
@@ -281,6 +296,29 @@
                         "title": "Tema ayarları",
                         "follow": "Sistem temasını izlə",
                         "seasonal_desc": "Tətil mövsümlərində ev tabında effektləri göstərir."
+                    },
+                    "emoji": {
+                        "title": "Emoji"
+                    },
+                    "fonts": {
+                        "title": "Şriftlər"
+                    },
+                    "advanced_options": {
+                        "title": "Təkmilləşmiş Seçimlər"
+                    },
+                    "discover": {
+                        "title": "Mövzuları kəşf edin",
+                        "description": "İcma tərəfindən hazırlanmış mövzuları nəzərdən keçirin"
+                    },
+                    "appearance_options": {
+                        "show_send_desc": "Deaktiv edilərsə, Mesaj Göndər düyməsi yalnız mobil telefonda görünəcək.",
+                        "show_account_age": "Mesajlara qoşulmaq üçün həmişə hesab yaşını göstərin",
+                        "title": "Görünüş Seçimləri",
+                        "show_send": "Həmişə Mesaj Göndər düyməsini göstərin",
+                        "show_account_age_desc": "Deaktiv edilərsə, hesabın yaşı yalnız yeni istifadəçilər üçün göstəriləcək."
+                    },
+                    "colours": {
+                        "title": "Rənglər"
                     }
                 },
                 "notifications": {
@@ -316,7 +354,8 @@
                     "suggest_desc": "GitHub müzakirələrində yeni Revolt xüsusiyyətləri təklif edin.",
                     "bug_desc": "Hazırda aktiv bug reportlarına burada baxın.",
                     "issue_desc": "Problemləri daha asan həll etmək üçün GitHub-da bildirə bilərsiniz.",
-                    "issue": "Yeni məsələ yaradın"
+                    "issue": "Yeni məsələ yaradın",
+                    "description": "Rəy göndərin"
                 },
                 "language": {
                     "title": "Dil",
@@ -393,6 +432,12 @@
                     "description": "İcma tərəfindən yaradılmış və seçilmiş yüzlərlə mövzuya göz atın.",
                     "search": "Temalar axtar…",
                     "by": "Tərəfindən"
+                },
+                "plugins": {
+                    "delete_plugin": "Sil",
+                    "no_plugins": "Hazırda heç bir plagin quraşdırılmayıb.",
+                    "title": "Pluginlər",
+                    "wip": "Xəbərdarlıq: Bu xüsusiyyət hələ inkişaf mərhələsindədir."
                 }
             },
             "tips": {
@@ -451,6 +496,13 @@
                 },
                 "management": {
                     "title": "İstifadəçi İdarəetmə"
+                },
+                "emojis": {
+                    "upload": "Emoji yükləyin",
+                    "title": "Emojilər"
+                },
+                "customisation": {
+                    "title": "Fərdiləşdirmə"
                 }
             },
             "permissions": {
@@ -458,7 +510,14 @@
                 "default_role": "Defolt",
                 "channel": "Kanal İcazələri",
                 "create_role": "Yeni bir rol yaradın",
-                "role_name": "Rol adı"
+                "role_name": "Rol adı",
+                "role_colour": "Rol Rəngi",
+                "role_options": "Rol Seçimləri",
+                "delete_role": "Rolu silin",
+                "hoist_desc": "Bu rolu başqalarından yuxarı göstərin.",
+                "title": "{{role}} üçün icazələr",
+                "edit_title": "İcazələri redaktə edin",
+                "role_ranking": "Rol Sıralaması"
             }
         },
         "special": {
@@ -533,14 +592,63 @@
                     "block_user": "{{name}} bloklansın?",
                     "block_user_long": "{{name}} bloklamaq istədiyinizə əminsiniz? Onlar həmçinin dostlarınız siyahısından silinəcəkdir.",
                     "unfriend_user": "{{name}} silinsin?",
-                    "unfriend_user_long": "Yenidən əlavə etməyincə onlarla yenidən danışa bilməyəcəksiniz."
+                    "unfriend_user_long": "Yenidən əlavə etməyincə onlarla yenidən danışa bilməyəcəksiniz.",
+                    "silent_leave": "Səssizcə ayrıl",
+                    "members_not_notified": "Digər üzvlərə məlumat verilməyəcək"
                 },
                 "token_reveal": "{{name}}'nin Tokeni",
                 "external_links": {
                     "trust_domain": "Bu Linkə güvən",
                     "title": "Xarici linkər təhlükəli ola bilər!",
                     "short": "Sən buraya getmək istəyirsən?:"
-                }
+                },
+                "report": {
+                    "user_reason": {
+                        "Underage": "Bu istifadəçi hesaba sahib olmaq üçün kifayət qədər yaşlı deyil",
+                        "SpamAbuse": "İstifadəçi spam göndərir və ya platformadan başqa şəkildə sui-istifadə edir",
+                        "Impersonation": "Bu istifadəçi başqasını təqlid edir",
+                        "InappropriateProfile": "İstifadəçinin profili ümumi auditoriya üçün uyğun deyil"
+                    },
+                    "reason": "Səbəb",
+                    "block_user": "Bu istifadəçini bloklamaq istərdinizmi?",
+                    "content_reason": {
+                        "PromotesHarm": "Məzmun başqalarına və ya özünə zərər verməyi təşviq edir",
+                        "SpamAbuse": "Bu spam və ya platformadan sui-istifadədir",
+                        "Malware": "Bu zərərli proqramdır",
+                        "Harassment": "Bu, başqa istifadəçiyə yönəlmiş təqib və ya sui-istifadədir"
+                    },
+                    "by_name": "Şikayət edin {{name}}",
+                    "no_reason": "Səbəb göstərilməyib / başqa səbəb",
+                    "additional_context": "əlavə informasiya",
+                    "message": "Şikayət Mesajı",
+                    "reported": "Məlumat verildi",
+                    "thank_you": "Revolt-u təhlükəsiz saxlamağa kömək etdiyiniz üçün təşəkkür edirik. Hesabatınızı ən qısa zamanda nəzərdən keçirəcəyik."
+                },
+                "mfa": {
+                    "confirm": "Lütfən, seçilmiş metoddan istifadə edərək təsdiqləyin.",
+                    "select_method": "Sorğunuzu doğrulamaq üçün bir üsul seçin.",
+                    "enable_totp": "Autentifikator tətbiqini aktivləşdirin",
+                    "recovery_codes": "Bərpa kodlarınız",
+                    "enter_code": "Kodu daxil edin",
+                    "save_codes": "Lütfən, bunları təhlükəsiz yerdə saxlayın.",
+                    "prompt_totp": "Lütfən, autentifikasiya tətbiqinizdə aşağıdakı nişanı skan edin və ya istifadə edin."
+                },
+                "out_of_date": {
+                    "ignore": "Yeniləməni iqnor edin",
+                    "attempting": "Yenilənməyə cəhd edilir…",
+                    "description": "Son dəyişikliklərlə işləmək üçün yenilənməlidir."
+                },
+                "sessions": {
+                    "title": "Sessiyalarınızı silmək istədiyinizə əminsiniz?",
+                    "short": "Bu əməliyyatı geri qaytara bilməzsiniz.",
+                    "accept": "Bütün seansları silin"
+                },
+                "changelogs": {
+                    "title": "Dəyişiklik qeydləri",
+                    "description": "Revolt yeniləmələri haqqında oxuyun.",
+                    "older": "Köhnə yeniləmələrə baxın"
+                },
+                "confirm": "Fəaliyyəti təsdiqləyin"
             },
             "popovers": {
                 "user_profile": {
@@ -816,6 +924,24 @@
         "ViewChannel": {
             "t": "Kanala baxın",
             "d": "Üzvlərə bu icazəsi olan kanalları izləməyə imkan verir."
+        },
+        "MoveMembers": {
+            "t": "Üzvləri köçürün",
+            "d": "Üzvlərə başqalarını səs kanalları arasında köçürməyə imkan verir."
+        },
+        "Video": {
+            "t": "Video",
+            "d": "Üzvlərə səsli kanalda video yayımlamağa imkan verir."
+        },
+        "MuteMembers": {
+            "t": "Üzvləri susdurun",
+            "d": "Üzvlərə səsli kanalda başqalarının səsini söndürməyə imkan verir."
+        },
+        "Speak": {
+            "d": "Üzvlərə səsli kanalda danışmağa imkan verir."
         }
+    },
+    "actions": {
+        "submit": "Təqdim"
     }
 }
