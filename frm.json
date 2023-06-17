@@ -143,7 +143,8 @@
                     "jump_beginning": "Retour au début",
                     "new_messages": "Nnouveaux messages de {{time_ago}}",
                     "timed_out": "Votre temps est écoulé depuis {{time}}.",
-                    "load_file": "Charger le fichier"
+                    "load_file": "Charger le fichier",
+                    "not_loaded": "Message non chargé, cliquez pour sauter"
                 },
                 "unknown_user": "<Utilisateur inconnu>",
                 "message_where": "Envoyer un message sur {{channel_name}}",
@@ -167,7 +168,11 @@
                     "unknown_reacted": "{{count}} ont acquiescé",
                     "single_reacted": "1 persone a acquiescé",
                     "people_reacted": "{{people}} acquiescent"
-                }
+                },
+                "team": "Communication officielle",
+                "new_to_server": "Nouveau sur ce serveur",
+                "bridged": "Le message a été envoyé sur une autre plateforme",
+                "new_to_revolt": "Nouveau à révolte"
             },
             "groups": {
                 "create": "Créer un groupe",
@@ -232,7 +237,7 @@
                         "view_recovery_long": "Visualisez et téléchargez vos codes de récupération 2FA.",
                         "two_factor_off": "Vous n'avez pas activé l'authentification à deux facteurs !",
                         "generate_recovery": "Générer des codes de récupération",
-                        "generate_recovery_long": "Préparez-vous à utiliser le système 2FA en mettant en place une méthode de récupération.",
+                        "generate_recovery_long": "Préparez vous à utiliser le système 2FA en mettant en place une méthode de récupération.",
                         "two_factor_on": "L'authentification à deux facteurs est actuellement activée."
                     },
                     "unique_id": "Il s'agit d'un identifiant d'utilisateur unique pour votre compte."
@@ -304,13 +309,26 @@
                     "sync": "Paramètres de synchronisation",
                     "ligatures": "Ligatures de la police",
                     "appearance_options": {
-                        "show_account_age": "Toujours afficher l'âge du compte à côté des messages de participation",
+                        "show_account_age": "Toujours afficher l'âge du compte à côté des messages de participations",
                         "show_account_age_desc": "S'il est désactivé, l'âge du compte ne sera affiché que pour les nouveaux utilisateurs.",
                         "title": "Options d'apparence",
                         "show_send": "Toujours afficher le bouton \"Envoyer un message",
                         "show_send_desc": "S'il est désactivé, le bouton Envoyer un message n'apparaîtra que sur le mobile."
                     },
-                    "ligatures_desc": "Pour les polices prises en charge, les ligatures combinent les caractères entre eux, par exemple, en transformant -> en flèche."
+                    "ligatures_desc": "Pour les polices prises en charge, les ligatures combinent les caractères entre eux, par exemple, en transformant -> en flèche.",
+                    "colours": {
+                        "title": "Couleurs"
+                    },
+                    "emoji": {
+                        "title": "Emote"
+                    },
+                    "fonts": {
+                        "title": "Polices"
+                    },
+                    "advanced_options": {
+                        "title": "Options avancées"
+                    },
+                    "reset_overrides": "Réinitialiser les dérogations"
                 },
                 "notifications": {
                     "sounds": "Sons",
@@ -419,12 +437,13 @@
                     "code": "Code d'invitation",
                     "channel": "Salon",
                     "revoke": "Révoquer",
-                    "invitor": "Invitant"
+                    "invitor": "Invitée"
                 },
                 "overview": {
                     "description": "Description du salon",
                     "title": "Vue d'ensemble",
-                    "name": "Nom du serveur"
+                    "name": "Nom du serveur",
+                    "system_messages": "Canaux de messages système"
                 },
                 "roles": {
                     "title": "Rôles"
@@ -444,6 +463,13 @@
                 },
                 "categories": {
                     "title": "Catégories"
+                },
+                "emojis": {
+                    "title": "Emotes",
+                    "upload": "Téléchargez des émoticônes"
+                },
+                "customisation": {
+                    "title": "Customisation."
                 }
             },
             "channel_pages": {
@@ -454,6 +480,9 @@
                     "title": "Vue d'ensemble",
                     "description": "Description du salon",
                     "name": "Nom du salon"
+                },
+                "webhooks": {
+                    "title": "Webhooks"
                 }
             },
             "tips": {
@@ -466,7 +495,8 @@
                     "b": "Contribuez à la traduction."
                 },
                 "sessions": {
-                    "b": "sécurisez votre compte en changeant votre mot de passe et en activant l'A2F."
+                    "b": "sécurisez votre compte en changeant votre mot de passe et en activant l'A2F.",
+                    "a": "Si vous voyez une session inconnue sur la liste,"
                 }
             },
             "permissions": {
@@ -474,7 +504,15 @@
                 "default_role": "Par défaut",
                 "server": "Permissions du serveur",
                 "channel": "Permissions du salon",
-                "create_role": "Créer un nouveau rôle"
+                "create_role": "Créer un nouveau rôle",
+                "hoist_role": "Rôle de levage",
+                "role_colour": "Rôle couleur",
+                "delete_role": "Rôle supprimées",
+                "role_ranking": "Classement des rôles",
+                "role_options": "Rôle d'option",
+                "hoist_desc": "Affichez ce rôle au-dessus des autres.",
+                "title": "Autorisations pour {{role}}",
+                "edit_title": "Modifier l'autorisation"
             }
         },
         "context_menu": {
@@ -524,7 +562,7 @@
                 "sent": "Envoyées",
                 "incoming": "Demande d'ami reçue.",
                 "pending": "Demandes en attente",
-                "blocked": "Bloqués",
+                "blocked": "Bloqué",
                 "outgoing": "Demande d'ami envoyée.",
                 "nobody": "Il n'y a encore personne ici !",
                 "from": {
@@ -546,11 +584,14 @@
                     "block_user": "Bloquer {{name}} ?",
                     "block_user_long": "Êtes-vous sûr(e) de vouloir bloquer {{name}} ? Il sera aussi supprimé de voir liste d'ami.",
                     "confirm_ban": "Vous êtes sur le point de bannir {{name}}",
-                    "confirm_delete_message_long": "Êtes-vous sûr de vouloir supprimer ceci ?",
+                    "confirm_delete_message_long": "Êtes-vous sûr de vouloir supprimer-ceci ?",
                     "unfriend_user_long": "Vous n'avez peut-être pas la possibilité de leur parler tant que vous ne les aurez pas ajoutés.",
                     "create_invite_generate": "Génération d'une invitation…",
                     "create_invite_created": "Voilà votre nouveau code d'invitation :",
-                    "confirm_kick": "Êtes-vous sûr de vouloir expulser {{name}} ?"
+                    "confirm_kick": "Êtes-vous sûr de vouloir expulser {{name}} ?",
+                    "members_not_notified": "Les autres membres ne seront pas avertis",
+                    "confirm_close_dm_long": "Vous pourrez le réouvrir plus tard mais il disparaîtra des deux côtés.",
+                    "silent_leave": "Partir en silence"
                 },
                 "onboarding": {
                     "pick": "Choisissez un nom d'utilisateur avec lequel vous souhaitez être trouvable, il pourra être changé plus tard dans les paramètres.",
@@ -596,7 +637,8 @@
                         "password": "Modifier votre mot de passe"
                     },
                     "failed": "Échec de la modification !"
-                }
+                },
+                "confirm": "Confirmer l'action"
             },
             "server-badges": {
                 "official": "Serveur officiel",
