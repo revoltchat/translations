@@ -127,9 +127,9 @@
                 "channel_description": "Deskripsyon ng Kanal",
                 "description": "Deskripsyon ng Server",
                 "create": "Gumawa ng serbidor",
-                "name": "Pangalan ng Serbidor",
+                "name": "Pangalan ng Server",
                 "channel_type": "Tipo ng Kanal",
-                "owner": "May-ari ng Serbidor",
+                "owner": "May-ari ng Server",
                 "channel_name": "Pangalan ng Kanal",
                 "custom_banner": "Personalisadong Bandera",
                 "text_channel": "Kanal pan-texto",
@@ -180,7 +180,7 @@
             "ban_member": "I-ban ang miyembro",
             "remove_member": "Tanggalin sa grupo",
             "open_notification_options": "Opsyones ng Abiso",
-            "open_server_settings": "Settings ng Serbidor",
+            "open_server_settings": "Mga Opsyon sa Server",
             "open_channel_settings": "Settings ng Kanal",
             "open_group_settings": "Settings ng Grupo",
             "delete_message": "Alisin ang message",
@@ -297,7 +297,7 @@
                         "show_send": "Palaging i-pakita ang boton ng \"Ipadala ang Mensahe\"",
                         "title": "Opsyones sa hitsura",
                         "show_account_age": "Palaging ipakita ang edad ng account sa tabi ng pag-saling mensahe",
-                        "show_account_age_desc": "Kapag nakapatay, sa mga bagong users lamang magpapakita ang edad ng kwenta.",
+                        "show_account_age_desc": "Kapag nakapatay, ipapakita lamang ang edad ng account sa mga bagong user.",
                         "show_send_desc": "Kung hindi gumagana, lalabas lamang ang i-padala ang mensahe button sa mobile."
                     },
                     "colours": {
@@ -382,12 +382,12 @@
                 },
                 "theme_shop": {
                     "title": "Tindahan ng Tema",
-                    "search": "Maghanap ng mga tema. . .",
+                    "search": "Maghanap ng mga tema…",
                     "category": {
                         "viewall": "Makita ang lahat",
                         "saved": "Nai-save",
                         "manage": "Pangasiwain ang mga saved",
-                        "new": "Mga bago ngayong linggo",
+                        "new": "Bago ngayong linggo",
                         "default": "Mga default na tema",
                         "highest": "Pinakabantog"
                     },
@@ -428,10 +428,10 @@
             },
             "server_pages": {
                 "overview": {
-                    "name": "Pangalan ng Serbidor",
+                    "name": "Pangalan ng Server",
                     "description": "Deskripsyon ng Kanal",
                     "system_messages": "Kanal ng mga Mensahe ng Sistema",
-                    "title": "Bista ng Serbidor"
+                    "title": "Bista ng Server"
                 },
                 "members": {
                     "title": "Mga Miyembro"
@@ -478,13 +478,13 @@
                 },
                 "sessions": {
                     "a": "Kapag may nakita kang kakaibang sesyon sa listahan,",
-                    "b": "I-asegura mo ang iyong kwenta sa pamamagitan ng pagbabago ng iyong kontrasenyas at paggamit ng 2FA."
+                    "b": "I-asegura mo ang iyong account sa pamamagitan ng pagbabago ng iyong password at paggamit ng 2FA."
                 }
             },
             "permissions": {
-                "server": "Mga Permiso sa Serbidor",
+                "server": "Mga Pahintulot sa Server",
                 "channel": "Mga Permiso ng Kanal",
-                "create_role": "Lumikha ng bagong papel",
+                "create_role": "Gumawa ng bagong role",
                 "role_name": "Pangalan ng Papel",
                 "default_role": "Default",
                 "hoist_role": "Itaas ang Papel",
@@ -601,7 +601,7 @@
                     "change": {
                         "username": "Baguhing ang iyong bansag",
                         "email": "Baguhing ang iyong email",
-                        "password": "Baguhin ang iyong kontrasenyas"
+                        "password": "Baguhin ang iyong password"
                     },
                     "failed": "Hindi naipalit!"
                 },
@@ -611,7 +611,7 @@
                     "ignore": "Huwag pansinin ang update",
                     "title": "Hindi updated ang iyong kliyente!",
                     "description": "Kailangan updated ito para gagana ang mga kasalukuyang pagbabago.",
-                    "version": "Nasa {{client}} ang iyong kliyente, samantalang kinakailangan ng serbidor ang {{server}}."
+                    "version": "Nasa {{client}} ang iyong kliyente, samantalang kinakailangan ng server ang {{server}}."
                 },
                 "mfa": {
                     "enter_code": "Ilagay Ang Kodigo",
@@ -679,7 +679,7 @@
                     "no_servers": "Walang parehong kommunidad/servers",
                     "mutual_friends": "Parehong Kaibigan",
                     "mutual_groups": "Parehong Grupo",
-                    "mutual_servers": "Parehong Serbidor",
+                    "mutual_servers": "Parehong Server",
                     "empty": "Tila walang mailalarawan dito…"
                 },
                 "server_identity": {
@@ -697,8 +697,8 @@
             },
             "requires_online": "Kailangan mo maging online para makita mo ito.",
             "server-badges": {
-                "official": "Opisyal na Serbidor",
-                "verified": "Beripikadong Serbidor"
+                "official": "Opisyal na Server",
+                "verified": "Beripikadong Server"
             }
         },
         "permissions": {
@@ -739,28 +739,28 @@
         "enter": {
             "username": "Ilagay ang iyong pangalan.",
             "email": "Ilagay ang iyong email.",
-            "password": "Ilagay ang iyong kontrasenyas.",
-            "current_password": "Ilagay ang iyong kasalukuyang kontrasenyas.",
+            "password": "Ilagay ang iyong password.",
+            "current_password": "Ilagay ang iyong kasalukuyang password.",
             "invite": "Ilagay ang iyong kodigo ng imbitasyon.",
             "new_password": "Maglagay ng bagong password."
         },
-        "set_password": "Magtakda ng bagong kontrasenyas",
+        "set_password": "Magtakda ng bagong password",
         "check_spam": "Pakisuri ang spam kapag hindi mo ito makita",
-        "current_password": "Kasalukuyang Kontrasenyas",
+        "current_password": "Kasalukuyang Password",
         "title": "Mag-login",
         "register": "Magrehistro",
         "email": "Email",
-        "password": "Kontrasenyas",
+        "password": "Password",
         "username": "Pangalan",
         "invite": "Kodigo ng Imbitasyon",
-        "forgot": "Nakalimutan ang iyong kontrasenyas?",
-        "reset": "Palitan ang kontrasenyas",
+        "forgot": "Nakalimutan ang iyong password?",
+        "reset": "Palitan ang password",
         "email_delay": "Pakibigyan ito ng hanggang 10 minuto para dumating.",
         "resend": "Muling ipadala ang beripikasyon",
         "cancel": "Ikansela ang hiling",
-        "new": "Baguhan sa Revolt?",
+        "new": "Bago sa Revolt?",
         "existing": "Mayroon nang kwenta?",
-        "create": "Gumawa ng bagong kwenta",
+        "create": "Gumawa ng bagong account",
         "missing_verification": "Hindi nakatanggap ng email?",
         "check_mail": "Tignan ang iyong koreo!",
         "remembered": "Bumalik sa pag-login",
@@ -780,7 +780,7 @@
         "unofficial_instance": "Instansyang third-party.",
         "totp": "Taga-authenticate na app",
         "recovery": "Kodigo ng Pagbawi",
-        "new_password": "Bagong Kontrasenyas",
+        "new_password": "Bagong Password",
         "log_out_other": "Mag-log out sa lahat ng iba pang mga sesyon",
         "verifying_account": "Bine-verify ang iyong account…",
         "verified_account": "Na-verify na ang iyong account!",
@@ -913,7 +913,7 @@
         },
         "MoveMembers": {
             "t": "Ilipat ang Mga Miyembro",
-            "d": "Payagan ang mga miyembro na maka galaw ng iba  sa pagitan ng mga voice channel."
+            "d": "Payagan ang mga miyembro na ilipat ang iba sa iba't ibang mga voice channel."
         }
     },
     "error": {
@@ -926,7 +926,7 @@
         "RequiredField": "Kailangan",
         "UsernameTaken": "Nakuha na ang username na iyan.",
         "NoEffect": "Walang epekto ang request na ito.",
-        "InvalidCredentials": "Ang email o password ay mali.",
+        "InvalidCredentials": "Mali ang email o password.",
         "TooShort": "Masyadong maiksi",
         "FileTooLarge": "Masyadong malaki ang file.",
         "UnknownError": "Tignan ang console.",
