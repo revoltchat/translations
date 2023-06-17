@@ -296,7 +296,8 @@
                     "theme_options": {
                         "title": "Testen Dewisyansow",
                         "transparency": "Bollder Dewth",
-                        "seasonal": "Sesonek Testen"
+                        "seasonal": "Sesonek Testen",
+                        "follow": "Folya kevreyth testen"
                     },
                     "message_display": "Messajya Diskwedhes",
                     "advanced": "Avonsys Dewisyansow",
@@ -306,7 +307,9 @@
                     "ligatures": "Besydhva Giow",
                     "emoji_pack": "Emoji Bagas",
                     "reset_overrides": "Dassettya gorerghi",
-                    "sync": "Kettermynegi Dewisyansow"
+                    "sync": "Kettermynegi Dewisyansow",
+                    "import": "Ymperthi a testen",
+                    "mono_font": "Unnspas Besydhva Dewis"
                 },
                 "plugins": {
                     "delete_plugin": "Dilea",
@@ -316,7 +319,10 @@
                     "title": "Argevri"
                 },
                 "feedback": {
-                    "title": "Dasliva"
+                    "title": "Dasliva",
+                    "description": "Davon daslev",
+                    "suggest": "Davon apperya kussul",
+                    "bug": "Hweskeren Hellerghyas"
                 },
                 "account": {
                     "change_field": "Chanj",
@@ -357,12 +363,18 @@
                     "push_notifications": "Herdhyans Notyans",
                     "sound": {
                         "message": "Messajya Kevys",
-                        "outbound": "Messajya A dhellos"
-                    }
+                        "outbound": "Messajya A dhellos",
+                        "call_join": "Usyer Kesjunys",
+                        "call_leave": "Usyer A-gledh Galow"
+                    },
+                    "enable_desktop": "Gallosegi Jynn amontya Notyans",
+                    "enable_push": "Gallosegi herdhya Notyans"
                 },
                 "language": {
                     "title": "Tavas",
-                    "const": "Drehevys Tavosow"
+                    "const": "Drehevys Tavosow",
+                    "select": "Dewis agas yeth",
+                    "other": "Aral yeth dewisyansow"
                 },
                 "sync": {
                     "title": "Kettermynegi",
@@ -380,36 +392,51 @@
                     "add": "Addya Botow",
                     "public_bot": "Pobel Botow",
                     "profile": "Botow Profil",
-                    "interactions_url": "Kesoberyansow Kkowethasek URL"
+                    "interactions_url": "Kesoberyansow Kkowethasek URL",
+                    "create_bot": "Gul a Botow",
+                    "copy_invite": "Daskrif Galow Junya"
                 },
                 "theme_shop": {
                     "category": {
-                        "saved": "Difres"
+                        "saved": "Difres",
+                        "manage": "Messajya sawys",
+                        "default": "Defowt themys",
+                        "new": "Nowedh An seythen ma",
+                        "highest": "Kevradh ughella",
+                        "viewall": "Golok kekebmys"
                     },
                     "by": "Gans",
                     "title": "Testen Gwerthji",
-                    "search": "Helgh Testednow…"
+                    "search": "Helgh Testednow…",
+                    "active": "A-lemmyn bew",
+                    "use": "Devnydh thema"
                 },
                 "native": {
                     "title": "Jynn Amontya Desedhansow"
                 },
-                "source_code": "Devedhyans Kevrinhe"
+                "source_code": "Devedhyans Kevrinhe",
+                "logOut": "Omdenna"
             },
             "server_pages": {
                 "overview": {
-                    "title": "Gorwologow"
+                    "title": "Gorwologow",
+                    "name": "Leuren Gelwel",
+                    "description": "Chanel Deskrifans",
+                    "system_messages": "Kevreyth Danvonadow Chanels"
                 },
                 "invites": {
                     "revoke": "Diswruthyl",
                     "title": "Galowyow",
                     "invitor": "Gelwys",
-                    "channel": "Gooth"
+                    "channel": "Gooth",
+                    "code": "Gelwel kod"
                 },
                 "roles": {
                     "title": "Dutys ha rolyow"
                 },
                 "emojis": {
-                    "title": "Emojiow"
+                    "title": "Emojiow",
+                    "upload": "Ughkarga Emoji"
                 },
                 "customisation": {
                     "title": "Personelheans"
@@ -420,16 +447,23 @@
                 "bans": {
                     "title": "Difen",
                     "user": "Usyer",
-                    "revoke": "Diswruthyl"
+                    "revoke": "Diswruthyl",
+                    "reason": "Difen Acheson",
+                    "no_reason": "A-der difen acheson."
                 },
                 "categories": {
                     "title": "Klassys"
+                },
+                "management": {
+                    "title": "Usyer Dyghtyans"
                 }
             },
             "title": "Sedhesow",
             "channel_pages": {
                 "overview": {
-                    "title": "Gorwolok"
+                    "title": "Gorwolok",
+                    "name": "Chanel Gelwel",
+                    "description": "Chanel Deskrifans"
                 },
                 "permissions": {
                     "title": "Gront"
@@ -439,7 +473,17 @@
                 }
             },
             "permissions": {
-                "default_role": "Defowt"
+                "default_role": "Defowt",
+                "server": "Leuren Kumyasow",
+                "channel": "Chanel Kumyasow",
+                "role_name": "Radn Gelwel",
+                "role_colour": "Radn Kolor",
+                "role_options": "Radn Dewisyansow",
+                "role_ranking": "Radn Renkys",
+                "delete_role": "Defendya Radn",
+                "hoist_role": "Garan Radn",
+                "edit_title": "Pennskrifa Kumyasow",
+                "title": "Kumyasow a-barth {{role}}"
             }
         },
         "special": {
@@ -451,7 +495,14 @@
             },
             "friends": {
                 "sent": "Glan-o moas",
-                "blocked": "Degeas"
+                "blocked": "Degeas",
+                "pending": "Ow kortos gofednow",
+                "incoming": "Dewedhes kothman gofen.",
+                "outgoing": "Arghans spenys kothman gofen.",
+                "nobody": "Den veth ma hawth!",
+                "from": {
+                    "single": "A {{user}}"
+                }
             },
             "modals": {
                 "changelogs": {
@@ -459,7 +510,8 @@
                 },
                 "report": {
                     "reason": "Acheson",
-                    "reported": "Derivys"
+                    "reported": "Derivys",
+                    "message": "Derivas Messajya"
                 },
                 "actions": {
                     "ok": "Da lowr",
@@ -484,6 +536,38 @@
                     "block": "Blok",
                     "confirm": "Afydhya",
                     "continue": "Durya"
+                },
+                "clipboard": {
+                    "copy": "Dornel Daskrif:",
+                    "unavailable": "Aste; glypp ema ankavadow!"
+                },
+                "confirm": "Afydhya akt",
+                "token_reveal": "{{name}}'s Nos",
+                "onboarding": {
+                    "welcome": "Wolcom bys dhe"
+                },
+                "error": "An gwall hwarvos!",
+                "prompt": {
+                    "confirm_leave": "Delya {{name}}?",
+                    "confirm_delete": "Defendya {{name}}?",
+                    "create_invite_generate": "Dineythi gober galow…",
+                    "confirm_ban_reason": "Difen Acheson",
+                    "unfriend_user": "Anhweg {{name}}?",
+                    "block_user": "Blok {{name}}?",
+                    "silent_leave": "Heb gul son Delya"
+                },
+                "account": {
+                    "change": {
+                        "username": "Amendya agas hanow devenydhyer",
+                        "email": "Amendya agas ebost",
+                        "password": "Amendya agas ger tremena"
+                    }
+                },
+                "mfa": {
+                    "enter_code": "Entra Kevrinhe"
+                },
+                "out_of_date": {
+                    "ignore": "Ankothvoshe nowedha"
                 }
             },
             "popovers": {
@@ -503,18 +587,49 @@
                 "server_identity": {
                     "nickname": "Leshanow"
                 }
+            },
+            "copy": "Klyckya bys dhe daskrif",
+            "server-badges": {
+                "official": "Offysyal Leuren",
+                "verified": "Afydhys Leuren"
             }
+        },
+        "context_menu": {
+            "mention": "Kampol",
+            "message_user": "Messajya",
+            "reply_message": "Gorthebi",
+            "create_category": "Gul Klass",
+            "create_invite": "Gul galow",
+            "open_notification_options": "Notyans dewisyansow",
+            "open_channel_settings": "Chanel desedhansow",
+            "open_server_settings": "Leuren desedhansow",
+            "open_group_settings": "Bagas desedhansow"
+        },
+        "permissions": {
+            "required": "Kumyasow a res"
         }
     },
     "dayjs": {
         "defaults": {
-            "twelvehour": "A-der"
+            "twelvehour": "A-der",
+            "date_separator": "/",
+            "date_format": "Traditional"
         }
     },
     "error": {
         "Unauthorized": "Heb kubmyas.",
         "RequiredField": "A res",
-        "Unavailable": "Ankavadow."
+        "Unavailable": "Ankavadow.",
+        "NetworkError": "Rosweyth gwall.",
+        "Unlabelled": "Neb tra y hwer hware.",
+        "DatabaseError": "Datasel gwall.",
+        "InternalError": "A-bervedh gwall.",
+        "MissingPermission": "Eth dhe goll gront.",
+        "UnknownError": "A wel hebaskhe.",
+        "OperationFailed": "Oberyans a wrug fyllel.",
+        "MissingHeaders": "Eth dhe goll pennlinen.",
+        "InvalidSession": "Drog esedhek.",
+        "UnverifiedAccount": "Unverified aknot."
     },
     "permissions": {
         "Connect": {
@@ -528,6 +643,42 @@
         },
         "Video": {
             "t": "Gwelesek"
+        },
+        "ManageWebhooks": {
+            "t": "Dyghtya Webhooks"
+        },
+        "ManageChannel": {
+            "t": "Dyghtya Chanels"
+        },
+        "UploadFiles": {
+            "t": "Ughkarga Restren Weythresadow"
+        },
+        "React": {
+            "t": "Devnydh Holyansen"
+        },
+        "SendMessage": {
+            "t": "Dannon Messach Keskows"
+        },
+        "InviteOthers": {
+            "t": "Galow Erel"
+        },
+        "SendEmbeds": {
+            "t": "Dannon Tarna"
+        },
+        "MuteMembers": {
+            "t": "Avlavar Eseli"
+        },
+        "DeafenMembers": {
+            "t": "Bodharhe Eseli"
+        },
+        "MoveMembers": {
+            "t": "Chanjya chei Eseli"
+        }
+    },
+    "quantities": {
+        "members": {
+            "many": "{{count}} Esels",
+            "one": "1 Esel"
         }
     }
 }
