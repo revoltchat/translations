@@ -240,13 +240,21 @@
             },
             "pages": {
                 "sessions": {
-                    "title": "Esedhogow"
+                    "title": "Esedhogow",
+                    "active_sessions": "Bew Esedhvosow",
+                    "this_device": "Ma Devis",
+                    "created": "Formyes {{time_ago}}",
+                    "logout": "Omdedna a oll aral esedhek"
                 },
                 "audio": {
                     "title": "Lev Desedhansow",
                     "input_device": "Korrgowsellow",
                     "device_label_NA": "N/A",
-                    "button_retry": "Adv'saya"
+                    "button_retry": "Adv'saya",
+                    "output_device": "Arether / Headset",
+                    "tip_retry": "Na wruss'ta rei an gront bys dhe drehedhes agas korrgowsell, dell y'm kyrii {{retryBtn}}.",
+                    "tip_grant_permission": "Res yw dhis gront kubmyas bys dhe drehedhes awdyo dessedhansow.",
+                    "button_grant": "Gront kubmyas"
                 },
                 "appearance": {
                     "theme": "Theme",
@@ -261,7 +269,9 @@
                     },
                     "display": {
                         "compact": "Kesstrotha",
-                        "default": "Defowtya"
+                        "default": "Defowtya",
+                        "compact_description": "Da goth IRC.",
+                        "default_description": "Brav, leven hag arnowedh."
                     },
                     "color": {
                         "dark": "Du",
@@ -274,13 +284,29 @@
                     "accent_selector": "Blas Kolor",
                     "appearance_options": {
                         "show_send": "Bykken diskwedh Danon Messajya Boton",
-                        "title": "Fysmant Dewisyansow"
+                        "title": "Fysmant Dewisyansow",
+                        "show_send_desc": "Mar efreth, an Danon Danvonadow boton a venn eneth apperya a-dro gwayadow.",
+                        "show_account_age": "A'y oes diskwedh akont amser a dheu bys dhe junya nowodhow"
                     },
                     "title": "Mirow",
                     "font": "Besydhva",
                     "advanced_options": {
                         "title": "Avonsys Dewisyansow"
-                    }
+                    },
+                    "theme_options": {
+                        "title": "Testen Dewisyansow",
+                        "transparency": "Bollder Dewth",
+                        "seasonal": "Sesonek Testen"
+                    },
+                    "message_display": "Messajya Diskwedhes",
+                    "advanced": "Avonsys Dewisyansow",
+                    "overrides": "Thema Gorerghi",
+                    "theme_data": "Thema Data",
+                    "custom_css": "A-vusur CSS",
+                    "ligatures": "Besydhva Giow",
+                    "emoji_pack": "Emoji Bagas",
+                    "reset_overrides": "Dassettya gorerghi",
+                    "sync": "Kettermynegi Dewisyansow"
                 },
                 "plugins": {
                     "delete_plugin": "Dilea",
@@ -301,41 +327,73 @@
                         "view_recovery_long": "Golokva hag iskarga agas 2FA daswrians Koden Gesrosweyth.",
                         "generate_recovery": "Dinethi Daswrians Koden Gesrosweyth",
                         "two_factor_off": "Nyns usi genes Due-Elven gwiryonheans!",
-                        "two_factor_on": "Deu-Elven gwiryonheans eus a-lemmyn a-dro."
+                        "two_factor_on": "Deu-Elven gwiryonheans eus a-lemmyn a-dro.",
+                        "generate_recovery_long": "Bydhewgh parays devnydhya 2FA bys desedha a daswrians fordh.",
+                        "add_auth": "Addya Gwiryonheans Gwi",
+                        "remove_auth": "Dilea Gwiryonheans Gwi"
                     },
                     "title": "Ow Akont",
                     "unique_id": "Hemm yw a dibarow usyer aswon a-barth agas akont.",
                     "manage": {
-                        "title": "Akontyans Menystrans"
+                        "title": "Akontyans Menystrans",
+                        "disable": "Diallosegi Aknot",
+                        "delete": "Margh Aknot A-barth Dileans",
+                        "description": "Diallosegi po defendya agas aknot neb pres. Ma akt a venn nyns owgh hwi omgelmys hag yn feur defendya agas aknot, e'ga mesk agas keskewsel istori hag kothmans."
                     }
                 },
                 "profile": {
                     "title": "Profilys",
-                    "info": "Kedhlow"
+                    "info": "Kedhlow",
+                    "fetching": "Kerghes agas profil…",
+                    "placeholder": "Lyennega neb tra 'dro dh agas honan…",
+                    "profile_picture": "Profil Imach",
+                    "custom_background": "A-vusur Keyndir",
+                    "edit_background": "Pennskrifa Keyndir",
+                    "edit_profile": "Pennskrifa Profil"
                 },
                 "notifications": {
                     "title": "Notyans",
-                    "sounds": "Tros"
+                    "sounds": "Tros",
+                    "push_notifications": "Herdhyans Notyans",
+                    "sound": {
+                        "message": "Messajya Kevys",
+                        "outbound": "Messajya A dhellos"
+                    }
                 },
                 "language": {
-                    "title": "Tavas"
+                    "title": "Tavas",
+                    "const": "Drehevys Tavosow"
                 },
                 "sync": {
-                    "title": "Kettermynegi"
+                    "title": "Kettermynegi",
+                    "options": "Kettermynegi Dewisyansow",
+                    "categories": "Kettermynegi Klassys"
                 },
                 "experiments": {
-                    "title": "Arbrovow"
+                    "title": "Arbrovow",
+                    "features": "Kavadow Nasyow"
                 },
                 "bots": {
                     "token": "Tokyn",
-                    "unique_id": "Hemm yw a dibarow hevelepter a'th botow. Nyns yw hobma an Botow tokyn."
+                    "unique_id": "Hemm yw a dibarow hevelepter a'th botow. Nyns yw hobma an Botow tokyn.",
+                    "title": "Ma Botow",
+                    "add": "Addya Botow",
+                    "public_bot": "Pobel Botow",
+                    "profile": "Botow Profil",
+                    "interactions_url": "Kesoberyansow Kkowethasek URL"
                 },
                 "theme_shop": {
                     "category": {
                         "saved": "Difres"
                     },
-                    "by": "Gans"
-                }
+                    "by": "Gans",
+                    "title": "Testen Gwerthji",
+                    "search": "Helgh Testednow…"
+                },
+                "native": {
+                    "title": "Jynn Amontya Desedhansow"
+                },
+                "source_code": "Devedhyans Kevrinhe"
             },
             "server_pages": {
                 "overview": {
@@ -446,6 +504,30 @@
                     "nickname": "Leshanow"
                 }
             }
+        }
+    },
+    "dayjs": {
+        "defaults": {
+            "twelvehour": "A-der"
+        }
+    },
+    "error": {
+        "Unauthorized": "Heb kubmyas.",
+        "RequiredField": "A res",
+        "Unavailable": "Ankavadow."
+    },
+    "permissions": {
+        "Connect": {
+            "t": "Junya"
+        },
+        "Masquerade": {
+            "t": "Dons vysours"
+        },
+        "Speak": {
+            "t": "Kewsel"
+        },
+        "Video": {
+            "t": "Gwelesek"
         }
     }
 }
