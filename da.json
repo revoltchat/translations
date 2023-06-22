@@ -146,7 +146,8 @@
                     "people_reacted": "{{people}} har reageret",
                     "others_reacted": "{{userlist}} og {{count}} andre reagerede"
                 },
-                "new_to_server": "Ny på denne server"
+                "new_to_server": "Ny på denne server",
+                "new_to_revolt": "Ny til Revolt"
             },
             "categories": {
                 "members": "Medlemmer",
@@ -209,7 +210,7 @@
                     "confirm_delete": "Vil du slette {{name}}?",
                     "create_invite_created": "Her er din nye invitationskode:",
                     "block_user_long": "Er du sikker på at du vil blokere {{name}}? De vil også blive fjernet fra din venneliste.",
-                    "unfriend_user": "Vil du fjerne {{name}}?",
+                    "unfriend_user": "Vil du fjerne {{name}} som ven?",
                     "block_user": "Vil du blokere {{name}}?",
                     "members_not_notified": "Andre medlemmer vil ikke blive underrettet",
                     "silent_leave": "Forlad opkaldet stille"
@@ -329,7 +330,7 @@
                         "early_adopter": "Tidlig adoptant",
                         "supporter": "Supporter",
                         "moderation": "Platform moderering",
-                        "responsible_disclosure": "Ansvarligt Afsløret Fejl(s)"
+                        "responsible_disclosure": "Ansvarligt afslørede sikkerhedsfejl"
                     },
                     "empty": "Her er lidt tomt…",
                     "no_users": "Ingen fælles venner",
@@ -495,6 +496,18 @@
                         "show_send_desc": "Hvis den er deaktiveret, vises knappen Send besked kun på mobilen.",
                         "show_account_age": "Vis altid kontoalderen ud for at deltage i beskeder",
                         "show_account_age_desc": "Hvis den er deaktiveret, vises kontoens alder kun for nye brugere."
+                    },
+                    "colours": {
+                        "title": "Farver"
+                    },
+                    "emoji": {
+                        "title": "Emoji"
+                    },
+                    "fonts": {
+                        "title": "Skrifttyper"
+                    },
+                    "advanced_options": {
+                        "title": "Avancerede indstillinger"
                     }
                 },
                 "feedback": {
@@ -675,6 +688,9 @@
                 },
                 "permissions": {
                     "title": "Rettigheder"
+                },
+                "webhooks": {
+                    "title": "Webhooks"
                 }
             }
         },
@@ -785,6 +801,10 @@
         "members": {
             "many": "{{count}} Medlemmer",
             "one": "1 Medlem"
+        },
+        "dropFiles": {
+            "many": "Indsæt {{count}} filer",
+            "one": "Slip en fil"
         }
     },
     "error": {
@@ -829,7 +849,8 @@
         "MissingData": "Anmodningen mangler data.",
         "ProbeError": "Filens metadata kunne ikke hentes.",
         "CompromisedPassword": "Denne adgangskode er kompromitteret.",
-        "ReachedMaximumBots": "Du har nået det maksimale antal bots."
+        "ReachedMaximumBots": "Du har nået det maksimale antal bots.",
+        "DiscriminatorChangeRatelimited": "For mange tag ændringer."
     },
     "permissions": {
         "BanMembers": {
