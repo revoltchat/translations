@@ -32,7 +32,7 @@ The following table shows languages and people enlisted for verifying certain la
 |🇬🇷|Ελληνικά / el|[@SudoJanast](https://github.com/SudoJanast)||
 |🇪🇸|Español / es|[@z3ro0k](https://github.com/z3ro0k) [@fernandopal](https://github.com/fernandopal)|[@Dorovich](https://github.com/Dorovich)|
 |🇪🇸|Español (América Latina) / es_419|[@SrWesly](https://github.com/SrWesly) [@7Macros](https://github.com/7Macros)||
-|🇪🇪|eesti / et|[@Asl-script](https://github.com/Asl-script)|[@u032](https://github.com/u032) [@Lefromrevolt](https://github.com/Lefromrevolt)|
+|🇪🇪|eesti / et|[@Kentledge](https://github.com/Kentledge)|[@u032](https://github.com/u032) [@Lefromrevolt](https://github.com/Lefromrevolt)|
 |🇫🇮|suomi / fi|||
 |🇵🇭|Filipino / fil|[@I2rys](https://github.com/I2rys)||
 |🇫🇷|Français / fr|[@Hades785](https://github.com/Hades785) [@Kasahe](https://github.com/Kasahe)|[@RedNight-was-taken](https://github.com/RedNight-was-taken)|
