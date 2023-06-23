@@ -102,7 +102,7 @@ export interface LanguageEntry {
   rtl?: boolean;
 
   /**
-   * If language is constant or joke
+   * Whether the language is a conlang (constructed language) or a joke
    */
   cat?: "const" | "alt";
 
@@ -120,7 +120,7 @@ export interface LanguageEntry {
 }
 
 export const Languages: { [key in Language]: LanguageEntry } = {
-  // English
+  // English and "English"
   en: {
     display: "English (Traditional)",
     emoji: "🇬🇧",
@@ -134,7 +134,7 @@ export const Languages: { [key in Language]: LanguageEntry } = {
     dayjs: "en",
   },
 
-  // Foreign Languages
+  // Foreign languages 
   ar: { display: "عربي", emoji: "🇸🇦", i18n: "ar", rtl: true, verified: true },
   as: {
     display: "অসমীয়া",
@@ -227,7 +227,7 @@ export const Languages: { [key in Language]: LanguageEntry } = {
     dayjs: "zh",
   },
 
-  // Constructed Languages
+  // Constructed languages
   tokipona: {
     display: "Toki Pona",
     emoji: "🙂",
@@ -243,7 +243,7 @@ export const Languages: { [key in Language]: LanguageEntry } = {
     cat: "const",
   },
 
-  // Joke Languages
+  // Joke languages
   owo: {
     display: "OwO",
     emoji: "😸",
