@@ -291,6 +291,9 @@
                     "description": "Popis Kanála",
                     "name": "Meno Kanála",
                     "title": "Prehľad"
+                },
+                "webhooks": {
+                    "title": "Webhooks"
                 }
             },
             "categories": {
@@ -340,7 +343,7 @@
                 "edited": "(upravené)",
                 "unknown_user": "<Neznámy používateľ>",
                 "nsfw": {
-                    "confirm": "Potvrdzujem, že mám aspoň 18 rokov!",
+                    "confirm": "Potvrdzujem, že mám aspoň 18 rokov.",
                     "channel": {
                         "confirm": "Zadajte kanál",
                         "marked": "Tento kanál je označený ako NSFW."
@@ -587,7 +590,7 @@
                     "badges": {
                         "translator": "Prekladateľ",
                         "supporter": "Podporovateľ",
-                        "responsible_disclosure": "Zodpovedne zverejnená chyba(y)",
+                        "responsible_disclosure": "Zodpovedne zverejnené bezpečnostné chyby",
                         "early_adopter": "Inovátor",
                         "founder": "Zakladateľ",
                         "moderation": "Moderovanie platformy"
@@ -825,7 +828,8 @@
         "EmailFailed": "E -mail sa nepodarilo odoslať.",
         "AlreadyOnboarded": "Už dokončená registrácia.",
         "ReachedMaximumBots": "Dosiahli ste maximálne množstvo robotov.",
-        "AudioPermissionBlock": "Nemáme prístup k mikrofónu, skontrolujte konfiguráciu svojho prehliadača."
+        "AudioPermissionBlock": "Nemáme prístup k mikrofónu, skontrolujte konfiguráciu svojho prehliadača.",
+        "DiscriminatorChangeRatelimited": "Príliš veľa zmien tagu."
     },
     "permissions": {
         "KickMembers": {
