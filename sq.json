@@ -165,24 +165,24 @@
                 "edited": "(modifikuar)",
                 "bot": "Robot",
                 "notifications": {
-                    "default": "Përdor të parazgjedhurën",
-                    "mention": "Vetëm përmendjet",
+                    "default": "Përdor default-in",
+                    "mention": "Vetëm njoftimet",
                     "none": "Asgjë",
                     "all": "Të githa mesazhet",
-                    "muted": "كتم الصوت"
+                    "muted": "Heshtur"
                 },
                 "search": {
                     "title": "Kërko",
                     "sort": {
-                        "latest": "Të fundit",
+                        "latest": "Më të fundit",
                         "oldest": "Më të vjetrat",
                         "relevance": "Rëndësia"
                     }
                 },
                 "errors": {
-                    "nochannels": "Ky server nuk ka kanale, ose ti nuk ke akses te asnjëri.",
-                    "nochannel": "Pa kanal",
-                    "title": "Oops, këtu nuk ka asgjë!"
+                    "nochannels": "Ky server nuk ka asnjë kanalë, ose ti nuk ke akses tek asnjëri.",
+                    "nochannel": "Asnjë kanal",
+                    "title": "Obobo, këtu nuk paska asgjë!"
                 },
                 "attached_file": "Bashkangjitur {{filename}}",
                 "failed_upload": "Ngarkimi dështoi!",
@@ -206,8 +206,8 @@
             "groups": {
                 "create": "Krijo një grup",
                 "name": "Emri i grupit",
-                "description": "Përshkrimi i Grupit",
-                "owner": "Pronari i Grupit"
+                "description": "Përshkrimi i grupit",
+                "owner": "Pronari i grupit"
             },
             "servers": {
                 "name": "Emri i serverit",
@@ -216,10 +216,10 @@
                 "channel_type": "Lloji i kanalit",
                 "category_name": "Emri i kategorisë",
                 "channel_description": "Përshkrimi i kanalit",
-                "custom_banner": "Banderolë e personalizuar",
+                "custom_banner": "Banderolë të personalizuar",
                 "owner": "Pronari i serverit",
-                "text_channel": "Kanal teksti",
-                "voice_channel": "Kanal zëri",
+                "text_channel": "Kanal prej teksti",
+                "voice_channel": "Kanal prej zëri",
                 "create": "Krijo një server"
             }
         },
@@ -228,7 +228,7 @@
             "categories": {
                 "user_settings": "Opsionet e përdoruesit",
                 "client_settings": "Opsionet e klientit",
-                "danger_zone": "Zona e rrezikut"
+                "danger_zone": "Zonë rreziku"
             },
             "actions": {
                 "remove": "Hiq",
@@ -240,52 +240,52 @@
                 "account": {
                     "title": "Llogaria ime",
                     "change_field": "Ndrysho",
-                    "unique_id": "Ky është një identifikues unik përdoruesi për llogarinë tuaj.",
+                    "unique_id": "Ky është një identifikues unik për llogarinë tuaj.",
                     "2fa": {
-                        "title": "Vërtetim me dy faktorë",
-                        "description": "Shto një shtresë tjetër sigurie duke aktivizuar 2FA në llogarinë tuaj.",
-                        "add_auth": "Shto vërtetuesin",
-                        "remove_auth": "Hiq vërtetuesin",
-                        "view_recovery": "Shiko kodet e rikthimit",
-                        "view_recovery_long": "Shiko dhe shkarko kodet tuaja të 2FA.",
-                        "generate_recovery": "Prodho kodet e rikthimit",
-                        "generate_recovery_long": "Jeni gati të përdorni 2FA cilësimet e metodavë të rikthimit.",
-                        "two_factor_on": "Autentifikimi dy-faktorial tani është aktiv.",
-                        "two_factor_off": "Ti nuk përdor Autentifikim dy-faktorial!"
+                        "title": "Identifikim 2-faktorësh",
+                        "description": "Shto një shtresë tjetër sigurie duke aktivizuar I2F (2FA) për llogarinë tënde.",
+                        "add_auth": "Shto një faktor identifikimi",
+                        "remove_auth": "Hiq faktorin e identifikimit",
+                        "view_recovery": "Shiko kodet e rikuperimit",
+                        "view_recovery_long": "Shiko dhe shkarko kodet tuaja të I2F (2FA).",
+                        "generate_recovery": "Krijo kodet e rikthimit",
+                        "generate_recovery_long": "Bëhuni gati të përdorni I2F (2FA) duke ruajtur metodën e rikuperimit.",
+                        "two_factor_on": "Identifikimi 2-faktorësh është i aktivizuar.",
+                        "two_factor_off": "Ti nuk e ke aktivizuar identifikimin dy-faktorësh!"
                     },
                     "manage": {
                         "title": "Menaxhimi i llogarisë",
                         "disable": "Çaktivizo llogarinë",
                         "delete": "Fshij llogarinë",
-                        "description": "Çaktivizo ose fshi llogarinë tuaj në çdo kohë. Ky veprim do t'ju shkyçë ju nga llogaria dhe ta fshijë atë, duke përfshirë historinë e bisedave dhe shokët."
+                        "description": "Çaktivizo ose fshi llogarinë tuaj në çdo kohë. Ky veprim do t'ju shkyçë ju nga llogaria dhe do ta fshijë atë, duke përfshirë historinë e bisedave dhe shokët e tua."
                     }
                 },
                 "profile": {
                     "title": "Profili",
                     "info": "Informacion",
-                    "fetching": "Duke marrë profilin tuaj…",
+                    "fetching": "Duke ngarkuar profilin tuaj…",
                     "profile_picture": "Fotoja e profilit",
                     "custom_background": "Sfond i personalizuar",
-                    "edit_background": "Redakto sfondin",
-                    "edit_profile": "Redakto profilin",
-                    "placeholder": "Shkruaj dicka për veten tënde…"
+                    "edit_background": "Edito sfondin",
+                    "edit_profile": "Modifiko profilin",
+                    "placeholder": "Shkruaj diçka për veten tënde…"
                 },
                 "sessions": {
                     "title": "Seancat",
                     "this_device": "Kjo pajisje",
                     "created": "Krijuar {{time_ago}}",
-                    "logout": "Shkycu nga të gjitha seancat e tjera",
+                    "logout": "Shkyçu nga gjithë seancat e tjera",
                     "active_sessions": "Seancat aktive"
                 },
                 "audio": {
                     "title": "Opsionet e zërit",
-                    "device_label_NA": "E paditur",
-                    "button_retry": "Riprovo",
-                    "input_device": "Mikrofoni",
+                    "device_label_NA": "N/A",
+                    "button_retry": "Provo përsëri",
+                    "input_device": "Mikrofonë",
                     "tip_grant_permission": "Ju duhet të jepni leje për të aksesuar opsionet e zërit.",
                     "button_grant": "Jep leje",
                     "output_device": "Altoparlant / Kufje",
-                    "tip_retry": "Ju nuk e keni dhënë lejen për të hyrë në mikrofonin tuaj, ju lutemi {{retryBtn}}."
+                    "tip_retry": "Ju nuk e keni dhënë lejen për të aksesuar mikrofonin tuaj, ju lutemi {{retryBtn}}."
                 },
                 "appearance": {
                     "title": "Pamja",
