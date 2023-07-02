@@ -16,11 +16,13 @@ export default [
 	"fil",
 	"fa",
 	"es",
+	"es_419",
 	"pl",
 	"id",
 	"owo",
 	"el",
 	"nb_NO",
+	"nl",
 	"ca",
 	"it",
 	"zh_Hant",
@@ -28,7 +30,11 @@ export default [
 	"tokipona",
 	"sk",
 	"tr",
+	"th",
 	"ja",
 	"esperanto",
-	"hi"
+	"ro",
+	"zh_Hans",
+	"hi",
+	"bn"
 ]
