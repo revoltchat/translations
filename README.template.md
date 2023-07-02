@@ -2,15 +2,15 @@
 
 [![Translation status](https://weblate.insrt.uk/widgets/revolt/-/web-app/svg-badge.svg)](https://weblate.insrt.uk/engage/revolt/?utm_source=widget)
 
-This repository holds all the translation files for Revolt, feel free to help translate to new languages or fix existing translations at [our Weblate instance](https://weblate.insrt.uk/projects/revolt/web-app/).
+This repository contains Revolt's translation files. Feel free to help translate Revolt to new languages or fix/improve existing translations on [our Weblate instance](https://weblate.insrt.uk/projects/revolt/web-app/). 
 
-Please only PR if you are adding new strings to the source language, otherwise contribute through Weblate.
+**Please do not submit fixes or new translations via pull requests.** Only open a pull request if you are adding new strings to the source language (en_GB) or if you're modifiying the scripts contained in this repository.
 
 ## Languages
 
-The following table shows languages and people enlisted for verifying certain languages are up to standard.
+The following table shows a list of languages, their contributors and maintainers (people enlisted to verify that the language's translations are up to standard).
 
-**Note:** This table only includes languages that are available in the app. If a language has been translated via Weblate and you want it to be added to the app, [please click here](https://github.com/revoltchat/frontend/issues/135).
+Please note that this table **only includes languages that are currently available in the app**. If a language has been translated via Weblate and you want it to be added to the app, [please click here](https://github.com/revoltchat/frontend/issues/135).
 
 {{TABLE}}
 
@@ -22,7 +22,7 @@ If you would like to maintain a language, please [open an issue](https://github.
 
 As a maintainer, you gain access to the Reviewer role on Weblate. This lets you approve new strings, edit approved strings and accept new suggestions. You may also be mentioned in GitHub issues to approve badges for others.
 
-![Approval UI](approve_ui.png)
+![Approval UI](assets/approve_ui.png)
 
 If you would like to be removed as a maintainer, please create an issue. (You will remain on the contributions list.)
 
