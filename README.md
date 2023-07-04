@@ -58,7 +58,7 @@ Please note that this table **only includes languages that are currently availab
 |🇧🇷|Português (do Brasil) / pt_BR|[@yanndere](https://github.com/yanndere)||
 |🇵🇹|Português (Portugal) / pt_PT|[@Tmpod](https://github.com/Tmpod)|[@SlicedBlueApple](https://github.com/SlicedBlueApple)|
 |🇷🇴|Română / ro|[@Edward205](https://github.com/Edward205)|[@S703T](https://github.com/S703T)|
-|🇷🇺|Русский / ru|[@div2005](https://github.com/div2005)||
+|🇷🇺|Русский / ru|[@div2005](https://github.com/div2005)|[@zptr1](https://github.com/zptr1)|
 |🇸🇰|Slovensky / sk|[@ShadowLp174](https://github.com/ShadowLp174)||
 |🇸🇮|Slovenščina / sl|||
 |🇷🇸|Српски / sr|||
@@ -68,7 +68,7 @@ Please note that this table **only includes languages that are currently availab
 |🇹🇭|ไทย / th|[@xhayper](https://github.com/xhayper)||
 |🇹🇷|Türkçe / tr|[@KerizAlperwastaken](https://github.com/KerizAlperwastaken) [@ramazaneris](https://github.com/ramazaneris)||
 |🇵🇰|اردو / ur|||
-|🇺🇦|Українська / uk|[@div2005](https://github.com/div2005)||
+|🇺🇦|Українська / uk|[@div2005](https://github.com/div2005)|[@zptr1](https://github.com/zptr1)|
 |vec|Vèneto / vec|||
 |🇻🇳|Tiếng Việt / vi|||
 |🇨🇳|中文 (简体) / zh_Hans|[@deluxghost](https://github.com/deluxghost)|[@YouTubeGameNana](https://github.com/YouTubeGameNana)|
