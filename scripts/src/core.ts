@@ -67,7 +67,12 @@ function parseIssueBody(body: string) {
 		/### What language\(s\) did you translate\?\n*/,
 		""
 	);
+	newText = newText.replace(
+		/### What language do you want to maintain\?\n*/,
+		""
+	);
 	newText = newText.replace(/\n*### What is your Revolt ID\?\n*/, " | ");
+	newText = newText.replace(/\n*### Revolt ID\n*/, " | ");
 	newText = newText.replace(/\n*### Link to Weblate profile\n*/, " | ");
 
 	// remove validations section
@@ -85,9 +90,7 @@ function parseIssueBody(body: string) {
 	for (const l of rawLanguages) {
 		const parsedLanguage = parseLanguage(l);
 		if (parsedLanguage === "unknown") {
-			console.error(
-				`[PARSER] Unknown language ${l} found in issue body - this could be a typo from the issue author, a non-English name for the language or a missing language in the map`
-			);
+			console.error(`[PARSER] Unknown language ${l} found in issue body - this could be a typo from the issue author, a non-English name for the language or a missing language in the map`)
 		}
 		languages.push(parsedLanguage);
 	}
@@ -124,15 +127,13 @@ export async function main(command: Command) {
 
 		// ...then ensure the author exists/has been fetched...
 		if (!issueData.data.user || issueData.data.user === null) {
-			return console.error(
-				"[MAIN] Couldn't fetch issue author, or it was null"
-			);
+			return console.error("[MAIN] Couldn't fetch issue author, or it was null")
 		}
 
 		// ...and check for the issue body...
 		if (!issueData.data.body) {
-			return console.error(`[MAIN] Couldn't fetch issue body/author`);
-		}
+			return console.error(`[MAIN] Couldn't fetch issue body/author`)
+		};
 
 		// ...which is then parsed here
 		const obj = parseIssueBody(`${issueData.data.body}`);
@@ -144,9 +145,7 @@ export async function main(command: Command) {
 			weblate: obj.weblate,
 		};
 
-		console.debug(
-			`[MAIN] Contributor object: ${JSON.stringify(newContributor)}`
-		);
+		console.debug(`[MAIN] Contributor object: ${JSON.stringify(newContributor)}`);
 
 		// ...and add it to the language's contributor list
 		for (const lang of obj.languages) {
@@ -154,25 +153,17 @@ export async function main(command: Command) {
 				var shouldPushObject = true;
 				for (const c of data[lang].users) {
 					if (c.github === newContributor.github) {
-						console.log(
-							command.maintainer
-								? `[MAIN] User already in ${lang} contributors list; only adding to maintainer list...`
-								: `[MAIN] User already in ${lang} contributors list; skipping...`
-						);
+						console.log(command.maintainer ? 
+							`[MAIN] User already in ${lang} contributors list; only adding to maintainer list...`
+							: `[MAIN] User already in ${lang} contributors list; skipping...`)
 						shouldPushObject = false;
 					}
 				}
 				if (command.maintainer) {
-					if (
-						!data[lang].maintainer.includes(newContributor.github)
-					) {
-						data[lang].maintainer.push(newContributor.github);
+					if (!data[lang].maintainer.includes(newContributor.github)) {
+					data[lang].maintainer.push(newContributor.github);
 					} else {
-						console.log(
-							shouldPushObject
-								? `[MAIN] User already in ${lang} maintainers list; only adding to contributor list...`
-								: `[MAIN] User already in ${lang} maintainers list; skipping...`
-						);
+						console.log(shouldPushObject ? `[MAIN] User already in ${lang} maintainers list; only adding to contributor list...` : `[MAIN] User already in ${lang} maintainers list; skipping...`)
 					}
 				}
 				if (shouldPushObject) {
