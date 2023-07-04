@@ -55,7 +55,7 @@ Please note that this table **only includes languages that are currently availab
 |🇳🇱|Nederlands / nl|[@sympact06](https://github.com/sympact06)||
 |🇮🇷|فارسی / fa|[@DevEvil99](https://github.com/DevEvil99) [@shareghzade](https://github.com/shareghzade)||
 |🇵🇱|Polski / pl|[@jacekpoz](https://github.com/jacekpoz) [@Pawelek-dev](https://github.com/Pawelek-dev) [@HosachiPL](https://github.com/HosachiPL)|[@CyberL1](https://github.com/CyberL1)|
-|🇧🇷|Português (do Brasil) / pt_BR|[@yanndere](https://github.com/yanndere)||
+|🇧🇷|Português (do Brasil) / pt_BR|[@yanndere](https://github.com/yanndere) [@Hokiper](https://github.com/Hokiper)||
 |🇵🇹|Português (Portugal) / pt_PT|[@Tmpod](https://github.com/Tmpod)|[@SlicedBlueApple](https://github.com/SlicedBlueApple)|
 |🇷🇴|Română / ro|[@Edward205](https://github.com/Edward205)|[@S703T](https://github.com/S703T)|
 |🇷🇺|Русский / ru|[@div2005](https://github.com/div2005)|[@zptr1](https://github.com/zptr1)|
