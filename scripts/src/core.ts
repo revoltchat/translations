@@ -62,6 +62,8 @@ function parseLanguage(language: string) {
 function parseIssueBody(body: string) {
 	let newText = body;
 
+	// make sure new lines are the correct format
+	newText = newText.replaceAll(/\r/g, '\n');
 	// remove headers
 	newText = newText.replace(
 		/### What language\(s\) did you translate\?\n*/,
