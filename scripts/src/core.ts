@@ -59,7 +59,7 @@ function parseLanguage(language: string) {
 	return parsedLanguage ?? "unknown";
 }
 
-function parseIssueBody(body: string) {
+function parseIssueBody(body: string, maintainer: boolean) {
 	let newText = body;
 
 	// make sure new lines are the correct format
@@ -100,8 +100,8 @@ function parseIssueBody(body: string) {
 	// ...and map everything into an object
 	const finalObject = {
 		languages: languages,
-		id: array[1],
-		weblate: array[2],
+		id: maintainer ? array[2] : array[1],
+		weblate: maintainer? array[1] : array[2],
 	} as ParsedIssueObject;
 	console.debug(`[PARSER] Parsed object: ${JSON.stringify(finalObject)}`);
 	return finalObject;
@@ -138,7 +138,7 @@ export async function main(command: Command) {
 		};
 
 		// ...which is then parsed here
-		const obj = parseIssueBody(`${issueData.data.body}`);
+		const obj = parseIssueBody(`${issueData.data.body}`, command.maintainer);
 
 		// we then create a contributor object from the parsed info...
 		const newContributor = {
