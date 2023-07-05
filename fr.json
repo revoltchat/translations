@@ -34,7 +34,7 @@
         "error": {
             "reset": "Échec de la réinitialisation !",
             "create": "La création du compte a échoué !",
-            "login": "Nous n'avons pas réussi à vous connecter !",
+            "login": "La connection a échoué !",
             "resend": "Échec du renvoi de l'e-mail !",
             "verify": "Échec de la vérification !"
         },
@@ -116,7 +116,7 @@
                     "jump_beginning": "Aller au début",
                     "new_messages": "Nouveaux messages depuis {{time_ago}}",
                     "load_file": "Charger le fichier",
-                    "timed_out": "Vous êtes temporairement exclu pendant {{time}}.",
+                    "timed_out": "Vous êtes temporairement muet pour {{time}}.",
                     "not_loaded": "Le message n'a pas pu être chargé, cliquez pour y remonter"
                 },
                 "notifications": {
@@ -275,9 +275,9 @@
                         "default": "Défaut",
                         "compact": "Compacte",
                         "default_description": "Beau, élégant et moderne.",
-                        "compact_description": "Le bon vieil IRC."
+                        "compact_description": "Bon vieil IRC."
                     },
-                    "accent_selector": "Couleur accentuée",
+                    "accent_selector": "Couleur d'accent",
                     "reset_overrides": "Réinitialiser les paramètres forcés",
                     "theme": "Thème",
                     "color": {
@@ -314,8 +314,8 @@
                         "title": "Option d'apparence",
                         "show_send_desc": "Si désactivé, le bouton d'envoi de message ne sera visible que sur mobile.",
                         "show_send": "Toujours afficher le bouton d'envoi de message",
-                        "show_account_age_desc": "Si désactivé, l'âge du compte sera seulement montré aux nouveaux utilisateurs.",
-                        "show_account_age": "Toujours afficher l'âge du compte à côté des messages de participation"
+                        "show_account_age_desc": "Si désactivé, l'âge du compte sera seulement montré pour les nouveaux utilisateurs.",
+                        "show_account_age": "Toujours afficher l'âge du compte à côté de la notification quand un membre rejoint le serveur"
                     },
                     "colours": {
                         "title": "Couleurs"
@@ -439,7 +439,7 @@
                     "not_available": "Aucune expérience n'est disponible actuellement."
                 },
                 "native": {
-                    "title": "Paramètres du bureau"
+                    "title": "Paramètres Application PC"
                 },
                 "bots": {
                     "title": "Mes bots",
@@ -476,7 +476,7 @@
                         "manage": "Gérer les thèmes sauvegardés",
                         "default": "Thèmes par défaut",
                         "viewall": "Voir tout",
-                        "highest": "Les mieux notés"
+                        "highest": "Mieux notés"
                     },
                     "active": "Actuellement activé",
                     "use": "Appliquer le thème",
