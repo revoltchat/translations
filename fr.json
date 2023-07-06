@@ -332,9 +332,9 @@
                 },
                 "notifications": {
                     "descriptions": {
-                        "enable_desktop": "Cela vous enverra des notifications quand l'application est ouverte.",
+                        "enable_desktop": "Si actif, vous receverez des notifications quand l'application est ouverte.",
                         "enable_sound": "Jouera un son a la réception d'un message.",
-                        "enable_push": "Cela vous enverra des notifications quand vous êtes hors-ligne.",
+                        "enable_push": "Si actif, vous receverez des notifications quand vous êtes hors-ligne.",
                         "enable_outgoing_sound": "Jouera un son lors de l'envoi de messages."
                     },
                     "title": "Notifications",
@@ -635,7 +635,7 @@
                         "username": "Changer votre nom d'utilisateur",
                         "password": "Changer votre mot de passe"
                     },
-                    "failed": "La modification a échoué !"
+                    "failed": "La modification a échoué !"
                 },
                 "clipboard": {
                     "copy": "Copie manuelle :",
@@ -643,12 +643,12 @@
                     "unavailable": "Le presse-papier n'est pas disponible !"
                 },
                 "prompt": {
-                    "confirm_leave": "Quitter {{name}} ?",
-                    "confirm_leave_long": "Vous ne pourrez pas revenir à moins d'y être réinvité.",
+                    "confirm_leave": "Quitter {{name}} ?",
+                    "confirm_leave_long": "Vous ne pourrez pas revenir à moins d'être réinvité.",
                     "confirm_close_dm": "Fermer la conversation avec {{name}} ?",
                     "confirm_close_dm_long": "Vous pouvez la rouvrir plus tard mais elle disparaîtra des deux côtés.",
                     "confirm_delete": "Supprimer {{name}} ?",
-                    "confirm_delete_long": "Après la suppression, vous ne pourrez pas revenir en arrière.",
+                    "confirm_delete_long": "Après la suppression, vous ne pourrez plus revenir en arrière.",
                     "create_invite_generate": "Génération d'une invitation en cours…",
                     "create_invite_created": "Voici votre nouveau code d'invitation :",
                     "confirm_delete_message_long": "Êtes-vous certain de vouloir supprimer cela ?",
@@ -656,7 +656,7 @@
                     "confirm_ban": "Vous êtes sur le point de bannir {{name}}",
                     "confirm_ban_reason": "Raison du bannissement",
                     "block_user_long": "Êtes-vous certain de vouloir bloquer {{name}} ? L'utilisateur sera également retiré de votre liste d'amis.",
-                    "unfriend_user_long": "Vous ne pourrez peut-être plus leur parler tant que vous ne les aurez pas rajoutés en tant qu'amis.",
+                    "unfriend_user_long": "Vous ne pourrez peut-être plus leur parler tant que vous ne les aurez pas rajoutés en tant qu'ami.",
                     "block_user": "Bloquer {{name}} ?",
                     "unfriend_user": "Retirer {{name}} de vos amis ?",
                     "silent_leave": "Quitter discrètement",
@@ -688,14 +688,14 @@
                     "prompt_totp": "Veuillez numériser ou utiliser le jeton ci-dessous dans votre application d'authentification."
                 },
                 "changelogs": {
-                    "title": "Modifications",
-                    "description": "Renseignez-vous sur mises à jour de Revolt.",
+                    "title": "Liste des modifications",
+                    "description": "Renseignez-vous sur les mises à jour de Revolt.",
                     "older": "Voir les mises à jour précédentes"
                 },
                 "out_of_date": {
-                    "title": "Votre client n'est pas à jour !",
+                    "title": "Votre client n'est pas à jour !",
                     "description": "Il doit être mis à jour pour fonctionner avec les modifications récentes.",
-                    "version": "Votre client est en {{client}} alors que les serveur nécessite {{server}}.",
+                    "version": "Votre client est {{client}} alors que les serveur nécessite {{server}}.",
                     "ignore": "Ignorer la mise à jour",
                     "attempting": "Tentative de mise à jour en cours…"
                 },
@@ -840,7 +840,7 @@
         "AlreadyFriends": "Vous êtes déjà ami avec cet utilisateur.",
         "Blocked": "Vous avez bloqué cet utilisateur.",
         "FailedToReceive": "La réception de votre fichier par le serveur a échoué.",
-        "MissingData": "Les données de la requête manquent.",
+        "MissingData": "Les données de la requête sont incomplètes.",
         "IoError": "Le serveur a rencontré une erreur d'Entrée/Sortie.",
         "UnsupportedBrowser": "Votre navigateur ne supporte pas cette fonctionnalité.",
         "DeniedNotification": "Vous avez refusé l'accès aux notifications, vérifiez vos paramètres.",
@@ -854,13 +854,13 @@
         "InvalidCredentials": "Adresse mail ou mot de passe incorrect.",
         "InvalidInvite": "Code d'invitation invalide",
         "AlreadyOnboarded": "Configuration déjà terminée.",
-        "UsernameTaken": "Le nom d'utilisateur est déjà utilisé.",
+        "UsernameTaken": "Ce nom d'utilisateur est déjà utilisé.",
         "AlreadySentRequest": "Vous avez déjà une demande en attente pour cet utilisateur.",
         "TooShort": "Trop court",
         "FileTooLarge": "Ce fichier est trop volumineux.",
         "NetworkError": "Erreur de réseau.",
         "Unauthorized": "Non autorisé.",
-        "UnknownError": "Voir la console.",
+        "UnknownError": "Regardez la console.",
         "OperationFailed": "Échec de l'opération.",
         "EmailFailed": "Échec de l'envoi du mail.",
         "BlockedOther": "Cet utilisateur vous a bloqué.",
@@ -911,7 +911,7 @@
         },
         "RemoveAvatars": {
             "t": "Retirer les avatars",
-            "d": "Permet aux membres de retirer les avatars de serveur d'autres membres du serveur."
+            "d": "Permet aux membres de retirer les avatars spécifiques au serveur d'autres membres du serveur."
         },
         "EmbedLinks": {
             "d": "Permet aux membres d'afficher du contenu intégré aux liens qu'ils envoient dans un salon textuel.",
@@ -970,7 +970,7 @@
             "d": "Autorise les membres à contrôler les webhooks dans un salon."
         },
         "SendEmbeds": {
-            "d": "Autorise les membres à envoyer du contenu intégré, que ce soit depuis des liens ou des intégrations personnalisées.",
+            "d": "Autorise les membres à envoyer du contenu intégré, que ce soit depuis des liens ou des intégrations textuelles personnalisées.",
             "t": "Envoyer du contenu intégré"
         },
         "Speak": {
@@ -979,7 +979,7 @@
         },
         "Video": {
             "t": "Vidéo",
-            "d": "Autorise les membres à partager leur écrans dans un salon vocal."
+            "d": "Autorise les membres à afficher leur webcam et partager leur écrans dans un salon vocal."
         },
         "MuteMembers": {
             "t": "Rendre les membres muets",
