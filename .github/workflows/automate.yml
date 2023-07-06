@@ -39,6 +39,6 @@ jobs:
         uses: EndBug/add-and-commit@v4
         with:
           add: "*.md"
-          message: "chore: generate README"
+          message: "chore: re-generate README"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
