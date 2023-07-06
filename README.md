@@ -61,6 +61,7 @@ Please note that this table **only includes languages that are currently availab
 |🇷🇺|Русский / ru|[@div2005](https://github.com/div2005)|[@zptr1](https://github.com/zptr1)|
 |🇸🇰|Slovensky / sk|[@ShadowLp174](https://github.com/ShadowLp174)||
 |🇸🇮|Slovenščina / sl|||
+|🇦🇱|Shqip / sq|||
 |🇷🇸|Српски / sr|||
 |🇱🇰|සිංහල / si|||
 |🇸🇪|Svenska / sv|[@raggebatman](https://github.com/raggebatman)||
