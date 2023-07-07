@@ -63,7 +63,7 @@
                 "voice": {
                     "leave": "Umalis",
                     "mute": "Tumahimik",
-                    "unmute": "Magsalita",
+                    "unmute": "I-unmute",
                     "connected": "Nasa kanal pamboses"
                 },
                 "nsfw": {
@@ -89,7 +89,7 @@
                     }
                 },
                 "uploading_file": "Pinapadala…",
-                "failed_upload": "Hindi naipadala!",
+                "failed_upload": "Nabigong i-upload!",
                 "message_saved": "Ilagay sa personal na talaan",
                 "attached_file": "Nakalakip ang (mga) {{filename}}",
                 "unknown_user": "<basta-tao-rin-ito>",
@@ -124,16 +124,16 @@
                 "description": "Deskripsyon ng Grupo"
             },
             "servers": {
-                "channel_description": "Deskripsyon ng Kanal",
+                "channel_description": "Deskripsyon ng Channel",
                 "description": "Deskripsyon ng Server",
-                "create": "Gumawa ng serbidor",
+                "create": "Gumawa ng server",
                 "name": "Pangalan ng Server",
-                "channel_type": "Tipo ng Kanal",
+                "channel_type": "Uri ng Channel",
                 "owner": "May-ari ng Server",
-                "channel_name": "Pangalan ng Kanal",
+                "channel_name": "Pangalan ng Channel",
                 "custom_banner": "Personalisadong Bandera",
-                "text_channel": "Kanal pan-texto",
-                "voice_channel": "Kanal pamboses",
+                "text_channel": "Channel na pan-texto",
+                "voice_channel": "Channel na pamboses",
                 "category_name": "Pangalan ng Kategoriya"
             },
             "categories": {
@@ -193,12 +193,12 @@
             "copy_id": "Kopyahin ang ID",
             "copy_mid": "Kopyahin itong message ID",
             "copy_message_link": "Kopyahin ang link ng message",
-            "copy_sid": "Kopyahin itong server ID",
+            "copy_sid": "Kopyahin ang server ID",
             "mark_unread": "Markahan bilang hindi nabasa",
             "make_owner": "Ibigay ang pagmamay-ari ng grupo",
             "report_user": "I-report ang user",
             "report_message": "Iulat ang message",
-            "report_server": "I-report ang server"
+            "report_server": "Iulat ang server"
         },
         "settings": {
             "pages": {
@@ -317,8 +317,8 @@
                     "sounds": "Mga tunog",
                     "title": "Mga Abiso",
                     "descriptions": {
-                        "enable_push": "Itulot upang makatanggap ng mga abiso kapag hindi ka konektado.",
-                        "enable_desktop": "Bibigyan ka nito ng mga abiso habang bukás ang iyong app."
+                        "enable_push": "Kapag nakabukas ito, magkakaroon ka ng mga notification kapag offline ka.",
+                        "enable_desktop": "Kapag nakabukas ito, makakakuha ka ng mga notification habang nakabukas ang app."
                     },
                     "sound": {
                         "message": "Natanggap ang Mensahe",
@@ -429,8 +429,8 @@
             "server_pages": {
                 "overview": {
                     "name": "Pangalan ng Server",
-                    "description": "Deskripsyon ng Kanal",
-                    "system_messages": "Kanal ng mga Mensahe ng Sistema",
+                    "description": "Deskripsyon ng Channel",
+                    "system_messages": "Channel ng mga Mensahe ng Sistema",
                     "title": "Bista ng Server"
                 },
                 "members": {
@@ -439,9 +439,9 @@
                 "invites": {
                     "title": "Mga Imbitasyon",
                     "invitor": "Ang nag-imbita",
-                    "channel": "Kanal",
+                    "channel": "Channel",
                     "code": "Kodigo ng Imbitasyon",
-                    "revoke": "Tanggalin"
+                    "revoke": "Tanggihan"
                 },
                 "categories": {
                     "title": "Mga Kategoriya"
@@ -449,19 +449,19 @@
                 "bans": {
                     "no_reason": "Walang dahilan ng pagka-ban.",
                     "reason": "Dahilan ng pagka-ban",
-                    "revoke": "Tanggalin",
+                    "revoke": "Tanggihan",
                     "user": "User",
                     "title": "Mga Banned na User"
                 },
                 "roles": {
-                    "title": "Mga Papel"
+                    "title": "Mga Role"
                 },
                 "management": {
                     "title": "Pamamahala sa Mga User"
                 },
                 "emojis": {
                     "upload": "Magdagdag ng Emoji",
-                    "title": "Emoji"
+                    "title": "Mga Emoji"
                 },
                 "customisation": {
                     "title": "Personalisasyon"
@@ -473,8 +473,8 @@
                     "b": "Tumungo sa iyong settings ng profile."
                 },
                 "languages": {
-                    "b": "Tumulong sa pag-aambag ng mga pagsasalin ng mga wika.",
-                    "a": "Nawawala ba ang wika na gusto mo?"
+                    "b": "Tulungan kami sa pamamagitan ng pag-ambag ng higit pang mga translation.",
+                    "a": "Kulang ba tayo ng wikang gusto mo?"
                 },
                 "sessions": {
                     "a": "Kapag may nakita kang kakaibang sesyon sa listahan,",
@@ -672,11 +672,11 @@
                         "translator": "Tagasalin",
                         "supporter": "Tagasuporta",
                         "responsible_disclosure": "Responsableng nagsiwalat ng mga Isyu sa Seguridad",
-                        "early_adopter": "Early Adopter",
+                        "early_adopter": "Maagang nag-aampon",
                         "founder": "Tagapagtatag",
                         "moderation": "Moderador ng Plataforma"
                     },
-                    "no_servers": "Walang parehong kommunidad/servers",
+                    "no_servers": "Walang mga parehong server",
                     "mutual_friends": "Parehong Kaibigan",
                     "mutual_groups": "Parehong Grupo",
                     "mutual_servers": "Parehong Server",
@@ -769,7 +769,7 @@
             "login": "Hindi matagumpay ang pag-login!",
             "reset": "Hindi naipa-palit!",
             "create": "Nagkaproblema sa pagrehistro!",
-            "resend": "Hindi naipadala!",
+            "resend": "Nabigong ipadala muli!",
             "verify": "Nabigong i-verify!"
         },
         "successful_registration": "Matagumpay ang pagrehistro!",
@@ -889,7 +889,7 @@
         },
         "AssignRoles": {
             "d": "Payagang maka takda ng mga tungkulin mababa sa sarili nilang ranko sa ibang mga miyembro.",
-            "t": "Magtalaga ng mga Tungkulin"
+            "t": "Magtalaga ng mga Role"
         },
         "DeafenMembers": {
             "d": "Payagan ang mga miyembro na i-deafen ang iba sa isang voice channel.",
