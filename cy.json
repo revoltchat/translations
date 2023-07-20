@@ -7,7 +7,7 @@
         "off": "Bant",
         "disabled": "Wedi anabli",
         "unavailable": "Ddim ar gael",
-        "about": "Amdan",
+        "about": "Ynghylch",
         "privacy": "Polisi Preifatrwydd",
         "learn_more": "Darganfod fwy"
     },
@@ -19,11 +19,12 @@
         "invite": "Côd Gwahodd",
         "current_password": "Cyfrinair Cyfredol",
         "enter": {
-            "username": "Nodwch eich enw defnyddiwr dewisol.",
-            "email": "Nodwch eich ebost.",
+            "username": "Rhowch eich enw defnyddiwr",
+            "email": "Os gwelwch yn dda nodwch eich ebost",
             "password": "Nodwch eich cyfrinair.",
             "current_password": "Nodwch eich cyfrinair cyfredol.",
-            "invite": "Nodwch eich côd gwahodd."
+            "invite": "Nodwch eich côd gwahodd.",
+            "new_password": "Rhowch gyfrinair newydd."
         },
         "forgot": "Wedi anghofio eich cyfrinair?",
         "reset": "Ailosod cyfrinair",
@@ -42,7 +43,8 @@
             "create": "Wedi methu cofrestru!",
             "reset": "Wedi methu ailosod!",
             "resend": "Wedi methu ailanfon!",
-            "login": "Wedi methu mewngofnodi!"
+            "login": "Wedi methu mewngofnodi!",
+            "verify": "Wedi methu â gwirio!"
         },
         "username": "Enw defnyddiwr",
         "remembered": "Mind yn ôl i fewngofnodi",
@@ -50,7 +52,14 @@
         "welcome2": "Helo!",
         "subtitle2": "Creu cryfrif",
         "welcome": "Croeso!",
-        "subtitle": "Mewngofnodi i Revolt"
+        "subtitle": "Mewngofnodi i Revolt",
+        "verifying_account": "Wrthi'n gwirio'ch cyfrif…",
+        "log_out_other": "Allgofnodi o bob sesiwn arall",
+        "new_password": "Cyfrinair newydd",
+        "totp": "Ap Authenticator",
+        "recovery": "Cod Adfer",
+        "verified_account": "Mae eich cyfrif wedi'i wirio!",
+        "verified_continue": "Parhewch i fewngofnodi"
     },
     "app": {
         "status": {
@@ -306,9 +315,19 @@
                     "push_notifications": "Hysbysiadau Gwthio",
                     "enable_push": "Galluogi Hysbysiadau Gwthio.",
                     "sounds": "Seiniau",
-                    "enable_desktop": "Galluogi Hysbysiadau Bwrdd Gwaith."
+                    "enable_desktop": "Galluogi Hysbysiadau Bwrdd Gwaith"
+                }
+            }
+        },
+        "special": {
+            "modals": {
+                "actions": {
+                    "ok": "Iawn"
                 }
             }
         }
+    },
+    "actions": {
+        "submit": "Submit"
     }
 }
