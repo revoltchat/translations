@@ -9,7 +9,7 @@
         "current_password": "Pašreizējā parole",
         "enter": {
             "username": "Ievadi vēlamo lietotājvārdu.",
-            "email": "Ievadi savu e-pasta adresi.",
+            "email": "Lūdzu Ievadi savu e-pasta adresi.",
             "password": "Ievadi paroli.",
             "invite": "Ievadi savu ielūguma kodu.",
             "current_password": "Ievadi pašreizējo paroli.",
@@ -44,7 +44,9 @@
         "totp": "Autentifikācijas lietotne",
         "recovery": "Piekļuves atgūšanas kods",
         "new_password": "Jauna parole",
-        "log_out_other": "Atteikt no visām citām sesijām"
+        "log_out_other": "Atteikt no visām citām sesijām",
+        "verified_account": "Tavs konts ir verificēts!",
+        "verifying_account": "Notiek tava konta verificēšana…"
     },
     "app": {
         "main": {
@@ -113,7 +115,7 @@
                     "confirm": "Apstiprinu, ka esmu vismaz 18 gadus vecs."
                 },
                 "unknown_user": "<nezināms lietotājs>",
-                "bot": "robots",
+                "bot": "Robots",
                 "notifications": {
                     "default": "Izmantot noklusējuma iestatījumu",
                     "all": "Visas ziņas",
@@ -143,7 +145,8 @@
                 "bridged": "Ziņa tika nosūtīta citā platformā",
                 "reactions": {
                     "unknown_reacted": "{{count}} cilvēki reaģēja",
-                    "single_reacted": "1 cilvēks reaģēja"
+                    "single_reacted": "1 cilvēks reaģēja",
+                    "people_reacted": "{{people}} reaģēja"
                 }
             },
             "groups": {
@@ -288,11 +291,20 @@
                         "title": "Izskata iespējas",
                         "show_account_age": "Vienmēr rādīt konta vecumu blakus pievienošanās ziņojumiem",
                         "show_account_age_desc": "Izslēdzot šo funkciju, konta vecums tiks rādīts tikai jauniem kontiem."
+                    },
+                    "colours": {
+                        "title": "Krāsas"
+                    },
+                    "emoji": {
+                        "title": "Emocijzīmes"
+                    },
+                    "fonts": {
+                        "title": "Fonti"
                     }
                 },
                 "notifications": {
                     "title": "Paziņojumi",
-                    "enable_desktop": "Iespējot darbvirsmas paziņojumus.",
+                    "enable_desktop": "Iespējot darbvirsmas paziņojumus",
                     "sounds": "Skaņas",
                     "descriptions": {
                         "enable_push": "Iespējot, lai saņemtu paziņojumus, kad esi bezsaistē.",
@@ -305,7 +317,7 @@
                         "call_join": "Lietotājs pievienojās zvanam"
                     },
                     "push_notifications": "Push paziņojumi",
-                    "enable_push": "Ieslēgt Push paziņojumus."
+                    "enable_push": "Ieslēgt Push paziņojumus"
                 },
                 "language": {
                     "title": "Valoda",
@@ -624,7 +636,7 @@
                     "title": "Tava klienta lietotne ir novecojusi!",
                     "description": "Tā jāatjaunina, lai darbotos jaunākās izmaiņas.",
                     "ignore": "Ignorēt atjauninājumu",
-                    "attempting": "Mēģina autjaunināt...",
+                    "attempting": "Mēģina atjaunināt…",
                     "version": "Tavas lietotnes versija ir {{client}}, taču serverim nepieciešama {{server}}."
                 },
                 "confirm": "Apstiprināt darbību",
@@ -734,7 +746,7 @@
         "on": "Ieslēgts",
         "off": "Izslēgts",
         "disabled": "Atspējots",
-        "learn_more": "Vairāk informācijas"
+        "learn_more": "Uzzināt vairāk"
     },
     "error": {
         "OperationFailed": "Operācija neizdevās.",
