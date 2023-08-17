@@ -49,8 +49,8 @@
         "resend": "Resend verification",
         "cancel": "Cancel request",
         "check_mail": "Check your mail!",
-        "email_delay": "Please allow up to 10 minutes for it to arrive.",
-        "check_spam": "Please check spam if you can't find it",
+        "email_delay": "We've sent you a verification email. Please allow up to 10 minutes for it to arrive.",
+        "check_spam": "Please check your spam folder if you can't find it",
         "open_mail_provider": "Open {{provider}}",
         "successful_registration": "Successfully registered!",
         "verifying_account": "Verifying your account…",
@@ -258,9 +258,11 @@
                     },
                     "manage": {
                         "title": "Account Management",
-                        "description": "Disable or delete your account at any time. This action will log you out and fully delete your account, including your chat history and friends.",
+                        "description": "Disable or delete your account at any time. Both actions will log you out of your active sessions.",
                         "disable": "Disable Account",
+                        "disable_description": "You won't be able to access your account unless you contact support - however, your data will not be deleted."
                         "delete": "Mark Account for Deletion"
+                        "delete_description": "Your account and all of your data (including your messages and friends list) will be queued for deletion. A confirmation email will be sent - you can cancel this within 7 days by contacting support."
                     }
                 },
                 "profile": {
@@ -284,7 +286,7 @@
                     "title": "Voice Settings",
                     "input_device": "Microphone",
                     "output_device": "Speaker / Headset",
-                    "tip_retry": "You didn't give the permission to access your microphone, please {{retryBtn}}.",
+                    "tip_retry": "You didn't give Revolt permission to access your microphone. Please {{retryBtn}}.",
                     "tip_grant_permission": "You need to grant permission to access audio settings.",
                     "device_label_NA": "N/A",
                     "button_retry": "retry",
@@ -323,14 +325,14 @@
                     "appearance_options": {
                         "title": "Appearance Options",
                         "show_send": "Always show Send Message button",
-                        "show_send_desc": "If disabled, the Send Message button will only appear on mobile.",
+                        "show_send_desc": "If this is disabled, the Send Message button will only appear on mobile.",
                         "show_account_age": "Always show account age next to join messages",
-                        "show_account_age_desc": "If disabled, the account age will only be shown for new users."
+                        "show_account_age_desc": "If this is disabled, the account age will only be shown for new users."
                     },
                     "theme_options": {
                         "title": "Theme Options",
                         "follow": "Follow system theme",
-                        "follow_desc": "When checked, you won't be able to change your theme or use a custom theme.",
+                        "follow_desc": "If this is enabled, you won't be able to change your theme or use a custom theme.",
                         "seasonal": "Seasonal Theme",
                         "seasonal_desc": "Displays effects in the home tab during holiday seasons.",
                         "transparency": "Transparency Effects",
@@ -386,7 +388,7 @@
                     "options": "Sync Options",
                     "categories": "Sync Categories",
                     "descriptions": {
-                        "appearance": "This will sync options such as emoji packs and message density.",
+                        "appearance": "This will sync appearance options, such as your chosen emoji pack and message density.",
                         "theme": "This will sync your chosen theme, colours and any custom CSS.",
                         "locale": "This will sync your currently chosen language."
                     }
@@ -401,7 +403,7 @@
                 },
                 "plugins": {
                     "title": "Plugins",
-                    "wip": "Warning: This feature is still in development.",
+                    "wip": "Warning: this feature is still in development.",
                     "delete_plugin": "Delete",
                     "no_plugins": "No plugins are currently installed."
                 },
@@ -416,13 +418,13 @@
                     "add": "Add Bot",
                     "unique_id": "This is a unique identifier for your bot. This is not the bot's token.",
                     "token": "Token",
-                    "public_bot_tip": "Bot is public. Anyone can invite it.",
-                    "private_bot_tip": "Bot is private. Only you can invite it.",
+                    "public_bot_tip": "This bot is public. Anyone can invite it.",
+                    "private_bot_tip": "This bot is private. Only you can invite it.",
                     "public_bot": "Public Bot",
                     "profile": "Bot profile",
-                    "public_bot_desc": "Whether to allow other users to invite this bot.",
+                    "public_bot_desc": "If this is enabled, other users can add this bot to servers and group messages.",
                     "interactions_url": "Interactions URL",
-                    "reserved": "Note: This field is reserved for the future."
+                    "reserved": "Note: this field is reserved for the future."
                 },
                 "theme_shop": {
                     "title": "Theme Shop",
@@ -508,7 +510,7 @@
             },
             "tips": {
                 "account": {
-                    "a": "Looking to customise your public profile?",
+                    "a": "Want to customise your public profile?",
                     "b": "Head over to your profile settings."
                 },
                 "languages": {
@@ -517,7 +519,7 @@
                 },
                 "sessions": {
                     "a": "If you see an unknown session on the list,",
-                    "b": "secure your account by changing your password and using 2FA."
+                    "b": "secure your account by changing your password and setting up 2FA."
                 }
             },
             "permissions": {
@@ -574,13 +576,13 @@
                 "token_reveal": "{{name}}'s Token",
                 "onboarding": {
                     "welcome": "Welcome to",
-                    "pick": "Pick a username that you want people to be able to find you by, this can be changed later in settings."
+                    "pick": "Pick a username that you want people to be able to find you by. This can be changed later in your user settings."
                 },
                 "prompt": {
                     "confirm_leave": "Leave {{name}}?",
                     "confirm_leave_long": "You won't be able to rejoin unless you are re-invited.",
                     "confirm_close_dm": "Close conversation with {{name}}?",
-                    "confirm_close_dm_long": "You can re-open it later but it will disappear on both sides.",
+                    "confirm_close_dm_long": "You can re-open it later, but it will disappear on both sides.",
                     "confirm_delete": "Delete {{name}}?",
                     "confirm_delete_long": "Once it's deleted, there's no going back.",
                     "confirm_delete_message_long": "Are you sure you want to delete this?",
@@ -607,10 +609,10 @@
                 "mfa": {
                     "recovery_codes": "Your recovery codes",
                     "save_codes": "Please save these to a safe location.",
-                    "confirm": "Please confirm using selected method.",
+                    "confirm": "Please confirm this action using the selected method.",
                     "select_method": "Please select a method to authenticate your request.",
                     "enable_totp": "Enable authenticator app",
-                    "prompt_totp": "Please scan or use the token below in your authentication app.",
+                    "prompt_totp": "Please scan or use the token below in your authenticator app.",
                     "enter_code": "Enter Code"
                 },
                 "changelogs": {
@@ -621,7 +623,7 @@
                 "out_of_date": {
                     "title": "Your client is out of date!",
                     "description": "It must be updated in order to work with recent changes.",
-                    "version": "Your client is at {{client}}, whereas the server requires {{server}}.",
+                    "version": "Your client is at {{client}}, but the server requires {{server}}.",
                     "ignore": "Ignore update",
                     "attempting": "Attempting to update…"
                 },
@@ -660,7 +662,7 @@
                     }
                 },
                 "actions": {
-                    "ok": "Ok",
+                    "ok": "OK",
                     "ban": "Ban",
                     "done": "Done",
                     "kick": "Kick",
@@ -731,7 +733,7 @@
                 "accept": "Accept Invite",
                 "user_count": "{{member_count}} users",
                 "invalid": "Invalid invite!",
-                "invalid_desc": "The invite may not exist or you don't have permission to join."
+                "invalid_desc": "The invite may not exist, or you don't have permission to join."
             }
         },
         "context_menu": {
@@ -860,10 +862,10 @@
         "ProbeError": "Failed to get file metadata.",
         "IoError": "Server encountered an I/O error.",
         "UnsupportedBrowser": "Browser is missing support for this feature.",
-        "DeniedNotification": "You denied notification access, check page settings.",
+        "DeniedNotification": "You denied notification access. Check page settings.",
         "CompromisedPassword": "This password is compromised.",
         "ReachedMaximumBots": "You've reached the maximum amount of bots.",
-        "AudioPermissionBlock": "No access to your microphone, please check your browser's configuration.",
+        "AudioPermissionBlock": "No access to your microphone,. Please check your browser's configuration.",
         "DiscriminatorChangeRatelimited": "Too many tag changes."
     },
     "shortcuts": {
@@ -884,7 +886,7 @@
         },
         "ManageRole": {
             "t": "Manage Roles",
-            "d": "Allows members to create, edit and delete roles with a lower rank than theirs. Also allows them to modify role permissions on channels."
+            "d": "Allows members to create, edit and delete roles with a lower rank than theirs, and modify role permissions on channels."
         },
         "ManageCustomisation": {
             "t": "Manage Customisation",
