@@ -250,7 +250,9 @@
                         "title": "Gerenciamento da conta",
                         "disable": "Desativar conta",
                         "delete": "Marcar conta para exclusão",
-                        "description": "Desative ou exclua sua conta a qualquer momento. Esta ação irá desconectá-lo e excluir totalmente a sua conta, incluindo seu histórico de conversas e amigos."
+                        "description": "Desative ou exclua sua conta a qualquer momento. Esta ação irá desconectá-lo e excluir totalmente a sua conta, incluindo seu histórico de conversas e amigos.",
+                        "disable_description": "Você não conseguirá acessar sua conta, a menos que entre em contato com o suporte - no entanto, seus dados não serão excluídos.",
+                        "delete_description": "Sua conta e todos os seus dados (inclusive suas mensagens e lista de amigos) serão colocados para exclusão. Um e-mail de confirmação será enviado. Você pode cancelar essa ação em até 7 dias entrando em contato com o suporte."
                     },
                     "unique_id": "Este é um identificador de usuário único para sua conta."
                 },
@@ -346,6 +348,13 @@
                     "wip": "Aviso: Esta funcionalidade ainda está em desenvolvimento.",
                     "delete_plugin": "Deletar",
                     "no_plugins": "Nenhum plugin está instalado no momento."
+                },
+                "accessibility": {
+                    "title": "Acessibilidade",
+                    "reduced_motion": "Movimento reduzido",
+                    "descriptions": {
+                        "reduced_motion": "Se isso estiver ativado, as animações e os efeitos de movimento não serão reproduzidos ou serão menos intensos."
+                    }
                 }
             },
             "permissions": {
@@ -775,7 +784,7 @@
             "resend": "Falha ao reenviar!",
             "verify": "Falha ao verificar!"
         },
-        "email_delay": "Por favor, aguarde até 10 minutos para chegar.",
+        "email_delay": "Enviamos a você um e-mail de verificação. Aguarde até 10 minutos para recebê-lo.",
         "existing": "Já possui uma conta?",
         "welcome2": "Olá!",
         "subtitle2": "Criar uma conta",
@@ -984,7 +993,8 @@
         "ProbeError": "Falha ao obter os metadados do arquivo.",
         "DeniedNotification": "Você negou o acesso às notificações, confira a página de configurações.",
         "ReachedMaximumBots": "Você atingiu o limite máximo de bots.",
-        "AudioPermissionBlock": "Sem acesso ao seu microfone. Por favor, verifique as configurações do seu navegador."
+        "AudioPermissionBlock": "Sem acesso ao seu microfone. Por favor, verifique as configurações do seu navegador.",
+        "DiscriminatorChangeRatelimited": "Muitas alterações de tag."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
