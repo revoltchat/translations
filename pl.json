@@ -41,14 +41,14 @@
         },
         "successful_registration": "Rejestracja zakończona pomyślnie!",
         "open_mail_provider": "Otwórz {{provider}}",
-        "check_spam": "Sprawdź folder spam, jeśli nie możesz znaleźć emaila",
+        "check_spam": "Jeśli nie możesz go znaleźć, sprawdź folder spamu",
         "check_mail": "Sprawdź swojego emaila!",
         "resend": "Wyślij weryfikację ponownie",
         "missing_verification": "Nie otrzymałeś emaila?",
         "set_password": "Ustaw nowe hasło",
         "current_password": "Obecne hasło",
         "invite": "Kod zaproszenia",
-        "email_delay": "Proszę poczekaj do 10 minut, aby email dotarł.",
+        "email_delay": "Wysłaliśmy wiadomość weryfikacyjną. Proszę poczekaj do 10 minut na jej nadejście.",
         "welcome": "Witamy!",
         "subtitle": "Zaloguj się do Revolt",
         "welcome2": "Witaj!",
@@ -251,7 +251,7 @@
                     "dont_block": "Nie blokuj"
                 },
                 "onboarding": {
-                    "pick": "Wybierz nazwę użytkownika, według której inni będą mogli cię znaleźć, możesz to później zmienić w ustawieniach.",
+                    "pick": "Wybierz nazwę użytkownika, po której ludzie będą mogli Cię znaleźć. Można to później zmienić w ustawieniach użytkownika.",
                     "welcome": "Witaj w"
                 },
                 "signed_out": "Zostałeś wylogowany!",
@@ -303,7 +303,7 @@
                 "out_of_date": {
                     "title": "Twój klient jest przestarzały!",
                     "description": "Musi być zaktualizowany, aby działał z najnowszymi zmianami.",
-                    "version": "Twój klient ma wersję {{client}}, a serwer wymaga {{server}}.",
+                    "version": "Twój klient ma wersję {{client}}, ale serwer wymaga {{server}}.",
                     "ignore": "Zignoruj aktualizację",
                     "attempting": "Trwa próba aktualizacji…"
                 },
@@ -316,10 +316,10 @@
                 "mfa": {
                     "recovery_codes": "Twoje kody odzyskiwania",
                     "save_codes": "Zapisz je w bezpiecznym miejscu.",
-                    "confirm": "Potwierdź używając wybranej metody.",
+                    "confirm": "Potwierdź tę czynność używając wybranej metody.",
                     "select_method": "Wybierz metodę uwierzytelnienia swojego zapytania.",
                     "enable_totp": "Włącz aplikację uwierzytelniającą",
-                    "prompt_totp": "Zeskanuj lub użyj poniższego tokenu w swojej aplikacji uwierzytelniającej.",
+                    "prompt_totp": "Zeskanuj lub użyj poniższego tokenu w aplikacji uwierzytelniającej.",
                     "enter_code": "Wpisz kod"
                 },
                 "report": {
@@ -397,7 +397,7 @@
                 "invited_by": "Zaproszony przez {{user}}",
                 "accept": "Zaakceptuj zaproszenie",
                 "invalid": "Nieprawidłowe zaproszenie!",
-                "invalid_desc": "Zaproszenie nie istnieje lub nie masz uprawnień, by dołączyć."
+                "invalid_desc": "Zaproszenie może nie istnieć lub nie masz uprawnień do dołączenia."
             },
             "copy": "Kliknij aby skopiować",
             "server-badges": {
@@ -500,7 +500,7 @@
                         "title": "Opcje motywu",
                         "seasonal": "Motyw sezonowy",
                         "follow": "Podążaj za motywem systemowym",
-                        "follow_desc": "Jeśli zaznaczone, nie będziesz w stanie zmienić motywu, ani użyć niestandardowego.",
+                        "follow_desc": "Jeśli opcja jest włączona, nie będziesz mógł zmieniać motywu ani użyć niestandardowego motywu.",
                         "transparency": "Efekty przezroczystości",
                         "transparency_desc": "Włącza efekty przezroczystości w całej aplikacji."
                     },
@@ -510,10 +510,10 @@
                     },
                     "appearance_options": {
                         "show_send": "Zawsze pokazuj przycisk wysyłania wiadomości",
-                        "show_send_desc": "Jeśli wyłączone, przycisk wysyłania wiadomości będzie wyświetlał się tylko w aplikacji mobilnej.",
+                        "show_send_desc": "Jeśli opcja jest wyłączona, przycisk Wyślij Wiadomość będzie wyświetlany tylko na urządzeniach mobilnych.",
                         "title": "Ustawienia wyglądu",
                         "show_account_age": "Zawsze pokazuj wiek konta obok wiadomości dołączania",
-                        "show_account_age_desc": "Jeśli wyłączone, wiek konta będzie widoczny tylko dla nowych użytkowników."
+                        "show_account_age_desc": "Jeśli opcja jest wyłączona, wiek konta będzie wyświetlany tylko dla nowych użytkowników."
                     },
                     "colours": {
                         "title": "Kolory"
@@ -542,7 +542,9 @@
                         "title": "Zarządzanie kontem",
                         "disable": "Wyłącz konto",
                         "delete": "Oznacz konto do usunięcia",
-                        "description": "Możesz wyłączyć lub usunąć swoje konto w każdej chwili. Sprawi to, że zostaniesz wylogowany, a twoje konto zostanie w pełni usunięte, łącznie z historią czatu i listą znajomych."
+                        "description": "Wyłącz lub usuń swoje konto w dowolnym momencie. Obie czynności spowodują wylogowanie z aktywnych sesji.",
+                        "disable_description": "Nie będzie mógł uzyskać dostępu do swojego konta, chyba że skontaktujesz się z pomocą techniczną - jednak twoje dane nie zostaną usunięte.",
+                        "delete_description": "Twoje konto i wszystkie Twoje dane (w tym wiadomości i lista znajomych) zostaną ustawione w kolejce do usunięcia. Zostanie wysłana wiadomość e-mail z potwierdzeniem - możesz ją anulować w ciągu 7 dni, kontaktując się z pomocą techniczną."
                     },
                     "unique_id": "To jest unikatowy identyfikator użytkownika dla twojego konta.",
                     "2fa": {
@@ -642,12 +644,12 @@
                     "copy_invite": "Skopiuj link z zaproszeniem",
                     "add": "Dodaj bota",
                     "token": "Klucz",
-                    "public_bot_tip": "Bot jest publiczny. Każdy może go zaprosić.",
-                    "private_bot_tip": "Bot jest prywatny. Tylko ty możesz go zaprosić.",
+                    "public_bot_tip": "Ten bot jest publiczny. Każdy może go zaprosić.",
+                    "private_bot_tip": "Ten bot jest prywatny. Tylko ty możesz go zaprosić.",
                     "public_bot": "Bot publiczny",
-                    "reserved": "Uwaga: To pole jest zarezerwowane na przyszłość.",
+                    "reserved": "Uwaga: to pole jest zarezerwowane na przyszłość.",
                     "interactions_url": "URL interakcji",
-                    "public_bot_desc": "Czy zezwolić innym użytkownikom na zapraszanie tego bota.",
+                    "public_bot_desc": "Jeśli opcja jest włączona, inni użytkownicy mogą dodawać tego bota do serwerów i wiadomości grupowych.",
                     "unique_id": "To jest unikalny identyfikator dla twojego bota. To nie jest token bota.",
                     "profile": "Profil bota"
                 },
@@ -660,7 +662,7 @@
                     "title": "Ustawienia głosu",
                     "button_retry": "spróbuj ponownie",
                     "device_label_NA": "niedostępne",
-                    "tip_retry": "Nie dałeś uprawnień na dostęp do twojego mikrofonu, proszę {{retryBtn}}.",
+                    "tip_retry": "Nie dałeś Revoltowi pozwolenia na dostęp do twojego mikrofonu. Proszę {{retryBtn}}.",
                     "tip_grant_permission": "Musisz przydzielić uprawnienia, aby mieć dostęp do ustawień audio.",
                     "button_grant": "Przyznaj uprawnienia"
                 },
@@ -682,7 +684,7 @@
                 },
                 "plugins": {
                     "title": "Wtyczki",
-                    "wip": "Uwaga: ta funkcja jest wciąż w fazie rozwoju.",
+                    "wip": "Uwaga: ta funkcja jest w fazie rozwoju.",
                     "delete_plugin": "Usuń",
                     "no_plugins": "Brak zainstalowanych wtyczek."
                 },
@@ -702,7 +704,7 @@
             "title": "Ustawienia",
             "tips": {
                 "sessions": {
-                    "b": "zabezpiecz swoje konto poprzez zmianę hasła i korzystanie z 2FA.",
+                    "b": "zabezpiecz swoje konto, zmieniając hasło i konfigurując 2FA.",
                     "a": "Jeśli widzisz na liście nieznaną sesję,"
                 },
                 "languages": {
@@ -711,7 +713,7 @@
                 },
                 "account": {
                     "b": "Przejdź do ustawień profilu.",
-                    "a": "Chcesz dostosować swój publiczny profil?"
+                    "a": "Chcesz dostosować swój profil publiczny?"
                 }
             },
             "channel_pages": {
@@ -865,7 +867,7 @@
         "DatabaseError": "Błąd bazy danych.",
         "FailedValidation": "Nie udało się zweryfikować pól.",
         "Unlabelled": "Coś się stało.",
-        "DeniedNotification": "Odmówiłeś dostępu do powiadomień, sprawdź ustawienia strony.",
+        "DeniedNotification": "Odmówiłeś dostępu do powiadomień. Sprawdź ustawienia strony.",
         "UnsupportedBrowser": "Przeglądarka nie obsługuje tej funkcji.",
         "IoError": "Serwer napotkał błąd I/O.",
         "ProbeError": "Nie udało się pobrać metadanych pliku.",
@@ -884,7 +886,7 @@
         "NetworkError": "Błąd sieci.",
         "CompromisedPassword": "To hasło zostało ujawnione.",
         "ReachedMaximumBots": "Osiągnąłeś maksymalną liczbę botów.",
-        "AudioPermissionBlock": "Brak dostępu do twojego mikrofonu, proszę sprawdź konfigurację swojej przeglądarki.",
+        "AudioPermissionBlock": "Brak dostępu do twojego mikrofonu. Proszę sprawdź konfigurację swojej przeglądarki.",
         "DiscriminatorChangeRatelimited": "Zbyt wiele zmieniono tag."
     },
     "permissions": {
@@ -954,7 +956,7 @@
         },
         "ManageRole": {
             "t": "Zarządzanie rolami",
-            "d": "Pozwala członkom na utworzenie, edycję i usunięcie ról z niższym rankingiem niż ich. Pozwala im również na modyfikację uprawnień ról na kanałach."
+            "d": "Pozwala członkom na tworzenie, edytowanie i usuwanie ról o niższej randze niż ich własna oraz modyfikowanie uprawnień ról na kanałach."
         },
         "ViewChannel": {
             "d": "Zezwala członkom na zobaczenie jakiegokolwiek kanału, do którego mają dostęp.",
