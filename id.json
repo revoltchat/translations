@@ -33,7 +33,7 @@
                     "theme_options": {
                         "title": "Pengaturan Tema",
                         "follow": "Ikuti tema perangkat",
-                        "follow_desc": "Ketika dicentang, kamu tidak dapat mengubah tema kamu atau menggunakan tema khusus.",
+                        "follow_desc": "Jika ini aktif, kamu tidak dapat mengubah tema kamu atau menggunakan tema khusus.",
                         "seasonal": "Tema Musiman",
                         "seasonal_desc": "Menampilkan efek di tab beranda selama musim liburan.",
                         "transparency_desc": "Menampilkan efek transparan pada seluruh bagian aplikasi.",
@@ -98,9 +98,10 @@
                     },
                     "manage": {
                         "title": "Pengelolaan Akun",
-                        "description": "Nonaktifkan atau hapus akun kamu kapan saja. Tindakan ini akan mengeluarkan kamu dan menghapus akun kamu seluruhnya, termasuk riwayat pesan dan teman kamu.",
+                        "description": "Nonaktifkan atau hapus akun kamu kapan saja. Tindakan-tindakan tersebut akan mengeluarkan akunmu dari semua sesi aktif.",
                         "disable": "Nonaktifkan Akun",
-                        "delete": "Tandai Akun untuk Dihapus"
+                        "delete": "Tandai Akun untuk Dihapus",
+                        "disable_description": "Kamu tidak akan bisa mengakses akunmu kecuali dengan menghubungi bantuan - namun, datamu tidak akan dihapus."
                     }
                 },
                 "notifications": {
@@ -205,6 +206,9 @@
                     "delete_plugin": "Hapus",
                     "no_plugins": "Tidak ada plugin yang terpasang.",
                     "wip": "Peringatan: Fitur ini masih dalam tahap pengembangan."
+                },
+                "accessibility": {
+                    "title": "Aksesibilitas"
                 }
             },
             "actions": {
@@ -733,7 +737,7 @@
         },
         "successful_registration": "Pendaftaran berhasil!",
         "open_mail_provider": "Buka {{provider}}",
-        "check_spam": "Periksa spam apabila kamu tidak dapat menemukannya",
+        "check_spam": "Periksa folder spam apabila kamu tidak dapat menemukannya",
         "check_mail": "Periksa email kamu!",
         "cancel": "Batalkan permintaan",
         "resend": "Kirim ulang verifikasi",
@@ -760,7 +764,7 @@
         "username": "Nama Pengguna",
         "register": "Daftar",
         "title": "Masuk",
-        "email_delay": "Harap tunggu hingga 10 menit untuk email tiba.",
+        "email_delay": "Kami telah mengirimkan email verifikasi. Harap tunggu hingga 10 menit untuk email tiba.",
         "welcome": "Selamat datang!",
         "subtitle": "Masuk ke Revolt",
         "welcome2": "Halo!",
