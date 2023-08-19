@@ -76,7 +76,7 @@ Please note that this table **only includes languages that are currently availab
 |🇹🇼|繁體中文 / zh_Hant|[@Zhuzi-ouo](https://github.com/Zhuzi-ouo)||
 |🙂|Toki Pona / tokipona|[@Gapva](https://github.com/Gapva)||
 |EO|Esperanto / esperanto|[@Fussmatte](https://github.com/Fussmatte)||
-|😸|OwO / owo|[@janderedev](https://github.com/janderedev) [@FanMclaine](https://github.com/FanMclaine)||
+|😸|OwO / owo|[@sussycatgirl](https://github.com/sussycatgirl) [@FanMclaine](https://github.com/FanMclaine)||
 |🏴‍☠️|Pirate / pr|||
 |🥺|Bottom / bottom|||
 |💾|1337 / leet|||
