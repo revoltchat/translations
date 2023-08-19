@@ -48,7 +48,7 @@
         "current_password": "Dabartinis slaptažodis",
         "invite": "Kvietimo kodas",
         "open_mail_provider": "Atidaryti {{provider}}",
-        "email_delay": "Gali užtrukti iki 10 minučių, kol gausite laišką.",
+        "email_delay": "Mes išsiuntėme patvirtinimo el. laišką. Gali užtrukti iki 10 minučių, kol jį gausite.",
         "welcome2": "Sveiki!",
         "subtitle2": "Kurti paskyrą",
         "subtitle": "Prisijungti prie Revolt",
@@ -264,7 +264,7 @@
                 },
                 "onboarding": {
                     "welcome": "Sveiki atvykę į",
-                    "pick": "Pasirinkite naudotojo vardą, pagal kurį jus galėtų rasti žmonės. Jis galės būti pakeistas nustatymuose."
+                    "pick": "Pasirinkite naudotojo vardą, pagal kurį jus galėtų rasti žmonės. Jis galės būti pakeistas naudotojo nustatymuose."
                 },
                 "account": {
                     "failed": "Nepavyko pakeisti!",
@@ -309,7 +309,7 @@
                     "enter_code": "Įveskite kodą",
                     "recovery_codes": "Jūsų atkūrimo kodai",
                     "save_codes": "Išsaugokite juos saugioje vietoje.",
-                    "confirm": "Patvirtinkite pasirinktu būdu.",
+                    "confirm": "Patvirtinkite šį veiksmą pasirinktu būdu.",
                     "select_method": "Pasirinkite užklausos autentifikavimo būdą.",
                     "enable_totp": "Įjungti autentifikavimo programėlę",
                     "prompt_totp": "Nuskaitykite arba panaudokite žemiau esantį raktą autentifikavimo programėlėje."
@@ -500,7 +500,7 @@
                         "seasonal_desc": "Švenčių metu rodo efektus pagrindiniame puslapyje.",
                         "title": "Temos parinktys",
                         "follow": "Laikytis sistemos temos",
-                        "follow_desc": "Jei pažymėta, negalėsite keisti savo temos ir jos tinkinti.",
+                        "follow_desc": "Jei įjungta, negalėsite keisti savo temos arba ją tinkinti.",
                         "transparency": "Skaidrumo efektai",
                         "transparency_desc": "Įjungia skaidrumo efektus programėlėje."
                     },
@@ -563,9 +563,11 @@
                     },
                     "manage": {
                         "title": "Paskyros valdymas",
-                        "description": "Bet kada išjunkite arba panaikinkite savo paskyrą. Šis veiksmas jus atjungs ir visiškai panaikins jūsų paskyrą, pranešimų istoriją ir draugus.",
+                        "description": "Bet kada išjunkite arba panaikinkite savo paskyrą. Abu veiksmai jus atjungs nuo visų aktyvių sesijų.",
                         "disable": "Išjungti paskyrą",
-                        "delete": "Pažymėti paskyrą panaikinimui"
+                        "delete": "Pažymėti paskyrą panaikinimui",
+                        "disable_description": "Negalėsite prisijungti prie savo paskyros, nebent susisieksite su palaikymu – jūsų duomenys nebus panaikinti.",
+                        "delete_description": "Jūsų paskyra ir visi jūsų duomenys (išskyrus žinutės ir draugų sąrašas) bus panaikinimo eilėje. Jums bus atsiųstas patvirtinimo el. laiškas – panaikinimą galite atšaukti per 7 dienas susisiekdami su palaikymu."
                     }
                 },
                 "logOut": "Atsijungti",
@@ -629,7 +631,7 @@
                 "sync": {
                     "descriptions": {
                         "theme": "Sinchronizuos jūsų pasirinktą temą, spalvas ir bet kuriuos tinkintus CSS.",
-                        "appearance": "Sinchronizuos tokias parinktis, kaip jaustukų paketai ir žinučių tankis.",
+                        "appearance": "Sinchronizuos išvaizdos parinktis, tokias kaip pasirinkti jaustukų paketai ir žinučių tankis.",
                         "locale": "Sinchronizuos jūsų pasirinktą kalbą."
                     },
                     "title": "Sinchronizavimas",
@@ -644,10 +646,10 @@
                     "copy_invite": "Kopijuoti kvietimo nuorodą",
                     "add": "Pridėti botą",
                     "token": "Raktas",
-                    "public_bot_tip": "Botas yra viešas. Bet kas gali jį pakviesti.",
-                    "private_bot_tip": "Botas yra privatus. Tik jūs galite jį pakviesti.",
+                    "public_bot_tip": "Šis botas yra viešas. Bet kas gali jį pakviesti.",
+                    "private_bot_tip": "Šis botas yra privatus. Tik jūs galite jį pakviesti.",
                     "public_bot": "Viešas botas",
-                    "public_bot_desc": "Leisti kitiems naudotojams kviesti šį botą.",
+                    "public_bot_desc": "Jei įjungta, kiti naudotojai galės pridėti šį botą prie serverių ir grupių.",
                     "interactions_url": "Sąveikų URL",
                     "reserved": "Pastaba: šis laukelis numatytas ateičiai.",
                     "create_bot": "Kurti botą",
@@ -660,7 +662,7 @@
                     "output_device": "Garsiakalbis / Ausinės",
                     "button_retry": "Bandyti iš naujo",
                     "device_label_NA": "Nerasta",
-                    "tip_retry": "Nesuteikėte prieigos prie savo mikrofono. {{retryBtn}}.",
+                    "tip_retry": "Nesuteikėte Revolt prieigos prie savo mikrofono. {{retryBtn}}.",
                     "button_grant": "Suteikti prieigą",
                     "tip_grant_permission": "Turite suteikti prieigą prie garso nustatymų."
                 },
@@ -870,7 +872,7 @@
         "InvalidCredentials": "El. paštas arba slaptažodis neteisingas.",
         "EmailFailed": "Nepavyko išsiųsti el. laiško.",
         "IoError": "Serveris susidūrė su įvesties / išvesties klaida.",
-        "DeniedNotification": "Trūksta prieigos prie pranešimų, patikrinkite puslapio nustatymus.",
+        "DeniedNotification": "Trūksta prieigos prie pranešimų. Patikrinkite puslapio nustatymus.",
         "UnsupportedBrowser": "Naršyklė nepalaiko šios funkcijos.",
         "ProbeError": "Nepavyko gauti failo metaduomenų.",
         "Unavailable": "Nepasiekiama.",
@@ -884,7 +886,7 @@
         "Unauthorized": "Neleistina.",
         "CompromisedPassword": "Slaptažodis sukompromituotas.",
         "ReachedMaximumBots": "Pasiekėte didžiausią botų skaičių.",
-        "AudioPermissionBlock": "Nėra prieigos prie jūsų mikrofono, patikrinkite savo naršyklės konfigūraciją.",
+        "AudioPermissionBlock": "Nėra prieigos prie jūsų mikrofono. Patikrinkite savo naršyklės konfigūraciją.",
         "DiscriminatorChangeRatelimited": "Per daug žymių keitimų."
     },
     "shortcuts": {
@@ -957,7 +959,7 @@
         },
         "ManageRole": {
             "t": "Tvarkyti vaidmenis",
-            "d": "Leidžia nariams kurti, redaguoti ir naikinti žemesnio lygio vaidmenis. Taip pat leidžia jiems redaguoti vaidmenų leidimus kanaluose."
+            "d": "Leidžia nariams kurti, redaguoti, naikinti žemesnio lygio vaidmenis ir redaguoti vaidmenų leidimus kanaluose."
         },
         "ViewChannel": {
             "d": "Leidžia nariams peržiūrėti bet kuriuos kanalus, kuriuose jie turi šį leidimą.",
