@@ -212,10 +212,12 @@
                     "title": "Hesabım",
                     "change_field": "Değiştir",
                     "manage": {
-                        "description": "Hesabınızı istediğiniz zaman devre dışı bırakın veya silin. Bu eylem oturumunuzu kapatacak, sohbet geçmişiniz ve arkadaşlarınız da dahil olmak üzere hesabınızı tamamen silecektir.",
+                        "description": "Hesabınızı istediğiniz zaman devre dışı bırakın veya silin. Her iki eylem aktif bütün oturumlarınızı kapatır.",
                         "title": "Hesap Yönetimi",
                         "delete": "Hesabın Silinmesi için İşaretle",
-                        "disable": "Hesabı devre dışı bırak"
+                        "disable": "Hesabı devre dışı bırak",
+                        "disable_description": "Destek ekibiyle iletişime geçmediğin sürece hesabına erişemezsin - fakat verilerin silinmez.",
+                        "delete_description": "Hesabın ve bütün verilerin (mesajların ve arkadaş listen dahil) silinmek için sıraya alınacak. Bir doğrulama epostası gönderilecek - bunu destekle iletişim kurarak 7 gün içerisinde iptal edebilirsin."
                     },
                     "unique_id": "Bu, hesabınız için benzersiz bir kullanıcı tanımlayıcısı.",
                     "2fa": {
@@ -272,7 +274,7 @@
                     "theme_options": {
                         "title": "Tema Seçenekleri",
                         "follow": "Sistem temasını takip et",
-                        "follow_desc": "İşaretlendiğinde, temanızı değiştiremez veya özel bir tema kullanamazsınız.",
+                        "follow_desc": "Bu etkinleştirilir ise, temanızı değiştiremez veya özel bir tema kullanamazsınız.",
                         "seasonal": "Mevsimlik Tema",
                         "seasonal_desc": "Tatil mevsimlerinde ana sayfa sekmesinde efektleri görüntüler.",
                         "transparency": "Saydamlık Efektleri",
@@ -285,9 +287,9 @@
                     "appearance_options": {
                         "title": "Görünüm Seçenekleri",
                         "show_send": "Mesaj Gönder butonunu her zaman göster",
-                        "show_send_desc": "Devre dışı bırakılırsa, Mesaj Gönder butonu yalnızca mobilde görünecektir.",
+                        "show_send_desc": "Bu devre dışı bırakılır ise, Mesaj Gönder butonu yalnızca mobilde görünecektir.",
                         "show_account_age": "Sonraki katılma mesajlarında her zaman hesap yaşını göster",
-                        "show_account_age_desc": "Devredışı bırakılır ise hesap yaşı sadece yeni kullanıcılar için gösterilecek."
+                        "show_account_age_desc": "Bu devre dışı bırakılır ise hesap yaşı sadece yeni kullanıcılar için gösterilecek."
                     },
                     "colours": {
                         "title": "Renkler"
@@ -310,7 +312,7 @@
                         "enable_desktop": "Bu etkinleştirildiyse, uygulama açıkken bildirim alırsın.",
                         "enable_sound": "Gelen iletiler için sesi etkinleştirin.",
                         "enable_outgoing_sound": "Mesaj gönderdiğinizde ses çalmasını etkinleştir.",
-                        "enable_push": "Bu etkinleştirildiyse, çevrimdışı olduğunuzda bildirim alırsınız."
+                        "enable_push": "Bu etkinleştirildiyse, çevrimdışı olduğunuzda bildirim alırsın."
                     },
                     "enable_desktop": "Masaüstü Bildirimlerini Etkinleştirin",
                     "enable_push": "Anında İleti Bildirimlerini Etkinleştirin",
@@ -364,7 +366,7 @@
                     "categories": "Kategorileri Senkronize Et",
                     "descriptions": {
                         "theme": "Bu, seçtiğiniz temayı, renkleri ve herhangi bir özel CSS'i senkronize edecektir.",
-                        "appearance": "Bu, emoji paketleri ve mesaj yoğunluğu gibi seçenekleri senkronize eder.",
+                        "appearance": "Bu, seçtiğin emoji paketi ve mesaj yoğunluğu gibi görünüm seçenekleri senkronize eder.",
                         "locale": "Bu, şu anda seçtiğiniz dili senkronize edecektir."
                     },
                     "options": "Ayarları senkronize et"
@@ -386,14 +388,14 @@
                 "bots": {
                     "title": "Botlarım",
                     "create_bot": "Bot Oluştur",
-                    "public_bot_tip": "Bot herkese açıktır. Herkes davet edebilir.",
-                    "public_bot_desc": "Botu diğer kullanıcıların davet etmesine izin verip vermemek içindir.",
+                    "public_bot_tip": "Bu bot herkese açıktır. Herkes davet edebilir.",
+                    "public_bot_desc": "Bu etkinleştirilir ise, diğer kullanıcılar bu botu sunuculara ve mesaj gruplarına ekleyebilir.",
                     "copy_invite": "Davet Bağlantısını Kopyala",
                     "add": "Bot Ekle",
                     "token": "Token",
-                    "private_bot_tip": "Bot gizli. Sadece sen davet edebilirsin.",
+                    "private_bot_tip": "Bu bot gizli. Sadece sen davet edebilirsin.",
                     "public_bot": "Halka Açık Bot",
-                    "reserved": "Not: Bu alan gelecek için ayrılmıştır.",
+                    "reserved": "Not: bu alan gelecek için ayrılmıştır.",
                     "interactions_url": "Etkileşimler URL'si",
                     "unique_id": "Bu, botunuz için eşsiz bir tanımlayıcıdır. Bu botun token'i değildir.",
                     "profile": "Bot profili"
@@ -404,7 +406,7 @@
                     "output_device": "Hoparlör / Kulaklık",
                     "button_retry": "tekrar dene",
                     "device_label_NA": "Yok",
-                    "tip_retry": "Mikrofonunuza erişim izni vermediniz, lütfen {{retryBtn}}.",
+                    "tip_retry": "Revolt'un mikrofonunuza erişimine izin vermedin.Lütfen {{retryBtn}}.",
                     "tip_grant_permission": "Ses ayarlarına izin vermeniz gerekiyor.",
                     "button_grant": "İzin ver"
                 },
@@ -426,9 +428,16 @@
                 },
                 "plugins": {
                     "title": "Eklentiler",
-                    "wip": "Uyarı: Bu özellik hala geliştirilme aşamasındadır.",
+                    "wip": "Uyarı: bu özellik hala geliştirilme aşamasındadır.",
                     "delete_plugin": "Sil",
                     "no_plugins": "Şu anda yüklü eklenti yok."
+                },
+                "accessibility": {
+                    "title": "Erişebilirlik",
+                    "reduced_motion": "Azaltılmış Hareketlilik",
+                    "descriptions": {
+                        "reduced_motion": "Bu etkinleştirilir ise, animasyonlar ve hareket efektleri oynatılmaz veya daha az etkileyici olur."
+                    }
                 }
             },
             "channel_pages": {
@@ -452,10 +461,10 @@
                 },
                 "sessions": {
                     "a": "Listede bilinmeyen bir oturum görürseniz,",
-                    "b": "şifrenizi değiştirerek ve 2AD kullanarak hesabınızı güvence altına alabilirsiniz."
+                    "b": "şifreni değiştirerek ve 2AD kurarak hesabını güvence altına alabilirsin."
                 },
                 "account": {
-                    "a": "Herkese açık profilinizi özelleştirmeye mi çalışıyorsunuz?",
+                    "a": "Herkese açık profilini özelleştirmek mi istiyorsun?",
                     "b": "Profil ayarlarınıza gidin."
                 }
             },
@@ -552,13 +561,13 @@
                 "signed_out": "Oturumunuz kapatıldı!",
                 "onboarding": {
                     "welcome": "Hoş geldin",
-                    "pick": "İnsanların seni rahatlıkla bulmasını istediğin bir kullanıcı adı seç, bu daha sonra ayarlarda değiştirilebilir."
+                    "pick": "İnsanların seni rahatlıkla bulmasını istediğin bir kullanıcı adı seç. Bu daha sonra ayarlarından değiştirilebilir."
                 },
                 "prompt": {
                     "confirm_leave": "{{name}} adlı sunucudan ayrılacak mısın?",
                     "confirm_leave_long": "Yeniden davet edilmediğin sürece tekrar katılamazsın.",
                     "confirm_close_dm": "{{name}} ile görüşme kapatılsın mı?",
-                    "confirm_close_dm_long": "Daha sonra tekrar açabilirsiniz ancak her iki tarafta da kaybolacaktır.",
+                    "confirm_close_dm_long": "Daha sonra tekrar açabilirsin, ancak her iki tarafta da kaybolacaktır.",
                     "confirm_delete": "{{name}} Adlı sunucuyu silecek misin?",
                     "confirm_delete_long": "Bir kez silindikten sonra geri dönüşü olmayacaktır.",
                     "create_invite_generate": "Davet oluşturuluyor…",
@@ -623,7 +632,7 @@
                 "out_of_date": {
                     "title": "İstemcin güncel değil!",
                     "description": "Son değişiklilerle çalışabilmesi için güncellemesi gerekli.",
-                    "version": "İstemcin {{client}} üzerindeyken, sunucu ise {{server}} gerektiriyor.",
+                    "version": "İstemcin {{client}} üzerinde, ama sunucuya {{server}} gerekiyor.",
                     "ignore": "Güncellemeyi yoksay",
                     "attempting": "Güncellenmeye çalışılıyor…"
                 },
@@ -636,10 +645,10 @@
                 "mfa": {
                     "recovery_codes": "Kurtarma kodların",
                     "save_codes": "Lütfen bunları güvenli bir yere kaydedin.",
-                    "confirm": "Lütfen seçilen yöntemi kullanarak onaylayın.",
+                    "confirm": "Lütfen seçilen yöntemi kullanarak bu eylemi onayla.",
                     "select_method": "Lütfen isteğinizi doğrulamak için bir yöntem seçin.",
                     "enable_totp": "Kimlik doğrulama uygulamasını etkinleştirin",
-                    "prompt_totp": "Lütfen kimlik doğrulama uygulamanızda alttaki jetonu tarayın ya da kullanın.",
+                    "prompt_totp": "Lütfen kimlik doğrulama uygulamanda alttaki jetonu tara ya da kullan.",
                     "enter_code": "Kodu Gir"
                 },
                 "report": {
@@ -713,7 +722,7 @@
                 "accept": "Daveti Kabul Et",
                 "user_count": "{{member_count}} kullanıcı",
                 "invalid": "Geçersiz davet!",
-                "invalid_desc": "Davet mevcut olmayabilir ya da katılma izniniz yok."
+                "invalid_desc": "Davet mevcut olmayabilir ya da katılma iznin yok."
             },
             "server-badges": {
                 "official": "Resmi Sunucu",
@@ -789,9 +798,9 @@
         "forgot": "Şifreni mi unuttun?",
         "existing": "Zaten hesabın var mı?",
         "missing_verification": "Bir eposta almadınız mı?",
-        "check_spam": "Eğer bulamıyorsanız lütfen spam kutunuzu kontrol edin",
+        "check_spam": "Eğer bulamıyorsanız lütfen spam dosyalarınızı kontrol edin",
         "open_mail_provider": "{{provider}}'ı açın",
-        "email_delay": "Lütfen gelmesi için 10 dakikaya kadar bekleyin.",
+        "email_delay": "Size bir doğrulama epostası gönderdik. Lütfen gelmesi için 10 dakikaya kadar bekleyin.",
         "welcome2": "Merhaba!",
         "subtitle2": "Bir hesap oluştur",
         "subtitle": "Revolt'ta Oturum Aç",
@@ -857,7 +866,7 @@
         "FileTooLarge": "Dosya çok büyük.",
         "FailedToReceive": "Sunucu dosyanızı almakta başarısız oldu.",
         "ProbeError": "Dosya meta verileri alınamadı.",
-        "DeniedNotification": "Bildirim erişimini reddettiniz, sayfa ayarlarını kontrol edin.",
+        "DeniedNotification": "Bildirim erişimini reddettin. Sayfa ayarlarını kontrol et.",
         "InternalError": "İç hata.",
         "MissingPermission": "Eksik izin.",
         "OperationFailed": "Operasyon başarısız.",
@@ -874,7 +883,7 @@
         "UnsupportedBrowser": "Tarayıcınız bu özelliği desteklemiyor.",
         "CompromisedPassword": "Bu şifrenin güvenliği ihlal edildi.",
         "ReachedMaximumBots": "Maksimum bot sayısına ulaştınız.",
-        "AudioPermissionBlock": "Mikronunuza erişim yok, lütfen tarayıcının yapılandırmasını kontrol ediniz.",
+        "AudioPermissionBlock": "Mikronuna erişim yok. Lütfen tarayıcının yapılandırmasını kontrol et.",
         "DiscriminatorChangeRatelimited": "Çok fazla etiket değişikliği."
     },
     "shortcuts": {
@@ -947,7 +956,7 @@
         },
         "ManageRole": {
             "t": "Rolleri Yönet",
-            "d": "Üyelerin kendilerinden daha düşük bir rütbeye sahip roller oluşturmasına, düzenlemesine ve silmesine izin verir. Ayrıca, kanallardaki rol izinlerini değiştirmelerine de izin verir."
+            "d": "Üyelerin kendilerinden daha düşük bir rütbeye sahip roller oluşturmasına, düzenlemesine ve silmesine izin verir. Ayrıca, kanallardaki rol izinlerini değiştirmesine izin verir."
         },
         "ViewChannel": {
             "t": "Kanalı Görüntüle",
