@@ -45,10 +45,10 @@
                     },
                     "appearance_options": {
                         "show_send": "Selalu tampilkan tombol Kirim Pesan",
-                        "show_send_desc": "Jika dimatikan, tombol Kirim Pesan akan hanya muncul di seluler.",
+                        "show_send_desc": "Jika ini dinonaktifkan, tombol Kirim Pesan akan hanya muncul di perangkat seluler.",
                         "title": "Pilihan Penampilan",
                         "show_account_age": "Selalu tampilkan usia akun di sebelah pesan bergabung",
-                        "show_account_age_desc": "Jika dinonaktifkan, usia akun hanya akan ditampilkan untuk pengguna baru."
+                        "show_account_age_desc": "Jika ini dinonaktifkan, usia akun hanya akan ditampilkan untuk pengguna baru."
                     },
                     "colours": {
                         "title": "Warna"
@@ -101,7 +101,8 @@
                         "description": "Nonaktifkan atau hapus akun kamu kapan saja. Tindakan-tindakan tersebut akan mengeluarkan akunmu dari semua sesi aktif.",
                         "disable": "Nonaktifkan Akun",
                         "delete": "Tandai Akun untuk Dihapus",
-                        "disable_description": "Kamu tidak akan bisa mengakses akunmu kecuali dengan menghubungi bantuan - namun, datamu tidak akan dihapus."
+                        "disable_description": "Kamu tidak akan bisa mengakses akunmu kecuali dengan menghubungi bantuan - namun, datamu tidak akan dihapus.",
+                        "delete_description": "Akun dan seluruh datamu (termasuk pesan dan daftar temanmu) akan segera dihapus. Email konfirmasi akan dikirimkan - kamu bisa membatalkan penghapusan ini sebelum 7 hari dengan menghubungi bantuan."
                     }
                 },
                 "notifications": {
@@ -125,7 +126,7 @@
                     "title": "Pengaturan Suara",
                     "input_device": "Mikrofon",
                     "output_device": "Pengeras Suara / Headset",
-                    "tip_retry": "Kamu tidak memberikan izin untuk mengakses mikrofon kamu, harap {{retryBtn}}.",
+                    "tip_retry": "Kamu tidak memberikan Revolt izin untuk mengakses mikrofon kamu. Harap {{retryBtn}}.",
                     "device_label_NA": "N/A",
                     "button_retry": "coba lagi",
                     "tip_grant_permission": "Kamu perlu memberikan izin untuk mengakses pengaturan audio.",
@@ -148,7 +149,7 @@
                 "sync": {
                     "categories": "Kategori Sinkronisasi",
                     "descriptions": {
-                        "appearance": "Ini akan menyinkronkan pengaturan seperti paket emoji dan kepadatan pesan.",
+                        "appearance": "Ini akan menyinkronkan pengaturan tampilan, seperti paket emoji dan kepadatan pesan yang kamu pilih.",
                         "locale": "Ini akan menyinkronkan bahasa pilihanmu saat ini.",
                         "theme": "Ini akan menyinkronkan tema, warna, dan CSS khusus yang kamu pilih."
                     },
@@ -161,11 +162,11 @@
                     "copy_invite": "Salin Tautan Undangan",
                     "add": "Tambahkan Bot",
                     "token": "Token",
-                    "reserved": "Catatan: Bagian ini disiapkan untuk masa depan.",
+                    "reserved": "Catatan: bagian ini disiapkan untuk masa depan.",
                     "public_bot_tip": "Bot ini publik. Siapa pun dapat mengundangnya.",
                     "private_bot_tip": "Ini Bot pribadi. Hanya kamu yang bisa mengundangnya.",
                     "public_bot": "Bot Publik",
-                    "public_bot_desc": "Izinkan pengguna lain untuk mengundang bot ini.",
+                    "public_bot_desc": "Jika ini aktif, pengguna lain dapat menambahkan bot ini ke server atau grup pesannya.",
                     "interactions_url": "URL Interaksi",
                     "unique_id": "Ini adalah pengidentifikasi unik untuk bot kamu. Ini bukan token bot.",
                     "profile": "Profil Bot"
@@ -205,7 +206,7 @@
                     "title": "Plugin",
                     "delete_plugin": "Hapus",
                     "no_plugins": "Tidak ada plugin yang terpasang.",
-                    "wip": "Peringatan: Fitur ini masih dalam tahap pengembangan."
+                    "wip": "Peringatan: fitur ini masih dalam tahap pengembangan."
                 },
                 "accessibility": {
                     "title": "Aksesibilitas"
@@ -299,7 +300,7 @@
                 },
                 "sessions": {
                     "a": "Jika kamu melihat sesi yang tidak dikenal pada daftar,",
-                    "b": "amankan akunmu dengan mengubah sandi dan menggunakan 2FA."
+                    "b": "amankan akunmu dengan mengubah sandi dan menyiapkan autentikasi dua faktor."
                 },
                 "languages": {
                     "a": "Apa kami belum tersedia dalam bahasa yang kamu mau?",
@@ -472,15 +473,15 @@
                 "login": "Masuk ke Revolt",
                 "invited_by": "Diundang oleh {{user}}",
                 "invalid": "Undangan tidak sah!",
-                "invalid_desc": "Undangan mungkin tidak ada atau kamu tidak memiliki izin untuk bergabung."
+                "invalid_desc": "Undangan ini mungkin tidak ada, atau kamu tidak memiliki izin untuk bergabung."
             },
             "modals": {
                 "onboarding": {
                     "welcome": "Selamat datang di",
-                    "pick": "Pilih nama pengguna yang kamu inginkan agar orang dapat menemukan kamu, ini dapat diubah nanti di pengaturan."
+                    "pick": "Pilih nama pengguna yang kamu inginkan agar orang lain dapat menemukan kamu. Ini dapat diubah nanti di pengaturan penggunamu."
                 },
                 "actions": {
-                    "ok": "Oke",
+                    "ok": "OK",
                     "continue": "Lanjut",
                     "delete": "Hapus",
                     "leave": "Keluar",
@@ -529,7 +530,7 @@
                     "confirm_kick": "Apa kamu yakin ingin mengeluarkan {{name}}?",
                     "confirm_ban": "Kamu akan memban {{name}}",
                     "confirm_close_dm": "Tutup percakapan dengan {{name}}?",
-                    "confirm_close_dm_long": "Kamu dapat membukanya kembali nanti namun percakapan akan hilang di kedua sisi.",
+                    "confirm_close_dm_long": "Kamu dapat membukanya kembali nanti, namun percakapan akan hilang di kedua sisi.",
                     "create_invite_created": "Ini kode undangan barumu:",
                     "silent_leave": "Tinggalkan Diam-Diam",
                     "members_not_notified": "Anggota lain tidak akan diberitahu"
@@ -553,9 +554,9 @@
                     "short": "Kamu tidak bisa membatalkan tindakan ini."
                 },
                 "mfa": {
-                    "confirm": "Harap konfirmasi menggunakan metode terpilih.",
+                    "confirm": "Harap konfirmasi tindakan ini menggunakan metode terpilih.",
                     "recovery_codes": "Kode pemulihanmu",
-                    "prompt_totp": "Silakan pindai atau gunakan token di bawah pada aplikasi autentikasi kamu.",
+                    "prompt_totp": "Silakan pindai atau gunakan token di bawah pada aplikasi autentikator kamu.",
                     "enable_totp": "Aktifkan aplikasi autentikator",
                     "save_codes": "Harap simpan ini di tempat yang aman.",
                     "enter_code": "Masukkan Kode",
@@ -812,7 +813,7 @@
         "MissingInvite": "Kode undangan yang diminta tidak tersedia.",
         "InvalidInvite": "Kode tidak sah",
         "FailedToReceive": "Server gagal menerima berkas kamu.",
-        "AudioPermissionBlock": "Tidak ada akses ke mikrofon kamu, harap periksa konfigurasi browser kamu.",
+        "AudioPermissionBlock": "Tidak ada akses ke mikrofon kamu. Harap periksa konfigurasi browser kamu.",
         "FailedValidation": "Gagal memvalidasi bidang.",
         "MissingPermission": "Tidak memiliki izin.",
         "AlreadyOnboarded": "Orientasi telah selesai.",
@@ -830,7 +831,7 @@
         "ProbeError": "Gagal mendapatkan metadata berkas.",
         "IoError": "Server mengalami kesalahan I/O.",
         "UnsupportedBrowser": "Browser tidak memiliki dukungan untuk fitur ini.",
-        "DeniedNotification": "Kamu menolak akses notifikasi, periksa pengaturan halaman.",
+        "DeniedNotification": "Kamu menolak akses notifikasi. Periksa pengaturan halaman.",
         "CompromisedPassword": "Sandi ini sering dibobol.",
         "ReachedMaximumBots": "Kamu telah mencapai jumlah bot maksimum.",
         "DiscriminatorChangeRatelimited": "Terlalu banyak pengubahan tag."
@@ -901,7 +902,7 @@
             "t": "Penyamaran"
         },
         "ManageRole": {
-            "d": "Mengizinkan anggota untuk membuat, menyunting, dan menghapus peran dengan peringkat lebih rendah dari peran mereka. Mereka juga diizinkan untuk mengubah izin peran di sebuah saluran.",
+            "d": "Mengizinkan anggota untuk membuat, menyunting, dan menghapus peran dengan peringkat lebih rendah dari peran mereka, serta mengubah izin peran pada saluran.",
             "t": "Kelola Peran"
         },
         "ViewChannel": {
