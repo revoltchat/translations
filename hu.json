@@ -48,7 +48,7 @@
         "set_password": "Add meg az új jelszavad",
         "current_password": "Mostani jelszavad",
         "invite": "Meghívókód",
-        "email_delay": "A leveled 10 percen belül meg fog érkezni.",
+        "email_delay": "Elküldtük a visszaigazoló e-mailt. A leveled 10 percen belül meg fog érkezni.",
         "subtitle": "Bejelentkezés a Revoltba",
         "welcome": "Üdv!",
         "welcome2": "Szia!",
@@ -281,9 +281,11 @@
                     },
                     "manage": {
                         "title": "Fiókkezelés",
-                        "description": "A fiókod bármikor letiltható vagy törölhető. Ha ezt választod, akkor a fiókod az ismerőseiddel és a beszélgetésekkel együtt végleg törölve lesz.",
+                        "description": "A fiókod bármikor letiltható vagy törölhető. Ha ezt választod, ki leszel jelentkeztetve az aktív munkameneteidből.",
                         "disable": "Fiók letiltása",
-                        "delete": "Fiók törlésre jelölése"
+                        "delete": "Fiók törlésre jelölése",
+                        "disable_description": "Nem fogsz tudni hozzáférni a fiókodhoz, amíg segítséget nem kérsz az ügyfélszolgálattól. Az adataid nem lesznek törölve.",
+                        "delete_description": "A fiókod és a hozzátartozó összes adat (az üzeneteidet és az ismerőseid listáját is beleértve) idővel törölve lesz. Erről visszaigazoló e-mailt küldünk. Az ügyfélszolgállattól mai naptól számítva hét napon belül segítséget kérve visszavonhatod a törlést."
                     }
                 },
                 "language": {
@@ -345,7 +347,7 @@
                 "sync": {
                     "descriptions": {
                         "theme": "Ez a kiválasztott színsémát és színeket, a saját CSS-t szinkronizálja.",
-                        "appearance": "Ez a beállításokat szinkronizálja (mint például az emodzsicsomagokat és az üzenetek között lévő hely mértékét).",
+                        "appearance": "Ez a beállításokat szinkronizálja (mint például a választott emodzsicsomagodat és az üzenetek között lévő hely mértékét).",
                         "locale": "A most használt nyelvet szinkronizálja."
                     },
                     "title": "Szinkronizálás",
@@ -372,7 +374,7 @@
                     "title": "Beszéd",
                     "device_label_NA": "nem elérhető",
                     "button_retry": "próbáld újra",
-                    "tip_retry": "Nem adtál engedélyt a mikrofon elérésére. Kérlek, {{retryBtn}}!",
+                    "tip_retry": "Nem adtál engedélyt a Revoltnak a mikrofon elérésére. Kérlek, {{retryBtn}}!",
                     "tip_grant_permission": "A beállítások eléréséhez engedélyezned kell a mikrofon használatát.",
                     "button_grant": "Engedélyezés"
                 },
@@ -386,7 +388,7 @@
                     "token": "Token",
                     "private_bot_tip": "A robi nem nyilvános. Csak te hívhatod meg.",
                     "public_bot": "Nyilvános robi",
-                    "public_bot_desc": "Meghívhatják-e más felhasználók ezt a robit?",
+                    "public_bot_desc": "Mások hozzáadhatják szerverekhez és csoportüzenetekhez ezt a robit.",
                     "interactions_url": "Interakciós URL",
                     "unique_id": "Ez a robid egyedi azonosítója. Ez nem a robi tokenje.",
                     "profile": "A robi profilja"
@@ -412,6 +414,13 @@
                     "wip": "Figyelem! Ez a lehetőség még nem készült el teljesen.",
                     "delete_plugin": "Törlés",
                     "no_plugins": "Még egy plugin sincs telepítve."
+                },
+                "accessibility": {
+                    "title": "Kisegítő lehetőségek",
+                    "descriptions": {
+                        "reduced_motion": "Az animációk és a mozgó képhatások nem látszódnak majd, vagy pedig kevésbé lesznek erőteljesek."
+                    },
+                    "reduced_motion": "Csökkentett képhatás"
                 }
             },
             "categories": {
@@ -518,7 +527,7 @@
                     "cancel": "Mégsem",
                     "continue": "Folytatás",
                     "close": "Bezárás",
-                    "ok": "Oké",
+                    "ok": "OK",
                     "send_email": "E-mail küldése",
                     "update": "Frissítés",
                     "save": "Mentés",
@@ -594,7 +603,7 @@
                 "mfa": {
                     "recovery_codes": "Helyreállító kódok",
                     "save_codes": "Tárold biztonságos helyen ezeket a kódokat!",
-                    "confirm": "Hagyd jóvá a kiválasztott helyreállítási módot!",
+                    "confirm": "A választott móddal hagyd jóvá a választásod.",
                     "select_method": "Válaszd ki a kérés hitelesítéséhez való módot.",
                     "enable_totp": "Hitelesítő app engedélyezése",
                     "prompt_totp": "Olvasd, vagy pedig írd be a lenti tokent a hitelesítő appodban.",
@@ -948,7 +957,7 @@
         },
         "ManageRole": {
             "t": "Kezelhetnek titulusokat",
-            "d": "A tagok a többi taghoz képest alacsonyabb ranggal is létrehozhatnak titulusokat és módosíthatják és törölhetik is a többi, magasabb rangú tag titulusait. A titulusokhoz hozzárendelt csatornaszintű engedélyeket is módosíthatják."
+            "d": "A tagok alacsonyabb ranggal is létrehozhatnak, módosíthatnak és törölhetnek titulusokat, módosíthatják a csatornaszintű engedélyeket."
         },
         "ViewChannel": {
             "t": "Láthatják a csatornákat",
