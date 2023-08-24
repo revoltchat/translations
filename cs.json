@@ -46,8 +46,8 @@
         "check_mail": "Zkontrolujte si poštu!",
         "invite": "Přístupový kód",
         "missing_verification": "Neobdrželi jste email?",
-        "check_spam": "Prosím, zkontrolujte složku spam, pokud jej nemůžete najít",
-        "email_delay": "Doručení může trvat až 10 minut.",
+        "check_spam": "Pokud jej nemůžete najít, zkontrolujte prosím složku s nevyžádanou poštou",
+        "email_delay": "Poslali jsme vám ověřovací e-mail. Jeho doručení může trvat až 10 minut.",
         "resend": "Opětovné odeslání ověření",
         "subtitle2": "Vytvořit účet",
         "welcome2": "Dobrý den!",
@@ -229,7 +229,7 @@
                 },
                 "signed_out": "Byli jste odhlášeni!",
                 "actions": {
-                    "ok": "Ok",
+                    "ok": "OK",
                     "close": "Zavřít",
                     "reload": "Přenačíst aplikaci",
                     "preview": "Náhled",
@@ -257,7 +257,7 @@
                 },
                 "onboarding": {
                     "welcome": "Vítejte v",
-                    "pick": "Vyberte si uživatelské jméno, podle kterého vás ostatní uživatelé najdou. Toto může být kdykoli změněno."
+                    "pick": "Vyberte si uživatelské jméno, podle kterého vás ostatní uživatelé najdou. Toto může být kdykoli změněno v uživatelských nastaveních."
                 },
                 "error": "Vyskytla se chyba!",
                 "account": {
@@ -277,7 +277,7 @@
                     "create_invite_generate": "Generování pozvánky…",
                     "confirm_leave_long": "Nebudete se moci znovu připojit, pokud znovu nedostanete pozvánku.",
                     "confirm_close_dm": "Ukončit konverzaci s {{name}}?",
-                    "confirm_close_dm_long": "Můžete ji později znovu otevřít, ale zmizí na obou stranách.",
+                    "confirm_close_dm_long": "Můžete ji později znovu otevřít, zmizí ale na obou stranách.",
                     "confirm_kick": "opravdu chcete vyhodit {{name}}?",
                     "block_user_long": "Opravdu chcete blokovat {{name}} ? Bude taktéž odebrán z seznamu přátel .",
                     "confirm_ban_reason": "Důvod banu",
@@ -300,14 +300,14 @@
                     "save_codes": "Uložte je na bezpečné místo.",
                     "enable_totp": "Povolit ověřovací aplikaci",
                     "prompt_totp": "Naskenujte nebo použijte token níže ve vaší ověřovací aplikaci.",
-                    "confirm": "Potvrďte akci pomocí vybrané metody.",
+                    "confirm": "Potvrďte tuto akci pomocí vybrané metody.",
                     "select_method": "Vyberte metodu pro ověření vašeho požadavku.",
                     "enter_code": "Zadejte kód"
                 },
                 "out_of_date": {
                     "description": "Musí být aktualizován, aby fungoval s nejnovějšími změnami.",
                     "title": "Váš klient je zastaralý!",
-                    "version": "Váš klient je na verzi {{client}}, zatímco server vyžaduje verzi {{server}}.",
+                    "version": "Váš klient je na verzi {{client}}, ale server vyžaduje verzi {{server}}.",
                     "ignore": "Ignorovat aktualizaci",
                     "attempting": "Pokus o aktualizaci…"
                 },
@@ -393,7 +393,7 @@
             "copy_username": "Kliknutím zkopírujete uživatelské jméno",
             "copy": "Kliknutím zkopírujete",
             "invite": {
-                "invalid_desc": "Pozvánka nemusí existovat nebo nemáš pravomoce k připojení.",
+                "invalid_desc": "Pozvánka možná neexistuje, nebo nemáte oprávnění k připojení.",
                 "user_count": "{{member_count}} počet uživatelů",
                 "login": "Přihlásit k Revoltu",
                 "invited_by": "Pozván uživatelem {{user}}",
@@ -480,10 +480,12 @@
                         "two_factor_off": "Nemáte povolené dvoufaktorové ověřování!"
                     },
                     "manage": {
-                        "description": "Svůj účet můžete kdykoli deaktivovat nebo smazat. Tato akce vás odhlásí a zcela odstraní váš účet, včetně vaší historie chatu a přátel.",
+                        "description": "Svůj účet můžete kdykoli deaktivovat nebo smazat. Obě akce vás odhlásí z vašich aktivních relací.",
                         "disable": "Deaktivovat účet",
                         "title": "Správa účtu",
-                        "delete": "Označit účet k odstranění"
+                        "delete": "Označit účet k odstranění",
+                        "disable_description": "Ke svému účtu nebudete mít přístup, pokud nekontaktujete podporu - vaše data nicméně nebudou smazána.",
+                        "delete_description": "Váš účet a všechna vaše data (včetně vašich zpráv a seznamu přátel) budou zařazeny do fronty na smazání. Bude vám odeslán potvrzovací e-mail - tuto akci můžete do 7 dnů zrušit kontaktováním podpory."
                     },
                     "unique_id": "Toto je jedinečný identifikátor uživatele pro váš účet."
                 },
@@ -541,7 +543,7 @@
                         "follow": "Použít motiv zařízení",
                         "title": "Nastavení motivů",
                         "transparency": "Průhlednost",
-                        "follow_desc": "Po zvolení již nebude možné motiv měnit, ani používat vlastní motiv.",
+                        "follow_desc": "Pokud je tato funkce povolena, po zvolení již nebude možné motiv měnit, ani používat vlastní motiv.",
                         "transparency_desc": "Nastaví průhlednost některých prvků v aplikaci."
                     },
                     "discover": {
@@ -550,8 +552,8 @@
                     },
                     "appearance_options": {
                         "show_account_age": "Vždy zobrazit stáří účtu vedle zpráv o připojení",
-                        "show_account_age_desc": "Pokud je zakázáno, bude stáří účtu zobrazeno pouze novým uživatelům.",
-                        "show_send_desc": "Pokud je zakázáno, bude tlačítko k odeslání zprávy zobrazeno pouze na mobilu.",
+                        "show_account_age_desc": "Pokud je tato funkce zakázána, bude stáří účtu zobrazeno pouze novým uživatelům.",
+                        "show_send_desc": "Pokud je tato možnost zakázána, bude tlačítko k odeslání zprávy zobrazeno pouze na mobilu.",
                         "show_send": "Vždy zobrazit tlačítko k odeslání zprávy",
                         "title": "Možnosti vzhledu"
                     },
@@ -610,7 +612,7 @@
                 "sync": {
                     "descriptions": {
                         "locale": "Tím se synchronizuje vaše nastavení jazyka.",
-                        "appearance": "Tím se synchronizují možnosti, jako jsou balíčky smajlíků a hustota zpráv.",
+                        "appearance": "Tím se synchronizují možnosti vzhledu, jako je váš vybraný balíček smajlíků a hustota zpráv.",
                         "theme": "Tím se synchronizuje vámi zvolený motiv, barvy a jakékoli vlastní CSS."
                     },
                     "title": "Synchronizace",
@@ -621,15 +623,15 @@
                     "title": "Moji boti",
                     "public_bot": "Veřejný bot",
                     "unique_id": "Toto je jedinečný identifikátor vašeho bota. Není to jeho token.",
-                    "public_bot_desc": "Zda povolit ostatním uživatelům pozvat tohoto bota.",
+                    "public_bot_desc": "Pokud je tato funkce povolena, ostatní uživatelé mohou přidat tohoto bota na servery a do skupinových zpráv.",
                     "create_bot": "Vytvořit bota",
                     "copy_invite": "Kopírovat odkaz pozvánky",
                     "add": "Přidat bota",
                     "token": "Token",
                     "profile": "Profil bota",
-                    "public_bot_tip": "Bot je veřejný. Kdokoli ho může pozvat.",
-                    "private_bot_tip": "Bot je soukromý. Pozvat jej můžete pouze vy.",
-                    "reserved": "Poznámka: Toto pole je vyhrazeno pro budoucí funkci.",
+                    "public_bot_tip": "Tento bot je veřejný. Kdokoli ho může pozvat.",
+                    "private_bot_tip": "Tento bot je soukromý. Pozvat jej můžete pouze vy.",
+                    "reserved": "Poznámka: toto pole je vyhrazeno pro budoucí funkci.",
                     "interactions_url": "URL Interakce"
                 },
                 "audio": {
@@ -637,7 +639,7 @@
                     "button_retry": "skus to znova",
                     "input_device": "Mikrofon",
                     "output_device": "Reproduktor / Sluchátka",
-                    "tip_retry": "Neudělili jste oprávnění k použití mikrofonu, prosím {{retryBtn}}.",
+                    "tip_retry": "Neudělili jste aplikaci Revolt oprávnění k použití mikrofonu. Prosím {{retryBtn}}.",
                     "title": "Nastavení hlasu",
                     "tip_grant_permission": "Pro přístup k nastavení zvuku musíte udělit oprávnění.",
                     "button_grant": "Udělit oprávnění"
@@ -668,7 +670,7 @@
                 },
                 "plugins": {
                     "title": "Doplňky",
-                    "wip": "Varování: Tato funkce je stále ve vývoji.",
+                    "wip": "Varování: tato funkce je stále ve vývoji.",
                     "delete_plugin": "Odstranit",
                     "no_plugins": "Momentálně nejsou nainstalovány žádné doplňky."
                 },
@@ -682,7 +684,7 @@
             },
             "tips": {
                 "account": {
-                    "a": "Hledáte možnosti přizpůsobení svého veřejného profilu?",
+                    "a": "Chcete si přizpůsobit svůj veřejný profil?",
                     "b": "Přejděte do nastavení svého profilu."
                 },
                 "languages": {
@@ -691,7 +693,7 @@
                 },
                 "sessions": {
                     "a": "Pokud vidíte na seznamu neznámou relaci,",
-                    "b": "zabezpečte si účet změnou hesla a zapnutím dvoufaktorového ověřování."
+                    "b": "zabezpečte si účet změnou hesla a nastavením dvoufaktorového ověřování."
                 }
             },
             "categories": {
@@ -863,13 +865,13 @@
         "ProbeError": "Chyba při získávání metadat .",
         "ReachedMaximumBots": "Dosáhli jste maximálního množství botů.",
         "UnsupportedBrowser": "Prohlížeči chybí podpora této funkce .",
-        "AudioPermissionBlock": "Není přístup k tvému mikrofonu, prosím zkontrolujte nastavení prohlížeče .",
+        "AudioPermissionBlock": "Nemáme přístup k mikrofonu. Zkontroluj prosím nastavení svého prohlížeče.",
         "RenderFail": "Šablony se nepodařila načíst.",
         "MissingInvite": "V požadavku chybí zvací kód.",
         "FailedToReceive": "Server selhal při získávání tvého souboru.",
         "InvalidInvite": "Neplatný kód",
         "IoError": "Server zjistil chybu I/O.",
-        "DeniedNotification": "Zamítli jste přístup k oznámením, zkontrolujte nastavení.",
+        "DeniedNotification": "Zamítli jste přístup k oznámením. Zkontrolujte nastavení stránky.",
         "CompromisedPassword": "Toto heslo bylo prolomeno.",
         "DiscriminatorChangeRatelimited": "Příliš mnoho změn značky."
     },
@@ -939,7 +941,7 @@
         },
         "ManageRole": {
             "t": "Manage roles",
-            "d": "Umožní členům vytvářet, upravovat a mazat role s menší hodnotou. Mohou také modifikovat jejich oprávnění v nastavení jednotlivých kanálů."
+            "d": "Umožní členům vytvářet, upravovat a mazat role s nižší hodnotou a upravovat jejich oprávnění v nastavení jednotlivých kanálů."
         },
         "ViewChannel": {
             "d": "Umožní členům vidět všechny kanály, na kterých mají toto oprávnění.",
