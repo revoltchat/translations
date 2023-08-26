@@ -8,7 +8,7 @@
         "disabled": "Disebl'd",
         "on": "On",
         "off": "Off",
-        "unavailable": "Un'vail'ble",
+        "unavailable": "No booty here",
         "learn_more": "Learn mo'"
     },
     "app": {
@@ -254,7 +254,9 @@
                         "description": "Disable or delete yer account at any time. Dis action will log ye out n' fully delete yer account, including yer chat history n' crew.",
                         "title": "Manage the captain's quarter",
                         "delete": "Burn down captain's quarter",
-                        "disable": "Walk Ye Plank"
+                        "disable": "Walk Ye Plank",
+                        "disable_description": "Ye won't be gettin' to yer treasure chest 'less ye send a parrot to the quartermaster - but fear not, yer loot won't be plundered.",
+                        "delete_description": "Yer account and all yer precious booty (messages and matey list) be set to walk the plank. Ye'll receive a scroll to confirm - but if ye want to keep it, send a message to the quartermaster within 7 days."
                     },
                     "change_field": "Change yarr"
                 },
@@ -324,7 +326,12 @@
                 "logOut": "Abort ye Ship",
                 "feedback": {
                     "title": "Pirate Advice",
-                    "bug": "Rat Finder"
+                    "bug": "Rat Finder",
+                    "suggest": "Propose a ship improvement",
+                    "description": "Offer yer thoughts",
+                    "suggest_desc": "Put forth fresh ideas for Revolt on the GitHub parley.",
+                    "issue_desc": "To aid us in sorting troubles on the digital high seas, ye can craft a conundrum on GitHub, matey.",
+                    "bug_desc": "Gaze upon the currently active bug reckonings here."
                 },
                 "native": {
                     "title": "Planktop settins'"
@@ -337,17 +344,30 @@
                     "category": {
                         "manage": "Manage saved",
                         "saved": "Saved",
-                        "new": "Be new durin' ye' exploration"
+                        "new": "Be new durin' ye' exploration",
+                        "default": "Basic Ship Designs",
+                        "highest": "Top-Scoring",
+                        "viewall": "See all"
                     },
                     "title": "Ye' App Look Shop",
                     "description": "Spyglass through several app looks, be made by other pirates n' scallywags.",
-                    "search": "Search app looks…"
+                    "search": "Search app looks…",
+                    "by": "by",
+                    "active": "Aye, in action",
+                    "use": "Hoist the colors!"
                 },
                 "plugins": {
                     "wip": "Danger: Ye' feature still be handcrafted.",
                     "no_plugins": "No plugins be currently on-board.",
                     "title": "Plugins",
                     "delete_plugin": "Get rid of"
+                },
+                "accessibility": {
+                    "title": "Ease o' Use",
+                    "reduced_motion": "Less Rockin'",
+                    "descriptions": {
+                        "reduced_motion": "If this be enabled, the sways and motions won't dance as wild, or may not play at all."
+                    }
                 }
             },
             "actions": {
@@ -364,7 +384,11 @@
             },
             "server_pages": {
                 "invites": {
-                    "channel": "Deck"
+                    "channel": "Deck",
+                    "invitor": "Summoner",
+                    "revoke": "Belay",
+                    "title": "Summonings",
+                    "code": "Summon Scroll"
                 },
                 "members": {
                     "title": "Pirates"
@@ -372,14 +396,31 @@
                 "bans": {
                     "reason": "Reason of Walking yhe Plank",
                     "user": "Pirate",
-                    "title": "Plank Walkers"
+                    "title": "Plank Walkers",
+                    "no_reason": "No misdeeds on the record.",
+                    "revoke": "Belay"
                 },
                 "management": {
                     "title": "Manage ye Pirate"
                 },
                 "overview": {
                     "title": "Birds Eye View",
-                    "name": "Name of ye Port"
+                    "name": "Name of ye Port",
+                    "description": "Crew Manifest",
+                    "system_messages": "Ship's Orders Channels"
+                },
+                "customisation": {
+                    "title": "Personalized Arrangements"
+                },
+                "roles": {
+                    "title": "Ship Positions"
+                },
+                "emojis": {
+                    "title": "yer crew",
+                    "upload": "Hoist an Emote"
+                },
+                "categories": {
+                    "title": "Treasure Divisions"
                 }
             },
             "channel_pages": {
@@ -390,17 +431,26 @@
                     "title": "Birds Eye View",
                     "name": "Name o' the Deck",
                     "description": "Ye Board Information"
+                },
+                "webhooks": {
+                    "title": "Seaworthy Links"
                 }
             },
             "permissions": {
-                "create_role": "Create ye new rank"
+                "create_role": "Create ye new rank",
+                "edit_title": "Tweakin' Rights",
+                "default_role": "Standard",
+                "server": "Ship Authority",
+                "channel": "Cove Privileges"
             },
             "tips": {
                 "sessions": {
-                    "b": "secure yer pirate by changin' yer password n' using double booty protection."
+                    "b": "secure yer pirate by changin' yer password n' using double booty protection.",
+                    "a": "Should ye spot an unfamiliar visit in the log,"
                 },
                 "account": {
-                    "a": "Ye want to customize yer public profile?"
+                    "a": "Ye want to customize yer public profile?",
+                    "b": "Make way for yer Pirate settin's."
                 },
                 "languages": {
                     "b": "Make yer' pirate writings, mate.",
@@ -430,14 +480,35 @@
             "create_invite": "Start 'iring 'ands",
             "close_dm": "No more o' ye chatter",
             "add_friend": "Hire 'ands",
-            "open_group_settings": "'and settins'"
+            "open_group_settings": "'and settins'",
+            "mark_as_read": "Declare as perused",
+            "kick_member": "Boot the sailor",
+            "mention": "Call out",
+            "remove_member": "Cast out of the crew",
+            "mark_unread": "Declare as uncharted"
         },
         "special": {
             "popovers": {
                 "user_profile": {
                     "badges": {
-                        "translator": "Pirate"
-                    }
+                        "translator": "Pirate",
+                        "moderation": "Board Moderation",
+                        "founder": "Shipwright"
+                    },
+                    "mutual_groups": "Crews in Common",
+                    "mutual_servers": "Ships in Common",
+                    "empty": "'tis a lonely sea we be sailin'…",
+                    "mutual_friends": "Shipmates in Common",
+                    "no_users": "No shipmates in common",
+                    "no_groups": "No crews in common",
+                    "no_servers": "No ships in common"
+                },
+                "user_picker": {
+                    "select": "Choose mateys to join yer crew."
+                },
+                "server_identity": {
+                    "nickname": "Alias",
+                    "title": "Shift yer disguise aboard {{server}}"
                 }
             },
             "friends": {
@@ -466,7 +537,9 @@
                 },
                 "error": "Ye' sinkhole in the ship!",
                 "clipboard": {
-                    "unavailable": "Yer ink n' feathers un'vail'ble."
+                    "unavailable": "Yer ink n' feathers un'vail'ble.",
+                    "https": "Ye be currently not in a secure HTTPS harbor, matey.",
+                    "copy": "Hand-Crafted Copyin':"
                 },
                 "prompt": {
                     "confirm_leave_long": "Ye' be unable to get yer booty back on th' ship till yer re-invited.",
@@ -480,7 +553,13 @@
                     "confirm_delete_message_long": "Arr' ya sure you dare push this into the deep sea?",
                     "create_invite_generate": "Crafting yer ship ladder…",
                     "create_invite_created": "Here's yer new way of entry matey! :",
-                    "unfriend_user_long": "Ye' be unable to talk t'yer fellow crewmate till ya add 'em back."
+                    "unfriend_user_long": "Ye' be unable to talk t'yer fellow crewmate till ya add 'em back.",
+                    "confirm_close_dm_long": "Ye can unfurl it again at a later time, but it'll vanish from both horizons.",
+                    "confirm_ban_reason": "Ban Rationale",
+                    "block_user_long": "Be ye certain ye want to barrr {{name}}? They'll also be cast adrift from yer matey list.",
+                    "silent_leave": "Quietly Depart",
+                    "block_user": "Bar {{name}}?",
+                    "members_not_notified": "No other scallywags will be alerted"
                 },
                 "confirm": "Confirm yer actions, matey",
                 "signed_out": "Ye' got kicked out the ship!",
@@ -496,17 +575,73 @@
                 "mfa": {
                     "recovery_codes": "Yer 'covery codes",
                     "save_codes": "Keep 'em valuables piece of treasure safe y'here me matey?",
-                    "confirm": "Confirm with yer selected way of doin'."
+                    "confirm": "Confirm with yer selected way of doin'.",
+                    "select_method": "Kindly choose a way to prove yer request be true."
                 },
                 "actions": {
-                    "ok": "Aye"
+                    "ok": "Aye",
+                    "back": "Sail back",
+                    "hide": "stash",
+                    "ban": "blacklist",
+                    "send_email": "Dispatch Parrot"
+                },
+                "changelogs": {
+                    "title": "Log of Changes",
+                    "older": "Behold previous updates",
+                    "description": "Learn 'bout updates to Revolt."
+                },
+                "out_of_date": {
+                    "description": "She must be updated to align with recent changes, or she won't sail smoothly.",
+                    "title": "Yer ship's reckoning be outdated, matey!",
+                    "attempting": "Settin' sails for updatin'…",
+                    "ignore": "Avast Update",
+                    "version": "Yer vessel be at {{client}}, yet the port demands {{server}}."
+                },
+                "external_links": {
+                    "trust_domain": "Put yer trust in this domain",
+                    "title": "Beware of external links! They may be a treacherous trap!",
+                    "short": "Be ye certain ye be wanting to set sail for:"
+                },
+                "sessions": {
+                    "title": "Be ye sure ye be wanting to clear yer sessions, me hearty?",
+                    "short": "There be no turnin' back from this action.",
+                    "accept": "Clear the decks"
+                },
+                "report": {
+                    "content_reason": {
+                        "Harassment": "This be harassin' or abusin' another matey",
+                        "Illegal": "Content be breakin' one or more laws",
+                        "SpamAbuse": "This be spam or platform plunderin",
+                        "Malware": "This be malware",
+                        "PromotesHarm": "Content be promoting harm to others or to thyself"
+                    },
+                    "user_reason": {
+                        "Impersonation": "This scallywag be impersonatin' another matey",
+                        "BanEvasion": "This user be tryin' to evade a ban",
+                        "SpamAbuse": "This user be spammin' or abusin' the platform",
+                        "Underage": "This young swashbuckler be not old enough to be sailing these waters"
+                    },
+                    "thank_you": "Arrr, thank ye fer helpin' to keep Revolt safe me matey. We'll be reviewin' yer report as soon as we can set sail.",
+                    "additional_context": "Extra Intel",
+                    "no_reason": "No reason be given / other reason",
+                    "block_user": "Would ye fancy blockin' this scurvy dog of a user?"
                 }
             },
             "copy_username": "Click for ye' usar",
             "server-badges": {
                 "official": "Partner'd Ship",
                 "verified": "Fellow Trustees"
-            }
+            },
+            "copy": "Click to plunder",
+            "invite": {
+                "accept": "Join the Crew",
+                "invalid": "Bogus summon!",
+                "invalid_desc": "The summons be fishy or ye lack the seal.",
+                "invited_by": "Summoned by {{user}}",
+                "login": "Come aboard Revolt",
+                "user_count": "{{member_count}}crewmates"
+            },
+            "requires_online": "Ye must be sailin' the digital seas to lay eyes on this."
         },
         "home": {
             "join-testers": "Join they testers server",
@@ -623,6 +758,27 @@
         "RemoveAvatars": {
             "d": "Allow 'em pirates to remove server looks o' pirates on this ship.",
             "t": "Remove Pirate Looks"
+        },
+        "ManagePermissions": {
+            "t": "Oversee Authority",
+            "d": "Empowers the crew to adjust permissions for boards and ship positions of lesser rank."
+        },
+        "ManageCustomisation": {
+            "d": "Lets the crew craft, adjust, and scuttle emoticons."
+        },
+        "KickMembers": {
+            "t": "Make 'em Walk the Plank"
+        },
+        "ManageChannels": {
+            "t": "Command the Boards",
+            "d": "Grants crew the power to forge, amend, and scuttle boards."
+        },
+        "ManageServer": {
+            "d": "Grants crew the authority to alter this ship's moniker, tale, emblem, and other pertinent lore.",
+            "t": "Captain the Ship"
+        },
+        "ManageRole": {
+            "t": "Command Positions"
         }
     },
     "notifications": {
@@ -635,7 +791,12 @@
         "NetworkError": "Shiver me timbers, problem with network.",
         "Unlabelled": "Shiver me timbers!",
         "CompromisedPassword": "Tis' pass phrase be spooked by the red ensign.",
-        "ReachedMaximumBots": "To many landlubbers."
+        "ReachedMaximumBots": "To many landlubbers.",
+        "AlreadyOnboarded": "The initiation be done already.",
+        "AlreadyFriends": "Already a part of your crew.",
+        "UnsupportedBrowser": "Yer ship's compass ain't chartin' this course.",
+        "Unauthorized": "Ye lack the decree.",
+        "AudioPermissionBlock": "No voice through the speaking trumpet. Inspect yer browser's riggin."
     },
     "quantities": {
         "members": {
@@ -645,5 +806,8 @@
     },
     "actions": {
         "submit": "Subm°t"
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
     }
 }
