@@ -34,7 +34,7 @@
         "create": "Tạo tài khoản mới",
         "missing_verification": "Không nhận được email?",
         "cancel": "Huỷ yêu cầu",
-        "email_delay": "Làm ơn chờ tối đa 10 phút để mail được chuyển đến.",
+        "email_delay": "Chúng tôi đã gửi cho bạn email xác nhận. Làm ơn chờ tối đa 10 phút để mail được chuyển đến.",
         "resend": "Gửi lại yêu cầu xác nhận",
         "check_spam": "Hãy thử kiểm tra hòm thư rác nếu bạn vẫn không tìm thấy",
         "open_mail_provider": "Mở {{provider}}",
@@ -182,7 +182,9 @@
                     "unknown_reacted": "{{count}} người đã bày tỏ cảm xúc",
                     "single_reacted": "1 người đã bày tỏ cảm xúc",
                     "people_reacted": "{{people}} đã bày tỏ cảm xúc"
-                }
+                },
+                "new_to_revolt": "Mới dùng Revolt",
+                "new_to_server": "Mới vào server này"
             },
             "groups": {
                 "create": "Tạo nhóm",
@@ -215,7 +217,7 @@
                     "font": "Phông Chữ",
                     "emoji_pack": "Gói Emoji",
                     "message_display": "Hiển Thị Tin Nhắn",
-                    "ligatures_desc": "Đối với các phông chữ được hỗ trợ, chữ ghép kết hợp các ký tự với nhau, ví dụ: chuyển -> thành mũi tên.",
+                    "ligatures_desc": "Đối với các phông chữ được hỗ trợ, chữ ghép kết hợp các ký tự với nhau – ví dụ: chuyển -> thành mũi tên.",
                     "title": "Giao Diện",
                     "theme": "Chủ đề",
                     "display": {
@@ -240,7 +242,7 @@
                         "follow": "Theo chủ đề hệ thống",
                         "seasonal": "Chủ đề theo mùa",
                         "transparency": "Hiệu ứng trong suốt",
-                        "follow_desc": "Khi chọn, bạn không thể đổi chủ đề của bạn hoặc dùng một chủ đề theo ý của bạn.",
+                        "follow_desc": "Nếu được bật, bạn sẽ không thể đổi chủ để hay dùng chủ để riêng.",
                         "seasonal_desc": "Hiển thị hiệu ứng trên thẻ nhà trong các mùa lễ."
                     },
                     "discover": {
@@ -250,9 +252,21 @@
                     "appearance_options": {
                         "title": "Lựa chọn ngoại hình",
                         "show_send": "Luôn luôn hiện nút Gửi Tin Nhắn",
-                        "show_send_desc": "Nếu như tắt, nút Gửi Tin Nhắn sẽ chỉ xuất hiện trên di động.",
+                        "show_send_desc": "Nếu bị tắt, nút Gửi Tin Nhắn sẽ chỉ xuất hiện trên điện thoại.",
                         "show_account_age": "Luôn luôn hiển thị tuổi tài khoản bên cạnh tin nhắn tham gia",
-                        "show_account_age_desc": "Nếu tắt, tuổi tài khoản sẽ chỉ hiện thị đối với những người dùng mới."
+                        "show_account_age_desc": "Nếu bị tắt, tuổi của tài khoản sẽ chỉ hiện thị đối với những người dùng mới."
+                    },
+                    "fonts": {
+                        "title": "Phông Chữ"
+                    },
+                    "advanced_options": {
+                        "title": "Các Tùy Chọn Nâng Cao"
+                    },
+                    "colours": {
+                        "title": "Màu sắc"
+                    },
+                    "emoji": {
+                        "title": "Biểu tượng cảm xúc"
                     }
                 },
                 "account": {
@@ -271,10 +285,12 @@
                     "title": "Tài Khoản Của Tôi",
                     "change_field": "Đổi",
                     "manage": {
-                        "description": "Vô hiệu hoá hoặc xoá tài khoản của bạn bất cứ lúc nào. Hành động này sẽ đăng xuất và xoá hoàn toàn tài khoản của bạn, bao gồm lịch sử trò chuyện và bạn bè.",
+                        "description": "Vô hiệu hoá hoặc xoá tài khoản của bạn bất cứ lúc nào. Cả hai hành động sẽ đăng thoát tất cả các phiên của bạn.",
                         "disable": "Vô Hiệu Hoá Tài Khoản",
                         "delete": "Đánh Dấu Tài Khoản Để Xoá",
-                        "title": "Quản Lí Tài Khoản"
+                        "title": "Quản Lí Tài Khoản",
+                        "disable_description": "Bạn sẽ không thể truy cập tài khoản của bạn trừ khi bạn liên lạc bên hỗ trợ - dù vậy, dữ liệu của bạn sẽ không bị xóa.",
+                        "delete_description": "Tài khoản của bạn và tất cả dữ liệu trong tài khoản (gồm có cả dữ liệu tin nhắn và danh sách bạn bè) sẽ được chờ để xóa. Một email xác thực sẽ được gửi đến - bạn có thể hủy bỏ quá trình xóa trong 7 ngày bằng cách liên lạc với bên hỗ trợ."
                     },
                     "unique_id": "Đây là mã định danh độc nhất cho tài khoản của bạn."
                 },
@@ -299,8 +315,8 @@
                 "notifications": {
                     "title": "Thông Báo",
                     "descriptions": {
-                        "enable_push": "Thông báo cho bạn khi bạn đang ngoại tuyến.",
-                        "enable_desktop": "Thông báo cho bạn khi ứng dụng của bạn đang mở."
+                        "enable_push": "Nếu được bật, bạn sẽ nhận được thông báo khi bạn đang ngoại tuyến.",
+                        "enable_desktop": "Nếu được bật, bạn sẽ nhận được thông báo trong khi ứng dụng đang mở."
                     },
                     "sound": {
                         "message": "Tin Nhắn Đã Nhận",
@@ -308,9 +324,9 @@
                         "call_join": "Người Dùng Tham Gia Cuộc Gọi",
                         "call_leave": "Người Dùng Rời Cuộc Gọi"
                     },
-                    "enable_desktop": "Bật Thông Báo Trên Màn Hình.",
+                    "enable_desktop": "Bật Thông Báo Trên Màn Hình",
                     "push_notifications": "Thông Báo Đẩy",
-                    "enable_push": "Bật Thông Báo Đẩy.",
+                    "enable_push": "Bật Thông Báo Đẩy",
                     "sounds": "Âm thanh"
                 },
                 "language": {
@@ -323,7 +339,7 @@
                     "title": "Đồng Bộ Hoá",
                     "descriptions": {
                         "theme": "Thao tác này sẽ đồng bộ hóa chủ đề, màu sắc đã chọn và bất kỳ CSS tùy chỉnh nào của bạn.",
-                        "appearance": "Thao tác này sẽ đồng bộ hóa các tùy chọn như gói biểu tượng cảm xúc và mật độ tin nhắn.",
+                        "appearance": "Thao tác này sẽ đồng bộ hóa các tùy chọn, như gói biểu tượng cảm xúc và mật độ tin nhắn.",
                         "locale": "Thao tác này sẽ đồng bộ hóa ngôn ngữ đã chọn của bạn."
                     },
                     "categories": "Đồng bộ hóa danh mục",
@@ -355,14 +371,14 @@
                     "title": "Bot Của Tôi",
                     "unique_id": "Đây là ID nhận dạng riêng cho bot của bạn. Đây không phải chữ kí số cho bot của bạn.",
                     "create_bot": "Tạo Bot",
-                    "reserved": "Ghi chú: Chỗ này được dành cho tương lai.",
+                    "reserved": "Ghi chú: vùng này được dành cho tương lai.",
                     "copy_invite": "Sao chép liên kết mời",
                     "add": "Thêm Bot",
                     "token": "Chữ kí số",
-                    "public_bot_tip": "Đây là Bot công khai. Có thể được mời bởi bất cứ ai.",
-                    "private_bot_tip": "Đây là Bot riêng tư. Chỉ bạn mới có thể mời.",
+                    "public_bot_tip": "Đây là bot công khai. Ai cũng có thể mời được con bot này.",
+                    "private_bot_tip": "Đây là bot riêng tư. Chỉ bạn mới có thể mời.",
                     "public_bot": "Bot công khai",
-                    "public_bot_desc": "Có cho phép những người dùng khác mời bot này hay không.",
+                    "public_bot_desc": "Nếu được bật, những người dùng khác có thể thêm con bot này vào các server hay các nhóm trò chuyện.",
                     "interactions_url": "Đường dẫn tương tác",
                     "profile": "Hồ sơ Bot"
                 },
@@ -370,7 +386,7 @@
                     "title": "Cài Đặt Giọng Nói",
                     "input_device": "Mic",
                     "output_device": "Loa / Tai nghe",
-                    "tip_retry": "Bạn chưa cấp quyền truy cập microphone cho chúng tôi, vui lòng {{retryBtn}}.",
+                    "tip_retry": "Bạn chưa cho Revolt cấp quyền truy cập microphone của bạn, vui lòng {{retryBtn}}.",
                     "device_label_NA": "Không có sẵn",
                     "button_retry": "thử lại",
                     "button_grant": "Cấp quyền",
@@ -393,10 +409,17 @@
                     "active": "Hiện đang hoạt động"
                 },
                 "plugins": {
-                    "wip": "Cảnh báo: Tính năng này đang được phát triển.",
+                    "wip": "Cảnh báo: tính năng này đang được phát triển.",
                     "title": "Trình tích hợp",
                     "delete_plugin": "Xoá",
                     "no_plugins": "Hiện không có trình tích hợp nào được cài đặt."
+                },
+                "accessibility": {
+                    "title": "Trợ Năng",
+                    "reduced_motion": "Giảm Các Hoạt Ảnh Chuyển Động",
+                    "descriptions": {
+                        "reduced_motion": "Nếu được bật, các hoạt ảnh và hiệu ứng chuyển động sẽ không được chạy hoặc sẽ ít chạy hơn."
+                    }
                 }
             },
             "actions": {
@@ -460,19 +483,22 @@
                 },
                 "permissions": {
                     "title": "Quyền"
+                },
+                "webhooks": {
+                    "title": "Webhook"
                 }
             },
             "tips": {
                 "languages": {
-                    "a": "Thiếu ngôn ngữ mà bạn muốn?",
-                    "b": "Góp phần vào các bản dịch khác."
+                    "a": "Đang thiếu ngôn ngữ bạn muốn?",
+                    "b": "Hãy giúp chúng tôi bằng cách đóng góp vào các bản dịch."
                 },
                 "sessions": {
-                    "b": "bảo mật tài khoản của bạn bằng việc đổi mật khẩu và dùng Bảo Mật Hai Lớp.",
+                    "b": "bảo mật tài khoản của bạn bằng việc đổi mật khẩu và thiết lập Bảo Mật Hai Lớp.",
                     "a": "Nếu như bạn thấy một phiên không xác định trên danh sách,"
                 },
                 "account": {
-                    "a": "Tìm cách để chỉnh sửa hồ sơ của bạn?",
+                    "a": "Bạn muốn chỉnh sửa hồ sơ của bạn?",
                     "b": "Vào phần cài đặt hồ sơ của bạn."
                 }
             },
@@ -516,7 +542,7 @@
             },
             "modals": {
                 "onboarding": {
-                    "pick": "Chọn tên người dùng mà bạn muốn mọi người có thể nhận ra, nó có thể được thay đổi sau trong cài đặt.",
+                    "pick": "Chọn tên người dùng mà bạn muốn mọi người có thể nhận ra. Bạn có thể thay đổi cài đặt này sau trong phần cài đặt người dùng.",
                     "welcome": "Chào mừng đến với"
                 },
                 "prompt": {
@@ -525,7 +551,7 @@
                     "confirm_leave": "Rời khỏi {{name}}?",
                     "confirm_leave_long": "Bạn sẽ không thể tham gia trừ khi được mời lại.",
                     "confirm_close_dm": "Đóng cuộc trò chuyện với {{name}}?",
-                    "confirm_close_dm_long": "Bạn có thể mở lại sau nhưng nó sẽ biến mất ở cả hai bên.",
+                    "confirm_close_dm_long": "Bạn có thể mở lại sau, nhưng cuộc trò chuyện sẽ biến mất ở cả hai bên người dùng.",
                     "confirm_delete": "Xóa {{name}}?",
                     "confirm_delete_long": "Một khi nó đã bị xoá, không thể khôi phục lại.",
                     "confirm_delete_message_long": "Bạn có chắc chắn muốn xóa nó không?",
@@ -533,7 +559,7 @@
                     "confirm_kick": "Bạn có chắc muốn đuổi {{name}} không?",
                     "confirm_ban": "Bạn đang chuẩn bị cấm {{name}}",
                     "confirm_ban_reason": "Lí Do Cấm",
-                    "unfriend_user": "Xóa {{name}}?",
+                    "unfriend_user": "Hủy kết bạn {{name}}?",
                     "block_user": "Chặn {{name}}?",
                     "block_user_long": "Bạn có chắc muốn chặn {{name}}? Họ cũng sẽ bị xóa khỏi danh sách bạn của bạn.",
                     "silent_leave": "Rời Lặng Lẽ",
@@ -542,7 +568,7 @@
                 "actions": {
                     "leave": "Rời khỏi",
                     "reload": "Tải Lại Ứng Dụng",
-                    "ok": "Ok",
+                    "ok": "OK",
                     "ban": "Cấm",
                     "kick": "Đuổi",
                     "save": "Lưu",
@@ -563,7 +589,8 @@
                     "done": "Đã xong",
                     "reset": "Đặt lại",
                     "confirm": "Xác nhận",
-                    "report": "Báo cáo"
+                    "report": "Báo cáo",
+                    "dont_block": "Không chặn"
                 },
                 "error": "Đã xảy ra lỗi!",
                 "clipboard": {
@@ -596,7 +623,7 @@
                     "description": "Bạn cần phải cập nhật ứng dụng để tương thích với những cập nhật gần đây.",
                     "ignore": "Bỏ qua bản cập nhật",
                     "attempting": "Đang cập nhật…",
-                    "version": "Ứng dụng của bạn là phiên bản {{client}}, nhưng máy chủ yêu cầu {{server}}."
+                    "version": "Ứng dụng của bạn đang ở phiên bản {{client}}, nhưng máy chủ yêu cầu {{server}}."
                 },
                 "changelogs": {
                     "older": "Xem các cập nhật cũ hơn",
@@ -607,7 +634,7 @@
                 "mfa": {
                     "recovery_codes": "Mã khôi phục của bạn",
                     "save_codes": "Hãy lưu chúng ở nơi an toàn.",
-                    "confirm": "Hãy xác nhận sử dụng phương thức đã chọn.",
+                    "confirm": "Hãy xác nhận hành động này bằng cách sử dụng các phương thức sau.",
                     "select_method": "Hãy chọn một phương thức để xác thực yêu cầu của bạn.",
                     "enable_totp": "Dùng ứng dụng xác thực",
                     "enter_code": "Nhập Mã",
@@ -622,11 +649,20 @@
                     "content_reason": {
                         "Illegal": "Nội dung vi phạm một hoặc nhiều luật",
                         "Malware": "Đây là phần mềm độc hại",
-                        "SpamAbuse": "Đây là tin nhắn spam hoặc lợi dụng nền tảng"
+                        "SpamAbuse": "Đây là tin nhắn spam hoặc lợi dụng nền tảng",
+                        "PromotesHarm": "Nội dung quảng bá việc gây hại người khác hay cho bản thân",
+                        "Harassment": "Đây là hành vi quấy rối hoặc lạm dụng nhắm vào người dùng khác"
                     },
                     "reported": "Đã báo cáo",
                     "block_user": "Bạn có muốn chặn người dùng này không?",
-                    "thank_you": "Cảm ơn bạn đã góp sức giữ Revolt an toàn. Chúng tôi sẽ xem xét báo cáo của bạn sớm nhất có thể."
+                    "thank_you": "Cảm ơn bạn đã góp sức giữ Revolt an toàn. Chúng tôi sẽ xem xét báo cáo của bạn sớm nhất có thể.",
+                    "user_reason": {
+                        "SpamAbuse": "Người dùng đang gửi tin nhắn rác hoặc đang lạm dụng nền tảng",
+                        "InappropriateProfile": "Hồ sơ của người dùng không phù hợp với đối tượng chung",
+                        "Underage": "Người dùng này chưa đủ tuổi để có tài khoản",
+                        "Impersonation": "Người dùng này đang mạo danh người khác",
+                        "BanEvasion": "Người dùng này đang trốn tránh lệnh cấm"
+                    }
                 }
             },
             "popovers": {
@@ -647,7 +683,7 @@
                     "badges": {
                         "translator": "Phiên dịch viên",
                         "supporter": "Người hỗ trợ dự án",
-                        "responsible_disclosure": "Đã có trách nhiệm báo lỗi nghiêm trọng",
+                        "responsible_disclosure": "Đã Có Trách Nhiệm Thông Báo Các Vấn Đề Bảo Mật",
                         "early_adopter": "Người hỗ trợ từ những ngày đầu",
                         "moderation": "Điều hành nền tảng",
                         "founder": "Nhà sáng lập"
@@ -671,7 +707,7 @@
                 "invited_by": "Được mời bỏi {{user}}",
                 "login": "Đăng nhập vào Revolt",
                 "invalid": "Lời mời không hợp lệ!",
-                "invalid_desc": "Lời mời không tồn tại hoặc bạn không có quyền tham gia.",
+                "invalid_desc": "Lời mời không tồn tại, hoặc bạn không có quyền tham gia.",
                 "accept": "Chấp nhận lời mời",
                 "user_count": "{{member_count}} người"
             },
@@ -732,7 +768,10 @@
             "create_invite": "Tạo lời mời",
             "quote_message": "Trích dẫn tin nhắn",
             "mark_unread": "Đánh dấu là chưa đọc",
-            "make_owner": "Trao quyền sở hữu nhóm"
+            "make_owner": "Trao quyền sở hữu nhóm",
+            "report_user": "Báo cáo người dùng",
+            "report_server": "Báo cáo server",
+            "report_message": "Báo cáo tin nhắn"
         },
         "permissions": {
             "required": "Yêu cầu quyền"
@@ -822,7 +861,7 @@
         },
         "ManageRole": {
             "t": "Quản Lí Vai Trò",
-            "d": "Cho phép các thành viên tạo, chỉnh sửa và xóa các vai trò có thứ hạng thấp hơn họ. Đồng thời cho phép họ sửa đổi quyền vai trò trên các kênh."
+            "d": "Cho phép các thành viên tạo, chỉnh sửa và xóa các vai trò có thứ hạng thấp hơn họ, và sửa đổi quyền vai trò trên các kênh."
         },
         "ViewChannel": {
             "t": "Xem Kênh",
@@ -900,7 +939,7 @@
         "AlreadyFriends": "Đã kết bạn với người dùng này.",
         "InvalidSession": "Phiên không hợp lệ.",
         "InvalidCredentials": "Email hoặc mật khẩu không đúng.",
-        "UsernameTaken": "Tên người dùng đã được lấy.",
+        "UsernameTaken": "Tên người dùng đó đã được sử dụng.",
         "NoEffect": "Yêu cầu này không có hiệu lực.",
         "TooShort": "Quá ngắn",
         "BlockedOther": "Người dùng này đã chặn bạn.",
@@ -910,7 +949,7 @@
         "FailedToReceive": "Máy chủ không nhận được tập tin của bạn.",
         "MissingData": "Yêu cầu bị thiếu dữ liệu.",
         "UnsupportedBrowser": "Trình duyệt bạn đang dùng không hỗ trợ tính năng này.",
-        "DeniedNotification": "Bạn đã từ chối quyền truy cập thông báo, xem lại phần cài đặt cho trang này.",
+        "DeniedNotification": "Bạn đã từ chối quyền truy cập thông báo. Hãy xem lại phần cài đặt cho trang này.",
         "Unauthorized": "Không có quyền.",
         "DatabaseError": "Lỗi cơ sở dữ liệu.",
         "InternalError": "Lỗi hệ thống.",
@@ -922,12 +961,13 @@
         "Unlabelled": "Chuyện gì đó đã xảy ra.",
         "IoError": "Máy chủ đã gặp lỗi I/O.",
         "FailedValidation": "Không xác thực được các mục.",
-        "AudioPermissionBlock": "Không thể truy cập vào microphone của bạn, vui lòng kiểm tra cài đặt trình duyệt của bạn.",
+        "AudioPermissionBlock": "Không thể truy cập vào microphone của bạn. Vui lòng kiểm tra cài đặt trình duyệt của bạn.",
         "UnknownUser": "Người dùng không xác định.",
         "AlreadyOnboarded": "Đã hoàn thành giới thiệu.",
         "MissingHeaders": "Bạn đang thiếu tiêu đề.",
         "ProbeError": "Thất bại trong việc lấy thông tin của tệp.",
-        "RenderFail": "Xuất ra bản mẫu thất bại."
+        "RenderFail": "Xuất ra bản mẫu thất bại.",
+        "DiscriminatorChangeRatelimited": "Quá nhiều thay đổi tag (số phân biệt)."
     },
     "notifications": {
         "now_friends": "Bạn đã trở thành bạn với @{{person}}!",
@@ -952,6 +992,10 @@
         "members": {
             "one": "1 thành viên",
             "many": "{{count}} thành viên"
+        },
+        "dropFiles": {
+            "one": "Thả tệp tin",
+            "many": "Thả {{count}} tệp tin"
         }
     },
     "actions": {
