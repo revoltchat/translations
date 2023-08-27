@@ -27,8 +27,8 @@
         "reset": "Restablecer contraseña",
         "create": "Crea una cuenta nueva",
         "cancel": "Cancelar solicitud",
-        "email_delay": "Por favor, espera. El correo puede tardar hasta 10 minutos en llegar.",
-        "check_spam": "Si no lo encuentras, comprueba la carpeta de correo no deseado",
+        "email_delay": "Te hemos enviado un correo de verificación. Sé paciente, podría demorar hasta 10 minutos en llegar a tu bandeja de entrada.",
+        "check_spam": "Por favor, revisa tu bandeja de correo no deseado si no logras encontrarlo",
         "title": "Iniciar sesión",
         "welcome": "¡Te damos la bienvenida!",
         "subtitle": "Iniciar sesión en Revolt",
@@ -244,10 +244,12 @@
                         "two_factor_off": "¡No has activado la autenticación de dos factores!"
                     },
                     "manage": {
-                        "description": "Si lo deseas, puedes deshabilitar o eliminar tu cuenta en cualquier momento. Esta acción cerrará tu sesión y borrará completamente tu cuenta, incluyendo tu historial de chat y tus amistades.",
+                        "description": "En cualquier momento, puedes desactivar o eliminar tu cuenta. Ambas acciones te desconectarán de tus sesiones activas.",
                         "delete": "Marcar cuenta para eliminación",
                         "title": "Gestión de cuenta",
-                        "disable": "Deshabilitar cuenta"
+                        "disable": "Deshabilitar cuenta",
+                        "disable_description": "No podrás acceder a tu cuenta a menos que te pongas en contacto con el soporte; sin embargo, tus datos no serán eliminados.",
+                        "delete_description": "Tu cuenta y todos tus datos (incluyendo tus mensajes y lista de amigos) serán puestos en cola para su eliminación. Se enviará un correo electrónico de confirmación; podrás cancelarlo en un plazo de 7 días poniéndote en contacto con el soporte."
                     },
                     "title": "Mi cuenta",
                     "change_field": "Cambiar",
@@ -272,7 +274,7 @@
                 },
                 "audio": {
                     "title": "Ajustes de voz",
-                    "tip_retry": "No has dado permiso para acceder a tu micrófono, por favor {{retryBtn}} para intentarlo nuevamente.",
+                    "tip_retry": "No has otorgado permiso a Revolt para acceder a tu micrófono. Por favor, {{retryBtn}} para intentarlo nuevamente.",
                     "button_retry": "reintentar",
                     "input_device": "Micrófono",
                     "output_device": "Altavoz / Auriculares",
@@ -293,9 +295,9 @@
                     },
                     "appearance_options": {
                         "title": "Opciones de apariencia",
-                        "show_account_age_desc": "Si está deshabilitado, la antigüedad de una cuenta solo se mostrará para los usuarios nuevos.",
+                        "show_account_age_desc": "Si esto se desactiva, la antigüedad de la cuenta solo se mostrará para usuarios nuevos.",
                         "show_send": "Mostrar siempre el botón de enviar mensaje",
-                        "show_send_desc": "Si está deshabilitado, el botón de enviar mensaje solo aparecerá en dispositivos móviles.",
+                        "show_send_desc": "Si esto se desactiva, el botón de «enviar mensaje» solo aparecerá en dispositivos móviles.",
                         "show_account_age": "Mostrar siempre la antigüedad de una cuenta junto a los mensajes de unión"
                     },
                     "theme_options": {
@@ -304,7 +306,7 @@
                         "transparency": "Efectos de transparencia",
                         "transparency_desc": "Activa los efectos de transparencia en toda la aplicación.",
                         "title": "Opciones de tema",
-                        "follow_desc": "Si lo seleccionas, no podrás cambiar tu tema ni usar un tema personalizado.",
+                        "follow_desc": "Si esto se activa, no podrás cambiar tu tema ni usar un tema personalizado.",
                         "seasonal": "Tema estacional"
                     },
                     "theme_data": "Datos de tema",
@@ -368,7 +370,7 @@
                     "options": "Opciones de sincronización",
                     "categories": "Sincronizar categorías",
                     "descriptions": {
-                        "appearance": "Esto sincronizará opciones como los paquetes de emojis y la densidad de mensajes.",
+                        "appearance": "Esto sincronizará las opciones de apariencia, como el paquete de emojis elegido y la densidad de mensajes.",
                         "theme": "Esto sincronizará tu tema elegido, los colores y cualquier CSS personalizado.",
                         "locale": "Esto sincronizará tu idioma actualmente seleccionado."
                     },
@@ -382,20 +384,20 @@
                 "plugins": {
                     "no_plugins": "No hay extensiones instaladas.",
                     "title": "Extensiones",
-                    "wip": "Advertencia: Esta función aún está en desarrollo.",
+                    "wip": "Advertencia: esta función aún está en desarrollo.",
                     "delete_plugin": "Eliminar"
                 },
                 "bots": {
                     "unique_id": "Este es el código de identificación exclusivo de tu bot. Recuerda que esto no es el token de tu bot.",
                     "profile": "Perfil del bot",
-                    "public_bot_desc": "Permitir o no que otras personas inviten a este bot.",
+                    "public_bot_desc": "Si esto se activa, otros usuarios pueden agregar este bot a servidores y conversaciones en grupo.",
                     "title": "Mis bots",
                     "create_bot": "Crear un bot",
                     "copy_invite": "Copiar enlace de invitación",
                     "add": "Añadir bot",
                     "token": "Token",
-                    "public_bot_tip": "Este bot es público, lo que significa que cualquier persona puede invitarlo.",
-                    "private_bot_tip": "Este bot es privado, lo que significa que solo tú puedes invitarlo.",
+                    "public_bot_tip": "Este bot es público. Cualquier persona puede invitarlo.",
+                    "private_bot_tip": "Este bot es privado. Solo tú puedes invitarlo.",
                     "public_bot": "Bot público",
                     "interactions_url": "URL de interacciones",
                     "reserved": "Nota: este campo está reservado para el futuro."
@@ -433,7 +435,14 @@
                     "title": "Donar"
                 },
                 "source_code": "Código fuente",
-                "logOut": "Cerrar sesión"
+                "logOut": "Cerrar sesión",
+                "accessibility": {
+                    "title": "Accesibilidad",
+                    "reduced_motion": "Reducción de movimiento",
+                    "descriptions": {
+                        "reduced_motion": "Si esto se activa, las animaciones y efectos de movimiento no se reproducirán o serán menos intensos."
+                    }
+                }
             },
             "title": "Ajustes",
             "actions": {
@@ -502,11 +511,11 @@
                     "b": "Ayúdanos a agregar más traducciones."
                 },
                 "sessions": {
-                    "b": "asegura tu cuenta cambiando tu contraseña y activando la autenticación de dos factores (2FA).",
+                    "b": "protege tu cuenta cambiando tu contraseña y activando la autenticación de dos factores (2FA).",
                     "a": "Si ves una sesión desconocida en la lista,"
                 },
                 "account": {
-                    "a": "¿Deseas hacer tu perfil público más tuyo?",
+                    "a": "¿Quieres hacer tu perfil público más tuyo?",
                     "b": "Dirígete a los ajustes de tu perfil."
                 }
             },
@@ -556,7 +565,7 @@
                 },
                 "token_reveal": "Token de {{name}}",
                 "onboarding": {
-                    "pick": "Escoge un nombre de usuario que te gustaría que la gente use para encontrarte, recuerda que puedes cambiarlo más tarde en ajustes.",
+                    "pick": "Elige un nombre de usuario con el que quieras que te encuentren. Esto se puede cambiar más adelante en los ajustes.",
                     "welcome": "Te damos la bienvenida a"
                 },
                 "prompt": {
@@ -568,7 +577,7 @@
                     "unfriend_user_long": "Es posible que no le puedas volver a hablar hasta que lo vuelvas a añadir.",
                     "block_user_long": "¿Estás seguro de querer bloquear a {{name}}? Recuerda que también se eliminará de tu lista de amigos.",
                     "confirm_close_dm": "¿Cerrar conversación con {{name}}?",
-                    "confirm_close_dm_long": "Puedes reabrirla más tarde, pero ten en cuenta que desaparecerá de ambos lados.",
+                    "confirm_close_dm_long": "Puedes volver a abrirlo más tarde, pero desaparecerá en ambos lados.",
                     "confirm_delete_message_long": "¿Estás seguro de querer eliminar esto?",
                     "create_invite_generate": "Generando invitación…",
                     "create_invite_created": "Este es tu nuevo código de invitación:",
@@ -583,9 +592,9 @@
                     "select_method": "Por favor, selecciona un método para autenticar tu solicitud.",
                     "recovery_codes": "Tus códigos de recuperación",
                     "save_codes": "Por favor, guardarlos en un lugar seguro.",
-                    "confirm": "Por favor, confirma utilizando el método seleccionado.",
+                    "confirm": "Por favor, confirma esta acción utilizando el método seleccionado.",
                     "enable_totp": "Habilitar aplicación de autenticación",
-                    "prompt_totp": "Por favor, escanea el siguiente código o ingresa el token en tu aplicación de autenticación.",
+                    "prompt_totp": "Por favor, escanea o utiliza el código a continuación en tu aplicación de autenticación.",
                     "enter_code": "Ingresa el código"
                 },
                 "changelogs": {
@@ -597,7 +606,7 @@
                     "description": "Debe actualizarse para que funcione con los cambios recientes.",
                     "attempting": "Intentando actualizar…",
                     "title": "¡Tu cliente está desactualizado!",
-                    "version": "Tu cliente está en {{client}}, mientras que el servidor requiere {{server}}.",
+                    "version": "Tu cliente está en {{client}}, pero el servidor requiere {{server}}.",
                     "ignore": "Ignorar actualización"
                 },
                 "external_links": {
@@ -813,7 +822,7 @@
         "Unavailable": "No disponible.",
         "FileTooLarge": "El archivo es demasiado grande.",
         "FailedToReceive": "El servidor no pudo recibir tu archivo.",
-        "DeniedNotification": "Denegaste los permisos para el envío de notificaciones, revisa la configuración de la página.",
+        "DeniedNotification": "Denegaste el acceso a las notificaciones. Verifica los ajustes de la página.",
         "NetworkError": "Error de conexión.",
         "Unlabelled": "Algo ocurrió.",
         "DatabaseError": "Error en la base de datos.",
@@ -874,7 +883,7 @@
         },
         "ManageRole": {
             "t": "Gestionar roles",
-            "d": "Permite a los miembros crear, editar y eliminar roles de menor rango que el suyo. También les permite modificar los permisos de los roles en los canales."
+            "d": "Permite a los miembros crear, editar y eliminar roles con un rango inferior al suyo, y modificar los permisos de roles en los canales."
         },
         "ManageCustomisation": {
             "t": "Gestionar personalización",
