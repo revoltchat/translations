@@ -173,9 +173,11 @@
                     },
                     "manage": {
                         "title": "Administración de la cuenta",
-                        "description": "Deshabilita o elimina tu cuenta en cualquier momento. Esta acción cerrará tu sesión y borrará por completo tu cuenta, incluyendo tu historial de chat y amigos.",
+                        "description": "Deshabilita o elimina tu cuenta en cualquier momento. Ambas acciones cerrarán sesión en tus sesiones activas.",
                         "disable": "Deshabilitar cuenta",
-                        "delete": "Marcar cuenta para eliminación"
+                        "delete": "Marcar cuenta para eliminación",
+                        "disable_description": "No podrás acceder a tu cuenta a menos que te pongas en contacto con el soporte - sin embargo, tus datos no serán eliminados.",
+                        "delete_description": "Tu cuenta y todos tus datos (incluyendo mensajes y lista de amigos) serán puestos en cola para eliminación. Se te enviará un correo de confirmación - puedes canelar esta acción poniéndote en contacto con el soporte en un plazo de 7 días."
                     }
                 },
                 "donate": {
@@ -255,7 +257,7 @@
                     "ligatures_desc": "En los tipos de letra compatibles, las ligaduras combinan caracteres, por ejemplo, convirtiendo -> en una flecha.",
                     "import": "Importar un tema",
                     "theme_options": {
-                        "follow_desc": "Cuando esté marcada, no podrás cambiar el tema ni usar un tema personalizado.",
+                        "follow_desc": "Si esto está activado, no podrás cambiar el tema ni usar un tema personalizado.",
                         "seasonal": "Tema estacional",
                         "seasonal_desc": "Mostrar efectos en la pestaña de inicio durante las temporadas festivas.",
                         "follow": "Seguir el tema del sistema",
@@ -270,9 +272,9 @@
                     "appearance_options": {
                         "title": "Opciones de apariencia",
                         "show_send": "Mostrar siempre el botón de enviar mensaje",
-                        "show_send_desc": "Si está deshabilitado, el botón de enviar mensaje solo aparecerá en dispositivos móviles.",
+                        "show_send_desc": "Si esto está desactivado, el botón de enviar mensaje solo aparecerá en dispositivos móviles.",
                         "show_account_age": "Mostrar siempre la antigüedad de una cuenta junto a los mensajes de entrada",
-                        "show_account_age_desc": "Si se deshabilita, la antigüedad de la cuenta solo se mostrará para los nuevos usuarios."
+                        "show_account_age_desc": "Si esto está desactivado, la antigüedad de la cuenta solo se mostrará para los nuevos usuarios."
                     },
                     "colours": {
                         "title": "Colores"
@@ -293,7 +295,7 @@
                     "title": "Sincronizar",
                     "descriptions": {
                         "theme": "Esto sincronizará el tema elegido, los colores y cualquier CSS personalizado.",
-                        "appearance": "Esto sincronizará opciones como los paquetes de emoji y la densidad de los mensajes.",
+                        "appearance": "Esto sincronizará opciones de apariencia como los paquetes de emojis y la densidad de los mensajes.",
                         "locale": "Esto sincronizará el idioma elegido actualmente."
                     },
                     "categories": "Sincronizar categorías",
@@ -315,13 +317,13 @@
                     "create_bot": "Crear un bot",
                     "add": "Agregar bot",
                     "token": "Token",
-                    "public_bot_tip": "El bot es público. Cualquiera puede invitarlo.",
-                    "private_bot_tip": "El bot es privado. Solo tú puedes invitarlo.",
+                    "public_bot_tip": "Este bot es público. Cualquier usuario puede invitarlo.",
+                    "private_bot_tip": "Este bot es privado. Solo tú puedes invitarlo.",
                     "public_bot": "Bot público",
                     "interactions_url": "URL de interacciones",
                     "reserved": "Nota: este campo está reservado para el futuro.",
                     "copy_invite": "Copiar enlace de invitación",
-                    "public_bot_desc": "Permitir o no que otros usuarios inviten a este bot.",
+                    "public_bot_desc": "Si está activado, otros usuarios pueden agregar este bot a servidores y grupos de mensajes.",
                     "unique_id": "Este es un identificador único para tu bot. No es el token del bot.",
                     "profile": "Perfil del bot"
                 },
@@ -334,7 +336,7 @@
                     "input_device": "Micrófono",
                     "device_label_NA": "No disponible",
                     "button_retry": "reintentar",
-                    "tip_retry": "No has dado permiso para acceder a tu micrófono, por favor {{retryBtn}}.",
+                    "tip_retry": "No has dado permisos a Revolt para acceder a tu micrófono. Por favor, {{retryBtn}}.",
                     "tip_grant_permission": "Debes dar permiso para acceder a los ajustes de audio.",
                     "button_grant": "Conceder permiso"
                 },
@@ -533,7 +535,7 @@
             "modals": {
                 "onboarding": {
                     "welcome": "Bienvenido a",
-                    "pick": "Elige un nombre de usuario por el cual quieres que la gente pueda encontrarte, puedes cambiarlo más tarde desde la configuración."
+                    "pick": "Elige un nombre de usuario por el cual quieres que la gente pueda encontrarte. Puedes cambiarlo más tarde desde la configuración."
                 },
                 "account": {
                     "failed": "¡Se ha producido un error al guardar los cambios!",
@@ -612,10 +614,10 @@
                 "mfa": {
                     "recovery_codes": "Tus códigos de recuperación",
                     "save_codes": "Guárdalos en un lugar seguro.",
-                    "confirm": "Por favor, confirme utilizando el método seleccionado.",
+                    "confirm": "Por favor, confirma esta acción utilizando el método seleccionado.",
                     "select_method": "Por favor, seleccione un método para autenticar su solicitud.",
                     "enable_totp": "Habilitar aplicación de autenticación",
-                    "prompt_totp": "Escanee o use el token en su aplicación de autenticación.",
+                    "prompt_totp": "Escanea o usa el código en tu aplicación de autenticación.",
                     "enter_code": "Introducir el código"
                 },
                 "out_of_date": {
@@ -623,7 +625,7 @@
                     "attempting": "Intentando actualizar…",
                     "title": "¡Tu cliente está desactualizado!",
                     "description": "Debe actualizarse para que funcione con los cambios recientes.",
-                    "version": "Su cliente está en {{client}}, mientras que el servidor requiere {{server}}."
+                    "version": "Tu cliente está en {{client}}, mientras que el servidor necesita {{server}}."
                 },
                 "changelogs": {
                     "title": "Registro de cambios",
@@ -736,7 +738,7 @@
             "donate": "Donar a Revolt",
             "feedback": "Danos tu opinión sobre Revolt",
             "settings": "Abrir ajustes",
-            "settings-tooltip": "También puedes hacer clic derecho en el icono de usuario en la parte superior izquierda, o hacer clic izquierdo si ya estás en la página de inicio",
+            "settings-tooltip": "También puedes hacer clic derecho en el icono de usuario en la parte superior izquierda, o hacer clic izquierdo si ya estás en la página de inicio.",
             "social": "Buscar servidores y bots",
             "directs": "Mensajes Directos",
             "join-testers_desc": "Puedes informar sobre problemas y comentarnos tus sugerencias aquí.",
@@ -786,7 +788,7 @@
         "invite": "Código de invitación",
         "username": "Nombre de usuario",
         "register": "Registrarse",
-        "email_delay": "El correo puede tardar hasta 10 minutos en llegar, por favor se paciente si no lo encuentras.",
+        "email_delay": "Te hemos enviado un correo de verificación. Puede tardar hasta 10 minutos en llegar, por favor sé paciente si no lo encuentras.",
         "welcome": "¡Bienvenido!",
         "subtitle": "Iniciar sesión en Revolt",
         "welcome2": "¡Hola!",
@@ -851,7 +853,7 @@
         "UsernameTaken": "Este nombre de usuario ya está en uso.",
         "InvalidEmail": "Dirección de correo electrónico inválida",
         "UnsupportedBrowser": "Tu navegador no soporta esta característica.",
-        "DeniedNotification": "Has denegado los permisos para el envío de notificaciones, comprueba la configuración de la página.",
+        "DeniedNotification": "Has denegado los permisos para el envío de notificaciones. Comprueba la configuración de la página.",
         "RenderFail": "La renderización de la plantilla falló.",
         "EmailInUse": "Correo electrónico en uso.",
         "EmailFailed": "No se ha podido enviar el correo electrónico.",
@@ -881,7 +883,7 @@
         "Unavailable": "No disponible.",
         "CompromisedPassword": "Esta contraseña está comprometida.",
         "ReachedMaximumBots": "Has alcanzado la cantidad máxima de bots.",
-        "AudioPermissionBlock": "No hay acceso a tu micrófono, por favor comprueba la configuración de tu navegador.",
+        "AudioPermissionBlock": "No hay acceso a tu micrófono. Por favor, comprueba la configuración de tu navegador.",
         "DiscriminatorChangeRatelimited": "Demasiados cambios de tag."
     },
     "permissions": {
@@ -951,7 +953,7 @@
         },
         "ManageRole": {
             "t": "Administrar roles",
-            "d": "Permite a los miembros crear, editar y eliminar roles inferiores al suyo. También les permite modificar los permisos de los roles en los canales."
+            "d": "Permite a los miembros crear, editar y eliminar roles inferiores al suyo y modificar los permisos de los roles en los canales."
         },
         "ViewChannel": {
             "d": "Permite a los miembros ver cualquier canal en el que tengan este permiso.",
