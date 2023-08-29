@@ -300,10 +300,10 @@
                 },
                 "bots": {
                     "public_bot_tip": "Bot be public. Anyone can invite it.",
-                    "public_bot_desc": "Whether t' allow other users t' invite dis bot.",
+                    "public_bot_desc": "Whether t' allow other users t' invite dis Landlubber.",
                     "reserved": "Note: Dis field be reserved fer thar future.",
-                    "title": "Me Bots",
-                    "private_bot_tip": "Bot be private. Only ye can invite it.",
+                    "title": "Me Landlubbers",
+                    "private_bot_tip": "Landlubber be private. Only ye can invite it.",
                     "unique_id": "Dis be a unique identifier fer yer bot. Dis be nay thar bot's token.",
                     "add": "Bringin' Landlubber",
                     "interactions_url": "Intaractions URL",
@@ -354,7 +354,7 @@
                     "search": "Search app looks…",
                     "by": "by",
                     "active": "Aye, in action",
-                    "use": "Hoist the colors!"
+                    "use": "Hoist the colors"
                 },
                 "plugins": {
                     "wip": "Danger: Ye' feature still be handcrafted.",
@@ -509,6 +509,10 @@
                 "server_identity": {
                     "nickname": "Alias",
                     "title": "Shift yer disguise aboard {{server}}"
+                },
+                "create_bot": {
+                    "title": "Forge a new Landlubber",
+                    "failed": "Failed to craft a Landlubber!"
                 }
             },
             "friends": {
@@ -619,7 +623,8 @@
                         "Impersonation": "This scallywag be impersonatin' another matey",
                         "BanEvasion": "This user be tryin' to evade a ban",
                         "SpamAbuse": "This user be spammin' or abusin' the platform",
-                        "Underage": "This young swashbuckler be not old enough to be sailing these waters"
+                        "Underage": "This young swashbuckler be not old enough to be sailing these waters",
+                        "InappropriateProfile": "This scallywag's log be not fit for all to see"
                     },
                     "thank_you": "Arrr, thank ye fer helpin' to keep Revolt safe me matey. We'll be reviewin' yer report as soon as we can set sail.",
                     "additional_context": "Extra Intel",
@@ -725,23 +730,28 @@
     },
     "permissions": {
         "ChangeNickname": {
-            "t": "Change ye crew name"
+            "t": "Change ye crew name",
+            "d": "Lets the crew alter their shipboard alias on this vessel."
         },
         "InviteOthers": {
             "t": "Invite Others to the Ship",
             "d": "Tarr can hire 'ands!"
         },
         "UploadFiles": {
-            "t": "Share ye booty!"
+            "t": "Share ye booty!",
+            "d": "Lets the crew share their plunder in the parchment scrolls."
         },
         "SendMessage": {
-            "t": "Sail, Ho!"
+            "t": "Sail, Ho!",
+            "d": "Lets the crew fire off messages in the parchment scrolls."
         },
         "Masquerade": {
-            "t": "Be lyin'"
+            "t": "Be lyin'",
+            "d": "Lets the crew alter their alias and portrait for each message."
         },
         "ViewChannel": {
-            "t": "View Board"
+            "t": "View Board",
+            "d": "Lets the crew spy on any boards they have the liberty to sail."
         },
         "MoveMembers": {
             "d": "Allows crew members to travel others between ye' pirate ships."
@@ -750,10 +760,12 @@
             "t": "Anchor"
         },
         "ManageNicknames": {
-            "t": "Manage Ye' Sea Name"
+            "t": "Manage Ye' Sea Name",
+            "d": "Lets the crew rename their shipmates."
         },
         "ChangeAvatar": {
-            "t": "Change Pirate Looks"
+            "t": "Change Pirate Looks",
+            "d": "Lets the crew switch their portrait on this vessel."
         },
         "RemoveAvatars": {
             "d": "Allow 'em pirates to remove server looks o' pirates on this ship.",
@@ -767,7 +779,8 @@
             "d": "Lets the crew craft, adjust, and scuttle emoticons."
         },
         "KickMembers": {
-            "t": "Make 'em Walk the Plank"
+            "t": "Make 'em Walk the Plank",
+            "d": "Grants the crew the power to cast out shipmates from this vessel. Those cast adrift may return with a summons."
         },
         "ManageChannels": {
             "t": "Command the Boards",
@@ -778,7 +791,38 @@
             "t": "Captain the Ship"
         },
         "ManageRole": {
-            "t": "Command Positions"
+            "t": "Command Positions",
+            "d": "Lets the crew fashion, tweak, and scuttle ship positions of lesser rank, and adjust their sway over the boards."
+        },
+        "BanMembers": {
+            "d": "Empowers the crew to cast shipmates adrift from this vessel for good."
+        },
+        "TimeoutMembers": {
+            "d": "Permits the crew to temporarily maroon users, barring them from partaking in the ship's affairs."
+        },
+        "AssignRoles": {
+            "d": "Lets the crew bestow ship positions of lower order upon their shipmates."
+        },
+        "ManageChannel": {
+            "d": "Gives the crew the power to adjust or scuttle a board."
+        },
+        "Video": {
+            "d": "Gives the crew the power to project moving pictures in a voice tavern."
+        },
+        "MuteMembers": {
+            "d": "Lets the crew shush their shipmates in a voice tavern."
+        },
+        "DeafenMembers": {
+            "d": "Grants the crew the power to render their shipmates mute in a voice tavern."
+        },
+        "ReadMessageHistory": {
+            "d": "Grants the crew access to the scrollings of this channel's past."
+        },
+        "ManageMessages": {
+            "d": "Lets the crew clear messages from their shipmates."
+        },
+        "SendEmbeds": {
+            "d": "Gives the crew the freedom to share embedded treasures, be it from links or crafted parchment scrolls."
         }
     },
     "notifications": {
