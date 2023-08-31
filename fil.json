@@ -231,7 +231,9 @@
                         "delete": "Markahan ang account para sa pagbura",
                         "title": "Pangangasiwa ng Kwenta",
                         "disable": "Ilingan ang kwenta",
-                        "description": "Ilingan o tanggalin ang iyong kwenta kailanman. Itong aksyon ay magla-logout at magbubura ng iyong kwenta, kabilang riyan ang iyong kasaysayan ng chat at iyong mga kaibigan."
+                        "description": "Ilingan o burahin ang iyong account kailanman. Ang mga aksyon na ito ay magla-logout ng mga aktibong sesyon.",
+                        "disable_description": "Hindi mo maa-access ang iyong account maliban kung makipag-ugnayan sa support - gayumpaman, hindi mabubura ang iyong data.",
+                        "delete_description": "Ang iyong account at lahat ng iyong data (kabilang ang mga mensahe at listahan ng mga kaibigan) ay ipi-queue para sa pagbura. Magpapadala ito ng email ng kumpirmasyon - maari mo itong kanselahin sa loob ng 7 araw sa pamamagitan ng pakikipag-ugnayan sa support."
                     },
                     "unique_id": "Ito'y isang natatanging identipikador para sa iyong kwenta."
                 },
@@ -248,7 +250,7 @@
                     "title": "Settings sa Boses",
                     "device_label_NA": "N/A",
                     "output_device": "Altabos / Hatinig",
-                    "tip_retry": "Hindi ka nagpahintulot na gamitin ang iyong mikropono, {{retryBtn}}.",
+                    "tip_retry": "Hindi mo binigyan ang Revolt ng pahintulot na gamitin ang iyong mikropono. Mangyaring {{retryBtn}}.",
                     "button_grant": "Payagan",
                     "tip_grant_permission": "Kailangan mong pahintulutan upang magamit ang settings ng audio."
                 },
@@ -282,7 +284,7 @@
                     "ligatures_desc": "Para sa mga suportadong fonte, pinagsasama-sama ng mga ligadura ang mga letra o karakteres; halimbawa, ang -> ay magiging arrow.",
                     "theme_options": {
                         "follow": "Itulad sa tema ng iyong sistema",
-                        "follow_desc": "Kung inaktibá, hindi mo maaaring baguhin ang iyong tema o gumamit ng personal na tema.",
+                        "follow_desc": "Kung nakabukas ito, hindi mo maaaring baguhin ang iyong tema o gumamit ng personal na tema.",
                         "seasonal": "Pana-panahong tema",
                         "seasonal_desc": "Nagpapakita ng mga epekto sa pahina ng panimula kapag panahon ng mga okasyon.",
                         "transparency_desc": "Pinapagana ang transparensya sa kabuuan ng app.",
@@ -297,8 +299,8 @@
                         "show_send": "Palaging i-pakita ang boton ng \"Ipadala ang Mensahe\"",
                         "title": "Opsyones sa hitsura",
                         "show_account_age": "Palaging ipakita ang edad ng account sa tabi ng pag-saling mensahe",
-                        "show_account_age_desc": "Kapag nakapatay, ipapakita lamang ang edad ng account sa mga bagong user.",
-                        "show_send_desc": "Kung hindi gumagana, lalabas lamang ang i-padala ang mensahe button sa mobile."
+                        "show_account_age_desc": "Kung hindi ito nakabukas, ipapakita lamang ang edad ng account sa mga bagong user.",
+                        "show_send_desc": "Kung hindi ito nakabukas, lalabas lamang ang I-padala ang Mensahe na button sa mobile."
                     },
                     "colours": {
                         "title": "Mga Kulay"
@@ -362,12 +364,12 @@
                     "token": "Token",
                     "copy_invite": "Kopyahin ang link ng imbitasyon",
                     "create_bot": "Gumawa ng Bot",
-                    "public_bot_tip": "Ang iyong bot ay pampubliko. Pwede ito ma-imbita ng lahat.",
+                    "public_bot_tip": "Ang bot na ito ay pampubliko. Pwede ito ma-imbita ng lahat.",
                     "public_bot": "Pampublikong Bot",
                     "interactions_url": "Interaksyon sa URL",
-                    "reserved": "Palatanda: Ang patlang na ito ay nakalaan para sa kinabukasan.",
-                    "private_bot_tip": "Ang iyong bot ay pampribado. Ikaw lang ang pwede makapag-imbita nito.",
-                    "public_bot_desc": "Gawing pampubliko at pwede ma-imbita ng mga users ang iyong bot.",
+                    "reserved": "Palatanda: ang patlang na ito ay nakalaan para sa kinabukasan.",
+                    "private_bot_tip": "Ang bot na ito ay pampribado. Ikaw lang ang pwede makapag-imbita nito.",
+                    "public_bot_desc": "Kung ito ay nakabukas, maaaring idagdag ng ibang mga user ang bot na ito sa mga server at mga mensahe ng grupo.",
                     "profile": "Profayl ng Bot"
                 },
                 "sync": {
@@ -375,7 +377,7 @@
                     "categories": "Kategoriya ng Sinkronisasyon",
                     "descriptions": {
                         "locale": "Magiging sinkronisado ang iyong piniling wika.",
-                        "appearance": "Magiging sinkronisado ang mga opsyon katulad ng pakete ng emoji at ang densidad ng mga mensahe.",
+                        "appearance": "Magiging sinkronisado ang mga opsyon ng hitsura, tulad ng iyong piniling pakete ng emoji at ang densidad ng mga mensahe.",
                         "theme": "Magiging sinkronisado ang iyong piniling tema, kulay, at ang iyong sariling CSS."
                     },
                     "options": "Opsyon ng Sinkronisasyon"
@@ -402,9 +404,16 @@
                 },
                 "plugins": {
                     "delete_plugin": "Burahin",
-                    "wip": "Babala: Nasa proseso pa ng pagdedevelop ang feature na ito.",
+                    "wip": "Babala: nasa proseso pa ng pagdedevelop ang feature na ito.",
                     "title": "Mga pangdagdag",
                     "no_plugins": "Walang plugins ang naka-install."
+                },
+                "accessibility": {
+                    "title": "Accessibility",
+                    "reduced_motion": "Pinababa na Paggalaw",
+                    "descriptions": {
+                        "reduced_motion": "Kapag nakabukas ito, ang mga animasyon at mga effect ng paggalaw ay hindi magpe-play o magiging hindi matindi."
+                    }
                 }
             },
             "actions": {
@@ -469,7 +478,7 @@
             },
             "tips": {
                 "account": {
-                    "a": "Nais mo bang palitan ang iyong pampublikong profile?",
+                    "a": "Gusto mo bang palitan ang iyong pampublikong profile?",
                     "b": "Tumungo sa iyong settings ng profile."
                 },
                 "languages": {
@@ -478,7 +487,7 @@
                 },
                 "sessions": {
                     "a": "Kapag may nakita kang kakaibang sesyon sa listahan,",
-                    "b": "I-asegura mo ang iyong account sa pamamagitan ng pagbabago ng iyong password at paggamit ng 2FA."
+                    "b": "I-asegura mo ang iyong account sa pamamagitan ng pagbabago ng iyong password at pag-set up ng 2FA."
                 }
             },
             "permissions": {
@@ -508,9 +517,9 @@
                 "invited_by": "Inimbita ni {{user}}",
                 "login": "Mag-login sa Revolt",
                 "accept": "I-accept ang imbita",
-                "invalid_desc": "Maaring wala o wala kang permiso ng pagsali ang iyong imbita.",
+                "invalid_desc": "Maaring hindi umiiral ang imbita, o wala kang permiso para sumali.",
                 "user_count": "{{member_count}} na katao",
-                "invalid": "Invalid na imbita!"
+                "invalid": "Hindi wasto na imbita!"
             },
             "copy_username": "I-klik para kopyahin ang bansag",
             "copy": "I-klik para kopyahin",
@@ -555,7 +564,7 @@
                     "confirm_close_dm": "I-sarado ang pakikipagusapan kay {{name}}?",
                     "create_invite_generate": "Gumagawa ng pang-imbita…",
                     "confirm_kick": "Gusto mo bang paalisin si {{name}}?",
-                    "confirm_close_dm_long": "Pwede mo ulit itong buksan mamaya pero mawawala ito sa both sides.",
+                    "confirm_close_dm_long": "Pwede mo ulit itong buksan mamaya, pero mawawala ito sa magkabilang panig.",
                     "create_invite_created": "Ito ang iyong panibagong kodigo ng imbitasyon:",
                     "silent_leave": "Umalis nang tahimik",
                     "members_not_notified": "Hindi maaabiso ang mga ibang miyembro"
@@ -595,7 +604,7 @@
                 "token_reveal": "Token ni {{name}}",
                 "onboarding": {
                     "welcome": "Maligayang Pagdating sa",
-                    "pick": "Pumili ng bansag kung saan madali kang makikilala ng tao. Pwede mong baguhin ito mamaya sa mga opsyon."
+                    "pick": "Pumili ng bansag kung saan madali kang makikilala ng tao. Pwede mong baguhin ito mamaya sa mga opsyon ng user."
                 },
                 "account": {
                     "change": {
@@ -611,16 +620,16 @@
                     "ignore": "Huwag pansinin ang update",
                     "title": "Hindi updated ang iyong kliyente!",
                     "description": "Kailangan updated ito para gagana ang mga kasalukuyang pagbabago.",
-                    "version": "Nasa {{client}} ang iyong kliyente, samantalang kinakailangan ng server ang {{server}}."
+                    "version": "Nasa {{client}} ang iyong kliyente, ngunit kinakailangan ng server ang {{server}}."
                 },
                 "mfa": {
                     "enter_code": "Ilagay Ang Kodigo",
                     "select_method": "Pumili ng paraan para i-autentika ang iyong hiling.",
                     "enable_totp": "I-konekta ang autentikador",
-                    "prompt_totp": "Paki-scan o gamitin ang token sa ibaba sa iyong autentikador na app.",
+                    "prompt_totp": "Paki-scan o gamitin ang token sa ibaba sa iyong autenticator app.",
                     "recovery_codes": "Iyong mga kodigo ng pagbawi",
                     "save_codes": "Itago ito sa isang ligtas na lokasyon.",
-                    "confirm": "Paki-kumpirma gamit ang napiling paraan."
+                    "confirm": "Paki-kumpirma ang aksyon na ito gamit ang napiling paraan."
                 },
                 "changelogs": {
                     "title": "Mga Pagbabago",
@@ -724,13 +733,13 @@
         }
     },
     "general": {
-        "on": "On",
+        "on": "Nakabukas",
         "image_by": "Litrato ni/ng",
         "loading": "Naglo-load…",
         "off": "Nakapatay",
         "unavailable": "Hindi available",
         "about": "Tungkol",
-        "tos": "Terms ng Serbisyo",
+        "tos": "Mga Tuntunin ng Serbisyo",
         "privacy": "Patakaran sa Pagkapribado",
         "disabled": "Pinagbawal",
         "learn_more": "Matuto pa"
@@ -745,7 +754,7 @@
             "new_password": "Maglagay ng bagong password."
         },
         "set_password": "Magtakda ng bagong password",
-        "check_spam": "Pakisuri ang spam kapag hindi mo ito makita",
+        "check_spam": "Pakisuri ang iyong spam kapag hindi mo ito makita",
         "current_password": "Kasalukuyang Password",
         "title": "Mag-login",
         "register": "Magrehistro",
@@ -755,7 +764,7 @@
         "invite": "Kodigo ng Imbitasyon",
         "forgot": "Nakalimutan ang iyong password?",
         "reset": "Palitan ang password",
-        "email_delay": "Pakibigyan ito ng hanggang 10 minuto para dumating.",
+        "email_delay": "Nagpadala kami ng verification email. Pakibigyan ito ng hanggang 10 minuto para dumating.",
         "resend": "Muling ipadala ang beripikasyon",
         "cancel": "Ikansela ang hiling",
         "new": "Bago sa Revolt?",
@@ -852,7 +861,7 @@
             "t": "Magbalatkayo"
         },
         "ManageRole": {
-            "d": "Pinapayagan ang mga miyembro na gumawa, i-edit, at tanggalin ang mga roles ng mga may mababang ranko kaysa sa kanila. Pinapayagan rin sila na baguhin ang mga permiso ng mga role sa mga channel.",
+            "d": "Pinapayagan ang mga miyembro na gumawa, i-edit, at tanggalin ang mga roles ng mga may mababang ranko kaysa sa kanila, at baguhin ang mga permiso ng mga role sa mga channel.",
             "t": "I-manage ang mga roles"
         },
         "ViewChannel": {
@@ -860,7 +869,7 @@
             "d": "Bigyan ng permiso ang mga user na makita ang kahit anumang channel na meron silang permiso dito."
         },
         "MuteMembers": {
-            "t": "e-Mute ang mga miyembro",
+            "t": "I-Mute ang mga miyembro",
             "d": "Payagan ang mga miyembro na i-mute ang iba sa isang voice channel."
         },
         "React": {
@@ -945,11 +954,11 @@
         "Blocked": "Binlock mo ang user na ito.",
         "BlockedOther": "Binlock ka ng user na ito.",
         "AlreadySentRequest": "Mayroong request sa user na ito.",
-        "DeniedNotification": "Hindi mo tinanggap ang pag-access sa abiso, tignan mo ang settings ng page.",
+        "DeniedNotification": "Tinanggihan mo ang pag-access sa abiso. Tignan mo ang settings ng page.",
         "FailedToReceive": "Hindi matagumpay ang pagkatanggap ng server ang iyong file.",
         "MissingData": "Walang data sa request.",
         "ProbeError": "Hindi matagumpay ang pagkuha ng metadata sa file.",
-        "AudioPermissionBlock": "Walang permiso sa paggamit ng mikropono, tiganan ang configuration sa iyong browser.",
+        "AudioPermissionBlock": "Walang permiso sa paggamit ng mikropono. Tiganan ang configuration sa iyong browser.",
         "MissingInvite": "Nawawalang code ng pangimbita sa request.",
         "InvalidInvite": "Invalid na code",
         "CompromisedPassword": "Ang password na ito ay compromised.",
