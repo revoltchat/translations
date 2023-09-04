@@ -25,11 +25,11 @@
         "password": "Palabra passe",
         "new_password": "Nuoba Palabra passe",
         "totp": "App de Autenticaçon",
-        "recovery": "Código de Recuperaçoj",
+        "recovery": "Código de Recuperaçon",
         "invite": "Código de Recuperaçon",
         "current_password": "Palabra passe atual",
         "enter": {
-            "username": "Pon l tou nome de outilizador",
+            "username": "Pon l tou nome de outilizador.",
             "email": "Pon l tou email.",
             "password": "Pon la tue Palabra passe.",
             "new_password": "Pon ũa nuoba Palabra passe.",
@@ -46,7 +46,7 @@
         "resend": "Reambiar berificaçon",
         "cancel": "Cancelar pedido",
         "check_mail": "Mira l tou mail!",
-        "open_mail_provider": "Çfechar {{fornecedor}}",
+        "open_mail_provider": "Çfechar {{provider}}",
         "successful_registration": "Registrado cun sucesso!",
         "verifying_account": "Berificando la tue conta…",
         "verified_account": "La tue conta fui berificada!",
@@ -58,7 +58,7 @@
             "verify": "Hoube ũa falha a berificar!"
         },
         "unofficial_instance": "Anstáncia de terceiros.",
-        "username": "Nome de outilizador",
+        "username": "Nome de outelizador",
         "log_out_other": "Salir de todas las outras seçones",
         "missing_verification": "Nun recebiste un email?",
         "email_delay": "Ambiamos un email de berificaçon. Aspere anté 10 minutos pa el chegar fai fabor.",
@@ -155,9 +155,251 @@
                 "misc": {
                     "viewing_old": "Bendo mensaiges bielhas",
                     "jump_present": "Bolber al persente",
-                    "jump_beginning": "Ir pa l percípio"
+                    "jump_beginning": "Ir pa l percípio",
+                    "new_messages": "Nuobas mensaiges zde {{time_ago}}",
+                    "spoiler_attachment": "Spoiler",
+                    "failed_load": "Nun fui possible carregar la mensaige.",
+                    "not_loaded": "Mensaige nun carregada, clica pa ir",
+                    "timed_out": "Stás timed out por {{time}}.",
+                    "blocked_messages": "{{count}} mensaiges bloqueadas",
+                    "blocked_user": "Outelizador Bloqueado",
+                    "sent_multiple_files": "Ambious bários anexos",
+                    "load_file": "Carregar arquivo",
+                    "no_sending": "Nun tenes permisson pa screbir mensaiges neste canal.",
+                    "sent_file": "Ambiou un anexo"
                 },
-                "attached_file": "{{filename}} apegado"
+                "attached_file": "{{filename}} apegado",
+                "nsfw": {
+                    "channel": {
+                        "marked": "Este canal ye cunsidrado NSFW.",
+                        "confirm": "Antrar ne l Canal"
+                    },
+                    "confirm": "You confirmo que tengo pul menos 18 anhos de eidade."
+                },
+                "unknown_user": "<Outelizador Çcoincido>",
+                "edited": "(eiditado)",
+                "bridge": "puonte",
+                "bot": "Robó",
+                "new_to_revolt": "Nuobo al Revolt",
+                "new_to_server": "Nuobo a este serbidor",
+                "team": "Comunicaçon Oufecial",
+                "notifications": {
+                    "default": "Outelizar Default",
+                    "all": "Todas las Mensaiges",
+                    "mention": "Solo Amentas",
+                    "none": "Ningun",
+                    "muted": "Mutado"
+                },
+                "search": {
+                    "title": "Apercurar",
+                    "sort": {
+                        "relevance": "Relebáncia",
+                        "latest": "Radadeiros",
+                        "oldest": "Más bielhos"
+                    }
+                },
+                "errors": {
+                    "nochannels": "Este serbidor nun ten canales, ó tu nun tenes acesso a ningun.",
+                    "nochannel": "Sien canal",
+                    "title": "Ups, nun hai nadica eiqui!"
+                },
+                "bridged": "Mensaige fui ambiada noutra plataforma",
+                "user_timed_out": "L’outelizador stá timed out por {{time}}."
+            },
+            "groups": {
+                "create": "Criar um grupo",
+                "name": "Nome de l Grupo",
+                "description": "Çcriçon de l Grupo",
+                "owner": "Duonho de l Grupo"
+            },
+            "servers": {
+                "create": "Criar un serbidor",
+                "description": "Çcriçon de l Serbidor",
+                "channel_name": "Nome de l Canal",
+                "channel_type": "Tipo de Canal",
+                "category_name": "Nome de la Categorie",
+                "channel_description": "Çcriçon de Canal",
+                "owner": "Duonho de l Serbidor",
+                "text_channel": "Canal de Testo",
+                "voice_channel": "Canal de Boç",
+                "name": "Nome de l Serbidor",
+                "custom_banner": "Banner Customizado"
+            }
+        },
+        "settings": {
+            "title": "Definiçones",
+            "categories": {
+                "client_settings": "Definiçones de Cliente",
+                "danger_zone": "Zona de Peligro",
+                "user_settings": "Definiçones de Outelizador"
+            },
+            "actions": {
+                "remove": "Remober",
+                "max_filesize": "(mássimo {{filesize}})",
+                "edit": "Eiditar {{name}}",
+                "upload": "Carregar"
+            },
+            "pages": {
+                "account": {
+                    "title": "La mie Conta",
+                    "change_field": "Demudar",
+                    "2fa": {
+                        "title": "Autentificaçon de Dous Fatores",
+                        "description": "Adicionar ũa camada de sigurança extra atibando 2FA na tue conta.",
+                        "view_recovery": "Ber Códigos de Recuperaçon",
+                        "generate_recovery": "Gerar Códigos de Recuperaçon",
+                        "add_auth": "Adicionar Autenticador",
+                        "remove_auth": "Remober Autenticador",
+                        "two_factor_on": "La autenticaçon de Dous Fatores stá atualmente lhigada.",
+                        "two_factor_off": "Tu nun atibaste la autenticaçon de Dous Fatores!",
+                        "view_recovery_long": "Ber i fazer download de ls tous códigos de recuperaçon 2FA.",
+                        "generate_recovery_long": "Purpara-te pa ousar 2FA configurando un modo de recuperaçon."
+                    },
+                    "manage": {
+                        "disable": "Zatibar Conta",
+                        "disable_description": "Nun bais cunseguir acessar la tue conta se nun cuntactares suporte - mas, la tue data nun bai ser apagada.",
+                        "delete": "Marcar la Conta pa ser Apagada",
+                        "title": "Geston de Conta",
+                        "description": "Zatiba ó apaga la tue conta quando quejires. Dambas las açones ban fazer logout nas tues sessones atibas.",
+                        "delete_description": "La tue conta i toda la tue data (ancluindo las tues mensaiges i lhistas de amios) ban star nũa carreira pa ser apagadas. Un email de cunfirmaçon bai ser ambiado - tu puodes cancelar esto por 7 dies cuntactando suporte."
+                    },
+                    "unique_id": "Este ye un eidentificador ounico pa la tue conta."
+                },
+                "profile": {
+                    "info": "Anformaçon",
+                    "fetching": "Apercurando l tou perfil…",
+                    "profile_picture": "Eimaige de Perfil",
+                    "edit_background": "Eiditar Background",
+                    "edit_profile": "Eiditar Perfil",
+                    "title": "Perfil",
+                    "placeholder": "Scribe algũa cousa subre ti…",
+                    "custom_background": "Background Customizado"
+                },
+                "sessions": {
+                    "title": "Sessones",
+                    "this_device": "Este Çpositibo",
+                    "created": "Criado {{time_ago}}",
+                    "logout": "Fazer Logout de todas las outras sessones",
+                    "active_sessions": "Sessones Atibas"
+                },
+                "audio": {
+                    "input_device": "Microfone",
+                    "output_device": "Coluna / Fones",
+                    "tip_grant_permission": "Percisas de dar permisson pa aceder las definiçones de áudio.",
+                    "device_label_NA": "N/A",
+                    "button_retry": "antenta outra beç",
+                    "button_grant": "Dar permisson",
+                    "title": "Definiçones de Boç",
+                    "tip_retry": "Nun deste permisson al Revolt pa acessar l tou microfone. {{retryBtn}} fai fabor."
+                },
+                "appearance": {
+                    "title": "Aparéncia",
+                    "theme": "Tema",
+                    "colours": {
+                        "title": "Quelores"
+                    },
+                    "emoji": {
+                        "title": "Emoji"
+                    },
+                    "fonts": {
+                        "title": "Fontes"
+                    },
+                    "display": {
+                        "default": "Default",
+                        "compact": "Compacto",
+                        "compact_description": "L'ancrible IRC.",
+                        "default_description": "Galano, eilegante i moderno."
+                    },
+                    "discover": {
+                        "title": "Çcobre Temas",
+                        "description": "Apercura por temas fazidos pula quemunidade"
+                    },
+                    "color": {
+                        "light": "lhuziente",
+                        "dark": "scuro"
+                    },
+                    "accent_selector": "Quelor de Assento",
+                    "appearance_options": {
+                        "title": "Oupçones de Aparéncia",
+                        "show_send": "Amostrar siempre l buton de Ambiar Mensaige",
+                        "show_account_age": "Amostrar siempre eidade de conta al lhado de mensaiges de ajuntar",
+                        "show_send_desc": "Se esto stá zatibado, l buton de Ambiar Mensaige solo aparecerá ne l telemóble.",
+                        "show_account_age_desc": "Se esto stá zatibado, la eidade de conta solo bai ser amostrada a nuobos outelizadores."
+                    },
+                    "theme_options": {
+                        "title": "Oupçones de Temas",
+                        "follow": "Seguir l tema de l sistema",
+                        "seasonal": "Tema Sazonal",
+                        "seasonal_desc": "Amostrar efeitos na tab de cas por alturas de l Natal, Halloween, etc.",
+                        "transparency": "Efeitos de Trasparéncia",
+                        "transparency_desc": "Atiba efeitos de trasparéncia pula app.",
+                        "follow_desc": "Se esto stá atibado, tu nun bais cunseguir demudar l tou tema ó ousar un tema customizado."
+                    },
+                    "message_display": "Exibiçon de Mensaiges",
+                    "advanced": "Oupçones Abançadas",
+                    "overrides": "Subreponer de Temas",
+                    "import": "Amportar un tema",
+                    "import_theme": "Amportar tema de string",
+                    "theme_data": "Data de Tema",
+                    "custom_css": "CSS Customizado",
+                    "sync": "Oupçones de Sync",
+                    "mono_font": "Seletor de Fontes Monospace",
+                    "font": "Fonte",
+                    "ligatures": "Ligaduras de Fontes",
+                    "advanced_options": {
+                        "title": "Oupçones Abançadas"
+                    },
+                    "emoji_pack": "Pacote de Emojis",
+                    "reset_overrides": "Reiniciar Subreponeres",
+                    "ligatures_desc": "Pa fontes suportadas, ligaduras cumbinan letras - por eisemplo, tornar -> nũa frecha."
+                },
+                "accessibility": {
+                    "title": "Acessibilidade",
+                    "reduced_motion": "Mobimientaçon Reduzida",
+                    "descriptions": {
+                        "reduced_motion": "Se esto stá atibado, animaçones i efeitos de mobimientaçon quedaran eimaiges ó menos intensos."
+                    }
+                },
+                "notifications": {
+                    "title": "Notificaçones",
+                    "push_notifications": "Notificaçones Push",
+                    "enable_desktop": "Atibar Notificaçones de Desktop",
+                    "enable_push": "Atibar Notificaçones Push",
+                    "sounds": "Sonidos",
+                    "descriptions": {
+                        "enable_desktop": "Se esto stá atibado, bais recebir notificaçones anquanto la app stá lhigada.",
+                        "enable_push": "Se esto stá atibado, tu bais recebir notificaçones quando stás offline."
+                    },
+                    "sound": {
+                        "message": "Mensaige Recebida",
+                        "outbound": "Mensaige Ambiada",
+                        "call_join": "Un Outelizador Ajuntou-se a la Chamada",
+                        "call_leave": "Un Outelizador Saliu da Chamada"
+                    }
+                },
+                "language": {
+                    "select": "Seleciona la tue lhéngua",
+                    "other": "Oupçones de Outras Lhénguas",
+                    "title": "Lhéngua",
+                    "const": "Lhénguas custruídas"
+                },
+                "sync": {
+                    "options": "Oupçones de Sync",
+                    "descriptions": {
+                        "theme": "Esto bai sincronizar l tou tema scolhido, quelores i qualquiera CSS customizado.",
+                        "locale": "Esto bai sincronizar la tue lhéngua atualmente scolhida.",
+                        "appearance": "Esto bai sincronizar las oupçones de aparéncia, cumo l tou pacote de emojis scolhido i densidade de mensaiges."
+                    },
+                    "title": "Sincronizar",
+                    "categories": "Categories de Sync"
+                },
+                "native": {
+                    "title": "Definiçones de Desktop"
+                },
+                "experiments": {
+                    "title": "Sprienças",
+                    "features": "Recursos Çponibles"
+                }
             }
         }
     }
