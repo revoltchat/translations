@@ -43,12 +43,12 @@
         },
         "successful_registration": "Succesvol geregistreerd!",
         "open_mail_provider": "Open {{provider}}",
-        "check_spam": "Controleer de spam folder als u het niet kunt vinden",
+        "check_spam": "Controleer de spamfolder als u deze niet kan vinden.",
         "password": "Wachtwoord",
         "username": "Gebruikersnaam",
         "email": "E-mail",
         "title": "Inloggen",
-        "email_delay": "Het kan tot 10 minuten duren voor het aankomt.",
+        "email_delay": "We hebben je een bevestigings-email verstuurd. Het kan tot 10 minuten duren voor deze aankomt.",
         "subtitle": "Inloggen bij Revolt",
         "welcome2": "Hallo!",
         "subtitle2": "Maak een account aan",
@@ -255,7 +255,7 @@
                     "appearance_options": {
                         "title": "Uiterlijk Opties",
                         "show_send": "Altijd de knop Bericht verzenden weergeven",
-                        "show_send_desc": "Indien uitgeschakeld, verschijnt de knop 'Bericht verzenden' alleen op mobiele-apparaten.",
+                        "show_send_desc": "Indien uitgeschakeld, verschijnt de knop 'Bericht Verzenden' alleen op mobiele apparaten.",
                         "show_account_age_desc": "Indien uitgeschakeld, wordt accountleeftijd alleen bij nieuwe gebruikers getoond.",
                         "show_account_age": "Toon altijd de leeftijd van een account naast toetredingsberichten"
                     },
@@ -307,9 +307,11 @@
                     },
                     "manage": {
                         "title": "Accountbeheer",
-                        "description": "Jouw account op elk gewenst moment uitschakelen of verwijderen. Deze actie logt je uit en verwijdert jouw account volledig, inclusief uw chatgeschiedenis en vrienden.",
+                        "description": "Verwijder of sluit je account, wanneer dan ook. Deze actie logt je uit en verwijdert jouw account volledig, inclusief chatgeschiedenis en vrienden.",
                         "disable": "Account uitschakelen",
-                        "delete": "Markeer account voor verwijdering"
+                        "delete": "Markeer account voor verwijdering",
+                        "disable_description": "Je zal geen toegang meer hebben tot je account tenzij je support contacteert - je data wordt echter niet verwijderd.",
+                        "delete_description": "Je account en al jouw data (inclusief berichten en je vriendenlijst) wordt binnenkort verwijderd. Een bevestigingsmail wordt verstuurd - je kan dit binnen de 7 dagen nog annuleren door contact op te nemen met support."
                     }
                 },
                 "notifications": {
@@ -399,7 +401,7 @@
                     "input_device": "Microfoon",
                     "title": "Spraakinstellingen",
                     "output_device": "Speaker / Koptelefoon",
-                    "tip_retry": "Je hebt geen toestemming gegeven voor toegang tot je microfoon, alsjeblieft {{retryBtn}}.",
+                    "tip_retry": "Je hebt Revolt geen toestemming gegeven voor toegang tot je microfoon. Probeer {{retryBtn}}.",
                     "device_label_NA": "N.V.T",
                     "button_retry": "opnieuw",
                     "tip_grant_permission": "Je moet toestemming geven om aan de audioinstellingen te kunnen.",
@@ -426,6 +428,9 @@
                     "wip": "Waarschuwing: Deze functie is nog in ontwikkeling.",
                     "delete_plugin": "Verwijderen",
                     "no_plugins": "Er zijn op het moment geen plug-ins geïnstalleerd."
+                },
+                "accessibility": {
+                    "title": "Toegankelijkheid"
                 }
             },
             "actions": {
