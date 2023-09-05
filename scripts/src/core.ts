@@ -81,7 +81,7 @@ function parseIssueBody(body: string, maintainer: boolean) {
 	newText = newText.replace(/\n### Validations\n*.*\n*.*/, "");
 
 	// extract Weblate username, then remove trailing slashes/new lines
-	newText = newText.replace(/https:\/\/weblate\.insrt\.uk\/user\//, "");
+	newText = newText.replace(/https:\/\/(weblate|translate)\.(insrt|revolt)\.(uk|chat)\/user\//, "");
 	newText = newText.replace(/\//, "");
 	newText = newText.replaceAll(/\n/g, "");
 
