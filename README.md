@@ -34,7 +34,7 @@ Please note that this table **only includes languages that are currently availab
 |🇪🇸|Español (América Latina) / es_419|[@SrWesly](https://github.com/SrWesly) [@7Macros](https://github.com/7Macros) [@gatomod](https://github.com/gatomod)||
 |🇪🇪|eesti / et|[@Kentledge](https://github.com/Kentledge)|[@u032](https://github.com/u032) [@Lefromrevolt](https://github.com/Lefromrevolt)|
 |🇫🇮|suomi / fi|||
-|🇵🇭|Filipino / fil|[@I2rys](https://github.com/I2rys)||
+|🇵🇭|Filipino / fil|[@I2rys](https://github.com/I2rys)|[@searinminecraft](https://github.com/searinminecraft)|
 |🇫🇷|Français / fr|[@Hades785](https://github.com/Hades785) [@Kasahe](https://github.com/Kasahe) [@Achlys12](https://github.com/Achlys12) [@TapwaveZodiac](https://github.com/TapwaveZodiac)|[@RedNight-was-taken](https://github.com/RedNight-was-taken)|
 |🇮🇪|Gaeilge / ga|||
 |🇮🇳|हिन्दी / hi|[@Infiniticity](https://github.com/Infiniticity)|[@CodeWhiteWeb](https://github.com/CodeWhiteWeb) [@FakeFerg](https://github.com/FakeFerg) [@Yeikzy](https://github.com/Yeikzy)|
@@ -55,7 +55,7 @@ Please note that this table **only includes languages that are currently availab
 |🇳🇱|Nederlands / nl|[@sympact06](https://github.com/sympact06)||
 |🇮🇷|فارسی / fa|[@DevEvil99](https://github.com/DevEvil99) [@shareghzade](https://github.com/shareghzade)||
 |🇵🇱|Polski / pl|[@jacekpoz](https://github.com/jacekpoz) [@Pawelek-dev](https://github.com/Pawelek-dev) [@HosachiPL](https://github.com/HosachiPL)|[@CyberL1](https://github.com/CyberL1)|
-|🇧🇷|Português (do Brasil) / pt_BR|[@yanndere](https://github.com/yanndere)|[@Hokiper](https://github.com/Hokiper)|
+|🇧🇷|Português (do Brasil) / pt_BR|[@yanndere](https://github.com/yanndere)|[@Hokiper](https://github.com/Hokiper) [@YoshiroOno](https://github.com/YoshiroOno)|
 |🇵🇹|Português (Portugal) / pt_PT|[@Tmpod](https://github.com/Tmpod)|[@SlicedBlueApple](https://github.com/SlicedBlueApple)|
 |🇷🇴|Română / ro|[@Edward205](https://github.com/Edward205)|[@S703T](https://github.com/S703T)|
 |🇷🇺|Русский / ru|[@div2005](https://github.com/div2005)|[@zptr1](https://github.com/zptr1)|
