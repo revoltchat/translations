@@ -31,7 +31,7 @@ Please note that this table **only includes languages that are currently availab
 |🇩🇪|Deutsch / de|[@sussycatgirl](https://github.com/sussycatgirl)|[@nitrobw](https://github.com/nitrobw) [@arktn](https://github.com/arktn) [@infi](https://github.com/infi)|
 |🇬🇷|Ελληνικά / el|[@SudoJanast](https://github.com/SudoJanast)||
 |🇪🇸|Español / es|[@z3ro0k](https://github.com/z3ro0k) [@fernandopal](https://github.com/fernandopal) [@gatomod](https://github.com/gatomod)|[@Dorovich](https://github.com/Dorovich)|
-|🇪🇸|Español (América Latina) / es_419|[@SrWesly](https://github.com/SrWesly) [@7Macros](https://github.com/7Macros) [@gatomod](https://github.com/gatomod)||
+|🇪🇸|Español (América Latina) / es_419|[@SrWesly](https://github.com/SrWesly) [@7Macros](https://github.com/7Macros) [@gatomod](https://github.com/gatomod)|[@exelenuwu](https://github.com/exelenuwu)|
 |🇪🇪|eesti / et|[@Kentledge](https://github.com/Kentledge)|[@u032](https://github.com/u032) [@Lefromrevolt](https://github.com/Lefromrevolt)|
 |🇫🇮|suomi / fi|||
 |🇵🇭|Filipino / fil|[@I2rys](https://github.com/I2rys)|[@searinminecraft](https://github.com/searinminecraft)|
@@ -53,7 +53,7 @@ Please note that this table **only includes languages that are currently availab
 |🇲🇾|Melayu / ms|||
 |🇳🇴|Norsk bokmål / nb_NO|[@tobggs](https://github.com/tobggs)||
 |🇳🇱|Nederlands / nl|[@sympact06](https://github.com/sympact06)||
-|🇮🇷|فارسی / fa|[@DevEvil99](https://github.com/DevEvil99) [@shareghzade](https://github.com/shareghzade)||
+|🇮🇷|فارسی / fa|[@DevEvil99](https://github.com/DevEvil99) [@shareghzadeh](https://github.com/shareghzadeh)||
 |🇵🇱|Polski / pl|[@jacekpoz](https://github.com/jacekpoz) [@Pawelek-dev](https://github.com/Pawelek-dev) [@HosachiPL](https://github.com/HosachiPL)|[@CyberL1](https://github.com/CyberL1)|
 |🇧🇷|Português (do Brasil) / pt_BR|[@yanndere](https://github.com/yanndere)|[@Hokiper](https://github.com/Hokiper) [@YoshiroOno](https://github.com/YoshiroOno)|
 |🇵🇹|Português (Portugal) / pt_PT|[@Tmpod](https://github.com/Tmpod)|[@SlicedBlueApple](https://github.com/SlicedBlueApple)|
