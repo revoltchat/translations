@@ -48,7 +48,7 @@
         "set_password": "Neues Passwort festlegen",
         "current_password": "Aktuelles Passwort",
         "invite": "Einladungscode",
-        "email_delay": "Es kann bis zu 10 Minuten dauern, bis du die E-Mail erreichst.",
+        "email_delay": "Wir haben dir eine Bestätigungs-E-Mail geschickt. Bitte warte bis zu 10 Minuten, bis sie ankommt.",
         "welcome2": "Hallo!",
         "subtitle2": "Einen Account erstellen",
         "welcome": "Willkommen!",
@@ -359,7 +359,7 @@
                 },
                 "changelogs": {
                     "title": "Änderungsprotokolle",
-                    "description": "Erfahre mehr über die letzten Aktualisierungen von Revolt.",
+                    "description": "Lies mehr über die Aktualisierungen von Revolt.",
                     "older": "Ältere Aktualisierungen anzeigen"
                 },
                 "mfa": {
@@ -512,7 +512,7 @@
                     "appearance_options": {
                         "title": "Darstellungsoptionen",
                         "show_send": "\"Nachricht Senden\"-Knopf immer anzeigen",
-                        "show_send_desc": "Zeigt die \"Nachricht Senden\"-Schaltfläche immer an.",
+                        "show_send_desc": "Wenn diese Funktion deaktiviert ist, wird die Schaltfläche Nachricht senden nur auf dem Handy angezeigt.",
                         "show_account_age": "Zeigen Sie immer das Alter des Kontos neben Beitrittsnachrichten an",
                         "show_account_age_desc": "Wenn diese Funktion deaktiviert ist, wird das Kontolalter nur für neue Benutzer angezeigt."
                     },
@@ -554,9 +554,11 @@
                     },
                     "manage": {
                         "title": "Accountverwaltung",
-                        "description": "Deaktiviere oder lösche deinen Account jederzeit. Dadurch wirst du ausgeloggt und dein Account wird vollständig gelöscht, inklusive deiner Chatlogs und Freunde.",
+                        "description": "Du kannst dein Konto jederzeit deaktivieren oder löschen. Beide Aktionen melden dich von deinen aktiven Sitzungen ab.",
                         "disable": "Account deaktivieren",
-                        "delete": "Account zur Löschung vormerken"
+                        "delete": "Account zur Löschung vormerken",
+                        "delete_description": "Dein Konto und alle deine Daten (einschließlich deiner Nachrichten und deiner Freundesliste) werden zur Löschung in die Warteschlange gestellt. Du erhältst eine Bestätigungs-E-Mail - du kannst die Löschung innerhalb von 7 Tagen rückgängig machen, indem du den Support kontaktierst.",
+                        "disable_description": "Du kannst nicht mehr auf dein Konto zugreifen, wenn du dich nicht an den Support wendest - deine Daten werden jedoch nicht gelöscht."
                     }
                 },
                 "language": {
@@ -573,8 +575,8 @@
                     "descriptions": {
                         "enable_outgoing_sound": "Aktivieren, um ein Geräusch abzuspielen, wenn du eine Nachricht sendest.",
                         "enable_sound": "Für Geräusche von eingehenden Nachrichten aktivieren.",
-                        "enable_push": "Aktivieren, um Benachrichtigungen zu erhalten, während du offline bist.",
-                        "enable_desktop": "Erhalte Benachrichtigungen, solange die App geöffnet ist."
+                        "enable_push": "Wenn diese Funktion aktiviert ist, erhältst du Benachrichtigungen, wenn du offline bist.",
+                        "enable_desktop": "Wenn dies aktiviert ist, erhältst du Benachrichtigungen, während die App geöffnet ist."
                     },
                     "enable_outgoing_sound": "Sendegeräusch abspielen.",
                     "sounds": "Töne",
@@ -645,12 +647,12 @@
                     "copy_invite": "Einladungslink kopieren",
                     "add": "Bot hinzufügen",
                     "token": "Token",
-                    "public_bot_tip": "Der Bot ist öffentlich. Jeder kann ihn einladen.",
-                    "private_bot_tip": "Der Bot ist privat. Nur du kannst ihn einladen.",
+                    "public_bot_tip": "Dieser Bot ist öffentlich. Jeder kann ihn einladen.",
+                    "private_bot_tip": "Dieser Bot ist privat. Nur du kannst ihn einladen.",
                     "public_bot": "Öffentlicher Bot",
-                    "public_bot_desc": "Anderen Benutzern erlauben, diesen Bot einzuladen.",
+                    "public_bot_desc": "Wenn dies aktiviert ist, können andere Nutzer diesen Bot zu Servern und Gruppennachrichten hinzufügen.",
                     "interactions_url": "Interaktions-URL",
-                    "reserved": "Hinweis: Dieses Feld ist für die zukünftige Features reserviert.",
+                    "reserved": "Hinweis: Dieses Feld ist für die Zukunft reserviert.",
                     "unique_id": "Dies ist eine eindeutige Kennung deines Bots. Das ist nicht der Bot-Token.",
                     "profile": "Bot Profil"
                 },
@@ -658,7 +660,7 @@
                     "title": "Spracheinstellungen",
                     "output_device": "Ausgabegerät",
                     "input_device": "Eingabegerät",
-                    "tip_retry": "Du hast keine Zugriffsberechtigung auf dein Mikrofon erteilt, bitte {{retryBtn}}.",
+                    "tip_retry": "Du hast Revolt nicht die Berechtigung gegeben, auf dein Mikrofon zuzugreifen. Bitte {{retryBtn}}.",
                     "device_label_NA": "Nicht angegeben",
                     "button_retry": "Erneut versuchen",
                     "tip_grant_permission": "Du musst die Berechtigung erteilen, um auf die Audioeinstellungen zugreifen zu können.",
@@ -702,11 +704,11 @@
             "title": "Einstellungen",
             "tips": {
                 "sessions": {
-                    "b": "sichere deinen Account, indem du dein Passwort änderst und Zwei-Faktor-Authentifizierung nutzt.",
+                    "b": "sichere dein Konto, indem du dein Passwort änderst und eine 2FA festlegst.",
                     "a": "Falls du auf dieser Liste eine unbekannte Sitzung findest,"
                 },
                 "languages": {
-                    "b": "Hilf dabei, neue Übersetzungen zu erstellen.",
+                    "b": "Hilf uns, indem du mehr Übersetzungen beisteuerst.",
                     "a": "Fehlt uns eine Sprache, die du willst?"
                 },
                 "account": {
