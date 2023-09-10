@@ -37,7 +37,7 @@
         "create": "Krijo një llogari të re",
         "cancel": "Anullo kërkesën",
         "check_mail": "Kontrolloni email-in tuaj!",
-        "check_spam": "Ju lutem kontrolloni email-et \"spam\" në qoftë se nuk e gjeni dot",
+        "check_spam": "Ju lutem kontrollojeni \"spam\"-in e email-it nëse nuk e gjeni dot",
         "successful_registration": "Regjistrimi u krye me sukses!",
         "error": {
             "login": "Hyrja dështoi!",
@@ -51,7 +51,7 @@
         "set_password": "Vendos fjalëkalimin e ri",
         "missing_verification": "Nuk morrët një email?",
         "resend": "Ridërgo verifikimin",
-        "email_delay": "Ju lutem, prisni të paktën 10 minuta për mbërritjen e email-it.",
+        "email_delay": "Ju kemi dërguar një email verifikimi. Ju lutem, prisni të paktën 10 minuta për mbërritjen e email-it.",
         "open_mail_provider": "Hapni {{provider}}",
         "recovery": "Kodi i rikuperimit",
         "totp": "Aplikacioni i identifikimit",
@@ -257,8 +257,9 @@
                         "title": "Menaxhimi i llogarisë",
                         "disable": "Çaktivizo llogarinë",
                         "delete": "Fshij llogarinë",
-                        "description": "Çaktivizo ose fshi llogarinë tuaj në çdo kohë. Ky veprim do t'ju shkyçë ju nga llogaria dhe do ta fshijë atë, duke përfshirë historinë e bisedave dhe shokët e tua.",
-                        "disable_description": "Do duhet ta kontaktoni suportin për ta aksesur llogarinë tuaj - të dhënat e llogarisë nuk do fshihen."
+                        "description": "Çaktivizoje ose fshije llogarinë në çdo çastë. Ky veprim do t'ju nxjerri nga llogaria dhe do ta fshijë atë, duke përfshirë historinë e bisedave dhe shokët që ke shtuar.",
+                        "disable_description": "Do duhet ta kontaktoni suportin për ta aksesur llogarinë tuaj - të dhënat e llogarisë nuk do fshihen.",
+                        "delete_description": "Llogaria juaj dhe gjithë të dhënat e saj (duke përfshirë mesazhet dhe shokët që keni regjistruar) do futen në rradhë për tu fshirë. Një email konfirmimi do t'ju dërgohet - ju mund ta anulloni fshirjen duke kontaktuar suportin brënda një jave pas urdhrës."
                     }
                 },
                 "profile": {
@@ -286,7 +287,7 @@
                     "tip_grant_permission": "Ju duhet të jepni leje për të aksesuar opsionet e zërit.",
                     "button_grant": "Jep leje",
                     "output_device": "Altoparlant / Kufje",
-                    "tip_retry": "Ju nuk e keni dhënë lejen për të aksesuar mikrofonin tuaj, ju lutemi {{retryBtn}}."
+                    "tip_retry": "Ju nuk e keni dhënë lejen për aksesimin e mikrofonit tuaj, ju lutemi {{retryBtn}}."
                 },
                 "appearance": {
                     "title": "Pamja",
@@ -307,7 +308,7 @@
                         "seasonal": "Temë sezonale",
                         "seasonal_desc": "Shfaq efektet në skedën kryesore gjatë stinëve të festave.",
                         "title": "Opsionet e temës",
-                        "follow_desc": "Kur zgjidhet, nuk do të mund ta ndryshoni temën ose të përdorni një temë të personalizuar.",
+                        "follow_desc": "Kur kjo aktivizohet, nuk do jet më e mundur ndyshrimi i pamjes, as përdorimi i një pamje të personalizuar.",
                         "transparency": "Efektet e Transparencës",
                         "transparency_desc": "Aktivizon efektet e transparencës në të gjithë aplikacionin."
                     },
@@ -332,9 +333,9 @@
                     "appearance_options": {
                         "show_send": "Gjithëmon shfaq butonin e \"Dërgo mesazh\"",
                         "title": "Cilësimet për dukjen",
-                        "show_send_desc": "Nese keni kufizuar \"Dergo Mesazh\" butonin ai do të shfaqet vetëm në pajisjen mobile.",
+                        "show_send_desc": "Nëse ky opsion është i çaktivizuar, butoni \"Dërgoje mesazhin\" do të shfaqet vetëm tek pajisjet mobile.",
                         "show_account_age": "Trego gjithmonë moshën e llogarisë pranë mesazheve të bashkimit",
-                        "show_account_age_desc": "Nëse çaktivizohet, mosha e llogarisë do të shfaqet vetëm për përdoruesit e rinj."
+                        "show_account_age_desc": "Nëse kjo çaktivizohet, mosha e llogarisë do të shfaqet vetëm për përdoruesit të rinj."
                     },
                     "colours": {
                         "title": "Ngjyrat"
@@ -367,7 +368,7 @@
                     }
                 },
                 "language": {
-                    "title": "Gjuhe",
+                    "title": "Gjuhë",
                     "select": "Zgjidhni gjuhën tuaj",
                     "const": "Gjuhët e ndërtuara",
                     "other": "Opsione të tjera gjuhësore"
@@ -378,7 +379,7 @@
                 "experiments": {
                     "features": "الميزات المتوفرة",
                     "not_available": "لا توجد تجارب متاحة في هذا الوقت.",
-                    "title": "التجارب"
+                    "title": "Eksperimente"
                 },
                 "bots": {
                     "public_bot": "بوت عام",
@@ -387,13 +388,13 @@
                     "title": "الروبوتات الخاصة بي",
                     "copy_invite": "نسخ رابط الدعوة",
                     "add": "أضف بوت",
-                    "reserved": "ملاحظة: هذا الحقل محجوز للمستقبل.",
+                    "reserved": "Info: ky opsion është i rezervuar për të ardhmen.",
                     "interactions_url": "عنوان URL للتفاعلات",
                     "token": "توكن",
-                    "public_bot_tip": "البوت عام. يمكن لأي شخص دعوتها.",
-                    "public_bot_desc": "ما إذا كان سيتم السماح للمستخدمين الآخرين بدعوة هذا الروبوت أم لا.",
+                    "public_bot_tip": "Ky robot është publik. Çdokush mund ta ftojë.",
+                    "public_bot_desc": "Nëse ky opsion aktivizohet, përdorues të tjerë mund ta ftojnë këtë robot tek grupet dhe serverat e tyre.",
                     "create_bot": "قم بإنشاء بوت",
-                    "private_bot_tip": "البوت خاص. فقط يمكنك دعوتها."
+                    "private_bot_tip": "Ky robot është privat. Vetëm ju mund ta ftoni."
                 },
                 "theme_shop": {
                     "category": {
@@ -423,14 +424,14 @@
                 },
                 "logOut": "تسجيل خروج",
                 "sync": {
-                    "categories": "فئات المزامنة",
+                    "categories": "Kategoritë e sinkronizimit",
                     "descriptions": {
-                        "appearance": "سيؤدي هذا إلى مزامنة الخيارات مثل حزم الرموز التعبيرية وكثافة الرسائل.",
-                        "theme": "سيؤدي هذا إلى مزامنة النسق الذي اخترته والألوان وأي CSS مخصصة.",
-                        "locale": "سيؤدي هذا إلى مزامنة لغتك المختارة حاليًا."
+                        "appearance": "Kjo i sinkronizon opsionet e pamjes, si zgjedhja jote mbi pamjet e emoji-ve dhe dëndësinë e mesazheve.",
+                        "theme": "Kjo do ta sinkronizojë pamjen, ngjyrën, dhe ndonjë CSS të personalizuar që mund të keni.",
+                        "locale": "Kjo do ta sinkronizoj gjuhën aktuale."
                     },
-                    "options": "خيارات المزامنة",
-                    "title": "مزامنة"
+                    "options": "Opsionet e sinkronizimit",
+                    "title": "Sinkronizim"
                 },
                 "donate": {
                     "title": "تبرع"
@@ -439,11 +440,12 @@
                 "plugins": {
                     "no_plugins": "Nuk ka ndonje shtesë të instaluar.",
                     "title": "shtojcat",
-                    "wip": "Paralajmërim: Kjo veçori është ende në zhvillim.",
+                    "wip": "Kini kujdes: ky opsion është ende në zhvillim.",
                     "delete_plugin": "Fshije"
                 },
                 "accessibility": {
-                    "title": "aksesueshmërisë"
+                    "title": "aksesueshmërisë",
+                    "reduced_motion": "Lëvizje e reduktuar"
                 }
             },
             "channel_pages": {
@@ -506,12 +508,12 @@
                     "b": "Na ndihmo duke kontribuar përkthime të tjera."
                 },
                 "account": {
-                    "a": "تبحث لتخصيص ملفك الشخصي العام؟",
+                    "a": "Doni ta personalizoni profilin tuaj publik?",
                     "b": "توجه إلى إعدادات ملف التعريف الخاص بك."
                 },
                 "sessions": {
                     "a": "إذا رأيت جلسة غير معروفة في القائمة ،",
-                    "b": "قم بتأمين حسابك عن طريق تغيير كلمة المرور الخاصة بك واستخدام المصادقة الثنائية (2FA)."
+                    "b": "sigurojeni llogarinë duke ndryshuar fjalëkalimin dhe aktivizuar I2F (2FA)."
                 }
             },
             "permissions": {
@@ -541,7 +543,7 @@
                 "prompt": {
                     "confirm_leave": "Të largohesh nga {{name}}?",
                     "confirm_close_dm": "Të mbyllet biseda me {{name}}?",
-                    "confirm_close_dm_long": "Mund ta rihapni më vonë, por do të zhduket nga të dyja anët.",
+                    "confirm_close_dm_long": "Mund ta rihapni më vonë, por do të zhduket nga të dyja palet.",
                     "confirm_leave_long": "Nuk do të mund të bashkohesh sërish nëse nuk ftoheni sërish.",
                     "create_invite_created": "Këtu është kodi juaj i ri i ftesës:",
                     "unfriend_user": "Fshij {{name}}?",
@@ -561,7 +563,7 @@
                 "signed_out": "Ju keni dalë nga llogaria!",
                 "onboarding": {
                     "welcome": "Mire se erdhet ne",
-                    "pick": "Zgjidh një emër përdoruesi me të cilin dëshiron që njerëzit të mund të të gjejnë, ky mund të ndryshohet më vonë te cilësimet."
+                    "pick": "Zgjidhni një emër me të cilin dëshironi që njerëzit të mund t'ju gjejnë. Emëri mund të ndryshohet më vonë tek opsionet e tua të përdoruesit."
                 },
                 "actions": {
                     "delete": "Fshije",
@@ -569,7 +571,7 @@
                     "reload": "Rifresko aplikacionin",
                     "block": "Blloko",
                     "close": "Mbylle",
-                    "ok": "Ok",
+                    "ok": "OK",
                     "save": "Ruaj",
                     "ban": "Përjashto",
                     "create": "Krijo",
@@ -592,7 +594,7 @@
                 },
                 "out_of_date": {
                     "title": "Klienti juaj është jo i përditësuar!",
-                    "version": "Klienti juaj është {{client}}, ndersa serveri këkrkon {{server}}.",
+                    "version": "Klienti juaj është {{client}}, ndërsa serveri këkrkon {{server}}.",
                     "ignore": "Injoro përditësimin",
                     "attempting": "Duke u përpjekur për të përditësuar…",
                     "description": "Duhet të përditësohet në mënyrë që të funksionojë me ndryshimet e fundit."
@@ -619,8 +621,8 @@
                 "mfa": {
                     "select_method": "Ju lutemi zgjidhni një metodë për të vërtetuar kërkesën tuaj.",
                     "enable_totp": "Aktivizo aplikacionin e vërtetuesit",
-                    "prompt_totp": "Ju lutemi skanoni ose përdorni kodin më poshtë në aplikacionin tuaj të vërtetimit.",
-                    "confirm": "Ju lutemi konfirmoni duke përdorur metodën e zgjedhur.",
+                    "prompt_totp": "Ju lutemi skanojeni ose përdoreni kodin më poshtë me aplikacionin tuaj të identifkimit.",
+                    "confirm": "Ju lutemi konfirmojeni këtë aksion duke përdorur metodën e zgjedhur.",
                     "enter_code": "Shkruani kodin",
                     "recovery_codes": "Kodet e tua të rikthimit",
                     "save_codes": "Ju lutemi ruani këto në një vend të sigurt."
@@ -724,7 +726,7 @@
                 "accept": "Pranoje Ftesen",
                 "user_count": "{{member_count}} përdoruesit",
                 "invalid": "Ftesë e pavlefshme!",
-                "invalid_desc": "Ftesa mund të mos ekzistojë ose ju nuk keni leje për t'u bashkuar."
+                "invalid_desc": "Ftesa mund të mos ekzistojë ose ju nuk keni leje për t'u futur."
             },
             "requires_online": "Duhet të jeni online për ta parë këtë."
         },
@@ -832,7 +834,7 @@
         },
         "ManageRole": {
             "t": "Menaxho rolet",
-            "d": "Lejon anëtarët të krijojnë, modifikojnë dhe fshijnë role me një gradë më të ulët se e tyre. Gjithashtu i lejon ata të modifikojnë lejet e roleve në kanale."
+            "d": "Lejon anëtarët të krijojnë, modifikojnë, fshijnë role me një gradë më të ulët se atë që kanë vet, dhe të modifikojnë lejet e roleve në kanale."
         },
         "ManageCustomisation": {
             "t": "Menaxho personalizimin",
@@ -950,14 +952,14 @@
         "MissingData": "Kërkesës i mungojnë të dhënat.",
         "ProbeError": "Marrja e meta të dhënave të skedarit dështoi.",
         "IoError": "Serveri hasi në një gabim I/O.",
-        "DeniedNotification": "Refuzove aksesin në njoftim, kontrollo cilësimet e faqes.",
+        "DeniedNotification": "Ju e refuzuat aksesin për të dërguar njoftime. Kontrolloni opsionet e faqes.",
         "CompromisedPassword": "Ky fjalëkalim është komprometuar.",
         "ReachedMaximumBots": "Ju keni arritur numrin maksimal të robotëve.",
         "AlreadySentRequest": "I është dërguar tashmë një kërkesë këtij përdoruesi.",
         "InvalidEmail": "Adresë e pavlefshme emaili",
         "FailedToReceive": "Serveri nuk arriti të marrë skedarin tuaj.",
         "UnsupportedBrowser": "Shfletuesit i mungon mbështetja për këtë veçori.",
-        "AudioPermissionBlock": "Nuk ka qasje në mikrofonin tuaj, ju lutemi kontrolloni konfigurimin e shfletuesit tuaj.",
+        "AudioPermissionBlock": "Nuk kemi akses ndaj mikrofonit tuaj. Ju lutemi kontrolloni opsionet e broswer-it tuaj.",
         "DiscriminatorChangeRatelimited": "Tepër ndryshime ndaj etiketave."
     },
     "dayjs": {
