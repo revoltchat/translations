@@ -63,7 +63,7 @@ Please note that this table **only includes languages that are currently availab
 |🇸🇮|Slovenščina / sl|||
 |🇦🇱|Shqip / sq|||
 |🇷🇸|Српски / sr|||
-|🇱🇰|සිංහල / si|||
+|🇱🇰|සිංහල / si|[HelaBasa Group](https://helabasa.yalu.lk)|[@hanariyada](https://github.com/hanariyada)|
 |🇸🇪|Svenska / sv|[@raggebatman](https://github.com/raggebatman)||
 |🇮🇳|தமிழ் / ta|||
 |🇹🇭|ไทย / th|[@xhayper](https://github.com/xhayper)||
