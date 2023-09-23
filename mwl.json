@@ -545,8 +545,221 @@
                 "pending": "Solicitaçones Pendientes",
                 "blocked": "Bloqueado",
                 "incoming": "Solicitaçon de amizade chegando.",
-                "sent": "Ambiado"
-            }
+                "sent": "Ambiado",
+                "from": {
+                    "several": "De {{userlist}} i más {{count}}…",
+                    "single": "De {{user}}",
+                    "multiple": "De {{userlist}} i {{user}}"
+                },
+                "outgoing": "Solicitaçon de amizade ambiada.",
+                "nobody": "Naide eiqui inda!"
+            },
+            "status": {
+                "connecting": "Conetando…",
+                "offline": "Offline.",
+                "disconnected": "Çconetado.",
+                "reconnecting": "Reconetando…"
+            },
+            "modals": {
+                "clipboard": {
+                    "unavailable": "L Clipboard stá indiçponible!",
+                    "https": "Atualmente, nun stás nun cuntesto HTTPS.",
+                    "copy": "Cópia Manual:"
+                },
+                "onboarding": {
+                    "pick": "Scolhe un username que quieres que las pessonas te ancuntren por. Esto puode ser demudado apuis nas definiçones de outelizador.",
+                    "welcome": "Bienbenido a"
+                },
+                "prompt": {
+                    "confirm_close_dm_long": "Tu puodes çfechar-la apuis, mas bai zaparecer an dambos ls lhados.",
+                    "unfriend_user": "Çfazer amizade cun {{name}}?",
+                    "unfriend_user_long": "Tu puodes nun cunseguir falar cun el/eilha anté lo adicionares outra beç.",
+                    "silent_leave": "Salir Selénciosamente",
+                    "confirm_leave": "Deixar {{name}}?",
+                    "confirm_leave_long": "Tu nun bais cunseguir ajuntar-te outra beç se naide te re-ambitar.",
+                    "confirm_close_dm": "Cerrar cumbersa cun {{name}}?",
+                    "confirm_delete": "Apagar {{name}}?",
+                    "confirm_delete_long": "Quando stubir apagado, nun puodes bolber atrás.",
+                    "confirm_delete_message_long": "Tenes la certeza que quieres apagar esto?",
+                    "create_invite_generate": "Gerando cumbite…",
+                    "create_invite_created": "Eiqui stá l tou nuobo código de cumbite:",
+                    "confirm_kick": "Tenes la certeza que quieres expulsar {{name}}?",
+                    "confirm_ban": "Bais banir l {{name}}",
+                    "confirm_ban_reason": "Rezon de Banimento",
+                    "block_user": "Bloquear {{name}}?",
+                    "block_user_long": "Tenes la certeza que quieres bloquear {{name}}? El/Eilha tamien bai ser remobido da tue lhista de amios.",
+                    "members_not_notified": "Outros nembros nun serán notificados"
+                },
+                "account": {
+                    "change": {
+                        "password": "Demudar la tue palabra passe",
+                        "username": "Demudar l tou username",
+                        "email": "Demudar l tou email"
+                    },
+                    "failed": "Altaraçon falhada!"
+                },
+                "mfa": {
+                    "recovery_codes": "Ls tous códigos de recuperaçon",
+                    "prompt_totp": "Eisamine ó ouse la token ambaixo na tue app de autenticador fai fabor.",
+                    "save_codes": "Salba estes pa un paradeiro assegurado fai fabor.",
+                    "confirm": "Cunfirma esta açon ousando l modo selecionado fai fabor.",
+                    "select_method": "Selecione un modo de balidar la tue solicitaçon.",
+                    "enable_totp": "Habilitar app de autenticador",
+                    "enter_code": "Poner Código"
+                },
+                "out_of_date": {
+                    "title": "L tou cliente stá fuora de data!",
+                    "description": "Ten que ser atualizado pa funcionar culas nuobas mudanças.",
+                    "version": "L tou cliente stá an {{client}}, mas l serbidor neçita un {{server}}.",
+                    "ignore": "Eignorar l’update",
+                    "attempting": "Antentando fazer l’update…"
+                },
+                "sessions": {
+                    "title": "Tenes la certeza que quieres lhimpar las tues sessones?",
+                    "short": "Nun puodes çfazer esta açon.",
+                    "accept": "Remober todas las sessones"
+                },
+                "report": {
+                    "reported": "Reportado",
+                    "thank_you": "Oubrigado por mos dares ũa upa an mantener l Revolt seguro. Nós bamos reber l tou reporte l más temprano possible.",
+                    "no_reason": "Ningũa rezon specíficada / outra rezon",
+                    "content_reason": {
+                        "SpamAbuse": "Esto ye spam ó abuso de la plataforma",
+                        "Illegal": "Cuntenido quebra ũa ó más lheis",
+                        "PromotesHarm": "Cuntenido pormobe danhar outros ó tu mesmo",
+                        "Malware": "Esto ye malware",
+                        "Harassment": "Esto ye assédio ó abuso direçonado a outro outelizador"
+                    },
+                    "user_reason": {
+                        "InappropriateProfile": "L perfil de l'outelizador ye inapropriado pa ũa oudiença general",
+                        "SpamAbuse": "L'outelizador stá ambiando spam ó abusando la plataforma",
+                        "Impersonation": "Este outelizador stá personificando alguien",
+                        "BanEvasion": "Este outelizador stá spipando-se a un banimiento",
+                        "Underage": "Este outelizador nun ye bielho que chegue pa tener ũa conta"
+                    },
+                    "message": "Reportar Mensaige",
+                    "by_name": "Reportar {{name}}",
+                    "reason": "Rezon",
+                    "block_user": "Quieres bloquear este outelizador?",
+                    "additional_context": "Anformaçon Adicional"
+                },
+                "actions": {
+                    "done": "Fazido",
+                    "close": "Cerrar",
+                    "ok": "Stá Bien",
+                    "ban": "Banir",
+                    "kick": "Eispulsar",
+                    "save": "Salbar",
+                    "hide": "Scunder",
+                    "edit": "Eiditar",
+                    "block": "Bloquear",
+                    "leave": "Salir",
+                    "reset": "Reiniciar",
+                    "back": "Bolber",
+                    "remove": "Remober",
+                    "delete": "Apagar",
+                    "report": "Reportar",
+                    "create": "Criar",
+                    "reveal": "Rebelar",
+                    "update": "Atualizar",
+                    "cancel": "Cancelar",
+                    "preview": "Bisualizar",
+                    "confirm": "Cunfirmar",
+                    "reload": "Recarregar l'App",
+                    "continue": "Acuntinar",
+                    "send_email": "Ambiar Email",
+                    "dont_block": "Nun bloquear"
+                },
+                "error": "Acunteceu un erro!",
+                "confirm": "Cunfirmar açon",
+                "signed_out": "Tu stabas signed out!",
+                "token_reveal": "Token de l {{name}}",
+                "changelogs": {
+                    "title": "Changelogs",
+                    "description": "Lhé subre las atualizaçones al Revolt.",
+                    "older": "Ber updates más bielhos"
+                },
+                "external_links": {
+                    "title": "Links eisternos puoden ser peligrosos!",
+                    "short": "Tenes la certeza que quieres ir pa:",
+                    "trust_domain": "Cunfiar neste domain"
+                }
+            },
+            "popovers": {
+                "user_profile": {
+                    "badges": {
+                        "responsible_disclosure": "Questones de Sigurança Dibulgadas cun Repunsablidade",
+                        "founder": "Fundador",
+                        "translator": "Tradutor",
+                        "supporter": "Arrimador",
+                        "moderation": "Moderaçon de Plataforma",
+                        "early_adopter": "Pioneiro"
+                    },
+                    "profile": "Perfil",
+                    "mutual_friends": "Amios Mútuos",
+                    "mutual_groups": "Grupos Mútuos",
+                    "mutual_servers": "Serbidores Mútuos",
+                    "empty": "Stá un cachico baziu eiqui…",
+                    "no_users": "Sien amios mútuos",
+                    "no_groups": "Sien grupos mútuos",
+                    "no_servers": "Sien serbidores mútuos",
+                    "sub": {
+                        "badges": "Craxás",
+                        "information": "Anformaçon",
+                        "connections": "Conecçones"
+                    }
+                },
+                "user_picker": {
+                    "select": "Seleciona amios pa adicionar."
+                },
+                "create_bot": {
+                    "title": "Criar un nuobo bot",
+                    "failed": "Criaçon dun bot falhada!"
+                },
+                "server_identity": {
+                    "title": "Demudar eidentidade an {{server}}",
+                    "nickname": "Nomeada",
+                    "avatar": "Abatar"
+                }
+            },
+            "invite": {
+                "invalid_desc": "L cumbite puode nun eisistir, ó tu nun tenes permisson pa te ajuntares.",
+                "invited_by": "Ambitado por {{user}}",
+                "login": "Fazer login al Revolt",
+                "accept": "Aceitar Cumbite",
+                "user_count": "{{member_count}} outelizadores",
+                "invalid": "Cumbite ambálido!"
+            },
+            "server-badges": {
+                "official": "Serbidor Oufecial",
+                "verified": "Serbidor Berificado"
+            },
+            "requires_online": "Tu percisas de stár online pa ber esto."
+        },
+        "context_menu": {
+            "retry_message": "Antentar ambiar outra beç",
+            "make_owner": "Dar propiadade de grupo",
+            "remove_member": "Remober de l grupo",
+            "copy_id": "Copiar ID",
+            "copy_selection": "Copiar seleçon",
+            "copy_text": "Copiar testo",
+            "copy_uid": "Copiar l'ID de outelizador",
+            "copy_sid": "Copiar ID de serbidor",
+            "copy_cid": "Copiar ID de canal",
+            "copy_mid": "Copiar ID de mensaige",
+            "copy_message_link": "Copiar link de mensaige",
+            "mention": "Mençon",
+            "message_user": "Mensaige",
+            "view_profile": "Ber perfil",
+            "mark_as_read": "Marcar cumo lhido",
+            "mark_unread": "Marcar cumo nun lhida",
+            "cancel_message": "Cancelar ambio",
+            "reply_message": "Arrespunder",
+            "quote_message": "Citar mensaige",
+            "edit_message": "Eiditar mensaige",
+            "report_message": "Reportar mensaige",
+            "delete_message": "Apagar mensaige",
+            "kick_member": "Eispulsar nembro"
         }
     }
 }
