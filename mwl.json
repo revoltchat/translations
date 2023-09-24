@@ -26,7 +26,7 @@
         "new_password": "Nuoba Palabra passe",
         "totp": "App de Autenticaçon",
         "recovery": "Código de Recuperaçon",
-        "invite": "Código de Recuperaçon",
+        "invite": "Código de Cumbite",
         "current_password": "Palabra passe atual",
         "enter": {
             "username": "Pon l tou nome de outilizador.",
@@ -759,7 +759,238 @@
             "edit_message": "Eiditar mensaige",
             "report_message": "Reportar mensaige",
             "delete_message": "Apagar mensaige",
-            "kick_member": "Eispulsar nembro"
+            "kick_member": "Eispulsar nembro",
+            "unblock_user": "Zbloquear outelizador",
+            "clear_status": "Lhimpar stado",
+            "copy_link": "Copiar link",
+            "ban_member": "Banir nembro",
+            "open_file": "Çfechar Ficheiro",
+            "add_friend": "Adicionar amio",
+            "remove_friend": "Remober amio",
+            "cancel_friend": "Cancelar solicitaçon",
+            "report_user": "Reportar outelizador",
+            "custom_status": "Stado customizado",
+            "save_file": "Salbar ficheiro",
+            "open_image": "Ber eimaige",
+            "save_image": "Salbar eimaige",
+            "open_video": "Ber bídio",
+            "save_video": "Salbar bídio",
+            "open_link": "Çfechar link",
+            "block_user": "Bloquear outelizador",
+            "set_custom_status": "Definir un stado customizado",
+            "leave_group": "Salir de l grupo",
+            "leave_server": "Salir de l serbidor",
+            "close_dm": "Cerrar DM",
+            "report_server": "Reportar serbidor",
+            "delete_server": "Apagar serbidor",
+            "edit_identity": "Eiditar eidentidade",
+            "delete_channel": "Apagar canal",
+            "create_channel": "Criar canal",
+            "create_category": "Criar categorie",
+            "create_invite": "Criar cumbite",
+            "open_notification_options": "Oupçones de notificaçones",
+            "open_channel_settings": "Definiçones de canal",
+            "open_server_settings": "Definiçones de serbidor",
+            "open_group_settings": "Definiçones de grupo"
+        },
+        "permissions": {
+            "required": "Permissones oubrigatórias"
         }
+    },
+    "error": {
+        "NetworkError": "Erro de la Network.",
+        "MissingPermission": "Sien permisson.",
+        "EmailFailed": "Falha an ambiar l'Email.",
+        "UsernameTaken": "Esse nome de outelizador yá stá sendo outelizado.",
+        "InvalidEmail": "Endereço de Email ambálido",
+        "IoError": "L serbidor ancuntrou un erro de I/O.",
+        "DeniedNotification": "Tu negaste acesso de notificaçones. Berifica las configuraçones de la páigina.",
+        "ReachedMaximumBots": "Chegaste al númaro mássimo de bots.",
+        "AudioPermissionBlock": "Sien acesso al tou microfone. Berifica las definiçones de l tou nabegador fai fabor.",
+        "Unauthorized": "Nun Outorizado.",
+        "Unlabelled": "Algũa cousa acunteceu.",
+        "FailedValidation": "Falha a balidar campos.",
+        "DatabaseError": "Erro de la Database.",
+        "InternalError": "Erro anterno.",
+        "UnknownError": "Ber consola.",
+        "OperationFailed": "Ouparaçon falhada.",
+        "RenderFail": "Falha na renderizaçon de l modelo.",
+        "MissingHeaders": "Cabeçalho ousente.",
+        "InvalidSession": "Sesson ambálida.",
+        "UnverifiedAccount": "Conta nun berificada.",
+        "UnknownUser": "Outelizador çcoincido.",
+        "EmailInUse": "Email a ser ousado.",
+        "InvalidCredentials": "L'Email ó la palabra passe stán arrados.",
+        "InvalidToken": "Token ambálida",
+        "MissingInvite": "Código de cumbite ousente ne l rogo.",
+        "InvalidInvite": "Código ambálido",
+        "AlreadyOnboarded": "Antegraçon cumpleta.",
+        "AlreadyFriends": "Yá sós amio cun este outelizador.",
+        "AlreadySentRequest": "Yá ambiaste un rogo a este outelizador.",
+        "Blocked": "Bloqueaste este outelizador.",
+        "BlockedOther": "Este outelizador bloqueou-te.",
+        "NoEffect": "Este rogo nun tube ningun efeito.",
+        "RequiredField": "Oubrigatório",
+        "TooShort": "Smasiado cúrtio",
+        "TooLong": "Smasiado lhargo",
+        "Unavailable": "Ançponible.",
+        "FileTooLarge": "L ficheiro ye smasiado lhargo.",
+        "FailedToReceive": "L serbidor falhou a recebir l tou ficheiro.",
+        "MissingData": "Faltan dados ne l rogo.",
+        "ProbeError": "Falha a oubtener ls metadados de l'arquibo.",
+        "UnsupportedBrowser": "L nabegador nun ten suporte pa este recurso.",
+        "CompromisedPassword": "Esta palabra passe ye bulnerable.",
+        "DiscriminatorChangeRatelimited": "Smasiadas demudanças de tag."
+    },
+    "permissions": {
+        "ManagePermissions": {
+            "d": "Outoriza nembros a demudar permissones a canales i ancarregos cun statutos más abaixo.",
+            "t": "Dregir Permissones"
+        },
+        "KickMembers": {
+            "d": "Outoriza nembros a remober nembros deste serbidor. Nembros eispulsos puoden bolber cun un cumbite.",
+            "t": "Eispulsar Nembros"
+        },
+        "AssignRoles": {
+            "t": "Atribuir Ancarregos",
+            "d": "Outoriza nembros a atribuir ancarregos abaixo de l sou a outros nembros."
+        },
+        "ManageRole": {
+            "d": "Outoriza nembros a criar, eiditar i apagar ancarregos cun un statuto más abaixo que l del/deilha, i modificar permissones de ancarregos an canales.",
+            "t": "Dregir Ancarregos"
+        },
+        "RemoveAvatars": {
+            "d": "Outoriza nembros a remober ls abatares de serbidor de outros nembros neste serbidor.",
+            "t": "Remober Abatares"
+        },
+        "ManageMessages": {
+            "d": "Outoriza nembros a apagar mensaiges ambiadas por outros nembros.",
+            "t": "Dregir Mensaiges"
+        },
+        "DeafenMembers": {
+            "d": "Outoriza nembros a enxordecer outros nun canal de boç.",
+            "t": "Enxordecer Nembros"
+        },
+        "ManageChannels": {
+            "t": "Dregir Canales",
+            "d": "Outoriza nembros a criar, eiditar i apagar canales."
+        },
+        "ManageServer": {
+            "t": "Dregir Serbidor",
+            "d": "Outoriza nembros a demudar l nome de l serbidor, çcriçon, ícone i outra anformaçon relacionada."
+        },
+        "ManageCustomisation": {
+            "t": "Dregir Customizaçon",
+            "d": "Outoriza nembros a criar, eiditar i apagar emojis."
+        },
+        "BanMembers": {
+            "t": "Banir Nembros",
+            "d": "Outoriza nembros a remober outros nembros de l serbidor permanientemente."
+        },
+        "TimeoutMembers": {
+            "t": "Poner Nembros de Castigo",
+            "d": "Outoriza nembros a prebenir outelizadores de anteragir cul serbidor tiemporariamente."
+        },
+        "ChangeNickname": {
+            "t": "Demudar Nomeada",
+            "d": "Outoriza nembros a demudar las sues nomeadas neste serbidor."
+        },
+        "ManageNicknames": {
+            "t": "Dregir Nomeadas",
+            "d": "Outoriza nembros a demudar las nomeadas de outros nembros."
+        },
+        "ChangeAvatar": {
+            "t": "Demudar Abatar",
+            "d": "Outoriza nembros a demudar ls sous abatares neste serbidor."
+        },
+        "ViewChannel": {
+            "t": "Ber Canal",
+            "d": "Outoriza nembros a ber qualquiera canal an que tengan esta permisson."
+        },
+        "ReadMessageHistory": {
+            "t": "Lher Stórico de Mensaiges",
+            "d": "Outoriza nembros a lher l stórico de mensaiges deste canal."
+        },
+        "SendMessage": {
+            "t": "Ambiar Mensaiges",
+            "d": "Outoriza nembros a ambiar mensaiges an canales de testo."
+        },
+        "ManageWebhooks": {
+            "t": "Dregir Webhooks",
+            "d": "Outoriza nembros a cuntrolar webhooks nun canal."
+        },
+        "ManageChannel": {
+            "t": "Dregir Canales",
+            "d": "Outoriza nembros a eiditar ó apagar un canal."
+        },
+        "InviteOthers": {
+            "t": "Ambitar Outros",
+            "d": "Outoriza nembros a ambitar outros outelizadores a un canal."
+        },
+        "SendEmbeds": {
+            "t": "Ambiar Embeds",
+            "d": "Outoriza nembros a ambiar cuntenido \"embedded\", de links ó de embeds de testo customizado."
+        },
+        "UploadFiles": {
+            "t": "Fazer Upload de Ficheiros",
+            "d": "Outoriza nembros a fazer upload de ficheiros an canales de testo."
+        },
+        "Masquerade": {
+            "t": "Maçcarielha",
+            "d": "Outoriza nembros a demudar l sou nome i abatar por mensaige."
+        },
+        "React": {
+            "t": "Ousar Reaçones",
+            "d": "Outoriza nembros a reagir a mensaiges."
+        },
+        "Connect": {
+            "t": "Conetar",
+            "d": "Outoriza nembros a conetar a un canal de boç."
+        },
+        "Speak": {
+            "t": "Falar",
+            "d": "Outoriza nembros a falar nun canal de boç."
+        },
+        "Video": {
+            "t": "Bídio",
+            "d": "Outoriza nembros a fazer streaming de bídios nun canal de boç."
+        },
+        "MuteMembers": {
+            "t": "Mutar Nembros",
+            "d": "Outoriza nembros a mutar outros nun canal de boç."
+        },
+        "MoveMembers": {
+            "t": "Mober Nembros",
+            "d": "Outoriza nembros a mober outros antre canales de boç."
+        }
+    },
+    "quantities": {
+        "members": {
+            "one": "1 Nembro",
+            "many": "{{count}} Nembros"
+        },
+        "dropFiles": {
+            "one": "Solta un ficheiro",
+            "many": "Solta {{count}} ficheiros"
+        }
+    },
+    "dayjs": {
+        "lastDay": "[Onte a las] {{time}}",
+        "sameDay": "[Hoije a las] {{time}}",
+        "nextDay": "[Manhana a las] {{time}}",
+        "lastWeek": "[Radadeiro/a] dddd [a las] {{time}}",
+        "nextWeek": "dddd [a las] {{time}}",
+        "defaults": {
+            "date_separator": "/",
+            "date_format": "traditional",
+            "twelvehour": "no"
+        }
+    },
+    "notifications": {
+        "sent_request": "@{{person}} ambiou-te un rogo de amizade.",
+        "now_friends": "Tu aora sós amio de @{{person}}!"
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
     }
 }
