@@ -464,7 +464,8 @@
                     "title": "Membres"
                 },
                 "emojis": {
-                    "upload": "Pujar Emoji"
+                    "upload": "Pujar Emoji",
+                    "title": "Emojis"
                 }
             },
             "categories": {
@@ -558,7 +559,10 @@
                     "additional_context": "Informació de més que ningú llig...",
                     "user_reason": {
                         "InappropriateProfile": "El perfil del usuari és innapropiat per a l'audiència general",
-                        "SpamAbuse": "L'usuari envia spam o abusa de la plataforma d'alguna manera"
+                        "SpamAbuse": "L'usuari envia spam o abusa de la plataforma d'alguna manera",
+                        "Impersonation": "Este usuari està fent-se passar per una altra persona",
+                        "BanEvasion": "Este usuari està intentant eludir una expulsió",
+                        "Underage": "Este usuari no té l'edat miníma per a tindre un compte"
                     },
                     "message": "Este missatge no està bé!",
                     "by_name": "Informar sobre {{name}}",
@@ -616,6 +620,33 @@
                 "onboarding": {
                     "welcome": "Benvingut a",
                     "pick": "Tria un nom d'usuari pel que vols que la gent puga trobar-te. Pots canviar-lo més des de la configuració."
+                },
+                "actions": {
+                    "remove": "Llevar",
+                    "back": "Ves enrere",
+                    "kick": "Expulsar",
+                    "update": "Actualitzar",
+                    "continue": "Continuar",
+                    "ban": "Enviar a fer la má",
+                    "dont_block": "No bloquejar... Pobret :(",
+                    "ok": "D'acord",
+                    "done": "Fet",
+                    "save": "Guardar",
+                    "hide": "Ocultar",
+                    "edit": "Editar",
+                    "block": "Bloquejar",
+                    "close": "Tancar",
+                    "leave": "Eixir",
+                    "reset": "Reiniciar",
+                    "delete": "Suprimir",
+                    "report": "Informar",
+                    "create": "Crear",
+                    "reveal": "Revelar",
+                    "cancel": "Cancelar",
+                    "preview": "Previsualització",
+                    "confirm": "Confirmar",
+                    "reload": "Recarregar l'app",
+                    "send_email": "Enviar un correu electrònic"
                 }
             },
             "copy": "Fes click per a copiar",
@@ -641,7 +672,113 @@
                 "official": "Servidor oficial",
                 "verified": "Servidor verificat"
             },
-            "copy_username": "Fes click per a copiar el nom d'usuari"
+            "copy_username": "Fes click per a copiar el nom d'usuari",
+            "popovers": {
+                "user_profile": {
+                    "badges": {
+                        "supporter": "Donador",
+                        "founder": "Fundador",
+                        "translator": "Traductor",
+                        "moderation": "Moderador de la plataforma",
+                        "responsible_disclosure": "Problemes de securetat revelats responsablement",
+                        "early_adopter": "Pioner"
+                    },
+                    "sub": {
+                        "information": "Informació",
+                        "connections": "Connexions",
+                        "badges": "Insígnies"
+                    },
+                    "no_servers": "No teniu cap servidor en comú",
+                    "profile": "Perfil",
+                    "mutual_friends": "Amics en comú",
+                    "mutual_groups": "Grups en comú",
+                    "mutual_servers": "Servidors en comú",
+                    "empty": "No hi ha ningú ni per a fer-se una orxateta :( …",
+                    "no_users": "No teniu cap amic comú",
+                    "no_groups": "No teniu cap grup comú"
+                },
+                "create_bot": {
+                    "title": "Crear un nou bot",
+                    "failed": "Hi hagué un error al crear un bot!"
+                },
+                "server_identity": {
+                    "nickname": "Sobrenom",
+                    "title": "Canviar perfil en {{server}}",
+                    "avatar": "Avatar"
+                },
+                "user_picker": {
+                    "select": "Selecciona quins amics vols afegir."
+                }
+            },
+            "invite": {
+                "invited_by": "Convidat per {{user}}",
+                "invalid": "Invitació sense validea!",
+                "login": "Iniciar sessió en Revolt",
+                "accept": "Acceptar invitació",
+                "user_count": "Hi ha {{member_count}} usuaris",
+                "invalid_desc": "Creem que la invitació no existix, o simplement no tens permisos per a unir-t'hi."
+            },
+            "requires_online": "Necessites estar en línia per a vore açò."
+        },
+        "context_menu": {
+            "open_file": "Obrir arxiu",
+            "custom_status": "Estat personalitzat",
+            "remove_friend": "Llevar amic",
+            "cancel_friend": "Cancelar sol·licitut",
+            "open_group_settings": "Configuració del grup",
+            "mention": "Mencionar",
+            "remove_member": "Tirar-lo del grup",
+            "kick_member": "Enviar a fer la má una estoneta",
+            "save_file": "Guardar l'arxiu",
+            "edit_identity": "Editar identitat",
+            "delete_channel": "Eliminar canal",
+            "create_channel": "Crear canal",
+            "create_category": "Crear categoria",
+            "ban_member": "Enviar a fer la má per a sempre",
+            "copy_mid": "Copiar ID del missatge",
+            "mark_as_read": "Marcar com llegit",
+            "copy_sid": "Copiar l'ID del servidor",
+            "copy_cid": "Copiar ID del canal",
+            "make_owner": "Fer propietari del grup",
+            "open_image": "Obrir imatge",
+            "open_video": "Obrir vídeo",
+            "unblock_user": "Desbloquejar usuari",
+            "add_friend": "Afegir amic",
+            "clear_status": "Esborrar l'estatus",
+            "delete_server": "Eliminar servidor",
+            "create_invite": "Crear invitació",
+            "open_server_settings": "Configuració del servidor",
+            "report_user": "Informar d'usuari",
+            "report_message": "Informar del missatge",
+            "copy_id": "Copiar ID",
+            "copy_selection": "Copiar selecció",
+            "copy_text": "Copiar text",
+            "copy_uid": "Copiar l'ID d'usuari",
+            "copy_message_link": "Copiarl link del misstage",
+            "message_user": "Missatge",
+            "view_profile": "Visualitzar perfil",
+            "mark_unread": "Marcar com no llegit",
+            "retry_message": "Intenta enviar de nou",
+            "cancel_message": "Cancelar l'enviament",
+            "reply_message": "Respondre",
+            "quote_message": "Citar missatge",
+            "edit_message": "Editar missatge",
+            "delete_message": "Suprimir missatge",
+            "save_image": "Guardar imatge",
+            "save_video": "Guardar vídeo",
+            "copy_link": "Copiar link",
+            "open_link": "Obrir link",
+            "block_user": "Bloquejar usuari",
+            "set_custom_status": "Establit un estatus personalitzat",
+            "leave_group": "Eixir del grup",
+            "leave_server": "Dixar el servidor",
+            "close_dm": "Tancar MD",
+            "report_server": "Informar sobre el servidor",
+            "open_notification_options": "Opcions de notificació",
+            "open_channel_settings": "Configuració del canal"
+        },
+        "permissions": {
+            "required": "Permisos requerits"
         }
     },
     "general": {
@@ -653,6 +790,57 @@
         "on": "Activat",
         "off": "Desactivat",
         "disabled": "Deshabilitat",
-        "unavailable": "Indisponible"
+        "unavailable": "Indisponible",
+        "learn_more": "Més informació"
+    },
+    "error": {
+        "InvalidSession": "Sessió no valida.",
+        "Unauthorized": "No autoritzat.",
+        "InternalError": "Error intern.",
+        "MissingHeaders": "Falten capçaleres.",
+        "NetworkError": "Error de connexió.",
+        "Unlabelled": "Alguna cosa ha passat.",
+        "FailedValidation": "No s'ha pogut validar els camps.",
+        "DatabaseError": "Error de la base de dades.",
+        "MissingPermission": "Et falten permisos.",
+        "UnknownError": "Vore la consola.",
+        "OperationFailed": "L'operació fallà.",
+        "RenderFail": "La renderització de la pantalla fallà.",
+        "UnverifiedAccount": "Compte verificat.",
+        "UnknownUser": "Usuari desconegut.",
+        "EmailInUse": "Correu electrònic en ús.",
+        "EmailFailed": "Error a l'enviar el missatge.",
+        "InvalidCredentials": "El correu electrònic o la contrasenya no coincidix.",
+        "InvalidToken": "Token no vàlid",
+        "MissingInvite": "Falta el codi d'invitació en la sol·licitut."
+    },
+    "quantities": {
+        "members": {
+            "many": "{{count}} membres",
+            "one": "1 membre"
+        },
+        "dropFiles": {
+            "one": "Carregar un arxiu",
+            "many": "Carregar {{count}} arxius"
+        }
+    },
+    "dayjs": {
+        "defaults": {
+            "date_separator": "/",
+            "date_format": "tradicional",
+            "twelvehour": "no"
+        },
+        "nextDay": "[Demà, a les] {{time}}",
+        "nextWeek": "dddd [a les] {{time}}",
+        "lastDay": "[Ahir a les] {{time}}",
+        "sameDay": "[Hui a les] {{time}}",
+        "lastWeek": "[L'últim] dddd [a les] {{time}}"
+    },
+    "notifications": {
+        "now_friends": "Ara eres amic d' @{{person}}!",
+        "sent_request": "@{{person}} t'ha enviat una petició d'amistat."
+    },
+    "actions": {
+        "submit": "Enviar"
     }
 }
