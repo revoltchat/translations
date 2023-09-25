@@ -365,9 +365,467 @@
                     "enable_desktop": "Activar notificaciones d'escritoriu",
                     "enable_push": "Activar notificaciones push",
                     "sounds": "Soníos",
-                    "push_notifications": "Notificaciones Push"
+                    "push_notifications": "Notificaciones Push",
+                    "descriptions": {
+                        "enable_desktop": "Si esto ta activáu, vas recibir notificaciones mientres l'aplicación ta abierta.",
+                        "enable_push": "Si esto ta activáu, vas recibir notificaciones cuando teas desconectáu."
+                    },
+                    "sound": {
+                        "message": "Mensaxe recibíu",
+                        "outbound": "Mensaxe unviáu",
+                        "call_leave": "Un usuariu coló la llamada",
+                        "call_join": "Un usuariu xunióse a la llamada"
+                    }
+                },
+                "language": {
+                    "title": "Llingua",
+                    "select": "Escueyi la to llingua",
+                    "other": "Otres opciones de llingua",
+                    "const": "Idiomas construíos"
+                },
+                "sync": {
+                    "title": "Sincronizar",
+                    "descriptions": {
+                        "locale": "Esto va sincronizar la llingua escoyía nagora.",
+                        "appearance": "Esto va sincronizar les opciones d'aparencia, como'l to paquete d'emojis escoyíu y la densidá de los mensaxes.",
+                        "theme": "Esto va sincronizar el tema escoyíu, les collores y cualesquier CSS personalizáu."
+                    },
+                    "options": "Opciones de sincronización",
+                    "categories": "Sincronizar categoríes"
+                },
+                "native": {
+                    "title": "Opciones d'escritoriu"
+                },
+                "experiments": {
+                    "title": "Esperimentos",
+                    "features": "Funciones disponibles",
+                    "not_available": "Nun hai esperimentos disponibles nagora."
+                },
+                "plugins": {
+                    "title": "Plug-ins",
+                    "delete_plugin": "Esaniciar",
+                    "wip": "Avisu: esta carauterística aínda ta en desenvolvimientu.",
+                    "no_plugins": "Nun hai complementos instalaos."
+                },
+                "donate": {
+                    "title": "Donar"
+                },
+                "source_code": "Códigu fonte",
+                "bots": {
+                    "create_bot": "Crear un bot",
+                    "copy_invite": "Copiar enllaz d'invitación",
+                    "add": "Amestar bot",
+                    "public_bot_tip": "Esti bot ye públicu. Cualesquier usuariu pue convidalu.",
+                    "public_bot": "Bot públicu",
+                    "interactions_url": "URL d'interaiciones",
+                    "reserved": "Nota: esti campu ta atrocáu pal futuru.",
+                    "title": "Los mios bots",
+                    "unique_id": "Estu ye un identificador únicu pal to bot. Estu nun ye'l token del bot.",
+                    "token": "Token",
+                    "private_bot_tip": "Esti ye priváu. Namás tu pues convidalu.",
+                    "profile": "Perfil del bot",
+                    "public_bot_desc": "Si esto ta activáu, otros usuarios puen amestar esti bot a servidores y grupos de mensaxes."
+                },
+                "theme_shop": {
+                    "title": "Tienda de temes",
+                    "description": "Esplora cientos de temes, creaos y escoyíos pola comunidá.",
+                    "search": "Buscar temes…",
+                    "category": {
+                        "saved": "Guardáu",
+                        "manage": "Alministrar guardaos",
+                        "new": "Nuevo esta selmana",
+                        "highest": "Meyor valoraos",
+                        "viewall": "Ver too",
+                        "default": "Temes per defeutu"
+                    },
+                    "active": "Activu nagora",
+                    "by": "por",
+                    "use": "Usar tema"
+                },
+                "feedback": {
+                    "title": "Opiniones",
+                    "description": "Unviar opiniones",
+                    "suggest": "Suxerir nueves carauterístiques",
+                    "issue": "Informar d'un problema",
+                    "issue_desc": "Por mor d'ayudános a clasificar los problemes más fácilmente, pues abrir una incidencia en GitHub.",
+                    "bug": "Rastrexador d'erros",
+                    "suggest_desc": "Suxerir nueves carauterístiques de Revolt nes discutinios de GitHub.",
+                    "bug_desc": "Ver informes d'erros activos equí."
+                },
+                "logOut": "Zarrar sesión"
+            },
+            "channel_pages": {
+                "overview": {
+                    "title": "Xeneral",
+                    "name": "Nome de la canal",
+                    "description": "Descripción de la canal"
+                },
+                "webhooks": {
+                    "title": "Webhooks"
+                },
+                "permissions": {
+                    "title": "Permisos"
                 }
+            },
+            "server_pages": {
+                "overview": {
+                    "title": "Xeneral",
+                    "name": "Nome del servidor",
+                    "system_messages": "Canales de mensaxes del sistema",
+                    "description": "Descripción de la canal"
+                },
+                "management": {
+                    "title": "Xestión d'usuarios"
+                },
+                "customisation": {
+                    "title": "Personalización"
+                },
+                "members": {
+                    "title": "Miembros"
+                },
+                "invites": {
+                    "title": "Invitaciones",
+                    "code": "Códigu d'invitación",
+                    "channel": "Canal",
+                    "revoke": "Revocar",
+                    "invitor": "Invitador"
+                },
+                "bans": {
+                    "title": "Vetos",
+                    "revoke": "Revocar",
+                    "no_reason": "Ensín motivu de vetu.",
+                    "user": "Usuariu",
+                    "reason": "Motivu de vetu"
+                },
+                "roles": {
+                    "title": "Roles"
+                },
+                "categories": {
+                    "title": "Categoríes"
+                },
+                "emojis": {
+                    "title": "Emojis",
+                    "upload": "Xubir emoji"
+                }
+            },
+            "tips": {
+                "account": {
+                    "a": "¿Quies personalizar el to perfil públicu?",
+                    "b": "Dir pa los axustes del perfil."
+                },
+                "languages": {
+                    "a": "¿Fáltanos una llingua que quies?",
+                    "b": "Ayúdanos contribuyendo con más traducciones."
+                },
+                "sessions": {
+                    "b": "protexe la to cuenta camudando la to contraseña y activando l'autenticación de dos factores.",
+                    "a": "Si ves una sesión desconocida na llista,"
+                }
+            },
+            "permissions": {
+                "default_role": "Per defeutu",
+                "server": "Permisos de servidor",
+                "create_role": "Crear un rol nuevu",
+                "role_name": "Nome del rol",
+                "role_colour": "Collor del rol",
+                "role_options": "Opciones del rol",
+                "role_ranking": "Clasificación del rol",
+                "delete_role": "Esaniciar rol",
+                "hoist_role": "Alzar rol",
+                "title": "Permisos pa {{role}}",
+                "channel": "Permisos de canal",
+                "hoist_desc": "Amosar esti rol per enriba d'otros.",
+                "edit_title": "Editar permisos"
             }
+        },
+        "special": {
+            "copy_username": "Fai clic pa copiar el nome d'usuariu",
+            "copy": "Fai clic pa copiar",
+            "friends": {
+                "sent": "Unviaes",
+                "blocked": "Bloquiáu",
+                "outgoing": "Solicitú d'amistá unviada.",
+                "nobody": "¡Nun hai naide equí aínda!",
+                "from": {
+                    "multiple": "De {{userlist}} y {{user}}",
+                    "single": "De {{user}}",
+                    "several": "De {{userlist}} y {{count}} más…"
+                },
+                "pending": "Solicitues pendientes",
+                "incoming": "Solicitú d'amistá entrante."
+            },
+            "status": {
+                "offline": "Ensín conexón.",
+                "disconnected": "Desconectáu.",
+                "reconnecting": "Reconectando…",
+                "connecting": "Conectando…"
+            },
+            "server-badges": {
+                "official": "Servidor oficial",
+                "verified": "Servidor verificáu"
+            },
+            "modals": {
+                "error": "¡Producióse un erru!",
+                "clipboard": {
+                    "copy": "Copia manual:",
+                    "unavailable": "¡El portapapeles nun ta disponible!",
+                    "https": "Agora mesmo nun tas nun contestu HTTPS."
+                },
+                "signed_out": "¡Zarróse la to sesión!",
+                "token_reveal": "Token de {{name}}",
+                "onboarding": {
+                    "welcome": "Bienveníu a",
+                    "pick": "Escueyi un nome d'usuariu col que la xente púedate alcontrar. Pues camudalu depués dende la configuración."
+                },
+                "prompt": {
+                    "confirm_leave": "¿Colar {{name}}?",
+                    "confirm_close_dm": "¿Zarrar conversación con {{name}}?",
+                    "confirm_delete": "¿Esaniciar {{name}}?",
+                    "confirm_delete_message_long": "¿De xuru quies esaniciar estu?",
+                    "confirm_kick": "¿De xuru quies espulsar a {{name}}?",
+                    "confirm_ban": "Tas a piques de vetar a {{name}}",
+                    "confirm_ban_reason": "Motivu de vetu",
+                    "unfriend_user": "¿Esaniciar a {{name}} de la llista d'amigos?",
+                    "members_not_notified": "Los otros miembros nun van ser notificaos",
+                    "confirm_leave_long": "Nun vas poder volver xuníte sacantes que te convidien de nuevo.",
+                    "confirm_close_dm_long": "Pues volver abríla depués, pero va sumir en dambos llaos.",
+                    "confirm_delete_long": "Una vez esborráu, nun hai vuelta tres.",
+                    "create_invite_generate": "Xenerando invitación…",
+                    "create_invite_created": "Equí ta'l to nuevu códigu d'invitación:",
+                    "unfriend_user_long": "Ye posible que nun pueas volver falar con esta persona fasta que y-amestes de nuevu.",
+                    "block_user": "¿Bloquiar a {{name}}?",
+                    "block_user_long": "¿De xuru quies bloquiar a {{name}}? Tamién será esaniciáu de la to llista d'amigos.",
+                    "silent_leave": "Colar silenciosamente"
+                },
+                "account": {
+                    "change": {
+                        "username": "Camudar el to nome d'usuariu",
+                        "email": "Camudar el to corréu electrónicu",
+                        "password": "Camudar la to contraseña"
+                    },
+                    "failed": "¡Producióse un erru al guardiar los cambeos!"
+                },
+                "mfa": {
+                    "save_codes": "Porfavor guárdalos nun llugar seguru.",
+                    "confirm": "Porfavor confirma esta aición usando'l métodu correutu.",
+                    "enable_totp": "Activar l'aplicación d'autenticación",
+                    "prompt_totp": "Porfavor escanea o usa'l token embaxo na to aplicación d'autenticación.",
+                    "enter_code": "Introducir códigu",
+                    "recovery_codes": "Los tos códigos de recuperación",
+                    "select_method": "Porfavor escueyi un métodu p'autenticar la to solicitú."
+                },
+                "changelogs": {
+                    "description": "Llei sobro les actualizaciones de Revolt.",
+                    "older": "Ver actualizaciones anteriores",
+                    "title": "Rexistru de cambeos"
+                },
+                "out_of_date": {
+                    "title": "¡El to cliente ta desactualizáu!",
+                    "version": "El to cliente ta en {{client}}, pero'l servidor precisa {{server}}.",
+                    "ignore": "Ignorar actualización",
+                    "attempting": "Intentando actualizar…",
+                    "description": "Ha d'actualizáse pa funcionar colos cambeos recién."
+                },
+                "external_links": {
+                    "short": "¿De xuru quies dir pa:",
+                    "title": "¡Los enllaces esternos puen ser peligrosos!",
+                    "trust_domain": "Confiar nesti dominiu"
+                },
+                "sessions": {
+                    "short": "Nun pues esfacer esta aición.",
+                    "accept": "Esaniciar toles sesiones",
+                    "title": "¿De xuru quies esborrar les tos sesiones?"
+                },
+                "report": {
+                    "message": "Reportar mensaxe",
+                    "by_name": "Reportar {{name}}",
+                    "reason": "Motivu",
+                    "reported": "Reportáu",
+                    "block_user": "¿Quies bloquiar a esti usuariu?",
+                    "content_reason": {
+                        "Illegal": "El conteníu infrinxe una o más lleis",
+                        "PromotesHarm": "El conteníu promueve la violencia o automancáse",
+                        "SpamAbuse": "Esto ye spam o abusu de la plataforma",
+                        "Malware": "Esto ye malware",
+                        "Harassment": "Esto ye acosu o abusu dirixíu escontra otru usuariu"
+                    },
+                    "user_reason": {
+                        "InappropriateProfile": "El perfil del usuariu ye inapropriáu pal públicu xeneral",
+                        "BanEvasion": "Esti usuariu ta eludiendo un vetu",
+                        "SpamAbuse": "L'usuariu ta unviando spam o abusando de la plataforma",
+                        "Impersonation": "Esti usuariu ta suplantando l'identidá de dalguien",
+                        "Underage": "Esti usuariu nun ye suficiente vieyu pa tener una cuenta"
+                    },
+                    "thank_you": "Gracies por ayudar a caltener seguru Revolt. Vamos revisar el to reporte lo más ceu posible.",
+                    "additional_context": "Información adicional",
+                    "no_reason": "Nengún motivu especificáu / otru motivu"
+                },
+                "actions": {
+                    "ok": "Aceutar",
+                    "ban": "Vetu",
+                    "done": "Fechu",
+                    "kick": "Espulsar",
+                    "save": "Guardar",
+                    "hide": "Esconder",
+                    "block": "Bloquiar",
+                    "close": "Zarrar",
+                    "leave": "Marchar",
+                    "back": "Tornar",
+                    "remove": "Esaniciar",
+                    "report": "Reportar",
+                    "create": "Crear",
+                    "reveal": "Revelar",
+                    "update": "Actualizar",
+                    "cancel": "Atayar",
+                    "preview": "Vista previa",
+                    "confirm": "Confirmar",
+                    "send_email": "Unviar corréu",
+                    "dont_block": "Nun bloquiar",
+                    "edit": "Editar",
+                    "reset": "Reaniciar",
+                    "delete": "Esaniciar",
+                    "reload": "Recargar l'aplicación",
+                    "continue": "Siguir"
+                },
+                "confirm": "Confirmar aición"
+            },
+            "popovers": {
+                "user_profile": {
+                    "mutual_friends": "Amigos en mancomún",
+                    "mutual_groups": "Grupos en mancomún",
+                    "mutual_servers": "Servidores en mancomún",
+                    "no_users": "Nengún amigu en mancomún",
+                    "no_groups": "Nengún grupu en mancomún",
+                    "no_servers": "Nengún servidor en mancomún",
+                    "sub": {
+                        "information": "Información",
+                        "connections": "Conexones",
+                        "badges": "Enseñes"
+                    },
+                    "badges": {
+                        "founder": "Fundador",
+                        "translator": "Traductor",
+                        "supporter": "Contribuidor",
+                        "moderation": "Moderación de la plataforma",
+                        "early_adopter": "Pioneru",
+                        "responsible_disclosure": "Problemes de seguridá revelaos responsablemente"
+                    },
+                    "profile": "Perfuk",
+                    "empty": "Ta un poco valero equí…"
+                },
+                "user_picker": {
+                    "select": "Escueyi los amigos que quies amestar."
+                },
+                "create_bot": {
+                    "title": "Crear un nuevu bot",
+                    "failed": "¡Producióse un erru al crear al bot!"
+                },
+                "server_identity": {
+                    "nickname": "Llamatu",
+                    "avatar": "Avatar",
+                    "title": "Camudar identidá nel {{server}}"
+                }
+            },
+            "requires_online": "Necesites tar conectáu pa ver esto.",
+            "invite": {
+                "invited_by": "Convidáu por {{user}}",
+                "login": "Aniciar sesión en Revolt",
+                "accept": "Aceutar invitación",
+                "user_count": "{{member_count}} usuarios",
+                "invalid": "¡Invitación inválida!",
+                "invalid_desc": "Pue ser que l'invitación nun esista, o nun tengas permisu pa xuníte."
+            }
+        },
+        "context_menu": {
+            "copy_selection": "Copiar seleición",
+            "copy_text": "Copiar testu",
+            "copy_uid": "Copiar ID d'usuariu",
+            "copy_mid": "Copiar ID del mensaxe",
+            "copy_message_link": "Copiar enllaz del mensaxe",
+            "mention": "Mentar",
+            "view_profile": "Ver perfil",
+            "mark_as_read": "Marcar como lleío",
+            "mark_unread": "Marca como nun lleío",
+            "retry_message": "Reintentar unviada",
+            "reply_message": "Contestar",
+            "quote_message": "Mentar mensaxe",
+            "report_message": "Reportar mensaxe",
+            "make_owner": "Tresferir la propiedá del grupu",
+            "kick_member": "Espulsar miembru",
+            "ban_member": "Vetar miembru",
+            "open_file": "Abrir archivu",
+            "save_file": "Guardar archivu",
+            "open_image": "Abrir imaxe",
+            "save_image": "Guardar imaxe",
+            "open_video": "Abrir vidéu",
+            "save_video": "Guardar vidéu",
+            "copy_link": "Copiar enllaz",
+            "open_link": "Abrir enllaz",
+            "block_user": "Bloquiar usuariu",
+            "unblock_user": "Desbloquiar usuariu",
+            "add_friend": "Amestar amigu",
+            "remove_friend": "Esaniciar amigu",
+            "cancel_friend": "Atayar solicitú",
+            "report_user": "Reportar usuariu",
+            "custom_status": "Estáu personalizáu",
+            "clear_status": "Esborrar estáu personalizáu",
+            "set_custom_status": "Establecer un estáu personalizáu",
+            "leave_group": "Colar el grupu",
+            "leave_server": "Colar del servidor",
+            "close_dm": "Zarrar MD",
+            "report_server": "Reportar servidor",
+            "delete_server": "Esaniciar servidor",
+            "edit_identity": "Editar perfil del servidor",
+            "delete_channel": "Esaniciar canal",
+            "create_channel": "Crear canal",
+            "create_category": "Crear categoría",
+            "create_invite": "Crear invitación",
+            "open_notification_options": "Opciones de notificaciones",
+            "open_server_settings": "Axustes del servidor",
+            "open_group_settings": "Axustes del grupu",
+            "copy_id": "Copiar ID",
+            "copy_sid": "Copiar ID del servidor",
+            "copy_cid": "Copiar ID de la canal",
+            "message_user": "Unviar mensaxe",
+            "cancel_message": "Atayar unviada",
+            "edit_message": "Editar mensaxe",
+            "delete_message": "Esaniciar mensaxe",
+            "remove_member": "Esaniciar del grupu",
+            "open_channel_settings": "Axustes de la canal"
+        },
+        "permissions": {
+            "required": "Permisos precisaos"
         }
+    },
+    "quantities": {
+        "members": {
+            "one": "1 miembru",
+            "many": "{{count}} miembros"
+        },
+        "dropFiles": {
+            "one": "Suelta un archivu",
+            "many": "Solta {{count}} archivos"
+        }
+    },
+    "dayjs": {
+        "sameDay": "[Güei a les] {{time}}",
+        "lastWeek": "[Postreru] dddd [a les] {{time}}",
+        "nextWeek": "dddd [a les] {{time}}",
+        "defaults": {
+            "date_separator": "/",
+            "date_format": "tradicional",
+            "twelvehour": "non"
+        },
+        "lastDay": "[Ayeri a les] {{time}}",
+        "nextDay": "[Mañana a les] {{time}}"
+    },
+    "notifications": {
+        "now_friends": "¡Agora yes amigu de @{{person}}!",
+        "sent_request": "@{{person}} unvióte una solicitú d'amistá."
+    },
+    "error": {
+        "NetworkError": "Erru de conexón.",
+        "Unauthorized": "Nun autorizáu.",
+        "Unlabelled": "Daqué asocedió."
     }
 }
