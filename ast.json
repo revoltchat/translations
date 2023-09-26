@@ -757,8 +757,8 @@
             "save_file": "Guardar archivu",
             "open_image": "Abrir imaxe",
             "save_image": "Guardar imaxe",
-            "open_video": "Abrir vidéu",
-            "save_video": "Guardar vidéu",
+            "open_video": "Abrir vídeu",
+            "save_video": "Guardar vídeu",
             "copy_link": "Copiar enllaz",
             "open_link": "Abrir enllaz",
             "block_user": "Bloquiar usuariu",
@@ -826,6 +826,171 @@
     "error": {
         "NetworkError": "Erru de conexón.",
         "Unauthorized": "Nun autorizáu.",
-        "Unlabelled": "Daqué asocedió."
+        "Unlabelled": "Daqué asocedió.",
+        "DatabaseError": "Erru na base de datos.",
+        "InternalError": "Erru internu.",
+        "UnknownError": "Ver consola.",
+        "OperationFailed": "Operación fallada.",
+        "RenderFail": "La renderización de la plantía falló.",
+        "MissingHeaders": "Falten cabeceres.",
+        "UnknownUser": "Usuariu desconocíu.",
+        "EmailFailed": "Produzóse un erru al unviar el corréu electrónicu.",
+        "InvalidCredentials": "El corréu electrónicu o la contraseña son incorreutos.",
+        "MissingInvite": "Falta'l códigu d'invitación na solicitú.",
+        "AlreadyOnboarded": "Configuración yá terminada.",
+        "UsernameTaken": "Esti nome d'usuariu yá ta en usu.",
+        "Blocked": "Bloquiasti a esti usuariu.",
+        "NoEffect": "Esti pidimientu nun tuvo efeutu.",
+        "RequiredField": "Obligatoriu",
+        "TooShort": "Demasiáu curtiu",
+        "TooLong": "Demasiáu llongu",
+        "Unavailable": "Nun disponible.",
+        "FileTooLarge": "L'archivu ye demasiáu grande.",
+        "FailedToReceive": "El servidor nun recibió'l to archivu.",
+        "ProbeError": "Erru al llograr los metadatos del archivu.",
+        "IoError": "El servidor atopó un erru de E/S.",
+        "DeniedNotification": "Refugasti los permisos pa l'unviada de notificaciones. Comprueba la configuración de la páxina.",
+        "ReachedMaximumBots": "Llegasti al númberu máximu de bots.",
+        "DiscriminatorChangeRatelimited": "Demasiaos cambeos de tag.",
+        "FailedValidation": "Nun se pudieron validar los campos.",
+        "MissingPermission": "Permisos insuficientes.",
+        "InvalidSession": "Sesión inválida.",
+        "UnverifiedAccount": "Cuenta non verificada.",
+        "EmailInUse": "Corréu electrónicu en usu.",
+        "InvalidToken": "Token inválidu",
+        "InvalidInvite": "Códigu inválidu",
+        "AlreadyFriends": "Yá yes amigu d'esti usuariu.",
+        "AlreadySentRequest": "Yá unviasti una solicitú a esti usuariu.",
+        "BlockedOther": "Esti usuariu bloquióte.",
+        "InvalidEmail": "Corréu electrónicu inválidu",
+        "MissingData": "Falten datos na solicitú.",
+        "UnsupportedBrowser": "El to navegador nun sofita esta carauterística.",
+        "CompromisedPassword": "Esta contraseña ta comprometida.",
+        "AudioPermissionBlock": "Ensín accesu al to micrófonu. Porfavor revisa la configuración del to navegador."
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
+    },
+    "permissions": {
+        "ManageChannels": {
+            "t": "Alministrar canales",
+            "d": "Permite a los miembros crear, editar y esaniciar canales."
+        },
+        "ManageServer": {
+            "t": "Alministrar servidor",
+            "d": "Permite a los miembros camudar el nome, la descripción, el iconu y otra información del servidor."
+        },
+        "ManagePermissions": {
+            "t": "Xestionar permisos",
+            "d": "Permite a los miembros camudar los permisos pa canales y roles d'un rangu inferior."
+        },
+        "ManageRole": {
+            "t": "Alministrar roles",
+            "d": "Permite a los miembros crear, editar y esaniciar roles con un rangu inferior al de so y camudar los permisos de los roles nes canales."
+        },
+        "ManageCustomisation": {
+            "t": "Alministrar personalización",
+            "d": "Permite a los miembros crear, editar y esaniciar emojis."
+        },
+        "KickMembers": {
+            "t": "Espulsar miembros",
+            "d": "Permite a los miembros esaniciar miembros d'esti servidor. Miembros espulsaos puen retornar con una invitación."
+        },
+        "BanMembers": {
+            "t": "Vetar miembros",
+            "d": "Permite vetar miembros permanentemente d'esti servidor."
+        },
+        "AssignRoles": {
+            "t": "Asignar roles",
+            "d": "Permite a los miembros asignar roles per embaxu del so propriu rangu a otros miembros."
+        },
+        "ChangeNickname": {
+            "t": "Camudar llamatu",
+            "d": "Permite a los miembros camudar el so llamatu nesti servidor."
+        },
+        "ManageNicknames": {
+            "t": "Alministrar llamatos",
+            "d": "Permite a los miembros camudar los llamatos d'otros miembros."
+        },
+        "ChangeAvatar": {
+            "t": "Camudar avatar",
+            "d": "Permite a los miembros camudar el so avatar nesti servidor."
+        },
+        "RemoveAvatars": {
+            "t": "Esaniciar avatares",
+            "d": "Permite a los miembros esaniciar los avatares d'otros miembros nesti servidor."
+        },
+        "ViewChannel": {
+            "t": "Ver canal",
+            "d": "Permite a los miembros ver cualesquier canal na que tengan esti permisu."
+        },
+        "ReadMessageHistory": {
+            "t": "Lleer historial de mensaxes",
+            "d": "Permite a los miembros lleer el historial de mensaxes desta canal."
+        },
+        "SendMessage": {
+            "t": "Unviar mensaxes",
+            "d": "Permite a los miembros unviar mensaxes nes canales de testu."
+        },
+        "ManageMessages": {
+            "t": "Alministrar mensaxes",
+            "d": "Permite a los usuarios esaniciar los mensaxes unviáos por otros miembros."
+        },
+        "ManageWebhooks": {
+            "t": "Alministrar webhooks",
+            "d": "Permite a los miembros controlar los webhooks d'una canal."
+        },
+        "ManageChannel": {
+            "t": "Alministrar canales",
+            "d": "Permite a los miembros editar o esaniciar una canal."
+        },
+        "InviteOthers": {
+            "t": "Convidar a otros",
+            "d": "Permite que los miembros convidar a otros usuarios a una canal."
+        },
+        "SendEmbeds": {
+            "t": "Unviar embeds",
+            "d": "Permite a los miembros unviar embeds, seya dende enllaces o dende mensaxes."
+        },
+        "UploadFiles": {
+            "t": "Xubir archivos",
+            "d": "Permitir a los usuarios xubir archivos nes canales de testu."
+        },
+        "Masquerade": {
+            "t": "Mazcariella",
+            "d": "Permite a los usuarios camudar el so nome y avatar per mensaxe."
+        },
+        "React": {
+            "t": "Usar reaiciones",
+            "d": "Permite a los miembros reaicionar a los mensaxes."
+        },
+        "Connect": {
+            "t": "Conectar",
+            "d": "Permite a los miembros conectáse a una canal de voz."
+        },
+        "Speak": {
+            "t": "Falar",
+            "d": "Permite a los miembros falar nuna canal de voz."
+        },
+        "Video": {
+            "t": "Vídeu",
+            "d": "Permite a los miembros tresmitir vídeu nuna canal de voz."
+        },
+        "MuteMembers": {
+            "t": "Acallar miembros",
+            "d": "Permite a los miembros acallar a otros nuna canal de voz."
+        },
+        "DeafenMembers": {
+            "t": "Ensordar miembros",
+            "d": "Permite a los miembros ensordar a otros nuna canal de voz."
+        },
+        "MoveMembers": {
+            "t": "Mover miembros",
+            "d": "Permite a los miembros mover a otros ente canales de voz."
+        },
+        "TimeoutMembers": {
+            "t": "Aisllar miembros",
+            "d": "Permite a los miembros enzancar temporalmente que los usuarios interactúen col servidor."
+        }
     }
 }
