@@ -122,16 +122,18 @@
     "login": {
         "enter": {
             "invite": "Vpišite vaše povabilo kodo.",
-            "username": "Vnesite uporabniško ime.",
+            "username": "Vnesite vaše uporabniško ime.",
             "email": "Vpišite svoj elektronski naslov.",
             "password": "Vpišite svoje geslo.",
-            "current_password": "Vnesite svoje trenutno geslo."
+            "current_password": "Vnesite svoje trenutno geslo.",
+            "new_password": "Vnesite novo geslo."
         },
         "error": {
             "resend": "Ni uspelo, da znova!",
             "create": "Ni uspelo register!",
             "login": "Prijava ni uspela!",
-            "reset": "Ponastavitev ni uspela!"
+            "reset": "Ponastavitev ni uspela!",
+            "verify": "Verifikacija je bila neuspešna!"
         },
         "title": "Prijava",
         "register": "Registrirajte se",
@@ -141,18 +143,18 @@
         "invite": "Koda povabila",
         "current_password": "Trenutni geslo",
         "forgot": "Ste pozabili geslo?",
-        "reset": "Ponastavi geslo.",
-        "set_password": "Nastavite novo geslo.",
-        "remembered": "Vrnite se na prijavo.",
+        "reset": "Ponastavi geslo",
+        "set_password": "Nastavite novo geslo",
+        "remembered": "Vrnite se na prijavo",
         "new": "Ste novi pri Revoltu?",
         "existing": "Že imate račun?",
-        "create": "Ustvari nov račun.",
+        "create": "Ustvari nov račun",
         "missing_verification": "Niste prejeli e-poštnega sporočila?",
-        "resend": "Ponovno pošlji preverjanje.",
+        "resend": "Ponovno pošlji verifikacijo",
         "cancel": "Prekliči zahtevo",
         "check_mail": "Preverite svojo pošto!",
-        "email_delay": "Prosimo, pustite do 10 minut, da prispe.",
-        "check_spam": "Če ga ne najdete, preverite neželeno pošto",
+        "email_delay": "Poslali smo vam epoštno sporočilo za verifikacijo. Prosimo vas, da počakate do 10 minut da prispe.",
+        "check_spam": "Če je ne najdete, preverite mapo z vsiljeno pošto",
         "open_mail_provider": "Odpri ponudnika {{provider}}",
         "successful_registration": "Uspešno registriran!",
         "subtitle2": "Ustvari račun",
@@ -160,7 +162,13 @@
         "subtitle": "Prijava v Revolt",
         "welcome": "Dobrodošli nazaj!",
         "totp": "Aplikacija Authenticator",
-        "recovery": "Koda za izterjavo"
+        "recovery": "Koda za izterjavo",
+        "new_password": "Novo Geslo",
+        "log_out_other": "Izpiši iz vseh sej",
+        "unofficial_instance": "Tretjeosebni model",
+        "verifying_account": "Verificiranje vašega računa…",
+        "verified_account": "Vač račun je bil verificiran!",
+        "verified_continue": "Nadaljuj s prijavo"
     },
     "app": {
         "status": {
@@ -168,7 +176,9 @@
             "online": "Na spletu",
             "idle": "V prostem teku",
             "busy": "Ne moti",
-            "offline": "Brez povezave"
+            "offline": "Brez povezave",
+            "reconnect": "Ponovno poveži",
+            "focus": "Fokus"
         },
         "main": {
             "categories": {
@@ -429,9 +439,16 @@
                 "unreads": "Neprebrano",
                 "saved": "Shranjeni zapiski"
             }
+        },
+        "home": {
+            "directs": "Neposredna Sporočila",
+            "join-testers": "Pridružite se strežniku preizkuševalcev"
         }
     },
     "shortcuts": {
         "ctrlc": "Ctrl+C"
+    },
+    "actions": {
+        "submit": "Oddaj"
     }
 }
