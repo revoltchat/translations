@@ -15,7 +15,7 @@
                     },
                     "theme": "主題",
                     "title": "外觀",
-                    "ligatures_desc": "如果字體支援，此選項將相鄰的字元連結在一起，例如，將->顯示為箭頭。",
+                    "ligatures_desc": "如果字體支援，此選項將相鄰的字元連結在一起 - 例如，將->顯示為箭頭。",
                     "ligatures": "字體連字",
                     "mono_font": "等寬字體偏好",
                     "font": "字體",
@@ -34,7 +34,7 @@
                         "transparency_desc": "啟用整個應用程式的透明效果。",
                         "transparency": "透明效果",
                         "follow": "跟隨系統主題",
-                        "follow_desc": "勾選後，您將無法更改主題或使用自訂主題。",
+                        "follow_desc": "啓用後，您將無法更改主題或使用自訂主題。",
                         "title": "主題選項",
                         "seasonal_desc": "節日期間，在主頁顯示特殊效果。",
                         "seasonal": "季節性主題"
@@ -45,10 +45,10 @@
                     },
                     "appearance_options": {
                         "show_send": "總是顯示發送訊息按鈕",
-                        "show_send_desc": "如果禁用，則發送訊息按鈕僅在移動端顯示。",
+                        "show_send_desc": "禁用後將僅在移動端顯示發送訊息按鈕。",
                         "title": "外觀選項",
                         "show_account_age": "永遠在加入訊息旁邊顯示帳號年齡",
-                        "show_account_age_desc": "如果關閉，則僅會顯示新帳號的帳號年齡。"
+                        "show_account_age_desc": "禁用後將只在新賬戶顯示賬戶建立日期。"
                     },
                     "advanced_options": {
                         "title": "進階選項"
@@ -94,8 +94,10 @@
                     "manage": {
                         "delete": "將帳號標記為即將刪除",
                         "disable": "凍結帳號",
-                        "description": "隨時凍結或移除帳號。這個功能將會讓您從所有用戶端登出，並移除您的帳號和所有資料。",
-                        "title": "帳號管理"
+                        "description": "您可以隨時停用或刪除帳號。這會登出您的所有工作階段。",
+                        "title": "帳號管理",
+                        "disable_description": "除非您聯絡支援人員，否則您將無法存取您的帳戶 - 但您的資料不會被刪除。",
+                        "delete_description": "您的帳戶及所有資料（包括訊息和好友）將儘快刪除。我們會發送一封確認電子郵件 - 您可以在 7 天內聯絡支援人員以取消此操作。"
                     },
                     "2fa": {
                         "remove_auth": "移除安全認證",
@@ -117,10 +119,10 @@
                     "token": "金鑰",
                     "reserved": "注意：此欄位為未來保留。",
                     "interactions_url": "互動 URL",
-                    "public_bot_desc": "是否允許其他人邀請此機器人。",
+                    "public_bot_desc": "啓用後，其他使用者將可以將此機器人新增到伺服器或群組對話。",
                     "public_bot": "公開機器人",
-                    "private_bot_tip": "機器人為私人的。只有您可以邀請它。",
-                    "public_bot_tip": "機器人為公開的。所有人都可以邀請。",
+                    "private_bot_tip": "此機器人是私人的。只有您可以邀請它。",
+                    "public_bot_tip": "此機器人是公開的。所有人都可以邀請。",
                     "add": "新增機器人",
                     "copy_invite": "複製邀請連結",
                     "create_bot": "建立機器人",
@@ -155,7 +157,7 @@
                     "descriptions": {
                         "locale": "這將會同步您當前選擇的語言。",
                         "theme": "這將會同步您的外觀設定、顏色以及自訂 CSS。",
-                        "appearance": "這將會同步表情包與訊息密度的設定。"
+                        "appearance": "這會同步外觀設定，包括已選定的表情符號和訊息密度。"
                     },
                     "categories": "同步分類",
                     "title": "同步",
@@ -175,8 +177,8 @@
                         "message": "接收訊息"
                     },
                     "descriptions": {
-                        "enable_push": "允許在離線時收到通知。",
-                        "enable_desktop": "開啟此設定且應用程式運行時將會像您傳送通知。"
+                        "enable_push": "啓用後，您將可以在離綫時收到通知。",
+                        "enable_desktop": "啓用後，您將在程式開啓時收到通知。"
                     },
                     "sounds": "聲音",
                     "enable_push": "開啟傳送通知",
@@ -205,6 +207,13 @@
                     "no_plugins": "目前沒有安裝任何插件。",
                     "title": "插件",
                     "delete_plugin": "刪除"
+                },
+                "accessibility": {
+                    "title": "輔助功能",
+                    "reduced_motion": "減少動作",
+                    "descriptions": {
+                        "reduced_motion": "啓用後，動畫和運動效果將不會播放或減弱。"
+                    }
                 }
             },
             "actions": {
@@ -236,7 +245,7 @@
             },
             "tips": {
                 "sessions": {
-                    "b": "請更換密碼且開啟雙重認證以確保您的帳號。",
+                    "b": "請更換密碼且開啟雙重認證以確保您的帳號安全。",
                     "a": "如果您在列表中見到不明設備，"
                 },
                 "languages": {
@@ -245,7 +254,7 @@
                 },
                 "account": {
                     "b": "前往您的個人資訊設定。",
-                    "a": "要自訂您的公開個人資訊嗎？"
+                    "a": "要自訂您的公開個人資料嗎？"
                 }
             },
             "server_pages": {
@@ -297,6 +306,9 @@
                     "description": "頻道簡介",
                     "name": "頻道名稱",
                     "title": "概述"
+                },
+                "webhooks": {
+                    "title": "Webhooks"
                 }
             }
         },
@@ -449,7 +461,7 @@
                     "confirm_close_dm": "關閉與 {{name}} 的對話？",
                     "confirm_leave_long": "您將無法再加入除非您再度被邀請。",
                     "confirm_ban_reason": "封鎖原因",
-                    "unfriend_user": "移除 {{name}}？",
+                    "unfriend_user": "解除與 {{name}} 的好友關係？",
                     "confirm_leave": "離開 {{name}}？",
                     "block_user_long": "您確定要封禁 {{name}} 嗎？他們將會被移出您的好友清單。",
                     "create_invite_created": "這是您的新邀請代碼：",
@@ -457,7 +469,7 @@
                     "confirm_ban": "您將會封禁 {{name}}",
                     "unfriend_user_long": "您可能無法再和他們對話，除非重新新增。",
                     "block_user": "要封鎖 {{name}}嗎？",
-                    "confirm_close_dm_long": "這將會刪除雙方對話，但您可以仍然可以再重新打開。",
+                    "confirm_close_dm_long": "您可以稍後重新打開它，但它會同時對對話雙方隱藏。",
                     "confirm_delete": "要刪除 {{name}}？",
                     "confirm_delete_long": "刪除之後，將無法復原。",
                     "confirm_delete_message_long": "您確定要刪除嗎？",
@@ -466,7 +478,7 @@
                     "members_not_notified": "不會通知其他成員"
                 },
                 "onboarding": {
-                    "pick": "選擇一個使用者名稱讓其他人能夠找到您，之後可以在設定中進行更改。",
+                    "pick": "請選擇一個使用者名稱以便其他人尋找，您隨後可以在設定中進行更改。",
                     "welcome": "歡迎來到"
                 },
                 "token_reveal": "{{name}} 的 Token",
@@ -537,7 +549,7 @@
                 "mfa": {
                     "recovery_codes": "您的恢復代碼",
                     "save_codes": "請將它們儲存在安全的位置。",
-                    "confirm": "請使用已選擇的方式確認。",
+                    "confirm": "請使用已選擇的方式確認此操作。",
                     "select_method": "請選擇一種方式驗證您的要求。",
                     "enable_totp": "開啟二步驟驗證程式",
                     "prompt_totp": "請在二步驟驗證器內掃碼或填入以下金鑰。",
@@ -608,7 +620,7 @@
                     "badges": {
                         "translator": "翻譯人員",
                         "supporter": "支援者",
-                        "responsible_disclosure": "Bug發現者",
+                        "responsible_disclosure": "富責任心的漏洞揭露者",
                         "early_adopter": "早期使用者",
                         "founder": "創始人",
                         "moderation": "平台管理者"
@@ -814,7 +826,7 @@
         "Unlabelled": "發生了一些事。",
         "FailedValidation": "無法驗證字串。",
         "DatabaseError": "資料庫錯誤。",
-        "AudioPermissionBlock": "無法使用您的麥克風，請檢查瀏覽器權限設定。",
+        "AudioPermissionBlock": "無法存取您的麥克風，請檢查瀏覽器權限設定。",
         "InternalError": "內部錯誤。",
         "MissingPermission": "您沒有該操作的權限。",
         "ReachedMaximumBots": "您已到達機器人的最大數量。",
@@ -844,14 +856,15 @@
         "FileTooLarge": "檔案過大。",
         "FailedToReceive": "伺服器接收您的檔案失敗。",
         "AlreadyOnboarded": "已經完成了初始化。",
-        "UsernameTaken": "使用者名稱已被使用。",
+        "UsernameTaken": "該使用者名稱已被使用。",
         "AlreadyFriends": "已經與此使用者成為好友。",
         "AlreadySentRequest": "已經向此使用者發送了邀請。",
         "Blocked": "您已封鎖此使用者。",
         "BlockedOther": "此使用者已封鎖您。",
         "RenderFail": "模板載入失败。",
         "MissingData": "請求缺少資料。",
-        "ProbeError": "取得文件元資料失敗。"
+        "ProbeError": "取得文件元資料失敗。",
+        "DiscriminatorChangeRatelimited": "您近期所做的使用者名稱變更過多。"
     },
     "permissions": {
         "ManageChannels": {
@@ -920,7 +933,7 @@
         },
         "ManageRole": {
             "t": "管理身份組",
-            "d": "允許成員建立，編輯和刪除等級低於自己的身份組。也允許修改頻道身份組權限。"
+            "d": "允許成員建立、編輯和刪除級別低於自己的身份組，以及修改頻道身份組權限。"
         },
         "ViewChannel": {
             "t": "查看頻道",
