@@ -442,6 +442,78 @@
                     "use": "Use theme",
                     "by": "by"
                 },
+                "keybinds": {
+                    "title": "Keybinds",
+                    "description": "View and set keybinds",
+                    "search": "Search keybinds…",
+                    "add_keybind": "Add new keybind",
+                    "edit_keybind": "Edit keybind",
+                    "remove_keybind": "Remove keybind",
+                    "reset_keybind": "Reset keybind to {{keybind}}",
+                    "category": {
+                        "navigation": "Navigation",
+                        "messaging": "Messaging",
+                        "advanced": "Advanced"
+                    },
+                    "action": {
+                        "navigate_channel_up": {
+                            "title": "Navigate to the previous channel",
+                            "description": "Navigate to the previous channel."
+                        },
+                        "navigate_channel_down": {
+                            "title": "Navigate to the next channel",
+                            "description": "Navigate to the next channel."
+                        },
+                        "navigate_server_up": {
+                            "title": "Navigate to the previous server",
+                            "description": "Navigate to the previous server."
+                        },
+                        "navigate_server_down": {
+                            "title": "Navigate to the next server",
+                            "description": "Navigate to the next server."
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "Edit previous message",
+                            "description": "Edit the previously sent message in the currently loaded messaging view."
+                        },
+                        "auto_complete_up": {
+                            "title": "Previous Autocomplete Selection",
+                            "description": "Move the autocomplete selection to the previous one."
+                        },
+                        "auto_complete_down": {
+                            "title": "Next Autocomplete Selection",
+                            "description": "Move the autocomplete selection to the next one."
+                        },
+                        "auto_complete_select": {
+                            "title": "Confirm Autocomplete Selection",
+                            "description": "Confirm the current autocompletion selection."
+                        },
+                        "input_submit": {
+                            "title": "Submit Input",
+                            "description": "An advanced keybind that is typically used to submit the current input.\nThis may include submitting a message, submitting an edit to a message, submitting a search, etc.."
+                        },
+                        "input_cancel": {
+                            "title": "Cancel Input",
+                            "description": "An advanced keybind that is typically used to cancel the current input.\nThis may include cancelling a message edit, removing a queued image, or similar scenarios."
+                        },
+                        "input_force_submit": {
+                            "title": "Force Submit Input",
+                            "description": "An advanced keybind that is typically used to forcefully submit the current input, ignoring some checks or other keybinds.\nThis may include submitting a message instead of confirming the autocomplete selection."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Scroll to bottom of messages",
+                            "description": "Scrolls to the bottom of the messaging view."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Mark channel as read",
+                            "description": "Marks the current channel as read."
+                        },
+                        "navigate_previous_context": {
+                            "title": "Navigate to the previous context",
+                            "description": "An advanced keybind that is typically used to close the setting page, a modal, or a popup and return back to the previous context."
+                        }
+                    }
+                },
                 "feedback": {
                     "title": "Feedback",
                     "description": "Submit feedback",
@@ -687,6 +759,10 @@
                     "continue": "Continue",
                     "send_email": "Send Email",
                     "dont_block": "Don't block"
+                },
+                "edit_keybind": {
+                    "title": "Edit keybind for {{action}}",
+                    "placeholder": "Press keys to record"
                 }
             },
             "popovers": {
@@ -991,6 +1067,42 @@
         "MoveMembers": {
             "t": "Move Members",
             "d": "Allows members to move others between voice channels."
+        }
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "PrintScreen": {
+            "full": "Print Screen",
+            "short": "PrtSc"
+        },
+        "ScrollLock": {
+            "full": "Scroll Lock",
+            "short": "ScrLK"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
         }
     }
 }
