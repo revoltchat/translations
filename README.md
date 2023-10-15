@@ -43,7 +43,7 @@ Please note that this table **only includes languages that are currently availab
 |🇦🇲|հայերեն / hy|||
 |🇮🇩|bahasa Indonesia / id|[@liimee](https://github.com/liimee)|[@ilhamfauzan](https://github.com/ilhamfauzan)|
 |🇮🇸|Íslenska / is|||
-|🇮🇹|Italiano / it|[@SingleSlice](https://github.com/SingleSlice)|[@Gabriele73](https://github.com/Gabriele73)|
+|🇮🇹|Italiano / it|[@plumcakey](https://github.com/plumcakey)|[@Gabriele73](https://github.com/Gabriele73)|
 |🇯🇵|日本語 / ja|[@chelley](https://github.com/chelley)||
 |🇰🇷|한국어 / ko|||
 |🇱🇺|Lëtzebuergesch / lb|||
