@@ -345,6 +345,10 @@
                         "Underage": "Ten użytkownik nie ma wystarczającej liczby lat aby mieć konto"
                     },
                     "block_user": "Czy chciałbyś zablokować tego użytkownika?"
+                },
+                "edit_keybind": {
+                    "title": "Edytuj skrót klawiszowy dla akcji: {{action}}",
+                    "placeholder": "Naciśnij klawisze do zarejestrowania"
                 }
             },
             "status": {
@@ -694,6 +698,60 @@
                         "reduced_motion": "Jeśli ta opcja jest włączona, animacje i efekty ruchu nie będą odtwarzane lub będą mniej intensywne."
                     },
                     "reduced_motion": "Zredukowany ruch"
+                },
+                "keybinds": {
+                    "search": "Wyszukaj skróty klawiszowe…",
+                    "remove_keybind": "Usuń skrót klawiszowy",
+                    "action": {
+                        "navigate_channel_up": {
+                            "description": "Przejdź do poprzedniego kanału.",
+                            "title": "Przejdź do poprzedniego kanału"
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "Edytuj poprzednią wiadomość"
+                        },
+                        "developer_toggle_all_experiments": {
+                            "description": "To włączy / wyłączy wszystkie eksperymenty jednocześnie."
+                        },
+                        "auto_complete_down": {
+                            "description": "Przesuń wybór autouzupełniania do następnego.",
+                            "title": "Następny Wybór Autouzupełniania"
+                        },
+                        "navigate_channel_down": {
+                            "title": "Przejdź do następnego kanału",
+                            "description": "Przejdź do następnego kanału."
+                        },
+                        "navigate_server_up": {
+                            "title": "Przejdź do poprzedniego serwera",
+                            "description": "Przejdź do poprzedniego serwera."
+                        },
+                        "navigate_server_down": {
+                            "title": "Przejdź do następnego serwera",
+                            "description": "Przejdź do następnego serwera."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Oznacz kanał jako przeczytany",
+                            "description": "Oznacza obecny kanał jako przeczytany."
+                        },
+                        "auto_complete_up": {
+                            "title": "Poprzedni Wybór Autouzupełniania",
+                            "description": "Cofnij wybór autouzupełniania do poprzedniego."
+                        },
+                        "auto_complete_select": {
+                            "title": "Zatwierdź Wybór Autouzupełniania",
+                            "description": "Zatwierdź aktualny wybór autouzupełniania."
+                        }
+                    },
+                    "title": "Skróty klawiszowe",
+                    "description": "Przeglądaj i ustawiaj skróty klawiszowe",
+                    "add_keybind": "Dodaj skrót klawiszowy",
+                    "edit_keybind": "Edytuj skrót klawiszowy",
+                    "reset_keybind": "Zresetuj skrót klawiszowy do {{keybind}}",
+                    "category": {
+                        "navigation": "Nawigacja",
+                        "messaging": "Wiadomości",
+                        "advanced": "Zaawansowane"
+                    }
                 }
             },
             "categories": {
@@ -1024,5 +1082,41 @@
     },
     "actions": {
         "submit": "Prześlij"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "PrintScreen": {
+            "full": "Print Screen",
+            "short": "PrtSc"
+        },
+        "ScrollLock": {
+            "full": "Scroll Lock",
+            "short": "ScrLK"
+        }
     }
 }
