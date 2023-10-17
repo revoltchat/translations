@@ -534,7 +534,12 @@
                             "description": "يميز القناة الحالية كمقروءة."
                         },
                         "navigate_previous_context": {
-                            "title": "تنقل للجزء السابق"
+                            "title": "تنقل للجزء السابق",
+                            "description": "رابط مفتاح متقدم طبيعيا مستخدم لقفل صفحة الإعدادات أو مشروط، ويرجع الجزء السابق."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "تبديل تجربة الوضع الآمن",
+                            "description": "هذا سيفعّل أو يبطل جميع التجارب في آنٍ واحد."
                         }
                     },
                     "title": "روابط المفاتيح",
@@ -838,6 +843,10 @@
                     "block_user": "هل تريد حظر هذا المستخدم؟",
                     "reported": "تم الابلاغ",
                     "thank_you": "شكرا للمساعدة في الحفاظ على امان Revolt. سنراجع تقريرك في أقرب وقت ممكن."
+                },
+                "edit_keybind": {
+                    "title": "تعديل رابط المفتاح ل{{action}}",
+                    "placeholder": "اضغط علي المفاتيح لتسجل"
                 }
             },
             "server-badges": {
@@ -1073,5 +1082,41 @@
     },
     "actions": {
         "submit": "إرسال"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "ScrollLock": {
+            "short": "ScrLK",
+            "full": "Scroll Lock"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "PrintScreen": {
+            "full": "Print Screen",
+            "short": "PrtSc"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
+        }
     }
 }
