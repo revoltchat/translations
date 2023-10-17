@@ -79,7 +79,7 @@
                     "user_banned": "{{user}} ki lett tiltva",
                     "user_kicked": "{{user}} ki lett rúgva",
                     "channel_ownership_changed": "{{from}} átruházta a csoport tulajdonjogát {{to}} tagnak",
-                    "registered_at": "{{time}}regisztrált"
+                    "registered_at": "{{time}} regisztrált"
                 },
                 "typing": {
                     "several": "Többen is gépelnek…",
@@ -116,7 +116,7 @@
                     "jump_beginning": "ugrás az elejéhez",
                     "new_messages": "{{time_ago}} érkeztek új üzenetek",
                     "load_file": "Fájl betöltése",
-                    "timed_out": "{{time}}ig eltiltottak.",
+                    "timed_out": "{{time}} eltiltottak.",
                     "not_loaded": "Az üzenet nem lett betöltve – kattints az ugráshoz"
                 },
                 "notifications": {
@@ -151,7 +151,7 @@
                     "toggle": "Értesítés küldése a válaszolásról"
                 },
                 "bridge": "híd",
-                "user_timed_out": "{{time}}ig el lett tiltva.",
+                "user_timed_out": "{{time}} el lett tiltva.",
                 "bridged": "Az üzenetet másik platformon keresztül küldték el",
                 "team": "Hivatalos kommunikáció",
                 "reactions": {
@@ -421,6 +421,82 @@
                         "reduced_motion": "Az animációk és a mozgó képhatások nem látszódnak majd, vagy pedig kevésbé lesznek erőteljesek."
                     },
                     "reduced_motion": "Csökkentett képhatás"
+                },
+                "keybinds": {
+                    "description": "Gyorsbillentyűk megtekintése és beállítása",
+                    "reset_keybind": "Gyorsbillentyű {{keybind}} értékre visszaállítása",
+                    "action": {
+                        "navigate_channel_down": {
+                            "description": "Ugrás a következő csatornához.",
+                            "title": "Ugrás a következő csatornához"
+                        },
+                        "navigate_server_down": {
+                            "description": "Ugrás a következő szerverhez.",
+                            "title": "Ugrás a következő szerverhez"
+                        },
+                        "auto_complete_down": {
+                            "description": "Lépés a következő automatikus kiegészítésre.",
+                            "title": "Következő automatikus kiegészítés"
+                        },
+                        "input_submit": {
+                            "description": "Leginkább a jelenlegi bevitel elküldésére szolgáló, speciális gyorsbillentyű.\nÁltalában üzenet küldésére, üzenet szerkesztésének elküldésére, vagy keresésre használható.",
+                            "title": "Bevitelküldés"
+                        },
+                        "input_force_submit": {
+                            "description": "Leginkább a jelenlegi bevitel kényszerített elküldésére szolgáló, speciális gyorsbillentyű, mely figyelmen kívül hagyja a küldés előtti ellenőrzést, vagy más gyorsbillentyű-parancsokat.\nÁltalában automatikus kiegészítés jóváhagyása helyett az üzenet elküldésére használható.",
+                            "title": "Bevitelküldés kényszerítése"
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "description": "Az üzenetváltási ablak aljához görget.",
+                            "title": "Legutóbbi üzenethez görgetés"
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Csatorna megjelölése olvasottként",
+                            "description": "Olvasottként jelöli meg a jelenlegi csatornát."
+                        },
+                        "navigate_previous_context": {
+                            "description": "Leginkább a beállítások oldal, egy felugró menü, vagy felugró ablak bezárására szolgáló, speciális gyorsbillentyű, mellyel az előző állapothoz való visszatérésre használható.",
+                            "title": "Ugrás az előzőhöz"
+                        },
+                        "navigate_channel_up": {
+                            "title": "Ugrás az előző csatornához",
+                            "description": "Ugrás az előző csatornához."
+                        },
+                        "navigate_server_up": {
+                            "title": "Ugrás az előző szerverhez",
+                            "description": "Ugrás az előző szerverhez."
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "Legutóbbi üzenet szerkesztése",
+                            "description": "A mostani üzenetváltási ablak legutóbb küldött üzenetének szerkesztése."
+                        },
+                        "auto_complete_up": {
+                            "title": "Előző automatikus kiegészítés",
+                            "description": "Visszalépés az előző automatikus kiegészítésre."
+                        },
+                        "auto_complete_select": {
+                            "title": "Automatikus kiegészítés jóváhagyása",
+                            "description": "Kiválasztott automatikus kiegészítés jóváhagyása."
+                        },
+                        "input_cancel": {
+                            "title": "Bevitel visszavonása",
+                            "description": "Leginkább a jelenlegi bevitel visszavonására szolgáló, speciális gyorsbillentyű.\nÁltalában üzenet szerkesztésének visszavonására, elküldendő kép eltávolítására, vagy hasonló funckióra használható."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "Összes kísérlet be- és kikapcsolása közti váltás",
+                            "description": "Az összes kísérletet egyszerre lehet kikapcsolni, vagy bekapcsolni."
+                        }
+                    },
+                    "title": "Gyorsbillentyűk",
+                    "search": "Gyorsbillentyűk keresése…",
+                    "add_keybind": "Új gyorsbillentyű",
+                    "edit_keybind": "Gyorsbillentyű szerkesztése",
+                    "remove_keybind": "Gyorsbillentyű eltávolítása",
+                    "category": {
+                        "navigation": "Ugrás",
+                        "messaging": "Üzenetváltás",
+                        "advanced": "Speciális"
+                    }
                 }
             },
             "categories": {
@@ -644,6 +720,10 @@
                         "Impersonation": "A felhasználó valaki másnak adja ki magát"
                     },
                     "reported": "Jelentve"
+                },
+                "edit_keybind": {
+                    "title": "{{action}} gyorsbillentyűjének szerkesztése",
+                    "placeholder": "Add meg a gyorsbillentyű-kombinációdat"
                 }
             },
             "status": {
@@ -1004,8 +1084,8 @@
             "d": "A tagok kezelhetik a csatorna webhookjait."
         },
         "ReadMessageHistory": {
-            "t": "Régebbi üzenetek olvasása",
-            "d": "A tagok elolvashatják a csatorna régebbi üzeneteit."
+            "t": "Korábbi üzenetek olvasása",
+            "d": "A tagok elolvashatják a csatorna korábbi üzeneteit."
         },
         "SendEmbeds": {
             "t": "Beágyazott tartalmak küldése",
@@ -1022,5 +1102,41 @@
     },
     "actions": {
         "submit": "Küldés"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "PrintScreen": {
+            "full": "Print Screen",
+            "short": "PrtSc"
+        },
+        "ScrollLock": {
+            "full": "Scroll Lock",
+            "short": "ScrLK"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
+        }
     }
 }
