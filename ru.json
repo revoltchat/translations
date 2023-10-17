@@ -436,6 +436,66 @@
                     "descriptions": {
                         "reduced_motion": "Если это включено, анимации и эффекты движения не будут проигрываться вовсе, или с меньшей скоростью."
                     }
+                },
+                "keybinds": {
+                    "title": "Горячие клавиши",
+                    "description": "Просмотреть и установить горячие клавиши",
+                    "add_keybind": "Добавить горячую клавишу",
+                    "edit_keybind": "Изменить горячую клавишу",
+                    "action": {
+                        "navigate_channel_up": {
+                            "title": "Переход в предыдущий канал",
+                            "description": "Перенаправляет в предыдущий канал."
+                        },
+                        "navigate_channel_down": {
+                            "description": "Перенаправляет в следующий канал.",
+                            "title": "Переход в следующий канал"
+                        },
+                        "navigate_server_down": {
+                            "description": "Перенаправляет в следующий сервер.",
+                            "title": "Переход в следующий сервер"
+                        },
+                        "messaging_edit_previous_message": {
+                            "description": "Редактирует последнее отправленное сообщение среди прогруженных в текущем канале.",
+                            "title": "Изменить последнее сообщение"
+                        },
+                        "messaging_mark_channel_read": {
+                            "description": "Пометить текущий канал как прочитанный.",
+                            "title": "Отметить канал как прочитанный"
+                        },
+                        "developer_toggle_all_experiments": {
+                            "description": "Это включит / выключит все эксперименты сразу.",
+                            "title": "Переключить режим безопасного экспериментирования"
+                        },
+                        "navigate_server_up": {
+                            "title": "Переход в предыдущий сервер",
+                            "description": "Перенаправляет в предыдущий сервер."
+                        },
+                        "auto_complete_up": {
+                            "title": "Предыдущий выбор автозаполнения"
+                        },
+                        "input_submit": {
+                            "title": "Подтвердить ввод"
+                        },
+                        "input_cancel": {
+                            "title": "Отменить ввод"
+                        },
+                        "input_force_submit": {
+                            "title": "Принудительно подтвердить ввод"
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Переход к последнему сообщению",
+                            "description": "Прокручивает окно сообщений вниз."
+                        }
+                    },
+                    "search": "Поиск горячих клавиш…",
+                    "remove_keybind": "Удалить горячую клавишу",
+                    "reset_keybind": "Сбросить назначение на {{keybind}}",
+                    "category": {
+                        "navigation": "Навигация",
+                        "messaging": "Переписка",
+                        "advanced": "Расширенные"
+                    }
                 }
             },
             "title": "Настройки",
@@ -729,6 +789,10 @@
                     "thank_you": "Спасибо за то, что делаете Revolt безопаснее. Мы рассмотрим вашу жалобу как можно скорее.",
                     "block_user": "Хотите ли вы заблокировать данного пользователя?",
                     "reported": "Отправлено"
+                },
+                "edit_keybind": {
+                    "placeholder": "Нажмите клавиши для записи",
+                    "title": "Изменить назначение для {{action}}"
                 }
             },
             "popovers": {
@@ -1028,5 +1092,41 @@
     },
     "actions": {
         "submit": "Отправить"
+    },
+    "keys": {
+        "CapsLock": {
+            "full": "Caps Lock"
+        },
+        "ScrollLock": {
+            "short": "ScrLK",
+            "full": "Scroll Lock"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "PrintScreen": {
+            "short": "PrtSc",
+            "full": "Print Screen"
+        },
+        "PageDown": {
+            "short": "PgDown",
+            "full": "Page Down"
+        },
+        "PageUp": {
+            "short": "PgUp",
+            "full": "Page Up"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Escape": {
+            "short": "Esc"
+        }
     }
 }
