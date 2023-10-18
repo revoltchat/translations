@@ -496,6 +496,49 @@
                     "descriptions": {
                         "reduced_motion": "Si cette option est activée, les animations et les effets de mouvement ne seront pas joués ou seront moins intenses."
                     }
+                },
+                "keybinds": {
+                    "category": {
+                        "messaging": "Messagerie",
+                        "navigation": "Navigation",
+                        "advanced": "Avancée"
+                    },
+                    "add_keybind": "Ajouter un nouveau raccourcis",
+                    "action": {
+                        "navigate_channel_up": {
+                            "description": "Naviguer au canal précédent.",
+                            "title": "Naviguer au canal précédent"
+                        },
+                        "messaging_mark_channel_read": {
+                            "description": "Marque le canal actuel comme lu.",
+                            "title": "Marque canal comme lu"
+                        },
+                        "navigate_server_down": {
+                            "description": "Naviguer au serveur suivant.",
+                            "title": "Naviguer au server suivant"
+                        },
+                        "navigate_server_up": {
+                            "description": "Naviguer au serveur précédent.",
+                            "title": "Naviguer au server précédent"
+                        },
+                        "navigate_channel_down": {
+                            "title": "Naviguer au prochain canal",
+                            "description": "Naviguer au prochain canal."
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "Modifier précédent message"
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Faites défiler jusqu'au bas du message"
+                        },
+                        "navigate_previous_context": {
+                            "title": "Naviguer au contexte précédent"
+                        }
+                    },
+                    "description": "Afficher et définir des raccourcis clavier",
+                    "search": "Recherche de raccourcis clavier…",
+                    "edit_keybind": "Modifier le raccourcis clavier",
+                    "remove_keybind": "Supprimer le raccourcis clavier"
                 }
             },
             "channel_pages": {
@@ -1021,5 +1064,10 @@
     },
     "actions": {
         "submit": "Soumettre"
+    },
+    "keys": {
+        "Control": {
+            "short": "Ctrl"
+        }
     }
 }
