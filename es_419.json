@@ -442,6 +442,82 @@
                     "descriptions": {
                         "reduced_motion": "Si esto se activa, las animaciones y efectos de movimiento no se reproducirán o serán menos intensos."
                     }
+                },
+                "keybinds": {
+                    "title": "Atajos de teclado",
+                    "remove_keybind": "Eliminar atajo de teclado",
+                    "action": {
+                        "navigate_channel_down": {
+                            "title": "Ir al próximo canal",
+                            "description": "Ir al próximo canal."
+                        },
+                        "navigate_server_down": {
+                            "description": "Ir al próximo servidor.",
+                            "title": "Ir al próximo servidor"
+                        },
+                        "auto_complete_down": {
+                            "description": "Mover la selección de autocompletado a la siguiente.",
+                            "title": "Siguiente selección de autocompletado"
+                        },
+                        "input_submit": {
+                            "description": "Un atajo de teclado avanzado que normalmente se utiliza para enviar la acción actual. \nEsto puede incluir el envío de un mensaje, la edición de un mensaje, hacer una búsqueda, entre otras acciones.",
+                            "title": "Enviar acción"
+                        },
+                        "input_cancel": {
+                            "description": "Un atajo de teclado avanzado que normalmente se utiliza para cancelar la acción actual. \nEsto puede incluir cancelar la edición de un mensaje, eliminar una imagen en espera, entre otras acciones.",
+                            "title": "Cancelar acción"
+                        },
+                        "developer_toggle_all_experiments": {
+                            "description": "Esto activará/desactivará todos los experimentos a la vez.",
+                            "title": "Activar/desactivar el modo seguro de experimentos"
+                        },
+                        "navigate_channel_up": {
+                            "title": "Regresar al canal anterior",
+                            "description": "Regresar al canal anterior."
+                        },
+                        "navigate_server_up": {
+                            "title": "Regresar al servidor anterior",
+                            "description": "Regresar al servidor anterior."
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "Editar mensaje enviado",
+                            "description": "Editar el mensaje enviado."
+                        },
+                        "auto_complete_up": {
+                            "title": "Selección anterior de autocompletado",
+                            "description": "Mover la selección de autocompletado a la anterior."
+                        },
+                        "auto_complete_select": {
+                            "title": "Confirmar la selección de autocompletado",
+                            "description": "Confirmar la selección actual de autocompletado."
+                        },
+                        "input_force_submit": {
+                            "title": "Forzar la acción",
+                            "description": "Un atajo de teclado avanzado que normalmente se utiliza para enviar una acción de manera forzada, sin tener en cuenta ciertas comprobaciones o atajos. \nEsto puede incluir el envío de un mensaje en lugar de confirmar la selección automática."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Desplazarse hacia abajo en el chat",
+                            "description": "Desplaza hacia la parte inferior del chat."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Marcar canal como leído",
+                            "description": "Marca el canal actual como leído."
+                        },
+                        "navigate_previous_context": {
+                            "title": "Regresar al contexto anterior",
+                            "description": "Un atajo de teclado avanzado que normalmente se utiliza para cerrar la página de ajustes, una ventana modal o un mensaje emergente, y regresar al contexto anterior."
+                        }
+                    },
+                    "description": "Ver y configurar atajos de teclado",
+                    "search": "Buscar atajos de teclado…",
+                    "add_keybind": "Añadir nuevo atajo de teclado",
+                    "edit_keybind": "Editar atajo de teclado",
+                    "reset_keybind": "Cambiar atajo de teclado a {{keybind}}",
+                    "category": {
+                        "navigation": "Navegación",
+                        "messaging": "Mensajes",
+                        "advanced": "Avanzado"
+                    }
                 }
             },
             "title": "Ajustes",
@@ -680,6 +756,10 @@
                         "password": "Cambiar contraseña"
                     },
                     "failed": "¡No se pudo guardar los cambios!"
+                },
+                "edit_keybind": {
+                    "title": "Editar atajo de teclado para {{action}}",
+                    "placeholder": "Pulsa las teclas para grabar"
                 }
             },
             "server-badges": {
@@ -992,5 +1072,41 @@
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "PrintScreen": {
+            "full": "Print Screen",
+            "short": "PrtSc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Retroceso"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "ScrollLock": {
+            "full": "Scroll Lock",
+            "short": "ScrLK"
+        },
+        "CapsLock": {
+            "full": "Bloq Mayús"
+        }
     }
 }
