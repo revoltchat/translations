@@ -344,6 +344,10 @@
                     "reason": "Důvod",
                     "additional_context": "Další informace",
                     "no_reason": "Bez udání důvodu / jiný důvod"
+                },
+                "edit_keybind": {
+                    "title": "Upravit klávesovou zkratku pro akci {{action}}",
+                    "placeholder": "Stiskněte klávesu"
                 }
             },
             "status": {
@@ -716,6 +720,34 @@
                         "auto_complete_select": {
                             "title": "Potvrdit výběr automatického dokončení",
                             "description": "Potvrdit aktuální výběr automatického dokončení."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Označit kanál jako přečtený",
+                            "description": "Označí aktuální kanál jako přečtený."
+                        },
+                        "navigate_previous_context": {
+                            "description": "Pokročilá klávesová zkratka obvykle používaná k uzavření stránky nastavení, dialogu nebo vyskakovacího okna pro návrat na předchozí kontext.",
+                            "title": "Navigovat na předchozí kontext"
+                        },
+                        "input_submit": {
+                            "title": "Odeslat vstup",
+                            "description": "Pokročilá klávesová zkratka, která je obvykle používána k odeslání aktuálního vstupu.\nMůže se jednat o odeslání zprávy, odeslání úpravy zprávy, odeslání vyhledávání apod."
+                        },
+                        "input_cancel": {
+                            "title": "Zrušit vstup",
+                            "description": "Pokročilá klávesová zkratka, která je obvykle používána ke zrušení aktuálního vstupu.\nMůže se jednat o zrušení úpravy zprávy, odstranění obrázku ve frontě a podobných událostí."
+                        },
+                        "input_force_submit": {
+                            "title": "Vynutit odeslání vstupu",
+                            "description": "Pokročilá klávesová zkratka, která je obvykle používána k vynucenému odeslání aktuálního vstupu, ignorování některých kontrol a dalších klávesových zkratek.\nMůže se jednat o odeslání zprávy místo potvrzení výběru automatického dokončení."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Přesunout na konec zpráv",
+                            "description": "Přesune zobrazení na poslední zprávu v kanále."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "Přepnout všechny experimenty",
+                            "description": "Toto nastavení naráz zapne/vypne všechny experimenty."
                         }
                     },
                     "description": "Zobrazit a nastavit klávesové zkratky",
@@ -1054,5 +1086,41 @@
     },
     "actions": {
         "submit": "Potvrdit"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "PrintScreen": {
+            "full": "Print Screen",
+            "short": "PrtSc"
+        },
+        "ScrollLock": {
+            "full": "Scroll Lock",
+            "short": "ScrLK"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
+        }
     }
 }
