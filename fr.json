@@ -526,19 +526,37 @@
                             "description": "Aller au canal suivant."
                         },
                         "messaging_edit_previous_message": {
-                            "title": "Modifier le message précédent"
+                            "title": "Modifier le message précédent",
+                            "description": "Modifier le message précédemment envoyé dans la vue de messagerie actuellement chargée."
                         },
                         "messaging_scroll_to_bottom": {
                             "title": "Faites défiler jusqu'au bas du message"
                         },
                         "navigate_previous_context": {
                             "title": "Aller au contexte précédent"
+                        },
+                        "auto_complete_select": {
+                            "description": "Confirmer la sélection actuelle de l’autocomplétion.",
+                            "title": "Confirmer la sélection de saisie automatique"
+                        },
+                        "input_cancel": {
+                            "title": "Annuler de saisir"
+                        },
+                        "auto_complete_up": {
+                            "title": "Sélection saisie automatique précédente",
+                            "description": "Déplacez la sélection saisie automatique à la précédente."
+                        },
+                        "auto_complete_down": {
+                            "title": "Sélection saisie automatique suivante",
+                            "description": "Déplacer la sélection saisie automatique à la suivante."
                         }
                     },
                     "description": "Afficher et définir les raccourcis clavier",
                     "search": "Recherche de raccourcis clavier…",
                     "edit_keybind": "Modifier le raccourci clavier",
-                    "remove_keybind": "Supprimer le raccourci clavier"
+                    "remove_keybind": "Supprimer le raccourci clavier",
+                    "title": "Raccourcis clavier",
+                    "reset_keybind": "Réinitialiser le raccourci clavier sur {{keybind}}"
                 }
             },
             "channel_pages": {
@@ -774,6 +792,9 @@
                     "reported": "Signalé",
                     "thank_you": "Merci d'aider à garder Revolt sûr. Nous allons examiner votre signalement dès que possible.",
                     "block_user": "Voulez-vous bloquer cet utilisateur ?"
+                },
+                "edit_keybind": {
+                    "title": "Modifier le raccourci pour {{action}}"
                 }
             },
             "status": {
@@ -1068,6 +1089,15 @@
     "keys": {
         "Control": {
             "short": "Ctrl"
+        },
+        "CapsLock": {
+            "full": "Verrouillage des majuscules"
+        },
+        "ScrollLock": {
+            "full": "Arrêt défil"
+        },
+        "PrintScreen": {
+            "full": "Impression d'écran"
         }
     }
 }
