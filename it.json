@@ -130,7 +130,7 @@
         }
     },
     "login": {
-        "check_spam": "Per favore controlla nello spam se non riesci a trovarla",
+        "check_spam": "Per favore controlla nella cartella spam se non riesci a trovarla",
         "error": {
             "reset": "Ripristino fallito!",
             "create": "Registrazione fallita!",
@@ -161,7 +161,7 @@
         "missing_verification": "Non hai ricevuto l'email?",
         "resend": "Rinvia la verifica",
         "cancel": "Cancella la richiesta",
-        "email_delay": "Si prega di attendere fino a 10 minuti per l'arrivo della mail.",
+        "email_delay": "Si prega di attendere almeno 10 minuti per l'arrivo della mail.",
         "open_mail_provider": "Apri {{provider}}",
         "successful_registration": "Registrazione avvenuta con successo!",
         "set_password": "Imposta una nuova password",
@@ -385,7 +385,9 @@
                         "title": "Gestione dell'account",
                         "disable": "Disabilitare account",
                         "delete": "Eliminare l'account",
-                        "description": "Disattiva o elimina il tuo account in qualsiasi momento. Questa azione ti disconnetterà ed eliminerà completamente il tuo account, inclusa la cronologia della chat e gli amici."
+                        "description": "Disattiva o elimina il tuo account in qualsiasi momento. Questa azione ti disconnetterà ed eliminerà completamente il tuo account, inclusa la cronologia della chat e gli amici.",
+                        "disable_description": "Non sarai in grado di accedere al tuo account a meno che non contatti il supporto - Tuttavia, i tuoi dati non verranno cancellati.",
+                        "delete_description": "Il tuo account e tuti i tuoi dati (inclusi i tuoi messaggi e la tua lista degli amici) verrano messi in coda per essere eliminati. Una mail di conferma verra spedita - puoi canellare questa operazione nel giro di 7 giorni contattando il supporto."
                     }
                 },
                 "profile": {
@@ -473,7 +475,7 @@
                     "enable_push": "Abilita le notifiche push",
                     "sounds": "Suoni",
                     "descriptions": {
-                        "enable_desktop": "Questo ti invierà le notifiche mentre che l'app è aperta.",
+                        "enable_desktop": "Se abilitato, questo ti invierà le notifiche mentre che l'app è aperta.",
                         "enable_push": "Abilita per ricevere le notifiche quando sei offline."
                     },
                     "sound": {
@@ -545,7 +547,7 @@
                     "output_device": "Altoparlanti / Cuffie",
                     "device_label_NA": "N/D",
                     "button_retry": "riprova",
-                    "tip_retry": "Non hai dato il permesso per accedere al tuo microfono, per favore {{retryBtn}}.",
+                    "tip_retry": "Non hai dato a Revolt il permesso per accedere al tuo microfono, per favore {{retryBtn}}.",
                     "tip_grant_permission": "Devi concedere il permesso per accedere alle impostazione audio.",
                     "button_grant": "Concedi"
                 },
@@ -573,6 +575,12 @@
                     "title": "Plugin",
                     "no_plugins": "Al momento non hai installato alcun plugin.",
                     "wip": "Attenzione: Questa funzionalità è ancora in sviluppo."
+                },
+                "accessibility": {
+                    "descriptions": {
+                        "reduced_motion": "Se questo è abilitato, le animazioni e gli effetti movimentati non verrano riprodotti o saranno meno intensi."
+                    },
+                    "title": "Accessibilità"
                 }
             },
             "channel_pages": {
