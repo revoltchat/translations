@@ -430,7 +430,87 @@
                     "no_plugins": "Er zijn op het moment geen plug-ins geïnstalleerd."
                 },
                 "accessibility": {
-                    "title": "Toegankelijkheid"
+                    "title": "Toegankelijkheid",
+                    "descriptions": {
+                        "reduced_motion": "Als dit is ingeschakeld, worden animaties en bewegingseffecten niet afgespeeld of minder intens."
+                    },
+                    "reduced_motion": "Verminderde Beweging"
+                },
+                "keybinds": {
+                    "title": "Sneltoetsen",
+                    "remove_keybind": "Verwijder sneltoets",
+                    "action": {
+                        "navigate_channel_up": {
+                            "description": "Naar het vorige kanaal gaan.",
+                            "title": "Naar het vorige kanaal navigeren"
+                        },
+                        "messaging_edit_previous_message": {
+                            "description": "Bewerk het eerder verzonden bericht in de momenteel geladen berichtenweergave.",
+                            "title": "Vorig bericht bewerken"
+                        },
+                        "auto_complete_select": {
+                            "description": "Bevestig de huidige selectie voor autoaanvullen.",
+                            "title": "Selectie autoaanvullen bevestigen"
+                        },
+                        "input_submit": {
+                            "description": "Een geavanceerde sneltoets dat vooral wordt gebruikt om de huidige invoer te versturen.\nDit kan het indienen van een bericht zijn, het indienen van een bewerking van een bericht, het indienen van een zoekopdracht, enz.",
+                            "title": "Verstuur invoer"
+                        },
+                        "input_force_submit": {
+                            "description": "Een geavanceerde sneltoets die meestal wordt gebruikt om de huidige invoer te forceren, waarbij sommige controles of andere sneltoetsen worden genegeerd.\nDit kan bijvoorbeeld het verzenden van een bericht zijn in plaats van het bevestigen van de autocomplete selectie.",
+                            "title": "Invoer forceren"
+                        },
+                        "messaging_mark_channel_read": {
+                            "description": "Markeert het huidige kanaal as gelezen.",
+                            "title": "Markeer kanaal als gelezen"
+                        },
+                        "navigate_previous_context": {
+                            "description": "Een geavanceerde sneltoets die meestal wordt gebruikt om de instellingspagina, een modal of een popup te sluiten en terug te keren naar de vorige context.",
+                            "title": "Navigeer naar de vorige context"
+                        },
+                        "navigate_channel_down": {
+                            "title": "Navigeer naar het volgende kanaal",
+                            "description": "Navigeer naar het volgende kanaal."
+                        },
+                        "navigate_server_up": {
+                            "title": "Navigeer naar de vorige server",
+                            "description": "Navigeer naar de vorige server."
+                        },
+                        "navigate_server_down": {
+                            "title": "Navigeer naar de volgende server",
+                            "description": "Navigeer naar de volgende server."
+                        },
+                        "auto_complete_up": {
+                            "title": "Vorige Automatisch aanvullen selecteren",
+                            "description": "Verplaats de autoaanvullen-selectie naar de vorige."
+                        },
+                        "auto_complete_down": {
+                            "title": "Volgende autoaanvullen selectie",
+                            "description": "Verplaats de autocomplete selectie naar de volgende."
+                        },
+                        "input_cancel": {
+                            "title": "Annuleer invoer",
+                            "description": "Een geavanceerde toetscombinatie die meestal wordt gebruikt om de huidige invoer te annuleren.\nDit kan het annuleren van een berichtbewerking zijn, het verwijderen van een afbeelding in de wachtrij of soortgelijke scenario's."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Scroll naar de onderkant van berichten",
+                            "description": "Scrollt naar de onderkant van de berichtweergave."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "Schakel experiment veilige modus om",
+                            "description": "Hiermee worden alle experimenten tegelijk in- of uitgeschakeld."
+                        }
+                    },
+                    "description": "Bekijk en configureer sneltoetsen",
+                    "search": "Zoeken naar sneltoetsen…",
+                    "add_keybind": "Maak sneltoets aan",
+                    "edit_keybind": "Wijzig sneltoets",
+                    "reset_keybind": "Reset sneltoets naar {{keybind}}",
+                    "category": {
+                        "navigation": "Navigatie",
+                        "messaging": "Berichten",
+                        "advanced": "Geavanceerd"
+                    }
                 }
             },
             "actions": {
@@ -673,6 +753,10 @@
                         "BanEvasion": "Deze gebruiker ontloopt een ban"
                     },
                     "thank_you": "Dank je voor jouw hulp om Revolt veilig te houden. We zullen jouw klacht zo snel mogelijk bekijken."
+                },
+                "edit_keybind": {
+                    "title": "Wijzig sneltoets voor {{action}}",
+                    "placeholder": "Druk toetsen in om op te nemen"
                 }
             },
             "popovers": {
@@ -875,7 +959,8 @@
         "NoEffect": "Dit verzoek had geen effect.",
         "RequiredField": "Verplicht",
         "ReachedMaximumBots": "Je hebt het maximum aantal bots bereikt.",
-        "AudioPermissionBlock": "Geen toegang tot uw microfoon, controleer de configuratie van uw browser."
+        "AudioPermissionBlock": "Geen toegang tot uw microfoon, controleer de configuratie van uw browser.",
+        "DiscriminatorChangeRatelimited": "Je verandert je gebruikerstag te vaak."
     },
     "permissions": {
         "ManageChannels": {
@@ -1012,5 +1097,41 @@
     },
     "actions": {
         "submit": "Verzend"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "PrintScreen": {
+            "full": "Print Screen",
+            "short": "PrtSc"
+        },
+        "ScrollLock": {
+            "full": "Scroll Lock",
+            "short": "ScrLK"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
+        }
     }
 }
