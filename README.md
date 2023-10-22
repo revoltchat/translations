@@ -16,7 +16,7 @@ Please note that this table **only includes languages that are currently availab
 |:-:|---|---|---|
 |🇬🇧|English (Traditional) / en|[@insertish](https://github.com/insertish)||
 |🇺🇸|English (Simplified) / en_US|||
-|🇸🇦|عربي / ar|[@LedaThemis](https://github.com/LedaThemis)||
+|🇸🇦|عربي / ar|[@LedaThemis](https://github.com/LedaThemis) [@vloddot](https://github.com/vloddot)||
 |🇮🇳|অসমীয়া / as|||
 |🇦🇿|Azərbaycan dili / az|||
 |🇧🇾|беларуская / be|||
