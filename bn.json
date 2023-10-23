@@ -58,7 +58,7 @@
         "unofficial_instance": "তৃতীয়-পক্ষের উপস্থিতি।",
         "verifying_account": "আপনার অ্যাকাউন্টকে যাচাই করা হচ্ছে…",
         "verified_account": "আপনার অ্যাকাউন্টকে যাচাই করা হয়ে গেছে!",
-        "verified_continue": "লগইন করুন",
+        "verified_continue": "পুনরায় লগইন করুন",
         "new_password": "নতুন পাসওয়ার্ড",
         "log_out_other": "অন্যান্য সকল সেশন থেকে লগ আউট হন"
     },
@@ -432,6 +432,19 @@
                         "reduced_motion": "এটি চালু থাকলে, অ্যানিমেশন এবং অন্যান্য গতির প্রভাবগুলি চলবে না বা কম তীব্র হবে।"
                     },
                     "title": "অ্যাক্সেসযোগ্যতা"
+                },
+                "keybinds": {
+                    "action": {
+                        "messaging_edit_previous_message": {
+                            "title": "আগের মেসেজকে সম্পাদনা করুন"
+                        },
+                        "developer_toggle_all_experiments": {
+                            "description": "এটি পরীক্ষামূলক সব অপশনগুলোকে চালু/বন্ধ করে দেবে।"
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "পঠিত হিসেবে মার্ক করুন"
+                        }
+                    }
                 }
             },
             "channel_pages": {
@@ -642,6 +655,9 @@
                         "SpamAbuse": "এটি স্প্যাম বা প্ল্যাটফর্মের অপব্যবহার/দুর্ব্যবহার",
                         "Harassment": "এটি অন্য ইউজারকে লক্ষ্য করে করা হয়রানি বা দুর্ব্যবহার"
                     }
+                },
+                "edit_keybind": {
+                    "placeholder": "রেকর্ড করতে এই কি-গুলি টিপুন"
                 }
             },
             "popovers": {
@@ -1001,5 +1017,41 @@
     },
     "actions": {
         "submit": "জমা দিন"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "PrintScreen": {
+            "full": "Print Screen",
+            "short": "PrtSc"
+        },
+        "ScrollLock": {
+            "full": "Scroll Lock",
+            "short": "ScrLK"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
+        }
     }
 }
