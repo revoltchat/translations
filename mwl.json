@@ -59,7 +59,7 @@
         },
         "unofficial_instance": "Anstáncia de terceiros.",
         "username": "Nome de outelizador",
-        "log_out_other": "Salir de todas las outras seçones",
+        "log_out_other": "Salir de to las outras sessones",
         "missing_verification": "Nun recebiste un email?",
         "email_delay": "Ambiamos un email de berificaçon. Aspere anté 10 minutos pa el chegar fai fabor.",
         "check_spam": "Mira la tue pasta de spam se nun lo cunsegues ancuntrar",
@@ -96,7 +96,7 @@
             "settings-tooltip": "Puodes fazer right-click ne l ícone de outelizador ne l canto izquierdo, ó left-click se yá stás na cas.",
             "discover": "Çcobre l Revolt",
             "group": "Cria un grupo",
-            "group_desc": "Ambita tos ls tous amios, alguns buns bots, i faç ũa fiesta.",
+            "group_desc": "Ambita to ls tous amios, alguns buns bots, i faç ũa fiesta.",
             "join-testers_desc": "Puodes reportar berbicachos i çcutir melhoramientos diretamente eiqui.",
             "feedback_desc": "Diç-mos cumo podemos melhorar la nuossa app dando feedback.",
             "discover_desc": "Ancuntra ũa quemunidade cun ls tous hobbies ó antresses."
@@ -185,7 +185,7 @@
                 "team": "Comunicaçon Oufecial",
                 "notifications": {
                     "default": "Outelizar Default",
-                    "all": "Todas las Mensaiges",
+                    "all": "To las Mensaiges",
                     "mention": "Solo Amentas",
                     "none": "Ningun",
                     "muted": "Mutado"
@@ -261,7 +261,7 @@
                         "delete": "Marcar la Conta pa ser Apagada",
                         "title": "Geston de Conta",
                         "description": "Zatiba ó apaga la tue conta quando quejires. Dambas las açones ban fazer logout nas tues sessones atibas.",
-                        "delete_description": "La tue conta i toda la tue data (ancluindo las tues mensaiges i lhistas de amios) ban star nũa carreira pa ser apagadas. Un email de cunfirmaçon bai ser ambiado - tu puodes cancelar esto por 7 dies cuntactando suporte."
+                        "delete_description": "La tue conta i to la tue data (ancluindo las tues mensaiges i lhistas de amios) ban star nũa carreira pa ser apagadas. Un email de cunfirmaçon bai ser ambiado - tu puodes cancelar esto por 7 dies cuntatando suporte."
                     },
                     "unique_id": "Este ye un eidentificador ounico pa la tue conta."
                 },
@@ -279,7 +279,7 @@
                     "title": "Sessones",
                     "this_device": "Este Çpositibo",
                     "created": "Criado {{time_ago}}",
-                    "logout": "Fazer Logout de todas las outras sessones",
+                    "logout": "Fazer Logout de to las outras sessones",
                     "active_sessions": "Sessones Atibas"
                 },
                 "audio": {
@@ -503,7 +503,20 @@
                             "description": "Ũa keybind abançada que ye normalmente ousada pa cancelar l’atual input.\nEsto puode ancluir cancelar ũa eidiçon dũa mensaige, remober ũa eimaige an carreira, ó cenários aparecidos."
                         },
                         "messaging_scroll_to_bottom": {
-                            "title": "Fazer scroll anté l fondo de las mensaiges"
+                            "title": "Fazer scroll anté l fondo de las mensaiges",
+                            "description": "Faç scroll anté l fondo de la bisualizaçon de mensaiges."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Marcar canal cumo lhido",
+                            "description": "Marca l’atual canal cumo lhido."
+                        },
+                        "navigate_previous_context": {
+                            "title": "Nabegar pa l’atrasado cuntesto",
+                            "description": "Ũa keybind abançada que ye normalmente ousada pa cerrar la páigina de definiçones, un modal, ó un popup i bolbe pa l’atrasado cuntesto."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "Alternar pa modo de sigurança de spormentaçon",
+                            "description": "Esto bai atibar / zatibar to las spormentaçones dũa beç."
                         }
                     },
                     "description": "Ber i definir keybinds",
@@ -680,7 +693,7 @@
                 "sessions": {
                     "title": "Tenes la certeza que quieres lhimpar las tues sessones?",
                     "short": "Nun puodes çfazer esta açon.",
-                    "accept": "Remober todas las sessones"
+                    "accept": "Remober to las sessones"
                 },
                 "report": {
                     "reported": "Reportado",
@@ -746,6 +759,10 @@
                     "title": "Links eisternos puoden ser peligrosos!",
                     "short": "Tenes la certeza que quieres ir pa:",
                     "trust_domain": "Cunfiar neste domain"
+                },
+                "edit_keybind": {
+                    "title": "Eiditar keybind pa {{action}}",
+                    "placeholder": "Pressionar teclas pa grabar"
                 }
             },
             "popovers": {
@@ -1055,5 +1072,41 @@
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "PrintScreen": {
+            "full": "Captura de Tela",
+            "short": "PrtSc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageUp": {
+            "full": "Páigina de Riba",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Páigina de Baixo",
+            "short": "PgDown"
+        },
+        "ScrollLock": {
+            "full": "Bloqueio de Scroll",
+            "short": "ScrLK"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
+        }
     }
 }
