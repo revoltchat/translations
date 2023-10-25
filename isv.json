@@ -135,7 +135,71 @@
                     "user_kicked": "{{user}} stal Izkydany",
                     "user_banned": "{{user}} stal zakazany",
                     "added_by": "{{user}} stal dobavimy prěz {{other_user}}",
-                    "user_joined": "{{user}} podključil (-a)"
+                    "user_joined": "{{user}} podključil (-a)",
+                    "removed_by": "{{user}} stal odstranjeny prěz {{other_user}}",
+                    "channel_renamed": "{{user}} izměnil nazvu kanalu na {{name}}",
+                    "channel_description_changed": "{{user}} izměnil opis kanalu",
+                    "channel_icon_changed": "{{user}} izměnil simboliku kanalu",
+                    "registered_at": "Zapisany {{time}}",
+                    "channel_ownership_changed": "{{from}} dal {{to}} vlastničstvo grupy"
+                },
+                "start": {
+                    "group": "To jest početok tvojogo razgovoru.",
+                    "saved": "To jest početok tvoih zapisok."
+                },
+                "voice": {
+                    "connected": "Glos sjedinimy",
+                    "mute": "Otišaj",
+                    "unmute": "Obotišaj",
+                    "leave": "Vyjdi"
+                },
+                "misc": {
+                    "jump_present": "Skoči do sejčasnosti",
+                    "jump_beginning": "Skoči do početka",
+                    "spoiler_attachment": "Spojler",
+                    "failed_load": "Ne udalo se ladovati poslanij.",
+                    "not_loaded": "Poslanje ne ladovane, klikni da by skočiti",
+                    "timed_out": "Imaješ prěryv na {{time}}.",
+                    "blocked_messages": "{{count}} zablokovanij poslanij",
+                    "blocked_user": "Zablokovany učestnik",
+                    "sent_file": "Izslj dodatok",
+                    "sent_multiple_files": "Izslal (-a) mnogo dodatkov",
+                    "load_file": "Ladovaj fajl",
+                    "viewing_old": "Obgleděnje starějše poslanja",
+                    "new_messages": "Nove poslanja od {{time_ago}}",
+                    "no_sending": "Ne imaješ dozvoljenja izslati poslanij na tutom kanale."
+                },
+                "nsfw": {
+                    "channel": {
+                        "marked": "Tutoj kanal jest označimy kako NSFW.",
+                        "confirm": "Pristupi do kanalu"
+                    },
+                    "confirm": "Potvrdžaju, čto imaju ponje 10 lět."
+                },
+                "unknown_user": "<Neznany Koristnik>",
+                "bot": "Bot",
+                "bridge": "most",
+                "new_to_revolt": "Novy v Revolt",
+                "new_to_server": "Novy na tutom serveru",
+                "edited": "(Pravjene)",
+                "bridged": "Poslanje stalo izslane na drugom platformu"
+            }
+        },
+        "settings": {
+            "pages": {
+                "audio": {
+                    "input_device": "Mikrofon",
+                    "device_label_NA": "N/A"
+                },
+                "appearance": {
+                    "colours": {
+                        "title": "Kolory"
+                    },
+                    "fonts": {
+                        "title": "Fonty"
+                    },
+                    "theme": "Temy",
+                    "title": "Izgled"
                 }
             }
         }
