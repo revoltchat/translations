@@ -414,6 +414,30 @@
                     "descriptions": {
                         "reduced_motion": "Kapag nakabukas ito, ang mga animasyon at mga effect ng paggalaw ay hindi magpe-play o magiging hindi matindi."
                     }
+                },
+                "keybinds": {
+                    "title": "Mga keybind",
+                    "description": "Itignan at itakda ang mga keybind",
+                    "action": {
+                        "navigate_channel_up": {
+                            "title": "Pumunta sa dating channel",
+                            "description": "Pumunta sa dating channel."
+                        },
+                        "navigate_channel_down": {
+                            "title": "Pumunta sa susunod na channel",
+                            "description": "Pumunta sa susunod na channel."
+                        }
+                    },
+                    "search": "Maghanap ng mga keybind…",
+                    "add_keybind": "Magdagdag ng bagong keybind",
+                    "edit_keybind": "I-edit ang keybind",
+                    "remove_keybind": "Tanggalin ang keybind",
+                    "reset_keybind": "I-reset ang keybind sa {{keybind}}",
+                    "category": {
+                        "navigation": "Nabigasyon",
+                        "messaging": "Pagmemensahe",
+                        "advanced": "Advanced"
+                    }
                 }
             },
             "actions": {
@@ -665,6 +689,10 @@
                     "reported": "Na-report na",
                     "message": "I-report ang Mensahe",
                     "by_name": "Iulat si {{name}}"
+                },
+                "edit_keybind": {
+                    "placeholder": "Pindutin ang mga key para i-record",
+                    "title": "I-edit ang keybind para sa {{action}}"
                 }
             },
             "popovers": {
@@ -1001,5 +1029,41 @@
     },
     "actions": {
         "submit": "I-submit"
+    },
+    "keys": {
+        "CapsLock": {
+            "full": "Caps Lock"
+        },
+        "ScrollLock": {
+            "short": "ScrLK",
+            "full": "Scroll Lock"
+        },
+        "PrintScreen": {
+            "short": "PrtSc",
+            "full": "Print Screen"
+        },
+        "PageDown": {
+            "short": "PgDown",
+            "full": "Page Down"
+        },
+        "PageUp": {
+            "short": "PgUp",
+            "full": "Page Up"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Escape": {
+            "short": "Esc"
+        }
     }
 }
