@@ -420,12 +420,64 @@
                     "description": "Itignan at itakda ang mga keybind",
                     "action": {
                         "navigate_channel_up": {
-                            "title": "Pumunta sa dating channel",
-                            "description": "Pumunta sa dating channel."
+                            "title": "Pumunta sa nakaraang channel",
+                            "description": "Pumunta sa nakaraang channel."
                         },
                         "navigate_channel_down": {
                             "title": "Pumunta sa susunod na channel",
                             "description": "Pumunta sa susunod na channel."
+                        },
+                        "navigate_previous_context": {
+                            "description": "Isang advanced na keybind na karaniwang ginagamit sa pagsara ng setting page, isang modal, o isang popup at bumalik sa nakaraang kontexto.",
+                            "title": "Pumunta sa nakaraang kontexto"
+                        },
+                        "navigate_server_up": {
+                            "description": "Pumunta sa nakaraang server.",
+                            "title": "Pumunta sa nakaraang server"
+                        },
+                        "navigate_server_down": {
+                            "title": "Pumunta sa susunod na server",
+                            "description": "Pumunta sa susunod na server."
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "I-edit ang nakaraang mensahe",
+                            "description": "I-edit ang naunang ipinadalang mensahe sa kasalukuyang naka-load na messaging view."
+                        },
+                        "input_cancel": {
+                            "title": "Kanselahin ang Input",
+                            "description": "Isang advanced na keybind na karaniwang ginagamit sa pagkansela ng kasalukuyang input.\nMaaring kabilang dito ang pagkansela ng pag-edit ng mensahe, pagtanggal ng naka-queue na larawan, o mga katulad na senaryo."
+                        },
+                        "input_submit": {
+                            "title": "I-submit ang Input",
+                            "description": "Isang advanced na keybind na karaniwang ginagamit sa pag-submit ng kasalukuyang input.\nMaaring kabilang dito ang pag-submit ng mensahe, pag-submit ng pagbabago sa mensahe, pag-submit ng hinahanap, atbp.."
+                        },
+                        "input_force_submit": {
+                            "title": "Piliting I-submit ang Input",
+                            "description": "Isang advanced na keybind na karaniwang ginagamit para piliting i-submit ang kasalukuyang input, na hindi papansinin ang mga check o ibang mga keybind.\nMaaring kabilang dito ang pag-sumit ng mensahe sa halip ng pagkumpirma ng autocomplete selection."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Markahan ang channel bilang nabasa",
+                            "description": "Minamarkahan ang kasalukuyang channel bilang nabasa."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "description": "Nag-scroll sa ibaba ng messaging view.",
+                            "title": "Mag-scroll sa ibaba ng mga mensahe"
+                        },
+                        "auto_complete_up": {
+                            "title": "Nakaraang Autocomplete Selection",
+                            "description": "Ilipat ang autocomplete selection sa nakaraan."
+                        },
+                        "auto_complete_down": {
+                            "title": "Susunod na Autocomplete Selection",
+                            "description": "Ilipat ang autocomplete selection sa susunod."
+                        },
+                        "auto_complete_select": {
+                            "title": "Kumpirmahin ang Autocomplete Selection",
+                            "description": "Kumpirmahin ang kasalukuyang autocomplete selection."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "I-toggle ang experiment safe mode",
+                            "description": "Ito ay mage-enable / magdi-disable ng lahat ng mga eksperimento ng sabay-sabay."
                         }
                     },
                     "search": "Maghanap ng mga keybind…",
@@ -766,7 +818,7 @@
         "loading": "Naglo-load…",
         "off": "Nakapatay",
         "unavailable": "Hindi available",
-        "about": "Tungkol sa App",
+        "about": "Tungkol sa",
         "tos": "Mga Tuntunin ng Serbisyo",
         "privacy": "Patakaran sa Pagkapribado",
         "disabled": "Pinagbawal",
