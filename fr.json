@@ -554,11 +554,12 @@
                             "description": "Déplace la sélection saisie automatique à la sélection suivante."
                         },
                         "input_force_submit": {
-                            "title": "Forcer la soumission de l’entrée"
+                            "title": "Forcer la soumission de l’entrée",
+                            "description": "Un raccourci clavier avancé qui est généralement utilisé pour soumettre de force l'entrée actuelle, en ignorant certaines vérifications ou autres raccourcis claviers.\nCela peut inclure la soumission d'un message au lieu de confirmer la sélection de l'auto-complétions."
                         },
                         "developer_toggle_all_experiments": {
                             "title": "Basculer vers l'expérience du mode sans échec",
-                            "description": "Cela activera / désactivera toutes les expériences en en une fois."
+                            "description": "Cela activera / désactivera toutes les expériences en une fois."
                         },
                         "input_submit": {
                             "title": "Soumettre l’entrée",
@@ -1109,10 +1110,12 @@
             "full": "Verrouillage Majuscule"
         },
         "ScrollLock": {
-            "full": "Arrêt défil"
+            "full": "Arrêt défil",
+            "short": "Arrêt défilement"
         },
         "PrintScreen": {
-            "full": "Impression d'écran"
+            "full": "Impression d'écran",
+            "short": "Impr écran"
         },
         "Backspace": {
             "short": "Retour arrière"
@@ -1125,6 +1128,13 @@
         },
         "Escape": {
             "short": "Échap"
+        },
+        "PageUp": {
+            "full": "Page précédente"
+        },
+        "PageDown": {
+            "full": "Page suivante",
+            "short": "Page suivante"
         }
     }
 }
