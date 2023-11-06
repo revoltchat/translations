@@ -41,7 +41,7 @@
                     "import": "导入主题",
                     "theme_options": {
                         "title": "主题选项",
-                        "follow_desc": "勾选后，您将无法更改主题或使用自定义主题。",
+                        "follow_desc": "如果启用，您将无法更改主题或使用自定义主题。",
                         "seasonal": "季节性主题",
                         "seasonal_desc": "节日期间，在主页上显示特殊效果。",
                         "follow": "跟随系统主题",
@@ -97,9 +97,11 @@
                     "unique_id": "这是您账户的用户特有标识。",
                     "manage": {
                         "title": "账户管理",
-                        "description": "您随时可以禁用或删除账户。此操作会登出并彻底删除您的账户数据，包括您的消息记录与好友。",
+                        "description": "您随时可以禁用或删除账户。这两种操作都会登出您的活跃会话。",
                         "delete": "将账户标记为即将删除",
-                        "disable": "禁用账户"
+                        "disable": "禁用账户",
+                        "disable_description": "除非您联系技术支持人员，否则就无法访问您的账户——但您的数据不会被删除。",
+                        "delete_description": "您的账户和所有数据（包括您的消息和好友列表）已计划删除。我们将发送一封确认邮件——您可以在 7 天内联系技术支持人员以取消此计划。"
                     }
                 },
                 "notifications": {
@@ -162,7 +164,7 @@
                 "sync": {
                     "title": "同步",
                     "descriptions": {
-                        "appearance": "此项将会同步表情包与消息显示选项。",
+                        "appearance": "此项将会同步外观选项，例如您选择的表情包与消息密度。",
                         "theme": "此项将会同步您的主题、颜色与自定义 CSS。",
                         "locale": "此项将会同步您当前选择的语言。"
                     },
@@ -179,15 +181,15 @@
                 },
                 "bots": {
                     "title": "我的机器人",
-                    "public_bot_tip": "机器人为公开。所有人都可以邀请。",
+                    "public_bot_tip": "此机器人为公开。所有人都可以邀请。",
                     "reserved": "注意：此字段为将来保留。",
                     "create_bot": "创建机器人",
                     "copy_invite": "复制邀请链接",
                     "add": "添加机器人",
                     "token": "令牌",
-                    "private_bot_tip": "机器人为私密。只有您可以邀请。",
+                    "private_bot_tip": "此机器人为私密。只有您可以邀请。",
                     "public_bot": "公开机器人",
-                    "public_bot_desc": "是否允许其他用户邀请此机器人。",
+                    "public_bot_desc": "如果启用，其他用户可以添加此机器人至服务器和群组消息。",
                     "interactions_url": "交互 URL",
                     "unique_id": "这是您机器人的特有标识，而非机器人的令牌。",
                     "profile": "机器人个人资料"
@@ -198,7 +200,7 @@
                     "output_device": "扬声器 / 耳机",
                     "device_label_NA": "不可用",
                     "button_retry": "重试",
-                    "tip_retry": "您没有授予访问麦克风权限，请 {{retryBtn}}。",
+                    "tip_retry": "您没有为 Revolt 授予访问麦克风权限。请 {{retryBtn}}。",
                     "tip_grant_permission": "您需要授予权限才能访问音频设置。",
                     "button_grant": "授予权限"
                 },
@@ -223,6 +225,89 @@
                     "wip": "警告：此功能仍在开发过程中。",
                     "delete_plugin": "删除",
                     "no_plugins": "当前没有安装任何插件。"
+                },
+                "accessibility": {
+                    "title": "辅助功能",
+                    "reduced_motion": "减少动态效果",
+                    "descriptions": {
+                        "reduced_motion": "如果启用，将不会播放或减弱动画与动态效果。"
+                    }
+                },
+                "keybinds": {
+                    "title": "快捷键",
+                    "reset_keybind": "重置快捷键为 {{keybind}}",
+                    "action": {
+                        "messaging_edit_previous_message": {
+                            "description": "编辑上次在当前加载的消息界面中发送的消息。",
+                            "title": "编辑上一条消息"
+                        },
+                        "input_submit": {
+                            "description": "通常用于提交当前输入内容的高级快捷键。\n这可能包括提交消息、提交编辑的消息、提交搜索等。",
+                            "title": "提交输入"
+                        },
+                        "input_force_submit": {
+                            "description": "通常用于忽略一些检查和其他快捷键，强制提交当前输入内容的高级快捷键。\n这可能包括跳过确认自动完成选项，而直接提交消息。",
+                            "title": "强制提交输入"
+                        },
+                        "navigate_channel_up": {
+                            "title": "导航到上一个频道",
+                            "description": "导航到上一个频道。"
+                        },
+                        "navigate_channel_down": {
+                            "title": "导航到下一个频道",
+                            "description": "导航到下一个频道。"
+                        },
+                        "navigate_server_up": {
+                            "title": "导航到上一个服务器",
+                            "description": "导航到上一个服务器。"
+                        },
+                        "navigate_server_down": {
+                            "title": "导航到下一个服务器",
+                            "description": "导航到下一个服务器。"
+                        },
+                        "auto_complete_up": {
+                            "title": "上一个自动完成选项",
+                            "description": "移动到上一个自动完成选项。"
+                        },
+                        "auto_complete_down": {
+                            "title": "下一个自动完成选项",
+                            "description": "移动到下一个自动完成选项。"
+                        },
+                        "auto_complete_select": {
+                            "title": "确认自动完成选项",
+                            "description": "确认当前选择的自动完成选项。"
+                        },
+                        "input_cancel": {
+                            "title": "取消输入",
+                            "description": "通常用于取消当前输入内容的高级快捷键。\n这可能包括取消编辑消息、删除队列中的图片或类似的场景。"
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "滚动到消息底部",
+                            "description": "滚动到消息界面的底部。"
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "标记频道为已读",
+                            "description": "标记当前频道为已读。"
+                        },
+                        "navigate_previous_context": {
+                            "title": "导航到上一个状态",
+                            "description": "通常用于关闭设置页面、对话框或者弹窗，返回上一个状态的高级快捷键。"
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "开关实验安全模式",
+                            "description": "一次性启用 / 禁用所有实验。"
+                        }
+                    },
+                    "description": "查看与设置快捷键",
+                    "search": "搜索快捷键…",
+                    "add_keybind": "添加新快捷键",
+                    "edit_keybind": "编辑快捷键",
+                    "remove_keybind": "删除快捷键",
+                    "category": {
+                        "navigation": "导航",
+                        "messaging": "消息",
+                        "advanced": "高级"
+                    }
                 }
             },
             "tips": {
@@ -572,7 +657,7 @@
                     "members_not_notified": "其他成员不会收到通知"
                 },
                 "onboarding": {
-                    "pick": "选择一个用户名，让人们能够找到您，以后也可以在设置中修改。",
+                    "pick": "选择一个用户名，让人们能够找到您。您之后也可以在用户设置中修改。",
                     "welcome": "欢迎使用"
                 },
                 "error": "发生错误！",
@@ -591,18 +676,18 @@
                 "mfa": {
                     "recovery_codes": "您的恢复代码",
                     "save_codes": "请将它们保存在安全的位置。",
-                    "confirm": "请使用已选择的方式确认。",
+                    "confirm": "请使用已选择的方式确认此操作。",
                     "select_method": "请选择一种方式验证您的请求。",
                     "enable_totp": "启用身份验证器应用",
                     "enter_code": "输入代码",
-                    "prompt_totp": "请在身份验证器内扫码或填写下列令牌代码。"
+                    "prompt_totp": "请在身份验证器应用内扫码或填写下列令牌代码。"
                 },
                 "out_of_date": {
                     "title": "您的客户端太旧！",
                     "description": "必须先更新才能使用最新功能。",
                     "ignore": "忽略更新",
                     "attempting": "正在尝试更新…",
-                    "version": "您的客户端版本是 {{client}}，而服务器要求的最低版本是 {{server}}。"
+                    "version": "您的客户端版本是 {{client}}，但服务器要求的最低版本是 {{server}}。"
                 },
                 "changelogs": {
                     "title": "更新日志",
@@ -632,6 +717,10 @@
                     "reported": "已举报",
                     "thank_you": "感谢您帮助维护 Revolt 的秩序。我们会尽快核查您的举报。",
                     "block_user": "您要屏蔽这名用户吗？"
+                },
+                "edit_keybind": {
+                    "title": "编辑 {{action}} 的快捷键",
+                    "placeholder": "按下按键以录制"
                 }
             },
             "status": {
@@ -745,7 +834,7 @@
         },
         "successful_registration": "注册成功！",
         "open_mail_provider": "打开 {{provider}}",
-        "check_spam": "如果找不到，请检查垃圾邮件",
+        "check_spam": "如果找不到，请检查您的垃圾邮件文件夹",
         "check_mail": "请检查您的邮件！",
         "cancel": "取消请求",
         "resend": "重新发送验证码",
@@ -772,7 +861,7 @@
         "username": "用户名",
         "register": "注册",
         "title": "登录",
-        "email_delay": "请等待邮件送达，最长可能需要 10 分钟。",
+        "email_delay": "我们已向您发送验证邮件。请等待邮件送达，最长可能需要 10 分钟。",
         "welcome2": "您好！",
         "subtitle2": "创建账户",
         "welcome": "欢迎！",
@@ -832,7 +921,7 @@
         "EmailInUse": "电子邮件地址已被使用。",
         "Unlabelled": "有些神秘的事情发生了。",
         "Unauthorized": "未经授权。",
-        "DeniedNotification": "您拒绝了通知权限，请检查页面设置。",
+        "DeniedNotification": "您拒绝了通知权限。请检查页面设置。",
         "UnsupportedBrowser": "浏览器缺少对此功能的支持。",
         "IoError": "服务器遇到 I/O 错误。",
         "ProbeError": "获取文件元数据失败。",
@@ -867,7 +956,7 @@
         "NetworkError": "网络错误。",
         "CompromisedPassword": "此密码不安全。",
         "ReachedMaximumBots": "您已达到机器人最大数量。",
-        "AudioPermissionBlock": "无法访问您的麦克风，请检查您的浏览器设置。",
+        "AudioPermissionBlock": "无法访问您的麦克风。请检查您的浏览器设置。",
         "DiscriminatorChangeRatelimited": "标签修改过多。"
     },
     "permissions": {
@@ -937,7 +1026,7 @@
         },
         "ManageRole": {
             "t": "管理角色",
-            "d": "允许成员创建、编辑和删除等级低于自身的角色。也允许他们修改频道的角色权限。"
+            "d": "允许成员创建、编辑和删除等级低于自身的角色，以及修改频道的角色权限。"
         },
         "ViewChannel": {
             "d": "允许成员查看他们拥有查看权限的任何频道。",
@@ -1005,5 +1094,41 @@
     },
     "actions": {
         "submit": "提交"
+    },
+    "keys": {
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "PrintScreen": {
+            "full": "Print Screen",
+            "short": "PrtSc"
+        },
+        "ScrollLock": {
+            "full": "Scroll Lock",
+            "short": "ScrLK"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
+        }
     }
 }
