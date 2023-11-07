@@ -217,7 +217,7 @@ export const Languages: { [key in Language]: LanguageEntry } = {
   vec: { display: "Vèneto", emoji: "vec", i18n: "vec", dayjs: "en-gb" },
   vi: { display: "Tiếng Việt", emoji: "🇻🇳", i18n: "vi" },
   zh_Hans: {
-    display: "中文 (简体)",
+    display: "简体中文",
     emoji: "🇨🇳",
     i18n: "zh_Hans",
     dayjs: "zh",
