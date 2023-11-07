@@ -72,7 +72,7 @@ Please note that this table **only includes languages that are currently availab
 |🇺🇦|Українська / uk|[@div2005](https://github.com/div2005)|[@zptr1](https://github.com/zptr1)|
 |vec|Vèneto / vec|||
 |🇻🇳|Tiếng Việt / vi|||
-|🇨🇳|中文 (简体) / zh_Hans|[@deluxghost](https://github.com/deluxghost)|[@YouTubeGameNana](https://github.com/YouTubeGameNana)|
+|🇨🇳|简体中文 / zh_Hans|[@deluxghost](https://github.com/deluxghost)|[@YouTubeGameNana](https://github.com/YouTubeGameNana)|
 |🇹🇼|繁體中文 / zh_Hant|[@Zhuzi-ouo](https://github.com/Zhuzi-ouo)||
 |🙂|Toki Pona / tokipona|[@Gapva](https://github.com/Gapva)||
 |EO|Esperanto / esperanto|[@Fussmatte](https://github.com/Fussmatte)||
