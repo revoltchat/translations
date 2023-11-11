@@ -214,6 +214,42 @@
                     "descriptions": {
                         "reduced_motion": "啓用後，動畫和運動效果將不會播放或減弱。"
                     }
+                },
+                "keybinds": {
+                    "title": "快速鍵",
+                    "add_keybind": "新增快速鍵",
+                    "action": {
+                        "messaging_edit_previous_message": {
+                            "description": "編輯上一則在載入消息介面發送的訊息。",
+                            "title": "編輯上一則訊息"
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "description": "滾動到訊息介面的底部。",
+                            "title": "滾動到訊息底部"
+                        },
+                        "messaging_mark_channel_read": {
+                            "description": "標示為已讀。",
+                            "title": "標示為已讀"
+                        },
+                        "navigate_channel_up": {
+                            "title": "導覽到上一個頻道",
+                            "description": "導覽到上一個頻道。"
+                        },
+                        "developer_toggle_all_experiments": {
+                            "description": "開啟/關閉所有實驗性功能。",
+                            "title": "切換實驗性功能安全模式"
+                        }
+                    },
+                    "description": "查看和設定快速鍵",
+                    "search": "搜尋快速鍵…",
+                    "edit_keybind": "編輯快速鍵",
+                    "remove_keybind": "移除快速鍵",
+                    "reset_keybind": "重設快速鍵為 {{keybind}}",
+                    "category": {
+                        "messaging": "訊息",
+                        "advanced": "進階",
+                        "navigation": "導覽"
+                    }
                 }
             },
             "actions": {
@@ -579,6 +615,10 @@
                     "thank_you": "感謝您協助維護Revolt的安全，我們會盡快審查您的檢舉。",
                     "block_user": "您想要封鎖這位使用者嗎？",
                     "additional_context": "附加訊息"
+                },
+                "edit_keybind": {
+                    "title": "編輯 {{action}} 的快速鍵",
+                    "placeholder": "按下按鍵以錄製"
                 }
             },
             "friends": {
@@ -1001,5 +1041,30 @@
     },
     "actions": {
         "submit": "送出"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        }
     }
 }
