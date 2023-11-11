@@ -1,65 +1,65 @@
 {
     "login": {
-        "reset": "Restablir contrasenya",
+        "reset": "Restableix el mot de pas",
         "forgot": "Has oblidat la contrasenya?",
         "enter": {
-            "current_password": "Escriu la teva contrasenya actual.",
-            "invite": "Escriu el teu codi d'invitació.",
-            "password": "Escriu la teva contrasenya.",
-            "email": "Si us plau, introdueix el teu correu electrònic.",
-            "username": "Escriu un nom d'usuari.",
-            "new_password": "Introduïu una contrasenya nova."
+            "current_password": "Introduïu el vostre mot de pas actual.",
+            "invite": "Introduïu el codi d'invitació.",
+            "password": "Introduïu el mot de pas.",
+            "email": "Introduïu la vostra adreça electrònica.",
+            "username": "Introduïu el vostre nom d'usuari.",
+            "new_password": "Introduïu un nou mot de pas."
         },
-        "current_password": "Contrasenya actual",
+        "current_password": "Mot de pas actual",
         "invite": "Codi d'invitació",
-        "password": "Contrasenya",
-        "email": "Correu electrònic",
+        "password": "Mot de pas",
+        "email": "Adreça electrònica",
         "username": "Nom d'usuari",
         "register": "Registra't",
         "title": "Inicia sessió",
         "error": {
-            "reset": "No s'ha pogut reiniciar!",
-            "create": "Error al registrar-te!",
-            "login": "Error en iniciar sessió!",
-            "resend": "No s'ha pogut reenviar!",
+            "reset": "No s'ha pogut restablir!",
+            "create": "No s'ha pogut registrar!",
+            "login": "No s'ha pogut iniciar la sessió!",
+            "resend": "No s'ha pogut tornar a enviar!",
             "verify": "Error al verificar!"
         },
         "set_password": "Establir nova contrasenya",
         "remembered": "Torna a l'inici de sessió",
-        "new": "Nou a Revolt?",
-        "existing": "Ja tens un compte?",
+        "new": "És la primera vegada a Revolt?",
+        "existing": "Ja teniu un compte?",
         "create": "Crear un compte nou",
-        "missing_verification": "No heu rebut un correu electrònic?",
+        "missing_verification": "No heu rebut cap correu electrònic?",
         "resend": "Reenviar verificació",
         "cancel": "Cancel·la la sol·licitud",
-        "check_mail": "Comprova el teu correu electrònic!",
-        "email_delay": "Siusplau, espereu fins a 10 minuts perquè arribi.",
-        "check_spam": "Revisa la secció de correu brossa si no el trobes",
-        "open_mail_provider": "Obrir {{provider}}",
+        "check_mail": "Comproveu el correu!",
+        "email_delay": "S'ha enviat un correu electrònic de verificació. Pot trigar fins a 10 minuts.",
+        "check_spam": "Comproveu la carpeta de correu brossa si no el podeu trobar",
+        "open_mail_provider": "Obre: {{provider}}",
         "successful_registration": "Registrat correctament!",
         "welcome2": "Hola!",
         "subtitle2": "Crear un compte",
-        "welcome": "Benvingut!",
-        "subtitle": "Entra a Revolt",
+        "welcome": "Us donem la benvinguda!",
+        "subtitle": "Inicia la sessió a Revolt",
         "unofficial_instance": "Instància de tercers.",
         "totp": "App d'Autentificació",
         "recovery": "Codi de recuperació",
         "verifying_account": "Verificant el vostre compte…",
         "verified_account": "El compte vostre ha sigut verificat!",
         "verified_continue": "Continuï al inici de sessió",
-        "new_password": "Nova contrasenya",
-        "log_out_other": "Tancar la sessió de la resta de sessions"
+        "new_password": "Nou mot de pas",
+        "log_out_other": "Tanca la sessió de totes les altres sessions"
     },
     "general": {
-        "unavailable": "Indisponible",
+        "unavailable": "No disponible",
         "disabled": "Desactivat",
-        "off": "Apagat",
-        "on": "Encès",
-        "loading": "Carregant…",
+        "off": "Desactiva",
+        "on": "Activa",
+        "loading": "S'està carregant…",
         "image_by": "Imatge de",
-        "privacy": "Política de Privadesa",
-        "tos": "Termes del servei",
-        "about": "Sobre",
+        "privacy": "Política de privacitat",
+        "tos": "Condicions del servei",
+        "about": "Quant a",
         "learn_more": "Més informació"
     },
     "app": {
@@ -102,7 +102,7 @@
                     "not_loaded": "El missatge no s'ha carregat, feu clic per a saltar"
                 },
                 "message_where": "Envia un missatge a {{channel_name}}",
-                "message_who": "Enviar un missatge a {{person}}",
+                "message_who": "Envia un missatge a l'usuari {{person}}",
                 "message_saved": "Afegir a les teves notes",
                 "uploading_file": "Pujant…",
                 "failed_upload": "Error al pujar!",
@@ -189,20 +189,20 @@
             }
         },
         "status": {
-            "online": "Connectat",
+            "online": "En connexió",
             "idle": "Inactiu",
             "busy": "No Molestar",
             "invisible": "Invisible",
-            "offline": "Desconnectat",
+            "offline": "Sense connexió",
             "reconnect": "Reconnecta",
-            "focus": "Mode de concentració"
+            "focus": "Centrat"
         },
         "navigation": {
             "tabs": {
                 "home": "Inici",
                 "dev": "Desenvolupador",
                 "friends": "Amics",
-                "unreads": "No llegits",
+                "unreads": "Sense llegir",
                 "saved": "Notes Desades"
             }
         },
@@ -771,19 +771,19 @@
             "join-testers": "Uneix-te'n al servidor de proves",
             "goto-testers": "Ves al servidor de proves",
             "donate": "Fes una aportació a Revolt",
-            "feedback": "Deixa una opinió sobre Revolt",
-            "settings": "Obri la configuració",
-            "settings-tooltip": "També pots fer clic amb el botó dret del ratolí en la icona de l'usuari a la part superior esquerra, o amb el botó esquerre si ja ets a l'inici.",
+            "feedback": "Doneu comentaris sobre Revolt",
+            "settings": "Obre els paràmetres",
+            "settings-tooltip": "També podeu fer clic dret a la icona de l'usuari a la part superior esquerra, o fer-hi clic esquerre si sou a l'inici.",
             "social": "Busca servidors i bots",
             "directs": "Missatges directes",
-            "feedback_desc": "Deixa'ns saber com podem millorar la nostra aplicació enviant-nos suggeriments.",
-            "join-testers_desc": "Pots reportar problemes i discutir millores amb nosaltres directament ací.",
+            "feedback_desc": "Feu-nos saber com podem millorar l'aplicació enviant-nos comentaris.",
+            "join-testers_desc": "Podeu informar directament dels problemes i proposar millores amb nosaltres aquí.",
             "goto-testers_desc": "Aquí pots denunciar problemes i discutir millores amb nosaltres directament.",
-            "donate_desc": "Doneu suport al projecte fent una donació - gràcies!",
+            "donate_desc": "Podeu donar suport al projecte fent una donació, gràcies!",
             "discover": "Descobreix Revolt",
-            "discover_desc": "Troba una comunitat segons les teves aficions o interessos.",
+            "discover_desc": "Trobeu una comunitat basada en les vostres aficions o interessos.",
             "group": "Crea un grup",
-            "group_desc": "Convida tots els teus amics, alguns bots interessants i organitza una gran festa."
+            "group_desc": "Podeu convidar a tots els vostres amics, alguns bots cool i passar una bona estona."
         }
     },
     "error": {
@@ -979,7 +979,7 @@
         "defaults": {
             "date_separator": "-",
             "date_format": "tradicional",
-            "twelvehour": "yes"
+            "twelvehour": "no"
         }
     },
     "notifications": {
@@ -990,6 +990,6 @@
         "ctrlc": "Ctrl + C"
     },
     "actions": {
-        "submit": "Sotmetre"
+        "submit": "Envia"
     }
 }
