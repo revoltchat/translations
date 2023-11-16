@@ -28,7 +28,7 @@
                     "multiple": "{{userlist}} y {{user}} están escribiendo…",
                     "several": "Varias personas están escribiendo…"
                 },
-                "message_who": "Enviar un mensaje a {{person}}",
+                "message_who": "Enviar un mensaje a @{{person}}",
                 "start": {
                     "group": "Este es el comienzo de la conversación.",
                     "saved": "Este es el comienzo de tus notas."
@@ -731,6 +731,10 @@
                     "reported": "Reportado",
                     "thank_you": "Gracias por ayudar a mantener seguro Revolt. Revisaremos tu reporte a la mayor brevedad posible.",
                     "block_user": "¿Deseas bloquear a este usuario?"
+                },
+                "edit_keybind": {
+                    "placeholder": "Pulsa teclas para grabar",
+                    "title": "Editar atajo para {{action}}"
                 }
             },
             "friends": {
@@ -1097,5 +1101,41 @@
     },
     "actions": {
         "submit": "Enviar"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "CapsLock": {
+            "full": "Bloqueo de máyus"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Atrás"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "PrintScreen": {
+            "full": "Imp Pantalla",
+            "short": "ImpPant"
+        },
+        "ScrollLock": {
+            "full": "Scroll Lock",
+            "short": "ScrLK"
+        }
     }
 }
