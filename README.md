@@ -30,12 +30,12 @@ Please note that this table **only includes languages that are currently availab
 |🇩🇰|Dansk / da|||
 |🇩🇪|Deutsch / de|[@sussycatgirl](https://github.com/sussycatgirl)|[@nitrobw](https://github.com/nitrobw) [@arktn](https://github.com/arktn) [@infi](https://github.com/infi)|
 |🇬🇷|Ελληνικά / el|[@SudoJanast](https://github.com/SudoJanast)||
-|🇪🇸|Español / es|[@z3ro0k](https://github.com/z3ro0k) [@fernandopal](https://github.com/fernandopal) [@gatomod](https://github.com/gatomod)|[@Dorovich](https://github.com/Dorovich)|
+|🇪🇸|Español / es|[@z3ro0k](https://github.com/z3ro0k) [@fernandopal](https://github.com/fernandopal) [@gatomod](https://github.com/gatomod)|[@Dorovich](https://github.com/Dorovich) [@DevArxify](https://github.com/DevArxify)|
 |🇪🇸|Español (América Latina) / es_419|[@SrWesly](https://github.com/SrWesly) [@7Macros](https://github.com/7Macros) [@gatomod](https://github.com/gatomod)|[@exelenuwu](https://github.com/exelenuwu)|
 |🇪🇪|eesti / et|[@Kentledge](https://github.com/Kentledge)|[@u032](https://github.com/u032) [@Lefromrevolt](https://github.com/Lefromrevolt)|
 |🇫🇮|suomi / fi|||
 |🇵🇭|Filipino / fil|[@I2rys](https://github.com/I2rys)|[@searinminecraft](https://github.com/searinminecraft)|
-|🇫🇷|Français / fr|[@Hades785](https://github.com/Hades785) [@Kasahe](https://github.com/Kasahe) [@Achlys12](https://github.com/Achlys12) [@TapwaveZodiac](https://github.com/TapwaveZodiac)|[@RedNight-was-taken](https://github.com/RedNight-was-taken)|
+|🇫🇷|Français / fr|[@Hades785](https://github.com/Hades785) [@Kasahe](https://github.com/Kasahe) [@Achlys12](https://github.com/Achlys12) [@TapwaveZodiac](https://github.com/TapwaveZodiac)|[@RedNight-was-taken](https://github.com/RedNight-was-taken) [@Gaby5873](https://github.com/Gaby5873)|
 |🇮🇪|Gaeilge / ga|||
 |🇮🇳|हिन्दी / hi|[@Infiniticity](https://github.com/Infiniticity)|[@CodeWhiteWeb](https://github.com/CodeWhiteWeb) [@FakeFerg](https://github.com/FakeFerg) [@Yeikzy](https://github.com/Yeikzy)|
 |🇭🇷|Hrvatski / hr|||
@@ -58,7 +58,7 @@ Please note that this table **only includes languages that are currently availab
 |🇧🇷|Português (do Brasil) / pt_BR|[@yanndere](https://github.com/yanndere)|[@Hokiper](https://github.com/Hokiper) [@YoshiroOno](https://github.com/YoshiroOno)|
 |🇵🇹|Português (Portugal) / pt_PT|[@Tmpod](https://github.com/Tmpod)|[@SlicedBlueApple](https://github.com/SlicedBlueApple)|
 |🇷🇴|Română / ro|[@Edward205](https://github.com/Edward205)|[@S703T](https://github.com/S703T)|
-|🇷🇺|Русский / ru|[@div2005](https://github.com/div2005)|[@zptr1](https://github.com/zptr1)|
+|🇷🇺|Русский / ru|[@div2005](https://github.com/div2005)|[@zptr1](https://github.com/zptr1) [@arslee07](https://github.com/arslee07)|
 |🇸🇰|Slovensky / sk|[@ShadowLp174](https://github.com/ShadowLp174)||
 |🇸🇮|Slovenščina / sl|||
 |🇦🇱|Shqip / sq|||
