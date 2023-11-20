@@ -62,7 +62,7 @@
                     "all": "Todas as mensagens",
                     "mention": "Apenas menções"
                 },
-                "message_who": "Conversar com {{person}}",
+                "message_who": "Conversar com @{{person}}",
                 "nsfw": {
                     "channel": {
                         "marked": "Este canal está marcado como restrito para maiores.",
@@ -355,6 +355,82 @@
                     "descriptions": {
                         "reduced_motion": "Se isso estiver ativado, as animações e os efeitos de movimento não serão reproduzidos ou serão menos intensos."
                     }
+                },
+                "keybinds": {
+                    "title": "Atalhos de teclado",
+                    "description": "Ver e definir atalhos de teclado",
+                    "category": {
+                        "navigation": "Navegação",
+                        "messaging": "Mensagens",
+                        "advanced": "Avançado"
+                    },
+                    "action": {
+                        "navigate_server_up": {
+                            "title": "Navegar ao servidor anterior",
+                            "description": "Navega ao servidor anterior."
+                        },
+                        "messaging_edit_previous_message": {
+                            "description": "Edita a mensagem anteriormente enviada dentre as mensagens atualmente carregadas.",
+                            "title": "Editar mensagem anterior"
+                        },
+                        "auto_complete_down": {
+                            "description": "Move a seleção do autocompletar à próxima.",
+                            "title": "Próxima Seleção do Autocompletar"
+                        },
+                        "auto_complete_select": {
+                            "description": "Confirma a atual seleção do autocompletar.",
+                            "title": "Confirmar a Seleção do Autocompletar"
+                        },
+                        "input_submit": {
+                            "description": "Um atalho avançado que é tipicamente usado para submeter a entrada atual.\nIsso pode incluir submeter uma mensagem, submeter uma edição de uma mensagem, submeter uma busca, etc...",
+                            "title": "Submeter Entrada"
+                        },
+                        "input_force_submit": {
+                            "description": "Um atalho avançado que é tipicamente usado para forçar submeter a entrada atual, ignorando algumas checagens ou outros atalhos.\nIsso pode incluir submeter uma mensagem em vez de confirmar a seleção do autocompletar.",
+                            "title": "Forçar Submeter Entrada"
+                        },
+                        "navigate_channel_up": {
+                            "title": "Navegar ao canal anterior",
+                            "description": "Navega ao canal anterior."
+                        },
+                        "navigate_channel_down": {
+                            "title": "Navegar ao próximo canal",
+                            "description": "Navega ao próximo canal."
+                        },
+                        "navigate_server_down": {
+                            "title": "Navegar ao próximo servidor",
+                            "description": "Navega ao próximo servidor."
+                        },
+                        "auto_complete_up": {
+                            "title": "Seleção do Autocompletar Anterior",
+                            "description": "Move a seleção do autocompletar à anterior."
+                        },
+                        "input_cancel": {
+                            "title": "Cancelar Entrada",
+                            "description": "Um atalho avançado que é tipicamente usado para cancelar a entrada atual.\nIsso pode incluir cancelar uma edição de mensagem, remover uma imagem da fila, ou cenários similares."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Rolar às mensagens mais recentes",
+                            "description": "Rola para as mensagens mais recentes."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Marcar canal como lido",
+                            "description": "Marca o canal atual como lido."
+                        },
+                        "navigate_previous_context": {
+                            "title": "Navegar ao contexto anterior",
+                            "description": "Um atalho avançado que é tipicamente usado para fechar uma página de configuração, um modal, ou um popup e voltar ao contexto anterior."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "Ligar o modo seguro de experimentação",
+                            "description": "Isto vai habilitar / desabilitar todos os experimentos de uma vez."
+                        }
+                    },
+                    "search": "Buscar atalhos de teclado…",
+                    "add_keybind": "Adicionar novo atalho de teclado",
+                    "edit_keybind": "Editar atalho de teclado",
+                    "remove_keybind": "Remover atalho de teclado",
+                    "reset_keybind": "Redefinir atalho de teclado para {{keybind}}"
                 }
             },
             "permissions": {
@@ -599,6 +675,10 @@
                         "Impersonation": "Esse usuário está se passando por outra pessoa"
                     },
                     "block_user": "Deseja bloquear esse usuário?"
+                },
+                "edit_keybind": {
+                    "title": "Editar atalho para {{action}}",
+                    "placeholder": "Pressione teclas para gravar"
                 }
             },
             "popovers": {
@@ -1017,5 +1097,41 @@
     },
     "actions": {
         "submit": "Enviar"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "PrintScreen": {
+            "full": "Print Screen",
+            "short": "PrtSc"
+        },
+        "ScrollLock": {
+            "full": "Scroll Lock",
+            "short": "ScrLK"
+        }
     }
 }
