@@ -77,7 +77,7 @@
         },
         "main": {
             "channel": {
-                "message_who": "ส่งข้อความให้ {{person}}",
+                "message_who": "ส่งข้อความให้ @{{person}}",
                 "attached_file": "แนบไฟล์ {{filename}}",
                 "typing": {
                     "several": "ผู้ใช้หลายคนกำลังพิมพ์…",
@@ -375,7 +375,7 @@
                     "private_bot_tip": "บอทอันนี้เป็นบอทส่วนตัว มีเฉพาะคุณที่สามารถเชิญได้",
                     "public_bot": "บอทสาธารณะ",
                     "public_bot_tip": "บอทอันนี้เป็นบอทสาธารณะ ทุกคนสามารถเชิญได้",
-                    "public_bot_desc": "อนุญาตให้ผู้ใช้อื่นเชิญบอทนี้ได้",
+                    "public_bot_desc": "ถ้าถูกเปิดแล้วจะให้ผู้ใช้อื่นเชิญบอทนี้ได้",
                     "interactions_url": "URL ที่ใช้ตอบโต้",
                     "profile": "โปรไฟล์ของบอท"
                 },
@@ -418,6 +418,41 @@
                     "descriptions": {
                         "reduced_motion": "หากเปิดตัวเลือกนี้ แอนิเมชั่นกับเอฟเฟคการเคลื่อนไหวจะไม่เล่นหรือจะมีความรุนแรงน้อยลง"
                     }
+                },
+                "keybinds": {
+                    "description": "ดูและตั้งปุ่มลัด",
+                    "reset_keybind": "รีเซ็ตปุ่มลัดเป็น {{keybind}}",
+                    "category": {
+                        "messaging": "ส่งข้อความ",
+                        "advanced": "ขั้นสูง"
+                    },
+                    "action": {
+                        "navigate_channel_up": {
+                            "title": "กลับไปที่ช่องก่อนหน้านี้",
+                            "description": "กลับไปที่ช่องก่อนหน้านี้"
+                        },
+                        "navigate_channel_down": {
+                            "description": "ไปที่ช่องถัดไป",
+                            "title": "ไปที่ช่องถัดไป"
+                        },
+                        "navigate_server_down": {
+                            "description": "ไปที่เซิฟเวอร์ถัดไป",
+                            "title": "ไปที่เซิฟเวอร์ถัดไป"
+                        },
+                        "messaging_edit_previous_message": {
+                            "description": "แก้ไขข้อความที่ส่งก่อนหน้านี้ในหน้าข้อความที่โหลดแล้ว",
+                            "title": "แก้ไขข้อความก่อนหน้านี้"
+                        },
+                        "navigate_server_up": {
+                            "title": "กลับไปที่เซิฟเวอร์ก่อนหน้านี้",
+                            "description": "กลับไปที่เซิฟเวอร์ก่อนหน้านี้"
+                        }
+                    },
+                    "title": "ปุ่มลัด",
+                    "search": "ค้นหาปุ่มลัด…",
+                    "add_keybind": "เพิ่มปุ่มลัดใหม่",
+                    "edit_keybind": "แก้ไขปุ่มลัด",
+                    "remove_keybind": "ลบปุ่มลัด"
                 }
             },
             "server_pages": {
