@@ -182,7 +182,7 @@
                     "others_reacted": "{{userlist}} und {{count}} andere haben reagiert",
                     "unknown_reacted": "{{count}} personen haben reagiert",
                     "single_reacted": "Eine Person hat reagiert",
-                    "people_reacted": "{{people}} Reaktionen"
+                    "people_reacted": "{{people}} haben reagiert"
                 },
                 "new_to_revolt": "Neu bei Revolt",
                 "new_to_server": "Neu bei diesem Server"
@@ -402,6 +402,10 @@
                     "no_reason": "Kein Grund angegeben / Anderer Grund",
                     "reason": "Grund",
                     "additional_context": "Zusätzliche Informationen"
+                },
+                "edit_keybind": {
+                    "title": "Bearbeite Tastenbelegung für{{action}}",
+                    "placeholder": "Drücke die Tasten, um aufzunehmen"
                 }
             },
             "status": {
@@ -700,7 +704,8 @@
                     "description": "Tastaturbelegung anpassen",
                     "category": {
                         "advanced": "Fortgeschritten",
-                        "navigation": "Navigation"
+                        "navigation": "Navigation",
+                        "messaging": "Nachrichten"
                     },
                     "action": {
                         "navigate_channel_up": {
@@ -732,9 +737,43 @@
                             "title": "Kanal als gelesen markieren"
                         },
                         "navigate_previous_context": {
-                            "title": "Navigiere zum vorherigen Kontext"
+                            "title": "Navigiere zum vorherigen Kontext",
+                            "description": "Eine fortgeschrittene Tastenverknüpfung, die normalerweise zum Schließen eines Menüs, Modals, Popups oder der Rückkehr zum vorherigen Kontext verwendet wird."
+                        },
+                        "auto_complete_down": {
+                            "title": "Nächsten Abschnitt automatisch vervollständigen",
+                            "description": "Bewege die Autovervollständigung zur nächsten Auswahl."
+                        },
+                        "auto_complete_select": {
+                            "title": "Bestätige die Autocomplete Auswahl",
+                            "description": "Bestätige die aktuelle Autocomplete Auswahl."
+                        },
+                        "input_submit": {
+                            "title": "Eingabe einreichen",
+                            "description": "Eine erweiterte Tastenverknüpfung, die normalerweise zum Senden der aktuellen Eingabe verwendet wird.\nDies kann das Senden oder Ändern einer Nachricht oder eine Suche usw. umfassen."
+                        },
+                        "input_cancel": {
+                            "title": "Eingabe abbrechen",
+                            "description": "Eine erweiterte Tastenverknüpfung, die normalerweise zum Senden der aktuellen Eingabe verwendet wird.\nDies kann das Abbrechen einer Nachrichtenbearbeitung, das Entfernen eines Bildes aus der Warteschlange oder ähnliche Szenarien umfassen."
+                        },
+                        "input_force_submit": {
+                            "title": "Erzwinge Eingabe",
+                            "description": "Eine erweiterte Tastenverknüpfung, die normalerweise verwendet wird, um die aktuelle Eingabe zu erzwingen und dabei einige Prüfungen oder andere Tastenverknüpfung zu ignorieren.\nDies kann das Senden einer Nachricht umfassen, anstatt die Auswahl der automatischen Vervollständigung zu bestätigen."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Scrolle zum Ende der Nachrichten",
+                            "description": "Scrollt zum Ende der Nachrichtenansicht."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "Umschalten des experimentellen Safe Modes",
+                            "description": "Dies wird alle Experimente auf einmal aktivieren/ deaktivieren."
                         }
-                    }
+                    },
+                    "edit_keybind": "Tastenverbindung bearbeiten",
+                    "search": "Suche Tastenbelegungen…",
+                    "add_keybind": "Neue Tastenverbindung hinzufügen",
+                    "remove_keybind": "Tastenverbindung entfernen",
+                    "reset_keybind": "Tastenverbindung zurücksetzen zu {{keybind}}"
                 }
             },
             "categories": {
@@ -1064,5 +1103,41 @@
     },
     "actions": {
         "submit": "Einreichen"
+    },
+    "keys": {
+        "Control": {
+            "short": "STRG"
+        },
+        "ScrollLock": {
+            "full": "Scroll-Sperre",
+            "short": "Rollen"
+        },
+        "Escape": {
+            "short": "Esc"
+        },
+        "Delete": {
+            "short": "Entf"
+        },
+        "Backspace": {
+            "short": "Rücktaste"
+        },
+        "PageUp": {
+            "full": "Bild hoch",
+            "short": "BildHoch"
+        },
+        "PageDown": {
+            "short": "BildAb",
+            "full": "Bild nach unten"
+        },
+        "PrintScreen": {
+            "full": "Drucken",
+            "short": "BildDrucken"
+        },
+        "CapsLock": {
+            "full": "Feststelltaste"
+        },
+        "Insert": {
+            "short": "Einfg"
+        }
     }
 }
