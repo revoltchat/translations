@@ -343,7 +343,7 @@
                         "title": "Opciones avanzaes"
                     },
                     "discover": {
-                        "title": "Afayar temes",
+                        "title": "Escobrir temes",
                         "description": "Esplora temes fechos pola comunidá"
                     },
                     "accent_selector": "Collor d'acentu",
@@ -473,6 +473,58 @@
                         "navigate_channel_down": {
                             "title": "Navegar al siguiente canal",
                             "description": "Navegar al siguiente canal."
+                        },
+                        "navigate_server_up": {
+                            "title": "Navegar pal anterior servidor",
+                            "description": "Navegar pal servidor anterior."
+                        },
+                        "auto_complete_up": {
+                            "description": "Mover la seleición d'autocompletar pa l'anterior.",
+                            "title": "Seleición previa d'autocompletar"
+                        },
+                        "auto_complete_select": {
+                            "title": "Confirmar seleición d'autocompletáu",
+                            "description": "Confirmar la seleición actual d'autocompletar."
+                        },
+                        "input_submit": {
+                            "description": "Un atayu avanzáu que s'utiliza davezu pa unviar la entrada actual.\nEsto pue incluyir unviar un mensaxe, unviar una edición a un mensaxe, unviar una búsqueda, etc.",
+                            "title": "Unviar entrada"
+                        },
+                        "input_force_submit": {
+                            "description": "Un atayu avanzáu que s'utiliza davezu pa unviar la entrada actual d'un xeitu forzáu, ignorando delles comprobaciones u otros atayos.\nEsto pue incluyir unviar un mensaxe en cuenta de confirmar la seleición d'autocompletar.",
+                            "title": "Forzar unvíu d'entrada"
+                        },
+                        "navigate_server_down": {
+                            "title": "Navegar pal siguiente servidor",
+                            "description": "Navegar pal siguiente servidor."
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "Editar mensaxe anterior",
+                            "description": "Editar el mensaxe unviáu previamente na vista de mensaxes cargaos actualmente."
+                        },
+                        "auto_complete_down": {
+                            "title": "Siguiente seleición d'autocompletáu",
+                            "description": "Mover la seleición d'autocompletar pa la siguiente."
+                        },
+                        "input_cancel": {
+                            "title": "Atayar entrada",
+                            "description": "Un atayu avanzáu que s'utiliza davezu p'atayar la entrada actual.\nEsto pue incluyir atayar la edición d'un mensaxe, esaniciar una imaxe en cola o escenarios asemeyaos."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Móvese facia lo fondero de los mensaxes",
+                            "description": "Múevete facia lo fondero de la vista de mensaxes."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Marcar canal como lleída",
+                            "description": "Marcar la canal actual como lleída."
+                        },
+                        "navigate_previous_context": {
+                            "title": "Navegar pal contestu anterior",
+                            "description": "Un atayu avanzáu que s'utiliza davezu pa zarrar la páxina de configuración, un modal o una ventana emerxente y tornar pal contestu anterior."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "Alteriar el mou seguru del esperimentu",
+                            "description": "Esto va activar / esactivar tolos esperimentos al empar."
                         }
                     },
                     "description": "Ver y axustar atayos de tecláu"
@@ -711,7 +763,11 @@
                     "reload": "Recargar l'aplicación",
                     "continue": "Siguir"
                 },
-                "confirm": "Confirmar aición"
+                "confirm": "Confirmar aición",
+                "edit_keybind": {
+                    "title": "Editar atayu pa {{action}}",
+                    "placeholder": "Pulsa tecles pa grabar"
+                }
             },
             "popovers": {
                 "user_profile": {
@@ -1015,6 +1071,42 @@
         "TimeoutMembers": {
             "t": "Aisllar miembros",
             "d": "Permite a los miembros enzancar temporalmente que los usuarios interactúen col servidor."
+        }
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "PrintScreen": {
+            "full": "Imp. Pantaya",
+            "short": "ImpPant"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Atrás"
+        },
+        "PageUp": {
+            "short": "PgUp",
+            "full": "Páxina enriba"
+        },
+        "PageDown": {
+            "full": "Páxina Baxo",
+            "short": "PgDown"
+        },
+        "ScrollLock": {
+            "full": "Bloquéu de scroll",
+            "short": "ScrLK"
+        },
+        "CapsLock": {
+            "full": "Bloq mayús"
         }
     }
 }
