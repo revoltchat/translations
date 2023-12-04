@@ -84,7 +84,7 @@
             },
             "channel": {
                 "message_where": "{{channel_name}} kanalına mesaj gönder",
-                "message_who": "{{person}} kişisine mesaj gönder",
+                "message_who": "@{{person}} kişisine mesaj gönder",
                 "uploading_file": "Yükleniyor…",
                 "failed_upload": "Dosya yüklenemedi!",
                 "attached_file": "{{filename}} eklendi",
@@ -441,7 +441,9 @@
                 },
                 "keybinds": {
                     "category": {
-                        "advanced": "Gelişmiş"
+                        "advanced": "Gelişmiş",
+                        "navigation": "Navigasyon",
+                        "messaging": "Mesajlaşma"
                     }
                 }
             },
