@@ -43,7 +43,7 @@
         "missing_verification": "Gwrys na degemeres an ebost?",
         "cancel": "Dilea govyn",
         "check_mail": "Checkya dha ebost!",
-        "check_spam": "Plesya checkya atal mar gas kanna na it",
+        "check_spam": "Gwrewgh merkya bys dhe ardak spamyamar kwredh kevewgh ni",
         "open_mail_provider": "Ygeri {{provider}}",
         "verified_account": "Agas aknot res bones kovskrifa!",
         "verified_continue": "Durya dhe omgelmi",
@@ -345,7 +345,8 @@
                         "title": "Akontyans Menystrans",
                         "disable": "Diallosegi Aknot",
                         "delete": "Margh Aknot A-barth Dileans",
-                        "description": "Diallosegi po defendya agas aknot neb pres. Ma akt a venn nyns owgh hwi omgelmys hag yn feur defendya agas aknot, e'ga mesk agas keskewsel istori hag kothmans."
+                        "description": "Diallosegi po defendya agas aknot neb pres. Ma akt a venn nyns owgh hwi omgelmys hag yn feur defendya agas aknot, e'ga mesk agas keskewsel istori hag kothmans.",
+                        "disable_description": "Hwi a alsa agas akont ma's 'gas gul kestava orth astel - bettegens, hwi derivadow ny vydh diles."
                     }
                 },
                 "profile": {
@@ -645,16 +646,19 @@
     },
     "permissions": {
         "Connect": {
-            "t": "Junya"
+            "t": "Junya",
+            "d": "Alowa eselewo/eseli bys dhe junya erel a-ji a lev gooth."
         },
         "Masquerade": {
             "t": "Dons vysours"
         },
         "Speak": {
-            "t": "Kewsel"
+            "t": "Kewsel",
+            "d": "Alowa eselewo/eseli bys dhe kewsel e erel a-ji a lev gooth."
         },
         "Video": {
-            "t": "Gwelesek"
+            "t": "Gwelesek",
+            "d": "Alowa eselewo/eseli bys dhe fros erel a-ji a lev gooth."
         },
         "ManageWebhooks": {
             "t": "Dyghtya Webhooks"
@@ -666,7 +670,8 @@
             "t": "Ughkarga Restren Weythresadow"
         },
         "React": {
-            "t": "Devnydh Holyansen"
+            "t": "Devnydh Holyansen",
+            "d": "Alowa eselewo/eseli bys dhe dasoberi bys dhe messajys jeskows."
         },
         "SendMessage": {
             "t": "Dannon Messach Keskows"
@@ -678,19 +683,50 @@
             "t": "Dannon Tarna"
         },
         "MuteMembers": {
-            "t": "Avlavar Eseli"
+            "t": "Avlavar Eseli",
+            "d": "Alowa eselewo/eseli bys dhe avlavar erel a-ji a lev gooth."
         },
         "DeafenMembers": {
-            "t": "Bodharhe Eseli"
+            "t": "Bodharhe Eseli",
+            "d": "Alowa eselewo/eseli bys dhe bodharhe erel a-ji a lev gooth."
         },
         "MoveMembers": {
-            "t": "Chanjya chei Eseli"
+            "t": "Chanjya chei Eseli",
+            "d": "Alowa eselesow/eseli bys dhe chanjya chei tredh lev kanolyow."
         }
     },
     "quantities": {
         "members": {
             "many": "{{count}} Esels",
             "one": "1 Esel"
+        }
+    },
+    "keys": {
+        "PageDown": {
+            "short": "Pg-a-hys",
+            "full": "Folen A-hys"
+        },
+        "PageUp": {
+            "short": "Pg'Badn",
+            "full": "Folen'Badn"
+        },
+        "Backspace": {
+            "short": "Kilspas"
+        },
+        "Delete": {
+            "short": "Defendya"
+        },
+        "Insert": {
+            "short": "A-bervedh"
+        },
+        "Control": {
+            "short": "Gallos"
+        },
+        "Escape": {
+            "short": "Diank"
+        },
+        "PrintScreen": {
+            "full": "Argrafa"
         }
     }
 }
