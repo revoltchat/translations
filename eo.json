@@ -10,7 +10,7 @@
                 "failed_upload": "Malsukcesa alŝutado!",
                 "uploading_file": "Alŝutado…",
                 "message_saved": "Konservi en viajn notojn",
-                "message_who": "Mesaĝi al {{person}}",
+                "message_who": "Mesaĝi al @{{person}}",
                 "message_where": "Mesaĝi al {{channel_name}}",
                 "attached_file": "Alkroĉiĝis {{filename}}",
                 "system": {
@@ -175,7 +175,7 @@
                     "theme_data": "Etosaj datumoj",
                     "theme_options": {
                         "seasonal": "Sezona etoso",
-                        "follow_desc": "Je ebligo, vi ne povos ŝanĝi vian etoson aŭ uzi propran etoson.",
+                        "follow_desc": "Se ĉi tio estas ebligita, vi ne povos ŝanĝi vian haŭton aŭ uzi propran haŭton.",
                         "title": "Etosaj agordoj",
                         "seasonal_desc": "Montras efektojn en la ĉefpaĝo dum festotagaj sezonoj.",
                         "transparency_desc": "Ebligas travideblajn efektojn tra la tuta apo.",
@@ -189,8 +189,8 @@
                     "appearance_options": {
                         "title": "Aspektaj agordoj",
                         "show_send": "Ĉiam montri mesaĝo-sendan butonon",
-                        "show_send_desc": "Je malebligo, la mesaĝo-senda butono aperos nur en la poŝtelefona apo.",
-                        "show_account_age_desc": "Je malebligo, la konta aĝo nur montriĝos por novaj uzantoj.",
+                        "show_send_desc": "Se ĉi tio estas malŝaltita, la «Sendi Mesaĝon» butonon aperos nur ĉe poŝtelefono.",
+                        "show_account_age_desc": "Se ĉi tio estas malŝaltita, la konta aĝo estos montrata nur por novaj uzantoj.",
                         "show_account_age": "Ĉiam montri kontan aĝon apud aliĝaj mesaĝoj"
                     },
                     "colours": {
@@ -213,8 +213,8 @@
                     "enable_push": "Ebligi puŝajn sciigojn",
                     "sounds": "Sonoj",
                     "descriptions": {
-                        "enable_desktop": "Ĉi tiu agordo aperigas sciigojn, dum la apo estas malfermita.",
-                        "enable_push": "Ebligu por ricevi sciigojn, kiam vi ne enretas."
+                        "enable_desktop": "Se ĉi tio estas ebligita, vi ricevos sciigojn dum la aplikaĵo estas malfermita.",
+                        "enable_push": "Se ĉi tio estas ebligita, vi ricevos sciigojn kiam vi elretas."
                     },
                     "sound": {
                         "message": "Riceviĝo de mesaĝo",
@@ -225,10 +225,12 @@
                 },
                 "account": {
                     "manage": {
-                        "description": "Vi povas iam ajn malvalidigi aŭ forigi vian konton. Tiu ago elsalutigos vin kaj plene forigos vian konton, inkluzive vian babilejan historion kaj amikliston.",
+                        "description": "Vi povas iam ajn malvalidigi aŭ forigi vian konton. Ambaŭ agoj elsalutigos vin el viaj aktivaj sesioj.",
                         "title": "Konta mastrumado",
                         "disable": "Malvalidigi konton",
-                        "delete": "Marki konton forigota"
+                        "delete": "Marki konton forigota",
+                        "disable_description": "Vi ne povos aliri vian konton krom se vi kontaktos subtenon - tamen viaj datumoj ne estos forigitaj.",
+                        "delete_description": "Via konto kaj ĉiuj viaj datumoj (inkluzive de viaj mesaĝoj kaj listo de amikoj) estos atendovicigataj por forigo. Konfirma retpoŝto estos sendita - vi povas nuligi ĉi tion ene de 7 tagoj kontaktante subtenon."
                     },
                     "title": "Mia konto",
                     "change_field": "Ŝanĝi",
@@ -252,18 +254,18 @@
                     "output_device": "Laŭtparolilo / kapaŭskultiloj",
                     "device_label_NA": "Neaplikebla",
                     "button_retry": "reprovi",
-                    "tip_retry": "Vi ne donis permeson uzi la mikrofonon. Bonvolu {{retryBtn}}.",
+                    "tip_retry": "Vi ne donis al Revolt permeson uzi la mikrofonon. Bonvolu {{retryBtn}}.",
                     "button_grant": "Doni permeson",
                     "tip_grant_permission": "Vi devas doni permeson por aliri agordojn de sono."
                 },
                 "bots": {
-                    "reserved": "Noto: ĉi tiu kampo estas rezervita por la estonteco.",
+                    "reserved": "Noto: Ĉi tiu tajpujo estas rezervita por la estonteco.",
                     "unique_id": "Tio ĉi estas unika identigilo por via roboto. Ĝi ne estas la ĵetono de la roboto.",
                     "token": "Ĵetono",
-                    "public_bot_tip": "La roboto estas publika. Iu ajn povas inviti ĝin.",
-                    "private_bot_tip": "La roboto estas privata. Nur vi povas inviti ĝin.",
+                    "public_bot_tip": "Ĉi tiu roboto estas publika. Iu ajn povas inviti ĝin.",
+                    "private_bot_tip": "Ĉi tiu roboto estas privata. Nur vi povas inviti ĝin.",
                     "public_bot": "Publika roboto",
-                    "public_bot_desc": "Ĉu permesi aliajn uzantojn inviti ĉi tiun roboton aŭ ne.",
+                    "public_bot_desc": "Se ĉi tio estas ebligita, aliaj uzantoj povas aldoni ĉi tiun roboton al serviloj kaj grupmesaĝoj.",
                     "interactions_url": "Ligilo de interagoj",
                     "title": "Miaj robotoj",
                     "create_bot": "Krei roboton",
@@ -324,7 +326,7 @@
                     "title": "Sinkronigo",
                     "categories": "Sinkronigaj kategorioj",
                     "descriptions": {
-                        "appearance": "Ĉi tiu agordo sinkronigas agordojn, kiel emoĝiarojn kaj mesaĝodensecon.",
+                        "appearance": "Ĉi tiu agordo sinkronigas aspektajn agordojn, kiel viajn elektitajn emoĝiarojn kaj mesaĝodensecon.",
                         "theme": "Ĉi tiu agordo sinkronigas viajn proprajn etoson, kolorojn kaj iun ajn propran CSS-on.",
                         "locale": "Ĉi tiu agordo sinkronigas vian elektitan lingvon."
                     },
@@ -344,10 +346,93 @@
                 "source_code": "Fontkodo",
                 "logOut": "Elsaluti",
                 "plugins": {
-                    "wip": "Averto: ĉi tiu funkcio estas ankoraŭ disvolvigata.",
+                    "wip": "Averto: Ĉi tiu funkcio estas ankoraŭ disvolvigata.",
                     "delete_plugin": "Forigi",
                     "title": "Kromprogramoj",
                     "no_plugins": "Neniuj kromprogramoj estas nune instalitaj."
+                },
+                "accessibility": {
+                    "title": "Alirebleco",
+                    "reduced_motion": "Reduktita Movo",
+                    "descriptions": {
+                        "reduced_motion": "Se ĉi tio estas ebligita, animacioj kaj movaj efektoj ne ludos aŭ estos malpli intensaj."
+                    }
+                },
+                "keybinds": {
+                    "description": "Vidi kaj agordi klavkombinojn",
+                    "search": "Serĉi klavkombinojn…",
+                    "add_keybind": "Aldoni novan klavkombinon",
+                    "remove_keybind": "Forigi klavkombinon",
+                    "reset_keybind": "Restarigi klavkombinon al {{keybind}}",
+                    "category": {
+                        "navigation": "Navigado",
+                        "messaging": "Mesaĝado",
+                        "advanced": "Altnivela"
+                    },
+                    "action": {
+                        "navigate_channel_up": {
+                            "title": "Iri al la antaŭa kanalo",
+                            "description": "Iri al la antaŭa kanalo."
+                        },
+                        "navigate_channel_down": {
+                            "title": "Iri al la sekva kanalo",
+                            "description": "Iri al la sekva kanalo."
+                        },
+                        "navigate_server_up": {
+                            "title": "Iri al la antaŭa servilo",
+                            "description": "Iri al la antaŭa servilo."
+                        },
+                        "navigate_server_down": {
+                            "title": "Iri al la sekva servilo",
+                            "description": "Iri al la sekva servilo."
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "Redakti antaŭan mesaĝon",
+                            "description": "Redakti la antaŭe senditan mesaĝon en la nun ŝarĝita mesaĝa vido."
+                        },
+                        "auto_complete_up": {
+                            "title": "Antaŭa Aŭtokompleta Elekto",
+                            "description": "Movu la aŭtokompletan elekton al la antaŭa."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "description": "Ĉi tio ebligos/malŝaltos ĉiujn eksperimentojn samtempe.",
+                            "title": "Baskuli eksperimentan sekuran reĝimon"
+                        },
+                        "navigate_previous_context": {
+                            "title": "Iri al la antaŭa kunteksto",
+                            "description": "Altnivela klavkombino, kiu estas kutime uzata por fermi la agordan paĝon, modalon aŭ ŝprucfenestron kaj reveni al la antaŭa kunteksto."
+                        },
+                        "auto_complete_down": {
+                            "title": "Sekva Aŭtokompleta Elekto",
+                            "description": "Movu la aŭtokompletan elekton al la sekva."
+                        },
+                        "auto_complete_select": {
+                            "title": "Konfirmi Aŭtokompletan Elekton",
+                            "description": "Konfirmi la nunan elekton de aŭtokompletigo."
+                        },
+                        "input_submit": {
+                            "title": "Sendi Enigon",
+                            "description": "Altnivela klavkombino, kiu estas kutime uzata por sendi la nunan enigon.\nĈi tio povas inkluzivi sendi mesaĝon, sendi redakton al mesaĝo, sendi serĉon ktp."
+                        },
+                        "input_cancel": {
+                            "title": "Nuligi Enigon",
+                            "description": "Altnivela klavkombino, kiu estas kutime uzata por nuligi la nunan enigon.\nĈi tio povas inkluzivi nuligi mesaĝan redakton, forigon de atendovicigita bildo aŭ similajn scenarojn."
+                        },
+                        "input_force_submit": {
+                            "title": "Devige Sendi Enigon",
+                            "description": "Altnivela klavkombino, kiu estas kutime uzata por devige sendi la nunan enigon, ignorante kelkajn kontrolojn aŭ aliajn klavkombinojn.\nĈi tio povas inkluzivi sendi mesaĝon anstataŭ konfirmi la aŭtokompletan elekton."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "description": "Rulumas al la fundo de la mesaĝa rigardo.",
+                            "title": "Rulumi al la fundo de mesaĝoj"
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Marki kanalon kiel legita",
+                            "description": "Markas la nunan kanalon kiel legita."
+                        }
+                    },
+                    "title": "Klavkombinoj",
+                    "edit_keybind": "Redakti klavkombinon"
                 }
             },
             "title": "Agordoj",
@@ -364,8 +449,8 @@
             },
             "tips": {
                 "languages": {
-                    "a": "Ĉu via lingvo mankas?",
-                    "b": "Helpu kontribui pri tradukado."
+                    "a": "Ĉu ni mankas lingvo, kiun vi volas?",
+                    "b": "Helpu nin kontribuante pliajn tradukojn."
                 },
                 "account": {
                     "a": "Ĉu vi volas proprigi vian publikan profilon?",
@@ -373,7 +458,7 @@
                 },
                 "sessions": {
                     "a": "Se vi vidas nekonatan seancon en la listo,",
-                    "b": "sekurigu vian konton, ŝanĝante vian pasvorton kaj uzante dupaŝan aŭtentigon."
+                    "b": "sekurigu vian konton, ŝanĝante vian pasvorton kaj agordante dupaŝan aŭtentigon."
                 }
             },
             "server_pages": {
@@ -425,6 +510,9 @@
                     "title": "Superrigardo",
                     "name": "Kanala nomo",
                     "description": "Kanala priskribo"
+                },
+                "webhooks": {
+                    "title": "Rethokoj"
                 }
             },
             "permissions": {
@@ -462,11 +550,11 @@
             "modals": {
                 "onboarding": {
                     "welcome": "Bonvenon al",
-                    "pick": "Elektu uzantonomon, per kiu oni povos trovi vin. Vi povas ŝanĝi ĝin poste en viaj agordoj."
+                    "pick": "Elektu uzantonomon, per kiu oni povos trovi vin. Ĉi tio povas esti ŝanĝita poste en viaj uzantaj agordoj."
                 },
                 "actions": {
                     "hide": "Kaŝi",
-                    "ok": "Bone",
+                    "ok": "Okej",
                     "remove": "Forigi",
                     "create": "Krei",
                     "delete": "Forigi",
@@ -543,10 +631,10 @@
                     "enable_totp": "Ebligi aŭtentigan apon",
                     "select_method": "Bonvolu elekti metodon por aŭtentigi vian peton.",
                     "enter_code": "Enigi kodon",
-                    "confirm": "Bonvolu konfirmi per elektita metodo.",
+                    "confirm": "Bonvolu konfirmi ĉi tiun agon per la elektita metodo.",
                     "recovery_codes": "Viaj restarigaj kodoj",
                     "save_codes": "Bonvolu konservi ĉi tiujn en sekura loko.",
-                    "prompt_totp": "Bonvolu skani aŭ uzi la ĵetonon ĉi-sube en via aŭtentiga apo."
+                    "prompt_totp": "Bonvolu skani aŭ uzi la ĵetonon ĉi-sube en via aŭtentiga aplikaĵo."
                 },
                 "changelogs": {
                     "title": "Ŝanĝoprotokoloj",
@@ -582,6 +670,10 @@
                     "reported": "Raportite",
                     "thank_you": "Dankon pro helpi plu sekurigi Revolt. Ni kontrolos vian raporton kiel eble plej baldaŭe.",
                     "block_user": "Ĉu vi volas bloki ĉi tiun uzanton?"
+                },
+                "edit_keybind": {
+                    "title": "Redakti klavkombinon por {{action}}",
+                    "placeholder": "Premu klavojn por registri"
                 }
             },
             "popovers": {
@@ -594,7 +686,7 @@
                     "badges": {
                         "translator": "Tradukisto",
                         "supporter": "Subtenanto",
-                        "responsible_disclosure": "Respondece raportis cimo(j)n",
+                        "responsible_disclosure": "Respondece Diskonigitaj Sekurecaj Problemoj",
                         "early_adopter": "Frua ekuzanto",
                         "founder": "Fondinto",
                         "moderation": "Kontrolado de platformo"
@@ -731,7 +823,7 @@
         "successful_registration": "Sukcesa registriĝo!",
         "open_mail_provider": "Malfermi {{provider}}",
         "check_spam": "Bonvolu kontroli vian trudujon se vi ne povas trovi ĝin",
-        "email_delay": "Bonvolu atendi ĝis 10 minutoj por ĝia alveno.",
+        "email_delay": "Ni sendis al vi konfirman retpoŝton. Bonvolu atendi ĝis 10 minutoj por ĝia alveno.",
         "check_mail": "Kontrolu vian retpoŝton!",
         "cancel": "Nuligi la peton",
         "resend": "Resendi kontroladon",
@@ -806,7 +898,7 @@
         "InvalidCredentials": "Retpoŝtadreso aŭ pasvorto malĝustas.",
         "InvalidToken": "Nevalida ĵetono",
         "InvalidInvite": "Nevalida kodo",
-        "AudioPermissionBlock": "Ne eblas aliri vian mikrofonon, bonvolu kontroli la agordojn de via retumilo.",
+        "AudioPermissionBlock": "Ne eblas aliri vian mikrofonon. Bonvolu kontroli la agordojn de via retumilo.",
         "Unlabelled": "Io okazis.",
         "FailedValidation": "Malsukcesis validigo de kampoj.",
         "DatabaseError": "Eraro de datumbazo.",
@@ -835,13 +927,14 @@
         "FailedToReceive": "La servilo malsukcesis ricevi vian dosieron.",
         "MissingData": "Mankas datumoj en la peto.",
         "ProbeError": "Malsukcesis akirado de dosiermetadatumoj.",
-        "DeniedNotification": "Vi malakceptis aliron de sciigoj, kontrolu paĝagordojn.",
+        "DeniedNotification": "Vi malakceptis aliron de sciigoj. Kontrolu paĝagordojn.",
         "CompromisedPassword": "Tiu pasvorto estas danĝerigita.",
         "ReachedMaximumBots": "Vi atingis la maksimuman kvanton da robotoj.",
         "UnsupportedBrowser": "Mankas en la retumilo subteno por tiu funkcio.",
         "InvalidSession": "Nevalida seanco.",
         "IoError": "La servilo spertis eraron de eneligo.",
-        "RenderFail": "Bildigo de ŝablono malsukcesis."
+        "RenderFail": "Bildigo de ŝablono malsukcesis.",
+        "DiscriminatorChangeRatelimited": "Tro da etikedŝanĝoj."
     },
     "permissions": {
         "ManageChannels": {
@@ -910,7 +1003,7 @@
         },
         "ManageRole": {
             "t": "Mastrumi rolojn",
-            "d": "Ebligas por membroj krei, redakti kaj forigi rolojn kun malpli alta rango ol la siaj. Tio ankaŭ permesas al ili modifi rolpermesojn ĉe kanaloj."
+            "d": "Ebligas por membroj krei, redakti kaj forigi rolojn kun malpli alta rango ol la siaj kaj modifi rolpermesojn ĉe kanaloj."
         },
         "ViewChannel": {
             "d": "Ebligas al membroj vidi iujn ajn kanalojn, ĉe kiuj ili havas tiun ĉi permeson.",
@@ -988,5 +1081,41 @@
     },
     "actions": {
         "submit": "Sendi"
+    },
+    "keys": {
+        "Control": {
+            "short": "Ctrl"
+        },
+        "PageUp": {
+            "full": "Paĝo Supre",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Paĝo Sube",
+            "short": "PgDown"
+        },
+        "ScrollLock": {
+            "full": "Ruluma Baskulo",
+            "short": "ScrLK"
+        },
+        "PrintScreen": {
+            "short": "PrtSc",
+            "full": "Presi Ekranon"
+        },
+        "CapsLock": {
+            "full": "Majuskla Baskulo"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "Escape": {
+            "short": "Esc"
+        }
     }
 }
