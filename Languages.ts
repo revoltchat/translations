@@ -241,7 +241,7 @@ export const Languages: { [key in Language]: LanguageEntry } = {
     display: "Esperanto",
     emoji: "EO",
     i18n: "eo",
-    dayjs: "en-gb",
+    dayjs: "eo",
     cat: "const",
   },
 
