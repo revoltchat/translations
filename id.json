@@ -98,7 +98,7 @@
                     },
                     "manage": {
                         "title": "Pengelolaan Akun",
-                        "description": "Nonaktifkan atau hapus akun kamu kapan saja. Tindakan-tindakan tersebut akan mengeluarkan akunmu dari semua sesi aktif.",
+                        "description": "Nonaktifkan atau hapus akun kamu kapan saja. Tindakan tersebut akan mengeluarkan akunmu dari semua sesi aktif.",
                         "disable": "Nonaktifkan Akun",
                         "delete": "Tandai Akun untuk Dihapus",
                         "disable_description": "Kamu tidak akan bisa mengakses akunmu kecuali dengan menghubungi bantuan - namun, datamu tidak akan dihapus.",
@@ -227,6 +227,14 @@
                         "navigate_channel_down": {
                             "title": "Pergi ke saluran berikutnya",
                             "description": "Pergi ke saluran berikutnya."
+                        },
+                        "navigate_server_up": {
+                            "title": "Pergi ke server sebelumnya",
+                            "description": "Pergi ke server sebelumnya."
+                        },
+                        "navigate_server_down": {
+                            "title": "Pergi ke server berikutnya",
+                            "description": "Pergi ke server berikutnya."
                         }
                     }
                 }
@@ -274,8 +282,8 @@
                     "revoke": "Cabut"
                 },
                 "bans": {
-                    "no_reason": "Tidak ada alasan diban.",
-                    "reason": "Alasan Diban",
+                    "no_reason": "Tidak ada alasan ban.",
+                    "reason": "Alasan Ban",
                     "revoke": "Cabut Ban",
                     "user": "Pengguna",
                     "title": "Ban"
@@ -547,7 +555,7 @@
                     "create_invite_generate": "Menghasilkan undangan…",
                     "confirm_delete_long": "Setelah dihapus, tak ada jalan kembali.",
                     "confirm_kick": "Apa kamu yakin ingin mengeluarkan {{name}}?",
-                    "confirm_ban": "Kamu akan memban {{name}}",
+                    "confirm_ban": "Kamu akan mem-ban {{name}}",
                     "confirm_close_dm": "Tutup percakapan dengan {{name}}?",
                     "confirm_close_dm_long": "Kamu dapat membukanya kembali nanti, namun percakapan akan hilang di kedua sisi.",
                     "create_invite_created": "Ini kode undangan barumu:",
