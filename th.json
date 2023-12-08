@@ -170,7 +170,9 @@
                     "single_reacted": "มีคนตอบสนองหนึ่งคน",
                     "others_reacted": "{{userlist}} และคนอื่นอีก {{count}} ได้ตอบสนอง",
                     "people_reacted": "{{people}} ได้ตอบสนอง"
-                }
+                },
+                "new_to_server": "สมาชิกใหม่ของเซิร์ฟเวอร์",
+                "new_to_revolt": "สนใจเข้า Revolt"
             },
             "categories": {
                 "conversations": "บทสนทนา",
@@ -428,24 +430,59 @@
                     },
                     "action": {
                         "navigate_channel_up": {
-                            "title": "กลับไปที่ช่องก่อนหน้านี้",
-                            "description": "กลับไปที่ช่องก่อนหน้านี้"
+                            "title": "กลับไปที่แชทก่อนหน้านี้",
+                            "description": "กลับไปที่แชทก่อนหน้านี้"
                         },
                         "navigate_channel_down": {
-                            "description": "ไปที่ช่องถัดไป",
-                            "title": "ไปที่ช่องถัดไป"
+                            "description": "ไปยังแชทถัดไป",
+                            "title": "ไปยังแชทถัดไป"
                         },
                         "navigate_server_down": {
-                            "description": "ไปที่เซิฟเวอร์ถัดไป",
-                            "title": "ไปที่เซิฟเวอร์ถัดไป"
+                            "description": "ไปที่เซิร์ฟเวอร์ถัดไป",
+                            "title": "ไปที่เซิร์ฟเวอร์ถัดไป"
                         },
                         "messaging_edit_previous_message": {
                             "description": "แก้ไขข้อความที่ส่งก่อนหน้านี้ในหน้าข้อความที่โหลดแล้ว",
                             "title": "แก้ไขข้อความก่อนหน้านี้"
                         },
                         "navigate_server_up": {
-                            "title": "กลับไปที่เซิฟเวอร์ก่อนหน้านี้",
-                            "description": "กลับไปที่เซิฟเวอร์ก่อนหน้านี้"
+                            "title": "กลับไปที่เซิร์ฟเวอร์ก่อนหน้านี้",
+                            "description": "กลับไปที่เซิร์ฟเวอร์ก่อนหน้านี้"
+                        },
+                        "input_force_submit": {
+                            "description": "ปุ่มลัดที่ใช้ในการบังคับยืนยันการส่งคำสั่ง โดยจะข้ามการเช็คหรือปุ่มลัดอื่น ๆ\nโดยรวมถึงการส่งข้อความแทนการเลือกข้อความอัตโนมัติ"
+                        },
+                        "navigate_previous_context": {
+                            "description": "ปุ่มลัดสำหรับการปิดการตั้งค่า หน้าต่าง หรือหน้าป๊อปอัพ แล้วกลับไปจุดก่อนหน้านี้"
+                        },
+                        "input_submit": {
+                            "description": "ปุ่มลัดที่ใช้ในการส่งข้อความที่พิมพ์ไว้\nที่รวมถึงการส่งข้อความ การแก้ไขข้อความ การค้นหา และอื่น ๆ"
+                        },
+                        "input_cancel": {
+                            "description": "ปุ่มลัดที่ใช้ในการส่งคำสั่งยกเลิก\nที่รวมถึงการยกเลิกแก้ไขข้อความ ยกเลิกรูปภาพที่กำลังส่ง และกรณีอื่น ๆ"
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "ไปที่ข้อความล่าสุด",
+                            "description": "ขยับหน้าจอให้ไปที่ข้างล่างของหน้าที่เปิดอยู่"
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "มาร์กช่องว่าอ่านแล้ว",
+                            "description": "ทำเครื่องหมายว่าได้อ่านแชทไปแล้ว"
+                        },
+                        "developer_toggle_all_experiments": {
+                            "description": "เปิด / ปิดระบบที่อยู่ในการทดสอบทั้งหมดพร้อมกัน"
+                        },
+                        "auto_complete_up": {
+                            "title": "เลือกข้อความอัตโนมัติอันก่อนหน้า",
+                            "description": "ขยับไปเลือกข้อความอัตโนมัติอันก่อนหน้านี้"
+                        },
+                        "auto_complete_down": {
+                            "title": "เลือกข้อความอัตโนมัติอันถัดไป",
+                            "description": "ขยับไปเลือกข้อความอัตโนมัติอันถัดไป"
+                        },
+                        "auto_complete_select": {
+                            "title": "ยืนยันและเลือกข้อความอัตโนมัติ",
+                            "description": "ยืนยันการเลือกข้อความอัตโนมัติอันปัจจุบัน"
                         }
                     },
                     "title": "ปุ่มลัด",
@@ -641,7 +678,7 @@
                     "attempting": "กำลังพยายามจะอัพเดต…"
                 },
                 "mfa": {
-                    "confirm": "กรุณายืนยันตัวตนด้วยวิธีการที่เลือก",
+                    "confirm": "กรุณายืนยันตัวตนด้วยวิธีการที่เลือกไป",
                     "recovery_codes": "รหัสกู้คืนของคุณ",
                     "save_codes": "กรุณาเก็บไว้ในที่ปลอดภัย",
                     "select_method": "กรุณาเลือกวิธีการยืนยันตัวตน",
@@ -683,6 +720,10 @@
                     "additional_context": "ข้อมูลเพิ่มเติม",
                     "message": "รายงานข้อความ",
                     "block_user": "คุณต้องการจะบล็อคผู้ใช้คนนี้ไหม่?"
+                },
+                "edit_keybind": {
+                    "title": "แก้ไขปุ่มลัดของ {{action}}",
+                    "placeholder": "กดปุ่มเพื่อบันทึก"
                 }
             },
             "popovers": {
@@ -830,7 +871,7 @@
         "DeniedNotification": "คุณปฏิเสธการเข้าถึงการแจ้งเตือน ตรวจสอบหน้าการตั้งค่า",
         "ReachedMaximumBots": "คุณถึงจำนวนจำกัดการสร้างบอทแล้ว",
         "AudioPermissionBlock": "ไม่มีสิทธิเข้าถึงไมโครโฟนของคุณ กรุณาตรวจสอบการตั้งค่าเบราว์เซอร์",
-        "DiscriminatorChangeRatelimited": "เปลี่ยน tag บ่อยเกินไป"
+        "DiscriminatorChangeRatelimited": "เปลี่ยนแท็กบ่อยเกินไป"
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
@@ -1034,5 +1075,41 @@
     },
     "actions": {
         "submit": "ส่ง"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "PrintScreen": {
+            "full": "Print Screen",
+            "short": "PrtSc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "ScrollLock": {
+            "full": "Scroll Lock",
+            "short": "ScrLK"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
+        }
     }
 }
