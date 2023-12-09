@@ -35,7 +35,7 @@ Please note that this table **only includes languages that are currently availab
 |🇪🇪|eesti / et|[@Kentledge](https://github.com/Kentledge)|[@u032](https://github.com/u032) [@Lefromrevolt](https://github.com/Lefromrevolt)|
 |🇫🇮|suomi / fi|||
 |🇵🇭|Filipino / fil|[@I2rys](https://github.com/I2rys)|[@searinminecraft](https://github.com/searinminecraft)|
-|🇫🇷|Français / fr|[@Hades785](https://github.com/Hades785) [@Kasahe](https://github.com/Kasahe) [@Achlys12](https://github.com/Achlys12) [@TapwaveZodiac](https://github.com/TapwaveZodiac)|[@RedNight-was-taken](https://github.com/RedNight-was-taken) [@Gaby5873](https://github.com/Gaby5873)|
+|🇫🇷|Français / fr|[@Hades785](https://github.com/Hades785) [@Kasahe](https://github.com/Kasahe) [@Achlys12](https://github.com/Achlys12) [@TapwaveZodiac](https://github.com/TapwaveZodiac)|[@RedNight-was-taken](https://github.com/RedNight-was-taken) [@Gaby5873](https://github.com/Gaby5873) [@ay700r](https://github.com/ay700r)|
 |🇮🇪|Gaeilge / ga|||
 |🇮🇳|हिन्दी / hi|[@Infiniticity](https://github.com/Infiniticity)|[@CodeWhiteWeb](https://github.com/CodeWhiteWeb) [@FakeFerg](https://github.com/FakeFerg) [@Yeikzy](https://github.com/Yeikzy)|
 |🇭🇷|Hrvatski / hr|||
