@@ -19,8 +19,8 @@ Please note that this table **only includes languages that are currently availab
 |🇸🇦|عربي / ar|[@LedaThemis](https://github.com/LedaThemis) [@vloddot](https://github.com/vloddot)||
 |🇮🇳|অসমীয়া / as|||
 |🇦🇿|Azərbaycan dili / az|||
-|🇧🇾|беларуская / be|||
-|🇧🇬|български / bg|||
+|🇧🇾|Беларуская / be|||
+|🇧🇬|Български / bg|||
 |🇧🇩|বাংলা / bn|[@Cynycal2003](https://github.com/Cynycal2003)||
 |br|Brezhoneg / br|[@SperedAnveliour](https://github.com/SperedAnveliour)||
 |🇪🇸|Català / ca|[@TallerThanShort](https://github.com/TallerThanShort)||
@@ -39,9 +39,9 @@ Please note that this table **only includes languages that are currently availab
 |🇮🇪|Gaeilge / ga|||
 |🇮🇳|हिन्दी / hi|[@Infiniticity](https://github.com/Infiniticity)|[@CodeWhiteWeb](https://github.com/CodeWhiteWeb) [@FakeFerg](https://github.com/FakeFerg) [@Yeikzy](https://github.com/Yeikzy)|
 |🇭🇷|Hrvatski / hr|||
-|🇭🇺|magyar / hu|[@f3rr31](https://github.com/f3rr31)||
+|🇭🇺|Magyar / hu|[@f3rr31](https://github.com/f3rr31)||
 |🇦🇲|հայերեն / hy|||
-|🇮🇩|bahasa Indonesia / id|[@liimee](https://github.com/liimee)|[@ilhamfauzan](https://github.com/ilhamfauzan)|
+|🇮🇩|Bahasa Indonesia / id|[@liimee](https://github.com/liimee)|[@ilhamfauzan](https://github.com/ilhamfauzan)|
 |🇮🇸|Íslenska / is|||
 |🇮🇹|Italiano / it|[@plumcakey](https://github.com/plumcakey)|[@Gabriele73](https://github.com/Gabriele73)|
 |🇯🇵|日本語 / ja|[@chelley](https://github.com/chelley)||
@@ -50,7 +50,7 @@ Please note that this table **only includes languages that are currently availab
 |🇱🇹|Lietuvių / lt|[@ErnestasKaralius](https://github.com/ErnestasKaralius)||
 |🇱🇻|Latviešu / lv|[@rMazeiks](https://github.com/rMazeiks)||
 |🇲🇰|Македонски / mk|||
-|🇲🇾|Melayu / ms|||
+|🇲🇾|Bahasa Melayu / ms|||
 |🇳🇴|Norsk bokmål / nb_NO|[@tobggs](https://github.com/tobggs)||
 |🇳🇱|Nederlands / nl|[@sympact06](https://github.com/sympact06)||
 |🇮🇷|فارسی / fa|[@DevEvil99](https://github.com/DevEvil99) [@shareghzadeh](https://github.com/shareghzadeh)||
