@@ -18,7 +18,7 @@
         },
         "successful_registration": "Registrering succesfuld!",
         "check_spam": "Venligst tjek spam hvis du ikke kan finde den",
-        "email_delay": "Venlist vent op til 10 minutter for den til at ankomme.",
+        "email_delay": "Vi har sendt dig en bekræftelsesemail. Det kan tage op til 10 minutter, før den ankommer.",
         "check_mail": "Tjek din mail!",
         "cancel": "Annullér anmodning",
         "missing_verification": "Har du ikke modtaget en mail?",
@@ -110,9 +110,9 @@
                 "failed_upload": "Uploaden mislykkedes!",
                 "uploading_file": "Uploader…",
                 "message_saved": "Gem i dine noter",
-                "message_who": "Besked {{person}}",
+                "message_who": "Besked @{{person}}",
                 "message_where": "Besked {{channel_name}}",
-                "bot": "bot",
+                "bot": "Bot",
                 "notifications": {
                     "default": "Brug Standard",
                     "all": "Alle Beskeder",
@@ -251,7 +251,7 @@
                 "error": "En fejl opstod!",
                 "signed_out": "Du blev logget ud!",
                 "onboarding": {
-                    "pick": "Vælg et brugernavn, som du ønsker, at folk skal kunne finde dig ved, dette kan ændres senere i indstillingerne.",
+                    "pick": "Vælg et brugernavn, som du ønsker, at folk skal kunne finde dig ved. Dette kan ændres senere i Min Konto indstillinger.",
                     "welcome": "Velkommen til"
                 },
                 "account": {
@@ -318,6 +318,9 @@
                     "additional_context": "Yderligere Information",
                     "no_reason": "Ingen grund angivet / anden årsag",
                     "by_name": "Anmeld {{name}}"
+                },
+                "edit_keybind": {
+                    "title": "Skift genvejstast for {{action}}"
                 }
             },
             "popovers": {
@@ -434,7 +437,7 @@
                     "custom_background": "Brugerdefineret Baggrund"
                 },
                 "audio": {
-                    "tip_retry": "Du gav ikke tilladelse til at få adgang til din mikrofon, {{retryBtn}}.",
+                    "tip_retry": "Du gav ikke Revolt tilladelse til at få adgang til din mikrofon, {{retryBtn}}.",
                     "device_label_NA": "N/A",
                     "button_retry": "prøv igen",
                     "title": "Stemmeindstillinger",
@@ -479,7 +482,7 @@
                     "ligatures_desc": "For understøttede skrifttyper, kombinerer ligaturer tegn sammen - for eksempel, omdanne -> til en pil.",
                     "reset_overrides": "Nulstil tilsidesættelser",
                     "theme_options": {
-                        "follow_desc": "Når tjekket, vil du ikke være i stand til at ændre dine temaer eller bruge et tilpasset tema.",
+                        "follow_desc": "Hvis den er aktiveret, vil du ikke være i stand til at ændre dine temaer eller bruge et tilpasset tema.",
                         "title": "Tema Indstillinger",
                         "follow": "Brug system tema",
                         "seasonal": "Sæsonbestemt Tema",
@@ -494,7 +497,7 @@
                     "appearance_options": {
                         "title": "Indstillinger for udseende",
                         "show_send": "Altid vis send besked knappen",
-                        "show_send_desc": "Hvis den er deaktiveret, vises knappen Send besked kun på mobilen.",
+                        "show_send_desc": "Hvis den er deaktiveret, vises knappen Send Besked kun på mobilen.",
                         "show_account_age": "Vis altid kontoalderen ud for at deltage i beskeder",
                         "show_account_age_desc": "Hvis den er deaktiveret, vises kontoens alder kun for nye brugere."
                     },
@@ -531,8 +534,8 @@
                     "push_notifications": "Push Notifikationer",
                     "enable_push": "Aktiver push-meddelelser",
                     "descriptions": {
-                        "enable_push": "Aktiver for at modtage notifikationer, når du er offline.",
-                        "enable_desktop": "Dette vil give dig notifikationer, mens din app er åben."
+                        "enable_push": "Hvis den er aktiveret, vil du modtage notifikationer, selv når du er offline.",
+                        "enable_desktop": "Hvis den er aktiveret, vil du modtage notifikationer, mens appen er åben."
                     },
                     "title": "Notifikationer",
                     "enable_desktop": "Aktiver skrivebordsmeddelelser",
@@ -560,9 +563,9 @@
                     "reserved": "Bemærk: Dette felt er reserveret til fremtiden.",
                     "copy_invite": "Kopiér invitationslinket",
                     "unique_id": "Dette er en unik identifikator for din bot. Dette er ikke bottens token.",
-                    "public_bot_tip": "Bot er offentlig. Alle kan invitere den.",
-                    "private_bot_tip": "Bot er privat. Kun du kan invitere den.",
-                    "public_bot_desc": "Om andre brugere skal invitere denne bot.",
+                    "public_bot_tip": "Denne bot er offentlig. Alle kan invitere den.",
+                    "private_bot_tip": "Denne bot er privat. Kun du kan invitere den.",
+                    "public_bot_desc": "Hvis den er aktiveret, kan andre brugere tilføje denne bot til servere og gruppebeskeder.",
                     "interactions_url": "Interaktions-URL",
                     "token": "Polet",
                     "title": "Mine bots",
@@ -603,6 +606,50 @@
                     "delete_plugin": "Slet",
                     "no_plugins": "Ingen tilføjelser er i øjeblikket installeret.",
                     "title": "Tilføjelser"
+                },
+                "keybinds": {
+                    "edit_keybind": "Rediger genvejstast",
+                    "search": "Søg genvejstaster…",
+                    "description": "Vis og vælg genvejstaster",
+                    "remove_keybind": "Fjern genvejstast",
+                    "reset_keybind": "Nulstil genvejstast tilbage til {{keybind}}",
+                    "category": {
+                        "navigation": "Navigation",
+                        "advanced": "Avanceret"
+                    },
+                    "action": {
+                        "navigate_channel_up": {
+                            "description": "Naviger til forrige kanal.",
+                            "title": "Naviger til forrige kanal"
+                        },
+                        "navigate_channel_down": {
+                            "title": "Naviger til næste kanal",
+                            "description": "Naviger til næste kanal."
+                        },
+                        "navigate_server_up": {
+                            "title": "Naviger til forrige server",
+                            "description": "Naviger til forrige server."
+                        },
+                        "navigate_server_down": {
+                            "title": "Naviger til næste server",
+                            "description": "Naviger til næste server."
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "Rediger forrige besked"
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Marker kanal som læst",
+                            "description": "Markerer den nuværende kanal som læst."
+                        }
+                    },
+                    "title": "Genvejstaster",
+                    "add_keybind": "Tilføj ny genvejstast"
+                },
+                "accessibility": {
+                    "title": "Tilgængelighed",
+                    "descriptions": {
+                        "reduced_motion": "Hvis den er aktiveret, vil animationer og andre bevægelser enten ikke blive afspillet eller være mindre intense."
+                    }
                 }
             },
             "title": "Indstillinger",
@@ -673,12 +720,12 @@
                     "b": "Gå over til dine profilindstillinger."
                 },
                 "sessions": {
-                    "b": "sikre din konto ved at ændre din adgangskode og bruge 2FA.",
+                    "b": "Gør din konto mere sikker ved at ændre din adgangskode og bruge 2FA.",
                     "a": "Hvis du ser en ukendt session på listen,"
                 },
                 "languages": {
-                    "a": "Mangler du et sprog du ønsker?",
-                    "b": "Hjælp med at bidrage med flere oversættelser."
+                    "a": "Mangler vi et sprog du ønsker?",
+                    "b": "Hjælp os ved at bidrage med flere oversættelser."
                 }
             },
             "channel_pages": {
@@ -810,7 +857,7 @@
     },
     "error": {
         "OperationFailed": "Handlingen mislykkedes.",
-        "DeniedNotification": "Du nægtede meddelelsesadgang, tjek sideindstillingerne.",
+        "DeniedNotification": "Du nægtede meddelelsesadgang. Tjek sideindstillingerne.",
         "UnsupportedBrowser": "Browser mangler understøttelse af denne funktion.",
         "NetworkError": "Netværksfejl.",
         "Unauthorized": "Uberettiget.",
@@ -822,7 +869,7 @@
         "EmailFailed": "E-mail kunne ikke sendes.",
         "AlreadyOnboarded": "Allerede færdig med onboarding.",
         "AlreadyFriends": "Allerede venner med denne bruger.",
-        "AudioPermissionBlock": "Ingen adgang til din mikrofon, tjek venligst din browsers konfiguration.",
+        "AudioPermissionBlock": "Ingen adgang til din mikrofon. Tjek venligst din browsers konfiguration.",
         "UnverifiedAccount": "Ubekræftet konto.",
         "UsernameTaken": "Brugernavnet er taget.",
         "NoEffect": "Denne anmodning havde ingen virkning.",
@@ -992,5 +1039,33 @@
     },
     "actions": {
         "submit": "Indsend"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "PrintScreen": {
+            "full": "Print Screen"
+        }
     }
 }
