@@ -4,7 +4,7 @@
         "tos": "Tewms of sewvice",
         "privacy": "Pwivacy powicy",
         "image_by": "Image bwy",
-        "loading": "Lyoading…",
+        "loading": "Woading…",
         "on": "On",
         "off": "Off",
         "disabled": "Disabwed",
@@ -42,10 +42,10 @@
                 "signed_out": "Youw wewe signed ouwt! OwO",
                 "onboarding": {
                     "welcome": "Wewcome Mastew! OwO",
-                    "pick": "What do u want me to caww u, mastew? UwU"
+                    "pick": "Pwick a uwsername that you want pweople to bwe abwle to fwind you by. Twis can bwe chwanged wayter in your uwser swettings."
                 },
                 "actions": {
-                    "ok": "Ok",
+                    "ok": "OK",
                     "close": "Cwose",
                     "reload": "Rewoad app",
                     "continue": "Continuwe",
@@ -112,7 +112,7 @@
                 },
                 "out_of_date": {
                     "attempting": "Twying tow update…",
-                    "version": "Youw cwient is at {{client}}, buwt the sewvew wequires {{server}}.",
+                    "version": "Youw cwient is at {{client}}, whewas the sewvew wequires {{server}}.",
                     "ignore": "Ignowe update",
                     "title": "Youw cwient is out of date, mastew!",
                     "description": "It must be updated in owdew to wowk with wecent changes."
@@ -126,10 +126,10 @@
                 "mfa": {
                     "recovery_codes": "Youw wecovery cowodes",
                     "save_codes": "Pwease save these to a safe location.",
-                    "confirm": "Pwease confiwm using sewected methowd.",
+                    "confirm": "Pwease confiwm twis actwion using the sewected methowd.",
                     "select_method": "Pwease select a methowd to auwthenticate youw wequest.",
                     "enable_totp": "Enable auwthenticatow app",
-                    "prompt_totp": "Pwease scan or use the token bewow in youw authentication app.",
+                    "prompt_totp": "Pwease scan or use the tokewn bewow in youw auwthentyication app.",
                     "enter_code": "Entew Cowode"
                 },
                 "report": {
@@ -155,6 +155,10 @@
                         "BanEvasion": "This usew is evading a ban",
                         "Underage": "This usew isn't owd enough to have an account"
                     }
+                },
+                "edit_keybind": {
+                    "title": "Edwit kewbind for {{action}}",
+                    "placeholder": "Pwess kews to recowd"
                 }
             },
             "requires_online": "Youw need to be onwine to view this.",
@@ -203,7 +207,7 @@
                 "accept": "Acceptw Invwite",
                 "user_count": "{{member_count}} kittens",
                 "invalid": "Invawid Invite!",
-                "invalid_desc": "The invite may nyot exist ow you don't have pewmission to join."
+                "invalid_desc": "The invite mway nyot exist, ow you don't have pwermission to join."
             },
             "server-badges": {
                 "official": "Officiaw sewvew",
@@ -671,6 +675,46 @@
                         "navigate_server_up": {
                             "title": "Nawigate to the pwewious sewver",
                             "description": "Nawigate to the pwewious sewver."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "description": "This wiwl enabwle / disabwle all expweriments at once.",
+                            "title": "Toggwle expweriment safe mode"
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "Edwit pwevious message",
+                            "description": "Edwit the pweviously swent message in the cuwwentwy woaded messaging view."
+                        },
+                        "auto_complete_up": {
+                            "title": "Pwevious Autocompwete Sewection",
+                            "description": "Move the autocompwete sewection to the pwevious one."
+                        },
+                        "auto_complete_down": {
+                            "title": "Next Autocompwete Sewection",
+                            "description": "Move the autocompwete sewection to the next one."
+                        },
+                        "auto_complete_select": {
+                            "title": "Confwim Autocomplwete Sewection",
+                            "description": "Comfwim the cuwwent autocompwetion sewection."
+                        },
+                        "input_submit": {
+                            "title": "Submwit Input",
+                            "description": "An adwanced kewbind that is typicwally used to submwit the cuwwent input.\nThis mway incwude submwitting a message, submwitting an edwit to a message, submwitting a seawch, etc.."
+                        },
+                        "input_cancel": {
+                            "title": "Cancwel Input",
+                            "description": "An adwanced kewbind that is typicwally used to cancwel the cuwwent input.\nThis may incwude cancewwing a message edwit, wemoving a qwueued image, or simiwar scwenarios."
+                        },
+                        "input_force_submit": {
+                            "title": "Fowce Submwit Input",
+                            "description": "An adwanced kewbind that is typicwally used to fowcefwully submwit the cuwwent input, ignowing some chwecks or other kewbinds.\nThis mway incwude submwitting a message instwead of confiwming the autocomplwete sewection."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Scwoll to bwottom of messages",
+                            "description": "Scwolls to the bwottom of the messaging view."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Mwark channewl as rwead",
+                            "description": "Mwarks the cuwwent channewl as rwead."
                         }
                     },
                     "description": "View and set kewbinds",
@@ -703,16 +747,16 @@
             },
             "tips": {
                 "sessions": {
-                    "b": "syecuwe uw accwount by chyanging uw passwowd and usying 2FA.",
+                    "b": "syecuwe uw accwount by chyanging uw passwowd and swetting uwp 2FA.",
                     "a": "Else if you see an unkwown syession on teh lyist,"
                 },
                 "languages": {
-                    "b": "Hyelp cyontribyute moar tyanslations.",
-                    "a": "Myissing a lyanguage u wyant?"
+                    "b": "Hyelp us owt bwy cyontribyuting moar tyanslations.",
+                    "a": "Awe we myissing a lyanguage u wyant?"
                 },
                 "account": {
                     "b": "Hyead ovew to uw pwofiwe syettings.",
-                    "a": "Lyooking two cyustomwise uw pwublic pwofiwe?"
+                    "a": "Want two cyustomwise uw pwublic pwofiwe?"
                 }
             },
             "actions": {
@@ -807,7 +851,7 @@
         "email": "Emaiw",
         "password": "Passwowd",
         "enter": {
-            "email": "Pweasw Entew uw emaiw.",
+            "email": "Pwease Entew uw emaiwl.",
             "password": "Entew uw passwowd.",
             "username": "Entew uw uwsewname.",
             "current_password": "Ewnter uw cuwwent passwowd.",
@@ -915,13 +959,13 @@
         "EmailFailed": "Email fwailed to syend.",
         "RenderFail": "Tyemplate rwendering fwailed.",
         "MissingPermission": "Myissing pwermission.",
-        "DeniedNotification": "Yuw denyied nyotyification access, check pwage syettings.",
+        "DeniedNotification": "Yuw denyied nyotyification access. Checwk pwage syettings.",
         "UnsupportedBrowser": "Byowser is myissing suppowt fow this featuwe.",
         "Unauthorized": "Unyauthowized.",
         "NetworkError": "Network config issue.",
         "CompromisedPassword": "Tyis passwowowd is cyompwomised.",
         "ReachedMaximumBots": "Uw'we rewsed the maxwimum amount ow bowts :c",
-        "AudioPermissionBlock": "Nyon waccess to wour meewcrophowne, please >< chewck wour brOwOser's configwration.",
+        "AudioPermissionBlock": "Nyon waccess to yowr meewcrophowne. Pwease chweck yowr brOwOser's confwiguwration.",
         "DiscriminatorChangeRatelimited": "Too myany tag chyangews."
     },
     "permissions": {
@@ -990,7 +1034,7 @@
             "d": "Awwows membews to change theiw name and avataw pew-message."
         },
         "ManageRole": {
-            "d": "Awwows membews to cweate, edit and dewete wowes with a wowew wank than theiws. Awso awwows them to modify wowe pewmissions on channyews.",
+            "d": "Awwows membews to cweate, edwit and dewete wowles with a wower wank than theiws, and mwodify wowle pwermissions on channyews.",
             "t": "Manyage wowes"
         },
         "ViewChannel": {
@@ -1062,10 +1106,38 @@
     },
     "keys": {
         "PrintScreen": {
-            "full": "Pwint Scween"
+            "full": "Pwint Scween",
+            "short": "PwtSc"
         },
         "Backspace": {
             "short": "Backspwace"
+        },
+        "Control": {
+            "short": "Ctrwl"
+        },
+        "Escape": {
+            "short": "Eswc"
+        },
+        "Insert": {
+            "short": "Insw"
+        },
+        "Delete": {
+            "short": "Dewl"
+        },
+        "PageUp": {
+            "full": "Pwage Up",
+            "short": "PwgUp"
+        },
+        "PageDown": {
+            "full": "Pwage Down",
+            "short": "PwgDown"
+        },
+        "ScrollLock": {
+            "full": "Scwoll Lowk",
+            "short": "ScwLK"
+        },
+        "CapsLock": {
+            "full": "Cwap Lowk"
         }
     }
 }
