@@ -599,7 +599,7 @@
                     "public_bot_tip": "Thwis bot is pubwic. Anyonye can invite it.",
                     "private_bot_tip": "Thwis bot is pwivate. Onwy you can invite it.",
                     "public_bot": "Pubwic Bot",
-                    "public_bot_desc": "Whethew to awwow othew usews to invite this bot.",
+                    "public_bot_desc": "If this is enabwed, other users can add this bot to sewvers and gwoup messages.",
                     "interactions_url": "Intewactions URL",
                     "reserved": "Nyote: This fiewd is wesewved fow the futuwe.",
                     "unique_id": "Theews is a uniqwe idewntifier for wour senpai. Theews is not twe senpai token >///<.",
@@ -643,6 +643,42 @@
                     "descriptions": {
                         "reduced_motion": "If this is enyabwed, anyimations and motion effects won't pway wiww ow be wess intense."
                     }
+                },
+                "keybinds": {
+                    "title": "Kewbinds",
+                    "category": {
+                        "messaging": "Messagwing",
+                        "navigation": "Nawigation",
+                        "advanced": "Adwanced"
+                    },
+                    "action": {
+                        "navigate_channel_down": {
+                            "description": "Nawigate to the next channew.",
+                            "title": "Nawigate to the next channew"
+                        },
+                        "navigate_previous_context": {
+                            "title": "Nawigate to the pwewious context",
+                            "description": "An adwanced kewbind that is typicwlly used to cwose the setting page, a modal, or a popup and retuwn back to the pwewious context."
+                        },
+                        "navigate_channel_up": {
+                            "title": "Nawigate to the pwewious channew",
+                            "description": "Nawigate to the pwewious channew."
+                        },
+                        "navigate_server_down": {
+                            "title": "Nawigate to the next sewver",
+                            "description": "Nawigate to the next sewver."
+                        },
+                        "navigate_server_up": {
+                            "title": "Nawigate to the pwewious sewver",
+                            "description": "Nawigate to the pwewious sewver."
+                        }
+                    },
+                    "description": "View and set kewbinds",
+                    "search": "Seawch kewbinds…",
+                    "add_keybind": "Add new kewbind",
+                    "edit_keybind": "Edwit kewbind",
+                    "remove_keybind": "Remowe kewbind",
+                    "reset_keybind": "Reset kewbind to {{keybind}}"
                 }
             },
             "categories": {
@@ -1023,5 +1059,13 @@
     },
     "actions": {
         "submit": "Suwbmit"
+    },
+    "keys": {
+        "PrintScreen": {
+            "full": "Pwint Scween"
+        },
+        "Backspace": {
+            "short": "Backspwace"
+        }
     }
 }
