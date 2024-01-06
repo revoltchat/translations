@@ -43,10 +43,12 @@
         "create": "नयाँ खाता सिर्जना गर्नुहोस्",
         "missing_verification": "के इमेल प्राप्त गर्नुभएन?",
         "resend": "पुष्टिकरण पुनः पठाउनुहोस्",
-        "email_delay": "ईमेल प्राप्त हुन १० मिनेट सम्म लाग्न सक्छ।",
-        "check_spam": "यदि ईमेल भेटाउनुभएन भने स्पैम (spam) फोल्डरमा जाँच गर्नुहोस्",
+        "email_delay": "हामीले तपाईंलाई प्रमाणीकरण ईमेल पठाएका छौं। ईमेल प्राप्त हुन १० मिनेट सम्म लाग्न सक्छ।",
+        "check_spam": "यदि ईमेल भेटाउनुभएन भने तपाईंको स्पैम (spam) फोल्डरमा जाँच गर्नुहोस्",
         "successful_registration": "सफलतापूर्वक दर्ता गरियो!",
-        "verifying_account": "तपाईंको खाता प्रमाणित गरिदै छ…"
+        "verifying_account": "तपाईंको खाता प्रमाणित गरिदै छ…",
+        "open_mail_provider": "खोल्नुहोस् {{provider}}",
+        "unofficial_instance": "तेस्रो पक्षको उदाहरण।"
     },
     "general": {
         "learn_more": "थप जान्नुहोस",
@@ -108,11 +110,16 @@
             },
             "channel": {
                 "message_where": "सन्देश{{channel_name}}",
-                "message_who": "सन्देश{{person}}",
+                "message_who": "सन्देश @{{person}}",
                 "message_saved": "नोटमा सुरक्षित गर्नुहोस्",
                 "uploading_file": "अपलोड गरिदै छ…",
                 "failed_upload": "अपलोड गर्न सकिएन!",
-                "attached_file": "फाइल {{filename}}"
+                "attached_file": "संलग्न {{filename}}",
+                "reactions": {
+                    "others_reacted": "{{userlist}} र {{count}} अन्यहरूले प्रतिक्रिया दिएका छन्।",
+                    "unknown_reacted": "\"{{count}} व्यक्तिहरूले प्रतिक्रिया दिएका छन्\"",
+                    "single_reacted": "१ व्यक्ति ले प्रतिक्रिया दिएका छन्"
+                }
             }
         }
     }
