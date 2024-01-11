@@ -161,7 +161,7 @@
         "missing_verification": "Non hai ricevuto l'email?",
         "resend": "Rinvia la verifica",
         "cancel": "Cancella la richiesta",
-        "email_delay": "Si prega di attendere almeno 10 minuti per l'arrivo della mail.",
+        "email_delay": "Ti abbiamo inviato un'email di verifica. Per favore, attendi almeno 10 minuti per l'arrivo della mail.",
         "open_mail_provider": "Apri {{provider}}",
         "successful_registration": "Registrazione avvenuta con successo!",
         "set_password": "Imposta una nuova password",
@@ -219,7 +219,7 @@
                 "members": "Membri"
             },
             "channel": {
-                "message_who": "Invia un messaggio a {{person}}",
+                "message_who": "Invia un messaggio a @{{person}}",
                 "voice": {
                     "leave": "Esci",
                     "unmute": "Smuta",
@@ -301,7 +301,7 @@
                 },
                 "reply": {
                     "replying": "Rispondendo a",
-                    "toggle": "Attiva/disattiva menzione dell'autore"
+                    "toggle": "Attiva/disattiva la menzione dell'autore"
                 },
                 "bridge": "ponte",
                 "user_timed_out": "L'utente è mutato per {{time}}.",
@@ -385,7 +385,7 @@
                         "title": "Gestione dell'account",
                         "disable": "Disabilitare account",
                         "delete": "Eliminare l'account",
-                        "description": "Disattiva o elimina il tuo account in qualsiasi momento. Questa azione ti disconnetterà ed eliminerà completamente il tuo account, inclusa la cronologia della chat e gli amici.",
+                        "description": "Disattiva o elimina il tuo account in qualsiasi momento. Queste azioni ti disconnetteranno dalle tue sessioni attive.",
                         "disable_description": "Non sarai in grado di accedere al tuo account a meno che non contatti il supporto - Tuttavia, i tuoi dati non verranno cancellati.",
                         "delete_description": "Il tuo account e tuti i tuoi dati (inclusi i tuoi messaggi e la tua lista degli amici) verrano messi in coda per essere eliminati. Una mail di conferma verra spedita - puoi canellare questa operazione nel giro di 7 giorni contattando il supporto."
                     }
@@ -476,7 +476,7 @@
                     "sounds": "Suoni",
                     "descriptions": {
                         "enable_desktop": "Se abilitato, questo ti invierà le notifiche mentre che l'app è aperta.",
-                        "enable_push": "Abilita per ricevere le notifiche quando sei offline."
+                        "enable_push": "Se abilita, riceverai le notifiche quando sarai offline."
                     },
                     "sound": {
                         "message": "Messaggio ricevuto",
@@ -496,7 +496,7 @@
                     "categories": "Sincronizza categorie",
                     "descriptions": {
                         "locale": "Questo sincronizzerà la lingua attualmente scelta.",
-                        "appearance": "Questo sincronizzerà le opzioni come i pacchetti di emoji e la densità dei messaggi.",
+                        "appearance": "Questo sincronizzerà le opzioni come i temi, il pacchetto di emoji che hai scelto e la grandezza dei messaggi.",
                         "theme": "Questo sincronizzerà il tema scelto, i colori e qualsiasi CSS personalizzato."
                     },
                     "options": "Sincronizza le impostazioni"
@@ -532,8 +532,8 @@
                     "copy_invite": "Copia link di invito",
                     "add": "Invita il bot",
                     "token": "Token",
-                    "public_bot_tip": "Il bot è pubblico. Chiunque può invitarlo.",
-                    "private_bot_tip": "Il bot è privato. Solo tu puoi invitarlo.",
+                    "public_bot_tip": "Questo bot è pubblico. Chiunque può invitarlo.",
+                    "private_bot_tip": "Questo bot è privato. Solo tu puoi invitarlo.",
                     "public_bot": "Bot pubblico",
                     "public_bot_desc": "Se consentire ad altri utenti di invitare questo bot.",
                     "interactions_url": "Indirizzo interazioni",
@@ -580,7 +580,84 @@
                     "descriptions": {
                         "reduced_motion": "Se questo è abilitato, le animazioni e gli effetti movimentati non verrano riprodotti o saranno meno intensi."
                     },
-                    "title": "Accessibilità"
+                    "title": "Accessibilità",
+                    "reduced_motion": "Animazioni Ridotte"
+                },
+                "keybinds": {
+                    "action": {
+                        "navigate_channel_down": {
+                            "description": "Naviga al prossimo canale.",
+                            "title": "Naviga al prossimo canale"
+                        },
+                        "navigate_channel_up": {
+                            "title": "Naviga al canale precedente",
+                            "description": "Naviga al canale precedente."
+                        },
+                        "navigate_server_up": {
+                            "title": "Naviga al server precedente",
+                            "description": "Naviga al server precedente."
+                        },
+                        "navigate_server_down": {
+                            "title": "Naviga al prossimo server",
+                            "description": "Naviga al prossimo server."
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "Modifica il messaggio precedente",
+                            "description": "Modifica il messaggio precedentemente inviato nella vista dei messaggi correntemente caricata."
+                        },
+                        "auto_complete_up": {
+                            "title": "Selezione dell'Autocompletamento Precedente",
+                            "description": "Muovi la selezione dell'autocompletamento alla precedente."
+                        },
+                        "auto_complete_down": {
+                            "title": "Prossima Selezione dell'Autocompletamento",
+                            "description": "Muovi la selezione dell'autocompletamento alla prossima."
+                        },
+                        "auto_complete_select": {
+                            "title": "Conferma Selezione dell'Autocompletamento",
+                            "description": "Conferma la selezione dell'autocompletamento corrente."
+                        },
+                        "input_submit": {
+                            "title": "Invia Input",
+                            "description": "Una scorciatoia avanzata che è tipicamente usata per inviare l'input corrente.\nQuesto potrebbe includere l'invio di un messaggio, l'invio di una modifica di un messaggio, l'invio di una ricerca, ecc.."
+                        },
+                        "input_cancel": {
+                            "title": "Annulla Input",
+                            "description": "Una scorciatoia avanzata che è tipicamente usata per cancellare l'input corrente.\nQuesto potrebbe includere la cancellazione di una modifica di un messaggio, annullare il caricamento di un'immagine o scenari simili."
+                        },
+                        "input_force_submit": {
+                            "title": "Forza l'invio dell'input",
+                            "description": "Una scorciatoia avanzata che è tipicamente utilizzata per inviare forzatamente l'input corrente, ignorando alcuni check o alcune scorciatoie.\nQuesto potrebbe includere l'invio di un messaggio invece che confermare la sezione dell'autocompletamento."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Scorri fino alla fine dei messaggi",
+                            "description": "Scorri fino alla fine della vista dei messaggi."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Segna canale come letto",
+                            "description": "Segna il canale corrente come letto."
+                        },
+                        "navigate_previous_context": {
+                            "title": "Naviga al contesto precedente",
+                            "description": "Una scorciatoia avanzata che viene tipicamente usata per chiudere la pagina delle impostazioni, una relativa, o un popup per tornare alla schermata precedente."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "Attiva/disattiva la modalità esperimenti sicura",
+                            "description": "Questo abiliterà/disabiliterà tutti gli esperimenti in una volta sola."
+                        }
+                    },
+                    "title": "Scorciatoie da tastiera",
+                    "description": "Visualizza e imposta le scorciatoie da tastiera",
+                    "search": "Cerca scorciatoie…",
+                    "add_keybind": "Aggiungi una nuova scorciatoia",
+                    "edit_keybind": "Modifica scorciatoia",
+                    "remove_keybind": "Rimuovi scorciatoia",
+                    "reset_keybind": "Reimposta scorciatoia a {{keybind}}",
+                    "category": {
+                        "navigation": "Navigazione",
+                        "messaging": "Messaggistica",
+                        "advanced": "Avanzate"
+                    }
                 }
             },
             "channel_pages": {
@@ -854,6 +931,10 @@
                         "SpamAbuse": "L'utente invia spam o abusa in altro modo della piattaforma"
                     },
                     "block_user": "Vorresti bloccare questo utente?"
+                },
+                "edit_keybind": {
+                    "title": "Modifica scorciatoia da tastiera per {{action}}",
+                    "placeholder": "Premi dei tasti per registrare la nuova scorciatoia"
                 }
             },
             "popovers": {
@@ -971,7 +1052,8 @@
         "FailedToReceive": "Il server non è riuscito a ricevere il tuo file.",
         "DeniedNotification": "Hai negato l'accesso alle notifiche, controlla le impostazioni della pagina.",
         "ReachedMaximumBots": "Hai raggiunto il numero massimo di bot.",
-        "AudioPermissionBlock": "Non possiamo accedere al tuo microfono, per favore controlla le impostazioni del tuo browser."
+        "AudioPermissionBlock": "Non possiamo accedere al tuo microfono, per favore controlla le impostazioni del tuo browser.",
+        "DiscriminatorChangeRatelimited": "Sono state fatte troppe modifiche al tag."
     },
     "quantities": {
         "members": {
@@ -1004,5 +1086,41 @@
     },
     "actions": {
         "submit": "Invia"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "PrintScreen": {
+            "full": "Print",
+            "short": "Prt"
+        },
+        "ScrollLock": {
+            "full": "Scroll Lock",
+            "short": "ScrLK"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
+        }
     }
 }
