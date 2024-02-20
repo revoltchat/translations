@@ -32,7 +32,7 @@
                 },
                 "onboarding": {
                     "welcome": "Bun venit la",
-                    "pick": "Alege un nume de utilizator cu care dorești ca oamenii să te poată găsi; acesta poate fi modificat ulterior în setări."
+                    "pick": "Alege un nume de utilizator cu care dorești ca oamenii să te poată găsi. Acesta poate fi modificat ulterior în setări."
                 },
                 "signed_out": "Ai fost deconectat!",
                 "error": "A apărut o eroare!",
@@ -45,7 +45,7 @@
                     "update": "Actualizare",
                     "close": "Închidere",
                     "save": "Salvare",
-                    "ok": "Ok",
+                    "ok": "OK",
                     "kick": "Dă afară",
                     "ban": "Interzice accesul",
                     "delete": "Șterge",
@@ -82,7 +82,7 @@
                 "out_of_date": {
                     "title": "Clientul tău nu este actualizat!",
                     "ignore": "Ignoră actualizarea",
-                    "version": "Clientul tău se află la versiunea {{client}}, în timp ce serverul are nevoie de {{server}}.",
+                    "version": "Clientul tău se află la versiunea {{client}}, dar serverul are nevoie de {{server}}.",
                     "attempting": "Se încearcă să se actualizeze…",
                     "description": "Aceasta trebuie să fie actualizată pentru a funcționa cu modificările recente."
                 },
@@ -94,7 +94,7 @@
                     "recovery_codes": "Codurile tale de recuperare",
                     "save_codes": "Te rugăm să le salvezi într-o locație sigură.",
                     "select_method": "Te rugăm să selectezi o metodă pentru a autentifica cererea.",
-                    "confirm": "Te rugăm să confirmi folosind metoda selectată."
+                    "confirm": "Te rugăm să confirmi această acțiune folosind metoda selectată."
                 },
                 "changelogs": {
                     "title": "Schimbări",
@@ -124,6 +124,10 @@
                         "Impersonation": "Acest utilizator se dă drept altcineva",
                         "BanEvasion": "Acest utilizator se sustrage unei interdicții (ban)"
                     }
+                },
+                "edit_keybind": {
+                    "title": "Editează scurtătura pentru {{action}}",
+                    "placeholder": "Apasă taste pentru a înregistra"
                 }
             },
             "status": {
@@ -217,8 +221,8 @@
                     "descriptions": {
                         "enable_outgoing_sound": "Activează redarea unui sunet atunci când trimiți un mesaj.",
                         "enable_sound": "Activează pentru sunetele mesajelor primite.",
-                        "enable_push": "Activează pentru a primi notificări atunci când ești offline.",
-                        "enable_desktop": "Acest lucru îți va oferi notificări în timp ce aplicația este deschisă."
+                        "enable_push": "Dacă aceasta este activată, vei primi notificări atunci când ești offline.",
+                        "enable_desktop": "Dacă aceasta este activată, vei primi notificări în timp ce aplicația este deschisă."
                     },
                     "enable_outgoing_sound": "Redă Sunetul de Trimitere.",
                     "enable_sound": "Redare Sunet la Mesaj.",
@@ -325,9 +329,9 @@
                     },
                     "appearance_options": {
                         "show_send": "Afișează întotdeauna butonul Trimite mesaj",
-                        "show_send_desc": "Dacă este dezactivat, butonul Trimite mesaj va apărea numai pe telefon.",
+                        "show_send_desc": "Dacă aceasta este dezactivată, butonul Trimite mesaj va apărea numai pe telefon.",
                         "title": "Opțiuni de aspect",
-                        "show_account_age_desc": "Dacă este dezactivată, vârsta contului va fi afișată numai pentru utilizatorii noi.",
+                        "show_account_age_desc": "Dacă aceasta este dezactivată, vârsta contului va fi afișată numai pentru utilizatorii noi.",
                         "show_account_age": "Afișează întotdeauna vârsta contului în dreptul mesajelor de alăturare"
                     },
                     "colours": {
@@ -357,7 +361,7 @@
                     "title": "Sincronizare",
                     "categories": "Sincronizează Categoriile",
                     "descriptions": {
-                        "appearance": "Aceasta va sincroniza opțiunile precum pachetele de emoji și densitatea mesajelor.",
+                        "appearance": "Aceasta va sincroniza opțiunile precum pachetul de emoji ales de tine și densitatea mesajelor.",
                         "theme": "Aceasta va sincroniza tema aleasă, culorile și orice CSS personalizat.",
                         "locale": "Aceasta va sincroniza limba aleasă în prezent."
                     },
@@ -380,12 +384,12 @@
                 "bots": {
                     "title": "Boții mei",
                     "private_bot_tip": "Botul este privat. Numai tu îl poți invita.",
-                    "public_bot_desc": "Dacă se permite altor utilizatori să invite acest bot.",
+                    "public_bot_desc": "Dacă aceasta este activată, alți utilizatori pot invita acest bot la alte servere sau grupuri.",
                     "reserved": "Notă: Acest câmp este rezervat pentru viitor.",
                     "create_bot": "Creează un Bot",
                     "copy_invite": "Copiază link-ul de invitație",
                     "add": "Adaugă un Bot",
-                    "public_bot_tip": "Botul este public. Orcine îl poate invita.",
+                    "public_bot_tip": "Botul este public. Oricine îl poate invita.",
                     "public_bot": "Bot public",
                     "interactions_url": "URL de interacțiuni",
                     "token": "Token",
@@ -398,7 +402,7 @@
                     "output_device": "Difuzor / Căști",
                     "device_label_NA": "N/A",
                     "button_retry": "încearcă din nou",
-                    "tip_retry": "Nu ai acordat permisiunea de a accesa microfonul, te rugăm să {{retryBtn}}.",
+                    "tip_retry": "Nu ai acordat permisiunea ca Revolt să acceseze microfonul. Te rugăm să {{retryBtn}}.",
                     "tip_grant_permission": "Trebuie să acorzi permisiunea de a accesa setările audio.",
                     "button_grant": "Acordă permisiunea"
                 },
@@ -430,6 +434,82 @@
                         "reduced_motion": "Dacă această opțiune este activată, animațiile și efectele de mișcare nu vor fi redate sau vor fi avea intensitate redusă."
                     },
                     "reduced_motion": "Mișcare redusă"
+                },
+                "keybinds": {
+                    "search": "Caută scurtături…",
+                    "add_keybind": "Adaugă scurtătură nouă",
+                    "edit_keybind": "Editează scurtătura",
+                    "remove_keybind": "Elimină scurtătura",
+                    "reset_keybind": "Resetează scurtătura la {{keybind}}",
+                    "category": {
+                        "navigation": "Navigare",
+                        "advanced": "Avansat",
+                        "messaging": "Mesaje"
+                    },
+                    "action": {
+                        "navigate_channel_up": {
+                            "description": "Navighează la canalul anterior.",
+                            "title": "Navighează la canalul anterior"
+                        },
+                        "navigate_channel_down": {
+                            "title": "Navighează la canalul următor",
+                            "description": "Navighează la canalul următor."
+                        },
+                        "navigate_server_up": {
+                            "title": "Navighează la serverul anterior",
+                            "description": "Navighează la serverul anterior."
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "Editează mesajul anterior",
+                            "description": "Editează mesajul anterior în vizualizarea de mesaje încărcată la momentul actual."
+                        },
+                        "auto_complete_up": {
+                            "title": "Selecție anterioară autocompletare",
+                            "description": "Mută selecția de autocompletare la cea anterioară."
+                        },
+                        "auto_complete_down": {
+                            "title": "Selecția următoare autocompletare",
+                            "description": "Mută selecția de autocompletare la cea următoare."
+                        },
+                        "auto_complete_select": {
+                            "title": "Confirmă selecția de autocompletare",
+                            "description": "Confirmă selecția de autocompletare actuală."
+                        },
+                        "input_submit": {
+                            "title": "Trimite intrarea",
+                            "description": "O scurtătură avansată care este utilizată de obicei pentru a trimite intrarea curentă.\nAceasta poate include trimiterea unui mesaj, trimiterea unei modificări la un mesaj, trimiterea unei căutări etc."
+                        },
+                        "input_cancel": {
+                            "title": "Anulează intrarea",
+                            "description": "O scurtătură avansată care este utilizată de obicei pentru a anula intrarea actuală.\nAceasta poate include anularea editării unui mesaj, eliminarea unei imagini din coada de așteptare sau alte scenarii similare."
+                        },
+                        "input_force_submit": {
+                            "title": "Forțează trimiterea intrării",
+                            "description": "O scurtătură avansată care este utilizată de obicei pentru a trimite forțat datele de intrare curente, ignorând unele verificări sau alte scurtături.\nAceasta poate include transmiterea unui mesaj în loc de confirmarea selecției de completare automată."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Derulează la sfârșitul mesajelor",
+                            "description": "Derulează la sfârșitul vizualizării de mesaje."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Marchează canalul ca citit",
+                            "description": "Marchează canalul actual ca și citit."
+                        },
+                        "navigate_previous_context": {
+                            "title": "Navighează la contextul anterior",
+                            "description": "O scurtătură avansată care este utilizată de obicei pentru a închide o pagină de setare, un modal sau o fereastră pop-up și pentru a reveni la contextul anterior."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "Comută modul de siguranță al experimentelor",
+                            "description": "Aceasta va activa / dezactiva toate experimentele deodată."
+                        },
+                        "navigate_server_down": {
+                            "title": "Navighează la serverul următor",
+                            "description": "Navighează la serverul următor."
+                        }
+                    },
+                    "title": "Scurtături taste",
+                    "description": "Vezi și editează scurtăturile tastelor"
                 }
             },
             "categories": {
@@ -440,12 +520,12 @@
             "title": "Setări",
             "tips": {
                 "sessions": {
-                    "b": "protejează-ți contul prin schimbarea parolei și utilizarea 2FA.",
+                    "b": "protejează-ți contul prin schimbarea parolei și configurarea 2FA.",
                     "a": "Dacă vezi o sesiune necunoscută pe listă,"
                 },
                 "languages": {
-                    "b": "Ajută la adăugarea a mai multor traduceri.",
-                    "a": "Lipsește o limbă pe care o dorești?"
+                    "b": "Ajută-ne contribuind cu mai multe traduceri.",
+                    "a": "Ne lipsește o limbă pe care o dorești?"
                 },
                 "account": {
                     "b": "Mergi la setările profilului tău.",
@@ -543,12 +623,12 @@
                     "added_by": "{{user}} a fost adăugat(ă) de către {{other_user}}",
                     "user_left": "{{user}} a ieșit",
                     "user_joined": "{{user}} s-a alăturat",
-                    "channel_renamed": "{{user}} a schimbat numele canalului în {{name}}",
+                    "channel_renamed": "{{user}} a redenumit canalul în {{name}}",
                     "channel_description_changed": "{{user}} a schimbat descrierea canalului",
                     "channel_icon_changed": "{{user}} a schimbat pictograma canalului",
                     "user_kicked": "{{user}} a fost dat afară",
                     "user_banned": "I-a fost interzis accesul lui {{user}}",
-                    "channel_ownership_changed": "{{from}} a dat (lui) {{to}} proprietatea grupului",
+                    "channel_ownership_changed": "{{from}} i-a dat lui {{to}} proprietatea grupului",
                     "registered_at": "Înscris {{time}}"
                 },
                 "typing": {
@@ -586,7 +666,7 @@
                     "jump_beginning": "Salt la început",
                     "new_messages": "Mesaje noi de {{time_ago}}",
                     "load_file": "Încarcă fișier",
-                    "timed_out": "Ai fost pus pe pauză pentru {{time}}.",
+                    "timed_out": "Ai fost pus pe pauză timp de {{time}}.",
                     "not_loaded": "Mesaj neîncărcat, click pentru a sări"
                 },
                 "notifications": {
@@ -613,7 +693,7 @@
                 },
                 "errors": {
                     "nochannel": "Fără canal",
-                    "title": "Oops, nu e nimic aici!",
+                    "title": "Ups, nu e nimic aici!",
                     "nochannels": "Acest server nu are canale, sau nu ai acces la niciunul."
                 },
                 "reply": {
@@ -621,7 +701,7 @@
                     "toggle": "Comută menționarea autorului"
                 },
                 "bridge": "punte",
-                "user_timed_out": "Utilizatorul este pus pe pauză pentru {{time}}.",
+                "user_timed_out": "Utilizatorul este pus pe pauză timp de {{time}}.",
                 "team": "Comunicare oficială",
                 "bridged": "Mesajul a fost trimis de pe o altă platformă",
                 "new_to_revolt": "Nou venit la Revolt",
@@ -760,7 +840,7 @@
         },
         "successful_registration": "Înregistrat cu succes!",
         "open_mail_provider": "Deschide {{provider}}",
-        "check_spam": "Te rugăm verifică folderul spam dacă nu îl poți găsi",
+        "check_spam": "Te rugăm verifică folderul de spam dacă nu îl poți găsi",
         "check_mail": "Verifică-ți emailul!",
         "cancel": "Anulează autentificarea",
         "resend": "Retrimite confirmarea",
@@ -841,7 +921,7 @@
         }
     },
     "error": {
-        "DeniedNotification": "Ai refuzat accesul la notificări, verifică setările paginii.",
+        "DeniedNotification": "Ai refuzat accesul la notificări. Verifică setările paginii.",
         "UnsupportedBrowser": "Browserul nu oferă suport pentru această funcție.",
         "IoError": "Serverul a întâmpinat o eroare de I/O.",
         "ProbeError": "Nu s-au putut obține metadatele fișierului.",
@@ -882,7 +962,8 @@
         "NetworkError": "Eroare de rețea.",
         "CompromisedPassword": "Această parolă a fost compromisă.",
         "ReachedMaximumBots": "Ai atins numărul maxim de boți.",
-        "AudioPermissionBlock": "Fără acces la microfon, te rugăm să îți verifici setările browserului."
+        "AudioPermissionBlock": "Fără acces la microfon. Te rugăm să îți verifici setările browserului.",
+        "DiscriminatorChangeRatelimited": "Prea multe schimbări ale etichetei."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
@@ -953,7 +1034,7 @@
             "d": "Permite membrilor să își schimbe numele și avatarul pentru fiecare mesaj."
         },
         "ManageRole": {
-            "d": "Permite membrilor să creeze, să editeze și să șteargă roluri cu un rang mai mic decât al lor. De asemenea, le permite să modifice permisiunile rolurilor pe canale.",
+            "d": "Permite membrilor să creeze, să editeze și să șteargă roluri cu un rang mai mic decât al lor și să modifice permisiunile rolurilor pe canale.",
             "t": "Gestionează Roluri"
         },
         "ViewChannel": {
@@ -1019,5 +1100,41 @@
     },
     "actions": {
         "submit": "Trimitere"
+    },
+    "keys": {
+        "PrintScreen": {
+            "short": "PrtSc",
+            "full": "Print Screen"
+        },
+        "ScrollLock": {
+            "full": "Scroll Lock",
+            "short": "ScrLK"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
+        },
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        }
     }
 }
