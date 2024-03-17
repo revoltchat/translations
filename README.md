@@ -26,7 +26,7 @@ Please note that this table **only includes languages that are currently availab
 |🇪🇸|Català / ca|[@TallerThanShort](https://github.com/TallerThanShort)||
 |🇵🇭|Bisaya / ceb|||
 |krd|کوردی / ckb|[@fanticwastaken](https://github.com/fanticwastaken)|[@NoLogicAlan](https://github.com/NoLogicAlan)|
-|🇨🇿|Čeština / cs||[@Cikarin3](https://github.com/Cikarin3)|
+|🇨🇿|Čeština / cs|[@Fjuro](https://github.com/Fjuro)|[@Cikarin3](https://github.com/Cikarin3)|
 |🇩🇰|Dansk / da|||
 |🇩🇪|Deutsch / de|[@sussycatgirl](https://github.com/sussycatgirl)|[@nitrobw](https://github.com/nitrobw) [@arktn](https://github.com/arktn) [@infi](https://github.com/infi)|
 |🇬🇷|Ελληνικά / el|[@SudoJanast](https://github.com/SudoJanast)||
