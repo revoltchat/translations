@@ -20,7 +20,7 @@
             "password": "Zadejte své heslo.",
             "username": "Zadejte své uživatelské jméno.",
             "current_password": "Zadejte své současné heslo.",
-            "invite": "Zadejte Váš přístupový kód.",
+            "invite": "Zadejte váš pozvánkový kód.",
             "new_password": "Zadejte nové heslo."
         },
         "forgot": "Zapomněli jste heslo?",
@@ -44,7 +44,7 @@
         "current_password": "Současné heslo",
         "existing": "Už máte účet?",
         "check_mail": "Zkontrolujte svůj e-mail!",
-        "invite": "Přístupový kód",
+        "invite": "Kód pozvánky",
         "missing_verification": "Neobdrželi jste email?",
         "check_spam": "Pokud jej nemůžete najít, zkontrolujte prosím složku s nevyžádanou poštou",
         "email_delay": "Poslali jsme vám ověřovací e-mail. Jeho doručení může trvat až 10 minut.",
@@ -218,7 +218,7 @@
                     "several": "Od {{userlist}} a {{count}} dalších…"
                 },
                 "pending": "Čekající",
-                "nobody": "Tady ještě nikdo není!",
+                "nobody": "Zatím tu nikdo není!",
                 "sent": "Odchozi"
             },
             "modals": {
@@ -283,8 +283,8 @@
                     "confirm_ban_reason": "Důvod banu",
                     "unfriend_user": "Odebrat {{name}} z přátel?",
                     "block_user": "Block {{name}} ?",
-                    "confirm_ban": "Estás a punto de inhabilitar {{name}}",
-                    "unfriend_user_long": "Je možné, že s nimi nebudete moci znovu mluvit, dokud si je nepřidáte zpět.",
+                    "confirm_ban": "Chystáte se zabanovat uživatele {{name}}",
+                    "unfriend_user_long": "Nejspíše s ním nebudete moci komunikovat, dokud si jej znovu nepřidáte.",
                     "silent_leave": "Tiše odejít",
                     "members_not_notified": "Ostatní členové nebudou upozorněni"
                 },
@@ -391,7 +391,7 @@
                     "title": "Vytvořit nového bota"
                 },
                 "user_picker": {
-                    "select": "Vyber přátele k pozvání."
+                    "select": "Vyberte přátele k přidání."
                 }
             },
             "copy_username": "Kliknutím zkopírujete uživatelské jméno",
@@ -454,7 +454,7 @@
             "clear_status": "Vymazat status",
             "leave_group": "Opustit skupinu",
             "leave_server": "Opustit server",
-            "close_dm": "Zavřít přímé zprávy",
+            "close_dm": "Zavřít PZ",
             "edit_identity": "Upravit identitu",
             "create_category": "Vytvořit kategorii",
             "create_invite": "Vytvořit pozvánku",
@@ -907,7 +907,7 @@
     },
     "notifications": {
         "sent_request": "@{{person}} ti poslal(a) žádost o přátelství.",
-        "now_friends": "Nyní jste přátelé s @{{person}} !"
+        "now_friends": "S uživatelem @{{person}} jste nyní přátelé!"
     },
     "error": {
         "Unlabelled": "Něco se stalo.",
@@ -930,21 +930,21 @@
         "AlreadyFriends": "Už jste přáteli s tímto uživatelem.",
         "AlreadySentRequest": "Žádost již byla odeslána tomuto uživateli .",
         "Blocked": "Tento uživatel je již blokován .",
-        "Unavailable": "Nedostupný.",
+        "Unavailable": "Nedostupné.",
         "Unauthorized": "Neautorizovaný.",
         "FailedValidation": "Nepodařilo se ověřit pole .",
-        "MissingHeaders": "Chybějící hlavy.",
+        "MissingHeaders": "Chybějící hlavičky.",
         "InvalidSession": "Neplatná relace .",
         "EmailFailed": "Nepodařilo se odeslat e-mail.",
         "InvalidCredentials": "Email nebo heslo je špatné .",
         "InvalidToken": "Neplatný token",
         "BlockedOther": "Tento uživatel tě zablokoval .",
         "NoEffect": "Tento požadavek neměl žádný účinek.",
-        "InvalidEmail": "Neplatná Emailová adresa",
-        "MissingData": "K požadavku chybí data .",
-        "ProbeError": "Chyba při získávání metadat .",
+        "InvalidEmail": "Neplatná e-mailová adresa",
+        "MissingData": "Požadavku chybí data.",
+        "ProbeError": "Chyba při získávání metadat.",
         "ReachedMaximumBots": "Dosáhli jste maximálního množství botů.",
-        "UnsupportedBrowser": "Prohlížeči chybí podpora této funkce .",
+        "UnsupportedBrowser": "Prohlížeč nepodporuje tuto funkci.",
         "AudioPermissionBlock": "Nemáme přístup k mikrofonu. Zkontroluj prosím nastavení svého prohlížeče.",
         "RenderFail": "Šablony se nepodařila načíst.",
         "MissingInvite": "V požadavku chybí zvací kód.",
@@ -1020,7 +1020,7 @@
             "d": "Umožní členům pozvat další uživatele do kanálu."
         },
         "ManageRole": {
-            "t": "Manage roles",
+            "t": "Spravovat role",
             "d": "Umožní členům vytvářet, upravovat a mazat role s nižší hodnotou a upravovat jejich oprávnění v nastavení jednotlivých kanálů."
         },
         "ViewChannel": {
