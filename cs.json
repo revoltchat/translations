@@ -231,19 +231,19 @@
                 "actions": {
                     "ok": "OK",
                     "close": "Zavřít",
-                    "reload": "Přenačíst aplikaci",
+                    "reload": "Znovu načíst aplikaci",
                     "preview": "Náhled",
                     "continue": "Pokračovat",
                     "cancel": "Zrušit",
                     "update": "Aktualizovat",
                     "send_email": "Poslat e-mailem",
                     "save": "Uložit",
-                    "leave": "Odejít",
-                    "block": "Block",
+                    "leave": "Opustit",
+                    "block": "Zablokovat",
                     "edit": "Upravit",
                     "delete": "Odstranit",
                     "ban": "Ban",
-                    "kick": "Kick .",
+                    "kick": "Vyhodit",
                     "hide": "Skrýt",
                     "back": "Přejít zpět",
                     "remove": "Odebrat",
@@ -364,7 +364,7 @@
                     "mutual_friends": "Společní přátelé",
                     "mutual_groups": "Společné skupiny",
                     "no_groups": "Žádné společné skupiny",
-                    "empty": "Je tu trošku prázdno…",
+                    "empty": "Je tu trochu prázdno…",
                     "sub": {
                         "connections": "Propojení",
                         "information": "Informace",
@@ -372,7 +372,7 @@
                     },
                     "badges": {
                         "translator": "Překladatel",
-                        "early_adopter": "Inovátor",
+                        "early_adopter": "Raný uživatel",
                         "supporter": "Podporovatel",
                         "founder": "Zakladatel",
                         "responsible_disclosure": "Zodpovědně zveřejněné bezpečnostní problémy",
@@ -384,10 +384,10 @@
                 "server_identity": {
                     "avatar": "Avatar",
                     "title": "Změnit identitu na serveru {{server}}",
-                    "nickname": "Přezdívku"
+                    "nickname": "Přezdívka"
                 },
                 "create_bot": {
-                    "failed": "Chyba při vytváření bota !",
+                    "failed": "Chyba při vytváření bota!",
                     "title": "Vytvořit nového bota"
                 },
                 "user_picker": {
@@ -398,11 +398,11 @@
             "copy": "Kliknutím zkopírujete",
             "invite": {
                 "invalid_desc": "Pozvánka možná neexistuje, nebo nemáte oprávnění k připojení.",
-                "user_count": "{{member_count}} počet uživatelů",
-                "login": "Přihlásit k Revoltu",
+                "user_count": "{{member_count}} uživatelů",
+                "login": "Přihlásit se do Revoltu",
                 "invited_by": "Pozván uživatelem {{user}}",
                 "accept": "Přijmout pozvánku",
-                "invalid": "Neplatná pozvánka !"
+                "invalid": "Neplatná pozvánka!"
             },
             "server-badges": {
                 "official": "Oficiální server",
@@ -435,7 +435,7 @@
             "copy_link": "Kopírovat odkaz",
             "open_server_settings": "Nastavení serveru",
             "open_link": "Otevřít odkaz",
-            "copy_sid": "Zkopírovat ID serveru",
+            "copy_sid": "Kopírovat ID serveru",
             "view_profile": "Zobrazit profil",
             "kick_member": "Vyhodit člena",
             "unblock_user": "Odblokovat uživatele",
@@ -889,24 +889,24 @@
         "sameElse": "L",
         "nextWeek": "dddd [v] {{time}}",
         "defaults": {
-            "date_separator": "/",
-            "date_format": "Tradiční",
+            "date_separator": ".",
+            "date_format": "traditional",
             "twelvehour": "no"
         },
-        "lastWeek": "[Minulá] dddd [v] {{time}}"
+        "lastWeek": "[Poslední] dddd [v] {{time}}"
     },
     "quantities": {
         "members": {
-            "many": "{{count}} Členů",
-            "one": "1 Člen"
+            "many": "{{count}} členů",
+            "one": "1 člen"
         },
         "dropFiles": {
             "one": "Přetáhnout soubor",
-            "many": "Přetáhnout {{count}} souborů"
+            "many": "Nahrát {{count}} souborů"
         }
     },
     "notifications": {
-        "sent_request": "@{{person}} ti poslal(a) žádost o přátelství.",
+        "sent_request": "@{{person}} vám poslal/a žádost o přátelství.",
         "now_friends": "S uživatelem @{{person}} jste nyní přátelé!"
     },
     "error": {
@@ -918,39 +918,39 @@
         "UnknownUser": "Neznámý uživatel.",
         "WrongPassword": "Špatné heslo.",
         "DatabaseError": "Chyba databáze.",
-        "FileTooLarge": "Soubor je moc velký.",
-        "TooLong": "Moc dlouhé",
-        "TooShort": "Moc krátké",
-        "RequiredField": "Požadované",
-        "UnknownError": "Otevřít konzoli.",
-        "NetworkError": "Chyba připojení.",
-        "MissingPermission": "Chybějící povolení.",
+        "FileTooLarge": "Soubor je příliš velký.",
+        "TooLong": "Příliš dlouhé",
+        "TooShort": "Příliš krátké",
+        "RequiredField": "Vyžadováno",
+        "UnknownError": "Viz konzole.",
+        "NetworkError": "Chyba sítě.",
+        "MissingPermission": "Chybějící oprávnění.",
         "EmailInUse": "E-mail je již používán.",
         "AlreadyOnboarded": "Úvod byl již dokončen.",
-        "AlreadyFriends": "Už jste přáteli s tímto uživatelem.",
-        "AlreadySentRequest": "Žádost již byla odeslána tomuto uživateli .",
-        "Blocked": "Tento uživatel je již blokován .",
+        "AlreadyFriends": "S tímto uživatelem již jste přátelé.",
+        "AlreadySentRequest": "Tomuto uživateli již byla odeslána žádost.",
+        "Blocked": "Tohoto uživatele jste již zablokovali.",
         "Unavailable": "Nedostupné.",
         "Unauthorized": "Neautorizovaný.",
-        "FailedValidation": "Nepodařilo se ověřit pole .",
+        "FailedValidation": "Nepodařilo se ověřit pole.",
         "MissingHeaders": "Chybějící hlavičky.",
-        "InvalidSession": "Neplatná relace .",
+        "InvalidSession": "Neplatná relace.",
         "EmailFailed": "Nepodařilo se odeslat e-mail.",
-        "InvalidCredentials": "Email nebo heslo je špatné .",
+        "InvalidCredentials": "E-mail nebo heslo je nesprávné.",
         "InvalidToken": "Neplatný token",
-        "BlockedOther": "Tento uživatel tě zablokoval .",
+        "BlockedOther": "Tento uživatel si vás zablokoval.",
         "NoEffect": "Tento požadavek neměl žádný účinek.",
         "InvalidEmail": "Neplatná e-mailová adresa",
         "MissingData": "Požadavku chybí data.",
         "ProbeError": "Chyba při získávání metadat.",
         "ReachedMaximumBots": "Dosáhli jste maximálního množství botů.",
         "UnsupportedBrowser": "Prohlížeč nepodporuje tuto funkci.",
-        "AudioPermissionBlock": "Nemáme přístup k mikrofonu. Zkontroluj prosím nastavení svého prohlížeče.",
-        "RenderFail": "Šablony se nepodařila načíst.",
+        "AudioPermissionBlock": "Nemáme přístup k vašemu mikrofonu. Zkontrolujte prosím nastavení prohlížeče.",
+        "RenderFail": "Nepodařilo se vykreslit šablonu.",
         "MissingInvite": "V požadavku chybí zvací kód.",
-        "FailedToReceive": "Server selhal při získávání tvého souboru.",
+        "FailedToReceive": "Serveru se nepodařilo přijmout váš soubor.",
         "InvalidInvite": "Neplatný kód",
-        "IoError": "Server zjistil chybu I/O.",
+        "IoError": "Server narazil na chybu I/O.",
         "DeniedNotification": "Zamítli jste přístup k oznámením. Zkontrolujte nastavení stránky.",
         "CompromisedPassword": "Toto heslo bylo prolomeno.",
         "DiscriminatorChangeRatelimited": "Příliš mnoho změn značky."
@@ -960,36 +960,36 @@
     },
     "permissions": {
         "KickMembers": {
-            "t": "Vyhodit členy",
-            "d": "Umožňuje členům odebrat členy z tohoto serveru. Vyhození členové se mohou znovu připojit s pozvánkou."
+            "t": "Vyhazovat členy",
+            "d": "Umožňuje členům odebírat z tohoto serveru jiné členy. Vyhození členové se budou moci opět přidat, pokud dostanou novou pozvánku."
         },
         "ManageChannels": {
             "t": "Správa kanálů",
-            "d": "Umožňuje členům tvořit, upravovat a mazat kanály."
+            "d": "Umožňuje členům vytvářet, upravovat nebo odstraňovat kanály."
         },
         "BanMembers": {
-            "t": "Zabanovat člena",
-            "d": "Umožní členům navždy odstranit jiné členy z tohoto serveru."
+            "t": "Banovat členy",
+            "d": "Umožní členům trvale odstranit jiné členy z tohoto serveru."
         },
         "ManageServer": {
             "d": "Umožní členům změnit název serveru, popis, ikonu a další související informace.",
             "t": "Správa serveru"
         },
         "RemoveAvatars": {
-            "d": "Umožní členům odstranit alternativní profilové obrázky jiných členů na tomto serveru.",
+            "d": "Umožňuje členům odstranit alternativní profilové obrázky jiných členů na tomto serveru.",
             "t": "Odebrat avatar"
         },
         "ChangeAvatar": {
             "t": "Změnit avatar",
-            "d": "Umožní členům nastavit si jiný profilový obrázek pro tento server."
+            "d": "Umožňuje členům nastavit si jiný profilový obrázek pro tento server."
         },
         "ManageNicknames": {
             "t": "Spravovat přezdívky",
-            "d": "Umožní členům změnit přezdívky ostatních členů."
+            "d": "Umožňuje členům měnit přezdívky ostatních členů."
         },
         "ChangeNickname": {
             "t": "Změnit přezdívku",
-            "d": "Umožní členům změnit si svou přezdívku na tomto serveru."
+            "d": "Umožňuje členům změnit si svou přezdívku na tomto serveru."
         },
         "Masquerade": {
             "t": "Maskování",
@@ -997,19 +997,19 @@
         },
         "ManageMessages": {
             "t": "Spravovat zprávy",
-            "d": "Umožní členům mazat zprávy odeslané ostatními členy."
+            "d": "Umožňuje členům mazat zprávy odeslané ostatními členy."
         },
         "ManageChannel": {
-            "d": "Umožní členům editovat nebo mazat kanály.",
+            "d": "Umožňuje členům upravovat nebo odstranit kanál.",
             "t": "Správa kanálů"
         },
         "SendMessage": {
             "t": "Odesílat zprávy",
-            "d": "Umožní členům posílání zpráv v textových kanálech."
+            "d": "Umožňuje členům posílat zprávy do textových kanálů."
         },
         "UploadFiles": {
             "t": "Nahrát soubory",
-            "d": "Umožní členům nahrávat soubory v textových kanálech."
+            "d": "Umožňuje členům nahrávat soubory v textových kanálech."
         },
         "VoiceCall": {
             "t": "Hlasový Hovor",
@@ -1017,14 +1017,14 @@
         },
         "InviteOthers": {
             "t": "Pozvat další",
-            "d": "Umožní členům pozvat další uživatele do kanálu."
+            "d": "Umožňuje členům pozvat další uživatele do kanálu."
         },
         "ManageRole": {
             "t": "Spravovat role",
-            "d": "Umožní členům vytvářet, upravovat a mazat role s nižší hodnotou a upravovat jejich oprávnění v nastavení jednotlivých kanálů."
+            "d": "Umožní členům vytvářet, upravovat a odstraňovat role, které jsou níže než jejich role, a upravovat jejich oprávnění v nastavení jednotlivých kanálů."
         },
         "ViewChannel": {
-            "d": "Umožní členům vidět všechny kanály, na kterých mají toto oprávnění.",
+            "d": "Umožňuje členům vidět všechny kanály, ve kterých mají toto oprávnění.",
             "t": "Zobrazit kanál"
         },
         "ReadMessageHistory": {
@@ -1056,12 +1056,12 @@
             "d": "Umožňuje členům měnit oprávnění ke kanálům a rolím, které jsou níže než jejich role."
         },
         "TimeoutMembers": {
-            "t": "Ztlumit členy",
+            "t": "Pozastavit členy",
             "d": "Umožňuje dočasně zakázat členům interagovat se serverem."
         },
         "AssignRoles": {
             "d": "Umožňuje členům udělovat role pod jejich vlastní rolí dalším členům.",
-            "t": "Udělit role"
+            "t": "Přidělit role"
         },
         "Connect": {
             "t": "Připojit se",
