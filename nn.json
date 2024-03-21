@@ -57,17 +57,17 @@
         "verified_continue": "Gå vidare til pålogging",
         "error": {
             "create": "Klarte ikkje å registrera!",
-            "login": "Klarte ikkje å logge inn!",
-            "reset": "Klarte ikkje å tilbakestille!",
-            "verify": "Kunne ikkje stadfeste!",
-            "resend": "Klarte ikkje å sende igjen!"
+            "login": "Klarte ikkje å logga inn!",
+            "reset": "Klarte ikkje å tilbakestilla!",
+            "verify": "Kunne ikkje stadfesta!",
+            "resend": "Klarte ikkje å senda igjen!"
         },
         "unofficial_instance": "Tredjepartsinstans.",
         "missing_verification": "Fekk du ingen e-post?"
     },
     "app": {
         "status": {
-            "online": "Pålogga",
+            "online": "Tilkopla",
             "idle": "Inaktiv",
             "focus": "Fokus",
             "busy": "Ikkje Forstyrr",
@@ -88,16 +88,16 @@
             "directs": "Direktemeldingar",
             "join-testers": "Bli med i testingsørvaren",
             "goto-testers": "Gå til testingsørvaren",
-            "goto-testers_desc": "Du kan føreslå betringar og tildøme feil til oss her.",
+            "goto-testers_desc": "Du kan føreslå betringar og tildøma feil til oss her.",
             "donate": "Doner til Revolt",
             "donate_desc": "Støtt prosjektet ved å donere - takk!",
             "feedback": "Gi ein tilbakemelding til Revolt",
             "settings": "Opna innstillingar",
             "discover": "Oppdag Revolt",
-            "discover_desc": "Finn et fellesskap basert på dine hobbyar eller interessar.",
+            "discover_desc": "Finn eit fellesskap basert på dine hobbyar eller interessar.",
             "group": "Opprett ei gruppe",
             "group_desc": "Inviter alle vennane dine, nokre kule robotar, og ha ein stor fest.",
-            "join-testers_desc": "Du kan føreslå betringar og tildøme feil til oss her.",
+            "join-testers_desc": "Du kan føreslå betringar og tildøma feil til oss her.",
             "feedback_desc": "Fortel oss korleis me kan betra appen vår ved å gi oss ein tilbakemelding.",
             "settings-tooltip": "Du kan au høyreklikke brukarikonet øvst til venstre, eller venstreklikk den viss du er heime allereie."
         },
@@ -143,8 +143,8 @@
                     "registered_at": "Registrert {{time}}"
                 },
                 "start": {
-                    "saved": "Dette er byrjinga av notatane dine.",
-                    "group": "Dette er starten på din samtale."
+                    "saved": "Dette er byrjinga på notatane dine.",
+                    "group": "Dette er byrjinga på samtala di."
                 },
                 "voice": {
                     "connected": "Stemme tilkopla",
@@ -158,22 +158,23 @@
                     "jump_beginning": "Hopp til byrjinga",
                     "spoiler_attachment": "Spoiler",
                     "failed_load": "Kunne ikkje lasta inn melding.",
-                    "not_loaded": "Melding er ikkje lasta, trykk for å hoppe",
-                    "no_sending": "Du manglar tillating til å sende meldingar i denne kanalen.",
+                    "not_loaded": "Melding er ikkje lasta, trykk for å hoppa",
+                    "no_sending": "Du manglar tillating til å senda meldingar i denne kanalen.",
                     "new_messages": "Nye meldingar sidan {{time_ago}}",
                     "blocked_messages": "{{count}} blokkerte meldingar",
                     "blocked_user": "Blokkert brukar",
                     "sent_file": "Sendte eit vedlegg",
                     "sent_multiple_files": "Sendte fleire vedlegg",
-                    "load_file": "Last inn filen"
+                    "load_file": "Last inn filen",
+                    "timed_out": "Du er mellombels forstumma for {{time}}."
                 },
-                "failed_upload": "Kunne ikkje laste opp!",
+                "failed_upload": "Kunne ikkje lasta opp!",
                 "nsfw": {
                     "channel": {
                         "marked": "Denne kanalen er markert for voksne.",
                         "confirm": "Gå inn i kanalen"
                     },
-                    "confirm": "Eg stadfestar at eg er over 18 år."
+                    "confirm": "Eg stadfestar at eg er over 18 år gamal."
                 },
                 "unknown_user": "<Ukjend brukar>",
                 "edited": "(redigert)",
@@ -202,7 +203,8 @@
                     "title": "Oi, det er ingenting her!",
                     "nochannel": "Ingen kanal",
                     "nochannels": "Denne sørvaren har ingen kanalar, eller du manglar tilgjenge til dei."
-                }
+                },
+                "user_timed_out": "Brukar er mellombels forstumma for {{time}}."
             },
             "groups": {
                 "create": "Opprett ei gruppe",
@@ -243,23 +245,23 @@
                     "change_field": "Endre",
                     "unique_id": "Dette er ein unik brukaridentifikator for kontoen din.",
                     "2fa": {
-                        "title": "To-faktorstadfesting",
+                        "title": "Tofaktorstadfesting",
                         "description": "Legg til eit ekstra tryggleikslag ved å bruke 2FA på kontoen din.",
                         "view_recovery": "Vis Oppattrettingskodar",
                         "generate_recovery": "Generer oppattrettingskodar",
                         "generate_recovery_long": "Gjør deg klar til å bruke 2FA ved å setja opp ein oppattrettingsmetode.",
                         "add_auth": "Legg til identitetsstadfesting",
                         "remove_auth": "Fjern identitetsstadfesting",
-                        "two_factor_off": "Du har ikkje aktivert to-faktor autentisering!",
+                        "two_factor_off": "Du har ikkje aktivert tofaktorstadfesting!",
                         "view_recovery_long": "Vis og last ned 2FA-oppattrettingskodane dine.",
-                        "two_factor_on": "To-faktor autentisering er for augeblinket på."
+                        "two_factor_on": "Tofaktorstadfesting er for augeblinket på."
                     },
                     "manage": {
                         "title": "Kontohandtering",
                         "description": "Deaktiver eller slett kontoen din når du vil. Begge handlingane vil logge deg ut av dine aktive økter.",
                         "disable": "Deaktiver konto",
                         "delete": "Merk konto for sletting",
-                        "disable_description": "Du vil ikkje kunne få tilgjenge til kontoen din med mindre du tar kontakt med brukarstytte - likevel vil dataa dine ikkje bli sletta.",
+                        "disable_description": "Du vil ikkje kunna få tilgjenge til kontoen din med mindre du tar kontakt med brukarstytte - likevel vil dataa dine ikkje bli sletta.",
                         "delete_description": "Kontoen din og alle dataa dine (inkludert meldingane dine og vennelista) vil bli satt i kø for sletting. Ein stadfestings-e-post vil bli sendt – du kan avbryte dette innan 7 dagar ved å ta kontakt med brukarstytte."
                     }
                 },
@@ -293,7 +295,7 @@
                 "appearance": {
                     "title": "Utsjånad",
                     "colours": {
-                        "title": "Farger"
+                        "title": "Fargar"
                     },
                     "fonts": {
                         "title": "Fontar"
@@ -320,14 +322,14 @@
                     "appearance_options": {
                         "show_send": "Vis alltid send-knappen",
                         "show_account_age_desc": "Viss dette er deaktivert, vil kontoalderen kun bli vist for nya brukare.",
-                        "title": "Utsjånadalternativ",
+                        "title": "Utsjånadsinnstillingar",
                         "show_account_age": "Alltid vis kontoalder ved sidan av meldingar frå ein ny medlem",
-                        "show_send_desc": "Viss dette er deaktivert, vil Send melding-knappen kun bli vist på mobilen."
+                        "show_send_desc": "Viss dette er deaktivert, vil Send Melding-knappen kun bli vist på mobilen."
                     },
                     "theme_options": {
                         "title": "Stilinstillingar",
                         "follow": "Følg systemstilen",
-                        "follow_desc": "Viss dette er aktivert, vil du ikkje kunne endre stilen din eller bruke ein modifisert stil.",
+                        "follow_desc": "Viss dette er aktivert, vil du ikkje kunna endra stilen din eller bruka ein modifisert stil.",
                         "seasonal": "Sesongbasert stil",
                         "transparency": "Klarleikeffektar",
                         "transparency_desc": "Aktiverer klarleikeffektar for heile appen.",
@@ -338,7 +340,7 @@
                     },
                     "emoji_pack": "Emoji-pakke",
                     "message_display": "Meldingsvising",
-                    "advanced": "Avanserte innstillingar",
+                    "advanced": "Avanserte Innstillingar",
                     "overrides": "Stiloverstyringar",
                     "reset_overrides": "Tilbakestill overstyringar",
                     "import": "Importer en stil",
@@ -346,26 +348,26 @@
                     "theme_data": "Stildata",
                     "custom_css": "Eigendefinert CSS",
                     "sync": "Synkroniseringsval",
-                    "mono_font": "Fastbreiddeskrift-veljar",
+                    "mono_font": "Fastbreiddeskriftveljar",
                     "ligatures": "Skriftligaturer",
                     "font": "Font",
-                    "ligatures_desc": "For stytta fontar, binder ligaturar saman tegn - til dømes, å gjøre om -> til ein pil."
+                    "ligatures_desc": "For stytta fontar, knyter ligaturar med teikn - til dømes, ved å gjøra om -> til ein pil."
                 },
                 "accessibility": {
                     "title": "Tilgjenge",
                     "reduced_motion": "Redusert rørsle",
                     "descriptions": {
-                        "reduced_motion": "Viss dette er aktivert, vil animasjonar og rørslareffektar ikkje spela av, eller dei vil vere mindre intens."
+                        "reduced_motion": "Viss dette er aktivert, vil animasjonar og rørslareffektar ikkje spela av, eller dei vil vera mindre intens."
                     }
                 },
                 "notifications": {
-                    "title": "Merknader",
+                    "title": "Varsel",
                     "push_notifications": "Pushvarsel",
                     "enable_desktop": "Skru på skrivebordsvarsel",
                     "enable_push": "Skru på pushvarsel",
                     "sounds": "Ljodar",
                     "descriptions": {
-                        "enable_desktop": "Dette vil gi deg merknader mens programmet er open.",
+                        "enable_desktop": "Dette vil gi deg varsel mens programmet er open.",
                         "enable_push": "Viss dette er aktivert, vil du motta varsel når du er fråkopla."
                     },
                     "sound": {
@@ -379,14 +381,14 @@
                     "title": "Språk",
                     "select": "Velg språket ditt",
                     "const": "Konstruerte språk",
-                    "other": "Andre språkvalg"
+                    "other": "Andre språkval"
                 },
                 "sync": {
                     "title": "Synkronisering",
-                    "options": "Synkroniseringsinstillingar",
+                    "options": "Synkroniseringsinnstillingar",
                     "categories": "Synkroniser kategoriar",
                     "descriptions": {
-                        "appearance": "Dette vil synkronisere utsjånadevalg, som din valgte emoji-pakke og meldingstettleik.",
+                        "appearance": "Dette vil synkronisera utsjånadsinnstillingar, som din valgte emoji-pakke og meldingstettleik.",
                         "locale": "Dette synkroniserer ditt valgte språk.",
                         "theme": "Dette synkroniserer din valgte utsjånad, farger, og all eigendefinert CSS."
                     }
@@ -400,10 +402,10 @@
                     "not_available": "Ingen eksperiment tilgjengeleg no."
                 },
                 "plugins": {
-                    "title": "Plugins",
+                    "title": "Programvareutvidinger",
                     "wip": "Åtvaring: denne funksjonen er fortsatt under utvikling.",
                     "delete_plugin": "Slett",
-                    "no_plugins": "Ingen plugins er installert for augeblinket."
+                    "no_plugins": "Inga programvareutviding er installert for augeblinket."
                 },
                 "donate": {
                     "title": "Doner"
@@ -415,13 +417,13 @@
                     "add": "Legg til ein Robot",
                     "unique_id": "Dette er ein unik identifikator for din robot. Dette er ikkje roboten sin token.",
                     "token": "Token",
-                    "private_bot_tip": "Denne roboten er privat. Kun du kan invitere den.",
+                    "private_bot_tip": "Denne roboten er privat. Kun du kan invitera den.",
                     "public_bot": "Offentleg Robot",
                     "profile": "Robot profil",
                     "public_bot_desc": "Viss dette er aktivert, kan andre brukare leggja til denne roboten i sørvarar og gruppechatter.",
                     "interactions_url": "Interaksjons-URL",
-                    "copy_invite": "Kopier Invitasjonslenke",
-                    "public_bot_tip": "Denne roboten er offentleg. Kven som helst kan invitere den.",
+                    "copy_invite": "Kopier Invitasjonslenkje",
+                    "public_bot_tip": "Denne roboten er offentleg. Kven som helst kan invitera den.",
                     "reserved": "Merk: dette feltet er reservert for framtidig bruk."
                 },
                 "theme_shop": {
@@ -443,12 +445,12 @@
                 "feedback": {
                     "description": "Send tilbakemelding",
                     "suggest_desc": "Foreslå nye Revolt-funksjonar i GitHub-diskusjon.",
-                    "issue": "Opprett ein ny problemrapport",
+                    "issue": "Opprett ei ny problemutgreiing",
                     "bug": "Feilsporer",
-                    "bug_desc": "Vis aktive feilrapporter her.",
+                    "bug_desc": "Vis aktive feilutgreiingar her.",
                     "title": "Tilbakemelding",
                     "suggest": "Send inn funksjonsforslag",
-                    "issue_desc": "For å gjøre det lettere for oss å leite etter feil, kan du opprette ein ny problemrapport på GitHub."
+                    "issue_desc": "For å gjøra det lettere for oss å leita etter feil, kan du oppretta ei ny problemutgreiing på GitHub."
                 },
                 "logOut": "Logg ut",
                 "keybinds": {
@@ -461,7 +463,8 @@
                     "reset_keybind": "Nullstill hurtigtaste tilbake til {{keybind}}",
                     "category": {
                         "navigation": "Navigasjon",
-                        "advanced": "Avansert"
+                        "advanced": "Avansert",
+                        "messaging": "Meldingsutveksling"
                     },
                     "action": {
                         "navigate_channel_up": {
@@ -477,24 +480,24 @@
                             "description": "Rediger den siste sendte meldingen i meldingsvisningen som er lasta for augeblinket."
                         },
                         "auto_complete_up": {
-                            "title": "Forrige autofullføringsval",
-                            "description": "Flytt autofullføringsvalet til det forrige."
+                            "title": "Forrige sjølvfullføringsval",
+                            "description": "Flytt sjølvfullføringsvalet til det forrige."
                         },
                         "auto_complete_down": {
-                            "title": "Neste autofullføringsval",
-                            "description": "Flytt autofullføringsvalet til det neste."
+                            "title": "Neste sjølvfullføringsval",
+                            "description": "Flytt sjølvfullføringsvalet til det neste."
                         },
                         "auto_complete_select": {
-                            "title": "Stadfest autofullføringsval",
-                            "description": "Stadfest det noverande autofullføringsvalet."
+                            "title": "Stadfest sjølvfullføringsvalet",
+                            "description": "Stadfest det noverande sjølvfullføringsvalet."
                         },
                         "input_submit": {
                             "title": "Send inn input",
-                            "description": "Ein avansert hurtigtaste som er vanlegvis brukt til å innsende den noverande input.\nDette kan inkludere innsending av ei melding, innsending av redigering til ei melding, innsending av eit søk, osv.."
+                            "description": "Ein avansert hurtigtaste som er vanlegvis brukt til å senda inn den noverande input.\nDette kan inkludera innsending av ei melding, innsending av redigering til ei melding, innsending av eit søk, osv.."
                         },
                         "input_cancel": {
                             "title": "Fjern input",
-                            "description": "Ein avansert hurtigtaste som er vanlegvis brukt til å fjerne den noverande input.\nDette kan inkludere fjerning av ei melding, fjerning av ei bilete i kø, og lignande scenario."
+                            "description": "Ein avansert hurtigtaste som er vanlegvis brukt til å fjerna den noverande input.\nDette kan inkludera fjerning av ei melding, fjerning av ei bilete i kø, og lignande scenario."
                         },
                         "navigate_server_up": {
                             "title": "Naviger til forrige sørvar",
@@ -506,7 +509,7 @@
                         },
                         "input_force_submit": {
                             "title": "Tving innsending av input",
-                            "description": "Ein avansert hurtigtaste som er vanlegvis brukt til å tvinge innsending av den noverande input, ved å ignorere nokre kontrollar og andre hurtigtaster.\nDette kan inkludere innsending av ei melding i staden for stadfesting av autofullføringsvalet."
+                            "description": "Ein avansert hurtigtaste som er vanlegvis brukt til å tvinga innsending av den noverande input, ved å ignorera nokre kontrollar og andre hurtigtaster.\nDette kan inkludera innsending av ei melding i staden for stadfesting av sjølvfullføringsvalet."
                         },
                         "messaging_scroll_to_bottom": {
                             "description": "Blar til botn av meldingsvisningen.",
@@ -514,15 +517,15 @@
                         },
                         "messaging_mark_channel_read": {
                             "title": "Marker kanal som lest",
-                            "description": "Markerer den noverande kanal som lest."
+                            "description": "Markerer den noverande kanalen som lest."
                         },
                         "navigate_previous_context": {
                             "title": "Naviger til forrige kontekst",
-                            "description": "Ein avansert hurtigtaste som er vanlegvis brukt til å lukke instillingsida, ei modal, eller ein popup og gå tilbake til den forrige konteksten."
+                            "description": "Ein avansert hurtigtaste som er vanlegvis brukt til å lukka instillingsida, eit modalvindauge, eller ein popup og gå tilbake til den forrige konteksten."
                         },
                         "developer_toggle_all_experiments": {
-                            "title": "Slå på eller skru av eksperimentell tryggmodus",
-                            "description": "Dette vil aktivere / deaktivere alle eksperimentane med ein gong."
+                            "title": "Slå på eller skru av eksperimentell tryggleikmodus",
+                            "description": "Dette vil aktivera / deaktivera alle eksperimentane med ein gong."
                         }
                     }
                 }
@@ -537,7 +540,7 @@
                     "title": "Tillatingar"
                 },
                 "webhooks": {
-                    "title": "Web-krokar"
+                    "title": "Vebbkrokar"
                 }
             },
             "server_pages": {
@@ -564,10 +567,10 @@
                     "revoke": "Tilbakekall"
                 },
                 "bans": {
-                    "title": "Bannlysningar",
-                    "reason": "Bannlysningsgrunn",
+                    "title": "Utestengingar",
+                    "reason": "Utestengingsgrunn",
                     "revoke": "Tilbakekall",
-                    "no_reason": "Ingen bannlysningsgrunn.",
+                    "no_reason": "Ingen utestengingsgrunn.",
                     "user": "Brukar"
                 },
                 "roles": {
@@ -577,14 +580,14 @@
                     "title": "Kategoriar"
                 },
                 "emojis": {
-                    "title": "Emojier",
+                    "title": "Emojiar",
                     "upload": "Last Opp Emoji"
                 }
             },
             "tips": {
                 "account": {
                     "b": "Gå til profilinnstillingane dine.",
-                    "a": "Ynskjer du å tilpasse din offentlege profil?"
+                    "a": "Ynskjer du å tilpassa din offentlege profil?"
                 },
                 "languages": {
                     "a": "Manglar me eit språk?",
@@ -592,7 +595,7 @@
                 },
                 "sessions": {
                     "a": "Viss du ser ein ukjend økt i lista,",
-                    "b": "kan du sikre kontoen din ved å endre passordet ditt og sette opp tofaktorautentisering (2FA)."
+                    "b": "kan du sikra kontoen din ved å endra passordet ditt og setja opp tofaktorstadfesting (2FA)."
                 }
             },
             "permissions": {
@@ -602,18 +605,19 @@
                 "create_role": "Opprett ein ny rolle",
                 "role_name": "Rollenamn",
                 "role_colour": "Rollefarge",
-                "role_options": "Rolleval",
+                "role_options": "Rolleinnstillingar",
                 "role_ranking": "Rollerangering",
                 "delete_role": "Slett rolle",
                 "hoist_desc": "Vis denne rollen framfor andre.",
                 "title": "Tillatingar for {{role}}",
-                "edit_title": "Rediger tillatingar"
+                "edit_title": "Rediger tillatingar",
+                "hoist_role": "Heisa Rolle"
             }
         },
         "special": {
-            "copy_username": "Klikk for å kopiere brukernamn",
+            "copy_username": "Klikk for å kopiera brukarnamn",
             "friends": {
-                "pending": "Ventande førespurnader",
+                "pending": "Ventande førespurnadar",
                 "sent": "Utgåande",
                 "blocked": "Blokkert",
                 "incoming": "Innkommande venneførespurnad.",
@@ -631,7 +635,7 @@
                 "reconnecting": "Koplar til igjen…",
                 "connecting": "Koplar til…"
             },
-            "copy": "Klikk for å kopiere",
+            "copy": "Klikk for å kopiera",
             "server-badges": {
                 "official": "Offisiell Sørvar",
                 "verified": "Verifisert Sørvar"
@@ -639,9 +643,9 @@
             "modals": {
                 "out_of_date": {
                     "version": "Klienten din er på {{client}}, men sørvaren krev {{server}}.",
-                    "description": "Den må oppdaterast for å fungere med nylege endringar.",
+                    "description": "Den må oppdaterast for å fungera med nylege endringar.",
                     "ignore": "Ignorer oppdatering",
-                    "attempting": "Forsøkjer å oppdatere…",
+                    "attempting": "Forsøkjer å oppdatera…",
                     "title": "Din klient er utdatert!"
                 },
                 "error": "Noko gjekk galen!",
@@ -655,40 +659,40 @@
                 "token_reveal": "{{name}} sitt token",
                 "onboarding": {
                     "welcome": "Velkomen til",
-                    "pick": "Velg eit brukarnamn du ynskjer at folk skal finne deg med. Dette kan endrast seinare i Brukarinnstillingane."
+                    "pick": "Velg eit brukarnamn du ynskjer at folk skal finne deg med. Dette kan endrast seinare i brukarinnstillingane."
                 },
                 "prompt": {
                     "confirm_leave": "Forlat {{name}}?",
-                    "confirm_leave_long": "Du vil ikkje kunne bli med igjen med mindre du blir invitert igjen.",
+                    "confirm_leave_long": "Du vil ikkje kunna bli med igjen med mindre du blir invitert igjen.",
                     "confirm_close_dm": "Lukk samtale med {{name}}?",
-                    "confirm_close_dm_long": "Du kan opne den igjen seinare, men den vil forsvinne på begge sider.",
+                    "confirm_close_dm_long": "Du kan opna den igjen seinare, men den vil forsvinna på begge sider.",
                     "confirm_delete": "Slett {{name}}?",
-                    "confirm_delete_message_long": "Er du sikker på at du vil slette dette?",
+                    "confirm_delete_message_long": "Er du sikker på at du vil sletta dette?",
                     "create_invite_generate": "Genererer invitasjon…",
                     "create_invite_created": "Her er din nye invitasjonskode:",
-                    "confirm_ban": "Du er i ferd med å bannlyse {{name}}",
-                    "confirm_ban_reason": "Bannlysningsgrunn",
-                    "unfriend_user": "Fjern {{name}} som ven?",
+                    "confirm_ban": "Du er i ferd med å utestengja {{name}}",
+                    "confirm_ban_reason": "Utestengingsgrunn",
+                    "unfriend_user": "Fjern {{name}} som venn?",
                     "unfriend_user_long": "Du vil ikkje kunne snakke med dei igjen til du legger dem inn igjen.",
                     "block_user": "Blokker {{name}}?",
                     "silent_leave": "Forlat i stillheit",
                     "members_not_notified": "Andre medlemmar vil ikkje bli varsla",
                     "confirm_delete_long": "Når den er sletta er det ingen veg tilbake.",
-                    "confirm_kick": "Er du sikker på at du vil kaste ut {{name}}?",
-                    "block_user_long": "Er du sikker på at du vil blokkere {{name}}? Dei vil au bli fjerna frå vennelista di."
+                    "confirm_kick": "Er du sikker på at du vil kasta ut {{name}}?",
+                    "block_user_long": "Er du sikker på at du vil blokkera {{name}}? Dei vil au bli fjerna frå vennelista di."
                 },
                 "account": {
                     "change": {
-                        "username": "Endre brukarnamn",
-                        "email": "Endre din e-postadresse",
-                        "password": "Endre passord"
+                        "username": "Endra brukarnamn",
+                        "email": "Endra din e-postadresse",
+                        "password": "Endra passord"
                     },
-                    "failed": "Kunne ikkje utføre endring!"
+                    "failed": "Kunne ikkje utføra endring!"
                 },
                 "mfa": {
                     "recovery_codes": "Dine oppattrettingskodar",
-                    "save_codes": "Ver venleg og lagre desse på eit sikkert stad.",
-                    "select_method": "Ver venleg og velg ein metode for å identitetsstadfeste førespurnaden din.",
+                    "save_codes": "Ver venleg og lagra desse på eit sikkert stad.",
+                    "select_method": "Ver venleg og velg ein metode for å identitetsstadfesta førespurnaden din.",
                     "enable_totp": "Aktiver identitetsstadfestingsappen",
                     "prompt_totp": "Ver venleg og skann eller bruk tokenet nedanfor i identitetsstadfestingsappen din.",
                     "enter_code": "Oppgi Kode",
@@ -702,43 +706,43 @@
                 "external_links": {
                     "short": "Er du sikker at du vil gå til:",
                     "trust_domain": "Tro på dette domenet",
-                    "title": "Eksterne lenker kan vere farlege!"
+                    "title": "Eksterne lenkjer kan vera farlege!"
                 },
                 "sessions": {
-                    "title": "Er du sikker på at du vil slette øktene dine?",
-                    "short": "Du kan ikkje angre på denne handlingen.",
+                    "title": "Er du sikker på at du vil sletta øktene dine?",
+                    "short": "Du kan ikkje angra på denne handlingen.",
                     "accept": "Fjern alle økter"
                 },
                 "report": {
-                    "message": "Rapporter Melding",
-                    "by_name": "Rapporter {{name}}",
-                    "reason": "Grunnen",
-                    "reported": "Rapportert",
-                    "block_user": "Vil du blokkere denne brukaren?",
+                    "message": "Meld Brott",
+                    "by_name": "Skvaldra på {{name}}",
+                    "reason": "Grunn",
+                    "reported": "Meldt frå",
+                    "block_user": "Vil du blokkera denne brukaren?",
                     "additional_context": "Tilleggsinformasjon",
                     "no_reason": "Ingen grunn spesifisert / annan grunn",
                     "content_reason": {
                         "SpamAbuse": "Dette er spam eller plattformmsmisbruk",
                         "Malware": "Dette er skadeleg programvare",
                         "Harassment": "Dette er trakasseri eller misbruk retta mot ein annan brukar",
-                        "Illegal": "Innhad bryt ein eller fleire lov",
+                        "Illegal": "Innhald bryt ein eller fleire lov",
                         "PromotesHarm": "Innhald fremjar skade på andre eller seg sjølv"
                     },
                     "user_reason": {
                         "InappropriateProfile": "Brukarprofilen er upassande for eit generelt publikum",
-                        "Impersonation": "Denne brukaren utgjer seg for å vere ein annan",
+                        "Impersonation": "Denne brukaren utgjer seg for å vera ein annan",
                         "BanEvasion": "Denne brukaren unngår eit forbod",
                         "Underage": "Denne brukaren er ikkje gamal nok til å ha ein konto",
-                        "SpamAbuse": "Brukaren sender spam eller misbrukar plattformen på annan måte"
+                        "SpamAbuse": "Brukaren sender spam eller misbruker plattformen på annan måte"
                     },
-                    "thank_you": "Takk for at du hjelper til med å halde Revolt trygt. Me vil sjå gjennom rapporten din so snart som mogleg."
+                    "thank_you": "Takk for at du hjelper til med å halda Revolt trygt. Me vil sjå gjennom utgreiinga di so snart som mogleg."
                 },
                 "actions": {
                     "ok": "OK",
-                    "ban": "Bannlys",
+                    "ban": "Utesteng",
                     "done": "Ferdig",
                     "kick": "Kast ut",
-                    "save": "Lagre",
+                    "save": "Lagra",
                     "hide": "Skjul",
                     "edit": "Rediger",
                     "block": "Blokker",
@@ -747,7 +751,7 @@
                     "reset": "Nullstill",
                     "remove": "Fjern",
                     "delete": "Slett",
-                    "report": "Rapporter",
+                    "report": "Meld",
                     "create": "Opprett",
                     "reveal": "Avslør",
                     "update": "Oppdater",
@@ -762,7 +766,7 @@
                 },
                 "edit_keybind": {
                     "title": "Rediger hurtigtaste for {{action}}",
-                    "placeholder": "Trykk på knappene for å registrere"
+                    "placeholder": "Trykk på knappene for å registrera"
                 }
             },
             "popovers": {
@@ -794,7 +798,7 @@
                 },
                 "create_bot": {
                     "title": "Opprett ein ny robot",
-                    "failed": "Kunne ikkje opprette ein robot!"
+                    "failed": "Kunne ikkje oppretta ein robot!"
                 },
                 "server_identity": {
                     "title": "Bytt identitet på {{server}}",
@@ -810,46 +814,46 @@
                 "invalid_desc": "Anten finnast ikkje invitasjonen, eller så har du ikkje lov til å delta.",
                 "user_count": "{{member_count}} brukare"
             },
-            "requires_online": "Du må vere på nettet for å sjå dette."
+            "requires_online": "Du må vera på nettet for å sjå dette."
         },
         "context_menu": {
             "copy_id": "Kopier ID",
             "copy_selection": "Kopier utvalg",
             "copy_text": "Kopier tekst",
-            "copy_uid": "Kopier bruker-ID",
+            "copy_uid": "Kopier brukar-ID",
             "copy_mid": "Kopier meldings-ID",
-            "copy_message_link": "Kopier meldingslenke",
+            "copy_message_link": "Kopier meldingslenkje",
             "mention": "Nemn",
-            "message_user": "Melding",
+            "message_user": "Send Melding",
             "view_profile": "Vis profil",
             "mark_as_read": "Marker som lest",
             "mark_unread": "Merk som ulesen",
-            "retry_message": "Prøv å sende igjen",
+            "retry_message": "Prøv å senda igjen",
             "cancel_message": "Avbryt sending",
             "reply_message": "Svar",
             "copy_sid": "Kopier sørvar-ID",
             "edit_message": "Rediger melding",
-            "report_message": "Rapporter melding",
+            "report_message": "Skvaldra på melding",
             "delete_message": "Slett melding",
             "make_owner": "Gi gruppeeigedom",
             "remove_member": "Fjern frå gruppe",
             "kick_member": "Kast ut medlem",
-            "ban_member": "Bannlys medlem",
+            "ban_member": "Utesteng medlem",
             "open_file": "Opna fil",
-            "save_file": "Lagre fil",
-            "save_image": "Lagre bilete",
+            "save_file": "Lagra fil",
+            "save_image": "Lagra bilete",
             "open_video": "Opna video",
-            "save_video": "Lagre video",
-            "copy_link": "Kopier lenke",
-            "open_link": "Opna lenke",
+            "save_video": "Lagra video",
+            "copy_link": "Kopier lenkje",
+            "open_link": "Opna lenkje",
             "block_user": "Blokker brukar",
             "unblock_user": "Avblokker brukar",
             "add_friend": "Legg til venn",
             "remove_friend": "Fjern venn",
-            "report_user": "Rapporter brukar",
+            "report_user": "Skvaldra på brukar",
             "custom_status": "Eigendefinert status",
             "clear_status": "Tøm status",
-            "set_custom_status": "Sett en eigendefinert status",
+            "set_custom_status": "Sett ein eigendefinert status",
             "leave_group": "Forlat gruppe",
             "close_dm": "Lukk privatmelding",
             "edit_identity": "Rediger identitet",
@@ -858,7 +862,7 @@
             "create_category": "Opprett kategori",
             "create_invite": "Opprett invitasjon",
             "leave_server": "Forlat sørvar",
-            "report_server": "Rapporter sørvar",
+            "report_server": "Skvaldra på sørvar",
             "delete_server": "Slett sørvar",
             "open_channel_settings": "Kanalinnstillingar",
             "open_server_settings": "Sørvarinnstillingar",
@@ -866,7 +870,7 @@
             "quote_message": "Siter melding",
             "open_image": "Opna bilete",
             "cancel_friend": "Avbryt førespurnad",
-            "open_notification_options": "Merknadsinnstillingar",
+            "open_notification_options": "Varslingsinnstillingar",
             "open_group_settings": "Gruppeinnstillingar"
         },
         "permissions": {
@@ -886,16 +890,16 @@
         }
     },
     "error": {
-        "FailedValidation": "Klarte ikkje å stadfeste feltar.",
+        "FailedValidation": "Klarte ikkje å stadfesta feltar.",
         "InternalError": "Intern feil.",
         "RenderFail": "Malopptegning mislukkast.",
         "InvalidCredentials": "E-postadressa eller passordet er feil.",
-        "DeniedNotification": "Du nekta varslingstilgang. Sjekk sideinnstillingane.",
+        "DeniedNotification": "Du nekta varslingstilgjenge. Sjekk sideinnstillingane.",
         "NetworkError": "Nettverksfeil.",
         "Unauthorized": "Ikkje autorisert.",
         "Unlabelled": "Noko skjedde.",
         "DatabaseError": "Databasefeil.",
-        "MissingPermission": "Manglande tilgang.",
+        "MissingPermission": "Manglande tilgjenge.",
         "UnknownError": "Sjekk konsollen.",
         "OperationFailed": "Operasjonen mislukkast.",
         "MissingHeaders": "Manglar headere.",
@@ -903,7 +907,7 @@
         "UnverifiedAccount": "Uverifisert konto.",
         "UnknownUser": "Ukjend brukar.",
         "EmailInUse": "E-posten er i bruk.",
-        "EmailFailed": "Klarte ikkje å sende e-post.",
+        "EmailFailed": "Klarte ikkje å senda e-post.",
         "InvalidToken": "Ugyldig token",
         "MissingInvite": "Manglande invitasjonskode i førespurnaden.",
         "InvalidInvite": "Ugyldig kode",
@@ -913,134 +917,143 @@
         "AlreadySentRequest": "Førespurnaden har allereie blitt sendt til denne brukaren.",
         "Blocked": "Du har blokkert denne brukaren.",
         "BlockedOther": "Denne brukaren har blokkert deg.",
-        "NoEffect": "Denne førespurnaden har hatt ingen effekt.",
+        "NoEffect": "Denne førespurnaden har ikkje hatt noko effekt.",
         "RequiredField": "Påkravd",
         "TooShort": "For kort",
         "TooLong": "For langt",
         "InvalidEmail": "Ugyldig e-postadresse",
         "Unavailable": "Utilgjengeleg.",
-        "FileTooLarge": "Filen er for stor.",
-        "FailedToReceive": "Sørvaren mislukkast med å motta filen din.",
+        "FileTooLarge": "Fila er for stor.",
+        "FailedToReceive": "Sørvaren mislukkast med å motta fila di.",
         "MissingData": "Førespurnaden manglar data.",
         "ProbeError": "Klarte ikkje å hente fil-metadata.",
         "IoError": "Sørvaren støttet på en I/O-feil.",
         "UnsupportedBrowser": "Nettlesaren din manglar støtte for denne funksjonen.",
         "CompromisedPassword": "Dette passordet er kompromittert.",
         "ReachedMaximumBots": "Du har nådd maksimalt tal robotar.",
-        "AudioPermissionBlock": "Ingen tilgang til din mikrofon. Sjekk innstillingane for nettlesaen din.",
+        "AudioPermissionBlock": "Ingen tilgjenge til din mikrofon. Sjekk innstillingane for nettlesaren din.",
         "DiscriminatorChangeRatelimited": "For mange tagendringar."
     },
     "permissions": {
         "ManageChannels": {
-            "d": "Tillat medlemmar å opprette, redigere og slette kanalar.",
-            "t": "Håndter Kanalar"
+            "d": "Tillat medlemmar å oppretta, redigera og sletta kanalar.",
+            "t": "Handter Kanalar"
         },
         "ManagePermissions": {
-            "d": "Lar medlemmar endre tillatingar for kanalar og roller med lågare rangering.",
+            "d": "Lar medlemmar endra tillatingar for kanalar og roller med lågare rangering.",
             "t": "Administrer tillatingar"
         },
         "KickMembers": {
-            "d": "Lar medlemmer fjerne andre frå denne sørvaren. Utkasta medlemmar kan bli med igjen med ein invitasjon.",
+            "d": "Lar medlemmer fjerna andre frå denne sørvaren. Utkasta medlemmar kan bli med igjen med ein invitasjon.",
             "t": "Kast ut medlemmar"
         },
         "ViewChannel": {
-            "d": "Lar medlemmar vise alle kanalar dei har denne tillatinga i.",
-            "t": "Vis kanal"
+            "d": "Lar medlemmar visa alle kanalar dei har denne tillatinga i.",
+            "t": "Vis Kanal"
         },
         "UploadFiles": {
-            "d": "Lar medlemmar laste opp filer i tekstkanalar.",
+            "d": "Lar medlemmar lasta opp filer i tekstkanalar.",
             "t": "Last opp filer"
         },
         "Speak": {
-            "d": "Lar medlemmar snakke i ein talekanal.",
-            "t": "Snakke"
+            "d": "Lar medlemmar snakka i ein talekanal.",
+            "t": "Snakka"
         },
         "ManageServer": {
             "t": "Administrer Sørver",
-            "d": "Tillat medlemmar å endre sørvarens namn, skildring, ikon og annan relatert info."
+            "d": "Tillat medlemmar å endra sørvarens namn, skildring, ikon og annan relatert info."
         },
         "ManageRole": {
             "t": "Håndter Roller",
-            "d": "Tillèt medlemmar å opprette, redigere og slette roller med lågare rangering enn eigen og endre rolletilgjenger i kanalar."
+            "d": "Tillèt medlemmar å oppretta, redigera og sletta roller med lågare rangering enn eigen og endra rolletilgjenger i kanalar."
         },
         "ManageCustomisation": {
             "t": "Administrer Tilpasning",
-            "d": "Lar medlemmar opprette, redigere og slette emojier."
+            "d": "Lar medlemmar oppretta, redigera og sletta emojiar."
         },
         "BanMembers": {
-            "t": "Bannlys medlemmar",
-            "d": "Lar medlemmar fjerne andre frå denne sørvaren permanent."
+            "t": "Utesteng medlemmar",
+            "d": "Lar medlemmar fjerna andre frå denne sørvaren permanent."
         },
         "TimeoutMembers": {
-            "d": "Lar medlemmar mellombels forhindre brukare frå å samhandle med sørvaren."
+            "d": "Lar medlemmar mellombels forhindra brukare frå å samhandla med sørvaren.",
+            "t": "Mellombels Forstum Medlemmar"
         },
         "AssignRoles": {
-            "t": "Tildel roller",
-            "d": "Lar medlemmar tildele roller under sin eigen rangering til andre medlemmar."
+            "t": "Tildel Roller",
+            "d": "Lar medlemmar tildela roller under sin eigen rangering til andre medlemmar."
         },
         "ChangeNickname": {
             "t": "Endre kallenamn",
-            "d": "Lar medlemmar endre sitt eigne kallenamn i denne sørvaren."
+            "d": "Lar medlemmar endra sitt eigne kallenamn i denne sørvaren."
         },
         "ManageNicknames": {
-            "t": "Håndter kallenamn",
-            "d": "Lar medlemmar endre andre brukares kallenamn."
+            "t": "Håndter Kallenamn",
+            "d": "Lar medlemmar endra andre brukares kallenamn."
         },
         "ChangeAvatar": {
-            "t": "Endre avatar",
-            "d": "Lar medlemmar endre eigne sørvarikon på denne sørvaren."
+            "t": "Endre Avatar",
+            "d": "Lar medlemmar endra eigne sørvarikon på denne sørvaren."
         },
         "RemoveAvatars": {
-            "t": "Fjern avatarer",
-            "d": "Lar medlemmar fjerne andre medlemmars sørvaravatar på denne sørvaren."
+            "t": "Fjern Avatarer",
+            "d": "Lar medlemmar fjerna andre medlemmars sørvaravatar på denne sørvaren."
         },
         "ReadMessageHistory": {
-            "t": "Les meldingshistorikk",
-            "d": "Lar medlemmar lese meldingslogga til denne kanalen."
+            "t": "Les Meldingshistorikk",
+            "d": "Lar medlemmar lesa meldingslogga til denne kanalen."
         },
         "SendMessage": {
-            "t": "Send meldingar",
-            "d": "Lar medlemmar sende meldingar i tekstkanalar."
+            "t": "Send Meldingar",
+            "d": "Lar medlemmar senda meldingar i tekstkanalar."
         },
         "ManageMessages": {
-            "t": "Håndter meldingar",
-            "d": "Lar medlemmar slette meldingar sendt av andre medlemmar."
+            "t": "Handter Meldingar",
+            "d": "Lar medlemmar sletta meldingar sendt av andre medlemmar."
         },
         "ManageChannel": {
-            "t": "Håndter kanalar",
-            "d": "Lar medlemmar redigere eller fjerne ein kanal."
+            "t": "Håndter Kanalar",
+            "d": "Lar medlemmar redigera eller fjerna ein kanal."
         },
         "InviteOthers": {
-            "t": "Inviter andre",
-            "d": "Lar medlemmar invitere andre brukare til ein kanal."
+            "t": "Inviter Andre",
+            "d": "Lar medlemmar invitera andre brukare til ein kanal."
         },
         "Masquerade": {
             "t": "Utkledning",
-            "d": "Tillèt medlemmar å endre namn og avatar per melding."
+            "d": "Tillèt medlemmar å endra namn og avatar per melding."
         },
         "React": {
-            "t": "Bruk Reaksjoner",
-            "d": "Lar medlemmar reagere på meldingar."
+            "t": "Bruk Reaksjonar",
+            "d": "Lar medlemmar reagera på meldingar."
         },
         "Connect": {
-            "t": "Koble til",
-            "d": "Lar medlemmar koble til ein talekanal."
+            "t": "Kopla til",
+            "d": "Lar medlemmar kopla til ein talekanal."
         },
         "Video": {
             "t": "Video",
-            "d": "Lar medlemmar strøyme i ein talekanal."
+            "d": "Lar medlemmar strøyma video i ein talekanal."
         },
         "MuteMembers": {
             "t": "Demp medlemmar",
-            "d": "Lar medlemmar dempe andre i ein talekanal."
+            "d": "Lar medlemmar dempa andre i ein talekanal."
         },
         "DeafenMembers": {
-            "t": "Døve medlemmar",
-            "d": "Lar medlemmar døve andre i ein talekanal."
+            "t": "Døyva medlemmar",
+            "d": "Lar medlemmar døyva andre i ein talekanal."
         },
         "MoveMembers": {
             "t": "Flytt medlemmar",
-            "d": "Lar medlemmar flytte andre mellom talekanalar."
+            "d": "Lar medlemmar flytta andre mellom talekanalar."
+        },
+        "ManageWebhooks": {
+            "t": "Handtere Vebbkrokar",
+            "d": "Lar medlemmar handtera vebbkrokar i ein kanal."
+        },
+        "SendEmbeds": {
+            "d": "Lar medlemmar senda innebygd embed-innhald, anten frå lenkjer eller eigendefinerte tekst-embed.",
+            "t": "Send Embed"
         }
     },
     "quantities": {
@@ -1050,7 +1063,7 @@
         },
         "dropFiles": {
             "many": "Slepp {{count}} filer",
-            "one": "Slepp ein fil"
+            "one": "Slepp ei fil"
         }
     },
     "notifications": {
