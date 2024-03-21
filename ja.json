@@ -234,7 +234,8 @@
                         "delete": "アカウントの削除",
                         "disable": "アカウントの無効化",
                         "description": "いつでもアカウントを無効化、または削除することができます。この操作を行うとログアウトされ、チャット履歴やフレンドと共に、アカウントは完全に削除されます。",
-                        "title": "アカウント管理"
+                        "title": "アカウント管理",
+                        "delete_description": "あなたのアカウントとすべてのデータ（メッセージと友達リストを含む）は削除のためにキューに入れられます。確認メールが送信されますので、7日以内にサポートまでご連絡ください。"
                     },
                     "2fa": {
                         "remove_auth": "二要素認証を無効化",
@@ -273,6 +274,36 @@
                     "wip": "注意：この機能は現在開発中です。",
                     "delete_plugin": "削除",
                     "no_plugins": "プラグインはインストールされていません。"
+                },
+                "accessibility": {
+                    "title": "アクセシビリティ",
+                    "descriptions": {
+                        "reduced_motion": "これが有効な場合、アニメーションやモーションエフェクトは再生されないか、強度が弱くなります。"
+                    },
+                    "reduced_motion": "縮小モーション"
+                },
+                "keybinds": {
+                    "title": "キーバインド",
+                    "search": "キーバインドを検索中…",
+                    "remove_keybind": "キーバインドを外す",
+                    "reset_keybind": "キーバインドを{{keybind}}にリセットする",
+                    "category": {
+                        "advanced": "アドバンス",
+                        "navigation": "ナビゲーション",
+                        "messaging": "メッセージ"
+                    },
+                    "description": "キーバインドの表示と設定",
+                    "add_keybind": "新しいキーバインドを追加する",
+                    "edit_keybind": "キーバインドを編集する",
+                    "action": {
+                        "navigate_channel_up": {
+                            "title": "前のチャンネルに移動する",
+                            "description": "前のチャンネルに移動する。"
+                        },
+                        "navigate_channel_down": {
+                            "title": "次のチャンネルに移動する"
+                        }
+                    }
                 }
             },
             "actions": {
