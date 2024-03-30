@@ -96,8 +96,8 @@
             "discover": "Ontdek vir Revolt",
             "group": "Skep 'n groep",
             "group_desc": "Nooi al jou vriende by, sommige koel botte, en gooi 'n groot partytjie.",
-            "join-testers_desc": "Jy kan sake aanmeld en verbeterings met ons direk hier bespreek.",
-            "goto-testers_desc": "Jy kan sake aanmeld en verbeterings met ons direk hier bespreek.",
+            "join-testers_desc": "Jy kan sake aangee en verbeterings met ons direk hier bespreek.",
+            "goto-testers_desc": "Jy kan sake aangee en verbeterings met ons direk hier bespreek.",
             "feedback_desc": "Laat ons weet hoe ons onse toep kan verbeter deur om ons terugvoer te gee.",
             "discover_desc": "Vind 'n gemeenskap op jou stokperdjies of belange gebaseer."
         },
@@ -150,8 +150,8 @@
                 "voice": {
                     "connected": "Stem verbind",
                     "leave": "Verlaat",
-                    "unmute": "Ontdemp",
-                    "mute": "Demp"
+                    "unmute": "Onverstom",
+                    "mute": "Verstom"
                 },
                 "misc": {
                     "viewing_old": "Kyk tans na ouer boodskappe",
@@ -162,10 +162,10 @@
                     "not_loaded": "Boodskap nie gelaai nie, klik om te spring",
                     "no_sending": "Jy het nie toestemming om boodskappe in hierdie kanaal te stuur nie.",
                     "timed_out": "Jy kan vir {{time}} nie weer tik nie.",
-                    "blocked_user": "Geblokte Gebruiker",
+                    "blocked_user": "Geblokkeerde Gebruiker",
                     "sent_multiple_files": "Het verskeie aanhegsels gestuur",
                     "failed_load": "Kon nie boodskap laai nie.",
-                    "blocked_messages": "{{count}} geblokte boodskappe",
+                    "blocked_messages": "{{count}} geblokkeerde boodskappe",
                     "sent_file": "Het 'n aanhegsel gestuur",
                     "load_file": "Laai lêer"
                 },
@@ -182,12 +182,12 @@
                 "bridged": "Boodskap was op 'n ander platform gestuur",
                 "new_to_revolt": "Nuut by Revolt",
                 "team": "Amptelike Inligting",
-                "user_timed_out": "Gebruiker kan vir {{time}} nie weer tik nie.",
+                "user_timed_out": "Gebruikeris vir {{time}} verstil.",
                 "notifications": {
                     "default": "Gebruik Verstek",
                     "all": "Alle Boodskappe",
                     "mention": "Slegs Genoemdes",
-                    "muted": "Gedemp",
+                    "muted": "Verstom",
                     "none": "Geen"
                 },
                 "search": {
@@ -525,7 +525,7 @@
                     "issue": "Skep 'n nuwe probleem",
                     "issue_desc": "Om ons te help om probleme meer maklik af te deel, kan jy 'n probleem op GitHub skep.",
                     "bug": "Foutspoorsnyer",
-                    "bug_desc": "Besien huidige aktiewe foutsaanmelde hier."
+                    "bug_desc": "Besien huidige aktiewe foutsaangewings hier."
                 },
                 "logOut": "Teken Uit"
             },
@@ -537,6 +537,9 @@
                 },
                 "permissions": {
                     "title": "Toestemmings"
+                },
+                "webhooks": {
+                    "title": "Web-hake"
                 }
             },
             "server_pages": {
@@ -648,9 +651,462 @@
                 "signed_out": "Jy was uitgeteken!",
                 "token_reveal": "{{name}} se Teken",
                 "onboarding": {
-                    "welcome": "Welkom by"
+                    "welcome": "Welkom by",
+                    "pick": "Kies 'n gebruikersnaam waardeur jy wil hê mense vir jou kan vind. Hierdie kan later in jou gebruikersinstellings verander word."
+                },
+                "prompt": {
+                    "confirm_leave": "Verlaat {{name}}?",
+                    "confirm_leave_long": "Jy sal nie kan weer aansluit nie tensy jy weer genooi is.",
+                    "confirm_close_dm": "Maak gesprek met {{name}} toe?",
+                    "confirm_close_dm_long": "Jy kan dit weer later oopmaak, maar dit sal op altwee kante verdwyn.",
+                    "confirm_delete": "Wis {{name}} af?",
+                    "confirm_delete_long": "Wanneer dit afgewis is, kan jy nie teruggaan nie.",
+                    "confirm_delete_message_long": "Is jy seker dat jy hierdie wil afwis?",
+                    "create_invite_generate": "Wek nooi tans op…",
+                    "create_invite_created": "Hier is jou nuwe nooikode:",
+                    "confirm_ban": "Jy gaan {{name}} verbod",
+                    "confirm_ban_reason": "Verbodsrede",
+                    "unfriend_user": "Onvriend {{name}}?",
+                    "unfriend_user_long": "Jy sal nie weer met hulle kan praat tot jy hulle terug byvoeg nie.",
+                    "block_user": "Blokkeer {{name}}?",
+                    "silent_leave": "Verlaat Stil",
+                    "members_not_notified": "Ander lede sal nie kennis gegee word nie",
+                    "confirm_kick": "Is jy seker jy {{name}} wil skop?",
+                    "block_user_long": "Is jy seker jy {{name}} wil blokkeer? Hulle sal ook van jou vriendelys verwyder word."
+                },
+                "account": {
+                    "change": {
+                        "username": "Verander jou gebruikersnaam",
+                        "email": "Verander jou epos",
+                        "password": "Verander jou wagwoord"
+                    },
+                    "failed": "Verandering het misluk!"
+                },
+                "mfa": {
+                    "recovery_codes": "Jou bergingskodes",
+                    "save_codes": "Asseblief stoor hierdies na 'n veilige plek.",
+                    "select_method": "Asseblief kies 'n metode om jou versoek waar te merk.",
+                    "enable_totp": "Skakel waarmerkertoep aan",
+                    "prompt_totp": "Asseblief skandeer of gebruik die teken onderaan in jou waarmerkertoep.",
+                    "enter_code": "Sit Kode In",
+                    "confirm": "Asseblief bevestig hierdie aksie deur die gekose metode."
+                },
+                "changelogs": {
+                    "title": "Veranderingslogs",
+                    "description": "Lees oor opdaterings na Revolt toe.",
+                    "older": "Besien ouer opdaterings"
+                },
+                "out_of_date": {
+                    "description": "Dit moet opgedateer word om saam met onlangse veranderings mee te werk.",
+                    "version": "Jou kliënt is by {{client}}, maar die bediener benodig {{server}}.",
+                    "ignore": "Ignoreer opdatering",
+                    "title": "Jou kliënt is ouderwets!",
+                    "attempting": "Probeer tans opdateer…"
+                },
+                "external_links": {
+                    "title": "Eksterne skakels kan gevaarlik wees!",
+                    "short": "Is jy seker jy wil hierna gaan:",
+                    "trust_domain": "Vertrou hierdie vak"
+                },
+                "sessions": {
+                    "title": "Is jy seker jy jou sessies wil skoonmaak?",
+                    "short": "Jy kan hierdie nie ontdoen nie.",
+                    "accept": "Verwyder alle sessies"
+                },
+                "report": {
+                    "reason": "Rede",
+                    "reported": "Aangegee",
+                    "message": "Gee Boodskap Aan",
+                    "block_user": "Wil jy hierdie gebruiker blokkeer?",
+                    "additional_context": "Bygevoegde Inligting",
+                    "content_reason": {
+                        "Illegal": "Inhoud breek een of meer wette",
+                        "PromotesHarm": "Inhoud bevorder skade aan anders of self",
+                        "SpamAbuse": "Hierdie is gemorspos of verhoogsmisbruik",
+                        "Malware": "Hierdie is wanware",
+                        "Harassment": "Hierdie is teistering of afknouery aan 'n ander gebruiker geteiken"
+                    },
+                    "user_reason": {
+                        "InappropriateProfile": "Gebruiker se profiel is onvanpas vir 'n algemene gehoor",
+                        "Impersonation": "Hierdie gebruiker doen as iemand anders voor",
+                        "BanEvasion": "Hierdie gebruiker vermy 'n verbod",
+                        "SpamAbuse": "Gebruiker stuur gemorspos of misbruik die verhoog andersins",
+                        "Underage": "Hierdie gebruiker is nie oud genoeg om 'n rekening te hê nie"
+                    },
+                    "by_name": "Gee {{name}} Aan",
+                    "thank_you": "Dankie dat jy help om Revolt veilig te hou. Ons sal so gou as moontlik deur jou aangewing gaan.",
+                    "no_reason": "Geen rede bepaal nie / ander rede"
+                },
+                "actions": {
+                    "ok": "Goed",
+                    "ban": "Verbod",
+                    "done": "Gedoen",
+                    "kick": "Skop",
+                    "save": "Stoor",
+                    "hide": "Verberg",
+                    "edit": "Wysig",
+                    "block": "Blokkeer",
+                    "close": "Maak Toe",
+                    "leave": "Verlaat",
+                    "reset": "Herstel",
+                    "back": "Gaan terug",
+                    "remove": "Verwyder",
+                    "create": "Skep",
+                    "reveal": "Wys",
+                    "update": "Opdateer",
+                    "cancel": "Kanselleer",
+                    "preview": "Voorskou",
+                    "confirm": "Bevestig",
+                    "reload": "Herlaai Toep",
+                    "send_email": "Stuur Epos",
+                    "dont_block": "Moenie blokkeer nie",
+                    "delete": "Wis af",
+                    "report": "Gee aan",
+                    "continue": "Gaan aan"
+                },
+                "edit_keybind": {
+                    "title": "Wysig sleutelbinder vir {{action}}",
+                    "placeholder": "Druk sleutels om op te neem"
                 }
+            },
+            "popovers": {
+                "user_profile": {
+                    "profile": "Profiel",
+                    "mutual_groups": "Wedersydse Groepe",
+                    "mutual_servers": "Wedersydse Bedieners",
+                    "empty": "Dis 'n bietjie leeg hierin…",
+                    "no_users": "Geen wedersydse vriende nie",
+                    "no_groups": "Geen wedersydse groepe nie",
+                    "no_servers": "Geen wedersydse bedieners nie",
+                    "sub": {
+                        "badges": "Kentekens",
+                        "information": "Inligting",
+                        "connections": "Verbindings"
+                    },
+                    "badges": {
+                        "founder": "Stigter",
+                        "supporter": "Ondersteuner",
+                        "responsible_disclosure": "Verantwoordelik Onthulde Veiligheidsprobleme",
+                        "early_adopter": "Vroeë Aannemer",
+                        "translator": "Vertaler",
+                        "moderation": "Verhoogsmatigheid"
+                    },
+                    "mutual_friends": "Wedersydse Vriende"
+                },
+                "user_picker": {
+                    "select": "Kies vriende om by te voeg."
+                },
+                "create_bot": {
+                    "title": "Skep 'n nuwe bot",
+                    "failed": "Botskepping het misluk!"
+                },
+                "server_identity": {
+                    "title": "Verander identiteit op {{server}}",
+                    "nickname": "Bynaam",
+                    "avatar": "Avatar"
+                }
+            },
+            "requires_online": "Jy moet aanlyn wees om hierdie te lees.",
+            "invite": {
+                "invited_by": "By {{user}} genooi",
+                "login": "Teken by Revolt in",
+                "accept": "Vaar Nooi Aan",
+                "user_count": "{{member_count}} gebruikers",
+                "invalid": "Ongeldige nooi!",
+                "invalid_desc": "Die nooi mag nie bestaan nie, of jy het nie toestemming om in te sluit nie."
             }
+        },
+        "context_menu": {
+            "copy_id": "Kopie ID",
+            "copy_selection": "Kopie keuse",
+            "copy_text": "Kopie teks",
+            "copy_uid": "Kopie gebruiker ID",
+            "copy_sid": "Kopie bediener ID",
+            "copy_cid": "Kopie kanaal ID",
+            "copy_mid": "Kopie boodskap ID",
+            "copy_message_link": "Kopie boodskapskakel",
+            "mention": "Noem",
+            "message_user": "Boodskap",
+            "view_profile": "Besien profiel",
+            "mark_as_read": "Merk as gelees",
+            "mark_unread": "Merk as ongelees",
+            "retry_message": "Probeer weer stuur",
+            "cancel_message": "Kanselleer stuur",
+            "edit_message": "Wysig boodskap",
+            "report_message": "Gee boodskap aan",
+            "delete_message": "Wis boodskap af",
+            "make_owner": "Gee groepseienaarskap",
+            "remove_member": "Verwyder van groep",
+            "kick_member": "Skop leed",
+            "ban_member": "Verbod leed",
+            "open_file": "Maak lêer oop",
+            "save_file": "Stoor lêer",
+            "save_image": "Stoor prentjie",
+            "save_video": "Stoor video",
+            "copy_link": "Kopie skakel",
+            "open_link": "Maak skakel oop",
+            "block_user": "Blokkeer gebruiker",
+            "unblock_user": "Ontblokkeer gebruiker",
+            "add_friend": "Voeg vriend by",
+            "cancel_friend": "Kanselleer versoek",
+            "report_user": "Gee gebruiker aan",
+            "custom_status": "Pasgemaakte status",
+            "clear_status": "Maak status skoon",
+            "set_custom_status": "Stel 'n pasgemaakte status",
+            "leave_group": "Verlaat groep",
+            "leave_server": "Verlaat bediener",
+            "close_dm": "Maak DB toe",
+            "report_server": "Gee bediener aan",
+            "delete_server": "Wis bediener af",
+            "delete_channel": "Wis kanaal af",
+            "create_channel": "Skep kanaal",
+            "create_category": "Skep kategorie",
+            "open_notification_options": "Kennisgewingsopsies",
+            "open_channel_settings": "Kanaalinstellings",
+            "open_server_settings": "Bedienerinstellings",
+            "open_group_settings": "Groepinstellings",
+            "reply_message": "Beantwoord",
+            "quote_message": "Haal boodskap aan",
+            "open_image": "Maak prentjie oop",
+            "open_video": "Maak video oop",
+            "remove_friend": "Verwyder vriend",
+            "edit_identity": "Wysig identiteit",
+            "create_invite": "Skep nooi"
+        },
+        "permissions": {
+            "required": "Toestemmings benodig"
+        }
+    },
+    "quantities": {
+        "members": {
+            "one": "1 Leed",
+            "many": "{{count}} Lede"
+        },
+        "dropFiles": {
+            "one": "Drop 'n lêer",
+            "many": "Drop {{count}} lêers"
+        }
+    },
+    "dayjs": {
+        "lastDay": "[Gister op] {{time}}",
+        "sameDay": "[Vandag op] {{time}}",
+        "nextDay": "[Môre op] {{time}}",
+        "lastWeek": "[Laaste] dddd [op] {{time}}",
+        "nextWeek": "dddd [op] {{time}}",
+        "defaults": {
+            "date_separator": "-",
+            "date_format": "tradisioneel",
+            "twelvehour": "nee"
+        }
+    },
+    "notifications": {
+        "sent_request": "@{{person}} het vir jou 'n vriendsversoek gestuur.",
+        "now_friends": "Jy is nou vriende met @{{person}}!"
+    },
+    "error": {
+        "NetworkError": "Netwerksfout.",
+        "Unauthorized": "Ongemagtig.",
+        "Unlabelled": "Iets het gebeur.",
+        "FailedValidation": "Veldsbevestiging het misluk.",
+        "DatabaseError": "Batabasisfout.",
+        "InternalError": "Interne fout.",
+        "UnknownError": "Bekyk konsole.",
+        "OperationFailed": "Bewerking het misluk.",
+        "RenderFail": "Sjabloonsoordrag het misluk.",
+        "InvalidSession": "Onbevestigde sessie.",
+        "UnverifiedAccount": "Onbevestigde rekening.",
+        "UnknownUser": "Onbekende gebruiker.",
+        "EmailInUse": "Epos in gebruik.",
+        "EmailFailed": "Eposstuur het misluk.",
+        "InvalidCredentials": "Epos of wagwoord is verkeerd.",
+        "InvalidToken": "Onbevestigde teken",
+        "InvalidInvite": "Onbevestigde kode",
+        "UsernameTaken": "Daai gebruikersnaam is gevat.",
+        "AlreadyFriends": "Alklaar vriende met hierdie gebruiker.",
+        "AlreadySentRequest": "Alklaar 'n versoek vir hierdie gebruiker gestuur.",
+        "Blocked": "Jy het hierdie gebruiker geblokkeer.",
+        "NoEffect": "Hierdie versoek het geen effek gehad nie.",
+        "RequiredField": "Benodig",
+        "TooShort": "Te kort",
+        "TooLong": "Te lank",
+        "InvalidEmail": "Onbevestigde eposadres",
+        "Unavailable": "Onbeskikbaar.",
+        "FileTooLarge": "Lêer is te groot.",
+        "MissingData": "Versoek vermis data.",
+        "ProbeError": "Lêermetadatabehaling het misluk.",
+        "IoError": "Bediener het 'n I/O fout bereik.",
+        "UnsupportedBrowser": "Blaaier vermis ondersteuning vir hierdie kenmerk.",
+        "AlreadyOnboarded": "Alklaar onboarding gedaan.",
+        "ReachedMaximumBots": "Jy het die maksimum nommer botte bereik.",
+        "DiscriminatorChangeRatelimited": "Te veel merkerveranderings.",
+        "MissingPermission": "Afwesige toestemming.",
+        "MissingHeaders": "Afwesige loopkoppe.",
+        "MissingInvite": "Afwesige nooikode in versoek.",
+        "BlockedOther": "Hierdie gebruiker het jou geblokkeer.",
+        "FailedToReceive": "Bediener het misluk om jou lêer te kry.",
+        "DeniedNotification": "Jy het kennisgewingstoegang afsweer. Bekyk bladinstellings.",
+        "CompromisedPassword": "Hierdie wagwoord is in gevaar gestel.",
+        "AudioPermissionBlock": "Geen toegang na jou mikrofoon nie. Asseblief bekyk jou blaaier se gedaante."
+    },
+    "permissions": {
+        "ManageChannels": {
+            "t": "Bestuur Kanale",
+            "d": "Laat lede kanale skep, wysig en afwis."
+        },
+        "ManageServer": {
+            "t": "Bestuur Bediener",
+            "d": "Laat lede hierdie bediener se naam, beskrywing, ikoon en ander soortgelyke inligting verander."
+        },
+        "ManagePermissions": {
+            "t": "Bestuur Toegange",
+            "d": "Laat lede toegange vir kanale en rolle met 'n laer rang te verander."
+        },
+        "ManageRole": {
+            "t": "Bestuur Rolle",
+            "d": "Laat lede rolle met 'n laer rang as hul s'n skep, wysig en afwis, en roltoegange aan kanale beperk."
+        },
+        "ManageCustomisation": {
+            "t": "Bestuur Pasmaking",
+            "d": "Laat lede emosikone skep, wysig en afwis."
+        },
+        "KickMembers": {
+            "t": "Skop Lede",
+            "d": "Laat lede vir lede van hierdie bediener te skop. Geskopte lede mag met 'n nooi weer insluit."
+        },
+        "BanMembers": {
+            "t": "Verbod Lede",
+            "d": "Laat lede vir lede van hierdie bediener vir goed te verwyder."
+        },
+        "TimeoutMembers": {
+            "t": "Verstil Lede",
+            "d": "Laat lede gebruikers vir 'n ruk van om met die bediener te wissel verhinder."
+        },
+        "AssignRoles": {
+            "t": "Daag Rolle Op",
+            "d": "Laat lede om rolle laer as hul rang vir ander lede te gee."
+        },
+        "ChangeNickname": {
+            "t": "Verander Bynaam",
+            "d": "Laat lede hul bynaam op hierdie bediener verander."
+        },
+        "ManageNicknames": {
+            "t": "Bestuur Byname",
+            "d": "Laat lede die byname van ander lede verander."
+        },
+        "ChangeAvatar": {
+            "t": "Verander Avatar",
+            "d": "Laat lede hul avatar op hierdie bediener verander."
+        },
+        "RemoveAvatars": {
+            "t": "Verwyder Avatare",
+            "d": "Laat lede die bedieneravatare van ander lede op hierdie bediener te verwyder."
+        },
+        "ViewChannel": {
+            "t": "Bekyk Kanaal",
+            "d": "Laat lede enige kanale wat hulle hierdie toegang op het bekyk."
+        },
+        "ReadMessageHistory": {
+            "t": "Lees Boodskapgeskiedenis",
+            "d": "Laat lede die boodskapgeskiedenis van hierdie kanaal lees."
+        },
+        "SendMessage": {
+            "t": "Stuur Boodskappe",
+            "d": "Laat lede boodskappe in tekskanale stuur."
+        },
+        "ManageMessages": {
+            "t": "Bestuur Boodskappe",
+            "d": "Laat lede boodskappe by ander lede gestuur verwyder."
+        },
+        "ManageWebhooks": {
+            "t": "Bestuur Webhake",
+            "d": "Laat lede web-hake in 'n kanaal kontroleer."
+        },
+        "ManageChannel": {
+            "t": "Bestuur Kanale",
+            "d": "Laat lede 'n kanaal wysig of afwis."
+        },
+        "InviteOthers": {
+            "t": "Nooi Anders",
+            "d": "Laat lede ander gebruikers na 'n kanaal nooi."
+        },
+        "SendEmbeds": {
+            "t": "Stuur Inbeddings",
+            "d": "Laat lede ingebedde inhoud stuur, of van skakels of van pasgemaakte teksinbeddings."
+        },
+        "UploadFiles": {
+            "t": "Laai Lêers Op",
+            "d": "Laat lede lêers in tekskanale oplaai."
+        },
+        "Masquerade": {
+            "t": "Voordoen",
+            "d": "Laat lede hul naam en avatar vir elke boodskap verander."
+        },
+        "React": {
+            "t": "Gebruik Beskeide",
+            "d": "Laat lede aan boodskappe optree."
+        },
+        "Connect": {
+            "t": "Verbind",
+            "d": "Laat lede aan 'n stemkanaal verbind."
+        },
+        "Speak": {
+            "t": "Praat",
+            "d": "Laat lede in 'n stemkanaal praat."
+        },
+        "Video": {
+            "t": "Video",
+            "d": "Laat lede videoinhoud in 'n stemkanaal toestroom."
+        },
+        "MuteMembers": {
+            "t": "Verstom Lede",
+            "d": "Laat lede anders in 'n stemkanaal verstom."
+        },
+        "DeafenMembers": {
+            "d": "Laat lede anders in 'n stemkanaal verdoof.",
+            "t": "Verdoof Lede"
+        },
+        "MoveMembers": {
+            "t": "Skuif Lede",
+            "d": "Laat lede anders tussen stemkanale skuif."
+        }
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "PrintScreen": {
+            "full": "Print Screen",
+            "short": "PrtSc"
+        },
+        "ScrollLock": {
+            "full": "Scroll Lock",
+            "short": "ScrLK"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
         }
     }
 }
