@@ -1,1 +1,656 @@
-{}
+{
+    "general": {
+        "about": "Oor",
+        "tos": "Terme en Voorwaardes",
+        "privacy": "Privaatheidsbeleid",
+        "image_by": "Prentjie by",
+        "loading": "Laai tans…",
+        "on": "Aan",
+        "off": "Af",
+        "disabled": "Afgeskakel",
+        "unavailable": "Onbeskikbaar",
+        "learn_more": "Leer meer"
+    },
+    "actions": {
+        "submit": "Dien in"
+    },
+    "login": {
+        "welcome": "Welkom!",
+        "subtitle": "Teken by Revolt in",
+        "welcome2": "Hallo!",
+        "title": "Inteken",
+        "username": "Gebruikersnaam",
+        "email": "Epos",
+        "password": "Wagwoord",
+        "new_password": "Nuwe Wagwoord",
+        "totp": "Waarmerkertoep",
+        "recovery": "Herstellingskode",
+        "invite": "Nooikode",
+        "enter": {
+            "username": "Voer jou gebruikersnaam in.",
+            "email": "Asseblief voer jou epos in.",
+            "password": "Voer jou wagwoord in.",
+            "new_password": "Voer 'n nuwe wagwoord in.",
+            "current_password": "Voer jou huidige wagwoord in.",
+            "invite": "Voer jou nooikode in."
+        },
+        "forgot": "Jou wagwoord vergeet?",
+        "reset": "Stel wagwoord terug",
+        "set_password": "Stel nuwe wagwoord",
+        "new": "Nuut by Revolt?",
+        "create": "Skep 'n nuwe rekening",
+        "missing_verification": "Nie 'n epos gekry nie?",
+        "resend": "Stuur bewysing weer",
+        "cancel": "Kanselleer versoek",
+        "check_mail": "Kyk na jou pos!",
+        "check_spam": "Asseblief kyk na jou spamvouer as jy dit nie kan vind nie",
+        "open_mail_provider": "Maak {{provider}} oop",
+        "verifying_account": "Bewys tans jou rekening…",
+        "verified_account": "Jou rekening is bewys!",
+        "error": {
+            "create": "Aansluiting het misluk!",
+            "login": "Intekening het misluk!",
+            "reset": "Herstelling het misluk!",
+            "resend": "Afslaan het misluk!",
+            "verify": "Bewys het misluk!"
+        },
+        "register": "Sluit aan",
+        "log_out_other": "Teken by alle ander sessies uit",
+        "remembered": "Gaan terug na intekening",
+        "verified_continue": "Gaan voort na intekening toe",
+        "unofficial_instance": "Derde-party geval.",
+        "subtitle2": "Skep 'n rekening",
+        "current_password": "Huidige Wagwoord",
+        "existing": "Het reeds 'n rekening?",
+        "email_delay": "Ons het jou 'n bewysingsepos gestuur. Asseblief laat tot 10 minute vir dit om aan te kom.",
+        "successful_registration": "Suksesvol aangesluit!"
+    },
+    "app": {
+        "status": {
+            "online": "Aanlyn",
+            "idle": "Ledig",
+            "focus": "Fokus",
+            "busy": "Moenie Versteur Nie",
+            "invisible": "Onsigbaar",
+            "offline": "Aflyn",
+            "reconnect": "Herverbind"
+        },
+        "navigation": {
+            "tabs": {
+                "home": "Tuiste",
+                "dev": "Ontwikkelaar",
+                "friends": "Vriende",
+                "unreads": "Ongelees",
+                "saved": "Gestoorde Note"
+            }
+        },
+        "home": {
+            "directs": "Direkte Boodskappe",
+            "join-testers": "Sluit by die toetsersbediener in",
+            "goto-testers": "Gaan na die toetsersbediener toe",
+            "donate": "Dra by Revolt",
+            "donate_desc": "Ondersteun die projek deur skenking - dankie!",
+            "feedback": "Gee terugvoer aan Revolt",
+            "settings": "Maak instellings oop",
+            "settings-tooltip": "Jy kan ook die gebruikerikoon in die bo-linker kant regs-klik, of links-klik as jy alklaar tuis is.",
+            "discover": "Ontdek vir Revolt",
+            "group": "Skep 'n groep",
+            "group_desc": "Nooi al jou vriende by, sommige koel botte, en gooi 'n groot partytjie.",
+            "join-testers_desc": "Jy kan sake aanmeld en verbeterings met ons direk hier bespreek.",
+            "goto-testers_desc": "Jy kan sake aanmeld en verbeterings met ons direk hier bespreek.",
+            "feedback_desc": "Laat ons weet hoe ons onse toep kan verbeter deur om ons terugvoer te gee.",
+            "discover_desc": "Vind 'n gemeenskap op jou stokperdjies of belange gebaseer."
+        },
+        "main": {
+            "categories": {
+                "conversations": "Gesprekke",
+                "participants": "Deelnemers",
+                "channels": "Kanale",
+                "members": "Lede"
+            },
+            "channel": {
+                "message_where": "Stuur 'n boodskap aan {{channel_name}}",
+                "message_who": "Stuur 'n boodskap aan @{{person}}",
+                "message_saved": "Stoor by jou Notas",
+                "uploading_file": "Laai tans op…",
+                "failed_upload": "Oplaai het misluk!",
+                "attached_file": "{{filename}} bepaal",
+                "reactions": {
+                    "unknown_reacted": "{{count}} mense het gereageer",
+                    "single_reacted": "1 mens het gereageer",
+                    "people_reacted": "{{people}} het gereageer",
+                    "others_reacted": "{{userlist}} en {{count}} anders het gereageer"
+                },
+                "reply": {
+                    "replying": "Antwoord op",
+                    "toggle": "Skakel skrywerontdek"
+                },
+                "typing": {
+                    "single": "{{user}} tik…",
+                    "multiple": "{{userlist}} en {{user}} tik…",
+                    "several": "Verskeie mense tik…"
+                },
+                "system": {
+                    "user_joined": "{{user}} sluit aan",
+                    "user_left": "{{user}} verlaat",
+                    "user_banned": "{{user}} was verbod",
+                    "added_by": "{{user}} was by {{other_user}} bygevoeg",
+                    "removed_by": "{{user}} was by {{other_user}} verwyder",
+                    "channel_renamed": "{{user}} het die kanaal na {{name}} toe verander",
+                    "channel_icon_changed": "{{user}} het die kanaalikoon verander",
+                    "channel_ownership_changed": "{{from}} het vir {{to}} groepeienaarskap gegee",
+                    "registered_at": "{{time}} aangesluit",
+                    "user_kicked": "{{user}} was geskop",
+                    "channel_description_changed": "{{user}} het die kanaalbeskrywing verander"
+                },
+                "start": {
+                    "saved": "Hierdie is die begin van jou notas.",
+                    "group": "Hierdie is die begin van jul gesprek."
+                },
+                "voice": {
+                    "connected": "Stem verbind",
+                    "leave": "Verlaat",
+                    "unmute": "Ontdemp",
+                    "mute": "Demp"
+                },
+                "misc": {
+                    "viewing_old": "Kyk tans na ouer boodskappe",
+                    "jump_present": "Spring hede toe",
+                    "jump_beginning": "Spring begin toe",
+                    "new_messages": "Nuwe boodskappe van {{time_ago}} af",
+                    "spoiler_attachment": "Verklapper",
+                    "not_loaded": "Boodskap nie gelaai nie, klik om te spring",
+                    "no_sending": "Jy het nie toestemming om boodskappe in hierdie kanaal te stuur nie.",
+                    "timed_out": "Jy kan vir {{time}} nie weer tik nie.",
+                    "blocked_user": "Geblokte Gebruiker",
+                    "sent_multiple_files": "Het verskeie aanhegsels gestuur",
+                    "failed_load": "Kon nie boodskap laai nie.",
+                    "blocked_messages": "{{count}} geblokte boodskappe",
+                    "sent_file": "Het 'n aanhegsel gestuur",
+                    "load_file": "Laai lêer"
+                },
+                "nsfw": {
+                    "channel": {
+                        "marked": "Hierdie kanaal is as NSFW gemerk.",
+                        "confirm": "Tree kanaal in"
+                    },
+                    "confirm": "Ek bevestig dat ek te minste 18 jaar oud is."
+                },
+                "edited": "(gewysig)",
+                "bot": "Bot",
+                "bridge": "brug",
+                "bridged": "Boodskap was op 'n ander platform gestuur",
+                "new_to_revolt": "Nuut by Revolt",
+                "team": "Amptelike Inligting",
+                "user_timed_out": "Gebruiker kan vir {{time}} nie weer tik nie.",
+                "notifications": {
+                    "default": "Gebruik Verstek",
+                    "all": "Alle Boodskappe",
+                    "mention": "Slegs Genoemdes",
+                    "muted": "Gedemp",
+                    "none": "Geen"
+                },
+                "search": {
+                    "title": "Soek",
+                    "sort": {
+                        "relevance": "Belangrikheid",
+                        "latest": "Laatste",
+                        "oldest": "Oudste"
+                    }
+                },
+                "errors": {
+                    "title": "Oeps, daar's niks hier nie!",
+                    "nochannels": "Hierdie bediener het geen kanale nie, of jy het geen toegang aan eniges nie.",
+                    "nochannel": "Geen kanaal nie"
+                },
+                "unknown_user": "<Onbekende Gebruiker>",
+                "new_to_server": "Nuut by hierdie bediener"
+            },
+            "groups": {
+                "create": "Skep 'n groep",
+                "description": "Groepbeskrywing",
+                "owner": "Groepeienaar",
+                "name": "Groepnaam"
+            },
+            "servers": {
+                "create": "Skep 'n bediener",
+                "name": "Bedienernaam",
+                "description": "Bedienerbeskrywing",
+                "channel_name": "Kanaalnaam",
+                "channel_type": "Kanaaltipe",
+                "category_name": "Rubrieknaam",
+                "custom_banner": "Pasgemaakte Banier",
+                "owner": "Bedienerseienaar",
+                "text_channel": "Tekskanaal",
+                "voice_channel": "Stemkanaal",
+                "channel_description": "Kanaalbeskrywing"
+            }
+        },
+        "settings": {
+            "categories": {
+                "user_settings": "Gebruikerinstellings",
+                "client_settings": "Kliëntinstellings",
+                "danger_zone": "Gevaarstreek"
+            },
+            "actions": {
+                "remove": "Verwyder",
+                "upload": "Laai Op",
+                "edit": "Wysig {{name}}",
+                "max_filesize": "(maks {{filesize}})"
+            },
+            "pages": {
+                "account": {
+                    "title": "My Rekening",
+                    "change_field": "Verander",
+                    "2fa": {
+                        "title": "Twee-faktor Waarmerking",
+                        "description": "Voeg 'n ekstra vlakte van veiligheid deur 2FW op jou rekening toe te laat.",
+                        "view_recovery": "Besien Bergingskodes",
+                        "generate_recovery": "Wek Bergingskodes Op",
+                        "generate_recovery_long": "Maak reg om 2FW te gebruik deur 'n bergingsmetode op te stel.",
+                        "add_auth": "Voeg Waarmerker By",
+                        "remove_auth": "Verwyder Waarmerker",
+                        "two_factor_on": "Twee-faktor waarmerking is huidig aan.",
+                        "two_factor_off": "Jy het nie twee-faktor waarmerking aangeskakel nie!",
+                        "view_recovery_long": "Besien en laai jou 2FW bergingskodes af."
+                    },
+                    "manage": {
+                        "title": "Rekeningsbestuur",
+                        "disable": "Skakel Rekening Af",
+                        "disable_description": "Jy sal nie jou rekening kan aandrif nie, tensy jy ondersteuning aanraak nie - alhoewel, jou data sal nie uitgevee word nie.",
+                        "delete": "Merk Rekening vir Afwissing",
+                        "delete_description": "Jou rekening en al jou data (insluitend jou boodskappe en vriendelys) sal vir afwissing getou wees. 'n Bevestigingsepos sal gestuur wees - jy kan hierdie binne 7 dae kanselleer deur ondersteuning aan te raak.",
+                        "description": "Skakel of wis jou rekening enige tyd af. Altwee aksies sal jou van jou aktiewe sessies uitteken."
+                    },
+                    "unique_id": "Hierdie is 'n unieke gebruikersidentifiseerder vir jou rekening."
+                },
+                "profile": {
+                    "title": "Profiel",
+                    "info": "Inligting",
+                    "fetching": "Haal tans jou profiel…",
+                    "placeholder": "Skryf iets oor jouself…",
+                    "profile_picture": "Profielprent",
+                    "custom_background": "Pasgemaakte Agtergrond",
+                    "edit_profile": "Wysig Profiel",
+                    "edit_background": "Wysig Agtergrond"
+                },
+                "sessions": {
+                    "title": "Sessies",
+                    "active_sessions": "Aktiewe Sessies",
+                    "this_device": "Hierdie Toestel",
+                    "created": "{{time_ago}} geskep",
+                    "logout": "Teken by alle ander sessies uit"
+                },
+                "audio": {
+                    "title": "Steminstellings",
+                    "input_device": "Mikrofoon",
+                    "tip_retry": "Jy het nie vir Revolt toegang om jou mikrofoon te gebruik gegee nie. Asseblief {{retryBtn}}.",
+                    "device_label_NA": "NVT",
+                    "button_retry": "probeer weer",
+                    "button_grant": "Gee toestemming",
+                    "output_device": "Spreker / Kopstuk",
+                    "tip_grant_permission": "Jy moet toestemming gee om klankinstellings aan te drif."
+                },
+                "appearance": {
+                    "title": "Voorkoms",
+                    "theme": "Tema",
+                    "colours": {
+                        "title": "Kleure"
+                    },
+                    "emoji": {
+                        "title": "Emosikon"
+                    },
+                    "fonts": {
+                        "title": "Fonte"
+                    },
+                    "advanced_options": {
+                        "title": "Gervorderde Opsies"
+                    },
+                    "display": {
+                        "default": "Verstek",
+                        "compact": "Kompak",
+                        "compact_description": "Lekker ou IRC.",
+                        "default_description": "Mooi, slank en byderwets."
+                    },
+                    "discover": {
+                        "title": "Ontdek Temas",
+                        "description": "Blaai temas by die gemeenskap gemaak"
+                    },
+                    "color": {
+                        "light": "lig",
+                        "dark": "donker"
+                    },
+                    "accent_selector": "Beklemtoon",
+                    "appearance_options": {
+                        "title": "Voorkomsopsies",
+                        "show_send": "Wys altyd Stuur Boodskap knoppie",
+                        "show_account_age": "Wys altyd rekeningsouderdom langs insluitingsboodskappe",
+                        "show_account_age_desc": "As hierdie afgeskakel is, sal die rekeningsouderdom slegs vir nuwe gebruikers gewys word.",
+                        "show_send_desc": "As hierdie afgeskakel is, sal die Stuur Boodskap knoppie slegs op selfoon verskyn."
+                    },
+                    "theme_options": {
+                        "title": "Temaopsies",
+                        "follow": "Volg stelseltema",
+                        "follow_desc": "As hierdie afgeskakel is, sal jy nie jou tema kan verander of 'n pasgemaakte tema kan gebruik nie.",
+                        "seasonal": "Seisoenale Tema",
+                        "transparency": "Deursigtigheidseffekte",
+                        "transparency_desc": "Skakel deursigtigheidseffekte deur die hele toep aan.",
+                        "seasonal_desc": "Wys effekte in die tuisteblad deur vakansieseisoene."
+                    },
+                    "emoji_pack": "Emosikonpakket",
+                    "message_display": "Boodskapvertoning",
+                    "advanced": "Gevorderde Opsies",
+                    "overrides": "Temaoorskrye",
+                    "reset_overrides": "Herstel oorskrye",
+                    "import_theme": "Voer tema van string in",
+                    "theme_data": "Temadata",
+                    "custom_css": "Pasgemaakte CSS",
+                    "sync": "Sincopsies",
+                    "font": "Font",
+                    "mono_font": "Monoruimtefontselekteerder",
+                    "ligatures": "Fontligature",
+                    "import": "Voer 'n tema in",
+                    "ligatures_desc": "Vir geondersteunde fonte, voeg ligature vir karakters aaneen - by voorbeeld, -> verander na 'n pyltjie."
+                },
+                "accessibility": {
+                    "title": "Toeganklikheid",
+                    "reduced_motion": "Verminderde Beweging",
+                    "descriptions": {
+                        "reduced_motion": "As hierdie aangeskakel is, sal animasies en beweginseffekte nie speel nie of minder intens wees."
+                    }
+                },
+                "notifications": {
+                    "title": "Kennisgewings",
+                    "push_notifications": "Stootkennisgewings",
+                    "enable_desktop": "Skakel Werkskermkennisgewings Aan",
+                    "enable_push": "Skakel Stootkennisgewings Aan",
+                    "sounds": "Klanke",
+                    "descriptions": {
+                        "enable_push": "As hierdie aangeskakel is, sal jy kennisgewings kry terwyl jy aflyn is.",
+                        "enable_desktop": "As hierdie aangeskakel is, sal jy kennisgewings kry terwyl die toep oop is."
+                    },
+                    "sound": {
+                        "message": "Boodskap Ontvang",
+                        "outbound": "Boodskap Gestuur",
+                        "call_join": "Gebruiker Sluit By Oproep Aan",
+                        "call_leave": "Gebruiker Sluit Van Oproep Af"
+                    }
+                },
+                "language": {
+                    "title": "Taal",
+                    "const": "Saamgestelde tale",
+                    "other": "Ander taalopsies",
+                    "select": "Kies jou taal"
+                },
+                "sync": {
+                    "title": "Sinc",
+                    "options": "Sincopsies",
+                    "descriptions": {
+                        "appearance": "Hierdie sal voorkomsopsies sinc, soos jou gekiesde emosikonpakket en boodskapdigtheid.",
+                        "locale": "Hierdie sal jou huidige gekiesde taal sinc.",
+                        "theme": "Hierdie sal jou gekiesde tema, kleure en enige pasgemaakte CSS sinc."
+                    },
+                    "categories": "Sinckategorieë"
+                },
+                "native": {
+                    "title": "Werkskerminstellings"
+                },
+                "experiments": {
+                    "title": "Probeerslagte",
+                    "features": "Beskikbare Kenmerke",
+                    "not_available": "Geen probeerslagte is op hierdie stadium beskikbaar nie."
+                },
+                "plugins": {
+                    "title": "Inproppe",
+                    "wip": "Waarskuwing: Hierdie kenmerk is nog in ontwikkeling.",
+                    "delete_plugin": "Wis Uit",
+                    "no_plugins": "Geen inproppe is huidig geinstalleer nie."
+                },
+                "donate": {
+                    "title": "Dra By"
+                },
+                "source_code": "Bronkode",
+                "bots": {
+                    "title": "My Botte",
+                    "copy_invite": "Kopie Nooiskakel",
+                    "add": "Voeg Bot By",
+                    "token": "Teken",
+                    "public_bot_tip": "Hierdie bot is publiek. Enigiemand mag dit nooi.",
+                    "private_bot_tip": "Hierdie bot is privaat. Net jy kan dit nooi.",
+                    "public_bot": "Publieke Bot",
+                    "profile": "Botprofiel",
+                    "public_bot_desc": "As hierdie aangeskakel is, kan ander gebruikers hierdie bot na bedieners en groepboodskappe byvoeg.",
+                    "interactions_url": "Wisselwerkingswebskakel",
+                    "reserved": "Nota: Hierdie veld is vir die toekoms voorbehou.",
+                    "create_bot": "Skep 'n Bot",
+                    "unique_id": "Hierdie is 'n unieke identifiseerder vir jou bot. Hierdie is nie die bot se teken nie."
+                },
+                "theme_shop": {
+                    "title": "Temawinkel",
+                    "search": "Versoek temas…",
+                    "category": {
+                        "saved": "Gestoor",
+                        "manage": "Bestuur gestoor",
+                        "default": "Verstektemas",
+                        "highest": "Hoogste gegradeer",
+                        "viewall": "Besien alle",
+                        "new": "Nuut hierdie week"
+                    },
+                    "active": "Huidig aktief",
+                    "use": "Gebruik tema",
+                    "by": "by",
+                    "description": "Blaai honderde temas, by die gemeenskap geskep en saamgestel."
+                },
+                "keybinds": {
+                    "title": "Sleutelbinders",
+                    "search": "Soek sleutelbinders…",
+                    "add_keybind": "Voeg nuwe sleutelbinder by",
+                    "edit_keybind": "Wysig sleutelbinder",
+                    "remove_keybind": "Verwyder sleutelbinder",
+                    "reset_keybind": "Herstel sleutelbinder na {{keybind}}",
+                    "category": {
+                        "navigation": "Navigasie",
+                        "messaging": "Boodskappe",
+                        "advanced": "Gevorder"
+                    },
+                    "action": {
+                        "navigate_channel_down": {
+                            "title": "Navigeer na die volgende kanaal toe",
+                            "description": "Navigeer na die volgende kanaal toe."
+                        },
+                        "navigate_server_up": {
+                            "title": "Navigeer na die vorige bediener toe",
+                            "description": "Navigeer na die vorige bediener toe."
+                        },
+                        "navigate_channel_up": {
+                            "description": "Navigeer na die vorige kanaal toe.",
+                            "title": "Navigeer na die vorige kanaal toe"
+                        },
+                        "navigate_server_down": {
+                            "description": "Navigeer na die volgende bediener toe.",
+                            "title": "Navigeer na die volgende bediener toe"
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "Wysig vorige boodskap",
+                            "description": "Wysig die vorige gestuurde boodskap in die huidige gelaaide boodskapbesiening."
+                        },
+                        "auto_complete_down": {
+                            "title": "Volgende Outovoltooikeuse",
+                            "description": "Skuif die outovoltooikeuse na die volgende een toe."
+                        },
+                        "auto_complete_select": {
+                            "title": "Bevestig Outovoltooikeuse",
+                            "description": "Bevestig die huidige outovoltooikeuse."
+                        },
+                        "input_submit": {
+                            "title": "Stuur Insit",
+                            "description": "'n Gevorderde sleutelbinder wat tipies gebruik is om die huidige insit te stuur.\nHierdie mag boodskapstuur, boodskapwysigingstuur, soekstuur, ens. bevat."
+                        },
+                        "input_cancel": {
+                            "title": "Kanselleer Insit",
+                            "description": "'n Gevorderde sleutelbinder wat tipies gebruik is om die huidige insit te kanselleer.\nHierdie mag om 'n boodskapwysiging te kanselleer, 'n getoude prentjie te verwyder, of ooreenkomstige voorspellings bevat."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Rol na bodem van boodskappe toe",
+                            "description": "Rol na die bodem van die boodskapbesiening toe."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Merk kanaal as gelees",
+                            "description": "Merk die huidige kanaal as gelees."
+                        },
+                        "navigate_previous_context": {
+                            "title": "Navigeer na die vorige raamwerk toe",
+                            "description": "'n Gevorderde sleutelbinder wat tipies gebruik is om die instellingsblad, 'n modaal, of 'n opspring toe te maak en terug na die vorige raamwerk toe te gaan."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "Skakel probeerslag veilige modus",
+                            "description": "Hierdie sal alle probeerslagte dadelik aan/afskakel."
+                        },
+                        "auto_complete_up": {
+                            "title": "Vorige Outovoltooikeuse",
+                            "description": "Skuif die outovoltooikeuse na die vorige een toe."
+                        },
+                        "input_force_submit": {
+                            "title": "Forseer Stuur Insit",
+                            "description": "'n Gervorderde sleutelbinder wat tipies vir om die huidige insit kragtig te stuur, en ignoreer sommige ander bylae.\nHierdie mag om 'n boodskap te stuur liewers as om die outovoltooikeuse te bevestig bevat."
+                        }
+                    },
+                    "description": "Besien en stel sleutelbinders"
+                },
+                "feedback": {
+                    "title": "Terugvoer",
+                    "description": "Stuur terugvoer",
+                    "suggest": "Stuur kenmerkvoorstelling",
+                    "suggest_desc": "Stel nuwe Revolt kenmerke aan GitHub besprekings voor.",
+                    "issue": "Skep 'n nuwe probleem",
+                    "issue_desc": "Om ons te help om probleme meer maklik af te deel, kan jy 'n probleem op GitHub skep.",
+                    "bug": "Foutspoorsnyer",
+                    "bug_desc": "Besien huidige aktiewe foutsaanmelde hier."
+                },
+                "logOut": "Teken Uit"
+            },
+            "channel_pages": {
+                "overview": {
+                    "title": "Oorsig",
+                    "name": "Kanaalnaam",
+                    "description": "Kanaalbewysing"
+                },
+                "permissions": {
+                    "title": "Toestemmings"
+                }
+            },
+            "server_pages": {
+                "overview": {
+                    "name": "Bedienernaam",
+                    "description": "Kanaalbewysing",
+                    "system_messages": "Stelselboodskapkanale",
+                    "title": "Oorsig"
+                },
+                "management": {
+                    "title": "Gebruikersbestuur"
+                },
+                "customisation": {
+                    "title": "Pasmaking"
+                },
+                "members": {
+                    "title": "Lede"
+                },
+                "invites": {
+                    "title": "Nooie",
+                    "code": "Nooikode",
+                    "invitor": "Nooier",
+                    "channel": "Kanaal",
+                    "revoke": "Herroep"
+                },
+                "bans": {
+                    "title": "Verbooie",
+                    "user": "Gebruiker",
+                    "reason": "Verbodsrede",
+                    "revoke": "Herroep",
+                    "no_reason": "Geen verbodsrede nie."
+                },
+                "roles": {
+                    "title": "Rolle"
+                },
+                "categories": {
+                    "title": "Kategorieë"
+                },
+                "emojis": {
+                    "title": "Emosikone",
+                    "upload": "Laai Emosikon Op"
+                }
+            },
+            "tips": {
+                "account": {
+                    "a": "Wil jy jou publieke profiel pasmaak?",
+                    "b": "Gaan oor na jou profielinstellings toe."
+                },
+                "languages": {
+                    "b": "Help ons uit deur meer vertalings by te dra.",
+                    "a": "Mis ons 'n taal wat jy wil hê?"
+                },
+                "sessions": {
+                    "a": "As jy 'n ongekende sessie op die lys sien,",
+                    "b": "beveilig jou rekening deur om jou wagwoord te verander en 2FW op te stel."
+                }
+            },
+            "permissions": {
+                "default_role": "Verstek",
+                "server": "Bedienertoestemmings",
+                "create_role": "Skep 'n nuwe rol",
+                "role_name": "Rolnaam",
+                "role_options": "Rolopsies",
+                "role_ranking": "Rolrang",
+                "delete_role": "Wis Rol Af",
+                "hoist_role": "Lig Rol Op",
+                "hoist_desc": "Vertoon hierdie rol bo anders.",
+                "title": "Toestemmings vir {{role}}",
+                "edit_title": "Wysig Toestemmings",
+                "channel": "Kanaaltoestemmings",
+                "role_colour": "Rolkleur"
+            },
+            "title": "Instellingskanaal"
+        },
+        "special": {
+            "copy_username": "Klik om gebruikersnaam te kopie",
+            "copy": "Klik om te kopie",
+            "friends": {
+                "sent": "Uitgaande",
+                "blocked": "Geblok",
+                "incoming": "Inkomende vriendsversoek.",
+                "outgoing": "Uitgaande vriendsversoek.",
+                "nobody": "Nog niemand hier nie!",
+                "from": {
+                    "single": "Van {{user}} af",
+                    "several": "Van {{userlist}} en {{count}} meer…",
+                    "multiple": "Van {{userlist}} en {{user}} af"
+                },
+                "pending": "Hangende versoekings"
+            },
+            "status": {
+                "offline": "Aflyn.",
+                "disconnected": "Onverbind.",
+                "connecting": "Verbind tans…",
+                "reconnecting": "Herverbind tans…"
+            },
+            "server-badges": {
+                "official": "Amptelike Bediener",
+                "verified": "Bewyse Bediener"
+            },
+            "modals": {
+                "error": "'n Fout het gebeur!",
+                "clipboard": {
+                    "https": "Jy is huidig nie in 'n HTTPS raamwerk nie.",
+                    "copy": "Handmatige Kopie:",
+                    "unavailable": "Knipbord is onbeskikbaar!"
+                },
+                "confirm": "Bevestig aksie",
+                "signed_out": "Jy was uitgeteken!",
+                "token_reveal": "{{name}} se Teken",
+                "onboarding": {
+                    "welcome": "Welkom by"
+                }
+            }
+        }
+    }
+}
