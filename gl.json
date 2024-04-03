@@ -46,7 +46,7 @@
         "resend": "Reenviar verificación",
         "cancel": "Cancelar a solicitude",
         "check_mail": "Revisa o teu correo electrónico!",
-        "email_delay": "Por favor, agarda ata 10 minutos para que chegue.",
+        "email_delay": "Enviouse un correo de verificación. Por favor, agarda ata 10 minutos para que chegue.",
         "open_mail_provider": "Abrir {{provider}}",
         "successful_registration": "Rexistrado correctamente!",
         "verifying_account": "Verificando a túa conta…",
@@ -110,7 +110,7 @@
             },
             "channel": {
                 "message_where": "Enviar unha mensaxe en {{channel_name}}",
-                "message_who": "Enviar unha mensaxe a {{person}}",
+                "message_who": "Enviar unha mensaxe a @{{person}}",
                 "message_saved": "Gardar nas túas notas",
                 "uploading_file": "Subindo…",
                 "failed_upload": "Error ao subir!",
@@ -260,7 +260,9 @@
                         "delete": "Marcar a conta para eliminación",
                         "disable": "Desactivar a conta",
                         "title": "Administración da conta",
-                        "description": "Desactiva ou elimina a túa conta en calquera momento. Esta acción pechará a túa sesión e borrará por completo a conta, incluíndo o historial de chat e os amigos."
+                        "description": "Desactiva ou elimina a túa conta en calquera momento. Ambas accións botarante das túas sesións activas.",
+                        "disable_description": "Non poderás acceder á túa conta a non ser que te poñas en contacto con soporte. Non obstante, os teus datos non se eliminarán.",
+                        "delete_description": "A túa conta e tódolos teus datos (incluíndo as túas mensaxes e a lista de amigos) marcaranse para eliminación. Enviarase un correo de confirmación. Podes cancelar esta acción falando con soporte nun prazo de 7 días."
                     }
                 },
                 "appearance": {
@@ -288,8 +290,8 @@
                         "title": "Opcións de aparencia",
                         "show_send": "Mostrar sempre o botón de enviar mensaxe",
                         "show_account_age": "Mostrar sempre a antigüidade dunha conta xunto aos mensaxes de unión",
-                        "show_account_age_desc": "Se está desactivada, a antigüidade dunha conta só se mostrará para os novos usuarios.",
-                        "show_send_desc": "Se está desactivado, o botón de enviar mensaxe só aparecerá no móbil."
+                        "show_account_age_desc": "Se isto está desactivado, a antigüidade dunha conta só se mostrará para os novos usuarios.",
+                        "show_send_desc": "Se isto está desactivado, o botón de enviar mensaxe só aparecerá no móbil."
                     },
                     "theme_options": {
                         "title": "Opcións do tema",
@@ -298,7 +300,7 @@
                         "seasonal": "Tema estacional",
                         "seasonal_desc": "Mostrar efectos na lapela de inicio durante as tempadas festivas.",
                         "transparency": "Efectos de transparencia",
-                        "follow_desc": "Cando estea marcado, non poderás cambiar o tema nin usar un tema personalizado."
+                        "follow_desc": "Se isto está activado, non poderás cambiar o tema nin usar un tema personalizado."
                     },
                     "emoji_pack": "Paquete de emoji",
                     "message_display": "Visualización de mensaxes",
@@ -332,7 +334,7 @@
                 },
                 "sync": {
                     "descriptions": {
-                        "appearance": "Isto sincronizará opcións como os paquetes de emojis e a densidade das mensaxes.",
+                        "appearance": "Isto sincronizará as opcións de apariencia, como por exemplo, os paquetes de emojis e a densidade das mensaxes.",
                         "theme": "Isto sincronizará o tema escollido, as cores e calquera CSS personalizado.",
                         "locale": "Isto sincronizará o idioma escollido actualmente."
                     },
@@ -348,7 +350,7 @@
                 "plugins": {
                     "no_plugins": "Non hai complementos instalados.",
                     "title": "Complementos",
-                    "wip": "Advertencia: Esta funcionalidade segue en desenvolvemento.",
+                    "wip": "Aviso: esta funcionalidade segue en desenvolvemento.",
                     "delete_plugin": "Eliminar"
                 },
                 "bots": {
@@ -358,13 +360,13 @@
                     "copy_invite": "Copiar ligazón de invitación",
                     "add": "Engadir bot",
                     "token": "Token",
-                    "public_bot_tip": "O bot é público. Calquera pode convidalo.",
-                    "private_bot_tip": "O bot é privado. Só ti podes convidalo.",
+                    "public_bot_tip": "Este bot é público. Calquera pode convidalo.",
+                    "private_bot_tip": "Este bot é privado. Só ti podes convidalo.",
                     "public_bot": "Bot público",
                     "profile": "Perfil do bot",
-                    "public_bot_desc": "Permitir que outros usuarios conviden a este bot.",
+                    "public_bot_desc": "Se isto está activado, outros usuarios poderán engadir este bot a servidores e grupos de mensaxes.",
                     "interactions_url": "URL de interaccións",
-                    "reserved": "Nota: Este campo está reservado para o futuro."
+                    "reserved": "Nota: este campo está reservado para o futuro."
                 },
                 "theme_shop": {
                     "description": "Explora centos de temas creados e escollidos pola comunidade.",
@@ -417,7 +419,7 @@
                     "button_retry": "tentar de novo",
                     "button_grant": "Conceder permiso",
                     "tip_grant_permission": "Debes conceder permiso para acceder aos axustes de audio.",
-                    "tip_retry": "Non diches permiso para acceder ao teu micrófono, por favor {{retryBtn}}."
+                    "tip_retry": "Non diches permiso a Revolt para acceder ao teu micrófono. Por favor, {{retryBtn}}."
                 },
                 "notifications": {
                     "title": "Notificacións",
@@ -443,7 +445,89 @@
                     "title": "Doar"
                 },
                 "source_code": "Código fonte",
-                "logOut": "Pechar sesión"
+                "logOut": "Pechar sesión",
+                "accessibility": {
+                    "title": "Accesibilidade",
+                    "reduced_motion": "Movemento reducido",
+                    "descriptions": {
+                        "reduced_motion": "Se isto está activado, as animacións e os efectos de movemento non se reproducirán ou serán menos intensos."
+                    }
+                },
+                "keybinds": {
+                    "search": "Buscar atallos de teclado…",
+                    "edit_keybind": "Editar atallo",
+                    "remove_keybind": "Eliminar atallo",
+                    "reset_keybind": "Restablecer atallo a {{keybind}}",
+                    "category": {
+                        "navigation": "Navegación",
+                        "messaging": "Mensaxería",
+                        "advanced": "Avanzado"
+                    },
+                    "action": {
+                        "navigate_channel_up": {
+                            "description": "Navegar á canle anterior.",
+                            "title": "Navegar á canle anterior"
+                        },
+                        "navigate_channel_down": {
+                            "title": "Navegar á canle seguinte",
+                            "description": "Navegar á canle seguinte."
+                        },
+                        "navigate_server_up": {
+                            "title": "Navegar ao servidor anterior",
+                            "description": "Navegar ao servidor anterior."
+                        },
+                        "navigate_server_down": {
+                            "title": "Navegar ao servidor seguinte",
+                            "description": "Navegar ao servidor seguinte."
+                        },
+                        "messaging_edit_previous_message": {
+                            "description": "Editar unha mensaxe xa enviada dentro da vista de mensaxes cargadas.",
+                            "title": "Editar a mensaxe anterior"
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Desprazarse ao final das mensaxes",
+                            "description": "Desprázase ata as mensaxes máis recentes."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Marcar canle como lida",
+                            "description": "Marcar a canle actual como lida."
+                        },
+                        "auto_complete_down": {
+                            "description": "Mover a selección de autocompletar á seguinte.",
+                            "title": "Selección seguinte de autocompletar"
+                        },
+                        "auto_complete_up": {
+                            "title": "Selección previa de autocompletar",
+                            "description": "Mover a selección de autocompletar á anterior."
+                        },
+                        "auto_complete_select": {
+                            "title": "Confirmar a selección de autocompletar",
+                            "description": "Confirmar a selección actual de autocompletar."
+                        },
+                        "input_submit": {
+                            "title": "Enviar entrada",
+                            "description": "Un atallo avanzado que adoita usarse para enviar a entrada actual.\nIsto pode incluír enviar unha mensaxe, unha edición de mensaxe, unha busca, etc..."
+                        },
+                        "input_cancel": {
+                            "title": "Cancelar entrada",
+                            "description": "Un atallo avanzado que adoita usarse para cancelar a entrada actual.\nIsto pode incluír cancelar unha mensaxe, eliminar unha imaxe ou situacións semellantes."
+                        },
+                        "input_force_submit": {
+                            "title": "Forzar o envío de entrada",
+                            "description": "Un atallo avanzado que adoita usarse para enviar forzosamente a entrada actual, ignorando algunhas comprobacións ou outros atallos.\nIsto pode incluír enviar unha mensaxe en vez de confirmar a selección de autocompletar."
+                        },
+                        "navigate_previous_context": {
+                            "title": "Navegar ao contexto anterior",
+                            "description": "Un atallo avanzado que adoita usarse para pechar unha páxina de axustes, un modal ou unha ventá emerxente e voltar ao contexto anterior."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "description": "Isto activará/desactivará tódolos experimentos."
+                        }
+                    },
+                    "title": "Atallos de teclado",
+                    "description": "Ver e definir os atallos de teclado",
+                    "add_keybind": "Engadir un novo atallo"
+                }
             },
             "server_pages": {
                 "overview": {
@@ -550,7 +634,7 @@
                     "copy": "Copia manual:"
                 },
                 "onboarding": {
-                    "pick": "Elixe un nome de usuario polo cal queres que a xente poida atoparte. Podes cambialo despois nos axustes.",
+                    "pick": "Elixe un nome de usuario polo cal queres que a xente poida atoparte. Podes cambialo despois nos axustes de usuario.",
                     "welcome": "Benvido a"
                 },
                 "prompt": {
@@ -601,7 +685,7 @@
                     "recovery_codes": "Os teus códigos de recuperación",
                     "select_method": "Por favor, selecciona un método para autenticar a túa solicitude.",
                     "save_codes": "Por favor, gárdaos nun lugar seguro.",
-                    "confirm": "Por favor, confirma usando o método seleccionado.",
+                    "confirm": "Por favor, confirma esta acción usando o método seleccionado.",
                     "enable_totp": "Activar a aplicación de autenticación",
                     "prompt_totp": "Por favor, escanea ou usa o token na túa aplicación de autenticación.",
                     "enter_code": "Introducir o código"
@@ -614,7 +698,7 @@
                 "out_of_date": {
                     "description": "É necesario actualizalo para que funcione cos cambios recentes.",
                     "title": "O seu cliente non está actualizado!",
-                    "version": "O teu cliente está en {{client}}, mentres que o servidor require {{server}}.",
+                    "version": "O teu cliente está en {{client}}, pero o servidor require {{server}}.",
                     "ignore": "Ignorar actualización",
                     "attempting": "Tentando actualizar…"
                 },
@@ -666,6 +750,10 @@
                     "title": "As ligazóns externas poden ser perigosas!",
                     "short": "Estás seguro de que queres ir a:",
                     "trust_domain": "Confiar neste dominio"
+                },
+                "edit_keybind": {
+                    "placeholder": "Preme teclas para rexistrar",
+                    "title": "Editar o atallo para {{action}}"
                 }
             },
             "popovers": {
@@ -823,7 +911,7 @@
         },
         "ManageRole": {
             "t": "Administrar roles",
-            "d": "Permite aos membros crear, editar e eliminar roles dun rango inferior ao seu. Tamén lles permite modificar os permisos dos roles nas canles."
+            "d": "Permite aos membros crear, editar e eliminar roles dun rango inferior ao seu e modificar os permisos dos roles nas canles."
         },
         "ManageCustomisation": {
             "t": "Administrar personalización",
@@ -933,7 +1021,7 @@
         "AlreadyFriends": "Xa eres amigo deste usuario.",
         "NoEffect": "Esta solicitude non tivo efecto.",
         "MissingData": "Faltan datos na solicitude.",
-        "DeniedNotification": "Denegaches o acceso ás notificacións, comproba os axustes da páxina.",
+        "DeniedNotification": "Denegaches o acceso ás notificacións. Comproba os axustes da páxina.",
         "NetworkError": "Erro de conexión.",
         "Unauthorized": "Sen autorización.",
         "Unlabelled": "Aconteceu un erro.",
@@ -983,5 +1071,37 @@
     },
     "shortcuts": {
         "ctrlc": "Ctrt + C"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Supr"
+        },
+        "Backspace": {
+            "short": "Atrás"
+        },
+        "PageUp": {
+            "short": "RePág",
+            "full": "Re Pág"
+        },
+        "PageDown": {
+            "full": "Av Pág",
+            "short": "AvPág"
+        },
+        "PrintScreen": {
+            "full": "Impr Pant",
+            "short": "ImprPant"
+        },
+        "CapsLock": {
+            "full": "Bloq Mayús"
+        }
     }
 }
