@@ -2,7 +2,7 @@
     "login": {
         "create": "Crear una compte nova",
         "error": {
-            "resend": "Error en reexpedir!",
+            "resend": "Error en reenviar!",
             "create": "Error en registrar-se!",
             "login": "Error en iniciar sessió!",
             "reset": "Error en reiniciar!",
@@ -20,7 +20,7 @@
         "invite": "Codi d'invitació",
         "current_password": "Contrasenya actual",
         "enter": {
-            "username": "Escriu el teu nom d'usuari preferit.",
+            "username": "Introduïx el teu nom d'usuari",
             "email": "Escriu el teu correu electrónic.",
             "password": "Escriu la teua contrasenya.",
             "invite": "Introdueix el teu codi d'invitació.",
@@ -73,7 +73,7 @@
                 "message_where": "Mandar missatge a {{channel_name}}",
                 "misc": {
                     "no_sending": "No tens permissos per a mandar missatges en aquest canal.",
-                    "sent_multiple_files": "Envià alguns arxius",
+                    "sent_multiple_files": "Ha enviat alguns adjunts",
                     "viewing_old": "Mirant messatges antics",
                     "jump_present": "Saltar al present",
                     "jump_beginning": "Saltar a l'inici",
@@ -82,12 +82,12 @@
                     "failed_load": "No s'ha pogut cargar el missatge.",
                     "blocked_messages": "{{count}} missatges bloqueats",
                     "blocked_user": "Usuari Bloqueat",
-                    "sent_file": "Envià un arxiu",
+                    "sent_file": "Ha enviat un adjunt",
                     "timed_out": "T'han aïllat temporalment per {{time}}.",
                     "load_file": "Carregar arxiu",
                     "not_loaded": "Missatge no carregat, click per a vore'l"
                 },
-                "message_who": "Mandar missatje a {{person}}",
+                "message_who": "Enviar missatge a {{person}}",
                 "message_saved": "Guardar en les teues notes",
                 "uploading_file": "Subint…",
                 "failed_upload": "N'hi ha hagut un error en la subida!",
@@ -129,7 +129,7 @@
                 },
                 "unknown_user": "<Usuari Desconegut>",
                 "edited": "(editat)",
-                "bot": "bot",
+                "bot": "Robot",
                 "notifications": {
                     "default": "Usar Prefeterminat",
                     "all": "Tots els missatges",
@@ -153,7 +153,7 @@
                 "bridge": "pont",
                 "team": "Comunicació oficial",
                 "reply": {
-                    "replying": "Responent a",
+                    "replying": "Respon a",
                     "toggle": "Mencionar l'autor"
                 },
                 "user_timed_out": "Usuari castigat per {{time}}.",
@@ -264,7 +264,7 @@
                         "title": "Emoji"
                     },
                     "fonts": {
-                        "title": "Fonts"
+                        "title": "Tipus de lletra"
                     },
                     "advanced_options": {
                         "title": "Opcions avançades"
@@ -344,7 +344,7 @@
                     "categories": "Sincronitzar Categories",
                     "title": "Sincronitzar",
                     "descriptions": {
-                        "appearance": "Açò sincronitzarà la configuració d'aparença com els paquets d'emojis i la densitat dels misstages",
+                        "appearance": "Açò sincronitzarà la configuració d'aparença com els paquets d'emoticones i la densitat dels misstages.",
                         "theme": "Açò sicronitzarà el tema escollit, els colors i qualsevol CSS personalitzat.",
                         "locale": "Açò sincronitzarà la llengua escollida."
                     },
@@ -425,7 +425,83 @@
                     "delete_plugin": "Suprimir"
                 },
                 "source_code": "Codi Font",
-                "logOut": "Tancar sessió"
+                "logOut": "Tancar sessió",
+                "keybinds": {
+                    "search": "Busca combinacions de tecles…",
+                    "add_keybind": "Afig una nova combinació",
+                    "edit_keybind": "Edita la combinació",
+                    "remove_keybind": "Elimina la combinació",
+                    "reset_keybind": "Restablix la combinació a {{keybind}}",
+                    "category": {
+                        "messaging": "Missatgeria",
+                        "advanced": "Avançat",
+                        "navigation": "Navegació"
+                    },
+                    "action": {
+                        "navigate_channel_up": {
+                            "description": "Torna al canal anterior.",
+                            "title": "Torna al canal anterior"
+                        },
+                        "navigate_channel_down": {
+                            "title": "Ves al següent canal",
+                            "description": "Ves al següent canal."
+                        },
+                        "navigate_server_up": {
+                            "title": "Ves al servidor anterior",
+                            "description": "Ves al servidor anterior."
+                        },
+                        "navigate_server_down": {
+                            "title": "Ves al següent servidor",
+                            "description": "Ves al següent servidor."
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "Edita el missatge anterior",
+                            "description": "Edita el missatge enviat  abans en la vista carregada."
+                        },
+                        "auto_complete_up": {
+                            "title": "Selecció d'emplenament automàtic anterior",
+                            "description": "Mou la selecció d'emplenament automàtic a l'anterior."
+                        },
+                        "auto_complete_down": {
+                            "title": "Selecció d'emplenament automàtic següent",
+                            "description": "Mou la selecció d'emplenament automàtic a la següent."
+                        },
+                        "auto_complete_select": {
+                            "title": "Confirma la selecció d'emplenament automàtic",
+                            "description": "Confirma la selecció actual d'emplenament automàtic."
+                        },
+                        "input_submit": {
+                            "title": "Envia l'entrada",
+                            "description": "Una combinació de tecles avançada que s'empra per a enviar l'entrada actual\nPot incloure l'enviament d'un missatge, d'una edició d'un missatge, d'una busca, etc."
+                        },
+                        "input_cancel": {
+                            "title": "Cancel·la l'entrada",
+                            "description": "Una combinació de tecles avançada que s'empra per a cancel·lar l'entrada actual\nPot incloure cancel·lar l'edició d'un missatge, eliminar una imatge o escenaris similars."
+                        },
+                        "input_force_submit": {
+                            "title": "Força l'enviament de l'entrada",
+                            "description": "Una combinació avançada que s'empra per a forçar a enviar l'entrada acutal, ignorant algunes comprovacions o altres combinacions.\nPot incloure enviar un missatge en compte de confirmar la selecció d'emplenament automàtic."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Desplaça al final dels missatges",
+                            "description": "Desplaça la vista de missatges cap a la part inferior."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Marca el canal com a llegit",
+                            "description": "Marca el canal actual com a llegit."
+                        },
+                        "navigate_previous_context": {
+                            "title": "Ves al context anterior",
+                            "description": "Una combinació avançada que s'empra per a tancar la pàgina de paràmetres, un modal o una finestra emergent i tornar al context anterior."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "Commuta el modo segur d'experiments",
+                            "description": "Activarà/desactivarà tots els experiments alhora."
+                        }
+                    },
+                    "title": "Combinacions de tecles",
+                    "description": "Visualitza i configura les combinacions"
+                }
             },
             "server_pages": {
                 "roles": {
@@ -465,7 +541,7 @@
                 },
                 "emojis": {
                     "upload": "Pujar Emoji",
-                    "title": "Emojis"
+                    "title": "Emoticones"
                 }
             },
             "categories": {
@@ -564,7 +640,7 @@
                         "BanEvasion": "Este usuari està intentant eludir una expulsió",
                         "Underage": "Este usuari no té l'edat miníma per a tindre un compte"
                     },
-                    "message": "Este missatge no està bé!",
+                    "message": "Informa sobre el missatge",
                     "by_name": "Informar sobre {{name}}",
                     "reported": "Reportat",
                     "thank_you": "Gràcies per ajudar a mantindre Revolt segur. Revisarem el teu report quan puguem.",
@@ -601,7 +677,7 @@
                     "select_method": "Per favor, selecciona un mètode per a autenticar la seua sol·licitud."
                 },
                 "changelogs": {
-                    "description": "Mira totes les coses boniques que n'hi ha noves!!",
+                    "description": "Mira totes les coses boniques que n'hi ha de noves!!",
                     "title": "Registre de canvis",
                     "older": "Mirar actualitzacions anteriors"
                 },
@@ -615,7 +691,7 @@
                 "external_links": {
                     "trust_domain": "Confia en este domini",
                     "short": "De segur que vols anar a:",
-                    "title": "No fages click en enllaços externs que puguen ser perillosos."
+                    "title": "No fages clic en enllaços externs que puguen ser perillosos."
                 },
                 "onboarding": {
                     "welcome": "Benvingut a",
@@ -647,12 +723,16 @@
                     "confirm": "Confirmar",
                     "reload": "Recarregar l'app",
                     "send_email": "Enviar un correu electrònic"
+                },
+                "edit_keybind": {
+                    "title": "Edita combinació de tecles per a {{action}}",
+                    "placeholder": "Prem les tecles per a gravar"
                 }
             },
             "copy": "Fes click per a copiar",
             "friends": {
                 "nobody": "No es veu res per ací xe!!",
-                "sent": "Outgoing",
+                "sent": "A l'espera",
                 "blocked": "Bloquejat",
                 "incoming": "Solicitut d'amistat entrant.",
                 "from": {
@@ -660,7 +740,8 @@
                     "multiple": "De {{userlist}} i {{user}}",
                     "several": "De {{userlist}} i {{count}} més…"
                 },
-                "pending": "Solicituts pendents"
+                "pending": "Solicituts pendents",
+                "outgoing": "Sol·licitud d'amistat a l'espera."
             },
             "status": {
                 "offline": "Fora de línia.",
@@ -790,7 +871,7 @@
         "on": "Activat",
         "off": "Desactivat",
         "disabled": "Deshabilitat",
-        "unavailable": "Indisponible",
+        "unavailable": "No disponible",
         "learn_more": "Més informació"
     },
     "error": {
@@ -812,7 +893,31 @@
         "EmailFailed": "Error a l'enviar el missatge.",
         "InvalidCredentials": "El correu electrònic o la contrasenya no coincidix.",
         "InvalidToken": "Token no vàlid",
-        "MissingInvite": "Falta el codi d'invitació en la sol·licitut."
+        "MissingInvite": "Falta el codi d'invitació en la sol·licitut.",
+        "AlreadyFriends": "Ja eres amic d'este usuari.",
+        "InvalidEmail": "Adreça de correu electrònic invàlida",
+        "AlreadyOnboarded": "Configuració ja acabada.",
+        "Blocked": "Has bloquejat este usuari.",
+        "BlockedOther": "Este usuari t'ha bloquejat.",
+        "NoEffect": "Esta petició no ha tingut efecte.",
+        "RequiredField": "Requerit",
+        "TooShort": "Massa curt",
+        "TooLong": "Massa llarg",
+        "Unavailable": "No disponible.",
+        "FailedToReceive": "El servidor ha fallat a reber el teu arxiu.",
+        "IoError": "El servidor ha trobat un error I/O.",
+        "DeniedNotification": "HAs denegat l'accés a les notificacions. Comprova la configuració de la pàgina.",
+        "ReachedMaximumBots": "Has aplegat al màxim número de bots.",
+        "InvalidInvite": "Codi invàlid",
+        "UsernameTaken": "Este nom ja existix.",
+        "AlreadySentRequest": "Ja has enviat una sol·licitud a este usuari.",
+        "FileTooLarge": "Arxiu massa gran.",
+        "MissingData": "Falten dades a la sol·licitud.",
+        "ProbeError": "Error en obtindre metadades de l'arxiu.",
+        "UnsupportedBrowser": "El teu navegador no suporta esta característica.",
+        "CompromisedPassword": "Esta contrasenya està compresa.",
+        "AudioPermissionBlock": "Sense accés al teu micròfon. Per favor, comprova la configuració del teu navegador.",
+        "DiscriminatorChangeRatelimited": "Massa canvis d'identificació."
     },
     "quantities": {
         "members": {
@@ -842,5 +947,166 @@
     },
     "actions": {
         "submit": "Enviar"
+    },
+    "permissions": {
+        "ManageRole": {
+            "t": "Gestionar càrrecs",
+            "d": "Permet que els membres creen, editen i eliminen càrrecs inferiors al seu, i que modifiquen els permisos dels càrrecs en els canals."
+        },
+        "ChangeAvatar": {
+            "t": "Canviar avatar",
+            "d": "Permet als membres canviar el seu avatar en este servidor."
+        },
+        "SendMessage": {
+            "t": "Enviar missatges",
+            "d": "Permet als membres enviar missatges en els canals de text."
+        },
+        "ManageMessages": {
+            "t": "Gestionar missatges",
+            "d": "Permet als membres eliminar els missatges enviats per altres membres."
+        },
+        "Masquerade": {
+            "t": "Masquerada",
+            "d": "Permet als membres canviar el seu nom i avatar per missatge."
+        },
+        "Connect": {
+            "d": "Permet als memebres connectar-se a un canal de veu.",
+            "t": "Connectar"
+        },
+        "Speak": {
+            "t": "Parlar",
+            "d": "Permet als membres parlar en un canal de veu."
+        },
+        "MoveMembers": {
+            "d": "Permet als membres moure altres entre canals de veu.",
+            "t": "Moure els membres"
+        },
+        "ManageCustomisation": {
+            "t": "Gestiona personalització",
+            "d": "Permet als membres crear, editar i suprimir emoticones."
+        },
+        "BanMembers": {
+            "d": "Permet als membres expulsar altres membres de manera permanent.",
+            "t": "Bandejar membres"
+        },
+        "ManageWebhooks": {
+            "d": "Permet als membres controlar els webhooks dins d'un canal.",
+            "t": "Gestionar Webhooks"
+        },
+        "React": {
+            "t": "Usar reaccions",
+            "d": "Permet als membres reaccionar als missatges."
+        },
+        "ManageChannels": {
+            "t": "Administrar canals",
+            "d": "Permet als membres crear, editar i eliminar canals."
+        },
+        "ManageServer": {
+            "t": "Administrar servidor",
+            "d": "Permet als membres canviar el nom, descripció, la icona i altra informació del servidor."
+        },
+        "ManagePermissions": {
+            "t": "Gestionar permisos",
+            "d": "Permet als membres canviar els permisos dels canals i els càrrecs amb una classificació inferior."
+        },
+        "KickMembers": {
+            "t": "Expulsar membres",
+            "d": "Permet als membres eliminar membres d'este servidor. Els membres expulsats poden tornar amb una invitació."
+        },
+        "ManageNicknames": {
+            "t": "Gestionar sobrenoms",
+            "d": "Permet als membres canviar els sobrenoms dels altres membres."
+        },
+        "RemoveAvatars": {
+            "t": "Eliminar avatars",
+            "d": "Permet als membres eliminar els avatars d'altres membre en este servidor."
+        },
+        "ViewChannel": {
+            "t": "Vore canal",
+            "d": "Permet als membres vore qualsevol canal en què tenen este permís."
+        },
+        "ManageChannel": {
+            "d": "Permet als membres canviar o eliminar un canal.",
+            "t": "Administrar missatges"
+        },
+        "InviteOthers": {
+            "d": "Permet als membres convidar altres a un canal.",
+            "t": "Convidar altres"
+        },
+        "SendEmbeds": {
+            "t": "Enviar incrustracions",
+            "d": "Permet als membres enviar incurstracions, siguen d'enllaços o de text personalitzat."
+        },
+        "UploadFiles": {
+            "t": "Pujar arxius",
+            "d": "Permet als membres pujar arxius als canals de text."
+        },
+        "Video": {
+            "t": "Vídeo",
+            "d": "Permet als membres transmetre en vídeo en un canal de veu."
+        },
+        "MuteMembers": {
+            "t": "SIlenciar membres",
+            "d": "Permet als membres silenciar altres en un canal de veu."
+        },
+        "DeafenMembers": {
+            "d": "Permet als membres ensordir els altres en un canal de veu.",
+            "t": "Ensordir membres"
+        },
+        "TimeoutMembers": {
+            "t": "Aïllar membres un temps",
+            "d": "Permet als membres a previndre temporalment als usuaris a actuar amb el servidor."
+        },
+        "AssignRoles": {
+            "t": "Assignar càrrecs",
+            "d": "Permet als membres assignar càrrecs per davall del seu rang als altres membres."
+        },
+        "ChangeNickname": {
+            "t": "Canviar sobrenom",
+            "d": "Permet als membres canviar el seu sobrenom en este servidor."
+        },
+        "ReadMessageHistory": {
+            "t": "Llig l'historial de missatges",
+            "d": "Permet als membres llegir l'historial de missatges d'este canal."
+        }
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Arrere"
+        },
+        "PageUp": {
+            "short": "RePàg",
+            "full": "Re Pàg"
+        },
+        "PageDown": {
+            "full": "Av Pàg",
+            "short": "AvPàg"
+        },
+        "PrintScreen": {
+            "full": "Impr. Pantalla",
+            "short": "ImprPant"
+        },
+        "ScrollLock": {
+            "short": "ScrLK",
+            "full": "Scroll Lock"
+        },
+        "CapsLock": {
+            "full": "Bloq. Majús"
+        }
     }
 }
