@@ -145,7 +145,9 @@
                         "disable": "계정 비활성화",
                         "delete": "계정 삭제 표시",
                         "description": "언제든지 계정을 비활성화하거나 삭제할 수 있어요. 이 작업을 수행하면 계정에서 로그아웃되고 채팅 기록 및 친구 목록이 삭제됩니다.",
-                        "title": "계정 관리"
+                        "title": "계정 관리",
+                        "delete_description": "귀하의 계정과 모든 데이터(메시지 및 친구 목록 포함)가 삭제 대기 상태가 됩니다. 확인 이메일이 전송됩니다. 지원팀에 문의하여 7일 이내에 취소할 수 있습니다.",
+                        "disable_description": "지원팀에 문의하지 않으면 귀하의 계정에 액세스할 수 없습니다. 그러나 귀하의 데이터는 삭제되지 않습니다."
                     },
                     "unique_id": "이 번호는 이 계정의 고유한 식별 번호입니다.",
                     "change_field": "변경"
@@ -330,6 +332,89 @@
                     "wip": "경고: 이 기능은 아직 개발중입니다.",
                     "delete_plugin": "삭제",
                     "no_plugins": "현재 설치된 플러그인이 없습니다."
+                },
+                "accessibility": {
+                    "title": "접근성",
+                    "descriptions": {
+                        "reduced_motion": "이 기능을 활성화하면 애니메이션과 모션 효과가 재생되지 않거나 강도가 약해집니다."
+                    },
+                    "reduced_motion": "움직임 감소"
+                },
+                "keybinds": {
+                    "search": "단축키 검색…",
+                    "add_keybind": "새로운 키 바인딩 추가",
+                    "reset_keybind": "키 바인딩을 {{keybind}}로 재설정",
+                    "category": {
+                        "messaging": "메시징",
+                        "advanced": "고급 모드",
+                        "navigation": "항해"
+                    },
+                    "action": {
+                        "navigate_channel_up": {
+                            "title": "이전 채널로 이동",
+                            "description": "이전 채널로 이동합니다."
+                        },
+                        "navigate_channel_down": {
+                            "description": "다음 채널로 이동합니다.",
+                            "title": "다음 채널로 이동"
+                        },
+                        "navigate_server_up": {
+                            "title": "이전 서버로 이동",
+                            "description": "이전 서버로 이동합니다."
+                        },
+                        "navigate_server_down": {
+                            "title": "다음 서버로 이동",
+                            "description": "다음 서버로 이동."
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "이전 메시지 편집",
+                            "description": "현재 로드된 메시징 보기에서 이전에 보낸 메시지를 편집합니다."
+                        },
+                        "auto_complete_up": {
+                            "title": "이전 자동완성 선택",
+                            "description": "자동 완성 선택 항목을 이전 항목으로 이동합니다."
+                        },
+                        "auto_complete_down": {
+                            "description": "자동 완성 선택 항목을 다음 항목으로 이동합니다.",
+                            "title": "다음 자동완성 선택"
+                        },
+                        "auto_complete_select": {
+                            "title": "자동 완성 선택 확인",
+                            "description": "현재 자동 완성 선택을 확인합니다."
+                        },
+                        "input_submit": {
+                            "title": "입력 제출",
+                            "description": "일반적으로 현재 입력을 제출하는 데 사용되는 고급 키 바인딩입니다.\n여기에는 메시지 제출, 메시지 편집 제출, 검색 제출 등이 포함될 수 있습니다."
+                        },
+                        "input_cancel": {
+                            "title": "입력 취소",
+                            "description": "일반적으로 현재 입력을 취소하는 데 사용되는 고급 키 바인딩입니다.\n여기에는 메시지 편집 취소, 대기 중인 이미지 제거 또는 유사한 시나리오가 포함될 수 있습니다."
+                        },
+                        "input_force_submit": {
+                            "title": "입력 강제 제출",
+                            "description": "일반적으로 일부 검사나 기타 키 바인딩을 무시하고 현재 입력을 강제로 제출하는 데 사용되는 고급 키 바인딩입니다.\n여기에는 자동 완성 선택을 확인하는 대신 메시지를 제출하는 것이 포함될 수 있습니다."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "description": "메시지 보기 하단으로 스크롤합니다.",
+                            "title": "메시지 하단으로 스크롤"
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "채널을 읽은 상태로 표시",
+                            "description": "현재 채널을 읽은 상태로 표시합니다."
+                        },
+                        "navigate_previous_context": {
+                            "title": "이전 컨텍스트로 이동",
+                            "description": "일반적으로 설정 페이지, 모달 또는 팝업을 닫고 이전 컨텍스트로 돌아가는 데 사용되는 고급 키 바인딩입니다."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "실험 안전 모드 전환",
+                            "description": "이렇게 하면 모든 실험이 한 번에 활성화/비활성화됩니다."
+                        }
+                    },
+                    "title": "키 바인딩",
+                    "description": "키 바인딩 보기 및 설정",
+                    "edit_keybind": "키보드 수정",
+                    "remove_keybind": "키 바인드 제거"
                 }
             },
             "title": "설정",
@@ -352,6 +437,9 @@
                 },
                 "permissions": {
                     "title": "권한"
+                },
+                "webhooks": {
+                    "title": "웹훅"
                 }
             },
             "server_pages": {
@@ -577,7 +665,8 @@
                     "report": "신고",
                     "done": "완료",
                     "confirm": "확인",
-                    "reset": "초기화"
+                    "reset": "초기화",
+                    "dont_block": "차단하지 마세요"
                 },
                 "error": "오류가 발생했어요!",
                 "prompt": {
@@ -674,6 +763,10 @@
                         "BanEvasion": "이 사용자는 차단을 피하고 있음"
                     },
                     "no_reason": "특별한 이유 없음 / 기타"
+                },
+                "edit_keybind": {
+                    "placeholder": "녹음하려면 키를 누르세요",
+                    "title": "{{action}}에 대한 키바인딩 수정"
                 }
             },
             "friends": {
@@ -954,7 +1047,8 @@
         "BlockedOther": "이 사용자가 당신을 차단했습니다.",
         "MissingData": "요청에 필요한 데이터가 없어요.",
         "ReachedMaximumBots": "이미 최대치만큼의 봇을 거느리고 계셔요.",
-        "AudioPermissionBlock": "마이크에 액세스 할 수 없습니다, 브라우저 설정을 확인 해주세요."
+        "AudioPermissionBlock": "마이크에 액세스 할 수 없습니다, 브라우저 설정을 확인 해주세요.",
+        "DiscriminatorChangeRatelimited": "태그 변경이 너무 많습니다."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
@@ -987,5 +1081,41 @@
     },
     "actions": {
         "submit": "제출"
+    },
+    "keys": {
+        "Escape": {
+            "short": "벗어나는 수단"
+        },
+        "Insert": {
+            "short": "기능 키"
+        },
+        "Delete": {
+            "short": "삭제"
+        },
+        "Backspace": {
+            "short": "역행 키이"
+        },
+        "PageUp": {
+            "full": "페이지 위로",
+            "short": "페이지 위로"
+        },
+        "PageDown": {
+            "full": "페이지 아래로",
+            "short": "페이지아래로"
+        },
+        "PrintScreen": {
+            "full": "인쇄 화면",
+            "short": "PrtSc 키"
+        },
+        "ScrollLock": {
+            "full": "스크롤 잠금",
+            "short": "스크롤 잠금"
+        },
+        "CapsLock": {
+            "full": "대문자 잠금"
+        },
+        "Control": {
+            "short": "Ctrl 키"
+        }
     }
 }
