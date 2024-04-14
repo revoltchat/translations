@@ -107,7 +107,9 @@
                     "channel_description_changed": "{{user}} שינה את תיאור הערוץ",
                     "channel_icon_changed": "{{user}} שינה את התמונה של הערוץ",
                     "added_by": "{{user}} נוסף על ידי {{other_user}}",
-                    "channel_renamed": "{{user}} שינה את שם הערוץ ל {{name}}"
+                    "channel_renamed": "{{user}} שינה את שם הערוץ ל {{name}}",
+                    "channel_ownership_changed": "{{from}} העניק ל-{{to}} בעלות על הקבוצה",
+                    "registered_at": "רשום {{time}}"
                 },
                 "start": {
                     "group": "זאת ההתחלה של שיחתחם.",
@@ -130,7 +132,10 @@
                     "sent_file": "שלח קובץ מצורף",
                     "sent_multiple_files": "שלח מספר קבצים מצורפים",
                     "jump_beginning": "קפוץ להתחלה",
-                    "new_messages": "הודעות חדשות מאז {{time_ago}}"
+                    "new_messages": "הודעות חדשות מאז {{time_ago}}",
+                    "not_loaded": "ההודעה לא נטענה, לחץ כדי לקפוץ",
+                    "timed_out": "תם הזמן הקצוב.",
+                    "load_file": "파일 로드"
                 },
                 "notifications": {
                     "default": "השתמש בברית המחדל",
@@ -167,6 +172,13 @@
                 "reply": {
                     "replying": "משיב ל",
                     "toggle": "החלף פינג מחבר"
+                },
+                "bridge": "큐 받침",
+                "reactions": {
+                    "others_reacted": "{{userlist}} ו-{{count}} אחרים הגיבו",
+                    "unknown_reacted": "{{count}} אנשים הגיבו",
+                    "single_reacted": "אדם אחד הגיב",
+                    "people_reacted": "{{אנשים}} הגיבו"
                 }
             },
             "groups": {
