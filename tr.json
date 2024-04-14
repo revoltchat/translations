@@ -353,7 +353,7 @@
                 "logOut": "Çıkış Yap",
                 "profile": {
                     "title": "Profil",
-                    "info": "Hakkında",
+                    "info": "Bilgi Edinme",
                     "fetching": "Profiliniz getiriliyor…",
                     "placeholder": "Kendiniz hakkında bir şeyler yazın…",
                     "custom_background": "Özel Arka Plan",
@@ -445,7 +445,7 @@
                         "navigation": "Navigasyon",
                         "messaging": "Mesajlaşma"
                     },
-                    "remove_keybind": "Kısayol tuşunu sil",
+                    "remove_keybind": "Tuş atamasını sil",
                     "action": {
                         "navigate_server_up": {
                             "title": "Önceki sunucuya git",
@@ -499,14 +499,18 @@
                         },
                         "messaging_scroll_to_bottom": {
                             "title": "Mesajların aşağısına kaydır"
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "Deneysel güvenli moda geçiş yap",
+                            "description": "Bu ,bütün deneysel özellikleri aynı anda etkinleştirecek / devre dışı bırakacaktır."
                         }
                     },
-                    "title": "Kısayol Tuşları",
-                    "description": "Kısayol tuşlarını görüntüle ve ayarla",
-                    "search": "Kısayol tuşlarını ara…",
-                    "add_keybind": "Yeni kısayol tuşu ekle",
-                    "edit_keybind": "Kısayol tuşunu düzenle",
-                    "reset_keybind": "Kısayol tuşunu şuna sıfırla : {{keybind}}"
+                    "title": "Tuş atamaları",
+                    "description": "Tuş atamalarını görüntüle ve ayarla",
+                    "search": "Tuş atamalarını ara…",
+                    "add_keybind": "Yeni tuş ataması ekle",
+                    "edit_keybind": "Tuş atamasını düzenle",
+                    "reset_keybind": "Tuş atamasını şuna sıfırla : {{keybind}}"
                 }
             },
             "channel_pages": {
@@ -743,6 +747,10 @@
                     "thank_you": "Revolt'u güvende tutmaya yardım ettiğiniz için teşekkür ederiz. Raporunuzu en kısa zamanda inceleyeceğiz.",
                     "reported": "Raporlandı",
                     "block_user": "Bu kullanıcıyı engellemek ister misiniz?"
+                },
+                "edit_keybind": {
+                    "placeholder": "Kayıt için tuşa basın",
+                    "title": "{{action}} için tuş atamasını düzenle"
                 }
             },
             "popovers": {
@@ -762,7 +770,7 @@
                     },
                     "sub": {
                         "connections": "Bağlantılar",
-                        "information": "Hakkında",
+                        "information": "Bilgi Edinme",
                         "badges": "Rozetler"
                     },
                     "empty": "Burası biraz boş…",
@@ -1090,5 +1098,41 @@
     },
     "actions": {
         "submit": "Gönder"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Geri al"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "PrintScreen": {
+            "full": "Print Screen",
+            "short": "PrtSc"
+        },
+        "ScrollLock": {
+            "full": "Scroll Lock",
+            "short": "ScrLK"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
+        }
     }
 }
