@@ -56,7 +56,7 @@
         "off": "Desactiva",
         "on": "Activa",
         "loading": "S'està carregant…",
-        "image_by": "Imatge de:",
+        "image_by": "Imatge de",
         "privacy": "Política de privadesa",
         "tos": "Termes d'ús",
         "about": "Quant a",
@@ -130,7 +130,7 @@
                 },
                 "unknown_user": "<Usuari desconegut>",
                 "edited": "(s'ha editat)",
-                "bot": "Bot",
+                "bot": "Bót",
                 "notifications": {
                     "default": "Paràmetre per defecte",
                     "all": "Tots els missatges",
@@ -152,7 +152,7 @@
                     "nochannel": "Cap canal"
                 },
                 "reply": {
-                    "replying": "Responeu a:",
+                    "replying": "Responeu a",
                     "toggle": "Commuta la menció"
                 },
                 "bridge": "pont",
@@ -192,7 +192,7 @@
             "online": "En connexió",
             "idle": "Inactiu",
             "busy": "No Molestar",
-            "invisible": "Invisible",
+            "invisible": "Invisiblé",
             "offline": "Fora de línia",
             "reconnect": "Reconnecta",
             "focus": "Centrat"
@@ -305,7 +305,7 @@
                     "edit_profile": "Edita el perfil"
                 },
                 "sessions": {
-                    "title": "Sessions",
+                    "title": "Sessións",
                     "active_sessions": "Sessions actives",
                     "this_device": "Aquest aparell",
                     "created": "Creat {{time_ago}}",
@@ -732,6 +732,10 @@
                     "reason": "raó",
                     "additional_context": "Informació adicional",
                     "no_reason": "No s'ha especificat cap motiu / altre motiu"
+                },
+                "edit_keybind": {
+                    "title": "Edita la combinació de tecles per a {{action}}",
+                    "placeholder": "Premeu les tecles per gravar"
                 }
             },
             "popovers": {
@@ -913,7 +917,8 @@
         "IoError": "El servidor ha trobat un error I/O.",
         "UnsupportedBrowser": "El teu navegador no suporta aquesta característica.",
         "CompromisedPassword": "Aquesta contrasenya està compromesa.",
-        "ReachedMaximumBots": "Has arribat al màxim número de bots."
+        "ReachedMaximumBots": "Has arribat al màxim número de bots.",
+        "DiscriminatorChangeRatelimited": "Massa canvis d'etiquetes."
     },
     "permissions": {
         "ManageNicknames": {
@@ -1076,5 +1081,41 @@
     },
     "actions": {
         "submit": "Envia"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "esborrar"
+        },
+        "Backspace": {
+            "short": "Retrocés"
+        },
+        "PageUp": {
+            "full": "Amunt pàgina",
+            "short": "AmPg"
+        },
+        "PageDown": {
+            "full": "Avançar Pagina",
+            "short": "AvPagina"
+        },
+        "PrintScreen": {
+            "full": "Imprimir pantalla",
+            "short": "ImpPan"
+        },
+        "ScrollLock": {
+            "full": "Bloqueig de desplaçament",
+            "short": "Bloqdesplaça"
+        },
+        "CapsLock": {
+            "full": "Majúscules activades"
+        }
     }
 }
