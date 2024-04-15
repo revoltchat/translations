@@ -332,7 +332,7 @@
                     "save": "Guardar",
                     "kick": "Expulsar",
                     "ban": "Banir",
-                    "ok": "Ok",
+                    "ok": "OK",
                     "done": "Feito",
                     "reset": "Repor",
                     "confirm": "Confirmar",
@@ -434,6 +434,10 @@
                     "reported": "Denunciado",
                     "thank_you": "Obrigado por nos ajudares a manter o Revolt seguro. Iremos rever a tua denúncia logo que possível.",
                     "block_user": "Queres bloquear este utilizador?"
+                },
+                "edit_keybind": {
+                    "placeholder": "Pressione as teclas para gravar",
+                    "title": "Editar atalho de teclado para {{action}}"
                 }
             },
             "status": {
@@ -631,7 +635,9 @@
                         "delete": "Marcar conta para eliminação",
                         "disable": "Desativar conta",
                         "description": "Desativa ou elimina a tua conta a qualquer momento. Isto terminará a tua sessão e eliminará por completo a tua conta, incluindo o teu histórico de conversa e amigos.",
-                        "title": "Gestão de conta"
+                        "title": "Gestão de conta",
+                        "delete_description": "Sua conta e todos os seus dados (incluindo suas mensagens e lista de amigos) ficarão na fila para exclusão.  Um e-mail de confirmação será enviado - você pode cancelar dentro de 7 dias entrando em contato com o suporte.",
+                        "disable_description": "Você não poderá acessar sua conta a menos que entre em contato com o suporte – entretanto, seus dados não serão excluídos."
                     },
                     "2fa": {
                         "remove_auth": "Remover autenticador",
@@ -681,6 +687,89 @@
                     "wip": "Aviso: Esta funcionalidade ainda está em desenvolvimento.",
                     "delete_plugin": "Eliminar",
                     "no_plugins": "De momento, não está nenhuma extensão instalada."
+                },
+                "accessibility": {
+                    "reduced_motion": "Movimento Reduzido",
+                    "title": "Acessibilidade",
+                    "descriptions": {
+                        "reduced_motion": "Se estiver ativado, as animações e efeitos de movimento não serão reproduzidos ou serão menos intensos."
+                    }
+                },
+                "keybinds": {
+                    "title": "Atalhos de teclado",
+                    "description": "Visualizar e definir atalhos de teclado",
+                    "search": "Pesquisar atalhos de teclado…",
+                    "remove_keybind": "Remover atalho de teclado",
+                    "reset_keybind": "Redefinir o atalho de teclado para {{keybind}}",
+                    "category": {
+                        "navigation": "Navegação",
+                        "messaging": "Mensagens",
+                        "advanced": "Avançado"
+                    },
+                    "action": {
+                        "navigate_channel_up": {
+                            "description": "Navegue para o canal anterior.",
+                            "title": "Navegue para o canal anterior"
+                        },
+                        "navigate_channel_down": {
+                            "title": "Navegue para o próximo canal",
+                            "description": "Navegue até o próximo canal."
+                        },
+                        "navigate_server_up": {
+                            "title": "Navegue para o servidor anterior",
+                            "description": "Navegue para o servidor anterior."
+                        },
+                        "navigate_server_down": {
+                            "title": "Navegue até o próximo servidor",
+                            "description": "Navegue até o próximo servidor."
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "Editar mensagem anterior",
+                            "description": "Edite a mensagem enviada anteriormente na visualização de mensagens atualmente carregada."
+                        },
+                        "auto_complete_up": {
+                            "title": "Seleção anterior de preenchimento automático",
+                            "description": "Mova a seleção de preenchimento automático para a anterior."
+                        },
+                        "auto_complete_down": {
+                            "title": "Próxima seleção de preenchimento automático",
+                            "description": "Mova a seleção de preenchimento automático para a próxima."
+                        },
+                        "auto_complete_select": {
+                            "title": "Confirmar seleção de preenchimento automático",
+                            "description": "Confirme a seleção de preenchimento automático atual."
+                        },
+                        "input_submit": {
+                            "title": "Enviar entrada",
+                            "description": "Um atalho de teclado avançado que normalmente é usado para enviar a entrada atual.\n Isso pode incluir o envio de uma mensagem, o envio de uma edição de uma mensagem, o envio de uma pesquisa, etc."
+                        },
+                        "input_cancel": {
+                            "title": "Cancelar entrada",
+                            "description": "Um atalho de teclado avançado que normalmente é usado para cancelar a entrada atual.\n Isso pode incluir o cancelamento de uma edição de mensagem, a remoção de uma imagem na fila ou cenários semelhantes."
+                        },
+                        "input_force_submit": {
+                            "title": "Forçar envio de entrada",
+                            "description": "Um atalho de teclado avançado que normalmente é usado para enviar à força a entrada atual, ignorando algumas verificações ou outros atalhos de teclado.\n Isso pode incluir o envio de uma mensagem em vez de confirmar a seleção de preenchimento automático."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Role até o final das mensagens",
+                            "description": "Rola até a parte inferior da visualização de mensagens."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Marcar canal como lido",
+                            "description": "Marca o canal atual como lido."
+                        },
+                        "navigate_previous_context": {
+                            "title": "Navegue para o contexto anterior",
+                            "description": "Um atalho de teclado avançado que normalmente é usado para fechar a página de configuração, um modal ou um pop-up e retornar ao contexto anterior."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "Alternar modo de segurança do experimento",
+                            "description": "Isso ativará/desativará todos os experimentos de uma vez."
+                        }
+                    },
+                    "add_keybind": "Adicionar novo atalho de teclado",
+                    "edit_keybind": "Editar atalho de teclado"
                 }
             },
             "actions": {
@@ -992,5 +1081,41 @@
     },
     "actions": {
         "submit": "Submeter"
+    },
+    "keys": {
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Retrocesso"
+        },
+        "PageUp": {
+            "full": "Subir Página",
+            "short": "SbPà"
+        },
+        "PageDown": {
+            "full": "Página para baixo",
+            "short": "PàAbaixo"
+        },
+        "PrintScreen": {
+            "full": "Captura de tela",
+            "short": "CapTela"
+        },
+        "ScrollLock": {
+            "short": "BloRM",
+            "full": "Bloqueio de rolagem"
+        },
+        "CapsLock": {
+            "full": "Bloqueio de letras maiúsculas"
+        },
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        }
     }
 }
