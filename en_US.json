@@ -240,7 +240,9 @@
                         "title": "Account Management",
                         "description": "Disable or delete your account at any time. This action will log you out and fully delete your account, including your chat history and friends.",
                         "disable": "Disable Account",
-                        "delete": "Delete Account"
+                        "delete": "Delete Account",
+                        "disable_description": "You won't be able to access your account unless you contact support - however, your data will not be deleted.",
+                        "delete_description": "Your account and all of your data (including your messages and friends list) will be queued for deletion. A confirmation email will be sent - you can cancel this within 7 days by contacting support."
                     }
                 },
                 "profile": {
@@ -300,7 +302,7 @@
                     "ligatures_desc": "For supported fonts, ligatures combine characters together - for example, turning -> into an arrow.",
                     "theme_options": {
                         "title": "Theme Options",
-                        "follow_desc": "When checked, you won’t be able to change your theme or use a custom one.",
+                        "follow_desc": "if this is enabled, you won’t be able to change your theme or use a custom one.",
                         "seasonal": "Seasonal Theme",
                         "follow": "Follow system theme",
                         "transparency": "Transparency Effects",
@@ -423,6 +425,9 @@
                     "delete_plugin": "Delete",
                     "wip": "Warning: This feature is still in development.",
                     "no_plugins": "No plugins are currently installed."
+                },
+                "accessibility": {
+                    "title": "Accessibility"
                 }
             },
             "channel_pages": {
