@@ -90,7 +90,7 @@
             },
             "channel": {
                 "message_where": "Message {{channel_name}}",
-                "message_who": "Message {{person}}",
+                "message_who": "Message @{{person}}",
                 "message_saved": "Save to your notes",
                 "uploading_file": "Uploading…",
                 "failed_upload": "Failed to upload!",
@@ -266,7 +266,7 @@
                     "title": "Voice Settings",
                     "input_device": "Microphone",
                     "output_device": "Speaker / Headphones",
-                    "tip_retry": "You didn't give the permission to access your microphone, please {{retryBtn}}.",
+                    "tip_retry": "You didn't give Revolt permission to access your microphone. Please {{retryBtn}}.",
                     "device_label_NA": "N/A",
                     "button_retry": "Retry",
                     "tip_grant_permission": "You need to grant permission to access audio settings.",
@@ -427,7 +427,11 @@
                     "no_plugins": "No plugins are currently installed."
                 },
                 "accessibility": {
-                    "title": "Accessibility"
+                    "title": "Accessibility",
+                    "reduced_motion": "Reduced Motion",
+                    "descriptions": {
+                        "reduced_motion": "If this is enabled, animations and motion effects won't play or will be less intense."
+                    }
                 }
             },
             "channel_pages": {
