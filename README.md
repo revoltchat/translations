@@ -30,7 +30,7 @@ Please note that this table **only includes languages that are currently availab
 |🇩🇰|Dansk / da|||
 |🇩🇪|Deutsch / de|[@sussycatgirl](https://github.com/sussycatgirl)|[@nitrobw](https://github.com/nitrobw) [@arktn](https://github.com/arktn) [@infi](https://github.com/infi)|
 |🇬🇷|Ελληνικά / el|[@SudoJanast](https://github.com/SudoJanast)||
-|🇪🇸|Español / es|[@z3ro0k](https://github.com/z3ro0k) [@fernandopal](https://github.com/fernandopal) [@gatomod](https://github.com/gatomod)|[@Dorovich](https://github.com/Dorovich) [@DevArxify](https://github.com/DevArxify)|
+|🇪🇸|Español / es|[@z3ro0k](https://github.com/z3ro0k) [@fernandopal](https://github.com/fernandopal) [@gatomod](https://github.com/gatomod)|[@Dorovich](https://github.com/Dorovich) [@DevArxify](https://github.com/DevArxify) [@EIE-elpelon](https://github.com/EIE-elpelon)|
 |🇪🇸|Español (América Latina) / es_419|[@SrWesly](https://github.com/SrWesly) [@7Macros](https://github.com/7Macros) [@gatomod](https://github.com/gatomod)|[@exelenuwu](https://github.com/exelenuwu)|
 |🇪🇪|eesti / et|[@Kentledge](https://github.com/Kentledge)|[@u032](https://github.com/u032) [@Lefromrevolt](https://github.com/Lefromrevolt)|
 |🇫🇮|suomi / fi|||
@@ -56,7 +56,7 @@ Please note that this table **only includes languages that are currently availab
 |🇮🇷|فارسی / fa|[@DevEvil99](https://github.com/DevEvil99) [@shareghzadeh](https://github.com/shareghzadeh)||
 |🇵🇱|Polski / pl|[@Pawelek-dev](https://github.com/Pawelek-dev) [@HosachiPL](https://github.com/HosachiPL)|[@CyberL1](https://github.com/CyberL1)|
 |🇧🇷|Português (do Brasil) / pt_BR|[@yanndere](https://github.com/yanndere)|[@Hokiper](https://github.com/Hokiper) [@YoshiroOno](https://github.com/YoshiroOno)|
-|🇵🇹|Português (Portugal) / pt_PT|[@Tmpod](https://github.com/Tmpod)|[@SlicedBlueApple](https://github.com/SlicedBlueApple)|
+|🇵🇹|Português (Portugal) / pt_PT|[@Tmpod](https://github.com/Tmpod)|[@SlicedBlueApple](https://github.com/SlicedBlueApple) [@EIE-elpelon](https://github.com/EIE-elpelon)|
 |🇷🇴|Română / ro|[@Edward205](https://github.com/Edward205)|[@S703T](https://github.com/S703T)|
 |🇷🇺|Русский / ru|[@div2005](https://github.com/div2005)|[@zptr1](https://github.com/zptr1) [@arslee07](https://github.com/arslee07)|
 |🇸🇰|Slovensky / sk|[@ShadowLp174](https://github.com/ShadowLp174)||
