@@ -19,7 +19,7 @@ Please note that this table **only includes languages that are currently availab
 |🇸🇦|عربي / ar|[@LedaThemis](https://github.com/LedaThemis) [@vloddot](https://github.com/vloddot)||
 |🇮🇳|অসমীয়া / as|||
 |🇦🇿|Azərbaycan dili / az|||
-|🇧🇾|Беларуская / be|||
+|🇧🇾|Беларуская / be|[@1enify](https://github.com/1enify)||
 |🇧🇬|Български / bg|||
 |🇧🇩|বাংলা / bn|[@Cynycal2003](https://github.com/Cynycal2003)||
 |br|Brezhoneg / br|[@SperedAnveliour](https://github.com/SperedAnveliour)||
