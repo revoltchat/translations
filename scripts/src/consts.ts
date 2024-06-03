@@ -13,5 +13,6 @@ export const ISO_MAP = [
 	{ name: "japanese", code: "ja" },
 	{ name: "filipino", code: "fil" },
 	{ name: "arabic", code: "ar" },
-	{ name: 'czech', code: 'cs' }
+	{ name: 'czech', code: 'cs' },
+	{ name: 'belarusian', code: 'be' }
 ];
