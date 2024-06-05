@@ -6,10 +6,10 @@
         "on": "Arno",
         "off": "Bant",
         "disabled": "Wedi anabli",
-        "unavailable": "Ddim ar gael",
+        "unavailable": "Dim ar gael",
         "about": "Ynghylch",
         "privacy": "Polisi Preifatrwydd",
-        "learn_more": "Darganfod fwy"
+        "learn_more": "Dysgu mwy"
     },
     "login": {
         "title": "Mewngofnodi",
@@ -19,8 +19,8 @@
         "invite": "Côd Gwahodd",
         "current_password": "Cyfrinair Cyfredol",
         "enter": {
-            "username": "Rhowch eich enw defnyddiwr",
-            "email": "Os gwelwch yn dda nodwch eich ebost",
+            "username": "Rhowch eich enw defnyddiwr ffafriedig.",
+            "email": "Os gwelwch yn dda nodwch eich ebost.",
             "password": "Nodwch eich cyfrinair.",
             "current_password": "Nodwch eich cyfrinair cyfredol.",
             "invite": "Nodwch eich côd gwahodd.",
@@ -35,8 +35,8 @@
         "resend": "Ailanfon dilysu",
         "cancel": "Canslo cais",
         "check_mail": "Checiwch eich ebostiau!",
-        "email_delay": "Gadewch lan i 10 munud i'w cyrraedd.",
-        "check_spam": "Checiwch eich sbam os nad ydych yn gallu ei ddarganfod",
+        "email_delay": "Rydyn ni wedi anfon e-bost dilysu atoch. Gadewch lan i 10 munud i'w cyrraedd.",
+        "check_spam": "Gwiriwch eich ffolder sbam os nad ydych yn gallu ei ddarganfod",
         "open_mail_provider": "Agor {{provider}}",
         "successful_registration": "Wedi cofrestru yn llwyddiannus!",
         "error": {
@@ -55,11 +55,12 @@
         "subtitle": "Mewngofnodi i Revolt",
         "verifying_account": "Wrthi'n gwirio'ch cyfrif…",
         "log_out_other": "Allgofnodi o bob sesiwn arall",
-        "new_password": "Cyfrinair newydd",
+        "new_password": "Cyfrinair Newydd",
         "totp": "Ap Authenticator",
         "recovery": "Cod Adfer",
         "verified_account": "Mae eich cyfrif wedi'i wirio!",
-        "verified_continue": "Parhewch i fewngofnodi"
+        "verified_continue": "Parhewch i fewngofnodi",
+        "unofficial_instance": "Enghraifft trydydd-parti."
     },
     "app": {
         "status": {
@@ -68,7 +69,8 @@
             "busy": "Peidiwch Aflonyddu",
             "invisible": "Anweledig",
             "offline": "All-lein",
-            "reconnect": "Ailgysylltu"
+            "reconnect": "Ailgysylltu",
+            "focus": "Ffocws"
         },
         "navigation": {
             "tabs": {
@@ -106,7 +108,7 @@
             },
             "channel": {
                 "message_where": "Negesu {{channel_name}}",
-                "message_who": "Negesu {{person}}",
+                "message_who": "anfon neges at @{{person}}",
                 "message_saved": "Arbed i eich nodiau",
                 "failed_upload": "Wedi methu lanlwytho!",
                 "typing": {
@@ -123,7 +125,9 @@
                     "user_joined": "Mae {{user}} wedi ymuno",
                     "user_kicked": "Ciciwyd {{user}}",
                     "added_by": "Ychwanegwyd {{user}} gan {{other_user}}",
-                    "channel_icon_changed": "Newidiodd {{user}} yr eicon sianel"
+                    "channel_icon_changed": "Newidiodd {{user}} yr eicon sianel",
+                    "registered_at": "Cofrestrwyd {{time}}",
+                    "channel_ownership_changed": "Rhoddodd {{from}} berchnogaeth y grŵp i {{to}}"
                 },
                 "attached_file": "Wedi atodi {{filename}}",
                 "start": {
@@ -148,7 +152,9 @@
                     "spoiler_attachment": "Spoiler",
                     "jump_beginning": "Neidio i'r dechrau",
                     "new_messages": "Negesau newydd ers {{time_ago}}",
-                    "load_file": "Llwytho ffeil"
+                    "load_file": "Llwytho ffeil",
+                    "not_loaded": "Ni llwythwyd y neges, cliciwch i neidio",
+                    "timed_out": "Distewir chi am {{time}}."
                 },
                 "nsfw": {
                     "channel": {
@@ -159,7 +165,7 @@
                 },
                 "unknown_user": "<Defnyddiwr Anhysbys>",
                 "edited": "(wedi newid)",
-                "bot": "bot",
+                "bot": "Bot",
                 "notifications": {
                     "default": "Defnyddiwch Diofyn",
                     "all": "Pob Neges",
@@ -185,7 +191,18 @@
                     "replying": "Yn ateb",
                     "toggle": "Toglo ping awdur"
                 },
-                "bridge": "pont"
+                "bridge": "pont",
+                "bridged": "Anfonwyd y neges ar blatfform arall",
+                "team": "Gohebiaeth Swyddogol",
+                "user_timed_out": "Distewir user am {{time}}.",
+                "new_to_revolt": "Newydd i Revolt",
+                "new_to_server": "Newydd i'r gweinydd hwn",
+                "reactions": {
+                    "single_reacted": "Adweithiodd un person",
+                    "people_reacted": "Adweithiodd {{people}}",
+                    "others_reacted": "Adweithiodd {{userlist}} a {{count}} o bobl eirall",
+                    "unknown_reacted": "Adweithiodd {{count}} o bobl"
+                }
             },
             "groups": {
                 "create": "Creu grwp",
@@ -228,14 +245,22 @@
                         "title": "Dilysu Dau-ffactor",
                         "description": "Gwella diogelwch trwy alluogi 2FA ar eich cyfrif.",
                         "add_auth": "Ychwanegu Dilyswr",
-                        "remove_auth": "Dileu Dilysydd"
+                        "remove_auth": "Dileu Dilysydd",
+                        "generate_recovery": "Cynhyrchu codau adfer",
+                        "generate_recovery_long": "Paratowch i ddefnyddio 2FA trwy gosod dull adfer.",
+                        "view_recovery_long": "Gweld a llwytho i lawr eich codau adfer 2FA.",
+                        "view_recovery": "Gweld codau adfer",
+                        "two_factor_on": "Troir ymlaen ddilysiad dau-ffactor.",
+                        "two_factor_off": "Nid ydych chi wedi troi ymlaen dilysiad dau-ffactor!"
                     },
                     "unique_id": "Dyma dynodwr unigryw am eich cyfrif.",
                     "manage": {
                         "title": "Rheoli Cyfrifon",
-                        "description": "Analluoga neu ddileu eich cyfrif ar unrhyw adeg. Bydd y weithred hon yn eich allgofnodi ac yn dileu'ch cyfrif yn llawn, gan gynnwys eich hanes sgwrsio a'ch ffrindiau.",
+                        "description": "Analluogi neu ddileu eich cyfrif ar unrhyw adeg. bydd y ddau weithred yn eich allgofnodi o'ch sesiynau actif.",
                         "disable": "Analluogi Cyfrif",
-                        "delete": "Dileu Cyfrif"
+                        "delete": "Marcio cyfrif i'w dileu",
+                        "delete_description": "Bydd eich cyfrif a'r cyfan o'ch data (gan gynnwys eich negeseuon a rhestr ffrind) yn ciwio am ei dileu.",
+                        "disable_description": "Ni fyddwch yn gallu gael mynediad i'ch cyfrif oni bai eich bod yn cysylltu â chymorth - fodd bynnag, ni fydd eich data yn cael ei dileu."
                     }
                 },
                 "profile": {
@@ -258,7 +283,7 @@
                 "audio": {
                     "button_retry": "ail geisio",
                     "button_grant": "Rhoi caniatâd",
-                    "tip_retry": "Ni rhoddwch y caniatâd i ddefnyddio'r meicroffon, {{retryBtn}} os gwelwch yn dda.",
+                    "tip_retry": "Ni rhoddwch Revolt y caniatâd i ddefnyddio'r meicroffon. {{retryBtn}} os gwelwch yn dda.",
                     "tip_grant_permission": "Mae angen iddych chi rhoi caniatâd i ddefnyddio gosodiadau sain.",
                     "device_label_NA": "N/A",
                     "output_device": "Siaradwr / Clustffonau",
@@ -287,7 +312,7 @@
                     "title": "Ymddangosiad",
                     "theme": "Thema",
                     "theme_options": {
-                        "follow_desc": "Pan ddewiwiwyd, ni allwch newid eich thema neu defnyddio thema arferiad.",
+                        "follow_desc": "Os mae hyn ymlaen, ni allwch newid eich thema neu defnyddio thema arferiad.",
                         "seasonal": "Thema Tymhorol",
                         "seasonal_desc": "Yn ddangos effeithiau yn y tab cartref tryw'r tymhorau gwyliau.",
                         "title": "Opsiynau Thema",
@@ -298,25 +323,106 @@
                     "import_theme": "Mewnforio thema o destun",
                     "mono_font": "Dewisiwr Ffont Monospace",
                     "ligatures": "Rhwymynnau Ffont",
-                    "ligatures_desc": "Am ffontiau wedi'i cefnogi, mae rhwymynnau yn cyfuno cymeriadau i'w gilydd, er enghraifft, yn troi -> mewn i saeth.",
+                    "ligatures_desc": "Am ffontiau wedi'i cefnogi, mae rhwymynnau yn cyfuno cymeriadau i'w gilydd - er enghraifft, troi -> mewn i saeth.",
                     "discover": {
                         "description": "Pori themau wedi creu gan y gymuned",
                         "title": "Darganfod Themau"
                     },
                     "message_display": "Arddangosiad Negesau",
                     "import": "Mewnforio thema",
-                    "sync": "Opsiynau Cydamseru"
+                    "sync": "Opsiynau Cydamseru",
+                    "appearance_options": {
+                        "show_account_age_desc": "Os mae hyn i ffwrdd, bydd yr oed cyfrif yn cael ei dangon am defnyddiwyr newydd yn unig.",
+                        "title": "Opsiynau Ymddangosiad",
+                        "show_send": "Dangos y botwm anfon neges pob amser",
+                        "show_account_age": "Dangos oed cyfrif wrth y negeseuon ymuno pob amser",
+                        "show_send_desc": "os mae hyn i ffwrdd, bydd y botwm anfon neges yn ymddangos ar ffôn symudol yn unig."
+                    },
+                    "colours": {
+                        "title": "Lliwiau"
+                    },
+                    "emoji": {
+                        "title": "Emoji"
+                    },
+                    "fonts": {
+                        "title": "Ffontiau"
+                    },
+                    "advanced_options": {
+                        "title": "Opsiynau Uwch"
+                    }
                 },
                 "notifications": {
                     "descriptions": {
-                        "enable_desktop": "Bydd hyn yn rhoi iddych chi hysbysiadau pan yw'r ap ar agor."
+                        "enable_desktop": "Os mae hyn ymlaen, byddwch yn derbyn hysbysiadau pan yw'r ap ar agor.",
+                        "enable_push": "Os mae hyn ymlaen, byddwch yn derbyn hysbysiadau pan ydych yn all-lein."
                     },
                     "title": "Hysbysiadau",
                     "push_notifications": "Hysbysiadau Gwthio",
-                    "enable_push": "Galluogi Hysbysiadau Gwthio.",
+                    "enable_push": "Troi Hysbysiadau Gwthio Ymlaen",
                     "sounds": "Seiniau",
-                    "enable_desktop": "Galluogi Hysbysiadau Bwrdd Gwaith"
-                }
+                    "enable_desktop": "Galluogi Hysbysiadau Bwrdd Gwaith",
+                    "sound": {
+                        "call_leave": "Gadawodd defnyddiwr yr alwad",
+                        "message": "Derbyniwyd neges",
+                        "outbound": "Anfonwyd neges",
+                        "call_join": "Ymunodd defnyddiwr yr alwad"
+                    }
+                },
+                "accessibility": {
+                    "title": "Hygyrchedd",
+                    "reduced_motion": "Llai o gynnig",
+                    "descriptions": {
+                        "reduced_motion": "Os mae hyn ymlaen, ni fydd animeiddiadau ac effeithiau cynnig yn chwarae nac yn llai dwys."
+                    }
+                },
+                "bots": {
+                    "copy_invite": "Copi Cyswllt Gwahoddiad",
+                    "add": "Adio Bot",
+                    "public_bot_desc": "Os mae hyn ymlaen, gall defnyddiwyr eirall adio'r bot hwn i'w gweinyddion a negeseuon grŵp.",
+                    "public_bot": "Bot Cyhoeddus",
+                    "profile": "Bot Proffil",
+                    "title": "Fy Motiau",
+                    "create_bot": "Creu bot",
+                    "token": "Tocyn",
+                    "public_bot_tip": "Mae'r bot hwn yn gyhoeddus. Gall unrhywun ei gwahodd.",
+                    "private_bot_tip": "Mae'r bot hwn yn breifat. Gallwch ei gwahodd yn unig.",
+                    "interactions_url": "URL Rhyngweithiadau",
+                    "unique_id": "Dyma dynodwr unigryw i'ch bot. Nid yw hyn yn tocyn y bot."
+                },
+                "sync": {
+                    "categories": "Categorïau Cysoni",
+                    "title": "Cysoni",
+                    "options": "Opsiynau Cysoni",
+                    "descriptions": {
+                        "appearance": "Bydd hyn yn cysoni opsiynau ymddangosiad, fel eich pecyn emoji dewisol a'ch dwysedd neges.",
+                        "locale": "Bydd hyn yn cysoni'ch iaith dewisol.",
+                        "theme": "Bydd hyn yn cysoni'ch thema dewsiol, lliwiau, ac unrhyw CSS personol."
+                    }
+                },
+                "native": {
+                    "title": "Gosodiadau Bwrdd Gwaith"
+                },
+                "donate": {
+                    "title": "Rhodd Arian"
+                },
+                "language": {
+                    "const": "Iethoedd Adeiledig",
+                    "other": "Opsiynau iaith eirall",
+                    "title": "Iaith",
+                    "select": "Dewis eich iaith"
+                },
+                "experiments": {
+                    "title": "Arbrofion",
+                    "features": "Nodweddion Sydd Ar Gael",
+                    "not_available": "nid oes arbrofion sydd ar gael, ar hyn o bryd."
+                },
+                "plugins": {
+                    "title": "Ategion",
+                    "wip": "Rhybudd: Mae'r nodwedd hon yn dal i gael ei datblygu.",
+                    "delete_plugin": "Dileu",
+                    "no_plugins": "Nid oes unrhyw ategion sydd wedi'w gosod."
+                },
+                "source_code": "Côd Ffynhonnell"
             }
         },
         "special": {
@@ -328,6 +434,6 @@
         }
     },
     "actions": {
-        "submit": "Submit"
+        "submit": "Cyflwyno"
     }
 }
