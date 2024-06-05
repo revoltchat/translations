@@ -396,7 +396,11 @@
                     "profile": "Botow Profil",
                     "interactions_url": "Kesoberyansow Kkowethasek URL",
                     "create_bot": "Gul a Botow",
-                    "copy_invite": "Daskrif Galow Junya"
+                    "copy_invite": "Daskrif Galow Junya",
+                    "private_bot_tip": "This bot yw preifat. Nyns yw onen hwi a yll gwaytya an.",
+                    "public_bot_tip": "An pyth yw public. Yth yw an eyl orth dh'y gonvedhes.",
+                    "public_bot_desc": "Ma nyns eus ena, y'n tus a all bos lemmyn an bot ma dhe'n serverow ha'n messajow grup.",
+                    "reserved": "Nôta: an ran ma yw kewsel rag an termyn ma."
                 },
                 "theme_shop": {
                     "category": {
@@ -411,13 +415,69 @@
                     "title": "Testen Gwerthji",
                     "search": "Helgh Testednow…",
                     "active": "A-lemmyn bew",
-                    "use": "Devnydh thema"
+                    "use": "Devnydh thema",
+                    "description": "Scour y'n cens ha'n sawl tem, gwrys ha kewys gans an kemeneth."
                 },
                 "native": {
                     "title": "Jynn Amontya Desedhansow"
                 },
                 "source_code": "Devedhyans Kevrinhe",
-                "logOut": "Omdenna"
+                "logOut": "Omdenna",
+                "keybinds": {
+                    "description": "Gweles ha settya keybinds",
+                    "search": "Kewsel keybinds…",
+                    "add_keybind": "Geryow nowydh keybind",
+                    "remove_keybind": "Dialys keybind",
+                    "reset_keybind": "Resett klyfyans dhe {{keybind}}",
+                    "category": {
+                        "navigation": "Styrghesva",
+                        "advanced": "Kewselva",
+                        "messaging": "Menegva'n"
+                    },
+                    "action": {
+                        "navigate_channel_up": {
+                            "title": "Hedhywgh dhe'n chanjel kynsweyth",
+                            "description": "Navigati dhe'n chaner kyns."
+                        },
+                        "navigate_channel_down": {
+                            "description": "Gweles dhe'n kanow kepar ha'n nessa.",
+                            "title": "Governa dhe'n chanal kepar hag yw an nes"
+                        },
+                        "input_cancel": {
+                            "title": "Dilehe Input",
+                            "description": "An keybind kyns ragdresys ow toskenn an skrifennow re dhe gwrwedh an tyllerow re. \nYtho y hwra kavos gwrwedh a wiskwedh tyst, tynn hwath an imaj gwechwedhel, po kemeryow par dell yw."
+                        },
+                        "input_submit": {
+                            "title": "Rannow Gweles",
+                            "description": "An keybind uwedhysys y'n fordh ma dhe gerdhes an input kyrgh. \nYma bos gerdhesen a'n keybind ma, gerdhesen edit dhe'n keybind ma, gerdhesen a serchi, ha kesva.."
+                        },
+                        "auto_complete_select": {
+                            "description": "Gwir dhe vos yn tynn y dewisyn autocompletion presen."
+                        },
+                        "messaging_mark_channel_read": {
+                            "description": "Markys an kanolenn koth y fydh.",
+                            "title": "Marke dhe vos gwelys"
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "Towlen eksperyans modys dhe vos sur",
+                            "description": "Dyskiwir / distruwiwir oll drehevow a'n prys."
+                        },
+                        "navigate_previous_context": {
+                            "description": "Ynwedh keybind usiys y'n gewsenn ma dhe sgorr an sesyow, modhwel, po popyon hag a dhe dhiwortans dhe'n kontekst kyns yw.",
+                            "title": "Tirwedh dhe'n kontekst kynsweyth"
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "description": "Rolen dhe'n isel a'n golwel keskewsel.",
+                            "title": "Skrifa dhi dhe'n termyn a-dro dhe'n messysow'n nevra"
+                        },
+                        "input_force_submit": {
+                            "description": "Yn kyrgh an keybind dowr yw bos y'n argh dhe dheus a-dro dhe dhedha an input leun, ow talleth orth y gwayn gwylmweythow po keybinds erell.\nHag yma le hwith y'n leverel unn sewya y teuthyans ynwedh a-dro dhe goweth vyghyans an awtokompletya.",
+                            "title": "Orth Dybbal Kewsel Input"
+                        }
+                    },
+                    "title": "Lewennow Kytta",
+                    "edit_keybind": "Golygya keybind"
+                }
             },
             "server_pages": {
                 "overview": {
@@ -576,6 +636,10 @@
                 },
                 "sessions": {
                     "short": "Ny yll'ta diswruthyl an dra ma akt."
+                },
+                "edit_keybind": {
+                    "title": "Golygya keybind rag {{action}}",
+                    "placeholder": "Presta clewes dhe gobernow"
                 }
             },
             "popovers": {
@@ -614,7 +678,16 @@
             "open_notification_options": "Notyans dewisyansow",
             "open_channel_settings": "Chanel desedhansow",
             "open_server_settings": "Leuren desedhansow",
-            "open_group_settings": "Bagas desedhansow"
+            "open_group_settings": "Bagas desedhansow",
+            "report_server": "Server hyskyns",
+            "leave_server": "Dewhel an server",
+            "delete_server": "Dilettya server",
+            "edit_identity": "Golygya toremvennek",
+            "delete_channel": "Dilektya chanjow",
+            "create_channel": "Kewsel kanow",
+            "clear_status": "Statys klêr",
+            "leave_group": "Gadewgh an grup",
+            "close_dm": "Kemm DM"
         },
         "permissions": {
             "required": "Kumyasow a res"
@@ -642,7 +715,12 @@
         "InvalidSession": "Drog esedhek.",
         "UnverifiedAccount": "Unverified aknot.",
         "InvalidCredentials": "E-bost bo ger tremena ema anewn.",
-        "MissingInvite": "Eth dhe goll galow kevrinhe a-ji gofen."
+        "MissingInvite": "Eth dhe goll galow kevrinhe a-ji gofen.",
+        "TooShort": "Gwir gorthek",
+        "TooLong": "Goweth-ma",
+        "UnknownUser": "Defnyow an gewer.",
+        "InvalidToken": "Tokyn gwann",
+        "InvalidInvite": "Gawnn Kod"
     },
     "permissions": {
         "Connect": {
@@ -693,6 +771,48 @@
         "MoveMembers": {
             "t": "Chanjya chei Eseli",
             "d": "Alowa eselesow/eseli bys dhe chanjya chei tredh lev kanolyow."
+        },
+        "ManageChannels": {
+            "t": "Reoli Kanowow"
+        },
+        "ManageServer": {
+            "t": "Kewsel Server"
+        },
+        "ManagePermissions": {
+            "t": "Reynja Awditoryans"
+        },
+        "ManageRole": {
+            "t": "Rheola Roles"
+        },
+        "AssignRoles": {
+            "t": "Rannow Rolys"
+        },
+        "ManageNicknames": {
+            "t": "Reyns Alernysi"
+        },
+        "ViewChannel": {
+            "t": "Gweles an Kanow"
+        },
+        "ChangeAvatar": {
+            "t": "Tro rag Avatar"
+        },
+        "ManageCustomisation": {
+            "t": "Rheoli Gwirhysva"
+        },
+        "KickMembers": {
+            "t": "Tol Gwariow"
+        },
+        "BanMembers": {
+            "t": "Dial a-dro dhe Gledhoryon"
+        },
+        "TimeoutMembers": {
+            "t": "A-dro dhe an myttinow"
+        },
+        "ChangeNickname": {
+            "t": "Kemmweyth Werthennow"
+        },
+        "RemoveAvatars": {
+            "t": "Dialweyth Avatars"
         }
     },
     "quantities": {
@@ -726,7 +846,15 @@
             "short": "Diank"
         },
         "PrintScreen": {
-            "full": "Argrafa"
+            "full": "Argrafa",
+            "short": "Krol Lok"
+        },
+        "ScrollLock": {
+            "short": "ScrLK",
+            "full": "Krol Lok"
+        },
+        "CapsLock": {
+            "full": "Kaps Lock"
         }
     }
 }
