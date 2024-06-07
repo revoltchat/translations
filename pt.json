@@ -50,7 +50,7 @@
         "cancel": "Cancelar solicitação",
         "check_mail": "Verificar o correio!",
         "check_spam": "Por favor, verifique a sua pasta de spam se não a encontrar",
-        "open_mail_provider": "Abrir {{fornecedor}}",
+        "open_mail_provider": "Abrir {{provider}}",
         "successful_registration": "Registrado com sucesso!",
         "verifying_account": "Verificando sua conta…",
         "verified_account": "Sua conta foi verificada!",
@@ -203,7 +203,7 @@
                     "nochannel": "Nenhum canal",
                     "title": "Ops, não há nada aqui!"
                 },
-                "message_who": "Mensagem a @{{pessoa}}",
+                "message_who": "Mensagem a @{{person}}",
                 "bridged": "A mensagem foi enviada em outra plataforma"
             },
             "groups": {
@@ -577,7 +577,7 @@
                     "title": "Categorias"
                 },
                 "emojis": {
-                    "title": "Emojis",
+                    "title": "emojis",
                     "upload": "Carregar Emoji"
                 },
                 "customisation": {
@@ -740,9 +740,376 @@
                 "actions": {
                     "done": "Feito",
                     "kick": "Chute",
-                    "save": "Salvar"
+                    "save": "Salvar",
+                    "hide": "Esconder",
+                    "edit": "Editar",
+                    "ok": "Ok",
+                    "ban": "ban",
+                    "delete": "Excluir",
+                    "report": "Relatório",
+                    "block": "Bloquear",
+                    "close": "Fechar",
+                    "leave": "Deixar",
+                    "reset": "Reiniciar",
+                    "back": "Voltar",
+                    "create": "Criar",
+                    "reveal": "Revelar",
+                    "update": "Atualizar",
+                    "cancel": "Cancelar",
+                    "confirm": "Confirmar",
+                    "reload": "Recarregar aplicativo",
+                    "continue": "Continuar",
+                    "send_email": "Enviar email",
+                    "dont_block": "Não bloqueie",
+                    "remove": "Remover",
+                    "preview": "Visualização"
+                },
+                "edit_keybind": {
+                    "title": "Editar atalho de teclado para {{action}}",
+                    "placeholder": "Pressione as teclas para gravar"
                 }
+            },
+            "popovers": {
+                "user_profile": {
+                    "profile": "Perfil",
+                    "mutual_friends": "Amigos em comum",
+                    "mutual_groups": "Grupos Mútuos",
+                    "mutual_servers": "Servidores mútuos",
+                    "empty": "Está um pouco vazio aqui…",
+                    "no_users": "Sem amigos em comum",
+                    "no_groups": "Nenhum grupo mútuo",
+                    "no_servers": "Sem servidores mútuos",
+                    "sub": {
+                        "badges": "Distintivos",
+                        "information": "Informação",
+                        "connections": "Conexões"
+                    },
+                    "badges": {
+                        "translator": "Tradutor",
+                        "supporter": "Apoiador",
+                        "moderation": "Moderação de plataforma",
+                        "early_adopter": "Adepto pioneiro",
+                        "founder": "Fundador",
+                        "responsible_disclosure": "Questões de segurança divulgadas com responsabilidade"
+                    }
+                },
+                "user_picker": {
+                    "select": "Selecione amigos para adicionar."
+                },
+                "create_bot": {
+                    "title": "Crie um novo bot",
+                    "failed": "Falha ao criar um bot!"
+                },
+                "server_identity": {
+                    "title": "Alterar identidade em {{server}}",
+                    "nickname": "Apelido",
+                    "avatar": "avatar"
+                }
+            },
+            "requires_online": "Você precisa estar online para ver isso.",
+            "invite": {
+                "login": "Faça login na Revolt",
+                "accept": "Aceitar convite",
+                "user_count": "{{member_count}} usuários",
+                "invalid": "Convite inválido!",
+                "invalid_desc": "O convite pode não existir ou você não tem permissão para participar.",
+                "invited_by": "Convidado por {{user}}"
             }
+        },
+        "context_menu": {
+            "open_image": "Abrir imagem",
+            "open_video": "Abrir vídeo",
+            "accept_friend": "Aceitar solicitação de amizade",
+            "leave_server": "Sair do servidor",
+            "copy_id": "Copiar ID",
+            "copy_selection": "Copiar seleção",
+            "copy_text": "Copiar texto",
+            "copy_sid": "Copiar ID do servidor",
+            "copy_cid": "Copiar ID do canal",
+            "copy_mid": "Copiar ID da mensagem",
+            "copy_message_link": "Copiar link da mensagem",
+            "mention": "Menção",
+            "message_user": "Mensagem",
+            "view_profile": "Ver perfil",
+            "mark_as_read": "Marcar como Lido",
+            "retry_message": "Tentar enviar novamente",
+            "cancel_message": "Cancelar envio",
+            "reply_message": "Responder",
+            "quote_message": "Mensagem de citação",
+            "edit_message": "Editar mensagem",
+            "report_message": "Denunciar mensagem",
+            "delete_message": "Apagar mensagem",
+            "remove_member": "Remover do grupo",
+            "kick_member": "Expulsar membro",
+            "ban_member": "Banir membro",
+            "open_file": "Abrir arquivo",
+            "save_file": "Salvar Arquivo",
+            "edit_identity": "Editar identidade",
+            "edit_your_identity": "Edite sua identidade",
+            "delete_channel": "Excluir canal",
+            "create_channel": "Criar canal",
+            "create_invite": "Criar convite",
+            "open_notification_options": "Opções de notificação",
+            "open_channel_settings": "Configurações do canal",
+            "open_server_settings": "Configurações do servidor",
+            "open_group_settings": "Configurações de grupo",
+            "save_image": "Salvar imagem",
+            "save_video": "Salvar vídeo",
+            "copy_link": "Link de cópia",
+            "open_link": "Link aberto",
+            "block_user": "Bloquear usuário",
+            "unblock_user": "Desbloquear usuário",
+            "add_friend": "Adicionar amigo",
+            "remove_friend": "Remover amigo",
+            "reject_friend": "Rejeitar pedido de amizade",
+            "cancel_friend": "Cancelar pedido de amizade",
+            "report_user": "Reportar usuário",
+            "custom_status": "Status personalizado",
+            "clear_status": "Limpar status",
+            "set_custom_status": "Defina um status personalizado",
+            "leave_group": "Deixar o grupo",
+            "close_dm": "Fechar DM",
+            "report_server": "Servidor de relatórios",
+            "delete_server": "Excluir servidor",
+            "create_category": "Criar categoria",
+            "copy_uid": "Copiar ID do usuário",
+            "mark_unread": "Marcar como não lido",
+            "make_owner": "Dê propriedade ao grupo"
+        },
+        "permissions": {
+            "required": "Permissões necessárias"
+        }
+    },
+    "quantities": {
+        "members": {
+            "many": "{{count}} Membros",
+            "one": "1 membro"
+        },
+        "dropFiles": {
+            "one": "Soltar um arquivo",
+            "many": "Solte {{count}} arquivos"
+        }
+    },
+    "dayjs": {
+        "lastDay": "[Ontem às] {{time}}",
+        "sameDay": "[Hoje às] {{time}}",
+        "nextDay": "[Amanhã às] {{time}}",
+        "lastWeek": "[Última] dddd [às] {{time}}",
+        "nextWeek": "dddd [às] {{time}}",
+        "defaults": {
+            "date_separator": "/",
+            "date_format": "traditional",
+            "twelvehour": "no"
+        }
+    },
+    "notifications": {
+        "sent_request": "@{{person}} enviou a você um pedido de amizade.",
+        "now_friends": "Agora você é amigo de @{{person}}!"
+    },
+    "error": {
+        "NetworkError": "Erro de rede.",
+        "Unauthorized": "Não autorizado.",
+        "FailedValidation": "Falha ao validar campos.",
+        "DatabaseError": "Erro no banco de dados.",
+        "InternalError": "Erro interno.",
+        "MissingPermission": "Permissão ausente.",
+        "UnknownError": "Veja console.",
+        "OperationFailed": "Operação falhou.",
+        "RenderFail": "Falha na renderização do modelo.",
+        "MissingHeaders": "Cabeçalhos ausentes.",
+        "InvalidSession": "Sessão inválida.",
+        "UnverifiedAccount": "Conta não verificada.",
+        "UnknownUser": "Usuário desconhecido.",
+        "EmailInUse": "E-mail em uso.",
+        "EmailFailed": "Email não foi enviado.",
+        "InvalidCredentials": "Email ou senha estão errados.",
+        "InvalidToken": "Token inválido",
+        "MissingInvite": "Código de convite ausente na solicitação.",
+        "InvalidInvite": "Código inválido",
+        "AlreadyOnboarded": "Já terminei a integração.",
+        "UsernameTaken": "Esse nome de usuário está em uso.",
+        "AlreadyFriends": "Já é amigo deste usuário.",
+        "AlreadySentRequest": "Já enviei uma solicitação para este usuário.",
+        "Blocked": "Você bloqueou este usuário.",
+        "BlockedOther": "Este usuário bloqueou você.",
+        "NoEffect": "Este pedido não teve efeito.",
+        "RequiredField": "Obrigatório",
+        "TooShort": "Muito curto",
+        "TooLong": "Muito longo",
+        "Unavailable": "Indisponível.",
+        "FileTooLarge": "O arquivo é muito grande.",
+        "FailedToReceive": "O servidor não conseguiu receber seu arquivo.",
+        "MissingData": "Faltam dados na solicitação.",
+        "IoError": "O servidor encontrou um erro de E/S.",
+        "UnsupportedBrowser": "O navegador não tem suporte para esse recurso.",
+        "CompromisedPassword": "Esta senha está comprometida.",
+        "ReachedMaximumBots": "Você atingiu a quantidade máxima de bots.",
+        "AudioPermissionBlock": "Sem acesso ao seu microfone. Por favor verifique a configuração do seu navegador.",
+        "DiscriminatorChangeRatelimited": "Muitas alterações de tags.",
+        "Unlabelled": "Algo aconteceu.",
+        "InvalidEmail": "Endereço de email invalido",
+        "ProbeError": "Falha ao obter metadados do arquivo.",
+        "DeniedNotification": "Você negou acesso à notificação. Verifique as configurações da página."
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
+    },
+    "permissions": {
+        "ManageChannels": {
+            "t": "Gerenciar canais",
+            "d": "Permite que os membros criem, editem e excluam canais."
+        },
+        "ManageServer": {
+            "t": "Gerenciar servidor",
+            "d": "Permite que os membros alterem o nome, a descrição, o ícone e outras informações relacionadas deste servidor."
+        },
+        "ManagePermissions": {
+            "t": "Gerenciar Permissões",
+            "d": "Permite que os membros alterem permissões para canais e funções com classificação inferior."
+        },
+        "ManageRole": {
+            "t": "Gerenciar funções",
+            "d": "Permite que os membros criem, editem e excluam funções com classificação inferior à deles e modifiquem as permissões de função nos canais."
+        },
+        "ManageCustomisation": {
+            "t": "Gerenciar personalização",
+            "d": "Permite que os membros criem, editem e excluam emojis."
+        },
+        "KickMembers": {
+            "t": "Expulsar membros",
+            "d": "Permite que membros removam membros deste servidor. Membros expulsos podem voltar com um convite."
+        },
+        "BanMembers": {
+            "t": "Banir membros",
+            "d": "Permite que membros removam permanentemente membros deste servidor."
+        },
+        "TimeoutMembers": {
+            "t": "Membros de tempo limite",
+            "d": "Permite que os membros impeçam temporariamente que os usuários interajam com o servidor."
+        },
+        "AssignRoles": {
+            "t": "Atribuir funções",
+            "d": "Permite que os membros atribuam funções abaixo de sua própria classificação a outros membros."
+        },
+        "ChangeNickname": {
+            "t": "Alterar apelido",
+            "d": "Permite que os membros alterem seus apelidos neste servidor."
+        },
+        "ManageNicknames": {
+            "t": "Gerenciar apelidos",
+            "d": "Permite que os membros alterem os apelidos de outros membros."
+        },
+        "ChangeAvatar": {
+            "t": "Mudar Avatar",
+            "d": "Permite que os membros alterem seu avatar neste servidor."
+        },
+        "RemoveAvatars": {
+            "t": "Remover avatares",
+            "d": "Permite que os membros removam os avatares de outros membros deste servidor."
+        },
+        "ViewChannel": {
+            "t": "Ver canal",
+            "d": "Permite que os membros visualizem quaisquer canais nos quais tenham essa permissão."
+        },
+        "ReadMessageHistory": {
+            "t": "Ler histórico de mensagens",
+            "d": "Permite que os membros leiam o histórico de mensagens deste canal."
+        },
+        "SendMessage": {
+            "t": "Enviar mensagens",
+            "d": "Permite que os membros enviem mensagens em canais de texto."
+        },
+        "ManageMessages": {
+            "t": "Gerenciar mensagens",
+            "d": "Permite que os membros excluam mensagens enviadas por outros membros."
+        },
+        "ManageWebhooks": {
+            "t": "Gerenciar Webhooks",
+            "d": "Permite que os membros controlem webhooks em um canal."
+        },
+        "ManageChannel": {
+            "t": "Gerenciar canais",
+            "d": "Permite que os membros editem ou excluam um canal."
+        },
+        "InviteOthers": {
+            "t": "Convide outras pessoas",
+            "d": "Permite que os membros convidem outros usuários para um canal."
+        },
+        "SendEmbeds": {
+            "t": "Enviar incorporações",
+            "d": "Permite que os membros enviem conteúdo incorporado, seja de links ou incorporações de texto personalizado."
+        },
+        "UploadFiles": {
+            "t": "Fazer upload de arquivos",
+            "d": "Permite que os membros carreguem arquivos em canais de texto."
+        },
+        "Video": {
+            "t": "Vídeo",
+            "d": "Permite que os membros transmitam vídeo em um canal de voz."
+        },
+        "Masquerade": {
+            "t": "Mascarado",
+            "d": "Permite que os membros alterem seu nome e avatar por mensagem."
+        },
+        "React": {
+            "t": "Usar reações",
+            "d": "Permite que os membros reajam às mensagens."
+        },
+        "Connect": {
+            "t": "Conectar",
+            "d": "Permite que os membros se conectem a um canal de voz."
+        },
+        "Speak": {
+            "t": "Falar",
+            "d": "Permite que os membros falem em um canal de voz."
+        },
+        "MuteMembers": {
+            "t": "Silenciar membros",
+            "d": "Permite que os membros silenciem outras pessoas em um canal de voz."
+        },
+        "DeafenMembers": {
+            "t": "Membros surdos",
+            "d": "Permite que os membros ensurdeçam outras pessoas em um canal de voz."
+        },
+        "MoveMembers": {
+            "t": "Mover membros",
+            "d": "Permite que os membros movam outras pessoas entre canais de voz."
+        }
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageUp": {
+            "full": "Subir página",
+            "short": "Pg Up"
+        },
+        "PageDown": {
+            "full": "Página para baixo",
+            "short": "Pg Dn"
+        },
+        "PrintScreen": {
+            "full": "Captura de tela",
+            "short": "Prtsc"
+        },
+        "ScrollLock": {
+            "full": "Bloqueio de rolagem",
+            "short": "Scrlk"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
         }
     }
 }
