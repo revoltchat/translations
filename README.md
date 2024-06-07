@@ -55,7 +55,10 @@ Please note that this table **only includes languages that are currently availab
 |🇳🇱|Nederlands / nl|[@sympact06](https://github.com/sympact06)||
 |🇮🇷|فارسی / fa|[@DevEvil99](https://github.com/DevEvil99) [@shareghzadeh](https://github.com/shareghzadeh)||
 |🇵🇱|Polski / pl|[@Pawelek-dev](https://github.com/Pawelek-dev) [@HosachiPL](https://github.com/HosachiPL)|[@CyberL1](https://github.com/CyberL1)|
-|🇧🇷|Português (do Brasil) / pt_BR|[@yanndere](https://github.com/yanndere)|[@Hokiper](https://github.com/Hokiper) [@YoshiroOno](https://github.com/YoshiroOno)|
+|🇧🇷|Português (do Brasil) / pt_BR|[@yanndere](https://github.com/yanndere)
+[Apple](https://github.com/applesafe)|
+[@Hokiper]
+(https://github.com/Hokiper) [@YoshiroOno](https://github.com/YoshiroOno)|
 |🇵🇹|Português (Portugal) / pt_PT|[@Tmpod](https://github.com/Tmpod)|[@SlicedBlueApple](https://github.com/SlicedBlueApple) [@EIE-elpelon](https://github.com/EIE-elpelon)|
 |🇷🇴|Română / ro|[@Edward205](https://github.com/Edward205)|[@S703T](https://github.com/S703T)|
 |🇷🇺|Русский / ru|[@div2005](https://github.com/div2005)|[@zptr1](https://github.com/zptr1) [@arslee07](https://github.com/arslee07)|
