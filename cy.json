@@ -387,7 +387,8 @@
                     "public_bot_tip": "Mae'r bot hwn yn gyhoeddus. Gall unrhywun ei gwahodd.",
                     "private_bot_tip": "Mae'r bot hwn yn breifat. Gallwch ei gwahodd yn unig.",
                     "interactions_url": "URL Rhyngweithiadau",
-                    "unique_id": "Dyma dynodwr unigryw i'ch bot. Nid yw hyn yn tocyn y bot."
+                    "unique_id": "Dyma dynodwr unigryw i'ch bot. Nid yw hyn yn tocyn y bot.",
+                    "reserved": "Noder: Cedwir y blwch hwn ar gyfer y dyfodol."
                 },
                 "sync": {
                     "categories": "Categorïau Cysoni",
@@ -422,7 +423,127 @@
                     "delete_plugin": "Dileu",
                     "no_plugins": "Nid oes unrhyw ategion sydd wedi'w gosod."
                 },
-                "source_code": "Côd Ffynhonnell"
+                "source_code": "Côd Ffynhonnell",
+                "keybinds": {
+                    "action": {
+                        "navigate_server_up": {
+                            "title": "Mordwyo i'r gweinydd blaenforol",
+                            "description": "Mordwyo i'r gweinydd blaenorol."
+                        },
+                        "messaging_edit_previous_message": {
+                            "description": "Newid y neges a chafodd ei hanfon yn flaenorol yn yr olygfa anfon neges lwythog.",
+                            "title": "Newid y neges flaenorol"
+                        },
+                        "input_submit": {
+                            "description": "Bysellrwymiad uwch a chaiff ei ddefnyddio i roi'r mewnbwn pressenol\nGallai hyn gynnwys rhoi neges, rhoi newid i neges, rhoi chwiliad, ac ati...",
+                            "title": "Rhoi Mewnbwn"
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Marcio'r sianel fel y darllenir",
+                            "description": "Yn marcio'r sianel presennol fel y darllenir."
+                        },
+                        "navigate_channel_up": {
+                            "title": "Mordwyo i'r sianel flaenorol",
+                            "description": "Mordwyo i'r sianel flaenorol."
+                        },
+                        "navigate_channel_down": {
+                            "title": "Mordwyo i'r sianel nesaf",
+                            "description": "Mordwyo i'r sianel nesaf."
+                        },
+                        "navigate_server_down": {
+                            "title": "Mordwyo i'r gweinydd nesaf",
+                            "description": "Mordwyo i'r gweinydd nesaf."
+                        },
+                        "auto_complete_up": {
+                            "title": "Detholiad Awtolenwi Blaenorol",
+                            "description": "Symud y detholiad awtolenwi i'r un blaenorol."
+                        },
+                        "auto_complete_down": {
+                            "title": "Nesaf, Detholiad Awtolenwi",
+                            "description": "Symud y detholiad awtolenwi i'r un nesaf."
+                        },
+                        "auto_complete_select": {
+                            "title": "Cadarnhau'r Detholiad Awtolenwi",
+                            "description": "Cadarnhau'r Detholiad Awtolenwi Presennol."
+                        },
+                        "input_cancel": {
+                            "title": "Canslo Mewnbwn",
+                            "description": "Bysellrwymiad uwch a chaiff ei ddefnyddio i canslo'r mewnbwn pressenol\nGallai hyn gynnwys canslo newid i neges, canslo llun ciwio, ac ati..."
+                        },
+                        "input_force_submit": {
+                            "title": "Gorfodi Rhoi Mewnbwn"
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Sgrolio i waelod y negeseuon",
+                            "description": "yn sgrolio i waelod yr olygfa anfon neges."
+                        },
+                        "navigate_previous_context": {
+                            "title": "Mordwyo i'r cyd-destun blaenorol"
+                        },
+                        "developer_toggle_all_experiments": {
+                            "description": "Bydd hyn troi ymlaen / troi i ffwrdd pob arbrawf ar unwaith."
+                        }
+                    },
+                    "title": "Bysellrwymiadau",
+                    "description": "Gweld a gosod bysellrwymiadau",
+                    "search": "Chwilio bysellrwymiadau…",
+                    "edit_keybind": "Newid bysellrwymiad",
+                    "add_keybind": "Adio bysellrwymiad newydd",
+                    "remove_keybind": "Dileu bysellrwymiad",
+                    "reset_keybind": "Ailosod bysellrwymiad i {{keybind}}",
+                    "category": {
+                        "navigation": "Mordwyaeth",
+                        "messaging": "Anfon neges",
+                        "advanced": "Uwch"
+                    }
+                },
+                "feedback": {
+                    "suggest_desc": "Awgrym nodwedd Revolt newydd ar drafodaethau GitHub.",
+                    "issue_desc": "Gallwch yn creu rhifyn ar GitHub i'n helpu brysbennu rhifynnau.",
+                    "issue": "Creu rhifyn newydd",
+                    "title": "Adborth",
+                    "description": "Rhoi adborth",
+                    "suggest": "Rhoi awgrym nodwedd",
+                    "bug": "Olrheiniwr Byg",
+                    "bug_desc": "Gweld adroddiadau byg actif yma."
+                },
+                "theme_shop": {
+                    "category": {
+                        "manage": "Rheoli arbediad",
+                        "new": "Newydd yr wythnos hon",
+                        "default": "Themâu diofyn",
+                        "saved": "Arbedwyd",
+                        "highest": "Mwyaf poblogaidd",
+                        "viewall": "Gweld y cyfan"
+                    },
+                    "use": "Defnyddio thema",
+                    "title": "Siop Thema",
+                    "description": "poriwch cannoedd o themâu a chrëwyda a churadwyd gan y gymuned.",
+                    "search": "Chwilio Themâu…",
+                    "active": "Actif ar hyn o bryd",
+                    "by": "gan"
+                },
+                "logOut": "Allgofnodi"
+            },
+            "channel_pages": {
+                "webhooks": {
+                    "title": "Bachau we"
+                },
+                "permissions": {
+                    "title": "Caniatadau"
+                },
+                "overview": {
+                    "title": "Trosolwg",
+                    "name": "Enw Sianel",
+                    "description": "Disgrifiad Sianel"
+                }
+            },
+            "server_pages": {
+                "overview": {
+                    "title": "Trosolwg",
+                    "description": "Disgrifiad Sianel",
+                    "name": "Enw Gweinydd"
+                }
             }
         },
         "special": {
