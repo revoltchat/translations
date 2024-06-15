@@ -183,13 +183,33 @@
                 "new_to_server": "Novy na tutom serveru",
                 "edited": "(Pravjene)",
                 "bridged": "Poslanje stalo izslane na drugom platformu"
+            },
+            "servers": {
+                "create": "Stvoriti server",
+                "name": "Nazva Servera",
+                "description": "Opis Servera",
+                "channel_name": "Nazva kanala",
+                "channel_type": "Tip Kanala",
+                "category_name": "Nazva Kategorije",
+                "channel_description": "Opis Kanala",
+                "custom_banner": "Prisposobjeny Baner",
+                "owner": "Vlasnik Servera",
+                "text_channel": "Tekstovy kanal",
+                "voice_channel": "Glasovy Kanal"
+            },
+            "groups": {
+                "owner": "Vlasnik Grupy"
             }
         },
         "settings": {
             "pages": {
                 "audio": {
                     "input_device": "Mikrofon",
-                    "device_label_NA": "N/A"
+                    "device_label_NA": "N/A",
+                    "title": "Nastavjenja Glasa",
+                    "tip_grant_permission": "Potrěbujete dopustiti pozvoljenje, da by iměti pristup do nastavjenij avdija.",
+                    "tip_retry": "Ne dozvolili jeste Revoltu, da by iměti pristup do vašego mikrofona. Prosimo {{retryBtn}}.",
+                    "button_grant": "Dopustiti pozvoljenje"
                 },
                 "appearance": {
                     "colours": {
@@ -199,9 +219,99 @@
                         "title": "Fonty"
                     },
                     "theme": "Temy",
-                    "title": "Izgled"
+                    "title": "Izgled",
+                    "emoji": {
+                        "title": "Emodži"
+                    },
+                    "advanced_options": {
+                        "title": "Avansovane Opcije"
+                    },
+                    "display": {
+                        "default": "Prědustavjenje"
+                    },
+                    "discover": {
+                        "description": "Prěgleděti temy, ktore sut sdělane od spoločnosti",
+                        "title": "Odkryti Temy"
+                    },
+                    "color": {
+                        "light": "jasny",
+                        "dark": "těmny"
+                    },
+                    "accent_selector": "Kolor Akcenta",
+                    "appearance_options": {
+                        "title": "Opcije Izgleda",
+                        "show_send": "Vsegda pokazati pritisk \"Poslati Poslanje\"",
+                        "show_account_age": "Vsegda pokazati vozrast učeta pri pristupjenyh poslanjah",
+                        "show_account_age_desc": "Jestli funkcija jest izključena, vozrast učeta pokažut toliko se za novyh koristnikov.",
+                        "show_send_desc": "Jestli funkcija jest izključena, pritisk \"Poslati Poslanje\" toliko se javi na mobilu."
+                    },
+                    "theme_options": {
+                        "title": "Opcije tem",
+                        "follow": "Slěditi temu za sistemu",
+                        "follow_desc": "Jestli funkcija jest vključena, ne smožete izměnjati svoju temu ili koristati prisposobjenu temu.",
+                        "seasonal": "Sezonna Tema",
+                        "transparency_desc": "Umožnja prozračne efekty črěz aplikaciju.",
+                        "transparency": "Prozračne Efekty"
+                    },
+                    "emoji_pack": "Pakovanje Emodži",
+                    "message_display": "Izstava Poslanja",
+                    "advanced": "Avansovane Opcije",
+                    "import_theme": "Importovanti temu iz tekstovogo tipa danyh",
+                    "theme_data": "Dane Temy",
+                    "sync": "Opcije Sinhronizacije",
+                    "font": "Font",
+                    "import": "Importovanti temu"
+                },
+                "account": {
+                    "title": "Moj učet",
+                    "change_field": "Izměniti",
+                    "2fa": {
+                        "title": "Dvučinitele Potvrdženje",
+                        "two_factor_on": "Dvučinitele potvrdženje jest sejčasno vključeno.",
+                        "two_factor_off": "Ne umožnili jeste dvučinitele potvrdženje!",
+                        "description": "Dodati dodatočny sloj bezpečnosti umožneči 2FA do vašego učeta."
+                    },
+                    "manage": {
+                        "title": "Upravjenje Učeta",
+                        "disable": "Izključiti Učet",
+                        "disable_description": "Ne budete iměti pristup do vašego učeta, jestli ne skontaktujete se s poddrživanjem - jednako, vaše dane ne budut odstranjene.",
+                        "delete": "Označiti Učet za Odstranjenje",
+                        "delete_description": "Vaš učet i vse vaše dane (ktore vključajut vaše poslanja i spisok drugov) se počekajut za odstranjenje. E-mail s potvrdženjem bude poslany - možete anulovati tuto dějanje skontaktujuči s poddrživanjem.",
+                        "description": "Izključiti ili odstraniti kogdakoli vaš učet. Obě dějanja odlogujut vas vaših aktivnyh sesij."
+                    },
+                    "unique_id": "To jest unikalny identifikator koristnika dlja vašego učeta."
+                },
+                "profile": {
+                    "title": "Profil",
+                    "info": "Informacija",
+                    "profile_picture": "Foto Profila",
+                    "edit_background": "Redaktovati Podklad",
+                    "edit_profile": "Redaktovati Profil",
+                    "placeholder": "Napisati něčto o vas…"
+                },
+                "sessions": {
+                    "title": "Sesije",
+                    "this_device": "Tutoj Orudje",
+                    "created": "Stvorjeno prěd {{time_ago}}",
+                    "logout": "Odlogovati se vsih inyh sesij",
+                    "active_sessions": "Aktivne Sesije"
+                },
+                "accessibility": {
+                    "title": "Dostupnost",
+                    "reduced_motion": "Smenšena Mocija"
                 }
-            }
+            },
+            "categories": {
+                "user_settings": "Nastavjenja Koristnika",
+                "client_settings": "Nastavjenja Klienta",
+                "danger_zone": "Grozna Zona"
+            },
+            "actions": {
+                "remove": "Odstraniti",
+                "upload": "Aplodovati",
+                "edit": "Redaktovati {{name}}"
+            },
+            "title": "Nastavjenja"
         }
     }
 }
