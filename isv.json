@@ -6,7 +6,7 @@
         "on": "Vključajemo",
         "off": "Izključajemo",
         "disabled": "Odključajemo",
-        "unavailable": "Nedostųpny",
+        "unavailable": "Nedostupny",
         "about": "Ob",
         "image_by": "Fotografja prěz",
         "learn_more": "Dověděti se veče"
@@ -28,7 +28,7 @@
         "invite": "Kod pozvanja",
         "log_out_other": "Odjavi se od vsih zasědanij",
         "enter": {
-            "username": "Vpiši svoju nazvu koristnika.",
+            "username": "Vpisati vašu prědpočitanu nazvu koristnika.",
             "email": "Prosim vpiši svoj email.",
             "invite": "vpiši svoj kod prizvanja.",
             "current_password": "Vpiši svoju tutčasnu parolu.",
@@ -110,7 +110,7 @@
             },
             "channel": {
                 "message_where": "Izslj do {{channel_name}}",
-                "message_who": "Izslj do {{person}}",
+                "message_who": "Poslati poslanje do @{{person}}",
                 "message_saved": "Zapiši v svoih zapiskah",
                 "uploading_file": "Aplodovanje…",
                 "failed_upload": "Ne udalo se aplodovati!",
@@ -177,12 +177,33 @@
                     "confirm": "Potvrdžaju, čto imaju ponje 10 lět."
                 },
                 "unknown_user": "<Neznany Koristnik>",
-                "bot": "Bot",
+                "bot": "Bota",
                 "bridge": "most",
                 "new_to_revolt": "Novy v Revolt",
                 "new_to_server": "Novy na tutom serveru",
                 "edited": "(Pravjene)",
-                "bridged": "Poslanje stalo izslane na drugom platformu"
+                "bridged": "Poslanje stalo izslane na drugom platformu",
+                "notifications": {
+                    "default": "Koristati Prědustavjenje",
+                    "all": "Vse Poslanja",
+                    "mention": "Toliko Spomněnja",
+                    "none": "Ničto",
+                    "muted": "Utišeno"
+                },
+                "search": {
+                    "title": "Poiskati",
+                    "sort": {
+                        "relevance": "Aktualnost",
+                        "latest": "Najnovše",
+                        "oldest": "Najstarše"
+                    }
+                },
+                "errors": {
+                    "title": "O ne, tut ne jest ničto!",
+                    "nochannels": "Tutoj server ne imaje žadnyh kanalov, ili ne imajete pristup do ktorogo-nebud.",
+                    "nochannel": "Žadny kanal"
+                },
+                "team": "Oficialna Komunikacija"
             },
             "servers": {
                 "create": "Stvoriti server",
@@ -198,7 +219,10 @@
                 "voice_channel": "Glasovy Kanal"
             },
             "groups": {
-                "owner": "Vlasnik Grupy"
+                "owner": "Vlasnik Grupy",
+                "create": "Stvoriti grupu",
+                "name": "Nazva Grupy",
+                "description": "Opis Grupy"
             }
         },
         "settings": {
@@ -209,7 +233,8 @@
                     "title": "Nastavjenja Glasa",
                     "tip_grant_permission": "Potrěbujete dopustiti pozvoljenje, da by iměti pristup do nastavjenij avdija.",
                     "tip_retry": "Ne dozvolili jeste Revoltu, da by iměti pristup do vašego mikrofona. Prosimo {{retryBtn}}.",
-                    "button_grant": "Dopustiti pozvoljenje"
+                    "button_grant": "Dopustiti pozvoljenje",
+                    "button_retry": "Poprobovati ješče raz"
                 },
                 "appearance": {
                     "colours": {
@@ -298,8 +323,135 @@
                 },
                 "accessibility": {
                     "title": "Dostupnost",
-                    "reduced_motion": "Smenšena Mocija"
-                }
+                    "reduced_motion": "Smenšena Mocija",
+                    "descriptions": {
+                        "reduced_motion": "Jestli funkcija jest vključena, animacije i efekty mocije ne igrajut ili budut menje žestoke."
+                    }
+                },
+                "notifications": {
+                    "title": "Uvědomjenja",
+                    "push_notifications": "Puš-uvědomjenja",
+                    "enable_desktop": "Vključiti Uvědomjenja na Rabočem Stolu",
+                    "sounds": "Zvuky",
+                    "descriptions": {
+                        "enable_desktop": "Jestli funkcija jest vključena, budete dostavati uvědomjenja dokolě aplikacija jest otvorjena.",
+                        "enable_push": "Jestli funkcija jest vključena, budete dostavati uvědomjenja, kogda ne jeste dostupni."
+                    },
+                    "sound": {
+                        "message": "Dostano Poslanje",
+                        "outbound": "Poslano Poslanje",
+                        "call_join": "Koristnik Podključil se do Zatelefonovanja",
+                        "call_leave": "Koristnik ostavil iz zatelefonovanja"
+                    },
+                    "enable_push": "Vključiti Puš-uvědomjenja"
+                },
+                "language": {
+                    "title": "Jezyk",
+                    "select": "Izbrati svoj jezyk",
+                    "const": "Skonstruovane jezyky",
+                    "other": "Ine jezyčne opcije"
+                },
+                "sync": {
+                    "title": "Sinhronizacija",
+                    "categories": "Kategorije Sinhronizacije",
+                    "descriptions": {
+                        "appearance": "To bude sinhronizovati opcije izgleda, tako kako vaše izbrano pakovanje emodži i gustotu poslanij.",
+                        "theme": "To bude sinhronizovati vašu izbranu temu, kolory i ktore-nebud prisposobjene KTS.",
+                        "locale": "To bude sinhronizovati vaš sejčasny izbrany jezyk."
+                    },
+                    "options": "Opcije Sinhronizacije"
+                },
+                "native": {
+                    "title": "Nastavjenja Rabočego Stola"
+                },
+                "experiments": {
+                    "title": "Eksperimenty",
+                    "features": "Dostupne Funkcije",
+                    "not_available": "V toj hvilji žadne eksperimenty ne sut dostupne."
+                },
+                "plugins": {
+                    "title": "Vtičniky",
+                    "wip": "Ostrěženje: tuta funkcija jest ješče v razvitju.",
+                    "no_plugins": "Žadne vtičniky ne sut instalovane.",
+                    "delete_plugin": "Odstraniti"
+                },
+                "donate": {
+                    "title": "Podariti"
+                },
+                "source_code": "Kod Žrla",
+                "bots": {
+                    "title": "Moje Boty",
+                    "create_bot": "Stvoriti botu",
+                    "copy_invite": "Kopirovati Link Prizvanja",
+                    "add": "Dodati Botu",
+                    "token": "Token",
+                    "public_bot_tip": "Tuta bota jest publična. Kto-nebud može ju prizvati.",
+                    "private_bot_tip": "Tuta bota jest privatna. Toliko Vy možete ju prizvati.",
+                    "public_bot": "Publična Bota",
+                    "profile": "Profil Boty",
+                    "public_bot_desc": "Jestli funkcija jest vključena, ini koristniki mogut dodati tutu botu do serverov i grupovyh poslanij.",
+                    "interactions_url": "Vzajemodějanje URL",
+                    "reserved": "Važno: tuto polje jest zarezervovano za budučnost.",
+                    "unique_id": "To jest unikalny identifikator dlja vašej boty. To ne jest token za botu."
+                },
+                "theme_shop": {
+                    "title": "Magazin Tem",
+                    "description": "Prěgleděti sta tem, stvorjene i kurirane od spoločnosti.",
+                    "search": "Poiskati temy…",
+                    "category": {
+                        "saved": "Zapisano",
+                        "manage": "Zapisano poslanje",
+                        "new": "Čto novogo v tutom tydnju",
+                        "highest": "Najvysše ocěnjeno",
+                        "viewall": "Gleděti vse",
+                        "default": "Prědustavjene temy"
+                    },
+                    "active": "Sejčasno aktivno",
+                    "use": "Koristati temu",
+                    "by": "od"
+                },
+                "keybinds": {
+                    "category": {
+                        "navigation": "Navigacija",
+                        "advanced": "Avansovano"
+                    },
+                    "action": {
+                        "navigate_channel_up": {
+                            "title": "Popluti na poprědnji kanal"
+                        },
+                        "navigate_server_up": {
+                            "title": "Popluti na poprědnji server"
+                        },
+                        "navigate_server_down": {
+                            "title": "Popluti na nastupny server"
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "Redaktovati poprědnje poslanje"
+                        },
+                        "messaging_mark_channel_read": {
+                            "description": "Označa sejčasny kanal kako pročitany.",
+                            "title": "Označiti kanal kako pročitany"
+                        },
+                        "navigate_previous_context": {
+                            "title": "Popluti na poprědnji kontekst"
+                        },
+                        "navigate_channel_down": {
+                            "title": "Popluti na nastupny kanal"
+                        },
+                        "developer_toggle_all_experiments": {
+                            "description": "To vključi / izključi směsta vse eksperimenty."
+                        }
+                    }
+                },
+                "feedback": {
+                    "title": "Povratna informacija",
+                    "description": "Podati povratnu informaciju",
+                    "suggest": "Podati prědloženje za funkciju",
+                    "suggest_desc": "Prědložiti nove funkcije dlja Revolta na diskusijah GitHub.",
+                    "issue": "Stvoriti novu kvestiju",
+                    "issue_desc": "Da by vyše pomogti nam legše sortovati kvestije, možete stvoriti kvestiju na GitHub."
+                },
+                "logOut": "Odlogovati se"
             },
             "categories": {
                 "user_settings": "Nastavjenja Koristnika",
@@ -311,7 +463,132 @@
                 "upload": "Aplodovati",
                 "edit": "Redaktovati {{name}}"
             },
-            "title": "Nastavjenja"
+            "title": "Nastavjenja",
+            "channel_pages": {
+                "overview": {
+                    "title": "Izkazanje",
+                    "description": "Opis Kanala",
+                    "name": "Nazva Kanala"
+                }
+            },
+            "server_pages": {
+                "overview": {
+                    "system_messages": "Kanaly Poslanja Sistemy",
+                    "name": "Nazva Servera"
+                },
+                "customisation": {
+                    "title": "Prisposobjenje"
+                },
+                "members": {
+                    "title": "Členi"
+                },
+                "invites": {
+                    "code": "Kod Pozvanja",
+                    "channel": "Kanal",
+                    "revoke": "Udaliti",
+                    "title": "Pozvanja"
+                },
+                "bans": {
+                    "user": "Koristnik",
+                    "reason": "Povod za Zakaz",
+                    "no_reason": "Žadny povod za zakaz.",
+                    "title": "Zakazy"
+                },
+                "roles": {
+                    "title": "Roly"
+                },
+                "emojis": {
+                    "title": "Emodži",
+                    "upload": "Aplodovati Emodži"
+                },
+                "management": {
+                    "title": "Upravjenje Koristnika"
+                },
+                "categories": {
+                    "title": "Kategorije"
+                }
+            },
+            "tips": {
+                "account": {
+                    "b": "Prijdti do nastavjenij profila.",
+                    "a": "Hočete li kustomizovati svoj publičny profil?"
+                },
+                "languages": {
+                    "a": "Nedostavamo li jezyk, ktory hočete?",
+                    "b": "Pomožite nam vkladajuči veče prěkladov."
+                },
+                "sessions": {
+                    "b": "zabezpečite svoj učet izměnjajuči parol i nastaveči 2FA.",
+                    "a": "Jestli vidite neznanu sesiju na spisku,"
+                }
+            },
+            "permissions": {
+                "create_role": "Stvoriti novu rolu",
+                "role_name": "Nazva Roly",
+                "role_ranking": "Dostojenstvo Roly",
+                "delete_role": "Odstraniti Rolu",
+                "hoist_desc": "Izstaviti tutu rolu nad inymi.",
+                "role_colour": "Kolor Roly",
+                "role_options": "Opcije Roly"
+            }
+        },
+        "special": {
+            "copy": "Kliknuti, da by kopirovati",
+            "friends": {
+                "blocked": "Zablokovano",
+                "from": {
+                    "single": "Od {{user}}",
+                    "multiple": "Od {{userlist}} i {{user}}",
+                    "several": "Od {{userlist}} i {{count}} veče…"
+                },
+                "pending": "Čekajuče prosby",
+                "nobody": "Nikto ne jest ješče tut!"
+            },
+            "status": {
+                "offline": "Nedostupno.",
+                "disconnected": "Odključeno.",
+                "connecting": "Podključa se…",
+                "reconnecting": "Prědključa se…"
+            },
+            "server-badges": {
+                "verified": "Prověrjeny Server",
+                "official": "Oficialny Server"
+            },
+            "modals": {
+                "error": "Stala se pogrěška!",
+                "clipboard": {
+                    "unavailable": "Bufer obměna jest nedostupny!",
+                    "https": "Sejčasno ne jeste v kontekstu HTTPS.",
+                    "copy": "Manualna kopija:"
+                },
+                "signed_out": "Odlogovali jeste se!",
+                "token_reveal": "Token Koristnika {{name}}",
+                "onboarding": {
+                    "welcome": "Dobrodošli v",
+                    "pick": "Trgnuti nazvu koristnika, ktoru hočete, aby ljudi smogli vas najdti. To može byti izměnjeno pozdno vo vaših nastavjenjah koristnika."
+                },
+                "prompt": {
+                    "confirm_leave": "Ostaviti {{name}}?",
+                    "confirm_leave_long": "Ne smožete se prědključati ako ne imajete opet novo prizvanje.",
+                    "confirm_close_dm": "Zatvoriti konversaciju s {{name}}?",
+                    "confirm_close_dm_long": "Možete opet otvoriti pozdno, ale podě se na oboh stranah.",
+                    "confirm_delete": "Odstraniti {{name}}?",
+                    "confirm_delete_long": "Poslě odstranjenja, ne smožete vratiti tuto dějanje.",
+                    "confirm_delete_message_long": "Či jeste isti, že hočete to odstraniti?",
+                    "create_invite_generate": "Proizvedenje prizvanja…",
+                    "confirm_kick": "Či jeste isti, že hočete udariti koristnika {{name}}?",
+                    "confirm_ban_reason": "Povod za Zakaz",
+                    "unfriend_user": "Odstraniti druga {{name}}?",
+                    "block_user": "Zablokovati koristnika {{name}}?",
+                    "block_user_long": "Či jeste isti, že hočete zablokovati koristnika {{name}}? Oni budut odstranjene iz vašego spiska drugov.",
+                    "silent_leave": "Tiho Ostaviti",
+                    "create_invite_created": "Tut jest vaš novy kod prizvanja:",
+                    "confirm_ban": "Idete zakazati {{name}}",
+                    "unfriend_user_long": "Ne smožete jim razgovorjati ješče raz ako ne oddodavate."
+                },
+                "confirm": "Potvrditi dějanje"
+            },
+            "copy_username": "Kliknuti, da by kopirovati nazvu koristnika"
         }
     }
 }
