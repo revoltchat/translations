@@ -161,28 +161,28 @@
                     "not_loaded": "Poslanje ne ladovane, klikni da by skočiti",
                     "timed_out": "Imaješ prěryv na {{time}}.",
                     "blocked_messages": "{{count}} zablokovanij poslanij",
-                    "blocked_user": "Zablokovany učestnik",
-                    "sent_file": "Izslj dodatok",
-                    "sent_multiple_files": "Izslal (-a) mnogo dodatkov",
-                    "load_file": "Ladovaj fajl",
+                    "blocked_user": "Zablokovany Koristnik",
+                    "sent_file": "Poslati dodatok",
+                    "sent_multiple_files": "poslal (-a) mnogo dodatkov",
+                    "load_file": "Ladovati fajl",
                     "viewing_old": "Obgleděnje starějše poslanja",
                     "new_messages": "Nove poslanja od {{time_ago}}",
                     "no_sending": "Ne imaješ dozvoljenja izslati poslanij na tutom kanale."
                 },
                 "nsfw": {
                     "channel": {
-                        "marked": "Tutoj kanal jest označimy kako NSFW.",
+                        "marked": "Tutoj kanal jest označeny kako NSFW.",
                         "confirm": "Pristupi do kanalu"
                     },
-                    "confirm": "Potvrdžaju, čto imaju ponje 10 lět."
+                    "confirm": "Potvrdžaju, čto imaju ponje 18 lět."
                 },
                 "unknown_user": "<Neznany Koristnik>",
                 "bot": "Bota",
                 "bridge": "most",
-                "new_to_revolt": "Novy v Revolt",
-                "new_to_server": "Novy na tutom serveru",
-                "edited": "(Pravjene)",
-                "bridged": "Poslanje stalo izslane na drugom platformu",
+                "new_to_revolt": "Novo v Revolt",
+                "new_to_server": "Novo na tutom serveru",
+                "edited": "(Pravjeno)",
+                "bridged": "Poslanje bylo poslano na drugom platformu",
                 "notifications": {
                     "default": "Koristati Prědustavjenje",
                     "all": "Vse Poslanja",
@@ -586,9 +586,277 @@
                     "confirm_ban": "Idete zakazati {{name}}",
                     "unfriend_user_long": "Ne smožete jim razgovorjati ješče raz ako ne oddodavate."
                 },
-                "confirm": "Potvrditi dějanje"
+                "confirm": "Potvrditi dějanje",
+                "actions": {
+                    "back": "Vrnuti se",
+                    "reset": "Resetovati",
+                    "send_email": "Poslati email",
+                    "continue": "Prodolžiti",
+                    "confirm": "Potvrditi",
+                    "preview": "Podgled",
+                    "cancel": "Anulovati",
+                    "update": "Aktualizovati",
+                    "reveal": "Objaviti",
+                    "create": "Stvoriti",
+                    "report": "Izvěstiti",
+                    "dont_block": "Ne zablokovati",
+                    "delete": "Odstraniti"
+                }
             },
-            "copy_username": "Kliknuti, da by kopirovati nazvu koristnika"
+            "copy_username": "Kliknuti, da by kopirovati nazvu koristnika",
+            "popovers": {
+                "user_profile": {
+                    "no_users": "Žadni spoločni drugi",
+                    "empty": "Tut jest to trohu pusto…",
+                    "mutual_servers": "Spoločne servery",
+                    "mutual_groups": "Spoločne Grupy",
+                    "mutual_friends": "Spoločni Drugi",
+                    "profile": "Profil",
+                    "badges": {
+                        "founder": "Osnovatelj",
+                        "moderation": "Uměrjenje Platformy",
+                        "supporter": "Podpornik",
+                        "translator": "Prěkladatelj"
+                    },
+                    "sub": {
+                        "connections": "Podključenja",
+                        "information": "Informacija",
+                        "badges": "Značeky"
+                    },
+                    "no_servers": "Žadne spoločne servery",
+                    "no_groups": "Žadne spoločne grupy"
+                },
+                "user_picker": {
+                    "select": "Izbrati drugov, da by dodati."
+                },
+                "server_identity": {
+                    "avatar": "Avatar",
+                    "nickname": "Prězvišče",
+                    "title": "Izměniti identičnost na {{server}}"
+                },
+                "create_bot": {
+                    "title": "Stvoriti novu botu"
+                }
+            },
+            "invite": {
+                "login": "Zalogovati se do Revolta",
+                "invited_by": "Prizvano od koristnika {{user}}",
+                "invalid": "Nevalidno prizvanje!",
+                "accept": "Akceptovati Prizvanje"
+            },
+            "requires_online": "Da by gleděti to, musite byti dostupni."
+        },
+        "context_menu": {
+            "copy_selection": "Kopirovati izbranje",
+            "view_profile": "Gleděti profil",
+            "message_user": "Poslanje",
+            "mention": "Spomněti",
+            "copy_message_link": "Kopirovati link poslanja",
+            "reply_message": "Odpověděti",
+            "cancel_message": "Anulovati poslanje",
+            "retry_message": "Poprobovati ješče raz posylati",
+            "remove_member": "Odstraniti iz grupy",
+            "make_owner": "Dati vlastničstvo grupy",
+            "delete_message": "Odstraniti poslanje",
+            "report_message": "Izvěstiti poslanje",
+            "edit_message": "Redaktovati poslanje",
+            "add_friend": "Dodati druga",
+            "unblock_user": "Odblokovati koristnika",
+            "block_user": "Zablokovati koristnika",
+            "open_link": "Otvoriti link",
+            "copy_link": "Kopirovati link",
+            "save_video": "Zapisati video",
+            "open_video": "Otvoriti video",
+            "save_image": "Zapisati obraz",
+            "open_image": "Otvoriti obraz",
+            "save_file": "Zapisati fajl",
+            "open_file": "Otvoriti fajl",
+            "ban_member": "Zabraniti člena",
+            "cancel_friend": "Anulovati prosbu za druga",
+            "create_category": "Stvoriti kategoriju",
+            "create_channel": "Stvoriti kanal",
+            "delete_channel": "Odstraniti kanal",
+            "open_channel_settings": "Nastavjenja kanala",
+            "create_invite": "Stvoriti prizvanje",
+            "report_user": "Izvěstiti koristnika",
+            "clear_status": "Razčistiti status",
+            "remove_friend": "Odstraniti druga",
+            "kick_member": "Udariti člena",
+            "quote_message": "Procitovati poslanje",
+            "mark_unread": "Označiti kako pročitano",
+            "copy_text": "Kopirovati tekst",
+            "open_group_settings": "Nastavjenja grupy",
+            "open_server_settings": "Nastavjenja servera",
+            "open_notification_options": "Opcije uvědomjenij",
+            "edit_your_identity": "Redaktovati vašu identičnost",
+            "edit_identity": "Redaktovati identičnost",
+            "delete_server": "Odstraniti server",
+            "report_server": "Izvěstiti server",
+            "close_dm": "Zamknuti bezposrědnje poslanja",
+            "custom_status": "Prisposobjeny status",
+            "set_custom_status": "Nastaviti prisposobjeny status",
+            "reject_friend": "Odvrgnuti prosbu za druga",
+            "accept_friend": "Akceptovati prosbu za druga"
+        }
+    },
+    "dayjs": {
+        "nextDay": "[Zautra v] {{time}}",
+        "defaults": {
+            "twelvehour": "Ne",
+            "date_format": "Tradicijno"
+        },
+        "sameDay": "[Dnes v] {{time}}",
+        "lastDay": "[Včera v] {{time}}"
+    },
+    "error": {
+        "InvalidCredentials": "Email ili parola jest nepravilno.",
+        "EmailFailed": "Email hybil posylati.",
+        "EmailInUse": "Upotrěbjeny email.",
+        "UnknownUser": "Neznany koristnik.",
+        "FailedToReceive": "Server hybil dostavati vaš fajl.",
+        "CompromisedPassword": "Tuta parola jest kompromisna.",
+        "ReachedMaximumBots": "Dosegnuli jeste maksimalnu kolikost bot.",
+        "MissingData": "Prosba nedostava dane.",
+        "Unavailable": "Nedostupno.",
+        "BlockedOther": "Tutoj koristnik zablokoval vas.",
+        "AlreadyFriends": "Uže drugi s tutym koristnikom.",
+        "MissingInvite": "Kod prizvanja nedostava podčas prosby.",
+        "InvalidToken": "Nevalidny token",
+        "NetworkError": "Pogrěška sěti.",
+        "UsernameTaken": "Tuta nazva koristnika jest vzeta.",
+        "InvalidInvite": "Nevalidny kod",
+        "MissingHeaders": "Zaglavja nedostavajut.",
+        "InvalidSession": "Nevalidna sesija.",
+        "RenderFail": "Renderovanje šablona hybilo.",
+        "OperationFailed": "Operacija hybila.",
+        "UnknownError": "Gleděti konsolu.",
+        "InternalError": "Vnutrna pogrěška.",
+        "Unlabelled": "Něčto se stalo.",
+        "DiscriminatorChangeRatelimited": "Prěmnogo izměnjenij tagov.",
+        "AudioPermissionBlock": "Ne imaje žadnogo pristupa do vašego mikrofona. Prosimo prěgleděti konfiguracije vašej prěgledky.",
+        "DeniedNotification": "Odvrgnuli jeste pristup za uvědomjenja. Prěgleděti nastavjenja sajta.",
+        "UnsupportedBrowser": "Prědgledka nedostava poddrživanje dlja tutoj funkcije.",
+        "FileTooLarge": "Fajl jest prěmnogo veliky.",
+        "InvalidEmail": "Nevalidna adresa emaila",
+        "TooLong": "Prěmnogo dolgo",
+        "TooShort": "Prěmnogo kratko",
+        "RequiredField": "Potrěbovano",
+        "NoEffect": "Tuta prosba ne iměla žadnogo efekta.",
+        "Blocked": "Zablokovali jeste tutogo koristnika.",
+        "AlreadySentRequest": "Prosba jest uže poslana do tutogo koristnika."
+    },
+    "permissions": {
+        "ManageCustomisation": {
+            "t": "Vladěti Kustomizovanjem",
+            "d": "Dozvalja členov, aby stvorili, redaktovali i odstranili emodži."
+        },
+        "ManageRole": {
+            "t": "Vladěti Rolami"
+        },
+        "BanMembers": {
+            "d": "Dozvalja členov, aby postojanno odstranili členov od tutogo servera.",
+            "t": "Zabraniti Členov"
+        },
+        "ManageNicknames": {
+            "t": "Vladěti Prězviščami",
+            "d": "Dozvalja členov, aby izměnili prězvišča inyh členov."
+        },
+        "ChangeNickname": {
+            "d": "Dozvalja členov, aby izměnili svoje prězvišče na tutom serveru.",
+            "t": "Izměniti Prězvišče"
+        },
+        "InviteOthers": {
+            "t": "Prizvati Inyh",
+            "d": "Dozvalja členov, aby prizvali inyh koristnikov do kanala."
+        },
+        "ManageChannel": {
+            "d": "Dozvalja členov, aby redaktovali ili odstranili kanal.",
+            "t": "Vladěti Kanalami"
+        },
+        "ManageWebhooks": {
+            "d": "Dozvalja členov, aby kontrolovali vebhuky v kanalu.",
+            "t": "Vladěti Vebhukami"
+        },
+        "Speak": {
+            "d": "Dozvalja členov, aby pogovorili v glasovom kanalu.",
+            "t": "Pogovoriti"
+        },
+        "MoveMembers": {
+            "d": "Dozvalja členov, aby prěměstili inyh medžu glasovymi kanalami.",
+            "t": "Prěměstiti Členov"
+        },
+        "Connect": {
+            "d": "Dozvalja členov, aby podključili se k glasovomu kanalu.",
+            "t": "Podključiti se"
+        },
+        "ManageMessages": {
+            "d": "Dozvalja členov, aby odstranili poslane poslanja od inyh členov.",
+            "t": "Vladěti Poslanjami"
+        },
+        "RemoveAvatars": {
+            "d": "Dozvalja členov, aby odstranili avatary servera inyh členov na tutom serveru.",
+            "t": "Odstraniti Avatary"
+        },
+        "ChangeAvatar": {
+            "d": "Dozvalja členov, aby izměnili svoj avatar na tutom serveru.",
+            "t": "Izměniti Avatar"
+        },
+        "TimeoutMembers": {
+            "d": "Dozvalja členov, aby dočasno unemožnili koristnikov od vzajemodějstvovanja so serverom."
+        },
+        "KickMembers": {
+            "d": "Dozvalja členov, aby odstranili členov od tutogo servera. Udarjeni členi smogut podstupati s prizvanjem.",
+            "t": "Udariti Členov"
+        },
+        "UploadFiles": {
+            "d": "Dozvalja členov, aby aplodovali fajly v tekstovyh kanalah.",
+            "t": "Aplodovati Fajly"
+        },
+        "SendMessage": {
+            "d": "Dozvalja členov, aby poslali poslanja v tekstovyh kanalah.",
+            "t": "Poslati Poslanja"
+        },
+        "ReadMessageHistory": {
+            "d": "Dozvalja členov, aby pročitali historiju poslanij tutogo kanala.",
+            "t": "Pročitati Historiju Poslanij"
+        },
+        "ViewChannel": {
+            "t": "Gleděti Kanal"
+        },
+        "AssignRoles": {
+            "t": "Pridělati Roly",
+            "d": "Dozvalja členov, aby pridělali roly inym členam pod svojim dostojenstvom."
+        },
+        "DeafenMembers": {
+            "d": "Dozvalja členov, aby ogluhnuti inyh v glasovom kanalu.",
+            "t": "Ogluhnuti Členov"
+        },
+        "MuteMembers": {
+            "d": "Dozvalja členov, aby otišili inyh v glasovom kanalu.",
+            "t": "Otišiti Členov"
+        },
+        "Video": {
+            "d": "Dozvalja členov, aby prědalo video v glasovom kanalu.",
+            "t": "Video"
+        },
+        "React": {
+            "d": "Dozvalja členov, aby reagovali na poslanja.",
+            "t": "Koristati Reakcije"
+        },
+        "Masquerade": {
+            "d": "Dozvalja členov, aby izměnili svoju nazvu i avatar na poslanju."
+        }
+    },
+    "notifications": {
+        "sent_request": "@{{person}} Poslal(a) vam prosbu za druga.",
+        "now_friends": "Jeste tutčas drugami s @{{person}}!"
+    },
+    "quantities": {
+        "dropFiles": {
+            "one": "Spustiti fajl"
+        },
+        "members": {
+            "one": "1 člen"
         }
     }
 }
