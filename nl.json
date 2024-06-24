@@ -15,7 +15,7 @@
         "current_password": "Huidig wachtwoord",
         "enter": {
             "invite": "Voer je uitnodigingscode in.",
-            "username": "Voer je gebruikersnaam in.",
+            "username": "Voer je gewenste gebruikersnaam in.",
             "email": "Voer je e-mail in.",
             "password": "Voer je wachtwoord in.",
             "current_password": "Voer je huidige wachtwoord in.",
@@ -53,7 +53,7 @@
         "welcome2": "Hallo!",
         "subtitle2": "Maak een account aan",
         "welcome": "Welkom terug!",
-        "unofficial_instance": "Derde-partij instantie.",
+        "unofficial_instance": "Externe instantie.",
         "totp": "Authenticatie-app",
         "recovery": "Herstel code",
         "verified_account": "Je account is geverifiëerd!",
@@ -74,7 +74,7 @@
                 "failed_upload": "Uploaden mislukt!",
                 "uploading_file": "Uploaden…",
                 "message_saved": "Opslaan in jouw notities",
-                "message_who": "Bericht sturen naar {{person}}",
+                "message_who": "Bericht sturen naar @{{person}}",
                 "message_where": "Bericht sturen naar {{channel_name}}",
                 "bot": "Bot",
                 "edited": "(bewerkt)",
@@ -256,8 +256,8 @@
                         "title": "Uiterlijk Opties",
                         "show_send": "Altijd de knop Bericht Verzenden weergeven",
                         "show_send_desc": "Indien uitgeschakeld, verschijnt de knop 'Bericht Verzenden' alleen op mobiele apparaten.",
-                        "show_account_age_desc": "Indien uitgeschakeld, wordt accountleeftijd alleen bij nieuwe gebruikers getoond.",
-                        "show_account_age": "Altijd account-leeftijd naast  binnentredings-berichten laten zien"
+                        "show_account_age_desc": "Indien uitgeschakeld, wordt de accountleeftijd alleen bij nieuwe gebruikers getoond.",
+                        "show_account_age": "Toon altijd de leeftijd van een account naast toetredingsberichten"
                     },
                     "colours": {
                         "title": "Kleuren"
@@ -298,7 +298,7 @@
                         "description": "Voeg een extra beveiligingslaag toe door 2FA in jouw account in te schakelen.",
                         "add_auth": "Authenticator toevoegen",
                         "remove_auth": "Authenticator verwijderen",
-                        "view_recovery_long": "Bekijk en download uw 2FA backup-codes.",
+                        "view_recovery_long": "Bekijk en download jouw 2FA backupcodes.",
                         "generate_recovery": "Nieuwe backupcodes genereren",
                         "generate_recovery_long": "Bereid u voor om 2FA te gebruiken door een herstelmethode in te stellen.",
                         "two_factor_on": "Twee-factor authenticatie is nu ingeschakeld.",
@@ -321,10 +321,10 @@
                     "enable_push": "Schakel Pushmeldingen in",
                     "enable_sound": "Speel Geluid Bij Een Bericht.",
                     "descriptions": {
-                        "enable_desktop": "Dit geeft je meldingen terwijl de app open is.",
+                        "enable_desktop": "Als dit is ingeschakeld, zal je meldingen krijgen terwijl de app open is.",
                         "enable_sound": "Schakel geluiden in voor inkomende berichten.",
                         "enable_outgoing_sound": "Schakel in om een geluid af te spelen wanneer u een bericht verzendt.",
-                        "enable_push": "Schakel in om meldingen te ontvangen wanneer u offline bent."
+                        "enable_push": "Als dit is ingeschakeld ontvang je berichten wanneer je offline bent."
                     },
                     "sounds": "Geluiden",
                     "enable_outgoing_sound": "Speel Verzonden geluid af.",
@@ -367,7 +367,7 @@
                     "descriptions": {
                         "locale": "Hiermee wordt de momenteel gekozen taal gesynchroniseerd.",
                         "theme": "Schakel het synchroniseren van thema's, kleuren en eigen CSS in.",
-                        "appearance": "Schakel het synchroniseren van opties, waaronder emoji paketten en berichtdichtheid, in."
+                        "appearance": "Dit zal weergaveopties synchroniseren, zoals de gekozen emojipaketten en berichtdichtheid."
                     },
                     "options": "Synchronisatie Opties"
                 },
@@ -384,16 +384,16 @@
                 },
                 "bots": {
                     "title": "Mijn bots",
-                    "public_bot_tip": "Bot is openbaar. Iedereen kan het uitnodigen.",
-                    "private_bot_tip": "Bot is privé. Alleen jij kunt hem uitnodigen.",
+                    "public_bot_tip": "Deze bot is openbaar. Iedereen kan het uitnodigen.",
+                    "private_bot_tip": "Deze bot is privé. Alleen jij kunt hem uitnodigen.",
                     "public_bot": "Publieke Bot",
                     "interactions_url": "Interacties URL",
-                    "reserved": "Opmerking: Dit veld is gereserveerd voor de toekomst.",
+                    "reserved": "Opmerking: dit veld is gereserveerd voor de toekomst.",
                     "create_bot": "Maak een Bot",
                     "copy_invite": "Uitnodigingslink kopiëren",
                     "add": "Bot toevoegen",
                     "token": "Token",
-                    "public_bot_desc": "Of andere gebruikers deze bot mogen uitnodigen.",
+                    "public_bot_desc": "Als dit is ingeschakeld, kunnen andere gebruikers deze bot aan servers en groepen toevoegen.",
                     "unique_id": "Dit is een unieke identificatie voor uw bot. Dit is niet het token van de bot.",
                     "profile": "Bot profiel"
                 },
@@ -425,7 +425,7 @@
                 },
                 "plugins": {
                     "title": "Plug-ins",
-                    "wip": "Waarschuwing: Deze functie is nog in ontwikkeling.",
+                    "wip": "Waarschuwing: deze functie is nog in ontwikkeling.",
                     "delete_plugin": "Verwijderen",
                     "no_plugins": "Er zijn op het moment geen plug-ins geïnstalleerd."
                 },
@@ -449,8 +449,8 @@
                             "title": "Vorig bericht bewerken"
                         },
                         "auto_complete_select": {
-                            "description": "Bevestig de huidige selectie voor autoaanvullen.",
-                            "title": "Selectie autoaanvullen bevestigen"
+                            "description": "Bevestig de huidige selectie voor automatisch aanvullen.",
+                            "title": "Selectie automatisch aanvullen bevestigen"
                         },
                         "input_submit": {
                             "description": "Een geavanceerde sneltoets dat vooral wordt gebruikt om de huidige invoer te versturen.\nDit kan het indienen van een bericht zijn, het indienen van een bewerking van een bericht, het indienen van een zoekopdracht, enz.",
@@ -482,11 +482,11 @@
                         },
                         "auto_complete_up": {
                             "title": "Vorige Automatisch aanvullen selecteren",
-                            "description": "Verplaats de autoaanvullen-selectie naar de vorige."
+                            "description": "Verplaats de automatisch aanvullen-selectie naar de vorige."
                         },
                         "auto_complete_down": {
-                            "title": "Volgende autoaanvullen selectie",
-                            "description": "Verplaats de autocomplete selectie naar de volgende."
+                            "title": "Volgende automatisch aanvullen selectie",
+                            "description": "Verplaats de automatisch aanvullen selectie naar de volgende."
                         },
                         "input_cancel": {
                             "title": "Annuleer invoer",
@@ -544,8 +544,8 @@
                     "a": "Wil je jouw openbare profiel aanpassen?"
                 },
                 "languages": {
-                    "a": "Mist u een gewenste taal?",
-                    "b": "Help mee aan meer vertalingen."
+                    "a": "Missen we een gewenste taal?",
+                    "b": "Help ons mee door vertalingen bij te dragen."
                 },
                 "sessions": {
                     "a": "Als u een onbekende sessie in de lijst ziet,",
@@ -667,7 +667,7 @@
                     "failed": "Veranderen is mislukt!"
                 },
                 "actions": {
-                    "ok": "Ok",
+                    "ok": "OK",
                     "save": "Opslaan",
                     "preview": "Voorbeeld",
                     "send_email": "E-mail verzenden",
@@ -694,7 +694,7 @@
                     "dont_block": "Niet blokkeren"
                 },
                 "onboarding": {
-                    "pick": "Kies een gebruikersnaam waarmee je wil dat mensen je kunnen vinden, dit kan later in de instellingen worden gewijzigd.",
+                    "pick": "Kies een gebruikersnaam waarmee je wil dat mensen je kunnen vinden. Dit kan later in de gebruikersinstellingen worden gewijzigd.",
                     "welcome": "Welkom bij"
                 },
                 "external_links": {
@@ -705,14 +705,14 @@
                 "token_reveal": "{{name}}'s Token",
                 "sessions": {
                     "title": "Weet u zeker duidelijk u uw sessies wilt wissen?",
-                    "accept": "Alle sessies laten vervallen",
+                    "accept": "Alle sessies verwijderen",
                     "short": "Je kanniet deze actie niet ongedaan maken."
                 },
                 "out_of_date": {
-                    "description": "Het moet geüpdate worden om met de recente wijzigingen te kunnen werken.",
+                    "description": "Het moet geüpdate worden om met de recente veranderingen te werken.",
                     "attempting": "Proberen te updaten…",
                     "title": "Uw client is verouderd!",
-                    "version": "Jouw client is op {{client}}, terwijl de server {{server}} nodig heeft.",
+                    "version": "Jouw client is op {{client}}, maar de server vereist {{server}}.",
                     "ignore": "Update negeren"
                 },
                 "changelogs": {
@@ -724,7 +724,7 @@
                 "mfa": {
                     "recovery_codes": "Jouw herstelcodes",
                     "save_codes": "Sla deze op in een veilige locatie.",
-                    "confirm": "Bevestig met de gekozen methode.",
+                    "confirm": "Bevestig deze actie met de gekozen methode.",
                     "select_method": "Kies een methode om uw verzoek te bevestigen.",
                     "enable_totp": "Authenticator app inschakelen",
                     "prompt_totp": "Scan of gebruik de onderstaande token in uw authenticatie-app.",
@@ -740,19 +740,19 @@
                     "additional_context": "Aanvullende Informatie",
                     "content_reason": {
                         "Illegal": "Inhoud breekt een of meerdere regels",
-                        "PromotesHarm": "Inhoud promoot zelfbeschadiging of beschadiging aan anderen",
+                        "PromotesHarm": "Inhoud promoot schade aan anderen of aan zichzelf",
                         "SpamAbuse": "Dit is spam of platform misbruik",
                         "Malware": "Dit is malware",
-                        "Harassment": "Dit is intimidatie of misbruik gericht op een andere gebruiker"
+                        "Harassment": "Dit is misbruik of intimidatie tegen een andere gebruiker"
                     },
                     "user_reason": {
                         "InappropriateProfile": "Gebruikersprofiel is niet geschikt voor algemeen publiek",
                         "Impersonation": "Deze gebruiker doet zich voor als iemand anders",
-                        "SpamAbuse": "Gebruiker is aan het spammen of op een andere manier het platform misbruiken",
+                        "SpamAbuse": "Gebruiker stuurt spam of andere inhoud die het platform misbruikt",
                         "Underage": "Deze gebruiker is niet oud genoeg om een account te hebben",
                         "BanEvasion": "Deze gebruiker ontloopt een ban"
                     },
-                    "thank_you": "Dank je voor jouw hulp om Revolt veilig te houden. We zullen jouw klacht zo snel mogelijk bekijken."
+                    "thank_you": "Bedankt voor jouw hulp om Revolt veilig te houden. We zullen jouw melding zo snel mogelijk bekijken."
                 },
                 "edit_keybind": {
                     "title": "Wijzig sneltoets voor {{action}}",
@@ -804,7 +804,7 @@
                 "accept": "Accepteer Uitnodiging",
                 "user_count": "{{member_count}} gebruikers",
                 "invalid": "Ongeldige uitnodiging!",
-                "invalid_desc": "Het kan zijn dat de uitnodiging niet bestaat of dat je geen toestemming hebt om mee te doen."
+                "invalid_desc": "Het kan zijn dat de uitnodiging niet bestaat, of dat je geen toestemming hebt om mee te doen."
             },
             "server-badges": {
                 "official": "Officiële server",
@@ -840,7 +840,7 @@
             "copy_link": "Kopieer link",
             "open_link": "Open link",
             "add_friend": "Vriend toevoegen",
-            "cancel_friend": "Annuleer verzoek",
+            "cancel_friend": "Annuleer vriendschapsverzoek",
             "custom_status": "Aangepaste status",
             "clear_status": "Status wissen",
             "set_custom_status": "Stel een aangepaste status in",
@@ -866,7 +866,10 @@
             "make_owner": "Geef groepseigenschap",
             "report_server": "Meld server",
             "report_message": "Meld bericht",
-            "report_user": "Meld gebruiker"
+            "report_user": "Meld gebruiker",
+            "accept_friend": "Accepteer vriendschapsverzoek",
+            "edit_your_identity": "Bewerk jouw identiteit",
+            "reject_friend": "Wijs vriendschapsverzoek af"
         },
         "permissions": {
             "required": "Permissies vereist"
@@ -944,7 +947,7 @@
         "ProbeError": "Ophalen van metagegevens van bestand is mislukt.",
         "IoError": "De server heeft een I/O-fout aangetroffen.",
         "UnsupportedBrowser": "Browser mist ondersteuning voor deze functie.",
-        "DeniedNotification": "Je hebt toegang tot meldingen geweigerd, controleer de pagina-instellingen.",
+        "DeniedNotification": "Je hebt toegang tot meldingen geweigerd. Controleer de pagina-instellingen.",
         "CompromisedPassword": "Dit wachtwoord is gecompromitteerd.",
         "UnknownUser": "Onbekende gebruiker.",
         "EmailFailed": "Email kan niet worden verzonden.",
@@ -959,7 +962,7 @@
         "NoEffect": "Dit verzoek had geen effect.",
         "RequiredField": "Verplicht",
         "ReachedMaximumBots": "Je hebt het maximum aantal bots bereikt.",
-        "AudioPermissionBlock": "Geen toegang tot uw microfoon, controleer de configuratie van uw browser.",
+        "AudioPermissionBlock": "Geen toegang tot uw microfoon. Controleer de configuratie van uw browser.",
         "DiscriminatorChangeRatelimited": "Je verandert je gebruikerstag te vaak."
     },
     "permissions": {
@@ -1008,7 +1011,7 @@
             "d": "Staat leden toe om deel te nemen aan spraakkanalen."
         },
         "ManageChannel": {
-            "t": "Kick Leden",
+            "t": "Kanaalbeheer",
             "d": "Hiermee kunnen leden een kanaal bewerken of verwijderen."
         },
         "InviteOthers": {
@@ -1028,7 +1031,7 @@
             "d": "Geeft toestemming aan leden om hun naam en avatar te veranderen per bericht."
         },
         "ManageRole": {
-            "d": "Hiermee kunnen leden rollen maken, bewerken en de rollen met een lagere rang verwijderen. Stelt ze ook in staat om de permissies op kanalen te wijzigen.",
+            "d": "Hiermee kunnen leden rollen maken, bewerken en de rollen met een lagere rang verwijderen en stelt ze in staat om de permissies op kanalen te wijzigen.",
             "t": "Beheer Rollen"
         },
         "ViewChannel": {
