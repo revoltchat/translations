@@ -23,8 +23,8 @@
         "missing_verification": "Nesaņēmi e-pastu?",
         "resend": "Sūtīt verifikācijas saiti vēlreiz",
         "cancel": "Atcelt pieprasījumu",
-        "email_delay": "Lūdzu gaidi 10 minūtes, lai tas atnāktu.",
-        "check_spam": "Lūdzu pārbaudi mēstules, ja to nevari atrast",
+        "email_delay": "Lūdzu gaidiet līdz 10 minūtēm, lai atnāktu verifikācijas ēpasts.",
+        "check_spam": "Lūdzu pārbaudi mēstules, ja jūs to nevarat atrast",
         "open_mail_provider": "Atvērt {{provider}}",
         "reset": "Atiestatīt paroli",
         "set_password": "Iestatīt jaunu paroli",
@@ -34,11 +34,12 @@
             "create": "Neizdevās reģistrēties!",
             "login": "Neizdevās ienākt!",
             "reset": "Neizdevās atiestatīt!",
-            "resend": "Neizdevās nosūtīt vēlreiz!"
+            "resend": "Neizdevās nosūtīt vēlreiz!",
+            "verify": "Neizdevās verificēt!"
         },
         "welcome2": "Sveiki!",
         "subtitle2": "Izveidot kontu",
-        "welcome": "Priecājamies tevi atkal redzēt!",
+        "welcome": "Laipni lūgts!",
         "subtitle": "Ienākt Revolt",
         "unofficial_instance": "Trešās puses instance.",
         "totp": "Autentifikācijas lietotne",
@@ -46,7 +47,8 @@
         "new_password": "Jauna parole",
         "log_out_other": "Atteikt no visām citām sesijām",
         "verified_account": "Tavs konts ir verificēts!",
-        "verifying_account": "Notiek tava konta verificēšana…"
+        "verifying_account": "Notiek tava konta verificēšana…",
+        "verified_continue": "Turpināt pieteikties"
     },
     "app": {
         "main": {
@@ -58,7 +60,7 @@
             },
             "channel": {
                 "message_where": "Rakstīt kanālā {{channel_name}}",
-                "message_who": "Rakstīt {{person}}",
+                "message_who": "Rakstīt @{{person}}",
                 "message_saved": "Saglabāt savās piezīmēs",
                 "uploading_file": "Augšupielādē…",
                 "failed_upload": "Augšupielāde neizdevās!",
@@ -104,7 +106,8 @@
                     "jump_beginning": "Doties uz sākumu",
                     "new_messages": "Jaunas ziņas {{time_ago}}",
                     "load_file": "Lelādēt failu",
-                    "timed_out": "Jūsu konts īslaicīgi bloķēts: {{time}}."
+                    "timed_out": "Jūsu konts īslaicīgi bloķēts: {{time}}.",
+                    "not_loaded": "Ziņojums nav ielādēts, noklikšķiniet, lai pārietu"
                 },
                 "edited": "(rediģēts)",
                 "nsfw": {
@@ -146,8 +149,12 @@
                 "reactions": {
                     "unknown_reacted": "{{count}} cilvēki reaģēja",
                     "single_reacted": "1 cilvēks reaģēja",
-                    "people_reacted": "{{people}} reaģēja"
-                }
+                    "people_reacted": "{{people}} reaģēja",
+                    "others_reacted": "{{userlist}} un {{count}} citi reaģēja"
+                },
+                "team": "Oficiālā saziņa",
+                "new_to_revolt": "Jauns Revolt lietotājs",
+                "new_to_server": "Jauns šajā serverī"
             },
             "groups": {
                 "create": "Izveidot grupu",
@@ -219,9 +226,11 @@
                     },
                     "manage": {
                         "title": "Konta pārvaldība",
-                        "description": "Jebkurā laikā atspējot vai dzēst savu kontu. Šī darbība tevi izrakstīs un pilnībā izdzēsīs tavu kontu, tostarp tērzēšanas vēsturi un draugus.",
+                        "description": "Jebkurā laikā atspējot vai dzēst savu kontu. Abas šīs darbības tevi izrakstīs tevi no visām aktīvajām sesijām.",
                         "disable": "Atspējot kontu",
-                        "delete": "Atzīmēt kontu dzēšanai"
+                        "delete": "Atzīmēt kontu dzēšanai",
+                        "delete_still_own_servers": "Konta dzēšana nav iespējama līdz serveri netiek dzēsti vai pārnēsāti",
+                        "disable_description": "Jūs nevarēsiet piekļūt savam kontam, ja vien sazināsieties ar palīdzību - tomēr jūsu dati netiks dzēsti."
                     }
                 },
                 "profile": {
