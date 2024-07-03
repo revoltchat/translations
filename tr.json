@@ -24,7 +24,7 @@
             "block_user": "Kullanıcıyı engelle",
             "unblock_user": "Kullanıcının engelini kaldır",
             "remove_friend": "Arkadaşlıktan çıkar",
-            "cancel_friend": "İsteği iptal et",
+            "cancel_friend": "Arkadaş isteğini iptal et",
             "copy_id": "ID'yi Kopyala",
             "mark_as_read": "Okundu olarak işaretle",
             "edit_message": "Mesajı düzenle",
@@ -55,7 +55,10 @@
             "make_owner": "Grup sahipliğini ver",
             "report_message": "Mesajı Bildir",
             "report_user": "Kullanıcıyı Bildir",
-            "report_server": "Sunucuyu Bildir"
+            "report_server": "Sunucuyu Bildir",
+            "edit_your_identity": "Kimliğini düzenle",
+            "accept_friend": "Arkadaş isteğini kabul et",
+            "reject_friend": "Arkadaş isteğini reddet"
         },
         "status": {
             "online": "Çevrimiçi",
@@ -477,14 +480,16 @@
                             "description": "Genellikle geçerli girişi iptal etmek için kullanılan gelişmiş bir tuş ataması.\nBu, bir mesaj düzenlemesinin iptal edilmesini, sıraya alınmış bir görselin kaldırılmasını veya benzer senaryoları içerebilir."
                         },
                         "input_force_submit": {
-                            "title": "İçeriği Göndermeye Zorla"
+                            "title": "İçeriği Göndermeye Zorla",
+                            "description": "Genellikle mevcut girişi zorla göndermek için kullanılan, bazı kontrolleri veya diğer tuş atamalarını geçersiz kılmak için gelişmiş bir tuş ataması.\nBu otomatik tamamlamayı seçmeyi onaylamak yerine mesaj göndermeyi içerebilir."
                         },
                         "messaging_mark_channel_read": {
                             "title": "Kanalı okunmuş olarak işaretle",
                             "description": "Mevcut kanalı okundu olarak işaretle."
                         },
                         "navigate_previous_context": {
-                            "title": "Önceki bağlama git"
+                            "title": "Önceki bağlama git",
+                            "description": "Genellikle ayar sayfasını, bir modeli veya bir açılır pencereyi kapatmak ve bir önceki içeriğe dönmek için kullanılan gelişmiş bir tuş ataması."
                         },
                         "auto_complete_up": {
                             "title": "Önceki Otomatik Tamamlama Seçimi",
@@ -499,7 +504,8 @@
                             "description": "Geçerli otomatik tamamlama seçimini onayla."
                         },
                         "messaging_scroll_to_bottom": {
-                            "title": "Mesajların aşağısına kaydır"
+                            "title": "Mesajların aşağısına kaydır",
+                            "description": "Mesajlaşmanın altına kaydırır."
                         },
                         "developer_toggle_all_experiments": {
                             "title": "Deneysel güvenli moda geçiş yap",
@@ -661,7 +667,8 @@
                     "change": {
                         "username": "Kullanıcı adını değiştir",
                         "email": "E-postanı değiştir",
-                        "password": "Şifreni değiştir"
+                        "password": "Şifreni değiştir",
+                        "display_name": "Görünen adını değiştir"
                     },
                     "failed": "Değiştirilemedi!"
                 },
