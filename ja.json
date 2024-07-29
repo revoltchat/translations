@@ -236,7 +236,8 @@
                         "description": "いつでもアカウントを無効化、または削除することができます。この操作を行うとログアウトされ、チャット履歴やフレンドと共に、アカウントは完全に削除されます。",
                         "title": "アカウント管理",
                         "delete_description": "あなたのアカウントとすべてのデータ（メッセージと友達リストを含む）は削除のためにキューに入れられます。確認メールが送信されますので、7日以内にサポートまでご連絡ください。",
-                        "disable_description": "サポートに連絡しない限り、アカウントにアクセスすることはできません。ただし、データは削除されません。"
+                        "disable_description": "サポートに連絡しない限り、アカウントにアクセスすることはできません。ただし、データは削除されません。",
+                        "delete_still_own_servers": "サーバーが削除または譲渡されるまで、アカウントを削除することはできません"
                     },
                     "2fa": {
                         "remove_auth": "二要素認証を無効化",
@@ -302,7 +303,16 @@
                             "description": "前のチャンネルに移動する。"
                         },
                         "navigate_channel_down": {
-                            "title": "次のチャンネルに移動する"
+                            "title": "次のチャンネルに移動する",
+                            "description": "次のチャンネルに移動する。"
+                        },
+                        "navigate_server_down": {
+                            "description": "次のサーバーに移動する。",
+                            "title": "次のサーバーに移動する"
+                        },
+                        "navigate_server_up": {
+                            "description": "前のサーバーに移動する。",
+                            "title": "前のサーバーに移動する"
                         }
                     }
                 }
@@ -1024,5 +1034,19 @@
     },
     "actions": {
         "submit": "送信"
+    },
+    "keys": {
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Escape": {
+            "short": "Esc"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        }
     }
 }
