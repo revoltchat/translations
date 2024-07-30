@@ -16,7 +16,7 @@
     },
     "login": {
         "welcome": "Welkom!",
-        "subtitle": "Teken by Revolt in",
+        "subtitle": "Teken in by Revolt",
         "welcome2": "Hallo!",
         "title": "Inteken",
         "username": "Gebruikersnaam",
@@ -27,7 +27,7 @@
         "recovery": "Herstellingskode",
         "invite": "Nooikode",
         "enter": {
-            "username": "Voer jou gebruikersnaam in.",
+            "username": "Voer jou verkiesde gebruikersnaam in.",
             "email": "Asseblief voer jou epos in.",
             "password": "Voer jou wagwoord in.",
             "new_password": "Voer 'n nuwe wagwoord in.",
@@ -177,7 +177,7 @@
                     "confirm": "Ek bevestig dat ek te minste 18 jaar oud is."
                 },
                 "edited": "(gewysig)",
-                "bot": "Bot",
+                "bot": "Robotjie",
                 "bridge": "brug",
                 "bridged": "Boodskap was op 'n ander platform gestuur",
                 "new_to_revolt": "Nuut by Revolt",
@@ -260,7 +260,8 @@
                         "disable_description": "Jy sal nie jou rekening kan aandrif nie, tensy jy ondersteuning aanraak nie - alhoewel, jou data sal nie uitgevee word nie.",
                         "delete": "Merk Rekening vir Afwissing",
                         "delete_description": "Jou rekening en al jou data (insluitend jou boodskappe en vriendelys) sal vir afwissing getou wees. 'n Bevestigingsepos sal gestuur wees - jy kan hierdie binne 7 dae kanselleer deur ondersteuning aan te raak.",
-                        "description": "Skakel of wis jou rekening enige tyd af. Altwee aksies sal jou van jou aktiewe sessies uitteken."
+                        "description": "Skakel of wis jou rekening enige tyd af. Altwee aksies sal jou van jou aktiewe sessies uitteken.",
+                        "delete_still_own_servers": "Kan nie rekening verwyder nie tot bedieners verwyder of oorgedra is"
                     },
                     "unique_id": "Hierdie is 'n unieke gebruikersidentifiseerder vir jou rekening."
                 },
@@ -678,7 +679,8 @@
                     "change": {
                         "username": "Verander jou gebruikersnaam",
                         "email": "Verander jou epos",
-                        "password": "Verander jou wagwoord"
+                        "password": "Verander jou wagwoord",
+                        "display_name": "Verander jou vertoningsnaam"
                     },
                     "failed": "Verandering het misluk!"
                 },
@@ -809,7 +811,7 @@
             "requires_online": "Jy moet aanlyn wees om hierdie te lees.",
             "invite": {
                 "invited_by": "By {{user}} genooi",
-                "login": "Teken by Revolt in",
+                "login": "Meld by Revolt aan",
                 "accept": "Vaar Nooi Aan",
                 "user_count": "{{member_count}} gebruikers",
                 "invalid": "Ongeldige nooi!",
@@ -848,7 +850,7 @@
             "block_user": "Blokkeer gebruiker",
             "unblock_user": "Ontblokkeer gebruiker",
             "add_friend": "Voeg vriend by",
-            "cancel_friend": "Kanselleer versoek",
+            "cancel_friend": "Kanselleer vriendsversoeking",
             "report_user": "Gee gebruiker aan",
             "custom_status": "Pasgemaakte status",
             "clear_status": "Maak status skoon",
@@ -871,7 +873,10 @@
             "open_video": "Maak video oop",
             "remove_friend": "Verwyder vriend",
             "edit_identity": "Wysig identiteit",
-            "create_invite": "Skep nooi"
+            "create_invite": "Skep nooi",
+            "edit_your_identity": "Wysig jou identiteit",
+            "accept_friend": "Vaar vriendsversoeking aan",
+            "reject_friend": "Verwerp vriendsversoeking"
         },
         "permissions": {
             "required": "Toestemmings benodig"
@@ -1098,7 +1103,7 @@
             "short": "PgDown"
         },
         "PrintScreen": {
-            "full": "Print Screen",
+            "full": "Druk Skerm",
             "short": "PrtSc"
         },
         "ScrollLock": {
