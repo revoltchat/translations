@@ -203,7 +203,8 @@
                     "nochannels": "Tutoj server ne imaje žadnyh kanalov, ili ne imajete pristup do ktorogo-nebud.",
                     "nochannel": "Žadny kanal"
                 },
-                "team": "Oficialna Komunikacija"
+                "team": "Oficialna Komunikacija",
+                "user_timed_out": "Koristnik vyšel ograničenje časa na {{time}}."
             },
             "servers": {
                 "create": "Stvoriti server",
@@ -234,7 +235,8 @@
                     "tip_grant_permission": "Potrěbujete dopustiti pozvoljenje, da by iměti pristup do nastavjenij avdija.",
                     "tip_retry": "Ne dozvolili jeste Revoltu, da by iměti pristup do vašego mikrofona. Prosimo {{retryBtn}}.",
                     "button_grant": "Dopustiti pozvoljenje",
-                    "button_retry": "Poprobovati ješče raz"
+                    "button_retry": "Poprobovati ješče raz",
+                    "output_device": "Glasnik / Slušalky"
                 },
                 "appearance": {
                     "colours": {
@@ -252,7 +254,10 @@
                         "title": "Avansovane Opcije"
                     },
                     "display": {
-                        "default": "Prědustavjenje"
+                        "default": "Prědustavjenje",
+                        "compact_description": "Stary, dobry IRC.",
+                        "compact": "Kompakt",
+                        "default_description": "Prěkrasivy, elegantny i moderny."
                     },
                     "discover": {
                         "description": "Prěgleděti temy, ktore sut sdělane od spoločnosti",
@@ -276,7 +281,8 @@
                         "follow_desc": "Jestli funkcija jest vključena, ne smožete izměnjati svoju temu ili koristati prisposobjenu temu.",
                         "seasonal": "Sezonna Tema",
                         "transparency_desc": "Umožnja prozračne efekty črěz aplikaciju.",
-                        "transparency": "Prozračne Efekty"
+                        "transparency": "Prozračne Efekty",
+                        "seasonal_desc": "Izstavja efekty v kartě glavnoj stranice podčas svetočnyh sezonov."
                     },
                     "emoji_pack": "Pakovanje Emodži",
                     "message_display": "Izstava Poslanja",
@@ -285,7 +291,11 @@
                     "theme_data": "Dane Temy",
                     "sync": "Opcije Sinhronizacije",
                     "font": "Font",
-                    "import": "Importovanti temu"
+                    "import": "Importovanti temu",
+                    "overrides": "Prědpisanje Temy",
+                    "custom_css": "Prisposobjeny CSS",
+                    "reset_overrides": "Prědpisanje Resetovanja",
+                    "ligatures": "Ligatury fonta"
                 },
                 "account": {
                     "title": "Moj učet",
@@ -294,7 +304,9 @@
                         "title": "Dvučinitele Potvrdženje",
                         "two_factor_on": "Dvučinitele potvrdženje jest sejčasno vključeno.",
                         "two_factor_off": "Ne umožnili jeste dvučinitele potvrdženje!",
-                        "description": "Dodati dodatočny sloj bezpečnosti umožneči 2FA do vašego učeta."
+                        "description": "Dodati dodatočny sloj bezpečnosti umožneči 2FA do vašego učeta.",
+                        "remove_auth": "Odstraniti Autentikator",
+                        "add_auth": "Dodati Autentifikator"
                     },
                     "manage": {
                         "title": "Upravjenje Učeta",
@@ -302,7 +314,8 @@
                         "disable_description": "Ne budete iměti pristup do vašego učeta, jestli ne skontaktujete se s poddrživanjem - jednako, vaše dane ne budut odstranjene.",
                         "delete": "Označiti Učet za Odstranjenje",
                         "delete_description": "Vaš učet i vse vaše dane (ktore vključajut vaše poslanja i spisok drugov) se počekajut za odstranjenje. E-mail s potvrdženjem bude poslany - možete anulovati tuto dějanje skontaktujuči s poddrživanjem.",
-                        "description": "Izključiti ili odstraniti kogdakoli vaš učet. Obě dějanja odlogujut vas vaših aktivnyh sesij."
+                        "description": "Izključiti ili odstraniti kogdakoli vaš učet. Obě dějanja odlogujut vas vaših aktivnyh sesij.",
+                        "delete_still_own_servers": "Ne smožete odstranjati učet, dopoka servery ne sut odstranjene ili prěměščene"
                     },
                     "unique_id": "To jest unikalny identifikator koristnika dlja vašego učeta."
                 },
@@ -312,7 +325,9 @@
                     "profile_picture": "Foto Profila",
                     "edit_background": "Redaktovati Podklad",
                     "edit_profile": "Redaktovati Profil",
-                    "placeholder": "Napisati něčto o vas…"
+                    "placeholder": "Napisati něčto o vas…",
+                    "fetching": "Dostanje vašego profila…",
+                    "custom_background": "Prisposobjeny Podklad"
                 },
                 "sessions": {
                     "title": "Sesije",
@@ -461,7 +476,8 @@
             "actions": {
                 "remove": "Odstraniti",
                 "upload": "Aplodovati",
-                "edit": "Redaktovati {{name}}"
+                "edit": "Redaktovati {{name}}",
+                "max_filesize": "(maksimalna {{filesize}})"
             },
             "title": "Nastavjenja",
             "channel_pages": {
