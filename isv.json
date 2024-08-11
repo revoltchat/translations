@@ -295,7 +295,8 @@
                     "overrides": "Prědpisanje Temy",
                     "custom_css": "Prisposobjeny CSS",
                     "reset_overrides": "Prědpisanje Resetovanja",
-                    "ligatures": "Ligatury fonta"
+                    "ligatures": "Ligatury fonta",
+                    "ligatures_desc": "Za poddržane fonty, ligatury kombinujut razom haraktery - napriklad, obrača se v strělu."
                 },
                 "account": {
                     "title": "Moj učet",
@@ -432,16 +433,20 @@
                     },
                     "action": {
                         "navigate_channel_up": {
-                            "title": "Popluti na poprědnji kanal"
+                            "title": "Popluti na poprědnji kanal",
+                            "description": "Popluti k prědšedšemu kanalu."
                         },
                         "navigate_server_up": {
-                            "title": "Popluti na poprědnji server"
+                            "title": "Popluti na poprědnji server",
+                            "description": "Popluti k prědšedšemu serveru."
                         },
                         "navigate_server_down": {
-                            "title": "Popluti na nastupny server"
+                            "title": "Popluti na nastupny server",
+                            "description": "Popluti k nastupnomu serveru."
                         },
                         "messaging_edit_previous_message": {
-                            "title": "Redaktovati poprědnje poslanje"
+                            "title": "Redaktovati poprědnje poslanje",
+                            "description": "Redaktovati poprědnje poslane poslanje v sejčasnom pogledu nakladanogo poslanja."
                         },
                         "messaging_mark_channel_read": {
                             "description": "Označa sejčasny kanal kako pročitany.",
@@ -451,10 +456,32 @@
                             "title": "Popluti na poprědnji kontekst"
                         },
                         "navigate_channel_down": {
-                            "title": "Popluti na nastupny kanal"
+                            "title": "Popluti na nastupny kanal",
+                            "description": "Popluti k nastupnomu kanalu."
                         },
                         "developer_toggle_all_experiments": {
                             "description": "To vključi / izključi směsta vse eksperimenty."
+                        },
+                        "auto_complete_up": {
+                            "title": "Prědšedši Odbor Avtodokončenja",
+                            "description": "Prěměstiti odbor avtodokončenja do prědšedšego."
+                        },
+                        "auto_complete_down": {
+                            "title": "Nastupny Odbor Avtodokončenja",
+                            "description": "Prěměstiti odbor avtodokončenja do nastupnogo."
+                        },
+                        "auto_complete_select": {
+                            "title": "Potvrditi Odbor Avtodokončenja",
+                            "description": "Potvrditi sejčasny odbor avtodokončenja."
+                        },
+                        "input_submit": {
+                            "title": "Podati Vhod"
+                        },
+                        "input_cancel": {
+                            "title": "Anulovati Vhod"
+                        },
+                        "input_force_submit": {
+                            "title": "Prinuditi Podavati Vhod"
                         }
                     }
                 },
@@ -464,7 +491,9 @@
                     "suggest": "Podati prědloženje za funkciju",
                     "suggest_desc": "Prědložiti nove funkcije dlja Revolta na diskusijah GitHub.",
                     "issue": "Stvoriti novu kvestiju",
-                    "issue_desc": "Da by vyše pomogti nam legše sortovati kvestije, možete stvoriti kvestiju na GitHub."
+                    "issue_desc": "Da by vyše pomogti nam legše sortovati kvestije, možete stvoriti kvestiju na GitHub.",
+                    "bug_desc": "Obozrěti se tut sejčasne aktivne raporty pogrěšek.",
+                    "bug": "Slědilnik Pogrěšek"
                 },
                 "logOut": "Odlogovati se"
             },
@@ -485,12 +514,20 @@
                     "title": "Izkazanje",
                     "description": "Opis Kanala",
                     "name": "Nazva Kanala"
+                },
+                "webhooks": {
+                    "title": "Vebhuky"
+                },
+                "permissions": {
+                    "title": "Dopuščenja"
                 }
             },
             "server_pages": {
                 "overview": {
                     "system_messages": "Kanaly Poslanja Sistemy",
-                    "name": "Nazva Servera"
+                    "name": "Nazva Servera",
+                    "title": "Izkazanje",
+                    "description": "Opis Kanala"
                 },
                 "customisation": {
                     "title": "Prisposobjenje"
@@ -502,13 +539,15 @@
                     "code": "Kod Pozvanja",
                     "channel": "Kanal",
                     "revoke": "Udaliti",
-                    "title": "Pozvanja"
+                    "title": "Pozvanja",
+                    "invitor": "Zovuči"
                 },
                 "bans": {
                     "user": "Koristnik",
                     "reason": "Povod za Zakaz",
                     "no_reason": "Žadny povod za zakaz.",
-                    "title": "Zakazy"
+                    "title": "Zakazy",
+                    "revoke": "Udaliti"
                 },
                 "roles": {
                     "title": "Roly"
@@ -545,7 +584,12 @@
                 "delete_role": "Odstraniti Rolu",
                 "hoist_desc": "Izstaviti tutu rolu nad inymi.",
                 "role_colour": "Kolor Roly",
-                "role_options": "Opcije Roly"
+                "role_options": "Opcije Roly",
+                "server": "Dopuščenja Servera",
+                "edit_title": "Redaktovati Dopuščenja",
+                "default_role": "Prědustavjenje",
+                "title": "Dopuščenja za rolu {{role}}",
+                "channel": "Dopuščenja Kanala"
             }
         },
         "special": {
@@ -600,7 +644,8 @@
                     "silent_leave": "Tiho Ostaviti",
                     "create_invite_created": "Tut jest vaš novy kod prizvanja:",
                     "confirm_ban": "Idete zakazati {{name}}",
-                    "unfriend_user_long": "Ne smožete jim razgovorjati ješče raz ako ne oddodavate."
+                    "unfriend_user_long": "Ne smožete jim razgovorjati ješče raz ako ne oddodavate.",
+                    "members_not_notified": "Ini členi ne budut iměti uvědomjenje"
                 },
                 "confirm": "Potvrditi dějanje",
                 "actions": {
@@ -617,6 +662,15 @@
                     "report": "Izvěstiti",
                     "dont_block": "Ne zablokovati",
                     "delete": "Odstraniti"
+                },
+                "account": {
+                    "change": {
+                        "email": "Izměniti vaš e-mail",
+                        "password": "Izměniti vašu parolu",
+                        "username": "Izměniti vašu nazvu koristnika",
+                        "display_name": "Izměniti vašu nazvu izstavy"
+                    },
+                    "failed": "Hybilo izměnjati!"
                 }
             },
             "copy_username": "Kliknuti, da by kopirovati nazvu koristnika",
