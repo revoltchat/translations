@@ -7,12 +7,12 @@
             "online": "Nasa linya",
             "idle": "Bakante",
             "focus": "Nakatutok",
-            "reconnect": "Rumerekonekta"
+            "reconnect": "Mag-reconnect"
         },
         "navigation": {
             "tabs": {
                 "friends": "Kaibigan",
-                "unreads": "Hindi pa nababasa",
+                "unreads": "Mga hindi pa nababasa",
                 "dev": "Developer",
                 "home": "Panimula",
                 "saved": "Personal na talaan"
@@ -24,21 +24,21 @@
                 "message_who": "I-mensahe si @{{person}}",
                 "system": {
                     "user_left": "Umalis si {{user}}",
-                    "channel_renamed": "Pinalitan ni {{user}} ang pangalan ng kanal sa {{name}}",
+                    "channel_renamed": "Pinalitan ni {{user}} ang pangalan ng channel sa {{name}}",
                     "user_joined": "Sumali si {{user}}",
                     "added_by": "Isinali ni {{user}} si {{other_user}}",
                     "removed_by": "Tinanngal ni {{user}} si {{other_user}}",
-                    "channel_description_changed": "Pinalitan ni {{user}} ang deskripsyon ng kanal",
+                    "channel_description_changed": "Pinalitan ni {{user}} ang deskripsyon ng channel",
                     "user_kicked": "Tinanggal si {{user}}",
                     "user_banned": "Si {{user}} ay na-banned",
-                    "channel_icon_changed": "Binago ni {{user}} ang icon ng kanal",
+                    "channel_icon_changed": "Binago ni {{user}} ang icon ng channel",
                     "registered_at": "Nagrehistro noong {{time}}",
                     "channel_ownership_changed": "Ibinigay ni {{from}} kay {{to}} ang pagmamay-ari ng grupo"
                 },
                 "misc": {
                     "viewing_old": "Tinitingnan ang mga lumang message",
                     "jump_present": "Bumalik sa kasalukuyan",
-                    "no_sending": "Wala kang permisong magpadala ng mga mensahe sa kanal na ito.",
+                    "no_sending": "Wala kang pahintulot para magpadala ng mga mensahe sa channel na ito.",
                     "spoiler_attachment": "Spoiler",
                     "failed_load": "Hindi mailahad ang mensahe.",
                     "blocked_messages": "{{count}} itinagong mensahe",
@@ -64,13 +64,13 @@
                     "leave": "Umalis",
                     "mute": "Tumahimik",
                     "unmute": "I-unmute",
-                    "connected": "Nasa kanal pamboses"
+                    "connected": "Nasa channel na pamboses"
                 },
                 "nsfw": {
                     "confirm": "Kinukumpirma ko na ako ay hindi bababa sa 18 na taong gulang.",
                     "channel": {
-                        "marked": "Ang kanal na ito ay minarkahan bilang NSFW.",
-                        "confirm": "Pumasok sa Kanal"
+                        "marked": "Minarkahan bilang NSFW ang channel na ito.",
+                        "confirm": "Pumasok sa Channel"
                     }
                 },
                 "notifications": {
@@ -83,8 +83,8 @@
                 "search": {
                     "title": "Humanap",
                     "sort": {
-                        "latest": "Bago",
-                        "oldest": "Luma",
+                        "latest": "Pinakabago",
+                        "oldest": "Pinakaluma",
                         "relevance": "Kaugnayan"
                     }
                 },
@@ -93,12 +93,12 @@
                 "message_saved": "Ilagay sa personal na talaan",
                 "attached_file": "Nakalakip ang (mga) {{filename}}",
                 "unknown_user": "<basta-tao-rin-ito>",
-                "edited": "(inedit)",
+                "edited": "(binago)",
                 "bot": "Bot",
                 "errors": {
-                    "nochannels": "Walang kanal itong serbidor o wala kang akseso sa ilan.",
+                    "nochannels": "Walang anumang mga channel ang server na ito, o wala kang access sa anuman.",
                     "title": "Naku, walang laman rito!",
-                    "nochannel": "Walang kanal"
+                    "nochannel": "Walang channel"
                 },
                 "reply": {
                     "replying": "Tumutugon kay",
@@ -140,7 +140,7 @@
                 "members": "Mga miyembro",
                 "conversations": "Mga usapan",
                 "participants": "Mga kalahok",
-                "channels": "Mga kanal"
+                "channels": "Mga channel"
             }
         },
         "context_menu": {
@@ -164,7 +164,7 @@
             "leave_group": "Umalis sa grupo",
             "leave_server": "Umalis sa server",
             "close_dm": "Isara ang DM",
-            "create_channel": "Gumawa ng kanal",
+            "create_channel": "Gumawa ng channel",
             "create_invite": "Gumawa ng imbitasyon",
             "delete_server": "Burahin ang server",
             "copy_selection": "Kopyahin ang selection",
@@ -181,9 +181,9 @@
             "remove_member": "Tanggalin sa grupo",
             "open_notification_options": "Opsyones ng Abiso",
             "open_server_settings": "Mga Opsyon sa Server",
-            "open_channel_settings": "Settings ng Kanal",
+            "open_channel_settings": "Mga setting ng channel",
             "open_group_settings": "Settings ng Grupo",
-            "delete_message": "Alisin ang message",
+            "delete_message": "Alisin ang mensahe",
             "kick_member": "Paalisin ang miyembro",
             "block_user": "Barahin ang user na ito",
             "unblock_user": "Huwag nang barahin ang user",
@@ -197,7 +197,7 @@
             "mark_unread": "Markahan bilang hindi nabasa",
             "make_owner": "Ibigay ang pagmamay-ari ng grupo",
             "report_user": "I-report ang user",
-            "report_message": "Iulat ang message",
+            "report_message": "Iulat ang mensahe",
             "report_server": "Iulat ang server",
             "accept_friend": "Tanggapin ang friend request",
             "reject_friend": "Tanggihan ang friend request",
@@ -222,7 +222,7 @@
                         "add_auth": "Maglagay ng Autentikador",
                         "remove_auth": "Tanggalin ang Autentikador",
                         "title": "Autentikasyong Two-factor (2FA)",
-                        "description": "Itulot ang 2FA sa iyong kwenta upang madagdagan ang seguridad.",
+                        "description": "Paganahin ang 2FA sa iyong account upang madagdagan ang seguridad.",
                         "view_recovery_long": "Tignan at i-download ang iyong mga 2FA na kodigo ng pagbawi.",
                         "view_recovery": "Tignan Ang Mga Kodigo ng Pagbawi",
                         "generate_recovery_long": "I-handang gamitin ang 2FA sa pamamagitan ng paglagay ng paraan ng pagbawi.",
@@ -232,14 +232,14 @@
                     },
                     "manage": {
                         "delete": "Markahan ang account para sa pagbura",
-                        "title": "Pangangasiwa ng Kwenta",
-                        "disable": "Ilingan ang kwenta",
+                        "title": "Pangangasiwa ng Account",
+                        "disable": "I-disable ang Account",
                         "description": "Ilingan o burahin ang iyong account kailanman. Ang mga aksyon na ito ay magla-logout ng mga aktibong sesyon.",
                         "disable_description": "Hindi mo maa-access ang iyong account maliban kung makipag-ugnayan sa support - gayumpaman, hindi mabubura ang iyong data.",
                         "delete_description": "Ang iyong account at lahat ng iyong data (kabilang ang mga mensahe at listahan ng mga kaibigan) ay ipi-queue para sa pagbura. Magpapadala ito ng email ng kumpirmasyon - maari mo itong kanselahin sa loob ng 7 araw sa pamamagitan ng pakikipag-ugnayan sa support.",
                         "delete_still_own_servers": "Hindi maaaring burahin ang account hanggang hindi na-delete o na-transfer ang mga server"
                     },
-                    "unique_id": "Ito'y isang natatanging identipikador para sa iyong kwenta."
+                    "unique_id": "Ito'y isang natatanging identipikador para sa iyong account."
                 },
                 "sessions": {
                     "title": "Mga Sesyon",
@@ -504,9 +504,9 @@
             },
             "channel_pages": {
                 "overview": {
-                    "name": "Pangalan ng Kanal",
-                    "description": "Deskripsyon ng Kanal",
-                    "title": "Bista ng Kanal"
+                    "name": "Pangalan ng Channel",
+                    "description": "Deskripsyon ng Channel",
+                    "title": "Pangkalahatang-ideya"
                 },
                 "permissions": {
                     "title": "Mga Permiso"
@@ -572,7 +572,7 @@
             },
             "permissions": {
                 "server": "Mga Pahintulot sa Server",
-                "channel": "Mga Permiso ng Kanal",
+                "channel": "Mga Pahintulot ng Channel",
                 "create_role": "Gumawa ng bagong role",
                 "role_name": "Pangalan ng Papel",
                 "default_role": "Default",
@@ -782,7 +782,7 @@
                     "avatar": "Avatar"
                 },
                 "user_picker": {
-                    "select": "Piliin mo ang gusto mong kaibiganin."
+                    "select": "Pumili ng mga kaibigan na idadagdag."
                 },
                 "create_bot": {
                     "title": "Gumawa ng bagong bot",
@@ -802,7 +802,7 @@
             "goto-testers": "Pumunta sa testers server",
             "donate": "Mag-abuloy sa Revolt",
             "feedback": "Magbigay ng puna sa Revolt",
-            "settings": "Mga Opsyon",
+            "settings": "Buksan ang mga opsyon",
             "directs": "Mga direktang mensahe",
             "join-testers": "Sumali sa testers server",
             "settings-tooltip": "Pwede mo ring i-right-click sa user icon sa kaliwang itaas, o i-left-click doon kung nasa pahina ng panimula ka na.",
@@ -853,16 +853,16 @@
         "resend": "Muling ipadala ang beripikasyon",
         "cancel": "Ikansela ang hiling",
         "new": "Bago sa Revolt?",
-        "existing": "Mayroon nang kwenta?",
+        "existing": "Mayroon ka nang account?",
         "create": "Gumawa ng bagong account",
         "missing_verification": "Hindi nakatanggap ng email?",
         "check_mail": "Tignan ang iyong koreo!",
         "remembered": "Bumalik sa pag-login",
         "open_mail_provider": "Buksan ang {{provider}}",
         "error": {
-            "login": "Hindi matagumpay ang pag-login!",
-            "reset": "Hindi naipa-palit!",
-            "create": "Nagkaproblema sa pagrehistro!",
+            "login": "Nabigo ang pag-login!",
+            "reset": "Nabigong i-reset!",
+            "create": "Nabigong magrehistro!",
             "resend": "Nabigong ipadala muli!",
             "verify": "Nabigong i-verify!"
         },
