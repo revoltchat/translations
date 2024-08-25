@@ -102,7 +102,8 @@
                         "disable": "Nonaktifkan Akun",
                         "delete": "Tandai Akun untuk Dihapus",
                         "disable_description": "Kamu tidak akan bisa mengakses akunmu kecuali dengan menghubungi bantuan - namun, datamu tidak akan dihapus.",
-                        "delete_description": "Akun dan seluruh datamu (termasuk pesan dan daftar temanmu) akan segera dihapus. Email konfirmasi akan dikirimkan - kamu bisa membatalkan penghapusan ini sebelum 7 hari dengan menghubungi bantuan."
+                        "delete_description": "Akun dan seluruh datamu (termasuk pesan dan daftar temanmu) akan segera dihapus. Email konfirmasi akan dikirimkan - kamu bisa membatalkan penghapusan ini sebelum 7 hari dengan menghubungi bantuan.",
+                        "delete_still_own_servers": "Tidak dapat menghapus akun hingga server dihapus atau ditransfer"
                     }
                 },
                 "notifications": {
@@ -275,7 +276,8 @@
                             "description": "Tandai saluran ini sebagai telah dibaca."
                         },
                         "developer_toggle_all_experiments": {
-                            "description": "Ini akan mengaktifkan/menonaktifkan semua percobaan."
+                            "description": "Ini akan mengaktifkan/menonaktifkan semua percobaan.",
+                            "title": "Tombol eksperimen mode aman"
                         },
                         "navigate_previous_context": {
                             "title": "Arahkan ke konteks sebelumnya"
@@ -589,7 +591,8 @@
                     "change": {
                         "password": "Ubah sandimu",
                         "username": "Ubah nama pengguna kamu",
-                        "email": "Ubah emailmu"
+                        "email": "Ubah emailmu",
+                        "display_name": "Ubah nama tampilanmu"
                     },
                     "failed": "Gagal mengubah!"
                 },
@@ -786,7 +789,10 @@
             "make_owner": "Berikan kepemilikan grup",
             "report_message": "Laporkan pesan",
             "report_user": "Laporkan pengguna",
-            "report_server": "Laporkan server"
+            "report_server": "Laporkan server",
+            "accept_friend": "Terima permintaan pertemanan",
+            "reject_friend": "Hapus permintaan pertemanan",
+            "edit_your_identity": "Sunting identitasmu"
         },
         "permissions": {
             "required": "Izin dibutuhkan"
@@ -837,7 +843,7 @@
             "invite": "Masukkan kode undanganmu.",
             "email": "Silakan masukkan emailmu.",
             "password": "Masukkan sandimu.",
-            "username": "Masukkan nama penggunamu.",
+            "username": "Masukkan nama pengguna yang disarankan.",
             "new_password": "Masukkan sandi baru."
         },
         "current_password": "Sandi Saat Ini",
@@ -869,7 +875,7 @@
         "about": "Tentang",
         "on": "Aktif",
         "disabled": "Dinonaktifkan",
-        "unavailable": "Tak tersedia",
+        "unavailable": "Tidak tersedia",
         "off": "Nonaktif",
         "learn_more": "Ketahui lebih lanjut"
     },
