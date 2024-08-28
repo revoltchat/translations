@@ -429,7 +429,8 @@
                 "keybinds": {
                     "category": {
                         "navigation": "Navigacija",
-                        "advanced": "Avansovano"
+                        "advanced": "Avansovano",
+                        "messaging": "Poslanje"
                     },
                     "action": {
                         "navigate_channel_up": {
@@ -460,7 +461,8 @@
                             "description": "Popluti k nastupnomu kanalu."
                         },
                         "developer_toggle_all_experiments": {
-                            "description": "To vključi / izključi směsta vse eksperimenty."
+                            "description": "To vključi / izključi směsta vse eksperimenty.",
+                            "title": "Prěključiti bezpečny režim eksperimenta"
                         },
                         "auto_complete_up": {
                             "title": "Prědšedši Odbor Avtodokončenja",
@@ -475,15 +477,28 @@
                             "description": "Potvrditi sejčasny odbor avtodokončenja."
                         },
                         "input_submit": {
-                            "title": "Podati Vhod"
+                            "title": "Podati Vhod",
+                            "description": "Advansovano ključno vezanje, ktoro jest tipično koristano, da by podati sejčasny vhod.\nTo može vključiti podanje poslanja, podanje redaktovanja k poslanju, podanje iskanje, i t.d.."
                         },
                         "input_cancel": {
-                            "title": "Anulovati Vhod"
+                            "title": "Anulovati Vhod",
+                            "description": "Advansovano ključno vezanje, ktoro jest tipično koristano, da by anulovati sejčasny vhod.\nTo može vključiti anulovati redaktovanje poslanja, odstranjenje ustanogo obraza, abo podobne scenarije."
                         },
                         "input_force_submit": {
                             "title": "Prinuditi Podavati Vhod"
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Prokrutiti na dol poslanij",
+                            "description": "Prokručiva se na dol pogleda poslanij."
                         }
-                    }
+                    },
+                    "title": "Ključne vezanja",
+                    "description": "Pogleděti i ustaviti ključne vezanja",
+                    "search": "Poiskati ključne vezanja…",
+                    "add_keybind": "Dodati novo ključno vezanje",
+                    "edit_keybind": "Redaktovati ključno vezanje",
+                    "remove_keybind": "Odstraniti ključno vezanje",
+                    "reset_keybind": "Resetovati ključno vezanje do {{keybind}}"
                 },
                 "feedback": {
                     "title": "Povratna informacija",
