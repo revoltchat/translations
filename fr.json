@@ -236,7 +236,7 @@
             "copy_cid": "Copier l'identifiant du salon",
             "copy_mid": "Copier l'identifiant du message",
             "mention": "Mentionner",
-            "cancel_friend": "Annuler la demande",
+            "cancel_friend": "Annuler la demande d'ami",
             "custom_status": "Statut personnalisé",
             "open_channel_settings": "Paramètres du salon",
             "open_group_settings": "Paramètres du groupe",
@@ -262,7 +262,10 @@
             "make_owner": "Transférer la propriété du groupe",
             "report_user": "Signaler cet utilisateur",
             "report_message": "Signaler ce message",
-            "report_server": "Signaler ce serveur"
+            "report_server": "Signaler ce serveur",
+            "edit_your_identity": "Modifier votre identité",
+            "accept_friend": "Accepter demande d'ami",
+            "reject_friend": "Rejeter demande d'ami"
         },
         "settings": {
             "pages": {
@@ -398,7 +401,8 @@
                         "delete": "Marquer le compte pour suppression",
                         "disable": "Désactiver le compte",
                         "disable_description": "Vous ne pourrez plus accéder à votre compte sans contacter le support. Toutefois, vos données ne seront pas supprimées.",
-                        "delete_description": "Votre compte et toutes vos données (y compris vos messages et votre liste d’amis) seront mis en file d’attente pour être supprimés. Un e-mail de confirmation sera envoyé - vous pourrez annuler cette opération dans un délai de 7 jours en contactant le support."
+                        "delete_description": "Votre compte et toutes vos données (y compris vos messages et votre liste d’amis) seront mis en file d’attente pour être supprimés. Un e-mail de confirmation sera envoyé - vous pourrez annuler cette opération dans un délai de 7 jours en contactant le support.",
+                        "delete_still_own_servers": "Impossible de clôturer le compte si les serveurs ne sont pas fermés ou transférés"
                     }
                 },
                 "sessions": {
@@ -718,7 +722,8 @@
                     "change": {
                         "email": "Changer votre adresse mail",
                         "username": "Changer votre nom d'utilisateur",
-                        "password": "Changer votre mot de passe"
+                        "password": "Changer votre mot de passe",
+                        "display_name": "Changer votre nom affiché"
                     },
                     "failed": "La modification a échoué !"
                 },
