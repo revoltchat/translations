@@ -118,7 +118,7 @@
                     "all": "Alle Beskeder",
                     "mention": "Kun Omtaler",
                     "none": "Ingen",
-                    "muted": "Slået fra"
+                    "muted": "dæmpet"
                 },
                 "search": {
                     "title": "Søg",
@@ -258,7 +258,8 @@
                     "change": {
                         "email": "Skift din e-mail",
                         "username": "Skift dit brugernavn",
-                        "password": "Skift dit kodeord"
+                        "password": "Skift dit kodeord",
+                        "display_name": "Skift dit visningsnavn"
                     },
                     "failed": "Kunne ikke ændres!"
                 },
@@ -320,7 +321,8 @@
                     "by_name": "Anmeld {{name}}"
                 },
                 "edit_keybind": {
-                    "title": "Skift genvejstast for {{action}}"
+                    "title": "Skift genvejstast for {{action}}",
+                    "placeholder": "Tryk på tasterne for at optage"
                 }
             },
             "popovers": {
@@ -423,7 +425,9 @@
                         "delete": "Marker konto til Sletning",
                         "title": "Kontostyring",
                         "disable": "Deaktiver Konto",
-                        "disable_description": "Du vil ikke have adgang til din konto, medmindre du kontakter support - din data vil dog ikke blive slettet."
+                        "disable_description": "Du vil ikke have adgang til din konto, medmindre du kontakter support - din data vil dog ikke blive slettet.",
+                        "delete_still_own_servers": "Kan ikke slette kontoen, før serverne er slettet eller overført.",
+                        "delete_description": "Din konto og alle dine data (inklusive dine beskeder og venneliste) vil blive sat i kø til sletning. En bekræftelsesmail vil blive sendt - du kan annullere denne inden for 7 dage ved at kontakte support."
                     },
                     "title": "Min Konto"
                 },
@@ -616,7 +620,8 @@
                     "reset_keybind": "Nulstil genvejstast tilbage til {{keybind}}",
                     "category": {
                         "navigation": "Navigation",
-                        "advanced": "Avanceret"
+                        "advanced": "Avanceret",
+                        "messaging": "Beskeder"
                     },
                     "action": {
                         "navigate_channel_up": {
@@ -636,11 +641,48 @@
                             "description": "Naviger til næste server."
                         },
                         "messaging_edit_previous_message": {
-                            "title": "Rediger forrige besked"
+                            "title": "Rediger forrige besked",
+                            "description": "Rediger den tidligere sendte besked i den aktuelt indlæste beskedvisning."
                         },
                         "messaging_mark_channel_read": {
                             "title": "Marker kanal som læst",
                             "description": "Markerer den nuværende kanal som læst."
+                        },
+                        "input_cancel": {
+                            "description": "En avanceret tastebinding, der typisk bruges til at annullere det aktuelle input.\nDette kan omfatte annullering af en meddelelsesredigering, fjernelse af et billede i kø eller lignende scenarier.",
+                            "title": "Annuller input"
+                        },
+                        "navigate_previous_context": {
+                            "description": "En avanceret nøglebinding, der typisk bruges til at lukke indstillingssiden, en modal eller en popup og vende tilbage til den forrige kontekst.",
+                            "title": "Naviger til den forrige kontekst"
+                        },
+                        "auto_complete_up": {
+                            "title": "Tidligere valg af autofuldførelse",
+                            "description": "Flyt autofuldførelsesvalget til det forrige."
+                        },
+                        "auto_complete_down": {
+                            "title": "Næste Autofuldførelsesvalg",
+                            "description": "Flyt autofuldførelsesvalget til det næste."
+                        },
+                        "auto_complete_select": {
+                            "title": "Bekræft valg af autofuldførelse",
+                            "description": "Bekræft det aktuelle valg af autofuldførelse."
+                        },
+                        "input_submit": {
+                            "title": "Send input",
+                            "description": "En avanceret nøglebinding, der typisk bruges til at sende det aktuelle input.\nDette kan omfatte indsendelse af en besked, indsendelse af en redigering af en besked, indsendelse af en søgning osv."
+                        },
+                        "input_force_submit": {
+                            "title": "Tving indsend input",
+                            "description": "En avanceret nøglebinding, der typisk bruges til at sende det aktuelle input med magt og ignorere nogle kontroller eller andre nøglebindinger.\nDette kan omfatte indsendelse af en besked i stedet for at bekræfte valget af autofuldførelse."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Rul til bunden af beskeder",
+                            "description": "Rul til bunden af beskedvisningen."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "Slå eksperimentet sikker tilstand til/fra",
+                            "description": "Dette vil aktivere/deaktivere alle eksperimenter på én gang."
                         }
                     },
                     "title": "Genvejstaster",
@@ -799,7 +841,10 @@
             "make_owner": "Giv Group ejerskab",
             "report_message": "Anmeld beskeden",
             "report_user": "Anmeld bruger",
-            "report_server": "Anmeld server"
+            "report_server": "Anmeld server",
+            "edit_your_identity": "Rediger din identitet",
+            "accept_friend": "Accepter venneanmodning",
+            "reject_friend": "Afvis venneanmodning"
         },
         "home": {
             "join-testers": "Tilmeld dig testerens server",
@@ -825,7 +870,7 @@
     },
     "general": {
         "unavailable": "Ikke tilgængeligt",
-        "disabled": "Slået fra",
+        "disabled": "funkcional",
         "off": "Fra",
         "on": "Til",
         "loading": "Indlæser…",
@@ -1067,7 +1112,15 @@
             "short": "PgDown"
         },
         "PrintScreen": {
-            "full": "Print Screen"
+            "full": "Print Screen",
+            "short": "PrtSc"
+        },
+        "ScrollLock": {
+            "full": "Scroll Lock",
+            "short": "ScrLK"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
         }
     }
 }
