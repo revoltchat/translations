@@ -290,7 +290,8 @@
                         "delete": "Đánh Dấu Tài Khoản Để Xoá",
                         "title": "Quản Lí Tài Khoản",
                         "disable_description": "Bạn sẽ không thể truy cập tài khoản của bạn trừ khi bạn liên lạc bên hỗ trợ - dù vậy, dữ liệu của bạn sẽ không bị xóa.",
-                        "delete_description": "Tài khoản của bạn và tất cả dữ liệu trong tài khoản (gồm có cả dữ liệu tin nhắn và danh sách bạn bè) sẽ được chờ để xóa. Một email xác thực sẽ được gửi đến - bạn có thể hủy bỏ quá trình xóa trong 7 ngày bằng cách liên lạc với bên hỗ trợ."
+                        "delete_description": "Tài khoản của bạn và tất cả dữ liệu trong tài khoản (gồm có cả dữ liệu tin nhắn và danh sách bạn bè) sẽ được chờ để xóa. Một email xác thực sẽ được gửi đến - bạn có thể hủy bỏ quá trình xóa trong 7 ngày bằng cách liên lạc với bên hỗ trợ.",
+                        "delete_still_own_servers": "Không thể xóa tài khoản được cho đến khi các máy chủ của bạn đã bí xóa hay được chuyển quyền sỡ hữu"
                     },
                     "unique_id": "Đây là mã định danh độc nhất cho tài khoản của bạn."
                 },
@@ -420,6 +421,46 @@
                     "descriptions": {
                         "reduced_motion": "Nếu được bật, các hoạt ảnh và hiệu ứng chuyển động sẽ không được chạy hoặc sẽ ít chạy hơn."
                     }
+                },
+                "keybinds": {
+                    "title": "Các phím tắt",
+                    "description": "Xem và chỉnh phím tắt",
+                    "search": "Tìm kiếm phím tắt…",
+                    "edit_keybind": "Điều chỉnh phím tắt",
+                    "remove_keybind": "Xóa phím tắt",
+                    "reset_keybind": "Cài lại phím tắt thành {{keybind}}",
+                    "category": {
+                        "navigation": "Điều hướng",
+                        "messaging": "Nhắn tin",
+                        "advanced": "Nâng cao"
+                    },
+                    "action": {
+                        "navigate_channel_up": {
+                            "description": "Điều hướng đến kênh trước đó.",
+                            "title": "Điều hướng tới kênh trước bây giờ"
+                        },
+                        "navigate_channel_down": {
+                            "title": "Điều hướng đến kênh kế tiếp",
+                            "description": "Điều hướng tới kênh kế tiếp."
+                        },
+                        "navigate_server_up": {
+                            "title": "Điều hướng tới máy chủ trước đó",
+                            "description": "Điều hướng tới máy chủ trước đó."
+                        },
+                        "navigate_server_down": {
+                            "title": "Điều hướng tới máy chủ kế tiếp",
+                            "description": "Điều hướng tới máy chủ kế tiếp."
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "Chỉnh sửa tin nhắn trước",
+                            "description": "Chỉnh sửa tin nhắn đã gửi trước đó trong chế độ xem tin nhắn đang được tải."
+                        },
+                        "auto_complete_up": {
+                            "title": "Lựa Chọn Tự Động Hoàn Thành Trước Đó",
+                            "description": "Duy chuyển"
+                        }
+                    },
+                    "add_keybind": "Thêm phím tắt mới"
                 }
             },
             "actions": {
