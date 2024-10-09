@@ -31,7 +31,7 @@
         "current_password": "Noverande Passord",
         "log_out_other": "Logg ut av alle andre økter",
         "enter": {
-            "username": "Skriv inn brukarnamnet ditt.",
+            "username": "Skriv inn ditt foretrukne brukernavn.",
             "email": "Skriv inn e-postadressa di.",
             "password": "Skriv inn passordet ditt.",
             "new_password": "Skriv inn ett nytt passord.",
@@ -262,7 +262,8 @@
                         "disable": "Deaktiver konto",
                         "delete": "Merk konto for sletting",
                         "disable_description": "Du vil ikkje kunna få tilgjenge til kontoen din med mindre du tar kontakt med brukarstytte - likevel vil dataa dine ikkje bli sletta.",
-                        "delete_description": "Kontoen din og alle dataa dine (inkludert meldingane dine og vennelista) vil bli satt i kø for sletting. Ein stadfestings-e-post vil bli sendt – du kan avbryte dette innan 7 dagar ved å ta kontakt med brukarstytte."
+                        "delete_description": "Kontoen din og alle dataa dine (inkludert meldingane dine og vennelista) vil bli satt i kø for sletting. Ein stadfestings-e-post vil bli sendt – du kan avbryte dette innan 7 dagar ved å ta kontakt med brukarstytte.",
+                        "delete_still_own_servers": "Kan ikke slette kontoen før serverne er slettet eller overført"
                     }
                 },
                 "profile": {
@@ -431,7 +432,7 @@
                     "description": "Bla gjennom hundrevis av stilar laga av fellesskapet.",
                     "search": "Søk etter stilar…",
                     "category": {
-                        "saved": "Lagra",
+                        "saved": "Lagret",
                         "manage": "Administrer lagra",
                         "new": "Nytt denne veka",
                         "default": "Forvaldestilar",
@@ -630,7 +631,7 @@
                 "outgoing": "Utgåande venneførespurnad."
             },
             "status": {
-                "offline": "Fråkopla.",
+                "offline": "Frakoblet.",
                 "disconnected": "Fråkopla.",
                 "reconnecting": "Koplar til igjen…",
                 "connecting": "Koplar til…"
@@ -685,7 +686,8 @@
                     "change": {
                         "username": "Endra brukarnamn",
                         "email": "Endra din e-postadresse",
-                        "password": "Endra passord"
+                        "password": "Endra passord",
+                        "display_name": "Endre visningsnavnet ditt"
                     },
                     "failed": "Kunne ikkje utføra endring!"
                 },
@@ -742,7 +744,7 @@
                     "ban": "Utesteng",
                     "done": "Ferdig",
                     "kick": "Kast ut",
-                    "save": "Lagra",
+                    "save": "Lagre",
                     "hide": "Skjul",
                     "edit": "Rediger",
                     "block": "Blokker",
@@ -869,9 +871,12 @@
             "copy_cid": "Kopier kanal-ID",
             "quote_message": "Siter melding",
             "open_image": "Opna bilete",
-            "cancel_friend": "Avbryt førespurnad",
+            "cancel_friend": "Avbryt vennforespørselen",
             "open_notification_options": "Varslingsinnstillingar",
-            "open_group_settings": "Gruppeinnstillingar"
+            "open_group_settings": "Gruppeinnstillingar",
+            "accept_friend": "Godta vennforespørselen",
+            "reject_friend": "Avvis vennforespørselen",
+            "edit_your_identity": "Rediger identiteten din"
         },
         "permissions": {
             "required": "Tillatingar krevjast"
