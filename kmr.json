@@ -7,13 +7,13 @@
         "off": "Ji",
         "disabled": "Bêmecel",
         "privacy": "Siyaseta Nepenîtiyê",
-        "learn_more": "Zêdetir agahdarî",
+        "learn_more": "Bêtir hîn bibin",
         "about": "Ji dor",
         "unavailable": "Nayê bikarînan"
     },
     "login": {
         "title": "Têkeve",
-        "welcome": "Duabre bixêr bên!",
+        "welcome": "Bi xêr hatî!",
         "subtitle": "Têkeve Revolt",
         "welcome2": "Slav!",
         "subtitle2": "Hesabek çêbikin",
@@ -23,7 +23,7 @@
         "current_password": "Şîfreya heyî",
         "enter": {
             "username": "Navê bikarhênerê xweya bijartî binivîse.",
-            "email": "E-nameya xwe binivîse.",
+            "email": "Ji kerema xwe e-nameya xwe binivîse.",
             "password": "Şîfreya xwe binivîse.",
             "invite": "Koda vexwendina xwe binivîse.",
             "current_password": "Şîfreya xweya niha binivîse.",
@@ -40,8 +40,8 @@
         "resend": "Verastkirinê ji nû ve bişîne",
         "cancel": "Daxwaza betal bike",
         "check_mail": "Nameya xwe kontrol bikin!",
-        "email_delay": "Ji kerema xwe heya 10 hûrdeman destûr bidin ku ew bigihîje.",
-        "check_spam": "Ger hûn nekarin wê bibînin ji kerema xwe spam kontrol bikin",
+        "email_delay": "Me e-nameyek verastkirinê ji we re şandiye. Ji kerema xwe heya 10 hûrdeman destûr bidin ku ew bigihîje.",
+        "check_spam": "Ji kerema xwe peldanka xwe ya spam kontrol bikin ger hûn nekarin wê bibînin",
         "open_mail_provider": "Veke {{provider}}",
         "successful_registration": "Serkeftin qeydkirî!",
         "error": {
@@ -55,7 +55,7 @@
         "username": "Navê bikarhêner",
         "invite": "Koda vexwendinê",
         "new_password": "Şîfreya Nû",
-        "log_out_other": "Hemû danişînên din veke",
+        "log_out_other": "Ji hemû danişînên din derkevin",
         "verifying_account": "Hesaba xwe rast bike…",
         "verified_account": "Hesabê we hatiye piştrastkirin!",
         "verified_continue": "Têketinê bidomîne",
@@ -182,7 +182,7 @@
                 },
                 "unknown_user": "<Bikarhêner nenas>",
                 "edited": "(guherandin)",
-                "bot": "robotan",
+                "bot": "Robotan",
                 "bridge": "pir",
                 "notifications": {
                     "default": "Default bikar bînin",
@@ -197,7 +197,10 @@
                 "new_to_revolt": "Nû li ser Revolt",
                 "new_to_server": "Ji bo vê serverê nû ye",
                 "reactions": {
-                    "single_reacted": "1 kes bertek nîşan da"
+                    "single_reacted": "1 kes bertek nîşan da",
+                    "unknown_reacted": "{{count}} bertek nîşan da",
+                    "people_reacted": "{{people}} bertek nîşan da",
+                    "others_reacted": "{{userlist}} û {{count}} kesên din bersiv dan"
                 }
             },
             "servers": {
@@ -241,10 +244,13 @@
                         "two_factor_off": "Te destûr neda piştrastkirina du faktoran!"
                     },
                     "manage": {
-                        "description": "Di her kêliyê de hesabê xwe neçalak bike an jê bibe. Ev çalakî dê we derxe û hesabê we, tevî dîroka chat û hevalên we, bi tevahî jê bibe.",
+                        "description": "Di her kêliyê de hesabê xwe neçalak bike an jê bibe. Her du kiryar dê we ji danişînên xweyên çalak derxînin.",
                         "delete": "Hesaba Jêbirinê Nîşan Bide",
                         "title": "rêveberiya hesabê",
-                        "disable": "Hesabê neçalak bike"
+                        "disable": "Hesabê neçalak bike",
+                        "delete_description": "Hesabê we û hemî daneyên we (tevî navnîşa peyam û hevalên we) dê ji bo jêbirinê werin rêz kirin. E-nameyek pejirandinê dê were şandin - hûn dikarin di nav 7 rojan de vê yekê betal bikin û bi piştgirîyê re têkilî daynin.",
+                        "disable_description": "Hûn ê nikaribin bigihîjin hesabê xwe heya ku hûn bi piştgiriyê re têkilî daynin - Lêbelê, daneyên we nayê jêbirin.",
+                        "delete_still_own_servers": "Heya ku pêşkêşker neyên jêbirin an veguheztin, nikare hesabê jê bibe"
                     },
                     "title": "Hesabê min",
                     "change_field": "Gûherrandinî",
@@ -272,7 +278,7 @@
                     "title": "Mîhengên Deng",
                     "input_device": "Mîkrofon",
                     "output_device": "Axaftvan / Headset",
-                    "tip_retry": "Te destûr neda ku hûn xwe bigihînin mîkrofona xwe, ji kerema xwe {{retryBtn}}}.",
+                    "tip_retry": "We destûr neda Revolt ku bigihîje mîkrofona we. Ji kerema xwe {{retryBtn}}.",
                     "device_label_NA": "ez nizanim",
                     "button_retry": "dîsa hewl didin",
                     "button_grant": "Destûr bide"
@@ -283,7 +289,7 @@
                         "title": "Mijar kifş bikin"
                     },
                     "appearance_options": {
-                        "show_send_desc": "Ger neçalak be, bişkoka Send Message dê tenê li ser mobîl xuya bibe.",
+                        "show_send_desc": "Ger neçalak be, bişkoka Peyam Bişîne dê tenê li ser mobîl xuya bibe.",
                         "title": "Vebijêrkên Xuyang",
                         "show_send": "Bişkoka Send Message Her tim nîşan bide",
                         "show_account_age": "Her dem temenê hesaba li kêleka peyamên ku dê werin nîşan bide",
