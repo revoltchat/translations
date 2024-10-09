@@ -20,7 +20,7 @@
         "invite": "Codi d'invitació",
         "current_password": "Contrasenya actual",
         "enter": {
-            "username": "Introduïx el teu nom d'usuari.",
+            "username": "Introduïu el vostre nom d'usuari preferit.",
             "email": "Escriu el teu correu electrónic.",
             "password": "Escriu la teua contrasenya.",
             "invite": "Introdueix el teu codi d'invitació.",
@@ -334,7 +334,8 @@
                         "description": "Desactiva o elimina el teu compte en qualsevol moment. Ambdues accions tancaran les sessions que tingues actives.",
                         "disable_description": "No podràs accedir al teu compte a no ser de que tingues contacte amb el suport tècnic - no obstant açò, les teues dades no seran eliminades.",
                         "delete": "Marcar el compte per a suprimir-lo",
-                        "delete_description": "El teu compte i totes les teues dades (incluint missatges i llista d'amics) seran posats a la cua per a ser suprimits. Et serà enviat un correu de confirmació - pots cancelar açò si et poses en contacte amb el suport en un termini de 7 dies."
+                        "delete_description": "El teu compte i totes les teues dades (incluint missatges i llista d'amics) seran posats a la cua per a ser suprimits. Et serà enviat un correu de confirmació - pots cancelar açò si et poses en contacte amb el suport en un termini de 7 dies.",
+                        "delete_still_own_servers": "No es pot eliminar el compte fins que els servidors siguin eliminats o transferits"
                     },
                     "title": "El meu compte",
                     "change_field": "Canviar",
@@ -664,7 +665,8 @@
                     "change": {
                         "username": "Canviar el nom d'usuari",
                         "email": "Canviar el correu electrònic",
-                        "password": "Canviar contrasenya"
+                        "password": "Canviar contrasenya",
+                        "display_name": "Canvia el teu nom visible"
                     }
                 },
                 "mfa": {
@@ -805,7 +807,7 @@
             "open_file": "Obrir arxiu",
             "custom_status": "Estat personalitzat",
             "remove_friend": "Llevar amic",
-            "cancel_friend": "Cancelar sol·licitut",
+            "cancel_friend": "Cancela la sol·licitud d'amistat",
             "open_group_settings": "Configuració del grup",
             "mention": "Mencionar",
             "remove_member": "Tirar-lo del grup",
@@ -856,7 +858,10 @@
             "close_dm": "Tancar MD",
             "report_server": "Informar sobre el servidor",
             "open_notification_options": "Opcions de notificació",
-            "open_channel_settings": "Configuració del canal"
+            "open_channel_settings": "Configuració del canal",
+            "accept_friend": "Accepta la sol·licitud d'amistat",
+            "reject_friend": "Rebutja la sol·licitud d'amistat",
+            "edit_your_identity": "Edita la teva identitat"
         },
         "permissions": {
             "required": "Permisos requerits"
