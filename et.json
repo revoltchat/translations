@@ -6,10 +6,10 @@
         "loading": "Laadimin…",
         "on": "Lülita sisse",
         "disabled": "Puudega",
-        "unavailable": "Pole saadaval",
+        "unavailable": "Saadavus puudub",
         "about": "Umbes",
         "tos": "Teenuse tingimused",
-        "learn_more": "Lisateave"
+        "learn_more": "Uuri lähemalt"
     },
     "app": {
         "settings": {
@@ -64,14 +64,14 @@
                     "unique_id": "See on teie bot-i unikaalne ID. See pole bot-i token.",
                     "create_bot": "Loo bot",
                     "public_bot": "Avalik bot",
-                    "public_bot_desc": "Kas lubada teisel kasutajatel bot-i kutsuda või mitte.",
+                    "public_bot_desc": "Kui see on lubatud, saavad teised kasutajad lisada selle boti serveritesse ja grupivestlustesse.",
                     "interactions_url": "Interaktsiooni URL",
-                    "reserved": "Märkus: See väli on reserveeritud tulevikus kasutamiseks.",
+                    "reserved": "Märkus: see väli on reserveeritud tulevikuks.",
                     "copy_invite": "Kopeeri kutselink",
                     "add": "Lisa bot",
                     "token": "Token",
-                    "public_bot_tip": "Bot on avalik. Igaüks saab seda kutsuda.",
-                    "private_bot_tip": "Bot on privaatne. Ainult teie saate seda kutsuda.",
+                    "public_bot_tip": "See bot on avalik. Kõik võivad seda kutsuda.",
+                    "private_bot_tip": "See bot on privaatne. Ainult sina saad seda kutsuda.",
                     "profile": "Bot-i profiil"
                 },
                 "feedback": {
@@ -104,7 +104,10 @@
                         "title": "Kontohaldus",
                         "disable": "Keela konto",
                         "delete": "Märgi konto kustutamiseks",
-                        "description": "Keela või kustuta oma konto ükskõik millisel ajal. Sellega logitakse teid välja ning teie konto kustutatakse täielikult, sealhulgas teie sõnumid ja sõbralist."
+                        "description": "Sulge või kustuta oma konto igal ajal. Mõlemad toimingud lõpetavad sinu aktiivsed seansid.",
+                        "disable_description": "Sa ei saa oma kontole juurde pääseda, kui sa ei kontakteeru toeosakonnaga - siiski, sinu andmed ei kustutata.",
+                        "delete_still_own_servers": "Kontot ei saa kustutada enne, kui serverid on kustutatud või üle antud",
+                        "delete_description": "Sinu konto ja kõik andmed (sh sõnumid ja sõprade nimekiri) lisatakse kustutamise järjekorda. Kinnitus e-kiri saadetakse – sul on võimalik kustutamist tühistada, võttes ühendust klienditoega 7 päeva jooksul."
                     },
                     "title": "Minu kasutaja"
                 },
@@ -131,7 +134,7 @@
                     "output_device": "Kõlarid / Kõrvaklapid",
                     "device_label_NA": "Pole saadaval",
                     "button_retry": "proovi uuesti",
-                    "tip_retry": "Te ei andnud mikrofoni kasutamise õigust, palun {{retryBtn}}.",
+                    "tip_retry": "Sa ei andnud Revoltile luba mikrofoni kasutamiseks. Palun {{retryBtn}}.",
                     "button_grant": "Andke luba",
                     "tip_grant_permission": "Te peate andma mikrofoni kasutamiseks õiguse et muuta helisätteid."
                 },
@@ -162,14 +165,14 @@
                     "overrides": "Teema muudatused",
                     "reset_overrides": "Taasta muudatused",
                     "import_theme": "Impordi teema tekstist",
-                    "ligatures_desc": "Kui font lubab ja säte on sisse lülitatud, ligatuur kombineerib automaatselt karaktereid kokku, näiteks muutes -> nooleks.",
+                    "ligatures_desc": "Toetatud šriftide puhul ühendavad ligatuurid tähemärke – näiteks muudetakse sümbolid -> nooleks.",
                     "theme_options": {
                         "seasonal_desc": "Kuvab pühade hooajal koduvaates efekte.",
                         "transparency": "Läbipaistvus efektid",
                         "transparency_desc": "Lubab läbipaistvus efektid terve programmi ulatuses.",
                         "title": "Teema sätted",
                         "follow": "Kasuta süsteemiteemat",
-                        "follow_desc": "Kui valitud, pole teil võimalik enam teemat muuta ega võimalik kasutada kohandatuid teemasid.",
+                        "follow_desc": "Kui see on lubatud, ei saa sa muuta oma teemat ega kasutada kohandatud teemat.",
                         "seasonal": "Hooajaline teema"
                     },
                     "discover": {
@@ -179,16 +182,28 @@
                     "appearance_options": {
                         "title": "Ilme suvandid",
                         "show_account_age": "Kuva alati liituvate sõnumite kõrval konto vanus",
-                        "show_account_age_desc": "Keelamise korral näidatakse konto vanust ainult uutele kasutajatele.",
+                        "show_account_age_desc": "Kui see on keelatud, kuvatakse konto vanus ainult uutele kasutajatele.",
                         "show_send": "Kuva alati nupp Saada sõnum",
-                        "show_send_desc": "Kui keelatud, Saada sõnum nuppu kuvatakse ainult mobiiltelefoni."
+                        "show_send_desc": "Kui see on keelatud, kuvatakse nupp „Saada sõnum” ainult mobiilseadmes."
+                    },
+                    "advanced_options": {
+                        "title": "Täpsemad valikud"
+                    },
+                    "emoji": {
+                        "title": "Emoji"
+                    },
+                    "colours": {
+                        "title": "Värvid"
+                    },
+                    "fonts": {
+                        "title": "Fondid"
                     }
                 },
                 "notifications": {
                     "title": "Teated",
                     "push_notifications": "Tõukemärguanded (push)",
-                    "enable_desktop": "Luba töölaua märguanded.",
-                    "enable_push": "Luba tõukemärguanded (push).",
+                    "enable_desktop": "Luba töölaua teavitused",
+                    "enable_push": "Luba push-teavitused",
                     "sound": {
                         "message": "Saabuv sõnum",
                         "outbound": "Saadetud sõnum",
@@ -197,8 +212,8 @@
                     },
                     "sounds": "Helid",
                     "descriptions": {
-                        "enable_desktop": "See annab teile märguandeid kui programm on teil avatud.",
-                        "enable_push": "Luba et saada sõnumeid kui te olete võrgust väljas."
+                        "enable_desktop": "Kui see on lubatud, saad teavitusi ka siis, kui rakendus on avatud.",
+                        "enable_push": "Kui see on lubatud, saad teavitusi ka siis, kui oled võrguühenduseta."
                     }
                 },
                 "language": {
@@ -211,7 +226,7 @@
                     "title": "Sünkroniseerimine",
                     "categories": "Sünk. kategooriad",
                     "descriptions": {
-                        "appearance": "See sünkroniseerib teie emoji paketide ja sõnumite tiheduste valikud.",
+                        "appearance": "See sünkroonib välimuse valikud, nagu valitud emotikonide pakett ja sõnumite tihedus.",
                         "theme": "See sünkroniseerib teie valitud teema, värvid ja kohandatud CSS'i.",
                         "locale": "See sünkroniseerib teie valitud keele."
                     },
@@ -244,8 +259,91 @@
                 "plugins": {
                     "delete_plugin": "Kustuta",
                     "title": "Lisandmoodulid",
-                    "wip": "Hoiatus. See funktsioon on alles väljatöötamisel.",
+                    "wip": "Hoiatus! See funktsioon on veel arendamisel.",
                     "no_plugins": "Lisandmooduleid pole praegu installitud."
+                },
+                "keybinds": {
+                    "action": {
+                        "input_cancel": {
+                            "title": "Tühista sisend",
+                            "description": "Täpsem klahvikombinatsioon, mida tavaliselt kasutatakse praeguse sisendi tühistamiseks. \nSee võib hõlmata sõnumi redigeerimise tühistamist, ootel pildi eemaldamist või sarnaseid stsenaariume."
+                        },
+                        "navigate_channel_up": {
+                            "title": "Navigeeri eelmisele kanalile",
+                            "description": "Navigeeri eelmisele kanalile."
+                        },
+                        "navigate_channel_down": {
+                            "title": "Navigeeri järgmisele kanalile",
+                            "description": "Navigeeri järgmisele kanalile."
+                        },
+                        "navigate_server_down": {
+                            "title": "Navigeeri järgmisele serverile",
+                            "description": "Navigeeri järgmisele serverile."
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "Muuda eelmist sõnumit",
+                            "description": "Muuda varem saadetud sõnumit praegu avatud sõnumivaates."
+                        },
+                        "auto_complete_up": {
+                            "title": "Eelmine automaatne täitmine",
+                            "description": "Liiguta automaatse täitmise valik eelnevale."
+                        },
+                        "auto_complete_down": {
+                            "title": "Järgmine automaatne täitmine",
+                            "description": "Liiguta automaatse täitmise valik järgmisele."
+                        },
+                        "auto_complete_select": {
+                            "title": "Kinnita automaatse täitmise valik",
+                            "description": "Kinnita praegune automaatse täitmise valik."
+                        },
+                        "input_submit": {
+                            "title": "Esita sisend",
+                            "description": "Täpsem klahvikombinatsioon, mida tavaliselt kasutatakse praeguse sisendi edastamiseks. \nSee võib hõlmata sõnumi saatmist, sõnumi redigeerimise esitamine, otsingu esitamine jne."
+                        },
+                        "navigate_server_up": {
+                            "title": "Navigeeri eelmisele serverile",
+                            "description": "Navigeeri eelmisele serverile."
+                        },
+                        "input_force_submit": {
+                            "description": "Täpsem klahvikombinatsioon, mida tavaliselt kasutatakse praeguse sisendi sundimiseks, ignoreerides mõningaid kontrollimisi või muid klahvikombinatsioone. \nSee võib hõlmata sõnumi saatmist, selle asemel et kinnitada automaatse täitmise valikut.",
+                            "title": "Sunniviisiline sisendi esitamine"
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Kerige sõnumite põhja",
+                            "description": "Kerib sõnumivaate põhja."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Märgi kanal loetuks",
+                            "description": "Märgib praeguse kanali loetuks."
+                        },
+                        "navigate_previous_context": {
+                            "title": "Navigeeri eelmisse konteksti",
+                            "description": "Täpsem klahvikombinatsioon, mida tavaliselt kasutatakse seade lehe, modaalakna või hüpikakna sulgemiseks ja tagasi eelmisse konteksti naasmiseks."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "Lülita katse ohutu režiim sisse/ välja",
+                            "description": "See lülitab kõik eksperimendid korraga sisse/ välja."
+                        }
+                    },
+                    "edit_keybind": "Redigeeri kiirklahvi",
+                    "remove_keybind": "Eemalda kiirklahv",
+                    "reset_keybind": "Taasta kiirklahv vaikeväärtusele {{keybind}}",
+                    "category": {
+                        "navigation": "Navigeerimine",
+                        "messaging": "Sõnumite saatmine",
+                        "advanced": "Edasijõudnud"
+                    },
+                    "description": "Vaata ja määra kiirklahve",
+                    "title": "Kiirklahvid",
+                    "search": "Otsi kiirklahve…",
+                    "add_keybind": "Lisa uus kiirklahv"
+                },
+                "accessibility": {
+                    "reduced_motion": "Vähendatud liikumine",
+                    "title": "Ligipääsetavus",
+                    "descriptions": {
+                        "reduced_motion": "Kui see on lubatud, ei kuvata animatsioone ja liikumisefekte või need kuvatakse vähem intensiivselt."
+                    }
                 }
             },
             "channel_pages": {
@@ -256,6 +354,9 @@
                 },
                 "permissions": {
                     "title": "Õigused"
+                },
+                "webhooks": {
+                    "title": "Veebihookid"
                 }
             },
             "title": "Sätted",
@@ -272,15 +373,15 @@
             },
             "tips": {
                 "languages": {
-                    "a": "Teie soovitud keel puudub?",
-                    "b": "Anna oma panus tõlketööle."
+                    "a": "Kas me oleme unustanud keele, mida soovite?",
+                    "b": "Aita meid, panustades rohkem tõlkeid."
                 },
                 "sessions": {
                     "a": "Kui sa näed tundmatut sessiooni listis,",
-                    "b": "kaitse oma kontot muutes oma parooli ning kasutades 2FA'd."
+                    "b": "Kaitse oma kontot, muutes oma parooli ja seadistades kahefaktorilise autentimise 2FA."
                 },
                 "account": {
-                    "a": "Soovid muuta oma avalikku profiili?",
+                    "a": "Kas soovite kohandada oma avalikku profiili?",
                     "b": "Mine oma profiilisätete alla."
                 }
             },
@@ -307,7 +408,7 @@
                     "confirm_leave": "Lahkud {{name}} hulgast?",
                     "confirm_leave_long": "Te ei saa uuesti ühineda kui teid pole uuesti kutsutud.",
                     "confirm_close_dm": "Sulge vestlus kasutajaga {{name}}?",
-                    "confirm_close_dm_long": "Te saate selle uuesti avada ka hiljem kuid see kaob mõlemal küljel ära.",
+                    "confirm_close_dm_long": "Sa saad selle hiljem uuesti avada, kuid see kaob mõlemalt poolt.",
                     "confirm_delete": "Kustuta {{name}}?",
                     "confirm_delete_long": "Peale kustutamist tagasiteed kahjuks pole.",
                     "confirm_delete_message_long": "Olete kindel et soovite seda kustutada?",
@@ -315,7 +416,7 @@
                     "create_invite_created": "Siin on teie uus kutsekood:",
                     "confirm_ban": "Te olete määramas keeldu kasutajale {{name}}",
                     "confirm_ban_reason": "Keelu põhjus",
-                    "unfriend_user": "Eemalda {{name}}?",
+                    "unfriend_user": "Eemalda {{name}} sõbralistest?",
                     "confirm_kick": "Olete kindel et soovite {{name}} välja visata?",
                     "unfriend_user_long": "Teil ei pruugi enam olla võimalust temaga rääkida enne kui te kasutaja tagasi lisate.",
                     "block_user_long": "Olete kindel et soovite blokeerida {{name}}? Ta eemaldatakse ka peale seda teie sõbralistist.",
@@ -333,12 +434,13 @@
                     "change": {
                         "username": "Muuda oma kasutajanime",
                         "email": "Muuda oma emaili",
-                        "password": "Muuda oma parooli"
+                        "password": "Muuda oma parooli",
+                        "display_name": "Muuda oma kuvamisnime"
                     },
                     "failed": "Muutmine nurjus!"
                 },
                 "actions": {
-                    "ok": "Ok",
+                    "ok": "OK",
                     "ban": "Keela",
                     "kick": "Viska välja",
                     "save": "Salvesta",
@@ -357,7 +459,7 @@
                     "continue": "Jätka",
                     "send_email": "Saada email",
                     "leave": "Lahku",
-                    "edit": "Muuda",
+                    "edit": "Redigeeri",
                     "report": "Aruanne",
                     "confirm": "Kinnita",
                     "dont_block": "Ära blokeeri",
@@ -366,7 +468,7 @@
                 },
                 "onboarding": {
                     "welcome": "Tere tulemast",
-                    "pick": "Määra omale kasutajanimi mille järgi teised inimesed saavad teid otsida. Seda annab ka hiljem muuta sätete alt."
+                    "pick": "Vali kasutajanimi, millega inimesed saavad sind leida. Seda saab hiljem muuta sinu kasutaja seadetest."
                 },
                 "external_links": {
                     "trust_domain": "Usalda seda domeeni",
@@ -379,8 +481,8 @@
                     "enter_code": "Sisestage kood",
                     "select_method": "Valige oma taotluse autentimise meetod.",
                     "recovery_codes": "Teie taastekoodid",
-                    "confirm": "Kinnitage valitud meetodi kasutamine.",
-                    "prompt_totp": "Palun skannige või kasutage autentimisrakenduses allolevat luba.",
+                    "confirm": "Palun kinnita see toiming valitud meetodi abil.",
+                    "prompt_totp": "Palun skaneeri allolev kood või sisesta see autentimisrakendusse.",
                     "enable_totp": "Luba autentimisrakendus"
                 },
                 "confirm": "Kinnita tegevus",
@@ -393,7 +495,7 @@
                     "attempting": "Värskendamise katse…",
                     "ignore": "Ignoreeri värskendust",
                     "description": "Hiljutiste muudatustega töötamiseks tuleb seda värskendada.",
-                    "version": "Sinu klient on serveris {{client}}, kuid server nõuab serverit {{server}}.",
+                    "version": "Sinu kliendi versioon on {{client}}, kuid server nõuab versiooni {{server}}.",
                     "title": "Teie klient on aegunud!"
                 },
                 "sessions": {
@@ -424,6 +526,10 @@
                     "reported": "Esitatud",
                     "thank_you": "Tänan, et aitasite Revolt kaitsta. Me vaatame teie aruande läbi niipea kui võimalik.",
                     "block_user": "Kas soovite selle kasutaja blokeerida?"
+                },
+                "edit_keybind": {
+                    "title": "Muuda kiirklahvi toimingu jaoks {{action}}",
+                    "placeholder": "Salvestamiseks vajuta klahve"
                 }
             },
             "copy_username": "Vajuta kasutajanime kopeerimiseks",
@@ -463,7 +569,7 @@
                     "badges": {
                         "translator": "Tõlkija",
                         "supporter": "Toetaja",
-                        "responsible_disclosure": "Vastutustundlikult avalikustatud viga/vead",
+                        "responsible_disclosure": "Vastutustundlikult avalikustatud turvaprobleemid",
                         "early_adopter": "Varajane kasutuselevõtja",
                         "moderation": "Platvormi modereerimine",
                         "founder": "Asutaja"
@@ -490,7 +596,7 @@
                 "user_count": "{{member_count}} kasutajat",
                 "accept": "Aktsepteeri kutse",
                 "invalid": "Kehtetu kutselink!",
-                "invalid_desc": "Kutset kas ei ole olemas või teil puudub õigus ühineda."
+                "invalid_desc": "Kutse võib puududa või sul ei ole luba liituda."
             },
             "requires_online": "Sa pead olema võrgus et seda näha.",
             "server-badges": {
@@ -524,7 +630,7 @@
                 "members": "Liikmed"
             },
             "channel": {
-                "message_who": "Sõnum {{person}}",
+                "message_who": "Saada sõnum @{{person}}",
                 "message_saved": "Salvesta oma märkmete hulka",
                 "uploading_file": "Üleslaadmine…",
                 "failed_upload": "Üleslaadimine ebaõnnestus!",
@@ -582,7 +688,7 @@
                 },
                 "unknown_user": "<Tundmatu kasutaja>",
                 "edited": "(muudetud)",
-                "bot": "bot",
+                "bot": "Robot",
                 "notifications": {
                     "default": "Kasuta vaikimisi",
                     "all": "Kõik sõnumid",
@@ -611,7 +717,15 @@
                 "reply": {
                     "replying": "Vastamine",
                     "toggle": "Lülita autori ping"
-                }
+                },
+                "new_to_server": "Uus selles serveris",
+                "reactions": {
+                    "single_reacted": "1 inimene reageeris",
+                    "people_reacted": "{{people}} reageerisid",
+                    "unknown_reacted": "{{count}} inimest reageeris",
+                    "others_reacted": "{{userlist}} ja {{count}} teised reageerisid"
+                },
+                "new_to_revolt": "Uus Revoltis"
             },
             "groups": {
                 "create": "Loo grupp",
@@ -657,7 +771,7 @@
             "unblock_user": "Deblokeeri kasutaja",
             "add_friend": "Lisa sõber",
             "remove_friend": "Eemalda sõber",
-            "cancel_friend": "Katkesta kutse",
+            "cancel_friend": "Tühista sõbrakutse",
             "custom_status": "Kohandatud staatus",
             "clear_status": "Eemalda staatus",
             "leave_group": "Lahku grupist",
@@ -688,7 +802,10 @@
             "mark_unread": "Märgi mitteloetuks",
             "report_message": "Teata sõnumist",
             "report_user": "Aruande user",
-            "report_server": "Aruandeserver"
+            "report_server": "Aruandeserver",
+            "accept_friend": "Aktsepteeri sõbrakutse",
+            "reject_friend": "Lükka sõbrakutse tagasi",
+            "edit_your_identity": "Muuda oma identiteeti"
         },
         "permissions": {
             "required": "Vajalikud õigused"
@@ -713,31 +830,31 @@
         }
     },
     "login": {
-        "title": "Logi siss",
-        "register": "Registreer",
-        "username": "Kasutajatunnu",
-        "email": "Emai",
-        "password": "Paroo",
-        "invite": "Kutsekoo",
-        "current_password": "Praegune paroo",
+        "title": "Logi sisse",
+        "register": "Registreeru",
+        "username": "Kasutajanimi",
+        "email": "E-post",
+        "password": "Parool",
+        "invite": "Kutsumise kood",
+        "current_password": "Praegune parool",
         "enter": {
-            "email": "Palun sisesta oma e-posti.",
+            "email": "Palun sisestage oma e-post.",
             "password": "Sisesta oma paroo.",
             "invite": "Sisesta oma kutsekoo.",
             "current_password": "Sisesta oma praegune parool.",
-            "username": "Sisesta oma kasutajanimi.",
+            "username": "Sisestage oma eelistatud kasutajanimi.",
             "new_password": "Sisestage uus parool."
         },
         "forgot": "Unustasid oma parooli?",
         "reset": "Muuda parool",
         "set_password": "Määra uus parool",
-        "new": "Revolt konto puudub?",
+        "new": "Uus Revoltis?",
         "existing": "Konto on juba olemas?",
         "create": "Loo uus konto",
         "missing_verification": "Kas e-kiri ei saabunud?",
-        "resend": "Saada kinnitus uuesti",
+        "resend": "Saada kinnituskood uuesti",
         "check_mail": "Kontrolli oma postkasti!",
-        "check_spam": "Palun kontrollige oma rämpsposti kui te kirja ei leia",
+        "check_spam": "Kui sa ei leia e-kirja, palun vaata oma rämpsposti kausta",
         "open_mail_provider": "Ava {{provider}}",
         "successful_registration": "Registreerumine oli edukas!",
         "error": {
@@ -749,9 +866,9 @@
         },
         "remembered": "Mine tagasi sisse logima",
         "cancel": "Katkesta päring",
-        "email_delay": "Palun lubake kuni 10 minutit kirja saabumiseks.",
+        "email_delay": "Oleme sulle saatnud kinnituskirja e-posti teel. Palun oota kuni 10 minutit, et see kohale jõuaks.",
         "welcome": "Tere tulemast!",
-        "subtitle": "Logi sisse Revolt-",
+        "subtitle": "Logi sisse Revolti",
         "welcome2": "Tere!",
         "subtitle2": "Loo kont",
         "totp": "Autentimise rakendus",
@@ -761,12 +878,16 @@
         "verified_account": "Teie konto on kinnitatud!",
         "verified_continue": "Jätka sisselogimist",
         "new_password": "Uus parool",
-        "log_out_other": "Kõigi teiste seansside väljalogimine"
+        "log_out_other": "Logi välja kõigist teistest sessioonidest"
     },
     "quantities": {
         "members": {
             "one": "Üks liige",
             "many": "{{count}} liiget"
+        },
+        "dropFiles": {
+            "one": "Lohista fail siia",
+            "many": "Lohista siia {{count}} faili"
         }
     },
     "dayjs": {
@@ -804,7 +925,7 @@
         "InvalidToken": "Kehtetu token",
         "MissingInvite": "Kutsekood puudub päringus.",
         "InvalidInvite": "Kehtetu kood",
-        "UsernameTaken": "Kasutajanimi on juba võetud.",
+        "UsernameTaken": "See kasutajanimi on juba kasutusel.",
         "AlreadyFriends": "Kasutaja on teie sõbralistis.",
         "AlreadySentRequest": "Olete juba kasutajale kutse saatnud.",
         "Blocked": "Te olete selle kasutaja blokeerinud.",
@@ -825,9 +946,10 @@
         "AlreadyOnboarded": "Pardale minek juba lõpetatud.",
         "BlockedOther": "See kasutaja on teid blokeerinud.",
         "FailedToReceive": "Serveril ei õnnestunud teie faili kätte saada.",
-        "DeniedNotification": "Te blokeeritise teavituste ligipääsu, palun kontrolli lehe sätteid.",
+        "DeniedNotification": "Sa keelasid teavitustele juurdepääsu. Kontrolli lehe sätteid.",
         "ReachedMaximumBots": "Te olete saavutanud bot-ide maksimaalse koguse.",
-        "AudioPermissionBlock": "Mikrofoni kasutamise õigus puudub, palun kontrollige oma lehitsejas seadmete sätteid."
+        "AudioPermissionBlock": "Ligipääs mikrofonile puudub. Palun kontrolli oma brauseri seadeid.",
+        "DiscriminatorChangeRatelimited": "Liiga palju sildi (tunnuse) muutmisi."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
@@ -899,7 +1021,7 @@
         },
         "ManageRole": {
             "t": "Halda rolle",
-            "d": "Luba liikmetel luua, muuta ja kustutada rolle mis on nende õigustasemest madalam. Samuti lubab neil muuta rolli õigusi kanalites."
+            "d": "Lubab liikmetel luua, redigeerida ja kustutada rolle, mis on madalama reitinguga kui nende oma, ning muuta rollide õigusi kanalites."
         },
         "ViewChannel": {
             "t": "Vaata kanaleid",
@@ -944,9 +1066,61 @@
         "SendEmbeds": {
             "t": "Saada manused",
             "d": "Lubab liikmetel saata manustatud sisu, olenemata sellest, kas see pärineb linkidest või kohandatud teksti manustamisest."
+        },
+        "Video": {
+            "t": "Video",
+            "d": "Lubab liikmetel voogedastada videot häälkanalis."
+        },
+        "MuteMembers": {
+            "t": "Vaigista liikmeid",
+            "d": "Lubab liikmetel vaigistada teisi häälkanalis."
+        },
+        "DeafenMembers": {
+            "t": "Summuta liikmeid",
+            "d": "Lubab liikmetel summutada teisi häälkanalis."
+        },
+        "MoveMembers": {
+            "t": "Liiguta liikmeid",
+            "d": "Lubab liikmetel teisi häälkanalite vahel liigutada."
         }
     },
     "actions": {
         "submit": "Edasta"
+    },
+    "keys": {
+        "ScrollLock": {
+            "short": "ScrLK",
+            "full": "Kerimislukk"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Escape": {
+            "short": "Esc"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageUp": {
+            "full": "Lehekülg üles",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Lehekülg alla",
+            "short": "PgDown"
+        },
+        "PrintScreen": {
+            "full": "Ekraanipilt",
+            "short": "PrtSc"
+        }
     }
 }
