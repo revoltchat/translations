@@ -1,28 +1,28 @@
 {
     "general": {
-        "tos": "Mercên Xizmetê",
+        "tos": "Şertên Xizmeta",
         "image_by": "Wêne ji hêla",
-        "loading": "Barkirin…",
-        "on": "Li",
-        "off": "Ji",
-        "disabled": "Bêmecel",
-        "privacy": "Siyaseta Nepenîtiyê",
-        "learn_more": "Bêtir hîn bibin",
-        "about": "Ji dor",
-        "unavailable": "Nayê bikarînan"
+        "loading": "Bar dike…",
+        "on": "Li ser",
+        "off": "Li der",
+        "disabled": "Neçalakî",
+        "privacy": "Siyaseta Taybetî",
+        "learn_more": "Zêdetir fêhm bûn",
+        "about": "Derbarê",
+        "unavailable": "Qebûlnabûn"
     },
     "login": {
-        "title": "Têkeve",
+        "title": "Têketin",
         "welcome": "Bi xêr hatî!",
         "subtitle": "Têkeve Revolt",
-        "welcome2": "Slav!",
-        "subtitle2": "Hesabek çêbikin",
-        "register": "Fêhrist",
+        "welcome2": "Silav!",
+        "subtitle2": "Hesab çêke",
+        "register": "Tomarî bûn",
         "email": "Email",
         "password": "Şîfre",
-        "current_password": "Şîfreya heyî",
+        "current_password": "Şîfreya Niha",
         "enter": {
-            "username": "Navê bikarhênerê xweya bijartî binivîse.",
+            "username": "Navê bikarhênerê ku hûn hîn digirin.",
             "email": "Ji kerema xwe e-nameya xwe binivîse.",
             "password": "Şîfreya xwe binivîse.",
             "invite": "Koda vexwendina xwe binivîse.",
@@ -53,14 +53,14 @@
         },
         "unofficial_instance": "Mînaka partiya sêyemîn.",
         "username": "Navê bikarhêner",
-        "invite": "Koda vexwendinê",
+        "invite": "Daxuyaniya Kodê",
         "new_password": "Şîfreya Nû",
-        "log_out_other": "Ji hemû danişînên din derkevin",
+        "log_out_other": "Li hemû danezanên din derdikevin",
         "verifying_account": "Hesaba xwe rast bike…",
         "verified_account": "Hesabê we hatiye piştrastkirin!",
         "verified_continue": "Têketinê bidomîne",
-        "totp": "Sepana Xwerastandinê",
-        "recovery": "Koda Rizgarkirinê"
+        "totp": "Sepanê Tesdîqandinê",
+        "recovery": "Koda Vegerandinê"
     },
     "app": {
         "status": {
@@ -445,7 +445,79 @@
                     }
                 },
                 "keybinds": {
-                    "title": "Kurtebirên Bişkojka"
+                    "title": "Kurtebirên Bişkojka",
+                    "description": "Girûkeyan û mîhengên açarê bixwînin û sazkirin",
+                    "search": "Qaydefên bigere…",
+                    "reset_keybind": "Qaydefê vegerîne bo {{keybind}}",
+                    "category": {
+                        "advanced": "Pêşveçûn",
+                        "navigation": "Nawîgasyon",
+                        "messaging": "Peyameşîn"
+                    },
+                    "action": {
+                        "navigate_server_up": {
+                            "title": "Bi serşokan re vegerîne",
+                            "description": "Bi serşokan re vegerîne."
+                        },
+                        "navigate_server_down": {
+                            "title": "Bi serşokanê re berpirsin",
+                            "description": "Bi serşokanê re berpirsin."
+                        },
+                        "messaging_edit_previous_message": {
+                            "description": "Payama berê ya şandin di pêşenga peyameşînê de biguherîne.",
+                            "title": "Peyama berê biguherîne"
+                        },
+                        "auto_complete_down": {
+                            "description": "Avtomatik hilbijartinê bi paşîn ve bigerîne.",
+                            "title": "Hilbijartina Awtomatik yê Paşîn"
+                        },
+                        "input_submit": {
+                            "title": "Binirxînin",
+                            "description": "\"Keybinda pêşketinê ya pêşveçûnê ku bi taybetî ji bo şandinê tê bikar anîn\nEv dikare peyam şandinê, têgihandinê şandinê, lêgerînê hwd. bi înkirinê."
+                        },
+                        "input_cancel": {
+                            "title": "Inputê betal bike",
+                            "description": "Keybinda pêşketinê ya pêşveçûnê ku bi taybetî ji bo betal kirinê tê bikar anîn.\nEv dikare peyama têgihandinê betal kirinê, wêneyekê ku bi nav-qeşeyê tê zêdekirin jê bibe, an jî rewtbeyekî wisa."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Peyamên piştî di binê bigerînin",
+                            "description": "Di binê peyamên pêşî de bigerînin."
+                        },
+                        "input_force_submit": {
+                            "title": "Inputê bi hêzekî şandin"
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Kanala wekî xwendî nimîşe",
+                            "description": "Kanala niha wekî xwendî nimîşe."
+                        },
+                        "navigate_channel_up": {
+                            "title": "Bi çavkanê veşîn",
+                            "description": "Bi çavkanê veşîn."
+                        },
+                        "navigate_channel_down": {
+                            "description": "Bi çavkanê ketin.",
+                            "title": "Bi çavkanê ketin"
+                        },
+                        "auto_complete_select": {
+                            "description": "Hilbijartina awtomatikê ya niha bistînin.",
+                            "title": "Hilbijartina awtomatikê rast bikin"
+                        },
+                        "navigate_previous_context": {
+                            "description": "Keybinda pêşketinê ya pêşveçûnê ku bi taybetî ji bo girtina rûpelekê, modalekê an popupekê têne bikar anîn û vegerîne çarçoveyê berê.",
+                            "title": "Di çarçoveya berê re vegerîne"
+                        },
+                        "developer_toggle_all_experiments": {
+                            "description": "Ev hemû pîşewazî û testsistemayên bi tenê saz an derdixe.",
+                            "title": "Moda amanca ewle nîqaşkar bike û neçe"
+                        },
+                        "auto_complete_up": {
+                            "title": "Hilbijartina Awtomatik yê Berê",
+                            "description": "Awtomatik hilbijartinê vegerîne bo yê berê."
+                        }
+                    },
+                    "remove_keybind": "Qaydefê jê bibe",
+                    "add_keybind": "Qaydefek nû zêde bike",
+                    "edit_keybind": "Qaydefê biguherîne"
                 }
             },
             "server_pages": {
@@ -504,6 +576,9 @@
                 },
                 "permissions": {
                     "title": "Destûrên"
+                },
+                "webhooks": {
+                    "title": "Webhook'ên"
                 }
             },
             "tips": {
@@ -567,7 +642,10 @@
                     "unfriend_user_long": "Dibe ku hûn nikaribin dîsa bi wan re bipeyivin heya ku hûn wan dîsa zêde nekin.",
                     "silent_leave": "bêdeng derkeve",
                     "block_user": "bloke {{name}}?",
-                    "confirm_ban_reason": "sedema qedexekirinê"
+                    "confirm_ban_reason": "sedema qedexekirinê",
+                    "members_not_notified": "Endamên din ê ne ûpdate nekin",
+                    "confirm_ban": "{{name}}ê bermalîne ku hûn yê qada bikirin",
+                    "block_user_long": "Tu pîştrast in ku dixwazin {{name}}ê blok bikin? Ew jî di lista hevalên we de jê derdikevin."
                 },
                 "token_reveal": "{{name}}'s Token",
                 "onboarding": {
@@ -580,6 +658,44 @@
                     "copy": "Jibergirtin:",
                     "unavailable": "Pano tune ye!",
                     "https": "Tu niha ne di çarçoveyeke HTTPS de yî."
+                },
+                "account": {
+                    "change": {
+                        "password": "Şîfreyê xwe biguherîne",
+                        "email": "E-nameya xwe biguherîne",
+                        "display_name": "Navê pêşkêşkarê xwe biguherîne",
+                        "username": "Navê xwe ya bikarhênerê biguherîne"
+                    },
+                    "failed": "Biguherrin têk çû!"
+                },
+                "mfa": {
+                    "enable_totp": "Sepanê tesdîqandinê fêal bikin",
+                    "enter_code": "Koda binivîse",
+                    "prompt_totp": "Ji kerema xwe koda li jêr bi sepanê tesdîqandinê xwe barkirin an anî bikar bînin.",
+                    "recovery_codes": "Kodan vegerandinê yên we",
+                    "save_codes": "Ji kerema xwe ev kodên vegerandinê di cîhê ewledarê de bixwînin.",
+                    "select_method": "Ji kerema xwe rêzeya ku hûn dixwazin bi wê re xwestinê piştrast bikin hilbijêrin.",
+                    "confirm": "Ji kerema xwe vî karanînê bi rêza hilbijartî re piştrast bikin."
+                },
+                "changelogs": {
+                    "title": "Guherînanê Peyamekî",
+                    "description": "Li ser nûvekirinên Revolt bixwînin.",
+                    "older": "Nûvekirinên kevnî lê bêkînin"
+                },
+                "out_of_date": {
+                    "version": "Pelê şîretên we di {{client}} de ye, lê pêşkêşker hewce ye ku di {{server}} de be.",
+                    "title": "Pêşenda we vekemal e!",
+                    "description": "Hûn hewce ne ku nûvekirina xwe bikin da ku bi guhertinan berê ve bidomînin.",
+                    "ignore": "Guncelmanî bêpêş bîn",
+                    "attempting": "Car dike ku nûvekirinê bidomîne…"
+                },
+                "external_links": {
+                    "title": "Linkên derve yên zedibîn dikarin ewle nînin!",
+                    "short": "Hûn piştrast in ku dixwazin biçin:",
+                    "trust_domain": "Vê domenê bihevre bedeng bikin"
+                },
+                "sessions": {
+                    "title": "Mishda hûn pîştrast in ku dixwazin cigareten xwe palê bidin?"
                 }
             },
             "status": {
@@ -597,6 +713,6 @@
         }
     },
     "actions": {
-        "submit": "Nermijîn"
+        "submit": "Şandin"
     }
 }
