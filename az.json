@@ -14,7 +14,7 @@
             "current_password": "Cari parolunuzu daxil edin.",
             "invite": "Dəvət kodunu daxil edin.",
             "password": "Şifrənizi daxil edin.",
-            "email": "Elektron poçtunuzu daxil edin.",
+            "email": "E-poçtunuzu daxil edin.",
             "username": "İstədiyiniz istifadəçi adını daxil edin.",
             "new_password": "Yeni şifrənizi daxil edin."
         },
@@ -48,7 +48,7 @@
         "totp": "Authenticator tətbiqi",
         "recovery": "Bərpa kodu",
         "new_password": "Yeni Şifrə",
-        "log_out_other": "Bütün digər seanslardan çıxın"
+        "log_out_other": "Bütün digər sessiyalardan çıxın"
     },
     "general": {
         "loading": "Yüklənir…",
@@ -135,7 +135,8 @@
                     "jump_beginning": "Başlanğıca geri dön",
                     "new_messages": "{{time_ago}} zamanından sonra yeni mesajlar",
                     "load_file": "Faylı yüklə",
-                    "not_loaded": "Mesaj yüklənmədi, tullanmaq üçün klikləyin"
+                    "not_loaded": "Mesaj yüklənmədi, tullanmaq üçün klikləyin",
+                    "timed_out": "{{time}} vaxt aşımına məruz qaldınız."
                 },
                 "unknown_user": "<Naməlum istifadəçi>",
                 "bot": "Bot",
@@ -182,7 +183,8 @@
                     "unknown_reacted": "{{count}} nəfər reaksiya verdi",
                     "single_reacted": "1 nəfər reaksiya verdi",
                     "people_reacted": "{{people}} reaksiya verdi"
-                }
+                },
+                "user_timed_out": "İstifadəçi {{time}} müddətinə vaxt aşımına məruz qalıb."
             },
             "groups": {
                 "create": "Qrup yaradın",
@@ -214,7 +216,8 @@
             "actions": {
                 "remove": "Sil",
                 "upload": "Yüklə",
-                "max_filesize": "(maksimum {{filesize}})"
+                "max_filesize": "(maksimum {{filesize}})",
+                "edit": "Redaktə {{name}}"
             },
             "pages": {
                 "account": {
@@ -235,9 +238,12 @@
                     },
                     "manage": {
                         "title": "Hesab İdarəetmə",
-                        "description": "Hesabınızı istənilən vaxt söndürün və ya silin. Bu hərəkət sizi çıxardacaq və söhbət tarixçəsi və dostlarınız daxil olmaqla hesabınızı tamamilə siləcəkdir.",
+                        "description": "Hesabınızı istənilən vaxt deaktiv edə və ya silə bilərsiniz. Hər iki halda aktiv sessiyalarınızdan çıxış ediləcək.",
                         "delete": "Hesabı silmək üçün işarələyin",
-                        "disable": "Hesabı deaktiv edin"
+                        "disable": "Hesabı deaktiv edin",
+                        "disable_description": "Dəstək xidməti ilə əlaqə saxlamadığınız halda hesabınıza giriş edə bilməyəcəksiniz - lakin məlumatlarınız silinməyəcək.",
+                        "delete_still_own_servers": "Hesab serverlər silinməyənə və ya köçürülməyənə qədər silinə bilməz",
+                        "delete_description": "Hesabınız və bütün məlumatlarınız (mesajlarınız və dost siyahınız da daxil olmaqla) silinmə üçün növbəyə alınacaq. Təsdiq e-poçtu göndəriləcək - bunu 7 gün ərzində dəstək xidməti ilə əlaqə saxlayaraq ləğv edə bilərsiniz."
                     }
                 },
                 "profile": {
@@ -287,9 +293,9 @@
                     "mono_font": "Monoscape Font Seçici",
                     "font": "Şrift",
                     "ligatures": "Şriftin xüsusiyyətləri",
-                    "ligatures_desc": "Dəstəklənən şriftlər üçün işarələr simvolları birləşdirir, məsələn -> oxa çevirərək. Interə keçin və bu seçimi dəyişdirməyə çalışın.",
+                    "ligatures_desc": "Qəbul edilən şriftlərdə ligatura işarələri simvolları birləşdirir – məsələn, -> ni ox işarəsinə çevirir.",
                     "theme_options": {
-                        "follow_desc": "Yoxlandıqda, temanızı dəyişə və ya fərdi mövzudan istifadə edə bilməyəcəksiniz.",
+                        "follow_desc": "Bu aktivləşdirildikdə, mövzunuzu dəyişdirmək və ya xüsusi mövzu istifadə etmək mümkün olmayacaq.",
                         "seasonal": "Sezonlu tema",
                         "transparency": "Transparent effektləri",
                         "transparency_desc": "Proqram boyunca şəffaflıq effektlərini aktivləşdirir.",
@@ -322,16 +328,16 @@
                     }
                 },
                 "notifications": {
-                    "enable_push": "Push Bildirişlərini aktiv edin.",
+                    "enable_push": "Push Bildirişlərini Aktivləşdir",
                     "title": "Bildirişlər",
                     "push_notifications": "Push Bildirişlər",
-                    "enable_desktop": "Masaüstü Bildirişləri aktivləşdirin.",
+                    "enable_desktop": "Masaüstü Bildirişlərini Aktivləşdir.",
                     "sounds": "Səslər",
                     "enable_sound": "Mesajda səs çalın.",
                     "descriptions": {
                         "enable_outgoing_sound": "Mesaj göndərdiyiniz zaman səsin səsləndirilməsini təmin edin.",
-                        "enable_desktop": "Bu, tətbiqiniz açıq olduqda bildirişlər verəcəkdir.",
-                        "enable_push": "Oflayn olduğunuz zaman bildiriş almağa imkan verin.",
+                        "enable_desktop": "Bu aktivləşdirildikdə, tətbiq açıq olduğu zaman bildirişlər alacaqsınız.",
+                        "enable_push": "Bu aktivləşdirildikdə, siz offline olduqda bildirişlər alacaqsınız.",
                         "enable_sound": "Gələn mesaj səsləri üçün aktivləşdirin."
                     },
                     "enable_outgoing_sound": "Səslə göndər",
@@ -382,7 +388,7 @@
                 "sync": {
                     "descriptions": {
                         "locale": "Bu, hazırda seçdiyiniz dili sinxronlaşdıracaq.",
-                        "appearance": "Bu, emoji paketləri və mesaj sıxlığı kimi seçimləri sinxronlaşdıracaq.",
+                        "appearance": "Bu, seçdiyiniz emoji paketi və mesaj sıxlığı kimi görünüş seçimlərini sinxronlaşdıracaq.",
                         "theme": "Bu seçdiyiniz mövzunu, rəngləri və istənilən xüsusi CSS sinxronlaşdıracaq."
                     },
                     "categories": "Kateqoriyalarları sinxronlaşdırın",
@@ -395,23 +401,23 @@
                     "device_label_NA": "heç biri",
                     "button_retry": "yenidən cəhd elə",
                     "output_device": "Dinamik / Qulaqlıq",
-                    "tip_retry": "Mikrofonunuzdan istifadə etməyə icazə vermədiniz, zəhmət olmasa {{retryBtn}}.",
+                    "tip_retry": "Revolt tətbiqinə mikrofonunuza daxil olmaq icazəsi vermədiniz. Xahiş edirik {{retryBtn}} düyməsini basın.",
                     "tip_grant_permission": "Sənin səs icazələrinə ehtiyacın var.",
                     "button_grant": "İcazə ver"
                 },
                 "bots": {
                     "add": "Bot əlavə et",
-                    "public_bot_tip": "Bot xalqa açıqdır. hər kəs serverinə dəvət edə bilər.",
+                    "public_bot_tip": "Bu bot ictimaiyyətə açıqdır. Hər kəs onu dəvət edə bilər.",
                     "unique_id": "Bu botun üçün unikal identifikatordur. Bot tokeni deyil.",
                     "title": "Botlərim",
                     "create_bot": "Bot yaratmaq",
                     "copy_invite": "Dəvət linkini kopyalayın",
                     "token": "Token",
-                    "private_bot_tip": "Bot gizlidir. Yalnız dəvət edə bilərsiniz.",
+                    "private_bot_tip": "Bu bot özəldir. Yalnız siz onu dəvət edə bilərsiniz.",
                     "public_bot": "İctimai Bot",
-                    "public_bot_desc": "İstifadəçilərə bu botu dəvət etməyə icazə verir.",
+                    "public_bot_desc": "Bu aktivləşdirildikdə, digər istifadəçilər bu botu serverlərə və qrup mesajlarına əlavə edə bilərlər.",
                     "interactions_url": "Qarşılıqlı URL",
-                    "reserved": "Qeyd: Bu sahə gələcək üçün ayrılmışdır.",
+                    "reserved": "Qeyd: bu sahə gələcək üçün nəzərdə tutulub.",
                     "profile": "Bot profili"
                 },
                 "native": {
@@ -437,7 +443,54 @@
                     "delete_plugin": "Sil",
                     "no_plugins": "Hazırda heç bir plagin quraşdırılmayıb.",
                     "title": "Pluginlər",
-                    "wip": "Xəbərdarlıq: Bu xüsusiyyət hələ inkişaf mərhələsindədir."
+                    "wip": "Xəbərdarlıq: bu funksiya hələ də inkişaf mərhələsindədir."
+                },
+                "accessibility": {
+                    "reduced_motion": "Azaldılmış Hərəkət",
+                    "descriptions": {
+                        "reduced_motion": "Bu aktivləşdirildikdə, animasiyalar və hərəkət effektləri ya oynatılmayacaq, ya da daha az intensiv olacaq."
+                    },
+                    "title": "Erişiləbilənlik"
+                },
+                "keybinds": {
+                    "title": "Açar düymələri",
+                    "description": "Açar düymələrinə bax və təyin et",
+                    "search": "Açar düymələrini axtar…",
+                    "add_keybind": "Yeni açar düyməsi əlavə et",
+                    "edit_keybind": "Açar düyməsini redaktə et",
+                    "remove_keybind": "Açar düyməsini sil",
+                    "reset_keybind": "Açar düyməsini {{keybind}} olaraq yenidən təyin et",
+                    "category": {
+                        "navigation": "Naviqasiya",
+                        "messaging": "Mesajlaşma",
+                        "advanced": "Irəliləşmiş"
+                    },
+                    "action": {
+                        "navigate_channel_up": {
+                            "title": "Əvvəlki kanala keç",
+                            "description": "Əvvəlki kanala keç."
+                        },
+                        "navigate_channel_down": {
+                            "title": "Növbəti kanala keç",
+                            "description": "Növbəti kanala keç."
+                        },
+                        "navigate_server_up": {
+                            "title": "Əvvəlki serverə keç",
+                            "description": "Əvvəlki serverə keç."
+                        },
+                        "navigate_server_down": {
+                            "title": "Növbəti serverə keç",
+                            "description": "Növbəti serverə keç."
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "Əvvəlki mesajı redaktə et",
+                            "description": "Yüklənmiş mesajlaşma görünüşündə əvvəl göndərilmiş mesajı redaktə et."
+                        },
+                        "auto_complete_up": {
+                            "title": "Əvvəlki Avtomatik Tamamlama Seçimi",
+                            "description": "Avtomatik tamamlama seçimini əvvəlkisinə keçir."
+                        }
+                    }
                 }
             },
             "tips": {
