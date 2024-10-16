@@ -1,6 +1,3 @@
-> [!CAUTION]
-> No maintainers currently assigned, [help wanted](https://wiki.revolt.chat/notes/project/maintainers/).
-
 # Revolt Translations
 
 [![Translation status](https://weblate.insrt.uk/widgets/revolt/-/web-app/svg-badge.svg)](https://weblate.insrt.uk/engage/revolt/?utm_source=widget)
