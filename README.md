@@ -24,7 +24,7 @@ Please note that this table **only includes languages that are currently availab
 |🇧🇩|বাংলা / bn|[@Cynycal2003](https://github.com/Cynycal2003)||
 |br|Brezhoneg / br|[@SperedAnveliour](https://github.com/SperedAnveliour)||
 |🇪🇸|Català / ca|[@TallerThanShort](https://github.com/TallerThanShort)||
-|🇵🇭|Bisaya / ceb|||
+|🇵🇭|Bisaya / ceb|[@zee-html](https://github.com/zee-html)||
 |krd|کوردی / ckb|[@fanticwastaken](https://github.com/fanticwastaken)|[@NoLogicAlan](https://github.com/NoLogicAlan)|
 |🇨🇿|Čeština / cs|[@Fjuro](https://github.com/Fjuro)|[@Cikarin3](https://github.com/Cikarin3)|
 |🇩🇰|Dansk / da|||
