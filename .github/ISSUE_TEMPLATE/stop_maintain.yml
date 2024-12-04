@@ -1,5 +1,5 @@
-name: Stop Maintaining a Language
-description: Request to be removed as a language maintainer.
+name: Stop maintaining a language
+description: Request to be removed as a language maintainer
 title: "stop maintaining: <language>"
 labels: []
 body:
@@ -7,13 +7,13 @@ body:
     id: language
     attributes:
       label: What language do you no longer wish to maintain?
-      description: You will no longer be in charge of reviewing strings or helping assign badges.
+      description: You will no longer be in charge of reviewing strings or helping assign badges
     validations:
       required: true
   - type: input
     id: link
     attributes:
       label: Link to your Weblate profile
-      description: You will no longer have reviewer status to approve strings.
+      description: You will no longer have reviewer status to approve strings
     validations:
       required: true
