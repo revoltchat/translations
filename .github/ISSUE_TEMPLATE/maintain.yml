@@ -1,5 +1,5 @@
-name: Maintain a language
-description: Request to become a maintainer
+name: Maintain a Language
+description: Request to become a language maintainer.
 title: "maintain: <language>"
 labels: []
 body:
@@ -7,20 +7,20 @@ body:
     id: language
     attributes:
       label: What language do you want to maintain?
-      description: You will be in charge of reviewing strings and can assist in assigning badges
+      description: You will be in charge of reviewing strings and can assist in assigning badges.
     validations:
       required: true
   - type: input
     id: link
     attributes:
-      label: Link to Weblate profile
-      description: You will be given reviewer status to approve strings
+      label: Link to your Weblate profile
+      description: You will be given reviewer status to approve strings.
     validations:
       required: true
   - type: input
     id: revolt-id
     attributes:
-      label: Revolt ID
-      description: Used for record-keeping and badges
+      label: Revolt user ID
+      description: Used for record-keeping and assigning your profile the translator badge.
     validations:
       required: true
