@@ -264,7 +264,25 @@
             "delete": "Mark Account for Deletion",
             "delete_still_own_servers": "Cannot delete account until servers are deleted or transferred",
             "delete_description": "Your account and all of your data (including your messages and friends list) will be queued for deletion. A confirmation email will be sent - you can cancel this within 7 days by contacting support."
-          }
+          },
+          "delete": {
+            "error": {
+              "title": "Deletion failed",
+              "description": "There was an error with your request."
+            },
+            "success": {
+              "title": "Confirmed deletion",
+              "description": {
+                "header": "Your account will be deleted in 7 days.",
+                "paragraph_first": "You may contact",
+                "paragraph_second": "to cancel the request if you wish.",
+                "support": "Revolt support"
+              }
+            },
+            "loading": {
+              "title": "Please wait",
+              "description": "Contacting the server."
+            }
         },
         "profile": {
           "title": "Profile",
