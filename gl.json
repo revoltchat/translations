@@ -8,7 +8,7 @@
         "disabled": "Desactivado",
         "unavailable": "Non dispoñible",
         "learn_more": "Saber máis",
-        "about": "Sobre",
+        "about": "Sobre nós",
         "image_by": "Imaxe de"
     },
     "actions": {
@@ -33,14 +33,14 @@
             "email": "Escribe o teu correo electrónico.",
             "new_password": "Escribe un novo contrasinal.",
             "invite": "Escribe o teu código de invitación.",
-            "username": "Escribe un nome de usuario.",
+            "username": "Introduce o teu nome de usuario.",
             "current_password": "Escribe o teu contrasinal actual."
         },
         "forgot": "Olvidaches o contrasinal?",
         "reset": "Restablecer o contrasinal",
         "set_password": "Establecer un novo contrasinal",
         "remembered": "Voltar ao inicio de sesión",
-        "new": "Novo en Revolt?",
+        "new": "Primeira vez en Revolt?",
         "existing": "Xa tes unha conta?",
         "create": "Crear unha conta nova",
         "resend": "Reenviar verificación",
@@ -91,7 +91,7 @@
             "goto-testers_desc": "Podes informar de problemas e discutir melloras connosco directamente aquí.",
             "donate": "Donar a Revolt",
             "donate_desc": "Apoia o proxecto facendo unha doación - grazas!",
-            "feedback": "Envía comentarios sobre Revolt",
+            "feedback": "Danos a túa opinión sobre Revolt",
             "settings": "Abrir axustes",
             "settings-tooltip": "Tamén podes facer clic dereito na icona de usuario na parte superior esquerda, ou clic esquerdo se xa estás no inicio.",
             "discover": "Descobre Revolt",
@@ -246,7 +246,7 @@
                     "unique_id": "Este é un identificador de usuario único para a túa conta.",
                     "2fa": {
                         "title": "Autenticación de dous factores",
-                        "description": "Engade unha capa adicional de seguridade ao activar a autenticación de dous factores na túa conta.",
+                        "description": "Engade unha capa adicional de seguridade activando a autenticación de dous factores (A2F) na túa conta.",
                         "view_recovery": "Ver os códigos de recuperación",
                         "view_recovery_long": "Ver e descargar os teus códigos de recuperación A2F.",
                         "generate_recovery": "Xerar códigos de recuperación",
@@ -262,7 +262,8 @@
                         "title": "Administración da conta",
                         "description": "Desactiva ou elimina a túa conta en calquera momento. Ambas accións botarante das túas sesións activas.",
                         "disable_description": "Non poderás acceder á túa conta a non ser que te poñas en contacto con soporte. Non obstante, os teus datos non se eliminarán.",
-                        "delete_description": "A túa conta e tódolos teus datos (incluíndo as túas mensaxes e a lista de amigos) marcaranse para eliminación. Enviarase un correo de confirmación. Podes cancelar esta acción falando con soporte nun prazo de 7 días."
+                        "delete_description": "A túa conta e tódolos teus datos (incluíndo as túas mensaxes e a lista de amigos) marcaranse para eliminación. Enviarase un correo de confirmación. Podes cancelar esta acción falando con soporte nun prazo de 7 días.",
+                        "delete_still_own_servers": "Non se pode eliminar a conta ata que os servidores sexan eliminados ou transferidos"
                     }
                 },
                 "appearance": {
@@ -521,7 +522,8 @@
                             "description": "Un atallo avanzado que adoita usarse para pechar unha páxina de axustes, un modal ou unha ventá emerxente e voltar ao contexto anterior."
                         },
                         "developer_toggle_all_experiments": {
-                            "description": "Isto activará/desactivará tódolos experimentos."
+                            "description": "Isto activará/desactivará tódolos experimentos.",
+                            "title": "Conmuta o modo seguro do experimento"
                         }
                     },
                     "title": "Atallos de teclado",
@@ -691,7 +693,7 @@
                     "enter_code": "Introducir o código"
                 },
                 "changelogs": {
-                    "description": "Lea sobre as actualizacións de Revolt.",
+                    "description": "Le sobre as actualizacións de Revolt.",
                     "title": "Rexistro de cambios",
                     "older": "Ver actualizacións máis antigas"
                 },
@@ -742,7 +744,8 @@
                     "change": {
                         "username": "Cambiar o nome de usuario",
                         "email": "Cambiar o correo electrónico",
-                        "password": "Cambiar o contrasinal"
+                        "password": "Cambiar o contrasinal",
+                        "display_name": "Cambia o nome a mostrar"
                     },
                     "failed": "Produciuse un erro ao gardar os cambios!"
                 },
@@ -853,7 +856,7 @@
             "unblock_user": "Desbloquear usuario",
             "add_friend": "Engadir amigo",
             "remove_friend": "Eliminar amigo",
-            "cancel_friend": "Cancelar solicitude",
+            "cancel_friend": "Cancelar solicitude de amizade",
             "report_user": "Reportar usuario",
             "custom_status": "Estado personalizado",
             "clear_status": "Borrar estado personalizado",
@@ -870,7 +873,10 @@
             "create_invite": "Crear invitación",
             "open_notification_options": "Opcións de notificacións",
             "open_channel_settings": "Axustes da canle",
-            "open_server_settings": "Axustes do servidor"
+            "open_server_settings": "Axustes do servidor",
+            "edit_your_identity": "Edita a túa identidade",
+            "accept_friend": "Aceptar solicitude de amizade",
+            "reject_friend": "Rexeitar solicitude de amizade"
         },
         "permissions": {
             "required": "Permisos requiridos"
@@ -1102,6 +1108,10 @@
         },
         "CapsLock": {
             "full": "Bloq Mayús"
+        },
+        "ScrollLock": {
+            "full": "Bloqueo de desplazamento",
+            "short": "BloqDespl"
         }
     }
 }
