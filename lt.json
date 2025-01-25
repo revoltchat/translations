@@ -271,7 +271,8 @@
                     "change": {
                         "password": "Keisti slaptažodį",
                         "email": "Keisti el. paštą",
-                        "username": "Keisti naudotojo vardą"
+                        "username": "Keisti naudotojo vardą",
+                        "display_name": "Pakeiskite savo rodomą vardą"
                     }
                 },
                 "prompt": {
@@ -350,6 +351,10 @@
                     "block_user": "Norite užblokuoti šį naudotoją?",
                     "reported": "Išsiųsta",
                     "thank_you": "Ačiū, kad rūpinatės Revolt saugumu. Mes peržiūrėsime jūsų skundą kaip galima greičiau."
+                },
+                "edit_keybind": {
+                    "title": "Redaguoti {{action}} klavišų priskyrimą",
+                    "placeholder": "Paspauskite klavišus, kad įrašytumėte"
                 }
             },
             "requires_online": "Turite būti prisijungę, kad tai peržiūrėtumėte.",
@@ -414,7 +419,7 @@
             "set_custom_status": "Nustatyti tinkintą būseną",
             "clear_status": "Valyti būseną",
             "custom_status": "Tinkinta būsena",
-            "cancel_friend": "Atšaukti užklausą",
+            "cancel_friend": "Atšaukti draugo prašymą",
             "add_friend": "Pridėti į draugus",
             "remove_friend": "Šalinti iš draugų",
             "unblock_user": "Atblokuoti naudotoją",
@@ -460,7 +465,10 @@
             "make_owner": "Suteikti grupės nuosavybę",
             "report_message": "Skųstis žinute",
             "report_user": "Skųstis naudotoju",
-            "report_server": "Skųstis serveriu"
+            "report_server": "Skųstis serveriu",
+            "accept_friend": "Priimti draugo prašymą",
+            "reject_friend": "Atmesti draugo prašymą",
+            "edit_your_identity": "Redaguokite savo tapatybę"
         },
         "settings": {
             "pages": {
@@ -567,7 +575,8 @@
                         "disable": "Išjungti paskyrą",
                         "delete": "Pažymėti paskyrą panaikinimui",
                         "disable_description": "Negalėsite prisijungti prie savo paskyros, nebent susisieksite su palaikymu – jūsų duomenys nebus panaikinti.",
-                        "delete_description": "Jūsų paskyra ir visi jūsų duomenys (išskyrus žinutės ir draugų sąrašas) bus panaikinimo eilėje. Jums bus atsiųstas patvirtinimo el. laiškas – panaikinimą galite atšaukti per 7 dienas susisiekdami su palaikymu."
+                        "delete_description": "Jūsų paskyra ir visi jūsų duomenys (išskyrus žinutės ir draugų sąrašas) bus panaikinimo eilėje. Jums bus atsiųstas patvirtinimo el. laiškas – panaikinimą galite atšaukti per 7 dienas susisiekdami su palaikymu.",
+                        "delete_still_own_servers": "Paskyros negalima ištrinti kol serveriai nėra ištrinti arba perduota nuosavybė"
                     }
                 },
                 "logOut": "Atsijungti",
@@ -730,13 +739,44 @@
                             "description": "Redaguoja paskiausią išsiųstą žinutę dabartiniame įkeltame kanale."
                         },
                         "auto_complete_up": {
-                            "title": "Ankstesnis automatinio baigimo pasirinkimas"
+                            "title": "Ankstesnis automatinio užbaigimo pasirinkimas",
+                            "description": "Pereit į ankstesnį automatinio užbaigimo pasirinkimą."
                         },
                         "input_submit": {
-                            "title": "Patvirtinti įvestį"
+                            "title": "Patvirtinti įvestį",
+                            "description": "Išplėstinis klavišų priskyrimas, kuris paprastai naudojamas pateikti dabartinę įvestį.\nTai gali būti žinutės išsiuntimas, pranešimo redagavimo pateikimas, paieškos pateikimas ir t. t."
                         },
                         "input_cancel": {
-                            "title": "Atšaukti įvestį"
+                            "title": "Atšaukti įvestį",
+                            "description": "Išplėstinis klavišų priskyrimas, paprastai naudojamas dabartinei įvesties paraiškai atšaukti.\nTai gali būti pranešimo redagavimo atšaukimas, eilėje esančio paveikslėlio pašalinimas ir kiti panašūs scenarijai."
+                        },
+                        "auto_complete_select": {
+                            "description": "Patvirtinti esamą automatinio užbaigimo pasirinkimą.",
+                            "title": "Patvirtinti automatinio užbaigimo pasirinkimą"
+                        },
+                        "auto_complete_down": {
+                            "description": "Pereit į sekantį automatinio užbaigimo pasirinkimą.",
+                            "title": "Sekantis automatinio užbaigimo pasirinkimas"
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "description": "Nuslinks į pranešimų rodinio apačią.",
+                            "title": "Slinkite į pranešimų apačią"
+                        },
+                        "navigate_previous_context": {
+                            "description": "Išplėstinis klavišų priskyrimas, kuris paprastai naudojamas norint uždaryti nustatymų puslapį, modalinį arba iššokantį langą ir grįžti į ankstesnį kontekstą.",
+                            "title": "Pereiti į ankstesnį kontekstą"
+                        },
+                        "input_force_submit": {
+                            "title": "Priversti pateikti įvestį",
+                            "description": "Išplėstinis klavišų priskyrimas, kuri paprastai naudojamas norint priverstinai pateikti dabartinę įvestį, neatsižvelgiant į kai kuriuos patikrinimus ar kitas klavišų priskyrimus.\nTai gali apimti pranešimo pateikimą vietoj automatinio užbaigimo pasirinkimo patvirtinimo."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Pažymėti kanalą kaip perskaitytą",
+                            "description": "Pažymi dabartinį kanalą kaip perskaitytą."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "Perjungti eksperimento saugųjį režimą",
+                            "description": "Tai vienu metu įjungs / išjungs visus eksperimentus."
                         }
                     }
                 }
@@ -1069,5 +1109,41 @@
     },
     "actions": {
         "submit": "Siųsti"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PrintScreen": {
+            "short": "PrtSc",
+            "full": "Print Screen"
+        },
+        "ScrollLock": {
+            "full": "Scroll Lock",
+            "short": "ScrLK"
+        },
+        "PageUp": {
+            "short": "PgUp",
+            "full": "Page Up"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
+        }
     }
 }
