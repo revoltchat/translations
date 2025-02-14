@@ -344,6 +344,18 @@
                         },
                         "messaging_scroll_to_bottom": {
                             "title": "メッセージの一番下までスクロール"
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "チャンネルを既読としてマークする",
+                            "description": "現在のチャンネルを既読にする。"
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "実験的セーフモードの切り替え",
+                            "description": "これにより、すべての実験的機能を一括で有効化/無効化します。"
+                        },
+                        "navigate_previous_context": {
+                            "description": "設定ページ、モーダル、ポップアップを閉じて前のコンテキストに戻るための高度なキー割り当て。",
+                            "title": "前のコンテキストに戻る"
                         }
                     }
                 }
@@ -564,7 +576,8 @@
                     "change": {
                         "email": "メールアドレスの変更",
                         "password": "パスワードの変更",
-                        "username": "ユーザー名の変更"
+                        "username": "ユーザー名の変更",
+                        "display_name": "表示名を変更"
                     },
                     "failed": "変更に失敗しました！"
                 },
@@ -656,6 +669,10 @@
                         "Harassment": "他のユーザーを対象とした嫌がらせや罵倒"
                     },
                     "block_user": "このユーザーをブロックしますか？"
+                },
+                "edit_keybind": {
+                    "title": "{{action}} のキー割り当てを編集",
+                    "placeholder": "キーを押して記録"
                 }
             },
             "popovers": {
@@ -772,7 +789,9 @@
             "make_owner": "所有権の付与",
             "report_message": "メッセージを報告",
             "report_user": "ユーザーを報告",
-            "report_server": "サーバーを報告"
+            "report_server": "サーバーを報告",
+            "accept_friend": "フレンド申請を承認",
+            "reject_friend": "フレンド申請を拒否"
         },
         "permissions": {
             "required": "権限が必要です"
@@ -1078,6 +1097,20 @@
         },
         "Delete": {
             "short": "Del"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "Backspace": {
+            "short": "バックスペース"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "ScrollLock": {
+            "full": "スクロールロック"
         }
     }
 }
