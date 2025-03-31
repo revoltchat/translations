@@ -36,7 +36,7 @@ Please note that this table **only includes languages that are currently availab
 |:-:|---|---|---|
 |🇬🇧|English (Traditional) / en|[@insertish](https://github.com/insertish)||
 |🇺🇸|English (Simplified) / en_US|||
-|🇸🇦|عربي / ar|[@LedaThemis](https://github.com/LedaThemis)|[@vloddot](https://github.com/vloddot)|
+|🇸🇦|عربي / ar|[@LedaThemis](https://github.com/LedaThemis)|[@vloddot](https://github.com/vloddot) [@AbdoDev](https://github.com/AbdoDev)|
 |🇮🇳|অসমীয়া / as|||
 |🇦🇿|Azərbaycan dili / az|||
 |🇧🇾|Беларуская / be|[@1enify](https://github.com/1enify)||
