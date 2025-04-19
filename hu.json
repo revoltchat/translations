@@ -8,7 +8,7 @@
         "on": "Be",
         "off": "Ki",
         "disabled": "Letiltva",
-        "unavailable": "nem elérhető",
+        "unavailable": "Elérhetetlen",
         "learn_more": "Bővebben"
     },
     "login": {
@@ -17,7 +17,7 @@
         "enter": {
             "email": "Add meg az e-mail-címed",
             "password": "A Revolt-jelszavad helye",
-            "username": "Adj meg egy nevet",
+            "username": "Add meg a kívánt felhasználónevedet.",
             "current_password": "Add meg a mostani jelszót",
             "invite": "Add meg a meghívókódot",
             "new_password": "Add meg az új jelszavad"
@@ -285,7 +285,8 @@
                         "disable": "Fiók letiltása",
                         "delete": "Fiók törlésre jelölése",
                         "disable_description": "Nem fogsz tudni hozzáférni a fiókodhoz, amíg segítséget nem kérsz az ügyfélszolgálattól. Az adataid nem lesznek törölve.",
-                        "delete_description": "A fiókod és a hozzátartozó összes adat (az üzeneteidet és az ismerőseid listáját is beleértve) idővel törölve lesz. Erről visszaigazoló e-mailt küldünk. Az ügyfélszolgállattól mai naptól számítva hét napon belül segítséget kérve visszavonhatod a törlést."
+                        "delete_description": "A fiókod és a hozzátartozó összes adat (az üzeneteidet és az ismerőseid listáját is beleértve) idővel törölve lesz. Erről visszaigazoló e-mailt küldünk. Az ügyfélszolgállattól mai naptól számítva hét napon belül segítséget kérve visszavonhatod a törlést.",
+                        "delete_still_own_servers": "Nem törölhetjük ki a fiókot amíg a szerverek nincsenek kitörölve vagy átadva"
                     }
                 },
                 "language": {
@@ -661,7 +662,8 @@
                     "change": {
                         "password": "Jelszó megváltoztatása",
                         "email": "E-mail-cím megváltoztatása",
-                        "username": "Felhasználónév megváltoztatása"
+                        "username": "Felhasználónév megváltoztatása",
+                        "display_name": "Változtasd meg a megjelenített nevedet"
                     }
                 },
                 "external_links": {
@@ -807,7 +809,7 @@
             }
         },
         "context_menu": {
-            "cancel_friend": "Jelölés visszavonása",
+            "cancel_friend": "Barátkérelem visszavonása",
             "remove_friend": "Ismerettség törlése",
             "add_friend": "Ismerősnek jelölés",
             "unblock_user": "Felhasználó visszaengedése",
@@ -861,7 +863,10 @@
             "make_owner": "Csoport tulajdonjogának átruházása",
             "report_message": "Üzenet jelentése",
             "report_user": "Felhasználó jelentése",
-            "report_server": "Szerver jelentése"
+            "report_server": "Szerver jelentése",
+            "reject_friend": "Barátkérelem elutasítása",
+            "accept_friend": "Barátkérelem elfogadása",
+            "edit_your_identity": "Identitásod szerkesztése"
         },
         "status": {
             "offline": "Offline",
