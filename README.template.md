@@ -43,3 +43,7 @@ Maintainers gain access to the Reviewer role on Weblate. This permits them to ap
 ![Approval UI](assets/approve_ui.png)
 
 If you're a maintainer and no longer wish to be one, please [open an issue](https://github.com/revoltchat/translations/issues/new). Note that you will remain on the contributions list.
+
+## Repo-level Maintenance
+
+When adding badges to people, it must be done by editing the `contributors.json` file!
