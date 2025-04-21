@@ -79,8 +79,8 @@
                     "not_loaded": "Beskeden er ikke indlæst; klik for at hoppe"
                 },
                 "voice": {
-                    "unmute": "Ophæv stumhed",
-                    "mute": "Gør stum",
+                    "unmute": "Unmute",
+                    "mute": "Mute",
                     "leave": "Forlad",
                     "connected": "Stemme tilsluttet"
                 },
@@ -94,7 +94,7 @@
                     "channel_renamed": "{{user}} omdøbte kanalen til {{name}}",
                     "removed_by": "{{user}} blev fjernet af {{other_user}}",
                     "added_by": "{{user}} blev tilføjet af {{other_user}}",
-                    "user_banned": "{{user}} blev bandlyst",
+                    "user_banned": "{{user}} blev udelukket",
                     "user_kicked": "{{user}} blev smidt ud",
                     "user_left": "{{user}} forlod",
                     "user_joined": "{{user}} tilsluttede sig",
@@ -118,7 +118,7 @@
                     "all": "Alle beskeder",
                     "mention": "Kun omtaler",
                     "none": "Ingen",
-                    "muted": "Lydløs"
+                    "muted": "Muted"
                 },
                 "search": {
                     "title": "Søg",
@@ -198,14 +198,14 @@
             "modals": {
                 "prompt": {
                     "create_invite_generate": "Genererer invitation…",
-                    "confirm_ban": "Du er ved at bandlyse {{name}}",
+                    "confirm_ban": "Du er ved at udelukke {{name}}",
                     "confirm_delete_long": "Når først den er slettet, er der ingen vej tilbage.",
                     "confirm_delete_message_long": "Er du sikker på, at du vil slette dette?",
                     "confirm_kick": "Er du sikker på, at du vil smide {{name}} ud?",
                     "unfriend_user_long": "Du kan muligvis ikke tale med dem, før du tilføjer dem igen.",
                     "confirm_leave": "Forlad {{name}}?",
                     "confirm_close_dm": "Luk samtale med {{name}}?",
-                    "confirm_ban_reason": "Grund til bandlysning",
+                    "confirm_ban_reason": "Årsag til udelukkelse",
                     "confirm_leave_long": "Du vil ikke kunne deltage igen, medmindre du inviteres igen.",
                     "confirm_close_dm_long": "Du kan åbne den igen senere, men den forsvinder på begge sider.",
                     "confirm_delete": "Slet {{name}}?",
@@ -222,31 +222,31 @@
                     "short": "Er du sikker på, at du vil gå til:"
                 },
                 "actions": {
-                    "save": "Gemme",
+                    "save": "Gem",
                     "hide": "Skjul",
                     "delete": "Slet",
                     "reload": "Genindlæs app",
-                    "continue": "Blive ved",
-                    "kick": "Sparke",
-                    "leave": "Forlade",
-                    "remove": "Fjerne",
-                    "create": "Skab",
-                    "preview": "Forhåndsvisning",
-                    "ok": "Okay",
-                    "ban": "Ban",
-                    "edit": "Redigere",
-                    "block": "Blok",
+                    "continue": "Fortsæt",
+                    "kick": "Smid ud",
+                    "leave": "Forlad",
+                    "remove": "Fjern",
+                    "create": "Opret",
+                    "preview": "Forhåndsvis",
+                    "ok": "OK",
+                    "ban": "Udeluk",
+                    "edit": "Rediger",
+                    "block": "Bloker",
                     "reveal": "Vis",
                     "cancel": "Annuller",
                     "send_email": "Send e-mail",
                     "back": "Gå tilbage",
                     "close": "Luk",
-                    "update": "Opdatering",
-                    "report": "Anmeld",
+                    "update": "Opdater",
+                    "report": "Rapportér",
                     "done": "Færdig",
                     "reset": "Nulstil",
                     "confirm": "Bekræft",
-                    "dont_block": "Lad vær med at blokere"
+                    "dont_block": "Bloker ikke"
                 },
                 "error": "En fejl opstod!",
                 "signed_out": "Du blev logget ud!",
@@ -308,11 +308,11 @@
                     },
                     "reported": "Rapporteret",
                     "user_reason": {
-                        "Impersonation": "Denne bruger udgiver sig for at være en anden person",
-                        "SpamAbuse": "Brugeren sender spam eller misbruger platformen på en anden måde",
-                        "Underage": "Denne bruger er ikke gammel nok til af have en konto",
-                        "InappropriateProfile": "Brugerens profil er upassende for andre brugere af platformen",
-                        "BanEvasion": "Denne bruger undgår en udelukkelse"
+                        "Impersonation": "Brugeren udgiver sig for at være en anden",
+                        "SpamAbuse": "Brugeren sender spam eller misbruger platformen på anden vis",
+                        "Underage": "Brugeren er ikke gammel nok til at have en konto",
+                        "InappropriateProfile": "Brugerens profil er upassende for andre brugere",
+                        "BanEvasion": "Brugeren omgår en udelukkelse"
                     },
                     "reason": "Årsag",
                     "message": "Rapportér besked",
@@ -333,10 +333,10 @@
                     "badges": {
                         "founder": "Grundlægger",
                         "translator": "Oversætter",
-                        "early_adopter": "Tidlig adoptant",
+                        "early_adopter": "Tidlig bruger",
                         "supporter": "Supporter",
-                        "moderation": "Platform moderation",
-                        "responsible_disclosure": "Ansvarligt afslørede sikkerhedsfejl"
+                        "moderation": "Moderation af platform",
+                        "responsible_disclosure": "Ansvarlig sikkerhedsrapportør"
                     },
                     "empty": "Her er lidt tomt…",
                     "no_users": "Ingen fælles venner",
@@ -382,7 +382,7 @@
                 "accept": "Acceptér invitation",
                 "user_count": "{{member_count}} brugere",
                 "invalid": "Ugyldig invitation!",
-                "invalid_desc": "Invitationen findes muligvis ikke eller du har ikke tilladelse til at deltage."
+                "invalid_desc": "Invitationen findes muligvis ikke, eller du har ikke tilladelse til at deltage."
             },
             "status": {
                 "offline": "Offline.",
@@ -704,11 +704,11 @@
             },
             "server_pages": {
                 "bans": {
-                    "title": "Bandlysning",
-                    "reason": "Grund til bandlysning",
+                    "title": "Udelukkelser",
+                    "reason": "Årsag til udelukkelse",
                     "user": "Bruger",
                     "revoke": "Tilbagekald",
-                    "no_reason": "Ingen grund til bandlysning."
+                    "no_reason": "Ingen årsag til udelukkelse."
                 },
                 "invites": {
                     "revoke": "Tilbagekald",
@@ -789,61 +789,61 @@
         "context_menu": {
             "copy_id": "Kopiér ID",
             "cancel_message": "Annuller afsendelse",
-            "copy_text": "Kopier tekst",
-            "copy_selection": "Kopier markering",
+            "copy_text": "Kopiér tekst",
+            "copy_selection": "Kopiér markering",
             "open_image": "Åbn billede",
             "save_image": "Gem billede",
-            "copy_link": "Kopier link",
-            "open_link": "Åben link",
+            "copy_link": "Kopiér link",
+            "open_link": "Åbn link",
             "set_custom_status": "Indstil en brugerdefineret status",
             "delete_server": "Slet server",
             "create_channel": "Opret kanal",
             "edit_message": "Rediger besked",
             "delete_message": "Slet besked",
             "create_category": "Opret kategori",
-            "kick_member": "Sparke medlem",
-            "ban_member": "Ban medlem",
-            "open_file": "Åben fil",
-            "save_file": "Gem filen",
+            "kick_member": "Smid medlem ud",
+            "ban_member": "Udeluk medlem",
+            "open_file": "Åbn fil",
+            "save_file": "Gem fil",
             "open_video": "Åbn video",
             "save_video": "Gem video",
             "open_server_settings": "Serverindstillinger",
             "block_user": "Bloker bruger",
-            "unblock_user": "Fjern blokering bruger",
+            "unblock_user": "Fjern blokering af bruger",
             "add_friend": "Tilføj ven",
             "remove_friend": "Fjern ven",
-            "cancel_friend": "Annuller anmodning",
+            "cancel_friend": "Annuller venneanmodning",
             "custom_status": "Brugerdefineret status",
             "open_group_settings": "Gruppeindstillinger",
             "quote_message": "Citér besked",
             "remove_member": "Fjern fra gruppen",
-            "copy_uid": "Kopiér bruger ID",
-            "copy_sid": "Kopiér server ID",
-            "copy_cid": "Kopiér kanal ID",
-            "copy_mid": "Kopiér besked ID",
+            "copy_uid": "Kopiér bruger-ID",
+            "copy_sid": "Kopiér server-ID",
+            "copy_cid": "Kopiér kanal-ID",
+            "copy_mid": "Kopiér besked-ID",
             "copy_message_link": "Kopiér beskedlink",
             "mention": "Nævn",
             "message_user": "Besked",
             "view_profile": "Se profil",
-            "mark_as_read": "Marker som læst",
-            "retry_message": "Prøv sende igen",
+            "mark_as_read": "Markér som læst",
+            "retry_message": "Prøv at sende igen",
             "reply_message": "Svar",
             "clear_status": "Ryd status",
             "leave_group": "Forlad gruppe",
-            "leave_server": "Forlad serveren",
+            "leave_server": "Forlad server",
             "close_dm": "Luk DM",
             "edit_identity": "Rediger identitet",
             "delete_channel": "Slet kanal",
             "create_invite": "Opret invitation",
-            "open_notification_options": "Notifikationsmuligheder",
+            "open_notification_options": "Notifikationsindstillinger",
             "open_channel_settings": "Kanalindstillinger",
-            "mark_unread": "Marker som ulæst",
+            "mark_unread": "Markér som ulæst",
             "make_owner": "Giv gruppeejerskab",
-            "report_message": "Anmeld beskeden",
-            "report_user": "Anmeld bruger",
-            "report_server": "Anmeld server",
+            "report_message": "Rapportér besked",
+            "report_user": "Rapportér bruger",
+            "report_server": "Rapportér server",
             "edit_your_identity": "Rediger din identitet",
-            "accept_friend": "Accepter venneanmodning",
+            "accept_friend": "Acceptér venneanmodning",
             "reject_friend": "Afvis venneanmodning"
         },
         "home": {
@@ -865,7 +865,7 @@
             "discover": "Udforsk Revolt"
         },
         "permissions": {
-            "required": "Tilladelser påkrævet"
+            "required": "Rettigheder påkrævet"
         }
     },
     "general": {
@@ -881,11 +881,11 @@
         "learn_more": "Læs mere"
     },
     "dayjs": {
-        "nextDay": "[I morgen kl] {{time}}",
-        "lastDay": "[I går kl] {{time}}",
-        "sameDay": "[I dag kl] {{time}}",
-        "lastWeek": "[Sidste] dddd [kl] {{time}}",
-        "nextWeek": "dddd [kl] {{time}}",
+        "nextDay": "[I morgen kl.] {{time}}",
+        "lastDay": "[I går kl.] {{time}}",
+        "sameDay": "[I dag kl.] {{time}}",
+        "lastWeek": "[Sidste] dddd [kl.] {{time}}",
+        "nextWeek": "dddd [kl.] {{time}}",
         "defaults": {
             "date_separator": "/",
             "date_format": "traditional",
@@ -895,37 +895,37 @@
     "quantities": {
         "members": {
             "many": "{{count}} medlemmer",
-            "one": "1 Medlem"
+            "one": "1 medlem"
         },
         "dropFiles": {
             "many": "Indsæt {{count}} filer",
-            "one": "Læg en fil"
+            "one": "Indsæt en fil"
         }
     },
     "error": {
-        "OperationFailed": "Handlingen mislykkedes.",
-        "DeniedNotification": "Du nægtede meddelelsesadgang. Tjek sideindstillingerne.",
+        "OperationFailed": "Handling mislykkedes.",
+        "DeniedNotification": "Du nægtede notifikationsadgang. Tjek sideindstillingerne.",
         "UnsupportedBrowser": "Browser mangler understøttelse af denne funktion.",
         "NetworkError": "Netværksfejl.",
-        "Unauthorized": "Uberettiget.",
+        "Unauthorized": "Uautoriseret.",
         "Unlabelled": "Der skete noget.",
         "FailedValidation": "Kunne ikke validere felter.",
         "InvalidToken": "Ugyldig token",
         "MissingInvite": "Manglende invitationskode i anmodningen.",
         "InvalidInvite": "Ugyldig kode",
         "EmailFailed": "E-mail kunne ikke sendes.",
-        "AlreadyOnboarded": "Allerede færdig med onboarding.",
+        "AlreadyOnboarded": "Introduktion allerede gennemført.",
         "AlreadyFriends": "Allerede venner med denne bruger.",
         "AudioPermissionBlock": "Ingen adgang til din mikrofon. Tjek venligst din browsers konfiguration.",
         "UnverifiedAccount": "Ubekræftet konto.",
-        "UsernameTaken": "Brugernavnet er taget.",
+        "UsernameTaken": "Det brugernavn er optaget.",
         "NoEffect": "Denne anmodning havde ingen virkning.",
         "TooLong": "For langt",
         "FailedToReceive": "Serveren kunne ikke modtage din fil.",
-        "IoError": "Serveren stødte på en I/O fejl.",
-        "DatabaseError": "Database fejl.",
+        "IoError": "Serveren stødte på en I/O-fejl.",
+        "DatabaseError": "Databasefejl.",
         "InternalError": "Intern fejl.",
-        "MissingPermission": "Mangler tilladelse.",
+        "MissingPermission": "Mangler rettigheder.",
         "UnknownError": "Se konsol.",
         "RenderFail": "Skabelongengivelse mislykkedes.",
         "MissingHeaders": "Manglende overskrifter.",
@@ -938,19 +938,19 @@
         "BlockedOther": "Denne bruger har blokeret dig.",
         "RequiredField": "Påkrævet",
         "TooShort": "For kort",
-        "InvalidEmail": "Ugyldig emailadresse",
-        "Unavailable": "Ikke tilgængelig.",
+        "InvalidEmail": "Ugyldig e-mailadresse",
+        "Unavailable": "Utilgængelig.",
         "FileTooLarge": "Filen er for stor.",
         "MissingData": "Anmodningen mangler data.",
-        "ProbeError": "Filens metadata kunne ikke hentes.",
+        "ProbeError": "Kunne ikke hente filens metadata.",
         "CompromisedPassword": "Denne adgangskode er kompromitteret.",
         "ReachedMaximumBots": "Du har nået det maksimale antal bots.",
-        "DiscriminatorChangeRatelimited": "For mange tag ændringer."
+        "DiscriminatorChangeRatelimited": "For mange tag-ændringer."
     },
     "permissions": {
         "BanMembers": {
-            "t": "Ban medlemmer",
-            "d": "Tillader medlemmer permanent at fjerne medlemmer fra denne server."
+            "t": "Udeluk medlemmer",
+            "d": "Tillader medlemmer at fjerne andre permanent fra denne server."
         },
         "ChangeAvatar": {
             "d": "Tillader medlemmer at ændre deres serveravatar på denne server.",
@@ -966,7 +966,7 @@
         },
         "KickMembers": {
             "t": "Smid medlemmer ud",
-            "d": "Tillader medlemmer at fjerne medlemmer fra denne server. Sparkede medlemmer kan tilslutte sig igen med en invitation."
+            "d": "Tillader medlemmer at fjerne andre fra denne server. De kan deltage igen med en invitation."
         },
         "ChangeNickname": {
             "t": "Ændr kaldenavn",
@@ -978,7 +978,7 @@
         },
         "RemoveAvatars": {
             "t": "Fjern avatarer",
-            "d": "Tillader medlemmer at fjerne serveravatarer for andre medlemmer på denne server."
+            "d": "Tillader medlemmer at fjerne serveravatarer for andre på serveren."
         },
         "EmbedLinks": {
             "d": "Tillader medlemmer at vise indlejret indhold på links de poster i tekstkanaler.",
@@ -1010,19 +1010,19 @@
         },
         "Masquerade": {
             "t": "Maskerade",
-            "d": "Tillader medlemmer at ændre deres navn og avatar ved besked."
+            "d": "Tillader medlemmer at ændre navn og avatar pr. besked."
         },
         "ManageRole": {
-            "d": "Tillader medlemmer at oprette, redigere og slette roller med en lavere rang end deres. Giver dem også mulighed for at ændre rolletilladelser på kanaler.",
+            "d": "Tillader medlemmer at oprette, redigere og slette roller med lavere rang end deres egen samt redigere rollerettigheder i kanaler.",
             "t": "Administrer roller"
         },
         "ViewChannel": {
             "t": "Se kanal",
-            "d": "Tillader medlemmer at se alle kanaler, de har denne tilladelse til."
+            "d": "Tillader medlemmer at se alle kanaler, hvor de har denne rettighed."
         },
         "ManagePermissions": {
-            "d": "Tillad medlemmer at ændre tilladelser for kanaler og roller med lavede rangordning.",
-            "t": "Administrer tilladelser"
+            "d": "Tillader medlemmer at ændre rettigheder for kanaler og roller med en lavere rangering.",
+            "t": "Administrer rettigheder"
         },
         "TimeoutMembers": {
             "t": "Timeout medlemmer",
@@ -1033,12 +1033,12 @@
             "d": "Tillader medlemmer at tildele roller under deres egen rang til andre medlemmer."
         },
         "ReadMessageHistory": {
-            "t": "Læs besked historik",
-            "d": "Tillader medlemmere at læse beskedhistorikken af denne kanal."
+            "t": "Læs beskedhistorik",
+            "d": "Tillader medlemmer at læse beskedhistorikken af denne kanal."
         },
         "ManageWebhooks": {
             "t": "Administrer webhooks",
-            "d": "Tillader medlemmer at tag kontrol over webhooks i en kanal."
+            "d": "Tillader medlemmer at kontrollere webhooks i en kanal."
         },
         "ManageCustomisation": {
             "d": "Tillader brugere at oprette, redigere og slette emojis.",
@@ -1046,19 +1046,19 @@
         },
         "SendEmbeds": {
             "t": "Send indlejringer",
-            "d": "Tillad medlemmer at sende indlejret indhold, hvorvidt at det er fra links eller brugerdefinerede text indlejringer."
+            "d": "Tillader medlemmer at sende indlejret indhold, uanset om det er links eller brugerdefinerede tekstindlejringer."
         },
         "React": {
-            "d": "Tillad medlemmer at reagere på beskeder.",
+            "d": "Tillader medlemmer at reagere på beskeder.",
             "t": "Brug reaktioner"
         },
         "Connect": {
             "t": "Forbind",
-            "d": "Tillader at medlemmer til af forbind til en lyd kanal."
+            "d": "Tillader medlemmer at forbinde til en lydkanal."
         },
         "Speak": {
             "t": "Tale",
-            "d": "Tillader medlemmer at snakke i en lyd kanal."
+            "d": "Tillader medlemmer at snakke i en lydkanal."
         },
         "DeafenMembers": {
             "t": "Gøre medlemmer døve",
@@ -1069,11 +1069,11 @@
             "d": "Tillader medlemmer at rykke andre medlemmer mellem lyd kanaler."
         },
         "MuteMembers": {
-            "d": "Tillader medlemmer at mute andre i en lyd kanal.",
-            "t": "Gør medlemmer stumme"
+            "d": "Tillader medlemmer at mute andre i en lydkanal.",
+            "t": "Mute medlemmer"
         },
         "Video": {
-            "d": "Tillader medlemmer at stream video i en lyd kanal.",
+            "d": "Tillader medlemmer at streame video i en lydkanal.",
             "t": "Video"
         }
     },
