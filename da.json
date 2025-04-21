@@ -198,28 +198,28 @@
             "modals": {
                 "prompt": {
                     "create_invite_generate": "Genererer invitation…",
-                    "confirm_ban": "Du er ved at udelukke {{name}}",
+                    "confirm_ban": "Du er ved at bandlyse {{name}}",
                     "confirm_delete_long": "Når først den er slettet, er der ingen vej tilbage.",
-                    "confirm_delete_message_long": "Er du sikker på at du vil slette dette?",
-                    "confirm_kick": "Er du sikker på at du vil sparke {{name}}?",
-                    "unfriend_user_long": "Du kan muligvis ikke tale med dem igen før du tilføjer dem igen.",
-                    "confirm_leave": "Vil du forlade {{name}}?",
-                    "confirm_close_dm": "Vil du lukke samtalen med {{name}}?",
+                    "confirm_delete_message_long": "Er du sikker på, at du vil slette dette?",
+                    "confirm_kick": "Er du sikker på, at du vil smide {{name}} ud?",
+                    "unfriend_user_long": "Du kan muligvis ikke tale med dem, før du tilføjer dem igen.",
+                    "confirm_leave": "Forlad {{name}}?",
+                    "confirm_close_dm": "Luk samtale med {{name}}?",
                     "confirm_ban_reason": "Grund til bandlysning",
-                    "confirm_leave_long": "Du vil ikke være i stand til at deltage igen, medmindre du bliver inviteret igen.",
+                    "confirm_leave_long": "Du vil ikke kunne deltage igen, medmindre du inviteres igen.",
                     "confirm_close_dm_long": "Du kan åbne den igen senere, men den forsvinder på begge sider.",
-                    "confirm_delete": "Vil du slette {{name}}?",
+                    "confirm_delete": "Slet {{name}}?",
                     "create_invite_created": "Her er din nye invitationskode:",
-                    "block_user_long": "Er du sikker på at du vil blokere {{name}}? De vil også blive fjernet fra din venneliste.",
-                    "unfriend_user": "Vil du fjerne {{name}} som ven?",
-                    "block_user": "Vil du blokere {{name}}?",
-                    "members_not_notified": "Andre medlemmer vil ikke blive underrettet",
-                    "silent_leave": "Forlad opkaldet stille"
+                    "block_user_long": "Er du sikker på, at du vil blokere {{name}}? De fjernes også fra din venneliste.",
+                    "unfriend_user": "Fjern {{name}} som ven?",
+                    "block_user": "Bloker {{name}}?",
+                    "members_not_notified": "Andre medlemmer underrettes ikke",
+                    "silent_leave": "Forlad lydløst"
                 },
                 "external_links": {
                     "trust_domain": "Stol på dette domæne",
                     "title": "Eksterne links kan være farlige!",
-                    "short": "Er du sikker på at du vil gå til:"
+                    "short": "Er du sikker på, at du vil gå til:"
                 },
                 "actions": {
                     "save": "Gemme",
@@ -251,60 +251,60 @@
                 "error": "En fejl opstod!",
                 "signed_out": "Du blev logget ud!",
                 "onboarding": {
-                    "pick": "Vælg et brugernavn, som du ønsker, at folk skal kunne finde dig ved. Dette kan ændres senere i Min Konto indstillinger.",
+                    "pick": "Vælg et brugernavn, som folk kan finde dig på. Dette kan ændres senere i dine brugerindstillinger.",
                     "welcome": "Velkommen til"
                 },
                 "account": {
                     "change": {
-                        "email": "Skift din e-mail",
-                        "username": "Skift dit brugernavn",
-                        "password": "Skift dit kodeord",
-                        "display_name": "Skift dit visningsnavn"
+                        "email": "Ændr din e-mail",
+                        "username": "Ændr dit brugernavn",
+                        "password": "Ændr din adgangskode",
+                        "display_name": "Ændr dit visningsnavn"
                     },
                     "failed": "Kunne ikke ændres!"
                 },
                 "clipboard": {
-                    "unavailable": "Udklipsholder er ikke tilgængelig!",
-                    "https": "Du er i øjeblikket ikke i en HTTPS kontekst.",
+                    "unavailable": "Udklipsholder er utilgængelig!",
+                    "https": "Du er ikke i en HTTPS-kontekst.",
                     "copy": "Manuel kopi:"
                 },
                 "token_reveal": "{{name}}'s token",
                 "sessions": {
                     "accept": "Fjern alle sessioner",
-                    "title": "Er du sikker at du vil slette dine sessioner?",
+                    "title": "Er du sikker på, at du vil rydde dine sessioner?",
                     "short": "Du kan ikke fortryde denne handling."
                 },
                 "mfa": {
-                    "confirm": "Bekræft venligst ved hjælp af den/de valgte metode(r).",
-                    "prompt_totp": "Scan QR-koden, eller brug nedenstående token i din godkendelsesapp.",
-                    "save_codes": "Gem dem venligst på et sikkert sted.",
+                    "confirm": "Bekræft venligst denne handling med den valgte metode.",
+                    "prompt_totp": "Scan eller brug venligst nedenstående token i din godkendelsesapp.",
+                    "save_codes": "Gem dem et sikkert sted.",
                     "select_method": "Vælg venligst en metode til at godkende din anmodning.",
-                    "enable_totp": "Aktiver authenticator-appen",
-                    "recovery_codes": "Dine inddrivelseskoder",
+                    "enable_totp": "Aktiver godkendelsesapp",
+                    "recovery_codes": "Dine gendannelseskoder",
                     "enter_code": "Indtast kode"
                 },
                 "changelogs": {
                     "description": "Læs om opdateringerne af Revolt.",
-                    "title": "Ændringslogger",
+                    "title": "Ændringslog",
                     "older": "Se ældre opdateringer"
                 },
                 "confirm": "Bekræft handling",
                 "out_of_date": {
                     "title": "Din klient er forældet!",
-                    "description": "Den skal opdateres for at kunne fungere med de seneste ændringer.",
-                    "version": "Din klient er på {{client}}, mens serveren kræver {{server}}.",
+                    "description": "Den skal opdateres for at fungere med de seneste ændringer.",
+                    "version": "Din klient er på {{client}}, men serveren kræver {{server}}.",
                     "ignore": "Ignorer opdatering",
                     "attempting": "Forsøger at opdatere…"
                 },
                 "report": {
-                    "thank_you": "Tak for at hjælpe med af holde Revolt sikker. Vi vil hurtigst mulige kigge på din rapport.",
-                    "block_user": "Vil du gerne blokere denne bruger?",
+                    "thank_you": "Tak, fordi du hjælper med at holde Revolt sikkert. Vi vil gennemgå din rapport så hurtigt som muligt.",
+                    "block_user": "Vil du blokere denne bruger?",
                     "content_reason": {
-                        "PromotesHarm": "Indholdet promovere skade til andre eller en selv",
-                        "SpamAbuse": "Dette er spam eller platform misbrug",
+                        "PromotesHarm": "Indholdet fremmer skade på andre eller sig selv",
+                        "SpamAbuse": "Dette er spam eller platformsmisbrug",
                         "Malware": "Dette er malware",
                         "Harassment": "Dette er chikane eller misbrug rettet mod en anden bruger",
-                        "Illegal": "Indholdet bryder en eller flere lov"
+                        "Illegal": "Indholdet bryder en eller flere love"
                     },
                     "reported": "Rapporteret",
                     "user_reason": {
@@ -314,11 +314,11 @@
                         "InappropriateProfile": "Brugerens profil er upassende for andre brugere af platformen",
                         "BanEvasion": "Denne bruger undgår en udelukkelse"
                     },
-                    "reason": "Grundlag",
-                    "message": "Reporter beskeden",
+                    "reason": "Årsag",
+                    "message": "Rapportér besked",
                     "additional_context": "Yderligere information",
-                    "no_reason": "Ingen grund angivet / anden årsag",
-                    "by_name": "Anmeld {{name}}"
+                    "no_reason": "Ingen årsag angivet / anden årsag",
+                    "by_name": "Rapportér {{name}}"
                 },
                 "edit_keybind": {
                     "title": "Skift genvejstast for {{action}}",
@@ -387,7 +387,7 @@
             "status": {
                 "offline": "Offline.",
                 "disconnected": "Afbrudt.",
-                "connecting": "Tilslutning…",
+                "connecting": "Tilslutter…",
                 "reconnecting": "Genopretter forbindelse…"
             },
             "server-badges": {
@@ -407,27 +407,27 @@
             "pages": {
                 "account": {
                     "change_field": "Ændr",
-                    "unique_id": "Dette er et unikt bruger-id til din konto.",
+                    "unique_id": "Dette er et unikt bruger-ID til din konto.",
                     "2fa": {
                         "title": "To-faktor-godkendelse",
                         "description": "Tilføj et ekstra lag sikkerhed ved at aktivere 2FA på din konto.",
-                        "add_auth": "Tilføj godkender",
-                        "remove_auth": "Fjern godkender",
-                        "view_recovery_long": "Vis og download dine 2FA genoprettelses koder.",
-                        "generate_recovery": "Generer Genoprettelses Koder",
-                        "two_factor_on": "To-faktor authentication er slået til.",
-                        "generate_recovery_long": "Bliv klar til at bruge 2FA ved at opsætte en genoprettelses metode.",
-                        "two_factor_off": "Du har ikke slået to-faktor authentication til!",
-                        "view_recovery": "Vis Genoprettelses Koder"
+                        "add_auth": "Tilføj autentifikator",
+                        "remove_auth": "Fjern autentifikator",
+                        "view_recovery_long": "Se og download dine 2FA-gendannelseskoder.",
+                        "generate_recovery": "Generér gendannelseskoder",
+                        "two_factor_on": "To-faktor-godkendelse er slået til.",
+                        "generate_recovery_long": "Bliv klar til at bruge 2FA ved at opsætte en gendannelsesmetode.",
+                        "two_factor_off": "Du har ikke aktiveret to-faktor-godkendelse!",
+                        "view_recovery": "Se gendannelseskoder"
                     },
                     "manage": {
-                        "description": "Deaktiver eller fjern din konto når som helst. Denne handling vil logge dig ud og slette din konto fuldstændigt, herunder din chathistorik og venner.",
+                        "description": "Deaktiver eller slet din konto når som helst. Begge dele logger dig ud af dine aktive sessioner.",
                         "delete": "Markér konto til sletning",
-                        "title": "Kontostyring",
+                        "title": "Kontoadministration",
                         "disable": "Deaktiver konto",
-                        "disable_description": "Du vil ikke have adgang til din konto, medmindre du kontakter support - din data vil dog ikke blive slettet.",
-                        "delete_still_own_servers": "Kan ikke slette kontoen, før serverne er slettet eller overført.",
-                        "delete_description": "Din konto og alle dine data (inklusive dine beskeder og venneliste) vil blive sat i kø til sletning. En bekræftelsesmail vil blive sendt - du kan annullere denne inden for 7 dage ved at kontakte support."
+                        "disable_description": "Du vil ikke kunne få adgang til din konto, medmindre du kontakter support – dine data slettes dog ikke.",
+                        "delete_still_own_servers": "Kan ikke slette konto, før servere er slettet eller overført",
+                        "delete_description": "Din konto og alle dine data (inklusive beskeder og venneliste) sættes i kø til sletning. En bekræftelsesmail bliver sendt – du kan annullere det inden for 7 dage ved at kontakte support."
                     },
                     "title": "Min konto"
                 },
@@ -442,7 +442,7 @@
                     "custom_background": "Brugerdefineret baggrund"
                 },
                 "audio": {
-                    "tip_retry": "Du gav ikke Revolt tilladelse til at få adgang til din mikrofon, {{retryBtn}}.",
+                    "tip_retry": "Du har ikke givet Revolt tilladelse til mikrofonen. {{retryBtn}}.",
                     "device_label_NA": "N/A",
                     "button_retry": "prøv igen",
                     "title": "Stemmeindstillinger",
@@ -464,47 +464,47 @@
                     "display": {
                         "default": "Standard",
                         "compact": "Kompakt",
-                        "default_description": "Smuk, glinsende og moderne.",
+                        "default_description": "Smuk, elegant og moderne.",
                         "compact_description": "Gode gamle IRC."
                     },
                     "font": "Skrifttype",
-                    "import": "Importer et tema",
+                    "import": "Importér et tema",
                     "sync": "Synkroniseringsmuligheder",
                     "mono_font": "Monospace-skrifttypevælger",
                     "color": {
                         "light": "lys",
                         "dark": "mørk"
                     },
-                    "accent_selector": "Accent farve",
+                    "accent_selector": "Accentfarve",
                     "emoji_pack": "Emojipakke",
                     "message_display": "Beskedvisning",
                     "advanced": "Avancerede indstillinger",
-                    "import_theme": "Importer tema fra streng",
+                    "import_theme": "Importér tema fra streng",
                     "theme_data": "Temadata",
                     "custom_css": "Brugerdefineret CSS",
                     "ligatures": "Skrifttypeligaturer",
                     "overrides": "Tematilsidesættelser",
-                    "ligatures_desc": "For understøttede skrifttyper, kombinerer ligaturer tegn sammen - for eksempel, omdanne -> til en pil.",
+                    "ligatures_desc": "Ved understøttede skrifttyper kombinerer ligaturer tegn – f.eks. omdannes -> til en pil.",
                     "reset_overrides": "Nulstil tilsidesættelser",
                     "theme_options": {
-                        "follow_desc": "Hvis den er aktiveret, vil du ikke være i stand til at ændre dine temaer eller bruge et tilpasset tema.",
+                        "follow_desc": "Hvis dette er aktiveret, kan du ikke ændre dit tema eller bruge et tilpasset tema.",
                         "title": "Temaindstillinger",
-                        "follow": "Brug system tema",
+                        "follow": "Følg systemets tema",
                         "seasonal": "Sæsonbestemt tema",
-                        "transparency": "Gennemsigtige effekter",
-                        "transparency_desc": "Slår gennemsigtig effekter til gennem hele appen.",
-                        "seasonal_desc": "Viser effekter i hjem fanebladet i løbet af feriesæsoner."
+                        "transparency": "Gennemsigtighedseffekter",
+                        "transparency_desc": "Aktiverer gennemsigtighedseffekter i hele appen.",
+                        "seasonal_desc": "Viser effekter på hjem-fanen under højtider."
                     },
                     "discover": {
                         "title": "Udforsk temaer",
                         "description": "Udforsk temaer lavet af fælleskabet"
                     },
                     "appearance_options": {
-                        "title": "Indstillinger for udseende",
-                        "show_send": "Altid vis send besked knappen",
-                        "show_send_desc": "Hvis den er deaktiveret, vises knappen Send Besked kun på mobilen.",
-                        "show_account_age": "Vis altid kontoalderen ud for at deltage i beskeder",
-                        "show_account_age_desc": "Hvis den er deaktiveret, vises kontoens alder kun for nye brugere."
+                        "title": "Udseendeindstillinger",
+                        "show_send": "Vis altid Send Besked-knappen",
+                        "show_send_desc": "Hvis dette er deaktiveret, vises Send Besked-knappen kun på mobil.",
+                        "show_account_age": "Vis altid kontoens alder ved siden af tilslutningsbeskeder",
+                        "show_account_age_desc": "Hvis dette er deaktiveret, vises kontoens alder kun for nye brugere."
                     },
                     "colours": {
                         "title": "Farver"
@@ -523,27 +523,27 @@
                     "title": "Feedback",
                     "bug": "Fejlsporing",
                     "suggest": "Indsend forslag til funktioner",
-                    "suggest_desc": "Foreslå nye Revolt funktioner på GitHub-diskussioner.",
+                    "suggest_desc": "Foreslå nye Revolt-funktioner på GitHub-diskussioner.",
                     "issue": "Opret et nyt problem",
-                    "issue_desc": "For at hjælpe os med lettere at løse problemer, kan du oprette et problem på GitHub.",
+                    "issue_desc": "For at hjælpe os med at håndtere problemer kan du oprette et problem på GitHub.",
                     "bug_desc": "Se aktuelt aktive fejlrapporter her.",
                     "description": "Indsend feedback"
                 },
                 "notifications": {
                     "sound": {
-                        "call_join": "Bruger tilsluttet opkald",
+                        "call_join": "Bruger tilsluttede sig opkald",
                         "message": "Besked modtaget",
                         "call_leave": "Bruger forlod opkald",
                         "outbound": "Besked sendt"
                     },
                     "push_notifications": "Push-notifikationer",
-                    "enable_push": "Aktiver push-meddelelser",
+                    "enable_push": "Aktiver push-notifikationer",
                     "descriptions": {
-                        "enable_push": "Hvis den er aktiveret, vil du modtage notifikationer, selv når du er offline.",
-                        "enable_desktop": "Hvis den er aktiveret, vil du modtage notifikationer, mens appen er åben."
+                        "enable_push": "Hvis dette er aktiveret, modtager du notifikationer, selv når du er offline.",
+                        "enable_desktop": "Hvis dette er aktiveret, modtager du notifikationer, mens appen er åben."
                     },
                     "title": "Notifikationer",
-                    "enable_desktop": "Aktiver skrivebordsmeddelelser",
+                    "enable_desktop": "Aktiver skrivebordsnotifikationer",
                     "sounds": "Lyde"
                 },
                 "language": {
@@ -554,48 +554,48 @@
                 },
                 "sync": {
                     "descriptions": {
-                        "appearance": "Dette vil synkronisere muligheder såsom emoji-pakker og beskedtæthed.",
-                        "theme": "Dette vil synkronisere dit valgte tema, farver og enhver tilpasset CSS.",
-                        "locale": "Dette vil synkronisere dit aktuelt valgte sprog."
+                        "appearance": "Dette synkroniserer udseendeindstillinger, såsom dit valgte emojipakke og beskedtæthed.",
+                        "theme": "Dette synkroniserer dit valgte tema, farver og enhver tilpasset CSS.",
+                        "locale": "Dette synkroniserer dit aktuelt valgte sprog."
                     },
-                    "title": "Synkroniser",
+                    "title": "Synkronisering",
                     "categories": "Synkroniser kategorier",
-                    "options": "Synkroniserings indstillinger"
+                    "options": "Synkroniseringsindstillinger"
                 },
                 "bots": {
                     "create_bot": "Opret en bot",
                     "public_bot": "Offentlig bot",
-                    "reserved": "Bemærk: Dette felt er reserveret til fremtiden.",
-                    "copy_invite": "Kopiér invitationslinket",
-                    "unique_id": "Dette er en unik identifikator for din bot. Dette er ikke bottens token.",
+                    "reserved": "Bemærk: dette felt er reserveret til fremtiden.",
+                    "copy_invite": "Kopiér invitationslink",
+                    "unique_id": "Dette er en unik identifikator for din bot – ikke dens token.",
                     "public_bot_tip": "Denne bot er offentlig. Alle kan invitere den.",
                     "private_bot_tip": "Denne bot er privat. Kun du kan invitere den.",
-                    "public_bot_desc": "Hvis den er aktiveret, kan andre brugere tilføje denne bot til servere og gruppebeskeder.",
+                    "public_bot_desc": "Hvis dette er aktiveret, kan andre brugere føje denne bot til servere og gruppebeskeder.",
                     "interactions_url": "Interaktions-URL",
                     "token": "Token",
                     "title": "Mine bots",
                     "add": "Tilføj bot",
-                    "profile": "Robot profil"
+                    "profile": "Bot-profil"
                 },
                 "theme_shop": {
                     "title": "Temabutik",
                     "category": {
-                        "manage": "Administrere gemt",
+                        "manage": "Administrer gemt",
                         "new": "Nyt denne uge",
                         "highest": "Højest bedømt",
                         "viewall": "Se alle",
-                        "default": "Standard temaer",
+                        "default": "Standardtemaer",
                         "saved": "Gemt"
                     },
                     "active": "I øjeblikket aktiv",
                     "search": "Søg efter temaer…",
-                    "description": "Udforsk hundredvis af temaer, skabt og kurateret af fællesskabet.",
+                    "description": "Gennemse hundredvis af temaer skabt og kurateret af fællesskabet.",
                     "use": "Brug tema",
                     "by": "af"
                 },
                 "logOut": "Log ud",
                 "experiments": {
-                    "not_available": "Ingen eksperimenter er tilgængelige på nuværende tidspunkt.",
+                    "not_available": "Ingen eksperimenter er tilgængelige i øjeblikket.",
                     "title": "Eksperimenter",
                     "features": "Tilgængelige funktioner"
                 },
@@ -607,17 +607,17 @@
                     "title": "Skrivebordsindstillinger"
                 },
                 "plugins": {
-                    "wip": "Advarsel: Denne funktion er stadig under udvikling.",
+                    "wip": "Advarsel: denne funktion er stadig under udvikling.",
                     "delete_plugin": "Slet",
-                    "no_plugins": "Ingen tilføjelser er i øjeblikket installeret.",
-                    "title": "Tilføjelser"
+                    "no_plugins": "Ingen plugins er installeret.",
+                    "title": "Plugins"
                 },
                 "keybinds": {
                     "edit_keybind": "Rediger genvejstast",
-                    "search": "Søg genvejstaster…",
-                    "description": "Vis og vælg genvejstaster",
+                    "search": "Søg efter genvejstaster…",
+                    "description": "Se og vælg genvejstaster",
                     "remove_keybind": "Fjern genvejstast",
-                    "reset_keybind": "Nulstil genvejstast tilbage til {{keybind}}",
+                    "reset_keybind": "Nulstil genvejstast til {{keybind}}",
                     "category": {
                         "navigation": "Navigation",
                         "advanced": "Avanceret",
@@ -645,44 +645,44 @@
                             "description": "Rediger den tidligere sendte besked i den aktuelt indlæste beskedvisning."
                         },
                         "messaging_mark_channel_read": {
-                            "title": "Marker kanal som læst",
-                            "description": "Markerer den nuværende kanal som læst."
+                            "title": "Markér kanal som læst",
+                            "description": "Markerer den aktuelle kanal som læst."
                         },
                         "input_cancel": {
-                            "description": "En avanceret tastebinding, der typisk bruges til at annullere det aktuelle input.\nDette kan omfatte annullering af en meddelelsesredigering, fjernelse af et billede i kø eller lignende scenarier.",
+                            "description": "En avanceret genvej, der typisk bruges til at annullere det aktuelle input – f.eks. annullering af en redigering, fjernelse af et billede i kø eller lignende.",
                             "title": "Annuller input"
                         },
                         "navigate_previous_context": {
-                            "description": "En avanceret nøglebinding, der typisk bruges til at lukke indstillingssiden, en modal eller en popup og vende tilbage til den forrige kontekst.",
+                            "description": "En avanceret genvej, der typisk bruges til at lukke indstillingssiden, en modal eller pop-op og vende tilbage til den forrige kontekst.",
                             "title": "Naviger til den forrige kontekst"
                         },
                         "auto_complete_up": {
-                            "title": "Tidligere valg af autofuldførelse",
+                            "title": "Forrige valg af autofuldførelse",
                             "description": "Flyt autofuldførelsesvalget til det forrige."
                         },
                         "auto_complete_down": {
-                            "title": "Næste Autofuldførelsesvalg",
+                            "title": "Næste autofuldførelsesvalg",
                             "description": "Flyt autofuldførelsesvalget til det næste."
                         },
                         "auto_complete_select": {
-                            "title": "Bekræft valg af autofuldførelse",
+                            "title": "Bekræft autofuldførelsesvalg",
                             "description": "Bekræft det aktuelle valg af autofuldførelse."
                         },
                         "input_submit": {
-                            "title": "Send input",
-                            "description": "En avanceret nøglebinding, der typisk bruges til at sende det aktuelle input.\nDette kan omfatte indsendelse af en besked, indsendelse af en redigering af en besked, indsendelse af en søgning osv."
+                            "title": "Indsend input",
+                            "description": "En avanceret genvej, der typisk bruges til at indsende det aktuelle input – f.eks. en besked, redigering eller søgning."
                         },
                         "input_force_submit": {
-                            "title": "Tving indsend input",
-                            "description": "En avanceret nøglebinding, der typisk bruges til at sende det aktuelle input med magt og ignorere nogle kontroller eller andre nøglebindinger.\nDette kan omfatte indsendelse af en besked i stedet for at bekræfte valget af autofuldførelse."
+                            "title": "Tving indsendelse af input",
+                            "description": "En avanceret genvej, der typisk bruges til at tvinge indsendelse af det aktuelle input og ignorere visse tjek eller andre genveje – f.eks. ved at indsende en besked i stedet for at bekræfte et autofuldført forslag."
                         },
                         "messaging_scroll_to_bottom": {
                             "title": "Rul til bunden af beskeder",
                             "description": "Rul til bunden af beskedvisningen."
                         },
                         "developer_toggle_all_experiments": {
-                            "title": "Slå eksperimentet sikker tilstand til/fra",
-                            "description": "Dette vil aktivere/deaktivere alle eksperimenter på én gang."
+                            "title": "Slå eksperimentel sikker tilstand til/fra",
+                            "description": "Dette aktiverer/deaktiverer alle eksperimenter på én gang."
                         }
                     },
                     "title": "Genvejstaster",
@@ -691,9 +691,9 @@
                 "accessibility": {
                     "title": "Tilgængelighed",
                     "descriptions": {
-                        "reduced_motion": "Hvis den er aktiveret, vil animationer og andre bevægelser enten ikke blive afspillet eller være mindre intense."
+                        "reduced_motion": "Hvis dette er aktiveret, afspilles animationer og bevægelseseffekter ikke eller vil være mindre intense."
                     },
-                    "reduced_motion": "Nedsat bevægelse"
+                    "reduced_motion": "Reduceret bevægelse"
                 }
             },
             "title": "Indstillinger",
@@ -704,11 +704,11 @@
             },
             "server_pages": {
                 "bans": {
-                    "title": "Udlukninger",
+                    "title": "Bandlysning",
                     "reason": "Grund til bandlysning",
                     "user": "Bruger",
                     "revoke": "Tilbagekald",
-                    "no_reason": "Ingen grund til bandlysning"
+                    "no_reason": "Ingen grund til bandlysning."
                 },
                 "invites": {
                     "revoke": "Tilbagekald",
@@ -753,10 +753,10 @@
                 "delete_role": "Slet rolle",
                 "role_ranking": "Rollerangering",
                 "role_options": "Rolleindstillinger",
-                "hoist_role": "Hejseværk Rolle",
-                "hoist_desc": "Vis denne rolle over de andre.",
-                "title": "Tilladelser for {{role}}",
-                "edit_title": "Rediger Tilladelser"
+                "hoist_role": "Løft rolle",
+                "hoist_desc": "Vis denne rolle over andre.",
+                "title": "Rettigheder for {{role}}",
+                "edit_title": "Rediger rettigheder"
             },
             "tips": {
                 "account": {
@@ -764,11 +764,11 @@
                     "b": "Gå over til dine profilindstillinger."
                 },
                 "sessions": {
-                    "b": "Gør din konto mere sikker ved at ændre din adgangskode og bruge 2FA.",
+                    "b": "bør du sikre din konto ved at ændre din adgangskode og opsætte 2FA.",
                     "a": "Hvis du ser en ukendt session på listen,"
                 },
                 "languages": {
-                    "a": "Mangler vi et sprog du ønsker?",
+                    "a": "Mangler vi et sprog, du ønsker?",
                     "b": "Hjælp os ved at bidrage med flere oversættelser."
                 }
             },
@@ -969,7 +969,7 @@
             "d": "Tillader medlemmer at fjerne medlemmer fra denne server. Sparkede medlemmer kan tilslutte sig igen med en invitation."
         },
         "ChangeNickname": {
-            "t": "Skift Kaldenavn",
+            "t": "Ændr kaldenavn",
             "d": "Tillader medlemmer at ændre deres kaldenavn på denne server."
         },
         "ManageNicknames": {
@@ -1005,7 +1005,7 @@
             "d": "Tillader medlemmer at invitere andre brugere til en kanal."
         },
         "ManageMessages": {
-            "t": "Administrer Meddelelser",
+            "t": "Administrer beskeder",
             "d": "Tillader medlemmer at slette beskeder sendt af andre medlemmer."
         },
         "Masquerade": {
@@ -1029,8 +1029,8 @@
             "d": "Tillader medlemmer at midlertidigt forhindre brugere i at interagere med serveren."
         },
         "AssignRoles": {
-            "t": "Angiv roller",
-            "d": "Tillader medlemmere at angive roller under deres egen rolle til andre medlemmere."
+            "t": "Tildel roller",
+            "d": "Tillader medlemmer at tildele roller under deres egen rang til andre medlemmer."
         },
         "ReadMessageHistory": {
             "t": "Læs besked historik",
