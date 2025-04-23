@@ -464,10 +464,36 @@
                             "title": "Bộ chọn tự hoàn thành kế tiếp"
                         },
                         "auto_complete_select": {
-                            "description": "Xác nhận bộ chọn tự hoàn thành hiện thời."
+                            "description": "Xác nhận bộ chọn tự hoàn thành hiện thời.",
+                            "title": "Xác nhận bộ chọn tự hoàn thiện"
                         },
                         "input_submit": {
-                            "title": "Gửi đầu nhập"
+                            "title": "Gửi dữ liệu nhập",
+                            "description": "Phím nóng nâng cao thường dùng để gửi dữ liệu nhập hiện thời.\nCó thể bao gồm tin nhắn, sửa tin nhắn, từ khóa tìm kiếm, v.v."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "description": "Hành động này sẽ bật/tắt tất cả các thử nghiệm cùng lúc.",
+                            "title": "Bật/tắt chế độ an toàn thử nghiệm"
+                        },
+                        "input_cancel": {
+                            "description": "Phím nóng nâng cao dùng để hủy dữ liệu nhập hiện thời.\nCó thể bao gồm hủy sửa tin nhắn, loại bỏ ảnh chờ tải lên, hoặc các trường hợp tương tự.",
+                            "title": "Hủy dữ liệu nhập"
+                        },
+                        "input_force_submit": {
+                            "description": "Phím nóng nâng cao dùng để bắt buộc gửi dữ liệu nhập hiện thời, bỏ qua một số bước kiểm tra hoặc các phím nóng khác\nCó thể bao gồm việc gửi tin nhắn thay vì xác nhận bộ chọn tự hoàn thiện.",
+                            "title": "Bắt buộc gửi dữ liệu nhập"
+                        },
+                        "navigate_previous_context": {
+                            "title": "Chuyển đến phần ngữ cảnh trước đó",
+                            "description": "Phím nóng nâng cao thường dùng để đóng trang cài đặt, hộp thoại, hoặc popup, và quay lại phần màn hình trước đó."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Cuộn xuống dưới cùng hàng tin nhắn",
+                            "description": "Cuộn về dưới cùng chế độ xem tin nhắn."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Đánh dấu kênh là đã đọc",
+                            "description": "Đánh dấu kênh tin hiện tại là đã đọc."
                         }
                     },
                     "add_keybind": "Thêm phím tắt mới"
@@ -654,7 +680,8 @@
                     "change": {
                         "username": "Thay đổi tên người dùng",
                         "email": "Thay đổi địa chỉ email",
-                        "password": "Thay đổi mật khẩu"
+                        "password": "Thay đổi mật khẩu",
+                        "display_name": "Thay đổi tên hiển thị"
                     },
                     "failed": "Thay đổi thất bại!"
                 },
@@ -714,6 +741,10 @@
                         "Impersonation": "Người dùng này đang mạo danh người khác",
                         "BanEvasion": "Người dùng này đang trốn tránh lệnh cấm"
                     }
+                },
+                "edit_keybind": {
+                    "title": "Sửa phím nóng thực hiện {{action}}",
+                    "placeholder": "Nhấn các phím để ghi lại"
                 }
             },
             "popovers": {
@@ -734,7 +765,7 @@
                     "badges": {
                         "translator": "Phiên dịch viên",
                         "supporter": "Người hỗ trợ dự án",
-                        "responsible_disclosure": "Đã Có Trách Nhiệm Thông Báo Các Vấn Đề Bảo Mật",
+                        "responsible_disclosure": "Các vấn đề bảo mật được tiết lộ có trách nhiệm",
                         "early_adopter": "Người hỗ trợ từ những ngày đầu",
                         "moderation": "Điều hành nền tảng",
                         "founder": "Nhà sáng lập"
@@ -822,7 +853,10 @@
             "make_owner": "Trao quyền sở hữu nhóm",
             "report_user": "Báo cáo người dùng",
             "report_server": "Báo cáo server",
-            "report_message": "Báo cáo tin nhắn"
+            "report_message": "Báo cáo tin nhắn",
+            "reject_friend": "Từ chối kết bạn",
+            "accept_friend": "Chấp nhận kết bạn",
+            "edit_your_identity": "Sửa đổi thông tin cá nhân của bạn"
         },
         "permissions": {
             "required": "Yêu cầu quyền"
@@ -1051,5 +1085,41 @@
     },
     "actions": {
         "submit": "Xác nhận"
+    },
+    "keys": {
+        "Delete": {
+            "short": "Del"
+        },
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "PrintScreen": {
+            "full": "Print Screen",
+            "short": "PrtSc"
+        },
+        "ScrollLock": {
+            "full": "Scroll Lock",
+            "short": "ScrLK"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
+        }
     }
 }
