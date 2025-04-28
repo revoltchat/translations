@@ -97,7 +97,8 @@
                         "description": "您可以隨時停用或刪除帳號。這會登出您的所有工作階段。",
                         "title": "帳號管理",
                         "disable_description": "除非您聯絡支援人員，否則您將無法存取您的帳戶 - 但您的資料不會被刪除。",
-                        "delete_description": "您的帳戶及所有資料（包括訊息和好友）將儘快刪除。我們會發送一封確認電子郵件 - 您可以在 7 天內聯絡支援人員以取消此操作。"
+                        "delete_description": "您的帳戶及所有資料（包括訊息和好友）將儘快刪除。我們會發送一封確認電子郵件 - 您可以在 7 天內聯絡支援人員以取消此操作。",
+                        "delete_still_own_servers": "在伺服器被刪除或轉移前無法刪除帳戶"
                     },
                     "2fa": {
                         "remove_auth": "移除安全認證",
@@ -238,6 +239,23 @@
                         "developer_toggle_all_experiments": {
                             "description": "開啟/關閉所有實驗性功能。",
                             "title": "切換實驗性功能安全模式"
+                        },
+                        "navigate_channel_down": {
+                            "title": "瀏覽下一個頻道",
+                            "description": "瀏覽下一個頻道"
+                        },
+                        "auto_complete_up": {
+                            "title": "前一個自動完成選擇"
+                        },
+                        "input_submit": {
+                            "title": "提交輸入",
+                            "description": "通常用於提交當前輸入的進階快速鍵。\n可能包括提交訊息、提交對訊息的編輯和搜尋等.."
+                        },
+                        "input_cancel": {
+                            "title": "取消輸入"
+                        },
+                        "input_force_submit": {
+                            "title": "強制提交輸入"
                         }
                     },
                     "description": "查看和設定快速鍵",
@@ -442,7 +460,7 @@
                 "failed_upload": "上傳失敗！",
                 "uploading_file": "上傳中…",
                 "message_saved": "儲存到記事本",
-                "message_who": "發送給 {{person}}",
+                "message_who": "發訊給 @{{人}}",
                 "message_where": "發送到 {{channel_name}}",
                 "errors": {
                     "title": "哎呀，這裡什麼都沒有！",
@@ -561,7 +579,8 @@
                     "change": {
                         "password": "更改您的密碼",
                         "username": "更改您的使用者名稱",
-                        "email": "更改您的電子郵件"
+                        "email": "更改您的電子郵件",
+                        "display_name": "變更你的顯示名"
                     },
                     "failed": "更改失效！"
                 },
@@ -748,7 +767,10 @@
             "make_owner": "轉交群組所有權",
             "report_message": "檢舉訊息",
             "report_user": "檢舉使用者",
-            "report_server": "檢舉伺服器"
+            "report_server": "檢舉伺服器",
+            "accept_friend": "同意好友邀請",
+            "reject_friend": "拒絕好友邀請",
+            "edit_your_identity": "編輯身分"
         },
         "permissions": {
             "required": "需要權限"
@@ -1065,6 +1087,16 @@
         "PageDown": {
             "full": "Page Down",
             "short": "PgDown"
+        },
+        "ScrollLock": {
+            "full": "捲動鎖定鍵",
+            "short": "捲動鎖定鍵"
+        },
+        "PrintScreen": {
+            "short": "螢幕截圖鍵"
+        },
+        "CapsLock": {
+            "full": "大寫鎖定"
         }
     }
 }
