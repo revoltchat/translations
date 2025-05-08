@@ -8,8 +8,8 @@
         "on": "On",
         "off": "Apagado",
         "disabled": "Inactivare",
-        "unavailable": "Not available",
-        "learn_more": "More information"
+        "unavailable": "Inaccessibilis",
+        "learn_more": "Plura discere"
     },
     "login": {
         "current_password": "Codex Secretus Currens",
@@ -20,7 +20,7 @@
         "username": "Usuarius",
         "enter": {
             "invite": "Intra Invitatio Code.",
-            "username": "Nulla cap.",
+            "username": "Intrare nomen usoris praeoptatum tuum.",
             "email": "Please enter your email.",
             "password": "Nulla password.",
             "current_password": "Nulla current password.",
@@ -32,12 +32,12 @@
         "forgot": "Nonne obliviscaris password?",
         "new": "Nova in Revolt?",
         "existing": "Habesne iam rationem?",
-        "create": "Novam rationem",
-        "resend": "Resend verificationis",
+        "create": "Novum rationem crea",
+        "resend": "Verificatam iterum mitte",
         "cancel": "Cancel petitionem",
-        "check_mail": "Reprehendo epistularum tuum!",
-        "email_delay": "Placere patitur usque ad 10 minuta ad eam perveniet.",
-        "check_spam": "Placere reprehendo spam si non invenient eam",
+        "check_mail": "Vide epistulas tuas!",
+        "email_delay": "Miserimus tibi epistulam verificationis. Quaeso, usque ad decem minuta exspecta ut adveniat.",
+        "check_spam": "Quaeso, reprehende folder spam tuum si id non invenies",
         "error": {
             "login": "Deficio ad subcriptio!",
             "reset": "Deficio ad reset!",
@@ -54,13 +54,13 @@
         "subtitle": "Inscribe",
         "unofficial_instance": "Tertiae partis instantiae.",
         "new_password": "Novum Password",
-        "log_out_other": "Log ex omnibus aliis sessionibus",
+        "log_out_other": "Exire ex omnibus sessionibus aliis",
         "verifying_account": "Probari ratione vestra…",
         "verified_account": "Ratio tua verificatur!",
         "verified_continue": "Permanere login",
         "totp": "Authenticator App",
         "recovery": "Recuperatio Code",
-        "missing_verification": "Non accepit inscriptio?"
+        "missing_verification": "Non accepisti inscriptio?"
     },
     "app": {
         "status": {
@@ -90,7 +90,7 @@
             },
             "channel": {
                 "message_where": "Mandatum ord. {{channel_name}}",
-                "message_who": "Mandata mittere ad {{person}}",
+                "message_who": "Nuntium mitte ad @{{person}}",
                 "message_saved": "Servo tuo notas",
                 "uploading_file": "Uploading…",
                 "failed_upload": "Deficio ad upload!",
@@ -144,7 +144,7 @@
                         "marked": "Hic canalis signatur ut NSFW.",
                         "confirm": "Intra channel"
                     },
-                    "confirm": "Constituo me saltem 18 annos natus."
+                    "confirm": "Confirmo me saltem 18 annos natus esse."
                 },
                 "edited": "(edidit)",
                 "unknown_user": "<User ignotus>",
@@ -168,7 +168,7 @@
                     "nochannels": "Hic servo canales non habet, aut nulli aditus non habet.",
                     "nochannel": "Nulla varius sapien"
                 },
-                "bot": "Bot",
+                "bot": "Machina",
                 "reply": {
                     "replying": "Respondens to",
                     "toggle": "Toggle auctoris mentionem"
@@ -176,7 +176,13 @@
                 "team": "Communication officialis",
                 "bridge": "Pontis",
                 "bridged": "Nuntius missus est in alio suggestu",
-                "user_timed_out": "Usor opportuno pro {{time}} est."
+                "user_timed_out": "Usor opportuno pro {{time}} est.",
+                "reactions": {
+                    "others_reacted": "{{userlist}} et {{count}} alii responderunt",
+                    "unknown_reacted": "{{count}} homines responderunt",
+                    "single_reacted": "Unus homo respondit",
+                    "people_reacted": "{{people}} responderunt"
+                }
             },
             "groups": {
                 "description": "Coetus descriptionem",
@@ -277,7 +283,7 @@
                     "enable_push": "Admitte ventilabis Suspendisse.",
                     "sound": {
                         "call_leave": "User Reliquit Call",
-                        "message": "Nuntius accepistis",
+                        "message": "Nuntius Acceptus",
                         "outbound": "Missus nuntius",
                         "call_join": "User Joined Call"
                     },
@@ -333,7 +339,7 @@
                 "profile": {
                     "edit_profile": "Mutare imaginem",
                     "title": "Profile",
-                    "placeholder": "Scribere aliquid de te ipso …",
+                    "placeholder": "Scribe aliquid de te ipso…",
                     "fetching": "Prodesse profile tuum…",
                     "custom_background": "Custom Background",
                     "profile_picture": "Profile Picture",
@@ -343,7 +349,7 @@
                 "language": {
                     "other": "Aliae linguae optiones",
                     "title": "Lingua",
-                    "select": "Linguam tuam eligere",
+                    "select": "Elige linguam tuam",
                     "const": "Linguae constructae"
                 },
                 "audio": {
@@ -464,7 +470,7 @@
                     "b": "Caput ad vestri profile occasus."
                 },
                 "sessions": {
-                    "a": "Si ignotam videris sessionem in indice;",
+                    "a": "Si sessionem incognitam in indice videas,",
                     "b": "secure rationem tuam mutando es tesserae et utens 2FA."
                 },
                 "languages": {
