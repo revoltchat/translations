@@ -253,7 +253,7 @@
                         "title": "Theme Options",
                         "follow": "Sequere systema thematis",
                         "transparency": "Perspicuus effectus",
-                        "follow_desc": "Cum repressus est, thema tuum mutare non poteris vel themate consueto utere.",
+                        "follow_desc": "Si hoc activatur, thema mutare aut thema proprium uti non poteris.",
                         "seasonal": "Temporis Theme",
                         "seasonal_desc": "Effectus exhibet in tab domo per dies festos."
                     },
@@ -261,11 +261,11 @@
                     "font": "Font",
                     "sync": "Sync Options",
                     "appearance_options": {
-                        "show_send_desc": "Si debilis, button Nuntius mitte modo in mobili apparebit.",
+                        "show_send_desc": "Si hoc disiungitur, tantum in mobili apparebit globulus \"Nuntium Mitte\".",
                         "show_account_age": "Semper ostende rationem aetatis iuxta iungere nuntiis",
                         "title": "Aspectus Options",
                         "show_send": "Semper ostende Mitte Nuntius puga",
-                        "show_account_age_desc": "Si debilis, ratio aetatis tantum pro novis utentibus ostendetur."
+                        "show_account_age_desc": "Si hoc disiungitur, solum novis usoribus ostendetur aetas rationis."
                     },
                     "reset_overrides": "Reddere overrides",
                     "emoji_pack": "Emoji Pack",
@@ -273,19 +273,28 @@
                     "message_display": "Nuntius Propono",
                     "import_theme": "Theme ex filum importare",
                     "mono_font": "Monospace Font Selector",
-                    "ligatures_desc": "Ad fontes suffulta, ligaturae ingenia in unum coniungunt, exempli gratia, versa -> in sagittam.",
+                    "ligatures_desc": "In typis sustentatis, ligaturae litteras coniungunt — exempli gratia, -> in sagittam convertentes.",
                     "colours": {
                         "title": "Colores"
+                    },
+                    "emoji": {
+                        "title": "Pictogramma"
+                    },
+                    "fonts": {
+                        "title": "Typographiae"
+                    },
+                    "advanced_options": {
+                        "title": "Optiones Provectae"
                     }
                 },
                 "notifications": {
                     "descriptions": {
-                        "enable_desktop": "Hoc dabit tibi notificationes dum tua app aperta est.",
-                        "enable_push": "Admitte notificationes accipere cum es online."
+                        "enable_desktop": "Si hoc activatur, monita accipies dum applicatio aperta est.",
+                        "enable_push": "Si hoc activatur, monita accipies cum offline es."
                     },
                     "title": "Acta Vicimediorum",
-                    "enable_desktop": "Admitte Desktop Notificaciones.",
-                    "enable_push": "Admitte ventilabis Suspendisse.",
+                    "enable_desktop": "Monita Desktopica Activare",
+                    "enable_push": "Monita Pulsus Activare",
                     "sound": {
                         "call_leave": "User Reliquit Call",
                         "message": "Nuntius Acceptus",
@@ -304,17 +313,17 @@
                     "title": "Desktop Optiones"
                 },
                 "bots": {
-                    "public_bot_desc": "Utrum permittat alios utentes bot invitare.",
+                    "public_bot_desc": "Si hoc activatur, alii usores hunc botem ad servitia et nuntios coetus addere possunt.",
                     "public_bot": "Publica Bot",
                     "token": "Token",
                     "interactions_url": "Interactiones URL",
-                    "reserved": "Nota: Hic ager in futurum servatur.",
+                    "reserved": "Notatio: hoc ager futurum reservatur.",
                     "title": "Automata mea",
                     "create_bot": "Bot creare",
                     "copy_invite": "Exemplum invitare Link",
-                    "private_bot_tip": "Bot privatum est. Tantum potes invitare.",
+                    "private_bot_tip": "Hic bot privatus est. Solum tu eum invitare potes.",
                     "profile": "Bot profile",
-                    "public_bot_tip": "Bot is public. Quisque id invitare potest.",
+                    "public_bot_tip": "Hic machina publicus est. Quisquis eum invitare potest.",
                     "add": "Add Bottom",
                     "unique_id": "Hoc unum identifier pro automati tuo est. Hoc non est signum bot."
                 },
@@ -335,7 +344,7 @@
                         "disable": "Ratio inactivare",
                         "title": "Ratio Management",
                         "delete": "Ratio inactivare",
-                        "description": "Inactivare vel delere rationem vestram in aliquo tempore. Haec actio tibi aperiet ac rationem tuam plene delebit, including historiam tuam chat amicosque tuos.",
+                        "description": "Rationem tuam quovis tempore desinere vel delere potes. Utraque actio te ex sessionibus activis exscribet.",
                         "disable_description": "Rationem tuam adire non poteris nisi auxilium rogaveris; tamen data tua non delebuntur.",
                         "delete_description": "Rationem tuam cum omnibus datis tuis (nuntiis et indice amicorum inclusis) delenda destinabitur. Epistula confirmationis mittetur — hoc intra septem dies revocare potes si auxilium petiveris.",
                         "delete_still_own_servers": "Non potest delere rationem donec servus delevit vel transfertur"
@@ -364,17 +373,17 @@
                     "title": "Vox Occasus",
                     "button_grant": "Da veniam",
                     "output_device": "Orator / Headset",
-                    "input_device": "Microphone",
+                    "input_device": "Microphonum",
                     "device_label_NA": "N/A",
                     "button_retry": "retry",
-                    "tip_retry": "Licentiam non dedisti ut tortorem tuam accedas, quaeso, {{retryBtn}}.",
+                    "tip_retry": "Revolt microphono tuo accedere non permisisti. Quaeso {{retryBtn}}.",
                     "tip_grant_permission": "Vos postulo ut licentiam aditus audio occasus concedas."
                 },
                 "sync": {
                     "descriptions": {
                         "theme": "Hoc erit Sync tuum electum thema, colores et omnem consuetudinem CSS.",
                         "locale": "Hoc erit sync lingua tua electa.",
-                        "appearance": "Hoc bene sync erit ut sarcinas emoji et densitatem nuntius."
+                        "appearance": "Hoc optiones aspectus synchronizabit, ut sarcina emojiorum electa et densitas nuntiorum."
                     },
                     "title": "Sync",
                     "categories": "Sync Categoriae",
@@ -416,13 +425,80 @@
                 },
                 "plugins": {
                     "title": "Plugins",
-                    "wip": "Monitum: Haec factura adhuc in evolutione est.",
+                    "wip": "Monitum: haec functio adhuc in evolutione est.",
                     "no_plugins": "No plugins are currently installed.",
                     "delete_plugin": "Delere"
                 },
                 "source_code": "Source Code",
                 "donate": {
                     "title": "Donate"
+                },
+                "accessibility": {
+                    "title": "Accessibilitas",
+                    "reduced_motion": "Motus Reductus",
+                    "descriptions": {
+                        "reduced_motion": "Si hoc activatur, animationes et effectus motus non ludent aut minus intensi erunt."
+                    }
+                },
+                "keybinds": {
+                    "description": "Videre et statuere clavium ligationes",
+                    "title": "Clavis ligationes",
+                    "search": "Quaerere clavium ligationes…",
+                    "add_keybind": "Addere novam clavis ligationem",
+                    "action": {
+                        "messaging_edit_previous_message": {
+                            "description": "Edita priorem missum nuntium in praesentia spectatae nuntiationis.",
+                            "title": "Edita priorem nuntium"
+                        },
+                        "auto_complete_up": {
+                            "title": "Praecedens Selectio Automatica",
+                            "description": "Movere selectionem automaticam ad priorem."
+                        },
+                        "input_submit": {
+                            "description": "Clavis difficilis quae typice adhibetur ad subiciendum inputum praesentem. \nHoc includere potest subicere nuntium, subicere emendationem nunti, subicere quaerere, etc..",
+                            "title": "Subicere Inputum"
+                        },
+                        "input_cancel": {
+                            "title": "Cancellare Inputum",
+                            "description": "Clavis difficilis quae typice adhibetur ad cancellandum inputum praesentem. \nHoc includere potest cancellare emendationem nunti, removere imaginem in ordine, vel similes casus."
+                        },
+                        "input_force_submit": {
+                            "title": "Visum Inputum Subicere",
+                            "description": "Clavis difficilis quae typice adhibetur ad visum inputum praesentem subicere, aliquot probationes vel alias claves praeteriens. \nHoc includere potest nuntium subicere pro confirmatione selectionis automaticae."
+                        },
+                        "navigate_channel_up": {
+                            "title": "Navigare ad praecedentem canalem",
+                            "description": "Navigare ad canalem praecedentem."
+                        },
+                        "navigate_channel_down": {
+                            "title": "Navigare ad proximam canalem",
+                            "description": "Navigare ad proximam canalem."
+                        },
+                        "navigate_server_up": {
+                            "title": "Navigare ad praecedentem servientem",
+                            "description": "Navigare ad praecedentem servientem."
+                        },
+                        "navigate_server_down": {
+                            "title": "Navigare ad proximam servientem",
+                            "description": "Navigare ad proximam servientem."
+                        },
+                        "auto_complete_down": {
+                            "title": "Proxima Selectio Automatica",
+                            "description": "Movere selectionem automaticam ad proximam."
+                        },
+                        "auto_complete_select": {
+                            "title": "Confirmare Selectionem Automaticam",
+                            "description": "Confirmare selectionem completionis automaticae praesentis."
+                        }
+                    },
+                    "edit_keybind": "Editare clavem ligationem",
+                    "remove_keybind": "Amovere clavem ligationem",
+                    "reset_keybind": "Repristina clavem ligationem ad {{keybind}}",
+                    "category": {
+                        "navigation": "Navigatio",
+                        "messaging": "Nuntiatio",
+                        "advanced": "Provecta"
+                    }
                 }
             },
             "actions": {
