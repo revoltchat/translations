@@ -21,7 +21,7 @@
         "enter": {
             "invite": "Intra Invitatio Code.",
             "username": "Intrare nomen usoris praeoptatum tuum.",
-            "email": "Please enter your email.",
+            "email": "Placet inserere tuam epistulam electronicam.",
             "password": "Nulla password.",
             "current_password": "Nulla current password.",
             "new_password": "Intra novam tesseram."
@@ -58,7 +58,7 @@
         "verifying_account": "Probari ratione vestra…",
         "verified_account": "Ratio tua verificatur!",
         "verified_continue": "Permanere login",
-        "totp": "Authenticator App",
+        "totp": "Applicatio Authenticatrix",
         "recovery": "Recuperatio Code",
         "missing_verification": "Non accepisti inscriptio?"
     },
@@ -297,7 +297,7 @@
                     "enable_push": "Monita Pulsus Activare",
                     "sound": {
                         "call_leave": "User Reliquit Call",
-                        "message": "Nuntius Acceptus",
+                        "message": "Nuntius Receptus",
                         "outbound": "Missus nuntius",
                         "call_join": "User Joined Call"
                     },
@@ -489,6 +489,22 @@
                         "auto_complete_select": {
                             "title": "Confirmare Selectionem Automaticam",
                             "description": "Confirmare selectionem completionis automaticae praesentis."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Ad imum nuntiorum devolve",
+                            "description": "Ad imum conspectus nuntiorum devolvit."
+                        },
+                        "messaging_mark_channel_read": {
+                            "description": "Analem praesentem notat ut legitur.",
+                            "title": "Nota canalem ut legitur"
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "Commuta modum tutum",
+                            "description": "Hoc omnia experimenta simul activabit / desactivabit."
+                        },
+                        "navigate_previous_context": {
+                            "title": "Naviga ad contextum praecedentem",
+                            "description": "Clavis provecta quae plerumque adhibetur ad paginam occasuum, fenestram modalem, aut nuntium exiguum claudendum et ad contextum praecedentem redeundum."
                         }
                     },
                     "edit_keybind": "Editare clavem ligationem",
@@ -550,16 +566,16 @@
             },
             "tips": {
                 "account": {
-                    "a": "Vultus publicus profile domicilii tui?",
+                    "a": "Vis profile publicum tuum configurare?",
                     "b": "Caput ad vestri profile occasus."
                 },
                 "sessions": {
                     "a": "Si sessionem incognitam in indice videas,",
-                    "b": "secure rationem tuam mutando es tesserae et utens 2FA."
+                    "b": "secura tuum rationem mutando tessera et configurando 2FA."
                 },
                 "languages": {
-                    "a": "Absentis linguam vis?",
-                    "b": "Adjuva plura translationes conferunt."
+                    "a": "Lingua tibi desiderata deficitur?",
+                    "b": "Adjuva ut plura translationes conferantur."
                 }
             },
             "permissions": {
@@ -591,6 +607,9 @@
                 },
                 "permissions": {
                     "title": "Permissiones"
+                },
+                "webhooks": {
+                    "title": "Extus vincula"
                 }
             }
         },
@@ -615,7 +634,7 @@
                         "moderation": "Modus suggestus",
                         "founder": "Conditor",
                         "translator": "Translator",
-                        "responsible_disclosure": "Response Reveled Bug(s)",
+                        "responsible_disclosure": "Responsabiliter Reclusa Problematica Securitatis",
                         "supporter": "Fautor",
                         "early_adopter": "Early Adopter"
                     },
@@ -649,7 +668,7 @@
                 "actions": {
                     "report": "Report",
                     "update": "Renovatio",
-                    "ok": "Bene",
+                    "ok": "ITA",
                     "ban": "Ban",
                     "hide": "Celare",
                     "reload": "Reload App",
@@ -675,7 +694,7 @@
                 },
                 "out_of_date": {
                     "ignore": "Ignore renovatio",
-                    "version": "Cliens tuus est apud {{client}}, cum servo {{server}} requirit.",
+                    "version": "Client tuus est {{client}}, sed server requirit {{server}}.",
                     "description": "Renovari debet ut cum recentibus mutationibus laboret.",
                     "title": "Cliens tuus ex date!",
                     "attempting": "Conanti ut update …"
@@ -686,7 +705,7 @@
                     "confirm_leave": "Relinque {{name}}?",
                     "confirm_close_dm": "Conversatio proxima cum {{name}}?",
                     "block_user_long": "Certus esne {name}} obsistere? Etiam tu ab amicis tuis numerabis.",
-                    "unfriend_user": "Aufer {{name}}?",
+                    "unfriend_user": "Amicum {{name}} removere?",
                     "members_not_notified": "Alia membra non notificabitur",
                     "confirm_leave_long": "Revocare non poteris nisi invitatus es.",
                     "confirm_delete": "Delete {{name}}?",
@@ -696,7 +715,7 @@
                     "block_user": "Clausus {{name}}?",
                     "silent_leave": "Tacite discede",
                     "create_invite_created": "Hic est invitare novum codicem tuum:",
-                    "confirm_close_dm_long": "Postea re-aperire potes, sed ab utraque parte evanescet.",
+                    "confirm_close_dm_long": "Poteris id postea reserare, sed ambo latera evanescent.",
                     "confirm_delete_long": "Postquam deletum est, non est reversus.",
                     "create_invite_generate": "Generans invitare…",
                     "confirm_kick": "Certusne esne vis calcitrare {{name}}?",
@@ -705,9 +724,9 @@
                 "mfa": {
                     "recovery_codes": "Tua recuperatio codes",
                     "save_codes": "Salvum fac locum tutum.",
-                    "confirm": "Quaeso confirmas per modum delecti.",
+                    "confirm": "Quaeso confirma hanc actionem utens methodo electa.",
                     "select_method": "Quaeso eligere modum signo authenticitatis incisionem tuam.",
-                    "prompt_totp": "Quaeso scan vel uti tessera infra in app authenticas.",
+                    "prompt_totp": "Quaeso scanne vel utatur tokeno infra in app authenticator.",
                     "enter_code": "Enter code",
                     "enable_totp": "Admitte app authenticator"
                 },
@@ -725,7 +744,8 @@
                     "change": {
                         "email": "Mutata vestri email",
                         "password": "Mutare es tesserae",
-                        "username": "Mutare tuum usoris"
+                        "username": "Mutare tuum usoris",
+                        "display_name": "Nomen tuum vis mutare"
                     },
                     "failed": "Defecit mutare!"
                 },
@@ -767,7 +787,11 @@
                 "signed_out": "Te signati sunt!",
                 "onboarding": {
                     "welcome": "Grata to",
-                    "pick": "Usoris delige quem vis populum invenire te posse, hoc postea in uncinis mutari potest."
+                    "pick": "Elige nomen usoris quod vis ut alii te inveniant. Hoc postea mutari potest in tuis configurationibus usoris."
+                },
+                "edit_keybind": {
+                    "title": "Redige keybind pro {{action}}",
+                    "placeholder": "Preme claves ut recordetur"
                 }
             },
             "invite": {
@@ -776,7 +800,7 @@
                 "invalid": "Irritum invitare!",
                 "accept": "Accipere invitare",
                 "login": "Login to Revolt",
-                "invalid_desc": "Quod invitare non potest vel non licebit iungere."
+                "invalid_desc": "Invitatio forsitan non exsistat, aut non habes licentiam iungere."
             },
             "status": {
                 "offline": "Offline.",
@@ -831,7 +855,7 @@
             "create_category": "Genus crea",
             "copy_selection": "Exemplum delectu",
             "unblock_user": "Unblock a user",
-            "cancel_friend": "Cancel petitionem",
+            "cancel_friend": "Cancellare petitionem amici",
             "mention": "Mentionem",
             "cancel_message": "Cancel mitte",
             "open_file": "Aperi file",
@@ -847,7 +871,10 @@
             "open_link": "Open link",
             "add_friend": "Amicus addere",
             "open_channel_settings": "Channel occasus",
-            "open_group_settings": "Group occasus"
+            "open_group_settings": "Group occasus",
+            "accept_friend": "Accipe petitionem amici",
+            "reject_friend": "Rejice petitionem amici",
+            "edit_your_identity": "Muta identitatem tuam"
         },
         "permissions": {
             "required": "Permissiones requiratur"
@@ -900,7 +927,7 @@
         },
         "ManageRole": {
             "t": "Curo Roles",
-            "d": "Permittit membra creare, recensere et delere munera inferioris ordinis quam illorum. Permittit etiam ut munus licentias in canalibus mitigare."
+            "d": "Sodales sinit partes creare, recensere et delere quarum gradus inferior est suo, atque permissiones partium in canalibus mutare."
         },
         "ManageCustomisation": {
             "d": "Permittit membra creare, recensere et emojis delere.",
@@ -976,7 +1003,7 @@
         }
     },
     "error": {
-        "UsernameTaken": "Usoris capitur.",
+        "UsernameTaken": "Id nomen usoris iam sumptum est.",
         "UnknownUser": "Ignotus Inscr.",
         "InvalidInvite": "Ipso codice",
         "InvalidToken": "Aliquam et Thochen",
@@ -988,19 +1015,19 @@
         "NoEffect": "Haec petitio nihil profecit.",
         "BlockedOther": "Hic interretiarius tibi obstruxit.",
         "UnsupportedBrowser": "Pasco desit subsidium pro hoc pluma.",
-        "DeniedNotification": "Accessum notificationis negasti, pagina occasus inspicias.",
+        "DeniedNotification": "Accessum notificationum negasti. Vide occasus paginae.",
         "InvalidEmail": "Aliquam inscriptio electronica",
         "ReachedMaximumBots": "Maximam partem Automata pervenisti.",
-        "DatabaseError": "Error database.",
+        "DatabaseError": "Errorem databasi, quaeso contactum auxilium.",
         "FailedValidation": "Deficio ad selige agros.",
         "InternalError": "Internus error.",
         "TooLong": "Diutissime",
         "Unavailable": "Pervulgari.",
         "FileTooLarge": "Scapus magna nimis.",
         "TooShort": "Nimis brevis",
-        "AudioPermissionBlock": "Nullus aditus ad tortor ligula, iaculis, commodo reprimendam tui navigatoris configurationem.",
+        "AudioPermissionBlock": "Accessus ad microphonum negatus est. Quaeso, configurationem navigatorii tui recense.",
         "EmailInUse": "Inscriptio in usu est.",
-        "CompromisedPassword": "Hoc password decipitur.",
+        "CompromisedPassword": "Haec combinatio in publicis securitatis databasibus notata est. Quaeso, eligite aliam tesserae.",
         "FailedToReceive": "Servo tuo documentum non accepit.",
         "AlreadyOnboarded": "Iam complevit navem.",
         "IoError": "Servo errorem offendit ego/O.",
@@ -1017,7 +1044,9 @@
         "UnverifiedAccount": "Ratio subsignata.",
         "MissingData": "Petitio deest data.",
         "MissingInvite": "Absentis invitare codicem in petitione.",
-        "AlreadySentRequest": "Iam rogaverunt hunc usum."
+        "AlreadySentRequest": "Iam rogaverunt hunc usum.",
+        "DiscriminatorChangeRatelimited": "Nimia mutatio etiquettarum.",
+        "LockedOut": "Nimium conatus adire. Iterum postea tenta aut tesserae renovationem fac."
     },
     "dayjs": {
         "defaults": {
@@ -1039,6 +1068,10 @@
         "members": {
             "many": "{{count}} Sodales",
             "one": "1 membrum"
+        },
+        "dropFiles": {
+            "one": "Infige fasciculum",
+            "many": "Depone {{count}} fasciculos hic"
         }
     },
     "actions": {
@@ -1046,5 +1079,41 @@
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
+    },
+    "keys": {
+        "Backspace": {
+            "short": "Clavis Retrogradus"
+        },
+        "PageUp": {
+            "full": "Pagina Sursum",
+            "short": "Pag. Sur"
+        },
+        "PageDown": {
+            "short": "Pag. Deo",
+            "full": "Pagina Deorsum"
+        },
+        "PrintScreen": {
+            "full": "Imprime Schermum",
+            "short": "Imp. Sch"
+        },
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "ScrollLock": {
+            "full": "Commutare movimentum",
+            "short": "CMo"
+        },
+        "CapsLock": {
+            "full": "Majusculae"
+        }
     }
 }
