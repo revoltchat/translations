@@ -90,7 +90,7 @@
                     "token": "トークン",
                     "public_bot_tip": "ボットは公開されています。誰でも招待することができます。",
                     "public_bot": "公開ボット",
-                    "public_bot_desc": "他のユーザーが、このボットを招待することができるかどうか。",
+                    "public_bot_desc": "可能にすると、他のユーザーがサーバーとグループ会話にこのボットを招待することができるようになります。",
                     "interactions_url": "インタラクションURL",
                     "reserved": "注：このフィールドは将来のために予約されています。",
                     "unique_id": "これはあなたのボットの固有の識別子です。ボットのトークンではありません。",
@@ -132,8 +132,8 @@
                         "message": "メッセージ受信"
                     },
                     "descriptions": {
-                        "enable_push": "オフライン時に通知を受け取るようにする。",
-                        "enable_desktop": "これにより、アプリを開いている間、通知を受け取ることができます。"
+                        "enable_push": "可能にすると、オフライン時に通知を受け取るようにする。",
+                        "enable_desktop": "可能にすると、アプリを開いている間、通知を受け取ることができます。"
                     },
                     "sounds": "サウンド",
                     "push_notifications": "プッシュ通知",
@@ -172,7 +172,7 @@
                     "theme_options": {
                         "title": "テーマ設定",
                         "follow": "システムテーマを使用する",
-                        "follow_desc": "チェックを入れると、テーマを変更したりカスタムテーマを使用したりすることができなくなります。",
+                        "follow_desc": "可能にすると、テーマを変更したりカスタムテーマを使用したりすることができなくなります。",
                         "seasonal_desc": "ホリデーシーズン中、ホームタブにエフェクトを表示します。",
                         "seasonal": "季節のテーマ",
                         "transparency": "透明効果",
@@ -184,7 +184,7 @@
                     },
                     "appearance_options": {
                         "show_send": "常にメッセージ送信ボタンを表示する",
-                        "show_send_desc": "無効の場合、送信ボタンはスマホでのみ表示されます。",
+                        "show_send_desc": "無効のすると、送信ボタンはスマホでのみ表示されます。",
                         "title": "外観の設定",
                         "show_account_age": "メッセージの横に常にアカウントの年齢を表示する",
                         "show_account_age_desc": "無効にすると、年齢は新しいユーザーに対してのみ表示されます。"
@@ -207,7 +207,7 @@
                     "input_device": "マイク",
                     "title": "音声設定",
                     "device_label_NA": "該当無し",
-                    "tip_retry": "マイクの使用許可がありません。もう一度{{retryBtn}}。",
+                    "tip_retry": "マイクの権限をRevoltにあげません。もう一度{{retryBtn}}。",
                     "button_retry": "再試行",
                     "tip_grant_permission": "オーディオ設定にアクセスするには、権限を付与する必要があります。",
                     "button_grant": "許可を与える"
@@ -343,7 +343,20 @@
                             "description": "現在の入力を強制的に送信するために使用される高度なキー操作。\n一部のチェックや他のキー操作を無視して実行されることがあります。これには、オートコンプリートの選択を確定せずにメッセージを送信する場合などが含まれます。"
                         },
                         "messaging_scroll_to_bottom": {
-                            "title": "メッセージの一番下までスクロール"
+                            "title": "メッセージの一番下までスクロール",
+                            "description": "メッセージビューの一番下までスクロールします"
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "チャンネルを既読としてマークする",
+                            "description": "現在のチャンネルを既読にする。"
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "実験的セーフモードの切り替え",
+                            "description": "これにより、すべての実験的機能を一括で有効化/無効化します。"
+                        },
+                        "navigate_previous_context": {
+                            "description": "設定ページ、モーダル、ポップアップを閉じて前のコンテキストに戻るための高度なキー割り当て。",
+                            "title": "前のコンテキストに戻る"
                         }
                     }
                 }
@@ -538,7 +551,7 @@
                 "signed_out": "ログアウトしました！",
                 "onboarding": {
                     "welcome": "ようこそ",
-                    "pick": "他のユーザーから検索されるように名前を決めましょう。この名前は後でも設定から変更できます。"
+                    "pick": "他のユーザーから検索されるように名前を決めましょう。この名前は後でもユーザーの設定から変更できます。"
                 },
                 "prompt": {
                     "confirm_delete_long": "一度削除してしまうと、元に戻すことはできません。",
@@ -564,7 +577,8 @@
                     "change": {
                         "email": "メールアドレスの変更",
                         "password": "パスワードの変更",
-                        "username": "ユーザー名の変更"
+                        "username": "ユーザー名の変更",
+                        "display_name": "表示名を変更"
                     },
                     "failed": "変更に失敗しました！"
                 },
@@ -611,7 +625,7 @@
                     "attempting": "アップデート試行中…",
                     "title": "このクライアントは古いバージョンですよ！",
                     "description": "最新の変更に対応するため、アップデートが必要です。",
-                    "version": "このクライアントのバージョンは {{client}} ですが、サーバーは {{server}} を要求しています。"
+                    "version": "このクライアントのバージョンは{{client}}ですが、サーバーは{{server}}を要求しています。"
                 },
                 "sessions": {
                     "title": "本当に全部のセッションを終了しますか?",
@@ -622,7 +636,7 @@
                 "mfa": {
                     "recovery_codes": "あなたの回復コード",
                     "save_codes": "安全な場所に保存しておいてください。",
-                    "confirm": "選択された方法で確認してください。",
+                    "confirm": "選択された方法でこの活動を確認してください。",
                     "enter_code": "コード入力",
                     "select_method": "要求を認証する方法を選んでください。",
                     "enable_totp": "認証アプリを使えるようにする",
@@ -656,6 +670,10 @@
                         "Harassment": "他のユーザーを対象とした嫌がらせや罵倒"
                     },
                     "block_user": "このユーザーをブロックしますか？"
+                },
+                "edit_keybind": {
+                    "title": "{{action}} のキー割り当てを編集",
+                    "placeholder": "キーを押して記録"
                 }
             },
             "popovers": {
@@ -745,7 +763,7 @@
             "block_user": "ユーザーのブロック",
             "add_friend": "友達に追加",
             "remove_friend": "友人の削除",
-            "cancel_friend": "リクエストのキャンセル",
+            "cancel_friend": "友達のリクエストをキャンセル",
             "clear_status": "ステータスのクリア",
             "leave_group": "グループ離脱",
             "close_dm": "DMを閉じる",
@@ -772,7 +790,10 @@
             "make_owner": "所有権の付与",
             "report_message": "メッセージを報告",
             "report_user": "ユーザーを報告",
-            "report_server": "サーバーを報告"
+            "report_server": "サーバーを報告",
+            "accept_friend": "フレンド申請を承認",
+            "reject_friend": "フレンド申請を拒否",
+            "edit_your_identity": "自己情報を編集する"
         },
         "permissions": {
             "required": "権限が必要です"
@@ -824,7 +845,7 @@
             "invite": "招待コードを入力してください。",
             "password": "パスワードを入力してください。",
             "email": "メールアドレスを入力してください。",
-            "username": "ユーザー名を入力してください。",
+            "username": "好きなユーザー名を入力してください。",
             "new_password": "新しいパスワードを入力してください。"
         },
         "current_password": "現在のパスワード",
@@ -970,7 +991,7 @@
             "d": "メンバーがメッセージごとに名前とアバターを変更できるようにします。"
         },
         "ManageRole": {
-            "d": "メンバーが自分より低いランクのロールを作成、編集、削除できるようにします。また、チャンネル上のロールの権限を変更することもできます。",
+            "d": "メンバーが自分より低いランクのロールを作成と、編集と、削除のようにするし、チャンネルのロールの権限も変更するのを許します。",
             "t": "ロールの管理"
         },
         "ViewChannel": {
@@ -1078,6 +1099,28 @@
         },
         "Delete": {
             "short": "Del"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "Backspace": {
+            "short": "バックスペース"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "ScrollLock": {
+            "full": "スクロールロック",
+            "short": "ScrLK"
+        },
+        "CapsLock": {
+            "full": "キャプスロック"
+        },
+        "PrintScreen": {
+            "full": "プリントスクリーン",
+            "short": "PrtSc"
         }
     }
 }

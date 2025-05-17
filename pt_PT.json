@@ -65,7 +65,7 @@
             "d": "Permite que os membros alterem o seu nome e avatar em cada mensagem."
         },
         "ManageRole": {
-            "d": "Permite criar, editar e eliminar cargos inferiores aos próprios. Permite também alterar as permissões do cargo nos canais.",
+            "d": "Permite aos membros criar, editar e apagar cargos com um rank inferior ao deles, e modificar as permissões de cargos nos canais.",
             "t": "Gerir cargos"
         },
         "ViewChannel": {
@@ -135,7 +135,7 @@
     "error": {
         "ReachedMaximumBots": "Atingiste o número máximo de robôs.",
         "CompromisedPassword": "Esta palavra-passe está comprometida.",
-        "DeniedNotification": "Negaste o acesso a notificações. Verifica as configurações da página.",
+        "DeniedNotification": "Negaste o acesso às notificações. Verifica as configurações da página.",
         "UnsupportedBrowser": "O navegador não suporta esta funcionalidade.",
         "IoError": "O servidor encontrou um erro de I/O.",
         "ProbeError": "Falha ao obter informação de metadados do ficheiro.",
@@ -174,7 +174,7 @@
         "Unlabelled": "Algo se passou.",
         "Unauthorized": "Não autorizado.",
         "NetworkError": "Erro de rede.",
-        "AudioPermissionBlock": "Para aceder ao teu microfone, por favor verifica as definições do teu navegador.",
+        "AudioPermissionBlock": "Sem acesso ao teu microfone. Por favor, verifica as definições do teu navegador.",
         "DiscriminatorChangeRatelimited": "Demasiadas mudanças de discriminador."
     },
     "notifications": {
@@ -262,7 +262,10 @@
             "make_owner": "Transferir posse do grupo",
             "report_message": "Denunciar mensagem",
             "report_user": "Denunciar utilizador",
-            "report_server": "Denunciar servidor"
+            "report_server": "Denunciar servidor",
+            "accept_friend": "Aceitar pedido de amizade",
+            "reject_friend": "Rejeitar pedido de amizade",
+            "edit_your_identity": "Editar a sua identidade"
         },
         "special": {
             "invite": {
@@ -349,7 +352,8 @@
                     "change": {
                         "password": "Alterar a tua palavra-passe",
                         "email": "Alterar o teu e-mail",
-                        "username": "Alterar o teu nome de utilizador"
+                        "username": "Alterar o teu nome de utilizador",
+                        "display_name": "Alterar o seu nome de exibição"
                     }
                 },
                 "prompt": {
@@ -365,7 +369,7 @@
                     "confirm_delete_message_long": "Tens a certeza de que queres eliminar isto?",
                     "confirm_delete_long": "Assim que for eliminado, não há como voltar atrás.",
                     "confirm_delete": "Eliminar {{name}}?",
-                    "confirm_close_dm_long": "Poderás reabri-la mais tarde mas irá desaparecer para ambos os lados.",
+                    "confirm_close_dm_long": "Poderás reabri-la mais tarde, mas irá desaparecer para ambos os lados.",
                     "confirm_close_dm": "Fechar a conversa com {{name}}?",
                     "confirm_leave_long": "Não poderás reentrar a menos que sejas convidado novamente.",
                     "confirm_leave": "Sair de {{name}}?",
@@ -392,9 +396,9 @@
                 "confirm": "Confirmar ação",
                 "mfa": {
                     "save_codes": "Por favor, guarda-os num local seguro.",
-                    "confirm": "Por favor, confirma utilizando o método selecionado.",
+                    "confirm": "Por favor, confirma esta ação utilizando o método selecionado.",
                     "enable_totp": "Ativar autenticador",
-                    "prompt_totp": "Por favor, digitaliza o código ou utiliza o testemunho abaixo no teu autenticador.",
+                    "prompt_totp": "Por favor, digitaliza o código ou utiliza o token abaixo no teu autenticador.",
                     "enter_code": "Inserir código",
                     "recovery_codes": "Os teus códigos de recuperação",
                     "select_method": "Por favor, seleciona um método para autenticar o teu pedido."
@@ -473,7 +477,7 @@
                     "a": "Queres personalizar o teu perfil público?"
                 },
                 "sessions": {
-                    "b": "salvaguarda a tua conta alterando a tua palavra-passe e utilizando A2F.",
+                    "b": "protege a tua conta alterando a tua palavra-passe e utilizando A2F.",
                     "a": "Se reparares numa sessão desconhecida nesta lista,"
                 },
                 "languages": {
@@ -485,12 +489,12 @@
                 "bots": {
                     "create_bot": "Criar um robô",
                     "title": "Os meus robôs",
-                    "reserved": "Nota: Este campo está reservado para o futuro.",
+                    "reserved": "Nota: este campo está reservado para o futuro.",
                     "interactions_url": "URL de interações",
-                    "public_bot_desc": "Se permites ou não que outros utilizadores convidem este robô.",
+                    "public_bot_desc": "Se estiver ativado, outros utilizadores poderão adicionar este bot a servidores e grupos.",
                     "public_bot": "Robô público",
-                    "private_bot_tip": "Robô privado. Apenas tu podes convidá-lo.",
-                    "public_bot_tip": "Robô público. Qualquer pessoa pode convidá-lo.",
+                    "private_bot_tip": "Este bot é privado. Só tu podes convidá-lo.",
+                    "public_bot_tip": "Este bot é público. Qualquer pessoa pode convidá-lo.",
                     "token": "Testemunho (token)",
                     "add": "Adicionar robô",
                     "copy_invite": "Copiar link de convite",
@@ -513,7 +517,7 @@
                     "descriptions": {
                         "locale": "Isto irá sincronizar o idioma atualmente escolhido.",
                         "theme": "Isto irá sincronizar o teu tema escolhido, cores e qualquer CSS personalizado.",
-                        "appearance": "Isto irá sincronizar opções como estilos de emoji e a densidade de mensagens."
+                        "appearance": "Isto irá sincronizar as opções de aparência, como o pacote de emojis escolhido e a densidade das mensagens."
                     },
                     "categories": "Categorias de sincronização",
                     "title": "Sincronização",
@@ -573,7 +577,7 @@
                     "theme_options": {
                         "title": "Opções de temas",
                         "follow": "Seguir tema do sistema",
-                        "follow_desc": "Quando selecionado, não será possível alterar o tema ou usar um tema personalizado.",
+                        "follow_desc": "Se isto estiver ativado, não será possível alterar o teu tema ou usar um tema personalizado.",
                         "seasonal": "Tema sazonal",
                         "seasonal_desc": "Exibe efeitos na página inicial durante épocas festivas.",
                         "transparency": "Efeitos de transparência",
@@ -586,9 +590,9 @@
                     "appearance_options": {
                         "title": "Opções de aparência",
                         "show_send": "Mostrar o botão \"Enviar mensagem\" sempre",
-                        "show_send_desc": "Quando desativada, o botão de \"Enviar mensagem\" só aparecerá no telemóvel.",
+                        "show_send_desc": "Se isto estiver desativado, o botão Enviar Mensagem só aparecerá no telemóvel.",
                         "show_account_age": "Mostrar sempre idade da conta junto das mensagens de entrada",
-                        "show_account_age_desc": "Quando desativada, a idade da conta só será mostrada para novos utilizadores."
+                        "show_account_age_desc": "Se isto estiver desativado, a idade da conta só será mostrada para novos utilizadores."
                     },
                     "colours": {
                         "title": "Cores"
@@ -608,7 +612,7 @@
                     "input_device": "Microfone",
                     "title": "Definições de voz",
                     "device_label_NA": "N/D",
-                    "tip_retry": "Não deste permissão para aceder ao teu microfone. Por favor, {{retryBtn}}.",
+                    "tip_retry": "Não deste permissão ao Revolt para aceder ao teu microfone. Por favor, {{retryBtn}}.",
                     "button_retry": "tenta novamente",
                     "tip_grant_permission": "Precisas de dar permissão para aceder às configurações de áudio.",
                     "button_grant": "Dar permissão"
@@ -634,10 +638,11 @@
                     "manage": {
                         "delete": "Marcar conta para eliminação",
                         "disable": "Desativar conta",
-                        "description": "Desativa ou elimina a tua conta a qualquer momento. Isto terminará a tua sessão e eliminará por completo a tua conta, incluindo o teu histórico de conversa e amigos.",
+                        "description": "Desative ou elimine a sua conta a qualquer momento. Ambas as ações irão desconectá-lo das suas sessões ativas.",
                         "title": "Gestão de conta",
                         "delete_description": "A tua conta e todos os seus dados (incluindo mensagens e lista de amigos) serão colocados em fila de espera para serem eliminados. Enviamos um e-mail de confirmação - pode cancelar esta ação contactando o serviço de apoio no prazo de 7 dias.",
-                        "disable_description": "Você não poderá acessar sua conta a menos que entre em contato com o suporte – entretanto, seus dados não serão excluídos."
+                        "disable_description": "Não vais conseguir aceder à tua conta a não ser que contactes o suporte - mas os teus dados não serão apagados.",
+                        "delete_still_own_servers": "Não é possível apagar a conta até os servidores serem apagados ou transferidos"
                     },
                     "2fa": {
                         "remove_auth": "Remover autenticador",
@@ -684,7 +689,7 @@
                 },
                 "plugins": {
                     "title": "Extensões",
-                    "wip": "Aviso: Esta funcionalidade ainda está em desenvolvimento.",
+                    "wip": "Aviso: esta funcionalidade ainda está em desenvolvimento.",
                     "delete_plugin": "Eliminar",
                     "no_plugins": "De momento, não está nenhuma extensão instalada."
                 },
@@ -1044,7 +1049,7 @@
             "invite": "Introduz o teu código de convite.",
             "password": "Introduz a tua palavra-passe.",
             "email": "Introduz o teu e-mail.",
-            "username": "Introduz o teu nome de utilizador.",
+            "username": "Introduz o teu nome de utilizador preferido.",
             "new_password": "Insere uma nova palavra-passe."
         },
         "password": "Palavra-passe",

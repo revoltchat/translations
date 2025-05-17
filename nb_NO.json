@@ -160,7 +160,8 @@
                         "title": "Kontohåndtering",
                         "description": "Deaktiver eller slett kontoen din når du vil. Begge handlingene vil logge deg ut av dine aktive økter.",
                         "delete_description": "Kontoen din og all dataen din (inkludert meldingene dine og vennelisten) vil bli satt i kø for sletting. En bekreftelses-e-post vil bli sendt – du kan avbryte dette innen 7 dager ved å kontakte brukerstøtte.",
-                        "disable_description": "Du får ikke tilgang til kontoen din før du tar kontakt med brukerstøtte. Men vær trygg, dataene dine vil ikke bli slettet."
+                        "disable_description": "Du får ikke tilgang til kontoen din før du tar kontakt med brukerstøtte. Men vær trygg, dataene dine vil ikke bli slettet.",
+                        "delete_still_own_servers": "Kan ikke slette konto før servere er slettet eller overført"
                     },
                     "2fa": {
                         "remove_auth": "Fjern identitetsbekrefter",
@@ -214,6 +215,40 @@
                     "descriptions": {
                         "reduced_motion": "Hvis dette er aktivert, vil animasjoner og bevegelseseffekter ikke spille av, eller de vil være mindre intense."
                     }
+                },
+                "keybinds": {
+                    "action": {
+                        "navigate_channel_up": {
+                            "title": "Naviger til den forrige kanalen",
+                            "description": "Naviger til den forrige kanalen."
+                        },
+                        "navigate_channel_down": {
+                            "title": "Naviger til den neste kanalen",
+                            "description": "Naviger til den neste kanalen."
+                        },
+                        "navigate_server_up": {
+                            "description": "Naviger til den forrige serveren.",
+                            "title": "Naviger til den forrige serveren"
+                        },
+                        "navigate_server_down": {
+                            "title": "Naviger til den neste serveren",
+                            "description": "Naviger til den neste serveren."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Marker kanal som lest"
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Bla til bunnen av meldinger"
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "Rediger forrige melding"
+                        }
+                    },
+                    "category": {
+                        "advanced": "Avansert",
+                        "navigation": "Navigasjon"
+                    },
+                    "title": "Taster"
                 }
             },
             "server_pages": {
@@ -387,7 +422,7 @@
                 "failed_upload": "Kunne ikke laste opp!",
                 "uploading_file": "Laster opp …",
                 "message_saved": "Lagre i notater",
-                "message_who": "Send melding til {{person}}",
+                "message_who": "Send melding til @{{person}}",
                 "message_where": "Send melding til {{channel_name}}",
                 "errors": {
                     "nochannel": "Ingen kanal",
@@ -953,7 +988,7 @@
             "invite": "Skriv inn invitasjonskoden din.",
             "password": "Skriv inn passordet ditt.",
             "email": "Skriv inn e-postadressen din.",
-            "username": "Skriv inn brukernavnet ditt.",
+            "username": "Skriv inn det foretrukne brukernavnet ditt.",
             "new_password": "Skriv inn et nytt passord."
         },
         "current_password": "Nåværende passord",

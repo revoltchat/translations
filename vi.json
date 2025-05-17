@@ -5,9 +5,9 @@
         "on": "Bật",
         "off": "Tắt",
         "image_by": "Hình ảnh bởi",
-        "privacy": "Chính Sách Bảo Mật",
-        "about": "Về chúng tôi",
-        "tos": "Điều Khoản Dịch Vụ",
+        "privacy": "Chính sách Bảo mật",
+        "about": "Giới thiệu",
+        "tos": "Điều khoản Dịch vụ",
         "unavailable": "Không khả dụng",
         "learn_more": "Tìm hiểu thêm"
     },
@@ -17,9 +17,9 @@
         "username": "Tên Người Dùng",
         "email": "Email",
         "password": "Mật Khẩu",
-        "invite": "Mã Lời Mời",
+        "invite": "Mã mời",
         "forgot": "Quên mật khẩu?",
-        "new": "Lần đầu tại Revolt?",
+        "new": "Lần đầu đến Revolt?",
         "existing": "Đã có tài khoản?",
         "enter": {
             "password": "Nhập mật khẩu của bạn.",
@@ -257,10 +257,10 @@
                         "show_account_age_desc": "Nếu bị tắt, tuổi của tài khoản sẽ chỉ hiện thị đối với những người dùng mới."
                     },
                     "fonts": {
-                        "title": "Phông Chữ"
+                        "title": "Phông chữ"
                     },
                     "advanced_options": {
-                        "title": "Tùy Chọn Nâng Cao"
+                        "title": "Tùy chọn nâng cao"
                     },
                     "colours": {
                         "title": "Màu sắc"
@@ -306,8 +306,8 @@
                     "edit_profile": "Chỉnh Sửa Hồ Sơ"
                 },
                 "sessions": {
-                    "title": "Các Phiên",
-                    "active_sessions": "Các Phiên Đang Hoạt Động",
+                    "title": "Các phiên đăng nhập",
+                    "active_sessions": "Các phiên đăng nhập đang hoạt động",
                     "this_device": "Thiết Bị Này",
                     "created": "Được tạo ra vào {{time_ago}}",
                     "logout": "Thoát ra khỏi mọi phiên khác"
@@ -456,8 +456,44 @@
                             "description": "Chỉnh sửa tin nhắn đã gửi trước đó trong chế độ xem tin nhắn đang được tải."
                         },
                         "auto_complete_up": {
-                            "title": "Lựa Chọn Tự Động Hoàn Thành Trước Đó",
-                            "description": "Duy chuyển"
+                            "title": "Bộ chọn tự hoàn thành trước đó",
+                            "description": "Di chuyển bộ chọn tự hoàn thành vào mục trước."
+                        },
+                        "auto_complete_down": {
+                            "description": "Di chuyển bộ chọn tự hoàn thành đến mục kế.",
+                            "title": "Bộ chọn tự hoàn thành kế tiếp"
+                        },
+                        "auto_complete_select": {
+                            "description": "Xác nhận bộ chọn tự hoàn thành hiện thời.",
+                            "title": "Xác nhận bộ chọn tự hoàn thiện"
+                        },
+                        "input_submit": {
+                            "title": "Gửi dữ liệu nhập",
+                            "description": "Phím nóng nâng cao thường dùng để gửi dữ liệu nhập hiện thời.\nCó thể bao gồm tin nhắn, sửa tin nhắn, từ khóa tìm kiếm, v.v."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "description": "Hành động này sẽ bật/tắt tất cả các thử nghiệm cùng lúc.",
+                            "title": "Bật/tắt chế độ an toàn thử nghiệm"
+                        },
+                        "input_cancel": {
+                            "description": "Phím nóng nâng cao dùng để hủy dữ liệu nhập hiện thời.\nCó thể bao gồm hủy sửa tin nhắn, loại bỏ ảnh chờ tải lên, hoặc các trường hợp tương tự.",
+                            "title": "Hủy dữ liệu nhập"
+                        },
+                        "input_force_submit": {
+                            "description": "Phím nóng nâng cao dùng để bắt buộc gửi dữ liệu nhập hiện thời, bỏ qua một số bước kiểm tra hoặc các phím nóng khác\nCó thể bao gồm việc gửi tin nhắn thay vì xác nhận bộ chọn tự hoàn thiện.",
+                            "title": "Bắt buộc gửi dữ liệu nhập"
+                        },
+                        "navigate_previous_context": {
+                            "title": "Chuyển đến phần ngữ cảnh trước đó",
+                            "description": "Phím nóng nâng cao thường dùng để đóng trang cài đặt, hộp thoại, hoặc popup, và quay lại phần màn hình trước đó."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Cuộn xuống dưới cùng hàng tin nhắn",
+                            "description": "Cuộn về dưới cùng chế độ xem tin nhắn."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Đánh dấu kênh là đã đọc",
+                            "description": "Đánh dấu kênh tin hiện tại là đã đọc."
                         }
                     },
                     "add_keybind": "Thêm phím tắt mới"
@@ -644,7 +680,8 @@
                     "change": {
                         "username": "Thay đổi tên người dùng",
                         "email": "Thay đổi địa chỉ email",
-                        "password": "Thay đổi mật khẩu"
+                        "password": "Thay đổi mật khẩu",
+                        "display_name": "Thay đổi tên hiển thị"
                     },
                     "failed": "Thay đổi thất bại!"
                 },
@@ -691,7 +728,7 @@
                         "Illegal": "Nội dung vi phạm một hoặc nhiều luật",
                         "Malware": "Đây là phần mềm độc hại",
                         "SpamAbuse": "Đây là tin nhắn spam hoặc lợi dụng nền tảng",
-                        "PromotesHarm": "Nội dung quảng bá việc gây hại người khác hay cho bản thân",
+                        "PromotesHarm": "Nội dung khuyến khích gây hại cho người khác hoặc bản thân",
                         "Harassment": "Đây là hành vi quấy rối hoặc lạm dụng nhắm vào người dùng khác"
                     },
                     "reported": "Đã báo cáo",
@@ -704,6 +741,10 @@
                         "Impersonation": "Người dùng này đang mạo danh người khác",
                         "BanEvasion": "Người dùng này đang trốn tránh lệnh cấm"
                     }
+                },
+                "edit_keybind": {
+                    "title": "Sửa phím nóng thực hiện {{action}}",
+                    "placeholder": "Nhấn các phím để ghi lại"
                 }
             },
             "popovers": {
@@ -724,7 +765,7 @@
                     "badges": {
                         "translator": "Phiên dịch viên",
                         "supporter": "Người hỗ trợ dự án",
-                        "responsible_disclosure": "Đã Có Trách Nhiệm Thông Báo Các Vấn Đề Bảo Mật",
+                        "responsible_disclosure": "Đã có trách nhiệm thông báo các vấn đề bảo mật",
                         "early_adopter": "Người hỗ trợ từ những ngày đầu",
                         "moderation": "Điều hành nền tảng",
                         "founder": "Nhà sáng lập"
@@ -812,7 +853,10 @@
             "make_owner": "Trao quyền sở hữu nhóm",
             "report_user": "Báo cáo người dùng",
             "report_server": "Báo cáo server",
-            "report_message": "Báo cáo tin nhắn"
+            "report_message": "Báo cáo tin nhắn",
+            "reject_friend": "Từ chối kết bạn",
+            "accept_friend": "Chấp nhận kết bạn",
+            "edit_your_identity": "Sửa đổi thông tin cá nhân của bạn"
         },
         "permissions": {
             "required": "Yêu cầu quyền"
@@ -1041,5 +1085,41 @@
     },
     "actions": {
         "submit": "Xác nhận"
+    },
+    "keys": {
+        "Delete": {
+            "short": "Del"
+        },
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "PrintScreen": {
+            "full": "Print Screen",
+            "short": "PrtSc"
+        },
+        "ScrollLock": {
+            "full": "Scroll Lock",
+            "short": "ScrLk"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
+        }
     }
 }

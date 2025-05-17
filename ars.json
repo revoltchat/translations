@@ -1,24 +1,24 @@
 {
     "general": {
-        "about": "عن",
-        "tos": "شرط الخدمة",
+        "about": "حول",
+        "tos": "شروط الخدمة",
         "privacy": "سياسة الخصوصية",
         "image_by": "الصورة بواسطة",
-        "loading": "تحميل.",
-        "on": "على",
-        "off": "خارج",
-        "disabled": "معاق",
+        "loading": "جارٍ التحميل…",
+        "on": "مفعل",
+        "off": "غير مفعل",
+        "disabled": "معطل",
         "unavailable": "غير متوفر",
-        "learn_more": "مزيد من المعلومات"
+        "learn_more": "تَعَرَّف على المزيد"
     },
     "login": {
         "title": "تسجيل الدخول",
-        "welcome": "مرحبا بكم!",
-        "subtitle": "Revolt وقع في",
-        "welcome2": "مرحبا",
-        "subtitle2": "انشاء حساب",
-        "register": "السجل",
-        "username": "اسم المستخدم",
+        "welcome": "مرحبا!",
+        "subtitle": "سجل الدخول إلى ريفولت",
+        "welcome2": "!مرحبا",
+        "subtitle2": "أنشئ حسابًا",
+        "register": "ْسٓجِل",
+        "username": "إسم المستخدم",
         "email": "البريد الإلكتروني",
         "password": "كلمة المرور",
         "recovery": "رمز الاسترداد",
@@ -26,135 +26,356 @@
         "current_password": "كلمة المرور الحالية",
         "totp": "تطبيق المصادقة",
         "enter": {
-            "username": ".أدخل اسم المستخدم",
+            "username": "أدخل اسم المستخدم الذي تفضله.",
             "email": ".لو سمحت أدخل بريدك الإلكتروني",
-            "password": ".ادخل كلمة المرور",
+            "password": ".ادخل كلمة المرور الخاصة بك",
             "invite": "ادخل رمز الدعوة الخاص بك.",
-            "new_password": "ادخل كلمة مرور جديدة.",
+            "new_password": "ادخل كلمة المرور الجديدة.",
             "current_password": "ادخل كلمة المرور الحالية."
         },
-        "new_password": "كلمة مرور جديدة",
-        "log_out_other": "اخرج من جميع الجلسات الاخرى",
-        "remembered": "العودة لتسجيل الدخول",
-        "new": "هل انت جديد في Revolt?",
-        "create": "انشاء حساب جديد",
+        "new_password": "كلمة المرور الجديدة",
+        "log_out_other": "سجل الخروج من جميع الجلسات و الأجهزة الاخرى",
+        "remembered": "عد لتسجيل الدخول",
+        "new": "جديد في ريفولت؟",
+        "create": "أنشِئ حساب جديد",
         "set_password": "قم بتعيين كلمة مرور جديدة",
-        "existing": "هل لديك حساب؟",
-        "forgot": "نسيت كلمة المرور?",
+        "existing": "لديك حساب مسبقا؟",
+        "forgot": "نسيت كلمة مرورك؟",
         "reset": "إعادة تعيين كلمة المرور",
         "missing_verification": "ألم تتلق بريدًا إلكترونيًا؟",
-        "resend": "إعادة التحقق",
-        "cancel": "إلغاء الطلب",
-        "check_spam": "يرجى التحقق من البريد العشوائي إذا لم تتمكن من العثور عليه",
-        "open_mail_provider": "{{provider}} افتح",
-        "email_delay": "يُرجى الانتظار مدة تصل إلى 10 دقائق حتى تصل.",
-        "successful_registration": "سجلت بنجاح!",
-        "verifying_account": "التحقق من حسابك…",
+        "resend": "إعادة إرسال رمز التحقيق",
+        "cancel": "ألغي الطلب",
+        "check_spam": "يرجى التحقق من مجلد الرسائل غير المرغوب فيها إذا لم تجدها",
+        "open_mail_provider": "{{provider}} إفتح",
+        "email_delay": "لقد أرسلنا إليك رسالة تحقق عبر البريد الإلكتروني. يُرجى الانتظار حتى 10 دقائق لوصولها.",
+        "successful_registration": "!تم التسجيل بنجاح",
+        "verifying_account": "جاري التحقق من حسابك…",
         "verified_account": "تم التحقق من حسابك!",
         "verified_continue": "استمر في تسجيل الدخول",
         "error": {
-            "create": "فشل في تسجيل!",
+            "create": "حدث فشل في تسجيل الدخول!",
             "login": "فشل في تسجيل الدخول!",
             "resend": "فشل في إعادة الإرسال!",
             "verify": "فشل التحقق!",
-            "reset": "فشلت في إعادة تعيين!"
+            "reset": "فشل في إعادة تعيين!"
         },
-        "check_mail": "راجع بريدك!",
-        "unofficial_instance": "مثيل الطرف الثالث."
+        "check_mail": "ألقي نظرة على بريدك الإلكتروني!",
+        "unofficial_instance": "حالة طرف ثالث."
     },
     "actions": {
-        "submit": "ارسال"
+        "submit": "قدّم"
     },
     "app": {
         "status": {
-            "idle": "بلا عمل",
-            "focus": "ركز",
-            "invisible": "غير مرئي",
-            "offline": "خارج الشبكة",
-            "busy": "لا تزعجني",
-            "online": "على الانترنت",
-            "reconnect": "اعيد الاتصال"
+            "idle": "خامِل",
+            "focus": "مركز",
+            "invisible": "مخفي",
+            "offline": "اوفلاين",
+            "busy": "لا تزعج",
+            "online": "أونلاين",
+            "reconnect": "أعد الإتصال"
         },
         "navigation": {
             "tabs": {
-                "home": "البيت",
-                "dev": "مطور",
+                "home": "الصفحة الرئيسية",
+                "dev": "مُطوِر",
                 "unreads": "رسائل غير مقروءة",
                 "saved": "الملاحظات المحفوظة",
-                "friends": "اصدقاء"
+                "friends": "الأصدقاء"
             }
         },
         "home": {
-            "goto-testers_desc": "تستطيع ان  تقر المشاكل و تتناقش التطويرات معنا هنا مباشرة",
-            "donate": "تبرع ل Revolt",
-            "directs": "الرسائل المباشرة",
-            "join-testers_desc": "تستطيع ان تقر المشاكل و تتناقش التطويرات معنا هنا مباشرة",
-            "discover": "اكتشف Revolt",
+            "goto-testers_desc": "تستطيع ان تبلغ على المشاكل و تناقش التحسينات معنا مباشرة هنا.",
+            "donate": "تبرع لريفولت",
+            "directs": "رسائل الخاص",
+            "join-testers_desc": "يمكنك الإبلاغ عن المشكلات ومناقشة التحسينات معنا مباشرة هنا.",
+            "discover": "اكتشف ريفولت",
             "donate_desc": "ادعم المشروع من خلال التبرع - شكرا!",
-            "feedback": "اعطنا تعليقك عن Revolt",
-            "settings": "افتح الاعدادات",
-            "group_desc": "ادعوا كل اصحابك, بعض الروبوتات الرائعة, و القي حفلة فخمة.",
-            "feedback_desc": "خلينا نعرق كيف نقدر نحسن تطبيقنا من خلال اعطائنا تعليك."
+            "feedback": "أعطِنا ملاحظاتك على ريفولت",
+            "settings": "إفتح الاعدادات",
+            "group_desc": "ادعُ جميع أصدقائك وبعض البوتات الرائعة، وأقم حفلة كبيرة.",
+            "feedback_desc": "خلينا نعرف كيف نقدر نحسن تطبيقنا من خلال اعطائنا ملاحظاتك.",
+            "goto-testers": "اذهب إلى سيرفر المختبرين",
+            "discover_desc": "ابحث عن مجتمع بناءً على هواياتك أو اهتماماتك.",
+            "join-testers": "انضم إلى سيرفر المختبرين",
+            "group": "أنشئ مجموعة",
+            "settings-tooltip": "يمكنك أيضًا النقر بزر الماوس الأيمن على أيقونة المستخدم في الزاوية العلوية اليسرى، أو النقر بزر الماوس الأيسر إذا كنت بالفعل في الصفحة الرئيسية."
         },
         "main": {
             "categories": {
-                "channels": "قنوات",
-                "members": "أعضاء",
-                "conversations": "محادثات"
+                "channels": "رومات",
+                "members": "الأعضاء",
+                "conversations": "محادثات",
+                "participants": "المشاركون"
             },
             "channel": {
                 "message_who": "راسل {{person}}",
                 "message_saved": "احفظ لملحوظاتك",
-                "uploading_file": "يحمل…",
+                "uploading_file": "جاري التحميل…",
                 "failed_upload": "فشل التحميل!",
                 "reply": {
-                    "replying": "الرد على"
+                    "replying": "ردًّا على",
+                    "toggle": "تبديل منبه المؤلف"
                 },
                 "typing": {
                     "several": "العديد من الناس يكتبون…",
-                    "single": "{{user}} يكتب…"
+                    "single": "{{user}} يكتب…",
+                    "multiple": "{{userlist}} و{{user}} يكتبون…"
                 },
                 "system": {
-                    "user_joined": "{{user}} انضم",
+                    "user_joined": "{{user}} إنضم",
                     "user_left": "{{user}} غادر",
-                    "channel_description_changed": "غير {{user}} وصف القناة",
-                    "user_banned": "تم حظر {{user}}",
-                    "channel_renamed": "اعاد {{user}} تسمية القناة الى {{name}}",
-                    "channel_icon_changed": "غير {{user}} ايقونة القناة",
+                    "channel_description_changed": "غير {{user}} وصف الروم",
+                    "user_banned": "{{user}} إنحظر",
+                    "channel_renamed": "اعاد {{user}} تسمية الروم الى {{name}}",
+                    "channel_icon_changed": "غير {{user}} ايقونة الروم",
                     "added_by": "تم اضافة {{user}} من قبل {{other_user}}",
-                    "removed_by": "تم ازالة {{user}} من قبل {{other_user}}"
+                    "removed_by": "تم ازالة {{user}} من قبل {{other_user}}",
+                    "channel_ownership_changed": "{{from}} أعطى {{to}} ملكية القروب",
+                    "registered_at": "تم التسجيل في {{time}}",
+                    "user_kicked": "{{user}} إنطرد"
                 },
                 "start": {
-                    "saved": "هذي بداية ملاحظاتك.",
-                    "group": "هذي بداية محادثتك."
+                    "saved": "هذه بداية ملاحظاتك.",
+                    "group": "هذه بداية محادثتك."
                 },
                 "voice": {
-                    "connected": "تم الاتصال بالمحادثة الصوتية",
-                    "leave": "اطلع"
+                    "connected": "تم الاتصال بالشات الصوتي",
+                    "leave": "إطلع",
+                    "unmute": "فك الكتم",
+                    "mute": "كتم"
                 },
                 "misc": {
                     "blocked_messages": "{{count}} رسائل محظورة",
                     "viewing_old": "عرض الرسائل القديمة",
-                    "jump_present": "اقفز إلى الحاضر",
-                    "jump_beginning": "اقفز لبداية المحادثة",
+                    "jump_present": "إقفز إلى الحاضر",
+                    "jump_beginning": "إقفز لبداية المحادثة",
                     "new_messages": "رسائل جديدة منذ {{time_ago}}",
-                    "failed_load": "فشل تحميل الرسلة.",
-                    "no_sending": "ما عندك الاذن لارسال رسائل في هذي القناة.",
+                    "failed_load": "تعذّر تحميل الرسالة.",
+                    "no_sending": "ما عندك الاذن لارسال رسائل في هذي الروم.",
                     "blocked_user": "مستخدم محظور",
-                    "load_file": "تحميل ملف",
-                    "not_loaded": "فشل تحميل السالة, اضغط للقفز"
+                    "load_file": "تحميل الملف",
+                    "not_loaded": "الرسالة غير محملة، انقر للانتقال",
+                    "spoiler_attachment": "تنبيه حرق",
+                    "sent_file": "أرسل مرفقًا",
+                    "sent_multiple_files": "أرسل مرفقات متعددة",
+                    "timed_out": "لقد تم إعطائك وقت مستقطع إلى حين {{time}}."
                 },
-                "unknown_user": "<مستخدم غير معروف>",
+                "unknown_user": "<مستخدم مجهول>",
                 "bridge": "برج",
-                "edited": "(تم تحريره)",
+                "edited": "(تم التعديل)",
                 "nsfw": {
                     "confirm": "انا اؤكد اني على الاقل 18 سنة من العمر.",
                     "channel": {
-                        "confirm": "ادخل قناة"
+                        "confirm": "ادخل الروم",
+                        "marked": "تم وسم هذه الروم على أنها غير مناسبة للعمل وقد تحتوي على محتوى مخل (NSFW)."
                     }
                 },
-                "message_where": "راسل {{channel_name}}"
+                "message_where": "راسل {{channel_name}}",
+                "reactions": {
+                    "others_reacted": "{{userlist}} و{{count}} آخرون تفاعلوا",
+                    "single_reacted": "شخص واحد تفاعل",
+                    "people_reacted": "{{people}} تفاعلو",
+                    "unknown_reacted": "{{count}} شخصًا تفاعلوا"
+                },
+                "attached_file": "مرفق {{filename}}",
+                "bridged": "تم إرسال الرسالة على منصة أخرى",
+                "team": "التواصل الرسمي",
+                "new_to_revolt": "جديد على ريفولت",
+                "new_to_server": "جديد على هذا السيرفر",
+                "bot": "بوت",
+                "user_timed_out": "تم إيقاف المستخدم مؤقتًا لمدة {{time}}.",
+                "search": {
+                    "title": "البحث",
+                    "sort": {
+                        "relevance": "الصلة",
+                        "latest": "الأحدث",
+                        "oldest": "الأقدم"
+                    }
+                },
+                "errors": {
+                    "nochannels": "هذا السيرفر لا يحتوي على أي رومات، أو أنك لا تملك صلاحية الوصول إلى أيٍ منها.",
+                    "title": "عذرًا، لا يوجد شيء هنا!",
+                    "nochannel": "لا روم"
+                },
+                "notifications": {
+                    "default": "استخدم الإعداد الافتراضي",
+                    "mention": "المنشنات فقط",
+                    "none": "لا شيء",
+                    "muted": "مكتوم",
+                    "all": "كل الرسائل"
+                }
+            },
+            "servers": {
+                "description": "وصف السيرفر",
+                "channel_name": "إسم الروم",
+                "channel_type": "نوع الروم",
+                "custom_banner": "راية مخصصة",
+                "create": "أنشئ سيرفر",
+                "name": "إسم السيرفر",
+                "channel_description": "وصف الروم",
+                "owner": "مدير السيرفر",
+                "category_name": "إسم مقسم الفئة",
+                "text_channel": "روم كتابية",
+                "voice_channel": "روم صوتية"
+            },
+            "groups": {
+                "create": "أنشئ قروب",
+                "name": "إسم القروب",
+                "description": "وصف القروب",
+                "owner": "مدير القروب"
             }
+        },
+        "settings": {
+            "categories": {
+                "client_settings": "إعدادات التطبيق",
+                "danger_zone": "المنطقة الخطيرة",
+                "user_settings": "إعدادات المستخدم"
+            },
+            "actions": {
+                "edit": "عدل {{name}}",
+                "upload": "إرفع",
+                "max_filesize": "(الحد الأقصى {{filesize}})",
+                "remove": "إزالة"
+            },
+            "pages": {
+                "account": {
+                    "title": "حسابي",
+                    "2fa": {
+                        "add_auth": "أضف الموثّق",
+                        "two_factor_on": "التحقُّق الثنائي مفعل حاليًا.",
+                        "two_factor_off": "لم تقم بتشغيل المصادقة الثنائية!",
+                        "title": "المصادقة الثنائية",
+                        "generate_recovery_long": "استعد لاستخدام المصادقة الثنائية من خلال إعداد طريقة استرداد.",
+                        "description": "أضف طبقة إضافية من الأمان عن طريق تفعيل المصادقة الثنائية (2FA) على حسابك.",
+                        "view_recovery": "عرض رموز الاسترداد",
+                        "view_recovery_long": "عرض وتنزيل رموز الاسترداد الخاصة بالمصادقة الثنائية.",
+                        "generate_recovery": "إنشاء رموز الاسترداد",
+                        "remove_auth": "أزل الموثّق"
+                    },
+                    "change_field": "غير",
+                    "unique_id": "هذا مُعرِّف مستخدم فريد لحسابك.",
+                    "manage": {
+                        "title": "إدارة الحسابات",
+                        "delete": "وضع علامة على الحساب للحذف",
+                        "description": "يمكنك تعطيل أو حذف حسابك في أي وقت. ستؤدي كلا الإجراءين إلى تسجيل خروجك من جميع الجلسات و الأجهزة النشطة.",
+                        "disable_description": "لن تتمكن من الوصول إلى حسابك ما لم تتواصل مع الدعم الفني - ومع ذلك، لن يتم حذف بياناتك.",
+                        "delete_still_own_servers": "لا يمكن حذف الحساب حتى يتم حذف السيرفرات أو نقلها",
+                        "disable": "تعطيل الحساب",
+                        "delete_description": "سيتم وضع حسابك وجميع بياناتك (بما في ذلك رسائلك وقائمة أصدقائك) في قائمة الانتظار للحذف. سيتم إرسال رسالة تأكيد عبر البريد الإلكتروني - يمكنك إلغاء ذلك خلال 7 أيام عن طريق الاتصال بالدعم."
+                    }
+                },
+                "appearance": {
+                    "mono_font": "مُخْتَار خُطُوط مونو",
+                    "message_display": "عرض الرسالة",
+                    "advanced": "الخيارات المتقدمة",
+                    "overrides": "تجاوزات السمة",
+                    "ligatures": "ربط الخطوط",
+                    "display": {
+                        "compact_description": "آي آر سي القديمة الجيدة",
+                        "default": "إفتراضي",
+                        "default_description": "جميل، أنيق وحديث",
+                        "compact": "مدمج"
+                    },
+                    "color": {
+                        "light": "فاتح",
+                        "dark": "داكن"
+                    },
+                    "title": "المظهر",
+                    "theme": "السِمَة",
+                    "colours": {
+                        "title": "الألوان"
+                    },
+                    "emoji": {
+                        "title": "إموجي"
+                    },
+                    "fonts": {
+                        "title": "الخطوط"
+                    },
+                    "advanced_options": {
+                        "title": "إعدادات متقدمة"
+                    },
+                    "discover": {
+                        "title": "اكتشف السمات",
+                        "description": "تصفح السمات التي أنشأها المجتمع"
+                    },
+                    "appearance_options": {
+                        "title": "خيارات المظهر",
+                        "show_send": "عرض زر \"إرسال رسالة\" دائمًا",
+                        "show_account_age": "اعرض دائمًا عمر الحساب بجانب رسائل الانضمام",
+                        "show_send_desc": "إذا تم تعطيل هذا، سيظهر زر \"إرسال رسالة\" فقط على الهاتف المحمول.",
+                        "show_account_age_desc": "إذا تم تعطيل هذا، فسيتم عرض عمر الحساب للمستخدمين الجدد فقط."
+                    },
+                    "theme_options": {
+                        "title": "خيارات السمة",
+                        "follow": "اتبع سمة النظام",
+                        "seasonal": "السمة الموسمية",
+                        "seasonal_desc": "يعرض التأثيرات في علامة التبويب الرئيسية خلال مواسم العطلات.",
+                        "transparency_desc": "يتيح تأثيرات الشفافية في جميع أنحاء التطبيق.",
+                        "follow_desc": "إذا تم تفعيل هذا، فلن تتمكن من تغيير السمة أو استخدام سمة مخصصة.",
+                        "transparency": "تأثيرات الشفافية"
+                    },
+                    "emoji_pack": "حزمة الإيموجي",
+                    "reset_overrides": "إعادة تعيين التجاوزات",
+                    "import_theme": "استيراد السمة من السلسلة",
+                    "theme_data": "بيانات السمة",
+                    "custom_css": "تخصيص CSS",
+                    "sync": "خيارات المزامنة",
+                    "font": "الخط",
+                    "accent_selector": "لون التمييز",
+                    "import": "استيراد قالب سمة",
+                    "ligatures_desc": "بالنسبة للخطوط المدعومة، تقوم الروابط (الليجيتور) بدمج الحروف معًا – على سبيل المثال، تحويل \"->\" إلى سهم."
+                },
+                "profile": {
+                    "placeholder": "اكتب شيئًا عن نفسك…",
+                    "profile_picture": "صورة الملف الشخصي",
+                    "title": "الملف الشخصي",
+                    "info": "معلومة",
+                    "fetching": "جاري جلب ملفك الشخصي…",
+                    "custom_background": "خلفية مخصصة",
+                    "edit_background": "عدل الخلفية",
+                    "edit_profile": "عدل الملف الشخصي"
+                },
+                "sessions": {
+                    "logout": "سجل الخروج من جميع السجلات و الأجهزة",
+                    "title": "الجلسات و الأجهزة",
+                    "active_sessions": "الجلسات و الأجهزة الفعالة",
+                    "this_device": "هذا الجهاز",
+                    "created": "تم إنشائه {{time_ago}}"
+                },
+                "audio": {
+                    "title": "إعدادات الصوت",
+                    "input_device": "الميكروفون",
+                    "output_device": "مكبر الصوت / سماعة الرأس",
+                    "tip_grant_permission": "تحتاج إلى منح الإذن للوصول إلى إعدادات الصوت.",
+                    "device_label_NA": "غير متوفر",
+                    "button_retry": "إعادة المحاولة",
+                    "button_grant": "مَنْحُ الإِذْنِ",
+                    "tip_retry": "لم تمنح تطبيق ريفولت إذنًا للوصول إلى الميكروفون الخاص بك. لو سمحت {{retryBtn}}."
+                },
+                "accessibility": {
+                    "reduced_motion": "تخفيض الحركة",
+                    "title": "إمكانية الوصول",
+                    "descriptions": {
+                        "reduced_motion": "إذا تم تمكين هذا، فلن تعمل الرسوم المتحركة وتأثيرات الحركة أو ستكون أقل كثافة."
+                    }
+                },
+                "notifications": {
+                    "enable_desktop": "تفعيل إشعارات سطح المكتب",
+                    "enable_push": "تفعيل الإشعارات الفورية",
+                    "sounds": "الأصوات",
+                    "title": "الإشعارات",
+                    "push_notifications": "إشعارات الفورية",
+                    "sound": {
+                        "message": "تم استلام الرسالة"
+                    },
+                    "descriptions": {
+                        "enable_desktop": "إذا تم تفعيل هذا، ستتلقى الإشعارات أثناء فتح التطبيق.",
+                        "enable_push": "إذا تم تمكين هذا، ستتلقى إشعارات عندما تكون غير متصل بالإنترنت."
+                    }
+                }
+            },
+            "title": "الإعدادات"
         }
     }
 }

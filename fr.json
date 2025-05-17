@@ -1,7 +1,7 @@
 {
     "general": {
         "about": "À propos",
-        "tos": "Conditions d'utilisation",
+        "tos": "Conditions d’utilisation",
         "privacy": "Politique de confidentialité",
         "image_by": "Image de",
         "loading": "Chargement…",
@@ -34,7 +34,7 @@
         "error": {
             "reset": "Échec de la réinitialisation !",
             "create": "La création du compte a échoué !",
-            "login": "La connexion a échoué !",
+            "login": "La connection a échoué !",
             "resend": "Échec du renvoi de l'e-mail !",
             "verify": "Échec de la vérification !"
         },
@@ -47,7 +47,7 @@
         "existing": "Avez-vous déjà un compte ?",
         "username": "Nom d'utilisateur",
         "check_mail": "Vérifiez vos e-mails !",
-        "check_spam": "Vérifiez vos spam si vous ne le trouvez pas",
+        "check_spam": "Vérifiez vos spams si vous ne le trouvez pas",
         "email_delay": "Nous vous avons envoyé un e-mail de vérification. Merci d'attendre jusqu'à 10 minutes pour qu'il arrive.",
         "welcome": "Bienvenue !",
         "subtitle": "Se connecter à Revolt",
@@ -562,8 +562,8 @@
                             "description": "Un raccourci clavier avancé qui est généralement utilisé pour soumettre de force l'entrée actuelle, en ignorant certaines vérifications ou autres raccourcis claviers.\nCela peut inclure l'envoi d'un message au lieu de confirmer la sélection de l'auto-complétion."
                         },
                         "developer_toggle_all_experiments": {
-                            "title": "Basculer vers l'expérience du mode sans échec",
-                            "description": "Cela activera / désactivera toutes les expériences en une fois."
+                            "title": "Activer le mode sans échec de l'expérience",
+                            "description": "Cela activera / désactivera toutes les expériences en même temps."
                         },
                         "input_submit": {
                             "title": "Soumettre l’entrée",
@@ -886,7 +886,7 @@
             "settings": "Ouvrir les paramètres",
             "feedback": "Donnez votre avis sur Revolt",
             "settings-tooltip": "Vous pouvez aussi faire un clic droit sur l'icône utilisateur en haut à gauche, ou un clic gauche si vous êtes déjà sur l'accueil.",
-            "join-testers": "Rejoindre le serveur des testeurs",
+            "join-testers": "Rejoindre le serveur de testeurs",
             "goto-testers": "Se rendre sur le serveur des testeurs",
             "directs": "Messages directs",
             "join-testers_desc": "Vous pouvez y signaler des problèmes et discuter des améliorations à venir avec nous directement.",
@@ -939,7 +939,7 @@
         "UnsupportedBrowser": "Votre navigateur ne supporte pas cette fonctionnalité.",
         "DeniedNotification": "Vous avez refusé l'accès aux notifications, vérifiez vos paramètres.",
         "FailedValidation": "Échec de la validation des champs.",
-        "DatabaseError": "Erreur de la base de données.",
+        "DatabaseError": "Erreur de la base de données, veuillez contacter le support.",
         "InternalError": "Erreur interne.",
         "MissingPermission": "Permission manquante.",
         "InvalidSession": "Session invalide.",
@@ -966,10 +966,11 @@
         "ProbeError": "Échec de la récupération des métadonnées du fichier.",
         "MissingHeaders": "En-têtes manquants.",
         "EmailInUse": "Adresse mail déjà utilisée.",
-        "CompromisedPassword": "Ce mot de passe est compromis.",
+        "CompromisedPassword": "Cette combinaison à été identifiée dans une base de données publique de sécurité. Veuillez choisir un autre mot de passe.",
         "ReachedMaximumBots": "Vous avez atteint le nombre maximum de bots.",
         "AudioPermissionBlock": "Impossible d'accéder à votre microphone. Veuillez vérifier la configuration de votre navigateur.",
-        "DiscriminatorChangeRatelimited": "Tag changé trop de fois."
+        "DiscriminatorChangeRatelimited": "Tag changé trop de fois.",
+        "LockedOut": "Trop de tentatives de connexion, veuillez ressayer plus tard ou réinitialisez votre mot de passe."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"

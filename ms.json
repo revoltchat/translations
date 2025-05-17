@@ -7,7 +7,7 @@
         "enter": {
             "password": "Masukkan kata laluan anda.",
             "email": "Masukkan e-mel anda.",
-            "username": "Masukkan nama pengguna.",
+            "username": "Masukkan nama pengguna pilihan anda.",
             "invite": "Masukkan kod jemputan anda.",
             "current_password": "Masukkan kata laluan semasa anda.",
             "new_password": "Masukkan Kata Laluan Baharu."
@@ -25,7 +25,7 @@
         "cancel": "Batalkan permintaan",
         "create": "Cipta akaun baru",
         "resend": "Hantar semula pengesahan",
-        "check_spam": "Sila semak spam jika anda tidak menjumpainya",
+        "check_spam": "Sila semak folder spam jika anda tidak menjumpainya",
         "open_mail_provider": "Buka {{provider}}",
         "successful_registration": "Daftar berjaya!",
         "error": {
@@ -36,14 +36,14 @@
             "verify": "Gagal mengesahkan!"
         },
         "existing": "Telah mempunyai akaun?",
-        "email_delay": "Sila benarkan sehingga 10 minit untukya sampai.",
+        "email_delay": "Kami telah menghantar e-mel pengesahan. Sila tunggu sehingga 10 minit untuk sampai.",
         "subtitle2": "Cipta Akaun",
         "welcome2": "Hai!",
         "unofficial_instance": "Contoh pihak ketiga.",
         "welcome": "Selamat Datang!",
         "subtitle": "Log masuk ke Revolt",
         "new_password": "Kata Laluan Baharu",
-        "log_out_other": "Log keluar semua sesi lain",
+        "log_out_other": "Log keluar daripada semua sesi lain",
         "totp": "Aplikasi pengesah",
         "recovery": "Kod pemulihan",
         "verifying_account": "Mengesahkan akaun anda…",
@@ -71,7 +71,7 @@
         },
         "main": {
             "channel": {
-                "message_who": "Mesej {{person}}",
+                "message_who": "Mesej @{{person}}",
                 "message_where": "Mesej {{channel_name}}",
                 "message_saved": "Simpan ke nota anda",
                 "uploading_file": "Memuat naik…",
@@ -208,7 +208,8 @@
                         "title": "Pengurusan Akaun",
                         "disable": "Lumpuhkan Akaun",
                         "delete": "Tandai Akaun untuk Pemadaman",
-                        "description": "lumpuh atau hapus akaun anda pada bila-bila masa. Tindakan ini akan mengelog anda keluar dan menghapus sepenuhnya akaun anda, termasuk sejarah sembang dan rakan anda."
+                        "description": "Lumpuhkan atau padam akaun anda pada bila-bila masa. Kedua-dua tindakan akan log anda keluar daripada sesi aktif anda.",
+                        "disable_description": "Anda tidak dibenarkan untuk mengakses akaun anda melainkan anda hubungi support - Walaubagaimanapun, data anda tidak akan dipadam."
                     }
                 },
                 "profile": {
@@ -234,7 +235,7 @@
                     "output_device": "Pembesar suara / Alat dengar",
                     "button_retry": "Cuba semula",
                     "device_label_NA": "N/A",
-                    "tip_retry": "Anda tidak memberi kebenaran untuk mengakses mikrofon anda, sila {{retryBtn}}.",
+                    "tip_retry": "Anda tidak memberi kebenaran untuk Revolt mengakses mikrofon anda. Sila {{retryBtn}}.",
                     "tip_grant_permission": "Anda perlu memberikan kebenaran untuk mengakses tetapan audio.",
                     "button_grant": "Berikan kebenaran"
                 },
@@ -265,7 +266,7 @@
                     "mono_font": "Pemilih Fon Monospace",
                     "ligatures": "Fon Ligatur",
                     "import_theme": "Import tema daripada string",
-                    "ligatures_desc": "Untuk fon yang disokong, pengikat menggabungkan aksara bersama-sama, contohnya, menukar -> menjadi anak panah.",
+                    "ligatures_desc": "Untuk fon yang disokong, pengikat menggabungkan aksara bersama-sama - contohnya, menukar -> menjadi anak panah.",
                     "theme_options": {
                         "follow": "Ikut tema sistem",
                         "title": "Pilihan Tema",
@@ -280,11 +281,23 @@
                         "description": "Semak imbas tema yang dibuat oleh komuniti"
                     },
                     "appearance_options": {
-                        "show_send_desc": "Jika dilumpuhkan, butang Hantar Mesej hanya akan muncul pada mudah alih.",
+                        "show_send_desc": "Jika dilumpuhkan, butang Hantar Mesej hanya akan muncul pada telefon.",
                         "show_account_age_desc": "Jika dilumpuhkan, umur akaun hanya akan ditunjukkan untuk pengguna baharu.",
                         "title": "Pilihan Penampilan",
                         "show_send": "Sentiasa tunjukkan butang Hantar Mesej",
                         "show_account_age": "Sentiasa tunjukkan umur akaun di sebelah menyertai mesej"
+                    },
+                    "fonts": {
+                        "title": "Fon"
+                    },
+                    "advanced_options": {
+                        "title": "Pilihan Lanjutan"
+                    },
+                    "emoji": {
+                        "title": "Emoji"
+                    },
+                    "colours": {
+                        "title": "Warna"
                     }
                 },
                 "notifications": {
@@ -379,6 +392,10 @@
                     "wip": "Amaran: Ciri ini masih dalam pembangunan.",
                     "delete_plugin": "Padam",
                     "no_plugins": "Tiada pemalam dipasang pada masa ini."
+                },
+                "accessibility": {
+                    "reduced_motion": "Pergerakan Dikurangkan",
+                    "title": "Kebolehcapaian"
                 }
             },
             "title": "Tetapan",
@@ -536,7 +553,7 @@
                     "failed": "Pertukaran gagal!"
                 },
                 "actions": {
-                    "ok": "Ok",
+                    "ok": "OK",
                     "ban": "Larang",
                     "kick": "Tendang",
                     "save": "Simpan",
@@ -761,7 +778,7 @@
         "on": "Hidup",
         "off": "Mati",
         "disabled": "Dilumpuhkan",
-        "learn_more": "Lebih maklumat"
+        "learn_more": "Ketahui lebih lanjut"
     },
     "dayjs": {
         "sameDay": "[Hari ini pada] {{time}}",

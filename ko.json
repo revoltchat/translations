@@ -147,7 +147,8 @@
                         "description": "언제든지 계정을 비활성화하거나 삭제할 수 있어요. 이 작업을 수행하면 계정에서 로그아웃되고 채팅 기록 및 친구 목록이 삭제됩니다.",
                         "title": "계정 관리",
                         "delete_description": "귀하의 계정과 모든 데이터(메시지 및 친구 목록 포함)가 삭제 대기 상태가 됩니다. 확인 이메일이 전송됩니다. 지원팀에 문의하여 7일 이내에 취소할 수 있습니다.",
-                        "disable_description": "지원팀에 문의하지 않으면 귀하의 계정에 액세스할 수 없습니다. 그러나 귀하의 데이터는 삭제되지 않습니다."
+                        "disable_description": "지원팀에 문의하지 않으면 귀하의 계정에 액세스할 수 없습니다. 그러나 귀하의 데이터는 삭제되지 않습니다.",
+                        "delete_still_own_servers": "모든 서버가 삭제되거나 이전될 때까지 계정을 삭제할 수 없습니다"
                     },
                     "unique_id": "이 번호는 이 계정의 고유한 식별 번호입니다.",
                     "change_field": "변경"
@@ -206,7 +207,7 @@
                     "appearance_options": {
                         "title": "모양새 옵션",
                         "show_send": "메시지 전송 버튼 항상 표시",
-                        "show_send_desc": "비활성화하면 메시지 전송 버튼이 모바일에서만 나타납니다.",
+                        "show_send_desc": "이 기능을 비활성화하면 메시지 보내기 버튼이 모바일에서만 표시됩니다.",
                         "show_account_age": "항상 가입 메시지 옆에 계정 생성일 표시",
                         "show_account_age_desc": "비활성화하면 계정 생성일이 신규 사용자에게만 표시돼요."
                     },
@@ -276,8 +277,8 @@
                 "logOut": "로그아웃",
                 "notifications": {
                     "title": "알림",
-                    "enable_desktop": "데스크탑 알림 활성화.",
-                    "enable_push": "푸시 알림 활성화.",
+                    "enable_desktop": "데스크탑 알림 활성화",
+                    "enable_push": "푸시 알림 활성화",
                     "push_notifications": "푸시 알림",
                     "descriptions": {
                         "enable_push": "오프라인일 때 알림을 받으려면 활성화하세요.",
@@ -312,7 +313,7 @@
                     "options": "동기화 설정"
                 },
                 "theme_shop": {
-                    "title": "테마 스토어",
+                    "title": "테마 상점",
                     "category": {
                         "highest": "최고 평점",
                         "viewall": "모두 보기",
@@ -568,7 +569,9 @@
             "make_owner": "그룹에 소유권 부여",
             "report_message": "메시지 신고하기",
             "report_user": "사용자 신고하기",
-            "report_server": "서버 신고하기"
+            "report_server": "서버 신고하기",
+            "accept_friend": "친구 요청 수락",
+            "reject_friend": "친구 요청 거절"
         },
         "navigation": {
             "tabs": {

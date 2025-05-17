@@ -7,7 +7,7 @@
             "invite": "Introduïu el codi d'invitació.",
             "password": "Introduïu el mot de pas.",
             "email": "Introduïu la vostra adreça electrònica.",
-            "username": "Introduïu el vostre nom d'usuari.",
+            "username": "Introduïu el vostre nom d'usuari preferit.",
             "new_password": "Introduïu un nou mot de pas."
         },
         "current_password": "Mot de pas actual",
@@ -59,7 +59,7 @@
         "image_by": "Imatge de",
         "privacy": "Política de privadesa",
         "tos": "Termes d'ús",
-        "about": "Quant a",
+        "about": "Quant al Revolt",
         "learn_more": "Més informació"
     },
     "app": {
@@ -215,7 +215,8 @@
                         "disable": "Desactiva el compte",
                         "delete": "Suprimeix el compte",
                         "disable_description": "No podreu accedir al compte tret que us poseu en contacte amb el servei d'assistència, però les dades no se suprimiran.",
-                        "delete_description": "El compte i totes les dades (inclosos els missatges i la llista d'amics) es marcaran per suprimir-los. S'enviarà un correu electrònic de confirmació, podeu cancel·lar-ho en un termini de 7 dies posant-vos en contacte amb el servei d'assistència."
+                        "delete_description": "El compte i totes les dades (inclosos els missatges i la llista d'amics) es marcaran per suprimir-los. S'enviarà un correu electrònic de confirmació, podeu cancel·lar-ho en un termini de 7 dies posant-vos en contacte amb el servei d'assistència.",
+                        "delete_still_own_servers": "No es pot suprimir el compte fins que els servidors s'esborrin o es transfereixin"
                     },
                     "title": "El meu compte",
                     "change_field": "Canvia",
@@ -617,7 +618,7 @@
                 "actions": {
                     "reveal": "Revelar",
                     "cancel": "Cancelar",
-                    "ok": "Aceptar",
+                    "ok": "D'acord",
                     "ban": "Vetar",
                     "kick": "Expulsar",
                     "save": "Guardar",
@@ -670,7 +671,8 @@
                     "change": {
                         "username": "Canvia el nom d'usuari",
                         "email": "Canvia el teu nom d'usuari",
-                        "password": "Canvia la contrasenya"
+                        "password": "Canvia la contrasenya",
+                        "display_name": "Canvia el teu nom a mostrar"
                     },
                     "failed": "S'ha produït un error al guardar els canvis!"
                 },
@@ -690,17 +692,17 @@
                 "mfa": {
                     "recovery_codes": "Els vostres codis de recuperació",
                     "save_codes": "Deseu-los en un lloc segur.",
-                    "confirm": "Confirmeu l'ús del mètode seleccionat.",
+                    "confirm": "Si us plau, confirmeu aquesta acció utilitzant el mètode seleccionat.",
                     "select_method": "Seleccioneu un mètode per a autenticar la vostra petició.",
                     "enable_totp": "Activa l'aplicació d'autenticació",
-                    "prompt_totp": "Escanegeu o utilitzeu el token següent a l'aplicació d'autenticació.",
+                    "prompt_totp": "Si us plau, escanegeu o utilitzeu el codi mostrat a continuació a la teva aplicació d'autenticació.",
                     "enter_code": "Introduïu el codi"
                 },
                 "confirm": "Confirma l'acció",
                 "out_of_date": {
                     "title": "El vostre client no està actualitzat!",
                     "description": "Ha de ser actualitzat per a poder usar els canvis recents.",
-                    "version": "El vostre client és a {{client}}, mentre que el servidor requereix {{server}}.",
+                    "version": "El vostre client és a {{client}}, però el servidor requereix de {{server}}.",
                     "ignore": "Ignora l'actualització",
                     "attempting": "S'està intentant actualitzar…"
                 },
@@ -728,7 +730,7 @@
                         "Underage": "Aquest usuari no té l'edat suficient per tenir un compte"
                     },
                     "message": "Informeu sobre el missatge",
-                    "by_name": "informa sobre {{nom}}",
+                    "by_name": "Informar de {{name}}",
                     "reason": "raó",
                     "additional_context": "Informació adicional",
                     "no_reason": "No s'ha especificat cap motiu / altre motiu"
@@ -782,7 +784,7 @@
                 "accept": "Aceptar invitació",
                 "user_count": "Hi han {{member_count}} usuaris",
                 "invalid": "Invitació invalida!",
-                "invalid_desc": "Potser aquesta invitació no existeix o que no tinguis permís a unir-te."
+                "invalid_desc": "És possible que la invitació no existeixi, o no tinguis accés per unir-te."
             },
             "copy": "Feu clic per copiar",
             "status": {
@@ -832,7 +834,7 @@
             "unblock_user": "Desbloquejar usuari",
             "add_friend": "Afagur amic",
             "remove_friend": "Eliminar amic",
-            "cancel_friend": "Cancelar sol•licitut",
+            "cancel_friend": "Cancel·lar la sol·licitud d'amistat",
             "custom_status": "'Estatus' personalitzat",
             "set_custom_status": "Establir un 'estatus' personalitzat",
             "leave_group": "Abandonar grup",
@@ -851,7 +853,10 @@
             "make_owner": "Doneu la propietat del grup",
             "report_server": "Informeu sobre el servidor",
             "report_message": "Informeu sobre el missatge",
-            "report_user": "informa sobre l'usuari"
+            "report_user": "informa sobre l'usuari",
+            "reject_friend": "Rebutjar la sol·licitud d'amistat",
+            "accept_friend": "Acceptar la sol·licitud d'amistat",
+            "edit_your_identity": "Edita la teva identitat"
         },
         "permissions": {
             "required": "Permisos requerits"
@@ -878,8 +883,8 @@
     "error": {
         "NoEffect": "Aquesta petició no ha affectat.",
         "FailedToReceive": "El servidor ha fallat a rebre el teu arxiu.",
-        "DeniedNotification": "Has denegat l'access a les notificacions, comprova les opcions de la pàgina.",
-        "AudioPermissionBlock": "No hi accés al teu micròfon. Si us plau, miri la configuració del navegador.",
+        "DeniedNotification": "Has rebutjat l'accés a les notificacions. Comprova la configuració de la pàgina.",
+        "AudioPermissionBlock": "No s'ha pogut accedir al teu micròfon. Si us plau, comprova la configuració del teu navegador.",
         "MissingPermission": "Insuficients permissos.",
         "NetworkError": "Error de conexió.",
         "Unauthorized": "Sense permís.",
@@ -987,7 +992,7 @@
         },
         "ManageRole": {
             "t": "Administrar rols",
-            "d": "Permet als membres crear, editar i eliminar els rols de rang inferior al teu. També els permet modificar els permisos dels rols dels canals."
+            "d": "Permet als membres crear, editar i eliminar rols inferiors al seu, i modificar els permisos dels rols als canals."
         },
         "ViewChannel": {
             "d": "Permet als membres veure qualsevol canal en la que tenen aquest permís.",

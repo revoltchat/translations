@@ -242,7 +242,8 @@
                         "disable": "Disable Account",
                         "delete": "Delete Account",
                         "disable_description": "You won't be able to access your account unless you contact support - however, your data will not be deleted.",
-                        "delete_description": "Your account and all of your data (including your messages and friends list) will be queued for deletion. A confirmation email will be sent - you can cancel this within 7 days by contacting support."
+                        "delete_description": "Your account and all of your data (including your messages and friends list) will be queued for deletion. A confirmation email will be sent - you can cancel this within 7 days by contacting support.",
+                        "delete_still_own_servers": "Cannot delete account until servers are deleted or transferred"
                     }
                 },
                 "profile": {
@@ -826,7 +827,7 @@
         "Unauthorized": "Unauthorized.",
         "Unlabelled": "Something happened.",
         "FailedValidation": "Failed to validate fields.",
-        "DatabaseError": "Database error.",
+        "DatabaseError": "Database error, please contact support.",
         "InternalError": "Internal error.",
         "MissingPermission": "Missing permission.",
         "UnknownError": "See console.",
@@ -861,10 +862,11 @@
         "IoError": "Server encountered an I/O error.",
         "UnsupportedBrowser": "Browser is missing support for this feature.",
         "DeniedNotification": "You denied notification access, check page settings.",
-        "CompromisedPassword": "This password is compromised.",
+        "CompromisedPassword": "This combination has been flagged in public security databases. Please choose a different password.",
         "ReachedMaximumBots": "You've reached the maximum amount of bots.",
         "AudioPermissionBlock": "No access to your microphone, please check your browser's configuration.",
-        "DiscriminatorChangeRatelimited": "Too many tag changes."
+        "DiscriminatorChangeRatelimited": "Too many tag changes.",
+        "LockedOut": "Too many login attempts, try again later or reset password."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"

@@ -252,7 +252,8 @@
                         "delete": "Marcar conta para exclusão",
                         "description": "Desative ou exclua sua conta a qualquer momento. Ambas as ações o desconectarão de suas sessões ativas.",
                         "disable_description": "Você não conseguirá acessar sua conta, a menos que entre em contato com o suporte - no entanto, seus dados não serão excluídos.",
-                        "delete_description": "Sua conta e todos os seus dados (inclusive suas mensagens e lista de amigos) serão colocados para exclusão. Um e-mail de confirmação será enviado. Você pode cancelar essa ação em até 7 dias entrando em contato com o suporte."
+                        "delete_description": "Sua conta e todos os seus dados (inclusive suas mensagens e lista de amigos) serão colocados para exclusão. Um e-mail de confirmação será enviado. Você pode cancelar essa ação em até 7 dias entrando em contato com o suporte.",
+                        "delete_still_own_servers": "Não é possível excluir a conta até que os servidores sejam excluídos ou transferidos"
                     },
                     "unique_id": "Este é um identificador de usuário único para sua conta."
                 },
@@ -605,7 +606,8 @@
                     "change": {
                         "email": "Alterar seu e-mail",
                         "username": "Alterar seu nome de usuário",
-                        "password": "Alterar sua senha"
+                        "password": "Alterar sua senha",
+                        "display_name": "Mudar o seu nome de exibição"
                     },
                     "failed": "Falha ao alterar!"
                 },
@@ -1045,7 +1047,7 @@
         "EmailFailed": "Falha ao enviar o e-mail.",
         "UsernameTaken": "Nome de usuário em uso.",
         "AlreadyOnboarded": "Configuração já finalizada.",
-        "CompromisedPassword": "Essa senha está comprometida.",
+        "CompromisedPassword": "Essa combinação foi encontrada em bancos de segurança públicos. Por favor, escolha uma senha diferente.",
         "NetworkError": "Erro de rede.",
         "Unlabelled": "Algo aconteceu.",
         "Unauthorized": "Não autorizado.",
@@ -1060,7 +1062,7 @@
         "BlockedOther": "Esse usuário bloqueou você.",
         "EmailInUse": "E-mail em uso.",
         "FailedValidation": "Falha ao verificar os campos.",
-        "DatabaseError": "Falha no banco de dados.",
+        "DatabaseError": "Falha no banco de dados, por favor contate o suporte.",
         "MissingPermission": "Sem permissão.",
         "FailedToReceive": "O servidor não conseguiu receber seu arquivo.",
         "FileTooLarge": "Arquivo é muito grande.",
@@ -1077,7 +1079,8 @@
         "DeniedNotification": "Você negou o acesso às notificações. Confira suas configurações de usuário.",
         "ReachedMaximumBots": "Você atingiu o limite máximo de bots.",
         "AudioPermissionBlock": "Sem acesso ao seu microfone. Por favor, verifique as configurações do seu navegador.",
-        "DiscriminatorChangeRatelimited": "Muitas alterações de tag."
+        "DiscriminatorChangeRatelimited": "Muitas alterações de tag.",
+        "LockedOut": "Muitas tentativas de login, tente novamente mais tarde ou redefina sua senha."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
