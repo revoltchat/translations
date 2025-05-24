@@ -134,7 +134,7 @@
     },
     "error": {
         "ReachedMaximumBots": "Atingiste o número máximo de robôs.",
-        "CompromisedPassword": "Esta palavra-passe está comprometida.",
+        "CompromisedPassword": "Esta combinação foi assinalada em bases de dados públicas de segurança. Por favor, escolhe uma palavra-passe diferente.",
         "DeniedNotification": "Negaste o acesso às notificações. Verifica as configurações da página.",
         "UnsupportedBrowser": "O navegador não suporta esta funcionalidade.",
         "IoError": "O servidor encontrou um erro de I/O.",
@@ -169,7 +169,7 @@
         "UnknownError": "Verifica a consola.",
         "MissingPermission": "Permissão em falta.",
         "InternalError": "Erro interno.",
-        "DatabaseError": "Erro na base de dados.",
+        "DatabaseError": "Erro na base de dados, por favor contacta o suporte.",
         "FailedValidation": "Falha ao verificar os campos.",
         "Unlabelled": "Algo se passou.",
         "Unauthorized": "Não autorizado.",
@@ -374,7 +374,9 @@
                     "confirm_leave_long": "Não poderás reentrar a menos que sejas convidado novamente.",
                     "confirm_leave": "Sair de {{name}}?",
                     "silent_leave": "Sair silenciosamente",
-                    "members_not_notified": "Os outros membros não serão notificados"
+                    "members_not_notified": "Os outros membros não serão notificados",
+                    "reset_bot_token": "Repor o token de {{name}}?",
+                    "reset_bot_token_long": "Isto irá invalidar o token atual e impedir que quaisquer instâncias existentes do bot continuem a funcionar."
                 },
                 "onboarding": {
                     "pick": "Escolhe um nome de utilizador pelo qual pretendes que as pessoas te consigam encontrar. Poderá ser alterado, mais tarde, nas definições.",
@@ -499,7 +501,8 @@
                     "add": "Adicionar robô",
                     "copy_invite": "Copiar link de convite",
                     "unique_id": "Este é um identificador único para o teu robô. Não é o seu testemunho (token).",
-                    "profile": "Perfil de robô"
+                    "profile": "Perfil de robô",
+                    "reset_token": "Repor Token"
                 },
                 "source_code": "Código-fonte",
                 "donate": {
