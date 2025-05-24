@@ -19,14 +19,14 @@
             "password": "Anna salasanasi.",
             "email": "Anna sähköpostiosoitteesi.",
             "current_password": "Anna nykyinen salasanasi.",
-            "username": "Anna käyttäjätunnuksesi.",
+            "username": "Anna haluamasi käyttäjätunnuksesi.",
             "invite": "Anna kutsukoodisi.",
             "new_password": "Anna uusi salasana."
         },
         "new": "Uusi Revoltin käyttäjä?",
         "create": "Rekisteröidy",
         "title": "Kirjaudu sisään",
-        "check_spam": "Tarkista roskaposti, jos et löydä sitä",
+        "check_spam": "Tarkista roskapostikansiosi, jos et löydä sitä",
         "reset": "Nollaa salasana",
         "current_password": "Nykyinen salasana",
         "error": {
@@ -48,7 +48,7 @@
         "remembered": "Palaa kirjautumiseen",
         "open_mail_provider": "Avaa {{provider}}",
         "cancel": "Peruuta pyyntö",
-        "email_delay": "Joudut odottamaan jopa 10 minuuttia sen saapumista.",
+        "email_delay": "Lähetimme vahvistussähköpostin. Joudut odottamaan jopa 10 minuuttia sen saapumista.",
         "welcome": "Tervetuloa!",
         "subtitle": "Kirjaudu Revoltiin",
         "welcome2": "Hei!",
@@ -115,7 +115,7 @@
                     "group": "Tämä on keskustelusi alku.",
                     "saved": "Tämä on muistiinpanojesi alku."
                 },
-                "message_who": "Viesti henkilölle {{person}}",
+                "message_who": "Viesti henkilölle @{{person}}",
                 "failed_upload": "Lataus epäonnistui!",
                 "unknown_user": "<Tuntematon käyttäjä>",
                 "message_where": "Viesti {{channel_name}}",
@@ -514,7 +514,7 @@
                         "seasonal": "Juhlateema",
                         "title": "Teeman asetukset",
                         "follow": "Noudata järjestelmän teemaa",
-                        "follow_desc": "Kun tämä on käytössä, et voi vaihtaa teemaasi tai käyttää mukautettua teemaa.",
+                        "follow_desc": "Jos tämä on käytössä, et voi vaihtaa teemaasi tai käyttää mukautettua teemaa.",
                         "transparency": "Läpinäkyvyysvaikutukset",
                         "transparency_desc": "Ottaa käyttöön läpinäkyvyystehosteet koko sovelluksessa."
                     },
@@ -526,7 +526,7 @@
                         "title": "Ulkoasuasetukset",
                         "show_send": "Näytä viestinlähetysnappi aina",
                         "show_send_desc": "Jos tämä on pois käytöstä, viestinlähetysnappi näkyy vain mobiililaitteilla.",
-                        "show_account_age_desc": "Jos ei käytössä, tilin ikä näytetään vain uusille käyttäjille.",
+                        "show_account_age_desc": "Jos pois käytöstä, tilin ikä näytetään vain uusille käyttäjille.",
                         "show_account_age": "Näytä käyttäjätilin ikä aina liittymisviestin vieressä"
                     },
                     "colours": {
@@ -572,10 +572,13 @@
                     "title": "Minun tilini",
                     "change_field": "Muuta",
                     "manage": {
-                        "description": "Poista käytöstä tai poista käyttäjäsi milloin vain. Tämä tulee kirjaamaan sinut ulos ja poistamaan kokonaan sinun käyttäjätilisi, myös keskusteluhistoriasi ja kaverisi.",
+                        "description": "Poista käytöstä tai poista tilisi milloin vain. Molemmat kirjaavat sinut ulos aktiivisilta istunnoiltasi.",
                         "title": "Tilin hallinta",
                         "disable": "Poista tili käytöstä",
-                        "delete": "Merkkaa tili poistettavaksi"
+                        "delete": "Merkkaa tili poistettavaksi",
+                        "disable_description": "Et voi käyttää tiliäsi ellet ota yhteyttä tukeen - mutta tietojasi ei poisteta.",
+                        "delete_still_own_servers": "Ei voi poistaa tiliä ellei palvelimia poisteta tai siirretä",
+                        "delete_description": "Tilisi ja kaikki tietosi (mukaan lukien viestit ja kaveriluettelo) asetetaan jonoon poistettavaksi. Saat vahvistussähköpostin - voit peruuttaa tämän 7 päivän kuluessa ottamalla yhteyttä asiakaspalveluun."
                     },
                     "2fa": {
                         "title": "Kaksivaiheinen todennus",
@@ -632,7 +635,7 @@
                     "output_device": "Kaiutin / Kuulokkeet",
                     "button_retry": "yritä uudelleen",
                     "device_label_NA": "Ei käytössä",
-                    "tip_retry": "Et ole antanut käyttöoikeutta mikrofoniisi, ole hyvä ja {{retryBtn}}.",
+                    "tip_retry": "Et ole antanut käyttöoikeutta mikrofoniisi. Ole hyvä ja {{retryBtn}}.",
                     "tip_grant_permission": "Sinun on myönnettävä käyttöoikeus ääniasetuksiin.",
                     "button_grant": "Anna pääsy"
                 },
