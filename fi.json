@@ -304,7 +304,7 @@
                     "reveal": "Paljasta",
                     "block": "Estä",
                     "back": "Mene takaisin",
-                    "leave": "Lähde",
+                    "leave": "Poistu",
                     "ban": "Anna porttikielto",
                     "reset": "Nollaa",
                     "done": "Valmis",
@@ -468,8 +468,8 @@
                     "enable_desktop": "Ota työpöytäilmoitukset käyttöön",
                     "title": "Ilmoitukset",
                     "descriptions": {
-                        "enable_desktop": "Tämä antaa sinulle ilmoituksia kun sovellus on auki.",
-                        "enable_push": "Ota käyttöön ilmoitusten vastaanottaminen offline -tilassa."
+                        "enable_desktop": "Jos tämä on käytössä, saat ilmoituksia kun sovellus on auki.",
+                        "enable_push": "Jos tämä on käytössä, vastaanotat ilmoituksia offline -tilassa."
                     },
                     "sound": {
                         "message": "Viesti vastaanotettu",
@@ -601,7 +601,7 @@
                     "title": "Synkronoi",
                     "descriptions": {
                         "locale": "Tämä synkronoi valitsemasi kielen.",
-                        "appearance": "Tämä synkronoi vaihtoehtoja kuten emojipaketteja ja viestien tiheyttä.",
+                        "appearance": "Tämä synkronoi ulkoasuvaihtoehdot, kuten valitsemasi emojipaketin ja viestin tiheyden.",
                         "theme": "Tämä synkronoi valitsemasi teeman, värit ja mukautetun CSS:n."
                     },
                     "options": "Synkronoinnin asetukset"
@@ -622,12 +622,13 @@
                     "create_bot": "Luo botti",
                     "token": "Merkki",
                     "interactions_url": "Vuorovaikutus-URL",
-                    "public_bot_tip": "Botti on julkinen. Jokainen voi kutsua sen.",
-                    "private_bot_tip": "Botti on yksityinen. Vain sinä voit kutsua sen.",
-                    "reserved": "Huomautus: Tämä kenttä on varattu tulevaisuutta varten.",
+                    "public_bot_tip": "Tämä botti on julkinen. Jokainen voi kutsua sen.",
+                    "private_bot_tip": "Tämä botti on yksityinen. Vain sinä voit kutsua sen.",
+                    "reserved": "Huomautus: tämä kenttä on varattu tulevaisuutta varten.",
                     "unique_id": "Tämä on yksilöllinen tunniste sinun botillesi. Tämä ei ole botin merkki.",
-                    "public_bot_desc": "Annetaanko muiden käyttäjien kutsua tämä botti.",
-                    "profile": "Botin profiili"
+                    "public_bot_desc": "Jos käytössä, muut käyttäjät pystyvät lisäämään tämän botin palvelimiin ja ryhmäkeskusteluihin.",
+                    "profile": "Botin profiili",
+                    "reset_token": "Nollaa todennustunnus"
                 },
                 "audio": {
                     "title": "Ääniasetukset",
@@ -657,7 +658,7 @@
                 },
                 "plugins": {
                     "title": "Laajennukset",
-                    "wip": "Varoitus: Tämä toiminto on edelleen kehityksen alla.",
+                    "wip": "Varoitus: tämä toiminto on edelleen kehityksen alla.",
                     "delete_plugin": "Poista",
                     "no_plugins": "Laajennuksia ei ole tällä hetkellä asennettuna."
                 },
@@ -667,6 +668,14 @@
                     "descriptions": {
                         "reduced_motion": "Jos tämä on käytössä, animaatiot ja liiketehosteet eivät toistu tai ovat vähemmän voimakkaita."
                     }
+                },
+                "keybinds": {
+                    "title": "Pikanäppäimet",
+                    "description": "Näytä ja aseta pikanäppäimet",
+                    "search": "Etsi pikanäppäimiä…",
+                    "add_keybind": "Lisää uusi pikanäppäin",
+                    "edit_keybind": "Muokkaa pikanäppäimiä",
+                    "remove_keybind": "Poista pikanäppäin"
                 }
             },
             "categories": {
