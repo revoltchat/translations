@@ -24,7 +24,7 @@
             "new_password": "Anna uusi salasana."
         },
         "new": "Uusi Revoltin käyttäjä?",
-        "create": "Rekisteröidy",
+        "create": "Luo uusi tili",
         "title": "Kirjaudu sisään",
         "check_spam": "Tarkista roskapostikansiosi, jos et löydä sitä",
         "reset": "Nollaa salasana",
@@ -216,7 +216,7 @@
             "copy_text": "Kopioi teksti",
             "copy_id": "Kopioi tunniste",
             "copy_mid": "Kopioi viestin tunniste",
-            "cancel_friend": "Peruuta pyyntö",
+            "cancel_friend": "Peru ystäväpyyntö",
             "copy_selection": "Kopioi valinta",
             "copy_cid": "Kopioi kanavan tunniste",
             "cancel_message": "Peruuta lähetys",
@@ -244,7 +244,10 @@
             "make_owner": "Anna ryhmän omistajuus",
             "report_user": "Ilmoita käyttäjä",
             "report_server": "Ilmoita palvelin",
-            "report_message": "Ilmoita viesti"
+            "report_message": "Ilmoita viesti",
+            "accept_friend": "Hyväksy kaverippyyntö",
+            "reject_friend": "Hylkää kaveripyyntö",
+            "edit_your_identity": "Muokkaa tunnistettasi"
         },
         "special": {
             "popovers": {
@@ -292,7 +295,7 @@
                     "cancel": "Peruuta",
                     "close": "Sulje",
                     "save": "Tallenna",
-                    "ok": "Ok",
+                    "ok": "OK",
                     "send_email": "Lähetä sähköposti",
                     "reload": "Lataa sovellus uudelleen",
                     "delete": "Poista",
@@ -321,7 +324,8 @@
                     "change": {
                         "email": "Vaihda sähköpostiosoitteesi",
                         "username": "Vaihda käyttäjätunnus",
-                        "password": "Vaihda salasanasi"
+                        "password": "Vaihda salasanasi",
+                        "display_name": "Vaihda näyttönimesi"
                     },
                     "failed": "Muutos epäonnistui!"
                 },
@@ -343,7 +347,9 @@
                     "confirm_ban": "Olet porttikieltämässä {{name}}",
                     "block_user_long": "Oletko varma että haluat estää {{name}}? Hänet poistetaan myös omasta kaveriluettelostasi.",
                     "members_not_notified": "Muille jäsenille ei lähetetä ilmoitusta",
-                    "silent_leave": "Lähde Äänettömästi"
+                    "silent_leave": "Lähde Äänettömästi",
+                    "reset_bot_token_long": "Tämä mitätöi nykyisen tunnuksen ja estää kaikkien olemassa olevien bottiesi ajamisen.",
+                    "reset_bot_token": "Nollataanko {{name}}:n tunnus?"
                 },
                 "error": "Tapahtui virhe!",
                 "onboarding": {
@@ -368,9 +374,9 @@
                     "save_codes": "Talleta nämä turvalliseen paikkaan.",
                     "select_method": "Valitse menetelmä pyyntösi valtuuttamiseksi.",
                     "enable_totp": "Ota valtuutussovellus käyttöön",
-                    "prompt_totp": "Skannaa tai käytä alla olevaa tunnusta valtuutussovelluksessasi.",
+                    "prompt_totp": "Skannaa tai käytä alla olevaa tokenia todennussovelluksessasi.",
                     "enter_code": "Syötä koodi",
-                    "confirm": "Vahvista käyttäen valittua menetelmää."
+                    "confirm": "Vahvista tämä toimenpide valitulla menetelmällä."
                 },
                 "changelogs": {
                     "title": "Muutoslokit",
@@ -407,6 +413,10 @@
                         "Underage": "Tämä käyttäjä ei ole tarpeeksi vanha tiliä varten",
                         "BanEvasion": "Tämä käyttäjä kiertää porttikieltoa"
                     }
+                },
+                "edit_keybind": {
+                    "title": "Muokkaa pikanäppäintä toiminnolle {{action}}",
+                    "placeholder": "Paina näppäimiä tallentaaksesi"
                 }
             },
             "copy_username": "Paina kopioidaksesi käyttäjätunnus",
@@ -620,12 +630,12 @@
                     "add": "Lisää botti",
                     "public_bot": "Julkinen botti",
                     "create_bot": "Luo botti",
-                    "token": "Merkki",
+                    "token": "Tunnus",
                     "interactions_url": "Vuorovaikutus-URL",
                     "public_bot_tip": "Tämä botti on julkinen. Jokainen voi kutsua sen.",
                     "private_bot_tip": "Tämä botti on yksityinen. Vain sinä voit kutsua sen.",
                     "reserved": "Huomautus: tämä kenttä on varattu tulevaisuutta varten.",
-                    "unique_id": "Tämä on yksilöllinen tunniste sinun botillesi. Tämä ei ole botin merkki.",
+                    "unique_id": "Tämä on yksilöllinen tunniste sinun bottisi. Tämä ei ole botin tunnus.",
                     "public_bot_desc": "Jos käytössä, muut käyttäjät pystyvät lisäämään tämän botin palvelimiin ja ryhmäkeskusteluihin.",
                     "profile": "Botin profiili",
                     "reset_token": "Nollaa todennustunnus"
@@ -722,7 +732,20 @@
                             "description": "Kehittynyt pikäppäin, jota käytetään tyypillisesti nykyisen syötteen peruuttaimiseen.\nTähän voi sisältyä viestin muokkauksen peruuttaminen, jonossa olevan kuvan poistaminen tai vastaavat tilanteet."
                         },
                         "messaging_scroll_to_bottom": {
-                            "title": "Vieritä viestien alaosaan"
+                            "title": "Vieritä viestien alaosaan",
+                            "description": "Vierittää viestinäkymän alaosaan."
+                        },
+                        "navigate_previous_context": {
+                            "description": "Edistynyt pikanäppäin, jota käytetään tyypillisesti sulkemaan asetussivu, modal-ikkuna tai ponnahdusikkuna ja palaamaan edelliseen kontekstiin.",
+                            "title": "Siirry edelliseen kontekstiin"
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "Vaihda kokeellisen tilan varma tila",
+                            "description": "Tämä ottaa kaikki kokeelliset toiminnot kerralla käyttöön tai poistaa ne käytöstä."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Merkitse kanava luetuksi",
+                            "description": "Merkitsee nykyisen kanavan luetuksi."
                         }
                     },
                     "reset_keybind": "Palauta pikanäppäin arvoksi {{keybind}}",
@@ -760,11 +783,11 @@
             },
             "tips": {
                 "languages": {
-                    "a": "Puuttuuko haluamasi kieli?",
-                    "b": "Auta lisäämään käännöksiä."
+                    "a": "Olemmeko unohtaneet kielen, jota haluaisit?",
+                    "b": "Auta meitä lisäämällä lisää käännöksiä."
                 },
                 "sessions": {
-                    "b": "suojaa tilisi vaihtamalla salasanasi ja käyttämällä kaksivaiheista tunnistautumista.",
+                    "b": "Varmista tilisi vaihtamalla salasanasi ja ottamalla käyttöön kaksivaiheinen tunnistautuminen (2FA).",
                     "a": "Jos näet tuntemattoman istunnon luettelossa,"
                 },
                 "account": {
@@ -906,7 +929,7 @@
         "Unlabelled": "Jotain tapahtui.",
         "NetworkError": "Verkkovirhe.",
         "InternalError": "Sisäinen virhe.",
-        "DatabaseError": "Tietokanta virhe.",
+        "DatabaseError": "Tietokantavirhe, ota yhteyttä tukeen.",
         "ProbeError": "Tiedoston metatietojen hakeminen epäonnistui.",
         "UnsupportedBrowser": "Selaimesta puuttuu tämän ominaisuuden tuki.",
         "BlockedOther": "Tämä käyttäjä on estänyt sinut.",
@@ -925,7 +948,7 @@
         "AlreadyFriends": "Olet jo ystäviä tämän käyttäjän kanssa.",
         "Unavailable": "Ei saatavilla.",
         "DeniedNotification": "Estit ilmoitusten käytön, tarkista sivun asetukset.",
-        "CompromisedPassword": "Tämä salasana on vaarantunut.",
+        "CompromisedPassword": "Tätä yhdistelmää on merkitty julkisissa tietoturvatietokannoissa. Valitsethathan toisen salasanan.",
         "MissingData": "Pyynnöstä puuttuu tietoja.",
         "MissingInvite": "Kutsukoodi puuttuu pyynnöstä.",
         "EmailFailed": "Sähköpostin lähettäminen epäonnistui.",
@@ -934,7 +957,9 @@
         "FailedToReceive": "Palvelin ei saanut sinun tiedostoasi.",
         "MissingHeaders": "Otsikot puuttuvat.",
         "MissingPermission": "Puuttuva lupa.",
-        "AlreadyOnboarded": "Onboarding on jo valmis."
+        "AlreadyOnboarded": "Onboarding on jo valmis.",
+        "DiscriminatorChangeRatelimited": "Liian monta tunnuksen (tagin) muutosta.",
+        "LockedOut": "Liian monta kirjaautumisyritystä, yritä uudelleen myöhemmin tai nollaa salasana."
     },
     "notifications": {
         "sent_request": "@{{person}} lähetti sinulle kaveripyynnön.",
@@ -1009,7 +1034,7 @@
             "t": "Naamio"
         },
         "ManageRole": {
-            "d": "Antaa jäsenten luoda, muokata ja poistaa rooleja, joilla on pienempi ränkki kuin heillä. Antaa heidän myös muokata roolien lupia kanavoilla.",
+            "d": "Sallii jäsenille luoda, muokata ja poistaa alempiarvoisia rooleja sekä muokata roolien oikeuksia kanavissa.",
             "t": "Hallitse rooleja"
         },
         "ViewChannel": {
@@ -1075,5 +1100,41 @@
     },
     "actions": {
         "submit": "Lähetä"
+    },
+    "keys": {
+        "CapsLock": {
+            "full": "Caps Lock"
+        },
+        "PrintScreen": {
+            "full": "Print Screen",
+            "short": "PrtSc"
+        },
+        "PageDown": {
+            "short": "PgDown",
+            "full": "Page Down"
+        },
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "ScrollLock": {
+            "short": "ScrLK",
+            "full": "Scroll Lock"
+        }
     }
 }
