@@ -674,7 +674,9 @@
                     "members_not_notified": "Outros membros não serão notificados",
                     "confirm_close_dm_long": "Você pode reabri-lo mais tarde, mas ele desaparecerá em ambos os lados.",
                     "confirm_kick": "Tem certeza que quer chutar {{name}}?",
-                    "block_user_long": "Tem certeza de que deseja bloquear {{name}}? Eles também serão removidos da sua lista de amigos."
+                    "block_user_long": "Tem certeza de que deseja bloquear {{name}}? Eles também serão removidos da sua lista de amigos.",
+                    "reset_bot_token": "Redefinir o token de {{name}}?",
+                    "reset_bot_token_long": "Isso invalidará o token atual e impedirá a execução de quaisquer instâncias existentes do bot."
                 },
                 "account": {
                     "change": {
@@ -913,7 +915,7 @@
         "NetworkError": "Erro de rede.",
         "Unauthorized": "Não autorizado.",
         "FailedValidation": "Falha ao validar campos.",
-        "DatabaseError": "Erro no banco de dados.",
+        "DatabaseError": "Erro no banco de dados, entre em contato com o suporte.",
         "InternalError": "Erro interno.",
         "MissingPermission": "Permissão ausente.",
         "UnknownError": "Veja console.",
@@ -945,14 +947,15 @@
         "MissingData": "Faltam dados na solicitação.",
         "IoError": "O servidor encontrou um erro de E/S.",
         "UnsupportedBrowser": "O navegador não tem suporte para esse recurso.",
-        "CompromisedPassword": "Esta senha está comprometida.",
+        "CompromisedPassword": "Esta combinação foi sinalizada em bancos de dados de segurança pública. Escolha uma senha diferente.",
         "ReachedMaximumBots": "Você atingiu a quantidade máxima de bots.",
         "AudioPermissionBlock": "Sem acesso ao seu microfone. Por favor verifique a configuração do seu navegador.",
         "DiscriminatorChangeRatelimited": "Muitas alterações de tags.",
         "Unlabelled": "Algo aconteceu.",
         "InvalidEmail": "Endereço de email invalido",
         "ProbeError": "Falha ao obter metadados do arquivo.",
-        "DeniedNotification": "Você negou acesso à notificação. Verifique as configurações da página."
+        "DeniedNotification": "Você negou acesso à notificação. Verifique as configurações da página.",
+        "LockedOut": "Muitas tentativas de login, tente novamente mais tarde ou redefina a senha."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
