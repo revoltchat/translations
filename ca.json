@@ -1,19 +1,19 @@
 {
     "login": {
-        "reset": "Restableix el mot de pas",
+        "reset": "Restableix la contrasenya",
         "forgot": "Has oblidat la contrasenya?",
         "enter": {
-            "current_password": "Introduïu el vostre mot de pas actual.",
-            "invite": "Introduïu el codi d'invitació.",
-            "password": "Introduïu el mot de pas.",
-            "email": "Introduïu la vostra adreça electrònica.",
-            "username": "Introduïu el vostre nom d'usuari preferit.",
-            "new_password": "Introduïu un nou mot de pas."
+            "current_password": "Introdueix la teva contrasenya actual.",
+            "invite": "Introdueix el codi d'invitació.",
+            "password": "Introdueix la teva contrasenya.",
+            "email": "Si us plau, introdueix el teu correu electrònic.",
+            "username": "Introdueix el nom d’usuari que prefereixis.",
+            "new_password": "Introdueix la teva nova contrasenya."
         },
-        "current_password": "Mot de pas actual",
+        "current_password": "Contrasenya actual",
         "invite": "Codi d'invitació",
-        "password": "Mot de pas",
-        "email": "Adreça electrònica",
+        "password": "Contrasenya",
+        "email": "Correu electrònic",
         "username": "Nom d'usuari",
         "register": "Registra't",
         "title": "Inicia sessió",
@@ -26,40 +26,40 @@
         },
         "set_password": "Establir nova contrasenya",
         "remembered": "Torna a l'inici de sessió",
-        "new": "És la primera vegada a Revolt?",
-        "existing": "Ja teniu un compte?",
+        "new": "Ets nou a Revolt?",
+        "existing": "Ja tens un compte?",
         "create": "Crear un compte nou",
-        "missing_verification": "No heu rebut cap correu electrònic?",
+        "missing_verification": "No has rebut cap correu electrònic?",
         "resend": "Reenviar verificació",
         "cancel": "Cancel·la la sol·licitud",
-        "check_mail": "Comproveu el correu!",
-        "email_delay": "S'ha enviat un correu electrònic de verificació. Pot trigar fins a 10 minuts.",
-        "check_spam": "Comproveu la carpeta de correu brossa si no el podeu trobar",
+        "check_mail": "Revisa el teu correu!",
+        "email_delay": "T’hem enviat un correu de verificació. Pot trigar fins a 10 minuts perquè arribi.",
+        "check_spam": "Si no el trobes, comprova la carpeta de correu brossa",
         "open_mail_provider": "Obre: {{provider}}",
         "successful_registration": "Registrat correctament!",
         "welcome2": "Hola!",
         "subtitle2": "Crear un compte",
         "welcome": "Us donem la benvinguda!",
-        "subtitle": "Inicia la sessió a Revolt",
+        "subtitle": "Inicia sessió a Revolt",
         "unofficial_instance": "Instància de tercers.",
         "totp": "App d'Autentificació",
         "recovery": "Codi de recuperació",
         "verifying_account": "Verificant el vostre compte…",
         "verified_account": "El compte vostre ha sigut verificat!",
         "verified_continue": "Continuï al inici de sessió",
-        "new_password": "Nou mot de pas",
-        "log_out_other": "Tanca la sessió de totes les altres sessions"
+        "new_password": "Contrasenya nova",
+        "log_out_other": "Tanca la sessió a totes les altres sessions"
     },
     "general": {
         "unavailable": "No disponible",
         "disabled": "Desactivat",
-        "off": "Desactiva",
-        "on": "Activa",
-        "loading": "S'està carregant…",
+        "off": "Desactivat",
+        "on": "Activat",
+        "loading": "Carregant…",
         "image_by": "Imatge de",
         "privacy": "Política de privadesa",
-        "tos": "Termes d'ús",
-        "about": "Quant al Revolt",
+        "tos": "Condicions de servei",
+        "about": "Quant a",
         "learn_more": "Més informació"
     },
     "app": {
@@ -189,13 +189,13 @@
             }
         },
         "status": {
-            "online": "En connexió",
+            "online": "Connectat",
             "idle": "Inactiu",
             "busy": "No Molestar",
-            "invisible": "Invisiblé",
+            "invisible": "Invisible",
             "offline": "Fora de línia",
             "reconnect": "Reconnecta",
-            "focus": "Centrat"
+            "focus": "Concentrat"
         },
         "navigation": {
             "tabs": {
@@ -369,7 +369,8 @@
                     "public_bot_desc": "Si s'activa, altres usuaris poden afegir el bot als servidors i als missatges de grup.",
                     "interactions_url": "URL d'interaccions",
                     "reserved": "Nota: aquest camp està reservat per al futur.",
-                    "profile": "Perfil del bot"
+                    "profile": "Perfil del bot",
+                    "reset_token": "Restableix el token"
                 },
                 "feedback": {
                     "suggest_desc": "Suggereix noves funcions de Revolt a les discussions del GitHub.",
@@ -665,7 +666,9 @@
                     "block_user": "Bloquejar {{name}}?",
                     "block_user_long": "Estas segur que vols bloquejar a {{name}}? També es treuran de la llista d'amics.",
                     "members_not_notified": "No es notificarà als altres membres",
-                    "silent_leave": "Surt silenciosament"
+                    "silent_leave": "Surt silenciosament",
+                    "reset_bot_token": "Vols restablir el token de {{name}}?",
+                    "reset_bot_token_long": "Això invalidarà el token actual i aturarà qualsevol instància existent del bot que estigui en funcionament."
                 },
                 "account": {
                     "change": {
@@ -865,19 +868,19 @@
             "join-testers": "Uneix-te'n al servidor de proves",
             "goto-testers": "Ves al servidor de proves",
             "donate": "Fes una aportació a Revolt",
-            "feedback": "Doneu comentaris sobre Revolt",
-            "settings": "Obriu els paràmetres",
+            "feedback": "Deixa'ns els teus comentaris sobre Revolt",
+            "settings": "Obre la configuració",
             "settings-tooltip": "També podeu fer clic dret a la icona de l'usuari a la part superior esquerra, o fer-hi clic esquerre si sou a l'inici.",
             "social": "Busca servidors i bots",
             "directs": "Missatges directes",
             "feedback_desc": "Feu-nos saber com podem millorar l'aplicació enviant-nos comentaris.",
-            "join-testers_desc": "Podeu informar directament dels problemes i proposar millores amb nosaltres aquí.",
+            "join-testers_desc": "Pots informar directament dels inconvenients i proposar millores amb nosaltres aquí.",
             "goto-testers_desc": "Aquí pots denunciar problemes i discutir millores amb nosaltres directament.",
-            "donate_desc": "Podeu donar suport al projecte fent una donació, gràcies!",
+            "donate_desc": "Pots donar suport al projecte fent una donació, gràcies!",
             "discover": "Descobriu Revolt",
             "discover_desc": "Trobeu una comunitat basada en les vostres aficions o interessos.",
             "group": "Creeu un grup",
-            "group_desc": "Podeu convidar a tots els vostres amics, alguns bots cool i passar una bona estona."
+            "group_desc": "Convida tots els teus amics, alguns bots genials i passa una bona estona."
         }
     },
     "error": {
@@ -890,7 +893,7 @@
         "Unauthorized": "Sense permís.",
         "Unlabelled": "Ha passat alguna cosa.",
         "FailedValidation": "Fallo en validar els camps.",
-        "DatabaseError": "Error de base de dades.",
+        "DatabaseError": "Error en la base de dades. Si us plau, contacta amb el suport.",
         "InternalError": "Error interí.",
         "UnknownError": "Veure la consola.",
         "OperationFailed": "Operació fallada.",
@@ -921,9 +924,10 @@
         "ProbeError": "Fallo en obtenir metadades de l'arxiu.",
         "IoError": "El servidor ha trobat un error I/O.",
         "UnsupportedBrowser": "El teu navegador no suporta aquesta característica.",
-        "CompromisedPassword": "Aquesta contrasenya està compromesa.",
-        "ReachedMaximumBots": "Has arribat al màxim número de bots.",
-        "DiscriminatorChangeRatelimited": "Massa canvis d'etiquetes."
+        "CompromisedPassword": "Aquesta combinació ha estat detectada en bases de dades públiques de seguretat. Si us plau, tria una altra contrasenya.",
+        "ReachedMaximumBots": "El teu usuari ha assolit el límit de bots que es poden crear",
+        "DiscriminatorChangeRatelimited": "Massa canvis d'etiquetes.",
+        "LockedOut": "Massa intents d’inici de sessió. Torna-ho a provar més tard o restableix la contrasenya."
     },
     "permissions": {
         "ManageNicknames": {
