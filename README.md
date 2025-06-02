@@ -53,7 +53,7 @@ Please note that this table **only includes languages that are currently availab
 |🇪🇸|Español / es|[@z3ro0k](https://github.com/z3ro0k) [@fernandopal](https://github.com/fernandopal) [@gatomod](https://github.com/gatomod)|[@Dorovich](https://github.com/Dorovich) [@DevArxify](https://github.com/DevArxify) [@undefined](https://github.com/undefined) [@Mathesito](https://github.com/Mathesito)|
 |🇪🇸|Español (América Latina) / es_419|[@7Macros](https://github.com/7Macros) [@gatomod](https://github.com/gatomod)|[@undefined](https://github.com/undefined) [@exelenuwu](https://github.com/exelenuwu)|
 |🇪🇪|eesti / et|[@Kentledge](https://github.com/Kentledge)|[@u032](https://github.com/u032) [@Lefromrevolt](https://github.com/Lefromrevolt)|
-|🇫🇮|suomi / fi|||
+|🇫🇮|suomi / fi|[@blarpdog](https://github.com/blarpdog)||
 |🇵🇭|Filipino / fil|[@I2rys](https://github.com/I2rys)|[@searinminecraft](https://github.com/searinminecraft) [@zee-html](https://github.com/zee-html)|
 |🇫🇷|Français / fr|[@Hades785](https://github.com/Hades785) [@Kasahe](https://github.com/Kasahe) [@Achlys12](https://github.com/Achlys12) [@TapwaveZodiac](https://github.com/TapwaveZodiac)|[@RedNight-was-taken](https://github.com/RedNight-was-taken) [@Gaby5873](https://github.com/Gaby5873) [@ay700r](https://github.com/ay700r) [@Unknown-user-dev](https://github.com/Unknown-user-dev)|
 |🇮🇪|Gaeilge / ga|||
@@ -64,7 +64,7 @@ Please note that this table **only includes languages that are currently availab
 |🇮🇩|Bahasa Indonesia / id|[@liimee](https://github.com/liimee)|[@ilhamfauzan](https://github.com/ilhamfauzan) [@DaGamerFiles](https://github.com/DaGamerFiles)|
 |🇮🇸|Íslenska / is|||
 |🇮🇹|Italiano / it|[@plumcakey](https://github.com/plumcakey)|[@Gabriele73](https://github.com/Gabriele73) [@SpheLC](https://github.com/SpheLC) [@Pantanino](https://github.com/Pantanino)|
-|🇯🇵|日本語 / ja|[@chelley](https://github.com/chelley)||
+|🇯🇵|日本語 / ja|[@chelley](https://github.com/chelley)|[@Joshument](https://github.com/Joshument)|
 |🇰🇷|한국어 / ko|||
 |🇱🇺|Lëtzebuergesch / lb|||
 |🇱🇹|Lietuvių / lt|[@ErnestasKaralius](https://github.com/ErnestasKaralius)||
@@ -75,7 +75,7 @@ Please note that this table **only includes languages that are currently availab
 |🇳🇱|Nederlands / nl|[@sympact06](https://github.com/sympact06)||
 |🇮🇷|فارسی / fa|[@DevEvil99](https://github.com/DevEvil99) [@shareghzadeh](https://github.com/shareghzadeh)||
 |🇵🇱|Polski / pl|[@Pawelek-dev](https://github.com/Pawelek-dev) [@HosachiPL](https://github.com/HosachiPL)|[@CyberL1](https://github.com/CyberL1)|
-|🇧🇷|Português (do Brasil) / pt_BR|[@yanndere](https://github.com/yanndere)|[@Hokiper](https://github.com/Hokiper) [@YoshiroOno](https://github.com/YoshiroOno) [@carmoswitch](https://github.com/carmoswitch) [@kibsbs](https://github.com/kibsbs)|
+|🇧🇷|Português (do Brasil) / pt_BR|[@yanndere](https://github.com/yanndere)|[@Hokiper](https://github.com/Hokiper) [@YoshiroOno](https://github.com/YoshiroOno) [@carmoswitch](https://github.com/carmoswitch) [@kibsbs](https://github.com/kibsbs) [@CachorroninjaBot](https://github.com/CachorroninjaBot)|
 |🇵🇹|Português (Portugal) / pt_PT|[@Tmpod](https://github.com/Tmpod)|[@SlicedBlueApple](https://github.com/SlicedBlueApple) [@undefined](https://github.com/undefined)|
 |🇷🇴|Română / ro|[@Edward205](https://github.com/Edward205)|[@S703T](https://github.com/S703T)|
 |🇷🇺|Русский / ru|[@div2005](https://github.com/div2005)|[@zptr1](https://github.com/zptr1) [@arslee07](https://github.com/arslee07)|
