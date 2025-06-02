@@ -36,14 +36,14 @@ Please note that this table **only includes languages that are currently availab
 |:-:|---|---|---|
 |🇬🇧|English (Traditional) / en|[@insertish](https://github.com/insertish)||
 |🇺🇸|English (Simplified) / en_US|||
-|🇸🇦|عربي / ar|[@LedaThemis](https://github.com/LedaThemis)|[@vloddot](https://github.com/vloddot) [@AbdoDev](https://github.com/AbdoDev)|
+|🇸🇦|عربي / ar|[@LedaThemis](https://github.com/LedaThemis)|[@vloddot](https://github.com/vloddot) [@AbdoDev](https://github.com/AbdoDev) [@DaRandomCube](https://github.com/DaRandomCube)|
 |🇮🇳|অসমীয়া / as|||
 |🇦🇿|Azərbaycan dili / az|||
 |🇧🇾|Беларуская / be|[@1enify](https://github.com/1enify)||
 |🇧🇬|Български / bg|||
 |🇧🇩|বাংলা / bn|[@Cynycal2003](https://github.com/Cynycal2003)||
 |br|Brezhoneg / br|[@SperedAnveliour](https://github.com/SperedAnveliour)||
-|🇪🇸|Català / ca||[@TallerThanShort](https://github.com/TallerThanShort)|
+|🇪🇸|Català / ca|[@khleyhub](https://github.com/khleyhub)|[@TallerThanShort](https://github.com/TallerThanShort)|
 |🇵🇭|Bisaya / ceb|[@zee-html](https://github.com/zee-html)||
 |krd|کوردی / ckb|[@fanticwastaken](https://github.com/fanticwastaken)|[@NoLogicAlan](https://github.com/NoLogicAlan)|
 |🇨🇿|Čeština / cs|[@Fjuro](https://github.com/Fjuro)|[@Cikarin3](https://github.com/Cikarin3)|
@@ -75,10 +75,10 @@ Please note that this table **only includes languages that are currently availab
 |🇳🇱|Nederlands / nl|[@sympact06](https://github.com/sympact06)||
 |🇮🇷|فارسی / fa|[@DevEvil99](https://github.com/DevEvil99) [@shareghzadeh](https://github.com/shareghzadeh)||
 |🇵🇱|Polski / pl|[@Pawelek-dev](https://github.com/Pawelek-dev) [@HosachiPL](https://github.com/HosachiPL)|[@CyberL1](https://github.com/CyberL1)|
-|🇧🇷|Português (do Brasil) / pt_BR|[@yanndere](https://github.com/yanndere)|[@Hokiper](https://github.com/Hokiper) [@YoshiroOno](https://github.com/YoshiroOno) [@carmoswitch](https://github.com/carmoswitch) [@kibsbs](https://github.com/kibsbs) [@CachorroninjaBot](https://github.com/CachorroninjaBot)|
+|🇧🇷|Português (do Brasil) / pt_BR|[@yanndere](https://github.com/yanndere)|[@Hokiper](https://github.com/Hokiper) [@YoshiroOno](https://github.com/YoshiroOno) [@carmoswitch](https://github.com/carmoswitch) [@kibsbs](https://github.com/kibsbs) [@CachorroninjaBot](https://github.com/CachorroninjaBot) [@itsyounotme](https://github.com/itsyounotme)|
 |🇵🇹|Português (Portugal) / pt_PT|[@Tmpod](https://github.com/Tmpod)|[@SlicedBlueApple](https://github.com/SlicedBlueApple) [@undefined](https://github.com/undefined)|
 |🇷🇴|Română / ro|[@Edward205](https://github.com/Edward205)|[@S703T](https://github.com/S703T)|
-|🇷🇺|Русский / ru|[@div2005](https://github.com/div2005)|[@zptr1](https://github.com/zptr1) [@arslee07](https://github.com/arslee07)|
+|🇷🇺|Русский / ru|[@div2005](https://github.com/div2005)|[@zptr1](https://github.com/zptr1) [@arslee07](https://github.com/arslee07) [@saikodemuchi](https://github.com/saikodemuchi)|
 |🇸🇰|Slovensky / sk|[@ShadowLp174](https://github.com/ShadowLp174)||
 |🇸🇮|Slovenščina / sl|||
 |🇦🇱|Shqip / sq|||
@@ -89,9 +89,9 @@ Please note that this table **only includes languages that are currently availab
 |🇹🇭|ไทย / th|[@xhayper](https://github.com/xhayper)||
 |🇹🇷|Türkçe / tr|[@KerizAlperwastaken](https://github.com/KerizAlperwastaken) [@ramazaneris](https://github.com/ramazaneris)|[@vesley1](https://github.com/vesley1) [@omerasaf01](https://github.com/omerasaf01)|
 |🇵🇰|اردو / ur|||
-|🇺🇦|Українська / uk|[@div2005](https://github.com/div2005)|[@zptr1](https://github.com/zptr1)|
+|🇺🇦|Українська / uk|[@div2005](https://github.com/div2005)|[@zptr1](https://github.com/zptr1) [@saikodemuchi](https://github.com/saikodemuchi)|
 |vec|Vèneto / vec|||
-|🇻🇳|Tiếng Việt / vi|||
+|🇻🇳|Tiếng Việt / vi|[@barnacl437](https://github.com/barnacl437)||
 |🇨🇳|简体中文 / zh_Hans|[@deluxghost](https://github.com/deluxghost)|[@YouTubeGameNana](https://github.com/YouTubeGameNana)|
 |🇹🇼|繁體中文 / zh_Hant|[@Zhuzi-ouo](https://github.com/Zhuzi-ouo)||
 |🙂|Toki Pona / tokipona|[@Gapva](https://github.com/Gapva)||
