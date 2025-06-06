@@ -401,7 +401,8 @@
                     "private_bot_tip": "Este bot es privado. Solo tú puedes invitarlo.",
                     "public_bot": "Bot público",
                     "interactions_url": "URL de interacciones",
-                    "reserved": "Nota: este campo está reservado para el futuro."
+                    "reserved": "Nota: este campo está reservado para el futuro.",
+                    "reset_token": "Restablecer Clave de acceso"
                 },
                 "theme_shop": {
                     "description": "Descubre cientos de temas, diseñados y elegidos por la comunidad.",
@@ -663,7 +664,8 @@
                     "unfriend_user": "¿Quieres eliminar a {{name}} de tu lista de amigos?",
                     "block_user": "¿Bloquear a {{name}}?",
                     "silent_leave": "Abandonar en silencio",
-                    "members_not_notified": "Otros miembros no serán notificados"
+                    "members_not_notified": "Otros miembros no serán notificados",
+                    "reset_bot_token_long": "Esto invalidará el token actual y detendrá la ejecución de cualquier instancia existente del bot."
                 },
                 "mfa": {
                     "select_method": "Por favor, selecciona un método para autenticar tu solicitud.",
@@ -910,7 +912,7 @@
         "DeniedNotification": "Denegaste el acceso a las notificaciones. Verifica los ajustes de la página.",
         "NetworkError": "Error de conexión.",
         "Unlabelled": "Algo ocurrió.",
-        "DatabaseError": "Error en la base de datos.",
+        "DatabaseError": "Error en la base de datos, por favor contactar con el soporte.",
         "MissingPermission": "Faltan permisos.",
         "UnknownError": "Revisa la consola.",
         "OperationFailed": "Operación fallida.",
@@ -934,10 +936,11 @@
         "ProbeError": "No se pudo obtener los metadatos del archivo.",
         "IoError": "El servidor ha encontrado un error I/O.",
         "UnsupportedBrowser": "Tu navegador no soporta esta característica.",
-        "CompromisedPassword": "Esta contraseña está comprometida.",
-        "ReachedMaximumBots": "Alcanzaste la cantidad máxima de bots.",
+        "CompromisedPassword": "Esta contraseña está comprometida. Elija una contraseña diferente.",
+        "ReachedMaximumBots": "Alcanzaste la cantidad máxima de bots posibles para crear",
         "AudioPermissionBlock": "No pudimos acceder a tu micrófono. Por favor, revisa la configuración de tu navegador.",
-        "DiscriminatorChangeRatelimited": "Demasiados cambios de identificadores."
+        "DiscriminatorChangeRatelimited": "Demasiados cambios de identificadores.",
+        "LockedOut": "Demasiados intentos de inicio de sesión, inténtelo nuevamente más tarde o restablezca la contraseña."
     },
     "quantities": {
         "members": {
