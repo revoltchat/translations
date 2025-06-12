@@ -381,7 +381,8 @@
                     "public_bot": "Bot công khai",
                     "public_bot_desc": "Nếu được bật, những người dùng khác có thể thêm con bot này vào các server hay các nhóm trò chuyện.",
                     "interactions_url": "Đường dẫn tương tác",
-                    "profile": "Hồ sơ Bot"
+                    "profile": "Hồ sơ Bot",
+                    "reset_token": "Đặt lại token"
                 },
                 "audio": {
                     "title": "Cài Đặt Giọng Nói",
@@ -640,7 +641,9 @@
                     "block_user": "Chặn {{name}}?",
                     "block_user_long": "Bạn có chắc muốn chặn {{name}}? Họ cũng sẽ bị xóa khỏi danh sách bạn của bạn.",
                     "silent_leave": "Rời Lặng Lẽ",
-                    "members_not_notified": "Các thành viên khác sẽ không nhận được thông báo"
+                    "members_not_notified": "Các thành viên khác sẽ không nhận được thông báo",
+                    "reset_bot_token_long": "Hành động này sẽ hủy hiệu lực của token hiện thời và dừng mọi phiên hoạt động của bot.",
+                    "reset_bot_token": "Đặt lại token của {{name}}?"
                 },
                 "actions": {
                     "leave": "Rời khỏi",
@@ -1016,8 +1019,8 @@
         "UnverifiedAccount": "Tài khoản chưa xác thực.",
         "EmailInUse": "Địa chỉ email này đã được sử dụng.",
         "AlreadySentRequest": "Đã gửi yêu cầu cho người dùng này trước đó.",
-        "CompromisedPassword": "Mật khẩu này đã bị rò rỉ.",
-        "ReachedMaximumBots": "Bạn đã đạt đến số lượng bot tối đa.",
+        "CompromisedPassword": "Tổ hợp mật khẩu này đã xuất hiện trong các cơ sở dữ liệu bảo mật công cộng. Hãy chọn mật khẩu khác.",
+        "ReachedMaximumBots": "Bạn đã đạt đến số lượng bot tối đa",
         "InvalidToken": "Token không hợp lệ",
         "MissingInvite": "Thiếu mã mời trong yêu cầu.",
         "InvalidInvite": "Mã không hợp lệ",
@@ -1052,7 +1055,8 @@
         "MissingHeaders": "Bạn đang thiếu tiêu đề.",
         "ProbeError": "Thất bại trong việc lấy thông tin của tệp.",
         "RenderFail": "Xuất ra bản mẫu thất bại.",
-        "DiscriminatorChangeRatelimited": "Quá nhiều thay đổi tag (số phân biệt)."
+        "DiscriminatorChangeRatelimited": "Quá nhiều thay đổi tag (số phân biệt).",
+        "LockedOut": "Quá nhiều lần thử đăng nhập, hãy thử lại sau hoặc đặt lại mật khẩu."
     },
     "notifications": {
         "now_friends": "Bạn đã trở thành bạn với @{{person}}!",
