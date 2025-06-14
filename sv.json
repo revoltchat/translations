@@ -8,7 +8,7 @@
         "on": "På",
         "off": "Av",
         "disabled": "Inaktiverad",
-        "unavailable": "Inte tillgänglig",
+        "unavailable": "Ej tillgänglig",
         "learn_more": "Lär mer"
     },
     "login": {
@@ -18,7 +18,7 @@
         "enter": {
             "email": "Ange din e-postadress.",
             "password": "Ange ditt lösenord.",
-            "username": "Ange ditt användarnamn.",
+            "username": "Ange ditt föredragna användarnamn.",
             "current_password": "Ange ditt nuvarande lösenord.",
             "invite": "Ange din inbjudningskod.",
             "new_password": "Ange ett nytt lösenord."
@@ -43,12 +43,12 @@
             "create": "Misslyckades att registrera!",
             "verify": "Det gick inte att verifiera!"
         },
-        "check_spam": "Kontrollera skräppost om du inte hittar det",
+        "check_spam": "Kontrollera din skräppost om du inte hittar det",
         "resend": "Skicka verifiering igen",
         "set_password": "Ange nytt lösenord",
         "current_password": "Nuvarande Lösenord",
         "invite": "Inbjudningskod",
-        "email_delay": "Tillåt upp till 10 minuter för det att anlända.",
+        "email_delay": "Vi har skickat dig ett verifikationsmejl. Tillåt upp till 10 minuter för det att anlända.",
         "welcome2": "Hej!",
         "subtitle2": "Skapa ett konto",
         "welcome": "Välkommen!",
@@ -66,7 +66,7 @@
         "main": {
             "channel": {
                 "message": "Meddela {{name}}",
-                "message_who": "Meddela {{person}}",
+                "message_who": "Meddela @{{person}}",
                 "message_where": "Meddela {{channel_name}}",
                 "system": {
                     "removed_by": "{{user}} var borttagen av {{other_user}}",
@@ -226,7 +226,7 @@
                 "actions": {
                     "reload": "Ladda Om Appen",
                     "close": "Stäng",
-                    "ok": "Okej",
+                    "ok": "Ok",
                     "cancel": "Avbryt",
                     "continue": "Fortsätt",
                     "send_email": "Skicka e-post",
@@ -258,7 +258,7 @@
                 },
                 "error": "Ett fel inträffades!",
                 "onboarding": {
-                    "pick": "Välj ett användarnamn som du vill att folk ska kunna hitta dig med, detta kan ändras senare genom inställningarna.",
+                    "pick": "Välj ett användarnamn som du vill att folk ska kunna hitta dig genom. Detta kan ändras senare via inställningarna.",
                     "welcome": "Välkommen till"
                 },
                 "prompt": {
@@ -266,7 +266,7 @@
                     "confirm_leave": "Lämna {{name}}?",
                     "create_invite_generate": "Genererar inbjudan…",
                     "confirm_close_dm": "Stäng konversationen med {{name}}?",
-                    "confirm_close_dm_long": "Du kan öppna den senare igen men den kommer att försvinna för er båda.",
+                    "confirm_close_dm_long": "Du kan öppna den senare igen, men den kommer att försvinna för er båda.",
                     "confirm_delete": "Ta bort {{name}}?",
                     "confirm_delete_long": "När det är borttaget så kommer det inte tillbaka.",
                     "create_invite_created": "Här är din nya inbjudningskod:",
@@ -308,10 +308,10 @@
                     "version": "Din klient finns på {{client}}, medan servern kräver {{server}}."
                 },
                 "mfa": {
-                    "prompt_totp": "Skanna eller använd tokenet nedan i din autentiseringsapp.",
+                    "prompt_totp": "Vänligen skanna eller använd token nedan i din autentisering-app.",
                     "enter_code": "Ange kod",
                     "select_method": "Välj en metod för att autentisera din begäran.",
-                    "confirm": "Bekräfta med den valda metoden.",
+                    "confirm": "Vänligen bekräfta denna åtgärd med den valda metoden.",
                     "enable_totp": "Aktivera autentiseringsappen",
                     "recovery_codes": "Dina återvinningskoder",
                     "save_codes": "Spara dem på en säker plats."
@@ -364,9 +364,9 @@
                         "translator": "Översättare",
                         "early_adopter": "Tidig Adopterare",
                         "supporter": "Stödjare",
-                        "responsible_disclosure": "Asvslöjade Ansvarsligt Buggar",
+                        "responsible_disclosure": "Ansvarsfullt Rapporterade Säkerhetsproblem",
                         "moderation": "Plattformsmoderering",
-                        "founder": "Utvecklare"
+                        "founder": "Ägare"
                     },
                     "sub": {
                         "connections": "Anslutningar",
@@ -409,7 +409,7 @@
             "block_user": "Blockera användare",
             "copy_id": "Kopiera ID",
             "message_user": "Meddela",
-            "cancel_friend": "Avbryt förfrågan",
+            "cancel_friend": "Avbryt vänförfrågan",
             "remove_friend": "Ta bort vän",
             "add_friend": "Lägg till vän",
             "unblock_user": "Avblockera användare",
@@ -456,7 +456,7 @@
             "copy_message_link": "Kopiera meddelandelänk",
             "edit_identity": "Redigera identitet",
             "create_category": "Skapa kategori",
-            "mark_unread": "markera som oläst",
+            "mark_unread": "Markera som oläst",
             "make_owner": "Ge gruppen äganderätt",
             "report_message": "Rapportera meddelande",
             "report_user": "Rapportera användare",
@@ -502,7 +502,7 @@
                         "follow": "Använd datorns tema",
                         "seasonal": "Säsongstema",
                         "transparency_desc": "Möjliggör transparenseffekter i hela appen.",
-                        "follow_desc": "När det är markerat kommer du inte att kunna ändra ditt tema eller använda ett anpassat tema.",
+                        "follow_desc": "Om det är aktiverat kommer du inte att kunna ändra ditt tema eller använda ett anpassat tema.",
                         "seasonal_desc": "Visar effekter på startfliken under semestertider."
                     },
                     "discover": {
@@ -512,9 +512,9 @@
                     "appearance_options": {
                         "show_send": "Visa alltid knappen för att Skicka Meddelande",
                         "title": "Utseendealternativ",
-                        "show_send_desc": "Skicka Meddelande knappen kommer endast visas på mobilen om detta är inaktiverat.",
+                        "show_send_desc": "Om detta är inaktiverat, kommer Skicka Meddelande-knappen endast visas på mobilen.",
                         "show_account_age": "Visa alltid kontoålder brevid gick med-meddelanden",
-                        "show_account_age_desc": "Om av, kontoålder kommer endast att visas för nya användare."
+                        "show_account_age_desc": "Om detta är inaktiverat kommer kontoålder endast att visas för nya användare."
                     },
                     "colours": {
                         "title": "färger"
@@ -542,8 +542,9 @@
                     "manage": {
                         "disable": "Inaktivera Konto",
                         "delete": "Markera konto för radering",
-                        "description": "Inaktivera eller ta bort ditt konto när som helst. Det här kommer logga ut dig samt helt och hållet radera ditt konto, inkluderande din chatt historik och dina vänner.",
-                        "title": "Kontohantering"
+                        "description": "Inaktivera eller ta bort ditt konto när som helst. Detta kommer logga ut dig från dina aktiva sessioner.",
+                        "title": "Kontohantering",
+                        "disable_description": "Du kommer inte kunna nå ditt konto såvida du inte kontaktar supporten - däremot kommer inte din data att försvinna."
                     },
                     "2fa": {
                         "description": "Lägg på ett extra lager säkerhet genom att aktivera 2FA på ditt konto.",
@@ -572,8 +573,8 @@
                     "descriptions": {
                         "enable_outgoing_sound": "Tillåt att ljud spelas när du skickar ett meddelande.",
                         "enable_sound": "Aktivera Ljud för Inkommande Meddelanden.",
-                        "enable_push": "Aktivera för att få notifikationer medans du är offline.",
-                        "enable_desktop": "Det här kommer ge dig notifikationer medans appen är öppen."
+                        "enable_push": "Om detta är aktiverat kommer du få notifikationer medans du är offline.",
+                        "enable_desktop": "Om detta är aktiverat kommer du få notifikationer medans appen är öppen."
                     },
                     "enable_outgoing_sound": "Aktivera Ljud för Skickade Meddelanden.",
                     "enable_push": "Aktivera Pushmeddelanden",
@@ -619,7 +620,7 @@
                     "title": "Synkronisering",
                     "categories": "Synkronisera kategorier",
                     "descriptions": {
-                        "appearance": "Detta kommer att synkronisera alternativ som emoji -paket och meddelandetäthet.",
+                        "appearance": "Detta kommer att synkronisera inställningar, till exempel som emoji -paket och meddelandetäthet.",
                         "theme": "Detta synkroniserar ditt valda tema, färger och anpassad CSS.",
                         "locale": "Detta kommer att synkronisera det språk du väljer just nu."
                     },
@@ -639,18 +640,18 @@
                     "input_device": "Mikrofon",
                     "device_label_NA": "EJ TILLÄMPLIGT",
                     "button_retry": "försök igen",
-                    "tip_retry": "Du gav inte tillstånd att använda din mikrofon, försök igen {{retryBtn}}.",
+                    "tip_retry": "Du gav inte Revolt tillåtelse till att använda din mikrofon. Vänligen försök igen {{retryBtn}}.",
                     "tip_grant_permission": "Du behöver ge behörighet för att ändra ljudinställningar.",
                     "button_grant": "Ge behörighet"
                 },
                 "bots": {
                     "title": "Mina bottar",
-                    "public_bot_tip": "Botten är offentlig. Vem som helst kan bjuda in den.",
+                    "public_bot_tip": "Den här botten är offentlig. Vem som helst kan bjuda in den.",
                     "public_bot": "Offentlig Bot",
-                    "public_bot_desc": "Om andra ska kunna bjuda in denna botten.",
-                    "reserved": "Obs: Det här fältet är reserverat för framtida användning.",
+                    "public_bot_desc": "Om detta är aktiverat kan andra användare lägga till denna bot på servrar och gruppmeddelanden.",
+                    "reserved": "Obs: det här fältet är reserverat för framtida användning.",
                     "token": "Token",
-                    "private_bot_tip": "Botten är privat. Endast du kan bjuda in den.",
+                    "private_bot_tip": "Den här botten är privat. Endast du kan bjuda in den.",
                     "copy_invite": "Kopiera Inbjudninglänk",
                     "create_bot": "Skapa en Bot",
                     "add": "Lägg till Bot",
@@ -676,7 +677,7 @@
                 },
                 "plugins": {
                     "title": "plug-ins",
-                    "wip": "Varning: Den här funktionen är fortfarande under utveckling.",
+                    "wip": "Varning: den här funktionen är fortfarande under utveckling.",
                     "delete_plugin": "Radera",
                     "no_plugins": "Inga plug-ins är för närvarande installerade."
                 }
@@ -693,12 +694,12 @@
                     "a": "Om du ser en okänd session på listan,"
                 },
                 "languages": {
-                    "b": "Hjälp oss bidra med fler översättningar.",
-                    "a": "Saknar du ett språk som du vill ha?"
+                    "b": "Hjälp oss genom att bidra med fler översättningar.",
+                    "a": "Saknar vi ett språk som du vill ha?"
                 },
                 "account": {
                     "b": "Gå till profilinställningarna.",
-                    "a": "Vill du anpassa din offlentiga profil?"
+                    "a": "Vill du anpassa din offentliga profil?"
                 }
             },
             "channel_pages": {
@@ -846,7 +847,7 @@
         "OperationFailed": "Operationen misslyckades.",
         "UnknownError": "Se konsolen.",
         "InternalError": "Internt fel.",
-        "DatabaseError": "Databasfel.",
+        "DatabaseError": "Databasfel, vänligt kontakta supporten.",
         "FailedValidation": "Kunde inte validera fält.",
         "Unlabelled": "Något hände.",
         "Unavailable": "Ej tillgängligt.",
@@ -862,12 +863,12 @@
         "EmailFailed": "E-postmeddelande kunde inte skickas.",
         "RenderFail": "Mallrendering misslyckades.",
         "MissingPermission": "Saknar behörigheter.",
-        "DeniedNotification": "Du förnekade notifikations-åtkomst, kolla inställningarna för sidan.",
+        "DeniedNotification": "Du förnekade notifikationsåtkomst. Kontrollera inställningarna för sidan.",
         "UnsupportedBrowser": "Webbläsaren saknar support för den här funktionen.",
         "Unauthorized": "Obefogad.",
         "NetworkError": "Nätverksfel.",
-        "CompromisedPassword": "Det här lösenordet har äventyrats.",
-        "ReachedMaximumBots": "Du har nått maxantalet botar.",
+        "CompromisedPassword": "Denna kombination har flaggats i en publik säkerhetsdatabas. Vänligen välj ett annat lösenord.",
+        "ReachedMaximumBots": "Din användare har uppnått maxantalet bottar den kan skapa",
         "AudioPermissionBlock": "Ingen åtkomst till din mikrofon. Kontrollera webbläsarens konfiguration."
     },
     "shortcuts": {
@@ -940,7 +941,7 @@
         },
         "ManageRole": {
             "t": "Hantera Roller",
-            "d": "Tillåter medlemmar att skapa, redigera och radera roller med en lägre rank än deras. Tillåter dem också att modifiera rollers behörigheter på kanaler."
+            "d": "Tillåter medlemmar att skapa, redigera och ta bort roller med lägre rang än deras egen, samt ändra rollens behörigheter i kanaler."
         },
         "ViewChannel": {
             "t": "Se Kanal",
