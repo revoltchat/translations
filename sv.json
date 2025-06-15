@@ -279,7 +279,9 @@
                     "block_user_long": "Är du säker på att du vill blockera {{name}}? De kommer bli borttagna från din vänlista.",
                     "confirm_ban_reason": "Anledning",
                     "silent_leave": "Lämna tyst",
-                    "members_not_notified": "Andra medlemmar kommer inte att meddelas"
+                    "members_not_notified": "Andra medlemmar kommer inte att meddelas",
+                    "reset_bot_token": "Återställ {{name}}s token?",
+                    "reset_bot_token_long": "Detta kommer att göra den aktuella token ogiltig och stoppa alla pågående instanser av boten från att köra."
                 },
                 "account": {
                     "failed": "Misslyckades att ändra!",
@@ -545,7 +547,8 @@
                         "description": "Inaktivera eller ta bort ditt konto när som helst. Detta kommer logga ut dig från dina aktiva sessioner.",
                         "title": "Kontohantering",
                         "disable_description": "Du kommer inte kunna nå ditt konto såvida du inte kontaktar supporten - däremot kommer inte din data att försvinna.",
-                        "delete_still_own_servers": "Kan inte ta bort konto förrän servrar är borttagna eller flyttade"
+                        "delete_still_own_servers": "Kan inte ta bort konto förrän servrar är borttagna eller flyttade",
+                        "delete_description": "Ditt konto och all din data (inkluderar dina meddelanden och vänner) kommer läggas till i kö för borttagning. Ett bekräftelsemejl kommer skickas - du kan ångra detta inom 7 dagar genom att kontakta supporten."
                     },
                     "2fa": {
                         "description": "Lägg på ett extra lager säkerhet genom att aktivera 2FA på ditt konto.",
@@ -658,7 +661,8 @@
                     "add": "Lägg till Bot",
                     "interactions_url": "Interaktions-URL",
                     "unique_id": "Detta är en unik identifierare för din bot. Detta är inte bottens token.",
-                    "profile": "Botprofil"
+                    "profile": "Botprofil",
+                    "reset_token": "Återställ Token"
                 },
                 "theme_shop": {
                     "title": "Temabutik",
@@ -681,6 +685,71 @@
                     "wip": "Varning: den här funktionen är fortfarande under utveckling.",
                     "delete_plugin": "Radera",
                     "no_plugins": "Inga plug-ins är för närvarande installerade."
+                },
+                "keybinds": {
+                    "category": {
+                        "advanced": "Avancerat",
+                        "navigation": "Navigering",
+                        "messaging": "Meddelanden"
+                    },
+                    "action": {
+                        "input_cancel": {
+                            "description": "Ett avancerat kortkommando som vanligtvis används för att avbryta aktuell inmatning.\nDetta kan innefatta att avbryta en meddelanderedigering, ta bort en köad bild eller liknande scenarion.",
+                            "title": "Ångra inmatning"
+                        },
+                        "navigate_server_down": {
+                            "title": "Navigera till nästa server",
+                            "description": "Navigera till nästa server."
+                        },
+                        "navigate_server_up": {
+                            "description": "Navigera till föregående server.",
+                            "title": "Navigera till föregående server"
+                        },
+                        "messaging_edit_previous_message": {
+                            "description": "Redigera föregående meddelandet i nuvarande meddelandevy.",
+                            "title": "Redigera föregående meddelande"
+                        },
+                        "input_force_submit": {
+                            "title": "Tvinga Bekräfta Inmatning"
+                        },
+                        "navigate_channel_up": {
+                            "title": "Navigera till föregående kanal",
+                            "description": "Navigera till föregående kanal."
+                        },
+                        "navigate_channel_down": {
+                            "title": "Navigera till nästa kanal",
+                            "description": "Navigera till nästa kanal."
+                        },
+                        "input_submit": {
+                            "description": "Ett avancerat kortkommando som vanligtvis används för att skicka aktuell inmatning.\nDetta kan innefatta att skicka ett meddelande, spara en redigering av ett meddelande, genomföra en sökning med mera...",
+                            "title": "Bekräfta Inmatning"
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Skrolla till botten av meddelanden",
+                            "description": "Skrolla till botten av meddelandenvyn."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Markera kanal som läst",
+                            "description": "Markerar nuvarande kanalen som läst."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "description": "Detta kommer aktivera / inaktivera alla experiment på en gång."
+                        }
+                    },
+                    "title": "Kortkommandon",
+                    "description": "Se och ange kortkommandon",
+                    "search": "Sök kortkommandon…",
+                    "add_keybind": "Lägg till nytt kortkommando",
+                    "edit_keybind": "Redigera kortkommando",
+                    "remove_keybind": "Ta bort kortkommando",
+                    "reset_keybind": "Återställ kortkommando till {{keybind}}"
+                },
+                "accessibility": {
+                    "title": "Tillgänglighet",
+                    "descriptions": {
+                        "reduced_motion": "Om detta är aktiverat kommer animationer och rörelseeffekter inte att spelas eller visas mindre intensivt."
+                    },
+                    "reduced_motion": "Minskad Rörelse"
                 }
             },
             "categories": {
