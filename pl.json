@@ -288,7 +288,9 @@
                     "confirm_close_dm_long": "Możesz ją później ponownie otworzyć, ale zniknie ona po obu stronach.",
                     "confirm_delete_long": "Akcja usunięcia jest nieodwracalna.",
                     "members_not_notified": "Inni użytkownicy będą powiadomieni",
-                    "silent_leave": "Wyjdź po cichu"
+                    "silent_leave": "Wyjdź po cichu",
+                    "reset_bot_token": "Zresetować token {{name}}?",
+                    "reset_bot_token_long": "Spowoduje to unieważnienie bieżącego tokena i zatrzymanie wszelkich istniejących instancji bota."
                 },
                 "external_links": {
                     "title": "Zewnętrzne linki mogą być niebezpieczne!",
@@ -660,7 +662,8 @@
                     "interactions_url": "URL interakcji",
                     "public_bot_desc": "Jeśli opcja jest włączona, inni użytkownicy mogą dodawać tego bota do serwerów i wiadomości grupowych.",
                     "unique_id": "To jest unikalny identyfikator dla twojego bota. To nie jest token bota.",
-                    "profile": "Profil bota"
+                    "profile": "Profil bota",
+                    "reset_token": "Zresetuj Token"
                 },
                 "native": {
                     "title": "Ustawienia desktopowe"
@@ -949,7 +952,7 @@
         "OperationFailed": "Operacja nie powiodła się.",
         "UnknownError": "Zobacz konsolę.",
         "InternalError": "Błąd wewnętrzny.",
-        "DatabaseError": "Błąd bazy danych.",
+        "DatabaseError": "Błąd bazy danych, skontaktuj się z pomocą techniczną.",
         "FailedValidation": "Nie udało się zweryfikować pól.",
         "Unlabelled": "Coś się stało.",
         "DeniedNotification": "Odmówiłeś dostępu do powiadomień. Sprawdź ustawienia strony.",
@@ -969,10 +972,11 @@
         "MissingPermission": "Brak uprawnień.",
         "Unauthorized": "Nieautoryzowany.",
         "NetworkError": "Błąd sieci.",
-        "CompromisedPassword": "To hasło zostało ujawnione.",
-        "ReachedMaximumBots": "Osiągnąłeś maksymalną liczbę botów.",
+        "CompromisedPassword": "Ta kombinacja została oznaczona w publicznych bazach danych bezpieczeństwa. Wybierz inne hasło.",
+        "ReachedMaximumBots": "Osiągnąłeś możliwy limit do utworzenia botów.",
         "AudioPermissionBlock": "Brak dostępu do twojego mikrofonu. Proszę sprawdź konfigurację swojej przeglądarki.",
-        "DiscriminatorChangeRatelimited": "Zbyt wiele zmieniono tag."
+        "DiscriminatorChangeRatelimited": "Zbyt wiele zmieniono tag.",
+        "LockedOut": "Zbyt wiele prób logowania, spróbuj ponownie później lub zresetuj hasło."
     },
     "permissions": {
         "RemoveAvatars": {
