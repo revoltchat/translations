@@ -42,7 +42,8 @@
         "MissingPermission": "Manjkajoče dovoljenje.",
         "FailedValidation": "Pri preverjanju polje je prišlo do napake.",
         "OperationFailed": "Operacija se je ponesrečila.",
-        "ReachedMaximumBots": "Dosegli ste maksimalno število robotov."
+        "ReachedMaximumBots": "Dosegli ste maksimalno število robotov.",
+        "LockedOut": "Preveč neuspelih poskusov prijave, prosimo, poskusite znova pozneje ali ponastavite geslo."
     },
     "permissions": {
         "ManageServer": {
@@ -189,7 +190,7 @@
     "login": {
         "enter": {
             "invite": "Vpišite vaše povabilo kodo.",
-            "username": "Vnesite vaše uporabniško ime.",
+            "username": "Vnesi svoje želeno uporabniško ime.",
             "email": "Vpišite svoj elektronski naslov.",
             "password": "Vpišite svoje geslo.",
             "current_password": "Vnesite svoje trenutno geslo.",
@@ -255,7 +256,7 @@
                 "members": "Člani"
             },
             "channel": {
-                "message_who": "Sporočilo {{person}}",
+                "message_who": "Sporoči @{{person}}",
                 "attached_file": "Priloženo {{filename}}",
                 "typing": {
                     "multiple": "{{userlist}} in {{user}} tipkata…",
@@ -393,7 +394,8 @@
                         "disable": "Onemogoči račun",
                         "delete": "Označi Račun za Brisanje",
                         "disable_description": "Ne boste zmožni dostopati do svojega računa, razen če kontaktirate našo uporabnikovo podporo - toda brez skrbi, vaši podatki ne bodo izbrisani.",
-                        "delete_description": "Vaš račun in vsi vaši podatki (vključno z vašimi sporočili in seznamom prijateljev) bodo dani v čakalno vrsto za izbris. Potrditveno esporočilo bo poslano - brisanje lahko ustavite v roku 7 dni tako da kontaktirate našo uporabnikovo podporo."
+                        "delete_description": "Vaš račun in vsi vaši podatki (vključno z vašimi sporočili in seznamom prijateljev) bodo dani v čakalno vrsto za izbris. Potrditveno esporočilo bo poslano - brisanje lahko ustavite v roku 7 dni tako da kontaktirate našo uporabnikovo podporo.",
+                        "delete_still_own_servers": "Računa ni mogoče izbrisati, dokler strežniki niso izbrisani ali predani"
                     },
                     "title": "Moj račun",
                     "change_field": "Spremenite",
@@ -545,7 +547,8 @@
                     "private_bot_tip": "Ta robot je zaseben. Samo vi ga lahko povabite v strežnik/skupino.",
                     "public_bot": "Javni Robot",
                     "public_bot_desc": "Če je to vključeno, potem lahko drugi uporabniki dodajo ta robot v strežnike in skupinske pogovore.",
-                    "profile": "Profil robota"
+                    "profile": "Profil robota",
+                    "reset_token": "Žeton za ponastavitev"
                 },
                 "feedback": {
                     "title": "Povratne informacije",
@@ -570,7 +573,7 @@
                     "active": "Trenutno aktivni",
                     "use": "Uporabi temo",
                     "search": "Iščite teme…",
-                    "description": "Brskajte po stotinah različnih tem, ki jih je naredila in pripravila skupnost uporabnikov.",
+                    "description": "Brskajte med stotinami različnih tem, ki jih je ustvarila in pripravila uporabniška skupnost.",
                     "by": "od"
                 },
                 "accessibility": {
@@ -586,7 +589,82 @@
                     "delete_plugin": "Izbriši",
                     "no_plugins": "Trenutno ni naložen noben dodatek."
                 },
-                "logOut": "Izpis"
+                "logOut": "Izpis",
+                "keybinds": {
+                    "action": {
+                        "navigate_channel_up": {
+                            "description": "Navigiraj na prejšnji kanal.",
+                            "title": "Navigiraj na prejšnji kanal"
+                        },
+                        "navigate_channel_down": {
+                            "title": "Navigiraj na naslednji kanal",
+                            "description": "Navigiraj na naslednji kanal."
+                        },
+                        "navigate_server_up": {
+                            "title": "Navigiraj na prejšnji strežnik",
+                            "description": "Navigiraj na prejšnji strežnik."
+                        },
+                        "navigate_server_down": {
+                            "title": "Navigiraj na naslednji strežnik",
+                            "description": "Navigiraj na naslednji strežnik."
+                        },
+                        "messaging_edit_previous_message": {
+                            "title": "Uredi prejšnje sporočilo",
+                            "description": "Uredi sporočilo, ki si ga/jo prej poslal/-a, v trenutno odprtem pogledu za sporočila."
+                        },
+                        "auto_complete_up": {
+                            "title": "Prejšnja izbrana možnost samodokončanja",
+                            "description": "Premaknite izbiro samodokončanja na prejšnjo možnost."
+                        },
+                        "auto_complete_select": {
+                            "title": "Potrdite izbiro samodokončanja",
+                            "description": "Potrdite trenutno izbrano samodokončanje."
+                        },
+                        "auto_complete_down": {
+                            "description": "Premaknite izbiro samodokončanja na naslednjo.",
+                            "title": "Naslednja izbrana možnost samodokončanja"
+                        },
+                        "input_submit": {
+                            "title": "Oddaj vnos",
+                            "description": "Napredna bližnjica na tipki, ki se običajno uporablja za oddajo trenutnega vnosa.\nTo lahko vključuje oddajo sporočila, potrjevanje urejanja sporočila, oddajo iskanja in podobno."
+                        },
+                        "input_cancel": {
+                            "title": "Prekliči vnos",
+                            "description": "Napredna bližnjica na tipki, ki se običajno uporablja za preklic trenutnega vnosa.\nTo lahko vključuje preklic urejanja sporočila, odstranjevanje čakalne slike ali podobne primere."
+                        },
+                        "input_force_submit": {
+                            "title": "Prisili pošiljanje vnosa",
+                            "description": "Napredna bližnjica na tipki, ki se običajno uporablja za prisilno oddajo trenutnega vnosa, pri čemer prezre nekatere preverbe ali druge bližnjice.\nTo lahko vključuje pošiljanje sporočila namesto potrditve izbire samodokončanja."
+                        },
+                        "messaging_scroll_to_bottom": {
+                            "title": "Pomaknite se na dno sporočil",
+                            "description": "Pomakne se na dno prikaza sporočil."
+                        },
+                        "messaging_mark_channel_read": {
+                            "title": "Označite kanal kot prebran",
+                            "description": "Označi trenutno aktivni kanal kot prebran."
+                        },
+                        "navigate_previous_context": {
+                            "title": "Navigiraj na prejšnji kontekst",
+                            "description": "Napredna bližnjica na tipki, ki se običajno uporablja za zapiranje nastavitvene strani, modala ali pojavnega okna ter vrnitev na prejšnji kontekst."
+                        },
+                        "developer_toggle_all_experiments": {
+                            "title": "Preklopite varni način eksperimenta",
+                            "description": "S tem boste hkrati omogočili ali onemogočili vse eksperimente."
+                        }
+                    },
+                    "title": "Nastavitve tipk",
+                    "description": "Ogled in nastavitev tipk",
+                    "search": "Išči tipke…",
+                    "add_keybind": "Dodaj novo tipko",
+                    "edit_keybind": "Uredi tipko",
+                    "remove_keybind": "Zbriši tipko",
+                    "reset_keybind": "Ponastavi tipko na {{keybind}}",
+                    "category": {
+                        "navigation": "Navigacija",
+                        "advanced": "Napredno"
+                    }
+                }
             },
             "title": "Nastavitve",
             "categories": {
@@ -765,7 +843,10 @@
             "open_image": "Odpri sliko",
             "unblock_user": "Odblokiraj uporabnika",
             "report_user": "Prijavi uporabnika",
-            "report_server": "Prijavi strežnik"
+            "report_server": "Prijavi strežnik",
+            "reject_friend": "Zavrnite prijateljsko prošnjo",
+            "edit_your_identity": "Uredite svojo identiteto",
+            "accept_friend": "Sprejmite prijateljsko prošnjo"
         },
         "special": {
             "copy_username": "Kliknite da kopirate uporabniško ime",
@@ -825,13 +906,16 @@
                     "confirm_close_dm_long": "Lahko ga ponovno odprete kasneje, vendar bo izginil na obeh straneh.",
                     "create_invite_generate": "Generiranje kode za povabitev…",
                     "confirm_ban_reason": "Razlog za Ban",
-                    "silent_leave": "Potihoma Zapusti"
+                    "silent_leave": "Potihoma Zapusti",
+                    "reset_bot_token": "Ponastaviti {{name}}-jev žeton?",
+                    "reset_bot_token_long": "S tem boste razveljavili trenutni žeton in ustavili vse obstoječe primere delovanja robota."
                 },
                 "account": {
                     "change": {
                         "username": "Spremenite vaše uporabniško ime",
                         "email": "Spremenite vaš e-naslov",
-                        "password": "Spremenite vaše geslo"
+                        "password": "Spremenite vaše geslo",
+                        "display_name": "Spremenite svoje prikazno ime"
                     },
                     "failed": "Sprememba se je ponesrečila!"
                 },
@@ -916,6 +1000,10 @@
                     "save": "Shrani",
                     "reset": "Ponastavi",
                     "preview": "Predogled"
+                },
+                "edit_keybind": {
+                    "title": "Uredi bližnjico na tipki za {{action}}",
+                    "placeholder": "Pritisnite tipke za zajem"
                 }
             },
             "popovers": {
@@ -1000,5 +1088,41 @@
     "notifications": {
         "sent_request": "@{{person}} vam je poslal prošnjo za prijateljstvo.",
         "now_friends": "Zdaj ste prijatelj z @{{person}}!"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "PrintScreen": {
+            "full": "Print Screen",
+            "short": "PrtSc"
+        },
+        "ScrollLock": {
+            "full": "Scroll Lock",
+            "short": "ScrLK"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
+        }
     }
 }
