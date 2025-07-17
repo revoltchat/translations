@@ -402,7 +402,8 @@
                     "reserved": "Not: bu alan gelecek için ayrılmıştır.",
                     "interactions_url": "Etkileşimler URL'si",
                     "unique_id": "Bu, botunuz için eşsiz bir tanımlayıcıdır. Bu botun token'i değildir.",
-                    "profile": "Bot profili"
+                    "profile": "Bot profili",
+                    "reset_token": "Tokeni sıfırla"
                 },
                 "audio": {
                     "title": "Ses Ayarları",
@@ -661,7 +662,9 @@
                     "block_user": "{{name}} engellensin mi?",
                     "block_user_long": "{{name}} adlı kullanıcıyı engellemek istediğinizden emin misiniz? Ayrıca arkadaş listenizden de kaldırılacaktır.",
                     "silent_leave": "Sessizce Ayrıl",
-                    "members_not_notified": "Diğer üyeler bilgilendirilmeyecek"
+                    "members_not_notified": "Diğer üyeler bilgilendirilmeyecek",
+                    "reset_bot_token": "{{name}} adlı kullanıcının tokenini sıfırlamak istediğinizden emin misiniz?",
+                    "reset_bot_token_long": "Bu, mevcut tokeni geçersiz kılacak ve botun çalışan tüm örneklerini durduracaktır."
                 },
                 "account": {
                     "change": {
@@ -931,7 +934,7 @@
         "Unauthorized": "Yetkisiz.",
         "Unlabelled": "Bir şey oldu.",
         "FailedValidation": "Alanlar doğrulanamadı.",
-        "DatabaseError": "Veri tabanı hatası.",
+        "DatabaseError": "Veri tabanı hatası, lütfen destek ile iletişime geçin",
         "UnknownError": "Konsolu görüntüle.",
         "RenderFail": "Şablon oluşturma başarısız oldu.",
         "MissingHeaders": "Eksik başlıklar.",
@@ -966,10 +969,11 @@
         "MissingData": "İstekte veri eksik.",
         "IoError": "Sunucu bir G/Ç hatasıyla karşılaştı.",
         "UnsupportedBrowser": "Tarayıcınız bu özelliği desteklemiyor.",
-        "CompromisedPassword": "Bu şifrenin güvenliği ihlal edildi.",
-        "ReachedMaximumBots": "Maksimum bot sayısına ulaştınız.",
+        "CompromisedPassword": "Bu kombinasyon herkese açık veri tabanlarında işaretlendi. Lütfen başka bir şifre seçiniz.",
+        "ReachedMaximumBots": "Maksimum bot oluşturma limitine ulaştınız",
         "AudioPermissionBlock": "Mikronuna erişim yok. Lütfen tarayıcının yapılandırmasını kontrol et.",
-        "DiscriminatorChangeRatelimited": "Çok fazla etiket değişikliği."
+        "DiscriminatorChangeRatelimited": "Çok fazla etiket değişikliği.",
+        "LockedOut": "Çok fazla giriş denemesi yapıldı. Lütfen daha sonra tekrar deneyiniz veya şifrenizi sıfırlayınız."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
