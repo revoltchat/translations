@@ -374,7 +374,8 @@
                     "reserved": "Palatanda: ang patlang na ito ay nakalaan para sa kinabukasan.",
                     "private_bot_tip": "Ang bot na ito ay pampribado. Ikaw lang ang pwede makapag-imbita nito.",
                     "public_bot_desc": "Kung ito ay nakabukas, maaaring idagdag ng ibang mga user ang bot na ito sa mga server at mga mensahe ng grupo.",
-                    "profile": "Profayl ng Bot"
+                    "profile": "Profayl ng Bot",
+                    "reset_token": "I-reset ang Token"
                 },
                 "sync": {
                     "title": "Sinkronisasyon",
@@ -647,7 +648,9 @@
                     "confirm_close_dm_long": "Pwede mo ulit itong buksan mamaya, pero mawawala ito sa magkabilang panig.",
                     "create_invite_created": "Ito ang iyong panibagong kodigo ng imbitasyon:",
                     "silent_leave": "Umalis nang tahimik",
-                    "members_not_notified": "Hindi maaabiso ang mga ibang miyembro"
+                    "members_not_notified": "Hindi maaabiso ang mga ibang miyembro",
+                    "reset_bot_token_long": "Ito ay magpapawalang-bisa sa kasalukuyang token at pipigilan ang anumang umiiral na instance ng bot sa pagtakbo.",
+                    "reset_bot_token": "I-reset ang token ng {{name}}?"
                 },
                 "actions": {
                     "edit": "I-edit",
@@ -1026,7 +1029,7 @@
         "UnknownError": "Tignan ang console.",
         "NetworkError": "May error sa network.",
         "Unauthorized": "Walang karapatan.",
-        "DatabaseError": "May error sa database.",
+        "DatabaseError": "May error sa database, mangyaring makipag-ugnayan sa support.",
         "InternalError": "May error sa internal.",
         "OperationFailed": "Hindi matagumpay ang operasyon.",
         "MissingHeaders": "Nawawalang headers.",
@@ -1046,14 +1049,15 @@
         "AudioPermissionBlock": "Walang permiso sa paggamit ng mikropono. Tiganan ang configuration sa iyong browser.",
         "MissingInvite": "Nawawalang code ng pangimbita sa request.",
         "InvalidInvite": "Invalid na code",
-        "CompromisedPassword": "Ang password na ito ay compromised.",
+        "CompromisedPassword": "Na-flag ang kumbinasyon na ito sa mga publikong database ng seguridad. Mangyaring pumili ng ibang password.",
         "ReachedMaximumBots": "Na-abotan mo na ang iyong limit sa paggawa ng mga bots",
         "FailedValidation": "Hindi matagumpay ang pagvavalidate ng fields.",
         "RenderFail": "Hindi matagumpay ang pag-render ng template.",
         "AlreadyOnboarded": "Tapos na ang onboarding.",
         "IoError": "Naka-encounter ang server ng I/O error.",
         "UnsupportedBrowser": "Walang suporta ang browser na ito para sa feature na ito.",
-        "DiscriminatorChangeRatelimited": "Masyadong maraming pagbabago sa tag."
+        "DiscriminatorChangeRatelimited": "Masyadong maraming pagbabago sa tag.",
+        "LockedOut": "Masyadong maraming pagtangka sa pag-login, subukan muli mamaya o i-reset ang password."
     },
     "notifications": {
         "now_friends": "Kayo ay magkaibigan na ni @{{person}}!",
