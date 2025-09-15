@@ -141,14 +141,14 @@
                 "search": {
                     "title": "Cerca",
                     "sort": {
-                        "latest": "Darrers",
-                        "relevance": "Pertinència",
-                        "oldest": "Anteriors"
+                        "latest": "Més recents",
+                        "relevance": "Rellevància",
+                        "oldest": "Més antics"
                     }
                 },
                 "errors": {
-                    "title": "No hi ha res aquí!",
-                    "nochannels": "Aquest servidor no té canals, o no en teniu accés a cap.",
+                    "title": "Vaja, aquí no hi ha res!",
+                    "nochannels": "Aquest servidor no té cap canal o no hi tens accés a cap.",
                     "nochannel": "Cap canal"
                 },
                 "reply": {
@@ -171,7 +171,7 @@
             "groups": {
                 "create": "Crea un grup",
                 "description": "Descripció del grup",
-                "owner": "Propietat del grup",
+                "owner": "Propietari del grup",
                 "name": "Nom del grup"
             },
             "servers": {
@@ -179,10 +179,10 @@
                 "name": "Nom del servidor",
                 "channel_name": "Nom del canal",
                 "description": "Descripció del servidor",
-                "channel_type": "Classe del canal",
+                "channel_type": "Tipus de canal",
                 "channel_description": "Descripció del canal",
                 "custom_banner": "Bàner personalitzat",
-                "owner": "Propietat del servidor",
+                "owner": "Propietari del servidor",
                 "text_channel": "Canal de text",
                 "voice_channel": "Canal de veu",
                 "category_name": "Nom de la categoria"
@@ -210,28 +210,28 @@
             "pages": {
                 "account": {
                     "manage": {
-                        "description": "Desactiveu o suprimiu el vostre compte. Ambdues accions us desconnectaran de les sessions actives.",
+                        "description": "Pots desactivar o suprimir el teu compte en qualsevol moment. Ambdues accions et desconnectaran de les sessions actives.",
                         "title": "Gestió del compte",
                         "disable": "Desactiva el compte",
-                        "delete": "Suprimeix el compte",
-                        "disable_description": "No podreu accedir al compte tret que us poseu en contacte amb el servei d'assistència, però les dades no se suprimiran.",
-                        "delete_description": "El compte i totes les dades (inclosos els missatges i la llista d'amics) es marcaran per suprimir-los. S'enviarà un correu electrònic de confirmació, podeu cancel·lar-ho en un termini de 7 dies posant-vos en contacte amb el servei d'assistència.",
-                        "delete_still_own_servers": "No es pot suprimir el compte fins que els servidors s'esborrin o es transfereixin"
+                        "delete": "Marca el compte per a la supressió",
+                        "disable_description": "No podràs accedir al teu compte si no contactes amb el servei de suport; tanmateix, les teves dades no se suprimiran.",
+                        "delete_description": "El teu compte i totes les teves dades (inclosos els missatges i la llista d’amics) s’enviaran a la cua de supressió. Se t’enviarà un correu electrònic de confirmació i podràs cancel·lar aquesta operació en un termini de 7 dies contactant amb el servei de suport.",
+                        "delete_still_own_servers": "No es pot suprimir el compte fins que els servidors no s’hagin suprimit o transferit"
                     },
                     "title": "El meu compte",
                     "change_field": "Canvia",
-                    "unique_id": "És un identificador d'usuari únic per al vostre compte.",
+                    "unique_id": "Aquest és un identificador d’usuari únic per al teu compte.",
                     "2fa": {
-                        "title": "Autentificació de doble factor",
-                        "description": "Afegiu una capa addicional de seguretat activant-la al vostre compte.",
-                        "add_auth": "Afegeix un factor d'autenticació",
-                        "remove_auth": "Elimina un factor d'autenticació",
+                        "title": "Autenticació de dos factors",
+                        "description": "Afegeix una capa addicional de seguretat activant l’autenticació de dos factors al teu compte.",
+                        "add_auth": "Afegeix autenticador",
+                        "remove_auth": "Elimina autenticador",
                         "view_recovery": "Mostra els codis de recuperació",
-                        "view_recovery_long": "Consulteu i baixeu els vostres codis de recuperació.",
-                        "generate_recovery": "Genera els codis de recuperació",
-                        "generate_recovery_long": "Prepareu l'autenticació de doble factor configurant un mètode de recuperació.",
-                        "two_factor_on": "L'autenticació de doble factor està activada.",
-                        "two_factor_off": "No heu activat l'autenticació de doble factor!"
+                        "view_recovery_long": "Mostra i baixa els teus codis de recuperació de l’autenticació de dos factors.",
+                        "generate_recovery": "Genera codis de recuperació",
+                        "generate_recovery_long": "Prepara’t per utilitzar l’autenticació de dos factors configurant un mètode de recuperació.",
+                        "two_factor_on": "L’autenticació de dos factors està activada actualment.",
+                        "two_factor_off": "No has activat l’autenticació de dos factors!"
                     }
                 },
                 "appearance": {
@@ -500,15 +500,15 @@
                     }
                 }
             },
-            "title": "Paràmetres",
+            "title": "Configuració",
             "categories": {
-                "user_settings": "Paràmetres d'usuari",
-                "client_settings": "Paràmetres del client",
-                "danger_zone": "Zona perillosa"
+                "user_settings": "Configuració de l'usuari",
+                "client_settings": "Configuració del client",
+                "danger_zone": "Zona de perill"
             },
             "actions": {
-                "remove": "Treu-ho",
-                "upload": "Carrega",
+                "remove": "Elimina",
+                "upload": "Penja",
                 "max_filesize": "(màx. {{filesize}})",
                 "edit": "Edita {{name}}"
             },
