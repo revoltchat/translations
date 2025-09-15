@@ -71,68 +71,68 @@
                 "members": "Membres"
             },
             "channel": {
-                "attached_file": "S'ha adjuntat: {{filename}}",
+                "attached_file": "Adjunt {{filename}}",
                 "system": {
                     "user_kicked": "{{user}} ha estat expulsat",
-                    "user_joined": "{{user}} s'hi ha unit",
+                    "user_joined": "{{user}} s’ha unit",
                     "user_left": "{{user}} ha marxat",
-                    "user_banned": "{{user}} ha estat bloquejat",
-                    "added_by": "{{other_user}} hi ha afegit: {{user}}",
-                    "removed_by": "{{other_user}} n'ha eliminat: {{user}}",
+                    "user_banned": "{{user}} ha estat bandejat",
+                    "added_by": "{{user}} ha estat afegit per {{other_user}}",
+                    "removed_by": "{{user}} ha estat eliminat per {{other_user}}",
                     "channel_renamed": "{{user}} ha canviat el nom del canal a {{name}}",
                     "channel_description_changed": "{{user}} ha canviat la descripció del canal",
                     "channel_icon_changed": "{{user}} ha canviat la icona del canal",
-                    "channel_ownership_changed": "{{from}} ha donat la propietat del grup a: {{to}}",
-                    "registered_at": "Es va registrar {{time}}"
+                    "channel_ownership_changed": "{{from}} ha donat a {{to}} la propietat del grup",
+                    "registered_at": "Registrat {{time}}"
                 },
                 "misc": {
-                    "viewing_old": "Es mostren missatges antics",
-                    "jump_present": "Torna als recents",
+                    "viewing_old": "S’estan mostrant missatges anteriors",
+                    "jump_present": "Ves al present",
                     "spoiler_attachment": "Espòiler",
-                    "failed_load": "No s'ha pogut carregar el missatge.",
-                    "no_sending": "No podeu enviar missatges a aquest canal.",
+                    "failed_load": "No s’ha pogut carregar el missatge.",
+                    "no_sending": "No tens permís per enviar missatges en aquest canal.",
                     "blocked_messages": "{{count}} missatges bloquejats",
-                    "blocked_user": "Usuari bloquejat",
+                    "blocked_user": "Usuari blocat",
                     "sent_file": "Ha enviat un adjunt",
                     "sent_multiple_files": "Ha enviat diversos adjunts",
-                    "jump_beginning": "Salta al principi",
-                    "new_messages": "Missatges nous des de {{time_ago}}",
+                    "jump_beginning": "Ves al començament",
+                    "new_messages": "Missatges nous des de fa {{time_ago}}",
                     "load_file": "Carrega el fitxer",
-                    "timed_out": "Us han bloquejat durant {{time}}.",
-                    "not_loaded": "No s'ha pogut carregar el missatge, feu clic per anar-hi"
+                    "timed_out": "Estàs temporalment silenciat durant {{time}}.",
+                    "not_loaded": "Missatge no carregat, fes clic per anar-hi"
                 },
                 "message_where": "Envia un missatge a {{channel_name}}",
                 "message_who": "Envia un missatge a @{{person}}",
-                "message_saved": "Desa-ho a les notes",
-                "uploading_file": "S'està pujant…",
-                "failed_upload": "No s'ha pogut pujar!",
+                "message_saved": "Desa a les teves notes",
+                "uploading_file": "S'està penjant…",
+                "failed_upload": "No s'ha pogut penjar!",
                 "typing": {
-                    "single": "{{user}} escriu…",
-                    "multiple": "{{userlist}} i {{user}} escriuen…",
-                    "several": "Diverses persones escriuen…"
+                    "single": "{{user}} està escrivint…",
+                    "multiple": "{{userlist}} i {{user}} estan escrivint…",
+                    "several": "Diverses persones estan escrivint…"
                 },
                 "start": {
-                    "group": "És l'inici de la vostra conversa.",
-                    "saved": "És l'inici de les vostres notes."
+                    "group": "Aquest és l’inici de la teva conversa.",
+                    "saved": "Aquest és l’inici de les teves notes."
                 },
                 "voice": {
-                    "connected": "Veu connectada",
-                    "leave": "Marxa",
+                    "connected": "Connexió de veu establerta",
+                    "leave": "Surt",
                     "mute": "Silencia",
-                    "unmute": "No silenciis"
+                    "unmute": "Activa el micròfon"
                 },
                 "nsfw": {
                     "channel": {
-                        "marked": "Aquest canal s'ha marcat com a NSFW.",
+                        "marked": "Aquest canal està marcat com a contingut explícit.",
                         "confirm": "Entra al canal"
                     },
                     "confirm": "Confirmo que tinc almenys 18 anys."
                 },
                 "unknown_user": "<Usuari desconegut>",
-                "edited": "(s'ha editat)",
-                "bot": "Bót",
+                "edited": "(editat)",
+                "bot": "Bot",
                 "notifications": {
-                    "default": "Paràmetre per defecte",
+                    "default": "Utilitza el valor per defecte",
                     "all": "Tots els missatges",
                     "none": "Cap",
                     "mention": "Només mencions",
@@ -152,20 +152,20 @@
                     "nochannel": "Cap canal"
                 },
                 "reply": {
-                    "replying": "Responeu a",
-                    "toggle": "Commuta la menció"
+                    "replying": "Responent a",
+                    "toggle": "Activa o desactiva l'avís a l'autor"
                 },
                 "bridge": "pont",
-                "user_timed_out": "L'usuari està bloquejat durant {{time}}.",
-                "bridged": "Missatge enviat des d'una altra plataforma",
-                "team": "Comunicat oficial",
+                "user_timed_out": "L’usuari està silenciat temporalment durant {{time}}.",
+                "bridged": "El missatge s’ha enviat des d’una altra plataforma",
+                "team": "Comunicació oficial",
                 "new_to_revolt": "Nou a Revolt",
                 "new_to_server": "Nou en aquest servidor",
                 "reactions": {
-                    "others_reacted": "{{userlist}} i {{count}} més hi han reaccionat",
-                    "unknown_reacted": "{{count}} persones hi han reaccionat",
-                    "single_reacted": "1 persona hi ha reaccionat",
-                    "people_reacted": "{{people}} hi han reaccionat"
+                    "others_reacted": "{{userlist}} i {{count}} més han reaccionat",
+                    "unknown_reacted": "{{count}} persones han reaccionat",
+                    "single_reacted": "1 persona ha reaccionat",
+                    "people_reacted": "{{people}} han reaccionat"
                 }
             },
             "groups": {
@@ -870,17 +870,17 @@
             "donate": "Fes una aportació a Revolt",
             "feedback": "Envia comentaris sobre Revolt",
             "settings": "Obre la configuració",
-            "settings-tooltip": "També podeu fer clic dret a la icona de l'usuari a la part superior esquerra, o fer-hi clic esquerre si sou a l'inici.",
+            "settings-tooltip": "També pots fer clic dret a la icona d’usuari a la part superior esquerra, o clic esquerre si ja ets a l’inici.",
             "social": "Busca servidors i bots",
             "directs": "Missatges directes",
-            "feedback_desc": "Feu-nos saber com podem millorar l'aplicació enviant-nos comentaris.",
+            "feedback_desc": "Explica’ns com podem millorar l’aplicació enviant-nos comentaris.",
             "join-testers_desc": "Aquí pots informar de problemes i comentar millores directament amb nosaltres.",
             "goto-testers_desc": "Aquí pots denunciar problemes i discutir millores amb nosaltres directament.",
             "donate_desc": "Dona suport al projecte amb una donació – gràcies!",
-            "discover": "Descobriu Revolt",
-            "discover_desc": "Trobeu una comunitat basada en les vostres aficions o interessos.",
-            "group": "Creeu un grup",
-            "group_desc": "Convida tots els teus amics, alguns bots genials i passa una bona estona."
+            "discover": "Descobreix Revolt",
+            "discover_desc": "Troba una comunitat segons les teves aficions o interessos.",
+            "group": "Crea un grup",
+            "group_desc": "Convida tots els teus amics, alguns bots divertits i organitza una gran festa."
         }
     },
     "error": {
